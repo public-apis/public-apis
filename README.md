@@ -53,6 +53,7 @@ A collective list of JSON APIs for use in web development.
 | TED Talks | TED API | No | [Go!](http://developer.ted.com/API_Docs) |
 | NASA | NASA data, including imagery | No | [Go!](https://api.nasa.gov) |
 | Wunderground | Weather | No | [Go!](http://www.wunderground.com/weather/api/) |
+| OpenWeatherMap | Weather | No | [Go!](http://openweathermap.org/api) |
 | World Bank | World Data | No | [Go!](http://data.worldbank.org/developers) |
 
 ### Transportation
