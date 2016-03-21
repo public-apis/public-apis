@@ -34,6 +34,7 @@ A collective list of JSON APIs for use in web development.
 | Giphy | Get all your gifs | No | [Go!](https://github.com/Giphy/GiphyAPI) |
 | OMDB | Open movie database | No | [Go!](http://omdbapi.com) |
 | MovieDB | Movie Data | No | [Go!](https://www.themoviedb.org/documentation/api) |
+| Netflix Roulette | Netflix database | No | [Go!](http://netflixroulette.net/api/) |
 | Good Reads | Books | No | [Go!](https://www.goodreads.com/api) |
 | Dribble | Design | Yes | [Go!](http://developer.dribbble.com/v1/) |
 | Rijksmuseum| Art | No | [Go!](https://www.rijksmuseum.nl/en/api) |
