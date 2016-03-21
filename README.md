@@ -37,6 +37,7 @@ A collective list of JSON APIs for use in web development.
 | Good Reads | Books | No | [Go!](https://www.goodreads.com/api) |
 | Dribble | Design | Yes | [Go!](http://developer.dribbble.com/v1/) |
 | Rijks Museum| Art | No | [Go!](https://www.rijksmuseum.nl/en/api) |
+| Yahoo Query Language| Finance,Weather forecast | No | [Go!](https://developer.yahoo.com/yql/) |
 
 ### Music 
 | API | Description | OAuth |Link | 
