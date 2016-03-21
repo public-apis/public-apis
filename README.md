@@ -61,6 +61,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for London | TFL API | No | [Go!](https://api.tfl.gov.uk) |
 | Transport for Belgium | Belgian transport API | No | [Go!](https://hello.irail.be/api/) |
 | Transport for Germany | Deutsche Bahn (DB) API | No | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
+| Transport for Switzerland | Swiss public transport API | No | [Go!](https://transport.opendata.ch/) |
 
 ### Development
 
