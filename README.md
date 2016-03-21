@@ -24,7 +24,6 @@ A collective list of JSON APIs for use in web development.
 | Pokéapi | The RESTful Pokémon API | No |[Go!](http://pokeapi.co) |
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 
-
 ### Media
 
 | API | Description | OAuth |Link |
@@ -38,6 +37,7 @@ A collective list of JSON APIs for use in web development.
 | Good Reads | Books | No | [Go!](https://www.goodreads.com/api) |
 | Dribbble | Design | Yes | [Go!](http://developer.dribbble.com/v1/) |
 | Rijksmuseum| Art | No | [Go!](https://www.rijksmuseum.nl/en/api) |
+| iTunes Search | Software products API | No | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 
 ### Music
 | API | Description | OAuth |Link |
@@ -45,6 +45,7 @@ A collective list of JSON APIs for use in web development.
 | Discogs | Music | No | [Go!](https://www.discogs.com/developers/) |
 | EchoNest | Music | No | [Go!](http://developer.echonest.com/docs/v4) |
 | LastFm | Music | No | [Go!](http://www.last.fm/api) |
+| Spotify | Music | No | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
 
 ### Science
 
@@ -55,6 +56,7 @@ A collective list of JSON APIs for use in web development.
 | Wunderground | Weather | No | [Go!](http://www.wunderground.com/weather/api/) |
 | OpenWeatherMap | Weather | No | [Go!](http://openweathermap.org/api) |
 | World Bank | World Data | No | [Go!](http://data.worldbank.org/developers) |
+| Open Notify | ISS astronauts, current location API | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 
 ### Transportation
 | API | Description | OAuth |Link |
