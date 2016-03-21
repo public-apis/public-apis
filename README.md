@@ -38,6 +38,7 @@ A collective list of JSON APIs for use in web development.
 | Good Reads | Books | No | [Go!](https://www.goodreads.com/api) |
 | Dribbble | Design | Yes | [Go!](http://developer.dribbble.com/v1/) |
 | Rijksmuseum| Art | No | [Go!](https://www.rijksmuseum.nl/en/api) |
+| RoboHash | Avatars | No | [Go!](https://robohash.org/) | 
 
 ### Music
 | API | Description | OAuth |Link |
