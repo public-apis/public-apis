@@ -2,7 +2,7 @@
 
 A collective list of JSON APIs for use in web development.
 
-| API | Description | Link | 
+| API | Description | Link |
 |---|---|---|
 | Marvel | Marvel Comics API | [Go!](http://developer.marvel.com) |
 | SWAPI | Star Wars API | [Go!](https://swapi.co) |
@@ -11,3 +11,5 @@ A collective list of JSON APIs for use in web development.
 | Giphy | Get all your gifs | [Go!](https://github.com/Giphy/GiphyAPI) |
 | OMDB | Open movie database | [Go!](http://omdbapi.com) |
 | Unsplash | Photography | [Go!](https://unsplash.com/developers) |
+| UI Faces | Find and generate sample avatars for user interfaces | [Go!](http://uifaces.com/api) |
+| UI Names | Generate random fake names | [Go!](https://github.com/thm/uinames) |
