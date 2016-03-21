@@ -36,7 +36,7 @@ A collective list of JSON APIs for use in web development.
 | MovieDB | Movie Data | No | [Go!](https://www.themoviedb.org/documentation/api) |
 | Good Reads | Books | No | [Go!](https://www.goodreads.com/api) |
 | Dribble | Design | Yes | [Go!](http://developer.dribbble.com/v1/) |
-| Rijks Museum| Art | No | [Go!](https://www.rijksmuseum.nl/en/api) |
+| Rijksmuseum| Art | No | [Go!](https://www.rijksmuseum.nl/en/api) |
 
 ### Music
 | API | Description | OAuth |Link |
