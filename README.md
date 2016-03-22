@@ -1,3 +1,4 @@
+
 # Public APIs
 
 A collective list of JSON APIs for use in web development.
@@ -73,7 +74,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Belgium | Belgian transport API | No | [Go!](https://hello.irail.be/api/) |
 | Transport for Germany | Deutsche Bahn (DB) API | No | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
 | Transport for Switzerland | Swiss public transport API | No | [Go!](https://transport.opendata.ch/) |
-| Transport for Budapest | Budapest public transport API | No | [Go!](http://docs.bkkfutar.apiary.io/) |
+| Transport for Budapest | Budapest public transport API | No |Several APIs fre.  [Go!](http://docs.bkkfutar.apiary.io/) |
 | Transport for Norway | Norwegian transport API | No | [Go!](http://reisapi.ruter.no/help) |
 | Transport for Toronto | TTC | No| [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | Yes | [Go!](https://developer.translink.ca/) |
@@ -89,6 +90,7 @@ A collective list of JSON APIs for use in web development.
 | Github - User Data | Pull public information for a user's github | No | [Go!](https://api.github.com/users/hackeryou) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
+| API Only | Several APIs free. | No | [Go!](http://apionly.com/) |
 
 ### Sports
 
