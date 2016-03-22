@@ -36,6 +36,7 @@ A collective list of JSON APIs for use in web development.
 | Netflix Roulette | Netflix database | No | [Go!](http://netflixroulette.net/api/) |
 | Good Reads | Books | No | [Go!](https://www.goodreads.com/api) |
 | Dribbble | Design | Yes | [Go!](http://developer.dribbble.com/v1/) |
+| Ron Swanson Quoutes | Television | No | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
 | Rijksmuseum| Art | No | [Go!](https://www.rijksmuseum.nl/en/api) |
 | iTunes Search | Software products API | No | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 
