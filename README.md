@@ -77,7 +77,6 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | RandomUser | Generates random user data | No | [Go!](https://randomuser.me/) |
-| Temp Mail | Generates temp email | No | [Go!](https://temp-mail.org/it/api/) |
 | UI Faces | Find and generate sample avatars for user interfaces | No | [Go!](http://uifaces.com/api) |
 | UI Names | Generate random fake names | No | [Go!](https://github.com/thm/uinames) |
 | Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io/) |
