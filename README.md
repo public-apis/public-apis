@@ -70,6 +70,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Switzerland | Swiss public transport API | No | [Go!](https://transport.opendata.ch/) |
 | Transport for Budapest | Budapest public transport API | No | [Go!](http://docs.bkkfutar.apiary.io/) |
 | Transport for Norway | Norwegian transport API | No | [Go!](http://reisapi.ruter.no/help) |
+| Transport for Toronto | TTC | No| [Go!](https://myttc.ca/developers)
 
 ### Development
 
