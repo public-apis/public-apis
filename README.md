@@ -75,3 +75,4 @@ A collective list of JSON APIs for use in web development.
 | RandomUser | Generates random user data | No | [Go!](https://randomuser.me/) |
 | UI Faces | Find and generate sample avatars for user interfaces | No | [Go!](http://uifaces.com/api) |
 | UI Names | Generate random fake names | No | [Go!](https://github.com/thm/uinames) |
+| Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io/) |
