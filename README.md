@@ -81,3 +81,4 @@ A collective list of JSON APIs for use in web development.
 | UI Names | Generate random fake names | No | [Go!](https://github.com/thm/uinames) |
 | Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io/) |
 | Github - User Data | Pull public information for a user's github | No | [Go!](https://api.github.com/users/hackeryou) |
+| JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
