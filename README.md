@@ -80,10 +80,10 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
-| RandomUser | Generates random user data | No | [Go!](https://randomuser.me/) |
+| RandomUser | Generates random user data | No | [Go!](https://randomuser.me) |
 | UI Faces | Find and generate sample avatars for user interfaces | No | [Go!](http://uifaces.com/api) |
 | UI Names | Generate random fake names | No | [Go!](https://github.com/thm/uinames) |
-| Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io/) |
+| Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io) |
 | Github - User Data | Pull public information for a user's github | No | [Go!](https://api.github.com/users/hackeryou) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
 
@@ -91,5 +91,5 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
-| Football-Data.org | Football Data | No | [Go!](https://api.football-data.org/) |
+| Football-Data.org | Football Data | No | [Go!](http://api.football-data.org) |
 | FitBit | FitBit API | No | [Go!](https://dev.fitbit.com) |
