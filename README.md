@@ -23,6 +23,7 @@ A collective list of JSON APIs for use in web development.
 | SWAPI | Star Wars API | No |[Go!](https://swapi.co) |
 | Pokéapi | The RESTful Pokémon API | No |[Go!](http://pokeapi.co) |
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
+| Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
 
 ### Media
 
