@@ -86,6 +86,7 @@ A collective list of JSON APIs for use in web development.
 | Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io) |
 | Github - User Data | Pull public information for a user's github | No | [Go!](https://api.github.com/users/hackeryou) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
+| RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
 
 ### Sports
 
