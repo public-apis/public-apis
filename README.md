@@ -7,6 +7,12 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Petfinder | Adoption | No | [Go!](https://www.petfinder.com/developers/api-docs/) |
 
+### Anime
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Hummingbird | Hummingbird Anime API | No | [Go!](https://hummingbird.me/) |
+| AniList | AniList Anime API | No | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
 
 ### Drinks
 
