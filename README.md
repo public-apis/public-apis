@@ -7,6 +7,12 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Petfinder | Adoption | No | [Go!](https://www.petfinder.com/developers/api-docs/) |
 
+### Anime
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Hummingbird | Hummingbird Anime API | No | [Go!](https://hummingbird.me/) |
+| AniList | AniList Anime API | No | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
 
 ### Drinks
 
@@ -14,6 +20,13 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | BreweryDB | Beer | No |[Go!](http://www.brewerydb.com/developers) |
 | LCBO API | Alcohol | No |[Go!](https://lcboapi.com/) |
+
+### Data Access
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Abbreviation API | Get abbreviations and meanings easily. | No |[Go!](https://market.mashape.com/daxeel/abbreviations) |
+| Celebinfo API | CelebInfo is a simple API which will give you access to the information like birthdays etc. With this API you will get these data of celebrities. | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
 
 ### Games & Comics
 
@@ -51,8 +64,14 @@ A collective list of JSON APIs for use in web development.
 | EchoNest | Music | No | [Go!](http://developer.echonest.com/docs/v4) |
 | LastFm | Music | No | [Go!](http://www.last.fm/api) |
 | Mixcloud | Music | No | [Go!](https://www.mixcloud.com/developers/) |
+| MusicBrainz | Music | No | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | No | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
+
+### Open Source projects
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
 
 ### Science
 
@@ -77,7 +96,16 @@ A collective list of JSON APIs for use in web development.
 | Transport for Norway | Norwegian transport API | No | [Go!](http://reisapi.ruter.no/help) |
 | Transport for Toronto | TTC | No| [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | Yes | [Go!](https://developer.translink.ca/) |
+| Transport for Washington, US | Washington Metro transport API | Yes | [Go!](https://developer.wmata.com/) |
 | Transport for Paris, France | RATP Open Data API | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/
+
+### Bike
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Bike for Belgian | Belgian bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
+| Bike for France | France bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
+| Bike for Spain | Spain bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
+
 
 ### Development
 
@@ -91,6 +119,7 @@ A collective list of JSON APIs for use in web development.
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
 | API Only | Several APIs free. | No | [Go!](http://apionly.com/) |
+| Lorem Text | Generates Lorem Ipsum text | Yes | [Go!] (https://market.mashape.com/montanaflynn/lorem-text-generator) 
 
 ### Sports
 
@@ -98,3 +127,9 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Football-Data.org | Football Data | No | [Go!](http://api.football-data.org) |
 | FitBit | FitBit API | No | [Go!](https://dev.fitbit.com) |
+
+### Social
+        
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
