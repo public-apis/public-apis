@@ -25,6 +25,12 @@ A collective list of JSON APIs for use in web development.
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
 
+### Anime & Manga
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Hummingbird | Hummingbird Anime API | No | [Go!](https://hummingbird.me/) |
+
 ### Media
 
 | API | Description | OAuth |Link |
