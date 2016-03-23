@@ -7,7 +7,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Petfinder | Adoption | No | [Go!](https://www.petfinder.com/developers/api-docs/) |
 
-### Anime & Manga
+### Anime
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
