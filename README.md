@@ -84,6 +84,7 @@ A collective list of JSON APIs for use in web development.
 | World Bank | World Data | No | [Go!](http://data.worldbank.org/developers) |
 | Open Notify | ISS astronauts, current location API | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Fedger.io | Query machine intelligence data | No | [Go!](https://dev.fedger.io/docs/) |
+| inspirehep.net | High Energy Physics info. system | No | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
 
 ### Transportation
 | API | Description | OAuth |Link |
