@@ -133,3 +133,9 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
+
+### Security
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| UK Police | UK Police data | No | [Go!](https://data.police.uk/docs/) |
