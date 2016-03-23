@@ -21,6 +21,13 @@ A collective list of JSON APIs for use in web development.
 | BreweryDB | Beer | No |[Go!](http://www.brewerydb.com/developers) |
 | LCBO API | Alcohol | No |[Go!](https://lcboapi.com/) |
 
+### Data Access
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Abbreviation API | Get abbreviations and meanings easily. | No |[Go!](https://market.mashape.com/daxeel/abbreviations) |
+| Celebinfo API | CelebInfo is a simple API which will give you access to the information like birthdays etc. With this API you will get these data of celebrities. | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
+
 ### Games & Comics
 
 | API | Description | OAuth |Link |
