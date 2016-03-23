@@ -78,6 +78,13 @@ A collective list of JSON APIs for use in web development.
 | Transport for Toronto | TTC | No| [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | Yes | [Go!](https://developer.translink.ca/) |
 
+### Bike
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Bike for Belgian | Belgian bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
+| Bike for France | France bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
+| Bike for Spain | Spain bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
+
 ### Development
 
 | API | Description | OAuth |Link |
