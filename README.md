@@ -56,6 +56,7 @@ A collective list of JSON APIs for use in web development.
 | iTunes Search | Software products API | No | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 | Twitch | Game Streaming API | Yes | [Go!](https://github.com/justintv/Twitch-API) |
 | Wordnik | Dictionary Data API | No | [Go!](http://developer.wordnik.com) |
+| Imgur | Images | Yes | [Go!](https://api.imgur.com/#overview) | 
 
 ### Music
 | API | Description | OAuth |Link |
