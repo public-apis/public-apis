@@ -7,6 +7,12 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Petfinder | Adoption | No | [Go!](https://www.petfinder.com/developers/api-docs/) |
 
+### Anime & Manga
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Hummingbird | Hummingbird Anime API | No | [Go!](https://hummingbird.me/) |
+| AniList | AniList Anime API | No | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
 
 ### Drinks
 
@@ -24,12 +30,6 @@ A collective list of JSON APIs for use in web development.
 | Pokéapi | The RESTful Pokémon API | No |[Go!](http://pokeapi.co) |
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
-
-### Anime & Manga
-
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| Hummingbird | Hummingbird Anime API | No | [Go!](https://hummingbird.me/) |
 
 ### Media
 
