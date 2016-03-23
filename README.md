@@ -54,6 +54,11 @@ A collective list of JSON APIs for use in web development.
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | No | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
 
+### Open Source projects
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
+
 ### Science
 
 | API | Description | OAuth |Link |
