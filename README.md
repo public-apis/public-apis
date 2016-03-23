@@ -51,6 +51,7 @@ A collective list of JSON APIs for use in web development.
 | EchoNest | Music | No | [Go!](http://developer.echonest.com/docs/v4) |
 | LastFm | Music | No | [Go!](http://www.last.fm/api) |
 | Mixcloud | Music | No | [Go!](https://www.mixcloud.com/developers/) |
+| MusicBrainz | Music | No | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | No | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
 
