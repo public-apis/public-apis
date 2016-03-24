@@ -43,7 +43,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Noun Project | Icons | Yes | [Go!](http://api.thenounproject.com/index.html) |
-| Unsplash | Photography | No | [Go!](https://unsplash.com/developers) |
+| Unsplash | Photography | Yes | [Go!](https://unsplash.com/developers) |
 | Giphy | Get all your gifs | No | [Go!](https://github.com/Giphy/GiphyAPI) |
 | TVMaze | TV Show Data | No | [Go!](http://www.tvmaze.com/api) |
 | OMDB | Open movie database | No | [Go!](http://omdbapi.com) |
