@@ -14,6 +14,34 @@ A collective list of JSON APIs for use in web development.
 | Hummingbird | Hummingbird Anime API | No | [Go!](https://hummingbird.me/) |
 | AniList | AniList Anime API | No | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
 
+### Bike
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Bike for Belgian | Belgian bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
+| Bike for France | France bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
+| Bike for Spain | Spain bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
+
+### Calendar
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Church Calendar API | Catholic liturgical calendar | No | [Go!](http://calapi.inadiutorium.cz/) |
+| Non-working days API | Database of ICS files for non working days | No | [Go!](https://github.com/gadael/icsdb) |
+
+### Development
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| RandomUser | Generates random user data | No | [Go!](https://randomuser.me) |
+| UI Faces | Find and generate sample avatars for user interfaces | No | [Go!](http://uifaces.com/api) |
+| UI Names | Generate random fake names | No | [Go!](https://github.com/thm/uinames) |
+| Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io) |
+| Github - User Data | Pull public information for a user's github | No | [Go!](https://api.github.com/users/hackeryou) |
+| JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
+| RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
+| API Only | Several APIs free. | No | [Go!](http://apionly.com/) |
+| Lorem Text | Generates Lorem Ipsum text | Yes | [Go!] (https://market.mashape.com/montanaflynn/lorem-text-generator) 
+
 ### Drinks
 
 | API | Description | OAuth |Link |
@@ -28,6 +56,13 @@ A collective list of JSON APIs for use in web development.
 | Abbreviation API | Get abbreviations and meanings easily. | No |[Go!](https://market.mashape.com/daxeel/abbreviations) |
 | Callook.info API | Get data associated with United States ham radio callsigns. | No |[Go!](https://callook.info) |
 | Celebinfo API | CelebInfo is a simple API which will give you access to the information like birthdays etc. With this API you will get these data of celebrities. | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
+
+### Exchange
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Currencylayer | Exchange Rates & Currency
+Conversion | No | [Go!](https://currencylayer.com/documentation) |
 
 ### Games & Comics
 
@@ -76,6 +111,12 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
 
+### Security
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| UK Police | UK Police data | No | [Go!](https://data.police.uk/docs/) |
+
 ### Science
 
 | API | Description | OAuth |Link |
@@ -88,6 +129,22 @@ A collective list of JSON APIs for use in web development.
 | Open Notify | ISS astronauts, current location API | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Fedger.io | Query machine intelligence data | No | [Go!](https://dev.fedger.io/docs/) |
 | inspirehep.net | High Energy Physics info. system | No | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
+
+### Social
+        
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
+| LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
+| Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
+| Twitter API | Read and write Twitter dat | Yes | [Go!](https://dev.twitter.com/rest/public) |
+
+### Sports
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Football-Data.org | Football Data | No | [Go!](http://api.football-data.org) |
+| FitBit | FitBit API | No | [Go!](https://dev.fitbit.com) |
 
 ### Transportation
 | API | Description | OAuth |Link |
@@ -109,54 +166,3 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Vehicle API | Lot of vehicles informations | No, but `apiKey` query string | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
-
-### Bike
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| Bike for Belgian | Belgian bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
-| Bike for France | France bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
-| Bike for Spain | Spain bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
-
-### Development
-
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| RandomUser | Generates random user data | No | [Go!](https://randomuser.me) |
-| UI Faces | Find and generate sample avatars for user interfaces | No | [Go!](http://uifaces.com/api) |
-| UI Names | Generate random fake names | No | [Go!](https://github.com/thm/uinames) |
-| Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io) |
-| Github - User Data | Pull public information for a user's github | No | [Go!](https://api.github.com/users/hackeryou) |
-| JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
-| RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
-| API Only | Several APIs free. | No | [Go!](http://apionly.com/) |
-| Lorem Text | Generates Lorem Ipsum text | Yes | [Go!] (https://market.mashape.com/montanaflynn/lorem-text-generator) 
-
-### Sports
-
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| Football-Data.org | Football Data | No | [Go!](http://api.football-data.org) |
-| FitBit | FitBit API | No | [Go!](https://dev.fitbit.com) |
-
-### Social
-        
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
-| LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
-| Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
-| Twitter API | Read and write Twitter dat | Yes | [Go!](https://dev.twitter.com/rest/public) |
-
-
-### Security
-
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| UK Police | UK Police data | No | [Go!](https://data.police.uk/docs/) |
-
-### Calendar
-
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| Church Calendar API | Catholic liturgical calendar | No | [Go!](http://calapi.inadiutorium.cz/) |
-| Non-working days API | Database of ICS files for non working days | No | [Go!](https://github.com/gadael/icsdb) |
