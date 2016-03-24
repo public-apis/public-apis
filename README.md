@@ -93,6 +93,7 @@ A collective list of JSON APIs for use in web development.
 | Wordnik | Dictionary Data API | No | [Go!](http://developer.wordnik.com) |
 | Imgur | Images | Yes | [Go!](https://api.imgur.com/#overview) | 
 | Chuck Norris Database | Jokes | No | [Go!](http://www.icndb.com/api) |
+| JSON Porn | Porn movies, actors, etc. data | No | [Go! (May be NSFW)](http://json-porn.com/)
 
 ### Music
 | API | Description | OAuth |Link |
