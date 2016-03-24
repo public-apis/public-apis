@@ -104,6 +104,11 @@ A collective list of JSON APIs for use in web development.
 | Transport for Sao Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 
+### Vehicle
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Vehicle API | Lot of vehicles informations | No, but `apiKey` query string | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
+
 ### Bike
 | API | Description | OAuth |Link |
 |---|---|---|---|
