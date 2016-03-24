@@ -26,6 +26,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Abbreviation API | Get abbreviations and meanings easily. | No |[Go!](https://market.mashape.com/daxeel/abbreviations) |
+| Callook.info API | Get data associated with United States ham radio callsigns. | No |[Go!](https://callook.info) |
 | Celebinfo API | CelebInfo is a simple API which will give you access to the information like birthdays etc. With this API you will get these data of celebrities. | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
 
 ### Games & Comics
