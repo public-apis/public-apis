@@ -61,8 +61,7 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
-| Currencylayer | Exchange Rates & Currency
-Conversion | No | [Go!](https://currencylayer.com/documentation) |
+| Currencylayer | Exchange Rates & Currency Conversion | No | [Go!](https://currencylayer.com/documentation) |
 
 ### Games & Comics
 
