@@ -137,7 +137,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
 | LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
-| Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
+| Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
 | Twitter API | Read and write Twitter dat | Yes | [Go!](https://dev.twitter.com/rest/public) |
 
 
