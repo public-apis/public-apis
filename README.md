@@ -143,3 +143,9 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | UK Police | UK Police data | No | [Go!](https://data.police.uk/docs/) |
+
+### Calendar
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Church Calendar API | Catholic liturgical calendar | No | [Go!](http://calapi.inadiutorium.cz/) |
