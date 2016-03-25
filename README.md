@@ -62,7 +62,10 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Currencylayer | Exchange Rates & Currency Conversion | No | [Go!](https://currencylayer.com/documentation) |
-
+### cricket-score
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| mashape | live-score | No | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
 ### Games & Comics
 
 | API | Description | OAuth |Link |
