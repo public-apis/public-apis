@@ -161,6 +161,11 @@ A collective list of JSON APIs for use in web development.
 | Transport for Sao Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 
+### Travel
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Goibibo | Information related to  | No, but `apiKey` query string | [Go!](https://developer.goibibo.com/) |
+
 ### Vehicle
 | API | Description | OAuth |Link |
 |---|---|---|---|
