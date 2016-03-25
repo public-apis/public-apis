@@ -73,6 +73,12 @@ A collective list of JSON APIs for use in web development.
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
 
+### Jokes
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| ICNDB | The Internet Chuck Norris Database | No | [Go!](http://www.icndb.com/api/) |
+
 ### Media
 
 | API | Description | OAuth |Link |
