@@ -14,13 +14,6 @@ A collective list of JSON APIs for use in web development.
 | Hummingbird | Hummingbird Anime API | No | [Go!](https://hummingbird.me/) |
 | AniList | AniList Anime API | Yes | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
 
-### Bike
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| Bike for Belgian | Belgian bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
-| Bike for France | France bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
-| Bike for Spain | Spain bike API | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
-
 ### Calendar
 
 | API | Description | OAuth |Link |
@@ -55,15 +48,15 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
-| Abbreviation API | Get abbreviations and meanings easily. | No |[Go!](https://market.mashape.com/daxeel/abbreviations) |
-| Callook.info API | Get data associated with United States ham radio callsigns. | No |[Go!](https://callook.info) |
-| Celebinfo API | CelebInfo is a simple API which will give you access to the information like birthdays etc. With this API you will get these data of celebrities. | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
+| Abbreviation API | Get abbreviations and meanings | No |[Go!](https://market.mashape.com/daxeel/abbreviations) |
+| Callook.info API | United States ham radio callsigns | No |[Go!](https://callook.info) |
+| Celebinfo API | Celebrity information API | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
 
 ### Exchange
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
-| Currencylayer | Exchange Rates & Currency Conversion | No | [Go!](https://currencylayer.com/documentation) |
+| Currencylayer | Exchange rates and currency conversion | No | [Go!](https://currencylayer.com/documentation) |
 
 ### Games & Comics
 
@@ -142,13 +135,14 @@ A collective list of JSON APIs for use in web development.
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
 | Twitter API | Read and write Twitter data | Yes | [Go!](https://dev.twitter.com/rest/public) |
 
-### Sports
+### Sports/Fitness
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Football-Data.org | Football Data | No | [Go!](http://api.football-data.org) |
 | FitBit | FitBit API | No | [Go!](https://dev.fitbit.com) |
 | Stattleship | MLB, NBA, NHL, NFL | No, but a token is required | [Go!](https://www.stattleship.com/#) |
+| JCDecaux Bike API | JCDecaux's self-service bicycles | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
 
 ### Transportation
 | API | Description | OAuth |Link |
