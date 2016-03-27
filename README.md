@@ -106,6 +106,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
+| Libraries.io | Open source software libraries | No | [Go!](https://libraries.io/api) |
 
 ### Security
 
