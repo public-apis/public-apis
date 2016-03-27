@@ -102,6 +102,7 @@ A collective list of JSON APIs for use in web development.
 | Chuck Norris Database | Jokes | No | [Go!](http://www.icndb.com/api) |
 | Medium | community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
 | Flickr | Flickr Services | Yes | [Go!](https://www.flickr.com/services/api/)
+| Video download | Video download API for youtube, rai.it, mediaset.it, la7.it and hundreds of other sites. | No | [Go!](https://api.daniil.it)
 
 ### Music
 | API | Description | OAuth |Link |
