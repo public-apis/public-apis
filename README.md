@@ -170,6 +170,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Norway | Norwegian transport API | No | [Go!](http://reisapi.ruter.no/help) |
 | Transport for Toronto | TTC | No| [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | Yes | [Go!](https://developer.translink.ca/) |
+| Transport for Chicago, US | CTA | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Washington, US | Washington Metro transport API | Yes | [Go!](https://developer.wmata.com/) |
 | Transport for Paris, France | RATP Open Data API | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
 | Transport for Sao Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
