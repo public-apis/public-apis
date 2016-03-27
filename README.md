@@ -40,12 +40,13 @@ A collective list of JSON APIs for use in web development.
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!] (http://loripsum.net/)
 | Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
 
-### Drinks
+### Drinks & Food
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | BreweryDB | Beer | No |[Go!](http://www.brewerydb.com/developers) |
 | LCBO API | Alcohol | No |[Go!](https://lcboapi.com/) |
+| Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
 
 ### Data Access
 
