@@ -38,6 +38,7 @@ A collective list of JSON APIs for use in web development.
 | Lorem Text | Generates Lorem Ipsum text | Yes | [Go!] (https://market.mashape.com/montanaflynn/lorem-text-generator) 
 | Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!] (http://hipsterjesus.com/)
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!] (http://loripsum.net/)
+| Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
 
 ### Drinks
 
