@@ -54,6 +54,7 @@ A collective list of JSON APIs for use in web development.
 | Celebinfo API | Celebrity information API | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Open Government | United State Government Open Data | No |[Go!](https://www.data.gov/) |
 | Yelp | Find Local Bussiness | Yes |[Go!](https://www.yelp.com/developers) |
+| Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 
 ### Exchange
 
