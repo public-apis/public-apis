@@ -96,6 +96,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Discogs | Music | No | [Go!](https://www.discogs.com/developers/) |
 | EchoNest | Music | No | [Go!](http://developer.echonest.com/docs/v4) |
+| Jamendo | Music | Yes | [Go!](https://developer.jamendo.com/v3.0) |
 | LastFm | Music | No | [Go!](http://www.last.fm/api) |
 | Mixcloud | Music | No | [Go!](https://www.mixcloud.com/developers/) |
 | MusicBrainz | Music | No | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
