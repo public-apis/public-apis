@@ -20,6 +20,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Church Calendar API | Catholic liturgical calendar | No | [Go!](http://calapi.inadiutorium.cz/) |
 | Non-working days API | Database of ICS files for non working days | No | [Go!](https://github.com/gadael/icsdb) |
+| Date and Time | Global Date and Time | No | [Go!](http://www.timeanddate.com/services/api/) |
 
 ### Development
 
