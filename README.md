@@ -164,3 +164,8 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Vehicle API | Lot of vehicles informations | No, but `apiKey` query string | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
+
+### Video
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| YouTube | Add YouTube functionality to your sites and apps. | Yes / No | [Go!](https://developers.google.com/youtube/)
