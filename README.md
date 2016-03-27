@@ -89,7 +89,8 @@ A collective list of JSON APIs for use in web development.
 | Wordnik | Dictionary Data API | No | [Go!](http://developer.wordnik.com) |
 | Imgur | Images | Yes | [Go!](https://api.imgur.com/#overview) | 
 | Chuck Norris Database | Jokes | No | [Go!](http://www.icndb.com/api) |
-| Medium | community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs) 
+| Medium | community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
+| Flickr | Flickr Services | Yes | [Go!](https://www.flickr.com/services/api/)
 
 ### Music
 | API | Description | OAuth |Link |
