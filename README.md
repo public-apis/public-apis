@@ -35,7 +35,7 @@ A collective list of JSON APIs for use in web development.
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
 | API Only | Several APIs free. | No | [Go!](http://apionly.com/) |
-| Lorem Text | Generates Lorem Ipsum text | Yes | [Go!] (https://market.mashape.com/montanaflynn/lorem-text-generator) 
+| Lorem Text | Generates Lorem Ipsum text | Yes | [Go!] (https://market.mashape.com/montanaflynn/lorem-text-generator)
 | Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!] (http://hipsterjesus.com/)
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!] (http://loripsum.net/)
 
@@ -98,10 +98,11 @@ A collective list of JSON APIs for use in web development.
 | iTunes Search | Software products API | No | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 | Twitch | Game Streaming API | Yes | [Go!](https://github.com/justintv/Twitch-API) |
 | Wordnik | Dictionary Data API | No | [Go!](http://developer.wordnik.com) |
-| Imgur | Images | Yes | [Go!](https://api.imgur.com/#overview) | 
+| Imgur | Images | Yes | [Go!](https://api.imgur.com/#overview) |
 | Chuck Norris Database | Jokes | No | [Go!](http://www.icndb.com/api) |
 | Medium | community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
 | Flickr | Flickr Services | Yes | [Go!](https://www.flickr.com/services/api/)
+| Reddit | Homepage of the internet | Parts | [Go!](https://www.reddit.com/dev/api)
 
 ### Music
 | API | Description | OAuth |Link |
@@ -142,7 +143,7 @@ A collective list of JSON APIs for use in web development.
 | inspirehep.net | High Energy Physics info. system | No | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
 
 ### Social
-        
+
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
