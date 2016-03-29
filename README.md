@@ -115,6 +115,7 @@ A collective list of JSON APIs for use in web development.
 | MusicBrainz | Music | No | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | No | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
+| Musixmatch | Music | No, but 'api query' string | [Go!](https://developer.musixmatch.com/) |
 
 ### Open Source projects
 | API | Description | OAuth |Link |
