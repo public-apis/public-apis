@@ -80,6 +80,12 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
 
+### Health
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Nutritionix | Worlds largest verified nutrition database | No, but `apiKey` query string | [Go!](https://developer.nutritionix.com/) |
+
 ### Media
 
 | API | Description | OAuth |Link |
