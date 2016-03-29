@@ -79,6 +79,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
+| Mapzen Search | 100% open-source / open-data global geocoding service | No | [Go!](https://mapzen.com/projects/search) |
 
 ### Media
 
