@@ -50,6 +50,7 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
+| 18F | US Federal Government /Developer Program | No | [Go!](http://18f.github.io/API-All-the-X/) |
 | Abbreviation API | Get abbreviations and meanings | No |[Go!](https://market.mashape.com/daxeel/abbreviations) |
 | Callook.info API | United States ham radio callsigns | No |[Go!](https://callook.info) |
 | Celebinfo API | Celebrity information API | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
