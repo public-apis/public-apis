@@ -175,6 +175,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Paris, France | RATP Open Data API | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
 | Transport for Sao Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
+| Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
 
 ### Vehicle
 | API | Description | OAuth |Link |
