@@ -180,3 +180,8 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Vehicle API | Lot of vehicles informations | No, but `apiKey` query string | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
+
+### Zip Codes
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Mexico | Mexico RESTful zip codes API | No | [Go!](https://github.com/IcaliaLabs/sepomex) |
