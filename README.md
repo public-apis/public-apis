@@ -79,6 +79,8 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
+| Google Maps API | Create/customize digital maps based on Google Maps data | No, but `apiKey` query string | [Go!](https://developers.google.com/maps/) |
+| Mapbox | Create/customize beautiful digital maps | No, but `apiKey` query string | [Go!](https://www.mapbox.com/developers/) |
 
 ### Media
 
@@ -150,6 +152,9 @@ A collective list of JSON APIs for use in web development.
 | LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
 | Twitter API | Read and write Twitter data | Yes | [Go!](https://dev.twitter.com/rest/public) |
+| Instagram API | Read and write Instagram data | Yes | [Go!](https://www.instagram.com/developer) |
+| Oculus API | Develop games for VR | Yes | [Go!](https://developer.oculus.com/) |
+| Wit.ai API | Turn speech and text into actionable data | Yes | [Go!](https://wit.ai/docs) |
 
 ### Sports/Fitness
 
