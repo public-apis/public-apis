@@ -175,6 +175,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Paris, France | RATP Open Data API | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
 | Transport for Sao Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
+| Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | No, but `apikey` query string | [Go!]{https://sandbox.amadeus.com/} |
 
 ### Vehicle
 | API | Description | OAuth |Link |
