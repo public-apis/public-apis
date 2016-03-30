@@ -35,9 +35,10 @@ A collective list of JSON APIs for use in web development.
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
 | API Only | Several APIs free. | No | [Go!](http://apionly.com/) |
-| Lorem Text | Generates Lorem Ipsum text | Yes | [Go!] (https://market.mashape.com/montanaflynn/lorem-text-generator)
-| Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!] (http://hipsterjesus.com/)
-| Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!] (http://loripsum.net/)
+| Lorem Text | Generates Lorem Ipsum text | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator)
+| Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!](http://hipsterjesus.com/)
+| Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!](http://loripsum.net/)
+| WTF is my ip | API to see information about your public IP. | No | [Go!](https://wtfismyip.com)
 
 ### Drinks
 
@@ -72,7 +73,7 @@ A collective list of JSON APIs for use in web development.
 | Pokéapi | The RESTful Pokémon API | No |[Go!](http://pokeapi.co) |
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
-| Steam | Steam Client API | Yes | [Go!] (https://developer.valvesoftware.com/wiki/Steam_Web_API) |
+| Steam | Steam Client API | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 
 ### Geocoding
 
