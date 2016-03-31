@@ -183,6 +183,11 @@ A collective list of JSON APIs for use in web development.
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
 
+### University
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| University API | University names, countries and domains| No| [Go!](https://github.com/Hipo/university-domains-list) |
+
 ### Vehicle
 | API | Description | OAuth |Link |
 |---|---|---|---|
