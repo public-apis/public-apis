@@ -155,6 +155,7 @@ A collective list of JSON APIs for use in web development.
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
 | Twitter API | Read and write Twitter data | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | Telegram API | Read and write Telegram data | Yes | [Go!](https://core.telegram.org/api#getting-started) |
+| Tumblr API | Posts, Likes, Info, ... on Tumblr blogs | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 
 ### Sports/Fitness
 
