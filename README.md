@@ -182,7 +182,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Sao Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/) |
-| Transport for Philadelphia | NS | No | [Go!](http://www3.septa.org/hackathon/) |
+| Transport for Philadelphia | SEPTA APIs | No | [Go!](http://www3.septa.org/hackathon/) |
 
 ### Vehicle
 | API | Description | OAuth |Link |
