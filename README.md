@@ -44,8 +44,8 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
-| BreweryDB | Beer | No |[Go!](http://www.brewerydb.com/developers) |
-| LCBO API | Alcohol | No |[Go!](https://lcboapi.com/) |
+| BreweryDB | Beer | No, but apiKey query string |[Go!](http://www.brewerydb.com/developers) |
+| LCBO API | Alcohol | No, but apiKey query string |[Go!](https://lcboapi.com/) |
 
 ### Data Access
 
