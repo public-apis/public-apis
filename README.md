@@ -17,6 +17,12 @@ A collective list of JSON APIs for use in web development.
 | Hummingbird | Hummingbird Anime API | No | [Go!](https://hummingbird.me/) |
 | AniList | AniList Anime API | Yes | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
 
+### Business
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| markerapi | Trademark Search API | No | [Go!](http://www.markerapi.com/) |
+
+
 ### Calendar
 
 | API | Description | OAuth |Link |
