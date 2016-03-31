@@ -161,6 +161,7 @@ A collective list of JSON APIs for use in web development.
 | FitBit | FitBit API | No | [Go!](https://dev.fitbit.com) |
 | Stattleship | MLB, NBA, NHL, NFL | No, but a token is required | [Go!](https://www.stattleship.com/#) |
 | JCDecaux Bike API | JCDecaux's self-service bicycles | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
+| City Bikes API | City Bikes around the world | No | [Go!](http://api.citybik.es/v2/) |
 
 ### Transportation
 | API | Description | OAuth |Link |
