@@ -105,7 +105,6 @@ A collective list of JSON APIs for use in web development.
 | Reddit | Homepage of the internet | Parts | [Go!](https://www.reddit.com/dev/api)
 | JSON Porn | Porn movies, actors, etc. data | No | [Go! (May be NSFW)](http://json-porn.com/)
 
-
 ### Music
 | API | Description | OAuth |Link |
 |---|---|---|---|
