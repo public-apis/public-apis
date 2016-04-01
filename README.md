@@ -120,6 +120,11 @@ A collective list of JSON APIs for use in web development.
 | Spotify | Music | No | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
 | Musixmatch | Music | No, but `apikey` query string | [Go!](https://developer.musixmatch.com/) |
 
+### Movies
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Swapi - The Star Wars API | Movies | No | [Go!](http://swapi.co/documentation) |
+
 ### Open Source projects
 | API | Description | OAuth |Link |
 |---|---|---|---|
