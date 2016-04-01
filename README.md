@@ -83,6 +83,12 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
 
+### Health
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| USDA Nutrients | National Nutrient Database for Standard Reference | No | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
+
 ### Media
 
 | API | Description | OAuth |Link |
