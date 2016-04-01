@@ -42,10 +42,11 @@ A collective list of JSON APIs for use in web development.
 | Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!] (http://hipsterjesus.com/)
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!] (http://loripsum.net/)
 
-### Drinks
+### Drinks and Food
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
+| Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/)
 | BreweryDB | Beer | No, but apiKey query string |[Go!](http://www.brewerydb.com/developers) |
 | LCBO API | Alcohol | No, but apiKey query string |[Go!](https://lcboapi.com/) |
 
