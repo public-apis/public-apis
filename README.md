@@ -106,6 +106,7 @@ A collective list of JSON APIs for use in web development.
 | Medium | community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
 | Flickr | Flickr Services | Yes | [Go!](https://www.flickr.com/services/api/)
 | Reddit | Homepage of the internet | Parts | [Go!](https://www.reddit.com/dev/api)
+| LiveCoding | Live Coding Streaming API | Yes | [Go!](https://www.livecoding.tv/developer/applications/)
 
 ### Music
 | API | Description | OAuth |Link |
