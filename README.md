@@ -79,7 +79,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
-| Postcodes.io | Postcode & Geolocation API for the UK | No | [Go!](https://http://postcodes.io/) |
+| Postcodes.io | Postcode & Geolocation API for the UK | No | [Go!](https://postcodes.io) |
 
 ### Media
 
