@@ -65,6 +65,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Currencylayer | Exchange rates and currency conversion | No | [Go!](https://currencylayer.com/documentation) |
+| Fixer.io | JSON API for foreign exchange rates and currency conversion | No | [Go!](http://fixer.io) |
 
 ### Games & Comics
 
