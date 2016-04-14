@@ -37,6 +37,7 @@ A collective list of JSON APIs for use in web development.
 | Gitter | Chat for GitHub | Yes | [Go!](https://developer.gitter.im/docs/) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
+| Plino | Spam filtering system | No | [Go!](https://plino.herokuapp.com/) |
 | API Only | Several APIs free. | No | [Go!](http://apionly.com/) |
 | Lorem Text | Generates Lorem Ipsum text | Yes | [Go!] (https://market.mashape.com/montanaflynn/lorem-text-generator)
 | Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!] (http://hipsterjesus.com/)
