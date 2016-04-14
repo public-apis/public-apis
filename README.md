@@ -121,6 +121,7 @@ A collective list of JSON APIs for use in web development.
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | No | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
 | Musixmatch | Music | No, but `apikey` query string | [Go!](https://developer.musixmatch.com/) |
+| Musikki | Music | No | [Go!](https://music-api.musikki.com/reference) |
 
 ### Open Source projects
 | API | Description | OAuth |Link |
