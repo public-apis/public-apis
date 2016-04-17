@@ -157,6 +157,7 @@ A collective list of JSON APIs for use in web development.
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
 | Twitter API | Read and write Twitter data | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | Telegram API | Read and write Telegram data | Yes | [Go!](https://core.telegram.org/api#getting-started) |
+| Fuck Off as a Service | Asks someone to fuck off | No | [Go!](https://www.foaas.com) |
 
 ### Sports/Fitness
 
