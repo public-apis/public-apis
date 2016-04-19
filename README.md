@@ -42,6 +42,7 @@ A collective list of JSON APIs for use in web development.
 | Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!] (http://hipsterjesus.com/)
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!] (http://loripsum.net/)
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | [Go!] (http://reqres.in/)
+| Torcache API | A free service for caching torrent files online | No |[Go!](https://torcache.net/api) |
 
 ### Drinks
 
