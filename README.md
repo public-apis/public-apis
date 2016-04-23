@@ -84,6 +84,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
+| IP 2 Country | Map an IP to a country | No | [Go!](https://ip2country.info) |
 
 ### Media
 
