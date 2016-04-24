@@ -128,6 +128,11 @@ A collective list of JSON APIs for use in web development.
 | Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
 | Libraries.io | Open source software libraries | No | [Go!](https://libraries.io/api) |
 
+### Planets
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
+
 ### Security
 
 | API | Description | OAuth |Link |
