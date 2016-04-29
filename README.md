@@ -78,6 +78,7 @@ A collective list of JSON APIs for use in web development.
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
 | Steam | Steam Client API | Yes | [Go!] (https://developer.valvesoftware.com/wiki/Steam_Web_API) |
+| Clash of Clans | Clash of Clans API | No | [Go!] (https://developer.clashofclans.com) |
 
 ### Geocoding
 
