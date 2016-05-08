@@ -38,6 +38,7 @@ A collective list of JSON APIs for use in web development.
 | Lorem Text | Generates Lorem Ipsum text | Yes | [Go!] (https://market.mashape.com/montanaflynn/lorem-text-generator) |
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!] (http://loripsum.net/)
 | RandomUser | Generates random user data | No | [Go!](https://randomuser.me) |
+| ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | [Go!] (http://reqres.in/)
 | RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
 | UI Faces | Find and generate sample avatars for user interfaces | No | [Go!](http://uifaces.com/api) |
 | UI Names | Generate random fake names | No | [Go!](https://github.com/thm/uinames) |
@@ -65,6 +66,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Currencylayer | Exchange rates and currency conversion | No | [Go!](https://currencylayer.com/documentation) |
+| Fixer.io | JSON API for foreign exchange rates and currency conversion | No | [Go!](http://fixer.io) |
 
 ### Games & Comics
 
@@ -81,6 +83,7 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
+| IP 2 Country | Map an IP to a country | No | [Go!](https://ip2country.info) |
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
 
 ### Media
@@ -128,6 +131,11 @@ A collective list of JSON APIs for use in web development.
 | Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
 | Libraries.io | Open source software libraries | No | [Go!](https://libraries.io/api) |
 
+### Planets
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
+
 ### Security
 
 | API | Description | OAuth |Link |
@@ -153,6 +161,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
+| Fuck Off as a Service | Asks someone to fuck off | No | [Go!](https://www.foaas.com) |
 | Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
 | LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
 | Telegram API | Read and write Telegram data | Yes | [Go!](https://core.telegram.org/api#getting-started) |
