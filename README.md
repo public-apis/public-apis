@@ -134,6 +134,12 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
 
+### Railway
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Indian Railways | Indian Railways API | No, but a token is required |[Go!](http://api.erail.in/) |
+
 ### Security
 
 | API | Description | OAuth |Link |
