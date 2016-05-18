@@ -58,6 +58,8 @@ A collective list of JSON APIs for use in web development.
 | Callook.info API | United States ham radio callsigns | No |[Go!](https://callook.info) |
 | Celebinfo API | Celebrity information API | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Open Government | United State Government Open Data | No |[Go!](https://www.data.gov/) |
+| Colorado Information Marketplace | Colorado State Government Open Data | No |[Go!](https://data.colorado.gov/) |
+| Colorado Data Engine | Formatted and geolocated Colorado public data | No |[Go!](http://codataengine.org/) |
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 
