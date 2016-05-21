@@ -73,6 +73,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
+| Deck of Cards | Deck of Cards API | No | [Go!] (http://deckofcardsapi.com/)  |
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Marvel | Marvel Comics API | No | [Go!](http://developer.marvel.com) |
 | Pokéapi | The RESTful Pokémon API | No |[Go!](http://pokeapi.co) |
