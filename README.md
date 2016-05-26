@@ -77,6 +77,7 @@ A collective list of JSON APIs for use in web development.
 | Pokéapi | The RESTful Pokémon API | No |[Go!](http://pokeapi.co) |
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
+| Battle.net | Blizzard API | No | [Go!] (https://dev.battle.net/)  |
 | Steam | Steam Client API | Yes | [Go!] (https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | Deck of Cards | Deck of Cards API | No | [Go!] (http://deckofcardsapi.com/)  |
 
