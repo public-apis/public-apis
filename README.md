@@ -193,6 +193,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Sao Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
+| Transport for India | India Public Transport API | No, Api key is required   | [Go!](https://data.gov.in/sector/transport) |
 
 ### Vehicle
 | API | Description | OAuth |Link |
