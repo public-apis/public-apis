@@ -105,6 +105,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
+<<<<<<< HEAD
 | Google Maps API | Create/customize digital maps based on Google Maps data | No, but `apiKey` query string | [Go!](https://developers.google.com/maps/) |
 | Mapbox | Create/customize beautiful digital maps | No, but `apiKey` query string | [Go!](https://www.mapbox.com/developers/) |
 | IP Address Details| Find geolocation with ip address | No | [Go!](https://ipinfo.io/) |
@@ -121,6 +122,9 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Nutritionix | Worlds largest verified nutrition database | No, but `apiKey` query string | [Go!](https://developer.nutritionix.com/) |
+=======
+| GeoNames | Place names and other geographical data | No | [Go!](http://www.geonames.org/export/web-services.html) |
+>>>>>>> 71ffc2ce0827cc9070d29d6426b495d221bada8c
 
 ### Media
 
