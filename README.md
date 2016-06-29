@@ -52,6 +52,7 @@ A collective list of JSON APIs for use in web development.
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!] (http://loripsum.net/)
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | [Go!] (http://reqres.in/)
 | StackExchange | The All-in-one API for StackExchange sites | Yes | [Go!] (https://api.stackexchange.com/)
+| Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
 
 ### Drinks and Food
 
@@ -60,6 +61,7 @@ A collective list of JSON APIs for use in web development.
 | Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/)
 | BreweryDB | Beer | No, but apiKey query string |[Go!](http://www.brewerydb.com/developers) |
 | LCBO API | Alcohol | No, but apiKey query string |[Go!](https://lcboapi.com/) |
+| Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
 
 ### Data Access
 
@@ -101,6 +103,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
+| IP Address Details| Find geolocation with ip address | No | [Go!](https://ipinfo.io/) |
 | IP 2 Country | Map an IP to a country | No | [Go!](https://ip2country.info) |
 
 ### Health
@@ -162,7 +165,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
-| Countly  | Countly web analytics API | No | [Go!](http://resources.count.ly/) | 
+| Countly  | Countly web analytics API | No | [Go!](http://resources.count.ly/) |
 | Libraries.io | Open source software libraries | No | [Go!](https://libraries.io/api) |
 
 ### Planets
