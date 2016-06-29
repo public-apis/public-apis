@@ -249,6 +249,7 @@ A collective list of JSON APIs for use in web development.
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
 | Transport for Boston, MA, USA | MBTA API | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents)
 | TransitLand | Transit Aggregation | No | [Go!](https://transit.land/documentation/datastore/api-endpoints.html)
+| Transport for Rio de Janeiro, Brazil | Prefeitura do Rio (City Hall) | No | [Go!](http://data.rio/group/transporte-e-mobilidade) |
 
 ### University
 | API | Description | OAuth |Link |
