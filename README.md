@@ -79,7 +79,7 @@ A collective list of JSON APIs for use in web development.
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
 | Steam | Steam Client API | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | Deck of Cards | Deck of Cards API | No | [Go!](http://deckofcardsapi.com/)  |
-| [ClashAPI](https://github.com/martincarrera/clash-royale-api) | Clash Royale API | No | [Go!](http://www.clashapi.xyz/)  |
+| ClashAPI | Clash Royale API | No | [Go!](https://github.com/martincarrera/clash-royale-api)  |
 
 
 ### Geocoding
