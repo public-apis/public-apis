@@ -98,6 +98,12 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
 
+### Health
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Nutritionix | Worlds largest verified nutrition database | No, but `apiKey` query string | [Go!](https://developer.nutritionix.com/) |
+
 ### Media
 
 | API | Description | OAuth |Link |
