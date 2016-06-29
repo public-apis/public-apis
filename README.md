@@ -2,7 +2,7 @@
 
 A collective list of JSON APIs for use in web development.
 
-> While I appreciate the masses of pull requests and community involement, some PRs have been specifically to market company APIs that offer paid for solutions. This API list is not a marketing tool, but a tool to help the community build applications and use free public APIs quickly and easily. Pull requests that explicitly are marketing attempts won't be accepted, thanks for understanding! :)
+> While I appreciate the masses of pull requests and community involvement, some PRs have been specifically to market company APIs that offer paid for solutions. This API list is not a marketing tool, but a tool to help the community build applications and use free public APIs quickly and easily. Pull requests that explicitly are marketing attempts won't be accepted, thanks for understanding! :)
 
 ### Animals
 | API | Description | OAuth |Link |
