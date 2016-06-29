@@ -264,4 +264,4 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | OpenWeatherMap | Weather and Forecast API | No | [Go!](http://openweathermap.org/api) |
-
+| Dark Sky Forecast API | Weather and Forecast API | No, but `apiKey` query string | [Go!](https://developer.forecast.io/) |
