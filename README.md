@@ -220,6 +220,7 @@ A collective list of JSON APIs for use in web development.
 ### Transportation
 | API | Description | OAuth |Link |
 |---|---|---|---|
+| Community Transit for Bay Area | Transitland API | No | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Transport for London | TFL API | No | [Go!](https://api.tfl.gov.uk) |
 | Transport for Belgium | Belgian transport API | No | [Go!](https://hello.irail.be/api/) |
 | Transport for Germany | Deutsche Bahn (DB) API | No | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
