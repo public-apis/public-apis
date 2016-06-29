@@ -73,6 +73,7 @@ A collective list of JSON APIs for use in web development.
 | Data USA | US Public Data | No |[Go!](http://datausa.io/about/api/) |
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
+| Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 
 ### Exchange
 
