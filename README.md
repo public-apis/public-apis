@@ -74,7 +74,8 @@ A collective list of JSON APIs for use in web development.
 | Callook.info API | United States ham radio callsigns | No |[Go!](https://callook.info) |
 | Celebinfo API | Celebrity information API | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Dronestream API | Tracks United States drone strikes | No |[Go!](http://dronestre.am/) |
-| Open Government | United State Government Open Data | No |[Go!](https://www.data.gov/) |
+| Open Government | Australian Government Open Data | No |[Go!](https://www.data.gov.au/) |
+| Open Government | United States Government Open Data | No |[Go!](https://www.data.gov/) |
 | Data USA | US Public Data | No |[Go!](http://datausa.io/about/api/) |
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
