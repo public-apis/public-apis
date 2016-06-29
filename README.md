@@ -137,6 +137,7 @@ A collective list of JSON APIs for use in web development.
 | Flickr | Flickr Services | Yes | [Go!](https://www.flickr.com/services/api/)
 | Reddit | Homepage of the internet | Parts | [Go!](https://www.reddit.com/dev/api)
 | 500px |  Photography Community | Yes | [Go!](https://github.com/500px/api-documentation)
+| HackerNews | Social news for CS and entrepreneurship | No | [Go!](https://github.com/HackerNews/API)
 
 ### Music
 | API | Description | OAuth |Link |
