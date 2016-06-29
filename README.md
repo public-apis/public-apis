@@ -165,7 +165,7 @@ A collective list of JSON APIs for use in web development.
 | Mixcloud | Music | No | [Go!](https://www.mixcloud.com/developers/) |
 | MusicBrainz | Music | No | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
-| Spotify | Music | No | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
+| Spotify | Music | Parts | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
 | Musixmatch | Music | No, but `apikey` query string | [Go!](https://developer.musixmatch.com/) |
 | Musikki | Music | No | [Go!](https://music-api.musikki.com/reference) |
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | [Go!](https://www.songsterr.com/a/wa/api/) |
@@ -211,10 +211,14 @@ A collective list of JSON APIs for use in web development.
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
 | Twitter API | Read and write Twitter data | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | Telegram API | Read and write Telegram data | Yes | [Go!](https://core.telegram.org/api#getting-started) |
+<<<<<<< HEAD
 | Fuck Off as a Service | Asks someone to fuck off | No | [Go!](https://www.foaas.com) |
 | vk API | Read and write vk dat | Yes | [Go!](https://vk.com/dev/sites) |
 | Oculus API | Develop games for VR | Yes | [Go!](https://developer.oculus.com/) |
 | Wit.ai API | Turn speech and text into actionable data | Yes | [Go!](https://wit.ai/docs) |
+=======
+| Tumblr API | Posts, Likes, Info, ... on Tumblr blogs | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
+>>>>>>> cceaf74311921ac46fd13415d38fa29791d2e36e
 
 ### Sports/Fitness
 
@@ -232,7 +236,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Transport for London, England | TfL API | No | [Go!](https://api.tfl.gov.uk) |
 | Transport for Belgium | Belgian transport API | No | [Go!](https://hello.irail.be/api/) |
-| Transport for Germany | Deutsche Bahn (DB) API | No | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
+| Transport for Germany | Deutsche Bahn (DB) API | No, but `authKey` query string | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
 | Transport for Switzerland | Swiss public transport API | No | [Go!](https://transport.opendata.ch/) |
 | Transport for Budapest | Budapest public transport API | No | [Go!](http://docs.bkkfutar.apiary.io/) |
 | Transport for Norway | Norwegian transport API | No | [Go!](http://reisapi.ruter.no/help) |
