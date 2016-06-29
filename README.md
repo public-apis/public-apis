@@ -246,6 +246,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for São Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 | Transport for Sweden | Public Transport consumer | Yes | [Go!](https://www.trafiklab.se/api) |
+| Transport for Finland | Finnish transport API | No | [Go!](http://digitransit.fi/en/developers/) |
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
 | Transport for Boston, MA, USA | MBTA API | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents)
 | TransitLand | Transit Aggregation | No | [Go!](https://transit.land/documentation/datastore/api-endpoints.html)
