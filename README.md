@@ -101,6 +101,7 @@ A collective list of JSON APIs for use in web development.
 | Steam | Steam Client API | Yes | [Go!] (https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | Deck of Cards | Deck of Cards API | No | [Go!] (http://deckofcardsapi.com/)  |
 | Magic the gathering | Magic the gathering API | No | [Go!] (http://magicthegathering.io/)  |
+| Clash of Clans | Clash of Clans API | No | [Go!] (https://developer.clashofclans.com) |
 
 ### Geocoding
 
