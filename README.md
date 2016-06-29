@@ -112,6 +112,12 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Nutritionix | Worlds largest verified nutrition database | No, but `apiKey` query string | [Go!](https://developer.nutritionix.com/) |
 
+### Jokes
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| ICNDB | The Internet Chuck Norris Database | No | [Go!](http://www.icndb.com/api/) |
+
 ### Media
 
 | API | Description | OAuth |Link |
