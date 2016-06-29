@@ -77,6 +77,8 @@ A collective list of JSON APIs for use in web development.
 | Open Government | Australian Government Open Data | No |[Go!](https://www.data.gov.au/) |
 | Open Government | United States Government Open Data | No |[Go!](https://www.data.gov/) |
 | Data USA | US Public Data | No |[Go!](http://datausa.io/about/api/) |
+| Colorado Information Marketplace | Colorado State Government Open Data | No |[Go!](https://data.colorado.gov/) |
+| Colorado Data Engine | Formatted and geolocated Colorado public data | No |[Go!](http://codataengine.org/) |
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
@@ -234,7 +236,8 @@ A collective list of JSON APIs for use in web development.
 | Transport for Switzerland | Swiss public transport API | No | [Go!](https://transport.opendata.ch/) |
 | Transport for Budapest | Budapest public transport API | No | [Go!](http://docs.bkkfutar.apiary.io/) |
 | Transport for Norway | Norwegian transport API | No | [Go!](http://reisapi.ruter.no/help) |
-| Transport for Toronto | TTC | No| [Go!](https://myttc.ca/developers) |
+| Transport for Toronto, Canada | TTC | No| [Go!](https://myttc.ca/developers) |
+| Transport for Ottawa, Canada | OC Transpo next bus arrival API | No | [Go!](http://www.octranspo1.com/developers) |
 | Transport for Vancouver, Canada | TransLink | Yes | [Go!](https://developer.translink.ca/) |
 | Transport for Chicago, US | CTA | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Washington, US | Washington Metro transport API | Yes | [Go!](https://developer.wmata.com/) |
