@@ -75,6 +75,8 @@ A collective list of JSON APIs for use in web development.
 | Dronestream API | Tracks United States drone strikes | No |[Go!](http://dronestre.am/) |
 | Open Government | United State Government Open Data | No |[Go!](https://www.data.gov/) |
 | Data USA | US Public Data | No |[Go!](http://datausa.io/about/api/) |
+| Colorado Information Marketplace | Colorado State Government Open Data | No |[Go!](https://data.colorado.gov/) |
+| Colorado Data Engine | Formatted and geolocated Colorado public data | No |[Go!](http://codataengine.org/) |
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
