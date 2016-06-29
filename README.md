@@ -233,7 +233,8 @@ A collective list of JSON APIs for use in web development.
 | Transport for Switzerland | Swiss public transport API | No | [Go!](https://transport.opendata.ch/) |
 | Transport for Budapest | Budapest public transport API | No | [Go!](http://docs.bkkfutar.apiary.io/) |
 | Transport for Norway | Norwegian transport API | No | [Go!](http://reisapi.ruter.no/help) |
-| Transport for Toronto | TTC | No| [Go!](https://myttc.ca/developers) |
+| Transport for Toronto, Canada | TTC | No| [Go!](https://myttc.ca/developers) |
+| Transport for Ottawa, Canada | OC Transpo next bus arrival API | No | [Go!](http://www.octranspo1.com/developers) |
 | Transport for Vancouver, Canada | TransLink | Yes | [Go!](https://developer.translink.ca/) |
 | Transport for Chicago, US | CTA | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Washington, US | Washington Metro transport API | Yes | [Go!](https://developer.wmata.com/) |
