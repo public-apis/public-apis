@@ -259,3 +259,9 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Vimeo | Vimeo Developer API | Yes | [Go!](https://developer.vimeo.com/)
 | YouTube | Add YouTube functionality to your sites and apps. | Yes / No | [Go!](https://developers.google.com/youtube/)
+
+### Weather
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| OpenWeatherMap | Weather and Forecast API | No | [Go!](http://openweathermap.org/api) |
+
