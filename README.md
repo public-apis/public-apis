@@ -189,6 +189,7 @@ A collective list of JSON APIs for use in web development.
 | Wunderground | Weather | No | [Go!](http://www.wunderground.com/weather/api/) |
 | OpenWeatherMap | Weather | No | [Go!](http://openweathermap.org/api) |
 | Yahoo! Weather | Weather | No | [Go!](https://developer.yahoo.com/weather/) |
+| Dark Sky Forecast API | Weather | No, but  `apiKey` query string | [Go!](https://developer.forecast.io/) |
 | World Bank | World Data | No | [Go!](http://data.worldbank.org/developers) |
 | Open Notify | ISS astronauts, current location API | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Fedger.io | Query machine intelligence data | No | [Go!](https://dev.fedger.io/docs/) |
@@ -230,6 +231,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Vancouver, Canada | TransLink | Yes | [Go!](https://developer.translink.ca/) |
 | Transport for Chicago, US | CTA | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Washington, US | Washington Metro transport API | Yes | [Go!](https://developer.wmata.com/) |
+| Transport for Minneapolis, US | NexTrip API | Yes | [Go!](http://svc.metrotransit.org/) |
 | Transport for Paris, France | RATP Open Data API | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
 | Transport for São Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
