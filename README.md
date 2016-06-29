@@ -116,6 +116,7 @@ A collective list of JSON APIs for use in web development.
 | IP Address Details| Find geolocation with ip address | No | [Go!](https://ipinfo.io/) |
 | IP 2 Country | Map an IP to a country | No | [Go!](https://ip2country.info) |
 | GeoNames | Place names and other geographical data | No | [Go!](http://www.geonames.org/export/web-services.html) |
+| Mexico | Mexico RESTful zip codes API | No | [Go!](https://github.com/IcaliaLabs/sepomex) |
 
 ### Health
 
@@ -213,14 +214,11 @@ A collective list of JSON APIs for use in web development.
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
 | Twitter API | Read and write Twitter data | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | Telegram API | Read and write Telegram data | Yes | [Go!](https://core.telegram.org/api#getting-started) |
-<<<<<<< HEAD
 | Fuck Off as a Service | Asks someone to fuck off | No | [Go!](https://www.foaas.com) |
 | vk API | Read and write vk dat | Yes | [Go!](https://vk.com/dev/sites) |
 | Oculus API | Develop games for VR | Yes | [Go!](https://developer.oculus.com/) |
 | Wit.ai API | Turn speech and text into actionable data | Yes | [Go!](https://wit.ai/docs) |
-=======
-| Tumblr API | Posts, Likes, Info, ... on Tumblr blogs | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
->>>>>>> cceaf74311921ac46fd13415d38fa29791d2e36e
+| Tumblr API | Read and write Tumblr Data | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 
 ### Sports/Fitness
 
@@ -285,3 +283,4 @@ A collective list of JSON APIs for use in web development.
 | OpenWeatherMap | Weather | No | [Go!](http://openweathermap.org/api) |
 | Yahoo! Weather | Weather | No | [Go!](https://developer.yahoo.com/weather/) |
 | Dark Sky Forecast API | Weather | No, but  `apiKey` query string | [Go!](https://developer.forecast.io/) |
+
