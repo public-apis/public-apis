@@ -177,12 +177,6 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
 
-### Railway
-
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| Indian Railways | Indian Railways API | No, but a token is required |[Go!](http://api.erail.in/) |
-
 ### Security
 
 | API | Description | OAuth |Link |
@@ -253,6 +247,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Rio de Janeiro, Brazil | Prefeitura do Rio (City Hall) | No | [Go!](http://data.rio/group/transporte-e-mobilidade) |
 | Trasport for Madrid, Spain | Madrid BUS transport API | No, but apiKey query string |[Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
 | Transport for India | India Public Transport API | No, Api key is required   | [Go!](https://data.gov.in/sector/transport) |
+| Indian Railways | Indian Railways API | No, but a token is required |[Go!](http://api.erail.in/) |
 
 ### University
 | API | Description | OAuth |Link |
