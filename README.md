@@ -195,6 +195,7 @@ A collective list of JSON APIs for use in web development.
 | Open Notify | ISS astronauts, current location API | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Fedger.io | Query machine intelligence data | No | [Go!](https://dev.fedger.io/docs/) |
 | inspirehep.net | High Energy Physics info. system | No | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
+| USGS Earthquake Hazards Program | Earthquakes data real-time | No | [Go!](http://earthquake.usgs.gov/fdsnws/event/1/) |
 
 ### Social
 
