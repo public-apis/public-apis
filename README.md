@@ -105,6 +105,8 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
+| Google Maps API | Create/customize digital maps based on Google Maps data | No, but `apiKey` query string | [Go!](https://developers.google.com/maps/) |
+| Mapbox | Create/customize beautiful digital maps | No, but `apiKey` query string | [Go!](https://www.mapbox.com/developers/) |
 | IP Address Details| Find geolocation with ip address | No | [Go!](https://ipinfo.io/) |
 | IP 2 Country | Map an IP to a country | No | [Go!](https://ip2country.info) |
 
@@ -212,6 +214,8 @@ A collective list of JSON APIs for use in web development.
 | Telegram API | Read and write Telegram data | Yes | [Go!](https://core.telegram.org/api#getting-started) |
 | Fuck Off as a Service | Asks someone to fuck off | No | [Go!](https://www.foaas.com) |
 | vk API | Read and write vk dat | Yes | [Go!](https://vk.com/dev/sites) |
+| Oculus API | Develop games for VR | Yes | [Go!](https://developer.oculus.com/) |
+| Wit.ai API | Turn speech and text into actionable data | Yes | [Go!](https://wit.ai/docs) |
 
 ### Sports/Fitness
 
