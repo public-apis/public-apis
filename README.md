@@ -117,6 +117,7 @@ A collective list of JSON APIs for use in web development.
 | IP 2 Country | Map an IP to a country | No | [Go!](https://ip2country.info) |
 | GeoNames | Place names and other geographical data | No | [Go!](http://www.geonames.org/export/web-services.html) |
 | Mexico | Mexico RESTful zip codes API | No | [Go!](https://github.com/IcaliaLabs/sepomex) |
+| PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
 
 ### Health
 
