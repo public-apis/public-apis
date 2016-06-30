@@ -251,6 +251,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Paris, France | RATP Open Data API | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
 | Transport for São Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
+<<<<<<< HEAD
 | Transport for Sweden | Public Transport consumer | Yes | [Go!](https://www.trafiklab.se/api) |
 | Transport for Finland | Finnish transport API | No | [Go!](http://digitransit.fi/en/developers/) |
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
@@ -269,6 +270,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | University API | University names, countries and domains| No| [Go!](https://github.com/Hipo/university-domains-list) |
+| Transport for New York City | MTA | No, but an api key is mandatory | [Go!](http://datamine.mta.info/) |
 
 ### Vehicle
 | API | Description | OAuth |Link |
