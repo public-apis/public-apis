@@ -296,13 +296,13 @@ A collective list of JSON APIs for use in web development.
 | Indian Railways | Indian Railways API | No, but a token is required |[Go!](http://api.erail.in/) |
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/) |
 | Transport for Philadelphia | SEPTA APIs | No | [Go!](http://www3.septa.org/hackathon/) |
+| Transport for New York City | MTA | No, but an api key is mandatory | [Go!](http://datamine.mta.info/) |
+| Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | No, but `apikey` query string | [Go!](https://sandbox.amadeus.com/) |
 
 ### University
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | University API | University names, countries and domains| No| [Go!](https://github.com/Hipo/university-domains-list) |
-| Transport for New York City | MTA | No, but an api key is mandatory | [Go!](http://datamine.mta.info/) |
-| Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | No, but `apikey` query string | [Go!](https://sandbox.amadeus.com/) |
 
 ### Vehicle
 | API | Description | OAuth | Link |
