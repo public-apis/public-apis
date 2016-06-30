@@ -252,6 +252,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for São Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Transport for Sweden | Public Transport consumer | Yes | [Go!](https://www.trafiklab.se/api) |
 | Transport for Finland | Finnish transport API | No | [Go!](http://digitransit.fi/en/developers/) |
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
@@ -271,6 +272,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | University API | University names, countries and domains| No| [Go!](https://github.com/Hipo/university-domains-list) |
 | Transport for New York City | MTA | No, but an api key is mandatory | [Go!](http://datamine.mta.info/) |
+| Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | No, but `apikey` query string | [Go!](https://sandbox.amadeus.com/) |
 
 ### Vehicle
 | API | Description | OAuth |Link |
