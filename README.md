@@ -249,6 +249,11 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | University API | University names, countries and domains| No| [Go!](https://github.com/Hipo/university-domains-list) |
 
+### Travel
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Goibibo | Information related to  | No, but `apiKey` query string | [Go!](https://developer.goibibo.com/) |
+
 ### Vehicle
 | API | Description | OAuth |Link |
 |---|---|---|---|
