@@ -10,7 +10,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Petfinder | Adoption | No | [Go!](https://www.petfinder.com/developers/api-docs/) |
 | RescueGroups | Adoption | No | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
-| IUCN | IUCN Red List of Threatened Species | No, but a token is required | [Go!] (http://apiv3.iucnredlist.org/api/v3/docs) |
+| IUCN | IUCN Red List of Threatened Species | No, but a token is required | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
 
 ### Anime
 
@@ -49,11 +49,11 @@ A collective list of JSON APIs for use in web development.
 | RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
 | Plino | Spam filtering system | No | [Go!](https://plino.herokuapp.com/) |
 | API Only | Several APIs free. | No | [Go!](http://apionly.com/) |
-| Lorem Text | Generates Lorem Ipsum text | Yes | [Go!] (https://market.mashape.com/montanaflynn/lorem-text-generator)
-| Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!] (http://hipsterjesus.com/)
-| Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!] (http://loripsum.net/)
-| ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | [Go!] (http://reqres.in/)
-| StackExchange | The All-in-one API for StackExchange sites | Yes | [Go!] (https://api.stackexchange.com/)
+| Lorem Text | Generates Lorem Ipsum text | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator)
+| Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!](http://hipsterjesus.com/)
+| Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!](http://loripsum.net/)
+| ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | [Go!](http://reqres.in/)
+| StackExchange | The All-in-one API for StackExchange sites | Yes | [Go!](https://api.stackexchange.com/)
 | Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
 | Faceplusplus | A tool to detect face | Yes | [GO!](http://www.faceplusplus.com/uc_home/) |
 
@@ -69,7 +69,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/)
 | Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
-| PunkAPI | Brewdog Beer Recipes | No | [Go!] (https://punkapi.com/) |
+| PunkAPI | Brewdog Beer Recipes | No | [Go!](https://punkapi.com/) |
 | BreweryDB | Beer | No, but `apiKey` query string |[Go!](http://www.brewerydb.com/developers) |
 | LCBO API | Alcohol | No, but `apiKey` query string |[Go!](https://lcboapi.com/) |
 
@@ -119,11 +119,11 @@ A collective list of JSON APIs for use in web development.
 | Pokéapi | The RESTful Pokémon API | No |[Go!](http://pokeapi.co) |
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
-| Battle.net | Blizzard API | No | [Go!] (https://dev.battle.net/)  |
-| Steam | Steam Client API | Yes | [Go!] (https://developer.valvesoftware.com/wiki/Steam_Web_API) |
-| Deck of Cards | Deck of Cards API | No | [Go!] (http://deckofcardsapi.com/)  |
-| Magic the gathering | Magic the gathering API | No | [Go!] (http://magicthegathering.io/)  |
-| Clash of Clans | Clash of Clans API | No | [Go!] (https://developer.clashofclans.com) |
+| Battle.net | Blizzard API | No | [Go!](https://dev.battle.net/)  |
+| Steam | Steam Client API | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
+| Deck of Cards | Deck of Cards API | No | [Go!](http://deckofcardsapi.com/)  |
+| Magic the gathering | Magic the gathering API | No | [Go!](http://magicthegathering.io/)  |
+| Clash of Clans | Clash of Clans API | No | [Go!](https://developer.clashofclans.com) |
 | Guild Wars 2 | Guild Wars 2 API | No, but `apiKey` query string (for some routes) | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
 | Minecraft | Minecraft API (For server info & user info) | No |[Go!](https://mcapi.ca/) |
 
