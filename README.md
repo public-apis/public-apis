@@ -300,7 +300,8 @@ A collective list of JSON APIs for use in web development.
 | Transport for Toronto, Canada | TTC | No| [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | Yes | [Go!](https://developer.translink.ca/) |
 | Transport for Washington, US | Washington Metro transport API | Yes | [Go!](https://developer.wmata.com/) |
-| Trasport for Madrid, Spain | Madrid BUS transport API | No, but apiKey query string |[Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
+| Transport for Madrid, Spain | Madrid BUS transport API | No, but apiKey query string |[Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
+| Transport for Auckland, New Zealand | Auckland Transport API  | No | [Go!](https://api.at.govt.nz/) |
 
 ### University
 
