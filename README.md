@@ -6,7 +6,7 @@ A collective list of JSON APIs for use in web development.
 
 ### Animals
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Petfinder | Adoption | No | [Go!](https://www.petfinder.com/developers/api-docs/) |
 | RescueGroups | Adoption | No | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
@@ -14,21 +14,21 @@ A collective list of JSON APIs for use in web development.
 
 ### Anime
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Hummingbird | Hummingbird Anime API | No | [Go!](https://hummingbird.me/) |
 | AniList | AniList Anime API | Yes | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
 
 ### Business
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | markerapi | Trademark Search API | No | [Go!](http://www.markerapi.com/) |
 
 
 ### Calendar
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Church Calendar API | Catholic liturgical calendar | No | [Go!](http://calapi.inadiutorium.cz/) |
 | Non-working days API | Database of ICS files for non working days | No | [Go!](https://github.com/gadael/icsdb) |
@@ -37,7 +37,7 @@ A collective list of JSON APIs for use in web development.
 
 ### Development
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | RandomUser | Generates random user data | No | [Go!](https://randomuser.me) |
 | UI Faces | Find and generate sample avatars for user interfaces | No | [Go!](http://uifaces.com/api) |
@@ -58,7 +58,7 @@ A collective list of JSON APIs for use in web development.
 
 ### Drinks and Food
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/)
 | Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
@@ -68,7 +68,7 @@ A collective list of JSON APIs for use in web development.
 
 ### Data Access
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Abbreviation API | Get abbreviations and meanings | No |[Go!](https://market.mashape.com/daxeel/abbreviations) |
 | Callook.info API | United States ham radio callsigns | No |[Go!](https://callook.info) |
@@ -85,14 +85,14 @@ A collective list of JSON APIs for use in web development.
 
 ### Exchange
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Currencylayer | Exchange rates and currency conversion | No | [Go!](https://currencylayer.com/documentation) |
 | Fixer.io | JSON API for foreign exchange rates and currency conversion | No | [Go!](http://fixer.io) |
 
 ### Games & Comics
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Marvel | Marvel Comics API | No | [Go!](http://developer.marvel.com) |
 | SWAPI | Star Wars API | No |[Go!](https://swapi.co) |
@@ -108,7 +108,7 @@ A collective list of JSON APIs for use in web development.
 
 ### Geocoding
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
 | Google Maps API | Create/customize digital maps based on Google Maps data | No, but `apiKey` query string | [Go!](https://developers.google.com/maps/) |
@@ -122,19 +122,19 @@ A collective list of JSON APIs for use in web development.
 
 ### Health
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
 
 ### Health
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Nutritionix | Worlds largest verified nutrition database | No, but `apiKey` query string | [Go!](https://developer.nutritionix.com/) |
 
 ### Media
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Noun Project | Icons | Yes | [Go!](http://api.thenounproject.com/index.html) |
 | Unsplash | Photography | Yes | [Go!](https://unsplash.com/developers) |
@@ -162,7 +162,7 @@ A collective list of JSON APIs for use in web development.
 | LiveCoding | Live Coding Streaming API | Yes | [Go!](https://www.livecoding.tv/developer/applications/)
 
 ### Music
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Discogs | Music | No | [Go!](https://www.discogs.com/developers/) |
 | EchoNest | Music | No | [Go!](http://developer.echonest.com/docs/v4) |
@@ -177,33 +177,33 @@ A collective list of JSON APIs for use in web development.
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | [Go!](https://www.songsterr.com/a/wa/api/) |
 
 ### Open Source projects
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
 | Countly  | Countly web analytics API | No | [Go!](http://resources.count.ly/) |
 | Libraries.io | Open source software libraries | No, but `apiKey` query string | [Go!](https://libraries.io/api) |
 
 ### Planets
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
 
 ### Security
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | UK Police | UK Police data | No | [Go!](https://data.police.uk/docs/) |
 | AXFR Database | AXFR public database API | No | [Go'](http://api.axfrcheck.com) |
 
 ### Personality
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Traitify | Assess, collect, and analyze Personality | No | [Go!](https://developer.traitify.com/) |
 
 ### Science
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | TED Talks | TED API | No | [Go!](http://developer.ted.com/API_Docs) |
 | NASA | NASA data, including imagery | No | [Go!](https://api.nasa.gov) |
@@ -215,7 +215,7 @@ A collective list of JSON APIs for use in web development.
 
 ### Social
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
 | Instagram API | Instagram Login, Share on Instagram, Social Plugins and more | Yes | [Go!](https://www.instagram.com/developer/) |
@@ -231,7 +231,7 @@ A collective list of JSON APIs for use in web development.
 
 ### Sports/Fitness
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Football-Data.org | Football Data | No | [Go!](http://api.football-data.org) |
 | FitBit | FitBit API | No | [Go!](https://dev.fitbit.com) |
@@ -241,7 +241,7 @@ A collective list of JSON APIs for use in web development.
 | Ergast F1 API | F1 data from the beginning of the world championships in 1950 | No | [Go!](http://ergast.com/mrd/)
 
 ### Transportation
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Community Transit | Transitland API | No | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Transport for London, England | TfL API | No | [Go!](https://api.tfl.gov.uk) |
@@ -275,25 +275,25 @@ A collective list of JSON APIs for use in web development.
 | Transport for Philadelphia | SEPTA APIs | No | [Go!](http://www3.septa.org/hackathon/) |
 
 ### University
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | University API | University names, countries and domains| No| [Go!](https://github.com/Hipo/university-domains-list) |
 | Transport for New York City | MTA | No, but an api key is mandatory | [Go!](http://datamine.mta.info/) |
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | No, but `apikey` query string | [Go!](https://sandbox.amadeus.com/) |
 
 ### Vehicle
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Vehicle API | Lot of vehicles informations | No, but `apiKey` query string | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
 
 ### Video
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Vimeo | Vimeo Developer API | Yes | [Go!](https://developer.vimeo.com/)
 | YouTube | Add YouTube functionality to your sites and apps. | Yes / No | [Go!](https://developers.google.com/youtube/)
 
 ### Weather
-| API | Description | OAuth |Link |
+| API | Description | OAuth | Link |
 |---|---|---|---|
 | Wunderground | Weather | No | [Go!](http://www.wunderground.com/weather/api/) |
 | OpenWeatherMap | Weather | No | [Go!](http://openweathermap.org/api) |
