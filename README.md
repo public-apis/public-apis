@@ -154,7 +154,6 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | screenshotlayer API | URL 2 Image | No | [Go!](https://screenshotlayer.com) |
-| giflayer API | Video 2 GIF | No | [Go!](https://giflayer.com) |
 | Noun Project | Icons | Yes | [Go!](http://api.thenounproject.com/index.html) |
 | Unsplash | Photography | Yes | [Go!](https://unsplash.com/developers) |
 | Giphy | Get all your gifs | No | [Go!](https://github.com/Giphy/GiphyAPI) |
