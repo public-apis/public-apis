@@ -161,6 +161,7 @@ A collective list of JSON APIs for use in web development.
 | HackerNews | Social news for CS and entrepreneurship | No | [Go!](https://github.com/HackerNews/API)
 | Genius | Crowdsourced lyrics and music knowledge | Yes | [Go!](https://docs.genius.com/)
 | LiveCoding | Live Coding Streaming API | Yes | [Go!](https://www.livecoding.tv/developer/applications/)
+| Google Books | Books | Yes | [Go!](https://developers.google.com/books/)
 
 ### Music
 | API | Description | OAuth | Link |
