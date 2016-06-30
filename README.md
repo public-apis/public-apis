@@ -196,10 +196,10 @@ A collective list of JSON APIs for use in web development.
 | AXFR Database | AXFR public database API | No | [Go'](http://api.axfrcheck.com) |
 
 ### Personality
+
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Traitify | Assess, collect, and analyze Personality | No | [Go!](https://developer.traitify.com/) |
-
 
 ### Science
 
