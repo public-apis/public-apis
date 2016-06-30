@@ -151,6 +151,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | 500px |  Photography Community | Yes | [Go!](https://github.com/500px/api-documentation)
+| British National Bibliography | Books | No | [Go!](http://bnb.data.bl.uk/) |
 | Chuck Norris Database | Jokes | No | [Go!](http://www.icndb.com/api) |
 | Dribbble | Design | Yes | [Go!](http://developer.dribbble.com/v1/) |
 | File.io | Files | No | [Go!](https://file.io) |
