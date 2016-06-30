@@ -241,7 +241,6 @@ A collective list of JSON APIs for use in web development.
 | Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
 | Instagram API | Instagram Login, Share on Instagram, Social Plugins and more | Yes | [Go!](https://www.instagram.com/developer/) |
 | LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
-| Oculus API | Develop games for VR | Yes | [Go!](https://developer.oculus.com/) |
 | Telegram API | Read and write Telegram data | Yes | [Go!](https://core.telegram.org/api#getting-started) |
 | Tumblr API | Read and write Tumblr Data | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 | Twitter API | Read and write Twitter data | Yes | [Go!](https://dev.twitter.com/rest/public) |
