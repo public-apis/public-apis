@@ -253,8 +253,6 @@ A collective list of JSON APIs for use in web development.
 | Transport for Paris, France | RATP Open Data API | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
 | Transport for São Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
-<<<<<<< HEAD
-<<<<<<< HEAD
 | Transport for Sweden | Public Transport consumer | Yes | [Go!](https://www.trafiklab.se/api) |
 | Transport for Finland | Finnish transport API | No | [Go!](http://digitransit.fi/en/developers/) |
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
@@ -294,4 +292,3 @@ A collective list of JSON APIs for use in web development.
 | OpenWeatherMap | Weather | No | [Go!](http://openweathermap.org/api) |
 | Yahoo! Weather | Weather | No | [Go!](https://developer.yahoo.com/weather/) |
 | Dark Sky Forecast API | Weather | No, but  `apiKey` query string | [Go!](https://developer.forecast.io/) |
-
