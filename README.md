@@ -61,10 +61,10 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/)
-| BreweryDB | Beer | No, but apiKey query string |[Go!](http://www.brewerydb.com/developers) |
-| LCBO API | Alcohol | No, but apiKey query string |[Go!](https://lcboapi.com/) |
 | Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
 | PunkAPI | Brewdog Beer Recipes | No | [Go!] (https://punkapi.com/) |
+| BreweryDB | Beer | No, but `apiKey` query string |[Go!](http://www.brewerydb.com/developers) |
+| LCBO API | Alcohol | No, but `apiKey` query string |[Go!](https://lcboapi.com/) |
 
 ### Data Access
 
@@ -180,7 +180,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
 | Countly  | Countly web analytics API | No | [Go!](http://resources.count.ly/) |
-| Libraries.io | Open source software libraries | No | [Go!](https://libraries.io/api) |
+| Libraries.io | Open source software libraries | No, but `apiKey` query string | [Go!](https://libraries.io/api) |
 
 ### Planets
 | API | Description | OAuth |Link |
