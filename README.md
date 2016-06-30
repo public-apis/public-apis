@@ -262,12 +262,13 @@ A collective list of JSON APIs for use in web development.
 | Transport for India | India Public Transport API | No, Api key is required   | [Go!](https://data.gov.in/sector/transport) |
 | Transport for Atlanta, US | Marta | No | [Go!](http://www.itsmarta.com/developers/data-sources/marta-bus-realtime-restful-api.aspx) |
 | Indian Railways | Indian Railways API | No, but a token is required |[Go!](http://api.erail.in/) |
+| Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/) |
+| Transport for Philadelphia | SEPTA APIs | No | [Go!](http://www3.septa.org/hackathon/) |
 
 ### University
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | University API | University names, countries and domains| No| [Go!](https://github.com/Hipo/university-domains-list) |
-
 
 ### Vehicle
 | API | Description | OAuth |Link |
