@@ -89,6 +89,7 @@ A collective list of JSON APIs for use in web development.
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
+| fonoApi | Mobile Device Description | No |[Go!](https://fonoapi.freshpixl.com/) |
 
 ### Data Validation
 
