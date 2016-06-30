@@ -195,6 +195,12 @@ A collective list of JSON APIs for use in web development.
 | UK Police | UK Police data | No | [Go!](https://data.police.uk/docs/) |
 | AXFR Database | AXFR public database API | No | [Go'](http://api.axfrcheck.com) |
 
+### Personality
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Traitify | Assess, collect, and analyze Personality | No | [Go!](https://developer.traitify.com/) |
+
+
 ### Science
 
 | API | Description | OAuth |Link |
