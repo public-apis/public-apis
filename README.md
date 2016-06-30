@@ -243,16 +243,13 @@ A collective list of JSON APIs for use in web development.
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
 | Transport for Boston, MA, USA | MBTA API | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents)
 | TransitLand | Transit Aggregation | No | [Go!](https://transit.land/documentation/datastore/api-endpoints.html)
+| Goibibo | API for travel search  | No, but `apiKey` query string | [Go!](https://developer.goibibo.com/docs) |
 
 ### University
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | University API | University names, countries and domains| No| [Go!](https://github.com/Hipo/university-domains-list) |
 
-### Travel
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| Goibibo | Information related to  | No, but `apiKey` query string | [Go!](https://developer.goibibo.com/) |
 
 ### Vehicle
 | API | Description | OAuth |Link |
