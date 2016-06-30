@@ -105,6 +105,7 @@ A collective list of JSON APIs for use in web development.
 | Magic the gathering | Magic the gathering API | No | [Go!] (http://magicthegathering.io/)  |
 | Clash of Clans | Clash of Clans API | No | [Go!] (https://developer.clashofclans.com) |
 | Guild Wars 2 | Guild Wars 2 API | No, but `apiKey` query string (for some routes) | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
+| Minecraft | Minecraft API (For server info & user info) | No |[Go!](https://mcapi.ca/) |
 
 ### Geocoding
 
