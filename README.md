@@ -159,6 +159,7 @@ A collective list of JSON APIs for use in web development.
 | 500px |  Photography Community | Yes | [Go!](https://github.com/500px/api-documentation)
 | HackerNews | Social news for CS and entrepreneurship | No | [Go!](https://github.com/HackerNews/API)
 | Genius | Crowdsourced lyrics and music knowledge | Yes | [Go!](https://docs.genius.com/)
+| LiveCoding | Live Coding Streaming API | Yes | [Go!](https://www.livecoding.tv/developer/applications/)
 
 ### Music
 | API | Description | OAuth |Link |
