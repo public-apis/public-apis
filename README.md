@@ -106,6 +106,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Currencylayer | Exchange rates and currency conversion | No | [Go!](https://currencylayer.com/documentation) |
 | Fixer.io | JSON API for foreign exchange rates and currency conversion | No | [Go!](http://fixer.io) |
+| Currencylayer | Exchange rates and currency conversion | No, but `apiKey` query string | [Go!](https://currencylayer.com/documentation) |
 
 ### Games & Comics
 
