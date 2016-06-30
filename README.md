@@ -269,7 +269,6 @@ A collective list of JSON APIs for use in web development.
 | Community Transit | Transitland API | No | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Goibibo | API for travel search  | No, but `apiKey` query string | [Go!](https://developer.goibibo.com/docs) |
 | Indian Railways | Indian Railways API | No, but a token is required |[Go!](http://api.erail.in/) |
-| Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/) |
 | TransitLand | Transit Aggregation | No | [Go!](https://transit.land/documentation/datastore/api-endpoints.html)
 | Transport for Atlanta, US | Marta | No | [Go!](http://www.itsmarta.com/developers/data-sources/marta-bus-realtime-restful-api.aspx) |
