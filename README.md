@@ -56,7 +56,13 @@ A collective list of JSON APIs for use in web development.
 | StackExchange | The All-in-one API for StackExchange sites | Yes | [Go!] (https://api.stackexchange.com/)
 | Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
 
-### Drinks and Food
+### Documents & Productivity
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| pdflayer API | HTML/URL to PDF | No | [Go!](https://pdflayer.com) |
+
+### Drinks
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
@@ -82,6 +88,16 @@ A collective list of JSON APIs for use in web development.
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
+
+### Data Validation
+
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| vatlayer API | VAT number validation | No | [Go!](https://vatlayer.com) |
+| numverify API | Phone number validation | No | [Go!](https://numverify.com) |
+| mailboxlayer API | Email address validation | No | [Go!](https://mailboxlayer.com) |
+| languagelayer API | Language detection | No | [Go!](https://languagelayer.com) |
+
 
 ### Exchange
 
@@ -137,6 +153,8 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
+| screenshotlayer API | URL 2 Image | No | [Go!](https://screenshotlayer.com) |
+| giflayer API | Video 2 GIF | No | [Go!](https://giflayer.com) |
 | Noun Project | Icons | Yes | [Go!](http://api.thenounproject.com/index.html) |
 | Unsplash | Photography | Yes | [Go!](https://unsplash.com/developers) |
 | Giphy | Get all your gifs | No | [Go!](https://github.com/Giphy/GiphyAPI) |
