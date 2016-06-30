@@ -269,6 +269,7 @@ A collective list of JSON APIs for use in web development.
 | JCDecaux Bike API | JCDecaux's self-service bicycles | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
 | City Bikes API | City Bikes around the world | No | [Go!](http://api.citybik.es/v2/) |
 | Ergast F1 API | F1 data from the beginning of the world championships in 1950 | No | [Go!](http://ergast.com/mrd/)
+| mashape | live-score | No | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
 
 ### Transportation
 
