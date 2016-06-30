@@ -55,6 +55,7 @@ A collective list of JSON APIs for use in web development.
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | [Go!] (http://reqres.in/)
 | StackExchange | The All-in-one API for StackExchange sites | Yes | [Go!] (https://api.stackexchange.com/)
 | Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
+| Faceplusplus | A tool to detect face | Yes | [GO!](http://www.faceplusplus.com/uc_home/) |
 
 ### Documents & Productivity
 
