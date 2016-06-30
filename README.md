@@ -185,6 +185,7 @@ A collective list of JSON APIs for use in web development.
 | Google Books | Books | Yes | [Go!](https://developers.google.com/books/)
 
 ### Music
+
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Discogs | Music | No | [Go!](https://www.discogs.com/developers/) |
@@ -200,6 +201,7 @@ A collective list of JSON APIs for use in web development.
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | [Go!](https://www.songsterr.com/a/wa/api/) |
 
 ### Open Source projects
+
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
@@ -207,6 +209,7 @@ A collective list of JSON APIs for use in web development.
 | Libraries.io | Open source software libraries | No, but `apiKey` query string | [Go!](https://libraries.io/api) |
 
 ### Planets
+
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
@@ -264,6 +267,7 @@ A collective list of JSON APIs for use in web development.
 | Ergast F1 API | F1 data from the beginning of the world championships in 1950 | No | [Go!](http://ergast.com/mrd/)
 
 ### Transportation
+
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Community Transit | Transitland API | No | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
@@ -300,22 +304,26 @@ A collective list of JSON APIs for use in web development.
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | No, but `apikey` query string | [Go!](https://sandbox.amadeus.com/) |
 
 ### University
+
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | University API | University names, countries and domains| No| [Go!](https://github.com/Hipo/university-domains-list) |
 
 ### Vehicle
+
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Vehicle API | Lot of vehicles informations | No, but `apiKey` query string | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
 
 ### Video
+
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Vimeo | Vimeo Developer API | Yes | [Go!](https://developer.vimeo.com/)
 | YouTube | Add YouTube functionality to your sites and apps. | Yes / No | [Go!](https://developers.google.com/youtube/)
 
 ### Weather
+
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Wunderground | Weather | No | [Go!](http://www.wunderground.com/weather/api/) |
