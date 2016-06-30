@@ -85,8 +85,8 @@ A collective list of JSON APIs for use in web development.
 | Data USA | US Public Data | No |[Go!](http://datausa.io/about/api/) |
 | Dronestream API | Tracks United States drone strikes | No |[Go!](http://dronestre.am/) |
 | fonoApi | Mobile Device Description | No |[Go!](https://fonoapi.freshpixl.com/) |
-| Open Government | Australian Government Open Data | No |[Go!](https://www.data.gov.au/) |
-| Open Government | United States Government Open Data | No |[Go!](https://www.data.gov/) |
+| Open Government, Australia | Australian Government Open Data | No |[Go!](https://www.data.gov.au/) |
+| Open Government, USA | United States Government Open Data | No |[Go!](https://www.data.gov/) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
@@ -104,7 +104,6 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
-| Currencylayer | Exchange rates and currency conversion | No | [Go!](https://currencylayer.com/documentation) |
 | Currencylayer | Exchange rates and currency conversion | No, but `apiKey` query string | [Go!](https://currencylayer.com/documentation) |
 | Fixer.io | JSON API for foreign exchange rates and currency conversion | No | [Go!](http://fixer.io) |
 
@@ -117,14 +116,12 @@ A collective list of JSON APIs for use in web development.
 | ClashAPI | Clash Royale API | No | [Go!](https://github.com/martincarrera/clash-royale-api)  |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
 | Deck of Cards | Deck of Cards API | No | [Go!](http://deckofcardsapi.com/)  |
-| Deck of Cards | Deck of Cards API | No | [Go!](http://deckofcardsapi.com/)  |
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 API | No, but `apiKey` query string (for some routes) | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
 | Magic the gathering | Magic the gathering API | No | [Go!](http://magicthegathering.io/)  |
 | Marvel | Marvel Comics API | No | [Go!](http://developer.marvel.com) |
 | Minecraft | Minecraft API (For server info & user info) | No |[Go!](https://mcapi.ca/) |
 | Pokéapi | The RESTful Pokémon API | No |[Go!](http://pokeapi.co) |
-| Steam | Steam Client API | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | Steam | Steam Client API | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | SWAPI | Star Wars API | No |[Go!](https://swapi.co) |
 
@@ -288,7 +285,6 @@ A collective list of JSON APIs for use in web development.
 | Transport for Finland | Finnish transport API | No | [Go!](http://digitransit.fi/en/developers/) |
 | Transport for Germany | Deutsche Bahn (DB) API | No, but `authKey` query string | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
 | Transport for India | India Public Transport API | No, Api key is required   | [Go!](https://data.gov.in/sector/transport) |
-| Transport for London | TFL API | No | [Go!](https://api.tfl.gov.uk) |
 | Transport for London, England | TfL API | No | [Go!](https://api.tfl.gov.uk) |
 | Transport for Minneapolis, US | NexTrip API | Yes | [Go!](http://svc.metrotransit.org/) |
 | Transport for New York City | MTA | No, but an api key is mandatory | [Go!](http://datamine.mta.info/) |
