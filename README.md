@@ -5,6 +5,7 @@ A collective list of JSON APIs for use in web development.
 > While I appreciate the masses of pull requests and community involvement, some PRs have been specifically to market company APIs that offer paid for solutions. This API list is not a marketing tool, but a tool to help the community build applications and use free public APIs quickly and easily. Pull requests that explicitly are marketing attempts won't be accepted, thanks for understanding! :)
 
 ### Animals
+
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Petfinder | Adoption | No | [Go!](https://www.petfinder.com/developers/api-docs/) |
@@ -19,6 +20,7 @@ A collective list of JSON APIs for use in web development.
 | AniList | AniList Anime API | Yes | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
 
 ### Business
+
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | markerapi | Trademark Search API | No | [Go!](http://www.markerapi.com/) |
@@ -52,6 +54,7 @@ A collective list of JSON APIs for use in web development.
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!] (http://loripsum.net/)
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | [Go!] (http://reqres.in/)
 | StackExchange | The All-in-one API for StackExchange sites | Yes | [Go!] (https://api.stackexchange.com/)
+| Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
 
 ### Drinks and Food
 
@@ -60,6 +63,8 @@ A collective list of JSON APIs for use in web development.
 | Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/)
 | BreweryDB | Beer | No, but apiKey query string |[Go!](http://www.brewerydb.com/developers) |
 | LCBO API | Alcohol | No, but apiKey query string |[Go!](https://lcboapi.com/) |
+| Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
+| PunkAPI | Brewdog Beer Recipes | No | [Go!] (https://punkapi.com/) |
 
 ### Data Access
 
@@ -69,8 +74,11 @@ A collective list of JSON APIs for use in web development.
 | Callook.info API | United States ham radio callsigns | No |[Go!](https://callook.info) |
 | Celebinfo API | Celebrity information API | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Dronestream API | Tracks United States drone strikes | No |[Go!](http://dronestre.am/) |
-| Open Government | United State Government Open Data | No |[Go!](https://www.data.gov/) |
+| Open Government | Australian Government Open Data | No |[Go!](https://www.data.gov.au/) |
+| Open Government | United States Government Open Data | No |[Go!](https://www.data.gov/) |
 | Data USA | US Public Data | No |[Go!](http://datausa.io/about/api/) |
+| Colorado Information Marketplace | Colorado State Government Open Data | No |[Go!](https://data.colorado.gov/) |
+| Colorado Data Engine | Formatted and geolocated Colorado public data | No |[Go!](http://codataengine.org/) |
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
@@ -95,13 +103,22 @@ A collective list of JSON APIs for use in web development.
 | Steam | Steam Client API | Yes | [Go!] (https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | Deck of Cards | Deck of Cards API | No | [Go!] (http://deckofcardsapi.com/)  |
 | Magic the gathering | Magic the gathering API | No | [Go!] (http://magicthegathering.io/)  |
+| Clash of Clans | Clash of Clans API | No | [Go!] (https://developer.clashofclans.com) |
+| Guild Wars 2 | Guild Wars 2 API | No, but `apiKey` query string (for some routes) | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
 
 ### Geocoding
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
+| Google Maps API | Create/customize digital maps based on Google Maps data | No, but `apiKey` query string | [Go!](https://developers.google.com/maps/) |
+| Mapbox | Create/customize beautiful digital maps | No, but `apiKey` query string | [Go!](https://www.mapbox.com/developers/) |
+| IP Address Details| Find geolocation with ip address | No | [Go!](https://ipinfo.io/) |
 | IP 2 Country | Map an IP to a country | No | [Go!](https://ip2country.info) |
+| GeoNames | Place names and other geographical data | No | [Go!](http://www.geonames.org/export/web-services.html) |
+| Mexico | Mexico RESTful zip codes API | No | [Go!](https://github.com/IcaliaLabs/sepomex) |
+| PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
+| Postcodes.io | Postcode & Geolocation API for the UK | No | [Go!](https://postcodes.io) |
 
 ### Health
 
@@ -153,7 +170,7 @@ A collective list of JSON APIs for use in web development.
 | Mixcloud | Music | No | [Go!](https://www.mixcloud.com/developers/) |
 | MusicBrainz | Music | No | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
-| Spotify | Music | No | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
+| Spotify | Music | Parts | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
 | Musixmatch | Music | No, but `apikey` query string | [Go!](https://developer.musixmatch.com/) |
 | Musikki | Music | No | [Go!](https://music-api.musikki.com/reference) |
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | [Go!](https://www.songsterr.com/a/wa/api/) |
@@ -162,19 +179,13 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
-| Countly  | Countly web analytics API | No | [Go!](http://resources.count.ly/) | 
+| Countly  | Countly web analytics API | No | [Go!](http://resources.count.ly/) |
 | Libraries.io | Open source software libraries | No | [Go!](https://libraries.io/api) |
 
 ### Planets
 | API | Description | OAuth |Link |
 |---|---|---|---|
 | Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
-
-### Railway
-
-| API | Description | OAuth |Link |
-|---|---|---|---|
-| Indian Railways | Indian Railways API | No, but a token is required |[Go!](http://api.erail.in/) |
 
 ### Security
 
@@ -189,10 +200,6 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | TED Talks | TED API | No | [Go!](http://developer.ted.com/API_Docs) |
 | NASA | NASA data, including imagery | No | [Go!](https://api.nasa.gov) |
-| Wunderground | Weather | No | [Go!](http://www.wunderground.com/weather/api/) |
-| OpenWeatherMap | Weather | No | [Go!](http://openweathermap.org/api) |
-| Yahoo! Weather | Weather | No | [Go!](https://developer.yahoo.com/weather/) |
-| Dark Sky Forecast API | Weather | No, but  `apiKey` query string | [Go!](https://developer.forecast.io/) |
 | World Bank | World Data | No | [Go!](http://data.worldbank.org/developers) |
 | Open Notify | ISS astronauts, current location API | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Fedger.io | Query machine intelligence data | No | [Go!](https://dev.fedger.io/docs/) |
@@ -210,6 +217,10 @@ A collective list of JSON APIs for use in web development.
 | Twitter API | Read and write Twitter data | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | Telegram API | Read and write Telegram data | Yes | [Go!](https://core.telegram.org/api#getting-started) |
 | Fuck Off as a Service | Asks someone to fuck off | No | [Go!](https://www.foaas.com) |
+| vk API | Read and write vk dat | Yes | [Go!](https://vk.com/dev/sites) |
+| Oculus API | Develop games for VR | Yes | [Go!](https://developer.oculus.com/) |
+| Wit.ai API | Turn speech and text into actionable data | Yes | [Go!](https://wit.ai/docs) |
+| Tumblr API | Read and write Tumblr Data | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 
 ### Sports/Fitness
 
@@ -225,13 +236,14 @@ A collective list of JSON APIs for use in web development.
 ### Transportation
 | API | Description | OAuth |Link |
 |---|---|---|---|
-| Transport for London | TfL API | No | [Go!](https://api.tfl.gov.uk) |
+| Transport for London, England | TfL API | No | [Go!](https://api.tfl.gov.uk) |
 | Transport for Belgium | Belgian transport API | No | [Go!](https://hello.irail.be/api/) |
-| Transport for Germany | Deutsche Bahn (DB) API | No | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
+| Transport for Germany | Deutsche Bahn (DB) API | No, but `authKey` query string | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
 | Transport for Switzerland | Swiss public transport API | No | [Go!](https://transport.opendata.ch/) |
 | Transport for Budapest | Budapest public transport API | No | [Go!](http://docs.bkkfutar.apiary.io/) |
 | Transport for Norway | Norwegian transport API | No | [Go!](http://reisapi.ruter.no/help) |
-| Transport for Toronto | TTC | No| [Go!](https://myttc.ca/developers) |
+| Transport for Toronto, Canada | TTC | No| [Go!](https://myttc.ca/developers) |
+| Transport for Ottawa, Canada | OC Transpo next bus arrival API | No | [Go!](http://www.octranspo1.com/developers) |
 | Transport for Vancouver, Canada | TransLink | Yes | [Go!](https://developer.translink.ca/) |
 | Transport for Chicago, US | CTA | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Washington, US | Washington Metro transport API | Yes | [Go!](https://developer.wmata.com/) |
@@ -240,10 +252,16 @@ A collective list of JSON APIs for use in web development.
 | Transport for São Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 | Transport for Sweden | Public Transport consumer | Yes | [Go!](https://www.trafiklab.se/api) |
+| Transport for Finland | Finnish transport API | No | [Go!](http://digitransit.fi/en/developers/) |
 | Schiphol Airport API | Schiphol | Yes | [Go!](https://flight-info.3scale.net/)
 | Transport for Boston, MA, USA | MBTA API | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents)
 | TransitLand | Transit Aggregation | No | [Go!](https://transit.land/documentation/datastore/api-endpoints.html)
 | Goibibo | API for travel search  | No, but `apiKey` query string | [Go!](https://developer.goibibo.com/docs) |
+| Transport for Rio de Janeiro, Brazil | Prefeitura do Rio (City Hall) | No | [Go!](http://data.rio/group/transporte-e-mobilidade) |
+| Trasport for Madrid, Spain | Madrid BUS transport API | No, but apiKey query string |[Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
+| Transport for India | India Public Transport API | No, Api key is required   | [Go!](https://data.gov.in/sector/transport) |
+| Transport for Atlanta, US | Marta | No | [Go!](http://www.itsmarta.com/developers/data-sources/marta-bus-realtime-restful-api.aspx) |
+| Indian Railways | Indian Railways API | No, but a token is required |[Go!](http://api.erail.in/) |
 
 ### University
 | API | Description | OAuth |Link |
@@ -261,3 +279,12 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Vimeo | Vimeo Developer API | Yes | [Go!](https://developer.vimeo.com/)
 | YouTube | Add YouTube functionality to your sites and apps. | Yes / No | [Go!](https://developers.google.com/youtube/)
+
+### Weather
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Wunderground | Weather | No | [Go!](http://www.wunderground.com/weather/api/) |
+| OpenWeatherMap | Weather | No | [Go!](http://openweathermap.org/api) |
+| Yahoo! Weather | Weather | No | [Go!](https://developer.yahoo.com/weather/) |
+| Dark Sky Forecast API | Weather | No, but  `apiKey` query string | [Go!](https://developer.forecast.io/) |
+
