@@ -177,6 +177,7 @@ A collective list of JSON APIs for use in web development.
 | TVMaze | TV Show Data | No | [Go!](http://www.tvmaze.com/api) |
 | Twitch | Game Streaming API | Yes | [Go!](https://github.com/justintv/Twitch-API) |
 | Unsplash | Photography | Yes | [Go!](https://unsplash.com/developers) |
+| Video download | Video download API for youtube, rai.it, mediaset.it, la7.it and hundreds of other sites. | No | [Go!](https://api.daniil.it)
 | Wordnik | Dictionary Data API | No | [Go!](http://developer.wordnik.com) |
 
 ### Music
