@@ -194,7 +194,7 @@ A collective list of JSON APIs for use in web development.
 | Musixmatch | Music | No, but `apikey` query string | [Go!](https://developer.musixmatch.com/) |
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
-| Spotify | Music | Parts | [Go!](https://developer.spotify.com/web-api/migration-guide/) |
+| Spotify | Music | Parts | [Go!](https://developer.spotify.com/web-api/) |
 
 ### Open Source projects
 
