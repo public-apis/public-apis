@@ -39,6 +39,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io) |
+| CDNJS | Library info on CDNJS | No | [Go!](https://api.cdnjs.com/libraries/jquery) |
 | Faceplusplus | A tool to detect face | Yes | [GO!](http://www.faceplusplus.com/uc_home/) |
 | Github - User Data | Pull public information for a user's github | No | [Go!](https://api.github.com/users/hackeryou) |
 | Gitter | Chat for GitHub | Yes | [Go!](https://developer.gitter.im/docs/) |
