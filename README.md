@@ -100,6 +100,12 @@ A collective list of JSON APIs for use in web development.
 | numverify API | Phone number validation | No | [Go!](https://numverify.com) |
 | vatlayer API | VAT number validation | No | [Go!](https://vatlayer.com) |
 
+### Environment
+
+| API | Description | OAuth | Link |
+|---|---|---|---|
+| PM2.5.in | PM2.5 Data of China | No, but apiKey query string | [Go!](http://www.pm25.in/api_doc) |
+
 ### Exchange
 
 | API | Description | OAuth | Link |
