@@ -122,6 +122,7 @@ A collective list of JSON APIs for use in web development.
 | ClashAPI | Clash Royale API | No | [Go!](https://github.com/martincarrera/clash-royale-api)  |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
 | Deck of Cards | Deck of Cards API | No | [Go!](http://deckofcardsapi.com/)  |
+| Eve Online | Third-Party Developer Documentation API | Parts | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/)  |
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 API | No, but `apiKey` query string (for some routes) | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
 | Magic the gathering | Magic the gathering API | No | [Go!](http://magicthegathering.io/)  |
