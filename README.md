@@ -88,6 +88,7 @@ A collective list of JSON APIs for use in web development.
 | fonoApi | Mobile Device Description | No |[Go!](https://fonoapi.freshpixl.com/) |
 | Open Government, Australia | Australian Government Open Data | No |[Go!](https://www.data.gov.au/) |
 | Open Government, USA | United States Government Open Data | No |[Go!](https://www.data.gov/) |
+| Open Government, Canada | Canadian Government Open Data | No |[Go!](http://open.canada.ca/en) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
