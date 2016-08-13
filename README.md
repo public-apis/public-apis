@@ -295,6 +295,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Chicago, US | CTA | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Finland | Finnish transport API | No | [Go!](http://digitransit.fi/en/developers/) |
 | Transport for Germany | Deutsche Bahn (DB) API | No, but `authKey` query string | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
+| Transport for Berlin | third-party VBB API | No | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
 | Transport for India | India Public Transport API | No, Api key is required   | [Go!](https://data.gov.in/sector/transport) |
 | Transport for London, England | TfL API | No | [Go!](https://api.tfl.gov.uk) |
 | Transport for Minneapolis, US | NexTrip API | Yes | [Go!](http://svc.metrotransit.org/) |
