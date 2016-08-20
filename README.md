@@ -275,8 +275,10 @@ A collective list of JSON APIs for use in web development.
 | JCDecaux Bike API | JCDecaux's self-service bicycles | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
 | mashape | live-score | No | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
 | NFL Arrests | NFL Arrest Data | No | [Go!](http://nflarrest.com/api/) |
+| Pro Motocross API | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | [Go!](http://promotocrossapi.com) |
 | Stattleship | MLB, NBA, NHL, NFL | No, but a token is required | [Go!](https://www.stattleship.com/#) |
 | wger API | Workout manager data as exercises, muscles or equipments | No, but `apiKey` query string | [Go!](https://wger.de/en/software/api) |
+
 
 ### Transportation
 
