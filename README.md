@@ -277,6 +277,7 @@ A collective list of JSON APIs for use in web development.
 | NFL Arrests | NFL Arrest Data | No | [Go!](http://nflarrest.com/api/) |
 | Stattleship | MLB, NBA, NHL, NFL | No, but a token is required | [Go!](https://www.stattleship.com/#) |
 | wger API | Workout manager data as exercises, muscles or equipments | No, but `apiKey` query string | [Go!](https://wger.de/en/software/api) |
+| Pro Motocross API | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | [Go!](http://promotocrossapi.com) |
 
 ### Transportation
 
