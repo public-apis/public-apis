@@ -251,6 +251,7 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
+| Discord bot API | Make bots for Discord | Yes | [Go!](https://discordapp.com/developers/docs/intro) |
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
 | Fuck Off as a Service | Asks someone to fuck off | No | [Go!](https://www.foaas.com) |
 | Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
@@ -312,7 +313,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Switzerland | Swiss public transport API | No | [Go!](https://transport.opendata.ch/) |
 | Transport for São Paulo, Brazil | SPTrans | Yes | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
-| Transport for Tokyo, Japan | Tokyo Metro | No, but apiKet query string |[Go!](https://developer.tokyometroapp.jp/)  |
+| Transport for Tokyo, Japan | Tokyo Metro | No, but apiKey query string |[Go!](https://developer.tokyometroapp.jp/)  |
 | Transport for Toronto, Canada | TTC | No| [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | Yes | [Go!](https://developer.translink.ca/) |
 | Transport for Washington, US | Washington Metro transport API | Yes | [Go!](https://developer.wmata.com/) |
