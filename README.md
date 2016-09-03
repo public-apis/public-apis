@@ -19,6 +19,15 @@ A collective list of JSON APIs for use in web development.
 | AniList | AniList Anime API | Yes | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
 | Hummingbird | Hummingbird Anime API | No | [Go!](https://hummingbird.me/) |
 
+### Anti-Malware
+
+| API | Description | OAuth | Link |
+|---|---|---|---|
+| Certly | Certly Link/Domain Flagging API | No, but a token is required | [Go!](https://guard.certly.io/) |
+| Google Safe Browsing | Google Link/Domain Flagging API | No, but a token is required | [Go!](https://developers.google.com/safe-browsing/) |
+| Metacert | Metacert Link Flagging API | No, but a token is required | [Go!](https://metacert.com/) |
+| VirusTotal | VirusTotal File/URL Analysis API | No, but a token is required | [Go!](https://www.virustotal.com/en/documentation/public-api/) |
+
 ### Business
 
 | API | Description | OAuth | Link |
