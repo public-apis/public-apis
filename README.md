@@ -56,7 +56,7 @@ A collective list of JSON APIs for use in web development.
 | Gitter | Chat for GitHub | Yes | [Go!](https://developer.gitter.im/docs/) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!](http://hipsterjesus.com/)
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
-| Lorem Text | Generates Lorem Ipsum text | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator)
+| Lorem Text | Generates Lorem Ipsum text | No, but requires `X-Mashape-Key` as header | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator)
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!](http://loripsum.net/)
 | Plino | Spam filtering system | No | [Go!](https://plino.herokuapp.com/) |
 | Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
@@ -88,9 +88,9 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | 18F | US Federal Government /Developer Program | No | [Go!](http://18f.github.io/API-All-the-X/) |
-| Abbreviation API | Get abbreviations and meanings | No |[Go!](https://market.mashape.com/daxeel/abbreviations) |
+| Abbreviation API | Get abbreviations and meanings | No, but requires `X-Mashape-Key` as header |[Go!](https://market.mashape.com/daxeel/abbreviations) |
 | Callook.info API | United States ham radio callsigns | No |[Go!](https://callook.info) |
-| Celebinfo API | Celebrity information API | No |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
+| Celebinfo API | Celebrity information API | No, but requires `X-Mashape-Key` as header |[Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Colorado Data Engine | Formatted and geolocated Colorado public data | No |[Go!](http://codataengine.org/) |
 | Colorado Information Marketplace | Colorado State Government Open Data | No |[Go!](https://data.colorado.gov/) |
 | Data USA | US Public Data | No |[Go!](http://datausa.io/about/api/) |
@@ -284,7 +284,7 @@ A collective list of JSON APIs for use in web development.
 | FitBit | FitBit API | No | [Go!](https://dev.fitbit.com) |
 | Football-Data.org | Football Data | No | [Go!](http://api.football-data.org) |
 | JCDecaux Bike API | JCDecaux's self-service bicycles | No, but `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
-| mashape | live-score | No | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
+| Cricket Live Scores | live-score | No, but requires `X-Mashape-Key` as header | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
 | NFL Arrests | NFL Arrest Data | No | [Go!](http://nflarrest.com/api/) |
 | Pro Motocross API | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | [Go!](http://promotocrossapi.com) |
 | Stattleship | MLB, NBA, NHL, NFL | No, but a token is required | [Go!](https://www.stattleship.com/#) |
