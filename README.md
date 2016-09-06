@@ -27,6 +27,7 @@ A collective list of JSON APIs for use in web development.
 | Google Safe Browsing | Google Link/Domain Flagging API | No, but a token is required | [Go!](https://developers.google.com/safe-browsing/) |
 | Metacert | Metacert Link Flagging API | No, but a token is required | [Go!](https://metacert.com/) |
 | VirusTotal | VirusTotal File/URL Analysis API | No, but a token is required | [Go!](https://www.virustotal.com/en/documentation/public-api/) |
+| Web Of Trust (WOT) | Website reputation API | No, but `key` string | [Go!](https://www.mywot.com/wiki/API) |
 
 ### Business
 
