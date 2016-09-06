@@ -156,6 +156,7 @@ A collective list of JSON APIs for use in web development.
 | Mapzen Search | Open Source & Open Data Global Geocoding Service | No | [Go!](https://mapzen.com/projects/search) |
 | Mexico | Mexico RESTful zip codes API | No | [Go!](https://github.com/IcaliaLabs/sepomex) |
 | OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
+| OpenStreetMap | Navigation, geolocation and geographical data | Yes | [Go!](http://wiki.openstreetmap.org/wiki/API) |
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
 | Postcodes.io | Postcode & Geolocation API for the UK | No | [Go!](https://postcodes.io) |
 
