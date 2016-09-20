@@ -307,6 +307,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Boston, MA, USA | MBTA API | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents)
 | Transport for Budapest | Budapest public transport API | No | [Go!](http://docs.bkkfutar.apiary.io/) |
 | Transport for Chicago, US | CTA | No | [Go!](http://www.transitchicago.com/developers/) |
+| Transport for Czech Republic | Czech transport API | No | [Go!](http://www.chaps.cz/eng/products/idos-internet) |
 | Transport for Finland | Finnish transport API | No | [Go!](http://digitransit.fi/en/developers/) |
 | Transport for Germany | Deutsche Bahn (DB) API | No, but `authKey` query string | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
 | Transport for Berlin | third-party VBB API | No | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
