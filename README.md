@@ -217,6 +217,7 @@ A collective list of JSON APIs for use in web development.
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | Parts | [Go!](https://developer.spotify.com/web-api/) |
+| Deezer | Music | Yes | [Go!](http://developers.deezer.com/api) |
 
 ### Open Source projects
 
