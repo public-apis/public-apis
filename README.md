@@ -58,6 +58,7 @@ A collective list of JSON APIs for use in web development.
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | Lorem Text | Generates Lorem Ipsum text | No, but requires `X-Mashape-Key` as header | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator)
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!](http://loripsum.net/)
+| Myjson | A simple JSON store for your web or mobile app | No | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | [Go!](https://plino.herokuapp.com/) |
 | Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
 | RandomUser | Generates random user data | No | [Go!](https://randomuser.me) |
