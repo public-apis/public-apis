@@ -207,6 +207,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Discogs | Music | No | [Go!](https://www.discogs.com/developers/) |
+| Deezer | Music | Yes | [Go!](http://developers.deezer.com/api) |
 | EchoNest | Music | No | [Go!](http://developer.echonest.com/docs/v4) |
 | Jamendo | Music | Yes | [Go!](https://developer.jamendo.com/v3.0) |
 | LastFm | Music | No | [Go!](http://www.last.fm/api) |
@@ -217,7 +218,7 @@ A collective list of JSON APIs for use in web development.
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | Parts | [Go!](https://developer.spotify.com/web-api/) |
-| Deezer | Music | Yes | [Go!](http://developers.deezer.com/api) |
+
 
 ### Open Source projects
 
