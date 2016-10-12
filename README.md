@@ -202,6 +202,7 @@ A collective list of JSON APIs for use in web development.
 | Unsplash | Photography | Yes | [Go!](https://unsplash.com/developers) |
 | Video download | Video download API for youtube, rai.it, mediaset.it, la7.it and hundreds of other sites. | No | [Go!](https://api.daniil.it)
 | Wordnik | Dictionary Data API | No | [Go!](http://developer.wordnik.com) |
+| NewsAPI | Use it to display live news headlines and images in your app or on your site | No, but a token is required | [Go!](http://newsapi.org) |
 
 ### Music
 
