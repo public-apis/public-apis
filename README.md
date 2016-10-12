@@ -51,7 +51,7 @@ A collective list of JSON APIs for use in web development.
 | Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io) |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | [Go!] (https://apis.guru/api-doc/) |
 | CDNJS | Library info on CDNJS | No | [Go!](https://api.cdnjs.com/libraries/jquery) |
-| Faceplusplus | A tool to detect face | Yes | [GO!](http://www.faceplusplus.com/uc_home/) |
+| Faceplusplus | A tool to detect face | Yes | [Go!](http://www.faceplusplus.com/uc_home/) |
 | Github - User Data | Pull public information for a user's github | No | [Go!](https://api.github.com/users/hackeryou) |
 | Gitter | Chat for GitHub | Yes | [Go!](https://developer.gitter.im/docs/) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!](http://hipsterjesus.com/)
@@ -178,7 +178,8 @@ A collective list of JSON APIs for use in web development.
 | Chuck Norris Database | Jokes | No | [Go!](http://www.icndb.com/api) |
 | Dribbble | Design | Yes | [Go!](http://developer.dribbble.com/v1/) |
 | File.io | Files | No | [Go!](https://file.io) |
-| Flickr | Flickr Services | Yes | [Go!](https://www.flickr.com/services/api/)
+| Flickr | Flickr Services | Yes | [Go!](https://www.flickr.com/services/api/) |
+| Forismatic |Inspirational Quotes  | No |[Go!](http://forismatic.com/en/api/) |
 | Genius | Crowdsourced lyrics and music knowledge | Yes | [Go!](https://docs.genius.com/)
 | Giphy | Get all your gifs | No | [Go!](https://github.com/Giphy/GiphyAPI) |
 | Good Reads | Books | No | [Go!](https://www.goodreads.com/api) |
