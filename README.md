@@ -243,8 +243,8 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
-| Forismatic |Inspirational Quotes  | No |[Go!](http://forismatic.com/en/api/) |
-| Medium | community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
+| Forismatic | Inspirational Quotes | No | [Go!](http://forismatic.com/en/api/) |
+| Medium | Community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
 | Traitify | Assess, collect, and analyze Personality | No | [Go!](https://developer.traitify.com/) |
 
 ### Science
