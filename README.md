@@ -29,6 +29,22 @@ A collective list of JSON APIs for use in web development.
 | VirusTotal | VirusTotal File/URL Analysis API | No, but a token is required | [Go!](https://www.virustotal.com/en/documentation/public-api/) |
 | Web Of Trust (WOT) | Website reputation API | No, but `key` string | [Go!](https://www.mywot.com/wiki/API) |
 
+### Art & Design
+
+| API | Description | OAuth | Link |
+|---|---|---|---|
+| Dribbble | Design | Yes | [Go!](http://developer.dribbble.com/v1/) |
+| Noun Project | Icons | Yes | [Go!](http://api.thenounproject.com/index.html) |
+| Rijksmuseum| Art | No | [Go!](https://www.rijksmuseum.nl/en/api) |
+
+### Books
+
+| API | Description | OAuth | Link |
+|---|---|---|---|
+| British National Bibliography | Books | No | [Go!](http://bnb.data.bl.uk/) |
+| Good Reads | Books | No | [Go!](https://www.goodreads.com/api) |
+| Google Books | Books | Yes | [Go!](https://developers.google.com/books/)
+
 ### Business
 
 | API | Description | OAuth | Link |
@@ -56,6 +72,7 @@ A collective list of JSON APIs for use in web development.
 | Gitter | Chat for GitHub | Yes | [Go!](https://developer.gitter.im/docs/) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!](http://hipsterjesus.com/)
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
+| LiveCoding | Live Coding Streaming API | Yes | [Go!](https://www.livecoding.tv/developer/applications/)
 | Lorem Text | Generates Lorem Ipsum text | No, but requires `X-Mashape-Key` as header | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator)
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!](http://loripsum.net/)
 | Plino | Spam filtering system | No | [Go!](https://plino.herokuapp.com/) |
@@ -71,6 +88,7 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth |Link |
 |---|---|---|---|
+| File.io | Files | No | [Go!](https://file.io) |
 | pdflayer API | HTML/URL to PDF | No | [Go!](https://pdflayer.com) |
 
 ### Drinks
@@ -101,6 +119,7 @@ A collective list of JSON APIs for use in web development.
 | Open Government, Canada | Canadian Government Open Data | No |[Go!](http://open.canada.ca/en) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
+| Wordnik | Dictionary Data API | No | [Go!](http://developer.wordnik.com) |
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
 
 ### Data Validation
@@ -130,6 +149,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Battle.net | Blizzard API | No | [Go!](https://dev.battle.net/)  |
+| Chuck Norris Database | Jokes | No | [Go!](http://www.icndb.com/api) |
 | Clash of Clans | Clash of Clans API | No | [Go!](https://developer.clashofclans.com) |
 | ClashAPI | Clash Royale API | No | [Go!](https://github.com/martincarrera/clash-royale-api)  |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
@@ -168,41 +188,6 @@ A collective list of JSON APIs for use in web development.
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
 | Nutritionix | Worlds largest verified nutrition database | No, but `apiKey` query string | [Go!](https://developer.nutritionix.com/) |
 
-### Media
-
-| API | Description | OAuth | Link |
-|---|---|---|---|
-| 500px |  Photography Community | Yes | [Go!](https://github.com/500px/api-documentation)
-| An API of Ice And Fire | Game Of Thrones API | No | [Go!](https://anapioficeandfire.com/)
-| British National Bibliography | Books | No | [Go!](http://bnb.data.bl.uk/) |
-| Chuck Norris Database | Jokes | No | [Go!](http://www.icndb.com/api) |
-| Dribbble | Design | Yes | [Go!](http://developer.dribbble.com/v1/) |
-| File.io | Files | No | [Go!](https://file.io) |
-| Flickr | Flickr Services | Yes | [Go!](https://www.flickr.com/services/api/) |
-| Forismatic |Inspirational Quotes  | No |[Go!](http://forismatic.com/en/api/) |
-| Genius | Crowdsourced lyrics and music knowledge | Yes | [Go!](https://docs.genius.com/)
-| Giphy | Get all your gifs | No | [Go!](https://github.com/Giphy/GiphyAPI) |
-| Good Reads | Books | No | [Go!](https://www.goodreads.com/api) |
-| Google Books | Books | Yes | [Go!](https://developers.google.com/books/)
-| HackerNews | Social news for CS and entrepreneurship | No | [Go!](https://github.com/HackerNews/API)
-| Imgur | Images | Yes | [Go!](https://api.imgur.com/#overview) |
-| iTunes Search | Software products API | No | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
-| LiveCoding | Live Coding Streaming API | Yes | [Go!](https://www.livecoding.tv/developer/applications/)
-| Medium | community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
-| MovieDB | Movie Data | No | [Go!](https://www.themoviedb.org/documentation/api) |
-| Netflix Roulette | Netflix database | No | [Go!](http://netflixroulette.net/api/) |
-| Noun Project | Icons | Yes | [Go!](http://api.thenounproject.com/index.html) |
-| OMDB | Open movie database | No | [Go!](http://omdbapi.com) |
-| Reddit | Homepage of the internet | Parts | [Go!](https://www.reddit.com/dev/api)
-| Rijksmuseum| Art | No | [Go!](https://www.rijksmuseum.nl/en/api) |
-| Ron Swanson Quotes | Television | No | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
-| screenshotlayer API | URL 2 Image | No | [Go!](https://screenshotlayer.com) |
-| TVMaze | TV Show Data | No | [Go!](http://www.tvmaze.com/api) |
-| Twitch | Game Streaming API | Yes | [Go!](https://github.com/justintv/Twitch-API) |
-| Unsplash | Photography | Yes | [Go!](https://unsplash.com/developers) |
-| Video download | Video download API for youtube, rai.it, mediaset.it, la7.it and hundreds of other sites. | No | [Go!](https://api.daniil.it)
-| Wordnik | Dictionary Data API | No | [Go!](http://developer.wordnik.com) |
-
 ### Music
 
 | API | Description | OAuth | Link |
@@ -210,7 +195,9 @@ A collective list of JSON APIs for use in web development.
 | Deezer | Music | Yes | [Go!](http://developers.deezer.com/api) |
 | Discogs | Music | No | [Go!](https://www.discogs.com/developers/) |
 | EchoNest | Music | No | [Go!](http://developer.echonest.com/docs/v4) |
+| Genius | Crowdsourced lyrics and music knowledge | Yes | [Go!](https://docs.genius.com/)
 | Jamendo | Music | Yes | [Go!](https://developer.jamendo.com/v3.0) |
+| iTunes Search | Software products API | No | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 | LastFm | Music | No | [Go!](http://www.last.fm/api) |
 | Mixcloud | Music | No | [Go!](https://www.mixcloud.com/developers/) |
 | MusicBrainz | Music | No | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
@@ -219,7 +206,6 @@ A collective list of JSON APIs for use in web development.
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | Parts | [Go!](https://developer.spotify.com/web-api/) |
-
 
 ### Open Source projects
 
@@ -235,6 +221,17 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
 
+#### Photography
+
+| API | Description | OAuth | Link |
+|---|---|---|---|
+| 500px |  Photography Community | Yes | [Go!](https://github.com/500px/api-documentation)
+| Flickr | Flickr Services | Yes | [Go!](https://www.flickr.com/services/api/) |
+| Giphy | Get all your gifs | No | [Go!](https://github.com/Giphy/GiphyAPI) |
+| Imgur | Images | Yes | [Go!](https://api.imgur.com/#overview) |
+| screenshotlayer API | URL 2 Image | No | [Go!](https://screenshotlayer.com) |
+| Unsplash | Photography | Yes | [Go!](https://unsplash.com/developers) |
+
 ### Security
 
 | API | Description | OAuth | Link |
@@ -246,6 +243,8 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
+| Forismatic | Inspirational Quotes | No | [Go!](http://forismatic.com/en/api/) |
+| Medium | Community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
 | Traitify | Assess, collect, and analyze Personality | No | [Go!](https://developer.traitify.com/) |
 
 ### Science
@@ -268,12 +267,15 @@ A collective list of JSON APIs for use in web development.
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Yes | [Go!](https://developers.facebook.com/) |
 | Fuck Off as a Service | Asks someone to fuck off | No | [Go!](https://www.foaas.com) |
 | Full Contact | Get Social Media profiles and contact Information | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
+| HackerNews | Social news for CS and entrepreneurship | No | [Go!](https://github.com/HackerNews/API)
 | Instagram API | Instagram Login, Share on Instagram, Social Plugins and more | Yes | [Go!](https://www.instagram.com/developer/) |
 | LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
 | Telegram MTProto API | Read and write Telegram data | Yes | [Go!](https://core.telegram.org/api#getting-started) |
 | Telegram bot API | Simplified HTTP version of the MTProto API for bots | Yes | [Go!](https://core.telegram.org/bots/api) |
 | PWRTelegram bot API | Boosted version of the Telegram bot API | Yes | [Go!](https://pwrtelegram.xyz) |
+| Reddit | Homepage of the internet | Parts | [Go!](https://www.reddit.com/dev/api)
 | Tumblr API | Read and write Tumblr Data | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
+| Twitch | Game Streaming API | Yes | [Go!](https://github.com/justintv/Twitch-API) |
 | Twitter API | Read and write Twitter data | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | vk API | Read and write vk dat | Yes | [Go!](https://vk.com/dev/sites) |
 | Wit.ai API | Turn speech and text into actionable data | Yes | [Go!](https://wit.ai/docs) |
@@ -350,6 +352,13 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
+| An API of Ice And Fire | Game Of Thrones API | No | [Go!](https://anapioficeandfire.com/)
+| MovieDB | Movie Data | No | [Go!](https://www.themoviedb.org/documentation/api) |
+| Netflix Roulette | Netflix database | No | [Go!](http://netflixroulette.net/api/) |
+| OMDB | Open movie database | No | [Go!](http://omdbapi.com) |
+| Ron Swanson Quotes | Television | No | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
+| TVMaze | TV Show Data | No | [Go!](http://www.tvmaze.com/api) |
+| Video download | Video download API for youtube, rai.it, mediaset.it, la7.it and hundreds of other sites. | No | [Go!](https://api.daniil.it) |
 | Vimeo | Vimeo Developer API | Yes | [Go!](https://developer.vimeo.com/)
 | YouTube | Add YouTube functionality to your sites and apps. | Yes / No | [Go!](https://developers.google.com/youtube/)
 
