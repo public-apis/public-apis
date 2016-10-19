@@ -352,14 +352,15 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
-| An API of Ice And Fire | Game Of Thrones API | No | [Go!](https://anapioficeandfire.com/)
+| An API of Ice And Fire | Game Of Thrones API | No | [Go!](https://anapioficeandfire.com/) |
+| Dailymotion | Dailymotion Developer API | Yes / No | [Go!](https://developer.dailymotion.com/) |
 | MovieDB | Movie Data | No | [Go!](https://www.themoviedb.org/documentation/api) |
 | Netflix Roulette | Netflix database | No | [Go!](http://netflixroulette.net/api/) |
 | OMDB | Open movie database | No | [Go!](http://omdbapi.com) |
 | Ron Swanson Quotes | Television | No | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
 | TVMaze | TV Show Data | No | [Go!](http://www.tvmaze.com/api) |
 | Video download | Video download API for youtube, rai.it, mediaset.it, la7.it and hundreds of other sites. | No | [Go!](https://api.daniil.it) |
-| Vimeo | Vimeo Developer API | Yes | [Go!](https://developer.vimeo.com/)
+| Vimeo | Vimeo Developer API | Yes | [Go!](https://developer.vimeo.com/) |
 | YouTube | Add YouTube functionality to your sites and apps. | Yes / No | [Go!](https://developers.google.com/youtube/)
 
 ### Weather
