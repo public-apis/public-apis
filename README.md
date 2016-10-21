@@ -215,13 +215,15 @@ A collective list of JSON APIs for use in web development.
 | Drupal.org | Drupal.org API | No | [Go!](https://www.drupal.org/drupalorg/api) |
 | Libraries.io | Open source software libraries | No, but `apiKey` query string | [Go!](https://libraries.io/api) |
 
-### Planets
+### Personality
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
-| Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
+| Forismatic | Inspirational Quotes | No | [Go!](http://forismatic.com/en/api/) |
+| Medium | Community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
+| Traitify | Assess, collect, and analyze Personality | No | [Go!](https://developer.traitify.com/) |
 
-#### Photography
+### Photography
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
@@ -232,20 +234,11 @@ A collective list of JSON APIs for use in web development.
 | screenshotlayer API | URL 2 Image | No | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | Yes | [Go!](https://unsplash.com/developers) |
 
-### Security
+### Planets
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
-| AXFR Database | AXFR public database API | No | [Go'](http://api.axfrcheck.com) |
-| UK Police | UK Police data | No | [Go!](https://data.police.uk/docs/) |
-
-### Personality
-
-| API | Description | OAuth | Link |
-|---|---|---|---|
-| Forismatic | Inspirational Quotes | No | [Go!](http://forismatic.com/en/api/) |
-| Medium | Community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
-| Traitify | Assess, collect, and analyze Personality | No | [Go!](https://developer.traitify.com/) |
+| Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
 
 ### Science
 
@@ -258,6 +251,13 @@ A collective list of JSON APIs for use in web development.
 | Sunrise and Sunset | Sunset and sunrise times for a given latitude and longitude. | No | [Go!](http://sunrise-sunset.org/api) |
 | USGS Earthquake Hazards Program | Earthquakes data real-time | No | [Go!](http://earthquake.usgs.gov/fdsnws/event/1/) |
 | World Bank | World Data | No | [Go!](http://data.worldbank.org/developers) |
+
+### Security
+
+| API | Description | OAuth | Link |
+|---|---|---|---|
+| AXFR Database | AXFR public database API | No | [Go'](http://api.axfrcheck.com) |
+| UK Police | UK Police data | No | [Go!](https://data.police.uk/docs/) |
 
 ### Social
 
@@ -295,7 +295,6 @@ A collective list of JSON APIs for use in web development.
 | Stattleship | MLB, NBA, NHL, NFL | No, but a token is required | [Go!](https://www.stattleship.com/#) |
 | Strava API | Connect with athletes, activities and more | [Yes](https://strava.github.io/api/v3/oauth/)| [Go!](https://strava.github.io/api/)|
 | wger API | Workout manager data as exercises, muscles or equipments | No, but `apiKey` query string | [Go!](https://wger.de/en/software/api) |
-
 
 ### Transportation
 
