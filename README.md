@@ -337,6 +337,7 @@ A collective list of JSON APIs for use in web development.
 | Transport for Washington, US | Washington Metro transport API | Yes | [Go!](https://developer.wmata.com/) |
 | Transport for Madrid, Spain | Madrid BUS transport API | No, but apiKey query string |[Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
 | Transport for Auckland, New Zealand | Auckland Transport API  | No | [Go!](https://api.at.govt.nz/) |
+| WhereIsMyTransport | Platform for public transport data in emerging cities  | Yes | [Go!](https://developer.whereismytransport.com/) |
 
 ### University
 
