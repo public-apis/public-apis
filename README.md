@@ -371,6 +371,6 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Dark Sky Forecast API | Weather | No, but  `apiKey` query string | [Go!](https://developer.forecast.io/) |
-| OpenWeatherMap | Weather | No | [Go!](http://openweathermap.org/api) |
+| OpenWeatherMap | Weather | No, but  `apiKey` query string | [Go!](http://openweathermap.org/api) |
 | Wunderground | Weather | No | [Go!](http://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | [Go!](https://developer.yahoo.com/weather/) |
