@@ -119,6 +119,7 @@ A collective list of JSON APIs for use in web development.
 | Open Government, Australia | Australian Government Open Data | No |[Go!](https://www.data.gov.au/) |
 | Open Government, USA | United States Government Open Data | No |[Go!](https://www.data.gov/) |
 | Open Government, Canada | Canadian Government Open Data | No |[Go!](http://open.canada.ca/en) |
+| Open Government Data, India | Indian Government Open Data | No, but a token is required | [Go!](https://data.gov.in/) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Wordnik | Dictionary Data API | No | [Go!](http://developer.wordnik.com) |
