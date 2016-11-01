@@ -183,6 +183,8 @@ A collective list of JSON APIs for use in web development.
 | OpenStreetMap | Navigation, geolocation and geographical data | Yes | [Go!](http://wiki.openstreetmap.org/wiki/API) |
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
 | Postcodes.io | Postcode & Geolocation API for the UK | No | [Go!](https://postcodes.io) |
+| timezonedb | Time Zone Database | No | [Go!](https://timezonedb.com/) |
+
 
 ### Health
 
