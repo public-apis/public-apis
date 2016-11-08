@@ -211,6 +211,13 @@ A collective list of JSON APIs for use in web development.
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | Parts | [Go!](https://developer.spotify.com/web-api/) |
 
+
+### News
+
+| API | Description | OAuth | Link |
+|---|---|---|---|
+| New York Times | Provides news | No, but `apikey` is required | [Go!](https://developer.nytimes.com/) |
+
 ### Open Source projects
 
 | API | Description | OAuth | Link |
