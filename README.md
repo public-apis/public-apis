@@ -237,18 +237,13 @@ A collective list of JSON APIs for use in web development.
 | screenshotlayer API | URL 2 Image | No | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | Yes | [Go!](https://unsplash.com/developers) |
 
-### Planets
-
-| API | Description | OAuth | Link |
-|---|---|---|---|
-| Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
-
 ### Science
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Fedger.io | Query machine intelligence data | No | [Go!](https://dev.fedger.io/docs/) |
 | inspirehep.net | High Energy Physics info. system | No | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
+| Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
 | NASA | NASA data, including imagery | No | [Go!](https://api.nasa.gov) |
 | Open Notify | ISS astronauts, current location API | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Sunrise and Sunset | Sunset and sunrise times for a given latitude and longitude. | No | [Go!](http://sunrise-sunset.org/api) |
