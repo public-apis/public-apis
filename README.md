@@ -211,11 +211,11 @@ A collective list of JSON APIs for use in web development.
 | Spotify | Music | Parts | [Go!](https://developer.spotify.com/web-api/) |
 
 
-### NEWS
+### News
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
-| New York Times | Provides News | No, but apikey is required | [Go!](https://developer.nytimes.com/) |
+| New York Times | Provides News | No, but '''apikey''' is required | [Go!](https://developer.nytimes.com/) |
 
 ### Open Source projects
 
