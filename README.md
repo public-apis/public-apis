@@ -196,7 +196,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | Deezer | Music | Yes | [Go!](http://developers.deezer.com/api) |
-| Discogs | Music | No | [Go!](https://www.discogs.com/developers/) |
+| Discogs | Music | Yes | [Go!](https://www.discogs.com/developers/) |
 | EchoNest | Music | No | [Go!](http://developer.echonest.com/docs/v4) |
 | Genius | Crowdsourced lyrics and music knowledge | Yes | [Go!](https://docs.genius.com/)
 | Jamendo | Music | Yes | [Go!](https://developer.jamendo.com/v3.0) |
