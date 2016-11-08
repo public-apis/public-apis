@@ -215,7 +215,7 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
-| New York Times | Provides news | No, but '''apikey''' is required | [Go!](https://developer.nytimes.com/) |
+| New York Times | Provides news | No, but `apikey` is required | [Go!](https://developer.nytimes.com/) |
 
 ### Open Source projects
 
