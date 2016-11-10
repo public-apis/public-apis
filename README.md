@@ -191,6 +191,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
 | Nutritionix | Worlds largest verified nutrition database | No, but `apiKey` query string | [Go!](https://developer.nutritionix.com/) |
+| Makeup API | Worlds only makeup API | No | [Go!](http://makeup-api.herokuapp.com/) |
 
 ### Music
 
