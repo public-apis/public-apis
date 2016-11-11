@@ -279,6 +279,7 @@ A collective list of JSON APIs for use in web development.
 | LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
 | Telegram MTProto API | Read and write Telegram data | Yes | [Go!](https://core.telegram.org/api#getting-started) |
 | Telegram bot API | Simplified HTTP version of the MTProto API for bots | Yes | [Go!](https://core.telegram.org/bots/api) |
+| Pinterest API | The world's catalog of ideas | Yes | [Go!](https://developers.pinterest.com/) |
 | PWRTelegram bot API | Boosted version of the Telegram bot API | Yes | [Go!](https://pwrtelegram.xyz) |
 | Reddit | Homepage of the internet | Parts | [Go!](https://www.reddit.com/dev/api)
 | Tumblr API | Read and write Tumblr Data | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
