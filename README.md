@@ -234,6 +234,7 @@ A collective list of JSON APIs for use in web development.
 |---|---|---|---|
 | Forismatic | Inspirational Quotes | No | [Go!](http://forismatic.com/en/api/) |
 | Medium | Community of readers and writers offering unique perspectives on ideas. | Yes | [Go!](https://github.com/Medium/medium-api-docs)
+| Quotes on Design | Inspirational Quotes | No | [Go!](https://quotesondesign.com/api-v4-0/) |
 | Traitify | Assess, collect, and analyze Personality | No | [Go!](https://developer.traitify.com/) |
 
 ### Photography
