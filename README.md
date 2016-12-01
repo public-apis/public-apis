@@ -174,6 +174,7 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | GeoNames | Place names and other geographical data | No | [Go!](http://www.geonames.org/export/web-services.html) |
+| GéoApi | French geographical data | No | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Google Maps API | Create/customize digital maps based on Google Maps data | No, but `apiKey` query string | [Go!](https://developers.google.com/maps/) |
 | IP 2 Country | Map an IP to a country | No | [Go!](https://ip2country.info) |
 | IP Address Details| Find geolocation with ip address | No | [Go!](https://ipinfo.io/) |
