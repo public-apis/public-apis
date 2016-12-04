@@ -49,6 +49,7 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
+| mailgun | Email Service API | No, but apiKey query string | [Go!](http://www.mailgun.com/) |
 | markerapi | Trademark Search API | No | [Go!](http://www.markerapi.com/) |
 
 ### Calendar
