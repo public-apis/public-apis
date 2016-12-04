@@ -121,6 +121,7 @@ A collective list of JSON APIs for use in web development.
 | Open Government, Canada | Canadian Government Open Data | No |[Go!](http://open.canada.ca/en) |
 | Open Government Data, India | Indian Government Open Data | No, but a token is required | [Go!](https://data.gov.in/) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
+| Scoop.it | Content Curation Service | No, but apiKey query string |[Go!](https://www.scoop.it/dev) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Wordnik | Dictionary Data API | No | [Go!](http://developer.wordnik.com) |
 | Yelp | Find Local Business | Yes |[Go!](https://www.yelp.com/developers) |
