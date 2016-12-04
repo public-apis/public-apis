@@ -60,6 +60,13 @@ A collective list of JSON APIs for use in web development.
 | Holidays | Free API for obtaining information about holidays. | No | [Go!](http://holidayapi.com/) |
 | Non-working days API | Database of ICS files for non working days | No | [Go!](https://github.com/gadael/icsdb) |
 
+### Currency Exchange
+
+| API | Description | OAuth | Link |
+|---|---|---|---|
+| Currencylayer | Exchange rates and currency conversion | No, but `apiKey` query string | [Go!](https://currencylayer.com/documentation) |
+| Fixer.io | JSON API for foreign exchange rates and currency conversion | No | [Go!](http://fixer.io) |
+
 ### Development
 
 | API | Description | OAuth | Link |
@@ -139,13 +146,6 @@ A collective list of JSON APIs for use in web development.
 | API | Description | OAuth | Link |
 |---|---|---|---|
 | PM2.5.in | PM2.5 Data of China | No, but apiKey query string | [Go!](http://www.pm25.in/api_doc) |
-
-### Exchange
-
-| API | Description | OAuth | Link |
-|---|---|---|---|
-| Currencylayer | Exchange rates and currency conversion | No, but `apiKey` query string | [Go!](https://currencylayer.com/documentation) |
-| Fixer.io | JSON API for foreign exchange rates and currency conversion | No | [Go!](http://fixer.io) |
 
 ### Games & Comics
 
@@ -383,3 +383,4 @@ A collective list of JSON APIs for use in web development.
 | OpenWeatherMap | Weather | No, but  `apiKey` query string | [Go!](http://openweathermap.org/api) |
 | Wunderground | Weather | No | [Go!](http://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | [Go!](https://developer.yahoo.com/weather/) |
+
