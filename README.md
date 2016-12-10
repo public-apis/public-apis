@@ -4,6 +4,40 @@ A collective list of JSON APIs for use in web development.
 
 > While I appreciate the masses of pull requests and community involvement, some PRs have been specifically to market company APIs that offer paid for solutions. This API list is not a marketing tool, but a tool to help the community build applications and use free public APIs quickly and easily. Pull requests that explicitly are marketing attempts won't be accepted, thanks for understanding! :)
 
+## Index
+
+* [Animals](#animals)
+* [Anime](#anime)
+* [Anti-Malware](#anti-malware)
+* [Art & Design](#art--design)
+* [Books](#books)
+* [Business](#business)
+* [Calendar](#calendar)
+* [Currency Exchange](#currency-exchange)
+* [Development](#development)
+* [Documents & Productivity](#documents--productivity)
+* [Drinks](#drinks)
+* [Data Access](#data-access)
+* [Data Validation](#data-validation)
+* [Environment](#environment)
+* [Games & Comics](#games--comics)
+* [Geocoding](#geocoding)
+* [Health](#health)
+* [Music](#music)
+* [News](#news)
+* [Open Source projects](#open-source-projects)
+* [Personality](#personality)
+* [Photography](#photography)
+* [Science](#science)
+* [Security](#security)
+* [Social](#social)
+* [Sports/Fitness](#sportsfitness)
+* [Transportation](#transportation)
+* [University](#university)
+* [Vehicle](#vehicle)
+* [Video](#video)
+* [Weather](#weather)
+
 ### Animals
 
 | API | Description | OAuth | Link |
