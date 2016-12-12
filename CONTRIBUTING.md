@@ -15,12 +15,16 @@ Current API entry format:
 | API Title | Description of API | Does this API require authentication? * | Link to API webpage |
 
 Example entry:
+
 ```
 | NASA | NASA data, including imagery | No | [Go!](https://api.nasa.gov) |
 ```
-*currently, the only accepted inputs for this field are as follows:
-* OAuth - _the API supports [OAuth][oauth-link]_
-* apiKey - _the API uses a private key string/token for authentication_
+
+Currently, the only accepted inputs for this field are as follows:
+
+* `oAuth` - _the API supports oAuth_
+* `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
+* `X-Mashape-Key` - _the name of the header which may need to be sent
 * No - _the API requires no authentication to run_
 
 ##Pull Request
