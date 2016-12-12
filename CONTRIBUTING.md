@@ -47,10 +47,11 @@ Other contributors and users may chime in, but ultimately the decision is made b
 During the discussion, you may be asked to make some changes to your pull request.
 If so, add more commits to your branch and push them – they will automatically go into the existing pull request!
 
+[branch-link]: <http://guides.github.com/introduction/flow/>
 [clone-link]: <https://help.github.com/articles/cloning-a-repository/>
 [fork-link]: <http://guides.github.com/activities/forking/>
-[branch-link]: <http://guides.github.com/introduction/flow/>
-[syncing-link]: <https://help.github.com/articles/syncing-a-fork>
 [oauth-link]: <https://en.wikipedia.org/wiki/OAuth>
 [pr-link]: <https://help.github.com/articles/creating-a-pull-request/>
 [remote-link]: <https://help.github.com/articles/adding-a-remote/>
+[syncing-link]: <https://help.github.com/articles/syncing-a-fork>
+
