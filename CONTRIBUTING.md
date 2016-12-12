@@ -27,6 +27,8 @@ Currently, the only accepted inputs for this field are as follows:
 * `X-Mashape-Key` - _the name of the header which may need to be sent
 * No - _the API requires no authentication to run_
 
+Please continue to follow the alphabetical ordering that is in place.
+
 ##Pull Request
 
 After you've created a branch on your fork with your changes, it's time to [make a pull request][pr-link]!
