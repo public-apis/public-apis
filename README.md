@@ -2,6 +2,8 @@
 
 A collective list of JSON APIs for use in web development.
 
+For information on contributing to this project, please see the [contributing guide](CONTRIBUTING.md).
+
 ## Index
 
 * [Animals](#animals)
