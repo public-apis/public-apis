@@ -31,8 +31,7 @@ Currently, the only accepted inputs for this field are as follows:
 
 After you've created a branch on your fork with your changes, it's time to [make a pull request][pr-link]!
 
-Once you’ve submitted a pull request, the collaborators can review your proposed changes and decide whether or not to incorporate
-(pull in) your changes.
+Once you’ve submitted a pull request, the collaborators can review your proposed changes and decide whether or not to incorporate (pull in) your changes.
 
 ###Pull Request Pro Tips
 
@@ -47,8 +46,11 @@ and for others to understand and maintain in the future.
 ###Open Pull Requests
 
 Once you’ve opened a pull request, a discussion will start around your proposed changes.
+
 Other contributors and users may chime in, but ultimately the decision is made by the collaborators.
+
 During the discussion, you may be asked to make some changes to your pull request.
+
 If so, add more commits to your branch and push them – they will automatically go into the existing pull request!
 
 [branch-link]: <http://guides.github.com/introduction/flow/>
