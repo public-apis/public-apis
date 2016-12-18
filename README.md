@@ -227,6 +227,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | Link |
 |---|---|---|---|
 | Diabetes API | Logging and retrieving diabetes information | No | [Go!](http://predictbgl.com/api) |
+| Flutrack API | Influenza-like symptoms with geotracking | No | [Go!](http://www.flutrack.org/) |
 | Makeup API | Worlds only makeup API | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` query string | [Go!](https://developer.nutritionix.com/) |
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
