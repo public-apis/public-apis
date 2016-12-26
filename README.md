@@ -281,6 +281,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|
 | 500px |  Photography Community | `oAuth` | [Go!](https://github.com/500px/api-documentation)
 | Flickr | Flickr Services | `oAuth` | [Go!](https://www.flickr.com/services/api/) |
+| Gfycat | Jiffier GIFs | `oAuth` | [Go!](https://developers.gfycat.com/api/) |
 | Giphy | Get all your gifs | No | [Go!](https://github.com/Giphy/GiphyAPI) |
 | Imgur | Images | `oAuth` | [Go!](https://api.imgur.com/#overview) |
 | screenshotlayer API | URL 2 Image | No | [Go!](https://screenshotlayer.com) |
