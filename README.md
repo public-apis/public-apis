@@ -101,6 +101,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | Link |
 |---|---|---|---|
 | Dropbox | File Sharing and Storage | `oAuth` | [Go!](https://www.dropbox.com/developers) |
+| Google Drive | File Sharing and Storage | `oAuth` | [Go!](https://developers.google.com/drive/) |
 
 ### Currency Exchange
 
