@@ -112,18 +112,19 @@ For information on contributing to this project, please see the [contributing gu
 | Faceplusplus | A tool to detect face | `oAuth` | [Go!](http://www.faceplusplus.com/uc_home/) |
 | Github - User Data | Pull public information for a user's github | No | [Go!](https://api.github.com/users/hackeryou) |
 | Gitter | Chat for GitHub | `oAuth` | [Go!](https://developer.gitter.im/docs/) |
-| Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!](http://hipsterjesus.com/)
+| Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!](http://hipsterjesus.com/) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
-| LiveCoding | Live Coding Streaming API | `oAuth` | [Go!](https://www.livecoding.tv/developer/applications/)
-| Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` as header | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator)
-| Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!](http://loripsum.net/)
+| LiveCoding | Live Coding Streaming API | `oAuth` | [Go!](https://www.livecoding.tv/developer/applications/) |
+| Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` as header | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
+| Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!](http://loripsum.net/) |
 | Myjson | A simple JSON store for your web or mobile app | No | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | [Go!](https://plino.herokuapp.com/) |
 | Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
 | RandomUser | Generates random user data | No | [Go!](https://randomuser.me) |
-| ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | [Go!](http://reqres.in/)
+| ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | [Go!](http://reqres.in/) |
 | RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
-| StackExchange | The All-in-one API for StackExchange sites | `oAuth` | [Go!](https://api.stackexchange.com/)
+| StackExchange | The All-in-one API for StackExchange sites | `oAuth` | [Go!](https://api.stackexchange.com/) |
+| Stormpath | User Authentication API | `apiKey` | [Go!](https://stormpath.com/) |
 | UI Faces | Find and generate sample avatars for user interfaces | No | [Go!](http://uifaces.com/api) |
 | UI Names | Generate random fake names | No | [Go!](https://github.com/thm/uinames) |
 
