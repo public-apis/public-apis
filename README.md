@@ -77,7 +77,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|
 | British National Bibliography | Books | No | [Go!](http://bnb.data.bl.uk/) |
 | Good Reads | Books | No | [Go!](https://www.goodreads.com/api) |
-| Google Books | Books | `oAuth` | [Go!](https://developers.google.com/books/)
+| Google Books | Books | `oAuth` | [Go!](https://developers.google.com/books/) |
 
 ### Business
 
@@ -143,7 +143,7 @@ For information on contributing to this project, please see the [contributing gu
 | BreweryDB | Beer | `apiKey` query string |[Go!](http://www.brewerydb.com/developers) |
 | LCBO API | Alcohol | `apiKey` query string |[Go!](https://lcboapi.com/) |
 | PunkAPI | Brewdog Beer Recipes | No | [Go!](https://punkapi.com/) |
-| Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/)
+| Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/) |
 | Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
 
 ### Data Access
@@ -194,10 +194,10 @@ For information on contributing to this project, please see the [contributing gu
 | ClashAPI | Clash Royale API | No | [Go!](https://github.com/martincarrera/clash-royale-api)  |
 | Comic Vine | Comics | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
 | Deck of Cards | Deck of Cards API | No | [Go!](http://deckofcardsapi.com/)  |
-| Eve Online | Third-Party Developer Documentation API | `oAuth` required for some parts | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/)  |
+| Eve Online | Third-Party Developer Documentation API | `oAuth` required for some parts | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
 | Giant Bomb | Video Games | No |[Go!](http://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 API | `apiKey` query string (for some routes) | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
-| Magic the gathering | Magic the gathering API | No | [Go!](http://magicthegathering.io/)  |
+| Magic the gathering | Magic the gathering API | No | [Go!](http://magicthegathering.io/) |
 | Marvel | Marvel Comics API | No | [Go!](http://developer.marvel.com) |
 | Minecraft | Minecraft API (For server info & user info) | No |[Go!](https://mcapi.ca/) |
 | Open Trivia | Trivia API | No | [Go!](https://opentdb.com/api_config.php) |
@@ -240,7 +240,7 @@ For information on contributing to this project, please see the [contributing gu
 | Deezer | Music | `oAuth` | [Go!](http://developers.deezer.com/api) |
 | Discogs | Music | `oAuth` | [Go!](https://www.discogs.com/developers/) |
 | EchoNest | Music | No | [Go!](http://developer.echonest.com/docs/v4) |
-| Genius | Crowdsourced lyrics and music knowledge | `oAuth` | [Go!](https://docs.genius.com/)
+| Genius | Crowdsourced lyrics and music knowledge | `oAuth` | [Go!](https://docs.genius.com/) |
 | Jamendo | Music | `oAuth` | [Go!](https://developer.jamendo.com/v3.0) |
 | iTunes Search | Software products API | No | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 | LastFm | Music | No | [Go!](http://www.last.fm/api) |
@@ -272,7 +272,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | Link |
 |---|---|---|---|
 | Forismatic | Inspirational Quotes | No | [Go!](http://forismatic.com/en/api/) |
-| Medium | Community of readers and writers offering unique perspectives on ideas. | `oAuth` | [Go!](https://github.com/Medium/medium-api-docs)
+| Medium | Community of readers and writers offering unique perspectives on ideas. | `oAuth` | [Go!](https://github.com/Medium/medium-api-docs) |
 | Quotes on Design | Inspirational Quotes | No | [Go!](https://quotesondesign.com/api-v4-0/) |
 | Traitify | Assess, collect, and analyze Personality | No | [Go!](https://developer.traitify.com/) |
 
@@ -280,7 +280,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | Link |
 |---|---|---|---|
-| 500px |  Photography Community | `oAuth` | [Go!](https://github.com/500px/api-documentation)
+| 500px |  Photography Community | `oAuth` | [Go!](https://github.com/500px/api-documentation) |
 | Flickr | Flickr Services | `oAuth` | [Go!](https://www.flickr.com/services/api/) |
 | Gfycat | Jiffier GIFs | `oAuth` | [Go!](https://developers.gfycat.com/api/) |
 | Giphy | Get all your gifs | No | [Go!](https://github.com/Giphy/GiphyAPI) |
@@ -316,14 +316,14 @@ For information on contributing to this project, please see the [contributing gu
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | `oAuth` | [Go!](https://developers.facebook.com/) |
 | Fuck Off as a Service | Asks someone to fuck off | No | [Go!](https://www.foaas.com) |
 | Full Contact | Get Social Media profiles and contact Information | `oAuth` | [Go!](https://www.fullcontact.com/developer/docs/) |
-| HackerNews | Social news for CS and entrepreneurship | No | [Go!](https://github.com/HackerNews/API)
+| HackerNews | Social news for CS and entrepreneurship | No | [Go!](https://github.com/HackerNews/API) |
 | Instagram API | Instagram Login, Share on Instagram, Social Plugins and more | `oAuth` | [Go!](https://www.instagram.com/developer/) |
 | LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | `oAuth` | [Go!](https://developer.linkedin.com/docs/rest-api) |
 | Telegram MTProto API | Read and write Telegram data | `oAuth` | [Go!](https://core.telegram.org/api#getting-started) |
 | Telegram bot API | Simplified HTTP version of the MTProto API for bots | `oAuth` | [Go!](https://core.telegram.org/bots/api) |
 | Pinterest API | The world's catalog of ideas | `oAuth` | [Go!](https://developers.pinterest.com/) |
 | PWRTelegram bot API | Boosted version of the Telegram bot API | `oAuth` | [Go!](https://pwrtelegram.xyz) |
-| Reddit | Homepage of the internet | `oAuth` required for some parts | [Go!](https://www.reddit.com/dev/api)
+| Reddit | Homepage of the internet | `oAuth` required for some parts | [Go!](https://www.reddit.com/dev/api) |
 | Tumblr API | Read and write Tumblr Data | `oAuth` | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 | Twitch | Game Streaming API | `oAuth` | [Go!](https://github.com/justintv/Twitch-API) |
 | Twitter API | Read and write Twitter data | `oAuth` | [Go!](https://dev.twitter.com/rest/public) |
@@ -335,14 +335,14 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | Link |
 |---|---|---|---|
 | City Bikes API | City Bikes around the world | No | [Go!](http://api.citybik.es/v2/) |
-| Ergast F1 API | F1 data from the beginning of the world championships in 1950 | No | [Go!](http://ergast.com/mrd/)
+| Ergast F1 API | F1 data from the beginning of the world championships in 1950 | No | [Go!](http://ergast.com/mrd/) |
 | FitBit | FitBit API | No | [Go!](https://dev.fitbit.com) |
 | Football-Data.org | Football Data | No | [Go!](http://api.football-data.org) |
 | JCDecaux Bike API | JCDecaux's self-service bicycles | `apiKey` query string | [Go!](https://developer.jcdecaux.com/) |
 | Cricket Live Scores | live-score | `X-Mashape-Key` as header | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
 | NFL Arrests | NFL Arrest Data | No | [Go!](http://nflarrest.com/api/) |
 | Pro Motocross API | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | [Go!](http://promotocrossapi.com) |
-| Strava API | Connect with athletes, activities and more | [`oAuth`](https://strava.github.io/api/v3/oauth/)| [Go!](https://strava.github.io/api/)|
+| Strava API | Connect with athletes, activities and more | [`oAuth`](https://strava.github.io/api/v3/oauth/)| [Go!](https://strava.github.io/api/) |
 | wger API | Workout manager data as exercises, muscles or equipments | `apiKey` query string | [Go!](https://wger.de/en/software/api) |
 
 ### Transportation
@@ -355,10 +355,10 @@ For information on contributing to this project, please see the [contributing gu
 | Indian Railways | Indian Railways API | `token` |[Go!](http://api.erail.in/) |
 | The Nomad List | A list of the best places to live/work remotely | No | [Go!](https://nomadlist.com/faq) |
 | Schiphol Airport API | Schiphol | `oAuth` | [Go!](https://flight-info.3scale.net/) |
-| TransitLand | Transit Aggregation | No | [Go!](https://transit.land/documentation/datastore/api-endpoints.html)
+| TransitLand | Transit Aggregation | No | [Go!](https://transit.land/documentation/datastore/api-endpoints.html) |
 | Transport for Atlanta, US | Marta | No | [Go!](http://www.itsmarta.com/developers/data-sources/marta-bus-realtime-restful-api.aspx) |
 | Transport for Belgium | Belgian transport API | No | [Go!](https://hello.irail.be/api/) |
-| Transport for Boston, MA, USA | MBTA API | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents)
+| Transport for Boston, MA, USA | MBTA API | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents) |
 | Transport for Budapest | Budapest public transport API | No | [Go!](http://docs.bkkfutar.apiary.io/) |
 | Transport for Chicago, US | CTA | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Czech Republic | Czech transport API | No | [Go!](http://www.chaps.cz/eng/products/idos-internet) |
@@ -411,7 +411,7 @@ For information on contributing to this project, please see the [contributing gu
 | TVMaze | TV Show Data | No | [Go!](http://www.tvmaze.com/api) |
 | Video download | Video download API for youtube, rai.it, mediaset.it, la7.it and hundreds of other sites. | No | [Go!](https://api.daniil.it) |
 | Vimeo | Vimeo Developer API | `oAuth` | [Go!](https://developer.vimeo.com/) |
-| YouTube | Add YouTube functionality to your sites and apps. | `oAuth` required for some parts | [Go!](https://developers.google.com/youtube/)
+| YouTube | Add YouTube functionality to your sites and apps. | `oAuth` required for some parts | [Go!](https://developers.google.com/youtube/) |
 
 ### Weather
 
