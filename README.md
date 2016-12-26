@@ -103,6 +103,7 @@ For information on contributing to this project, please see the [contributing gu
 | Box | File Sharing and Storage | `oAuth` | [Go!](https://developer.box.com/) |
 | Dropbox | File Sharing and Storage | `oAuth` | [Go!](https://www.dropbox.com/developers) |
 | Google Drive | File Sharing and Storage | `oAuth` | [Go!](https://developers.google.com/drive/) |
+| OneDrive | File Sharing and Storage | `oAuth` | [Go!](https://dev.onedrive.com/) |
 
 ### Currency Exchange
 
