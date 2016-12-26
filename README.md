@@ -13,6 +13,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Books](#books)
 * [Business](#business)
 * [Calendar](#calendar)
+* [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
 * [Currency Exchange](#currency-exchange)
 * [Development](#development)
 * [Documents & Productivity](#documents--productivity)
@@ -94,6 +95,12 @@ For information on contributing to this project, please see the [contributing gu
 | Date and Time | Global Date and Time | No | [Go!](http://www.timeanddate.com/services/api/) |
 | Holidays | Free API for obtaining information about holidays. | No | [Go!](http://holidayapi.com/) |
 | Non-working days API | Database of ICS files for non working days | No | [Go!](https://github.com/gadael/icsdb) |
+
+### Cloud Storage & File Sharing
+
+| API | Description | Auth | Link |
+|---|---|---|---|
+| Dropbox | File Sharing and Storage | `oAuth` | [Go!](https://www.dropbox.com/developers) |
 
 ### Currency Exchange
 
