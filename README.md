@@ -293,6 +293,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|
 | Fedger.io | Query machine intelligence data | No | [Go!](https://dev.fedger.io/docs/) |
 | inspirehep.net | High Energy Physics info. system | No | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
+| Launch Library | Upcoming Space Launches | No | [Go!](https://launchlibrary.net/1.2/docs/api.html) |
 | Minor Planet Center | Asterank.com API | No | [Go!](http://www.asterank.com/mpc) |
 | NASA | NASA data, including imagery | No | [Go!](https://api.nasa.gov) |
 | Open Notify | ISS astronauts, current location API | No | [Go!](http://open-notify.org/Open-Notify-API/) |
