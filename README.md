@@ -52,7 +52,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | Link |
 |---|---|---|---|
 | AniList | AniList Anime API | `oAuth` | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
-| Kitsu | Kitsu Anime API | No | [Go!](http://docs.kitsu17.apiary.io/) |
+| Kitsu | Kitsu Anime API | `oAuth` | [Go!](http://docs.kitsu17.apiary.io/) |
 
 ### Anti-Malware
 
