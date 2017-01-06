@@ -173,6 +173,7 @@ For information on contributing to this project, please see the [contributing gu
 | Open Government, USA | United States Government Open Data | No |[Go!](https://www.data.gov/) |
 | Open Government, Canada | Canadian Government Open Data | No |[Go!](http://open.canada.ca/en) |
 | Open Government Data, India | Indian Government Open Data | `token` | [Go!](https://data.gov.in/) |
+| Pearson | Dictionary Data API | `apiKey` query string |[Go!](http://developer.pearson.com/apis/dictionaries) |
 | Quandl API | Stock Market Data | No |[Go!](https://www.quandl.com/) |
 | Scoop.it | Content Curation Service | `apiKey` query string |[Go!](https://www.scoop.it/dev) |
 | Wikipedia | Mediawiki API | No |[Go!](https://www.mediawiki.org/wiki/API:Main_page) |
