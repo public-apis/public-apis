@@ -418,7 +418,7 @@ For information on contributing to this project, please see the [contributing gu
 | Dailymotion | Dailymotion Developer API | `oAuth` required for some parts | [Go!](https://developer.dailymotion.com/) |
 | MovieDB | Movie Data | `apiKey` | [Go!](https://www.themoviedb.org/documentation/api) |
 | Netflix Roulette | Netflix database | No | [Go!](http://netflixroulette.net/api/) |
-| OMDB | Open movie database | No | [Go!](http://omdbapi.com) |
+| OMDB | Open movie database | No | [Go!](https://omdbapi.com/) |
 | Ron Swanson Quotes | Television | No | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
 | TVMaze | TV Show Data | No | [Go!](http://www.tvmaze.com/api) |
 | Video download | Video download API for youtube, rai.it, mediaset.it, la7.it and hundreds of other sites. | No | [Go!](https://api.daniil.it) |
