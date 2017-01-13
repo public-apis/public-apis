@@ -213,7 +213,7 @@ For information on contributing to this project, please see the [contributing gu
 | Minecraft | Minecraft API (For server info & user info) | No |[Go!](https://mcapi.ca/) |
 | Open Trivia | Trivia API | No | [Go!](https://opentdb.com/api_config.php) |
 | Pokéapi | The RESTful Pokémon API | No |[Go!](http://pokeapi.co) |
-| Riot Games | The RESTful League of Legends API | No |[Go!](https://developer.riotgames.com/) |
+| Riot Games | The RESTful League of Legends API | `apiKey` |[Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client API | `oAuth` | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | SWAPI | Star Wars API | No |[Go!](https://swapi.co) |
 
