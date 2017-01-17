@@ -23,6 +23,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
 * [Health](#health)
+* [Machine Learning](#machine-learning)
 * [Music](#music)
 * [News](#news)
 * [Open Source projects](#open-source-projects)
@@ -231,6 +232,12 @@ For information on contributing to this project, please see the [contributing gu
 | Makeup API | Worlds only makeup API | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` query string | [Go!](https://developer.nutritionix.com/) |
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
+
+### Machine Learning
+
+| API | Description | Auth | Link |
+|---|---|---|---|
+| Clarifai | Computer Vision API | `oAuth` | [Go!](https://predictbgl.com/api) |
 
 ### Music
 
