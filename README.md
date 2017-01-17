@@ -238,6 +238,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | Link |
 |---|---|---|---|
 | Clarifai | Computer Vision API | `oAuth` | [Go!](https://predictbgl.com/api) |
+| Wit.ai | Natural Language Processing | `oAuth` | [Go!](https://wit.ai/) |
 
 ### Music
 
