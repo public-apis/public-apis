@@ -29,7 +29,7 @@ Currently, the only accepted inputs for this field are as follows:
 
 Please continue to follow the alphabetical ordering that is in place per section. 
 
-If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is lsted under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
+If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
 
 ##Pull Request
 
