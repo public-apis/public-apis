@@ -221,7 +221,6 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | Link |
 |---|---|---|---|
-| Foursquare API | Access Foursquare's places database | `oAuth` | [Go!](https://developer.foursquare.com/) |
 | GeoNames | Place names and other geographical data | No | [Go!](http://www.geonames.org/export/web-services.html) |
 | GéoApi | French geographical data | No | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Google Maps API | Create/customize digital maps based on Google Maps data | `apiKey` query string | [Go!](https://developers.google.com/maps/) |
@@ -327,7 +326,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|
 | Discord bot API | Make bots for Discord | `oAuth` | [Go!](https://discordapp.com/developers/docs/intro) |
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | `oAuth` | [Go!](https://developers.facebook.com/) |
-| Foursquare API | Interact with Foursquare users and venues (checkins, photos, tips, events, etc) | `oAuth` | [Go!](https://developer.foursquare.com/) |
+| Foursquare API | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | `oAuth` | [Go!](https://developer.foursquare.com/) |
 | Fuck Off as a Service | Asks someone to fuck off | No | [Go!](https://www.foaas.com) |
 | Full Contact | Get Social Media profiles and contact Information | `oAuth` | [Go!](https://www.fullcontact.com/developer/docs/) |
 | HackerNews | Social news for CS and entrepreneurship | No | [Go!](https://github.com/HackerNews/API) |
