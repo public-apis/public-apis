@@ -150,6 +150,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | Link |
 |---|---|---|---|
+| BigOven | Recipe Search API | `X-Mashape-Key` as header |[Go!](http://api2.bigoven.com/) |
 | BreweryDB | Beer | `apiKey` query string |[Go!](http://www.brewerydb.com/developers) |
 | Edamam | Recipe Search API | `apiKey` query string |[Go!](https://developer.edamam.com/) |
 | Food2Fork | Recipe Search API | `apiKey` query string |[Go!](http://food2fork.com/about/api) |
