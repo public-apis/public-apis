@@ -155,6 +155,7 @@ For information on contributing to this project, please see the [contributing gu
 | PunkAPI | Brewdog Beer Recipes | No | [Go!](https://punkapi.com/) |
 | Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/) |
 | Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
+| Edamam | Recipe Search API | `apiKey` query string |[Go!](https://developer.edamam.com/) |
 
 ### Data Access
 
