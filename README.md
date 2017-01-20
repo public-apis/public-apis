@@ -151,12 +151,12 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | Link |
 |---|---|---|---|
 | BreweryDB | Beer | `apiKey` query string |[Go!](http://www.brewerydb.com/developers) |
+| Edamam | Recipe Search API | `apiKey` query string |[Go!](https://developer.edamam.com/) |
+| Food2Fork | Recipe Search API | `apiKey` query string |[Go!](http://food2fork.com/about/api) |
 | LCBO API | Alcohol | `apiKey` query string |[Go!](https://lcboapi.com/) |
 | PunkAPI | Brewdog Beer Recipes | No | [Go!](https://punkapi.com/) |
 | Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/) |
 | Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
-| Edamam | Recipe Search API | `apiKey` query string |[Go!](https://developer.edamam.com/) |
-| Food2Fork | Recipe Search API | `apiKey` query string |[Go!](http://food2fork.com/about/api) |
 
 ### Data Access
 
