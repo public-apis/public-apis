@@ -156,6 +156,7 @@ For information on contributing to this project, please see the [contributing gu
 | Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/) |
 | Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
 | Edamam | Recipe Search API | `apiKey` query string |[Go!](https://developer.edamam.com/) |
+| Food2Fork | Recipe Search API | `apiKey` query string |[Go!](http://food2fork.com/about/api) |
 
 ### Data Access
 
