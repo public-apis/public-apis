@@ -261,6 +261,7 @@ For information on contributing to this project, please see the [contributing gu
 | MusicBrainz | Music | No | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
 | Musikki | Music | No | [Go!](https://music-api.musikki.com/reference) |
 | Musixmatch | Music | `apikey` query string | [Go!](https://developer.musixmatch.com/) |
+| Vagalume | Crowdsourced lyrics and music knowledge | `apikey` query string | [Go!](https://api.vagalume.com.br/docs/) |
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | `oAuth` required for some parts | [Go!](https://developer.spotify.com/web-api/) |
