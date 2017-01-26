@@ -17,10 +17,10 @@ For information on contributing to this project, please see the [contributing gu
 * [Currency Exchange](#currency-exchange)
 * [Development](#development)
 * [Documents & Productivity](#documents--productivity)
-* [Drinks](#drinks)
 * [Data Access](#data-access)
 * [Data Validation](#data-validation)
 * [Environment](#environment)
+* [Food and Drink](#food-and-drink)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
 * [Health](#health)
@@ -146,19 +146,6 @@ For information on contributing to this project, please see the [contributing gu
 | pdflayer API | HTML/URL to PDF | No | [Go!](https://pdflayer.com) |
 | Wunderlist | Todo Lists | `oAuth` | [Go!](https://developer.wunderlist.com/documentation) |
 
-### Drinks
-
-| API | Description | Auth | Link |
-|---|---|---|---|
-| BigOven | Recipe Search API | `X-Mashape-Key` as header |[Go!](http://api2.bigoven.com/) |
-| BreweryDB | Beer | `apiKey` query string |[Go!](http://www.brewerydb.com/developers) |
-| Edamam | Recipe Search API | `apiKey` query string |[Go!](https://developer.edamam.com/) |
-| Food2Fork | Recipe Search API | `apiKey` query string |[Go!](http://food2fork.com/about/api) |
-| LCBO API | Alcohol | `apiKey` query string |[Go!](https://lcboapi.com/) |
-| PunkAPI | Brewdog Beer Recipes | No | [Go!](https://punkapi.com/) |
-| Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/) |
-| Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
-
 ### Data Access
 
 | API | Description | Auth | Link |
@@ -197,6 +184,19 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | Link |
 |---|---|---|---|
 | PM2.5.in | PM2.5 Data of China | `apiKey` query string | [Go!](http://www.pm25.in/api_doc) |
+
+### Food and Drink
+
+| API | Description | Auth | Link |
+|---|---|---|---|
+| BigOven | Recipe Search API | `X-Mashape-Key` as header |[Go!](http://api2.bigoven.com/) |
+| BreweryDB | Beer | `apiKey` query string |[Go!](http://www.brewerydb.com/developers) |
+| Edamam | Recipe Search API | `apiKey` query string |[Go!](https://developer.edamam.com/) |
+| Food2Fork | Recipe Search API | `apiKey` query string |[Go!](http://food2fork.com/about/api) |
+| LCBO API | Alcohol | `apiKey` query string |[Go!](https://lcboapi.com/) |
+| PunkAPI | Brewdog Beer Recipes | No | [Go!](https://punkapi.com/) |
+| Recipe Puppy | Food | No | [Go!](http://www.recipepuppy.com/about/api/) |
+| Yummly | Find food recipes | No | [Go!](https://developer.yummly.com/) |
 
 ### Games & Comics
 
