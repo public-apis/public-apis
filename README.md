@@ -399,6 +399,7 @@ For information on contributing to this project, please see the [contributing gu
 | Transport for Washington, US | Washington Metro transport API | `oAuth` | [Go!](https://developer.wmata.com/) |
 | Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` query string |[Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
 | Transport for Auckland, New Zealand | Auckland Transport API  | No | [Go!](https://api.at.govt.nz/) |
+| Uber | Request Uber rides, reach riders, transport things, and reward drivers | `oAuth` | [Go!](https://developer.uber.com/) |
 | WhereIsMyTransport | Platform for public transport data in emerging cities  | `oAuth` | [Go!](https://developer.whereismytransport.com/) |
 
 ### University
