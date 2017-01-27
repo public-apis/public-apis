@@ -273,7 +273,7 @@ For information on contributing to this project, please see the [contributing gu
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | `oAuth` required for some parts | [Go!](https://developer.spotify.com/web-api/) |
-
+| Vagalume | Crowdsourced lyrics and music knowledge | `apikey` query string | [Go!](https://api.vagalume.com.br/docs/) |
 
 ### News
 
