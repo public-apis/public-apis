@@ -43,7 +43,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Animals
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | IUCN | IUCN Red List of Threatened Species | `token` | No | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
 | Petfinder | Adoption | No | Yes | [Go!](https://www.petfinder.com/developers/api-docs/) |
 | RescueGroups | Adoption | No | Yes | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
@@ -51,14 +51,14 @@ For information on contributing to this project, please see the [contributing gu
 ### Anime
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | AniList | AniList Anime API | `oAuth` | No | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
 | Kitsu | Kitsu Anime API | `oAuth` | No | [Go!](http://docs.kitsu17.apiary.io/) |
 
 ### Anti-Malware
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Certly | Certly Link/Domain Flagging API | `token` | Yes | [Go!](https://guard.certly.io/) |
 | Google Safe Browsing | Google Link/Domain Flagging API | `token` | Yes | [Go!](https://developers.google.com/safe-browsing/) |
 | Metacert | Metacert Link Flagging API | `token` | Yes | [Go!](https://metacert.com/) |
@@ -68,7 +68,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Art & Design
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Dribbble | Design | `oAuth` | No | [Go!](http://developer.dribbble.com/v1/) |
 | Noun Project | Icons | `oAuth` | No | [Go!](http://api.thenounproject.com/index.html) |
 | Rijksmuseum| Art | No | Yes | [Go!](https://www.rijksmuseum.nl/en/api) |
@@ -76,7 +76,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Books
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | British National Bibliography | Books | No | No | [Go!](http://bnb.data.bl.uk/) |
 | Good Reads | Books | No | Yes | [Go!](https://www.goodreads.com/api) |
 | Google Books | Books | `oAuth` | Yes | [Go!](https://developers.google.com/books/) |
@@ -84,14 +84,14 @@ For information on contributing to this project, please see the [contributing gu
 ### Business
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | mailgun | Email Service API | `apiKey` query string | No | [Go!](http://www.mailgun.com/) |
 | markerapi | Trademark Search API | No | No | [Go!](http://www.markerapi.com/) |
 
 ### Calendar
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Church Calendar API | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
 | Date and Time | Global Date and Time | No | No | [Go!](http://www.timeanddate.com/services/api/) |
 | Holidays | Free API for obtaining information about holidays. | No | No | [Go!](http://holidayapi.com/) |
@@ -100,7 +100,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Cloud Storage & File Sharing
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Box | File Sharing and Storage | `oAuth` | Yes | [Go!](https://developer.box.com/) |
 | Dropbox | File Sharing and Storage | `oAuth` | Yes | [Go!](https://www.dropbox.com/developers) |
 | Google Drive | File Sharing and Storage | `oAuth` | Yes | [Go!](https://developers.google.com/drive/) |
@@ -109,14 +109,14 @@ For information on contributing to this project, please see the [contributing gu
 ### Currency Exchange
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Currencylayer | Exchange rates and currency conversion | `apiKey` query string | Yes | [Go!](https://currencylayer.com/documentation) |
 | Fixer.io | JSON API for foreign exchange rates and currency conversion | No | No | [Go!](http://fixer.io) |
 
 ### Development
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Adorable Avatars | Generate random cartoon avatars | No | No | [Go!](http://avatars.adorable.io) |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | [Go!](https://apis.guru/api-doc/) |
 | CDNJS | Library info on CDNJS | No | Yes | [Go!](https://api.cdnjs.com/libraries/jquery) |
@@ -142,7 +142,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Documents & Productivity
 
 | API | Description | OAuth |Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | File.io | Files | No | Yes | [Go!](https://file.io) |
 | pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
 | Wunderlist | Todo Lists | `oAuth` | Yes | [Go!](https://developer.wunderlist.com/documentation) |
@@ -150,7 +150,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Data Access
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | 18F | US Federal Government /Developer Program | No | No | [Go!](http://18f.github.io/API-All-the-X/) |
 | Abbreviation API | Get abbreviations and meanings | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/abbreviations) |
 | Callook.info API | United States ham radio callsigns | No | Yes | [Go!](https://callook.info) |
@@ -174,7 +174,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Data Validation
 
 | API | Description | OAuth |Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | languagelayer API | Language detection | No | Yes | [Go!](https://languagelayer.com) |
 | mailboxlayer API | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
 | numverify API | Phone number validation | No | Yes | [Go!](https://numverify.com) |
@@ -183,13 +183,13 @@ For information on contributing to this project, please see the [contributing gu
 ### Environment
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | PM2.5.in | PM2.5 Data of China | `apiKey` query string | No | [Go!](http://www.pm25.in/api_doc) |
 
 ### Food and Drink
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | BigOven | Recipe Search API | `X-Mashape-Key` as header | No | [Go!](http://api2.bigoven.com/) |
 | BreweryDB | Beer | `apiKey` query string | No | [Go!](http://www.brewerydb.com/developers) |
 | Edamam | Recipe Search API | `apiKey` query string | Yes | [Go!](https://developer.edamam.com/) |
@@ -202,7 +202,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Games & Comics
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Battle.net | Blizzard API | No | Yes | [Go!](https://dev.battle.net/)  |
 | Chuck Norris Database | Jokes | No | No | [Go!](http://www.icndb.com/api) |
 | Clash of Clans | Clash of Clans API | No | Yes | [Go!](https://developer.clashofclans.com) |
@@ -224,7 +224,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Geocoding
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | GeoNames | Place names and other geographical data | No | No | [Go!](http://www.geonames.org/export/web-services.html) |
 | GéoApi | French geographical data | No | Yes | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Google Maps API | Create/customize digital maps based on Google Maps data | `apiKey` query string | Yes | [Go!](https://developers.google.com/maps/) |
@@ -241,7 +241,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Health
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Diabetes API | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api) |
 | Flutrack API | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
 | Makeup API | Worlds only makeup API | No | No | [Go!](http://makeup-api.herokuapp.com/) |
@@ -251,14 +251,14 @@ For information on contributing to this project, please see the [contributing gu
 ### Machine Learning
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Clarifai | Computer Vision API | `oAuth` | Yes | [Go!](https://predictbgl.com/api) |
 | Wit.ai | Natural Language Processing | `oAuth` | Yes | [Go!](https://wit.ai/) |
 
 ### Music
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Deezer | Music | `oAuth` | No | [Go!](http://developers.deezer.com/api) |
 | Discogs | Music | `oAuth` | Yes | [Go!](https://www.discogs.com/developers/) |
 | EchoNest | Music | No | No | [Go!](http://developer.echonest.com/docs/v4) |
@@ -278,13 +278,13 @@ For information on contributing to this project, please see the [contributing gu
 ### News
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | New York Times | Provides news | No, but `apikey` is required | Yes | [Go!](https://developer.nytimes.com/) |
 
 ### Open Source projects
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Countly  | Countly web analytics API | No | No | [Go!](http://resources.count.ly/) |
 | Drupal.org | Drupal.org API | No | Yes | [Go!](https://www.drupal.org/drupalorg/api) |
 | Libraries.io | Open source software libraries | `apiKey` query string | Yes | [Go!](https://libraries.io/api) |
@@ -292,7 +292,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Personality
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Forismatic | Inspirational Quotes | No | No | [Go!](http://forismatic.com/en/api/) |
 | Medium | Community of readers and writers offering unique perspectives on ideas. | `oAuth` | Yes | [Go!](https://github.com/Medium/medium-api-docs) |
 | Quotes on Design | Inspirational Quotes | No | Yes | [Go!](https://quotesondesign.com/api-v4-0/) |
@@ -301,7 +301,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Photography
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | 500px |  Photography Community | `oAuth` | Yes | [Go!](https://github.com/500px/api-documentation) |
 | Flickr | Flickr Services | `oAuth` | Yes | [Go!](https://www.flickr.com/services/api/) |
 | Gfycat | Jiffier GIFs | `oAuth` | Yes | [Go!](https://developers.gfycat.com/api/) |
@@ -313,7 +313,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Science
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Fedger.io | Query machine intelligence data | No | Yes | [Go!](https://dev.fedger.io/docs/) |
 | inspirehep.net | High Energy Physics info. system | No | Yes | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
 | Launch Library | Upcoming Space Launches | No | Yes | [Go!](https://launchlibrary.net/1.2/docs/api.html) |
@@ -327,14 +327,14 @@ For information on contributing to this project, please see the [contributing gu
 ### Security
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | AXFR Database | AXFR public database API | No | [Go'](http://api.axfrcheck.com) |
 | UK Police | UK Police data | No | Yes | [Go!](https://data.police.uk/docs/) |
 
 ### Social
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Discord bot API | Make bots for Discord | `oAuth` | Yes | [Go!](https://discordapp.com/developers/docs/intro) |
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | `oAuth` | Yes | [Go!](https://developers.facebook.com/) |
 | Foursquare API | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | `oAuth` | Yes | [Go!](https://developer.foursquare.com/) |
@@ -357,7 +357,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Sports/Fitness
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | City Bikes API | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
 | Ergast F1 API | F1 data from the beginning of the world championships in 1950 | No | No | [Go!](http://ergast.com/mrd/) |
 | FitBit | FitBit API | No | Yes | [Go!](https://dev.fitbit.com) |
@@ -372,7 +372,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Transportation
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apikey` query string | Yes | [Go!](https://sandbox.amadeus.com/) |
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Goibibo | API for travel search  | `apiKey` query string | Yes | [Go!](https://developer.goibibo.com/docs) |
@@ -414,19 +414,19 @@ For information on contributing to this project, please see the [contributing gu
 ### University
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | University API | University names, countries and domains| No | Yes | [Go!](https://github.com/Hipo/university-domains-list) |
 
 ### Vehicle
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Vehicle API | Lot of vehicles informations | `apiKey` query string | No | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
 
 ### Video
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | An API of Ice And Fire | Game Of Thrones API | No | Yes | [Go!](https://anapioficeandfire.com/) |
 | Dailymotion | Dailymotion Developer API | `oAuth` required for some parts | Yes | [Go!](https://developer.dailymotion.com/) |
 | MovieDB | Movie Data | `apiKey` | Yes | [Go!](https://www.themoviedb.org/documentation/api) |
@@ -441,7 +441,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Weather
 
 | API | Description | Auth | HTTPS | Link |
-|---|---|---|---|
+|---|---|---|---|---|
 | Dark Sky Forecast API | Weather | `apiKey` query string | Yes | [Go!](https://developer.forecast.io/) |
 | OpenWeatherMap | Weather | `apiKey` query string | No | [Go!](http://openweathermap.org/api) |
 | Wunderground | Weather | No | No | [Go!](http://www.wunderground.com/weather/api/) |
