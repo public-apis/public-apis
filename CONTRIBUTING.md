@@ -1,23 +1,23 @@
 # Contributing to public-apis
 
-> While the masses of pull requests and community involvement is appreciated, some pull requests have been specifically 
+> While the masses of pull requests and community involvement is appreciated, some pull requests have been specifically
 opened to market company APIs that offer paid solutions. This API list is not a marketing tool, but a tool to help the
 community build applications and use free, public APIs quickly and easily. Pull requests that are identified as marketing attempts will not be accepted.
-> 
+>
 > Thanks for understanding! :)
 
 ##Formatting
 
 Current API entry format:
 
-| API | Description | Auth | Link |
+| API | Description | Auth | HTTPS | Link |
 | --- | --- | --- | --- |
-| API Title | Description of API | Does this API require authentication? * | Link to API webpage |
+| API Title | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Link to API webpage |
 
 Example entry:
 
 ```
-| NASA | NASA data, including imagery | No | [Go!](https://api.nasa.gov) |
+| NASA | NASA data, including imagery | No | Yes | [Go!](https://api.nasa.gov) |
 ```
 
 Currently, the only accepted inputs for this field are as follows:
@@ -27,7 +27,7 @@ Currently, the only accepted inputs for this field are as follows:
 * `X-Mashape-Key` - _the name of the header which may need to be sent_
 * `No` - _the API requires no authentication to run_
 
-Please continue to follow the alphabetical ordering that is in place per section. 
+Please continue to follow the alphabetical ordering that is in place per section.
 
 If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
 
@@ -44,7 +44,7 @@ Connect your local repository to the original `upstream` repository by adding it
 Pull in changes from `upstream` often so that you stay up to date and so when you submit your pull request,
 merge conflicts will be less likely. See more detailed instructions [here][syncing-link].
 * Create a [branch][branch-link] for your edits.
-* Contribute in the style of the project as outlined above. This makes it easier for the collaborators to merge 
+* Contribute in the style of the project as outlined above. This makes it easier for the collaborators to merge
 and for others to understand and maintain in the future.
 
 ###Open Pull Requests
