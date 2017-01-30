@@ -329,14 +329,14 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| AXFR Database | AXFR public database | No | [Go!](http://api.axfrcheck.com) |
+| AXFR Database | AXFR public database | No | No | [Go!](http://api.axfrcheck.com) |
 | UK Police | UK Police data | No | Yes | [Go!](https://data.police.uk/docs/) |
 
 ### Shopping
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| eBay | Sell and Buy on eBay | Yes | [Go!](https://go.developer.ebay.com/) |
+| eBay | Sell and Buy on eBay | `oAuth` | Yes | [Go!](https://go.developer.ebay.com/) |
 
 ### Social
 
