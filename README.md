@@ -32,6 +32,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Photography](#photography)
 * [Science](#science)
 * [Security](#security)
+* [Shopping](#shopping)
 * [Social](#social)
 * [Sports/Fitness](#sportsfitness)
 * [Transportation](#transportation)
@@ -328,8 +329,14 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| AXFR Database | AXFR public database | No | [Go'](http://api.axfrcheck.com) |
+| AXFR Database | AXFR public database | No | [Go!](http://api.axfrcheck.com) |
 | UK Police | UK Police data | No | Yes | [Go!](https://data.police.uk/docs/) |
+
+### Shopping
+
+| API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| eBay | Sell and Buy on eBay | Yes | [Go!](https://go.developer.ebay.com/) |
 
 ### Social
 
@@ -353,7 +360,6 @@ For information on contributing to this project, please see the [contributing gu
 | Twitch | Game Streaming API | `oAuth` | Yes | [Go!](https://github.com/justintv/Twitch-API) |
 | Twitter | Read and write Twitter data | `oAuth` | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | vk API | Read and write vk dat | `oAuth` | Yes | [Go!](https://vk.com/dev/sites) |
-| Wit.ai | Turn speech and text into actionable data | `oAuth` | Yes | [Go!](https://wit.ai/docs) |
 
 ### Sports/Fitness
 
