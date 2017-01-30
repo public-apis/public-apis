@@ -348,6 +348,7 @@ For information on contributing to this project, please see the [contributing gu
 | Pinterest API | The world's catalog of ideas | `oAuth` | Yes | [Go!](https://developers.pinterest.com/) |
 | PWRTelegram bot API | Boosted version of the Telegram bot API | `oAuth` | Yes | [Go!](https://pwrtelegram.xyz) |
 | Reddit | Homepage of the internet | `oAuth` required for some parts | Yes | [Go!](https://www.reddit.com/dev/api) |
+| Slack | Team Instant Messaging | `oAuth` | Yes | [Go!](https://api.slack.com/) |
 | Tumblr API | Read and write Tumblr Data | `oAuth` | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 | Twitch | Game Streaming API | `oAuth` | Yes | [Go!](https://github.com/justintv/Twitch-API) |
 | Twitter API | Read and write Twitter data | `oAuth` | Yes | [Go!](https://dev.twitter.com/rest/public) |
