@@ -52,18 +52,18 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| AniList | AniList Anime API | `oAuth` | No | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
-| Kitsu | Kitsu Anime API | `oAuth` | No | [Go!](http://docs.kitsu17.apiary.io/) |
+| AniList | AniList Anime | `oAuth` | No | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
+| Kitsu | Kitsu Anime | `oAuth` | No | [Go!](http://docs.kitsu17.apiary.io/) |
 
 ### Anti-Malware
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Certly | Certly Link/Domain Flagging API | `token` | Yes | [Go!](https://guard.certly.io/) |
-| Google Safe Browsing | Google Link/Domain Flagging API | `token` | Yes | [Go!](https://developers.google.com/safe-browsing/) |
-| Metacert | Metacert Link Flagging API | `token` | Yes | [Go!](https://metacert.com/) |
-| VirusTotal | VirusTotal File/URL Analysis API | `token` | Yes | [Go!](https://www.virustotal.com/en/documentation/public-api/) |
-| Web Of Trust (WOT) | Website reputation API | `key` string | Yes | [Go!](https://www.mywot.com/wiki/API) |
+| Certly | Certly Link/Domain Flagging | `token` | Yes | [Go!](https://guard.certly.io/) |
+| Google Safe Browsing | Google Link/Domain Flagging | `token` | Yes | [Go!](https://developers.google.com/safe-browsing/) |
+| Metacert | Metacert Link Flagging | `token` | Yes | [Go!](https://metacert.com/) |
+| VirusTotal | VirusTotal File/URL Analysis | `token` | Yes | [Go!](https://www.virustotal.com/en/documentation/public-api/) |
+| Web Of Trust (WOT) | Website reputation | `key` string | Yes | [Go!](https://www.mywot.com/wiki/API) |
 
 ### Art & Design
 
@@ -85,17 +85,17 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| mailgun | Email Service API | `apiKey` query string | No | [Go!](http://www.mailgun.com/) |
-| markerapi | Trademark Search API | No | No | [Go!](http://www.markerapi.com/) |
+| mailgun | Email Service | `apiKey` query string | No | [Go!](http://www.mailgun.com/) |
+| markerapi | Trademark Search | No | No | [Go!](http://www.markerapi.com/) |
 
 ### Calendar
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Church Calendar API | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
+| Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
 | Date and Time | Global Date and Time | No | No | [Go!](http://www.timeanddate.com/services/api/) |
 | Holidays | Free API for obtaining information about holidays. | No | No | [Go!](http://holidayapi.com/) |
-| Non-working days API | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
+| Non-Working Days | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
 
 ### Cloud Storage & File Sharing
 
@@ -111,7 +111,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Currencylayer | Exchange rates and currency conversion | `apiKey` query string | Yes | [Go!](https://currencylayer.com/documentation) |
-| Fixer.io | JSON API for foreign exchange rates and currency conversion | No | No | [Go!](http://fixer.io) |
+| Fixer.io | Exchange rates and currency conversion | No | No | [Go!](http://fixer.io) |
 
 ### Development
 
@@ -125,7 +125,7 @@ For information on contributing to this project, please see the [contributing gu
 | Gitter | Chat for GitHub | `oAuth` | Yes | [Go!](https://developer.gitter.im/docs/) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
-| LiveCoding | Live Coding Streaming API | `oAuth` | Yes | [Go!](https://www.livecoding.tv/developer/applications/) |
+| LiveCoding | Live Coding Streaming | `oAuth` | Yes | [Go!](https://www.livecoding.tv/developer/applications/) |
 | Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | [Go!](http://myjson.com/api) |
@@ -134,8 +134,8 @@ For information on contributing to this project, please see the [contributing gu
 | RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | No | [Go!](http://reqres.in/) |
 | RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
-| StackExchange | The All-in-one API for StackExchange sites | `oAuth` | Yes | [Go!](https://api.stackexchange.com/) |
-| Stormpath | User Authentication API | `apiKey` | Yes | [Go!](https://stormpath.com/) |
+| StackExchange | Q&A forum for developers | `oAuth` | Yes | [Go!](https://api.stackexchange.com/) |
+| Stormpath | User Authentication | `apiKey` | Yes | [Go!](https://stormpath.com/) |
 | UI Faces | Find and generate sample avatars for user interfaces | No | No | [Go!](http://uifaces.com/api) |
 | UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
 
@@ -152,33 +152,33 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | 18F | US Federal Government /Developer Program | No | No | [Go!](http://18f.github.io/API-All-the-X/) |
-| Abbreviation API | Get abbreviations and meanings | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/abbreviations) |
-| Callook.info API | United States ham radio callsigns | No | Yes | [Go!](https://callook.info) |
-| Celebinfo API | Celebrity information API | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
+| Abbreviation | Get abbreviations and meanings | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/abbreviations) |
+| Callook.info | United States ham radio callsigns | No | Yes | [Go!](https://callook.info) |
+| Celebinfo | Celebrity information | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Colorado Data Engine | Formatted and geolocated Colorado public data | No | Yes | [Go!](http://codataengine.org/) |
 | Colorado Information Marketplace | Colorado State Government Open Data | No | Yes | [Go!](https://data.colorado.gov/) |
 | Data USA | US Public Data | No | No | [Go!](http://datausa.io/about/api/) |
-| Dronestream API | Tracks United States drone strikes | No | No | [Go!](http://dronestre.am/) |
+| Dronestream | Tracks United States drone strikes | No | No | [Go!](http://dronestre.am/) |
 | fonoApi | Mobile Device Description | No | Yes | [Go!](https://fonoapi.freshpixl.com/) |
 | Open Government, Australia | Australian Government Open Data | No | Yes | [Go!](https://www.data.gov.au/) |
 | Open Government, USA | United States Government Open Data | No | Yes | [Go!](https://www.data.gov/) |
 | Open Government, Canada | Canadian Government Open Data | No | No | [Go!](http://open.canada.ca/en) |
 | Open Government Data, India | Indian Government Open Data | `token` | Yes | [Go!](https://data.gov.in/) |
-| Pearson | Dictionary Data API | `apiKey` query string | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
-| Quandl API | Stock Market Data | No | Yes | [Go!](https://www.quandl.com/) |
+| Pearson | Dictionary Data | `apiKey` query string | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
+| Quandl | Stock Market Data | No | Yes | [Go!](https://www.quandl.com/) |
 | Scoop.it | Content Curation Service | `apiKey` query string | Yes | [Go!](https://www.scoop.it/dev) |
-| Wikipedia | Mediawiki API | No | Yes | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
-| Wordnik | Dictionary Data API | No | No | [Go!](http://developer.wordnik.com) |
+| Wikipedia | Mediawiki Encyclopedia | No | Yes | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
+| Wordnik | Dictionary Data | No | No | [Go!](http://developer.wordnik.com) |
 | Yelp | Find Local Business | `oAuth` | Yes | [Go!](https://www.yelp.com/developers) |
 
 ### Data Validation
 
 | API | Description | OAuth |Link |
 |---|---|---|---|---|
-| languagelayer API | Language detection | No | Yes | [Go!](https://languagelayer.com) |
-| mailboxlayer API | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
-| numverify API | Phone number validation | No | Yes | [Go!](https://numverify.com) |
-| vatlayer API | VAT number validation | No | Yes | [Go!](https://vatlayer.com) |
+| languagelayer | Language detection | No | Yes | [Go!](https://languagelayer.com) |
+| mailboxlayer | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
+| numverify | Phone number validation | No | Yes | [Go!](https://numverify.com) |
+| vatlayer | VAT number validation | No | Yes | [Go!](https://vatlayer.com) |
 
 ### Environment
 
@@ -190,11 +190,11 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| BigOven | Recipe Search API | `X-Mashape-Key` as header | No | [Go!](http://api2.bigoven.com/) |
+| BigOven | Recipe Search | `X-Mashape-Key` as header | No | [Go!](http://api2.bigoven.com/) |
 | BreweryDB | Beer | `apiKey` query string | No | [Go!](http://www.brewerydb.com/developers) |
-| Edamam | Recipe Search API | `apiKey` query string | Yes | [Go!](https://developer.edamam.com/) |
-| Food2Fork | Recipe Search API | `apiKey` query string | No | [Go!](http://food2fork.com/about/api) |
-| LCBO API | Alcohol | `apiKey` query string | Yes | [Go!](https://lcboapi.com/) |
+| Edamam | Recipe Search | `apiKey` query string | Yes | [Go!](https://developer.edamam.com/) |
+| Food2Fork | Recipe Search | `apiKey` query string | No | [Go!](http://food2fork.com/about/api) |
+| LCBO | Alcohol | `apiKey` query string | Yes | [Go!](https://lcboapi.com/) |
 | PunkAPI | Brewdog Beer Recipes | No | Yes | [Go!](https://punkapi.com/) |
 | Recipe Puppy | Food | No | No | [Go!](http://www.recipepuppy.com/about/api/) |
 | Yummly | Find food recipes | No | Yes | [Go!](https://developer.yummly.com/) |
@@ -203,23 +203,23 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Battle.net | Blizzard API | No | Yes | [Go!](https://dev.battle.net/)  |
+| Battle.net | Blizzard Entertainment | No | Yes | [Go!](https://dev.battle.net/)  |
 | Chuck Norris Database | Jokes | No | No | [Go!](http://www.icndb.com/api) |
-| Clash of Clans | Clash of Clans API | No | Yes | [Go!](https://developer.clashofclans.com) |
-| ClashAPI | Clash Royale API | No | Yes | [Go!](https://github.com/martincarrera/clash-royale-api)  |
+| Clash of Clans | Clash of Clans Game Information | No | Yes | [Go!](https://developer.clashofclans.com) |
+| Clash Royale | Clash Royale Game Information | No | Yes | [Go!](https://github.com/martincarrera/clash-royale-api)  |
 | Comic Vine | Comics | No | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
-| Deck of Cards | Deck of Cards API | No | No | [Go!](http://deckofcardsapi.com/)  |
-| Eve Online | Third-Party Developer Documentation API | `oAuth` required for some parts | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
+| Deck of Cards | Deck of Cards | No | No | [Go!](http://deckofcardsapi.com/)  |
+| Eve Online | Third-Party Developer Documentation | `oAuth` required for some parts | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
 | Giant Bomb | Video Games | No | [Go!](http://www.giantbomb.com/api/documentation) |
-| Guild Wars 2 | Guild Wars 2 API | `apiKey` query string (for some routes) | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
-| Magic the gathering | Magic the gathering API | No | No | [Go!](http://magicthegathering.io/) |
-| Marvel | Marvel Comics API | No | No | [Go!](http://developer.marvel.com) |
-| Minecraft | Minecraft API (For server info & user info) | No | Yes | [Go!](https://mcapi.ca/) |
-| Open Trivia | Trivia API | No | Yes | [Go!](https://opentdb.com/api_config.php) |
-| Pokéapi | The RESTful Pokémon API | No | No | [Go!](http://pokeapi.co) |
-| Riot Games | The RESTful League of Legends API | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
-| Steam | Steam Client API | `oAuth` | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
-| SWAPI | Star Wars API | No | Yes | [Go!](https://swapi.co) |
+| Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` query string (for some routes) | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
+| Magic The Gathering | Magic The Gathering Game Information | No | No | [Go!](http://magicthegathering.io/) |
+| Marvel | Marvel Comics | No | No | [Go!](http://developer.marvel.com) |
+| Minecraft | Minecraft server info & user info) | No | Yes | [Go!](https://mcapi.ca/) |
+| Open Trivia | Trivia Questions | No | Yes | [Go!](https://opentdb.com/api_config.php) |
+| Pokéapi | Pokémon Information | No | No | [Go!](http://pokeapi.co) |
+| Riot Games | League of Legends Game Information | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
+| Steam | Steam Client Interaction | `oAuth` | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
+| SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
 
 ### Geocoding
 
@@ -227,7 +227,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | GeoNames | Place names and other geographical data | No | No | [Go!](http://www.geonames.org/export/web-services.html) |
 | GéoApi | French geographical data | No | Yes | [Go!](https://api.gouv.fr/api/geoapi.html) |
-| Google Maps API | Create/customize digital maps based on Google Maps data | `apiKey` query string | Yes | [Go!](https://developers.google.com/maps/) |
+| Google Maps | Create/customize digital maps based on Google Maps data | `apiKey` query string | Yes | [Go!](https://developers.google.com/maps/) |
 | IP 2 Country | Map an IP to a country | No | Yes | [Go!](https://ip2country.info) |
 | IP Address Details| Find geolocation with ip address | No | Yes | [Go!](https://ipinfo.io/) |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` query string | Yes | [Go!](https://www.mapbox.com/developers/) |
@@ -236,15 +236,15 @@ For information on contributing to this project, please see the [contributing gu
 | OpenCage | Forward and reverse geocoding using open data | No | Yes | [Go!](https://geocoder.opencagedata.com) |
 | OpenStreetMap | Navigation, geolocation and geographical data | `oAuth` | No | [Go!](http://wiki.openstreetmap.org/wiki/API) |
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
-| Postcodes.io | Postcode & Geolocation API for the UK | No | Yes | [Go!](https://postcodes.io) |
+| Postcodes.io | Postcode lookup & Geolocation for the UK | No | Yes | [Go!](https://postcodes.io) |
 
 ### Health
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Diabetes API | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api) |
-| Flutrack API | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
-| Makeup API | Worlds only makeup API | No | No | [Go!](http://makeup-api.herokuapp.com/) |
+| Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api) |
+| Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
+| Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` query string | Yes | [Go!](https://developer.nutritionix.com/) |
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | Yes | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
 
@@ -252,7 +252,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Clarifai | Computer Vision API | `oAuth` | Yes | [Go!](https://predictbgl.com/api) |
+| Clarifai | Computer Vision | `oAuth` | Yes | [Go!](https://predictbgl.com/api) |
 | Wit.ai | Natural Language Processing | `oAuth` | Yes | [Go!](https://wit.ai/) |
 
 ### Music
@@ -264,7 +264,7 @@ For information on contributing to this project, please see the [contributing gu
 | EchoNest | Music | No | No | [Go!](http://developer.echonest.com/docs/v4) |
 | Genius | Crowdsourced lyrics and music knowledge | `oAuth` | Yes | [Go!](https://docs.genius.com/) |
 | Jamendo | Music | `oAuth` | Yes | [Go!](https://developer.jamendo.com/v3.0) |
-| iTunes Search | Software products API | No | Yes | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
+| iTunes Search | Software products | No | Yes | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 | LastFm | Music | No | No | [Go!](http://www.last.fm/api) |
 | Mixcloud | Music | No | Yes | [Go!](https://www.mixcloud.com/developers/) |
 | MusicBrainz | Music | No | Yes | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
@@ -285,8 +285,8 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Countly  | Countly web analytics API | No | No | [Go!](http://resources.count.ly/) |
-| Drupal.org | Drupal.org API | No | Yes | [Go!](https://www.drupal.org/drupalorg/api) |
+| Countly  | Countly web analytics | No | No | [Go!](http://resources.count.ly/) |
+| Drupal.org | Drupal.org | No | Yes | [Go!](https://www.drupal.org/drupalorg/api) |
 | Libraries.io | Open source software libraries | `apiKey` query string | Yes | [Go!](https://libraries.io/api) |
 
 ### Personality
@@ -307,7 +307,7 @@ For information on contributing to this project, please see the [contributing gu
 | Gfycat | Jiffier GIFs | `oAuth` | Yes | [Go!](https://developers.gfycat.com/api/) |
 | Giphy | Get all your gifs | No | Yes | [Go!](https://github.com/Giphy/GiphyAPI) |
 | Imgur | Images | `oAuth` | Yes | [Go!](https://api.imgur.com/#overview) |
-| screenshotlayer API | URL 2 Image | No | Yes | [Go!](https://screenshotlayer.com) |
+| ScreenShotLayer | URL 2 Image | No | Yes | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | `oAuth` | Yes | [Go!](https://unsplash.com/developers) |
 
 ### Science
@@ -317,9 +317,9 @@ For information on contributing to this project, please see the [contributing gu
 | Fedger.io | Query machine intelligence data | No | Yes | [Go!](https://dev.fedger.io/docs/) |
 | inspirehep.net | High Energy Physics info. system | No | Yes | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
 | Launch Library | Upcoming Space Launches | No | Yes | [Go!](https://launchlibrary.net/1.2/docs/api.html) |
-| Minor Planet Center | Asterank.com API | No | No | [Go!](http://www.asterank.com/mpc) |
+| Minor Planet Center | Asterank.com Information | No | No | [Go!](http://www.asterank.com/mpc) |
 | NASA | NASA data, including imagery | No | Yes | [Go!](https://api.nasa.gov) |
-| Open Notify | ISS astronauts, current location API | No | No | [Go!](http://open-notify.org/Open-Notify-API/) |
+| Open Notify | ISS astronauts, current location, etc | No | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Sunrise and Sunset | Sunset and sunrise times for a given latitude and longitude. | No | No | [Go!](http://sunrise-sunset.org/api) |
 | USGS Earthquake Hazards Program | Earthquakes data real-time | No | No | [Go!](http://earthquake.usgs.gov/fdsnws/event/1/) |
 | World Bank | World Data | No | No | [Go!](http://data.worldbank.org/developers) |
@@ -328,47 +328,47 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| AXFR Database | AXFR public database API | No | [Go'](http://api.axfrcheck.com) |
+| AXFR Database | AXFR public database | No | [Go'](http://api.axfrcheck.com) |
 | UK Police | UK Police data | No | Yes | [Go!](https://data.police.uk/docs/) |
 
 ### Social
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Discord bot API | Make bots for Discord | `oAuth` | Yes | [Go!](https://discordapp.com/developers/docs/intro) |
+| Discord bot | Make bots for Discord | `oAuth` | Yes | [Go!](https://discordapp.com/developers/docs/intro) |
 | Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | `oAuth` | Yes | [Go!](https://developers.facebook.com/) |
-| Foursquare API | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | `oAuth` | Yes | [Go!](https://developer.foursquare.com/) |
+| Foursquare | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | `oAuth` | Yes | [Go!](https://developer.foursquare.com/) |
 | Fuck Off as a Service | Asks someone to fuck off | No | Yes | [Go!](https://www.foaas.com) |
 | Full Contact | Get Social Media profiles and contact Information | `oAuth` | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
 | HackerNews | Social news for CS and entrepreneurship | No | Yes | [Go!](https://github.com/HackerNews/API) |
-| Instagram API | Instagram Login, Share on Instagram, Social Plugins and more | `oAuth` | Yes | [Go!](https://www.instagram.com/developer/) |
-| LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | `oAuth` | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
-| Telegram MTProto API | Read and write Telegram data | `oAuth` | Yes | [Go!](https://core.telegram.org/api#getting-started) |
-| Telegram bot API | Simplified HTTP version of the MTProto API for bots | `oAuth` | Yes | [Go!](https://core.telegram.org/bots/api) |
-| Pinterest API | The world's catalog of ideas | `oAuth` | Yes | [Go!](https://developers.pinterest.com/) |
-| PWRTelegram bot API | Boosted version of the Telegram bot API | `oAuth` | Yes | [Go!](https://pwrtelegram.xyz) |
+| Instagram | Instagram Login, Share on Instagram, Social Plugins and more | `oAuth` | Yes | [Go!](https://www.instagram.com/developer/) |
+| LinkedIn | The foundation of all digital integrations with LinkedIn | `oAuth` | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
+| Telegram MTProto | Read and write Telegram data | `oAuth` | Yes | [Go!](https://core.telegram.org/api#getting-started) |
+| Telegram bot | Simplified HTTP version of the MTProto API for bots | `oAuth` | Yes | [Go!](https://core.telegram.org/bots/api) |
+| Pinterest | The world's catalog of ideas | `oAuth` | Yes | [Go!](https://developers.pinterest.com/) |
+| PWRTelegram bot | Boosted version of the Telegram bot API | `oAuth` | Yes | [Go!](https://pwrtelegram.xyz) |
 | Reddit | Homepage of the internet | `oAuth` required for some parts | Yes | [Go!](https://www.reddit.com/dev/api) |
 | Slack | Team Instant Messaging | `oAuth` | Yes | [Go!](https://api.slack.com/) |
-| Tumblr API | Read and write Tumblr Data | `oAuth` | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
+| Tumblr | Read and write Tumblr Data | `oAuth` | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 | Twitch | Game Streaming API | `oAuth` | Yes | [Go!](https://github.com/justintv/Twitch-API) |
-| Twitter API | Read and write Twitter data | `oAuth` | Yes | [Go!](https://dev.twitter.com/rest/public) |
+| Twitter | Read and write Twitter data | `oAuth` | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | vk API | Read and write vk dat | `oAuth` | Yes | [Go!](https://vk.com/dev/sites) |
-| Wit.ai API | Turn speech and text into actionable data | `oAuth` | Yes | [Go!](https://wit.ai/docs) |
+| Wit.ai | Turn speech and text into actionable data | `oAuth` | Yes | [Go!](https://wit.ai/docs) |
 
 ### Sports/Fitness
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| City Bikes API | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
-| Ergast F1 API | F1 data from the beginning of the world championships in 1950 | No | No | [Go!](http://ergast.com/mrd/) |
-| FitBit | FitBit API | No | Yes | [Go!](https://dev.fitbit.com) |
+| City Bikes | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
+| Ergast F1 | F1 data from the beginning of the world championships in 1950 | No | No | [Go!](http://ergast.com/mrd/) |
+| FitBit | FitBit Information | No | Yes | [Go!](https://dev.fitbit.com) |
 | Football-Data.org | Football Data | No | No | [Go!](http://api.football-data.org) |
-| JCDecaux Bike API | JCDecaux's self-service bicycles | `apiKey` query string | Yes | [Go!](https://developer.jcdecaux.com/) |
+| JCDecaux Bike | JCDecaux's self-service bicycles | `apiKey` query string | Yes | [Go!](https://developer.jcdecaux.com/) |
 | Cricket Live Scores | live-score | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
 | NFL Arrests | NFL Arrest Data | No | No | [Go!](http://nflarrest.com/api/) |
-| Pro Motocross API | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | [Go!](http://promotocrossapi.com) |
-| Strava API | Connect with athletes, activities and more | [`oAuth`](https://strava.github.io/api/v3/oauth/)| Yes | [Go!](https://strava.github.io/api/) |
-| wger API | Workout manager data as exercises, muscles or equipments | `apiKey` query string | Yes | [Go!](https://wger.de/en/software/api) |
+| Pro Motocross | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | [Go!](http://promotocrossapi.com) |
+| Strava | Connect with athletes, activities and more | [`oAuth`](https://strava.github.io/api/v3/oauth/)| Yes | [Go!](https://strava.github.io/api/) |
+| Wger | Workout manager data as exercises, muscles or equipments | `apiKey` query string | Yes | [Go!](https://wger.de/en/software/api) |
 
 ### Transportation
 
@@ -379,7 +379,7 @@ For information on contributing to this project, please see the [contributing gu
 | Goibibo | API for travel search  | `apiKey` query string | Yes | [Go!](https://developer.goibibo.com/docs) |
 | Indian Railways | Indian Railways API | `token` | [Go!](http://api.erail.in/) |
 | The Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
-| Schiphol Airport API | Schiphol | `oAuth` | Yes | [Go!](https://flight-info.3scale.net/) |
+| Schiphol Airport | Schiphol | `oAuth` | Yes | [Go!](https://flight-info.3scale.net/) |
 | TransitLand | Transit Aggregation | No | Yes | [Go!](https://transit.land/documentation/datastore/api-endpoints.html) |
 | Transport for Atlanta, US | Marta | No | No | [Go!](http://www.itsmarta.com/developers/data-sources/marta-bus-realtime-restful-api.aspx) |
 | Transport for Belgium | Belgian transport API | No | Yes | [Go!](https://hello.irail.be/api/) |
@@ -416,13 +416,13 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| University API | University names, countries and domains| No | Yes | [Go!](https://github.com/Hipo/university-domains-list) |
+| Universities List | University names, countries and domains| No | Yes | [Go!](https://github.com/Hipo/university-domains-list) |
 
 ### Vehicle
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Vehicle API | Lot of vehicles informations | `apiKey` query string | No | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
+| Vehicles | Lot of vehicles informations | `apiKey` query string | No | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
 
 ### Video
 
@@ -443,7 +443,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Dark Sky Forecast API | Weather | `apiKey` query string | Yes | [Go!](https://developer.forecast.io/) |
+| Dark Sky | Weather | `apiKey` query string | Yes | [Go!](https://developer.forecast.io/) |
 | OpenWeatherMap | Weather | `apiKey` query string | No | [Go!](http://openweathermap.org/api) |
 | Wunderground | Weather | No | No | [Go!](http://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | [Go!](https://developer.yahoo.com/weather/) |
