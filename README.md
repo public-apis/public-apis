@@ -118,7 +118,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Adorable Avatars | Generate random cartoon avatars | No | No | [Go!](http://avatars.adorable.io) |
+| Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | [Go!](https://apis.guru/api-doc/) |
 | CDNJS | Library info on CDNJS | No | Yes | [Go!](https://api.cdnjs.com/libraries/jquery) |
 | Faceplusplus | A tool to detect face | `oAuth` | No | [Go!](http://www.faceplusplus.com/uc_home/) |
