@@ -154,6 +154,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | 18F | US Federal Government /Developer Program | No | No | [Go!](http://18f.github.io/API-All-the-X/) |
 | Abbreviation | Get abbreviations and meanings | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/abbreviations) |
+| CARTO | Location Information Prediction | `apiKey` | Yes | [Go!](https://carto.com/) |
 | Callook.info | United States ham radio callsigns | No | Yes | [Go!](https://callook.info) |
 | Celebinfo | Celebrity information | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Colorado Data Engine | Formatted and geolocated Colorado public data | No | Yes | [Go!](http://codataengine.org/) |
