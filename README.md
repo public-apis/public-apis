@@ -25,6 +25,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Geocoding](#geocoding)
 * [Health](#health)
 * [Machine Learning](#machine-learning)
+* [Math](#math)
 * [Music](#music)
 * [News](#news)
 * [Open Source projects](#open-source-projects)
@@ -256,6 +257,12 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | Clarifai | Computer Vision | `oAuth` | Yes | [Go!](https://predictbgl.com/api) |
 | Wit.ai | Natural Language Processing | `oAuth` | Yes | [Go!](https://wit.ai/) |
+
+### Math
+
+| API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Newton | Symbolic and Arithmetic Math Calculator | No | Yes | [Go!](https://newton.now.sh/) |
 
 ### Music
 
