@@ -143,7 +143,7 @@ For information on contributing to this project, please see the [contributing gu
 
 ### Documents & Productivity
 
-| API | Description | OAuth |Link |
+| API | Description | Auth | HTTPS |Link |
 |---|---|---|---|---|
 | File.io | Files | No | Yes | [Go!](https://file.io) |
 | pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
@@ -176,7 +176,7 @@ For information on contributing to this project, please see the [contributing gu
 
 ### Data Validation
 
-| API | Description | OAuth |Link |
+| API | Description | OAuth | HTTPS | Link |
 |---|---|---|---|---|
 | languagelayer | Language detection | No | Yes | [Go!](https://languagelayer.com) |
 | mailboxlayer | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
