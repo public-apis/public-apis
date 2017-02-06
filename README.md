@@ -290,6 +290,11 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | New York Times | Provides news | No, but `apikey` is required | Yes | [Go!](https://developer.nytimes.com/) |
 
+### Movies
+| API | Description | OAuth |Link |
+|---|---|---|---|
+| Swapi - The Star Wars API | Movies | No | [Go!](http://swapi.co/documentation) |
+
 ### Open Source projects
 
 | API | Description | Auth | HTTPS | Link |
