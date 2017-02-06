@@ -176,7 +176,7 @@ For information on contributing to this project, please see the [contributing gu
 
 ### Data Validation
 
-| API | Description | OAuth | HTTPS | Link |
+| API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | languagelayer | Language detection | No | Yes | [Go!](https://languagelayer.com) |
 | mailboxlayer | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
