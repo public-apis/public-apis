@@ -213,7 +213,7 @@ For information on contributing to this project, please see the [contributing gu
 | Comic Vine | Comics | No | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
 | Deck of Cards | Deck of Cards | No | No | [Go!](http://deckofcardsapi.com/)  |
 | Eve Online | Third-Party Developer Documentation | `oAuth` required for some parts | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
-| Giant Bomb | Video Games | No | [Go!](http://www.giantbomb.com/api/documentation) |
+| Giant Bomb | Video Games | No | No | [Go!](http://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` query string (for some routes) | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
 | Magic The Gathering | Magic The Gathering Game Information | No | No | [Go!](http://magicthegathering.io/) |
 | Marvel | Marvel Comics | No | No | [Go!](http://developer.marvel.com) |
