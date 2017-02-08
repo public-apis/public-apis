@@ -22,7 +22,7 @@ Example entry:
 
 Currently, the only accepted inputs for this field are as follows:
 
-* `oAuth` - _the API supports oAuth_
+* `OAuth` - _the API supports OAuth_
 * `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
 * `X-Mashape-Key` - _the name of the header which may need to be sent_
 * `No` - _the API requires no authentication to run_
