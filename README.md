@@ -312,7 +312,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| 500px |  Photography Community | `oAuth` | Yes | [Go!](https://github.com/500px/api-documentation) |
+| 500px |  Photography Community | `oAuth` | Yes | [Go!](https://github.com/500px/api-documentation) |
 | Flickr | Flickr Services | `oAuth` | Yes | [Go!](https://www.flickr.com/services/api/) |
 | Gfycat | Jiffier GIFs | `oAuth` | Yes | [Go!](https://developers.gfycat.com/api/) |
 | Giphy | Get all your gifs | No | Yes | [Go!](https://github.com/Giphy/GiphyAPI) |
@@ -376,7 +376,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | City Bikes | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
 | Ergast F1 | F1 data from the beginning of the world championships in 1950 | No | No | [Go!](http://ergast.com/mrd/) |
-| FitBit | FitBit Information | No | Yes | [Go!](https://dev.fitbit.com) |
+| Fitbit | Fitbit Information | `oAuth` | Yes | [Go!](https://dev.fitbit.com/) |
 | Football-Data.org | Football Data | No | No | [Go!](http://api.football-data.org) |
 | JCDecaux Bike | JCDecaux's self-service bicycles | `apiKey` query string | Yes | [Go!](https://developer.jcdecaux.com/) |
 | Cricket Live Scores | live-score | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
