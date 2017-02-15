@@ -113,7 +113,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Currencylayer | Exchange rates and currency conversion | `apiKey` query string | Yes | [Go!](https://currencylayer.com/documentation) |
-| Fixer.io | Exchange rates and currency conversion | No | No | [Go!](http://fixer.io) |
+| Fixer.io | Exchange rates and currency conversion | No | Yes | [Go!](http://fixer.io) |
 
 ### Development
 
