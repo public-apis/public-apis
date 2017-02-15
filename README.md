@@ -95,8 +95,9 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
-| Date and Time | Global Date and Time | No | Yes | [Go!](https://www.timeanddate.com/services/api/) |
-| Holidays | Free API for obtaining information about holidays. | No | Yes | [Go!](https://holidayapi.com/) |
+| Date and Time | Global Date and Time | No | No | [Go!](http://www.timeanddate.com/services/api/) |
+| Holidays | Free API for obtaining information about holidays. | No | No | [Go!](http://holidayapi.com/) |
+| LectServe | Protestant liturgical calendar | No | No | [Go!](http://www.lectserve.com) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
 
 ### Cloud Storage & File Sharing
@@ -113,7 +114,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Currencylayer | Exchange rates and currency conversion | `apiKey` query string | Yes | [Go!](https://currencylayer.com/documentation) |
-| Fixer.io | Exchange rates and currency conversion | No | No | [Go!](http://fixer.io) |
+| Fixer.io | Exchange rates and currency conversion | No | Yes | [Go!](http://fixer.io) |
 
 ### Development
 
@@ -393,7 +394,7 @@ For information on contributing to this project, please see the [contributing gu
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apikey` query string | Yes | [Go!](https://sandbox.amadeus.com/) |
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Goibibo | API for travel search  | `apiKey` query string | Yes | [Go!](https://developer.goibibo.com/docs) |
-| Indian Railways | Indian Railways API | `token` | [Go!](http://api.erail.in/) |
+| Indian Railways | Indian Railways Information | `token` | No | [Go!](http://api.erail.in/) |
 | The Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
 | Schiphol Airport | Schiphol | `OAuth` | Yes | [Go!](https://flight-info.3scale.net/) |
 | TransitLand | Transit Aggregation | No | Yes | [Go!](https://transit.land/documentation/datastore/api-endpoints.html) |
