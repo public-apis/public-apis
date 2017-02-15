@@ -97,6 +97,7 @@ For information on contributing to this project, please see the [contributing gu
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
 | Date and Time | Global Date and Time | No | No | [Go!](http://www.timeanddate.com/services/api/) |
 | Holidays | Free API for obtaining information about holidays. | No | No | [Go!](http://holidayapi.com/) |
+| LectServe | Protestant liturgical calendar | No | No | [Go!](http://www.lectserve.com) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
 
 ### Cloud Storage & File Sharing
