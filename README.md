@@ -393,7 +393,7 @@ For information on contributing to this project, please see the [contributing gu
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apikey` query string | Yes | [Go!](https://sandbox.amadeus.com/) |
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Goibibo | API for travel search  | `apiKey` query string | Yes | [Go!](https://developer.goibibo.com/docs) |
-| Indian Railways | Indian Railways API | `token` | [Go!](http://api.erail.in/) |
+| Indian Railways | Indian Railways Information | `token` | No | [Go!](http://api.erail.in/) |
 | The Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
 | Schiphol Airport | Schiphol | `OAuth` | Yes | [Go!](https://flight-info.3scale.net/) |
 | TransitLand | Transit Aggregation | No | Yes | [Go!](https://transit.land/documentation/datastore/api-endpoints.html) |
