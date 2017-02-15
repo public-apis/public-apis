@@ -308,6 +308,7 @@ For information on contributing to this project, please see the [contributing gu
 | Forismatic | Inspirational Quotes | No | No | [Go!](http://forismatic.com/en/api/) |
 | Medium | Community of readers and writers offering unique perspectives on ideas. | `OAuth` | Yes | [Go!](https://github.com/Medium/medium-api-docs) |
 | Quotes on Design | Inspirational Quotes | No | Yes | [Go!](https://quotesondesign.com/api-v4-0/) |
+| tronalddump.io | Api & web archive for the dumbest things Donald Trump has ever said | No | Yes | [Go!](https://www.tronalddump.io) |
 | Traitify | Assess, collect, and analyze Personality | No | Yes | [Go!](https://developer.traitify.com/) |
 
 ### Photography
