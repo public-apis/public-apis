@@ -95,8 +95,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
-| Date and Time | Global Date and Time | No | No | [Go!](http://www.timeanddate.com/services/api/) |
-| Holidays | Free API for obtaining information about holidays. | No | No | [Go!](http://holidayapi.com/) |
+| Holidays | Free API for obtaining information about holidays. | `key` string | No | [Go!](http://holidayapi.com/) |
 | LectServe | Protestant liturgical calendar | No | No | [Go!](http://www.lectserve.com) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
 
@@ -148,6 +147,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | File.io | Files | No | Yes | [Go!](https://www.file.io) |
 | pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
+| Todoist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.todoist.com) |
 | Wunderlist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.wunderlist.com/documentation) |
 
 ### Data Access
@@ -170,7 +170,9 @@ For information on contributing to this project, please see the [contributing gu
 | Open Government Data, India | Indian Government Open Data | `token` | Yes | [Go!](https://data.gov.in/) |
 | Pearson | Dictionary Data | `apiKey` query string | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
 | Quandl | Stock Market Data | No | Yes | [Go!](https://www.quandl.com/) |
-| Scoop.it | Content Curation Service | `apiKey` query string | Yes | [Go!](http://www.scoop.it/dev) |
+| Represent by Open North | Find Canadian Government Representatives | No | Yes | [Go!](https://represent.opennorth.ca/) |
+| Scoop.it | Content Curation Service | `apiKey` query string | Yes | [Go!](https://www.scoop.it/dev) |
+| Teleport | Quality of Life Data | No | Yes | [Go!](https://developers.teleport.org/) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Wordnik | Dictionary Data | No | No | [Go!](http://developer.wordnik.com) |
 | Yelp | Find Local Business | `OAuth` | Yes | [Go!](https://www.yelp.com/developers) |
@@ -258,7 +260,8 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Clarifai | Computer Vision | `OAuth` | Yes | [Go!](https://predictbgl.com/api/) |
+| Clarifai | Computer Vision | `OAuth` | Yes | [Go!](https://developer.clarifai.com/) |
+| Cleverbot | Web chat bot | `apikey` | Yes | [Go!](https://www.cleverbot.com/api/) |
 | Wit.ai | Natural Language Processing | `OAuth` | Yes | [Go!](https://wit.ai/) |
 
 ### Math
@@ -305,10 +308,12 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| chucknorris.io | JSON API for hand curated Chuck Norris jokes | No | Yes | [Go!](https://api.chucknorris.io) |
 | Forismatic | Inspirational Quotes | No | No | [Go!](http://forismatic.com/en/api/) |
 | Medium | Community of readers and writers offering unique perspectives on ideas. | `OAuth` | Yes | [Go!](https://github.com/Medium/medium-api-docs) |
 | Quotes on Design | Inspirational Quotes | No | Yes | [Go!](https://quotesondesign.com/api-v4-0/) |
-| Traitify | Assess, collect, and analyze Personality | No | Yes | [Go!](https://app.traitify.com/developer) |
+| Traitify | Assess, collect, and analyze Personality | No | Yes | [Go!](https://developer.traitify.com/) |
+| tronalddump.io | Api & web archive for the dumbest things Donald Trump has ever said | No | Yes | [Go!](https://www.tronalddump.io) |
 
 ### Photography
 

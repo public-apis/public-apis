@@ -62,6 +62,6 @@ If so, add more commits to your branch and push them – they will automatically
 [fork-link]: <http://guides.github.com/activities/forking/>
 [oauth-link]: <https://en.wikipedia.org/wiki/OAuth>
 [pr-link]: <https://help.github.com/articles/creating-a-pull-request/>
-[remote-link]: <https://help.github.com/articles/adding-a-remote/>
+[remote-link]: <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
 [syncing-link]: <https://help.github.com/articles/syncing-a-fork>
 
