@@ -47,7 +47,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | IUCN | IUCN Red List of Threatened Species | `token` | No | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
-| Petfinder | Adoption | No | Yes | [Go!](https://www.petfinder.com/developers/api-docs/) |
+| Petfinder | Adoption | Yes | Yes | [Go!](https://www.petfinder.com/developers/api-docs/) |
 | RescueGroups | Adoption | No | Yes | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
 
 ### Anime
