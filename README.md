@@ -1,4 +1,4 @@
-# Public APIs
+# Public APIs [![Build Status](https://travis-ci.org/toddmotto/public-apis.svg)](https://travis-ci.org/toddmotto/public-apis)
 
 A collective list of JSON APIs for use in web development.
 
