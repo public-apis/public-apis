@@ -54,7 +54,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| AniList | AniList Anime | `OAuth` | No | [Go!](http://anilist-api.readthedocs.org/en/latest/#) |
+| AniList | AniList Anime | `OAuth` | No | [Go!](http://anilist-api.readthedocs.io/en/latest/) |
 | Kitsu | Kitsu Anime | `OAuth` | No | [Go!](http://docs.kitsu17.apiary.io/) |
 
 ### Anti-Malware
@@ -122,30 +122,30 @@ For information on contributing to this project, please see the [contributing gu
 | Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | [Go!](https://apis.guru/api-doc/) |
 | CDNJS | Library info on CDNJS | No | Yes | [Go!](https://api.cdnjs.com/libraries/jquery) |
-| Faceplusplus | A tool to detect face | `OAuth` | No | [Go!](http://www.faceplusplus.com/uc_home/) |
+| Faceplusplus | A tool to detect face | `OAuth` | Yes | [Go!](https://www.faceplusplus.com/) |
 | Github - User Data | Pull public information for a user's github | No | Yes | [Go!](https://api.github.com/users/hackeryou) |
-| Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://developer.gitter.im/docs/) |
+| Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://developer.gitter.im/docs/welcome) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
-| LiveCoding | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.livecoding.tv/developer/applications/) |
+| LiveEdu | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.liveedu.tv/developer/applications/) |
 | Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | Yes | [Go!](https://plino.herokuapp.com/) |
-| Random Word | Generate random word | No | No | [Go!](http://randomword.setgetgo.com/) |
+| Random Word | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
 | RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
-| ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | No | [Go!](http://reqres.in/) |
+| ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
 | RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
 | Stormpath | User Authentication | `apiKey` | Yes | [Go!](https://stormpath.com/) |
-| UI Faces | Find and generate sample avatars for user interfaces | No | No | [Go!](http://uifaces.com/api) |
+| UI Faces | Find and generate sample avatars for user interfaces | No | No | [Go!](http://uifaces.com/) |
 | UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
 
 ### Documents & Productivity
 
 | API | Description | Auth | HTTPS |Link |
 |---|---|---|---|---|
-| File.io | Files | No | Yes | [Go!](https://file.io) |
+| File.io | Files | No | Yes | [Go!](https://www.file.io) |
 | pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
 | Todoist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.todoist.com) |
 | Wunderlist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.wunderlist.com/documentation) |
@@ -161,7 +161,7 @@ For information on contributing to this project, please see the [contributing gu
 | Celebinfo | Celebrity information | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Colorado Data Engine | Formatted and geolocated Colorado public data | No | Yes | [Go!](http://codataengine.org/) |
 | Colorado Information Marketplace | Colorado State Government Open Data | No | Yes | [Go!](https://data.colorado.gov/) |
-| Data USA | US Public Data | No | No | [Go!](http://datausa.io/about/api/) |
+| Data USA | US Public Data | No | Yes | [Go!](https://datausa.io/about/api/) |
 | Dronestream | Tracks United States drone strikes | No | No | [Go!](http://dronestre.am/) |
 | fonoApi | Mobile Device Description | No | Yes | [Go!](https://fonoapi.freshpixl.com/) |
 | Open Government, Australia | Australian Government Open Data | No | Yes | [Go!](https://www.data.gov.au/) |
@@ -210,7 +210,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Battle.net | Blizzard Entertainment | No | Yes | [Go!](https://dev.battle.net/)  |
-| Chuck Norris Database | Jokes | No | No | [Go!](http://www.icndb.com/api) |
+| Chuck Norris Database | Jokes | No | No | [Go!](http://www.icndb.com/api/) |
 | Clash of Clans | Clash of Clans Game Information | No | Yes | [Go!](https://developer.clashofclans.com) |
 | Clash Royale | Clash Royale Game Information | No | Yes | [Go!](https://github.com/martincarrera/clash-royale-api)  |
 | Comic Vine | Comics | No | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
@@ -238,7 +238,7 @@ For information on contributing to this project, please see the [contributing gu
 | IP 2 Country | Map an IP to a country | No | Yes | [Go!](https://ip2country.info) |
 | IP Address Details| Find geolocation with ip address | No | Yes | [Go!](https://ipinfo.io/) |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` query string | Yes | [Go!](https://www.mapbox.com/developers/) |
-| Mapzen Search | Open Source & Open Data Global Geocoding Service | No | Yes | [Go!](https://mapzen.com/projects/search) |
+| Mapzen Search | Open Source & Open Data Global Geocoding Service | No | Yes | [Go!](https://mapzen.com/products/search/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | [Go!](https://github.com/IcaliaLabs/sepomex) |
 | OpenCage | Forward and reverse geocoding using open data | No | Yes | [Go!](https://geocoder.opencagedata.com) |
 | OpenStreetMap | Navigation, geolocation and geographical data | `OAuth` | No | [Go!](http://wiki.openstreetmap.org/wiki/API) |
@@ -250,7 +250,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api) |
+| Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api/) |
 | Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
 | Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` query string | Yes | [Go!](https://developer.nutritionix.com/) |
@@ -274,7 +274,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Deezer | Music | `OAuth` | No | [Go!](http://developers.deezer.com/api) |
+| Deezer | Music | `OAuth` | No | [Go!](http://developers.deezer.com/login?redirect=/api) |
 | Discogs | Music | `OAuth` | Yes | [Go!](https://www.discogs.com/developers/) |
 | EchoNest | Music | No | No | [Go!](http://developer.echonest.com/docs/v4) |
 | Genius | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | [Go!](https://docs.genius.com/) |
@@ -300,8 +300,8 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Countly  | Countly web analytics | No | No | [Go!](http://resources.count.ly/) |
-| Drupal.org | Drupal.org | No | Yes | [Go!](https://www.drupal.org/drupalorg/api) |
+| Countly  | Countly web analytics | No | No | [Go!](http://resources.count.ly/docs) |
+| Drupal.org | Drupal.org | No | Yes | [Go!](https://www.drupal.org/drupalorg/docs/api) |
 | Libraries.io | Open source software libraries | `apiKey` query string | Yes | [Go!](https://libraries.io/api) |
 
 ### Personality
@@ -312,8 +312,8 @@ For information on contributing to this project, please see the [contributing gu
 | Forismatic | Inspirational Quotes | No | No | [Go!](http://forismatic.com/en/api/) |
 | Medium | Community of readers and writers offering unique perspectives on ideas. | `OAuth` | Yes | [Go!](https://github.com/Medium/medium-api-docs) |
 | Quotes on Design | Inspirational Quotes | No | Yes | [Go!](https://quotesondesign.com/api-v4-0/) |
-| tronalddump.io | Api & web archive for the dumbest things Donald Trump has ever said | No | Yes | [Go!](https://www.tronalddump.io) |
 | Traitify | Assess, collect, and analyze Personality | No | Yes | [Go!](https://developer.traitify.com/) |
+| tronalddump.io | Api & web archive for the dumbest things Donald Trump has ever said | No | Yes | [Go!](https://www.tronalddump.io) |
 
 ### Photography
 
@@ -339,7 +339,7 @@ For information on contributing to this project, please see the [contributing gu
 | Open Notify | ISS astronauts, current location, etc | No | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Sunrise and Sunset | Sunset and sunrise times for a given latitude and longitude. | No | No | [Go!](http://sunrise-sunset.org/api) |
 | USGS Earthquake Hazards Program | Earthquakes data real-time | No | No | [Go!](http://earthquake.usgs.gov/fdsnws/event/1/) |
-| World Bank | World Data | No | No | [Go!](http://data.worldbank.org/developers) |
+| World Bank | World Data | No | No | [Go!](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) |
 
 ### Security
 
@@ -384,7 +384,7 @@ For information on contributing to this project, please see the [contributing gu
 | City Bikes | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
 | Ergast F1 | F1 data from the beginning of the world championships in 1950 | No | No | [Go!](http://ergast.com/mrd/) |
 | Fitbit | Fitbit Information | `OAuth` | Yes | [Go!](https://dev.fitbit.com/) |
-| Football-Data.org | Football Data | No | No | [Go!](http://api.football-data.org) |
+| Football-Data.org | Football Data | No | No | [Go!](http://api.football-data.org/index) |
 | JCDecaux Bike | JCDecaux's self-service bicycles | `apiKey` query string | Yes | [Go!](https://developer.jcdecaux.com/) |
 | Cricket Live Scores | live-score | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
 | NFL Arrests | NFL Arrest Data | No | No | [Go!](http://nflarrest.com/api/) |
@@ -409,15 +409,15 @@ For information on contributing to this project, please see the [contributing gu
 | Transport for Budapest | Budapest public transport API | No | No | [Go!](http://docs.bkkfutar.apiary.io/) |
 | Transport for Chicago, US | CTA | No | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Czech Republic | Czech transport API | No | No | [Go!](http://www.chaps.cz/eng/products/idos-internet) |
-| Transport for Finland | Finnish transport API | No | No | [Go!](http://digitransit.fi/en/developers/) |
-| Transport for Germany | Deutsche Bahn (DB) API | `authKey` query string | No | [Go!](http://data.deutschebahn.com/apis/fahrplan/) |
+| Transport for Finland | Finnish transport API | No | Yes | [Go!](https://digitransit.fi/en/developers/ ) |
+| Transport for Germany | Deutsche Bahn (DB) API | `authKey` query string | No | [Go!](http://data.deutschebahn.com/dataset/api-fahrplan) |
 | Transport for Berlin | third-party VBB API | No | Yes | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
 | Transport for India | India Public Transport API | Api key | Yes | [Go!](https://data.gov.in/sector/transport) |
 | Transport for London, England | TfL API | No | Yes | [Go!](https://api.tfl.gov.uk) |
 | Transport for Minneapolis, US | NexTrip API | `OAuth` | No | [Go!](http://svc.metrotransit.org/) |
 | Transport for New York City | MTA | api key | No | [Go!](http://datamine.mta.info/) |
 | Transport for Norway | Norwegian transport API | No | No | [Go!](http://reisapi.ruter.no/help) |
-| Transport for Ottawa, Canada | OC Transpo next bus arrival API | No | No | [Go!](http://www.octranspo1.com/developers) |
+| Transport for Ottawa, Canada | OC Transpo next bus arrival API | No | No | [Go!](http://www.octranspo.com/index.php/developers) |
 | Transport for Paris, France | RATP Open Data API | No | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
 | Transport for Philadelphia | SEPTA APIs | No | No | [Go!](http://www3.septa.org/hackathon/) |
 | Transport for Rio de Janeiro, Brazil | Prefeitura do Rio (City Hall) | No | No | [Go!](http://data.rio/group/transporte-e-mobilidade) |
@@ -425,7 +425,7 @@ For information on contributing to this project, please see the [contributing gu
 | Transport for Switzerland | Swiss public transport API | No | Yes | [Go!](https://transport.opendata.ch/) |
 | Transport for São Paulo, Brazil | SPTrans | `OAuth` | No | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
-| Transport for Tokyo, Japan | Tokyo Metro | `apiKey` query string | Yes | [Go!](https://developer.tokyometroapp.jp/)  |
+| Transport for Tokyo, Japan | Tokyo Metro | `apiKey` query string | Yes | [Go!](https://developer.tokyometroapp.jp/info)  |
 | Transport for Toronto, Canada | TTC | No | Yes | [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | `OAuth` | Yes | [Go!](https://developer.translink.ca/) |
 | Transport for Washington, US | Washington Metro transport API | `OAuth` | Yes | [Go!](https://developer.wmata.com/) |
@@ -445,7 +445,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Vehicles | Lot of vehicles informations | `apiKey` query string | No | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
-| Brazilian Vehicles and Prices | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | [Go!](https://fipe-parallelum.rhcloud.com)
+| Brazilian Vehicles and Prices | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | [Go!](https://deividfortuna.github.io/fipe/)
 ### Video
 
 | API | Description | Auth | HTTPS | Link |
@@ -465,7 +465,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Dark Sky | Weather | `apiKey` query string | Yes | [Go!](https://developer.forecast.io/) |
+| Dark Sky | Weather | `apiKey` query string | Yes | [Go!](https://darksky.net/dev/) |
 | OpenWeatherMap | Weather | `apiKey` query string | No | [Go!](http://openweathermap.org/api) |
-| Wunderground | Weather | No | No | [Go!](http://www.wunderground.com/weather/api/) |
+| Wunderground | Weather | No | Yes | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | [Go!](https://developer.yahoo.com/weather/) |
