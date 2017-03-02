@@ -87,7 +87,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| mailgun | Email Service | `apiKey` query string | No | [Go!](http://www.mailgun.com/) |
+| mailgun | Email Service | `apiKey` query string | Yes | [Go!](https://www.mailgun.com/) |
 | markerapi | Trademark Search | No | No | [Go!](http://www.markerapi.com/) |
 
 ### Calendar
@@ -95,7 +95,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
-| Holidays | Free API for obtaining information about holidays. | `key` string | No | [Go!](http://holidayapi.com/) |
+| Holidays | Free API for obtaining information about holidays. | `key` string | Yes | [Go!](https://holidayapi.com/) |
 | LectServe | Protestant liturgical calendar | No | No | [Go!](http://www.lectserve.com) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
 
@@ -171,7 +171,7 @@ For information on contributing to this project, please see the [contributing gu
 | Pearson | Dictionary Data | `apiKey` query string | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
 | Quandl | Stock Market Data | No | Yes | [Go!](https://www.quandl.com/) |
 | Represent by Open North | Find Canadian Government Representatives | No | Yes | [Go!](https://represent.opennorth.ca/) |
-| Scoop.it | Content Curation Service | `apiKey` query string | Yes | [Go!](https://www.scoop.it/dev) |
+| Scoop.it | Content Curation Service | `apiKey` query string | No | [Go!](http://www.scoop.it/dev) |
 | Teleport | Quality of Life Data | No | Yes | [Go!](https://developers.teleport.org/) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Wordnik | Dictionary Data | No | No | [Go!](http://developer.wordnik.com) |
@@ -312,7 +312,7 @@ For information on contributing to this project, please see the [contributing gu
 | Forismatic | Inspirational Quotes | No | No | [Go!](http://forismatic.com/en/api/) |
 | Medium | Community of readers and writers offering unique perspectives on ideas. | `OAuth` | Yes | [Go!](https://github.com/Medium/medium-api-docs) |
 | Quotes on Design | Inspirational Quotes | No | Yes | [Go!](https://quotesondesign.com/api-v4-0/) |
-| Traitify | Assess, collect, and analyze Personality | No | Yes | [Go!](https://developer.traitify.com/) |
+| Traitify | Assess, collect, and analyze Personality | No | Yes | [Go!](https://app.traitify.com/developer) |
 | tronalddump.io | Api & web archive for the dumbest things Donald Trump has ever said | No | Yes | [Go!](https://www.tronalddump.io) |
 
 ### Photography
@@ -338,7 +338,7 @@ For information on contributing to this project, please see the [contributing gu
 | NASA | NASA data, including imagery | No | Yes | [Go!](https://api.nasa.gov) |
 | Open Notify | ISS astronauts, current location, etc | No | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Sunrise and Sunset | Sunset and sunrise times for a given latitude and longitude. | No | No | [Go!](http://sunrise-sunset.org/api) |
-| USGS Earthquake Hazards Program | Earthquakes data real-time | No | No | [Go!](http://earthquake.usgs.gov/fdsnws/event/1/) |
+| USGS Earthquake Hazards Program | Earthquakes data real-time | No | Yes | [Go!](https://earthquake.usgs.gov/fdsnws/event/1/) |
 | World Bank | World Data | No | No | [Go!](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) |
 
 ### Security
@@ -406,7 +406,7 @@ For information on contributing to this project, please see the [contributing gu
 | Transport for Atlanta, US | Marta | No | No | [Go!](http://www.itsmarta.com/developers/data-sources/marta-bus-realtime-restful-api.aspx) |
 | Transport for Belgium | Belgian transport API | No | Yes | [Go!](https://hello.irail.be/api/) |
 | Transport for Boston, MA, USA | MBTA API | No | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents) |
-| Transport for Budapest | Budapest public transport API | No | No | [Go!](http://docs.bkkfutar.apiary.io/) |
+| Transport for Budapest | Budapest public transport API | No | Yes | [Go!](https://apiary.io/) |
 | Transport for Chicago, US | CTA | No | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Czech Republic | Czech transport API | No | No | [Go!](http://www.chaps.cz/eng/products/idos-internet) |
 | Transport for Finland | Finnish transport API | No | Yes | [Go!](https://digitransit.fi/en/developers/ ) |
