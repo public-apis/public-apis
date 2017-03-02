@@ -57,6 +57,8 @@ During the discussion, you may be asked to make some changes to your pull reques
 
 If so, add more commits to your branch and push them – they will automatically go into the existing pull request!
 
+Opening a pull request will trigger a Travis CI build to check the validity of the link(s). After the build completes, please ensure that the build passes. Otherwise, view the Travis CI log and see what errors the build found for your contribution.
+
 [branch-link]: <http://guides.github.com/introduction/flow/>
 [clone-link]: <https://help.github.com/articles/cloning-a-repository/>
 [fork-link]: <http://guides.github.com/activities/forking/>
