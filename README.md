@@ -1,4 +1,4 @@
-# Public APIs [![Build Status](https://travis-ci.org/toddmotto/public-apis.svg)](https://travis-ci.org/toddmotto/public-apis)
+# Public APIs [![Build Status](https://api.travis-ci.org/toddmotto/public-apis.svg)](https://travis-ci.org/toddmotto/public-apis)
 
 A collective list of JSON APIs for use in web development.
 
@@ -276,7 +276,6 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | Deezer | Music | `OAuth` | No | [Go!](http://developers.deezer.com/login?redirect=/api) |
 | Discogs | Music | `OAuth` | Yes | [Go!](https://www.discogs.com/developers/) |
-| EchoNest | Music | No | No | [Go!](http://developer.echonest.com/docs/v4) |
 | Genius | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | [Go!](https://docs.genius.com/) |
 | Jamendo | Music | `OAuth` | Yes | [Go!](https://developer.jamendo.com/v3.0) |
 | iTunes Search | Software products | No | Yes | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
@@ -403,7 +402,7 @@ For information on contributing to this project, please see the [contributing gu
 | The Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
 | Schiphol Airport | Schiphol | `OAuth` | Yes | [Go!](https://flight-info.3scale.net/) |
 | TransitLand | Transit Aggregation | No | Yes | [Go!](https://transit.land/documentation/datastore/api-endpoints.html) |
-| Transport for Atlanta, US | Marta | No | No | [Go!](http://www.itsmarta.com/developers/data-sources/marta-bus-realtime-restful-api.aspx) |
+| Transport for Atlanta, US | Marta | No | No | [Go!](http://www.itsmarta.com/app-developer-resources.aspx) |
 | Transport for Belgium | Belgian transport API | No | Yes | [Go!](https://hello.irail.be/api/) |
 | Transport for Boston, MA, USA | MBTA API | No | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents) |
 | Transport for Budapest | Budapest public transport API | No | Yes | [Go!](https://apiary.io/) |
