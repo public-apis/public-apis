@@ -4,6 +4,8 @@ A collective list of JSON APIs for use in web development.
 
 For information on contributing to this project, please see the [contributing guide](CONTRIBUTING.md).
 
+
+
 ## Index
 
 * [Animals](#animals)
@@ -169,6 +171,7 @@ For information on contributing to this project, please see the [contributing gu
 | Open Government, Canada | Canadian Government Open Data | No | No | [Go!](http://open.canada.ca/en) |
 | Open Government Data, India | Indian Government Open Data | `token` | Yes | [Go!](https://data.gov.in/) |
 | Pearson | Dictionary Data | `apiKey` query string | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
+| Opendata Prague | Prague City Open Data | No | [Go!](http://opendata.praha.eu/en) |
 | Quandl | Stock Market Data | No | Yes | [Go!](https://www.quandl.com/) |
 | Represent by Open North | Find Canadian Government Representatives | No | Yes | [Go!](https://represent.opennorth.ca/) |
 | Scoop.it | Content Curation Service | `apiKey` query string | No | [Go!](http://www.scoop.it/dev) |
