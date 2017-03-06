@@ -407,7 +407,7 @@ For information on contributing to this project, please see the [contributing gu
 | Transport for Boston, MA, USA | MBTA API | No | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents) |
 | Transport for Budapest | Budapest public transport API | No | Yes | [Go!](https://apiary.io/) |
 | Transport for Chicago, US | CTA | No | No | [Go!](http://www.transitchicago.com/developers/) |
-| Transport for Czech Republic | Czech transport API | No | No | [Go!](http://www.chaps.cz/eng/products/idos-internet) |
+| Transport for Czech Republic | Czech transport API | No | Yes | [Go!](https://www.chaps.cz/eng/products/idos-internet) |
 | Transport for Finland | Finnish transport API | No | Yes | [Go!](https://digitransit.fi/en/developers/ ) |
 | Transport for Germany | Deutsche Bahn (DB) API | `authKey` query string | No | [Go!](http://data.deutschebahn.com/dataset/api-fahrplan) |
 | Transport for Berlin | third-party VBB API | No | Yes | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
