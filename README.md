@@ -232,7 +232,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Bing Maps | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | [Go!](https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx) |
-| Geocode.xyz | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | `apiKey` | Yes | [Go!](https://geocode.xyz/) |
+| Geocode.xyz | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | [Go!](https://geocode.xyz/) |
 | GeoNames | Place names and other geographical data | No | No | [Go!](http://www.geonames.org/export/web-services.html) |
 | GéoApi | French geographical data | No | Yes | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Google Maps | Create/customize digital maps based on Google Maps data | `apiKey` query string | Yes | [Go!](https://developers.google.com/maps/) |
