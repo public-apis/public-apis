@@ -446,7 +446,9 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Vehicles | Lot of vehicles informations | `apiKey` query string | No | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
-| Brazilian Vehicles and Prices | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | [Go!](https://deividfortuna.github.io/fipe/)
+| Brazilian Vehicles and Prices | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | [Go!](https://deividfortuna.github.io/fipe/) |
+| NHTSA Vehicles | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | [Go!](https://vpic.nhtsa.dot.gov/api/) |
+
 ### Video
 
 | API | Description | Auth | HTTPS | Link |
