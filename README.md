@@ -56,6 +56,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | AniList | AniList Anime | `OAuth` | No | [Go!](http://anilist-api.readthedocs.io/en/latest/) |
 | Kitsu | Kitsu Anime | `OAuth` | No | [Go!](http://docs.kitsu17.apiary.io/) |
+| Studio Ghibli | Resources from Studio Ghibli films | No | Yes | [Go!](https://ghibliapi.herokuapp.com) |
 
 ### Anti-Malware
 
