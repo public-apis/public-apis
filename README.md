@@ -4,8 +4,6 @@ A collective list of JSON APIs for use in web development.
 
 For information on contributing to this project, please see the [contributing guide](CONTRIBUTING.md).
 
-
-
 ## Index
 
 * [Animals](#animals)
@@ -58,6 +56,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | AniList | AniList Anime | `OAuth` | No | [Go!](http://anilist-api.readthedocs.io/en/latest/) |
 | Kitsu | Kitsu Anime | `OAuth` | No | [Go!](http://docs.kitsu17.apiary.io/) |
+| Studio Ghibli | Resources from Studio Ghibli films | No | Yes | [Go!](https://ghibliapi.herokuapp.com) |
 
 ### Anti-Malware
 
@@ -171,7 +170,7 @@ For information on contributing to this project, please see the [contributing gu
 | Open Government, Canada | Canadian Government Open Data | No | No | [Go!](http://open.canada.ca/en) |
 | Open Government Data, India | Indian Government Open Data | `token` | Yes | [Go!](https://data.gov.in/) |
 | Pearson | Dictionary Data | `apiKey` query string | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
-| Opendata Prague | Prague City Open Data | No | [Go!](http://opendata.praha.eu/en) |
+| Prague Opendata | Prague City Open Data | No | No | [Go!](http://opendata.praha.eu/en) |
 | Quandl | Stock Market Data | No | Yes | [Go!](https://www.quandl.com/) |
 | Represent by Open North | Find Canadian Government Representatives | No | Yes | [Go!](https://represent.opennorth.ca/) |
 | Scoop.it | Content Curation Service | `apiKey` query string | No | [Go!](http://www.scoop.it/dev) |
@@ -235,6 +234,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Bing Maps | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | [Go!](https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx) |
+| Geocode.xyz | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | [Go!](https://geocode.xyz/) |
 | GeoNames | Place names and other geographical data | No | No | [Go!](http://www.geonames.org/export/web-services.html) |
 | GéoApi | French geographical data | No | Yes | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Google Maps | Create/customize digital maps based on Google Maps data | `apiKey` query string | Yes | [Go!](https://developers.google.com/maps/) |
@@ -265,6 +265,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | Clarifai | Computer Vision | `OAuth` | Yes | [Go!](https://developer.clarifai.com/) |
 | Cleverbot | Web chat bot | `apikey` | Yes | [Go!](https://www.cleverbot.com/api/) |
+| Unplugg | Forecasting API for timeseries data | `apikey` | Yes | [Go!](http://unplu.gg/test_api.html) |
 | Wit.ai | Natural Language Processing | `OAuth` | Yes | [Go!](https://wit.ai/) |
 
 ### Math
@@ -410,7 +411,7 @@ For information on contributing to this project, please see the [contributing gu
 | Transport for Boston, MA, USA | MBTA API | No | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents) |
 | Transport for Budapest | Budapest public transport API | No | Yes | [Go!](https://apiary.io/) |
 | Transport for Chicago, US | CTA | No | No | [Go!](http://www.transitchicago.com/developers/) |
-| Transport for Czech Republic | Czech transport API | No | No | [Go!](http://www.chaps.cz/eng/products/idos-internet) |
+| Transport for Czech Republic | Czech transport API | No | Yes | [Go!](https://www.chaps.cz/eng/products/idos-internet) |
 | Transport for Finland | Finnish transport API | No | Yes | [Go!](https://digitransit.fi/en/developers/ ) |
 | Transport for Germany | Deutsche Bahn (DB) API | `authKey` query string | No | [Go!](http://data.deutschebahn.com/dataset/api-fahrplan) |
 | Transport for Berlin | third-party VBB API | No | Yes | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
@@ -447,7 +448,9 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Vehicles | Lot of vehicles informations | `apiKey` query string | No | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
-| Brazilian Vehicles and Prices | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | [Go!](https://deividfortuna.github.io/fipe/)
+| Brazilian Vehicles and Prices | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | [Go!](https://deividfortuna.github.io/fipe/) |
+| NHTSA Vehicles | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | [Go!](https://vpic.nhtsa.dot.gov/api/) |
+
 ### Video
 
 | API | Description | Auth | HTTPS | Link |
@@ -469,5 +472,6 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | Dark Sky | Weather | `apiKey` query string | Yes | [Go!](https://darksky.net/dev/) |
 | OpenWeatherMap | Weather | `apiKey` query string | No | [Go!](http://openweathermap.org/api) |
+| Weatherbit | Weather | `apiKey` query string | Yes | [Go!](https://www.weatherbit.io/api) |
 | Wunderground | Weather | No | Yes | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | [Go!](https://developer.yahoo.com/weather/) |
