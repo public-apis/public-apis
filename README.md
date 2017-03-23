@@ -215,10 +215,10 @@ For information on contributing to this project, please see the [contributing gu
 | Chuck Norris Database | Jokes | No | No | [Go!](http://www.icndb.com/api/) |
 | Clash of Clans | Clash of Clans Game Information | No | Yes | [Go!](https://developer.clashofclans.com) |
 | Clash Royale | Clash Royale Game Information | No | Yes | [Go!](https://github.com/martincarrera/clash-royale-api)  |
-| Comic Vine | Comics | No | No | [Go!](http://comicvine.gamespot.com/api/documentation) |
+| Comic Vine | Comics | No | No | [Go!](https://comicvine.gamespot.com/api/documentation) |
 | Deck of Cards | Deck of Cards | No | No | [Go!](http://deckofcardsapi.com/)  |
 | Eve Online | Third-Party Developer Documentation | `OAuth` required for some parts | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
-| Giant Bomb | Video Games | No | No | [Go!](http://www.giantbomb.com/api/documentation) |
+| Giant Bomb | Video Games | No | No | [Go!](https://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` query string (for some routes) | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
 | Magic The Gathering | Magic The Gathering Game Information | No | No | [Go!](http://magicthegathering.io/) |
 | Marvel | Marvel Comics | No | No | [Go!](http://developer.marvel.com) |
@@ -266,7 +266,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | Clarifai | Computer Vision | `OAuth` | Yes | [Go!](https://developer.clarifai.com/) |
 | Cleverbot | Web chat bot | `apikey` | Yes | [Go!](https://www.cleverbot.com/api/) |
-| Unplugg | Forecasting API for timeseries data | `apikey` | Yes | [Go!](http://unplu.gg/test_api.html) |
+| Unplugg | Forecasting API for timeseries data | `apikey` | Yes | [Go!](https://unplu.gg/test_api.html) |
 | Wit.ai | Natural Language Processing | `OAuth` | Yes | [Go!](https://wit.ai/) |
 
 ### Math
