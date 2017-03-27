@@ -127,6 +127,7 @@ For information on contributing to this project, please see the [contributing gu
 | Github - User Data | Pull public information for a user's github | No | Yes | [Go!](https://api.github.com/users/hackeryou) |
 | Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://developer.gitter.im/docs/welcome) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
+| IPify | A simple IP Address API  | No | Yes | [Go!](https://www.ipify.org/) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.liveedu.tv/developer/applications/) |
 | Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
