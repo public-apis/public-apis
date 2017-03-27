@@ -187,16 +187,16 @@ For information on contributing to this project, please see the [contributing gu
 | mailboxlayer | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
 | numverify | Phone number validation | No | Yes | [Go!](https://numverify.com) |
 | vatlayer | VAT number validation | No | Yes | [Go!](https://vatlayer.com) |
-| Whitepages Pro| Phone number validation, line_type, carrier append | Yes | Yes | [Go!](https://pro.whitepages.com/developer/documentation/phone-intelligence-api/) |
-| Whitepages Pro| Get normalized physical address, residents, address type, and validity. | Yes | Yes | [Go!](https://pro.whitepages.com/developer/documentation/reverse-address-api/) |
+| Whitepages Pro| Phone number validation, line_type, carrier append | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/phone-intelligence-api/) |
+| Whitepages Pro| Get normalized physical address, residents, address type, and validity. | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/reverse-address-api/) |
 
 ### Fraud Prevention
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Whitepages Pro | Global identity verification with phone, address, email, and IP | Yes | Yes | [Go!](https://pro.whitepages.com/developer/documentation/identity-check-api/) |
-| Whitepages Pro | Phone reputation to detect spammy phones | Yes | Yes | [Go!](https://pro.whitepages.com/developer/documentation/phone-reputation-api/) |
-| Whitepages Pro | Get an owner’s name, address, demographics based on the phone number | Yes | Yes | [Go!](https://pro.whitepages.com/developer/documentation/reverse-phone-api/) |
+| Whitepages Pro | Global identity verification with phone, address, email, and IP | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/identity-check-api/) |
+| Whitepages Pro | Phone reputation to detect spammy phones | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/phone-reputation-api/) |
+| Whitepages Pro | Get an owner’s name, address, demographics based on the phone number | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/reverse-phone-api/) |
 
 ### Environment
 
