@@ -184,7 +184,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS |Link |
 |---|---|---|---|---|
-| File.io | Files | No | Yes | [Go!](https://www.file.io) |
+| File.io | File Sharing | No | No | [Go!](http://www.file.io) |
 | pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
 | Todoist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.todoist.com) |
 | Wunderlist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.wunderlist.com/documentation) |
