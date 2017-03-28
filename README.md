@@ -15,12 +15,12 @@ For information on contributing to this project, please see the [contributing gu
 * [Calendar](#calendar)
 * [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
 * [Currency Exchange](#currency-exchange)
-* [Development](#development)
-* [Documents & Productivity](#documents--productivity)
 * [Data Access](#data-access)
 * [Data Validation](#data-validation)
+* [Development](#development)
+* [Documents & Productivity](#documents--productivity)
 * [Environment](#environment)
-* [Food and Drink](#food-and-drink)
+* [Food & Drink](#food--drink)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
 * [Health](#health)
@@ -35,7 +35,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Security](#security)
 * [Shopping](#shopping)
 * [Social](#social)
-* [Sports/Fitness](#sportsfitness)
+* [Sports & Fitness](#sports--fitness)
 * [Transportation](#transportation)
 * [University](#university)
 * [Vehicle](#vehicle)
@@ -116,42 +116,6 @@ For information on contributing to this project, please see the [contributing gu
 | Currencylayer | Exchange rates and currency conversion | `apiKey` query string | Yes | [Go!](https://currencylayer.com/documentation) |
 | Fixer.io | Exchange rates and currency conversion | No | Yes | [Go!](http://fixer.io) |
 
-### Development
-
-| API | Description | Auth | HTTPS | Link |
-|---|---|---|---|---|
-| Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
-| APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | [Go!](https://apis.guru/api-doc/) |
-| CDNJS | Library info on CDNJS | No | Yes | [Go!](https://api.cdnjs.com/libraries/jquery) |
-| Faceplusplus | A tool to detect face | `OAuth` | Yes | [Go!](https://www.faceplusplus.com/) |
-| Github - User Data | Pull public information for a user's github | No | Yes | [Go!](https://api.github.com/users/hackeryou) |
-| Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://developer.gitter.im/docs/welcome) |
-| Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
-| IPify | A simple IP Address API  | No | Yes | [Go!](https://www.ipify.org/) |
-| JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
-| LiveEdu | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.liveedu.tv/developer/applications/) |
-| Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
-| Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
-| Myjson | A simple JSON store for your web or mobile app | No | No | [Go!](http://myjson.com/api) |
-| Plino | Spam filtering system | No | Yes | [Go!](https://plino.herokuapp.com/) |
-| Random Word | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
-| RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
-| ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
-| RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
-| StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
-| Stormpath | User Authentication | `apiKey` | Yes | [Go!](https://stormpath.com/) |
-| UI Faces | Find and generate sample avatars for user interfaces | No | No | [Go!](http://uifaces.com/) |
-| UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
-
-### Documents & Productivity
-
-| API | Description | Auth | HTTPS |Link |
-|---|---|---|---|---|
-| File.io | Files | No | Yes | [Go!](https://www.file.io) |
-| pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
-| Todoist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.todoist.com) |
-| Wunderlist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.wunderlist.com/documentation) |
-
 ### Data Access
 
 | API | Description | Auth | HTTPS | Link |
@@ -189,13 +153,49 @@ For information on contributing to this project, please see the [contributing gu
 | numverify | Phone number validation | No | Yes | [Go!](https://numverify.com) |
 | vatlayer | VAT number validation | No | Yes | [Go!](https://vatlayer.com) |
 
+### Development
+
+| API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
+| APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | [Go!](https://apis.guru/api-doc/) |
+| CDNJS | Library info on CDNJS | No | Yes | [Go!](https://api.cdnjs.com/libraries/jquery) |
+| Faceplusplus | A tool to detect face | `OAuth` | Yes | [Go!](https://www.faceplusplus.com/) |
+| Github - User Data | Pull public information for a user's github | No | Yes | [Go!](https://api.github.com/users/hackeryou) |
+| Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://developer.gitter.im/docs/welcome) |
+| Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
+| IPify | A simple IP Address API  | No | Yes | [Go!](https://www.ipify.org/) |
+| JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
+| LiveEdu | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.liveedu.tv/developer/applications/) |
+| Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
+| Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
+| Myjson | A simple JSON store for your web or mobile app | No | No | [Go!](http://myjson.com/api) |
+| Plino | Spam filtering system | No | Yes | [Go!](https://plino.herokuapp.com/) |
+| Random Word | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
+| RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
+| ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
+| RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
+| StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
+| Stormpath | User Authentication | `apiKey` | Yes | [Go!](https://stormpath.com/) |
+| UI Faces | Find and generate sample avatars for user interfaces | No | No | [Go!](http://uifaces.com/) |
+| UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
+
+### Documents & Productivity
+
+| API | Description | Auth | HTTPS |Link |
+|---|---|---|---|---|
+| File.io | Files | No | Yes | [Go!](https://www.file.io) |
+| pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
+| Todoist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.todoist.com) |
+| Wunderlist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.wunderlist.com/documentation) |
+
 ### Environment
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | PM2.5.in | PM2.5 Data of China | `apiKey` query string | No | [Go!](http://www.pm25.in/api_doc) |
 
-### Food and Drink
+### Food & Drink
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
@@ -382,7 +382,7 @@ For information on contributing to this project, please see the [contributing gu
 | Twitter | Read and write Twitter data | `OAuth` | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | vk API | Read and write vk dat | `OAuth` | Yes | [Go!](https://vk.com/dev/sites) |
 
-### Sports/Fitness
+### Sports & Fitness
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
