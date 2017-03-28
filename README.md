@@ -426,7 +426,7 @@ For information on contributing to this project, please see the [contributing gu
 | Transport for Rio de Janeiro, Brazil | Prefeitura do Rio (City Hall) | No | No | [Go!](http://data.rio/group/transporte-e-mobilidade) |
 | Transport for Sweden | Public Transport consumer | `OAuth` | Yes | [Go!](https://www.trafiklab.se/api) |
 | Transport for Switzerland | Swiss public transport API | No | Yes | [Go!](https://transport.opendata.ch/) |
-| Transport for Switzerland | Official Swiss Public Transport Open Data | `apikey` query string | Yes | [Go!](https://opentransportdata.swiss/en/) |
+| Transport for Switzerland | Official Swiss Public Transport Open Data | `apikey` | Yes | [Go!](https://opentransportdata.swiss/en/) |
 | Transport for São Paulo, Brazil | SPTrans | `OAuth` | No | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 | Transport for Tokyo, Japan | Tokyo Metro | `apiKey` query string | Yes | [Go!](https://developer.tokyometroapp.jp/info)  |
