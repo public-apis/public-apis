@@ -244,6 +244,7 @@ For information on contributing to this project, please see the [contributing gu
 | Mapbox | Create/customize beautiful digital maps | `apiKey` query string | Yes | [Go!](https://www.mapbox.com/developers/) |
 | Mapzen Search | Open Source & Open Data Global Geocoding Service | No | Yes | [Go!](https://mapzen.com/products/search/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | [Go!](https://github.com/IcaliaLabs/sepomex) |
+| ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
 | OpenCage | Forward and reverse geocoding using open data | No | Yes | [Go!](https://geocoder.opencagedata.com) |
 | OpenStreetMap | Navigation, geolocation and geographical data | `OAuth` | No | [Go!](http://wiki.openstreetmap.org/wiki/API) |
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
