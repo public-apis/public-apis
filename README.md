@@ -465,7 +465,6 @@ For information on contributing to this project, please see the [contributing gu
 | OMDB | Open movie database | No | Yes | [Go!](https://omdbapi.com/) |
 | Ron Swanson Quotes | Television | No | Yes | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
 | TVMaze | TV Show Data | No | No | [Go!](http://www.tvmaze.com/api) |
-| Video download | Video download API for youtube, rai.it, mediaset.it, la7.it and hundreds of other sites. | No | Yes | [Go!](https://api.daniil.it) |
 | Vimeo | Vimeo Developer API | `OAuth` | Yes | [Go!](https://developer.vimeo.com/) |
 | YouTube | Add YouTube functionality to your sites and apps. | `OAuth` required for some parts | Yes | [Go!](https://developers.google.com/youtube/) |
 
