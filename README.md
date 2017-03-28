@@ -177,7 +177,6 @@ For information on contributing to this project, please see the [contributing gu
 | RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
 | Stormpath | User Authentication | `apiKey` | Yes | [Go!](https://stormpath.com/) |
-| UI Faces | Find and generate sample avatars for user interfaces | No | No | [Go!](http://uifaces.com/) |
 | UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
 
 ### Documents & Productivity
