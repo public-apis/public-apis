@@ -180,6 +180,7 @@ For information on contributing to this project, please see the [contributing gu
 | Wordnik | Dictionary Data | No | No | [Go!](http://developer.wordnik.com) |
 | Yelp | Find Local Business | `OAuth` | Yes | [Go!](https://www.yelp.com/developers) |
 
+
 ### Data Validation
 
 | API | Description | Auth | HTTPS | Link |
@@ -249,6 +250,7 @@ For information on contributing to this project, please see the [contributing gu
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
 | Postcodes.io | Postcode lookup & Geolocation for the UK | No | Yes | [Go!](https://postcodes.io) |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
+| One Map 2.0, Singapore| Singapore Land Authority`s REST API services for Singapore addresses  | Yes | Yes | [Go!](https://docs.onemap.sg/) |
 
 ### Health
 
