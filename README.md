@@ -433,7 +433,7 @@ For information on contributing to this project, please see the [contributing gu
 | Transport for Tokyo, Japan | Tokyo Metro | `apiKey` query string | Yes | [Go!](https://developer.tokyometroapp.jp/info)  |
 | Transport for Toronto, Canada | TTC | No | Yes | [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | `OAuth` | Yes | [Go!](https://developer.translink.ca/) |
-| Transport for Victoria, AU | PTV API | `authKey` | Yes | [Go!](https://timetableapi.ptv.vic.gov.au/swagger/ui/index) |
+| Transport for Victoria, AU | PTV API | `authKey` | Yes | [Go!](https://www.ptv.vic.gov.au/about-ptv/ptv-data-and-reports/digital-products/ptv-timetable-api/) |
 | Transport for Washington, US | Washington Metro transport API | `OAuth` | Yes | [Go!](https://developer.wmata.com/) |
 | Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` query string | No | [Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
 | Transport for Auckland, New Zealand | Auckland Transport API  | No | Yes | [Go!](https://api.at.govt.nz/) |
