@@ -473,6 +473,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Dark Sky | Weather | `apiKey` query string | Yes | [Go!](https://darksky.net/dev/) |
+| MetaWeather | Weather | No | Yes | [Go!](https://www.metaweather.com/api/) |
 | OpenWeatherMap | Weather | `apiKey` query string | No | [Go!](http://openweathermap.org/api) |
 | Weatherbit | Weather | `apiKey` query string | Yes | [Go!](https://www.weatherbit.io/api) |
 | Wunderground | Weather | No | Yes | [Go!](https://www.wunderground.com/weather/api/) |
