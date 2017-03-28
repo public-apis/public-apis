@@ -298,7 +298,8 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| New York Times | Provides news | No, but `apikey` is required | Yes | [Go!](https://developer.nytimes.com/) |
+| New York Times | Provides news | `apikey` | Yes | [Go!](https://developer.nytimes.com/) |
+| News API | headlines currently published on a range of news sources and blogs | `apikey` | Yes | [Go!](https://newsapi.org/) |
 
 ### Open Source projects
 
