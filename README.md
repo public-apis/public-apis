@@ -122,6 +122,7 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | 18F | US Federal Government /Developer Program | No | No | [Go!](http://18f.github.io/API-All-the-X/) |
 | Abbreviation | Get abbreviations and meanings | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/abbreviations) |
+| Barchart OnDemand | Stock, Futures, and Forex Market Data | `apiKey` | Yes | [Go!](https://www.barchartondemand.com/free) |
 | CARTO | Location Information Prediction | `apiKey` | Yes | [Go!](https://carto.com/) |
 | Callook.info | United States ham radio callsigns | No | Yes | [Go!](https://callook.info) |
 | Celebinfo | Celebrity information | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
