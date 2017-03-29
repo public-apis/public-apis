@@ -20,7 +20,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Development](#development)
 * [Documents & Productivity](#documents--productivity)
 * [Environment](#environment)
-* [Food and Drink](#food-and-drink)
+* [Food & Drink](#food--drink)
 * [Fraud Prevention](#fraud-prevention)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
