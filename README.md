@@ -20,6 +20,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Development](#development)
 * [Documents & Productivity](#documents--productivity)
 * [Environment](#environment)
+* [Finance](#finance)
 * [Food & Drink](#food--drink)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
@@ -122,7 +123,6 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | 18F | US Federal Government /Developer Program | No | No | [Go!](http://18f.github.io/API-All-the-X/) |
 | Abbreviation | Get abbreviations and meanings | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/abbreviations) |
-| Barchart OnDemand | Stock, Futures, and Forex Market Data | `apiKey` | Yes | [Go!](https://www.barchartondemand.com/free) |
 | CARTO | Location Information Prediction | `apiKey` | Yes | [Go!](https://carto.com/) |
 | Callook.info | United States ham radio callsigns | No | Yes | [Go!](https://callook.info) |
 | Celebinfo | Celebrity information | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
@@ -194,6 +194,12 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | PM2.5.in | PM2.5 Data of China | `apiKey` query string | No | [Go!](http://www.pm25.in/api_doc) |
+
+### Finance
+
+| API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Barchart OnDemand | Stock, Futures, and Forex Market Data | `apiKey` | Yes | [Go!](https://www.barchartondemand.com/free) |
 
 ### Food & Drink
 
