@@ -20,6 +20,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Development](#development)
 * [Documents & Productivity](#documents--productivity)
 * [Environment](#environment)
+* [Finance](#finance)
 * [Food & Drink](#food--drink)
 * [Fraud Prevention](#fraud-prevention)
 * [Games & Comics](#games--comics)
@@ -195,6 +196,12 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | PM2.5.in | PM2.5 Data of China | `apiKey` query string | No | [Go!](http://www.pm25.in/api_doc) |
+
+### Finance
+
+| API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Barchart OnDemand | Stock, Futures, and Forex Market Data | `apiKey` | Yes | [Go!](https://www.barchartondemand.com/free) |
 
 ### Food & Drink
 
