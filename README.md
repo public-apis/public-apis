@@ -21,6 +21,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Documents & Productivity](#documents--productivity)
 * [Environment](#environment)
 * [Food & Drink](#food--drink)
+* [Fraud Prevention](#fraud-prevention)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
 * [Health](#health)
@@ -207,6 +208,16 @@ For information on contributing to this project, please see the [contributing gu
 | PunkAPI | Brewdog Beer Recipes | No | Yes | [Go!](https://punkapi.com/) |
 | Recipe Puppy | Food | No | No | [Go!](http://www.recipepuppy.com/about/api/) |
 | Yummly | Find food recipes | No | Yes | [Go!](https://developer.yummly.com/) |
+
+### Fraud Prevention
+
+| API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Whitepages Pro | Global identity verification with phone, address, email, and IP | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/identity-check-api/) |
+| Whitepages Pro | Phone reputation to detect spammy phones | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/phone-reputation-api/) |
+| Whitepages Pro | Get an owner’s name, address, demographics based on the phone number | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/reverse-phone-api/) |
+| Whitepages Pro| Phone number validation, line_type, carrier append | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/phone-intelligence-api/) |
+| Whitepages Pro| Get normalized physical address, residents, address type, and validity. | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/reverse-address-api/) |
 
 ### Games & Comics
 
