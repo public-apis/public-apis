@@ -8,7 +8,7 @@ A collective list of JSON APIs for use in web development.
 
 | API | Description | OAuth | Link |
 |---|---|---|---|
-| IUCN | IUCN Red List of Threatened Species | No, but a token is required | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
+| IUCN | IUCN Red List of Threatened Species | No, but a token is required | [Go!](http://apiv3.iucnredlist.org/api/v3/docs){:target="_blank"} |
 | Petfinder | Adoption | No | [Go!](https://www.petfinder.com/developers/api-docs/) |
 | RescueGroups | Adoption | No | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
 
