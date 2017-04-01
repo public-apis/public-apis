@@ -6,7 +6,7 @@ community build applications and use free, public APIs quickly and easily. Pull 
 >
 > Thanks for understanding! :)
 
-##Formatting
+## Formatting
 
 Current API entry format:
 
@@ -31,13 +31,13 @@ Please continue to follow the alphabetical ordering that is in place per section
 
 If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
 
-##Pull Request
+## Pull Request
 
 After you've created a branch on your fork with your changes, it's time to [make a pull request][pr-link]!
 
 Once you’ve submitted a pull request, the collaborators can review your proposed changes and decide whether or not to incorporate (pull in) your changes.
 
-###Pull Request Pro Tips
+### Pull Request Pro Tips
 
 * [Fork][fork-link] the repository and [clone][clone-link] it locally.
 Connect your local repository to the original `upstream` repository by adding it as a [remote][remote-link].
@@ -47,7 +47,7 @@ merge conflicts will be less likely. See more detailed instructions [here][synci
 * Contribute in the style of the project as outlined above. This makes it easier for the collaborators to merge
 and for others to understand and maintain in the future.
 
-###Open Pull Requests
+### Open Pull Requests
 
 Once you’ve opened a pull request, a discussion will start around your proposed changes.
 
