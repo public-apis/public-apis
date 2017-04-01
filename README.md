@@ -385,8 +385,8 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Discord bot | Make bots for Discord | `OAuth` | Yes | [Go!](https://discordapp.com/developers/docs/intro) |
-| Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | `OAuth` | Yes | [Go!](https://developers.facebook.com/) |
+| Discord | Make bots for Discord, integrate Discord onto an external platform | `OAuth` | Yes | [Go!](https://discordapp.com/developers/docs/intro) |
+| Facebook | Facebook Login, Share on FB, Social Plugins, Analytics and more | `OAuth` | Yes | [Go!](https://developers.facebook.com/) |
 | Foursquare | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | `OAuth` | Yes | [Go!](https://developer.foursquare.com/) |
 | Fuck Off as a Service | Asks someone to fuck off | No | Yes | [Go!](https://www.foaas.com) |
 | Full Contact | Get Social Media profiles and contact Information | `OAuth` | Yes | [Go!](https://www.fullcontact.com/developer/docs/) |
@@ -402,7 +402,7 @@ For information on contributing to this project, please see the [contributing gu
 | Tumblr | Read and write Tumblr Data | `OAuth` | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 | Twitch | Game Streaming API | `OAuth` | Yes | [Go!](https://github.com/justintv/Twitch-API) |
 | Twitter | Read and write Twitter data | `OAuth` | Yes | [Go!](https://dev.twitter.com/rest/public) |
-| vk API | Read and write vk dat | `OAuth` | Yes | [Go!](https://vk.com/dev/sites) |
+| vk | Read and write vk dat | `OAuth` | Yes | [Go!](https://vk.com/dev/sites) |
 
 ### Sports & Fitness
 
