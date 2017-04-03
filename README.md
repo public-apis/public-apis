@@ -233,6 +233,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Battle.net | Blizzard Entertainment | No | Yes | [Go!](https://dev.battle.net/)  |
+| Battlefield 4 | Battlefield 4 Information | No | Yes | [Go!](https://bf4stats.com/api)  |
 | Chuck Norris Database | Jokes | No | No | [Go!](http://www.icndb.com/api/) |
 | Clash of Clans | Clash of Clans Game Information | No | Yes | [Go!](https://developer.clashofclans.com) |
 | Clash Royale | Clash Royale Game Information | No | Yes | [Go!](https://github.com/martincarrera/clash-royale-api)  |
