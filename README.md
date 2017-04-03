@@ -40,6 +40,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Sports & Fitness](#sports--fitness)
 * [Transportation](#transportation)
 * [University](#university)
+* [Utilities](#utilities)
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
@@ -468,6 +469,12 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Universities List | University names, countries and domains| No | Yes | [Go!](https://github.com/Hipo/university-domains-list) |
+
+### Utilities
+
+| API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Utilities List | JSON 2 JSONP - Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using pure JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
 
 ### Vehicle
 
