@@ -182,6 +182,7 @@ For information on contributing to this project, please see the [contributing gu
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
 | Stormpath | User Authentication | `apiKey` | Yes | [Go!](https://stormpath.com/) |
 | UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
+| Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
 
 ### Documents & Productivity
 
