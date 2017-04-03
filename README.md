@@ -188,9 +188,9 @@ For information on contributing to this project, please see the [contributing gu
 |---|---|---|---|---|
 | File.io | File Sharing | No | Yes | [Go!](https://www.file.io) |
 | pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
+| PrexView | Data from XML or JSON to PDF, HTML or Image  | `apiKey` | Yes | [Go!](https://prexview.com) |
 | Todoist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.todoist.com) |
 | Wunderlist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.wunderlist.com/documentation) |
-| PrexView | Data from XML or JSON to PDF, HTML or Image  | `apiKey` | Yes | [Go!](https://prexview.com) |
 
 ### Environment
 
