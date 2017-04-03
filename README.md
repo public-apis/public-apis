@@ -123,10 +123,10 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | 18F | US Federal Government /Developer Program | No | No | [Go!](http://18f.github.io/API-All-the-X/) |
-| Abbreviation | Get abbreviations and meanings | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/abbreviations) |
+| Abbreviation | Get abbreviations and meanings | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/daxeel/abbreviations) |
 | CARTO | Location Information Prediction | `apiKey` | Yes | [Go!](https://carto.com/) |
 | Callook.info | United States ham radio callsigns | No | Yes | [Go!](https://callook.info) |
-| Celebinfo | Celebrity information | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
+| Celebinfo | Celebrity information | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Colorado Data Engine | Formatted and geolocated Colorado public data | No | Yes | [Go!](http://codataengine.org/) |
 | Colorado Information Marketplace | Colorado State Government Open Data | No | Yes | [Go!](https://data.colorado.gov/) |
 | Data USA | US Public Data | No | Yes | [Go!](https://datausa.io/about/api/) |
@@ -171,7 +171,7 @@ For information on contributing to this project, please see the [contributing gu
 | JSON 2 JSONP | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.liveedu.tv/developer/applications/) |
-| Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
+| Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | Yes | [Go!](https://plino.herokuapp.com/) |
@@ -209,7 +209,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| BigOven | Recipe Search | `X-Mashape-Key` as header | No | [Go!](http://api2.bigoven.com/) |
+| BigOven | Recipe Search | `X-Mashape-Key` | No | [Go!](http://api2.bigoven.com/) |
 | BreweryDB | Beer | `apiKey` | No | [Go!](http://www.brewerydb.com/developers) |
 | Edamam | Recipe Search | `apiKey` | Yes | [Go!](https://developer.edamam.com/) |
 | Food2Fork | Recipe Search | `apiKey` | No | [Go!](http://food2fork.com/about/api) |
@@ -415,7 +415,7 @@ For information on contributing to this project, please see the [contributing gu
 | Fitbit | Fitbit Information | `OAuth` | Yes | [Go!](https://dev.fitbit.com/) |
 | Football-Data.org | Football Data | No | No | [Go!](http://api.football-data.org/index) |
 | JCDecaux Bike | JCDecaux's self-service bicycles | `apiKey` | Yes | [Go!](https://developer.jcdecaux.com/) |
-| Cricket Live Scores | live-score | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
+| Cricket Live Scores | live-score | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
 | NFL Arrests | NFL Arrest Data | No | No | [Go!](http://nflarrest.com/api/) |
 | Pro Motocross | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | [Go!](http://promotocrossapi.com) |
 | Strava | Connect with athletes, activities and more | `OAuth` | Yes | [Go!](https://strava.github.io/api/) |
