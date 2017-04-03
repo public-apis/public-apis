@@ -40,7 +40,6 @@ For information on contributing to this project, please see the [contributing gu
 * [Sports & Fitness](#sports--fitness)
 * [Transportation](#transportation)
 * [University](#university)
-* [Utilities](#utilities)
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
@@ -169,6 +168,7 @@ For information on contributing to this project, please see the [contributing gu
 | Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://developer.gitter.im/docs/welcome) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
 | IPify | A simple IP Address API  | No | Yes | [Go!](https://www.ipify.org/) |
+| JSON 2 JSONP | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.liveedu.tv/developer/applications/) |
 | Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` as header | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
@@ -469,12 +469,6 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Universities List | University names, countries and domains| No | Yes | [Go!](https://github.com/Hipo/university-domains-list) |
-
-### Utilities
-
-| API | Description | Auth | HTTPS | Link |
-|---|---|---|---|---|
-| JSON 2 JSONP | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
 
 ### Vehicle
 
