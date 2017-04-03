@@ -474,7 +474,7 @@ For information on contributing to this project, please see the [contributing gu
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Utilities List | JSON 2 JSONP - Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using pure JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
+| JSON 2 JSONP | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
 
 ### Vehicle
 
