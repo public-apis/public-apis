@@ -84,6 +84,8 @@ A collective list of JSON APIs for use in web development.
 | StackExchange | The All-in-one API for StackExchange sites | Yes | [Go!](https://api.stackexchange.com/)
 | UI Faces | Find and generate sample avatars for user interfaces | No | [Go!](http://uifaces.com/api) |
 | UI Names | Generate random fake names | No | [Go!](https://github.com/thm/uinames) |
+| Bit.ly | URL Shortener and Link Management Platform | OAuth | [Go!](http://dev.bitly.com/get_started.html) |
+
 
 ### Documents & Productivity
 
