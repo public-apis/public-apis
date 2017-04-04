@@ -97,48 +97,12 @@ Please note a passing build status indicates all listed APIs are available since
 
 ### Calendar
 
-<<<<<<< HEAD
-| API | Description | OAuth | Link |
-|---|---|---|---|
-| Church Calendar API | Catholic liturgical calendar | No | [Go!](http://calapi.inadiutorium.cz/) |
-| Date and Time | Global Date and Time | No | [Go!](http://www.timeanddate.com/services/api/) |
-| Holidays | Free API for obtaining information about holidays. | No | [Go!](http://holidayapi.com/) |
-| Non-working days API | Database of ICS files for non working days | No | [Go!](https://github.com/gadael/icsdb) |
-
-### Development
-
-| API | Description | OAuth | Link |
-|---|---|---|---|
-| Adorable Avatars | Generate random cartoon avatars | No | [Go!](http://avatars.adorable.io) |
-| APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | [Go!](https://apis.guru/api-doc/) |
-| CDNJS | Library info on CDNJS | No | [Go!](https://api.cdnjs.com/libraries/jquery) |
-| Faceplusplus | A tool to detect face | Yes | [Go!](http://www.faceplusplus.com/uc_home/) |
-| Github - User Data | Pull public information for a user's github | No | [Go!](https://api.github.com/users/hackeryou) |
-| Gitter | Chat for GitHub | Yes | [Go!](https://developer.gitter.im/docs/) |
-| Hipster Ipsum | Generates Hipster Ipsum text | No | [Go!](http://hipsterjesus.com/)
-| JSONPlaceholder | Fake data for testing and prototyping | No | [Go!](http://jsonplaceholder.typicode.com/) |
-| LiveCoding | Live Coding Streaming API | Yes | [Go!](https://www.livecoding.tv/developer/applications/)
-| Lorem Text | Generates Lorem Ipsum text | No, but requires `X-Mashape-Key` as header | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator)
-| Loripsum | The "lorem ipsum" generator that doesn't suck | No | [Go!](http://loripsum.net/)
-| Myjson | A simple JSON store for your web or mobile app | No | [Go!](http://myjson.com/api) |
-| Plino | Spam filtering system | No | [Go!](https://plino.herokuapp.com/) |
-| Random Word | Generate random word | No | [Go!](http://randomword.setgetgo.com/) |
-| RandomUser | Generates random user data | No | [Go!](https://randomuser.me) |
-| ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | [Go!](http://reqres.in/)
-| RoboHash | Generate random robot/alien avatars | No | [Go!](https://robohash.org/) |
-| StackExchange | The All-in-one API for StackExchange sites | Yes | [Go!](https://api.stackexchange.com/)
-| UI Faces | Find and generate sample avatars for user interfaces | No | [Go!](http://uifaces.com/api) |
-| UI Names | Generate random fake names | No | [Go!](https://github.com/thm/uinames) |
-| Bit.ly | URL Shortener and Link Management Platform | OAuth | [Go!](http://dev.bitly.com/get_started.html) |
-
-=======
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
 | Holidays | Free API for obtaining information about holidays. | `apiKey` | Yes | [Go!](https://holidayapi.com/) |
 | LectServe | Protestant liturgical calendar | No | No | [Go!](http://www.lectserve.com) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
->>>>>>> 1c0c3896866fc0df935a02724254e516a453a2b1
 
 ### Cloud Storage & File Sharing
 
@@ -294,23 +258,6 @@ Please note a passing build status indicates all listed APIs are available since
 
 ### Geocoding
 
-<<<<<<< HEAD
-| API | Description | OAuth | Link |
-|---|---|---|---|
-| GeoNames | Place names and other geographical data | No | [Go!](http://www.geonames.org/export/web-services.html) |
-| Google Maps API | Create/customize digital maps based on Google Maps data | No, but `apiKey` query string | [Go!](https://developers.google.com/maps/) |
-| IP 2 Country | Map an IP to a country | No | [Go!](https://ip2country.info) |
-| IP Address Details| Find geolocation with ip address | No | [Go!](https://ipinfo.io/) |
-| Mapbox | Create/customize beautiful digital maps | No, but `apiKey` query string | [Go!](https://www.mapbox.com/developers/) |
-| Mapzen Search | Open Source & Open Data Global Geocoding Service | No | [Go!](https://mapzen.com/projects/search) |
-| Mexico | Mexico RESTful zip codes API | No | [Go!](https://github.com/IcaliaLabs/sepomex) |
-| OpenCage | Forward and reverse geocoding using open data | No | [Go!](https://geocoder.opencagedata.com) |
-| OpenStreetMap | Navigation, geolocation and geographical data | Yes | [Go!](http://wiki.openstreetmap.org/wiki/API) |
-| PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
-| Postcodes.io | Postcode & Geolocation API for the UK | No | [Go!](https://postcodes.io) |
-| timezonedb | Time Zone Database | No | [Go!](https://timezonedb.com/) |
-
-=======
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Bing Maps | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | [Go!](https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx) |
@@ -330,7 +277,6 @@ Please note a passing build status indicates all listed APIs are available since
 | Postcodes.io | Postcode lookup & Geolocation for the UK | No | Yes | [Go!](https://postcodes.io) |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
 | ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
->>>>>>> 1c0c3896866fc0df935a02724254e516a453a2b1
 
 ### Health
 
