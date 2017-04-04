@@ -43,7 +43,6 @@ For information on contributing to this project, please see the [contributing gu
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
-* [Misc](#misc)
 
 ### Animals
 
@@ -184,6 +183,7 @@ For information on contributing to this project, please see the [contributing gu
 | Stormpath | User Authentication | `apiKey` | Yes | [Go!](https://stormpath.com/) |
 | UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
+| Let's Validate | Uncovers the technologies used on websites and URL to thumbnail | No | Yes | [Go!](https://github.com/letsvalidate/api) |
 
 ### Documents & Productivity
 
@@ -358,7 +358,6 @@ For information on contributing to this project, please see the [contributing gu
 | Imgur | Images | `OAuth` | Yes | [Go!](https://api.imgur.com/#overview) |
 | ScreenShotLayer | URL 2 Image | No | Yes | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | `OAuth` | Yes | [Go!](https://unsplash.com/developers) |
-| Let's Validate | URL 2 Thumbnail | No | Yes | [Go!](https://github.com/letsvalidate/api) |
 
 ### Science
 
@@ -507,10 +506,3 @@ For information on contributing to this project, please see the [contributing gu
 | Weatherbit | Weather | `apiKey` | Yes | [Go!](https://www.weatherbit.io/api) |
 | Wunderground | Weather | No | Yes | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | [Go!](https://developer.yahoo.com/weather/) |
-
-### Misc
-
-
-| API | Description | Auth | HTTPS | Link |
-|---|---|---|---|---|
-| Let's Validate | Uncovers the technologies used on websites | No | Yes | [Go!](https://github.com/letsvalidate/api) |
