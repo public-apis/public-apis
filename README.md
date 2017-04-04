@@ -153,6 +153,7 @@ Please note a passing build status indicates all listed APIs are available since
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | languagelayer | Language detection | No | Yes | [Go!](https://languagelayer.com) |
+| Lob.com | US Address Verification | `apiKey` | Yes | [Go!](https://lob.com/) |
 | mailboxlayer | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
 | numverify | Phone number validation | No | Yes | [Go!](https://numverify.com) |
 | vatlayer | VAT number validation | No | Yes | [Go!](https://vatlayer.com) |
