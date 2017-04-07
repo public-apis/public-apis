@@ -78,6 +78,7 @@ Please note a passing build status indicates all listed APIs are available since
 |---|---|---|---|---|
 | Dribbble | Design | `OAuth` | No | [Go!](http://developer.dribbble.com/v1/) |
 | Noun Project | Icons | `OAuth` | No | [Go!](http://api.thenounproject.com/index.html) |
+| Icons8 | Icons | `OAuth` | Yes | [Go!](http://docs.icons8.apiary.io/#reference/0/meta) |
 | Rijksmuseum| Art | No | Yes | [Go!](https://www.rijksmuseum.nl/en/api) |
 
 ### Books
