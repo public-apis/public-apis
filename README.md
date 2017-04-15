@@ -332,6 +332,7 @@ Please note a passing build status indicates all listed APIs are available since
 |---|---|---|---|---|
 | New York Times | Provides news | `apikey` | Yes | [Go!](https://developer.nytimes.com/) |
 | News API | headlines currently published on a range of news sources and blogs | `apikey` | Yes | [Go!](https://newsapi.org/) |
+| The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apikey` | Yes | [Go!](http://open-platform.theguardian.com/) |
 
 ### Open Source projects
 
