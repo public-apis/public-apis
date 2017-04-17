@@ -441,7 +441,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Goibibo | API for travel search  | `apiKey` | Yes | [Go!](https://developer.goibibo.com/docs) |
 | Indian Railways | Indian Railways Information | `token` | No | [Go!](http://api.erail.in/) |
 | The Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
-| Schiphol Airport | Schiphol | `OAuth` | Yes | [Go!](https://flight-info.3scale.net/) |
+| Schiphol Airport | Schiphol | `apiKey` | Yes | [Go!](https://developer.schiphol.nl/) |
 | TransitLand | Transit Aggregation | No | Yes | [Go!](https://transit.land/documentation/datastore/api-endpoints.html) |
 | Transport for Atlanta, US | Marta | No | No | [Go!](http://www.itsmarta.com/app-developer-resources.aspx) |
 | Transport for Belgium | Belgian transport API | No | Yes | [Go!](https://hello.irail.be/api/) |
