@@ -441,38 +441,38 @@ Please note a passing build status indicates all listed APIs are available since
 | Goibibo | API for travel search  | `apiKey` | Yes | [Go!](https://developer.goibibo.com/docs) |
 | Indian Railways | Indian Railways Information | `token` | No | [Go!](http://api.erail.in/) |
 | The Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
-| Schiphol Airport | Schiphol | `OAuth` | Yes | [Go!](https://flight-info.3scale.net/) |
+| Schiphol Airport | Schiphol | `apiKey` | Yes | [Go!](https://developer.schiphol.nl/) |
 | TransitLand | Transit Aggregation | No | Yes | [Go!](https://transit.land/documentation/datastore/api-endpoints.html) |
 | Transport for Atlanta, US | Marta | No | No | [Go!](http://www.itsmarta.com/app-developer-resources.aspx) |
+| Transport for Auckland, New Zealand | Auckland Transport API  | No | Yes | [Go!](https://api.at.govt.nz/) |
 | Transport for Belgium | Belgian transport API | No | Yes | [Go!](https://hello.irail.be/api/) |
-| Transport for Boston, MA, USA | MBTA API | No | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents) |
-| Transport for Budapest | Budapest public transport API | No | Yes | [Go!](https://apiary.io/) |
+| Transport for Berlin, Germany | third-party VBB API | No | Yes | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
+| Transport for Boston, US | MBTA API | No | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents) |
+| Transport for Budapest, Hungary | Budapest public transport API | No | Yes | [Go!](https://apiary.io/) |
 | Transport for Chicago, US | CTA | No | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Czech Republic | Czech transport API | No | Yes | [Go!](https://www.chaps.cz/eng/products/idos-internet) |
 | Transport for Finland | Finnish transport API | No | Yes | [Go!](https://digitransit.fi/en/developers/ ) |
 | Transport for Germany | Deutsche Bahn (DB) API | `apiKey` | No | [Go!](http://data.deutschebahn.com/dataset/api-fahrplan) |
-| Transport for Berlin | third-party VBB API | No | Yes | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
 | Transport for India | India Public Transport API | `apiKey` | Yes | [Go!](https://data.gov.in/sector/transport) |
 | Transport for London, England | TfL API | No | Yes | [Go!](https://api.tfl.gov.uk) |
+| Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` | No | [Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
 | Transport for Minneapolis, US | NexTrip API | `OAuth` | No | [Go!](http://svc.metrotransit.org/) |
-| Transport for New York City | MTA | `apiKey` | No | [Go!](http://datamine.mta.info/) |
+| Transport for New York City, US | MTA | `apiKey` | No | [Go!](http://datamine.mta.info/) |
 | Transport for Norway | Norwegian transport API | No | No | [Go!](http://reisapi.ruter.no/help) |
 | Transport for Ottawa, Canada | OC Transpo next bus arrival API | No | No | [Go!](http://www.octranspo.com/index.php/developers) |
 | Transport for Paris, France | RATP Open Data API | No | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
-| Transport for Philadelphia | SEPTA APIs | No | No | [Go!](http://www3.septa.org/hackathon/) |
+| Transport for Philadelphia, US | SEPTA APIs | No | No | [Go!](http://www3.septa.org/hackathon/) |
 | Transport for Rio de Janeiro, Brazil | Prefeitura do Rio (City Hall) | No | No | [Go!](http://data.rio/group/transporte-e-mobilidade) |
+| Transport for São Paulo, Brazil | SPTrans | `OAuth` | No | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for Sweden | Public Transport consumer | `OAuth` | Yes | [Go!](https://www.trafiklab.se/api) |
 | Transport for Switzerland | Swiss public transport API | No | Yes | [Go!](https://transport.opendata.ch/) |
 | Transport for Switzerland | Official Swiss Public Transport Open Data | `apiKey` | Yes | [Go!](https://opentransportdata.swiss/en/) |
-| Transport for São Paulo, Brazil | SPTrans | `OAuth` | No | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 | Transport for Tokyo, Japan | Tokyo Metro | `apiKey` | Yes | [Go!](https://developer.tokyometroapp.jp/info)  |
 | Transport for Toronto, Canada | TTC | No | Yes | [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | `OAuth` | Yes | [Go!](https://developer.translink.ca/) |
 | Transport for Victoria, AU | PTV API | `apiKey` | Yes | [Go!](https://www.ptv.vic.gov.au/about-ptv/ptv-data-and-reports/digital-products/ptv-timetable-api/) |
 | Transport for Washington, US | Washington Metro transport API | `OAuth` | Yes | [Go!](https://developer.wmata.com/) |
-| Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` | No | [Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
-| Transport for Auckland, New Zealand | Auckland Transport API  | No | Yes | [Go!](https://api.at.govt.nz/) |
 | Uber | Request Uber rides, reach riders, transport things, and reward drivers | `OAuth` | Yes | [Go!](https://developer.uber.com/) |
 | WhereIsMyTransport | Platform for public transport data in emerging cities  | `OAuth` | Yes | [Go!](https://developer.whereismytransport.com/) |
 
