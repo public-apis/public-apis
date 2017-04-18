@@ -343,6 +343,12 @@ Please note a passing build status indicates all listed APIs are available since
 | Drupal.org | Drupal.org | No | Yes | [Go!](https://www.drupal.org/drupalorg/docs/api) |
 | Libraries.io | Open source software libraries | `apiKey` | Yes | [Go!](https://libraries.io/api) |
 
+### Parcel Tracking
+
+| API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Sweden  | Provides  information about parcels in transport | `apikey` | No | [Go!](https://developer.postnord.com/docs2) |
+
 ### Personality
 
 | API | Description | Auth | HTTPS | Link |
