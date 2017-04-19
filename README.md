@@ -442,6 +442,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Goibibo | API for travel search  | `apiKey` | Yes | [Go!](https://developer.goibibo.com/docs) |
 | Indian Railways | Indian Railways Information | `token` | No | [Go!](http://api.erail.in/) |
+| Navitia | The open API for building cool stuff with transport data | `apiKey` | Yes | [Go!](https://api.navitia.io/) |
 | The Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
 | Schiphol Airport | Schiphol | `apiKey` | Yes | [Go!](https://developer.schiphol.nl/) |
 | TransitLand | Transit Aggregation | No | Yes | [Go!](https://transit.land/documentation/datastore/api-endpoints.html) |
