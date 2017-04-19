@@ -156,7 +156,6 @@ Please note a passing build status indicates all listed APIs are available since
 | languagelayer | Language detection | No | Yes | [Go!](https://languagelayer.com) |
 | Lob.com | US Address Verification | `apiKey` | Yes | [Go!](https://lob.com/) |
 | mailboxlayer | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
-| One Map 2.0, Singapore| Singapore Land Authority's REST API services for Singapore addresses  | Yes | Yes | [Go!](https://docs.onemap.sg/) |
 | numverify | Phone number validation | No | Yes | [Go!](https://numverify.com) |
 | vatlayer | VAT number validation | No | Yes | [Go!](https://vatlayer.com) |
 
