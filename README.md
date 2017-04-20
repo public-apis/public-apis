@@ -191,6 +191,7 @@ For information on contributing to this project, please see the [contributing gu
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | PM2.5.in | PM2.5 Data of China | `apiKey` query string | No | [Go!](http://www.pm25.in/api_doc) |
+| AirVisual | Air quality and weather data | `apiKey` query string | No | [Go!](https://airvisual.com/api) |
 
 ### Food and Drink
 
