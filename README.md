@@ -215,7 +215,6 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-
 | PM2.5.in | PM2.5 Data of China | `apiKey` query string | No | [Go!](http://www.pm25.in/api_doc) |
 | AirVisual | Air quality and weather data | `apiKey` query string | No | [Go!](https://airvisual.com/api) |
 
