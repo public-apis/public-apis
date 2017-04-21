@@ -284,6 +284,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Postcodes.io | Postcode lookup & Geolocation for the UK | No | Yes | [Go!](https://postcodes.io) |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
 | ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
+| adresse.data.gouv.fr | Address database of France. geocoding and reverse. | No | Yes | [Go!](https://adresse.data.gouv.fr) | 
 
 
 ### Health
