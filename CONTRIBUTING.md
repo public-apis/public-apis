@@ -11,7 +11,7 @@ community build applications and use free, public APIs quickly and easily. Pull 
 Current API entry format:
 
 | API | Description | Auth | HTTPS | Link |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | API Title | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Link to API webpage |
 
 Example entry:
