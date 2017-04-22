@@ -216,6 +216,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| OpenAQ | Open air quality data | `apiKey` | No | [Go!](https://docs.openaq.org/)
 | AirVisual | Air quality and weather data | `apiKey` | Yes | [Go!](https://airvisual.com/api) |
 | BigOven | Recipe Search | `X-Mashape-Key` | No | [Go!](http://api2.bigoven.com/) |
 | BreweryDB | Beer | `apiKey` | No | [Go!](http://www.brewerydb.com/developers) |
