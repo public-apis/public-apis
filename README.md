@@ -204,7 +204,8 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| PM2.5.in | PM2.5 Data of China | `apiKey` | No | [Go!](http://www.pm25.in/api_doc) |
+| AirVisual | Air quality and weather data | `apiKey` | Yes | [Go!](https://airvisual.com/api) |
+| PM2.5.in | Air quality of China | `apiKey` | No | [Go!](http://www.pm25.in/api_doc) |
 
 ### Finance
 
@@ -216,7 +217,6 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| AirVisual | Air quality and weather data | `apiKey` | Yes | [Go!](https://airvisual.com/api) |
 | BigOven | Recipe Search | `X-Mashape-Key` | No | [Go!](http://api2.bigoven.com/) |
 | BreweryDB | Beer | `apiKey` | No | [Go!](http://www.brewerydb.com/developers) |
 | Edamam | Recipe Search | `apiKey` | Yes | [Go!](https://developer.edamam.com/) |
@@ -277,7 +277,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | [Go!](https://www.mapbox.com/developers/) |
 | Mapzen Search | Open Source & Open Data Global Geocoding Service | No | Yes | [Go!](https://mapzen.com/products/search/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | [Go!](https://github.com/IcaliaLabs/sepomex) |
-| One Map 2.0, Singapore| Singapore Land Authority`s REST API services for Singapore addresses  | Yes | Yes | [Go!](https://docs.onemap.sg/) |
+| One Map 2.0, Singapore| Singapore Land Authority REST API services for Singapore addresses  | Yes | Yes | [Go!](https://docs.onemap.sg/) |
 | OpenCage | Forward and reverse geocoding using open data | No | Yes | [Go!](https://geocoder.opencagedata.com) |
 | OpenStreetMap | Navigation, geolocation and geographical data | `OAuth` | No | [Go!](http://wiki.openstreetmap.org/wiki/API) |
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
