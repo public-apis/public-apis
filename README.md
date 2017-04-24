@@ -343,12 +343,6 @@ Please note a passing build status indicates all listed APIs are available since
 | Drupal.org | Drupal.org | No | Yes | [Go!](https://www.drupal.org/drupalorg/docs/api) |
 | Libraries.io | Open source software libraries | `apiKey` | Yes | [Go!](https://libraries.io/api) |
 
-### Tracking
-
-| API | Description | Auth | HTTPS | Link |
-|---|---|---|---|---|
-| Sweden  | Provides  information about parcels in transport | `apikey` | No | [Go!](https://developer.postnord.com/docs2) |
-
 ### Personality
 
 | API | Description | Auth | HTTPS | Link |
@@ -438,6 +432,12 @@ Please note a passing build status indicates all listed APIs are available since
 | Strava | Connect with athletes, activities and more | `OAuth` | Yes | [Go!](https://strava.github.io/api/) |
 | UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | [Go!](http://ufc-data-api.ufc.com/) |
 | Wger | Workout manager data as exercises, muscles or equipments | `apiKey` | Yes | [Go!](https://wger.de/en/software/api) |
+
+### Tracking
+
+| API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Sweden  | Provides  information about parcels in transport | `apikey` | No | [Go!](https://developer.postnord.com/docs2) |
 
 ### Transportation
 
