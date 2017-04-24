@@ -33,7 +33,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Music](#music)
 * [News](#news)
 * [Open Source projects](#open-source-projects)
-* [Parcel Tracking](#parceltracking)
+* [Tracking](#tracking)
 * [Personality](#personality)
 * [Photography](#photography)
 * [Science](#science)
@@ -343,7 +343,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Drupal.org | Drupal.org | No | Yes | [Go!](https://www.drupal.org/drupalorg/docs/api) |
 | Libraries.io | Open source software libraries | `apiKey` | Yes | [Go!](https://libraries.io/api) |
 
-### Parcel Tracking
+### Tracking
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
