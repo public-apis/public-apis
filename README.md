@@ -321,6 +321,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Bandsintown | Music Events | No | Yes | [Go!](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) |
 | Deezer | Music | `OAuth` | No | [Go!](http://developers.deezer.com/login?redirect=/api) |
 | Discogs | Music | `OAuth` | Yes | [Go!](https://www.discogs.com/developers/) |
 | Genius | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | [Go!](https://docs.genius.com/) |
