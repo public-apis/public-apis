@@ -96,6 +96,7 @@ Please note a passing build status indicates all listed APIs are available since
 |---|---|---|---|---|
 | mailgun | Email Service | `apiKey` | Yes | [Go!](https://www.mailgun.com/) |
 | markerapi | Trademark Search | No | No | [Go!](http://www.markerapi.com/) |
+| PayPal | Online Payment Processing | `OAuth` | Yes | [Go!](https://developer.paypal.com/) |
 
 ### Calendar
 
