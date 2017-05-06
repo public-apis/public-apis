@@ -380,6 +380,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| arcsecond.io | Multiple astronomy data sources | No | Yes | [Go!](https://api.arcsecond.io/) |
 | Fedger.io | Query machine intelligence data | No | Yes | [Go!](https://dev.fedger.io/docs/) |
 | inspirehep.net | High Energy Physics info. system | No | Yes | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
 | Launch Library | Upcoming Space Launches | No | Yes | [Go!](https://launchlibrary.net/1.2/docs/api.html) |
