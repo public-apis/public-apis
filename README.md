@@ -482,6 +482,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Transport for Norway | Norwegian transport API | No | No | [Go!](http://reisapi.ruter.no/help) |
 | Transport for Ottawa, Canada | OC Transpo next bus arrival API | No | No | [Go!](http://www.octranspo.com/index.php/developers) |
 | Transport for Paris, France | RATP Open Data API | No | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
+| Transport for Paris, France | Live schedules made simple | No | No | [Go!](http://restratpws.azurewebsites.net/swagger/) |
 | Transport for Philadelphia, US | SEPTA APIs | No | No | [Go!](http://www3.septa.org/hackathon/) |
 | Transport for Rio de Janeiro, Brazil | Prefeitura do Rio (City Hall) | No | No | [Go!](http://data.rio/group/transporte-e-mobilidade) |
 | Transport for São Paulo, Brazil | SPTrans | `OAuth` | No | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
