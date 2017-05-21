@@ -317,6 +317,8 @@ Please note a passing build status indicates all listed APIs are available since
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Newton | Symbolic and Arithmetic Math Calculator | No | Yes | [Go!](https://newton.now.sh/) |
+| Numbers API | Facts about numbers | No | No | [Go!](http://numbersapi.com) |
+
 
 ### Music
 
