@@ -8,5 +8,6 @@ script:
 after_script:
   - cd build
   - sh build.sh
+  - sh deploy.sh
 notifications:
   email: false
