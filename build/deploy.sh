@@ -2,7 +2,7 @@
 
 set -o errexit -o nounset
 
-if [ "$TRAVIS_BRANCH" != "master" ]
+if [ "$TRAVIS_BRANCH" != "feature/markdown-tables-to-json" ]
 then
   echo "This commit was made against $TRAVIS_BRANCH and not master! No deploy!"
   exit 0
@@ -14,8 +14,8 @@ mkdir deploy
 cd deploy
 
 git init
-git config user.name "Travis CI"
-git config user.email "build@travis.org"
+git config --global user.name "Travis CI"
+git config --global user.email "build@travis.org"
 
 git remote add upstream "https://$GH_TOKEN@github.com/davemachado/public-apis.git"
 git fetch upstream
