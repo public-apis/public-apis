@@ -2,7 +2,7 @@
 
 set -o errexit -o nounset
 
-if [ "$TRAVIS_BRANCH" != "feature/markdown-tables-to-json" ]
+if [ "$TRAVIS_BRANCH" != "master" ]
 then
   echo "This commit was made against $TRAVIS_BRANCH and not master! No deploy!"
   exit 0
