@@ -21,10 +21,9 @@ git remote add upstream "https://$GH_TOKEN@github.com/davemachado/public-apis.gi
 git fetch upstream
 git reset upstream/master
 
-mv ../json/*
-touch .
+mv ../../json .
 
-git add -A .
+git add json/
 git commit -m "rebuild JSON at ${rev}"
 git push upstream HEAD:master
 
