@@ -8,8 +8,5 @@ script:
 after_script:
   - cd build
   - sh build.sh
-  - ls -l ../
-  - ls -l ../json
-  - cat -l ../json/api.json
 notifications:
   email: false
