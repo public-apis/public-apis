@@ -24,6 +24,6 @@ git reset upstream/master
 mv ../../json .
 
 git add json/
-git commit -m "rebuild JSON at ${rev}"
+git commit -m "rebuild JSON at ${rev}" -m "[ci skip]"
 git push upstream HEAD:master
 
