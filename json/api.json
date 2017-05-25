@@ -450,6 +450,13 @@
             "Link": "[Go!](https://api.cdnjs.com/libraries/jquery)"
         }, 
         {
+            "API": "Dave Machado", 
+            "Auth": "No", 
+            "Description": "Dave Machado's Website", 
+            "HTTPS": "Yes", 
+            "Link": "[Go!](http://www.davemachado.com)"
+        }, 
+        {
             "API": "Faceplusplus", 
             "Auth": "`OAuth`", 
             "Description": "A tool to detect face", 
