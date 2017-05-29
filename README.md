@@ -261,6 +261,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Marvel | Marvel Comics | `apiKey` | No | [Go!](http://developer.marvel.com) |
 | Minecraft | Minecraft server info & user info) | No | Yes | [Go!](https://mcapi.ca/) |
 | Open Trivia | Trivia Questions | No | Yes | [Go!](https://opentdb.com/api_config.php) |
+| Qriusity | Quiz/Trivia Questions | No | No | [Go!](http://qriusity.com/) |
 | Pokéapi | Pokémon Information | No | No | [Go!](http://pokeapi.co) |
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client Interaction | `OAuth` | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
