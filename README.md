@@ -70,6 +70,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Certly | Certly Link/Domain Flagging | `token` | Yes | [Go!](https://guard.certly.io/) |
 | Google Safe Browsing | Google Link/Domain Flagging | `token` | Yes | [Go!](https://developers.google.com/safe-browsing/) |
 | Metacert | Metacert Link Flagging | `token` | Yes | [Go!](https://metacert.com/) |
+| Metadefender.com | File Analysis, Document Sanitization | `apikey` | Yes | [Go!](https://www.metadefender.com/public-api#!/about) |
 | VirusTotal | VirusTotal File/URL Analysis | `token` | Yes | [Go!](https://www.virustotal.com/en/documentation/public-api/) |
 | Web Of Trust (WOT) | Website reputation | `apiKey` | Yes | [Go!](https://www.mywot.com/wiki/API) |
 
