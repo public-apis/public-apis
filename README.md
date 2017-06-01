@@ -298,7 +298,6 @@ Please note a passing build status indicates all listed APIs are available since
 |---|---|---|---|---|
 | Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api/) |
 | Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
-| Gene_info | human genome data w/ gene summaries | `apiKey` | No | [Go!](http://www.geneinfo.life) |
 | Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` | Yes | [Go!](https://developer.nutritionix.com/) |
 | openFDA | Public FDA data about drugs, devices, and foods | No | Yes | [Go!](https://open.fda.gov/api/) |
@@ -388,6 +387,7 @@ Please note a passing build status indicates all listed APIs are available since
 |---|---|---|---|---|
 | arcsecond.io | Multiple astronomy data sources | No | Yes | [Go!](https://api.arcsecond.io/) |
 | Fedger.io | Query machine intelligence data | No | Yes | [Go!](https://dev.fedger.io/docs/) |
+| Gene_info | human genome data w/ gene summaries | `apiKey` | No | [Go!](http://www.geneinfo.life) |
 | inspirehep.net | High Energy Physics info. system | No | Yes | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
 | Launch Library | Upcoming Space Launches | No | Yes | [Go!](https://launchlibrary.net/1.2/docs/api.html) |
 | Minor Planet Center | Asterank.com Information | No | No | [Go!](http://www.asterank.com/mpc) |
