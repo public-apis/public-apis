@@ -298,7 +298,7 @@ Please note a passing build status indicates all listed APIs are available since
 |---|---|---|---|---|
 | Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api/) |
 | Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
-| Gene_info | human genome data w/ gene summaries | `apiKey` | No | [Go!](http://geneinfo.life) |
+| Gene_info | human genome data w/ gene summaries | `apiKey` | No | [Go!](http://www.geneinfo.life) |
 | Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` | Yes | [Go!](https://developer.nutritionix.com/) |
 | openFDA | Public FDA data about drugs, devices, and foods | No | Yes | [Go!](https://open.fda.gov/api/) |
