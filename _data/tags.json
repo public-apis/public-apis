@@ -1,0 +1,99 @@
+{tags: [
+ { name: Animals,
+   display: Animals},
+   
+ { name: Anime,
+   display: Anime},
+   
+ { name: AntiMalware,
+   display: Anti-Malware},
+   
+ { name: ArtDesign,
+   display: "Art & Design"},
+   
+ { name: Books,
+   display: Books},
+   
+ { name: Business,
+   display: Business},
+   
+ { name: Calendar,
+   display: Calendar},
+   
+ { name: Cloud,
+   display: Cloud Storage & File Sharing},
+ 
+ { name: Currency,
+   display: Currency Exchange},
+   
+ { name: Development,
+   display: Development},
+   
+ { name: Docs,
+   display: Documents & Productivity},
+   
+ { name: Drinks,
+   display: Drinks},
+   
+ { name: DataAccess,
+   display: "Data Access"},
+ 
+ { name: DataVal,
+   display: "Data Validation"},
+ 
+ { name: Environment,
+   display: Environment},
+ 
+ { name: Games,
+   display: "Games & Comics"},
+   
+ { name: Geocoding,
+   display: Geocoding},
+   
+ { name: Health,
+   display: Health},
+   
+ { name: Music,
+   display: Music},
+ 
+ { name: News,
+   display: News},
+ 
+ { name: "OpenSource",
+   display: "Open Source Projects"},
+ 
+ { name: Personality,
+   display: Personality},
+ 
+ { name: Photography,
+   display: Photography},
+ 
+ { name: Science,
+   display: Science},
+ 
+ { name: Security,
+   display: Security},
+   
+ { name: Social,
+   display: Social},
+ 
+ { name: Sports,
+   display: "Sports & Fitness"},
+ 
+ { name: Transportation,
+   display: Transportation},
+ 
+ { name: University,
+   display: Univeristy},
+ 
+ { name: Vehicle,
+   display: Vehicle},
+
+ { name: Video,
+   display: Video},
+ 
+ { name: Weather,
+   display: Weather} 
+ ]}
+ 
+ 

@@ -1,0 +1,233 @@
+IUCN | IUCN Red List of Threatened Species | `token` | http://apiv3.iucnredlist.org/api/v3/docs | Animals |
+Petfinder | Adoption | No | https://www.petfinder.com/developers/api-docs/ | Animals |
+RescueGroups | Adoption | No | https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home | Animals |
+AniList | AniList Anime API | `oAuth` | http://anilist-api.readthedocs.org/en/latest/# | Anime |
+Hummingbird | Hummingbird Anime API | No | https://hummingbird.me/ | Anime |
+Certly | Certly Link/Domain Flagging API | `token` | https://guard.certly.io/ | Anti-Malware |
+Google Safe Browsing | Google Link/Domain Flagging API | `token` | https://developers.google.com/safe-browsing/ | Anti-Malware |
+Metacert | Metacert Link Flagging API | `token` | https://metacert.com/ | Anti-Malware |
+VirusTotal | VirusTotal File/URL Analysis API | `token` | https://www.virustotal.com/en/documentation/public-api/ | Anti-Malware |
+Web Of Trust (WOT | Website reputation API | `key` string | https://www.mywot.com/wiki/API | Anti-Malware |
+Dribbble | Design | `oAuth` | http://developer.dribbble.com/v1/ | Art & Design |
+Noun Project | Icons | `oAuth` | http://api.thenounproject.com/index.html | Art & Design |
+Rijksmuseum| Art | No | https://www.rijksmuseum.nl/en/api | Art & Design |
+British National Bibliography | Books | No | http://bnb.data.bl.uk/ | Books |
+Good Reads | Books | No | https://www.goodreads.com/api | Books |
+Google Books | Books | `oAuth` | https://developers.google.com/books/ | Books |
+mailgun | Email Service API | `apiKey` query string | http://www.mailgun.com/ | Business |
+markerapi | Trademark Search API | No | http://www.markerapi.com/ | Business |
+Church Calendar API | Catholic liturgical calendar | No | http://calapi.inadiutorium.cz/ | Calendar |
+Date and Time | Global Date and Time | No | http://www.timeanddate.com/services/api/ | Calendar |
+Holidays | Free API for obtaining information about holidays. | No | http://holidayapi.com/ | Calendar |
+Non-working days API | Database of ICS files for non working days | No | https://github.com/gadael/icsdb | Calendar |
+Box | File Sharing and Storage | `oAuth` | https://developer.box.com/ | Cloud |
+Dropbox | File Sharing and Storage | `oAuth` | https://www.dropbox.com/developers | Cloud |
+Google Drive | File Sharing and Storage | `oAuth` | https://developers.google.com/drive/ | Cloud |
+OneDrive | File Sharing and Storage | `oAuth` | https://dev.onedrive.com/ | Cloud |
+Currencylayer | Exchange rates and currency conversion | `apiKey` query string | https://currencylayer.com/documentation | Currency |
+Fixer.io | JSON API for foreign exchange rates and currency conversion | No | http://fixer.io | Currency |
+Adorable Avatars | Generate random cartoon avatars | No | http://avatars.adorable.io | Development |
+APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No |  https://apis.guru/api-doc/ | Development |
+CDNJS | Library info on CDNJS | No | https://api.cdnjs.com/libraries/jquery | Development |
+Faceplusplus | A tool to detect face | `oAuth` | http://www.faceplusplus.com/uc_home/ | Development |
+Github - User Data | Pull public information for a user's github | No | https://api.github.com/users/hackeryou | Development |
+Gitter | Chat for GitHub | `oAuth` | https://developer.gitter.im/docs/ | Development |
+Hipster Ipsum | Generates Hipster Ipsum text | No | http://hipsterjesus.com/ | Development |
+JSONPlaceholder | Fake data for testing and prototyping | No | http://jsonplaceholder.typicode.com/ | Development |
+LiveCoding | Live Coding Streaming API | `oAuth` | https://www.livecoding.tv/developer/applications/ | Development |
+Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` as header | https://market.mashape.com/montanaflynn/lorem-text-generator | Development |
+Loripsum | The "lorem ipsum" generator that doesn't suck | No | http://loripsum.net/ | Development |
+Myjson | A simple JSON store for your web or mobile app | No | http://myjson.com/api | Development |
+Plino | Spam filtering system | No | https://plino.herokuapp.com/ | Development |
+Random Word | Generate random word | No | http://randomword.setgetgo.com/ | Development |
+RandomUser | Generates random user data | No | https://randomuser.me | Development |
+ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | http://reqres.in/ | Development |
+RoboHash | Generate random robot/alien avatars | No | https://robohash.org/ | Development |
+StackExchange | The All-in-one API for StackExchange sites | `oAuth` | https://api.stackexchange.com/ | Development |
+Stormpath | User Authentication API | `apiKey` | https://stormpath.com/ | Development |
+UI Faces | Find and generate sample avatars for user interfaces | No | http://uifaces.com/api | Development |
+UI Names | Generate random fake names | No | https://github.com/thm/uinames | Development |
+File.io | Files | No | https://file.io | Docs |
+pdflayer API | HTML/URL to PDF | No | https://pdflayer.com | Docs |
+Wunderlist | Todo Lists | `oAuth` | https://developer.wunderlist.com/documentation | Docs |
+BreweryDB | Beer | `apiKey` query string |http://www.brewerydb.com/developers | Drinks |
+LCBO API | Alcohol | `apiKey` query string |https://lcboapi.com/ | Drinks |
+PunkAPI | Brewdog Beer Recipes | No | https://punkapi.com/ | Drinks |
+Recipe Puppy | Food | No | http://www.recipepuppy.com/about/api/ | Drinks |
+Yummly | Find food recipes | No | https://developer.yummly.com/ | Drinks |
+18F | US Federal Government /Developer Program | No | http://18f.github.io/API-All-the-X/ | Data |
+Abbreviation API | Get abbreviations and meanings | `X-Mashape-Key` as header |https://market.mashape.com/daxeel/abbreviations | Data |
+Callook.info API | United States ham radio callsigns | No |https://callook.info | Data |
+Celebinfo API | Celebrity information API | `X-Mashape-Key` as header |https://market.mashape.com/daxeel/celebinfo/ | Data |
+Colorado Data Engine | Formatted and geolocated Colorado public data | No |http://codataengine.org/ | Data |
+Colorado Information Marketplace | Colorado State Government Open Data | No |https://data.colorado.gov/ | Data |
+Data USA | US Public Data | No |http://datausa.io/about/api/ | Data |
+Dronestream API | Tracks United States drone strikes | No |http://dronestre.am/ | Data |
+fonoApi | Mobile Device Description | No |https://fonoapi.freshpixl.com/ | Data |
+Open Government, Australia | Australian Government Open Data | No |https://www.data.gov.au/ | Data |
+Open Government, USA | United States Government Open Data | No |https://www.data.gov/ | Data |
+Open Government, Canada | Canadian Government Open Data | No |http://open.canada.ca/en | Data |
+Open Government Data, India | Indian Government Open Data | `token` | https://data.gov.in/ | Data |
+Quandl API | Stock Market Data | No |https://www.quandl.com/ | Data |
+Scoop.it | Content Curation Service | `apiKey` query string |https://www.scoop.it/dev | Data |
+Wikipedia | Mediawiki API | No |https://www.mediawiki.org/wiki/API:Main_page | Data |
+Wordnik | Dictionary Data API | No | http://developer.wordnik.com | Data |
+Yelp | Find Local Business | `oAuth` | https://www.yelp.com/developers | Data |
+languagelayer API | Language detection | No | https://languagelayer.com | DataVal |
+mailboxlayer API | Email address validation | No | https://mailboxlayer.com | DataVal |
+numverify API | Phone number validation | No | https://numverify.com | DataVal |
+vatlayer API | VAT number validation | No | https://vatlayer.com | DataVal |
+PM2.5.in | PM2.5 Data of China | `apiKey` query string | http://www.pm25.in/api_doc | Environement |
+Battle.net | Blizzard API | No | https://dev.battle.net/)  | Games |
+Chuck Norris Database | Jokes | No | http://www.icndb.com/api | Games |
+Clash of Clans | Clash of Clans API | No | https://developer.clashofclans.com | Games |
+ClashAPI | Clash Royale API | No | https://github.com/martincarrera/clash-royale-api)  | Games |
+Comic Vine | Comics | No | http://comicvine.gamespot.com/api/documentation | Games |
+Deck of Cards | Deck of Cards API | No | http://deckofcardsapi.com/)  | Games |
+Eve Online | Third-Party Developer Documentation API | `oAuth` required for some parts | https://eveonline-third-party-documentation.readthedocs.io/en/latest/ | Games |
+Giant Bomb | Video Games | No |http://www.giantbomb.com/api/documentation | Games |
+Guild Wars 2 | Guild Wars 2 API | `apiKey` query string (for some routes | https://wiki.guildwars2.com/wiki/API:Main | Games |
+Magic the gathering | Magic the gathering API | No | http://magicthegathering.io/ | Games |
+Marvel | Marvel Comics API | No | http://developer.marvel.com | Games |
+Minecraft | Minecraft API (For server info & user info | No |https://mcapi.ca/ | Games |
+Open Trivia | Trivia API | No | https://opentdb.com/api_config.php | Games |
+Pokéapi | The RESTful Pokémon API | No |http://pokeapi.co | Games |
+Riot Games | The RESTful League of Legends API | No |https://developer.riotgames.com/ | Games |
+Steam | Steam Client API | `oAuth` | https://developer.valvesoftware.com/wiki/Steam_Web_API | Games |
+SWAPI | Star Wars API | No |https://swapi.co | Games |
+GeoNames | Place names and other geographical data | No | http://www.geonames.org/export/web-services.html | Geocoding |
+GéoApi | French geographical data | No | https://api.gouv.fr/api/geoapi.html | Geocoding |
+Google Maps API | Create/customize digital maps based on Google Maps data | `apiKey` query string | https://developers.google.com/maps/ | Geocoding |
+IP 2 Country | Map an IP to a country | No | https://ip2country.info | Geocoding |
+IP Address Details| Find geolocation with ip address | No | https://ipinfo.io/ | Geocoding |
+Mapbox | Create/customize beautiful digital maps | `apiKey` query string | https://www.mapbox.com/developers/ | Geocoding |
+Mapzen Search | Open Source & Open Data Global Geocoding Service | No | https://mapzen.com/projects/search | Geocoding |
+Mexico | Mexico RESTful zip codes API | No | https://github.com/IcaliaLabs/sepomex | Geocoding |
+OpenCage | Forward and reverse geocoding using open data | No | https://geocoder.opencagedata.com | Geocoding |
+OpenStreetMap | Navigation, geolocation and geographical data | `oAuth` | http://wiki.openstreetmap.org/wiki/API | Geocoding |
+PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json | Geocoding |
+Postcodes.io | Postcode & Geolocation API for the UK | No | https://postcodes.io | Geocoding |
+Diabetes API | Logging and retrieving diabetes information | No | http://predictbgl.com/api | Health |
+Flutrack API | Influenza-like symptoms with geotracking | No | http://www.flutrack.org/ | Health |
+Makeup API | Worlds only makeup API | No | http://makeup-api.herokuapp.com/ | Health |
+Nutritionix | Worlds largest verified nutrition database | `apiKey` query string | https://developer.nutritionix.com/ | Health |
+USDA Nutrients | National Nutrient Database for Standard Reference | No | https://ndb.nal.usda.gov/ndb/doc/index | Health |
+Deezer | Music | `oAuth` | http://developers.deezer.com/api | Music |
+Discogs | Music | `oAuth` | https://www.discogs.com/developers/ |  Music |
+EchoNest | Music | No | http://developer.echonest.com/docs/v4 | Music |
+Genius | Crowdsourced lyrics and music knowledge | `oAuth` | https://docs.genius.com/ | Music |
+Jamendo | Music | `oAuth` | https://developer.jamendo.com/v3.0 | Music |
+iTunes Search | Software products API | No | https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/ | Music |
+LastFm | Music | No | http://www.last.fm/api | Music |
+Mixcloud | Music | No | https://www.mixcloud.com/developers/ | Music |
+MusicBrainz | Music | No | https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2 | Music |
+Musikki | Music | No | https://music-api.musikki.com/reference | Music |
+Musixmatch | Music | `apikey` query string | https://developer.musixmatch.com/ | Music |
+Songsterr | Provides guitar, bass and drums tabs and chords  | No | https://www.songsterr.com/a/wa/api/ | Music |
+Soundcloud | Music | No | https://developers.soundcloud.com/ | Music |
+Spotify | Music | `oAuth` required for some parts | https://developer.spotify.com/web-api/ | Music |
+New York Times | Provides news | No, but `apikey` is required | https://developer.nytimes.com/ | News |
+Countly  | Countly web analytics API | No | http://resources.count.ly/ | OpenSource |
+Drupal.org | Drupal.org API | No | https://www.drupal.org/drupalorg/api | OpenSource |
+Libraries.io | Open source software libraries | `apiKey` query string | https://libraries.io/api | OpenSource |
+Forismatic | Inspirational Quotes | No | http://forismatic.com/en/api/ | Personality |
+Medium | Community of readers and writers offering unique perspectives on ideas. | `oAuth` | https://github.com/Medium/medium-api-docs | Personality |
+Quotes on Design | Inspirational Quotes | No | https://quotesondesign.com/api-v4-0/ | Personality |
+Traitify | Assess, collect, and analyze Personality | No | https://developer.traitify.com/ | Personality |
+500px |  Photography Community | `oAuth` | https://github.com/500px/api-documentation | Photography |
+Flickr | Flickr Services | `oAuth` | https://www.flickr.com/services/api/ | Photography |
+Gfycat | Jiffier GIFs | `oAuth` | https://developers.gfycat.com/api/ | Photography |
+Giphy | Get all your gifs | No | https://github.com/Giphy/GiphyAPI | Photography |
+Imgur | Images | `oAuth` | https://api.imgur.com/#overview | Photography |
+screenshotlayer API | URL 2 Image | No | https://screenshotlayer.com | Photography |
+Unsplash | Photography | `oAuth` | https://unsplash.com/developers | Photography |
+Fedger.io | Query machine intelligence data | No | https://dev.fedger.io/docs/ | Science |
+inspirehep.net | High Energy Physics info. system | No | https://inspirehep.net/info/hep/api?ln=en | Science |
+Launch Library | Upcoming Space Launches | No | https://launchlibrary.net/1.2/docs/api.html | Science |
+Minor Planet Center | Asterank.com API | No | http://www.asterank.com/mpc | Science |
+NASA | NASA data, including imagery | No | https://api.nasa.gov | Science |
+Open Notify | ISS astronauts, current location API | No | http://open-notify.org/Open-Notify-API/ | Science |
+Sunrise and Sunset | Sunset and sunrise times for a given latitude and longitude. | No | http://sunrise-sunset.org/api | Science |
+USGS Earthquake Hazards Program | Earthquakes data real-time | No | http://earthquake.usgs.gov/fdsnws/event/1/ | Science |
+World Bank | World Data | No | http://data.worldbank.org/developers | Science |
+AXFR Database | AXFR public database API | No | [Go']http://api.axfrcheck.com | Security |
+UK Police | UK Police data | No | https://data.police.uk/docs/ | Security |
+Discord bot API | Make bots for Discord | `oAuth` | https://discordapp.com/developers/docs/intro | Social |
+Facebook API | Facebook Login, Share on FB, Social Plugins, Analytics and more | `oAuth` | https://developers.facebook.com/ | Social |
+Fuck Off as a Service | Asks someone to fuck off | No | https://www.foaas.com | Social |
+Full Contact | Get Social Media profiles and contact Information | `oAuth` | https://www.fullcontact.com/developer/docs/ | Social |
+HackerNews | Social news for CS and entrepreneurship | No | https://github.com/HackerNews/API | Social |
+Instagram API | Instagram Login, Share on Instagram, Social Plugins and more | `oAuth` | https://www.instagram.com/developer/ | Social |
+LinkedIn REST-API | The foundation of all digital integrations with LinkedIn | `oAuth` | https://developer.linkedin.com/docs/rest-api | Social |
+Telegram MTProto API | Read and write Telegram data | `oAuth` | https://core.telegram.org/api#getting-started | Social |
+Telegram bot API | Simplified HTTP version of the MTProto API for bots | `oAuth` | https://core.telegram.org/bots/api | Social |
+Pinterest API | The world's catalog of ideas | `oAuth` | https://developers.pinterest.com/ | Social |
+PWRTelegram bot API | Boosted version of the Telegram bot API | `oAuth` | https://pwrtelegram.xyz | Social |
+Reddit | Homepage of the internet | `oAuth` required for some parts | https://www.reddit.com/dev/api | Social |
+Tumblr API | Read and write Tumblr Data | `oAuth` | https://www.tumblr.com/docs/en/api/v2 | Social |
+Twitch | Game Streaming API | `oAuth` | https://github.com/justintv/Twitch-API | Social |
+Twitter API | Read and write Twitter data | `oAuth` | https://dev.twitter.com/rest/public | Social |
+vk API | Read and write vk dat | `oAuth` | https://vk.com/dev/sites | Social |
+Wit.ai API | Turn speech and text into actionable data | `oAuth` | https://wit.ai/docs | Social |
+City Bikes API | City Bikes around the world | No | http://api.citybik.es/v2/ | Sports |
+Ergast F1 API | F1 data from the beginning of the world championships in 1950 | No | http://ergast.com/mrd/ | Sports |
+FitBit | FitBit API | No | https://dev.fitbit.com | Sports |
+Football-Data.org | Football Data | No | http://api.football-data.org | Sports |
+JCDecaux Bike API | JCDecaux's self-service bicycles | `apiKey` query string | https://developer.jcdecaux.com/ | Sports |
+Cricket Live Scores | live-score | `X-Mashape-Key` as header | https://market.mashape.com/dev132/cricket-live-scores | Sports |
+NFL Arrests | NFL Arrest Data | No | http://nflarrest.com/api/ | Sports |
+Pro Motocross API | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | http://promotocrossapi.com | Sports |
+Strava API | Connect with athletes, activities and more | [`oAuth`]https://strava.github.io/api/v3/oauth/)| https://strava.github.io/api/ | Sports |
+wger API | Workout manager data as exercises, muscles or equipments | `apiKey` query string | https://wger.de/en/software/api | Sports |
+Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apikey` query string | https://sandbox.amadeus.com/ | Transportation |
+Community Transit | Transitland API | No | https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints | Transportation |
+Goibibo | API for travel search  | `apiKey` query string | https://developer.goibibo.com/docs | Transportation |
+Indian Railways | Indian Railways API | `token` |http://api.erail.in/ | Transportation |
+The Nomad List | A list of the best places to live/work remotely | No | https://nomadlist.com/faq | Transportation |
+Schiphol Airport API | Schiphol | `oAuth` | https://flight-info.3scale.net/ | Transportation |
+TransitLand | Transit Aggregation | No | https://transit.land/documentation/datastore/api-endpoints.html | Transportation |
+Transport for Atlanta, US | Marta | No | http://www.itsmarta.com/developers/data-sources/marta-bus-realtime-restful-api.aspx | Transportation |
+Transport for Belgium | Belgian transport API | No | https://hello.irail.be/api/ | Transportation |
+Transport for Boston, MA, USA | MBTA API | No | http://realtime.mbta.com/Portal/Home/Documents | Transportation |
+Transport for Budapest | Budapest public transport API | No | http://docs.bkkfutar.apiary.io/ | Transportation |
+Transport for Chicago, US | CTA | No | http://www.transitchicago.com/developers/ | Transportation |
+Transport for Czech Republic | Czech transport API | No | http://www.chaps.cz/eng/products/idos-internet | Transportation |
+Transport for Finland | Finnish transport API | No | http://digitransit.fi/en/developers/ | Transportation |
+Transport for Germany | Deutsche Bahn (DB) API | `authKey` query string | http://data.deutschebahn.com/apis/fahrplan/ | Transportation |
+Transport for Berlin | third-party VBB API | No | https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md | Transportation |
+Transport for India | India Public Transport API | Api key | https://data.gov.in/sector/transport | Transportation |
+Transport for London, England | TfL API | No | https://api.tfl.gov.uk | Transportation |
+Transport for Minneapolis, US | NexTrip API | `oAuth` | http://svc.metrotransit.org/ | Transportation |
+Transport for New York City | MTA | api key | http://datamine.mta.info/ | Transportation |
+Transport for Norway | Norwegian transport API | No | http://reisapi.ruter.no/help | Transportation |
+Transport for Ottawa, Canada | OC Transpo next bus arrival API | No | http://www.octranspo1.com/developers | Transportation |
+Transport for Paris, France | RATP Open Data API | No | http://data.ratp.fr/api/v1/console/datasets/1.0/search/ | Transportation |
+Transport for Philadelphia | SEPTA APIs | No | http://www3.septa.org/hackathon/ | Transportation |
+Transport for Rio de Janeiro, Brazil | Prefeitura do Rio (City Hall | No | http://data.rio/group/transporte-e-mobilidade | Transportation |
+Transport for Sweden | Public Transport consumer | `oAuth` | https://www.trafiklab.se/api | Transportation |
+Transport for Switzerland | Swiss public transport API | No | https://transport.opendata.ch/ | Transportation |
+Transport for São Paulo, Brazil | SPTrans | `oAuth` | http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx | Transportation |
+Transport for The Netherlands | NS | No | http://www.ns.nl/reisinformatie/ns-api | Transportation |
+Transport for Tokyo, Japan | Tokyo Metro | `apiKey` query string |https://developer.tokyometroapp.jp/)  | Transportation |
+Transport for Toronto, Canada | TTC | No | https://myttc.ca/developers | Transportation |
+Transport for Vancouver, Canada | TransLink | `oAuth` | https://developer.translink.ca/ | Transportation |
+Transport for Washington, US | Washington Metro transport API | `oAuth` | https://developer.wmata.com/ | Transportation |
+Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` query string |http://opendata.emtmadrid.es/Servicios-web/BUS | Transportation |
+Transport for Auckland, New Zealand | Auckland Transport API  | No | https://api.at.govt.nz/ | Transportation |
+WhereIsMyTransport | Platform for public transport data in emerging cities  | `oAuth` | https://developer.whereismytransport.com/ | Transportation |
+University API | University names, countries and domains| No | https://github.com/Hipo/university-domains-list | Univeristy |
+Vehicle API | Lot of vehicles informations | `apiKey` query string | http://developer.edmunds.com/api-documentation/overview/ | Vehicle |
+An API of Ice And Fire | Game Of Thrones API | No | https://anapioficeandfire.com/ | Video |
+Dailymotion | Dailymotion Developer API | `oAuth` required for some parts | https://developer.dailymotion.com/ | Video |
+MovieDB | Movie Data | No | https://www.themoviedb.org/documentation/api | Video |
+Netflix Roulette | Netflix database | No | http://netflixroulette.net/api/ | Video |
+OMDB | Open movie database | No | http://omdbapi.com | Video |
+Ron Swanson Quotes | Television | No | https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api | Video |
+TVMaze | TV Show Data | No | http://www.tvmaze.com/api | Video |
+Video download | Video download API for youtube, rai.it, mediaset.it, la7.it and hundreds of other sites. | No | https://api.daniil.it | Video |
+Vimeo | Vimeo Developer API | `oAuth` | https://developer.vimeo.com/ | Video |
+YouTube | Add YouTube functionality to your sites and apps. | `oAuth` required for some parts | https://developers.google.com/youtube/ | Video |
+Dark Sky Forecast API | Weather | `apiKey` query string | https://developer.forecast.io/ | Weather |
+OpenWeatherMap | Weather | `apiKey` query string | http://openweathermap.org/api | Weather |
+Wunderground | Weather | No | http://www.wunderground.com/weather/api/ | Weather |
+Yahoo! Weather | Weather | No | https://developer.yahoo.com/weather/ | Weather |
