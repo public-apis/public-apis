@@ -2,6 +2,8 @@ name: Public APIs
 description: A collective list of public JSON APIs for use in web development.
 github_username: kuhnrl30
 
+baseurl: /public-apis
+
 markdown: kramdown
 kramdown:
   input: GFM
