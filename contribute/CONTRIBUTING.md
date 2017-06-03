@@ -37,7 +37,7 @@ Once you’ve submitted a pull request, the collaborators can review your propos
 
 ###Pull Request Pro Tips
 
-* [Fork][fork-link] the repository and [clone][clone-link] it locally.
+* [Fork](http://guides.github.com/activities/forking/) the repository and [clone][clone-link] it locally.
 Connect your local repository to the original `upstream` repository by adding it as a [remote][remote-link].
 Pull in changes from `upstream` often so that you stay up to date and so when you submit your pull request,
 merge conflicts will be less likely. See more detailed instructions [here][syncing-link].
