@@ -6,7 +6,7 @@ layout: default
 <h2> Public APIs</h2>  
 A collective list of free JSON APIs for use in web development.  
 <br>  
-For information on contributing to this project, please see the <a href="/contribute">contributing guide</a>.
+For information on contributing to this project, please see the <a href="{{ base.url }}/contribute">contributing guide</a>.
 </div>
 
 <!-- search input results -->
