@@ -1,8 +1,25 @@
 fs = require('fs')
 
-function md_trim(str) {
+function md_trim(str, context = null) {
     str = str.replace(/(^\s+)|(\s+$)/g, "");
-    if (str.lastIndexOf("[Go!]", 0) === 0) {
+
+    if (context == 1) { // Name
+        // placeholder for any formatting on name value
+    } else if (context == 2) { // Description
+        str = str.replace(".", ""); // remove ending periods on descriptions
+    } else if (context == 3) { // Auth
+        if (str.toUpperCase() == "NO") {
+            str = null
+        } else {
+            str = str.replace("`", "").replace("`", "")
+        }
+    } else if (context == 4) { // HTTPS
+        if (str.toUpperCase() == "YES") {
+            str = true
+        } else {
+            str = false
+        }
+    } else if (context == 5) { // Link
         str = str.replace("[Go!]", "").slice(1, -1);
     }
     return str;
@@ -64,9 +81,7 @@ function handle(filename, anchor) {
 
         line = read_line()
 
-        if (line) {
-
-        } else {
+        if (!line) {
             console.error("markdown expect table spliter")
             break;
         }
@@ -76,7 +91,7 @@ function handle(filename, anchor) {
             var line_this = line.split("|")
             var row = []
             for (var j in line_this) {
-                line_this[j] = md_trim(line_this[j])
+                line_this[j] = md_trim(line_this[j], j)
                 if ((j == 0 || j == line_this.length - 1) && line_this[j] === "") {
 
                 } else {
