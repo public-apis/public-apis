@@ -262,7 +262,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Minecraft | Minecraft server info & user info) | No | Yes | [Go!](https://mcapi.ca/) |
 | Open Trivia | Trivia Questions | No | Yes | [Go!](https://opentdb.com/api_config.php) |
 | Pokéapi | Pokémon Information | No | No | [Go!](http://pokeapi.co) |
-| Qriusity | Quiz/Trivia Questions | No | No | [Go!](http://qriusity.com/) |
+| Qriusity | Quiz/Trivia Questions | No | Yes | [Go!](https://qriusity.com/) |
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client Interaction | `OAuth` | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
