@@ -538,5 +538,5 @@ Please note a passing build status indicates all listed APIs are available since
 | MetaWeather | Weather | No | Yes | [Go!](https://www.metaweather.com/api/) |
 | OpenWeatherMap | Weather | `apiKey` | No | [Go!](http://openweathermap.org/api) |
 | Weatherbit | Weather | `apiKey` | Yes | [Go!](https://www.weatherbit.io/api) |
-| Wunderground | Weather | 'apiKey' | Yes | [Go!](https://www.wunderground.com/weather/api/) |
+| Wunderground | Weather | `apiKey` | Yes | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | [Go!](https://developer.yahoo.com/weather/) |
