@@ -438,7 +438,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Cartola FC | The Cartola FC API serves to check the partial points of your time. | No | Yes | [Go!](https://github.com/wgenial/cartrolandofc) |
+| Cartola FC | The Cartola FC API serves to check the partial points of your team. | No | Yes | [Go!](https://github.com/wgenial/cartrolandofc) |
 | City Bikes | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
 | Ergast F1 | F1 data from the beginning of the world championships in 1950 | No | No | [Go!](http://ergast.com/mrd/) |
 | Fitbit | Fitbit Information | `OAuth` | Yes | [Go!](https://dev.fitbit.com/) |
