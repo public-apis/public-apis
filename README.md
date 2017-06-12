@@ -288,6 +288,7 @@ Please note a passing build status indicates all listed APIs are available since
 | OpenStreetMap | Navigation, geolocation and geographical data | `OAuth` | No | [Go!](http://wiki.openstreetmap.org/wiki/API) |
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
 | Postcodes.io | Postcode lookup & Geolocation for the UK | No | Yes | [Go!](https://postcodes.io) |
+| REST Countries | Get information about countries via a RESTful API | No | Yes | [Go!](https://restcountries.eu) |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
 | ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
 
@@ -455,6 +456,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Postmon | An API to query ZIP codes and orders easily, quickly and free | No | No | [Go!](http://postmon.com.br) |
 | Sweden  | Provides  information about parcels in transport | `apikey` | No | [Go!](https://developer.postnord.com/docs2) |
 
 ### Transportation
