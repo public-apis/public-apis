@@ -288,6 +288,7 @@ Please note a passing build status indicates all listed APIs are available since
 | OpenStreetMap | Navigation, geolocation and geographical data | `OAuth` | No | [Go!](http://wiki.openstreetmap.org/wiki/API) |
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
 | Postcodes.io | Postcode lookup & Geolocation for the UK | No | Yes | [Go!](https://postcodes.io) |
+| REST Countries | Get information about countries via a RESTful API | No | Yes | [Go!](https://restcountries.eu) |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
 | ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
 
@@ -438,6 +439,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Cartola FC | The Cartola FC API serves to check the partial points of your team. | No | Yes | [Go!](https://github.com/wgenial/cartrolandofc) |
 | City Bikes | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
 | Ergast F1 | F1 data from the beginning of the world championships in 1950 | No | No | [Go!](http://ergast.com/mrd/) |
 | Fitbit | Fitbit Information | `OAuth` | Yes | [Go!](https://dev.fitbit.com/) |
@@ -454,6 +456,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Postmon | An API to query ZIP codes and orders easily, quickly and free | No | No | [Go!](http://postmon.com.br) |
 | Sweden  | Provides  information about parcels in transport | `apikey` | No | [Go!](https://developer.postnord.com/docs2) |
 
 ### Transportation
