@@ -228,7 +228,8 @@ Please note a passing build status indicates all listed APIs are available since
 | LCBO | Alcohol | `apiKey` | Yes | [Go!](https://lcboapi.com/) |
 | PunkAPI | Brewdog Beer Recipes | No | Yes | [Go!](https://punkapi.com/) |
 | Recipe Puppy | Food | No | No | [Go!](http://www.recipepuppy.com/about/api/) |
-| TacoFancy | Community-driven taco database | No | No | [Go!](https://github.com/evz/tacofancy-api)|
+| TacoFancy | Community-driven taco database | No | No | [Go!](https://github.com/evz/tacofancy-api) |
+| TheCocktailDB | Cocktail Recipes | No | No | [Go!](http://www.thecocktaildb.com/) |
 | Yummly | Find food recipes | No | Yes | [Go!](https://developer.yummly.com/) |
 | Zomato | Discover restaurants | `apiKey` | Yes | [Go!](https://developers.zomato.com/api) |
 
