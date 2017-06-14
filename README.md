@@ -267,6 +267,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client Interaction | `OAuth` | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
+| Jservice | Jeopardy Question Database | No | No | [Go!](https://jservice.io)
 
 ### Geocoding
 
