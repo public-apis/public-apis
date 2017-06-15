@@ -259,6 +259,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Giant Bomb | Video Games | No | Yes | [Go!](https://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
 | Magic The Gathering | Magic The Gathering Game Information | No | No | [Go!](http://magicthegathering.io/) |
+| Jservice | Jeopardy Question Database | No | No | [Go!](http://jservice.io) |
 | Marvel | Marvel Comics | `apiKey` | No | [Go!](http://developer.marvel.com) |
 | Minecraft | Minecraft server info & user info) | No | Yes | [Go!](https://mcapi.ca/) |
 | Open Trivia | Trivia Questions | No | Yes | [Go!](https://opentdb.com/api_config.php) |
@@ -267,7 +268,6 @@ Please note a passing build status indicates all listed APIs are available since
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client Interaction | `OAuth` | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
-| Jservice | Jeopardy Question Database | No | No | [Go!](https://jservice.io)
 
 ### Geocoding
 
