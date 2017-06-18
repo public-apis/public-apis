@@ -258,6 +258,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Eve Online | Third-Party Developer Documentation | `OAuth` required for some parts | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
 | Giant Bomb | Video Games | No | Yes | [Go!](https://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
+| Jservice | Jeopardy Question Database | No | No | [Go!](http://jservice.io) |
 | Magic The Gathering | Magic The Gathering Game Information | No | No | [Go!](http://magicthegathering.io/) |
 | Marvel | Marvel Comics | `apiKey` | No | [Go!](http://developer.marvel.com) |
 | Minecraft | Minecraft server info & user info) | No | Yes | [Go!](https://mcapi.ca/) |
