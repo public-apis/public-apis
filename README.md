@@ -342,7 +342,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Musixmatch | Music | `apiKey` | Yes | [Go!](https://developer.musixmatch.com/) |
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | Yes | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | Yes | [Go!](https://developers.soundcloud.com/) |
-| Spotify | Music | `OAuth` required for some parts | Yes | [Go!](https://developer.spotify.com/web-api/) |
+| Spotify | Music | `OAuth` | Yes | [Go!](https://developer.spotify.com/web-api/) |
 | Vagalume | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | [Go!](https://api.vagalume.com.br/docs/) |
 
 ### News
