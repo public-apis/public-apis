@@ -6,7 +6,7 @@ before_install:
 install:
   - gem install awesome_bot
 script:
-  - awesome_bot README.md --allow-ssl --allow 403
+  - awesome_bot README.md --allow-ssl --allow 403 302
 after_success:
   - cd build
   - sh build.sh
