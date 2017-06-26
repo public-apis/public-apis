@@ -58,6 +58,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | AniList | AniList Anime | `OAuth` | No | [Go!](http://anilist-api.readthedocs.io/en/latest/) |
+| Jikan | Unofficial MyAnimeList API | No | Yes | [Go!](https://jikan.me) |
 | Kitsu | Anime discovery platform | `OAuth` | Yes | [Go!](http://docs.kitsu.apiary.io/) |
 | Studio Ghibli | Resources from Studio Ghibli films | No | Yes | [Go!](https://ghibliapi.herokuapp.com) |
 
