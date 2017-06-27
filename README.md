@@ -317,7 +317,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Keen IO | Data Analytics | `apikey` | Yes | [Go!](https://keen.io/) |
 | Rekognition | Deep learning-based image recognition | Yes | Yes | [Go!](https://aws.amazon.com/rekognition/) |
 | Unplugg | Forecasting API for timeseries data | `apikey` | Yes | [Go!](https://unplu.gg/test_api.html) |
-| Cloud Vision API | Images analysis | `apikey` | Yes | [Go!](https://cloud.google.com/vision) |
+| Cloud Vision API | Images analysis | `apikey` | Yes | [Go!](https://cloud.google.com/vision/) |
 | Wit.ai | Natural Language Processing | `OAuth` | Yes | [Go!](https://wit.ai/) |
 
 ### Math
