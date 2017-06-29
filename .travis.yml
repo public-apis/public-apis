@@ -5,6 +5,8 @@ before_install:
   - rvm install 2.4.0
 install:
   - gem install awesome_bot
+before_script:
+  - echo $GH_TOKEN
 script:
   - awesome_bot README.md --allow-ssl --allow 403,302
 after_success:
