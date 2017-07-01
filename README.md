@@ -256,6 +256,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Clash Royale | Clash Royale Game Information | No | Yes | [Go!](https://github.com/martincarrera/clash-royale-api)  |
 | Comic Vine | Comics | No | Yes | [Go!](https://comicvine.gamespot.com/api/documentation) |
 | Deck of Cards | Deck of Cards | No | No | [Go!](http://deckofcardsapi.com/)  |
+| Destiny The Game | Bungie Platform API | `apiKey` | Yes | [Go!](https://www.bungie.net/en/Clan/Post/39966/85087279/0/0)  |
 | Eve Online | Third-Party Developer Documentation | `OAuth` required for some parts | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
 | Giant Bomb | Video Games | No | Yes | [Go!](https://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
