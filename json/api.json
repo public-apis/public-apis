@@ -31,11 +31,18 @@
             "Link": "http://anilist-api.readthedocs.io/en/latest/"
         },
         {
+            "API": "Jikan",
+            "Auth": null,
+            "Description": "Unofficial MyAnimeList API",
+            "HTTPS": true,
+            "Link": "https://jikan.me"
+        },
+        {
             "API": "Kitsu",
             "Auth": "OAuth",
-            "Description": "Kitsu Anime",
-            "HTTPS": false,
-            "Link": "http://docs.kitsu17.apiary.io/"
+            "Description": "Anime discovery platform",
+            "HTTPS": true,
+            "Link": "http://docs.kitsu.apiary.io/"
         },
         {
             "API": "Studio Ghibli",
@@ -752,6 +759,13 @@
             "Link": "https://github.com/evz/tacofancy-api"
         },
         {
+            "API": "TheCocktailDB",
+            "Auth": null,
+            "Description": "Cocktail Recipes",
+            "HTTPS": false,
+            "Link": "http://www.thecocktaildb.com/"
+        },
+        {
             "API": "Yummly",
             "Auth": null,
             "Description": "Find food recipes",
@@ -875,6 +889,13 @@
             "Link": "https://wiki.guildwars2.com/wiki/API:Main"
         },
         {
+            "API": "Jservice",
+            "Auth": null,
+            "Description": "Jeopardy Question Database",
+            "HTTPS": false,
+            "Link": "http://jservice.io"
+        },
+        {
             "API": "Magic The Gathering",
             "Auth": null,
             "Description": "Magic The Gathering Game Information",
@@ -913,8 +934,8 @@
             "API": "Qriusity",
             "Auth": null,
             "Description": "Quiz/Trivia Questions",
-            "HTTPS": false,
-            "Link": "http://qriusity.com/"
+            "HTTPS": true,
+            "Link": "https://qriusity.com/"
         },
         {
             "API": "Riot Games",
@@ -1057,6 +1078,13 @@
             "Description": "Postcode lookup & Geolocation for the UK",
             "HTTPS": true,
             "Link": "https://postcodes.io"
+        },
+        {
+            "API": "REST Countries",
+            "Auth": null,
+            "Description": "Get information about countries via a RESTful API",
+            "HTTPS": true,
+            "Link": "https://restcountries.eu"
         },
         {
             "API": "Utah AGRC",
@@ -1271,7 +1299,7 @@
         },
         {
             "API": "Spotify",
-            "Auth": "OAuth required for some parts",
+            "Auth": "OAuth",
             "Description": "Music",
             "HTTPS": true,
             "Link": "https://developer.spotify.com/web-api/"
@@ -1439,6 +1467,13 @@
             "Description": "Query machine intelligence data",
             "HTTPS": true,
             "Link": "https://dev.fedger.io/docs/"
+        },
+        {
+            "API": "Gene_info",
+            "Auth": "apiKey",
+            "Description": "human genome data w/ gene summaries",
+            "HTTPS": false,
+            "Link": "http://www.geneinfo.life"
         },
         {
             "API": "inspirehep.net",
@@ -1666,6 +1701,13 @@
     ],
     "Sports & Fitness": [
         {
+            "API": "Cartola FC",
+            "Auth": null,
+            "Description": "The Cartola FC API serves to check the partial points of your team",
+            "HTTPS": true,
+            "Link": "https://github.com/wgenial/cartrolandofc"
+        },
+        {
             "API": "City Bikes",
             "Auth": null,
             "Description": "City Bikes around the world",
@@ -1744,6 +1786,13 @@
         }
     ],
     "Tracking": [
+        {
+            "API": "Postmon",
+            "Auth": null,
+            "Description": "An API to query Brazilian ZIP codes and orders easily, quickly and free",
+            "HTTPS": false,
+            "Link": "http://postmon.com.br"
+        },
         {
             "API": "Sweden",
             "Auth": "apikey",
@@ -2169,7 +2218,7 @@
         },
         {
             "API": "Wunderground",
-            "Auth": null,
+            "Auth": "apiKey",
             "Description": "Weather",
             "HTTPS": true,
             "Link": "https://www.wunderground.com/weather/api/"
