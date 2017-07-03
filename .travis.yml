@@ -1,6 +1,13 @@
-language: ruby
-rvm: 2.2
-before_script: gem install awesome_bot
-script: awesome_bot README.md --allow-ssl --allow 403,302
+language: node_js
 notifications:
   email: false
+before_install:
+  - rvm install 2.4.0
+install:
+  - gem install awesome_bot
+script:
+  - awesome_bot README.md --allow-ssl --allow 403,302
+after_success:
+  - cd build
+  - sh build.sh
+  - sh deploy.sh
