@@ -701,6 +701,13 @@
             "Link": "https://www.barchartondemand.com/free"
         }, 
         {
+            "API": "CoinDesk", 
+            "Auth": null, 
+            "Description": "Bitcoin Price Index", 
+            "HTTPS": false, 
+            "Link": "http://www.coindesk.com/api/"
+        }, 
+        {
             "API": "Consumer Financial Protection Bureau", 
             "Auth": "apiKey", 
             "Description": "Financial services consumer complains data", 
