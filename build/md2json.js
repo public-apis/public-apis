@@ -1,6 +1,6 @@
 fs = require('fs')
 
-function md_trim(str, context = null) {
+function md_trim(str, context) {
     str = str.replace(/(^\s+)|(\s+$)/g, "");
 
     if (context == 1) { // Name
@@ -52,7 +52,7 @@ function handle(filename, anchor) {
             break;
         }
         table_name = line.split(anchor)[1];
-        table_name = md_trim(table_name)
+        table_name = md_trim(table_name, 0)
 
         line = read_line()
 
@@ -60,7 +60,7 @@ function handle(filename, anchor) {
             line = line.split("|")
             for (var j in line) {
 
-                line[j] = md_trim(line[j])
+                line[j] = md_trim(line[j], 0)
                 if ((j == 0 || j == line.length - 1) && line[j] === "") {
 
                 } else {
