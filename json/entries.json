@@ -569,6 +569,13 @@
             "Link": "https://plino.herokuapp.com/"
         }, 
         {
+            "API": "Public APIs", 
+            "Auth": null, 
+            "Description": "A collective list of free JSON APIs for use in web development", 
+            "HTTPS": true, 
+            "Link": "https://github.com/toddmotto/public-apis/tree/master/json"
+        }, 
+        {
             "API": "Random Word", 
             "Auth": null, 
             "Description": "Generate random word", 
