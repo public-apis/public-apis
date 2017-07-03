@@ -8,7 +8,7 @@ install:
 before_script:
   - echo $GH_TOKEN
 script:
-  - awesome_bot README.md --allow-ssl --allow 403,302
+  - this-wont-run
 after_success:
   - cd build
   - sh build.sh
