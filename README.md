@@ -172,6 +172,7 @@ API | Description | Auth | HTTPS | Link |
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | Yes | [Go!](https://plino.herokuapp.com/) |
+| Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | [Go!](https://github.com/toddmotto/public-apis/tree/master/json) |
 | Random Word | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
 | RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
