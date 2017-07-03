@@ -48,16 +48,14 @@ Please note a passing build status indicates all listed APIs are available since
 * [Weather](#weather)
 
 ### Animals
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | IUCN | IUCN Red List of Threatened Species | `token` | No | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
 | Petfinder | Adoption | Yes | Yes | [Go!](https://www.petfinder.com/developers/api-docs/) |
 | RescueGroups | Adoption | No | Yes | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
 
 ### Anime
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | AniList | AniList Anime | `OAuth` | No | [Go!](http://anilist-api.readthedocs.io/en/latest/) |
 | Jikan | Unofficial MyAnimeList API | No | Yes | [Go!](https://jikan.me) |
@@ -65,8 +63,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Studio Ghibli | Resources from Studio Ghibli films | No | Yes | [Go!](https://ghibliapi.herokuapp.com) |
 
 ### Anti-Malware
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Certly | Certly Link/Domain Flagging | `token` | Yes | [Go!](https://guard.certly.io/) |
 | Google Safe Browsing | Google Link/Domain Flagging | `token` | Yes | [Go!](https://developers.google.com/safe-browsing/) |
@@ -75,8 +72,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Web Of Trust (WOT) | Website reputation | `apiKey` | Yes | [Go!](https://www.mywot.com/wiki/API) |
 
 ### Art & Design
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Dribbble | Design | `OAuth` | No | [Go!](http://developer.dribbble.com/v1/) |
 | Noun Project | Icons | `OAuth` | No | [Go!](http://api.thenounproject.com/index.html) |
@@ -84,23 +80,20 @@ Please note a passing build status indicates all listed APIs are available since
 | Rijksmuseum| Art | `apiKey` | Yes | [Go!](https://www.rijksmuseum.nl/en/api) |
 
 ### Books
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | British National Bibliography | Books | No | No | [Go!](http://bnb.data.bl.uk/) |
 | Goodreads | Books | No | Yes | [Go!](https://www.goodreads.com/api) |
 | Google Books | Books | `OAuth` | Yes | [Go!](https://developers.google.com/books/) |
 
 ### Business
-
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | mailgun | Email Service | `apiKey` | Yes | [Go!](https://www.mailgun.com/) |
 | markerapi | Trademark Search | No | No | [Go!](http://www.markerapi.com/) |
 
 ### Calendar
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
 | Holidays | Historical data regarding holidays | `apiKey` | Yes | [Go!](https://holidayapi.com/) |
@@ -108,8 +101,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Non-Working Days | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
 
 ### Cloud Storage & File Sharing
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Box | File Sharing and Storage | `OAuth` | Yes | [Go!](https://developer.box.com/) |
 | Dropbox | File Sharing and Storage | `OAuth` | Yes | [Go!](https://www.dropbox.com/developers) |
@@ -117,15 +109,13 @@ Please note a passing build status indicates all listed APIs are available since
 | OneDrive | File Sharing and Storage | `OAuth` | Yes | [Go!](https://dev.onedrive.com/) |
 
 ### Currency Exchange
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Currencylayer | Exchange rates and currency conversion | `apiKey` | Yes | [Go!](https://currencylayer.com/documentation) |
 | Fixer.io | Exchange rates and currency conversion | No | Yes | [Go!](http://fixer.io) |
 
 ### Data Access
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | 18F | US Federal Government /Developer Program | No | No | [Go!](http://18f.github.io/API-All-the-X/) |
 | Abbreviation | Get abbreviations and meanings | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/daxeel/abbreviations) |
@@ -152,8 +142,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Yelp | Find Local Business | `OAuth` | Yes | [Go!](https://www.yelp.com/developers) |
 
 ### Data Validation
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | languagelayer | Language detection | No | Yes | [Go!](https://languagelayer.com) |
 | Lob.com | US Address Verification | `apiKey` | Yes | [Go!](https://lob.com/) |
@@ -162,8 +151,7 @@ Please note a passing build status indicates all listed APIs are available since
 | vatlayer | VAT number validation | No | Yes | [Go!](https://vatlayer.com) |
 
 ### Development
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | [Go!](https://apis.guru/api-doc/) |
@@ -194,8 +182,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
 
 ### Documents & Productivity
-
-| API | Description | Auth | HTTPS |Link |
+API | Description | Auth | HTTPS |Link |
 |---|---|---|---|---|
 | File.io | File Sharing | No | Yes | [Go!](https://www.file.io) |
 | pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
@@ -204,23 +191,20 @@ Please note a passing build status indicates all listed APIs are available since
 | Wunderlist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.wunderlist.com/documentation) |
 
 ### Environment
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | AirVisual | Air quality and weather data | `apiKey` | Yes | [Go!](https://airvisual.com/api) |
 | OpenAQ | Open air quality data | `apiKey` | Yes | [Go!](https://docs.openaq.org/) |
 | PM2.5.in | Air quality of China | `apiKey` | No | [Go!](http://www.pm25.in/api_doc) |
 
 ### Finance
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Barchart OnDemand | Stock, Futures, and Forex Market Data | `apiKey` | Yes | [Go!](https://www.barchartondemand.com/free) |
 | Consumer Financial Protection Bureau | Financial services consumer complains data | `apiKey` | Yes | [Go!](https://data.consumerfinance.gov/resource/jhzv-w97w.json) |
 
 ### Food & Drink
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | BigOven | Recipe Search | `X-Mashape-Key` | No | [Go!](http://api2.bigoven.com/) |
 | BreweryDB | Beer | `apiKey` | No | [Go!](http://www.brewerydb.com/developers) |
@@ -236,8 +220,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 
 ### Fraud Prevention
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Whitepages Pro | Global identity verification with phone, address, email, and IP | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/identity-check-api/) |
 | Whitepages Pro | Phone reputation to detect spammy phones | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/phone-reputation-api/) |
@@ -246,8 +229,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Whitepages Pro| Get normalized physical address, residents, address type, and validity. | `apiKey` | Yes | [Go!](https://pro.whitepages.com/developer/documentation/reverse-address-api/) |
 
 ### Games & Comics
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Battle.net | Blizzard Entertainment | No | Yes | [Go!](https://dev.battle.net/)  |
 | Battlefield 4 | Battlefield 4 Information | No | Yes | [Go!](https://bf4stats.com/api)  |
@@ -273,8 +255,7 @@ Please note a passing build status indicates all listed APIs are available since
 | SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
 
 ### Geocoding
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | adresse.data.gouv.fr | Address database of France. geocoding and reverse. | No | Yes | [Go!](https://adresse.data.gouv.fr) |
 | Bing Maps | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | [Go!](https://www.microsoft.com/maps/) |
@@ -299,8 +280,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 
 ### Health
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api/) |
 | Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
@@ -310,8 +290,7 @@ Please note a passing build status indicates all listed APIs are available since
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | Yes | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
 
 ### Machine Learning
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | API.AI | Natural Language Processing | `apikey` | Yes | [Go!](https://api.ai/) |
 | Clarifai | Computer Vision | `OAuth` | Yes | [Go!](https://developer.clarifai.com/) |
@@ -321,16 +300,14 @@ Please note a passing build status indicates all listed APIs are available since
 | Wit.ai | Natural Language Processing | `OAuth` | Yes | [Go!](https://wit.ai/) |
 
 ### Math
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Newton | Symbolic and Arithmetic Math Calculator | No | Yes | [Go!](https://newton.now.sh/) |
 | Numbers API | Facts about numbers | No | No | [Go!](http://numbersapi.com) |
 
 
 ### Music
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Bandsintown | Music Events | No | Yes | [Go!](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) |
 | Deezer | Music | `OAuth` | No | [Go!](http://developers.deezer.com/login?redirect=/api) |
@@ -349,24 +326,21 @@ Please note a passing build status indicates all listed APIs are available since
 | Vagalume | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | [Go!](https://api.vagalume.com.br/docs/) |
 
 ### News
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | New York Times | Provides news | `apikey` | Yes | [Go!](https://developer.nytimes.com/) |
 | News API | headlines currently published on a range of news sources and blogs | `apikey` | Yes | [Go!](https://newsapi.org/) |
 | The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apikey` | Yes | [Go!](http://open-platform.theguardian.com/) |
 
 ### Open Source projects
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Countly  | Countly web analytics | No | No | [Go!](http://resources.count.ly/docs) |
 | Drupal.org | Drupal.org | No | Yes | [Go!](https://www.drupal.org/drupalorg/docs/api) |
 | Libraries.io | Open source software libraries | `apiKey` | Yes | [Go!](https://libraries.io/api) |
 
 ### Personality
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | chucknorris.io | JSON API for hand curated Chuck Norris jokes | No | Yes | [Go!](https://api.chucknorris.io) |
 | Forismatic | Inspirational Quotes | No | No | [Go!](http://forismatic.com/en/api/) |
@@ -376,8 +350,7 @@ Please note a passing build status indicates all listed APIs are available since
 | tronalddump.io | Api & web archive for the things Donald Trump has said | No | Yes | [Go!](https://www.tronalddump.io) |
 
 ### Photography
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | 500px |  Photography Community | `OAuth` | Yes | [Go!](https://github.com/500px/api-documentation) |
 | Flickr | Flickr Services | `OAuth` | Yes | [Go!](https://www.flickr.com/services/api/) |
@@ -388,8 +361,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Unsplash | Photography | `OAuth` | Yes | [Go!](https://unsplash.com/developers) |
 
 ### Science
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | arcsecond.io | Multiple astronomy data sources | No | Yes | [Go!](https://api.arcsecond.io/) |
 | Fedger.io | Query machine intelligence data | No | Yes | [Go!](https://dev.fedger.io/docs/) |
@@ -404,21 +376,18 @@ Please note a passing build status indicates all listed APIs are available since
 | World Bank | World Data | No | No | [Go!](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) |
 
 ### Security
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | AXFR Database | AXFR public database | No | No | [Go!](http://api.axfrcheck.com) |
 | UK Police | UK Police data | No | Yes | [Go!](https://data.police.uk/docs/) |
 
 ### Shopping
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | eBay | Sell and Buy on eBay | `OAuth` | Yes | [Go!](https://go.developer.ebay.com/) |
 
 ### Social
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Discord | Make bots for Discord, integrate Discord onto an external platform | `OAuth` | Yes | [Go!](https://discordapp.com/developers/docs/intro) |
 | DonReach Social Count | Get the social share count of a URL from every major social network | No | Yes | [Go!](https://donreach.com/social-share-count/) |
@@ -442,8 +411,7 @@ Please note a passing build status indicates all listed APIs are available since
 | vk | Read and write vk dat | `OAuth` | Yes | [Go!](https://vk.com/dev/sites) |
 
 ### Sports & Fitness
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Cartola FC | The Cartola FC API serves to check the partial points of your team. | No | Yes | [Go!](https://github.com/wgenial/cartrolandofc) |
 | City Bikes | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
@@ -459,15 +427,13 @@ Please note a passing build status indicates all listed APIs are available since
 | Wger | Workout manager data as exercises, muscles or equipments | `apiKey` | Yes | [Go!](https://wger.de/en/software/api) |
 
 ### Tracking
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Postmon | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | [Go!](http://postmon.com.br) |
 | Sweden  | Provides  information about parcels in transport | `apikey` | No | [Go!](https://developer.postnord.com/docs2) |
 
 ### Transportation
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apiKey` | Yes | [Go!](https://sandbox.amadeus.com/) |
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
@@ -513,22 +479,19 @@ Please note a passing build status indicates all listed APIs are available since
 | WhereIsMyTransport | Platform for public transport data in emerging cities  | `OAuth` | Yes | [Go!](https://developer.whereismytransport.com/) |
 
 ### University
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Universities List | University names, countries and domains| No | Yes | [Go!](https://github.com/Hipo/university-domains-list) |
 
 ### Vehicle
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Vehicles | Lot of vehicles informations | `apiKey` | No | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
 | Brazilian Vehicles and Prices | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | [Go!](https://deividfortuna.github.io/fipe/) |
 | NHTSA Vehicles | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | [Go!](https://vpic.nhtsa.dot.gov/api/) |
 
 ### Video
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | An API of Ice And Fire | Game Of Thrones API | No | Yes | [Go!](https://anapioficeandfire.com/) |
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | [Go!](https://developer.dailymotion.com/) |
@@ -540,8 +503,7 @@ Please note a passing build status indicates all listed APIs are available since
 | YouTube | Add YouTube functionality to your sites and apps. | `OAuth` | Yes | [Go!](https://developers.google.com/youtube/) |
 
 ### Weather
-
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Dark Sky | Weather | `apiKey` | Yes | [Go!](https://darksky.net/dev/) |
 | MetaWeather | Weather | No | Yes | [Go!](https://www.metaweather.com/api/) |
