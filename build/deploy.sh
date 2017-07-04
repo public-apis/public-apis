@@ -14,8 +14,8 @@ mkdir deploy
 cd deploy
 
 git init
-git config --global user.name "Travis CI"
-git config --global user.email "builds@travis-ci.org"
+git config --global user.name $GH_USER
+git config --global user.email $GH_EMAIL
 
 git remote add upstream "https://$GH_TOKEN@github.com/toddmotto/public-apis.git"
 git fetch upstream
