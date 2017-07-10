@@ -52,8 +52,8 @@ Please note a passing build status indicates all listed APIs are available since
 ### Animals
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| IUCN | IUCN Red List of Threatened Species | `token` | No | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
-| Petfinder | Adoption | Yes | Yes | [Go!](https://www.petfinder.com/developers/api-docs/) |
+| IUCN | IUCN Red List of Threatened Species | `apiKey` | No | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
+| Petfinder | Adoption | `apiKey` | Yes | [Go!](https://www.petfinder.com/developers/api-docs/) |
 | RescueGroups | Adoption | No | Yes | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
 
 ### Anime
@@ -67,10 +67,10 @@ API | Description | Auth | HTTPS | Link |
 ### Anti-Malware
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Certly | Certly Link/Domain Flagging | `token` | Yes | [Go!](https://guard.certly.io/) |
-| Google Safe Browsing | Google Link/Domain Flagging | `token` | Yes | [Go!](https://developers.google.com/safe-browsing/) |
-| Metacert | Metacert Link Flagging | `token` | Yes | [Go!](https://metacert.com/) |
-| VirusTotal | VirusTotal File/URL Analysis | `token` | Yes | [Go!](https://www.virustotal.com/en/documentation/public-api/) |
+| Certly | Certly Link/Domain Flagging | `apiKey` | Yes | [Go!](https://guard.certly.io/) |
+| Google Safe Browsing | Google Link/Domain Flagging | `apiKey` | Yes | [Go!](https://developers.google.com/safe-browsing/) |
+| Metacert | Metacert Link Flagging | `apiKey` | Yes | [Go!](https://metacert.com/) |
+| VirusTotal | VirusTotal File/URL Analysis | `apiKey` | Yes | [Go!](https://www.virustotal.com/en/documentation/public-api/) |
 | Web Of Trust (WOT) | Website reputation | `apiKey` | Yes | [Go!](https://www.mywot.com/wiki/API) |
 
 ### Art & Design
@@ -89,7 +89,7 @@ API | Description | Auth | HTTPS | Link |
 | Google Books | Books | `OAuth` | Yes | [Go!](https://developers.google.com/books/) |
 
 ### Business
-| API | Description | Auth | HTTPS | Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | mailgun | Email Service | `apiKey` | Yes | [Go!](https://www.mailgun.com/) |
 | markerapi | Trademark Search | No | No | [Go!](http://www.markerapi.com/) |
@@ -132,7 +132,7 @@ API | Description | Auth | HTTPS | Link |
 | Open Government, Australia | Australian Government Open Data | No | Yes | [Go!](https://www.data.gov.au/) |
 | Open Government, USA | United States Government Open Data | No | Yes | [Go!](https://www.data.gov/) |
 | Open Government, Canada | Canadian Government Open Data | No | No | [Go!](http://open.canada.ca/en) |
-| Open Government Data, India | Indian Government Open Data | `token` | Yes | [Go!](https://data.gov.in/) |
+| Open Government Data, India | Indian Government Open Data | `apiKey` | Yes | [Go!](https://data.gov.in/) |
 | Pearson | Dictionary Data | `apiKey` | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
 | Prague Opendata | Prague City Open Data | No | No | [Go!](http://opendata.praha.eu/en) |
 | Quandl | Stock Market Data | No | Yes | [Go!](https://www.quandl.com/) |
@@ -235,15 +235,15 @@ API | Description | Auth | HTTPS | Link |
 ### Games & Comics
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Battle.net | Blizzard Entertainment | No | Yes | [Go!](https://dev.battle.net/)  |
-| Battlefield 4 | Battlefield 4 Information | No | Yes | [Go!](https://bf4stats.com/api)  |
+| Battle.net | Blizzard Entertainment | No | Yes | [Go!](https://dev.battle.net/) |
+| Battlefield 4 | Battlefield 4 Information | No | Yes | [Go!](https://bf4stats.com/api) |
 | Chuck Norris Database | Jokes | No | No | [Go!](http://www.icndb.com/api/) |
 | Clash of Clans | Clash of Clans Game Information | No | Yes | [Go!](https://developer.clashofclans.com) |
-| Clash Royale | Clash Royale Game Information | No | Yes | [Go!](https://github.com/martincarrera/clash-royale-api)  |
+| Clash Royale | Clash Royale Game Information | No | Yes | [Go!](https://github.com/martincarrera/clash-royale-api) |
 | Comic Vine | Comics | No | Yes | [Go!](https://comicvine.gamespot.com/api/documentation) |
-| Deck of Cards | Deck of Cards | No | No | [Go!](http://deckofcardsapi.com/)  |
-| Destiny The Game | Bungie Platform API | `apiKey` | Yes | [Go!](https://www.bungie.net/en/Clan/Post/39966/85087279/0/0)  |
-| Eve Online | Third-Party Developer Documentation | `OAuth` required for some parts | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
+| Deck of Cards | Deck of Cards | No | No | [Go!](http://deckofcardsapi.com/) |
+| Destiny The Game | Bungie Platform API | `apiKey` | Yes | [Go!](https://www.bungie.net/en/Clan/Post/39966/85087279/0/0) |
+| Eve Online | Third-Party Developer Documentation | `OAuth` | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
 | Giant Bomb | Video Games | No | Yes | [Go!](https://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
 | Jservice | Jeopardy Question Database | No | No | [Go!](http://jservice.io) |
@@ -273,7 +273,7 @@ API | Description | Auth | HTTPS | Link |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | [Go!](https://www.mapbox.com/developers/) |
 | Mapzen Search | Open Source & Open Data Global Geocoding Service | No | Yes | [Go!](https://mapzen.com/products/search/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | [Go!](https://github.com/IcaliaLabs/sepomex) |
-| One Map 2.0, Singapore| Singapore Land Authority REST API services for Singapore addresses  | Yes | Yes | [Go!](https://docs.onemap.sg/) |
+| One Map 2.0, Singapore| Singapore Land Authority REST API services for Singapore addresses  | `apiKey` | Yes | [Go!](https://docs.onemap.sg/) |
 | OpenCage | Forward and reverse geocoding using open data | No | Yes | [Go!](https://geocoder.opencagedata.com) |
 | OpenStreetMap | Navigation, geolocation and geographical data | `OAuth` | No | [Go!](http://wiki.openstreetmap.org/wiki/API) |
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
@@ -296,11 +296,11 @@ API | Description | Auth | HTTPS | Link |
 ### Machine Learning
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| API.AI | Natural Language Processing | `apikey` | Yes | [Go!](https://api.ai/) |
+| API.AI | Natural Language Processing | `apiKey` | Yes | [Go!](https://api.ai/) |
 | Clarifai | Computer Vision | `OAuth` | Yes | [Go!](https://developer.clarifai.com/) |
-| Cleverbot | Web chat bot | `apikey` | Yes | [Go!](https://www.cleverbot.com/api/) |
-| Keen IO | Data Analytics | `apikey` | Yes | [Go!](https://keen.io/) |
-| Unplugg | Forecasting API for timeseries data | `apikey` | Yes | [Go!](https://unplu.gg/test_api.html) |
+| Cleverbot | Web chat bot | `apiKey` | Yes | [Go!](https://www.cleverbot.com/api/) |
+| Keen IO | Data Analytics | `apiKey` | Yes | [Go!](https://keen.io/) |
+| Unplugg | Forecasting API for timeseries data | `apiKey` | Yes | [Go!](https://unplu.gg/test_api.html) |
 | Wit.ai | Natural Language Processing | `OAuth` | Yes | [Go!](https://wit.ai/) |
 
 ### Math
@@ -332,9 +332,9 @@ API | Description | Auth | HTTPS | Link |
 ### News
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| New York Times | Provides news | `apikey` | Yes | [Go!](https://developer.nytimes.com/) |
-| News API | headlines currently published on a range of news sources and blogs | `apikey` | Yes | [Go!](https://newsapi.org/) |
-| The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apikey` | Yes | [Go!](http://open-platform.theguardian.com/) |
+| New York Times | Provides news | `apiKey` | Yes | [Go!](https://developer.nytimes.com/) |
+| News API | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | [Go!](https://newsapi.org/) |
+| The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | [Go!](http://open-platform.theguardian.com/) |
 
 ### Open Source projects
 API | Description | Auth | HTTPS | Link |
@@ -369,7 +369,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | arcsecond.io | Multiple astronomy data sources | No | Yes | [Go!](https://api.arcsecond.io/) |
 | Fedger.io | Query machine intelligence data | No | Yes | [Go!](https://dev.fedger.io/docs/) |
-| Gene_info | human genome data w/ gene summaries | `apiKey` | No | [Go!](http://www.geneinfo.life) |
+| Gene_info | Human genome data w/ gene summaries | `apiKey` | No | [Go!](http://www.geneinfo.life) |
 | inspirehep.net | High Energy Physics info. system | No | Yes | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
 | Launch Library | Upcoming Space Launches | No | Yes | [Go!](https://launchlibrary.net/1.2/docs/api.html) |
 | Minor Planet Center | Asterank.com Information | No | No | [Go!](http://www.asterank.com/mpc) |
@@ -423,7 +423,7 @@ API | Description | Auth | HTTPS | Link |
 | Fitbit | Fitbit Information | `OAuth` | Yes | [Go!](https://dev.fitbit.com/) |
 | Football-Data.org | Football Data | No | No | [Go!](http://api.football-data.org/index) |
 | JCDecaux Bike | JCDecaux's self-service bicycles | `apiKey` | Yes | [Go!](https://developer.jcdecaux.com/) |
-| Cricket Live Scores | live-score | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
+| Cricket Live Scores | Live cricket scores | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
 | NFL Arrests | NFL Arrest Data | No | No | [Go!](http://nflarrest.com/api/) |
 | Pro Motocross | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | [Go!](http://promotocrossapi.com) |
 | Strava | Connect with athletes, activities and more | `OAuth` | Yes | [Go!](https://strava.github.io/api/) |
@@ -434,7 +434,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Postmon | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | [Go!](http://postmon.com.br) |
-| Sweden  | Provides  information about parcels in transport | `apikey` | No | [Go!](https://developer.postnord.com/docs2) |
+| Sweden  | Provides information about parcels in transport | `apiKey` | No | [Go!](https://developer.postnord.com/docs2) |
 
 ### Transportation
 API | Description | Auth | HTTPS | Link |
@@ -442,7 +442,7 @@ API | Description | Auth | HTTPS | Link |
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apiKey` | Yes | [Go!](https://sandbox.amadeus.com/) |
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Goibibo | API for travel search  | `apiKey` | Yes | [Go!](https://developer.goibibo.com/docs) |
-| Indian Railways | Indian Railways Information | `token` | No | [Go!](http://api.erail.in/) |
+| Indian Railways | Indian Railways Information | `apiKey` | No | [Go!](http://api.erail.in/) |
 | Navitia | The open API for building cool stuff with transport data | `apiKey` | Yes | [Go!](https://api.navitia.io/) |
 | The Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
 | Schiphol Airport | Schiphol | `apiKey` | Yes | [Go!](https://developer.schiphol.nl/) |
@@ -450,7 +450,7 @@ API | Description | Auth | HTTPS | Link |
 | Transport for Atlanta, US | Marta | No | No | [Go!](http://www.itsmarta.com/app-developer-resources.aspx) |
 | Transport for Auckland, New Zealand | Auckland Transport API  | No | Yes | [Go!](https://api.at.govt.nz/) |
 | Transport for Belgium | Belgian transport API | No | Yes | [Go!](https://hello.irail.be/api/) |
-| Transport for Berlin, Germany | third-party VBB API | No | Yes | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
+| Transport for Berlin, Germany | Third-party VBB API | No | Yes | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
 | Transport for Boston, US | MBTA API | No | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents) |
 | Transport for Budapest, Hungary | Budapest public transport API | No | Yes | [Go!](https://apiary.io/) |
 | Transport for Chicago, US | CTA | No | No | [Go!](http://www.transitchicago.com/developers/) |
@@ -474,7 +474,7 @@ API | Description | Auth | HTTPS | Link |
 | Transport for Switzerland | Swiss public transport API | No | Yes | [Go!](https://transport.opendata.ch/) |
 | Transport for Switzerland | Official Swiss Public Transport Open Data | `apiKey` | Yes | [Go!](https://opentransportdata.swiss/en/) |
 | Transport for The Netherlands | NS | No | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
-| Transport for Tokyo, Japan | Tokyo Metro | `apiKey` | Yes | [Go!](https://developer.tokyometroapp.jp/info)  |
+| Transport for Tokyo, Japan | Tokyo Metro | `apiKey` | Yes | [Go!](https://developer.tokyometroapp.jp/info) |
 | Transport for Toronto, Canada | TTC | No | Yes | [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | `OAuth` | Yes | [Go!](https://developer.translink.ca/) |
 | Transport for Victoria, AU | PTV API | `apiKey` | Yes | [Go!](https://www.ptv.vic.gov.au/about-ptv/ptv-data-and-reports/digital-products/ptv-timetable-api/) |
