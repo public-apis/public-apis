@@ -11,5 +11,5 @@ fi
 
 if [ "$TRAVIS_BRANCH" == "master" ]; then
     echo "running link validation..."
-    awesome_bot README.md --allow-ssl --allow 403,302
+    awesome_bot ../README.md --allow-ssl --allow 403,302
 fi
