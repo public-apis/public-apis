@@ -9,8 +9,7 @@ else
     echo "format validation FAILED"
 fi
 
-if [ "$TRAVIS_BRANCH" == "master" ]
-then
+if [ "$TRAVIS_BRANCH" == "master" ]; then
     echo "running link validation..."
     awesome_bot README.md --allow-ssl --allow 403,302
 fi
