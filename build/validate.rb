@@ -16,6 +16,13 @@ File.foreach(filename).with_index do |line, line_num|
         end
         values = line.split("|")
 
+        # Check Description to make sure first character is capitalized
+        desc_val = values[2].lstrip.chop
+        if !/[[:upper:]]/.match(desc_val[0])
+            puts "(#{line_num}) Invalid Description (first char not uppercase): #{desc_val}"
+            fail_flag = true
+        end
+
         # Check Auth values to conform to valid options only
         auth_val = values[3].lstrip.chop.tr('``', '')
         if !auth_keys.include?(auth_val)
