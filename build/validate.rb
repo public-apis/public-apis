@@ -1,8 +1,11 @@
 #!/usr/bin/env ruby
+auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'No']
 
 args = ARGV
 filename = args[0]
 
+fail_flag = false
+fail_count = 0
 File.foreach(filename).with_index do |line, line_num|
     line_num += 1
 #  puts "#{line_num}: #{line}"
@@ -13,8 +16,12 @@ File.foreach(filename).with_index do |line, line_num|
         end
 
         values = line.split("|")
-        values.each.with_index do |v, vn|
-            puts "#{vn}: #{v}"
+        # Check Auth Values to conform to valid options only
+        auth_val = values[3].lstrip.chop.tr('``', '')
+        if !auth_keys.include? auth_val
+         puts "(#{line_num}) Invalid Auth (#{auth_val}): #{line}"
+         fail_flag = false
+         fail_count += 1
         end
     end
 end
