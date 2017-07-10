@@ -4,11 +4,10 @@ https_keys = ['Yes', 'No']
 
 args = ARGV
 filename = args[0]
-
 fail_flag = false
+
 File.foreach(filename).with_index do |line, line_num|
     line_num += 1
-#  puts "#{line_num}: #{line}"
     if line.start_with?('|')
         # Skip table schema lines
         if line.eql? "|---|---|---|---|---|\n"
