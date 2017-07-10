@@ -38,3 +38,9 @@ File.foreach(filename).with_index do |line, line_num|
         end
     end
 end
+
+if fail_flag
+    exit(1)
+else
+    exit(0)
+end
