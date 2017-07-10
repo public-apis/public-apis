@@ -6,10 +6,10 @@ before_install:
 install:
   - gem install awesome_bot
 before_script:
-  - echo $GH_TOKEN
-script:
-  - this-wont-run
-after_success:
   - cd build
-  - sh build.sh
-  - sh deploy.sh
+script:
+  - main.sh
+after_success:
+  - build.sh
+  - deploy.sh
+
