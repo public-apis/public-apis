@@ -5,9 +5,11 @@ before_install:
   - rvm install 2.4.0
 install:
   - gem install awesome_bot
-script:
-  - awesome_bot README.md --allow-ssl --allow 403,302
-after_success:
+before_script:
   - cd build
-  - sh build.sh
-  - sh deploy.sh
+script:
+  - ./main.sh
+after_success:
+  - ./build.sh
+  - ./deploy.sh
+
