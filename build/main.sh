@@ -1,8 +1,6 @@
 #!/bin/bash
-
 echo "running format validation..."
-./validate.rb ../README.md
-
+./validate_format.rb ../README.md
 if [[ $? != 0 ]]; then
     echo "format validation failed!"
     exit $?
@@ -12,5 +10,11 @@ fi
 
 if [ "$TRAVIS_BRANCH" == "master" ]; then
     echo "running link validation..."
-    awesome_bot ../README.md --allow-ssl --allow 403,302
+    ./validate_links.rb ../README.md
+    if [[ $? != 0 ]]; then
+        echo "link validation failed!"
+        exit $?
+    else
+        echo "link validation passed!"
+    fi
 fi
