@@ -4,7 +4,7 @@ notifications:
 before_install:
   - rvm install 2.4.0
 install:
-  - gem install httparty
+  - gem install httparty ruby-progressbar
 before_script:
   - cd build
 script:
