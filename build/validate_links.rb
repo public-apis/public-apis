@@ -21,7 +21,7 @@ fails = []
 dup = links.select{|element| links.count(element) > 1}
 if dup.uniq.length > 0
     dup.uniq.each do |e|
-        fails.push("Duplicate link: #{e}")
+        fails.push("(DUP): #{e}")
     end
 end
 # Remove any duplicates from array
