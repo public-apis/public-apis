@@ -16,11 +16,12 @@ raw_links.each do |link|
         links.push(link)
     end
 end
+fails = []
 # Fail on any duplicate elements
 dup = links.select{|element| links.count(element) > 1}
 if dup.uniq.length > 0
     dup.uniq.each do |e|
-        puts "Duplicate link: #{e}"
+        fails.push("Duplicate link: #{e}")
     end
     fail_flag = true
 end
@@ -28,7 +29,6 @@ end
 links = links.uniq
 count = 0
 total = links.length
-fails = []
 # GET each link and check for valid response code from allowed_codes
 links.each do |link|
     begin
@@ -46,6 +46,11 @@ links.each do |link|
         fails.push("(#{res.code}): #{link}")
         fail_flag = true
     end
+end
+if fails.length <= 0
+    puts "all links valid"
+else
+    puts "-- RESULTS --"
 end
 fails.each do |e|
     puts e
