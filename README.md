@@ -369,7 +369,6 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | arcsecond.io | Multiple astronomy data sources | No | Yes | [Go!](https://api.arcsecond.io/) |
 | Fedger.io | Query machine intelligence data | No | Yes | [Go!](https://dev.fedger.io/docs/) |
-| Gene_info | Human genome data w/ gene summaries | `apiKey` | No | [Go!](http://www.geneinfo.life) |
 | inspirehep.net | High Energy Physics info. system | No | Yes | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
 | Launch Library | Upcoming Space Launches | No | Yes | [Go!](https://launchlibrary.net/1.2/docs/api.html) |
 | Minor Planet Center | Asterank.com Information | No | No | [Go!](http://www.asterank.com/mpc) |
@@ -499,7 +498,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | An API of Ice And Fire | Game Of Thrones API | No | Yes | [Go!](https://anapioficeandfire.com/) |
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | [Go!](https://developer.dailymotion.com/) |
-| Netflix Roulette | Netflix database | No | No | [Go!](http://netflixroulette.net/api/) |
+| Netflix Roulette | Netflix database | No | Yes | [Go!](https://netflixroulette.net/api/) |
 | Ron Swanson Quotes | Television | No | Yes | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
 | TMDb | Community-based movie data | `apiKey` | Yes | [Go!](https://www.themoviedb.org/documentation/api) |
 | TVMaze | TV Show Data | No | No | [Go!](http://www.tvmaze.com/api) |
