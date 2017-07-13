@@ -47,8 +47,8 @@ links.each do |link|
         fails.push("(SSL): #{link}")
     rescue SocketError
         fails.push("(SOK): #{link}")
-    rescue
-        fails.push("(ERR): #{link}")
+    rescue Errno::ECONNREFUSED
+        fails.push("(CON): #{link}")
     end
     progressbar.increment
 end
@@ -58,6 +58,7 @@ if fails.length <= 0
     exit(0)
 else
     puts "-- RESULTS --"
+    fails.sort!
     fails.each do |e|
         puts e
     end
