@@ -2,14 +2,14 @@
     "Animals": [
         {
             "API": "IUCN", 
-            "Auth": "token", 
+            "Auth": "apiKey", 
             "Description": "IUCN Red List of Threatened Species", 
             "HTTPS": false, 
             "Link": "http://apiv3.iucnredlist.org/api/v3/docs"
         }, 
         {
             "API": "Petfinder", 
-            "Auth": "Yes", 
+            "Auth": "apiKey", 
             "Description": "Adoption", 
             "HTTPS": true, 
             "Link": "https://www.petfinder.com/developers/api-docs/"
@@ -55,28 +55,28 @@
     "Anti-Malware": [
         {
             "API": "Certly", 
-            "Auth": "token", 
+            "Auth": "apiKey", 
             "Description": "Certly Link/Domain Flagging", 
             "HTTPS": true, 
             "Link": "https://guard.certly.io/"
         }, 
         {
             "API": "Google Safe Browsing", 
-            "Auth": "token", 
+            "Auth": "apiKey", 
             "Description": "Google Link/Domain Flagging", 
             "HTTPS": true, 
             "Link": "https://developers.google.com/safe-browsing/"
         }, 
         {
             "API": "Metacert", 
-            "Auth": "token", 
+            "Auth": "apiKey", 
             "Description": "Metacert Link Flagging", 
             "HTTPS": true, 
             "Link": "https://metacert.com/"
         }, 
         {
             "API": "VirusTotal", 
-            "Auth": "token", 
+            "Auth": "apiKey", 
             "Description": "VirusTotal File/URL Analysis", 
             "HTTPS": true, 
             "Link": "https://www.virustotal.com/en/documentation/public-api/"
@@ -144,18 +144,18 @@
     ], 
     "Business": [
         {
-            "": "mailgun", 
-            "API": "Email Service", 
-            "Auth": true, 
-            "Description": "apiKey", 
-            "HTTPS": "https://www.mailgun.com/"
+            "API": "mailgun", 
+            "Auth": "apiKey", 
+            "Description": "Email Service", 
+            "HTTPS": true, 
+            "Link": "https://www.mailgun.com/"
         }, 
         {
-            "": "markerapi", 
-            "API": "Trademark Search", 
-            "Auth": false, 
-            "Description": null, 
-            "HTTPS": "http://www.markerapi.com/"
+            "API": "markerapi", 
+            "Auth": null, 
+            "Description": "Trademark Search", 
+            "HTTPS": false, 
+            "Link": "http://www.markerapi.com/"
         }
     ], 
     "Calendar": [
@@ -328,7 +328,7 @@
         }, 
         {
             "API": "Open Government Data, India", 
-            "Auth": "token", 
+            "Auth": "apiKey", 
             "Description": "Indian Government Open Data", 
             "HTTPS": true, 
             "Link": "https://data.gov.in/"
@@ -890,7 +890,7 @@
         }, 
         {
             "API": "Eve Online", 
-            "Auth": "OAuth required for some parts", 
+            "Auth": "OAuth", 
             "Description": "Third-Party Developer Documentation", 
             "HTTPS": true, 
             "Link": "https://eveonline-third-party-documentation.readthedocs.io/en/latest/"
@@ -1074,7 +1074,7 @@
         }, 
         {
             "API": "One Map 2.0, Singapore", 
-            "Auth": "Yes", 
+            "Auth": "apiKey", 
             "Description": "Singapore Land Authority REST API services for Singapore addresses", 
             "HTTPS": true, 
             "Link": "https://docs.onemap.sg/"
@@ -1176,7 +1176,7 @@
     "Machine Learning": [
         {
             "API": "API.AI", 
-            "Auth": "apikey", 
+            "Auth": "apiKey", 
             "Description": "Natural Language Processing", 
             "HTTPS": true, 
             "Link": "https://api.ai/"
@@ -1190,21 +1190,21 @@
         }, 
         {
             "API": "Cleverbot", 
-            "Auth": "apikey", 
+            "Auth": "apiKey", 
             "Description": "Web chat bot", 
             "HTTPS": true, 
             "Link": "https://www.cleverbot.com/api/"
         }, 
         {
             "API": "Keen IO", 
-            "Auth": "apikey", 
+            "Auth": "apiKey", 
             "Description": "Data Analytics", 
             "HTTPS": true, 
             "Link": "https://keen.io/"
         }, 
         {
             "API": "Unplugg", 
-            "Auth": "apikey", 
+            "Auth": "apiKey", 
             "Description": "Forecasting API for timeseries data", 
             "HTTPS": true, 
             "Link": "https://unplu.gg/test_api.html"
@@ -1343,21 +1343,21 @@
     "News": [
         {
             "API": "New York Times", 
-            "Auth": "apikey", 
+            "Auth": "apiKey", 
             "Description": "Provides news", 
             "HTTPS": true, 
             "Link": "https://developer.nytimes.com/"
         }, 
         {
             "API": "News API", 
-            "Auth": "apikey", 
-            "Description": "headlines currently published on a range of news sources and blogs", 
+            "Auth": "apiKey", 
+            "Description": "Headlines currently published on a range of news sources and blogs", 
             "HTTPS": true, 
             "Link": "https://newsapi.org/"
         }, 
         {
             "API": "The Guardian", 
-            "Auth": "apikey", 
+            "Auth": "apiKey", 
             "Description": "Access all the content the Guardian creates, categorised by tags and section", 
             "HTTPS": true, 
             "Link": "http://open-platform.theguardian.com/"
@@ -1495,13 +1495,6 @@
             "Description": "Query machine intelligence data", 
             "HTTPS": true, 
             "Link": "https://dev.fedger.io/docs/"
-        }, 
-        {
-            "API": "Gene_info", 
-            "Auth": "apiKey", 
-            "Description": "human genome data w/ gene summaries", 
-            "HTTPS": false, 
-            "Link": "http://www.geneinfo.life"
         }, 
         {
             "API": "inspirehep.net", 
@@ -1773,7 +1766,7 @@
         {
             "API": "Cricket Live Scores", 
             "Auth": "X-Mashape-Key", 
-            "Description": "live-score", 
+            "Description": "Live cricket scores", 
             "HTTPS": true, 
             "Link": "https://market.mashape.com/dev132/cricket-live-scores"
         }, 
@@ -1823,8 +1816,8 @@
         }, 
         {
             "API": "Sweden", 
-            "Auth": "apikey", 
-            "Description": "Provides  information about parcels in transport", 
+            "Auth": "apiKey", 
+            "Description": "Provides information about parcels in transport", 
             "HTTPS": false, 
             "Link": "https://developer.postnord.com/docs2"
         }
@@ -1853,7 +1846,7 @@
         }, 
         {
             "API": "Indian Railways", 
-            "Auth": "token", 
+            "Auth": "apiKey", 
             "Description": "Indian Railways Information", 
             "HTTPS": false, 
             "Link": "http://api.erail.in/"
@@ -1910,7 +1903,7 @@
         {
             "API": "Transport for Berlin, Germany", 
             "Auth": null, 
-            "Description": "third-party VBB API", 
+            "Description": "Third-party VBB API", 
             "HTTPS": true, 
             "Link": "https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md"
         }, 
@@ -2173,18 +2166,11 @@
             "Link": "https://developer.dailymotion.com/"
         }, 
         {
-            "API": "MovieDB", 
-            "Auth": "apiKey", 
-            "Description": "Movie Data", 
-            "HTTPS": true, 
-            "Link": "https://www.themoviedb.org/documentation/api"
-        }, 
-        {
             "API": "Netflix Roulette", 
             "Auth": null, 
             "Description": "Netflix database", 
-            "HTTPS": false, 
-            "Link": "http://netflixroulette.net/api/"
+            "HTTPS": true, 
+            "Link": "https://netflixroulette.net/api/"
         }, 
         {
             "API": "Ron Swanson Quotes", 
@@ -2192,6 +2178,13 @@
             "Description": "Television", 
             "HTTPS": true, 
             "Link": "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api"
+        }, 
+        {
+            "API": "TMDb", 
+            "Auth": "apiKey", 
+            "Description": "Community-based movie data", 
+            "HTTPS": true, 
+            "Link": "https://www.themoviedb.org/documentation/api"
         }, 
         {
             "API": "TVMaze", 
