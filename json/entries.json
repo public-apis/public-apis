@@ -394,7 +394,7 @@
             "Auth": "OAuth", 
             "Description": "Find Local Business", 
             "HTTPS": true, 
-            "Link": "https://www.yelp.com/developers"
+            "Link": "https://www.yelp.com/developers/documentation/v3"
         }
     ], 
     "Data Validation": [
