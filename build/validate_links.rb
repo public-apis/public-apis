@@ -2,7 +2,7 @@
 require 'httparty'
 require 'ruby-progressbar'
 require 'uri'
-allowed_codes = [200, 302, 403]
+allowed_codes = [200, 302, 403, 429]
 args = ARGV
 filename = args[0]
 contents = File.open(filename, 'rb') { |f| f.read }
