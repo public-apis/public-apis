@@ -141,7 +141,7 @@ API | Description | Auth | HTTPS | Link |
 | Teleport | Quality of Life Data | No | Yes | [Go!](https://developers.teleport.org/) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Wordnik | Dictionary Data | No | No | [Go!](http://developer.wordnik.com) |
-| Yelp | Find Local Business | `OAuth` | Yes | [Go!](https://www.yelp.com/developers) |
+| Yelp | Find Local Business | `OAuth` | Yes | [Go!](https://www.yelp.com/developers/documentation/v3) |
 
 ### Data Validation
 API | Description | Auth | HTTPS | Link |
