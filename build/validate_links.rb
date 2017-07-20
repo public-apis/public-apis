@@ -3,6 +3,7 @@ require 'httparty'
 require 'ruby-progressbar'
 require 'uri'
 allowed_codes = [200, 302, 403, 429]
+allowed_links = ["https://www.yelp.com/developers/documentation/v3"]
 args = ARGV
 filename = args[0]
 contents = File.open(filename, 'rb') { |f| f.read }
@@ -33,6 +34,9 @@ progressbar = ProgressBar.create(:total => total)
 links.each do |link|
     begin
         count += 1
+        if allowed_links.include?(link)
+            next
+        end
         res = HTTParty.get(link, timeout: 10)
         if res.code.nil?
             fails.push("(NIL): #{link}")
