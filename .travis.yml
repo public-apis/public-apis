@@ -4,7 +4,7 @@ notifications:
 before_install:
   - rvm install 2.4.0
 install:
-  - gem install awesome_bot
+  - gem install httparty ruby-progressbar
 before_script:
   - cd build
 script:
@@ -12,4 +12,3 @@ script:
 after_success:
   - ./build.sh
   - ./deploy.sh
-
