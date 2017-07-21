@@ -3,6 +3,8 @@ FORMAT_FILE=../README.md
 if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
     echo "running on Pull Request #$TRAVIS_PULL_REQUEST"
     git show | egrep "\+" > additions.txt
+    echo "--ADDITIONS--"
+    cat additions.txt
     LINK_FILE=additions.txt
 else
     echo "running on $TRAVIS_BRANCH branch"
