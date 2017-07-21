@@ -27,6 +27,9 @@ if [ "$TRAVIS_BRANCH" == "master" ]; then
         echo "link validation failed!"
         exit 1
     else
+        if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
+            echo "no links to check on $TRAVIS_BRANCH branch - script failure!"
+        fi
         echo "link validation passed!"
     fi
 fi
