@@ -334,6 +334,13 @@
             "Link": "https://data.gov.in/"
         }, 
         {
+            "API": "Open Government, New Zealand", 
+            "Auth": null, 
+            "Description": "New Zealand Government Open Data", 
+            "HTTPS": true, 
+            "Link": "https://www.data.govt.nz/"
+        }, 
+        {
             "API": "Pearson", 
             "Auth": "apiKey", 
             "Description": "Dictionary Data", 
