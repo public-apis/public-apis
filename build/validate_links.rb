@@ -51,6 +51,8 @@ links.each do |link|
         end
     rescue Net::ReadTimeout
         fails.push("(TMO): #{link}")
+    rescue Net::OpenTimeout
+        fails.push("(TMO): #{link}")
     rescue OpenSSL::SSL::SSLError
         fails.push("(SSL): #{link}")
     rescue SocketError
