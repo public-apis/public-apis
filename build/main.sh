@@ -20,16 +20,15 @@ else
     echo "format validation passed!"
 fi
 
-if [ "$TRAVIS_BRANCH" == "master" ]; then
-    echo "running link validation..."
-    ./validate_links.rb $LINK_FILE
-    if [[ $? != 0 ]]; then
-        echo "link validation failed!"
+echo "running link validation..."
+./validate_links.rb $LINK_FILE
+if [[ $? != 0 ]]; then
+    echo "link validation failed!"
+    exit 1
+else
+    if [ "$TRAVIS_BRANCH" == "master" ]; then
+        echo "no links to check on master branch - script failure!"
         exit 1
-    else
-        if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
-            echo "no links to check on $TRAVIS_BRANCH branch - script failure!"
-        fi
-        echo "link validation passed!"
     fi
+    echo "link validation passed!"
 fi
