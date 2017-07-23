@@ -26,9 +26,5 @@ if [[ $? != 0 ]]; then
     echo "link validation failed!"
     exit 1
 else
-    if [ "$TRAVIS_BRANCH" == "master" ]; then
-        echo "no links to check on master branch - script failure!"
-        exit 1
-    fi
     echo "link validation passed!"
 fi
