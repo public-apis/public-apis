@@ -33,7 +33,8 @@ end
 links = links.uniq
 count = 0
 total = links.length
-progressbar = ProgressBar.create(:total => total)
+progressbar = ProgressBar.create(:total => total,
+    :format => "%a %P% | Processed: %c from %C")
 # GET each link and check for valid response code from allowed_codes
 links.each do |link|
     begin
