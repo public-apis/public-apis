@@ -1066,6 +1066,13 @@
             "Link": "https://ipinfo.io/"
         },
         {
+            "API": "IP Location",
+            "Auth": null,
+            "Description": "Find IP address location information",
+            "HTTPS": true,
+            "Link": "https://ipapi.co/"
+        },
+        {
             "API": "IP Vigilante",
             "Auth": null,
             "Description": "Free IP Geolocation API",
