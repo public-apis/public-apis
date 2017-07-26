@@ -520,6 +520,13 @@
             "Link": "https://json2jsonp.com/"
         }, 
         {
+            "API": "JSONbin.io", 
+            "Auth": null, 
+            "Description": "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps.", 
+            "HTTPS": true, 
+            "Link": "https://jsonbin.io/"
+        }, 
+        {
             "API": "JSONPlaceholder", 
             "Auth": null, 
             "Description": "Fake data for testing and prototyping", 
