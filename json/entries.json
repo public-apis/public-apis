@@ -1878,7 +1878,7 @@
         {
             "API": "Wger",
             "Auth": "apiKey",
-            "Description": "Workout manager data as exercises, muscles or equipments",
+            "Description": "Workout manager data as exercises, muscles or equipment",
             "HTTPS": true,
             "Link": "https://wger.de/en/software/api"
         }
@@ -2229,7 +2229,7 @@
         {
             "API": "Vehicles",
             "Auth": "apiKey",
-            "Description": "Lot of vehicles informations",
+            "Description": "Lot of vehicles information",
             "HTTPS": false,
             "Link": "http://developer.edmunds.com/api-documentation/overview/"
         },
