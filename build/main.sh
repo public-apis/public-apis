@@ -3,7 +3,7 @@ FORMAT_FILE=../README.md
 if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
     echo "running on Pull Request #$TRAVIS_PULL_REQUEST"
     DIFF_URL="https://patch-diff.githubusercontent.com/raw/toddmotto/public-apis/pull/$TRAVIS_PULL_REQUEST.diff"
-    curl https://patch-diff.githubusercontent.com/raw/toddmotto/public-apis/pull/398.diff > diff.txt
+    curl $DIFF_URL > diff.txt
     echo "------- BEGIN DIFF -------"
     cat diff.txt
     echo "-------- END DIFF --------"
