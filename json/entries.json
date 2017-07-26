@@ -1549,6 +1549,13 @@
             "Description": "Photography",
             "HTTPS": true,
             "Link": "https://unsplash.com/developers"
+        },
+        {
+            "API": "PlaceKitten",
+            "Auth": null,
+            "Description": "Resizable kitten placeholder images",
+            "HTTPS": true,
+            "Link": "https://placekitten.com/"
         }
     ],
     "Science": [
