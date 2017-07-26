@@ -449,7 +449,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apiKey` | Yes | [Go!](https://sandbox.amadeus.com/) |
-| Bay Area Rapid Transit | Stations and predicted arrivals for BART | `apiKey` | No | [Go!](http://api,bart.gov) |
+| Bay Area Rapid Transit | Stations and predicted arrivals for BART | `apiKey` | No | [Go!](http://api.bart.gov) |
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Goibibo | API for travel search  | `apiKey` | Yes | [Go!](https://developer.goibibo.com/docs) |
 | Indian Railways | Indian Railways Information | `apiKey` | No | [Go!](http://api.erail.in/) |
