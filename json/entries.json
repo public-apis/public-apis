@@ -302,8 +302,8 @@
             "API": "Dronestream",
             "Auth": null,
             "Description": "Tracks United States drone strikes",
-            "HTTPS": false,
-            "Link": "http://dronestre.am/"
+            "HTTPS": true,
+            "Link": "https://dronestre.am/"
         },
         {
             "API": "fonoApi",
