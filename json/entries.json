@@ -1108,6 +1108,13 @@
             "Link": "https://docs.onemap.sg/"
         },
         {
+            "API": "OnWater",
+            "Auth": null,
+            "Description": "Determine if a lat/lon is on water or land",
+            "HTTPS": true,
+            "Link": "https://onwater.io/"
+        },
+        {
             "API": "OpenCage",
             "Auth": null,
             "Description": "Forward and reverse geocoding using open data",
