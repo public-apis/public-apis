@@ -1729,7 +1729,7 @@
         {
             "API": "vk",
             "Auth": "OAuth",
-            "Description": "Read and write vk dat",
+            "Description": "Read and write vk data",
             "HTTPS": true,
             "Link": "https://vk.com/dev/sites"
         }
