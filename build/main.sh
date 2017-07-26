@@ -2,9 +2,15 @@
 FORMAT_FILE=../README.md
 if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
     echo "running on Pull Request #$TRAVIS_PULL_REQUEST"
-    git show | egrep "\+" > additions.txt
-    echo "--ADDITIONS--"
+    DIFF_URL="https://patch-diff.githubusercontent.com/raw/toddmotto/public-apis/pull/$TRAVIS_PULL_REQUEST.diff"
+    curl https://patch-diff.githubusercontent.com/raw/toddmotto/public-apis/pull/398.diff > diff.txt
+    echo "------- BEGIN DIFF -------"
+    cat diff.txt
+    echo "-------- END DIFF --------"
+    cat diff.txt | egrep "\+" > additions.txt
+    echo "------ BEGIN ADDITIONS -----"
     cat additions.txt
+    echo "------- END ADDITIONS ------"
     LINK_FILE=additions.txt
 else
     echo "running on $TRAVIS_BRANCH branch"
