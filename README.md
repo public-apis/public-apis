@@ -177,6 +177,7 @@ API | Description | Auth | HTTPS | Link |
 | Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | [Go!](http://myjson.com/api) |
+| Okta | User Authentication | `apiKey` | Yes | [Go!](https://okta.com/) |
 | Plino | Spam filtering system | No | Yes | [Go!](https://plino.herokuapp.com/) |
 | Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | [Go!](https://github.com/toddmotto/public-apis/tree/master/json) |
 | Random Word | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
@@ -184,7 +185,6 @@ API | Description | Auth | HTTPS | Link |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
 | RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
-| Stormpath | User Authentication | `apiKey` | Yes | [Go!](https://stormpath.com/) |
 | UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
 
@@ -525,3 +525,4 @@ API | Description | Auth | HTTPS | Link |
 | Weatherbit | Weather | `apiKey` | Yes | [Go!](https://www.weatherbit.io/api) |
 | Wunderground | Weather | `apiKey` | Yes | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | [Go!](https://developer.yahoo.com/weather/) |
+okta

@@ -583,6 +583,13 @@
             "Link": "http://myjson.com/api"
         },
         {
+            "API": "Okta",
+            "Auth": "apiKey",
+            "Description": "User Authentication",
+            "HTTPS": true,
+            "Link": "https://okta.com/"
+        },
+        {
             "API": "Plino",
             "Auth": null,
             "Description": "Spam filtering system",
@@ -630,13 +637,6 @@
             "Description": "Q&A forum for developers",
             "HTTPS": true,
             "Link": "https://api.stackexchange.com/"
-        },
-        {
-            "API": "Stormpath",
-            "Auth": "apiKey",
-            "Description": "User Authentication",
-            "HTTPS": true,
-            "Link": "https://stormpath.com/"
         },
         {
             "API": "UI Names",
