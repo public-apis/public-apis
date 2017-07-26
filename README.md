@@ -259,7 +259,6 @@ API | Description | Auth | HTTPS | Link |
 | Qriusity | Quiz/Trivia Questions | No | Yes | [Go!](https://qriusity.com/) |
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client Interaction | `OAuth` | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
-| SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
 
 ### Geocoding
 API | Description | Auth | HTTPS | Link |
@@ -508,6 +507,7 @@ API | Description | Auth | HTTPS | Link |
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | [Go!](https://developer.dailymotion.com/) |
 | Netflix Roulette | Netflix database | No | Yes | [Go!](https://netflixroulette.net/api/) |
 | Ron Swanson Quotes | Television | No | Yes | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
+| SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
 | TMDb | Community-based movie data | `apiKey` | Yes | [Go!](https://www.themoviedb.org/documentation/api) |
 | TVMaze | TV Show Data | No | No | [Go!](http://www.tvmaze.com/api) |
 | Vimeo | Vimeo Developer API | `OAuth` | Yes | [Go!](https://developer.vimeo.com/) |
