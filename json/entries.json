@@ -1159,6 +1159,13 @@
             "Link": "http://makeup-api.herokuapp.com/"
         },
         {
+            "API": "Medicare",
+            "Auth": null,
+            "Description": "Access to the data from the CMS - medicaregov",
+            "HTTPS": true,
+            "Link": "https://data.medicare.gov/developers"
+        },
+        {
             "API": "Nutritionix",
             "Auth": "apiKey",
             "Description": "Worlds largest verified nutrition database",
