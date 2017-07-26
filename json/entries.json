@@ -98,11 +98,11 @@
             "Link": "http://developer.dribbble.com/v1/"
         },
         {
-            "API": "Noun Project",
-            "Auth": "OAuth",
-            "Description": "Icons",
+            "API": "Harvard Art Museums",
+            "Auth": "apiKey",
+            "Description": "Art",
             "HTTPS": false,
-            "Link": "http://api.thenounproject.com/index.html"
+            "Link": "https://github.com/harvardartmuseums/api-docs"
         },
         {
             "API": "Icons8",
@@ -110,6 +110,13 @@
             "Description": "Icons",
             "HTTPS": true,
             "Link": "http://docs.icons8.apiary.io/#reference/0/meta"
+        },
+        {
+            "API": "Noun Project",
+            "Auth": "OAuth",
+            "Description": "Icons",
+            "HTTPS": false,
+            "Link": "http://api.thenounproject.com/index.html"
         },
         {
             "API": "Rijksmuseum",
@@ -1067,7 +1074,7 @@
         },
         {
             "API": "Mapzen Search",
-            "Auth": null,
+            "Auth": "apiKey",
             "Description": "Open Source & Open Data Global Geocoding Service",
             "HTTPS": true,
             "Link": "https://mapzen.com/products/search/"
@@ -1416,6 +1423,13 @@
             "Link": "http://forismatic.com/en/api/"
         },
         {
+            "API": "icanhazdadjoke",
+            "Auth": null,
+            "Description": "The largest selection of dad jokes on the internet",
+            "HTTPS": true,
+            "Link": "https://icanhazdadjoke.com/api"
+        },
+        {
             "API": "Medium",
             "Auth": "OAuth",
             "Description": "Community of readers and writers offering unique perspectives on ideas",
@@ -1558,6 +1572,13 @@
             "Description": "Earthquakes data real-time",
             "HTTPS": true,
             "Link": "https://earthquake.usgs.gov/fdsnws/event/1/"
+        },
+        {
+            "API": "USGS Water Services",
+            "Auth": null,
+            "Description": "Water quality and level info for rivers and lakes",
+            "HTTPS": true,
+            "Link": "https://waterservices.usgs.gov/"
         },
         {
             "API": "World Bank",
@@ -1999,6 +2020,20 @@
             "Link": "http://svc.metrotransit.org/"
         },
         {
+            "API": "Transport for The Netherlands",
+            "Auth": "apiKey",
+            "Description": "NS, only trains",
+            "HTTPS": false,
+            "Link": "http://www.ns.nl/reisinformatie/ns-api"
+        },
+        {
+            "API": "Transport for The Netherlands",
+            "Auth": null,
+            "Description": "OVAPI, country-wide public transport",
+            "HTTPS": true,
+            "Link": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
+        },
+        {
             "API": "Transport for New York City, US",
             "Auth": "apiKey",
             "Description": "MTA",
@@ -2074,13 +2109,6 @@
             "Description": "Official Swiss Public Transport Open Data",
             "HTTPS": true,
             "Link": "https://opentransportdata.swiss/en/"
-        },
-        {
-            "API": "Transport for The Netherlands",
-            "Auth": null,
-            "Description": "NS",
-            "HTTPS": false,
-            "Link": "http://www.ns.nl/reisinformatie/ns-api"
         },
         {
             "API": "Transport for Tokyo, Japan",
