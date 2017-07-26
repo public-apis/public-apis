@@ -109,6 +109,7 @@ API | Description | Auth | HTTPS | Link |
 | Dropbox | File Sharing and Storage | `OAuth` | Yes | [Go!](https://www.dropbox.com/developers) |
 | Google Drive | File Sharing and Storage | `OAuth` | Yes | [Go!](https://developers.google.com/drive/) |
 | OneDrive | File Sharing and Storage | `OAuth` | Yes | [Go!](https://dev.onedrive.com/) |
+| Backblaze B2 | File Sharing and Storage | `apiKey` | Yes | [Go!](https://www.backblaze.com/b2/docs/) |
 
 ### Currency Exchange
 API | Description | Auth | HTTPS | Link |
