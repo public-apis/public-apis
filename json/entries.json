@@ -1020,13 +1020,6 @@
             "Description": "Steam Client Interaction",
             "HTTPS": true,
             "Link": "https://developer.valvesoftware.com/wiki/Steam_Web_API"
-        },
-        {
-            "API": "SWAPI",
-            "Auth": null,
-            "Description": "Star Wars Information",
-            "HTTPS": true,
-            "Link": "https://swapi.co"
         }
     ],
     "Geocoding": [
@@ -2283,6 +2276,13 @@
             "Description": "Television",
             "HTTPS": true,
             "Link": "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api"
+        },
+        {
+            "API": "SWAPI",
+            "Auth": null,
+            "Description": "Star Wars Information",
+            "HTTPS": true,
+            "Link": "https://swapi.co"
         },
         {
             "API": "TMDb",
