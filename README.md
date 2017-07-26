@@ -438,7 +438,7 @@ API | Description | Auth | HTTPS | Link |
 | Pro Motocross | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | [Go!](http://promotocrossapi.com) |
 | Strava | Connect with athletes, activities and more | `OAuth` | Yes | [Go!](https://strava.github.io/api/) |
 | UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | [Go!](http://ufc-data-api.ufc.com/) |
-| Wger | Workout manager data as exercises, muscles or equipments | `apiKey` | Yes | [Go!](https://wger.de/en/software/api) |
+| Wger | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | [Go!](https://wger.de/en/software/api) |
 
 ### Tracking
 API | Description | Auth | HTTPS | Link |
@@ -503,7 +503,7 @@ API | Description | Auth | HTTPS | Link |
 ### Vehicle
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Vehicles | Lot of vehicles informations | `apiKey` | No | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
+| Vehicles | Lot of vehicles information | `apiKey` | No | [Go!](http://developer.edmunds.com/api-documentation/overview/) |
 | Brazilian Vehicles and Prices | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | [Go!](https://deividfortuna.github.io/fipe/) |
 | NHTSA Vehicles | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | [Go!](https://vpic.nhtsa.dot.gov/api/) |
 
