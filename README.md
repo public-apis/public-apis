@@ -380,6 +380,7 @@ API | Description | Auth | HTTPS | Link |
 | Open Notify | ISS astronauts, current location, etc | No | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Sunrise and Sunset | Sunset and sunrise times for a given latitude and longitude. | No | Yes | [Go!](https://sunrise-sunset.org/api) |
 | USGS Earthquake Hazards Program | Earthquakes data real-time | No | Yes | [Go!](https://earthquake.usgs.gov/fdsnws/event/1/) |
+| USGS Water Services | Water quality and level info for rivers and lakes | No | Yes | [Go!](https://waterservices.usgs.gov/) |
 | World Bank | World Data | No | No | [Go!](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) |
 
 ### Security
