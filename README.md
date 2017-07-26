@@ -413,7 +413,7 @@ API | Description | Auth | HTTPS | Link |
 | Tumblr | Read and write Tumblr Data | `OAuth` | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 | Twitch | Game Streaming API | `OAuth` | Yes | [Go!](https://github.com/justintv/Twitch-API) |
 | Twitter | Read and write Twitter data | `OAuth` | Yes | [Go!](https://dev.twitter.com/rest/public) |
-| vk | Read and write vk dat | `OAuth` | Yes | [Go!](https://vk.com/dev/sites) |
+| vk | Read and write vk data | `OAuth` | Yes | [Go!](https://vk.com/dev/sites) |
 
 ### Sports & Fitness
 API | Description | Auth | HTTPS | Link |
