@@ -474,6 +474,7 @@ API | Description | Auth | HTTPS | Link |
 | Transport for Switzerland | Swiss public transport API | No | Yes | [Go!](https://transport.opendata.ch/) |
 | Transport for Switzerland | Official Swiss Public Transport Open Data | `apiKey` | Yes | [Go!](https://opentransportdata.swiss/en/) |
 | Transport for The Netherlands | NS | No | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
+| Transport for The Netherlands | OVAPI, country-wide public transport | No | Yes | [Go!](https://github.com/skywave/KV78Turbo-OVAPI/wiki) |
 | Transport for Tokyo, Japan | Tokyo Metro | `apiKey` | Yes | [Go!](https://developer.tokyometroapp.jp/info) |
 | Transport for Toronto, Canada | TTC | No | Yes | [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | `OAuth` | Yes | [Go!](https://developer.translink.ca/) |
