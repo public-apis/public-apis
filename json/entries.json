@@ -662,6 +662,13 @@
             "Link": "https://pdflayer.com"
         },
         {
+            "API": "Pocket",
+            "Auth": "OAuth",
+            "Description": "Bookmarking service",
+            "HTTPS": true,
+            "Link": "https://getpocket.com/developer/"
+        },
+        {
             "API": "PrexView",
             "Auth": "apiKey",
             "Description": "Data from XML or JSON to PDF, HTML or Image",
