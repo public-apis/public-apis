@@ -1908,6 +1908,13 @@
             "Link": "https://sandbox.amadeus.com/"
         },
         {
+            "API": "Bay Area Rapid Transit",
+            "Auth": "apiKey",
+            "Description": "Stations and predicted arrivals for BART",
+            "HTTPS": false,
+            "Link": "http://api.bart.gov"
+        },
+        {
             "API": "Community Transit",
             "Auth": null,
             "Description": "Transitland API",
@@ -2172,6 +2179,13 @@
             "Description": "TransLink",
             "HTTPS": true,
             "Link": "https://developer.translink.ca/"
+        },
+        {
+            "API": "Transport for U.S. (multiple locations)",
+            "Auth": null,
+            "Description": "NextBus API",
+            "HTTPS": false,
+            "Link": "http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf"
         },
         {
             "API": "Transport for Victoria, AU",
