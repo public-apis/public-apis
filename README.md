@@ -160,7 +160,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | [Go!](https://apis.guru/api-doc/) |
-| BetterMeta | Return a site's meta tags in JSON format | X-Mashape-Key | Yes | [Go!](https://market.mashape.com/thetomester13/better-meta) |
+| BetterMeta | Return a site's meta tags in JSON format | X-Mashape-Key | Yes | [Go!](http://bettermeta.io) |
 | CDNJS | Library info on CDNJS | No | Yes | [Go!](https://api.cdnjs.com/libraries/jquery) |
 | Faceplusplus | A tool to detect face | `OAuth` | Yes | [Go!](https://www.faceplusplus.com/) |
 | Genderize.io | Determines a gender from a first name | No | Yes | [Go!](https://genderize.io) |
