@@ -471,6 +471,13 @@
             "Link": "https://apis.guru/api-doc/"
         },
         {
+            "API": "BetterMeta",
+            "Auth": "X-Mashape-Key",
+            "Description": "Return a site's meta tags in JSON format",
+            "HTTPS": true,
+            "Link": "http://bettermeta.io"
+        },
+        {
             "API": "CDNJS",
             "Auth": null,
             "Description": "Library info on CDNJS",
