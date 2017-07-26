@@ -373,6 +373,7 @@ API | Description | Auth | HTTPS | Link |
 | Imgur | Images | `OAuth` | Yes | [Go!](https://api.imgur.com/#overview) |
 | ScreenShotLayer | URL 2 Image | No | Yes | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | `OAuth` | Yes | [Go!](https://unsplash.com/developers) |
+| PlaceKitten | Resizable kitten placeholder images | No | Yes | [Go!](https://placekitten.com/) |
 
 ### Science
 API | Description | Auth | HTTPS | Link |
