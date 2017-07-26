@@ -349,6 +349,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | chucknorris.io | JSON API for hand curated Chuck Norris jokes | No | Yes | [Go!](https://api.chucknorris.io) |
 | Forismatic | Inspirational Quotes | No | No | [Go!](http://forismatic.com/en/api/) |
+| icanhazdadjoke | The largest selection of dad jokes on the internet | No | Yes | [Go!](https://icanhazdadjoke.com/api) |
 | Medium | Community of readers and writers offering unique perspectives on ideas. | `OAuth` | Yes | [Go!](https://github.com/Medium/medium-api-docs) |
 | Quotes on Design | Inspirational Quotes | No | Yes | [Go!](https://quotesondesign.com/api-v4-0/) |
 | Traitify | Assess, collect, and analyze Personality | No | Yes | [Go!](https://app.traitify.com/developer) |
