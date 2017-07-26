@@ -1,6 +1,13 @@
 {
     "Animals": [
         {
+            "API": "Dogs",
+            "Auth": null,
+            "Description": "Based on the [Stanford Dogs Dataset](http://visionstanford.edu/aditya86/ImageNetDogs/)",
+            "HTTPS": true,
+            "Link": "https://dog.ceo/dog-api/"
+        },
+        {
             "API": "IUCN",
             "Auth": "apiKey",
             "Description": "IUCN Red List of Threatened Species",
