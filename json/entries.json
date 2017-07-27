@@ -478,6 +478,13 @@
             "Link": "http://bettermeta.io"
         },
         {
+            "API": "Changelogs.md",
+            "Auth": null,
+            "Description": "Structured changelog metadata from open source projects",
+            "HTTPS": true,
+            "Link": "https://changelogs.md"
+        },
+        {
             "API": "CDNJS",
             "Auth": null,
             "Description": "Library info on CDNJS",
@@ -560,6 +567,13 @@
             "Description": "Compile and run source code",
             "HTTPS": true,
             "Link": "https://api.judge0.com/"
+        },
+        {
+            "API": "Kairos",
+            "Auth": "apiKey",
+            "Description": "Face Recognition and Emotion Analysis",
+            "HTTPS": true,
+            "Link": "https://www.kairos.com/features"
         },
         {
             "API": "Let's Validate",
@@ -755,6 +769,13 @@
             "Description": "Financial services consumer complains data",
             "HTTPS": true,
             "Link": "https://data.consumerfinance.gov/resource/jhzv-w97w.json"
+        },
+        {
+            "API": "Razorpay IFSC",
+            "Auth": null,
+            "Description": "Indian Financial Systems Code (Bank Branch Codes)",
+            "HTTPS": true,
+            "Link": "https://ifsc.razorpay.com/"
         }
     ],
     "Food & Drink": [
@@ -1373,6 +1394,13 @@
             "Description": "Music",
             "HTTPS": true,
             "Link": "https://developer.musixmatch.com/"
+        },
+        {
+            "API": "Songkick",
+            "Auth": "OAuth",
+            "Description": "Music Events",
+            "HTTPS": true,
+            "Link": "https://www.songkick.com/developer/"
         },
         {
             "API": "Songsterr",
