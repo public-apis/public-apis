@@ -1,6 +1,10 @@
 #!/bin/bash
+
 FORMAT_FILE=../README.md
-if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
+    echo "running on $TRAVIS_BRANCH branch"
+    LINK_FILE=../README.md
+else
     echo "running on Pull Request #$TRAVIS_PULL_REQUEST"
     DIFF_URL="https://patch-diff.githubusercontent.com/raw/toddmotto/public-apis/pull/$TRAVIS_PULL_REQUEST.diff"
     curl $DIFF_URL > diff.txt
@@ -12,9 +16,6 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
     cat additions.txt
     echo "------- END ADDITIONS ------"
     LINK_FILE=additions.txt
-else
-    echo "running on $TRAVIS_BRANCH branch"
-    LINK_FILE=../README.md
 fi
 
 echo "running format validation..."
