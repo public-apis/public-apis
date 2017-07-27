@@ -71,18 +71,18 @@ function handle(filename, anchor) {
                 cols = line;
                 rows.push(cols)
             } else {
-                console.error("markdown expect column title")
+                console.error("Markdown expects column title")
                 break;
             }
         } else {
-            console.error("markdown expect table content")
+            console.error("Markdown expects table content")
             break;
         }
 
         line = read_line()
 
         if (!line) {
-            console.error("markdown expect table spliter")
+            console.error("Markdown expects table spliter")
             break;
         }
         line = read_line()
