@@ -822,6 +822,13 @@
             "Link": "http://www.thecocktaildb.com/"
         },
         {
+            "API": "The Report of the Week",
+            "Auth": null,
+            "Description": "Food & Drink Reviews",
+            "HTTPS": true,
+            "Link": "https://github.com/andyklimczak/TheReportOfTheWeek-API"
+        },
+        {
             "API": "Yummly",
             "Auth": null,
             "Description": "Find food recipes",
