@@ -3,23 +3,23 @@ fs = require('fs')
 function md_trim(str, context) {
     str = str.replace(/(^\s+)|(\s+$)/g, "");
 
-    if (context == 1) { // Name
+    if (context === 1) { // Name
         // placeholder for any formatting on name value
-    } else if (context == 2) { // Description
+    } else if (context === 2) { // Description
         str = str.replace(".", ""); // remove ending periods on descriptions
-    } else if (context == 3) { // Auth
-        if (str.toUpperCase() == "NO") {
+    } else if (context === 3) { // Auth
+        if (str.toUpperCase() === "NO") {
             str = null
         } else {
             str = str.replace("`", "").replace("`", "")
         }
-    } else if (context == 4) { // HTTPS
-        if (str.toUpperCase() == "YES") {
+    } else if (context === 4) { // HTTPS
+        if (str.toUpperCase() === "YES") {
             str = true
         } else {
             str = false
         }
-    } else if (context == 5) { // Link
+    } else if (context === 5) { // Link
         str = str.replace("[Go!]", "").slice(1, -1);
     }
     return str;
