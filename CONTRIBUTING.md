@@ -31,6 +31,8 @@ Please continue to follow the alphabetical ordering that is in place per section
 
 If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
 
+This project now offers a [JSON version](json/) of the list of services. These files are automatically updated as part of the Continuous Integration process, so there is no need to update them as part of the contribution. 
+
 ## Pull Request
 
 After you've created a branch on your fork with your changes, it's time to [make a pull request][pr-link]!
