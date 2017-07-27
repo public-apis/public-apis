@@ -45,11 +45,13 @@ function handle(filename, anchor) {
         }
 
         while (true) {
-            var cols = [];
-            var rows = [];
+            var cols = [],
+                rows = [];
+
             while (line.indexOf(anchor) == -1 && cur_line != lines.length) {
                 line = read_line();
             }
+
             if (cur_line == lines.length) {
                 break;
             }
@@ -61,10 +63,10 @@ function handle(filename, anchor) {
             if (line) {
                 line = line.split("|")
                 for (var j in line) {
-
                     line[j] = md_trim(line[j], 0)
-                    if ((j == 0 || j == line.length - 1) && line[j] === "") {
 
+                    if ((j == 0 || j == line.length - 1) && line[j] === "") {
+                        //
                     } else {
                         cols.push(line[j]);
                     }
@@ -87,34 +89,40 @@ function handle(filename, anchor) {
                 console.error("Markdown expects table spliter")
                 break;
             }
-            line = read_line()
-            while (line.indexOf("|") != -1 && cur_line != lines.length) {
 
+            line = read_line()
+
+            while (line.indexOf("|") != -1 && cur_line != lines.length) {
                 var line_this = line.split("|")
                 var row = []
+
                 for (var j in line_this) {
                     line_this[j] = md_trim(line_this[j], j)
                     if ((j == 0 || j == line_this.length - 1) && line_this[j] === "") {
-
+                        //
                     } else {
                         row.push(line_this[j]);
                     }
-
                 }
+
                 rows.push(row);
                 line = read_line()
             }
 
-            var data=[];
+            var data = [];
+
             for (var j in rows) {
                 if (j != 0) {
                     var ele = {};
+
                     for (var k in rows[j]) {
                         ele[rows[0][k]] = rows[j][k];
                     }
+
                     data.push(ele);
                 }
             }
+
             root[table_name] = data;
         }
 
@@ -124,6 +132,7 @@ function handle(filename, anchor) {
 
 if (process.argv.length < 3) {
     console.log("No .md file passed!");
+
     return;
 }
 
