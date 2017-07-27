@@ -173,7 +173,7 @@ API | Description | Auth | HTTPS | Link |
 | JSONbin.io | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps. | No | Yes | [Go!](https://jsonbin.io) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | Judge0 API | Compile and run source code | No | Yes | [Go!](https://api.judge0.com/) |
-| Kairos | Face Recognition &amp; Emotion Analysis API | `apiKey` | Yes | [Go!](https://www.kairos.com/features) |
+| Kairos | Face Recognition and Emotion Analysis | `apiKey` | Yes | [Go!](https://www.kairos.com/features) |
 | Let's Validate | Uncovers the technologies used on websites and URL to thumbnail | No | Yes | [Go!](https://github.com/letsvalidate/api) |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.liveedu.tv/developer/applications/) |
 | Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
