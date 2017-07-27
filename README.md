@@ -225,6 +225,7 @@ API | Description | Auth | HTTPS | Link |
 | Recipe Puppy | Food | No | No | [Go!](http://www.recipepuppy.com/about/api/) |
 | TacoFancy | Community-driven taco database | No | No | [Go!](https://github.com/evz/tacofancy-api) |
 | TheCocktailDB | Cocktail Recipes | No | No | [Go!](http://www.thecocktaildb.com/) |
+| The Report of the Week | Food & Drink Reviews | No | Yes | [Go!](https://github.com/andyklimczak/TheReportOfTheWeek-API) |
 | Yummly | Find food recipes | No | Yes | [Go!](https://developer.yummly.com/) |
 | Zomato | Discover restaurants | `apiKey` | Yes | [Go!](https://developers.zomato.com/api) |
 
