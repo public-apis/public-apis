@@ -68,6 +68,7 @@ API | Description | Auth | HTTPS | Link |
 ### Anti-Malware
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| AlienVault Open Threat Exchange (OTX) | IP/domain/URL reputation | `apiKey` | Yes | [Go!](https://otx.alienvault.com/api/) | 
 | Certly | Certly Link/Domain Flagging | `apiKey` | Yes | [Go!](https://guard.certly.io/) |
 | Google Safe Browsing | Google Link/Domain Flagging | `apiKey` | Yes | [Go!](https://developers.google.com/safe-browsing/) |
 | Metacert | Metacert Link Flagging | `apiKey` | Yes | [Go!](https://metacert.com/) |
