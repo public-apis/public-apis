@@ -14,7 +14,6 @@ Please note a passing build status indicates all listed APIs are available since
 * [Anime](#anime)
 * [Anti-Malware](#anti-malware)
 * [Art & Design](#art--design)
-* [Aviation](#aviation)
 * [Books](#books)
 * [Business](#business)
 * [Calendar](#calendar)
@@ -83,11 +82,6 @@ API | Description | Auth | HTTPS | Link |
 | Icons8 | Icons | `OAuth` | Yes | [Go!](http://docs.icons8.apiary.io/#reference/0/meta) |
 | Noun Project | Icons | `OAuth` | No | [Go!](http://api.thenounproject.com/index.html) |
 | Rijksmuseum| Art | `apiKey` | Yes | [Go!](https://www.rijksmuseum.nl/en/api) |
-
-### Aviation
-API | Description | Auth | HTTPS | Link |
-|---|---|---|---|---|
-| ADS-B Exchange | Access real-time and historical data of any and all airbone aircraft. | No | Yes | [Go!](https://www.adsbexchange.com/data/) |
 
 ### Books
 API | Description | Auth | HTTPS | Link |
@@ -459,6 +453,7 @@ API | Description | Auth | HTTPS | Link |
 ### Transportation
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| ADS-B Exchange | Access real-time and historical data of any and all airbone aircraft. | No | Yes | [Go!](https://www.adsbexchange.com/data/) |
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apiKey` | Yes | [Go!](https://sandbox.amadeus.com/) |
 | Bay Area Rapid Transit | Stations and predicted arrivals for BART | `apiKey` | No | [Go!](http://api.bart.gov) |
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
