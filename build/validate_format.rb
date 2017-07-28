@@ -26,7 +26,7 @@ def add_error(line_num, val_index, message)
         segment = "Link"
     end
 
-    $errors.push("(L%03d) (#{segment}) #{message}" % line_num)
+    $errors.push("(L%03d) %-14.14s #{message}" % [line_num, segment])
 end
 
 File.foreach(filename).with_index do | line, line_num |
@@ -44,7 +44,7 @@ File.foreach(filename).with_index do | line, line_num |
             case val_index
             when INDEX_TITLE..INDEX_LINK
                 if val[0] != " " || val[val.length-1] != " "
-                add_error(line_num, val_index, "spacing is invalid (pad before and after string)")
+                add_error(line_num, val_index, "pad before and after string with spaces")
                 end
             end
         end
@@ -80,11 +80,7 @@ File.foreach(filename).with_index do | line, line_num |
         end
     end
 end
-if $errors.length > 0
-    $errors.each do | e |
-        puts e
-    end
-    exit(1)
-else
-    exit(0)
+$errors.each do | e |
+    puts e
 end
+exit($errors.length)
