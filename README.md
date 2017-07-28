@@ -73,6 +73,7 @@ API | Description | Auth | HTTPS | Link |
 | Metacert | Metacert Link Flagging | `apiKey` | Yes | [Go!](https://metacert.com/) |
 | VirusTotal | VirusTotal File/URL Analysis | `apiKey` | Yes | [Go!](https://www.virustotal.com/en/documentation/public-api/) |
 | Web Of Trust (WOT) | Website reputation | `apiKey` | Yes | [Go!](https://www.mywot.com/wiki/API) |
+| AlienVault Open Threat Exchange (OTX) | IP/domain/URL reputation | `apiKey` | Yes | [Go!](https://otx.alienvault.com/api/) | 
 
 ### Art & Design
 API | Description | Auth | HTTPS | Link |
