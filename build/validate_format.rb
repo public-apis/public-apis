@@ -39,16 +39,17 @@ File.foreach(filename).with_index do | line, line_num |
 
         values = line.split("|")
 
+        ################### GLOBAL ###################
         values.each.with_index do |val, val_index|
             msg = ""
             case val_index
             when INDEX_TITLE..INDEX_LINK
-                if val[0] != " " || val[val.length-1] != " "
-                add_error(line_num, val_index, "pad before and after string with spaces")
+                # every line segment should start and end with exactly 1 space
+                if val[/\A */].size != 1 || val[/ *\z/].size != 1
+                    add_error(line_num, val_index, "string should start and end with exactly 1 space")
                 end
             end
         end
-
         ################# DESCRIPTION ################
         # First character should be capitalized
         desc_val = values[INDEX_DESCRIPTION].lstrip.chop
