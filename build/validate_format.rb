@@ -31,54 +31,53 @@ end
 
 File.foreach(filename).with_index do | line, line_num |
     line_num += 1
-    if line.start_with?('|')
-        # Skip table schema lines
-        if line.eql? "|---|---|---|---|---|\n"
-            next
-        end
+        
+    # Skip non-markdown table lines and table schema lines
+    if !line.start_with?('|') || line.eql?("|---|---|---|---|---|\n")
+        next
+    end
 
-        values = line.split("|")
+    values = line.split("|")
 
-        ################### GLOBAL ###################
-        values.each.with_index do |val, val_index|
-            msg = ""
-            case val_index
-            when INDEX_TITLE..INDEX_LINK
-                # every line segment should start and end with exactly 1 space
-                if val[/\A */].size != 1 || val[/ *\z/].size != 1
-                    add_error(line_num, val_index, "string should start and end with exactly 1 space")
-                end
+    ################### GLOBAL ###################
+    values.each.with_index do |val, val_index|
+        msg = ""
+        case val_index
+        when INDEX_TITLE..INDEX_LINK
+            # every line segment should start and end with exactly 1 space
+            if val[/\A */].size != 1 || val[/ *\z/].size != 1
+                add_error(line_num, val_index, "string should start and end with exactly 1 space")
             end
         end
-        ################# DESCRIPTION ################
-        # First character should be capitalized
-        desc_val = values[INDEX_DESCRIPTION].lstrip.chop
-        if !/[[:upper:]]/.match(desc_val[0])
-            add_error(line_num, INDEX_DESCRIPTION, "first char not uppercase")
-        end
-        # value should not be punctuated
-        last_char = desc_val[desc_val.length-1]
-        if punctuation.include?(last_char)
-            add_error(line_num, INDEX_DESCRIPTION, "description should not end with \"#{last_char}\"")
-        end
-        #################### AUTH ####################
-        # Values should conform to valid options only
-        auth_val = values[INDEX_AUTH].lstrip.chop.tr('``', '')
-        if !auth_keys.include?(auth_val)
-            add_error(line_num, INDEX_AUTH, "not a valid option: #{auth_val}")
-        end
-        #################### HTTPS ###################
-        # Values should be either "Yes" or "No"
-        https_val = values[INDEX_HTTPS].lstrip.chop
-        if !https_keys.include?(https_val)
-            add_error(line_num, INDEX_HTTPS, "must use \"Yes\" or \"No\": #{https_val}")
-        end
-        #################### LINK ####################
-        # Url should be wrapped in "[Go!]" view
-        link_val = values[INDEX_LINK].lstrip.chop
-        if !link_val.start_with?("[Go!](") || !link_val.end_with?(')')
-            add_error(line_num, INDEX_LINK, "format should be \"[Go!](<LINK>)\": #{link_val}")
-        end
+    end
+    ################# DESCRIPTION ################
+    # First character should be capitalized
+    desc_val = values[INDEX_DESCRIPTION].lstrip.chop
+    if !/[[:upper:]]/.match(desc_val[0])
+        add_error(line_num, INDEX_DESCRIPTION, "first char not uppercase")
+    end
+    # value should not be punctuated
+    last_char = desc_val[desc_val.length-1]
+    if punctuation.include?(last_char)
+        add_error(line_num, INDEX_DESCRIPTION, "description should not end with \"#{last_char}\"")
+    end
+    #################### AUTH ####################
+    # Values should conform to valid options only
+    auth_val = values[INDEX_AUTH].lstrip.chop.tr('``', '')
+    if !auth_keys.include?(auth_val)
+        add_error(line_num, INDEX_AUTH, "not a valid option: #{auth_val}")
+    end
+    #################### HTTPS ###################
+    # Values should be either "Yes" or "No"
+    https_val = values[INDEX_HTTPS].lstrip.chop
+    if !https_keys.include?(https_val)
+        add_error(line_num, INDEX_HTTPS, "must use \"Yes\" or \"No\": #{https_val}")
+    end
+    #################### LINK ####################
+    # Url should be wrapped in "[Go!]" view
+    link_val = values[INDEX_LINK].lstrip.chop
+    if !link_val.start_with?("[Go!](") || !link_val.end_with?(')')
+        add_error(line_num, INDEX_LINK, "format should be \"[Go!](<LINK>)\": #{link_val}")
     end
 end
 $errors.each do | e |
