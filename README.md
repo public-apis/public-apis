@@ -296,7 +296,7 @@ API | Description | Auth | HTTPS | Link |
 | REST Countries | Get information about countries via a RESTful API | No | Yes | [Go!](https://restcountries.eu) |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
 | ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
-
+| Zippopotam | Get information about place such as country, city, state, etc. | No | No | [Go!](http://www.zippopotam.us) |
 
 ### Health
 API | Description | Auth | HTTPS | Link |
