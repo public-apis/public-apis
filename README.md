@@ -296,7 +296,7 @@ API | Description | Auth | HTTPS | Link |
 | REST Countries | Get information about countries via a RESTful API | No | Yes | [Go!](https://restcountries.eu) |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
 | ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
-| Zippopotam | Get information about place such as country, city, state, etc. | No | No | [Go!](http://www.zippopotam.us) |
+| Zippopotam | Get information about place such as country, city, state, etc | No | No | [Go!](http://www.zippopotam.us) |
 
 ### Health
 API | Description | Auth | HTTPS | Link |
@@ -341,7 +341,7 @@ API | Description | Auth | HTTPS | Link |
 | Musikki | Music | No | Yes | [Go!](https://music-api.musikki.com/reference) |
 | Musixmatch | Music | `apiKey` | Yes | [Go!](https://developer.musixmatch.com/) |
 | Songkick | Music Events | `OAuth` | Yes | [Go!](https://www.songkick.com/developer/) |
-| Songsterr | Provides guitar, bass and drums tabs and chords  | No | Yes | [Go!](https://www.songsterr.com/a/wa/api/) |
+| Songsterr | Provides guitar, bass and drums tabs and chords | No | Yes | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | Yes | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | `OAuth` | Yes | [Go!](https://developer.spotify.com/web-api/) |
 | Vagalume | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | [Go!](https://api.vagalume.com.br/docs/) |
@@ -458,7 +458,7 @@ API | Description | Auth | HTTPS | Link |
 ### Transportation
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| ADS-B Exchange | Access real-time and historical data of any and all airbone aircraft. | No | Yes | [Go!](https://www.adsbexchange.com/data/) |
+| ADS-B Exchange | Access real-time and historical data of any and all airbone aircraft | No | Yes | [Go!](https://www.adsbexchange.com/data/) |
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apiKey` | Yes | [Go!](https://sandbox.amadeus.com/) |
 | Bay Area Rapid Transit | Stations and predicted arrivals for BART | `apiKey` | No | [Go!](http://api.bart.gov) |
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
