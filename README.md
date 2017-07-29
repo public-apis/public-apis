@@ -335,7 +335,7 @@ API | Description | Auth | HTTPS | Link |
 | Genius | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | [Go!](https://docs.genius.com/) |
 | Jamendo | Music | `OAuth` | Yes | [Go!](https://developer.jamendo.com/v3.0) |
 | iTunes Search | Software products | No | Yes | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
-| LastFm | Music | No | No | [Go!](http://www.last.fm/api) |
+| LastFm | Music | `apiKey` | No | [Go!](http://www.last.fm/api) |
 | Mixcloud | Music | No | Yes | [Go!](https://www.mixcloud.com/developers/) |
 | MusicBrainz | Music | No | Yes | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
 | Musikki | Music | No | Yes | [Go!](https://music-api.musikki.com/reference) |
