@@ -349,7 +349,7 @@ API | Description | Auth | HTTPS | Link |
 ### News
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Chronicling America | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | Yes | [Go!](http://chroniclingamerica.loc.gov/about/api/) |
+| Chronicling America | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | [Go!](http://chroniclingamerica.loc.gov/about/api/) |
 | New York Times | Provides news | `apiKey` | Yes | [Go!](https://developer.nytimes.com/) |
 | News API | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | [Go!](https://newsapi.org/) |
 | The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | [Go!](http://open-platform.theguardian.com/) |
