@@ -1468,6 +1468,13 @@
     ],
     "News": [
         {
+            "API": "Chronicling America",
+            "Auth": null,
+            "Description": "Provides access to millions of pages of historic US newspapers from the Library of Congress",
+            "HTTPS": false,
+            "Link": "http://chroniclingamerica.loc.gov/about/api/"
+        },
+        {
             "API": "New York Times",
             "Auth": "apiKey",
             "Description": "Provides news",
