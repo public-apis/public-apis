@@ -1630,6 +1630,13 @@
             "Link": "https://api.arcsecond.io/"
         },
         {
+            "API": "CORE",
+            "Auth": "apiKey",
+            "Description": "Access the world's Open Access research papers",
+            "HTTPS": true,
+            "Link": "https://core.ac.uk/services#api"
+        },
+        {
             "API": "Fedger.io",
             "Auth": null,
             "Description": "Query machine intelligence data",
