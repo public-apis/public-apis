@@ -338,7 +338,7 @@ API | Description | Auth | HTTPS | Link |
 | LastFm | Music | `apiKey` | No | [Go!](http://www.last.fm/api) |
 | Mixcloud | Music | No | Yes | [Go!](https://www.mixcloud.com/developers/) |
 | MusicBrainz | Music | No | Yes | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
-| Musikki | Music | No | Yes | [Go!](https://music-api.musikki.com/reference) |
+| Musikki | Music | `apiKey` | Yes | [Go!](https://music-api.musikki.com/reference) |
 | Musixmatch | Music | `apiKey` | Yes | [Go!](https://developer.musixmatch.com/) |
 | Songkick | Music Events | `OAuth` | Yes | [Go!](https://www.songkick.com/developer/) |
 | Songsterr | Provides guitar, bass and drums tabs and chords | No | Yes | [Go!](https://www.songsterr.com/a/wa/api/) |
