@@ -1,0 +1,17 @@
+name: Public APIs
+description: A collective list of public JSON APIs for use in web development.
+github_username: kuhnrl30
+
+baseurl: /public-apis
+
+markdown: kramdown
+kramdown:
+  input: GFM
+encoding: utf-8
+highlighter: rouge
+excerpt_separator: "<!--more-->"
+
+gems:
+  - jekyll-sitemap
+ 
+host: 0.0.0.0

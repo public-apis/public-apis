@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp json/entries.json docs/_data/entries.json
