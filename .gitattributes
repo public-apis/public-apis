@@ -1,0 +1,6 @@
+* text=auto
+
+/build          export-ignore
+.travis.yml     export-ignore
+README.md       export-ignore
+CONTRIBUTING.md export-ignore
