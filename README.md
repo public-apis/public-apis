@@ -83,6 +83,7 @@ API | Description | Auth | HTTPS | Link |
 | Icons8 | Icons | `OAuth` | Yes | [Go!](http://docs.icons8.apiary.io/#reference/0/meta) |
 | Noun Project | Icons | `OAuth` | No | [Go!](http://api.thenounproject.com/index.html) |
 | Rijksmuseum | Art | `apiKey` | Yes | [Go!](https://www.rijksmuseum.nl/en/api) |
+| Behance | Design | `apiKey` | Yes | [Go!](https://www.behance.net/dev) |
 
 ### Books
 API | Description | Auth | HTTPS | Link |
