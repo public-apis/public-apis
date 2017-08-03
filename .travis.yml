@@ -12,3 +12,4 @@ script:
 after_success:
   - ./build.sh
   - ./deploy.sh
+  
