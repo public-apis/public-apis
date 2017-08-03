@@ -3,9 +3,11 @@ notifications:
   email: false
 before_install:
   - rvm install 2.4.0
+  - wget https://raw.githubusercontent.com/davemachado/build-bot/master/build_bot/requirements.txt
 install:
   - gem install httparty ruby-progressbar
   - pip install build-bot
+  - pip install -r requirements.txt
 before_script:
   - cd build
 script:
