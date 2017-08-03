@@ -22,7 +22,7 @@ echo "running format validation..."
 ./validate_format.rb $FORMAT_FILE > format_results.txt
 if [[ $? != 0 ]]; then
     echo "format validation failed!"
-    cat format_results.txt | build_bot.py
+    cat format_results.txt | build_bot
     exit 1
 else
     echo "format validation passed!"
@@ -31,7 +31,7 @@ echo "running link validation..."
 ./validate_links.rb $LINK_FILE
 if [[ $? != 0 ]]; then
     echo "link validation failed!"
-    echo "link(s) were unavailible during the build. Please verfiy that they are valid." | build_bot.py
+    echo "link(s) were unavailible during the build. Please verfiy that they are valid." | build_bot
     exit 1
 else
     echo "link validation passed!"
