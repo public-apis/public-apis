@@ -78,6 +78,7 @@ API | Description | Auth | HTTPS | Link |
 ### Art & Design
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Behance | Design | `apiKey` | Yes | [Go!](https://www.behance.net/dev) |
 | Dribbble | Design | `OAuth` | No | [Go!](http://developer.dribbble.com/v1/) |
 | Harvard Art Museums | Art | `apiKey` | No | [Go!](https://github.com/harvardartmuseums/api-docs) |
 | Icons8 | Icons | `OAuth` | Yes | [Go!](http://docs.icons8.apiary.io/#reference/0/meta) |
