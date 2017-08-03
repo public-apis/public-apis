@@ -37,6 +37,7 @@ function handle(filename, anchor) {
     var col_num = 0;
     var cols = [];
     var rows = [];
+    var entry_count = 0;
 
     function read_line() {
         return lines[cur_line++];
@@ -100,6 +101,7 @@ function handle(filename, anchor) {
 
             }
             rows.push(row);
+            entry_count++;
             line = read_line()
         }
 
@@ -113,6 +115,7 @@ function handle(filename, anchor) {
                 data.push(ele);
             }
         }
+        root["count"] = entry_count;
         root[table_name] = data;
     }
     console.log(JSON.stringify(root));
