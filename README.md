@@ -78,7 +78,6 @@ API | Description | Auth | HTTPS | Link |
 ### Art & Design
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Behance | Design | `apiKey` | Yes | [Go!](https://www.behance.net/dev) |
 | Dribbble | Design | `OAuth` | No | [Go!](http://developer.dribbble.com/v1/) |
 | Harvard Art Museums | Art | `apiKey` | No | [Go!](https://github.com/harvardartmuseums/api-docs) |
 | Icons8 | Icons | `OAuth` | Yes | [Go!](http://docs.icons8.apiary.io/#reference/0/meta) |
@@ -197,7 +196,7 @@ API | Description | Auth | HTTPS | Link |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
 
 ### Documents & Productivity
-API | Description | Auth | HTTPS |Link |
+API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | File.io | File Sharing | No | Yes | [Go!](https://www.file.io) |
 | pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
