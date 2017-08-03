@@ -1,10 +1,11 @@
-language: node_js
+language: python
 notifications:
   email: false
 before_install:
   - rvm install 2.4.0
 install:
   - gem install httparty ruby-progressbar
+  - pip install build-bot
 before_script:
   - cd build
 script:
