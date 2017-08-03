@@ -105,6 +105,13 @@
     ],
     "Art & Design": [
         {
+            "API": "Behance",
+            "Auth": "apiKey",
+            "Description": "Design",
+            "HTTPS": true,
+            "Link": "https://www.behance.net/dev"
+        },
+        {
             "API": "Dribbble",
             "Auth": "OAuth",
             "Description": "Design",
@@ -799,6 +806,13 @@
             "Link": "https://data.consumerfinance.gov/resource/jhzv-w97w.json"
         },
         {
+            "API": "IEX",
+            "Auth": null,
+            "Description": "Stocks and Market Data",
+            "HTTPS": true,
+            "Link": "https://iextrading.com/developer/"
+        },
+        {
             "API": "Razorpay IFSC",
             "Auth": null,
             "Description": "Indian Financial Systems Code (Bank Branch Codes)",
@@ -876,6 +890,13 @@
             "Description": "Food & Drink Reviews",
             "HTTPS": true,
             "Link": "https://github.com/andyklimczak/TheReportOfTheWeek-API"
+        },
+        {
+            "API": "What's on the menu?",
+            "Auth": "apiKey",
+            "Description": "NYPL human-transcribed historical menu collection",
+            "HTTPS": false,
+            "Link": "nypl.github.io/menus-api/"
         },
         {
             "API": "Yummly",
@@ -1418,7 +1439,7 @@
         },
         {
             "API": "Musikki",
-            "Auth": null,
+            "Auth": "apiKey",
             "Description": "Music",
             "HTTPS": true,
             "Link": "https://music-api.musikki.com/reference"
@@ -1740,6 +1761,13 @@
         }
     ],
     "Social": [
+        {
+            "API": "Cisco Spark",
+            "Auth": "OAuth",
+            "Description": "Team Collaboration Software",
+            "HTTPS": true,
+            "Link": "https://developer.ciscospark.com"
+        },
         {
             "API": "Discord",
             "Auth": "OAuth",
