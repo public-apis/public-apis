@@ -9,6 +9,8 @@ install:
   - pip install build-bot
   - pip install -r requirements.txt
 before_script:
+  - git config --global user.name $GH_USER
+  - git config --global user.email $GH_EMAIL
   - cd build
 script:
   - ./main.sh
