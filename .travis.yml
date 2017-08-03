@@ -1,11 +1,13 @@
-language: node_js
+language: python
 notifications:
   email: false
 before_install:
   - rvm install 2.4.0
+  - wget https://raw.githubusercontent.com/davemachado/build-bot/master/build_bot/requirements.txt
 install:
   - gem install httparty ruby-progressbar
-  - wget -O build/build_bot https://raw.githubusercontent.com/davemachado/build-bot/master/build_bot/build_bot.py
+  - pip install build-bot
+  - pip install -r requirements.txt
 before_script:
   - cd build
 script:
