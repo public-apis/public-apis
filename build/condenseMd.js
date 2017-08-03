@@ -5,18 +5,20 @@ function setupMd(filename, anchor) {
       if (err) {
         return console.log(err);
       }
-    var lines = text.split("\n");
-    var cur_line = 0;
-    var line = ""
-    var table_name = "";
-    var col_num = 0;
-    var cols = [];
-    var rows = [];
+    var lines = text.split("\n"),
+        cur_line = 0,
+        line = "",
+        table_name = "",
+        col_num = 0,
+        cols = [],
+        rows = [],
+        arr = [];
+
 
     function read_line() {
         return lines[cur_line++];
     }
-    var arr = [];
+
     while (true) {
         var cols = [];
         var rows = [];
