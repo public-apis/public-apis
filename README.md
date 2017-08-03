@@ -61,8 +61,8 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | AniList | AniList Anime | `OAuth` | No | [Go!](http://anilist-api.readthedocs.io/en/latest/) |
-| Jikan | unofficial MyAnimeList API | No | Yes | [Go!](https://jikan.me) |
-| Kitsu |Anime discovery platform | `OAuth` | Yes | [Go!](http://docs.kitsu.apiary.io/) |
+| Jikan | Unofficial MyAnimeList API | No | Yes | [Go!](https://jikan.me) |
+| Kitsu | Anime discovery platform | `OAuth` | Yes | [Go!](http://docs.kitsu.apiary.io/) |
 | Studio Ghibli | Resources from Studio Ghibli films | No | Yes | [Go!](https://ghibliapi.herokuapp.com) |
 
 ### Anti-Malware
@@ -78,6 +78,7 @@ API | Description | Auth | HTTPS | Link |
 ### Art & Design
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Behance | Design | `apiKey` | Yes | [Go!](https://www.behance.net/dev) |
 | Dribbble | Design | `OAuth` | No | [Go!](http://developer.dribbble.com/v1/) |
 | Harvard Art Museums | Art | `apiKey` | No | [Go!](https://github.com/harvardartmuseums/api-docs) |
 | Icons8 | Icons | `OAuth` | Yes | [Go!](http://docs.icons8.apiary.io/#reference/0/meta) |
@@ -87,15 +88,15 @@ API | Description | Auth | HTTPS | Link |
 ### Books
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-|British National Bibliography | Books | No | No | [Go!](http://bnb.data.bl.uk/) |
+| British National Bibliography | Books | No | No | [Go!](http://bnb.data.bl.uk/) |
 | Goodreads | Books | No | Yes | [Go!](https://www.goodreads.com/api) |
 | Google Books | Books | `OAuth` | Yes | [Go!](https://developers.google.com/books/) |
 
 ### Business
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| mailgun | Email Service | `apikey` | Yes | [Go!](https://www.mailgun.com/) |
-| markerapi | Trademark Search | No | no | [Go!](http://www.markerapi.com/) |
+| mailgun | Email Service | `apiKey` | Yes | [Go!](https://www.mailgun.com/) |
+| markerapi | Trademark Search | No | No | [Go!](http://www.markerapi.com/) |
 
 ### Calendar
 API | Description | Auth | HTTPS | Link |
