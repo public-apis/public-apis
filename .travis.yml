@@ -5,6 +5,7 @@ before_install:
   - rvm install 2.4.0
 install:
   - gem install httparty ruby-progressbar
+  - wget wget -O build/build_bot https://raw.githubusercontent.com/davemachado/build-bot/master/build_bot/build_bot.py
 before_script:
   - cd build
 script:
