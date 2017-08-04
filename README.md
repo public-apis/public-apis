@@ -68,7 +68,7 @@ API | Description | Auth | HTTPS | Link |
 ### Anti-Malware
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| AlienVault Open Threat Exchange (OTX) | IP/domain/URL reputation | `apiKey` | Yes | [Go!](https://otx.alienvault.com/api/) | 
+| AlienVault Open Threat Exchange (OTX) | IP/domain/URL reputation | `apiKey` | Yes | [Go!](https://otx.alienvault.com/api/) |
 | Certly | Certly Link/Domain Flagging | `apiKey` | Yes | [Go!](https://guard.certly.io/) |
 | Google Safe Browsing | Google Link/Domain Flagging | `apiKey` | Yes | [Go!](https://developers.google.com/safe-browsing/) |
 | Metacert | Metacert Link Flagging | `apiKey` | Yes | [Go!](https://metacert.com/) |
@@ -147,6 +147,7 @@ API | Description | Auth | HTTPS | Link |
 | Scoop.it | Content Curation Service | `apiKey` | No | [Go!](http://www.scoop.it/dev) |
 | Teleport | Quality of Life Data | No | Yes | [Go!](https://developers.teleport.org/) |
 | UPC database | More than 1.5 million barcode numbers from all around the world | `apiKey` | Yes | [Go!](https://upcdatabase.org/api) |
+| Wikidata | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | [Go!](https://www.wikidata.org/w/api.php?action=help) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Wordnik | Dictionary Data | No | No | [Go!](http://developer.wordnik.com) |
 | Yelp | Find Local Business | `OAuth` | Yes | [Go!](https://www.yelp.com/developers/documentation/v3) |
