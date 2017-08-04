@@ -2048,6 +2048,13 @@
             "Link": "https://developer.goibibo.com/docs"
         },
         {
+            "API": "Icelandic APIs",
+            "Auth": null,
+            "Description": "Open APIs that deliver services in or regarding Iceland",
+            "HTTPS": true,
+            "Link": "http://docs.apis.is/"
+        },
+        {
             "API": "Indian Railways",
             "Auth": "apiKey",
             "Description": "Indian Railways Information",
