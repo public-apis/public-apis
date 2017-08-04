@@ -339,7 +339,7 @@ API | Description | Auth | HTTPS | Link |
 | Jamendo | Music | `OAuth` | Yes | [Go!](https://developer.jamendo.com/v3.0) |
 | iTunes Search | Software products | No | Yes | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 | LastFm | Music | `apiKey` | No | [Go!](http://www.last.fm/api) |
-| Mixcloud | Music | No | Yes | [Go!](https://www.mixcloud.com/developers/) |
+| Mixcloud | Music | `OAuth` | Yes | [Go!](https://www.mixcloud.com/developers/) |
 | MusicBrainz | Music | No | Yes | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
 | Musikki | Music | `apiKey` | Yes | [Go!](https://music-api.musikki.com/reference) |
 | Musixmatch | Music | `apiKey` | Yes | [Go!](https://developer.musixmatch.com/) |
