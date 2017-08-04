@@ -1425,7 +1425,7 @@
         },
         {
             "API": "Mixcloud",
-            "Auth": null,
+            "Auth": "OAuth",
             "Description": "Music",
             "HTTPS": true,
             "Link": "https://www.mixcloud.com/developers/"
