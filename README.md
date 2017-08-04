@@ -525,4 +525,3 @@ API | Description | Auth | HTTPS | Link |
 | Weatherbit | Weather | `apiKey` | Yes | [Go!](https://www.weatherbit.io/api) |
 | Wunderground | Weather | `apiKey` | Yes | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | [Go!](https://developer.yahoo.com/weather/) |
-okta
