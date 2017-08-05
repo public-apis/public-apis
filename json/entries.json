@@ -432,6 +432,13 @@
             "Link": "https://upcdatabase.org/api"
         },
         {
+            "API": "Wikidata",
+            "Auth": "OAuth",
+            "Description": "Collaboratively edited knowledge base operated by the Wikimedia Foundation",
+            "HTTPS": true,
+            "Link": "https://www.wikidata.org/w/api.php?action=help"
+        },
+        {
             "API": "Wikipedia",
             "Auth": null,
             "Description": "Mediawiki Encyclopedia",
