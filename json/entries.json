@@ -262,204 +262,6 @@
             "Link": "http://fixer.io"
         }
     ],
-    "Data Access": [
-        {
-            "API": "18F",
-            "Auth": null,
-            "Description": "US Federal Government /Developer Program",
-            "HTTPS": false,
-            "Link": "http://18f.github.io/API-All-the-X/"
-        },
-        {
-            "API": "Abbreviation",
-            "Auth": "X-Mashape-Key",
-            "Description": "Get abbreviations and meanings",
-            "HTTPS": true,
-            "Link": "https://market.mashape.com/daxeel/abbreviations"
-        },
-        {
-            "API": "CARTO",
-            "Auth": "apiKey",
-            "Description": "Location Information Prediction",
-            "HTTPS": true,
-            "Link": "https://carto.com/"
-        },
-        {
-            "API": "Callook.info",
-            "Auth": null,
-            "Description": "United States ham radio callsigns",
-            "HTTPS": true,
-            "Link": "https://callook.info"
-        },
-        {
-            "API": "Celebinfo",
-            "Auth": "X-Mashape-Key",
-            "Description": "Celebrity information",
-            "HTTPS": true,
-            "Link": "https://market.mashape.com/daxeel/celebinfo/"
-        },
-        {
-            "API": "Colorado Data Engine",
-            "Auth": null,
-            "Description": "Formatted and geolocated Colorado public data",
-            "HTTPS": true,
-            "Link": "http://codataengine.org/"
-        },
-        {
-            "API": "Colorado Information Marketplace",
-            "Auth": null,
-            "Description": "Colorado State Government Open Data",
-            "HTTPS": true,
-            "Link": "https://data.colorado.gov/"
-        },
-        {
-            "API": "Datakick",
-            "Auth": "apiKey",
-            "Description": "The open product database",
-            "HTTPS": true,
-            "Link": "https://www.datakick.org/api"
-        },
-        {
-            "API": "Data USA",
-            "Auth": null,
-            "Description": "US Public Data",
-            "HTTPS": true,
-            "Link": "https://datausa.io/about/api/"
-        },
-        {
-            "API": "Dronestream",
-            "Auth": null,
-            "Description": "Tracks United States drone strikes",
-            "HTTPS": true,
-            "Link": "https://dronestre.am/"
-        },
-        {
-            "API": "fonoApi",
-            "Auth": null,
-            "Description": "Mobile Device Description",
-            "HTTPS": true,
-            "Link": "https://fonoapi.freshpixl.com/"
-        },
-        {
-            "API": "Open Government, Australia",
-            "Auth": null,
-            "Description": "Australian Government Open Data",
-            "HTTPS": true,
-            "Link": "https://www.data.gov.au/"
-        },
-        {
-            "API": "Open Government, USA",
-            "Auth": null,
-            "Description": "United States Government Open Data",
-            "HTTPS": true,
-            "Link": "https://www.data.gov/"
-        },
-        {
-            "API": "Open Government, Canada",
-            "Auth": null,
-            "Description": "Canadian Government Open Data",
-            "HTTPS": false,
-            "Link": "http://open.canada.ca/en"
-        },
-        {
-            "API": "Open Government Data, India",
-            "Auth": "apiKey",
-            "Description": "Indian Government Open Data",
-            "HTTPS": true,
-            "Link": "https://data.gov.in/"
-        },
-        {
-            "API": "Open Government, New Zealand",
-            "Auth": null,
-            "Description": "New Zealand Government Open Data",
-            "HTTPS": true,
-            "Link": "https://www.data.govt.nz/"
-        },
-        {
-            "API": "Outpan",
-            "Auth": "apiKey",
-            "Description": "A Database of Everything",
-            "HTTPS": true,
-            "Link": "https://outpan.mixnode.com/developers"
-        },
-        {
-            "API": "Pearson",
-            "Auth": "apiKey",
-            "Description": "Dictionary Data",
-            "HTTPS": false,
-            "Link": "http://developer.pearson.com/apis/dictionaries"
-        },
-        {
-            "API": "Prague Opendata",
-            "Auth": null,
-            "Description": "Prague City Open Data",
-            "HTTPS": false,
-            "Link": "http://opendata.praha.eu/en"
-        },
-        {
-            "API": "Quandl",
-            "Auth": null,
-            "Description": "Stock Market Data",
-            "HTTPS": true,
-            "Link": "https://www.quandl.com/"
-        },
-        {
-            "API": "Represent by Open North",
-            "Auth": null,
-            "Description": "Find Canadian Government Representatives",
-            "HTTPS": true,
-            "Link": "https://represent.opennorth.ca/"
-        },
-        {
-            "API": "Scoop.it",
-            "Auth": "apiKey",
-            "Description": "Content Curation Service",
-            "HTTPS": false,
-            "Link": "http://www.scoop.it/dev"
-        },
-        {
-            "API": "Teleport",
-            "Auth": null,
-            "Description": "Quality of Life Data",
-            "HTTPS": true,
-            "Link": "https://developers.teleport.org/"
-        },
-        {
-            "API": "UPC database",
-            "Auth": "apiKey",
-            "Description": "More than 15 million barcode numbers from all around the world",
-            "HTTPS": true,
-            "Link": "https://upcdatabase.org/api"
-        },
-        {
-            "API": "Wikidata",
-            "Auth": "OAuth",
-            "Description": "Collaboratively edited knowledge base operated by the Wikimedia Foundation",
-            "HTTPS": true,
-            "Link": "https://www.wikidata.org/w/api.php?action=help"
-        },
-        {
-            "API": "Wikipedia",
-            "Auth": null,
-            "Description": "Mediawiki Encyclopedia",
-            "HTTPS": true,
-            "Link": "https://www.mediawiki.org/wiki/API:Main_page"
-        },
-        {
-            "API": "Wordnik",
-            "Auth": null,
-            "Description": "Dictionary Data",
-            "HTTPS": false,
-            "Link": "http://developer.wordnik.com"
-        },
-        {
-            "API": "Yelp",
-            "Auth": "OAuth",
-            "Description": "Find Local Business",
-            "HTTPS": true,
-            "Link": "https://www.yelp.com/developers/documentation/v3"
-        }
-    ],
     "Data Validation": [
         {
             "API": "languagelayer",
@@ -1522,6 +1324,204 @@
             "Description": "Access all the content the Guardian creates, categorised by tags and section",
             "HTTPS": true,
             "Link": "http://open-platform.theguardian.com/"
+        }
+    ],
+    "Open Data": [
+        {
+            "API": "18F",
+            "Auth": null,
+            "Description": "US Federal Government /Developer Program",
+            "HTTPS": false,
+            "Link": "http://18f.github.io/API-All-the-X/"
+        },
+        {
+            "API": "Abbreviation",
+            "Auth": "X-Mashape-Key",
+            "Description": "Get abbreviations and meanings",
+            "HTTPS": true,
+            "Link": "https://market.mashape.com/daxeel/abbreviations"
+        },
+        {
+            "API": "CARTO",
+            "Auth": "apiKey",
+            "Description": "Location Information Prediction",
+            "HTTPS": true,
+            "Link": "https://carto.com/"
+        },
+        {
+            "API": "Callook.info",
+            "Auth": null,
+            "Description": "United States ham radio callsigns",
+            "HTTPS": true,
+            "Link": "https://callook.info"
+        },
+        {
+            "API": "Celebinfo",
+            "Auth": "X-Mashape-Key",
+            "Description": "Celebrity information",
+            "HTTPS": true,
+            "Link": "https://market.mashape.com/daxeel/celebinfo/"
+        },
+        {
+            "API": "Colorado Data Engine",
+            "Auth": null,
+            "Description": "Formatted and geolocated Colorado public data",
+            "HTTPS": true,
+            "Link": "http://codataengine.org/"
+        },
+        {
+            "API": "Colorado Information Marketplace",
+            "Auth": null,
+            "Description": "Colorado State Government Open Data",
+            "HTTPS": true,
+            "Link": "https://data.colorado.gov/"
+        },
+        {
+            "API": "Datakick",
+            "Auth": "apiKey",
+            "Description": "The open product database",
+            "HTTPS": true,
+            "Link": "https://www.datakick.org/api"
+        },
+        {
+            "API": "Data USA",
+            "Auth": null,
+            "Description": "US Public Data",
+            "HTTPS": true,
+            "Link": "https://datausa.io/about/api/"
+        },
+        {
+            "API": "Dronestream",
+            "Auth": null,
+            "Description": "Tracks United States drone strikes",
+            "HTTPS": true,
+            "Link": "https://dronestre.am/"
+        },
+        {
+            "API": "fonoApi",
+            "Auth": null,
+            "Description": "Mobile Device Description",
+            "HTTPS": true,
+            "Link": "https://fonoapi.freshpixl.com/"
+        },
+        {
+            "API": "Open Government, Australia",
+            "Auth": null,
+            "Description": "Australian Government Open Data",
+            "HTTPS": true,
+            "Link": "https://www.data.gov.au/"
+        },
+        {
+            "API": "Open Government, USA",
+            "Auth": null,
+            "Description": "United States Government Open Data",
+            "HTTPS": true,
+            "Link": "https://www.data.gov/"
+        },
+        {
+            "API": "Open Government, Canada",
+            "Auth": null,
+            "Description": "Canadian Government Open Data",
+            "HTTPS": false,
+            "Link": "http://open.canada.ca/en"
+        },
+        {
+            "API": "Open Government Data, India",
+            "Auth": "apiKey",
+            "Description": "Indian Government Open Data",
+            "HTTPS": true,
+            "Link": "https://data.gov.in/"
+        },
+        {
+            "API": "Open Government, New Zealand",
+            "Auth": null,
+            "Description": "New Zealand Government Open Data",
+            "HTTPS": true,
+            "Link": "https://www.data.govt.nz/"
+        },
+        {
+            "API": "Outpan",
+            "Auth": "apiKey",
+            "Description": "A Database of Everything",
+            "HTTPS": true,
+            "Link": "https://outpan.mixnode.com/developers"
+        },
+        {
+            "API": "Pearson",
+            "Auth": "apiKey",
+            "Description": "Dictionary Data",
+            "HTTPS": false,
+            "Link": "http://developer.pearson.com/apis/dictionaries"
+        },
+        {
+            "API": "Prague Opendata",
+            "Auth": null,
+            "Description": "Prague City Open Data",
+            "HTTPS": false,
+            "Link": "http://opendata.praha.eu/en"
+        },
+        {
+            "API": "Quandl",
+            "Auth": null,
+            "Description": "Stock Market Data",
+            "HTTPS": true,
+            "Link": "https://www.quandl.com/"
+        },
+        {
+            "API": "Represent by Open North",
+            "Auth": null,
+            "Description": "Find Canadian Government Representatives",
+            "HTTPS": true,
+            "Link": "https://represent.opennorth.ca/"
+        },
+        {
+            "API": "Scoop.it",
+            "Auth": "apiKey",
+            "Description": "Content Curation Service",
+            "HTTPS": false,
+            "Link": "http://www.scoop.it/dev"
+        },
+        {
+            "API": "Teleport",
+            "Auth": null,
+            "Description": "Quality of Life Data",
+            "HTTPS": true,
+            "Link": "https://developers.teleport.org/"
+        },
+        {
+            "API": "UPC database",
+            "Auth": "apiKey",
+            "Description": "More than 15 million barcode numbers from all around the world",
+            "HTTPS": true,
+            "Link": "https://upcdatabase.org/api"
+        },
+        {
+            "API": "Wikidata",
+            "Auth": "OAuth",
+            "Description": "Collaboratively edited knowledge base operated by the Wikimedia Foundation",
+            "HTTPS": true,
+            "Link": "https://www.wikidata.org/w/api.php?action=help"
+        },
+        {
+            "API": "Wikipedia",
+            "Auth": null,
+            "Description": "Mediawiki Encyclopedia",
+            "HTTPS": true,
+            "Link": "https://www.mediawiki.org/wiki/API:Main_page"
+        },
+        {
+            "API": "Wordnik",
+            "Auth": null,
+            "Description": "Dictionary Data",
+            "HTTPS": false,
+            "Link": "http://developer.wordnik.com"
+        },
+        {
+            "API": "Yelp",
+            "Auth": "OAuth",
+            "Description": "Find Local Business",
+            "HTTPS": true,
+            "Link": "https://www.yelp.com/developers/documentation/v3"
         }
     ],
     "Open Source projects": [
