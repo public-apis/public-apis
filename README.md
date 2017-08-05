@@ -159,6 +159,7 @@ API | Description | Auth | HTTPS | Link |
 | Lob.com | US Address Verification | `apiKey` | Yes | [Go!](https://lob.com/) |
 | mailboxlayer | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
 | numverify | Phone number validation | No | Yes | [Go!](https://numverify.com) |
+| PurgoMalum | Content validator against profanity & obscenity  | No | No | [Go!](http://www.purgomalum.com) |
 | vatlayer | VAT number validation | No | Yes | [Go!](https://vatlayer.com) |
 
 ### Development
