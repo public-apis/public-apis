@@ -1,6 +1,6 @@
 language: node_js
 notifications:
-  email: false
+  email: true
 before_install:
   - rvm install 2.4.0
 install:
