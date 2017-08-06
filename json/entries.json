@@ -722,6 +722,13 @@
             "Section": "Development"
         },
         {
+            "API": "Okta",
+            "Auth": "apiKey",
+            "Description": "User Authentication",
+            "HTTPS": true,
+            "Link": "https://okta.com/"
+        },
+        {
             "API": "Plino",
             "Auth": null,
             "Description": "Spam filtering system",
@@ -778,14 +785,7 @@
             "Section": "Development"
         },
         {
-            "API": "Stormpath",
-            "Auth": "apiKey",
-            "Description": "User Authentication",
-            "HTTPS": true,
-            "Link": "https://stormpath.com/",
-            "Section": "Development"
-        },
-        {
+
             "API": "UI Names",
             "Auth": null,
             "Description": "Generate random fake names",
