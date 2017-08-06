@@ -1,45 +1,86 @@
 #!/usr/bin/env ruby
+
 auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'No']
+punctuation = ['.', '?', '!']
 https_keys = ['Yes', 'No']
-args = ARGV
-filename = args[0]
-fail_flag = false
-File.foreach(filename).with_index do |line, line_num|
+
+INDEX_TITLE = 1
+INDEX_DESCRIPTION = 2
+INDEX_AUTH = 3
+INDEX_HTTPS = 4
+INDEX_LINK = 5
+filename = ARGV[0]
+$errors = []
+
+def add_error(line_num, val_index, message)
+    case val_index
+    when INDEX_TITLE
+        segment = "Title"
+    when INDEX_DESCRIPTION
+        segment = "Description"
+    when INDEX_AUTH
+        segment = "Auth"
+    when INDEX_HTTPS
+        segment = "HTTPS"
+    when INDEX_LINK
+        segment = "Link"
+    end
+
+    $errors.push("(L%03d) %-14.14s #{message}" % [line_num, segment])
+end
+
+File.foreach(filename).with_index do | line, line_num |
     line_num += 1
-    if line.start_with?('|')
-        # Skip table schema lines
-        if line.eql? "|---|---|---|---|---|\n"
-            next
-        end
-        values = line.split("|")
-        # Check Description to make sure first character is capitalized
-        desc_val = values[2].lstrip.chop
-        if !/[[:upper:]]/.match(desc_val[0])
-            puts "(#{line_num}) Invalid Description (first char not uppercase): #{desc_val}"
-            fail_flag = true
-        end
-        # Check Auth values to conform to valid options only
-        auth_val = values[3].lstrip.chop.tr('``', '')
-        if !auth_keys.include?(auth_val)
-            puts "(#{line_num}) Invalid Auth (not a valid option): #{auth_val}"
-            fail_flag = true
-        end
-        # Check HTTPS Support values to be either "Yes" or "No"
-        https_val = values[4].lstrip.chop
-        if !https_keys.include?(https_val)
-            puts "(#{line_num}) Invalid HTTPS: (must use \"Yes\" or \"No\"): #{https_val}"
-            fail_flag = true
-        end
-        # Check Link to ensure url is wrapped in "[Go!]" view
-        link_val = values[5].lstrip.chop
-        if !link_val.start_with?("[Go!](") || !link_val.end_with?(')')
-            puts "(#{line_num}) Invalid Link: (format should be \"[Go!](<LINK>)\"): #{link_val}"
-            fail_flag = true
+        
+    # Skip non-markdown table lines and table schema lines
+    if !line.start_with?('|') || line.eql?("|---|---|---|---|---|\n")
+        next
+    end
+
+    values = line.split("|")
+
+    ################### GLOBAL ###################
+    values.each.with_index do |val, val_index|
+        msg = ""
+        case val_index
+        when INDEX_TITLE..INDEX_LINK
+            # every line segment should start and end with exactly 1 space
+            if val[/\A */].size != 1 || val[/ *\z/].size != 1
+                add_error(line_num, val_index, "string should start and end with exactly 1 space")
+            end
         end
     end
+    ################# DESCRIPTION ################
+    # First character should be capitalized
+    desc_val = values[INDEX_DESCRIPTION].lstrip.chop
+    if !/[[:upper:]]/.match(desc_val[0])
+        add_error(line_num, INDEX_DESCRIPTION, "first char not uppercase")
+    end
+    # value should not be punctuated
+    last_char = desc_val[desc_val.length-1]
+    if punctuation.include?(last_char)
+        add_error(line_num, INDEX_DESCRIPTION, "description should not end with \"#{last_char}\"")
+    end
+    #################### AUTH ####################
+    # Values should conform to valid options only
+    auth_val = values[INDEX_AUTH].lstrip.chop.tr('``', '')
+    if !auth_keys.include?(auth_val)
+        add_error(line_num, INDEX_AUTH, "not a valid option: #{auth_val}")
+    end
+    #################### HTTPS ###################
+    # Values should be either "Yes" or "No"
+    https_val = values[INDEX_HTTPS].lstrip.chop
+    if !https_keys.include?(https_val)
+        add_error(line_num, INDEX_HTTPS, "must use \"Yes\" or \"No\": #{https_val}")
+    end
+    #################### LINK ####################
+    # Url should be wrapped in "[Go!]" view
+    link_val = values[INDEX_LINK].lstrip.chop
+    if !link_val.start_with?("[Go!](") || !link_val.end_with?(')')
+        add_error(line_num, INDEX_LINK, "format should be \"[Go!](<LINK>)\": #{link_val}")
+    end
 end
-if fail_flag
-    exit(1)
-else
-    exit(0)
+$errors.each do | e |
+    puts e
 end
+exit($errors.length)
