@@ -27,7 +27,7 @@ Currently, the only accepted inputs for this field are as follows:
 * `X-Mashape-Key` - _the name of the header which may need to be sent_
 * `No` - _the API requires no authentication to run_
 
-Please continue to follow the alphabetical ordering that is in place per section.
+Please continue to follow the alphabetical ordering that is in place per section. Each string in each section should be padded by one space on each side as well.
 
 If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
 
