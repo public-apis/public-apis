@@ -192,6 +192,7 @@ API | Description | Auth | HTTPS | Link |
 | Consumer Financial Protection Bureau | Financial services consumer complains data | `apiKey` | Yes | [Go!](https://data.consumerfinance.gov/resource/jhzv-w97w.json) |
 | IEX | Stocks and Market Data | No | Yes | [Go!](https://iextrading.com/developer/) |
 | Razorpay IFSC | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | [Go!](https://ifsc.razorpay.com/) |
+| VAT Rates | A collection of all VAT rates for EU countries | No | Yes | [Go!](https://jsonvat.com/) |
 
 ### Food & Drink
 API | Description | Auth | HTTPS | Link |
