@@ -146,7 +146,7 @@ API | Description | Auth | HTTPS | Link |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
 | IPify | A simple IP Address API | No | Yes | [Go!](https://www.ipify.org/) |
 | JSON 2 JSONP | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
-| JSONbin.io | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | No | Yes | [Go!](https://jsonbin.io) |
+| JSONbin.io | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | [Go!](https://jsonbin.io) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | Judge0 API | Compile and run source code | No | Yes | [Go!](https://api.judge0.com/) |
 | Kairos | Face Recognition and Emotion Analysis | `apiKey` | Yes | [Go!](https://www.kairos.com/features) |
