@@ -277,7 +277,7 @@ API | Description | Auth | HTTPS | Link |
 ### Government
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| FEC | Information on campaign donations in federal elections | no | yes | [Go!](https://api.open.fec.gov/developers/) |
+| FEC | Information on campaign donations in federal elections | apiKey | yes | [Go!](https://api.open.fec.gov/developers/) |
 
 ### Health
 API | Description | Auth | HTTPS | Link |
