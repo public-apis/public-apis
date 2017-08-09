@@ -36,7 +36,7 @@ function setupMd(filename, anchor) {
         	if (line.length < 2 || cur_line == lines.length) {
         		break
         	}
-			if (line.startsWith("|")) {
+			if (line.indexOf("|") == 0) {
 				arr.push(line + table_name)
 			} 
         }
