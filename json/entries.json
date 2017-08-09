@@ -1570,6 +1570,14 @@
             "Section": "Open Data"
         },
         {
+            "API": "Federal Register",
+            "Auth": null,
+            "Description": "The Daily Journal of the United States Government",
+            "HTTPS": true,
+            "Link": "https://www.federalregister.gov/reader-aids/developer-resources",
+            "Section": "Open Data"
+        },
+        {
             "API": "fonoApi",
             "Auth": null,
             "Description": "Mobile Device Description",
