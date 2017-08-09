@@ -9,7 +9,4 @@ before_script:
   - cd build
 script:
   - ./main.sh
-after_success:
-  - ./build.sh
-  - ./deploy.sh
   
