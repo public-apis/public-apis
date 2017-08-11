@@ -255,6 +255,7 @@ API | Description | Auth | HTTPS | Link |
 | GeoNames | Place names and other geographical data | No | No | [Go!](http://www.geonames.org/export/web-services.html) |
 | GéoApi | French geographical data | No | Yes | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Google Maps | Create/customize digital maps based on Google Maps data | `apiKey` | Yes | [Go!](https://developers.google.com/maps/) |
+| GraphLoc | Free GraphQL IP Geolocation API | No | Yes | [Go!](https://www.graphloc.com) |
 | IP 2 Country | Map an IP to a country | No | Yes | [Go!](https://ip2country.info) |
 | IP Address Details | Find geolocation with ip address | No | Yes | [Go!](https://ipinfo.io/) |
 | IP Location | Find IP address location information | No | Yes | [Go!](https://ipapi.co/) |
