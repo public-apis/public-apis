@@ -272,7 +272,7 @@ API | Description | Auth | HTTPS | Link |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
 | ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
 | Zippopotam | Get information about place such as country, city, state, etc | No | No | [Go!](http://www.zippopotam.us) |
-| GraphLoc | Free GraphQL IP to geolocation API. Supports IPv4 and IPv6  | No | Yes | [Go!](https://www.graphloc.com) |
+| GraphLoc | Free GraphQL IP Geolocation API  | No | Yes | [Go!](https://www.graphloc.com) |
 
 ### Health
 API | Description | Auth | HTTPS | Link |
