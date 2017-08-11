@@ -1,5 +1,5 @@
 {
-    "count": 349,
+    "count": 350,
     "entries": [
         {
             "API": "Dogs",
@@ -1071,6 +1071,14 @@
             "Description": "Create/customize digital maps based on Google Maps data",
             "HTTPS": true,
             "Link": "https://developers.google.com/maps/",
+            "Section": "Geocoding"
+        },
+        {
+            "API": "GraphLoc",
+            "Auth": null,
+            "Description": "Free GraphQL IP Geolocation API",
+            "HTTPS": true,
+            "Link": "https://www.graphloc.com",
             "Section": "Geocoding"
         },
         {
