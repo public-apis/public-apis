@@ -1,6 +1,6 @@
 # Public APIs [![Build Status](https://api.travis-ci.org/toddmotto/public-apis.svg)](https://travis-ci.org/toddmotto/public-apis)
 
-A collective list of free JSON APIs for use in web development.
+A collective list of free APIs for use in web development.
 
 A JSON encoding of all entries can be found [here](json).
 
