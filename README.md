@@ -277,8 +277,8 @@ API | Description | Auth | HTTPS | Link |
 ### Government
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| FEC | Information on campaign donations in federal elections | `apiKey` | Yes | [Go!](https://api.open.fec.gov/developers/) |
 | BusinessUSA | BusinessUSA gives developers access to authoritative information on U.S. programs, events, services and more | `apiKey` | Yes | [Go!](https://business.usa.gov/developer) |
+| FEC | Information on campaign donations in federal elections | `apiKey` | Yes | [Go!](https://api.open.fec.gov/developers/) |
 | Regulations.gov | Regulations.gov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process | `apiKey` | Yes | [Go!](https://regulationsgov.github.io/developers/) |
 
 ### Health
