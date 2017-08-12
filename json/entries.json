@@ -1,5 +1,5 @@
 {
-    "count": 350,
+    "count": 351,
     "entries": [
         {
             "API": "Dogs",
@@ -1391,6 +1391,14 @@
             "Description": "Music",
             "HTTPS": false,
             "Link": "http://www.last.fm/api",
+            "Section": "Music"
+        },
+        {
+            "API": "Lyrics.ovh",
+            "Auth": null,
+            "Description": "Simple API to retrieve the lyrics of a song",
+            "HTTPS": true,
+            "Link": "http://docs.lyricsovh.apiary.io/",
             "Section": "Music"
         },
         {
