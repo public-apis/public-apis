@@ -1,5 +1,5 @@
 {
-    "count": 354,
+    "count": 355,
     "entries": [
         {
             "API": "Dogs",
@@ -119,6 +119,14 @@
             "Description": "Design",
             "HTTPS": true,
             "Link": "https://www.behance.net/dev",
+            "Section": "Art & Design"
+        },
+        {
+            "API": "Cooper Hewitt",
+            "Auth": "apiKey",
+            "Description": "Smithsonian Design Museum",
+            "HTTPS": true,
+            "Link": "https://collection.cooperhewitt.org/api",
             "Section": "Art & Design"
         },
         {
