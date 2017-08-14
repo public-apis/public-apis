@@ -374,7 +374,7 @@ API | Description | Auth | HTTPS | Link |
 ### Patent
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| TIPO | Taiwan patent search system api | `apiKey` | Yes | [Go!](https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD01_104_API.aspx) |
+| TIPO | Taiwan patent search system api | `apiKey` | Yes | [Go!](https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00) |
 | EPO | European patent search system api | `OAuth` | Yes | [Go!](https://developers.epo.org/) |
 | USPTO | USA patent api services | No | Yes | [Go!](https://www.uspto.gov/learning-and-resources/open-data-and-mobility) |
 
