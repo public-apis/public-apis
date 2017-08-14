@@ -28,6 +28,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Fraud Prevention](#fraud-prevention)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
+* [Government](#government)
 * [Health](#health)
 * [Machine Learning](#machine-learning)
 * [Math](#math)
@@ -275,6 +276,13 @@ API | Description | Auth | HTTPS | Link |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
 | ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
 | Zippopotam | Get information about place such as country, city, state, etc | No | No | [Go!](http://www.zippopotam.us) |
+
+### Government
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| BusinessUSA | BusinessUSA gives developers access to authoritative information on U.S. programs, events, services and more | `apiKey` | Yes | [Go!](https://business.usa.gov/developer) |
+| FEC | Information on campaign donations in federal elections | `apiKey` | Yes | [Go!](https://api.open.fec.gov/developers/) |
+| Regulations.gov | Regulations.gov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process | `apiKey` | Yes | [Go!](https://regulationsgov.github.io/developers/) |
 
 ### Health
 API | Description | Auth | HTTPS | Link |
