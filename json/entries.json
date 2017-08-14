@@ -1,5 +1,5 @@
 {
-    "count": 355,
+    "count": 358,
     "entries": [
         {
             "API": "Dogs",
@@ -1224,6 +1224,30 @@
             "HTTPS": false,
             "Link": "http://www.zippopotam.us",
             "Section": "Geocoding"
+        },
+        {
+            "API": "BusinessUSA",
+            "Auth": "apiKey",
+            "Description": "BusinessUSA gives developers access to authoritative information on US. programs, events, services and more",
+            "HTTPS": true,
+            "Link": "https://business.usa.gov/developer",
+            "Section": "Government"
+        },
+        {
+            "API": "FEC",
+            "Auth": "apiKey",
+            "Description": "Information on campaign donations in federal elections",
+            "HTTPS": true,
+            "Link": "https://api.open.fec.gov/developers/",
+            "Section": "Government"
+        },
+        {
+            "API": "Regulations.gov",
+            "Auth": "apiKey",
+            "Description": "Regulationsgov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process",
+            "HTTPS": true,
+            "Link": "https://regulationsgov.github.io/developers/",
+            "Section": "Government"
         },
         {
             "API": "Diabetes",
