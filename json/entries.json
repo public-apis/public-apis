@@ -1,5 +1,5 @@
 {
-    "count": 351,
+    "count": 354,
     "entries": [
         {
             "API": "Dogs",
@@ -1752,6 +1752,30 @@
             "HTTPS": true,
             "Link": "https://libraries.io/api",
             "Section": "Open Source projects"
+        },
+        {
+            "API": "TIPO",
+            "Auth": "apiKey",
+            "Description": "Taiwan patent search system api",
+            "HTTPS": true,
+            "Link": "https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00",
+            "Section": "Patent"
+        },
+        {
+            "API": "EPO",
+            "Auth": "OAuth",
+            "Description": "European patent search system api",
+            "HTTPS": true,
+            "Link": "https://developers.epo.org/",
+            "Section": "Patent"
+        },
+        {
+            "API": "USPTO",
+            "Auth": null,
+            "Description": "USA patent api services",
+            "HTTPS": true,
+            "Link": "https://www.uspto.gov/learning-and-resources/open-data-and-mobility",
+            "Section": "Patent"
         },
         {
             "API": "chucknorris.io",
