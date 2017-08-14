@@ -35,6 +35,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [News](#news)
 * [Open Data](#open-data)
 * [Open Source projects](#open-source-projects)
+* [Patent](#patent)
 * [Personality](#personality)
 * [Photography](#photography)
 * [Science](#science)
@@ -369,6 +370,13 @@ API | Description | Auth | HTTPS | Link |
 | Countly | Countly web analytics | No | No | [Go!](http://resources.count.ly/docs) |
 | Drupal.org | Drupal.org | No | Yes | [Go!](https://www.drupal.org/drupalorg/docs/api) |
 | Libraries.io | Open source software libraries | `apiKey` | Yes | [Go!](https://libraries.io/api) |
+
+### Patent
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| TIPO | Taiwan patent search system api | `apiKey` | Yes | [Go!](https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD01_104_API.aspx) |
+| EPO | European patent search system api | Yes | Yes | [Go!](https://developers.epo.org/) |
+| USPTO | USA patent api services | No | Yes | [Go!](https://www.uspto.gov/learning-and-resources/open-data-and-mobility) |
 
 ### Personality
 API | Description | Auth | HTTPS | Link |
