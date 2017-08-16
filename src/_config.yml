@@ -1,0 +1,15 @@
+name: Public APIs
+description: A collective list of public JSON APIs for use in web development.
+github_username: davemachado
+
+markdown: kramdown
+kramdown:
+  input: GFM
+encoding: utf-8
+highlighter: rouge
+excerpt_separator: "<!--more-->"
+
+gems:
+  - jekyll-sitemap
+
+port: 4242
