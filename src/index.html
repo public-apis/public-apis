@@ -5,6 +5,7 @@
 	 	<meta charset="utf-8">
  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 		<script src="https://unpkg.com/vue"></script>
 		<title>Public APIs</title>
 	</head>
@@ -20,31 +21,32 @@
 		</h3>
 	</header>
 	<body>
-	<div class=center-text>
-		<input type="text" id="searchbox" onkeyup="filterRows()" placeholder="search for a service">
-	</div>
-	<div id="app">
-		<div style="overflow-x:auto;">
-			<table id="entries">
-	  			<thead>
-					<tr class="tbl-head">
-		  				<th>API</th>
-		  				<th>Description</th>
-		  				<th>Authorization</th>
-		  				<th>HTTPS</th>
-		  				<th>Category</th>
-					</tr>
-	  			</thead>
-				<tbody>
-					<tr v-for="item in data" v-show="filtered(item)">
-						<td><a :href="item.Link">{{ item.API }}</a></td>
-						<td>{{ item.Description }}</td>
-						<td>{{ (item.Auth) ? item.Auth : '-' }}</td>
-						<td>{{ (item.HTTPS) ? '✔' : '✖' }}</td>
-						<td class="lol">{{ item.Section }}</td>
-					</tr> 
-				</tbody>
-			</table>
+		<div class=center-text>
+			<input type="text" id="searchbox" onkeyup="filterRows()" placeholder="search for a service">
+		</div>
+		<div id="app">
+			<div style="overflow-x:auto;">
+				<table id="entries">
+		  			<thead>
+						<tr class="tbl-head">
+			  				<th>API</th>
+			  				<th>Description</th>
+			  				<th>Authorization</th>
+			  				<th>HTTPS</th>
+			  				<th>Category</th>
+						</tr>
+		  			</thead>
+					<tbody>
+						<tr v-for="item in data" v-show="filtered(item)">
+							<td><a :href="item.Link">{{ item.API }}</a></td>
+							<td>{{ item.Description }}</td>
+							<td>{{ (item.Auth) ? item.Auth : '-' }}</td>
+							<td>{{ (item.HTTPS) ? '✔' : '✖' }}</td>
+							<td class="lol">{{ item.Section }}</td>
+						</tr> 
+					</tbody>
+				</table>
+			</div>
 		</div>
 	 	<script src="scripts.js"></script>
 	</body>
