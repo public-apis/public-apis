@@ -1,7 +1,8 @@
-#entries {
+body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    table-layout: fixed;
 }
 
 #entries td, #entries th {
@@ -21,11 +22,20 @@
     color: white;
 }
 
-th, td {
-    padding: 15px;
-    text-align: left;
+.center-text {
+    text-align: center;
 }
 
 .isHidden {
 	display: none;
+}
+
+#searchbox {
+    text-align: center;
+    border-radius: 50px;
+    width: 50%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
 }
