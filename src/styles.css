@@ -1,8 +1,8 @@
 body {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
     width: 100%;
-    table-layout: fixed;
 }
 
 #entries td, #entries th {
@@ -10,19 +10,26 @@ body {
     padding: 8px;
 }
 
-#entries tr:nth-child(even){background-color: #f2f2f2;}
-
-#entries tr:hover {background-color: #ddd;}
-
-#entries th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #4783e5;
-    color: white;
+#entries tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
-.center-text {
+#entries tr:hover {
+    background-color: #ddd;
+}
+
+#entries {
+    border-collapse: collapse; /* Collapse borders */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+    width: 100%; /* Full-width */
+}
+
+#entries th {
+    background-color: #4783e5;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
     text-align: center;
 }
 
@@ -31,11 +38,11 @@ body {
 }
 
 #searchbox {
-    text-align: center;
+    border: 1px solid #ddd; /* Add a grey border */
     border-radius: 50px;
-    width: 50%; /* Full-width */
+    margin-bottom: 12px; /* Add some space below the input */
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+    text-align: center;
+    width: 50%; /* Full-width */
 }
