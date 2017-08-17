@@ -1,5 +1,5 @@
 {
-    "count": 358,
+    "count": 359,
     "entries": [
         {
             "API": "Dogs",
@@ -608,6 +608,14 @@
             "Description": "File Sharing",
             "HTTPS": true,
             "Link": "https://www.file.io"
+        },
+        {
+            "API": "Mercury",
+            "Auth": "apiKey",
+            "Category": "Documents & Productivity",
+            "Description": "Web parser",
+            "HTTPS": true,
+            "Link": "https://mercury.postlight.com/web-parser/"
         },
         {
             "API": "pdflayer API",
