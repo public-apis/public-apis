@@ -1,0 +1,6 @@
+CACHE MANIFEST
+index.html
+css/stylesheet.css
+scripts/main.js
+https://unpkg.com/vue@2.4.2/dist/vue.min.js
+https://raw.githubusercontent.com/toddmotto/public-apis/master/json/entries.min.json
