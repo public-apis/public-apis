@@ -288,6 +288,7 @@ API | Description | Auth | HTTPS | Link |
 ### Health
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| BetterDoctor | BetterDoctor API - get detailed information about doctors in your area. | `apiKey` | Yes | [Go!](https://developer.betterdoctor.com/) |
 | Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api/) |
 | Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
 | Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
