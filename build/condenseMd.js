@@ -43,7 +43,7 @@ function setupMd(filename, anchor) {
 
     }
     console.log(anchor + " entries")
-    console.log("API | Description | Auth | HTTPS | Link | Section")
+    console.log("API | Description | Auth | HTTPS | Link | Category")
     console.log("|---|---|---|---|---|---|")
     for (i = 0; i < arr.length; i++) {
     	console.log(arr[i])
