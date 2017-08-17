@@ -5,6 +5,11 @@ body {
     width: 100%;
 }
 
+table {
+    table-layout: fixed;
+    width: 100px;
+}
+
 #entries td, #entries th {
     border: 1px solid #ddd;
     padding: 8px;
