@@ -19,10 +19,10 @@ body {
 }
 
 #entries {
-    border-collapse: collapse; /* Collapse borders */
-    border: 1px solid #ddd; /* Add a grey border */
-    font-size: 18px; /* Increase font-size */
-    width: 100%; /* Full-width */
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    width: 100%;
 }
 
 #entries th {
@@ -38,11 +38,11 @@ body {
 }
 
 #searchbox {
-    border: 1px solid #ddd; /* Add a grey border */
+    border: 1px solid #ddd;
     border-radius: 50px;
-    margin-bottom: 12px; /* Add some space below the input */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
+    margin-bottom: 12px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
     text-align: center;
-    width: 50%; /* Full-width */
+    width: 50%;
 }
