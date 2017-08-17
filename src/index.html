@@ -32,7 +32,7 @@
 						<tr class="tbl-head">
 			  				<th>API</th>
 			  				<th>Description</th>
-			  				<th>Authorization</th>
+			  				<th>Auth</th>
 			  				<th>HTTPS</th>
 			  				<th>Category</th>
 						</tr>
@@ -43,7 +43,7 @@
 							<td>{{ item.Description }}</td>
 							<td>{{ (item.Auth) ? item.Auth : '-' }}</td>
 							<td>{{ (item.HTTPS) ? '✔' : '✖' }}</td>
-							<td class="lol">{{ item.Section }}</td>
+							<td class="lol">{{ item.Category }}</td>
 						</tr> 
 					</tbody>
 				</table>
