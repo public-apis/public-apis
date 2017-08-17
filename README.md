@@ -174,6 +174,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | File.io | File Sharing | No | Yes | [Go!](https://www.file.io) |
+| Mercury | Web parser | `apiKey` | Yes | [Go!](https://mercury.postlight.com/web-parser/) |
 | pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
 | Pocket | Bookmarking service | `OAuth` | Yes | [Go!](https://getpocket.com/developer/) |
 | PrexView | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | [Go!](https://prexview.com) |
