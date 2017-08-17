@@ -23,10 +23,10 @@
 		</h3>
 	</header>
 	<body>
-		<div class=center-text>
-			<input type="text" id="searchbox" onkeyup="filterRows()" placeholder="search for a service">
-		</div>
 		<div id="app">
+			<div class=center-text>
+				<input type="search" id="searchbox" placeholder="Search APIs" autocomplete="off" spellcheck="false" tabindex="0" v-model="filter">
+			</div>
 			<div style="overflow-x:auto;">
 				<table id="entries">
 		  			<thead>
@@ -39,7 +39,7 @@
 						</tr>
 		  			</thead>
 					<tbody>
-						<tr v-for="item in items">
+						<tr v-for="item in items" v-show="filtered(item)">
 							<td><a :href="item.Link">{{ item.API }}</a></td>
 							<td>{{ item.Description }}</td>
 							<td>{{ (item.Auth) ? item.Auth : '-' }}</td>
