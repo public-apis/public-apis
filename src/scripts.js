@@ -26,10 +26,8 @@ new Vue({
 						
 						if(value.includes(filterKeyword)) {
 							show = true;
-							$( "th" ).addClass( "lol" );
 						}
 					}
-
 				});
 			}
 			return show;

@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		<script src="https://unpkg.com/vue@2.4.2/dist/vue.min.js" async></script>
+		<script src="https://unpkg.com/vue@2.4.2/dist/vue.min.js"></script>
 		<title>Public APIs</title>
 	</head>
 	<header>
@@ -44,13 +44,15 @@
 							<td>{{ item.Description }}</td>
 							<td>{{ (item.Auth) ? item.Auth : '-' }}</td>
 							<td>{{ (item.HTTPS) ? '✔' : '✖' }}</td>
-							<td class="lol">{{ item.Category }}</td>
+							<td>{{ item.Category }}</td>
 						</tr> 
 					</tbody>
 				</table>
 			</div>
 		</div>
-	 	<script src="scripts.js"></script>
 	</body>
+	<footer>
+		<script src="scripts.js"></script>
+	</footer>
 </html>
 
