@@ -1,55 +1,41 @@
- loadJSON(function(response) {
-    var items = JSON.parse(response);
-	new Vue({
-		data: {
-			filter: ''
-		},
-		computed: {
-			data() {
-				return items.entries;
-			}
-		},
-		methods: {
-			filtered(item) {
-				let show = true;
-				
-				if(this.filter.length) {
-					
-					show = false;
-					
-					let filterKeyword = this.filter.toLowerCase();
-					
-					Object.keys(item).map(function(key) {
-						if(typeof item[key] === 'string') {
-							let value = item[key].toString().toLowerCase();
-							
-							if(value.includes(filterKeyword)) {
-								show = true;
-								$( "th" ).addClass( "lol" );
-							}
-						}
-						
-					});
-				}
-				return show;
-			}
-		}
-	}).$mount('#app');
-});
+new Vue({
+	data: {
+		filter: '',
+		items: ''
+	},
+	created() {
+		fetch('https://raw.githubusercontent.com/toddmotto/public-apis/master/json/entries.min.json')
+		.then(data => data.json())
+		.then(data => {
+			this.items = data.entries;
+		})
+	},
+	methods: {
+		filtered(item) {
+			let show = true;
 
-function loadJSON(callback) {   
-    var xobj = new XMLHttpRequest();
-        xobj.overrideMimeType("application/json");
-    xobj.open('GET', 'https://raw.githubusercontent.com/toddmotto/public-apis/master/json/entries.min.json', true);
-    xobj.onreadystatechange = function () {
-          if (xobj.readyState == 4 && xobj.status == "200") {
-            // Required use of an anonymous callback as .open will NOT return a value
-            // but simply returns undefined in asynchronous mode
-            callback(xobj.responseText);
-          }
-    };
-    xobj.send(null);  
- }
+			if(this.filter.length) {
+				
+				show = false;
+
+				let filterKeyword = this.filter.toLowerCase();
+
+				Object.keys(item).map(function(key) {
+					if(typeof item[key] === 'string') {
+						let value = item[key].toString().toLowerCase();
+						
+						if(value.includes(filterKeyword)) {
+							show = true;
+							$( "th" ).addClass( "lol" );
+						}
+					}
+
+				});
+			}
+			return show;
+		}
+	}
+}).$mount('#app');
 
 function filterRows() {
   var input, filter, table, tr, td, i;

@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<script src="https://unpkg.com/vue@2.4.2/dist/vue.min.js"></script>
 		<title>Public APIs</title>
 	</head>
 	<header>
@@ -38,7 +39,7 @@
 						</tr>
 		  			</thead>
 					<tbody>
-						<tr v-for="item in data" v-show="filtered(item)">
+						<tr v-for="item in items">
 							<td><a :href="item.Link">{{ item.API }}</a></td>
 							<td>{{ item.Description }}</td>
 							<td>{{ (item.Auth) ? item.Auth : '-' }}</td>
@@ -51,8 +52,5 @@
 		</div>
 	 	<script src="scripts.js"></script>
 	</body>
-	<footer>
-			<script src="https://unpkg.com/vue@2.4.2/dist/vue.min.js"></script>
-	</footer>
 </html>
 
