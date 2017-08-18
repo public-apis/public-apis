@@ -159,7 +159,6 @@ API | Description | Auth | HTTPS | Link |
 | Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
 | Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | [Go!](http://myjson.com/api) |
-| Okta | User Authentication | `apiKey` | Yes | [Go!](https://okta.com/) |
 | Plino | Spam filtering system | No | Yes | [Go!](https://plino.herokuapp.com/) |
 | Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | [Go!](https://github.com/toddmotto/public-apis/tree/master/json) |
 | RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
