@@ -34,18 +34,15 @@ sections = []
 section_to_line_num = {}
 section_to_entries = Hash.new {|h,k| h[k] = Array.new }
 File.foreach(filename).with_index do | line, line_num |
-
 	if line.start_with?('###')
 		section = line.sub('###', '').lstrip.chop
 		sections.push(section)
 		section_to_line_num[section] = line_num + 1
 	end
-
 	# Skip non-markdown table lines and table schema lines
     if !line.start_with?('|') || line.eql?("|---|---|---|---|---|\n")
         next
     end
-
     # char to check is the first column
     check_char = line.split("|")[1].strip.upcase
     section_to_entries[section].push(check_char)
