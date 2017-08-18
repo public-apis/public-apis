@@ -47,7 +47,7 @@ File.foreach(filename).with_index do | line, line_num |
     end
 
     # char to check is the first char in the first column
-    check_char = line.split("|")[1].strip[0]
+    check_char = line.split("|")[1].strip[0].upcase
     section_to_entries[section].push(check_char)
 end
 sections.each do | sect |
