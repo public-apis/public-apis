@@ -1,5 +1,5 @@
 {
-    "count": 360,
+    "count": 359,
     "entries": [
         {
             "API": "Dogs",
@@ -520,14 +520,6 @@
             "Description": "A simple JSON store for your web or mobile app",
             "HTTPS": false,
             "Link": "http://myjson.com/api"
-        },
-        {
-            "API": "Okta",
-            "Auth": "apiKey",
-            "Category": "Development",
-            "Description": "User Authentication",
-            "HTTPS": true,
-            "Link": "https://okta.com/"
         },
         {
             "API": "Plino",
