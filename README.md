@@ -237,12 +237,12 @@ API | Description | Auth | HTTPS | Link |
 | Deck of Cards | Deck of Cards | No | No | [Go!](http://deckofcardsapi.com/) |
 | Destiny The Game | Bungie Platform API | `apiKey` | Yes | [Go!](https://www.bungie.net/en/Clan/Post/39966/85087279/0/0) |
 | Eve Online | Third-Party Developer Documentation | `OAuth` | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
+| Games | Minecraft and other server info & user info) | No | Yes | [Go!](https://docs.gameapis.net/) |
 | Giant Bomb | Video Games | No | Yes | [Go!](https://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
 | Jservice | Jeopardy Question Database | No | No | [Go!](http://jservice.io) |
 | Magic The Gathering | Magic The Gathering Game Information | No | No | [Go!](http://magicthegathering.io/) |
 | Marvel | Marvel Comics | `apiKey` | No | [Go!](http://developer.marvel.com) |
-| Minecraft | Minecraft server info & user info) | No | Yes | [Go!](https://mcapi.ca/) |
 | Open Trivia | Trivia Questions | No | Yes | [Go!](https://opentdb.com/api_config.php) |
 | PandaScore | E-sports games and results | `apiKey` | Yes | [Go!](https://api.pandascore.co) |
 | Pokéapi | Pokémon Information | No | No | [Go!](http://pokeapi.co) |
