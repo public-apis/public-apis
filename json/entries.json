@@ -370,20 +370,20 @@
             "Link": "http://bettermeta.io"
         },
         {
-            "API": "Changelogs.md",
-            "Auth": null,
-            "Category": "Development",
-            "Description": "Structured changelog metadata from open source projects",
-            "HTTPS": true,
-            "Link": "https://changelogs.md"
-        },
-        {
             "API": "CDNJS",
             "Auth": null,
             "Category": "Development",
             "Description": "Library info on CDNJS",
             "HTTPS": true,
             "Link": "https://api.cdnjs.com/libraries/jquery"
+        },
+        {
+            "API": "Changelogs.md",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Structured changelog metadata from open source projects",
+            "HTTPS": true,
+            "Link": "https://changelogs.md"
         },
         {
             "API": "Faceplusplus",
@@ -546,20 +546,20 @@
             "Link": "https://github.com/toddmotto/public-apis/tree/master/json"
         },
         {
-            "API": "Random Word",
-            "Auth": null,
-            "Category": "Development",
-            "Description": "Generate random word",
-            "HTTPS": false,
-            "Link": "http://www.setgetgo.com/randomword/"
-        },
-        {
             "API": "RandomUser",
             "Auth": null,
             "Category": "Development",
             "Description": "Generates random user data",
             "HTTPS": true,
             "Link": "https://randomuser.me"
+        },
+        {
+            "API": "RandomWord",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Generate random word",
+            "HTTPS": false,
+            "Link": "http://www.setgetgo.com/randomword/"
         },
         {
             "API": "ReqRes",
@@ -794,20 +794,20 @@
             "Link": "https://github.com/evz/tacofancy-api"
         },
         {
-            "API": "TheCocktailDB",
-            "Auth": null,
-            "Category": "Food & Drink",
-            "Description": "Cocktail Recipes",
-            "HTTPS": false,
-            "Link": "http://www.thecocktaildb.com/"
-        },
-        {
             "API": "The Report of the Week",
             "Auth": null,
             "Category": "Food & Drink",
             "Description": "Food & Drink Reviews",
             "HTTPS": true,
             "Link": "https://github.com/andyklimczak/TheReportOfTheWeek-API"
+        },
+        {
+            "API": "TheCocktailDB",
+            "Auth": null,
+            "Category": "Food & Drink",
+            "Description": "Cocktail Recipes",
+            "HTTPS": false,
+            "Link": "http://www.thecocktaildb.com/"
         },
         {
             "API": "What's on the menu?",
@@ -1058,6 +1058,14 @@
             "Link": "https://www.microsoft.com/maps/"
         },
         {
+            "API": "GeoApi",
+            "Auth": null,
+            "Category": "Geocoding",
+            "Description": "French geographical data",
+            "HTTPS": true,
+            "Link": "https://api.gouv.fr/api/geoapi.html"
+        },
+        {
             "API": "Geocode.xyz",
             "Auth": null,
             "Category": "Geocoding",
@@ -1072,14 +1080,6 @@
             "Description": "Place names and other geographical data",
             "HTTPS": false,
             "Link": "http://www.geonames.org/export/web-services.html"
-        },
-        {
-            "API": "G\u00e9oApi",
-            "Auth": null,
-            "Category": "Geocoding",
-            "Description": "French geographical data",
-            "HTTPS": true,
-            "Link": "https://api.gouv.fr/api/geoapi.html"
         },
         {
             "API": "Google Maps",
@@ -1410,20 +1410,20 @@
             "Link": "https://docs.genius.com/"
         },
         {
-            "API": "Jamendo",
-            "Auth": "OAuth",
-            "Category": "Music",
-            "Description": "Music",
-            "HTTPS": true,
-            "Link": "https://developer.jamendo.com/v3.0"
-        },
-        {
             "API": "iTunes Search",
             "Auth": null,
             "Category": "Music",
             "Description": "Software products",
             "HTTPS": true,
             "Link": "https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/"
+        },
+        {
+            "API": "Jamendo",
+            "Auth": "OAuth",
+            "Category": "Music",
+            "Description": "Music",
+            "HTTPS": true,
+            "Link": "https://developer.jamendo.com/v3.0"
         },
         {
             "API": "LastFm",
@@ -1562,20 +1562,20 @@
             "Link": "https://market.mashape.com/daxeel/abbreviations"
         },
         {
-            "API": "CARTO",
-            "Auth": "apiKey",
-            "Category": "Open Data",
-            "Description": "Location Information Prediction",
-            "HTTPS": true,
-            "Link": "https://carto.com/"
-        },
-        {
             "API": "Callook.info",
             "Auth": null,
             "Category": "Open Data",
             "Description": "United States ham radio callsigns",
             "HTTPS": true,
             "Link": "https://callook.info"
+        },
+        {
+            "API": "CARTO",
+            "Auth": "apiKey",
+            "Category": "Open Data",
+            "Description": "Location Information Prediction",
+            "HTTPS": true,
+            "Link": "https://carto.com/"
         },
         {
             "API": "Celebinfo",
@@ -1602,20 +1602,20 @@
             "Link": "https://data.colorado.gov/"
         },
         {
-            "API": "Datakick",
-            "Auth": "apiKey",
-            "Category": "Open Data",
-            "Description": "The open product database",
-            "HTTPS": true,
-            "Link": "https://www.datakick.org/api"
-        },
-        {
             "API": "Data USA",
             "Auth": null,
             "Category": "Open Data",
             "Description": "US Public Data",
             "HTTPS": true,
             "Link": "https://datausa.io/about/api/"
+        },
+        {
+            "API": "Datakick",
+            "Auth": "apiKey",
+            "Category": "Open Data",
+            "Description": "The open product database",
+            "HTTPS": true,
+            "Link": "https://www.datakick.org/api"
         },
         {
             "API": "Dronestream",
@@ -1642,14 +1642,6 @@
             "Link": "https://www.data.gov.au/"
         },
         {
-            "API": "Open Government, USA",
-            "Auth": null,
-            "Category": "Open Data",
-            "Description": "United States Government Open Data",
-            "HTTPS": true,
-            "Link": "https://www.data.gov/"
-        },
-        {
             "API": "Open Government, Canada",
             "Auth": null,
             "Category": "Open Data",
@@ -1658,7 +1650,7 @@
             "Link": "http://open.canada.ca/en"
         },
         {
-            "API": "Open Government Data, India",
+            "API": "Open Government, India",
             "Auth": "apiKey",
             "Category": "Open Data",
             "Description": "Indian Government Open Data",
@@ -1672,6 +1664,14 @@
             "Description": "New Zealand Government Open Data",
             "HTTPS": true,
             "Link": "https://www.data.govt.nz/"
+        },
+        {
+            "API": "Open Government, USA",
+            "Auth": null,
+            "Category": "Open Data",
+            "Description": "United States Government Open Data",
+            "HTTPS": true,
+            "Link": "https://www.data.gov/"
         },
         {
             "API": "Outpan",
@@ -1794,20 +1794,20 @@
             "Link": "https://libraries.io/api"
         },
         {
-            "API": "TIPO",
-            "Auth": "apiKey",
-            "Category": "Patent",
-            "Description": "Taiwan patent search system api",
-            "HTTPS": true,
-            "Link": "https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00"
-        },
-        {
             "API": "EPO",
             "Auth": "OAuth",
             "Category": "Patent",
             "Description": "European patent search system api",
             "HTTPS": true,
             "Link": "https://developers.epo.org/"
+        },
+        {
+            "API": "TIPO",
+            "Auth": "apiKey",
+            "Category": "Patent",
+            "Description": "Taiwan patent search system api",
+            "HTTPS": true,
+            "Link": "https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00"
         },
         {
             "API": "USPTO",
@@ -1914,6 +1914,14 @@
             "Link": "https://api.imgur.com/#overview"
         },
         {
+            "API": "PlaceKitten",
+            "Auth": null,
+            "Category": "Photography",
+            "Description": "Resizable kitten placeholder images",
+            "HTTPS": true,
+            "Link": "https://placekitten.com/"
+        },
+        {
             "API": "ScreenShotLayer",
             "Auth": null,
             "Category": "Photography",
@@ -1928,14 +1936,6 @@
             "Description": "Photography",
             "HTTPS": true,
             "Link": "https://unsplash.com/developers"
-        },
-        {
-            "API": "PlaceKitten",
-            "Auth": null,
-            "Category": "Photography",
-            "Description": "Resizable kitten placeholder images",
-            "HTTPS": true,
-            "Link": "https://placekitten.com/"
         },
         {
             "API": "arcsecond.io",
@@ -2146,22 +2146,6 @@
             "Link": "https://www.meetup.com/meetup_api/"
         },
         {
-            "API": "Telegram MTProto",
-            "Auth": "OAuth",
-            "Category": "Social",
-            "Description": "Read and write Telegram data",
-            "HTTPS": true,
-            "Link": "https://core.telegram.org/api#getting-started"
-        },
-        {
-            "API": "Telegram bot",
-            "Auth": "OAuth",
-            "Category": "Social",
-            "Description": "Simplified HTTP version of the MTProto API for bots",
-            "HTTPS": true,
-            "Link": "https://core.telegram.org/bots/api"
-        },
-        {
             "API": "Pinterest",
             "Auth": "OAuth",
             "Category": "Social",
@@ -2192,6 +2176,22 @@
             "Description": "Team Instant Messaging",
             "HTTPS": true,
             "Link": "https://api.slack.com/"
+        },
+        {
+            "API": "Telegram Bot",
+            "Auth": "OAuth",
+            "Category": "Social",
+            "Description": "Simplified HTTP version of the MTProto API for bots",
+            "HTTPS": true,
+            "Link": "https://core.telegram.org/bots/api"
+        },
+        {
+            "API": "Telegram MTProto",
+            "Auth": "OAuth",
+            "Category": "Social",
+            "Description": "Read and write Telegram data",
+            "HTTPS": true,
+            "Link": "https://core.telegram.org/api#getting-started"
         },
         {
             "API": "Tumblr",
@@ -2242,6 +2242,14 @@
             "Link": "http://api.citybik.es/v2/"
         },
         {
+            "API": "Cricket Live Scores",
+            "Auth": "X-Mashape-Key",
+            "Category": "Sports & Fitness",
+            "Description": "Live cricket scores",
+            "HTTPS": true,
+            "Link": "https://market.mashape.com/dev132/cricket-live-scores"
+        },
+        {
             "API": "Ergast F1",
             "Auth": null,
             "Category": "Sports & Fitness",
@@ -2272,14 +2280,6 @@
             "Description": "JCDecaux's self-service bicycles",
             "HTTPS": true,
             "Link": "https://developer.jcdecaux.com/"
-        },
-        {
-            "API": "Cricket Live Scores",
-            "Auth": "X-Mashape-Key",
-            "Category": "Sports & Fitness",
-            "Description": "Live cricket scores",
-            "HTTPS": true,
-            "Link": "https://market.mashape.com/dev132/cricket-live-scores"
         },
         {
             "API": "NFL Arrests",
@@ -2410,7 +2410,7 @@
             "Link": "https://api.navitia.io/"
         },
         {
-            "API": "The Nomad List",
+            "API": "Nomad List",
             "Auth": null,
             "Category": "Transportation",
             "Description": "A list of the best places to live/work remotely",
@@ -2554,22 +2554,6 @@
             "Link": "http://svc.metrotransit.org/"
         },
         {
-            "API": "Transport for The Netherlands",
-            "Auth": "apiKey",
-            "Category": "Transportation",
-            "Description": "NS, only trains",
-            "HTTPS": false,
-            "Link": "http://www.ns.nl/reisinformatie/ns-api"
-        },
-        {
-            "API": "Transport for The Netherlands",
-            "Auth": null,
-            "Category": "Transportation",
-            "Description": "OVAPI, country-wide public transport",
-            "HTTPS": true,
-            "Link": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
-        },
-        {
             "API": "Transport for New York City, US",
             "Auth": "apiKey",
             "Category": "Transportation",
@@ -2626,7 +2610,7 @@
             "Link": "http://data.rio/group/transporte-e-mobilidade"
         },
         {
-            "API": "Transport for S\u00e3o Paulo, Brazil",
+            "API": "Transport for Sao Paulo, Brazil",
             "Auth": "OAuth",
             "Category": "Transportation",
             "Description": "SPTrans",
@@ -2658,6 +2642,22 @@
             "Link": "https://opentransportdata.swiss/en/"
         },
         {
+            "API": "Transport for The Netherlands",
+            "Auth": "apiKey",
+            "Category": "Transportation",
+            "Description": "NS, only trains",
+            "HTTPS": false,
+            "Link": "http://www.ns.nl/reisinformatie/ns-api"
+        },
+        {
+            "API": "Transport for The Netherlands",
+            "Auth": null,
+            "Category": "Transportation",
+            "Description": "OVAPI, country-wide public transport",
+            "HTTPS": true,
+            "Link": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
+        },
+        {
             "API": "Transport for Tokyo, Japan",
             "Auth": "apiKey",
             "Category": "Transportation",
@@ -2674,20 +2674,20 @@
             "Link": "https://myttc.ca/developers"
         },
         {
+            "API": "Transport for United States",
+            "Auth": null,
+            "Category": "Transportation",
+            "Description": "NextBus API",
+            "HTTPS": false,
+            "Link": "http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf"
+        },
+        {
             "API": "Transport for Vancouver, Canada",
             "Auth": "OAuth",
             "Category": "Transportation",
             "Description": "TransLink",
             "HTTPS": true,
             "Link": "https://developer.translink.ca/"
-        },
-        {
-            "API": "Transport for U.S. (multiple locations)",
-            "Auth": null,
-            "Category": "Transportation",
-            "Description": "NextBus API",
-            "HTTPS": false,
-            "Link": "http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf"
         },
         {
             "API": "Transport for Victoria, AU",
@@ -2730,14 +2730,6 @@
             "Link": "https://github.com/Hipo/university-domains-list"
         },
         {
-            "API": "Vehicles",
-            "Auth": "apiKey",
-            "Category": "Vehicle",
-            "Description": "Lot of vehicles information",
-            "HTTPS": false,
-            "Link": "http://developer.edmunds.com/api-documentation/overview/"
-        },
-        {
             "API": "Brazilian Vehicles and Prices",
             "Auth": null,
             "Category": "Vehicle",
@@ -2746,7 +2738,15 @@
             "Link": "https://deividfortuna.github.io/fipe/"
         },
         {
-            "API": "NHTSA Vehicles",
+            "API": "Edmunds",
+            "Auth": "apiKey",
+            "Category": "Vehicle",
+            "Description": "Lot of vehicles information",
+            "HTTPS": false,
+            "Link": "http://developer.edmunds.com/api-documentation/overview/"
+        },
+        {
+            "API": "NHTSA",
             "Auth": null,
             "Category": "Vehicle",
             "Description": "NHTSA Product Information Catalog and Vehicle Listing",
