@@ -28,6 +28,7 @@ def add_error(line_num, val_index, message)
     $errors.push("(L%03d) %-14.14s #{message}" % [line_num, segment])
 end
 
+################### CHECK ALPHABETICAL ORDER ###################
 section = ''
 sections = []
 section_to_line_num = {}
@@ -55,6 +56,7 @@ sections.each do | sect |
 	end
 end
 
+#################### CHECK LINE ENTRIES ########################
 File.foreach(filename).with_index do | line, line_num |
     line_num += 1
         
