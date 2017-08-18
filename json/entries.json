@@ -946,6 +946,14 @@
             "Link": "https://eveonline-third-party-documentation.readthedocs.io/en/latest/"
         },
         {
+            "API": "Games",
+            "Auth": null,
+            "Category": "Games & Comics",
+            "Description": "Minecraft and other server info & user info)",
+            "HTTPS": true,
+            "Link": "https://docs.gameapis.net/"
+        },
+        {
             "API": "Giant Bomb",
             "Auth": null,
             "Category": "Games & Comics",
@@ -984,14 +992,6 @@
             "Description": "Marvel Comics",
             "HTTPS": false,
             "Link": "http://developer.marvel.com"
-        },
-        {
-            "API": "Minecraft",
-            "Auth": null,
-            "Category": "Games & Comics",
-            "Description": "Minecraft server info & user info)",
-            "HTTPS": true,
-            "Link": "https://mcapi.ca/"
         },
         {
             "API": "Open Trivia",
