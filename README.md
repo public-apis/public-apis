@@ -431,6 +431,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | AXFR Database | AXFR public database | No | No | [Go!](http://api.axfrcheck.com) |
+| HaveIBeenPwned | Passwords which have previously been exposed in data breaches | No | Yes | [Go!](https://haveibeenpwned.com/API/v2) |
 | UK Police | UK Police data | No | Yes | [Go!](https://data.police.uk/docs/) |
 
 ### Shopping
