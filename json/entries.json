@@ -1,5 +1,5 @@
 {
-    "count": 359,
+    "count": 360,
     "entries": [
         {
             "API": "Dogs",
@@ -2040,6 +2040,14 @@
             "Description": "AXFR public database",
             "HTTPS": false,
             "Link": "http://api.axfrcheck.com"
+        },
+        {
+            "API": "HaveIBeenPwned",
+            "Auth": null,
+            "Category": "Security",
+            "Description": "Passwords which have previously been exposed in data breaches",
+            "HTTPS": true,
+            "Link": "https://haveibeenpwned.com/API/v2"
         },
         {
             "API": "UK Police",
