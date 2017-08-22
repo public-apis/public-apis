@@ -1,5 +1,5 @@
 {
-    "count": 359,
+    "count": 360,
     "entries": [
         {
             "API": "Dogs",
@@ -1040,6 +1040,14 @@
             "Description": "Address database of France, geocoding, and reverse",
             "HTTPS": true,
             "Link": "https://adresse.data.gouv.fr"
+        },
+        {
+            "API": "Battuta",
+            "Auth": "apiKey",
+            "Category": "Geocoding",
+            "Description": "A (country/region/city) in-cascade location API",
+            "HTTPS": true,
+            "Link": "https://battuta.medunes.net"
         },
         {
             "API": "Bing Maps",
