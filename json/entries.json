@@ -1,5 +1,5 @@
 {
-    "count": 360,
+    "count": 361,
     "entries": [
         {
             "API": "Dogs",
@@ -1256,6 +1256,14 @@
             "Description": "Regulationsgov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process",
             "HTTPS": true,
             "Link": "https://regulationsgov.github.io/developers/"
+        },
+        {
+            "API": "BetterDoctor",
+            "Auth": "apiKey",
+            "Category": "Health",
+            "Description": "Detailed information about doctors in your area",
+            "HTTPS": true,
+            "Link": "https://developer.betterdoctor.com/"
         },
         {
             "API": "Diabetes",
