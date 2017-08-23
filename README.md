@@ -56,6 +56,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Dogs | Based on the Stanford Dogs Dataset | No | Yes | [Go!](https://dog.ceo/dog-api/) |
 | IUCN | IUCN Red List of Threatened Species | `apiKey` | No | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
+| Movebank | Movement and Migration data for animals | No | Yes | [Go!](https://www.movebank.org/node/54#api) |
 | Petfinder | Adoption | `apiKey` | Yes | [Go!](https://www.petfinder.com/developers/api-docs/) |
 | RescueGroups | Adoption | No | Yes | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
 
