@@ -424,6 +424,7 @@ API | Description | Auth | HTTPS | Link |
 | Minor Planet Center | Asterank.com Information | No | No | [Go!](http://www.asterank.com/mpc) |
 | NASA | NASA data, including imagery | No | Yes | [Go!](https://api.nasa.gov) |
 | Open Notify | ISS astronauts, current location, etc | No | No | [Go!](http://open-notify.org/Open-Notify-API/) |
+| SpaceX | Company, vehicle, launchpad and launch data | No | Yes | [Go!](https://github.com/r-spacex/SpaceX-API) |
 | Sunrise and Sunset | Sunset and sunrise times for a given latitude and longitude | No | Yes | [Go!](https://sunrise-sunset.org/api) |
 | USGS Earthquake Hazards Program | Earthquakes data real-time | No | Yes | [Go!](https://earthquake.usgs.gov/fdsnws/event/1/) |
 | USGS Water Services | Water quality and level info for rivers and lakes | No | Yes | [Go!](https://waterservices.usgs.gov/) |
