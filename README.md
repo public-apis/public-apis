@@ -357,6 +357,7 @@ API | Description | Auth | HTTPS | Link |
 | Datakick | The open product database | `apiKey` | Yes | [Go!](https://www.datakick.org/api) |
 | Dronestream | Tracks United States drone strikes | No | Yes | [Go!](https://dronestre.am/) |
 | fonoApi | Mobile Device Description | No | Yes | [Go!](https://fonoapi.freshpixl.com/) |
+| French Address Search | French Government | No | Yes | [Go!](https://adresse.data.gouv.fr/api) |
 | Open Government, Australia | Australian Government Open Data | No | Yes | [Go!](https://www.data.gov.au/) |
 | Open Government, Canada | Canadian Government Open Data | No | No | [Go!](http://open.canada.ca/en) |
 | Open Government, India | Indian Government Open Data | `apiKey` | Yes | [Go!](https://data.gov.in/) |
