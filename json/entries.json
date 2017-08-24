@@ -1,5 +1,5 @@
 {
-    "count": 361,
+    "count": 362,
     "entries": [
         {
             "API": "Dogs",
@@ -1640,6 +1640,14 @@
             "Description": "Mobile Device Description",
             "HTTPS": true,
             "Link": "https://fonoapi.freshpixl.com/"
+        },
+        {
+            "API": "French Address Search",
+            "Auth": null,
+            "Category": "Open Data",
+            "Description": "French Government",
+            "HTTPS": true,
+            "Link": "https://adresse.data.gouv.fr/api"
         },
         {
             "API": "Open Government, Australia",
