@@ -23,6 +23,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Development](#development)
 * [Documents & Productivity](#documents--productivity)
 * [Environment](#environment)
+* [Events](#events)
 * [Finance](#finance)
 * [Food & Drink](#food--drink)
 * [Fraud Prevention](#fraud-prevention)
@@ -186,6 +187,11 @@ API | Description | Auth | HTTPS | Link |
 | AirVisual | Air quality and weather data | `apiKey` | Yes | [Go!](https://airvisual.com/api) |
 | OpenAQ | Open air quality data | `apiKey` | Yes | [Go!](https://docs.openaq.org/) |
 | PM2.5.in | Air quality of China | `apiKey` | No | [Go!](http://www.pm25.in/api_doc) |
+
+### Events
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Picatic | Sell tickets anywhere | `apiKey` | Yes | [Go!](http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto) |
 
 ### Finance
 API | Description | Auth | HTTPS | Link |
