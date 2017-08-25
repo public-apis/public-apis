@@ -1,5 +1,5 @@
 {
-    "count": 363,
+    "count": 364,
     "entries": [
         {
             "API": "Dogs",
@@ -2024,6 +2024,14 @@
             "Description": "ISS astronauts, current location, etc",
             "HTTPS": false,
             "Link": "http://open-notify.org/Open-Notify-API/"
+        },
+        {
+            "API": "SpaceX",
+            "Auth": null,
+            "Category": "Science",
+            "Description": "Company, vehicle, launchpad and launch data",
+            "HTTPS": true,
+            "Link": "https://github.com/r-spacex/SpaceX-API"
         },
         {
             "API": "Sunrise and Sunset",
