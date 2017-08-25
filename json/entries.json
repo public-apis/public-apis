@@ -1,5 +1,5 @@
 {
-    "count": 362,
+    "count": 363,
     "entries": [
         {
             "API": "Dogs",
@@ -1120,6 +1120,14 @@
             "Description": "Find IP address location information",
             "HTTPS": true,
             "Link": "https://ipapi.co/"
+        },
+        {
+            "API": "IP Sidekick",
+            "Auth": "apiKey",
+            "Category": "Geocoding",
+            "Description": "Geolocation API that returns extra information about an IP address",
+            "HTTPS": true,
+            "Link": "https://ipsidekick.com"
         },
         {
             "API": "IP Vigilante",
