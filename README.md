@@ -464,7 +464,7 @@ API | Description | Auth | HTTPS | Link |
 | Telegram Bot | Simplified HTTP version of the MTProto API for bots | `OAuth` | Yes | [Go!](https://core.telegram.org/bots/api) |
 | Telegram MTProto | Read and write Telegram data | `OAuth` | Yes | [Go!](https://core.telegram.org/api#getting-started) |
 | Tumblr | Read and write Tumblr Data | `OAuth` | Yes | [Go!](https://www.tumblr.com/docs/en/api/v2) |
-| Twitch | Game Streaming API | `OAuth` | Yes | [Go!](https://github.com/justintv/Twitch-API) |
+| Twitch | Game Streaming API | `OAuth` | Yes | [Go!](https://dev.twitch.tv/docs) |
 | Twitter | Read and write Twitter data | `OAuth` | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | vk | Read and write vk data | `OAuth` | Yes | [Go!](https://vk.com/dev/sites) |
 
