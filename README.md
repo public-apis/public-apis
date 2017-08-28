@@ -191,7 +191,9 @@ API | Description | Auth | HTTPS | Link |
 ### Events
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Eventbrite | Find events | `OAuth` | Yes | [Go!](https://www.eventbrite.com/developer/v3/) |
 | Picatic | Sell tickets anywhere | `apiKey` | Yes | [Go!](http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto) |
+| Ticketmaster | Search events, attractions, or venues | `apiKey` | Yes | [Go!](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/) |
 
 ### Finance
 API | Description | Auth | HTTPS | Link |
