@@ -2271,7 +2271,7 @@
             "Category": "Social",
             "Description": "Game Streaming API",
             "HTTPS": true,
-            "Link": "https://github.com/justintv/Twitch-API"
+            "Link": "https://dev.twitch.tv/docs"
         },
         {
             "API": "Twitter",
