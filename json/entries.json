@@ -1,5 +1,5 @@
 {
-    "count": 364,
+    "count": 367,
     "entries": [
         {
             "API": "Dogs",
@@ -672,6 +672,30 @@
             "Description": "Air quality of China",
             "HTTPS": false,
             "Link": "http://www.pm25.in/api_doc"
+        },
+        {
+            "API": "Eventbrite",
+            "Auth": "OAuth",
+            "Category": "Events",
+            "Description": "Find events",
+            "HTTPS": true,
+            "Link": "https://www.eventbrite.com/developer/v3/"
+        },
+        {
+            "API": "Picatic",
+            "Auth": "apiKey",
+            "Category": "Events",
+            "Description": "Sell tickets anywhere",
+            "HTTPS": true,
+            "Link": "http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto"
+        },
+        {
+            "API": "Ticketmaster",
+            "Auth": "apiKey",
+            "Category": "Events",
+            "Description": "Search events, attractions, or venues",
+            "HTTPS": true,
+            "Link": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/"
         },
         {
             "API": "Barchart OnDemand",
