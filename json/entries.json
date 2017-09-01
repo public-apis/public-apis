@@ -1,5 +1,5 @@
 {
-    "count": 368,
+    "count": 369,
     "entries": [
         {
             "API": "Dogs",
@@ -960,6 +960,14 @@
             "Description": "Bungie Platform API",
             "HTTPS": true,
             "Link": "https://www.bungie.net/en/Clan/Post/39966/85087279/0/0"
+        },
+        {
+            "API": "Dota 2",
+            "Auth": null,
+            "Category": "Games & Comics",
+            "Description": "Provides information about Player stats , Match stats, Rankings for Dota 2",
+            "HTTPS": true,
+            "Link": "https://docs.opendota.com/"
         },
         {
             "API": "Eve Online",
