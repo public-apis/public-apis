@@ -244,6 +244,7 @@ API | Description | Auth | HTTPS | Link |
 | Comic Vine | Comics | No | Yes | [Go!](https://comicvine.gamespot.com/api/documentation) |
 | Deck of Cards | Deck of Cards | No | No | [Go!](http://deckofcardsapi.com/) |
 | Destiny The Game | Bungie Platform API | `apiKey` | Yes | [Go!](https://www.bungie.net/en/Clan/Post/39966/85087279/0/0) |
+| Dota 2 | Provides information about Player stats , Match stats, Rankings for Dota 2 | No | Yes | [Go!](https://docs.opendota.com/) |
 | Eve Online | Third-Party Developer Documentation | `OAuth` | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
 | Games | Minecraft and other server info & user info) | No | Yes | [Go!](https://docs.gameapis.net/) |
 | Giant Bomb | Video Games | No | Yes | [Go!](https://www.giantbomb.com/api/documentation) |
