@@ -717,9 +717,9 @@
             "API": "Consumer Financial Protection Bureau",
             "Auth": "apiKey",
             "Category": "Finance",
-            "Description": "Financial services consumer complains data",
+            "Description": "Financial services Consumer Complaints Database",
             "HTTPS": true,
-            "Link": "https://data.consumerfinance.gov/resource/jhzv-w97w.json"
+            "Link": "https://data.consumerfinance.gov/dataset/Consumer-Complaints/s6ew-h6mp"
         },
         {
             "API": "IEX",
