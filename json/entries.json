@@ -1,5 +1,5 @@
 {
-    "count": 367,
+    "count": 368,
     "entries": [
         {
             "API": "Dogs",
@@ -16,6 +16,14 @@
             "Description": "IUCN Red List of Threatened Species",
             "HTTPS": false,
             "Link": "http://apiv3.iucnredlist.org/api/v3/docs"
+        },
+        {
+            "API": "Movebank",
+            "Auth": null,
+            "Category": "Animals",
+            "Description": "Movement and Migration data of animals",
+            "HTTPS": true,
+            "Link": "https://github.com/movebank/movebank-api-doc"
         },
         {
             "API": "Petfinder",
