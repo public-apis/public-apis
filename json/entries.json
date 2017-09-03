@@ -1,5 +1,5 @@
 {
-    "count": 369,
+    "count": 370,
     "entries": [
         {
             "API": "Dogs",
@@ -1344,6 +1344,14 @@
             "Description": "Access to the data from the CMS - medicaregov",
             "HTTPS": true,
             "Link": "https://data.medicare.gov/developers"
+        },
+        {
+            "API": "NPPES",
+            "Auth": null,
+            "Category": "Health",
+            "Description": "National Plan & Provider Enumeration System, info on healthcare providers registered in US",
+            "HTTPS": true,
+            "Link": "https://npiregistry.cms.hhs.gov/registry/help-api"
         },
         {
             "API": "Nutritionix",
