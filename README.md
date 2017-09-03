@@ -304,7 +304,7 @@ API | Description | Auth | HTTPS | Link |
 | Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
 | Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Medicare | Access to the data from the CMS - medicare.gov | No | Yes | [Go!](https://data.medicare.gov/developers) |
-| NPPES | National Plan & Provider Enumeration System, info on healthcare providers registered in US. | No | Yes | [Go!](https://npiregistry.cms.hhs.gov/registry/help-api) |
+| NPPES | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | [Go!](https://npiregistry.cms.hhs.gov/registry/help-api) |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` | Yes | [Go!](https://developer.nutritionix.com/) |
 | openFDA | Public FDA data about drugs, devices, and foods | No | Yes | [Go!](https://open.fda.gov/api/) |
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | Yes | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
