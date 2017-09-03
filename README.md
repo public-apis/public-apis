@@ -582,6 +582,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Dark Sky | Weather | `apiKey` | Yes | [Go!](https://darksky.net/dev/) |
+| FreeCodeCamp Weather API | Weather | `apiKey` | No | [Go!](https://fcc-weather-api.glitch.me) |
 | MetaWeather | Weather | No | Yes | [Go!](https://www.metaweather.com/api/) |
 | OpenWeatherMap | Weather | `apiKey` | No | [Go!](http://openweathermap.org/api) |
 | Weatherbit | Weather | `apiKey` | Yes | [Go!](https://www.weatherbit.io/api) |
