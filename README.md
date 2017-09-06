@@ -100,6 +100,7 @@ API | Description | Auth | HTTPS | Link |
 ### Business
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Domainsdb.info | Registered Domain Names Search | No | Yes | [Go!](https://domainsdb.info/) |
 | mailgun | Email Service | `apiKey` | Yes | [Go!](https://www.mailgun.com/) |
 | markerapi | Trademark Search | No | No | [Go!](http://www.markerapi.com/) |
 
