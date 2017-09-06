@@ -1,5 +1,5 @@
 {
-    "count": 370,
+    "count": 371,
     "entries": [
         {
             "API": "Dogs",
@@ -712,6 +712,14 @@
             "Description": "Stock, Futures, and Forex Market Data",
             "HTTPS": true,
             "Link": "https://www.barchartondemand.com/free"
+        },
+        {
+            "API": "Blockchain",
+            "Auth": null,
+            "Category": "Finance",
+            "Description": "Bitcoin Payment, Wallet & Transaction Data",
+            "HTTPS": true,
+            "Link": "https://www.blockchain.info/api"
         },
         {
             "API": "CoinDesk",
