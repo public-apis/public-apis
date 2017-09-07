@@ -1,5 +1,5 @@
 {
-    "count": 371,
+    "count": 372,
     "entries": [
         {
             "API": "Dogs",
@@ -200,6 +200,14 @@
             "Description": "Books",
             "HTTPS": true,
             "Link": "https://developers.google.com/books/"
+        },
+        {
+            "API": "Domainsdb.info",
+            "Auth": null,
+            "Category": "Business",
+            "Description": "Registered Domain Names Search",
+            "HTTPS": true,
+            "Link": "https://domainsdb.info/"
         },
         {
             "API": "mailgun",
