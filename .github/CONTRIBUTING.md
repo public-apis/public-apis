@@ -20,7 +20,7 @@ Example entry:
 | NASA | NASA data, including imagery | No | Yes | [Go!](https://api.nasa.gov) |
 ```
 
-Currently, the only accepted inputs for this field are as follows:
+\* Currently, the only accepted inputs for this field are as follows:
 
 * `OAuth` - _the API supports OAuth_
 * `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
