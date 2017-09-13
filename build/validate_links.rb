@@ -60,6 +60,8 @@ links.each do |link|
         fails.push("(SOK): #{link}")
     rescue Errno::ECONNREFUSED
         fails.push("(CON): #{link}")
+    rescue Errno::ECONNRESET
+        continue
     end
     progressbar.increment
 end
