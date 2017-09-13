@@ -1,5 +1,5 @@
 {
-    "count": 407,
+    "count": 408,
     "entries": [
         {
             "API": "Dogs",
@@ -845,9 +845,17 @@
             "API": "Consumer Financial Protection Bureau",
             "Auth": "apiKey",
             "Category": "Finance",
-            "Description": "Financial services Consumer Complaints Database",
+            "Description": "Financial services consumer complains data",
             "HTTPS": true,
-            "Link": "https://data.consumerfinance.gov/dataset/Consumer-Complaints/s6ew-h6mp"
+            "Link": "https://data.consumerfinance.gov/resource/jhzv-w97w.json"
+        },
+        {
+            "API": "Czech National Bank",
+            "Auth": null,
+            "Category": "Finance",
+            "Description": "A collection of exchange rates",
+            "HTTPS": false,
+            "Link": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml"
         },
         {
             "API": "IEX",
@@ -2183,7 +2191,7 @@
             "Category": "Photography",
             "Description": "Images",
             "HTTPS": true,
-            "Link": "https://api.imgur.com/#overview"
+            "Link": "https://apidocs.imgur.com/"
         },
         {
             "API": "PlaceKitten",
