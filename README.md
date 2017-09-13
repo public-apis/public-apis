@@ -18,6 +18,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Business](#business)
 * [Calendar](#calendar)
 * [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
+* [Continuous Integration](#continuous-integration)
 * [Currency Exchange](#currency-exchange)
 * [Data Validation](#data-validation)
 * [Development](#development)
@@ -36,7 +37,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Music](#music)
 * [News](#news)
 * [Open Data](#open-data)
-* [Open Source projects](#open-source-projects)
+* [Open Source Projects](#open-source-projects)
 * [Patent](#patent)
 * [Personality](#personality)
 * [Photography](#photography)
@@ -45,9 +46,11 @@ Please note a passing build status indicates all listed APIs are available since
 * [Shopping](#shopping)
 * [Social](#social)
 * [Sports & Fitness](#sports--fitness)
+* [Text Analysis](#text-analysis)
 * [Tracking](#tracking)
 * [Transportation](#transportation)
 * [University](#university)
+* [URL Shorteners](#url-shorteners)
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
@@ -100,14 +103,19 @@ API | Description | Auth | HTTPS | Link |
 ### Business
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Clearbit Logo API | Search for company logos and embed them in your projects | No | Yes | [Go!](https://clearbit.com/docs#logo-api) |
 | Domainsdb.info | Registered Domain Names Search | No | Yes | [Go!](https://domainsdb.info/) |
+| Gmail | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | [Go!](https://developers.google.com/gmail/api/) |
+| Google Analytics | Collect, configure, and analyze your data to reach the right audience | `OAuth` | Yes | [Go!](https://developers.google.com/analytics/) |
 | mailgun | Email Service | `apiKey` | Yes | [Go!](https://www.mailgun.com/) |
 | markerapi | Trademark Search | No | No | [Go!](http://www.markerapi.com/) |
+| Trello | Boards, lists, and cards to help you organize and prioritize your projects | `OAuth` | Yes | [Go!](https://developers.trello.com/) |
 
 ### Calendar
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
+| Google Calendar | Display, create and modify Google calendar events | `OAuth` | Yes | [Go!](https://developers.google.com/google-apps/calendar/) |
 | Holidays | Historical data regarding holidays | `apiKey` | Yes | [Go!](https://holidayapi.com/) |
 | LectServe | Protestant liturgical calendar | No | No | [Go!](http://www.lectserve.com) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
@@ -120,9 +128,17 @@ API | Description | Auth | HTTPS | Link |
 | Google Drive | File Sharing and Storage | `OAuth` | Yes | [Go!](https://developers.google.com/drive/) |
 | OneDrive | File Sharing and Storage | `OAuth` | Yes | [Go!](https://dev.onedrive.com/) |
 
+### Continuous Integration
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| CircleCI | Automate the software development process using continuous integration and continuous delivery | `apiKey` | Yes | [Go!](https://circleci.com/docs/api/v1-reference/) |
+| Codeship | Codeship is a Continuous Integration Platform in the cloud | `apiKey` | Yes | [Go!](https://apidocs.codeship.com/) |
+| Travis CI | Sync your GitHub projects with Travis CI to test your code in minutes | `apiKey` | Yes | [Go!](https://docs.travis-ci.com/api/) |
+
 ### Currency Exchange
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| 1Forge | Forex currency market data | `apiKey` | Yes | [Go!](https://1forge.com/forex-data-api/api-documentation) |
 | Currencylayer | Exchange rates and currency conversion | `apiKey` | Yes | [Go!](https://currencylayer.com/documentation) |
 | Fixer.io | Exchange rates and currency conversion | No | Yes | [Go!](http://fixer.io) |
 
@@ -143,6 +159,8 @@ API | Description | Auth | HTTPS | Link |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | [Go!](https://apis.guru/api-doc/) |
 | Bacon Ipsum | A Meatier Lorem Ipsum Generator | No | Yes | [Go!](https://baconipsum.com/json-api/) |
 | BetterMeta | Return a site's meta tags in JSON format | X-Mashape-Key | Yes | [Go!](http://bettermeta.io) |
+| Bitbucket - User Data | Pull public information for a user's Bitbucket account | No | Yes | [Go!](https://api.bitbucket.org/2.0/users/karllhughes) |
+| Browshot | Easily make screenshots of web pages in any screen size, as any device | `apiKey` | Yes | [Go!](https://browshot.com/api/documentation) |
 | CDNJS | Library info on CDNJS | No | Yes | [Go!](https://api.cdnjs.com/libraries/jquery) |
 | Changelogs.md | Structured changelog metadata from open source projects | No | Yes | [Go!](https://changelogs.md) |
 | Faceplusplus | A tool to detect face | `OAuth` | Yes | [Go!](https://www.faceplusplus.com/) |
@@ -151,6 +169,7 @@ API | Description | Auth | HTTPS | Link |
 | Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://github.com/gitterHQ/docs) |
 | HackerRank | Compile source code and run against a set of provided test cases | `apiKey` | Yes | [Go!](https://www.hackerrank.com/api/docs) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
+| import.io | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | [Go!](https://www.ipify.org/) |
 | IPify | A simple IP Address API | No | Yes | [Go!](https://www.ipify.org/) |
 | JSON 2 JSONP | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
 | JSONbin.io | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | [Go!](https://jsonbin.io) |
@@ -167,6 +186,7 @@ API | Description | Auth | HTTPS | Link |
 | RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
 | RandomWord | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
+| Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | [Go!](https://restpack.io/) |
 | RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
 | UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
@@ -260,6 +280,7 @@ API | Description | Auth | HTTPS | Link |
 | Qriusity | Quiz/Trivia Questions | No | Yes | [Go!](https://qriusity.com/) |
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client Interaction | `OAuth` | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
+| xkcd | Retrieve xkcd comics as JSON | No | Yes | [Go!](https://xkcd.com/json.html) |
 
 ### Geocoding
 API | Description | Auth | HTTPS | Link |
@@ -294,7 +315,10 @@ API | Description | Auth | HTTPS | Link |
 ### Government
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| BCLaws | Access to the laws of British Columbia | No | No | [Go!](http://www.bclaws.ca/civix/template/complete/api/index.html) |
 | BusinessUSA | BusinessUSA gives developers access to authoritative information on U.S. programs, events, services and more | `apiKey` | Yes | [Go!](https://business.usa.gov/developer) |
+| Census.gov | The US Census Bureau provides various APIs and data sets on demographics and businesses | No | Yes | [Go!](https://www.census.gov/data/developers/data-sets.html) |
+| EPA | Web services and data sets from the US Environmental Protection Agency | No | Yes | [Go!](https://developer.epa.gov/category/api/) |
 | FEC | Information on campaign donations in federal elections | `apiKey` | Yes | [Go!](https://api.open.fec.gov/developers/) |
 | Regulations.gov | Regulations.gov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process | `apiKey` | Yes | [Go!](https://regulationsgov.github.io/developers/) |
 
@@ -304,6 +328,7 @@ API | Description | Auth | HTTPS | Link |
 | BetterDoctor | Detailed information about doctors in your area | `apiKey` | Yes | [Go!](https://developer.betterdoctor.com/) |
 | Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api/) |
 | Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
+| Healthcare.gov | Educational content about the US Health Insurance Marketplace | No | Yes | [Go!](https://www.healthcare.gov/developers/) |
 | Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Medicare | Access to the data from the CMS - medicare.gov | No | Yes | [Go!](https://data.medicare.gov/developers) |
 | NPPES | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | [Go!](https://npiregistry.cms.hhs.gov/registry/help-api) |
@@ -353,8 +378,10 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Chronicling America | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | [Go!](http://chroniclingamerica.loc.gov/about/api/) |
+| Feedbin | RSS reader | `OAuth` | Yes | [Go!](https://github.com/feedbin/feedbin-api) |
 | New York Times | Provides news | `apiKey` | Yes | [Go!](https://developer.nytimes.com/) |
 | News API | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | [Go!](https://newsapi.org/) |
+| NPR One | Personalized news listening experience from NPR | `OAuth` | Yes | [Go!](http://dev.npr.org/api/) |
 | The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | [Go!](http://open-platform.theguardian.com/) |
 
 ### Open Data
@@ -377,6 +404,7 @@ API | Description | Auth | HTTPS | Link |
 | Open Government, India | Indian Government Open Data | `apiKey` | Yes | [Go!](https://data.gov.in/) |
 | Open Government, New Zealand | New Zealand Government Open Data | No | Yes | [Go!](https://www.data.govt.nz/) |
 | Open Government, USA | United States Government Open Data | No | Yes | [Go!](https://www.data.gov/) |
+| Open Skills | Job titles, skills, and related jobs data | No | No | [Go!](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) |
 | Outpan | A Database of Everything | `apiKey` | Yes | [Go!](https://outpan.mixnode.com/developers) |
 | Pearson | Dictionary Data | `apiKey` | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
 | Prague Opendata | Prague City Open Data | No | No | [Go!](http://opendata.praha.eu/en) |
@@ -390,7 +418,7 @@ API | Description | Auth | HTTPS | Link |
 | Wordnik | Dictionary Data | No | No | [Go!](http://developer.wordnik.com) |
 | Yelp | Find Local Business | `OAuth` | Yes | [Go!](https://www.yelp.com/developers/documentation/v3) |
 
-### Open Source projects
+### Open Source Projects
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Countly | Countly web analytics | No | No | [Go!](http://resources.count.ly/docs) |
@@ -420,6 +448,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | 500px | Photography Community | `OAuth` | Yes | [Go!](https://github.com/500px/api-documentation) |
 | Flickr | Flickr Services | `OAuth` | Yes | [Go!](https://www.flickr.com/services/api/) |
+| Getty Images | Build applications using the world's most powerful imagery | `OAuth` | Yes | [Go!](http://developers.gettyimages.com/api/docs/) |
 | Gfycat | Jiffier GIFs | `OAuth` | Yes | [Go!](https://developers.gfycat.com/api/) |
 | Giphy | Get all your gifs | No | Yes | [Go!](https://github.com/Giphy/GiphyAPI) |
 | Imgur | Images | `OAuth` | Yes | [Go!](https://api.imgur.com/#overview) |
@@ -459,6 +488,7 @@ API | Description | Auth | HTTPS | Link |
 ### Social
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Buffer | Access to pending and sent updates in Buffer | `OAuth` | Yes | [Go!](https://buffer.com/developers/api) |
 | Cisco Spark | Team Collaboration Software | `OAuth` | Yes | [Go!](https://developer.ciscospark.com) |
 | Discord | Make bots for Discord, integrate Discord onto an external platform | `OAuth` | Yes | [Go!](https://discordapp.com/developers/docs/intro) |
 | DonReach Social Count | Get the social share count of a URL from every major social network | No | Yes | [Go!](https://donreach.com/social-share-count/) |
@@ -473,6 +503,7 @@ API | Description | Auth | HTTPS | Link |
 | Pinterest | The world's catalog of ideas | `OAuth` | Yes | [Go!](https://developers.pinterest.com/) |
 | PWRTelegram bot | Boosted version of the Telegram bot API | `OAuth` | Yes | [Go!](https://pwrtelegram.xyz) |
 | Reddit | Homepage of the internet | `OAuth` | Yes | [Go!](https://www.reddit.com/dev/api) |
+| SharedCount | Social media like and share data for any URL | `apiKey` | Yes | [Go!](http://docs.sharedcount.com/) |
 | Slack | Team Instant Messaging | `OAuth` | Yes | [Go!](https://api.slack.com/) |
 | Telegram Bot | Simplified HTTP version of the MTProto API for bots | `OAuth` | Yes | [Go!](https://core.telegram.org/bots/api) |
 | Telegram MTProto | Read and write Telegram data | `OAuth` | Yes | [Go!](https://core.telegram.org/api#getting-started) |
@@ -484,6 +515,7 @@ API | Description | Auth | HTTPS | Link |
 ### Sports & Fitness
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| BikeWise | Bikewise is a place to learn about and report bike crashes, hazards, and thefts | No | Yes | [Go!](https://www.bikewise.org/documentation/api_v2) |
 | Cartola FC | The Cartola FC API serves to check the partial points of your team | No | Yes | [Go!](https://github.com/wgenial/cartrolandofc) |
 | City Bikes | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
 | Cricket Live Scores | Live cricket scores | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
@@ -494,8 +526,17 @@ API | Description | Auth | HTTPS | Link |
 | NFL Arrests | NFL Arrest Data | No | No | [Go!](http://nflarrest.com/api/) |
 | Pro Motocross | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | [Go!](http://promotocrossapi.com) |
 | Strava | Connect with athletes, activities and more | `OAuth` | Yes | [Go!](https://strava.github.io/api/) |
+| SuredBits | Query sports data, including teams, players, games, scores, and statistics | No | No | [Go!](https://suredbits.com/api/) |
 | UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | [Go!](http://ufc-data-api.ufc.com/) |
 | Wger | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | [Go!](https://wger.de/en/software/api) |
+
+### Text Analysis
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Aylien Text Analysis | A collection of information retrieval and natural language APIs | `apiKey` | Yes | [Go!](http://docs.aylien.com/) |
+| Google Cloud Natural | Natural language understanding technologies to developers, including sentiment, entity, and syntax analysis | `apiKey` | Yes | [Go!](https://cloud.google.com/natural-language/docs/) |
+| Semantira | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | [Go!](https://semantria.readme.io/docs) |
+| Watson Natural Language Understanding | Natural language processing for advanced text analysis | `OAuth` | Yes | [Go!](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) |
 
 ### Tracking
 API | Description | Auth | HTTPS | Link |
@@ -559,6 +600,14 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Universities List | University names, countries and domains | No | Yes | [Go!](https://github.com/Hipo/university-domains-list) |
+
+### URL Shorteners
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Bitly | URL shortener and link management | `OAuth` | Yes | [Go!](http://dev.bitly.com/get_started.html) |
+| ClickMeter | Monitor, compare, and optimize your marketing links | `apiKey` | Yes | [Go!](https://support.clickmeter.com/hc/en-us/categories/201474986) |
+| Google URL Shortener | Takes long URLs and squeezes them into fewer characters to make a link that is easier to share | `apiKey` | Yes | [Go!](https://developers.google.com/url-shortener/v1/getting_started) |
+| Rebrandly | Custom URL shortener for sharing branded links | `apiKey` | Yes | [Go!](https://developers.rebrandly.com/v1/docs) |
 
 ### Vehicle
 API | Description | Auth | HTTPS | Link |
