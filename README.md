@@ -404,7 +404,7 @@ API | Description | Auth | HTTPS | Link |
 | Open Government, India | Indian Government Open Data | `apiKey` | Yes | [Go!](https://data.gov.in/) |
 | Open Government, New Zealand | New Zealand Government Open Data | No | Yes | [Go!](https://www.data.govt.nz/) |
 | Open Government, USA | United States Government Open Data | No | Yes | [Go!](https://www.data.gov/) |
-| Open Skills API | Job titles, skills, and related jobs data | No | No | [Go!](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) |
+| Open Skills | Job titles, skills, and related jobs data | No | No | [Go!](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) |
 | Outpan | A Database of Everything | `apiKey` | Yes | [Go!](https://outpan.mixnode.com/developers) |
 | Pearson | Dictionary Data | `apiKey` | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
 | Prague Opendata | Prague City Open Data | No | No | [Go!](http://opendata.praha.eu/en) |
@@ -533,8 +533,10 @@ API | Description | Auth | HTTPS | Link |
 ### Text Analysis
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Aylien Text Analysis | A collection of information retrieval, and natural language APIs | `apiKey` | Yes | [Go!](http://docs.aylien.com/) |
+| Aylien Text Analysis | A collection of information retrieval and natural language APIs | `apiKey` | Yes | [Go!](http://docs.aylien.com/) |
+| Google Cloud Natural | Natural language understanding technologies to developers, including sentiment, entity, and syntax analysis | `apiKey` | Yes | [Go!](https://cloud.google.com/natural-language/docs/) |
 | Semantira | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | [Go!](https://semantria.readme.io/docs) |
+| Watson Natural Language Understanding | Natural language processing for advanced text analysis | `OAuth` | Yes | [Go!](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) |
 
 ### Tracking
 API | Description | Auth | HTTPS | Link |
@@ -603,7 +605,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Bitly | URL shortener and link management | `OAuth` | Yes | [Go!](http://dev.bitly.com/get_started.html) |
-| ClickMeter | Monitor, compare and optimize your marketing links | `apiKey` | Yes | [Go!](https://support.clickmeter.com/hc/en-us/categories/201474986) |
+| ClickMeter | Monitor, compare, and optimize your marketing links | `apiKey` | Yes | [Go!](https://support.clickmeter.com/hc/en-us/categories/201474986) |
 | Google URL Shortener | Takes long URLs and squeezes them into fewer characters to make a link that is easier to share | `apiKey` | Yes | [Go!](https://developers.google.com/url-shortener/v1/getting_started) |
 | Rebrandly | Custom URL shortener for sharing branded links | `apiKey` | Yes | [Go!](https://developers.rebrandly.com/v1/docs) |
 
