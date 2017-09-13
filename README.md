@@ -103,8 +103,8 @@ API | Description | Auth | HTTPS | Link |
 ### Business
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Domainsdb.info | Registered Domain Names Search | No | Yes | [Go!](https://domainsdb.info/) |
 | Clearbit Logo API | Search for company logos and embed them in your projects | No | Yes | [Go!](https://clearbit.com/docs#logo-api) |
+| Domainsdb.info | Registered Domain Names Search | No | Yes | [Go!](https://domainsdb.info/) |
 | Gmail | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | [Go!](https://developers.google.com/gmail/api/) |
 | Google Analytics | Collect, configure, and analyze your data to reach the right audience | `OAuth` | Yes | [Go!](https://developers.google.com/analytics/) |
 | mailgun | Email Service | `apiKey` | Yes | [Go!](https://www.mailgun.com/) |
