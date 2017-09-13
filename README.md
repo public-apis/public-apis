@@ -204,6 +204,7 @@ API | Description | Auth | HTTPS | Link |
 | IEX | Stocks and Market Data | No | Yes | [Go!](https://iextrading.com/developer/) |
 | Razorpay IFSC | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | [Go!](https://ifsc.razorpay.com/) |
 | VAT Rates | A collection of all VAT rates for EU countries | No | Yes | [Go!](https://jsonvat.com/) |
+| Czech National Bank | A collection of exchange rates | No | No | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
 
 ### Food & Drink
 API | Description | Auth | HTTPS | Link |
@@ -417,7 +418,7 @@ API | Description | Auth | HTTPS | Link |
 | Flickr | Flickr Services | `OAuth` | Yes | [Go!](https://www.flickr.com/services/api/) |
 | Gfycat | Jiffier GIFs | `OAuth` | Yes | [Go!](https://developers.gfycat.com/api/) |
 | Giphy | Get all your gifs | No | Yes | [Go!](https://github.com/Giphy/GiphyAPI) |
-| Imgur | Images | `OAuth` | Yes | [Go!](https://api.imgur.com/#overview) |
+| Imgur | Images | `OAuth` | Yes | [Go!](https://apidocs.imgur.com/) |
 | PlaceKitten | Resizable kitten placeholder images | No | Yes | [Go!](https://placekitten.com/) |
 | ScreenShotLayer | URL 2 Image | No | Yes | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | `OAuth` | Yes | [Go!](https://unsplash.com/developers) |
