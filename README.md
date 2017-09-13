@@ -318,7 +318,6 @@ API | Description | Auth | HTTPS | Link |
 | BCLaws | Access to the laws of British Columbia | No | No | [Go!](http://www.bclaws.ca/civix/template/complete/api/index.html) |
 | BusinessUSA | BusinessUSA gives developers access to authoritative information on U.S. programs, events, services and more | `apiKey` | Yes | [Go!](https://business.usa.gov/developer) |
 | Census.gov | The US Census Bureau provides various APIs and data sets on demographics and businesses | No | Yes | [Go!](https://www.census.gov/data/developers/data-sets.html) |
-| CFPB | The Consumer Financial Protection Bureau is a U.S. government agency that makes sure banks and lenders treat consumers fairly | No | Yes | [Go!](http://cfpb.github.io/api/hmda/index.html) |
 | EPA | Web services and data sets from the US Environmental Protection Agency | No | Yes | [Go!](https://developer.epa.gov/category/api/) |
 | FEC | Information on campaign donations in federal elections | `apiKey` | Yes | [Go!](https://api.open.fec.gov/developers/) |
 | Regulations.gov | Regulations.gov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process | `apiKey` | Yes | [Go!](https://regulationsgov.github.io/developers/) |
@@ -379,6 +378,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Chronicling America | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | [Go!](http://chroniclingamerica.loc.gov/about/api/) |
+| Feedbin | RSS reader | `OAuth` | Yes | [Go!](https://github.com/feedbin/feedbin-api) |
 | New York Times | Provides news | `apiKey` | Yes | [Go!](https://developer.nytimes.com/) |
 | News API | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | [Go!](https://newsapi.org/) |
 | NPR One | Personalized news listening experience from NPR | `OAuth` | Yes | [Go!](http://dev.npr.org/api/) |
