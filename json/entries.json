@@ -1,5 +1,5 @@
 {
-    "count": 406,
+    "count": 407,
     "entries": [
         {
             "API": "Dogs",
@@ -1864,6 +1864,14 @@
             "Description": "Tracks United States drone strikes",
             "HTTPS": true,
             "Link": "https://dronestre.am/"
+        },
+        {
+            "API": "Federal Register",
+            "Auth": null,
+            "Category": "Open Data",
+            "Description": "The Daily Journal of the United States Government",
+            "HTTPS": true,
+            "Link": "https://www.federalregister.gov/reader-aids/developer-resources"
         },
         {
             "API": "fonoApi",
