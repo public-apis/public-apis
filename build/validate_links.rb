@@ -61,7 +61,7 @@ links.each do |link|
     rescue Errno::ECONNREFUSED
         fails.push("(CON): #{link}")
     rescue Errno::ECONNRESET
-        continue
+        next
     end
     progressbar.increment
 end
