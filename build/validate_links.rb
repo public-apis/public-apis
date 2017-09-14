@@ -50,6 +50,8 @@ links.each do |link|
         if !allowed_codes.include?(res.code)
             fails.push("(#{res.code}): #{link}")
         end
+    rescue HTTParty::RedirectionTooDeep
+        fails.push("(RTD): #{link}")
     rescue Net::ReadTimeout
         fails.push("(TMO): #{link}")
     rescue Net::OpenTimeout
