@@ -1,5 +1,5 @@
 {
-    "count": 409,
+    "count": 412,
     "entries": [
         {
             "API": "Dogs",
@@ -955,11 +955,19 @@
         },
         {
             "API": "TheCocktailDB",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Food & Drink",
             "Description": "Cocktail Recipes",
             "HTTPS": false,
             "Link": "http://www.thecocktaildb.com/"
+        },
+        {
+            "API": "TheMealDB",
+            "Auth": "apiKey",
+            "Category": "Food & Drink",
+            "Description": "Meal Recipes",
+            "HTTPS": false,
+            "Link": "http://www.themealdb.com/"
         },
         {
             "API": "What's on the menu?",
@@ -1736,6 +1744,14 @@
             "Description": "Music",
             "HTTPS": true,
             "Link": "https://developer.spotify.com/web-api/"
+        },
+        {
+            "API": "TheAudioDB",
+            "Auth": "apiKey",
+            "Category": "Music",
+            "Description": "Music",
+            "HTTPS": false,
+            "Link": "http://www.theaudiodb.com"
         },
         {
             "API": "Vagalume",
@@ -2632,6 +2648,14 @@
             "Description": "Query sports data, including teams, players, games, scores, and statistics",
             "HTTPS": false,
             "Link": "https://suredbits.com/api/"
+        },
+        {
+            "API": "TheSportsDB",
+            "Auth": "apiKey",
+            "Category": "Sports & Fitness",
+            "Description": "Crowd-Sourced Sports Data and Artwork",
+            "HTTPS": false,
+            "Link": "http://www.thesportsdb.com"
         },
         {
             "API": "UFC Data",
