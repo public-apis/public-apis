@@ -241,7 +241,8 @@ API | Description | Auth | HTTPS | Link |
 | Recipe Puppy | Food | No | No | [Go!](http://www.recipepuppy.com/about/api/) |
 | TacoFancy | Community-driven taco database | No | No | [Go!](https://github.com/evz/tacofancy-api) |
 | The Report of the Week | Food & Drink Reviews | No | Yes | [Go!](https://github.com/andyklimczak/TheReportOfTheWeek-API) |
-| TheCocktailDB | Cocktail Recipes | No | No | [Go!](http://www.thecocktaildb.com/) |
+| TheCocktailDB | Cocktail Recipes | `apiKey` | No | [Go!](http://www.thecocktaildb.com/) |
+| TheMealDB | Meal Recipes | `apiKey` | No | [Go!](http://www.themealdb.com/) |
 | What's on the menu? | NYPL human-transcribed historical menu collection | `apiKey` | No | [Go!](nypl.github.io/menus-api/) |
 | Yummly | Find food recipes | No | Yes | [Go!](https://developer.yummly.com/) |
 | Zomato | Discover restaurants | `apiKey` | Yes | [Go!](https://developers.zomato.com/api) |
@@ -373,6 +374,7 @@ API | Description | Auth | HTTPS | Link |
 | Songsterr | Provides guitar, bass and drums tabs and chords | No | Yes | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | Yes | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | `OAuth` | Yes | [Go!](https://developer.spotify.com/web-api/) |
+| TheAudioDB | Music | `apiKey` | No | [Go!](http://www.theaudiodb.com) |
 | Vagalume | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | [Go!](https://api.vagalume.com.br/docs/) |
 
 ### News
@@ -529,6 +531,7 @@ API | Description | Auth | HTTPS | Link |
 | Pro Motocross | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | [Go!](http://promotocrossapi.com) |
 | Strava | Connect with athletes, activities and more | `OAuth` | Yes | [Go!](https://strava.github.io/api/) |
 | SuredBits | Query sports data, including teams, players, games, scores, and statistics | No | No | [Go!](https://suredbits.com/api/) |
+| TheSportsDB | Crowd-Sourced Sports Data and Artwork | `apiKey` | No | [Go!](http://www.thesportsdb.com) |
 | UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | [Go!](http://ufc-data-api.ufc.com/) |
 | Wger | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | [Go!](https://wger.de/en/software/api) |
 
