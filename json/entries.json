@@ -1,5 +1,5 @@
 {
-    "count": 408,
+    "count": 409,
     "entries": [
         {
             "API": "Dogs",
@@ -3152,6 +3152,14 @@
             "Description": "Game Of Thrones API",
             "HTTPS": true,
             "Link": "https://anapioficeandfire.com/"
+        },
+        {
+            "API": "Czech Television",
+            "Auth": null,
+            "Category": "Video",
+            "Description": "TV programme of Czech TV",
+            "HTTPS": false,
+            "Link": "http://www.ceskatelevize.cz/xml/tv-program/"
         },
         {
             "API": "Dailymotion",
