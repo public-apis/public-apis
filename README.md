@@ -169,7 +169,7 @@ API | Description | Auth | HTTPS | Link |
 | Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://github.com/gitterHQ/docs) |
 | HackerRank | Compile source code and run against a set of provided test cases | `apiKey` | Yes | [Go!](https://www.hackerrank.com/api/docs) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
-| import.io | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | [Go!](https://www.ipify.org/) |
+| import.io | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | [Go!](http://api.docs.import.io/) |
 | IPify | A simple IP Address API | No | Yes | [Go!](https://www.ipify.org/) |
 | JSON 2 JSONP | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
 | JSONbin.io | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | [Go!](https://jsonbin.io) |
