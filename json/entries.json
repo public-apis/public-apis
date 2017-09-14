@@ -543,7 +543,7 @@
             "Category": "Development",
             "Description": "Retrieve structured data from a website or RSS feed",
             "HTTPS": true,
-            "Link": "https://www.ipify.org/"
+            "Link": "http://api.docs.import.io/"
         },
         {
             "API": "IPify",
