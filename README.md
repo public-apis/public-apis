@@ -163,6 +163,7 @@ API | Description | Auth | HTTPS | Link |
 | Browshot | Easily make screenshots of web pages in any screen size, as any device | `apiKey` | Yes | [Go!](https://browshot.com/api/documentation) |
 | CDNJS | Library info on CDNJS | No | Yes | [Go!](https://api.cdnjs.com/libraries/jquery) |
 | Changelogs.md | Structured changelog metadata from open source projects | No | Yes | [Go!](https://changelogs.md) |
+| Count.io | Persistent counting and A/B testing API | No | Yes | [Go!](https://count.io) |
 | Faceplusplus | A tool to detect face | `OAuth` | Yes | [Go!](https://www.faceplusplus.com/) |
 | Genderize.io | Determines a gender from a first name | No | Yes | [Go!](https://genderize.io) |
 | Github - User Data | Pull public information for a user's github | No | Yes | [Go!](https://api.github.com/users/hackeryou) |
@@ -546,7 +547,6 @@ API | Description | Auth | HTTPS | Link |
 ### Tracking
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Count.io | Persistent counting and A/B testing API | No | Yes | [Go!](https://count.io) |
 | Postmon | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | [Go!](http://postmon.com.br) |
 | Sweden | Provides information about parcels in transport | `apiKey` | No | [Go!](https://developer.postnord.com/docs2) |
 
