@@ -1,5 +1,5 @@
 {
-    "count": 412,
+    "count": 413,
     "entries": [
         {
             "API": "Dogs",
@@ -1136,6 +1136,14 @@
             "Description": "Guild Wars 2 Game Information",
             "HTTPS": true,
             "Link": "https://wiki.guildwars2.com/wiki/API:Main"
+        },
+        {
+            "API": "Halo",
+            "Auth": "apiKey",
+            "Category": "Games & Comics",
+            "Description": "Halo 5 and Halo Wars 2 Information",
+            "HTTPS": true,
+            "Link": "https://developer.haloapi.com/"
         },
         {
             "API": "Jservice",
