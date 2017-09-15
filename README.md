@@ -546,6 +546,7 @@ API | Description | Auth | HTTPS | Link |
 ### Tracking
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Count.io | Persistent counting and A/B testing API | No | Yes | [Go!](https://count.io) |
 | Postmon | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | [Go!](http://postmon.com.br) |
 | Sweden | Provides information about parcels in transport | `apiKey` | No | [Go!](https://developer.postnord.com/docs2) |
 
