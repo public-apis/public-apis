@@ -1,5 +1,5 @@
 {
-    "count": 413,
+    "count": 414,
     "entries": [
         {
             "API": "Dogs",
@@ -488,6 +488,14 @@
             "Description": "Structured changelog metadata from open source projects",
             "HTTPS": true,
             "Link": "https://changelogs.md"
+        },
+        {
+            "API": "Count.io",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Persistent counting and A/B testing",
+            "HTTPS": true,
+            "Link": "https://count.io"
         },
         {
             "API": "Faceplusplus",
