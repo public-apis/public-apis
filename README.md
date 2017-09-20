@@ -99,6 +99,7 @@ API | Description | Auth | HTTPS | Link |
 | British National Bibliography | Books | No | No | [Go!](http://bnb.data.bl.uk/) |
 | Goodreads | Books | No | Yes | [Go!](https://www.goodreads.com/api) |
 | Google Books | Books | `OAuth` | Yes | [Go!](https://developers.google.com/books/) |
+| Open Library | Books, book covers, and related data | No | Yes | [Go!](https://openlibrary.org/developers/api) |
 
 ### Business
 API | Description | Auth | HTTPS | Link |
