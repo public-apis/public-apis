@@ -1,5 +1,5 @@
 {
-    "count": 415,
+    "count": 417,
     "entries": [
         {
             "API": "Dogs",
@@ -858,12 +858,28 @@
             "Link": "http://www.coindesk.com/api/"
         },
         {
+            "API": "CoinMarketCap",
+            "Auth": null,
+            "Category": "Finance",
+            "Description": "Cryptocurrencies Prices",
+            "HTTPS": true,
+            "Link": "https://coinmarketcap.com/api/"
+        },
+        {
             "API": "Consumer Financial Protection Bureau",
             "Auth": "apiKey",
             "Category": "Finance",
             "Description": "Financial services consumer complains data",
             "HTTPS": true,
             "Link": "https://data.consumerfinance.gov/resource/jhzv-w97w.json"
+        },
+        {
+            "API": "CryptoCompare",
+            "Auth": null,
+            "Category": "Finance",
+            "Description": "Cryptocurrencies Comparison",
+            "HTTPS": true,
+            "Link": "https://www.cryptocompare.com/api#"
         },
         {
             "API": "Czech National Bank",
