@@ -1,5 +1,5 @@
 {
-    "count": 414,
+    "count": 415,
     "entries": [
         {
             "API": "Dogs",
@@ -200,6 +200,14 @@
             "Description": "Books",
             "HTTPS": true,
             "Link": "https://developers.google.com/books/"
+        },
+        {
+            "API": "Open Library",
+            "Auth": null,
+            "Category": "Books",
+            "Description": "Books, book covers, and related data",
+            "HTTPS": true,
+            "Link": "https://openlibrary.org/developers/api"
         },
         {
             "API": "Clearbit Logo API",
