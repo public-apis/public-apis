@@ -141,10 +141,10 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | [Go!](https://www.blockchain.info/api) |
+| CoinBin | Human–friendly API for cryptocurrency information | No | Yes | [Go!](https://coinbin.org/) |
 | CoinDesk | Bitcoin Price Index | No | No | [Go!](http://www.coindesk.com/api/) |
 | CoinMarketCap | Cryptocurrencies Prices | No | Yes | [Go!](https://coinmarketcap.com/api/) |
 | CryptoCompare | Cryptocurrencies Comparison | No | Yes | [Go!](https://www.cryptocompare.com/api#) |
-| CoinBin | Human–friendly API for cryptocurrency information | No | Yes | [Go!](https://coinbin.org/) |
 
 ### Currency Exchange
 API | Description | Auth | HTTPS | Link |
