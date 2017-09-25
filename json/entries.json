@@ -1,5 +1,5 @@
 {
-    "count": 417,
+    "count": 418,
     "entries": [
         {
             "API": "Dogs",
@@ -368,6 +368,14 @@
             "Description": "Bitcoin Payment, Wallet & Transaction Data",
             "HTTPS": true,
             "Link": "https://www.blockchain.info/api"
+        },
+        {
+            "API": "CoinBin",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Human\u2013friendly API for cryptocurrency information",
+            "HTTPS": true,
+            "Link": "https://coinbin.org/"
         },
         {
             "API": "CoinDesk",
