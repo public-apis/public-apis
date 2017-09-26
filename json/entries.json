@@ -1,5 +1,5 @@
 {
-    "count": 418,
+    "count": 419,
     "entries": [
         {
             "API": "Dogs",
@@ -370,10 +370,18 @@
             "Link": "https://www.blockchain.info/api"
         },
         {
+            "API": "Coinbase",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Bitcoin, Litecoin and Ethereum Prices",
+            "HTTPS": true,
+            "Link": "https://developers.coinbase.com"
+        },
+        {
             "API": "CoinBin",
             "Auth": null,
             "Category": "Cryptocurrency",
-            "Description": "Human\u2013friendly API for cryptocurrency information",
+            "Description": "Cryptocurrency information",
             "HTTPS": true,
             "Link": "https://coinbin.org/"
         },
