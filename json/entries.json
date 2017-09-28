@@ -1,5 +1,5 @@
 {
-    "count": 419,
+    "count": 420,
     "entries": [
         {
             "API": "Dogs",
@@ -152,6 +152,14 @@
             "Description": "Art",
             "HTTPS": false,
             "Link": "https://github.com/harvardartmuseums/api-docs"
+        },
+        {
+            "API": "Iconfinder",
+            "Auth": "apiKey",
+            "Category": "Art & Design",
+            "Description": "Icons",
+            "HTTPS": true,
+            "Link": "https://developer.iconfinder.com"
         },
         {
             "API": "Icons8",
