@@ -90,6 +90,7 @@ API | Description | Auth | HTTPS | Link |
 | Cooper Hewitt | Smithsonian Design Museum | `apiKey` | Yes | [Go!](https://collection.cooperhewitt.org/api) |
 | Dribbble | Design | `OAuth` | No | [Go!](http://developer.dribbble.com/v1/) |
 | Harvard Art Museums | Art | `apiKey` | No | [Go!](https://github.com/harvardartmuseums/api-docs) |
+| Iconfinder | Icons | `apiKey` | Yes | [Go!](https://developer.iconfinder.com) |
 | Icons8 | Icons | `OAuth` | Yes | [Go!](http://docs.icons8.apiary.io/#reference/0/meta) |
 | Noun Project | Icons | `OAuth` | No | [Go!](http://api.thenounproject.com/index.html) |
 | Rijksmuseum | Art | `apiKey` | Yes | [Go!](https://www.rijksmuseum.nl/en/api) |
