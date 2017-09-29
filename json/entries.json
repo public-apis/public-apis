@@ -1,5 +1,5 @@
 {
-    "count": 420,
+    "count": 421,
     "entries": [
         {
             "API": "Dogs",
@@ -560,6 +560,14 @@
             "Description": "Persistent counting and A/B testing",
             "HTTPS": true,
             "Link": "https://count.io"
+        },
+        {
+            "API": "DigitalOcean Status",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Status of all DigitalOcean services",
+            "HTTPS": true,
+            "Link": "https://status.digitalocean.com/api/v1"
         },
         {
             "API": "Faceplusplus",
