@@ -177,6 +177,7 @@ API | Description | Auth | HTTPS | Link |
 | CDNJS | Library info on CDNJS | No | Yes | [Go!](https://api.cdnjs.com/libraries/jquery) |
 | Changelogs.md | Structured changelog metadata from open source projects | No | Yes | [Go!](https://changelogs.md) |
 | Count.io | Persistent counting and A/B testing | No | Yes | [Go!](https://count.io) |
+| DigitalOcean Status | Status of all DigitalOcean services | No | Yes | [Go!](https://status.digitalocean.com/api/v1) |
 | Faceplusplus | A tool to detect face | `OAuth` | Yes | [Go!](https://www.faceplusplus.com/) |
 | Genderize.io | Determines a gender from a first name | No | Yes | [Go!](https://genderize.io) |
 | Github - User Data | Pull public information for a user's github | No | Yes | [Go!](https://api.github.com/users/hackeryou) |
