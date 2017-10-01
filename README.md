@@ -287,6 +287,7 @@ API | Description | Auth | HTTPS | Link |
 | Giant Bomb | Video Games | No | Yes | [Go!](https://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
 | Halo | Halo 5 and Halo Wars 2 Information | `apiKey` | Yes | [Go!](https://developer.haloapi.com/) |
+| Hearthstone | Hearthstone Cards Information | `X-Mashape-Key` | Yes | [Go!](http://hearthstoneapi.com/) |
 | Jservice | Jeopardy Question Database | No | No | [Go!](http://jservice.io) |
 | Magic The Gathering | Magic The Gathering Game Information | No | No | [Go!](http://magicthegathering.io/) |
 | Marvel | Marvel Comics | `apiKey` | No | [Go!](http://developer.marvel.com) |
