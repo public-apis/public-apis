@@ -1,5 +1,5 @@
 {
-    "count": 421,
+    "count": 422,
     "entries": [
         {
             "API": "Dogs",
@@ -1208,6 +1208,14 @@
             "Description": "Halo 5 and Halo Wars 2 Information",
             "HTTPS": true,
             "Link": "https://developer.haloapi.com/"
+        },
+        {
+            "API": "Hearthstone",
+            "Auth": "X-Mashape-Key",
+            "Category": "Games & Comics",
+            "Description": "Hearthstone Cards Information",
+            "HTTPS": true,
+            "Link": "http://hearthstoneapi.com/"
         },
         {
             "API": "Jservice",
