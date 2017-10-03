@@ -195,7 +195,7 @@
         },
         {
             "API": "Goodreads",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Books",
             "Description": "Books",
             "HTTPS": true,
