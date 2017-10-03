@@ -1,5 +1,5 @@
 {
-    "count": 422,
+    "count": 423,
     "entries": [
         {
             "API": "Dogs",
@@ -1320,6 +1320,14 @@
             "Description": "Create/customize digital maps based on Bing Maps data",
             "HTTPS": true,
             "Link": "https://www.microsoft.com/maps/"
+        },
+        {
+            "API": "FreeGeoIP",
+            "Auth": null,
+            "Category": "Geocoding",
+            "Description": "Geolocation of IP addresses",
+            "HTTPS": true,
+            "Link": "https://freegeoip.net/"
         },
         {
             "API": "GeoApi",
