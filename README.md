@@ -436,8 +436,8 @@ API | Description | Auth | HTTPS | Link |
 | UPC database | More than 1.5 million barcode numbers from all around the world | `apiKey` | Yes | [Go!](https://upcdatabase.org/api) |
 | Wikidata | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | [Go!](https://www.wikidata.org/w/api.php?action=help) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
-| Words API | Definitions for more than 150,000 words. | `apiKey` | Yes | [Go!](https://www.wordsapi.com/) |
 | Wordnik | Dictionary Data | No | No | [Go!](http://developer.wordnik.com) |
+| Words | Definitions for more than 150,000 words | `apiKey` | Yes | [Go!](https://www.wordsapi.com/) |
 | Yelp | Find Local Business | `OAuth` | Yes | [Go!](https://www.yelp.com/developers/documentation/v3) |
 
 ### Open Source Projects
