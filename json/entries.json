@@ -1,5 +1,5 @@
 {
-    "count": 425,
+    "count": 426,
     "entries": [
         {
             "API": "Dogs",
@@ -880,6 +880,14 @@
             "Description": "Air quality of China",
             "HTTPS": false,
             "Link": "http://www.pm25.in/api_doc"
+        },
+        {
+            "API": "UK Carbon Intensity",
+            "Auth": null,
+            "Category": "Environment",
+            "Description": "The Official Carbon Intensity API for Great Britain developed by National Grid",
+            "HTTPS": true,
+            "Link": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0"
         },
         {
             "API": "Eventbrite",
