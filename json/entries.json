@@ -1,5 +1,5 @@
 {
-    "count": 423,
+    "count": 425,
     "entries": [
         {
             "API": "Dogs",
@@ -568,6 +568,14 @@
             "Description": "Status of all DigitalOcean services",
             "HTTPS": true,
             "Link": "https://status.digitalocean.com/api/v1"
+        },
+        {
+            "API": "DomainDb Info",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Domain name search to find all domains containing particular words/phrases/etc",
+            "HTTPS": true,
+            "Link": "https://domainsdb.info/apidomainsdb/index.php"
         },
         {
             "API": "Faceplusplus",
@@ -2136,6 +2144,14 @@
             "Description": "Dictionary Data",
             "HTTPS": false,
             "Link": "http://developer.wordnik.com"
+        },
+        {
+            "API": "Words",
+            "Auth": "apiKey",
+            "Category": "Open Data",
+            "Description": "Definitions for more than 150,000 words",
+            "HTTPS": true,
+            "Link": "https://www.wordsapi.com/"
         },
         {
             "API": "Yelp",
