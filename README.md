@@ -225,6 +225,7 @@ API | Description | Auth | HTTPS | Link |
 | AirVisual | Air quality and weather data | `apiKey` | Yes | [Go!](https://airvisual.com/api) |
 | OpenAQ | Open air quality data | `apiKey` | Yes | [Go!](https://docs.openaq.org/) |
 | PM2.5.in | Air quality of China | `apiKey` | No | [Go!](http://www.pm25.in/api_doc) |
+| UK Carbon Intensity | The Official Carbon Intensity API for Great Britain developed by National Grid | No | Yes | [Go!](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0) |
 
 ### Events
 API | Description | Auth | HTTPS | Link |
