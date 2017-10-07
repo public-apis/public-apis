@@ -1,5 +1,5 @@
 {
-    "count": 426,
+    "count": 427,
     "entries": [
         {
             "API": "Dogs",
@@ -952,6 +952,14 @@
             "Description": "Indian Financial Systems Code (Bank Branch Codes)",
             "HTTPS": true,
             "Link": "https://ifsc.razorpay.com/"
+        },
+        {
+            "API": "RoutingNumbers.info",
+            "Auth": null,
+            "Category": "Finance",
+            "Description": "ACH/NACHA Bank Routing Numbers",
+            "HTTPS": true,
+            "Link": "https://www.routingnumbers.info/api/index.html"
         },
         {
             "API": "VAT Rates",
