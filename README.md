@@ -242,6 +242,7 @@ API | Description | Auth | HTTPS | Link |
 | Czech National Bank | A collection of exchange rates | No | No | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
 | IEX | Stocks and Market Data | No | Yes | [Go!](https://iextrading.com/developer/) |
 | Razorpay IFSC | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | [Go!](https://ifsc.razorpay.com/) |
+| RoutingNumbers.info | ACH/NACHA Bank Routing Numbers | No | Yes | [Go!](https://www.routingnumbers.info/api/index.html) |
 | VAT Rates | A collection of all VAT rates for EU countries | No | Yes | [Go!](https://jsonvat.com/) |
 
 ### Food & Drink
