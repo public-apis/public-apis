@@ -633,6 +633,7 @@ API | Description | Auth | HTTPS | Link |
 | ClickMeter | Monitor, compare, and optimize your marketing links | `apiKey` | Yes | [Go!](https://support.clickmeter.com/hc/en-us/categories/201474986) |
 | Google URL Shortener | Takes long URLs and squeezes them into fewer characters to make a link that is easier to share | `apiKey` | Yes | [Go!](https://developers.google.com/url-shortener/v1/getting_started) |
 | Rebrandly | Custom URL shortener for sharing branded links | `apiKey` | Yes | [Go!](https://developers.rebrandly.com/v1/docs) |
+| Owly | Makes your links manageable | `apiKey` | Yes | [Go!](http://ow.ly/api-docs) |
 
 ### Vehicle
 API | Description | Auth | HTTPS | Link |
