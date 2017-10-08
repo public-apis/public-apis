@@ -542,6 +542,7 @@ API | Description | Auth | HTTPS | Link |
 | BikeWise | Bikewise is a place to learn about and report bike crashes, hazards, and thefts | No | Yes | [Go!](https://www.bikewise.org/documentation/api_v2) |
 | Cartola FC | The Cartola FC API serves to check the partial points of your team | No | Yes | [Go!](https://github.com/wgenial/cartrolandofc) |
 | City Bikes | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
+| Cric API | Live Scores and Upcoming Matches | `apiKey` | Yes | [Go!](http://www.cricapi.com/how-to-use.aspx) |
 | Cricket Live Scores | Live cricket scores | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/dev132/cricket-live-scores) |
 | Ergast F1 | F1 data from the beginning of the world championships in 1950 | No | No | [Go!](http://ergast.com/mrd/) |
 | Fitbit | Fitbit Information | `OAuth` | Yes | [Go!](https://dev.fitbit.com/) |
