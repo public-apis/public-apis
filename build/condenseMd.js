@@ -36,14 +36,14 @@ function setupMd(filename, anchor) {
         	if (line.length < 2 || cur_line == lines.length) {
         		break
         	}
-			if (line.startsWith("|")) {
+			if (line.indexOf("|") == 0) {
 				arr.push(line + table_name)
 			} 
         }
 
     }
     console.log(anchor + " entries")
-    console.log("API | Description | Auth | HTTPS | Link | Section")
+    console.log("API | Description | Auth | HTTPS | Link | Category")
     console.log("|---|---|---|---|---|---|")
     for (i = 0; i < arr.length; i++) {
     	console.log(arr[i])
