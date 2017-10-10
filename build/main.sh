@@ -25,6 +25,12 @@ if [[ $? != 0 ]]; then
     exit 1
 else
     echo "format validation passed!"
+    ./build.sh && ./deploy.sh
+    if [[ $? != 0 ]]; then
+        echo "JSON build and deploy failed!"
+    else
+        echo "JSON build and deploy success!"
+    fi
 fi
 
 echo "running link validation..."

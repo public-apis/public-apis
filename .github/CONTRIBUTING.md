@@ -20,14 +20,14 @@ Example entry:
 | NASA | NASA data, including imagery | No | Yes | [Go!](https://api.nasa.gov) |
 ```
 
-Currently, the only accepted inputs for this field are as follows:
+\* Currently, the only accepted inputs for this field are as follows:
 
 * `OAuth` - _the API supports OAuth_
 * `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
 * `X-Mashape-Key` - _the name of the header which may need to be sent_
 * `No` - _the API requires no authentication to run_
 
-Please continue to follow the alphabetical ordering that is in place per section.
+Please continue to follow the alphabetical ordering that is in place per section. Each table column should be padded with one space on either side.
 
 If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
 
