@@ -276,7 +276,7 @@ API | Description | Auth | HTTPS | Link |
 ### Games & Comics
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Battle.net | Blizzard Entertainment | No | Yes | [Go!](https://dev.battle.net/) |
+| Battle.net | Blizzard Entertainment | `apiKey` | Yes | [Go!](https://dev.battle.net/) |
 | Battlefield 4 | Battlefield 4 Information | No | Yes | [Go!](https://bf4stats.com/api) |
 | Chuck Norris Database | Jokes | No | No | [Go!](http://www.icndb.com/api/) |
 | Clash of Clans | Clash of Clans Game Information | No | Yes | [Go!](https://developer.clashofclans.com) |
