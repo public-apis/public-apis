@@ -1,5 +1,5 @@
 {
-    "count": 429,
+    "count": 428,
     "entries": [
         {
             "API": "Dogs",
@@ -3176,14 +3176,6 @@
             "Description": "OVAPI, country-wide public transport",
             "HTTPS": true,
             "Link": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
-        },
-        {
-            "API": "Transport for Tokyo, Japan",
-            "Auth": "apiKey",
-            "Category": "Transportation",
-            "Description": "Tokyo Metro",
-            "HTTPS": true,
-            "Link": "https://developer.tokyometroapp.jp/info"
         },
         {
             "API": "Transport for Toronto, Canada",
