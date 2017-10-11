@@ -1131,7 +1131,7 @@
         },
         {
             "API": "Battle.net",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Games & Comics",
             "Description": "Blizzard Entertainment",
             "HTTPS": true,
