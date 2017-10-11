@@ -1,5 +1,5 @@
 {
-    "count": 427,
+    "count": 428,
     "entries": [
         {
             "API": "Dogs",
@@ -416,6 +416,14 @@
             "Description": "Cryptocurrencies Comparison",
             "HTTPS": true,
             "Link": "https://www.cryptocompare.com/api#"
+        },
+        {
+            "API": "MercadoBitcoin",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Brazilian Cryptocurrency Information",
+            "HTTPS": true,
+            "Link": "https://www.mercadobitcoin.net/api-doc/"
         },
         {
             "API": "1Forge",
