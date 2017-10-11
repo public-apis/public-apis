@@ -1,5 +1,5 @@
 {
-    "count": 428,
+    "count": 429,
     "entries": [
         {
             "API": "Dogs",
@@ -344,6 +344,14 @@
             "Description": "File Sharing and Storage",
             "HTTPS": true,
             "Link": "https://dev.onedrive.com/"
+        },
+        {
+            "API": "Pastebin",
+            "Auth": "apiKey",
+            "Category": "Cloud Storage & File Sharing",
+            "Description": "Plain Text Storage",
+            "HTTPS": true,
+            "Link": "https://pastebin.com/api/"
         },
         {
             "API": "CircleCI",
