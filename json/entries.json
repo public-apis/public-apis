@@ -1,5 +1,5 @@
 {
-    "count": 429,
+    "count": 430,
     "entries": [
         {
             "API": "Dogs",
@@ -2040,6 +2040,14 @@
             "Description": "French Government",
             "HTTPS": true,
             "Link": "https://adresse.data.gouv.fr/api"
+        },
+        {
+            "API": "Marijuana Strains",
+            "Auth": "apiKey",
+            "Category": "Open Data",
+            "Description": "Marijuana strains, races, flavors, and effects",
+            "HTTPS": false,
+            "Link": "http://strains.evanbusse.com/"
         },
         {
             "API": "Open Government, Australia",
