@@ -1,5 +1,5 @@
 {
-    "count": 430,
+    "count": 429,
     "entries": [
         {
             "API": "Dogs",
@@ -2392,14 +2392,6 @@
             "Description": "Access the world's Open Access research papers",
             "HTTPS": true,
             "Link": "https://core.ac.uk/services#api"
-        },
-        {
-            "API": "Fedger.io",
-            "Auth": null,
-            "Category": "Science",
-            "Description": "Query machine intelligence data",
-            "HTTPS": true,
-            "Link": "https://dev.fedger.io/docs/"
         },
         {
             "API": "inspirehep.net",
