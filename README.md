@@ -130,6 +130,7 @@ API | Description | Auth | HTTPS | Link |
 | Dropbox | File Sharing and Storage | `OAuth` | Yes | [Go!](https://www.dropbox.com/developers) |
 | Google Drive | File Sharing and Storage | `OAuth` | Yes | [Go!](https://developers.google.com/drive/) |
 | OneDrive | File Sharing and Storage | `OAuth` | Yes | [Go!](https://dev.onedrive.com/) |
+| Pastebin | Plain Text Storage | `apiKey` | Yes | [Go!](https://pastebin.com/api/) |
 
 ### Continuous Integration
 API | Description | Auth | HTTPS | Link |
