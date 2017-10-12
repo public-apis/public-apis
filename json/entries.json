@@ -1,5 +1,5 @@
 {
-    "count": 428,
+    "count": 441,
     "entries": [
         {
             "API": "Dogs",
@@ -1682,6 +1682,118 @@
             "Link": "https://ndb.nal.usda.gov/ndb/doc/index"
         },
         {
+            "API": "Adzuna",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job board aggregator",
+            "HTTPS": true,
+            "Link": "https://developer.adzuna.com/overview"
+        },
+        {
+            "API": "Authentic Jobs",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job board for designers, hackers, and creative pros",
+            "HTTPS": true,
+            "Link": "https://authenticjobs.com/api/docs"
+        },
+        {
+            "API": "Careerjet",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job search engine",
+            "HTTPS": false,
+            "Link": "https://www.careerjet.com/partners/api/"
+        },
+        {
+            "API": "Github Jobs",
+            "Auth": null,
+            "Category": "Jobs",
+            "Description": "Jobs for software developers",
+            "HTTPS": true,
+            "Link": "https://jobs.github.com/api"
+        },
+        {
+            "API": "Indeed",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job board aggragator",
+            "HTTPS": true,
+            "Link": "https://www.indeed.com/publisher"
+        },
+        {
+            "API": "Jobs2Careers",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job aggregator",
+            "HTTPS": true,
+            "Link": "http://api.jobs2careers.com/api/spec.pdf"
+        },
+        {
+            "API": "Jooble",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job search engine",
+            "HTTPS": true,
+            "Link": "https://us.jooble.org/api/about"
+        },
+        {
+            "API": "Juju",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job search engine",
+            "HTTPS": false,
+            "Link": "http://www.juju.com/publisher/spec/"
+        },
+        {
+            "API": "Open Skills",
+            "Auth": null,
+            "Category": "Jobs",
+            "Description": "Job titles, skills, and related jobs data",
+            "HTTPS": false,
+            "Link": "https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview"
+        },
+        {
+            "API": "Search.gov Jobs",
+            "Auth": null,
+            "Category": "Jobs",
+            "Description": "Tap into a list of current jobs openings with the United States government",
+            "HTTPS": true,
+            "Link": "https://search.gov/developer/jobs.html"
+        },
+        {
+            "API": "The Muse",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job board and company profiles",
+            "HTTPS": true,
+            "Link": "https://www.themuse.com/developers/api/v2"
+        },
+        {
+            "API": "Upwork",
+            "Auth": "OAuth",
+            "Category": "Jobs",
+            "Description": "Freelance job board and management system",
+            "HTTPS": true,
+            "Link": "https://developers.upwork.com/"
+        },
+        {
+            "API": "USAJOBS",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "US government job board",
+            "HTTPS": true,
+            "Link": "https://developer.usajobs.gov/"
+        },
+        {
+            "API": "ZipRecruiter",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job search app and website",
+            "HTTPS": true,
+            "Link": "https://www.ziprecruiter.com/publishers"
+        },
+        {
             "API": "API.AI",
             "Auth": "apiKey",
             "Category": "Machine Learning",
@@ -2088,14 +2200,6 @@
             "Description": "United States Government Open Data",
             "HTTPS": true,
             "Link": "https://www.data.gov/"
-        },
-        {
-            "API": "Open Skills",
-            "Auth": null,
-            "Category": "Open Data",
-            "Description": "Job titles, skills, and related jobs data",
-            "HTTPS": false,
-            "Link": "https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview"
         },
         {
             "API": "Outpan",
