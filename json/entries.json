@@ -1,5 +1,5 @@
 {
-    "count": 441,
+    "count": 442,
     "entries": [
         {
             "API": "Dogs",
@@ -282,6 +282,14 @@
             "Link": "http://calapi.inadiutorium.cz/"
         },
         {
+            "API": "Czech Namedays Calendar",
+            "Auth": null,
+            "Category": "Calendar",
+            "Description": "Lookup for a name and returns nameday date",
+            "HTTPS": false,
+            "Link": "http://svatky.adresa.info/"
+        },
+        {
             "API": "Google Calendar",
             "Auth": "OAuth",
             "Category": "Calendar",
@@ -448,6 +456,14 @@
             "Description": "Exchange rates and currency conversion",
             "HTTPS": true,
             "Link": "https://currencylayer.com/documentation"
+        },
+        {
+            "API": "Czech National Bank",
+            "Auth": null,
+            "Category": "Currency Exchange",
+            "Description": "A collection of exchange rates",
+            "HTTPS": true,
+            "Link": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml"
         },
         {
             "API": "Fixer.io",
@@ -944,14 +960,6 @@
             "Description": "Financial services consumer complains data",
             "HTTPS": true,
             "Link": "https://data.consumerfinance.gov/resource/jhzv-w97w.json"
-        },
-        {
-            "API": "Czech National Bank",
-            "Auth": null,
-            "Category": "Finance",
-            "Description": "A collection of exchange rates",
-            "HTTPS": false,
-            "Link": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml"
         },
         {
             "API": "IEX",
