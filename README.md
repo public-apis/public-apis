@@ -33,6 +33,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Geocoding](#geocoding)
 * [Government](#government)
 * [Health](#health)
+* [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Math](#math)
 * [Music](#music)
@@ -359,6 +360,24 @@ API | Description | Auth | HTTPS | Link |
 | openFDA | Public FDA data about drugs, devices, and foods | No | Yes | [Go!](https://open.fda.gov/api/) |
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | Yes | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
 
+### Jobs
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Adzuna | Job board aggregator | `apiKey` | Yes | [Go!](https://developer.adzuna.com/overview) |
+| Authentic Jobs | Job board for designers, hackers, and creative pros | `apiKey` | Yes | [Go!](https://authenticjobs.com/api/docs) |
+| Careerjet | Job search engine | `apiKey` | No | [Go!](https://www.careerjet.com/partners/api/) |
+| Github Jobs | Jobs for software developers | No | Yes | [Go!](https://jobs.github.com/api) |
+| Indeed | Job board aggragator | `apiKey` | Yes | [Go!](https://www.indeed.com/publisher) |
+| Jobs2Careers | Job aggregator | `apiKey` | Yes | [Go!](http://api.jobs2careers.com/api/spec.pdf) |
+| Jooble | Job search engine | `apiKey` | Yes | [Go!](https://us.jooble.org/api/about) |
+| Juju | Job search engine | `apiKey` | No | [Go!](http://www.juju.com/publisher/spec/) |
+| Open Skills | Job titles, skills, and related jobs data | No | No | [Go!](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) |
+| Search.gov Jobs | Tap into a list of current jobs openings with the United States government | No | Yes | [Go!](https://search.gov/developer/jobs.html) |
+| The Muse | Job board and company profiles | `apiKey` | Yes | [Go!](https://www.themuse.com/developers/api/v2) |
+| Upwork | Freelance job board and management system | `OAuth` | Yes | [Go!](https://developers.upwork.com/) |
+| USAJOBS | US government job board | `apiKey` | Yes | [Go!](https://developer.usajobs.gov/) |
+| ZipRecruiter | Job search app and website | `apiKey` | Yes | [Go!](https://www.ziprecruiter.com/publishers) |
+
 ### Machine Learning
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
@@ -430,7 +449,6 @@ API | Description | Auth | HTTPS | Link |
 | Open Government, India | Indian Government Open Data | `apiKey` | Yes | [Go!](https://data.gov.in/) |
 | Open Government, New Zealand | New Zealand Government Open Data | No | Yes | [Go!](https://www.data.govt.nz/) |
 | Open Government, USA | United States Government Open Data | No | Yes | [Go!](https://www.data.gov/) |
-| Open Skills | Job titles, skills, and related jobs data | No | No | [Go!](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) |
 | Outpan | A Database of Everything | `apiKey` | Yes | [Go!](https://outpan.mixnode.com/developers) |
 | Pearson | Dictionary Data | `apiKey` | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
 | Prague Opendata | Prague City Open Data | No | No | [Go!](http://opendata.praha.eu/en) |
