@@ -119,6 +119,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
+| Czech Namedays Calendar | Lookup for a name and returns nameday date | No | No | [Go!](http://svatky.adresa.info/) |
 | Google Calendar | Display, create and modify Google calendar events | `OAuth` | Yes | [Go!](https://developers.google.com/google-apps/calendar/) |
 | Holidays | Historical data regarding holidays | `apiKey` | Yes | [Go!](https://holidayapi.com/) |
 | LectServe | Protestant liturgical calendar | No | No | [Go!](http://www.lectserve.com) |
@@ -156,6 +157,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | 1Forge | Forex currency market data | `apiKey` | Yes | [Go!](https://1forge.com/forex-data-api/api-documentation) |
 | Currencylayer | Exchange rates and currency conversion | `apiKey` | Yes | [Go!](https://currencylayer.com/documentation) |
+| Czech National Bank | A collection of exchange rates | No | Yes | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
 | Fixer.io | Exchange rates and currency conversion | No | Yes | [Go!](http://fixer.io) |
 
 ### Data Validation
@@ -242,7 +244,6 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Barchart OnDemand | Stock, Futures, and Forex Market Data | `apiKey` | Yes | [Go!](https://www.barchartondemand.com/free) |
 | Consumer Financial Protection Bureau | Financial services consumer complains data | `apiKey` | Yes | [Go!](https://data.consumerfinance.gov/resource/jhzv-w97w.json) |
-| Czech National Bank | A collection of exchange rates | No | No | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
 | IEX | Stocks and Market Data | No | Yes | [Go!](https://iextrading.com/developer/) |
 | Razorpay IFSC | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | [Go!](https://ifsc.razorpay.com/) |
 | RoutingNumbers.info | ACH/NACHA Bank Routing Numbers | No | Yes | [Go!](https://www.routingnumbers.info/api/index.html) |
