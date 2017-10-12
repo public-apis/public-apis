@@ -141,7 +141,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | 1Forge | Forex currency market data | `apiKey` | Yes | [Go!](https://1forge.com/forex-data-api/api-documentation) |
 | Currencylayer | Exchange rates and currency conversion | `apiKey` | Yes | [Go!](https://currencylayer.com/documentation) |
-| Czech National Bank | A collection of exchange rates | No | No | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
+| Czech National Bank | A collection of exchange rates | No | Yes | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
 | Fixer.io | Exchange rates and currency conversion | No | Yes | [Go!](http://fixer.io) |
 
 ### Data Validation
