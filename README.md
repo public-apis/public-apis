@@ -211,7 +211,6 @@ API | Description | Auth | HTTPS | Link |
 | RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
 | RandomWord | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
-| Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | [Go!](https://restpack.io/) |
 | RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
 | Scrape Website Email | Grabs email addresses from a URL | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/tommytcchan/scrape-website-email) |
 | SHOUTCLOUD | ALL-CAPS AS A SERVICE | No | No | [Go!](http://shoutcloud.io/) |
@@ -235,6 +234,7 @@ API | Description | Auth | HTTPS | Link |
 | pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
 | Pocket | Bookmarking service | `OAuth` | Yes | [Go!](https://getpocket.com/developer/) |
 | PrexView | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | [Go!](https://prexview.com) |
+| Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | [Go!](https://restpack.io/) |
 | Todoist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.todoist.com) |
 | Wunderlist | Todo Lists | `OAuth` | Yes | [Go!](https://developer.wunderlist.com/documentation) |
 
