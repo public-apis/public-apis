@@ -23,6 +23,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Currency Exchange](#currency-exchange)
 * [Data Validation](#data-validation)
 * [Development](#development)
+* [Dictionaries](#dictionaries)
 * [Documents & Productivity](#documents--productivity)
 * [Environment](#environment)
 * [Events](#events)
@@ -107,6 +108,7 @@ API | Description | Auth | HTTPS | Link |
 ### Business
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Charity Search | Non-profit charity data | `apiKey` | No | [Go!](http://charityapi.orghunter.com/) |
 | Clearbit Logo API | Search for company logos and embed them in your projects | No | Yes | [Go!](https://clearbit.com/docs#logo-api) |
 | Domainsdb.info | Registered Domain Names Search | No | Yes | [Go!](https://domainsdb.info/) |
 | Gmail | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | [Go!](https://developers.google.com/gmail/api/) |
@@ -166,6 +168,7 @@ API | Description | Auth | HTTPS | Link |
 | languagelayer | Language detection | No | Yes | [Go!](https://languagelayer.com) |
 | Lob.com | US Address Verification | `apiKey` | Yes | [Go!](https://lob.com/) |
 | mailboxlayer | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
+| MailTest | Email address validation | No | Yes | [Go!](http://mailtest.in/documentation/) |
 | numverify | Phone number validation | No | Yes | [Go!](https://numverify.com) |
 | PurgoMalum | Content validator against profanity & obscenity | No | No | [Go!](http://www.purgomalum.com) |
 | vatlayer | VAT number validation | No | Yes | [Go!](https://vatlayer.com) |
@@ -188,6 +191,7 @@ API | Description | Auth | HTTPS | Link |
 | Genderize.io | Determines a gender from a first name | No | Yes | [Go!](https://genderize.io) |
 | Github - User Data | Pull public information for a user's github | No | Yes | [Go!](https://api.github.com/users/hackeryou) |
 | Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://github.com/gitterHQ/docs) |
+| Google Speech | Converts audio to text | `OAuth` | Yes | [Go!](https://cloud.google.com/speech/) |
 | HackerRank | Compile source code and run against a set of provided test cases | `apiKey` | Yes | [Go!](https://www.hackerrank.com/api/docs) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
 | import.io | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | [Go!](http://api.docs.import.io/) |
@@ -209,9 +213,19 @@ API | Description | Auth | HTTPS | Link |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
 | Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | [Go!](https://restpack.io/) |
 | RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
+| Scrape Website Email | Grabs email addresses from a URL | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/tommytcchan/scrape-website-email) |
+| SHOUTCLOUD | ALL-CAPS AS A SERVICE | No | No | [Go!](http://shoutcloud.io/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
 | UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
+
+### Dictionaries
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Oxford | Dictionary Data | `apiKey` | Yes | [Go!](https://developer.oxforddictionaries.com/) |
+| Pearson | Dictionary Data | `apiKey` | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
+| Wordnik | Dictionary Data | No | No | [Go!](http://developer.wordnik.com) |
+| Words | Definitions and synonyms for more than 150,000 words | `apiKey` | Yes | [Go!](https://www.wordsapi.com/) |
 
 ### Documents & Productivity
 API | Description | Auth | HTTPS | Link |
@@ -312,6 +326,8 @@ API | Description | Auth | HTTPS | Link |
 | adresse.data.gouv.fr | Address database of France, geocoding, and reverse | No | Yes | [Go!](https://adresse.data.gouv.fr) |
 | Battuta | A (country/region/city) in-cascade location API | `apiKey` | Yes | [Go!](https://battuta.medunes.net) |
 | Bing Maps | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | [Go!](https://www.microsoft.com/maps/) |
+| City Context | Crime, school, and transportation data for US cities | `apiKey` | Yes | [Go!](https://www.citycontext.com/api-reference#/) |
+| CitySDK | Open APIs for select European cities | No | Yes | [Go!](http://www.citysdk.eu/citysdk-toolkit/) |
 | FreeGeoIP | Geolocation of IP addresses | No | Yes | [Go!](https://freegeoip.net/) |
 | GeoApi | French geographical data | No | Yes | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Geocode.xyz | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | [Go!](https://geocode.xyz/) |
@@ -333,6 +349,7 @@ API | Description | Auth | HTTPS | Link |
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
 | Postcodes.io | Postcode lookup & Geolocation for the UK | No | Yes | [Go!](https://postcodes.io) |
 | REST Countries | Get information about countries via a RESTful API | No | Yes | [Go!](https://restcountries.eu) |
+| Uebermaps | Discover and share maps with friends | `apiKey` | Yes | [Go!](https://uebermaps.com/api/v2) |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
 | ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
 | Zippopotam | Get information about place such as country, city, state, etc | No | No | [Go!](http://www.zippopotam.us) |
@@ -395,7 +412,6 @@ API | Description | Auth | HTTPS | Link |
 | Newton | Symbolic and Arithmetic Math Calculator | No | Yes | [Go!](https://newton.now.sh/) |
 | Numbers API | Facts about numbers | No | No | [Go!](http://numbersapi.com) |
 
-
 ### Music
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
@@ -415,6 +431,7 @@ API | Description | Auth | HTTPS | Link |
 | Songsterr | Provides guitar, bass and drums tabs and chords | No | Yes | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | Yes | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | `OAuth` | Yes | [Go!](https://developer.spotify.com/web-api/) |
+| TasteDive | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | [Go!](https://tastedive.com/read/api) |
 | TheAudioDB | Music | `apiKey` | No | [Go!](http://www.theaudiodb.com) |
 | Vagalume | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | [Go!](https://api.vagalume.com.br/docs/) |
 
@@ -451,7 +468,6 @@ API | Description | Auth | HTTPS | Link |
 | Open Government, New Zealand | New Zealand Government Open Data | No | Yes | [Go!](https://www.data.govt.nz/) |
 | Open Government, USA | United States Government Open Data | No | Yes | [Go!](https://www.data.gov/) |
 | Outpan | A Database of Everything | `apiKey` | Yes | [Go!](https://outpan.mixnode.com/developers) |
-| Pearson | Dictionary Data | `apiKey` | No | [Go!](http://developer.pearson.com/apis/dictionaries) |
 | Prague Opendata | Prague City Open Data | No | No | [Go!](http://opendata.praha.eu/en) |
 | Quandl | Stock Market Data | No | Yes | [Go!](https://www.quandl.com/) |
 | Represent by Open North | Find Canadian Government Representatives | No | Yes | [Go!](https://represent.opennorth.ca/) |
@@ -460,8 +476,6 @@ API | Description | Auth | HTTPS | Link |
 | UPC database | More than 1.5 million barcode numbers from all around the world | `apiKey` | Yes | [Go!](https://upcdatabase.org/api) |
 | Wikidata | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | [Go!](https://www.wikidata.org/w/api.php?action=help) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
-| Wordnik | Dictionary Data | No | No | [Go!](http://developer.wordnik.com) |
-| Words | Definitions for more than 150,000 words | `apiKey` | Yes | [Go!](https://www.wordsapi.com/) |
 | Yelp | Find Local Business | `OAuth` | Yes | [Go!](https://www.yelp.com/developers/documentation/v3) |
 
 ### Open Source Projects
@@ -568,6 +582,7 @@ API | Description | Auth | HTTPS | Link |
 | Fitbit | Fitbit Information | `OAuth` | Yes | [Go!](https://dev.fitbit.com/) |
 | Football-Data.org | Football Data | No | No | [Go!](http://api.football-data.org/index) |
 | JCDecaux Bike | JCDecaux's self-service bicycles | `apiKey` | Yes | [Go!](https://developer.jcdecaux.com/) |
+| NBA Stats | Current and historical NBA Statistics | No | Yes | [Go!](https://any-api.com/nba_com/nba_com/docs/API_Description) |
 | NFL Arrests | NFL Arrest Data | No | No | [Go!](http://nflarrest.com/api/) |
 | Pro Motocross | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | [Go!](http://promotocrossapi.com) |
 | Strava | Connect with athletes, activities and more | `OAuth` | Yes | [Go!](https://strava.github.io/api/) |
@@ -598,11 +613,14 @@ API | Description | Auth | HTTPS | Link |
 | Bay Area Rapid Transit | Stations and predicted arrivals for BART | `apiKey` | No | [Go!](http://api.bart.gov) |
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Goibibo | API for travel search | `apiKey` | Yes | [Go!](https://developer.goibibo.com/docs) |
+| GraphHopper | A-to-B routing with turn-by-turn instructions | `apiKey` | Yes | [Go!](https://graphhopper.com/api/1/docs/) |
 | Icelandic APIs | Open APIs that deliver services in or regarding Iceland | No | Yes | [Go!](http://docs.apis.is/) |
 | Indian Railways | Indian Railways Information | `apiKey` | No | [Go!](http://api.erail.in/) |
 | Izi | Audio guide for travellers | `apiKey` | Yes | [Go!](http://api-docs.izi.travel/) |
+| Lyft | Request and lookup ride data | `apiKey` | Yes | [Go!](https://www.lyft.com/developers) |
 | Navitia | The open API for building cool stuff with transport data | `apiKey` | Yes | [Go!](https://api.navitia.io/) |
 | Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
+| REFUGE Restrooms | Provides safe restroom access for transgender, intersex, and gender nonconforming individuals | No | Yes | [Go!](https://www.refugerestrooms.org/api/docs/#!/restrooms) |
 | Schiphol Airport | Schiphol | `apiKey` | Yes | [Go!](https://developer.schiphol.nl/) |
 | TransitLand | Transit Aggregation | No | Yes | [Go!](https://transit.land/documentation/datastore/api-endpoints.html) |
 | Transport for Atlanta, US | Marta | No | No | [Go!](http://www.itsmarta.com/app-developer-resources.aspx) |
@@ -671,6 +689,7 @@ API | Description | Auth | HTTPS | Link |
 | Ron Swanson Quotes | Television | No | Yes | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
 | SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
 | TMDb | Community-based movie data | `apiKey` | Yes | [Go!](https://www.themoviedb.org/documentation/api) |
+| TVDB | Television data | `apiKey` | Yes | [Go!](https://api.thetvdb.com/swagger) |
 | TVMaze | TV Show Data | No | No | [Go!](http://www.tvmaze.com/api) |
 | Vimeo | Vimeo Developer API | `OAuth` | Yes | [Go!](https://developer.vimeo.com/) |
 | YouTube | Add YouTube functionality to your sites and apps | `OAuth` | Yes | [Go!](https://developers.google.com/youtube/) |
@@ -680,6 +699,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Dark Sky | Weather | `apiKey` | Yes | [Go!](https://darksky.net/dev/) |
 | MetaWeather | Weather | No | Yes | [Go!](https://www.metaweather.com/api/) |
+| ODWeather | Weather and weather webcams | No | No | [Go!](http://api.oceandrivers.com/static/docs.html) |
 | OpenWeatherMap | Weather | `apiKey` | No | [Go!](http://openweathermap.org/api) |
 | Weatherbit | Weather | `apiKey` | Yes | [Go!](https://www.weatherbit.io/api) |
 | Wunderground | Weather | `apiKey` | Yes | [Go!](https://www.wunderground.com/weather/api/) |
