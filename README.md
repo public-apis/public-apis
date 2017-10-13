@@ -615,7 +615,6 @@ API | Description | Auth | HTTPS | Link |
 | Icelandic APIs | Open APIs that deliver services in or regarding Iceland | No | Yes | [Go!](http://docs.apis.is/) |
 | Indian Railways | Indian Railways Information | `apiKey` | No | [Go!](http://api.erail.in/) |
 | Izi | Audio guide for travellers | `apiKey` | Yes | [Go!](http://api-docs.izi.travel/) |
-| Lyft | Request and lookup ride data | `apiKey` | Yes | [Go!](https://www.lyft.com/developers) |
 | Navitia | The open API for building cool stuff with transport data | `apiKey` | Yes | [Go!](https://api.navitia.io/) |
 | Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
 | REFUGE Restrooms | Provides safe restroom access for transgender, intersex, and gender nonconforming individuals | No | Yes | [Go!](https://www.refugerestrooms.org/api/docs/#!/restrooms) |
