@@ -36,6 +36,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Math](#math)
+* [Mock Data](#mock-data)
 * [Music](#music)
 * [News](#news)
 * [Open Data](#open-data)
@@ -173,11 +174,9 @@ API | Description | Auth | HTTPS | Link |
 ### Development
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | [Go!](https://apis.guru/api-doc/) |
-| Bacon Ipsum | A Meatier Lorem Ipsum Generator | No | Yes | [Go!](https://baconipsum.com/json-api/) |
 | BetterMeta | Return a site's meta tags in JSON format | X-Mashape-Key | Yes | [Go!](http://bettermeta.io) |
-| Bitbucket - User Data | Pull public information for a user's Bitbucket account | No | Yes | [Go!](https://api.bitbucket.org/2.0/users/karllhughes) |
+| Bitbucket | Pull public information for a Bitbucket account | No | Yes | [Go!](https://api.bitbucket.org/2.0/users/karllhughes) |
 | Browshot | Easily make screenshots of web pages in any screen size, as any device | `apiKey` | Yes | [Go!](https://browshot.com/api/documentation) |
 | CDNJS | Library info on CDNJS | No | Yes | [Go!](https://api.cdnjs.com/libraries/jquery) |
 | Changelogs.md | Structured changelog metadata from open source projects | No | Yes | [Go!](https://changelogs.md) |
@@ -189,28 +188,19 @@ API | Description | Auth | HTTPS | Link |
 | Github - User Data | Pull public information for a user's github | No | Yes | [Go!](https://api.github.com/users/hackeryou) |
 | Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://github.com/gitterHQ/docs) |
 | HackerRank | Compile source code and run against a set of provided test cases | `apiKey` | Yes | [Go!](https://www.hackerrank.com/api/docs) |
-| Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
 | import.io | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | [Go!](http://api.docs.import.io/) |
 | IPify | A simple IP Address API | No | Yes | [Go!](https://www.ipify.org/) |
 | JSON 2 JSONP | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
 | JSONbin.io | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | [Go!](https://jsonbin.io) |
-| JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | Judge0 API | Compile and run source code | No | Yes | [Go!](https://api.judge0.com/) |
 | Kairos | Face Recognition and Emotion Analysis | `apiKey` | Yes | [Go!](https://www.kairos.com/features) |
 | Let's Validate | Uncovers the technologies used on websites and URL to thumbnail | No | Yes | [Go!](https://github.com/letsvalidate/api) |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.liveedu.tv/developer/applications/) |
-| Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
-| Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | Yes | [Go!](https://plino.herokuapp.com/) |
 | Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | [Go!](https://github.com/toddmotto/public-apis/tree/master/json) |
-| RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
-| RandomWord | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
 | Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | [Go!](https://restpack.io/) |
-| RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
-| StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
-| UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
 
 ### Documents & Productivity
@@ -396,6 +386,21 @@ API | Description | Auth | HTTPS | Link |
 | Newton | Symbolic and Arithmetic Math Calculator | No | Yes | [Go!](https://newton.now.sh/) |
 | Numbers API | Facts about numbers | No | No | [Go!](http://numbersapi.com) |
 
+
+### Mock Data
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
+| Bacon Ipsum | A Meatier Lorem Ipsum Generator | No | Yes | [Go!](https://baconipsum.com/json-api/) |
+| Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
+| JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
+| Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
+| Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
+| RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
+| RandomWord | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
+| RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
+| StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
+| UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
 
 ### Music
 API | Description | Auth | HTTPS | Link |
