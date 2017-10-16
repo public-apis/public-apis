@@ -1,5 +1,5 @@
 {
-    "count": 442,
+    "count": 444,
     "entries": [
         {
             "API": "Dogs",
@@ -770,6 +770,14 @@
             "Link": "https://github.com/toddmotto/public-apis/tree/master/json"
         },
         {
+            "API": "QR code",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Generate and decode / read QR code graphics",
+            "HTTPS": true,
+            "Link": "http://goqr.me/api/"
+        },
+        {
             "API": "RandomUser",
             "Auth": null,
             "Category": "Development",
@@ -968,6 +976,14 @@
             "Description": "Stocks and Market Data",
             "HTTPS": true,
             "Link": "https://iextrading.com/developer/"
+        },
+        {
+            "API": "Plaid",
+            "Auth": "apiKey",
+            "Category": "Finance",
+            "Description": "Connect with users\u2019 bank accounts and access transaction data",
+            "HTTPS": true,
+            "Link": "https://plaid.com/"
         },
         {
             "API": "Razorpay IFSC",
