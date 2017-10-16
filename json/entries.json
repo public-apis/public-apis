@@ -1,5 +1,5 @@
 {
-    "count": 442,
+    "count": 443,
     "entries": [
         {
             "API": "Dogs",
@@ -968,6 +968,14 @@
             "Description": "Stocks and Market Data",
             "HTTPS": true,
             "Link": "https://iextrading.com/developer/"
+        },
+        {
+            "API": "Plaid",
+            "Auth": "apiKey",
+            "Category": "Finance",
+            "Description": "Connect with users\u2019 bank accounts and access transaction data",
+            "HTTPS": true,
+            "Link": "https://plaid.com/"
         },
         {
             "API": "Razorpay IFSC",
