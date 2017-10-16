@@ -1,5 +1,5 @@
 {
-    "count": 443,
+    "count": 444,
     "entries": [
         {
             "API": "Dogs",
@@ -522,12 +522,28 @@
             "Link": "https://vatlayer.com"
         },
         {
+            "API": "Adorable Avatars",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Generate random cartoon avatars",
+            "HTTPS": true,
+            "Link": "http://avatars.adorable.io"
+        },
+        {
             "API": "APIs.guru",
             "Auth": null,
             "Category": "Development",
             "Description": "Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs",
             "HTTPS": true,
             "Link": "https://apis.guru/api-doc/"
+        },
+        {
+            "API": "Bacon Ipsum",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "A Meatier Lorem Ipsum Generator",
+            "HTTPS": true,
+            "Link": "https://baconipsum.com/json-api/"
         },
         {
             "API": "BetterMeta",
@@ -538,10 +554,10 @@
             "Link": "http://bettermeta.io"
         },
         {
-            "API": "Bitbucket",
+            "API": "Bitbucket - User Data",
             "Auth": null,
             "Category": "Development",
-            "Description": "Pull public information for a Bitbucket account",
+            "Description": "Pull public information for a user's Bitbucket account",
             "HTTPS": true,
             "Link": "https://api.bitbucket.org/2.0/users/karllhughes"
         },
@@ -634,6 +650,14 @@
             "Link": "https://www.hackerrank.com/api/docs"
         },
         {
+            "API": "Hipster Ipsum",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Generates Hipster Ipsum text",
+            "HTTPS": false,
+            "Link": "http://hipsterjesus.com/"
+        },
+        {
             "API": "import.io",
             "Auth": "apiKey",
             "Category": "Development",
@@ -664,6 +688,14 @@
             "Description": "Free JSON storage service Ideal for small scale Web apps, Websites and Mobile apps",
             "HTTPS": true,
             "Link": "https://jsonbin.io"
+        },
+        {
+            "API": "JSONPlaceholder",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Fake data for testing and prototyping",
+            "HTTPS": false,
+            "Link": "http://jsonplaceholder.typicode.com/"
         },
         {
             "API": "Judge0 API",
@@ -698,6 +730,22 @@
             "Link": "https://www.liveedu.tv/developer/applications/"
         },
         {
+            "API": "Lorem Text",
+            "Auth": "X-Mashape-Key",
+            "Category": "Development",
+            "Description": "Generates Lorem Ipsum text",
+            "HTTPS": true,
+            "Link": "https://market.mashape.com/montanaflynn/lorem-text-generator"
+        },
+        {
+            "API": "Loripsum",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "The \"lorem ipsum\" generator that doesn't suck",
+            "HTTPS": false,
+            "Link": "http://loripsum.net/"
+        },
+        {
             "API": "Myjson",
             "Auth": null,
             "Category": "Development",
@@ -722,6 +770,30 @@
             "Link": "https://github.com/toddmotto/public-apis/tree/master/json"
         },
         {
+            "API": "QR code",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Generate and decode / read QR code graphics",
+            "HTTPS": true,
+            "Link": "http://goqr.me/api/"
+        },
+        {
+            "API": "RandomUser",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Generates random user data",
+            "HTTPS": true,
+            "Link": "https://randomuser.me"
+        },
+        {
+            "API": "RandomWord",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Generate random word",
+            "HTTPS": false,
+            "Link": "http://www.setgetgo.com/randomword/"
+        },
+        {
             "API": "ReqRes",
             "Auth": null,
             "Category": "Development",
@@ -736,6 +808,30 @@
             "Description": "Provides screenshot, HTML to PDF, and content extraction APIs",
             "HTTPS": true,
             "Link": "https://restpack.io/"
+        },
+        {
+            "API": "RoboHash",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Generate random robot/alien avatars",
+            "HTTPS": true,
+            "Link": "https://robohash.org/"
+        },
+        {
+            "API": "StackExchange",
+            "Auth": "OAuth",
+            "Category": "Development",
+            "Description": "Q&A forum for developers",
+            "HTTPS": true,
+            "Link": "https://api.stackexchange.com/"
+        },
+        {
+            "API": "UI Names",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Generate random fake names",
+            "HTTPS": true,
+            "Link": "https://github.com/thm/uinames"
         },
         {
             "API": "Verse",
@@ -1784,94 +1880,6 @@
             "Description": "Facts about numbers",
             "HTTPS": false,
             "Link": "http://numbersapi.com"
-        },
-        {
-            "API": "Adorable Avatars",
-            "Auth": null,
-            "Category": "Mock Data",
-            "Description": "Generate random cartoon avatars",
-            "HTTPS": true,
-            "Link": "http://avatars.adorable.io"
-        },
-        {
-            "API": "Bacon Ipsum",
-            "Auth": null,
-            "Category": "Mock Data",
-            "Description": "A Meatier Lorem Ipsum Generator",
-            "HTTPS": true,
-            "Link": "https://baconipsum.com/json-api/"
-        },
-        {
-            "API": "Hipster Ipsum",
-            "Auth": null,
-            "Category": "Mock Data",
-            "Description": "Generates Hipster Ipsum text",
-            "HTTPS": false,
-            "Link": "http://hipsterjesus.com/"
-        },
-        {
-            "API": "JSONPlaceholder",
-            "Auth": null,
-            "Category": "Mock Data",
-            "Description": "Fake data for testing and prototyping",
-            "HTTPS": false,
-            "Link": "http://jsonplaceholder.typicode.com/"
-        },
-        {
-            "API": "Lorem Text",
-            "Auth": "X-Mashape-Key",
-            "Category": "Mock Data",
-            "Description": "Generates Lorem Ipsum text",
-            "HTTPS": true,
-            "Link": "https://market.mashape.com/montanaflynn/lorem-text-generator"
-        },
-        {
-            "API": "Loripsum",
-            "Auth": null,
-            "Category": "Mock Data",
-            "Description": "The \"lorem ipsum\" generator that doesn't suck",
-            "HTTPS": false,
-            "Link": "http://loripsum.net/"
-        },
-        {
-            "API": "RandomUser",
-            "Auth": null,
-            "Category": "Mock Data",
-            "Description": "Generates random user data",
-            "HTTPS": true,
-            "Link": "https://randomuser.me"
-        },
-        {
-            "API": "RandomWord",
-            "Auth": null,
-            "Category": "Mock Data",
-            "Description": "Generate random word",
-            "HTTPS": false,
-            "Link": "http://www.setgetgo.com/randomword/"
-        },
-        {
-            "API": "RoboHash",
-            "Auth": null,
-            "Category": "Mock Data",
-            "Description": "Generate random robot/alien avatars",
-            "HTTPS": true,
-            "Link": "https://robohash.org/"
-        },
-        {
-            "API": "StackExchange",
-            "Auth": "OAuth",
-            "Category": "Mock Data",
-            "Description": "Q&A forum for developers",
-            "HTTPS": true,
-            "Link": "https://api.stackexchange.com/"
-        },
-        {
-            "API": "UI Names",
-            "Auth": null,
-            "Category": "Mock Data",
-            "Description": "Generate random fake names",
-            "HTTPS": true,
-            "Link": "https://github.com/thm/uinames"
         },
         {
             "API": "Bandsintown",
