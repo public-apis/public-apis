@@ -202,6 +202,7 @@ API | Description | Auth | HTTPS | Link |
 | QR code | Generate and decode / read QR code graphics | No | Yes | [Go!](http://goqr.me/api/) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
 | Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | [Go!](https://restpack.io/) |
+| StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
 
 ### Documents & Productivity
@@ -400,7 +401,6 @@ API | Description | Auth | HTTPS | Link |
 | RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
 | RandomWord | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
 | RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
-| StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
 | UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
 
 ### Music
