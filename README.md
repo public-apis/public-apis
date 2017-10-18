@@ -37,7 +37,6 @@ Please note a passing build status indicates all listed APIs are available since
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Math](#math)
-* [Mock Data](#mock-data)
 * [Music](#music)
 * [News](#news)
 * [Open Data](#open-data)
@@ -50,6 +49,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Shopping](#shopping)
 * [Social](#social)
 * [Sports & Fitness](#sports--fitness)
+* [Test Data](#test-data)
 * [Text Analysis](#text-analysis)
 * [Tracking](#tracking)
 * [Transportation](#transportation)
@@ -404,20 +404,6 @@ API | Description | Auth | HTTPS | Link |
 | Newton | Symbolic and Arithmetic Math Calculator | No | Yes | [Go!](https://newton.now.sh/) |
 | Numbers API | Facts about numbers | No | No | [Go!](http://numbersapi.com) |
 
-### Mock Data
-API | Description | Auth | HTTPS | Link |
-|---|---|---|---|---|
-| Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
-| Bacon Ipsum | A Meatier Lorem Ipsum Generator | No | Yes | [Go!](https://baconipsum.com/json-api/) |
-| Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
-| JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
-| Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
-| Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
-| RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
-| RandomWord | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
-| RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
-| UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
-
 ### Music
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
@@ -596,6 +582,20 @@ API | Description | Auth | HTTPS | Link |
 | TheSportsDB | Crowd-Sourced Sports Data and Artwork | `apiKey` | No | [Go!](http://www.thesportsdb.com) |
 | UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | [Go!](http://ufc-data-api.ufc.com/) |
 | Wger | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | [Go!](https://wger.de/en/software/api) |
+
+### Test Data
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
+| Bacon Ipsum | A Meatier Lorem Ipsum Generator | No | Yes | [Go!](https://baconipsum.com/json-api/) |
+| Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
+| JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
+| Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
+| Loripsum | The "lorem ipsum" generator that doesn't suck | No | No | [Go!](http://loripsum.net/) |
+| RandomUser | Generates random user data | No | Yes | [Go!](https://randomuser.me) |
+| RandomWord | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
+| RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
+| UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
 
 ### Text Analysis
 API | Description | Auth | HTTPS | Link |
