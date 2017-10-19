@@ -1,5 +1,5 @@
 {
-    "count": 457,
+    "count": 458,
     "entries": [
         {
             "API": "Dogs",
@@ -2296,6 +2296,14 @@
             "Description": "Canadian Government Open Data",
             "HTTPS": false,
             "Link": "http://open.canada.ca/en"
+        },
+        {
+            "API": "Open Government, France",
+            "Auth": "apiKey",
+            "Category": "Open Data",
+            "Description": "French Government Open Data",
+            "HTTPS": true,
+            "Link": "https://www.data.gouv.fr/"
         },
         {
             "API": "Open Government, India",
