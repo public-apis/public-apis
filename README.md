@@ -476,7 +476,7 @@ API | Description | Auth | HTTPS | Link |
 | Gfycat | Jiffier GIFs | `OAuth` | Yes | [Go!](https://developers.gfycat.com/api/) |
 | Giphy | Get all your gifs | No | Yes | [Go!](https://github.com/Giphy/GiphyAPI) |
 | Imgur | Images | `OAuth` | Yes | [Go!](https://apidocs.imgur.com/) |
-| PiXhost | Upload images, photos, galleries | No | Yes | [Go!](https://pixhost.org/api/index.html)
+| PiXhost | Upload images, photos, galleries | No | Yes | [Go!](https://pixhost.org/api/index.html) |
 | PlaceKitten | Resizable kitten placeholder images | No | Yes | [Go!](https://placekitten.com/) |
 | ScreenShotLayer | URL 2 Image | No | Yes | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | `OAuth` | Yes | [Go!](https://unsplash.com/developers) |
