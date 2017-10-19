@@ -417,12 +417,12 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Bandsintown | Music Events | No | Yes | [Go!](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) |
-| Deezer | Music | `OAuth` | No | [Go!](http://developers.deezer.com/login?redirect=/api) |
+| Deezer | Music | `OAuth` | Yes | [Go!](https://developers.deezer.com/api) |
 | Discogs | Music | `OAuth` | Yes | [Go!](https://www.discogs.com/developers/) |
 | Genius | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | [Go!](https://docs.genius.com/) |
 | iTunes Search | Software products | No | Yes | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 | Jamendo | Music | `OAuth` | Yes | [Go!](https://developer.jamendo.com/v3.0) |
-| LastFm | Music | `apiKey` | No | [Go!](http://www.last.fm/api) |
+| LastFm | Music | `apiKey` | Yes | [Go!](https://www.last.fm/api) |
 | Lyrics.ovh | Simple API to retrieve the lyrics of a song | No | Yes | [Go!](http://docs.lyricsovh.apiary.io/) |
 | Mixcloud | Music | `OAuth` | Yes | [Go!](https://www.mixcloud.com/developers/) |
 | MusicBrainz | Music | No | Yes | [Go!](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) |
