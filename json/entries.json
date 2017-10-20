@@ -1,5 +1,5 @@
 {
-    "count": 459,
+    "count": 460,
     "entries": [
         {
             "API": "Dogs",
@@ -2488,6 +2488,14 @@
             "Description": "Images",
             "HTTPS": true,
             "Link": "https://apidocs.imgur.com/"
+        },
+        {
+            "API": "Pixabay",
+            "Auth": "apiKey",
+            "Category": "Photography",
+            "Description": "Photography",
+            "HTTPS": true,
+            "Link": "https://pixabay.com/sk/service/about/api/"
         },
         {
             "API": "PlaceKitten",
