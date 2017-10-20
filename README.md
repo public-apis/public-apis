@@ -537,6 +537,11 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | eBay | Sell and Buy on eBay | `OAuth` | Yes | [Go!](https://go.developer.ebay.com/) |
+| Shopify | The Future of Commerce - Built by You | `OAuth` | Yes | [Go!](https://developers.shopify.com/) |
+| Etsy | The Etsy API provides a simple RESTful interface with lightweight JSON-formatted responses to use many of Etsy's website features, including public profiles, shops, listings, tags, favorites, and sales data. | `OAuth` | Yes | [Go!](https://www.etsy.com/developers/documentation/getting_started/api_basics) |
+
+
+
 
 ### Social
 API | Description | Auth | HTTPS | Link |
