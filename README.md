@@ -250,6 +250,7 @@ API | Description | Auth | HTTPS | Link |
 | Barchart OnDemand | Stock, Futures, and Forex Market Data | `apiKey` | Yes | [Go!](https://www.barchartondemand.com/free) |
 | Consumer Financial Protection Bureau | Financial services consumer complains data | `apiKey` | Yes | [Go!](https://data.consumerfinance.gov/resource/jhzv-w97w.json) |
 | IEX | Stocks and Market Data | No | Yes | [Go!](https://iextrading.com/developer/) |
+| IG | Spreadbetting and CFD Market Data | `apiKey` | Yes | [Go!](https://labs.ig.com/gettingstarted) |
 | Plaid | Connect with users’ bank accounts and access transaction data | apiKey | Yes | [Go!](https://plaid.com/) |
 | Razorpay IFSC | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | [Go!](https://ifsc.razorpay.com/) |
 | RoutingNumbers.info | ACH/NACHA Bank Routing Numbers | No | Yes | [Go!](https://www.routingnumbers.info/api/index.html) |
