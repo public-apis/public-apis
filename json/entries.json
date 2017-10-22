@@ -1,5 +1,5 @@
 {
-    "count": 460,
+    "count": 461,
     "entries": [
         {
             "API": "Dogs",
@@ -960,6 +960,14 @@
             "Description": "Stocks and Market Data",
             "HTTPS": true,
             "Link": "https://iextrading.com/developer/"
+        },
+        {
+            "API": "IG",
+            "Auth": "apiKey",
+            "Category": "Finance",
+            "Description": "Spreadbetting and CFD Market Data",
+            "HTTPS": true,
+            "Link": "https://labs.ig.com/gettingstarted"
         },
         {
             "API": "Plaid",
