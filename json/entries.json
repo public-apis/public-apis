@@ -1,5 +1,5 @@
 {
-    "count": 461,
+    "count": 462,
     "entries": [
         {
             "API": "Dogs",
@@ -2400,6 +2400,14 @@
             "Description": "JSON API for hand curated Chuck Norris jokes",
             "HTTPS": true,
             "Link": "https://api.chucknorris.io"
+        },
+        {
+            "API": "FavQs.com",
+            "Auth": "apiKey",
+            "Category": "Personality",
+            "Description": "FavQs allows you to collect, discover, and share your favorite quotes",
+            "HTTPS": true,
+            "Link": "https://favqs.com/api"
         },
         {
             "API": "Forismatic",
