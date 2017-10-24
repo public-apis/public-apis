@@ -594,6 +594,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Adorable Avatars | Generate random cartoon avatars | No | Yes | [Go!](http://avatars.adorable.io) |
 | Bacon Ipsum | A Meatier Lorem Ipsum Generator | No | Yes | [Go!](https://baconipsum.com/json-api/) |
+| FHIR | Fast Healthcare Interoperability Resources test data | No | Yes | [Go!](http://fhirtest.uhn.ca/home) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
 | Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
