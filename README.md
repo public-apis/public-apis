@@ -363,6 +363,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | BetterDoctor | Detailed information about doctors in your area | `apiKey` | Yes | [Go!](https://developer.betterdoctor.com/) |
 | Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api/) |
+| FHIR | Fast Healthcare Interoperability Resources test data | No | Yes | [Go!](http://fhirtest.uhn.ca/home) |
 | Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
 | Healthcare.gov | Educational content about the US Health Insurance Marketplace | No | Yes | [Go!](https://www.healthcare.gov/developers/) |
 | Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
