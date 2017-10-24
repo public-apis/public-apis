@@ -1,5 +1,5 @@
 {
-    "count": 463,
+    "count": 464,
     "entries": [
         {
             "API": "Dogs",
@@ -3000,6 +3000,14 @@
             "Description": "A Meatier Lorem Ipsum Generator",
             "HTTPS": true,
             "Link": "https://baconipsum.com/json-api/"
+        },
+        {
+            "API": "FHIR",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "Fast Healthcare Interoperability Resources test data",
+            "HTTPS": true,
+            "Link": "http://fhirtest.uhn.ca/home"
         },
         {
             "API": "Hipster Ipsum",
