@@ -509,6 +509,7 @@ API | Description | Auth | HTTPS | Link |
 | Giphy | Get all your gifs | No | Yes | [Go!](https://github.com/Giphy/GiphyAPI) |
 | Imgur | Images | `OAuth` | Yes | [Go!](https://apidocs.imgur.com/) |
 | Pixabay | Photography | `apiKey` | Yes | [Go!](https://pixabay.com/sk/service/about/api/) |
+| Pixhost | Upload images, photos, galleries | No | Yes | [Go!](https://pixhost.org/api/index.html) |
 | PlaceKitten | Resizable kitten placeholder images | No | Yes | [Go!](https://placekitten.com/) |
 | ScreenShotLayer | URL 2 Image | No | Yes | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | `OAuth` | Yes | [Go!](https://unsplash.com/developers) |
