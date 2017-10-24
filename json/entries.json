@@ -1,5 +1,5 @@
 {
-    "count": 462,
+    "count": 463,
     "entries": [
         {
             "API": "Dogs",
@@ -2512,6 +2512,14 @@
             "Description": "Photography",
             "HTTPS": true,
             "Link": "https://pixabay.com/sk/service/about/api/"
+        },
+        {
+            "API": "Pixhost",
+            "Auth": null,
+            "Category": "Photography",
+            "Description": "Upload images, photos, galleries",
+            "HTTPS": true,
+            "Link": "https://pixhost.org/api/index.html"
         },
         {
             "API": "PlaceKitten",
