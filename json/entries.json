@@ -1,5 +1,5 @@
 {
-    "count": 464,
+    "count": 465,
     "entries": [
         {
             "API": "Dogs",
@@ -1320,6 +1320,14 @@
             "Description": "E-sports games and results",
             "HTTPS": true,
             "Link": "https://api.pandascore.co"
+        },
+        {
+            "API": "PlayerUnknown's Battlegrounds",
+            "Auth": "apiKey",
+            "Category": "Games & Comics",
+            "Description": "PUBG Stats",
+            "HTTPS": true,
+            "Link": "https://pubgtracker.com/site-api"
         },
         {
             "API": "Pok\u00e9api",
