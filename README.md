@@ -308,6 +308,7 @@ API | Description | Auth | HTTPS | Link |
 | Marvel | Marvel Comics | `apiKey` | No | [Go!](http://developer.marvel.com) |
 | Open Trivia | Trivia Questions | No | Yes | [Go!](https://opentdb.com/api_config.php) |
 | PandaScore | E-sports games and results | `apiKey` | Yes | [Go!](https://api.pandascore.co) |
+| PlayerUnknown's Battlegrounds | PUBG Stats | `apiKey` | Yes | [Go!](https://pubgtracker.com/site-api) |
 | Pokéapi | Pokémon Information | No | No | [Go!](http://pokeapi.co) |
 | Qriusity | Quiz/Trivia Questions | No | Yes | [Go!](https://qriusity.com/) |
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
