@@ -9,3 +9,7 @@ To ensure your PR is dealt with swiftly please check the following:
 - [ ] Each table column should be padded with one space on either side.
 - [ ] You have searched the repository for any relevant issues or PRs.
 - [ ] Any category you are creating has the minimum requirement of 3 items.
+
+During the discussion, you may be asked to make some changes to your pull request. 
+
+If so, the reviewer will add a *Contributor input required* label to the Pull Request. After you make the requested changes, please remove the label so the reviewer knows that you are ready for another review. 
