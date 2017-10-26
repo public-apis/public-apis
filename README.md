@@ -394,9 +394,9 @@ API | Description | Auth | HTTPS | Link |
 ### Machine Learning
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| API.AI | Natural Language Processing | `apiKey` | Yes | [Go!](https://api.ai/) |
 | Clarifai | Computer Vision | `OAuth` | Yes | [Go!](https://developer.clarifai.com/) |
 | Cleverbot | Web chat bot | `apiKey` | Yes | [Go!](https://www.cleverbot.com/api/) |
+| Dialogflow | Natural Language Processing | `apiKey` | Yes | [Go!](https://dialogflow.com) |
 | Keen IO | Data Analytics | `apiKey` | Yes | [Go!](https://keen.io/) |
 | Unplugg | Forecasting API for timeseries data | `apiKey` | Yes | [Go!](https://unplu.gg/test_api.html) |
 | Wit.ai | Natural Language Processing | `OAuth` | Yes | [Go!](https://wit.ai/) |
