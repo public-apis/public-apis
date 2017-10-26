@@ -20,7 +20,7 @@ fi
 
 echo "checking if /json was changed..."
 egrep "\+{3}\s.\/json\/" diff.txt > json.txt
-if [[$? == 0]]; then
+if [ $? -eq 0 ]; then
     echo "JSON files are auto-generated! Please do not update these files:"
     cat json.txt
     exit 1
