@@ -698,10 +698,10 @@ API | Description | Auth | HTTPS | Link |
 | Czech Television | TV programme of Czech TV | No | No | [Go!](http://www.ceskatelevize.cz/xml/tv-program/) |
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | [Go!](https://developer.dailymotion.com/) |
 | Netflix Roulette | Netflix database | No | Yes | [Go!](https://netflixroulette.net/api/) |
+| OMDb | The Open Movie Database | `apiKey` | No | [Go!](http://www.omdbapi.com/) |
 | Ron Swanson Quotes | Television | No | Yes | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
 | SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
 | TMDb | Community-based movie data | `apiKey` | Yes | [Go!](https://www.themoviedb.org/documentation/api) |
-| OMDb | The Open Movie Database | `apiKey` | No | [Go!](http://www.omdbapi.com/) |
 | TVDB | Television data | `apiKey` | Yes | [Go!](https://api.thetvdb.com/swagger) |
 | TVMaze | TV Show Data | No | No | [Go!](http://www.tvmaze.com/api) |
 | Vimeo | Vimeo Developer API | `OAuth` | Yes | [Go!](https://developer.vimeo.com/) |
