@@ -29,6 +29,17 @@ else
 
 fi
 
+echo "checking if /json was changed..."
+egrep "\+{3}\s.\/json\/" diff.txt > json.txt
+if [[$? == 0]]; then
+    echo "JSON files are auto-generated! Please do not update these files:"
+    cat json.txt
+    exit 1
+else
+    echo "/json check passed!"
+    rm json.txt
+fi
+
 echo "running format validation..."
 ./validate_format.rb $FORMAT_FILE
 if [[ $? != 0 ]]; then
