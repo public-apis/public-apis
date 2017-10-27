@@ -569,6 +569,7 @@ API | Description | Auth | HTTPS | Link |
 | Twitch | Game Streaming API | `OAuth` | Yes | [Go!](https://dev.twitch.tv/docs) |
 | Twitter | Read and write Twitter data | `OAuth` | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | vk | Read and write vk data | `OAuth` | Yes | [Go!](https://vk.com/dev/sites) |
+| microlink.io | Turns any link into information | No | Yes | [Go!](https://docs.microlink.io) |
 
 ### Sports & Fitness
 API | Description | Auth | HTTPS | Link |
