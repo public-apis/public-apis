@@ -558,6 +558,7 @@ API | Description | Auth | HTTPS | Link |
 | Instagram | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | [Go!](https://www.instagram.com/developer/) |
 | LinkedIn | The foundation of all digital integrations with LinkedIn | `OAuth` | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
 | Meetup.com | Data about Meetups from Meetup.com | `apiKey` | Yes | [Go!](https://www.meetup.com/meetup_api/) |
+| microlink.io | Turns any link into information | No | Yes | [Go!](https://docs.microlink.io) |
 | Pinterest | The world's catalog of ideas | `OAuth` | Yes | [Go!](https://developers.pinterest.com/) |
 | PWRTelegram bot | Boosted version of the Telegram bot API | `OAuth` | Yes | [Go!](https://pwrtelegram.xyz) |
 | Reddit | Homepage of the internet | `OAuth` | Yes | [Go!](https://www.reddit.com/dev/api) |
@@ -569,7 +570,6 @@ API | Description | Auth | HTTPS | Link |
 | Twitch | Game Streaming API | `OAuth` | Yes | [Go!](https://dev.twitch.tv/docs) |
 | Twitter | Read and write Twitter data | `OAuth` | Yes | [Go!](https://dev.twitter.com/rest/public) |
 | vk | Read and write vk data | `OAuth` | Yes | [Go!](https://vk.com/dev/sites) |
-| microlink.io | Turns any link into information | No | Yes | [Go!](https://docs.microlink.io) |
 
 ### Sports & Fitness
 API | Description | Auth | HTTPS | Link |
