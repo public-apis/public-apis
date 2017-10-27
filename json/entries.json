@@ -1,5 +1,5 @@
 {
-    "count": 465,
+    "count": 466,
     "entries": [
         {
             "API": "Dogs",
@@ -936,6 +936,14 @@
             "Description": "Search events, attractions, or venues",
             "HTTPS": true,
             "Link": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/"
+        },
+        {
+            "API": "Alpha Vantage",
+            "Auth": "apiKey",
+            "Category": "Finance",
+            "Description": "Realtime and historical stock data",
+            "HTTPS": true,
+            "Link": "https://www.alphavantage.co/"
         },
         {
             "API": "Barchart OnDemand",
