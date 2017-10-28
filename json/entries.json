@@ -1,5 +1,5 @@
 {
-    "count": 466,
+    "count": 467,
     "entries": [
         {
             "API": "Dogs",
@@ -2232,6 +2232,14 @@
             "Description": "Marijuana strains, races, flavors, and effects",
             "HTTPS": false,
             "Link": "http://strains.evanbusse.com/"
+        },
+        {
+            "API": "Microlink.io",
+            "Auth": null,
+            "Category": "Open Data",
+            "Description": "Turns any link into information",
+            "HTTPS": true,
+            "Link": "https://docs.microlink.io"
         },
         {
             "API": "Open Government, Australia",
