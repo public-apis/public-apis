@@ -1858,14 +1858,6 @@
             "Link": "https://www.ziprecruiter.com/publishers"
         },
         {
-            "API": "API.AI",
-            "Auth": "apiKey",
-            "Category": "Machine Learning",
-            "Description": "Natural Language Processing",
-            "HTTPS": true,
-            "Link": "https://api.ai/"
-        },
-        {
             "API": "Clarifai",
             "Auth": "OAuth",
             "Category": "Machine Learning",
@@ -1880,6 +1872,14 @@
             "Description": "Web chat bot",
             "HTTPS": true,
             "Link": "https://www.cleverbot.com/api/"
+        },
+        {
+            "API": "Dialogflow",
+            "Auth": "apiKey",
+            "Category": "Machine Learning",
+            "Description": "Natural Language Processing",
+            "HTTPS": true,
+            "Link": "https://dialogflow.com"
         },
         {
             "API": "Keen IO",
