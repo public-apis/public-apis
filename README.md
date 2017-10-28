@@ -457,6 +457,7 @@ API | Description | Auth | HTTPS | Link |
 | fonoApi | Mobile Device Description | No | Yes | [Go!](https://fonoapi.freshpixl.com/) |
 | French Address Search | French Government | No | Yes | [Go!](https://adresse.data.gouv.fr/api) |
 | Marijuana Strains | Marijuana strains, races, flavors, and effects | `apiKey` | No | [Go!](http://strains.evanbusse.com/) |
+| Microlink.io | Turns any link into information | No | Yes | [Go!](https://docs.microlink.io) |
 | Open Government, Australia | Australian Government Open Data | No | Yes | [Go!](https://www.data.gov.au/) |
 | Open Government, Canada | Canadian Government Open Data | No | No | [Go!](http://open.canada.ca/en) |
 | Open Government, France | French Government Open Data | `apiKey` | Yes | [Go!](https://www.data.gouv.fr/) |
@@ -558,7 +559,6 @@ API | Description | Auth | HTTPS | Link |
 | Instagram | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | [Go!](https://www.instagram.com/developer/) |
 | LinkedIn | The foundation of all digital integrations with LinkedIn | `OAuth` | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
 | Meetup.com | Data about Meetups from Meetup.com | `apiKey` | Yes | [Go!](https://www.meetup.com/meetup_api/) |
-| microlink.io | Turns any link into information | No | Yes | [Go!](https://docs.microlink.io) |
 | Pinterest | The world's catalog of ideas | `OAuth` | Yes | [Go!](https://developers.pinterest.com/) |
 | PWRTelegram bot | Boosted version of the Telegram bot API | `OAuth` | Yes | [Go!](https://pwrtelegram.xyz) |
 | Reddit | Homepage of the internet | `OAuth` | Yes | [Go!](https://www.reddit.com/dev/api) |
