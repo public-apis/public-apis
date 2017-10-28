@@ -458,6 +458,7 @@ API | Description | Auth | HTTPS | Link |
 | fonoApi | Mobile Device Description | No | Yes | [Go!](https://fonoapi.freshpixl.com/) |
 | French Address Search | French Government | No | Yes | [Go!](https://adresse.data.gouv.fr/api) |
 | Marijuana Strains | Marijuana strains, races, flavors, and effects | `apiKey` | No | [Go!](http://strains.evanbusse.com/) |
+| Microlink.io | Turns any link into information | No | Yes | [Go!](https://docs.microlink.io) |
 | Open Government, Australia | Australian Government Open Data | No | Yes | [Go!](https://www.data.gov.au/) |
 | Open Government, Canada | Canadian Government Open Data | No | No | [Go!](http://open.canada.ca/en) |
 | Open Government, France | French Government Open Data | `apiKey` | Yes | [Go!](https://www.data.gouv.fr/) |
