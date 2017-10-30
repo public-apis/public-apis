@@ -652,6 +652,7 @@ API | Description | Auth | HTTPS | Link |
 | SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
 | TMDb | Community-based movie data | `apiKey` | Yes | [Go!](https://www.themoviedb.org/documentation/api) |
 | TVMaze | TV Show Data | No | No | [Go!](http://www.tvmaze.com/api) |
+| utelly | Check where a tv show or movie is available | `X-Mashape-Key` | No | [Go!](https://market.mashape.com/utelly/utelly) |
 | Vimeo | Vimeo Developer API | `OAuth` | Yes | [Go!](https://developer.vimeo.com/) |
 | YouTube | Add YouTube functionality to your sites and apps | `OAuth` | Yes | [Go!](https://developers.google.com/youtube/) |
 
