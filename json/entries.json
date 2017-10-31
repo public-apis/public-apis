@@ -541,7 +541,7 @@
             "API": "ApiLeap",
             "Auth": "apiKey",
             "Category": "Development",
-            "Description": "Chrome based screenshot API to make images from web pages and HTML",
+            "Description": "Make screenshots from web pages and HTML",
             "HTTPS": true,
             "Link": "https://apileap.com/"
         },
