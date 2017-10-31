@@ -1,5 +1,5 @@
 {
-    "count": 468,
+    "count": 469,
     "entries": [
         {
             "API": "Dogs",
@@ -2288,6 +2288,14 @@
             "Description": "New Zealand Government Open Data",
             "HTTPS": true,
             "Link": "https://www.data.govt.nz/"
+        },
+        {
+            "API": "Open Government, Taiwan",
+            "Auth": null,
+            "Category": "Open Data",
+            "Description": "Taiwan Government Open Data",
+            "HTTPS": true,
+            "Link": "https://data.gov.tw/"
         },
         {
             "API": "Open Government, USA",
