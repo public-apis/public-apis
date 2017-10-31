@@ -1,5 +1,5 @@
 {
-    "count": 467,
+    "count": 468,
     "entries": [
         {
             "API": "Dogs",
@@ -536,6 +536,14 @@
             "Description": "VAT number validation",
             "HTTPS": true,
             "Link": "https://vatlayer.com"
+        },
+        {
+            "API": "ApiLeap",
+            "Auth": "apiKey",
+            "Category": "Development",
+            "Description": "Chrome based screenshot API to make images from web pages and HTML",
+            "HTTPS": true,
+            "Link": "https://apileap.com/"
         },
         {
             "API": "APIs.guru",
