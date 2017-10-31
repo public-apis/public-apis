@@ -177,7 +177,7 @@ API | Description | Auth | HTTPS | Link |
 ### Development
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| ApiLeap | Chrome based screenshot API to make images from web pages and HTML | `apiKey` | Yes | [Go!](https://apileap.com/) |
+| ApiLeap | Make screenshots from web pages and HTML | `apiKey` | Yes | [Go!](https://apileap.com/) |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | [Go!](https://apis.guru/api-doc/) |
 | BetterMeta | Return a site's meta tags in JSON format | X-Mashape-Key | Yes | [Go!](http://bettermeta.io) |
 | Bitbucket | Pull public information for a Bitbucket account | No | Yes | [Go!](https://api.bitbucket.org/2.0/users/karllhughes) |
