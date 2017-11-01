@@ -1,5 +1,5 @@
 {
-    "count": 469,
+    "count": 470,
     "entries": [
         {
             "API": "Dogs",
@@ -2536,6 +2536,14 @@
             "Description": "Get all your gifs",
             "HTTPS": true,
             "Link": "https://github.com/Giphy/GiphyAPI"
+        },
+        {
+            "API": "Gyazo",
+            "Auth": "apiKey",
+            "Category": "Photography",
+            "Description": "Upload images",
+            "HTTPS": true,
+            "Link": "https://gyazo.com/api/docs"
         },
         {
             "API": "Imgur",
