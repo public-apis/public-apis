@@ -325,6 +325,7 @@ API | Description | Auth | HTTPS | Link |
 | Bing Maps | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | [Go!](https://www.microsoft.com/maps/) |
 | City Context | Crime, school, and transportation data for US cities | `apiKey` | Yes | [Go!](https://www.citycontext.com/api-reference#/) |
 | CitySDK | Open APIs for select European cities | No | Yes | [Go!](http://www.citysdk.eu/citysdk-toolkit/) |
+| Daum Maps | Daum Maps provide multiple APIs for Korean maps | `apiKey` | No | [Go!](http://apis.map.daum.net/) |
 | FreeGeoIP | Geolocation of IP addresses | No | Yes | [Go!](https://freegeoip.net/) |
 | GeoApi | French geographical data | No | Yes | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Geocode.xyz | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | [Go!](https://geocode.xyz/) |
@@ -368,6 +369,7 @@ API | Description | Auth | HTTPS | Link |
 | Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api/) |
 | Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
 | Healthcare.gov | Educational content about the US Health Insurance Marketplace | No | Yes | [Go!](https://www.healthcare.gov/developers/) |
+| Lexigram | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | Yes | [Go!](https://docs.lexigram.io/v1/welcome) |
 | Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Medicare | Access to the data from the CMS - medicare.gov | No | Yes | [Go!](https://data.medicare.gov/developers) |
 | NPPES | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | [Go!](https://npiregistry.cms.hhs.gov/registry/help-api) |
