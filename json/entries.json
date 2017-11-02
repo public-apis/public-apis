@@ -1,5 +1,5 @@
 {
-    "count": 472,
+    "count": 473,
     "entries": [
         {
             "API": "Dogs",
@@ -2736,6 +2736,14 @@
             "Description": "Sell and Buy on eBay",
             "HTTPS": true,
             "Link": "https://go.developer.ebay.com/"
+        },
+        {
+            "API": "Wal-Mart",
+            "Auth": "apiKey",
+            "Category": "Shopping",
+            "Description": "Item price and availability",
+            "HTTPS": true,
+            "Link": "https://developer.walmartlabs.com/docs"
         },
         {
             "API": "Buffer",
