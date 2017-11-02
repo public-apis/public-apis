@@ -369,8 +369,8 @@ API | Description | Auth | HTTPS | Link |
 | Diabetes | Logging and retrieving diabetes information | No | No | [Go!](http://predictbgl.com/api/) |
 | Flutrack | Influenza-like symptoms with geotracking | No | No | [Go!](http://www.flutrack.org/) |
 | Healthcare.gov | Educational content about the US Health Insurance Marketplace | No | Yes | [Go!](https://www.healthcare.gov/developers/) |
-| Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Lexigram | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | Yes | [Go!](https://docs.lexigram.io/v1/welcome) |
+| Makeup | Makeup Information | No | No | [Go!](http://makeup-api.herokuapp.com/) |
 | Medicare | Access to the data from the CMS - medicare.gov | No | Yes | [Go!](https://data.medicare.gov/developers) |
 | NPPES | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | [Go!](https://npiregistry.cms.hhs.gov/registry/help-api) |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` | Yes | [Go!](https://developer.nutritionix.com/) |
