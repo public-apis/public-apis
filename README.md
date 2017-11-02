@@ -325,7 +325,7 @@ API | Description | Auth | HTTPS | Link |
 | Bing Maps | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | [Go!](https://www.microsoft.com/maps/) |
 | City Context | Crime, school, and transportation data for US cities | `apiKey` | Yes | [Go!](https://www.citycontext.com/api-reference#/) |
 | CitySDK | Open APIs for select European cities | No | Yes | [Go!](http://www.citysdk.eu/citysdk-toolkit/) |
-| Daum Maps |  Daum Maps provide multiple APIs for Korean maps | `apiKey` | No | [Go!](http://apis.map.daum.net/) |
+| Daum Maps | Daum Maps provide multiple APIs for Korean maps | `apiKey` | No | [Go!](http://apis.map.daum.net/) |
 | FreeGeoIP | Geolocation of IP addresses | No | Yes | [Go!](https://freegeoip.net/) |
 | GeoApi | French geographical data | No | Yes | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Geocode.xyz | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | [Go!](https://geocode.xyz/) |
