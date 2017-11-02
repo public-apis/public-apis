@@ -549,6 +549,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | eBay | Sell and Buy on eBay | `OAuth` | Yes | [Go!](https://go.developer.ebay.com/) |
 | Wal-Mart | Item price and availability | `apiKey` | Yes | [Go!](https://developer.walmartlabs.com/docs) |
+| Best Buy | Products, Buying Options, Categories, Recommendations, Stores, and Commerce | `apiKey` | Yes | [Go!](https://bestbuyapis.github.io/api-documentation/#overview) |
 
 ### Social
 API | Description | Auth | HTTPS | Link |
