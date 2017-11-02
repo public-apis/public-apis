@@ -1,5 +1,5 @@
 {
-    "count": 470,
+    "count": 472,
     "entries": [
         {
             "API": "Dogs",
@@ -1426,6 +1426,14 @@
             "Link": "http://www.citysdk.eu/citysdk-toolkit/"
         },
         {
+            "API": "Daum Maps",
+            "Auth": "apiKey",
+            "Category": "Geocoding",
+            "Description": "Daum Maps provide multiple APIs for Korean maps",
+            "HTTPS": false,
+            "Link": "http://apis.map.daum.net/"
+        },
+        {
             "API": "FreeGeoIP",
             "Auth": null,
             "Category": "Geocoding",
@@ -1704,6 +1712,14 @@
             "Description": "Educational content about the US Health Insurance Marketplace",
             "HTTPS": true,
             "Link": "https://www.healthcare.gov/developers/"
+        },
+        {
+            "API": "Lexigram",
+            "Auth": "apiKey",
+            "Category": "Health",
+            "Description": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology",
+            "HTTPS": true,
+            "Link": "https://docs.lexigram.io/v1/welcome"
         },
         {
             "API": "Makeup",
