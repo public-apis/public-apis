@@ -205,7 +205,6 @@ API | Description | Auth | HTTPS | Link |
 | Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | [Go!](https://github.com/toddmotto/public-apis/tree/master/json) |
 | QR code | Generate and decode / read QR code graphics | No | Yes | [Go!](http://goqr.me/api/) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
-| RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
 | Scrape Website Email | Grabs email addresses from a URL | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/tommytcchan/scrape-website-email) |
 | SHOUTCLOUD | ALL-CAPS AS A SERVICE | No | No | [Go!](http://shoutcloud.io/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
