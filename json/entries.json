@@ -1,5 +1,5 @@
 {
-    "count": 473,
+    "count": 472,
     "entries": [
         {
             "API": "Dogs",
@@ -760,14 +760,6 @@
             "Description": "A hosted REST-API ready to respond to your AJAX requests",
             "HTTPS": true,
             "Link": "https://reqres.in/ "
-        },
-        {
-            "API": "RoboHash",
-            "Auth": null,
-            "Category": "Development",
-            "Description": "Generate random robot/alien avatars",
-            "HTTPS": true,
-            "Link": "https://robohash.org/"
         },
         {
             "API": "Scrape Website Email",
