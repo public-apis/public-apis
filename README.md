@@ -359,6 +359,7 @@ API | Description | Auth | HTTPS | Link |
 | Census.gov | The US Census Bureau provides various APIs and data sets on demographics and businesses | No | Yes | [Go!](https://www.census.gov/data/developers/data-sets.html) |
 | EPA | Web services and data sets from the US Environmental Protection Agency | No | Yes | [Go!](https://developer.epa.gov/category/api/) |
 | FEC | Information on campaign donations in federal elections | `apiKey` | Yes | [Go!](https://api.open.fec.gov/developers/) |
+| Food Standards Agency | UK food hygiene rating data API | No | No | [Go!](http://ratings.food.gov.uk/open-data/en-GB) |
 | Regulations.gov | Regulations.gov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process | `apiKey` | Yes | [Go!](https://regulationsgov.github.io/developers/) |
 
 ### Health
