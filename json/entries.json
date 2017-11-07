@@ -1,5 +1,5 @@
 {
-    "count": 473,
+    "count": 474,
     "entries": [
         {
             "API": "Dogs",
@@ -1664,6 +1664,14 @@
             "Description": "Information on campaign donations in federal elections",
             "HTTPS": true,
             "Link": "https://api.open.fec.gov/developers/"
+        },
+        {
+            "API": "Food Standards Agency",
+            "Auth": null,
+            "Category": "Government",
+            "Description": "UK food hygiene rating data API",
+            "HTTPS": false,
+            "Link": "http://ratings.food.gov.uk/open-data/en-GB"
         },
         {
             "API": "Regulations.gov",
