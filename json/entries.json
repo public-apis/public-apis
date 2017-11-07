@@ -1,5 +1,5 @@
 {
-    "count": 472,
+    "count": 473,
     "entries": [
         {
             "API": "Dogs",
@@ -2720,6 +2720,14 @@
             "Description": "UK Police data",
             "HTTPS": true,
             "Link": "https://data.police.uk/docs/"
+        },
+        {
+            "API": "Best Buy",
+            "Auth": "apiKey",
+            "Category": "Shopping",
+            "Description": "Products, Buying Options, Categories, Recommendations, Stores, and Commerce",
+            "HTTPS": true,
+            "Link": "https://bestbuyapis.github.io/api-documentation/#overview"
         },
         {
             "API": "eBay",
