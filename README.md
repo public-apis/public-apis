@@ -513,7 +513,7 @@ API | Description | Auth | HTTPS | Link |
 | Flickr | Flickr Services | `OAuth` | Yes | [Go!](https://www.flickr.com/services/api/) |
 | Getty Images | Build applications using the world's most powerful imagery | `OAuth` | Yes | [Go!](http://developers.gettyimages.com/api/docs/) |
 | Gfycat | Jiffier GIFs | `OAuth` | Yes | [Go!](https://developers.gfycat.com/api/) |
-| Giphy | Get all your gifs | No | Yes | [Go!](https://github.com/Giphy/GiphyAPI) |
+| Giphy | Get all your gifs | `apiKey` | Yes | [Go!](https://developers.giphy.com/docs/) |
 | Gyazo | Upload images | `apiKey` | Yes | [Go!](https://gyazo.com/api/docs) |
 | Imgur | Images | `OAuth` | Yes | [Go!](https://apidocs.imgur.com/) |
 | Pixabay | Photography | `apiKey` | Yes | [Go!](https://pixabay.com/sk/service/about/api/) |
