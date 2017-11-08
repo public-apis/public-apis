@@ -2547,11 +2547,11 @@
         },
         {
             "API": "Giphy",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Photography",
             "Description": "Get all your gifs",
             "HTTPS": true,
-            "Link": "https://github.com/Giphy/GiphyAPI"
+            "Link": "https://developers.giphy.com/docs/"
         },
         {
             "API": "Gyazo",
