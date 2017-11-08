@@ -1107,7 +1107,7 @@
         },
         {
             "API": "Yummly",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Food & Drink",
             "Description": "Find food recipes",
             "HTTPS": true,
