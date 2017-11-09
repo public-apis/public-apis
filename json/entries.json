@@ -634,12 +634,12 @@
             "Link": "https://genderize.io"
         },
         {
-            "API": "Github - User Data",
+            "API": "Github",
             "Auth": null,
             "Category": "Development",
-            "Description": "Pull public information for a user's github",
+            "Description": "Information for a user's Github profile",
             "HTTPS": true,
-            "Link": "https://api.github.com/users/hackeryou"
+            "Link": "https://developer.github.com/v3/"
         },
         {
             "API": "Gitter",
