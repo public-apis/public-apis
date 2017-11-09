@@ -189,7 +189,7 @@ API | Description | Auth | HTTPS | Link |
 | DomainDb Info | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | [Go!](https://domainsdb.info/apidomainsdb/index.php) |
 | Faceplusplus | A tool to detect face | `OAuth` | Yes | [Go!](https://www.faceplusplus.com/) |
 | Genderize.io | Determines a gender from a first name | No | Yes | [Go!](https://genderize.io) |
-| Github - User Data | Pull public information for a user's github | No | Yes | [Go!](https://api.github.com/users/hackeryou) |
+| Github | Information for a user's Github profile | No | Yes | [Go!](https://developer.github.com/v3/) |
 | Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://github.com/gitterHQ/docs) |
 | HackerRank | Compile source code and run against a set of provided test cases | `apiKey` | Yes | [Go!](https://www.hackerrank.com/api/docs) |
 | import.io | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | [Go!](http://api.docs.import.io/) |
