@@ -1,5 +1,5 @@
 {
-    "count": 474,
+    "count": 475,
     "entries": [
         {
             "API": "Dogs",
@@ -672,6 +672,14 @@
             "Description": "A simple IP Address API",
             "HTTPS": true,
             "Link": "https://www.ipify.org/"
+        },
+        {
+            "API": "IPinfo",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Another simple IP Address API",
+            "HTTPS": true,
+            "Link": "https://ipinfo.io/developers"
         },
         {
             "API": "JSON 2 JSONP",
