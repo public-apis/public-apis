@@ -19,7 +19,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Calendar](#calendar)
 * [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
 * [Continuous Integration](#continuous-integration)
-* [Countries](#countries-detials)
+* [Countries](#countries)
 * [Cryptocurrency](#cryptocurrency)
 * [Currency Exchange](#currency-exchange)
 * [Data Validation](#data-validation)
