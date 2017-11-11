@@ -19,6 +19,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Calendar](#calendar)
 * [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
 * [Continuous Integration](#continuous-integration)
+* [Countries](#countries-detials)
 * [Cryptocurrency](#cryptocurrency)
 * [Currency Exchange](#currency-exchange)
 * [Data Validation](#data-validation)
@@ -143,6 +144,11 @@ API | Description | Auth | HTTPS | Link |
 | CircleCI | Automate the software development process using continuous integration and continuous delivery | `apiKey` | Yes | [Go!](https://circleci.com/docs/api/v1-reference/) |
 | Codeship | Codeship is a Continuous Integration Platform in the cloud | `apiKey` | Yes | [Go!](https://apidocs.codeship.com/) |
 | Travis CI | Sync your GitHub projects with Travis CI to test your code in minutes | `apiKey` | Yes | [Go!](https://docs.travis-ci.com/api/) |
+
+### Countries
+API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| REST Countries | Get information about countries via a RESTful API| No | Yes | [Go!](https://restcountries.eu/) |
 
 ### Cryptocurrency
 API | Description | Auth | HTTPS | Link |
