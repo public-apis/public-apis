@@ -149,6 +149,9 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | REST Countries | Get information about countries via a RESTful API| No | Yes | [Go!](https://restcountries.eu/) |
+| Country.io | A JSON API that mapping ISO2 country codes, country names,capitals and phone codes| No | No | [Go!](http://country.io/data/) |
+| World Population API | World Population data | No | No | [Go!](http://api.population.io/) |
+
 
 ### Cryptocurrency
 API | Description | Auth | HTTPS | Link |
