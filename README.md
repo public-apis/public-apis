@@ -714,6 +714,7 @@ API | Description | Auth | HTTPS | Link |
 | TMDb | Community-based movie data | `apiKey` | Yes | [Go!](https://www.themoviedb.org/documentation/api) |
 | TVDB | Television data | `apiKey` | Yes | [Go!](https://api.thetvdb.com/swagger) |
 | TVMaze | TV Show Data | No | No | [Go!](http://www.tvmaze.com/api) |
+| Utelly | Check where a tv show or movie is available | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/utelly/utelly) |
 | Vimeo | Vimeo Developer API | `OAuth` | Yes | [Go!](https://developer.vimeo.com/) |
 | YouTube | Add YouTube functionality to your sites and apps | `OAuth` | Yes | [Go!](https://developers.google.com/youtube/) |
 
