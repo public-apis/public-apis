@@ -341,7 +341,7 @@ API | Description | Auth | HTTPS | Link |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | [Go!](https://www.mapbox.com/developers/) |
 | Mapzen Search | Open Source & Open Data Global Geocoding Service | `apiKey` | Yes | [Go!](https://mapzen.com/products/search/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | [Go!](https://github.com/IcaliaLabs/sepomex) |
-| One Map 2.0, Singapore | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | [Go!](https://docs.onemap.sg/) |
+| One Map, Singapore | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | [Go!](https://docs.onemap.sg/) |
 | OnWater | Determine if a lat/lon is on water or land | No | Yes | [Go!](https://onwater.io/) |
 | OpenCage | Forward and reverse geocoding using open data | No | Yes | [Go!](https://geocoder.opencagedata.com) |
 | OpenStreetMap | Navigation, geolocation and geographical data | `OAuth` | No | [Go!](http://wiki.openstreetmap.org/wiki/API) |
