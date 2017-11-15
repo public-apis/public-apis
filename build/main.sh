@@ -29,7 +29,7 @@ else
     rm json.txt
 fi
 
-echo "running format validation..."
+echo "running format validation on $FORMAT_FILE..."
 ./validate_format.rb $FORMAT_FILE
 if [[ $? != 0 ]]; then
     echo "format validation failed!"
