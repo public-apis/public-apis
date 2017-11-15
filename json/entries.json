@@ -1554,7 +1554,7 @@
             "Link": "https://github.com/IcaliaLabs/sepomex"
         },
         {
-            "API": "One Map 2.0, Singapore",
+            "API": "One Map, Singapore",
             "Auth": "apiKey",
             "Category": "Geocoding",
             "Description": "Singapore Land Authority REST API services for Singapore addresses",
