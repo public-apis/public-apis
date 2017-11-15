@@ -1,5 +1,5 @@
 {
-    "count": 475,
+    "count": 477,
     "entries": [
         {
             "API": "Dogs",
@@ -304,6 +304,14 @@
             "Description": "Display, create and modify Google calendar events",
             "HTTPS": true,
             "Link": "https://developers.google.com/google-apps/calendar/"
+        },
+        {
+            "API": "Hebrew Calendar",
+            "Auth": null,
+            "Category": "Calendar",
+            "Description": "Convert between Gregarian and Hebrew, fetch Shabbat and Holiday times, etc",
+            "HTTPS": false,
+            "Link": "https://www.hebcal.com/home/developer-apis"
         },
         {
             "API": "Holidays",
@@ -3728,6 +3736,14 @@
             "Description": "TV Show Data",
             "HTTPS": false,
             "Link": "http://www.tvmaze.com/api"
+        },
+        {
+            "API": "Utelly",
+            "Auth": "X-Mashape-Key",
+            "Category": "Video",
+            "Description": "Check where a tv show or movie is available",
+            "HTTPS": true,
+            "Link": "https://market.mashape.com/utelly/utelly"
         },
         {
             "API": "Vimeo",
