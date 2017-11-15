@@ -31,6 +31,8 @@ type ProjectData struct {
 	Entries []Entry `json:"entries"`
 }
 
+// checkEntryMatches checks if the given entry matches the given request's parameters.
+// it returns true if the entry matches, and returns false otherwise.
 func checkEntryMatches(entry Entry, request Request) bool {
 	if strings.Contains(strings.ToLower(entry.API), strings.ToLower(request.Title)) &&
 		strings.Contains(strings.ToLower(entry.Description), strings.ToLower(request.Description)) &&
