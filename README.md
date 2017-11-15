@@ -124,7 +124,7 @@ API | Description | Auth | HTTPS | Link |
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
 | Czech Namedays Calendar | Lookup for a name and returns nameday date | No | No | [Go!](http://svatky.adresa.info/) |
 | Google Calendar | Display, create and modify Google calendar events | `OAuth` | Yes | [Go!](https://developers.google.com/google-apps/calendar/) |
-| Hebrew Calendar | Convert between Gregarian and Hebrew, fetch Shabbat and Holiday times, etc. | No | No | [Go!](https://www.hebcal.com/home/developer-apis) |
+| Hebrew Calendar | Convert between Gregarian and Hebrew, fetch Shabbat and Holiday times, etc | No | No | [Go!](https://www.hebcal.com/home/developer-apis) |
 | Holidays | Historical data regarding holidays | `apiKey` | Yes | [Go!](https://holidayapi.com/) |
 | LectServe | Protestant liturgical calendar | No | No | [Go!](http://www.lectserve.com) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
@@ -341,7 +341,7 @@ API | Description | Auth | HTTPS | Link |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | [Go!](https://www.mapbox.com/developers/) |
 | Mapzen Search | Open Source & Open Data Global Geocoding Service | `apiKey` | Yes | [Go!](https://mapzen.com/products/search/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | [Go!](https://github.com/IcaliaLabs/sepomex) |
-| One Map 2.0, Singapore | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | [Go!](https://docs.onemap.sg/) |
+| One Map, Singapore | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | [Go!](https://docs.onemap.sg/) |
 | OnWater | Determine if a lat/lon is on water or land | No | Yes | [Go!](https://onwater.io/) |
 | OpenCage | Forward and reverse geocoding using open data | No | Yes | [Go!](https://geocoder.opencagedata.com) |
 | OpenStreetMap | Navigation, geolocation and geographical data | `OAuth` | No | [Go!](http://wiki.openstreetmap.org/wiki/API) |
@@ -728,3 +728,4 @@ API | Description | Auth | HTTPS | Link |
 | Weatherbit | Weather | `apiKey` | Yes | [Go!](https://www.weatherbit.io/api) |
 | Wunderground | Weather | `apiKey` | Yes | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | [Go!](https://developer.yahoo.com/weather/) |
+
