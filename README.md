@@ -171,6 +171,7 @@ API | Description | Auth | HTTPS | Link |
 | Lob.com | US Address Verification | `apiKey` | Yes | [Go!](https://lob.com/) |
 | mailboxlayer | Email address validation | No | Yes | [Go!](https://mailboxlayer.com) |
 | MailTest | Email address validation | No | Yes | [Go!](http://mailtest.in/documentation/) |
+| NumValidate | Open Source phone number validation | No | Yes | [Go!](https://numvalidate.com) |
 | numverify | Phone number validation | No | Yes | [Go!](https://numverify.com) |
 | PurgoMalum | Content validator against profanity & obscenity | No | No | [Go!](http://www.purgomalum.com) |
 | vatlayer | VAT number validation | No | Yes | [Go!](https://vatlayer.com) |
