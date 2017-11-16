@@ -1,5 +1,5 @@
 {
-    "count": 477,
+    "count": 478,
     "entries": [
         {
             "API": "Dogs",
@@ -520,6 +520,14 @@
             "Description": "Email address validation",
             "HTTPS": true,
             "Link": "http://mailtest.in/documentation/"
+        },
+        {
+            "API": "NumValidate",
+            "Auth": null,
+            "Category": "Data Validation",
+            "Description": "Open Source phone number validation",
+            "HTTPS": true,
+            "Link": "https://numvalidate.com"
         },
         {
             "API": "numverify",
