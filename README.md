@@ -268,6 +268,7 @@ API | Description | Auth | HTTPS | Link |
 | Edamam | Recipe Search | `apiKey` | Yes | [Go!](https://developer.edamam.com/) |
 | Food2Fork | Recipe Search | `apiKey` | No | [Go!](http://food2fork.com/about/api) |
 | LCBO | Alcohol | `apiKey` | Yes | [Go!](https://lcboapi.com/) |
+| Open Food Facts | Food Products Database | No | Yes | [Go!](https://world.openfoodfacts.org/data) |
 | PunkAPI | Brewdog Beer Recipes | No | Yes | [Go!](https://punkapi.com/) |
 | Recipe Puppy | Food | No | No | [Go!](http://www.recipepuppy.com/about/api/) |
 | TacoFancy | Community-driven taco database | No | No | [Go!](https://github.com/evz/tacofancy-api) |
