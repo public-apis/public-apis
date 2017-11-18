@@ -616,6 +616,7 @@ API | Description | Auth | HTTPS | Link |
 | RandomWord | Generate random word | No | No | [Go!](http://www.setgetgo.com/randomword/) |
 | RoboHash | Generate random robot/alien avatars | No | Yes | [Go!](https://robohash.org/) |
 | UI Names | Generate random fake names | No | Yes | [Go!](https://github.com/thm/uinames) |
+| Yes No | Generate yes or no randomly | No | Yes | [Go!](https://yesno.wtf/api) |
 
 ### Text Analysis
 API | Description | Auth | HTTPS | Link |
