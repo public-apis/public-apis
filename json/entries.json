@@ -411,7 +411,7 @@
         },
         {
             "API": "Coinbase",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Cryptocurrency",
             "Description": "Bitcoin, Litecoin and Ethereum Prices",
             "HTTPS": true,
