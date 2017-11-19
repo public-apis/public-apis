@@ -1,5 +1,5 @@
 {
-    "count": 480,
+    "count": 479,
     "entries": [
         {
             "API": "Dogs",
@@ -3320,14 +3320,6 @@
             "Description": "The open API for building cool stuff with transport data",
             "HTTPS": true,
             "Link": "https://api.navitia.io/"
-        },
-        {
-            "API": "Nomad List",
-            "Auth": null,
-            "Category": "Transportation",
-            "Description": "A list of the best places to live/work remotely",
-            "HTTPS": true,
-            "Link": "https://nomadlist.com/faq"
         },
         {
             "API": "REFUGE Restrooms",
