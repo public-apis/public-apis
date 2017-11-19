@@ -1,5 +1,5 @@
 {
-    "count": 478,
+    "count": 479,
     "entries": [
         {
             "API": "Dogs",
@@ -1072,6 +1072,14 @@
             "Description": "Alcohol",
             "HTTPS": true,
             "Link": "https://lcboapi.com/"
+        },
+        {
+            "API": "Open Food Facts",
+            "Auth": null,
+            "Category": "Food & Drink",
+            "Description": "Food Products Database",
+            "HTTPS": true,
+            "Link": "https://world.openfoodfacts.org/data"
         },
         {
             "API": "PunkAPI",
