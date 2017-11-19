@@ -194,6 +194,7 @@ API | Description | Auth | HTTPS | Link |
 | Github | Information for a user's Github profile | No | Yes | [Go!](https://developer.github.com/v3/) |
 | Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://github.com/gitterHQ/docs) |
 | HackerRank | Compile source code and run against a set of provided test cases | `apiKey` | Yes | [Go!](https://www.hackerrank.com/api/docs) |
+| HTTP2.Pro | Test endpoints for client and server HTTP/2 protocol support | No | Yes | [Go!](https://http2.pro/doc/api) |
 | import.io | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | [Go!](http://api.docs.import.io/) |
 | IPify | A simple IP Address API | No | Yes | [Go!](https://www.ipify.org/) |
 | IPinfo | Another simple IP Address API | No | Yes | [Go!](https://ipinfo.io/developers) |
