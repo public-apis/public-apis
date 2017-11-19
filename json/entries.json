@@ -1,5 +1,5 @@
 {
-    "count": 479,
+    "count": 480,
     "entries": [
         {
             "API": "Dogs",
@@ -3184,6 +3184,14 @@
             "Description": "Generate random fake names",
             "HTTPS": true,
             "Link": "https://github.com/thm/uinames"
+        },
+        {
+            "API": "Yes No",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "Generate yes or no randomly",
+            "HTTPS": true,
+            "Link": "https://yesno.wtf/api"
         },
         {
             "API": "Aylien Text Analysis",
