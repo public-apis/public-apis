@@ -45,9 +45,9 @@
             "API": "AniList",
             "Auth": "OAuth",
             "Category": "Anime",
-            "Description": "AniList Anime",
-            "HTTPS": false,
-            "Link": "http://anilist-api.readthedocs.io/en/latest/"
+            "Description": "Anime discovery & tracking",
+            "HTTPS": true,
+            "Link": "https://github.com/AniList/ApiV2-GraphQL-Docs"
         },
         {
             "API": "Jikan",
