@@ -1,5 +1,5 @@
 {
-    "count": 480,
+    "count": 481,
     "entries": [
         {
             "API": "Dogs",
@@ -1263,7 +1263,7 @@
             "Category": "Games & Comics",
             "Description": "Bungie Platform API",
             "HTTPS": true,
-            "Link": "https://www.bungie.net/en/Clan/Post/39966/85087279/0/0"
+            "Link": "https://github.com/Bungie-net/api"
         },
         {
             "API": "Dota 2",
@@ -1880,6 +1880,14 @@
             "Description": "Job titles, skills, and related jobs data",
             "HTTPS": false,
             "Link": "https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview"
+        },
+        {
+            "API": "Reed",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job board aggregator",
+            "HTTPS": true,
+            "Link": "https://www.reed.co.uk/developers"
         },
         {
             "API": "Search.gov Jobs",
