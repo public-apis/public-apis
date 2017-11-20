@@ -300,7 +300,7 @@ API | Description | Auth | HTTPS | Link |
 | Clash Royale | Clash Royale Game Information | No | Yes | [Go!](https://github.com/martincarrera/clash-royale-api) |
 | Comic Vine | Comics | No | Yes | [Go!](https://comicvine.gamespot.com/api/documentation) |
 | Deck of Cards | Deck of Cards | No | No | [Go!](http://deckofcardsapi.com/) |
-| Destiny The Game | Bungie Platform API | `apiKey` | Yes | [Go!](https://www.bungie.net/en/Clan/Post/39966/85087279/0/0) |
+| Destiny The Game | Bungie Platform API | `apiKey` | Yes | [Go!](https://github.com/Bungie-net/api) |
 | Dota 2 | Provides information about Player stats , Match stats, Rankings for Dota 2 | No | Yes | [Go!](https://docs.opendota.com/) |
 | Eve Online | Third-Party Developer Documentation | `OAuth` | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
 | Games | Minecraft and other server info & user info) | No | Yes | [Go!](https://docs.gameapis.net/) |
@@ -394,6 +394,7 @@ API | Description | Auth | HTTPS | Link |
 | Jooble | Job search engine | `apiKey` | Yes | [Go!](https://us.jooble.org/api/about) |
 | Juju | Job search engine | `apiKey` | No | [Go!](http://www.juju.com/publisher/spec/) |
 | Open Skills | Job titles, skills, and related jobs data | No | No | [Go!](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) |
+| Reed | Job board aggregator | `apiKey` | Yes | [Go!](https://www.reed.co.uk/developers) |
 | Search.gov Jobs | Tap into a list of current jobs openings with the United States government | No | Yes | [Go!](https://search.gov/developer/jobs.html) |
 | The Muse | Job board and company profiles | `apiKey` | Yes | [Go!](https://www.themuse.com/developers/api/v2) |
 | Upwork | Freelance job board and management system | `OAuth` | Yes | [Go!](https://developers.upwork.com/) |
