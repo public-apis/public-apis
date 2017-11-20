@@ -1,5 +1,5 @@
 {
-    "count": 479,
+    "count": 480,
     "entries": [
         {
             "API": "Dogs",
@@ -672,6 +672,14 @@
             "Description": "Compile source code and run against a set of provided test cases",
             "HTTPS": true,
             "Link": "https://www.hackerrank.com/api/docs"
+        },
+        {
+            "API": "HTTP2.Pro",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Test endpoints for client and server HTTP/2 protocol support",
+            "HTTPS": true,
+            "Link": "https://http2.pro/doc/api"
         },
         {
             "API": "import.io",
