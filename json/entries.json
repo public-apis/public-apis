@@ -1845,7 +1845,7 @@
             "API": "Indeed",
             "Auth": "apiKey",
             "Category": "Jobs",
-            "Description": "Job board aggragator",
+            "Description": "Job board aggregator",
             "HTTPS": true,
             "Link": "https://www.indeed.com/publisher"
         },
