@@ -213,6 +213,7 @@ API | Description | Auth | HTTPS | Link |
 | SHOUTCLOUD | ALL-CAPS AS A SERVICE | No | No | [Go!](http://shoutcloud.io/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
+| XML to JSON | Integration developer utility APIs | No | Yes | [Go!](https://developers.wso2apistore.com/) |
 
 ### Dictionaries
 API | Description | Auth | HTTPS | Link |
