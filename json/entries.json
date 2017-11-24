@@ -1,5 +1,5 @@
 {
-    "count": 481,
+    "count": 482,
     "entries": [
         {
             "API": "Dogs",
@@ -824,6 +824,14 @@
             "Description": "Check what's the latest version of your favorite open-source project",
             "HTTPS": true,
             "Link": "https://verse.pawelad.xyz/"
+        },
+        {
+            "API": "XML to JSON",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Integration developer utility APIs",
+            "HTTPS": true,
+            "Link": "https://developers.wso2apistore.com/"
         },
         {
             "API": "Oxford",
