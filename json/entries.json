@@ -1,5 +1,5 @@
 {
-    "count": 481,
+    "count": 482,
     "entries": [
         {
             "API": "Dogs",
@@ -1320,6 +1320,14 @@
             "Description": "Hearthstone Cards Information",
             "HTTPS": true,
             "Link": "http://hearthstoneapi.com/"
+        },
+        {
+            "API": "IGDB.com",
+            "Auth": "apiKey",
+            "Category": "Games & Comics",
+            "Description": "Video Game Database",
+            "HTTPS": true,
+            "Link": "https://api.igdb.com/"
         },
         {
             "API": "Jokes",
