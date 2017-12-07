@@ -63,6 +63,7 @@ Please note a passing build status indicates all listed APIs are available since
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Dogs | Based on the Stanford Dogs Dataset | No | Yes | [Go!](https://dog.ceo/dog-api/) |
+| HTTPCat | Cat for every HTTP Status | No | Yes | [Go!](https://http.cat/) |
 | IUCN | IUCN Red List of Threatened Species | `apiKey` | No | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
 | Movebank | Movement and Migration data of animals | No | Yes | [Go!](https://github.com/movebank/movebank-api-doc) |
 | Petfinder | Adoption | `apiKey` | Yes | [Go!](https://www.petfinder.com/developers/api-docs/) |
