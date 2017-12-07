@@ -1,5 +1,5 @@
 {
-    "count": 482,
+    "count": 483,
     "entries": [
         {
             "API": "Dogs",
@@ -8,6 +8,14 @@
             "Description": "Based on the Stanford Dogs Dataset",
             "HTTPS": true,
             "Link": "https://dog.ceo/dog-api/"
+        },
+        {
+            "API": "HTTPCat",
+            "Auth": null,
+            "Category": "Animals",
+            "Description": "Cat for every HTTP Status",
+            "HTTPS": true,
+            "Link": "https://http.cat/"
         },
         {
             "API": "IUCN",
