@@ -214,6 +214,7 @@ API | Description | Auth | HTTPS | Link |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
 | XML to JSON | Integration developer utility APIs | No | Yes | [Go!](https://developers.wso2apistore.com/) |
+| Sphere Engine | Compile and run source code. 80+ compilers supported. Test cases supported. | `apiKey` | Yes | [Go!](https://sphere-engine.com/) |
 
 ### Dictionaries
 API | Description | Auth | HTTPS | Link |
