@@ -1,5 +1,5 @@
 {
-    "count": 483,
+    "count": 484,
     "entries": [
         {
             "API": "Dogs",
@@ -448,6 +448,14 @@
             "Description": "Cryptocurrencies Comparison",
             "HTTPS": true,
             "Link": "https://www.cryptocompare.com/api#"
+        },
+        {
+            "API": "Cryptonator",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Cryptocurrencies Exchange Rates",
+            "HTTPS": true,
+            "Link": "https://www.cryptonator.com/api/"
         },
         {
             "API": "MercadoBitcoin",
