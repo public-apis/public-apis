@@ -154,6 +154,7 @@ API | Description | Auth | HTTPS | Link |
 | CoinDesk | Bitcoin Price Index | No | No | [Go!](http://www.coindesk.com/api/) |
 | CoinMarketCap | Cryptocurrencies Prices | No | Yes | [Go!](https://coinmarketcap.com/api/) |
 | CryptoCompare | Cryptocurrencies Comparison | No | Yes | [Go!](https://www.cryptocompare.com/api#) |
+| Cryptonator | Cryptocurrencies Exchange Rates | No | Yes | [Go!](https://www.cryptonator.com/api/) |
 | MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | [Go!](https://www.mercadobitcoin.net/api-doc/) |
 
 ### Currency Exchange
