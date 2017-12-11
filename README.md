@@ -149,6 +149,7 @@ API | Description | Auth | HTTPS | Link |
 ### Cryptocurrency
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | [Go!](https://www.block.io/docs/basic) |
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | [Go!](https://www.blockchain.info/api) |
 | Coinbase | Bitcoin, Litecoin and Ethereum Prices | `apiKey` | Yes | [Go!](https://developers.coinbase.com) |
 | CoinDesk | Bitcoin Price Index | No | No | [Go!](http://www.coindesk.com/api/) |
