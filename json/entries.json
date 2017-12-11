@@ -1,5 +1,5 @@
 {
-    "count": 484,
+    "count": 485,
     "entries": [
         {
             "API": "Dogs",
@@ -408,6 +408,14 @@
             "Description": "Sync your GitHub projects with Travis CI to test your code in minutes",
             "HTTPS": true,
             "Link": "https://docs.travis-ci.com/api/"
+        },
+        {
+            "API": "Block",
+            "Auth": "apiKey",
+            "Category": "Cryptocurrency",
+            "Description": "Bitcoin Payment, Wallet & Transaction Data",
+            "HTTPS": true,
+            "Link": "https://www.block.io/docs/basic"
         },
         {
             "API": "Blockchain",
