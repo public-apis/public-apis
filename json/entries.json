@@ -1,5 +1,5 @@
 {
-    "count": 485,
+    "count": 484,
     "entries": [
         {
             "API": "Dogs",
@@ -3208,14 +3208,6 @@
             "Description": "Generates random user data",
             "HTTPS": true,
             "Link": "https://randomuser.me"
-        },
-        {
-            "API": "RandomWord",
-            "Auth": null,
-            "Category": "Test Data",
-            "Description": "Generate random word",
-            "HTTPS": false,
-            "Link": "http://www.setgetgo.com/randomword/"
         },
         {
             "API": "RoboHash",
