@@ -150,6 +150,7 @@ API | Description | Auth | HTTPS | Link |
 ### Cryptocurrency
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | [Go!](https://www.block.io/docs/basic) |
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | [Go!](https://www.blockchain.info/api) |
 | Coinbase | Bitcoin, Litecoin and Ethereum Prices | `apiKey` | Yes | [Go!](https://developers.coinbase.com) |
