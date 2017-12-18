@@ -1,5 +1,5 @@
 {
-    "count": 485,
+    "count": 486,
     "entries": [
         {
             "API": "Dogs",
@@ -416,6 +416,14 @@
             "Description": "Sync your GitHub projects with Travis CI to test your code in minutes",
             "HTTPS": true,
             "Link": "https://docs.travis-ci.com/api/"
+        },
+        {
+            "API": "Bitfinex",
+            "Auth": "apiKey",
+            "Category": "Cryptocurrency",
+            "Description": "Cryptocurrency Trading Platform",
+            "HTTPS": true,
+            "Link": "https://docs.bitfinex.com/docs/introduction"
         },
         {
             "API": "Block",
