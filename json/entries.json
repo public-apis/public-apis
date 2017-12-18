@@ -1,5 +1,5 @@
 {
-    "count": 484,
+    "count": 485,
     "entries": [
         {
             "API": "Dogs",
@@ -192,6 +192,14 @@
             "Description": "Art",
             "HTTPS": true,
             "Link": "https://www.rijksmuseum.nl/en/api"
+        },
+        {
+            "API": "BookNomads",
+            "Auth": null,
+            "Category": "Books",
+            "Description": "Books published in the Netherlands and Flanders (about 25 million), book covers, and related data",
+            "HTTPS": true,
+            "Link": "https://www.booknomads.com/dev"
         },
         {
             "API": "British National Bibliography",
