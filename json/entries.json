@@ -1183,7 +1183,7 @@
             "Category": "Food & Drink",
             "Description": "NYPL human-transcribed historical menu collection",
             "HTTPS": false,
-            "Link": "nypl.github.io/menus-api/"
+            "Link": "http://nypl.github.io/menus-api/"
         },
         {
             "API": "Yummly",
