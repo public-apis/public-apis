@@ -50,6 +50,8 @@ links.each do |link|
         if !allowed_codes.include?(res.code)
             fails.push("(#{res.code}): #{link}")
         end
+    rescue HTTParty::RedirectionTooDeep
+        fails.push("(RTD): #{link}")
     rescue Net::ReadTimeout
         fails.push("(TMO): #{link}")
     rescue Net::OpenTimeout
@@ -60,6 +62,8 @@ links.each do |link|
         fails.push("(SOK): #{link}")
     rescue Errno::ECONNREFUSED
         fails.push("(CON): #{link}")
+    rescue Errno::ECONNRESET
+        next
     end
     progressbar.increment
 end
