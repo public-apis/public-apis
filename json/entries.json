@@ -1,5 +1,5 @@
 {
-    "count": 359,
+    "count": 486,
     "entries": [
         {
             "API": "Dogs",
@@ -10,12 +10,28 @@
             "Link": "https://dog.ceo/dog-api/"
         },
         {
+            "API": "HTTPCat",
+            "Auth": null,
+            "Category": "Animals",
+            "Description": "Cat for every HTTP Status",
+            "HTTPS": true,
+            "Link": "https://http.cat/"
+        },
+        {
             "API": "IUCN",
             "Auth": "apiKey",
             "Category": "Animals",
             "Description": "IUCN Red List of Threatened Species",
             "HTTPS": false,
             "Link": "http://apiv3.iucnredlist.org/api/v3/docs"
+        },
+        {
+            "API": "Movebank",
+            "Auth": null,
+            "Category": "Animals",
+            "Description": "Movement and Migration data of animals",
+            "HTTPS": true,
+            "Link": "https://github.com/movebank/movebank-api-doc"
         },
         {
             "API": "Petfinder",
@@ -37,9 +53,9 @@
             "API": "AniList",
             "Auth": "OAuth",
             "Category": "Anime",
-            "Description": "AniList Anime",
-            "HTTPS": false,
-            "Link": "http://anilist-api.readthedocs.io/en/latest/"
+            "Description": "Anime discovery & tracking",
+            "HTTPS": true,
+            "Link": "https://github.com/AniList/ApiV2-GraphQL-Docs"
         },
         {
             "API": "Jikan",
@@ -146,6 +162,14 @@
             "Link": "https://github.com/harvardartmuseums/api-docs"
         },
         {
+            "API": "Iconfinder",
+            "Auth": "apiKey",
+            "Category": "Art & Design",
+            "Description": "Icons",
+            "HTTPS": true,
+            "Link": "https://developer.iconfinder.com"
+        },
+        {
             "API": "Icons8",
             "Auth": "OAuth",
             "Category": "Art & Design",
@@ -170,6 +194,14 @@
             "Link": "https://www.rijksmuseum.nl/en/api"
         },
         {
+            "API": "BookNomads",
+            "Auth": null,
+            "Category": "Books",
+            "Description": "Books published in the Netherlands and Flanders (about 25 million), book covers, and related data",
+            "HTTPS": true,
+            "Link": "https://www.booknomads.com/dev"
+        },
+        {
             "API": "British National Bibliography",
             "Auth": null,
             "Category": "Books",
@@ -179,7 +211,7 @@
         },
         {
             "API": "Goodreads",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Books",
             "Description": "Books",
             "HTTPS": true,
@@ -192,6 +224,54 @@
             "Description": "Books",
             "HTTPS": true,
             "Link": "https://developers.google.com/books/"
+        },
+        {
+            "API": "Open Library",
+            "Auth": null,
+            "Category": "Books",
+            "Description": "Books, book covers, and related data",
+            "HTTPS": true,
+            "Link": "https://openlibrary.org/developers/api"
+        },
+        {
+            "API": "Charity Search",
+            "Auth": "apiKey",
+            "Category": "Business",
+            "Description": "Non-profit charity data",
+            "HTTPS": false,
+            "Link": "http://charityapi.orghunter.com/"
+        },
+        {
+            "API": "Clearbit Logo API",
+            "Auth": null,
+            "Category": "Business",
+            "Description": "Search for company logos and embed them in your projects",
+            "HTTPS": true,
+            "Link": "https://clearbit.com/docs#logo-api"
+        },
+        {
+            "API": "Domainsdb.info",
+            "Auth": null,
+            "Category": "Business",
+            "Description": "Registered Domain Names Search",
+            "HTTPS": true,
+            "Link": "https://domainsdb.info/"
+        },
+        {
+            "API": "Gmail",
+            "Auth": "OAuth",
+            "Category": "Business",
+            "Description": "Flexible, RESTful access to the user's inbox",
+            "HTTPS": true,
+            "Link": "https://developers.google.com/gmail/api/"
+        },
+        {
+            "API": "Google Analytics",
+            "Auth": "OAuth",
+            "Category": "Business",
+            "Description": "Collect, configure, and analyze your data to reach the right audience",
+            "HTTPS": true,
+            "Link": "https://developers.google.com/analytics/"
         },
         {
             "API": "mailgun",
@@ -210,12 +290,44 @@
             "Link": "http://www.markerapi.com/"
         },
         {
+            "API": "Trello",
+            "Auth": "OAuth",
+            "Category": "Business",
+            "Description": "Boards, lists, and cards to help you organize and prioritize your projects",
+            "HTTPS": true,
+            "Link": "https://developers.trello.com/"
+        },
+        {
             "API": "Church Calendar",
             "Auth": null,
             "Category": "Calendar",
             "Description": "Catholic liturgical calendar",
             "HTTPS": false,
             "Link": "http://calapi.inadiutorium.cz/"
+        },
+        {
+            "API": "Czech Namedays Calendar",
+            "Auth": null,
+            "Category": "Calendar",
+            "Description": "Lookup for a name and returns nameday date",
+            "HTTPS": false,
+            "Link": "http://svatky.adresa.info/"
+        },
+        {
+            "API": "Google Calendar",
+            "Auth": "OAuth",
+            "Category": "Calendar",
+            "Description": "Display, create and modify Google calendar events",
+            "HTTPS": true,
+            "Link": "https://developers.google.com/google-apps/calendar/"
+        },
+        {
+            "API": "Hebrew Calendar",
+            "Auth": null,
+            "Category": "Calendar",
+            "Description": "Convert between Gregarian and Hebrew, fetch Shabbat and Holiday times, etc",
+            "HTTPS": false,
+            "Link": "https://www.hebcal.com/home/developer-apis"
         },
         {
             "API": "Holidays",
@@ -274,12 +386,132 @@
             "Link": "https://dev.onedrive.com/"
         },
         {
+            "API": "Pastebin",
+            "Auth": "apiKey",
+            "Category": "Cloud Storage & File Sharing",
+            "Description": "Plain Text Storage",
+            "HTTPS": true,
+            "Link": "https://pastebin.com/api/"
+        },
+        {
+            "API": "CircleCI",
+            "Auth": "apiKey",
+            "Category": "Continuous Integration",
+            "Description": "Automate the software development process using continuous integration and continuous delivery",
+            "HTTPS": true,
+            "Link": "https://circleci.com/docs/api/v1-reference/"
+        },
+        {
+            "API": "Codeship",
+            "Auth": "apiKey",
+            "Category": "Continuous Integration",
+            "Description": "Codeship is a Continuous Integration Platform in the cloud",
+            "HTTPS": true,
+            "Link": "https://apidocs.codeship.com/"
+        },
+        {
+            "API": "Travis CI",
+            "Auth": "apiKey",
+            "Category": "Continuous Integration",
+            "Description": "Sync your GitHub projects with Travis CI to test your code in minutes",
+            "HTTPS": true,
+            "Link": "https://docs.travis-ci.com/api/"
+        },
+        {
+            "API": "Bitfinex",
+            "Auth": "apiKey",
+            "Category": "Cryptocurrency",
+            "Description": "Cryptocurrency Trading Platform",
+            "HTTPS": true,
+            "Link": "https://docs.bitfinex.com/docs/introduction"
+        },
+        {
+            "API": "Block",
+            "Auth": "apiKey",
+            "Category": "Cryptocurrency",
+            "Description": "Bitcoin Payment, Wallet & Transaction Data",
+            "HTTPS": true,
+            "Link": "https://www.block.io/docs/basic"
+        },
+        {
+            "API": "Blockchain",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Bitcoin Payment, Wallet & Transaction Data",
+            "HTTPS": true,
+            "Link": "https://www.blockchain.info/api"
+        },
+        {
+            "API": "Coinbase",
+            "Auth": "apiKey",
+            "Category": "Cryptocurrency",
+            "Description": "Bitcoin, Litecoin and Ethereum Prices",
+            "HTTPS": true,
+            "Link": "https://developers.coinbase.com"
+        },
+        {
+            "API": "CoinDesk",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Bitcoin Price Index",
+            "HTTPS": false,
+            "Link": "http://www.coindesk.com/api/"
+        },
+        {
+            "API": "CoinMarketCap",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Cryptocurrencies Prices",
+            "HTTPS": true,
+            "Link": "https://coinmarketcap.com/api/"
+        },
+        {
+            "API": "CryptoCompare",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Cryptocurrencies Comparison",
+            "HTTPS": true,
+            "Link": "https://www.cryptocompare.com/api#"
+        },
+        {
+            "API": "Cryptonator",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Cryptocurrencies Exchange Rates",
+            "HTTPS": true,
+            "Link": "https://www.cryptonator.com/api/"
+        },
+        {
+            "API": "MercadoBitcoin",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Brazilian Cryptocurrency Information",
+            "HTTPS": true,
+            "Link": "https://www.mercadobitcoin.net/api-doc/"
+        },
+        {
+            "API": "1Forge",
+            "Auth": "apiKey",
+            "Category": "Currency Exchange",
+            "Description": "Forex currency market data",
+            "HTTPS": true,
+            "Link": "https://1forge.com/forex-data-api/api-documentation"
+        },
+        {
             "API": "Currencylayer",
             "Auth": "apiKey",
             "Category": "Currency Exchange",
             "Description": "Exchange rates and currency conversion",
             "HTTPS": true,
             "Link": "https://currencylayer.com/documentation"
+        },
+        {
+            "API": "Czech National Bank",
+            "Auth": null,
+            "Category": "Currency Exchange",
+            "Description": "A collection of exchange rates",
+            "HTTPS": true,
+            "Link": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml"
         },
         {
             "API": "Fixer.io",
@@ -314,6 +546,22 @@
             "Link": "https://mailboxlayer.com"
         },
         {
+            "API": "MailTest",
+            "Auth": null,
+            "Category": "Data Validation",
+            "Description": "Email address validation",
+            "HTTPS": true,
+            "Link": "http://mailtest.in/documentation/"
+        },
+        {
+            "API": "NumValidate",
+            "Auth": null,
+            "Category": "Data Validation",
+            "Description": "Open Source phone number validation",
+            "HTTPS": true,
+            "Link": "https://numvalidate.com"
+        },
+        {
             "API": "numverify",
             "Auth": null,
             "Category": "Data Validation",
@@ -338,12 +586,12 @@
             "Link": "https://vatlayer.com"
         },
         {
-            "API": "Adorable Avatars",
-            "Auth": null,
+            "API": "ApiLeap",
+            "Auth": "apiKey",
             "Category": "Development",
-            "Description": "Generate random cartoon avatars",
+            "Description": "Make screenshots from web pages and HTML",
             "HTTPS": true,
-            "Link": "http://avatars.adorable.io"
+            "Link": "https://apileap.com/"
         },
         {
             "API": "APIs.guru",
@@ -354,20 +602,28 @@
             "Link": "https://apis.guru/api-doc/"
         },
         {
-            "API": "Bacon Ipsum",
-            "Auth": null,
-            "Category": "Development",
-            "Description": "A Meatier Lorem Ipsum Generator",
-            "HTTPS": true,
-            "Link": "https://baconipsum.com/json-api/"
-        },
-        {
             "API": "BetterMeta",
             "Auth": "X-Mashape-Key",
             "Category": "Development",
             "Description": "Return a site's meta tags in JSON format",
             "HTTPS": true,
             "Link": "http://bettermeta.io"
+        },
+        {
+            "API": "Bitbucket",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Pull public information for a Bitbucket account",
+            "HTTPS": true,
+            "Link": "https://api.bitbucket.org/2.0/users/karllhughes"
+        },
+        {
+            "API": "Browshot",
+            "Auth": "apiKey",
+            "Category": "Development",
+            "Description": "Easily make screenshots of web pages in any screen size, as any device",
+            "HTTPS": true,
+            "Link": "https://browshot.com/api/documentation"
         },
         {
             "API": "CDNJS",
@@ -386,6 +642,30 @@
             "Link": "https://changelogs.md"
         },
         {
+            "API": "Count.io",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Persistent counting and A/B testing",
+            "HTTPS": true,
+            "Link": "https://count.io"
+        },
+        {
+            "API": "DigitalOcean Status",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Status of all DigitalOcean services",
+            "HTTPS": true,
+            "Link": "https://status.digitalocean.com/api/v1"
+        },
+        {
+            "API": "DomainDb Info",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Domain name search to find all domains containing particular words/phrases/etc",
+            "HTTPS": true,
+            "Link": "https://domainsdb.info/apidomainsdb/index.php"
+        },
+        {
             "API": "Faceplusplus",
             "Auth": "OAuth",
             "Category": "Development",
@@ -402,12 +682,12 @@
             "Link": "https://genderize.io"
         },
         {
-            "API": "Github - User Data",
+            "API": "Github",
             "Auth": null,
             "Category": "Development",
-            "Description": "Pull public information for a user's github",
+            "Description": "Information for a user's Github profile",
             "HTTPS": true,
-            "Link": "https://api.github.com/users/hackeryou"
+            "Link": "https://developer.github.com/v3/"
         },
         {
             "API": "Gitter",
@@ -426,12 +706,20 @@
             "Link": "https://www.hackerrank.com/api/docs"
         },
         {
-            "API": "Hipster Ipsum",
+            "API": "HTTP2.Pro",
             "Auth": null,
             "Category": "Development",
-            "Description": "Generates Hipster Ipsum text",
-            "HTTPS": false,
-            "Link": "http://hipsterjesus.com/"
+            "Description": "Test endpoints for client and server HTTP/2 protocol support",
+            "HTTPS": true,
+            "Link": "https://http2.pro/doc/api"
+        },
+        {
+            "API": "import.io",
+            "Auth": "apiKey",
+            "Category": "Development",
+            "Description": "Retrieve structured data from a website or RSS feed",
+            "HTTPS": true,
+            "Link": "http://api.docs.import.io/"
         },
         {
             "API": "IPify",
@@ -440,6 +728,14 @@
             "Description": "A simple IP Address API",
             "HTTPS": true,
             "Link": "https://www.ipify.org/"
+        },
+        {
+            "API": "IPinfo",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Another simple IP Address API",
+            "HTTPS": true,
+            "Link": "https://ipinfo.io/developers"
         },
         {
             "API": "JSON 2 JSONP",
@@ -456,14 +752,6 @@
             "Description": "Free JSON storage service Ideal for small scale Web apps, Websites and Mobile apps",
             "HTTPS": true,
             "Link": "https://jsonbin.io"
-        },
-        {
-            "API": "JSONPlaceholder",
-            "Auth": null,
-            "Category": "Development",
-            "Description": "Fake data for testing and prototyping",
-            "HTTPS": false,
-            "Link": "http://jsonplaceholder.typicode.com/"
         },
         {
             "API": "Judge0 API",
@@ -498,22 +786,6 @@
             "Link": "https://www.liveedu.tv/developer/applications/"
         },
         {
-            "API": "Lorem Text",
-            "Auth": "X-Mashape-Key",
-            "Category": "Development",
-            "Description": "Generates Lorem Ipsum text",
-            "HTTPS": true,
-            "Link": "https://market.mashape.com/montanaflynn/lorem-text-generator"
-        },
-        {
-            "API": "Loripsum",
-            "Auth": null,
-            "Category": "Development",
-            "Description": "The \"lorem ipsum\" generator that doesn't suck",
-            "HTTPS": false,
-            "Link": "http://loripsum.net/"
-        },
-        {
             "API": "Myjson",
             "Auth": null,
             "Category": "Development",
@@ -538,20 +810,12 @@
             "Link": "https://github.com/toddmotto/public-apis/tree/master/json"
         },
         {
-            "API": "RandomUser",
+            "API": "QR code",
             "Auth": null,
             "Category": "Development",
-            "Description": "Generates random user data",
+            "Description": "Generate and decode / read QR code graphics",
             "HTTPS": true,
-            "Link": "https://randomuser.me"
-        },
-        {
-            "API": "RandomWord",
-            "Auth": null,
-            "Category": "Development",
-            "Description": "Generate random word",
-            "HTTPS": false,
-            "Link": "http://www.setgetgo.com/randomword/"
+            "Link": "http://goqr.me/api/"
         },
         {
             "API": "ReqRes",
@@ -562,12 +826,20 @@
             "Link": "https://reqres.in/ "
         },
         {
-            "API": "RoboHash",
+            "API": "Scrape Website Email",
+            "Auth": "X-Mashape-Key",
+            "Category": "Development",
+            "Description": "Grabs email addresses from a URL",
+            "HTTPS": true,
+            "Link": "https://market.mashape.com/tommytcchan/scrape-website-email"
+        },
+        {
+            "API": "SHOUTCLOUD",
             "Auth": null,
             "Category": "Development",
-            "Description": "Generate random robot/alien avatars",
-            "HTTPS": true,
-            "Link": "https://robohash.org/"
+            "Description": "ALL-CAPS AS A SERVICE",
+            "HTTPS": false,
+            "Link": "http://shoutcloud.io/"
         },
         {
             "API": "StackExchange",
@@ -578,20 +850,44 @@
             "Link": "https://api.stackexchange.com/"
         },
         {
-            "API": "UI Names",
-            "Auth": null,
-            "Category": "Development",
-            "Description": "Generate random fake names",
-            "HTTPS": true,
-            "Link": "https://github.com/thm/uinames"
-        },
-        {
             "API": "Verse",
             "Auth": null,
             "Category": "Development",
             "Description": "Check what's the latest version of your favorite open-source project",
             "HTTPS": true,
             "Link": "https://verse.pawelad.xyz/"
+        },
+        {
+            "API": "XML to JSON",
+            "Auth": null,
+            "Category": "Development",
+            "Description": "Integration developer utility APIs",
+            "HTTPS": true,
+            "Link": "https://developers.wso2apistore.com/"
+        },
+        {
+            "API": "Oxford",
+            "Auth": "apiKey",
+            "Category": "Dictionaries",
+            "Description": "Dictionary Data",
+            "HTTPS": true,
+            "Link": "https://developer.oxforddictionaries.com/"
+        },
+        {
+            "API": "Wordnik",
+            "Auth": null,
+            "Category": "Dictionaries",
+            "Description": "Dictionary Data",
+            "HTTPS": false,
+            "Link": "http://developer.wordnik.com"
+        },
+        {
+            "API": "Words",
+            "Auth": "apiKey",
+            "Category": "Dictionaries",
+            "Description": "Definitions and synonyms for more than 150,000 words",
+            "HTTPS": true,
+            "Link": "https://www.wordsapi.com/"
         },
         {
             "API": "File.io",
@@ -634,6 +930,14 @@
             "Link": "https://prexview.com"
         },
         {
+            "API": "Restpack",
+            "Auth": "apiKey",
+            "Category": "Documents & Productivity",
+            "Description": "Provides screenshot, HTML to PDF, and content extraction APIs",
+            "HTTPS": true,
+            "Link": "https://restpack.io/"
+        },
+        {
             "API": "Todoist",
             "Auth": "OAuth",
             "Category": "Documents & Productivity",
@@ -674,20 +978,52 @@
             "Link": "http://www.pm25.in/api_doc"
         },
         {
+            "API": "UK Carbon Intensity",
+            "Auth": null,
+            "Category": "Environment",
+            "Description": "The Official Carbon Intensity API for Great Britain developed by National Grid",
+            "HTTPS": true,
+            "Link": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0"
+        },
+        {
+            "API": "Eventbrite",
+            "Auth": "OAuth",
+            "Category": "Events",
+            "Description": "Find events",
+            "HTTPS": true,
+            "Link": "https://www.eventbrite.com/developer/v3/"
+        },
+        {
+            "API": "Picatic",
+            "Auth": "apiKey",
+            "Category": "Events",
+            "Description": "Sell tickets anywhere",
+            "HTTPS": true,
+            "Link": "http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto"
+        },
+        {
+            "API": "Ticketmaster",
+            "Auth": "apiKey",
+            "Category": "Events",
+            "Description": "Search events, attractions, or venues",
+            "HTTPS": true,
+            "Link": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/"
+        },
+        {
+            "API": "Alpha Vantage",
+            "Auth": "apiKey",
+            "Category": "Finance",
+            "Description": "Realtime and historical stock data",
+            "HTTPS": true,
+            "Link": "https://www.alphavantage.co/"
+        },
+        {
             "API": "Barchart OnDemand",
             "Auth": "apiKey",
             "Category": "Finance",
             "Description": "Stock, Futures, and Forex Market Data",
             "HTTPS": true,
             "Link": "https://www.barchartondemand.com/free"
-        },
-        {
-            "API": "CoinDesk",
-            "Auth": null,
-            "Category": "Finance",
-            "Description": "Bitcoin Price Index",
-            "HTTPS": false,
-            "Link": "http://www.coindesk.com/api/"
         },
         {
             "API": "Consumer Financial Protection Bureau",
@@ -706,12 +1042,36 @@
             "Link": "https://iextrading.com/developer/"
         },
         {
+            "API": "IG",
+            "Auth": "apiKey",
+            "Category": "Finance",
+            "Description": "Spreadbetting and CFD Market Data",
+            "HTTPS": true,
+            "Link": "https://labs.ig.com/gettingstarted"
+        },
+        {
+            "API": "Plaid",
+            "Auth": "apiKey",
+            "Category": "Finance",
+            "Description": "Connect with users\u2019 bank accounts and access transaction data",
+            "HTTPS": true,
+            "Link": "https://plaid.com/"
+        },
+        {
             "API": "Razorpay IFSC",
             "Auth": null,
             "Category": "Finance",
             "Description": "Indian Financial Systems Code (Bank Branch Codes)",
             "HTTPS": true,
             "Link": "https://ifsc.razorpay.com/"
+        },
+        {
+            "API": "RoutingNumbers.info",
+            "Auth": null,
+            "Category": "Finance",
+            "Description": "ACH/NACHA Bank Routing Numbers",
+            "HTTPS": true,
+            "Link": "https://www.routingnumbers.info/api/index.html"
         },
         {
             "API": "VAT Rates",
@@ -762,6 +1122,14 @@
             "Link": "https://lcboapi.com/"
         },
         {
+            "API": "Open Food Facts",
+            "Auth": null,
+            "Category": "Food & Drink",
+            "Description": "Food Products Database",
+            "HTTPS": true,
+            "Link": "https://world.openfoodfacts.org/data"
+        },
+        {
             "API": "PunkAPI",
             "Auth": null,
             "Category": "Food & Drink",
@@ -795,11 +1163,19 @@
         },
         {
             "API": "TheCocktailDB",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Food & Drink",
             "Description": "Cocktail Recipes",
             "HTTPS": false,
             "Link": "http://www.thecocktaildb.com/"
+        },
+        {
+            "API": "TheMealDB",
+            "Auth": "apiKey",
+            "Category": "Food & Drink",
+            "Description": "Meal Recipes",
+            "HTTPS": false,
+            "Link": "http://www.themealdb.com/"
         },
         {
             "API": "What's on the menu?",
@@ -807,11 +1183,11 @@
             "Category": "Food & Drink",
             "Description": "NYPL human-transcribed historical menu collection",
             "HTTPS": false,
-            "Link": "nypl.github.io/menus-api/"
+            "Link": "http://nypl.github.io/menus-api/"
         },
         {
             "API": "Yummly",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Food & Drink",
             "Description": "Find food recipes",
             "HTTPS": true,
@@ -867,7 +1243,7 @@
         },
         {
             "API": "Battle.net",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Games & Comics",
             "Description": "Blizzard Entertainment",
             "HTTPS": true,
@@ -927,7 +1303,15 @@
             "Category": "Games & Comics",
             "Description": "Bungie Platform API",
             "HTTPS": true,
-            "Link": "https://www.bungie.net/en/Clan/Post/39966/85087279/0/0"
+            "Link": "https://github.com/Bungie-net/api"
+        },
+        {
+            "API": "Dota 2",
+            "Auth": null,
+            "Category": "Games & Comics",
+            "Description": "Provides information about Player stats , Match stats, Rankings for Dota 2",
+            "HTTPS": true,
+            "Link": "https://docs.opendota.com/"
         },
         {
             "API": "Eve Online",
@@ -960,6 +1344,38 @@
             "Description": "Guild Wars 2 Game Information",
             "HTTPS": true,
             "Link": "https://wiki.guildwars2.com/wiki/API:Main"
+        },
+        {
+            "API": "Halo",
+            "Auth": "apiKey",
+            "Category": "Games & Comics",
+            "Description": "Halo 5 and Halo Wars 2 Information",
+            "HTTPS": true,
+            "Link": "https://developer.haloapi.com/"
+        },
+        {
+            "API": "Hearthstone",
+            "Auth": "X-Mashape-Key",
+            "Category": "Games & Comics",
+            "Description": "Hearthstone Cards Information",
+            "HTTPS": true,
+            "Link": "http://hearthstoneapi.com/"
+        },
+        {
+            "API": "IGDB.com",
+            "Auth": "apiKey",
+            "Category": "Games & Comics",
+            "Description": "Video Game Database",
+            "HTTPS": true,
+            "Link": "https://api.igdb.com/"
+        },
+        {
+            "API": "Jokes",
+            "Auth": null,
+            "Category": "Games & Comics",
+            "Description": "Programming and general jokes",
+            "HTTPS": true,
+            "Link": "https://github.com/15Dkatz/official_joke_api"
         },
         {
             "API": "Jservice",
@@ -1002,6 +1418,14 @@
             "Link": "https://api.pandascore.co"
         },
         {
+            "API": "PlayerUnknown's Battlegrounds",
+            "Auth": "apiKey",
+            "Category": "Games & Comics",
+            "Description": "PUBG Stats",
+            "HTTPS": true,
+            "Link": "https://pubgtracker.com/site-api"
+        },
+        {
             "API": "Pok\u00e9api",
             "Auth": null,
             "Category": "Games & Comics",
@@ -1034,6 +1458,14 @@
             "Link": "https://developer.valvesoftware.com/wiki/Steam_Web_API"
         },
         {
+            "API": "xkcd",
+            "Auth": null,
+            "Category": "Games & Comics",
+            "Description": "Retrieve xkcd comics as JSON",
+            "HTTPS": true,
+            "Link": "https://xkcd.com/json.html"
+        },
+        {
             "API": "adresse.data.gouv.fr",
             "Auth": null,
             "Category": "Geocoding",
@@ -1042,12 +1474,52 @@
             "Link": "https://adresse.data.gouv.fr"
         },
         {
+            "API": "Battuta",
+            "Auth": "apiKey",
+            "Category": "Geocoding",
+            "Description": "A (country/region/city) in-cascade location API",
+            "HTTPS": true,
+            "Link": "https://battuta.medunes.net"
+        },
+        {
             "API": "Bing Maps",
             "Auth": "apiKey",
             "Category": "Geocoding",
             "Description": "Create/customize digital maps based on Bing Maps data",
             "HTTPS": true,
             "Link": "https://www.microsoft.com/maps/"
+        },
+        {
+            "API": "City Context",
+            "Auth": "apiKey",
+            "Category": "Geocoding",
+            "Description": "Crime, school, and transportation data for US cities",
+            "HTTPS": true,
+            "Link": "https://www.citycontext.com/api-reference#/"
+        },
+        {
+            "API": "CitySDK",
+            "Auth": null,
+            "Category": "Geocoding",
+            "Description": "Open APIs for select European cities",
+            "HTTPS": true,
+            "Link": "http://www.citysdk.eu/citysdk-toolkit/"
+        },
+        {
+            "API": "Daum Maps",
+            "Auth": "apiKey",
+            "Category": "Geocoding",
+            "Description": "Daum Maps provide multiple APIs for Korean maps",
+            "HTTPS": false,
+            "Link": "http://apis.map.daum.net/"
+        },
+        {
+            "API": "FreeGeoIP",
+            "Auth": null,
+            "Category": "Geocoding",
+            "Description": "Geolocation of IP addresses",
+            "HTTPS": true,
+            "Link": "https://freegeoip.net/"
         },
         {
             "API": "GeoApi",
@@ -1114,6 +1586,14 @@
             "Link": "https://ipapi.co/"
         },
         {
+            "API": "IP Sidekick",
+            "Auth": "apiKey",
+            "Category": "Geocoding",
+            "Description": "Geolocation API that returns extra information about an IP address",
+            "HTTPS": true,
+            "Link": "https://ipsidekick.com"
+        },
+        {
             "API": "IP Vigilante",
             "Auth": null,
             "Category": "Geocoding",
@@ -1146,7 +1626,7 @@
             "Link": "https://github.com/IcaliaLabs/sepomex"
         },
         {
-            "API": "One Map 2.0, Singapore",
+            "API": "One Map, Singapore",
             "Auth": "apiKey",
             "Category": "Geocoding",
             "Description": "Singapore Land Authority REST API services for Singapore addresses",
@@ -1202,6 +1682,14 @@
             "Link": "https://restcountries.eu"
         },
         {
+            "API": "Uebermaps",
+            "Auth": "apiKey",
+            "Category": "Geocoding",
+            "Description": "Discover and share maps with friends",
+            "HTTPS": true,
+            "Link": "https://uebermaps.com/api/v2"
+        },
+        {
             "API": "Utah AGRC",
             "Auth": "apiKey",
             "Category": "Geocoding",
@@ -1226,12 +1714,36 @@
             "Link": "http://www.zippopotam.us"
         },
         {
+            "API": "BCLaws",
+            "Auth": null,
+            "Category": "Government",
+            "Description": "Access to the laws of British Columbia",
+            "HTTPS": false,
+            "Link": "http://www.bclaws.ca/civix/template/complete/api/index.html"
+        },
+        {
             "API": "BusinessUSA",
             "Auth": "apiKey",
             "Category": "Government",
             "Description": "BusinessUSA gives developers access to authoritative information on US. programs, events, services and more",
             "HTTPS": true,
             "Link": "https://business.usa.gov/developer"
+        },
+        {
+            "API": "Census.gov",
+            "Auth": null,
+            "Category": "Government",
+            "Description": "The US Census Bureau provides various APIs and data sets on demographics and businesses",
+            "HTTPS": true,
+            "Link": "https://www.census.gov/data/developers/data-sets.html"
+        },
+        {
+            "API": "EPA",
+            "Auth": null,
+            "Category": "Government",
+            "Description": "Web services and data sets from the US Environmental Protection Agency",
+            "HTTPS": true,
+            "Link": "https://developer.epa.gov/category/api/"
         },
         {
             "API": "FEC",
@@ -1242,12 +1754,28 @@
             "Link": "https://api.open.fec.gov/developers/"
         },
         {
+            "API": "Food Standards Agency",
+            "Auth": null,
+            "Category": "Government",
+            "Description": "UK food hygiene rating data API",
+            "HTTPS": false,
+            "Link": "http://ratings.food.gov.uk/open-data/en-GB"
+        },
+        {
             "API": "Regulations.gov",
             "Auth": "apiKey",
             "Category": "Government",
             "Description": "Regulationsgov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process",
             "HTTPS": true,
             "Link": "https://regulationsgov.github.io/developers/"
+        },
+        {
+            "API": "BetterDoctor",
+            "Auth": "apiKey",
+            "Category": "Health",
+            "Description": "Detailed information about doctors in your area",
+            "HTTPS": true,
+            "Link": "https://developer.betterdoctor.com/"
         },
         {
             "API": "Diabetes",
@@ -1266,6 +1794,22 @@
             "Link": "http://www.flutrack.org/"
         },
         {
+            "API": "Healthcare.gov",
+            "Auth": null,
+            "Category": "Health",
+            "Description": "Educational content about the US Health Insurance Marketplace",
+            "HTTPS": true,
+            "Link": "https://www.healthcare.gov/developers/"
+        },
+        {
+            "API": "Lexigram",
+            "Auth": "apiKey",
+            "Category": "Health",
+            "Description": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology",
+            "HTTPS": true,
+            "Link": "https://docs.lexigram.io/v1/welcome"
+        },
+        {
             "API": "Makeup",
             "Auth": null,
             "Category": "Health",
@@ -1280,6 +1824,14 @@
             "Description": "Access to the data from the CMS - medicaregov",
             "HTTPS": true,
             "Link": "https://data.medicare.gov/developers"
+        },
+        {
+            "API": "NPPES",
+            "Auth": null,
+            "Category": "Health",
+            "Description": "National Plan & Provider Enumeration System, info on healthcare providers registered in US",
+            "HTTPS": true,
+            "Link": "https://npiregistry.cms.hhs.gov/registry/help-api"
         },
         {
             "API": "Nutritionix",
@@ -1306,12 +1858,124 @@
             "Link": "https://ndb.nal.usda.gov/ndb/doc/index"
         },
         {
-            "API": "API.AI",
+            "API": "Adzuna",
             "Auth": "apiKey",
-            "Category": "Machine Learning",
-            "Description": "Natural Language Processing",
+            "Category": "Jobs",
+            "Description": "Job board aggregator",
             "HTTPS": true,
-            "Link": "https://api.ai/"
+            "Link": "https://developer.adzuna.com/overview"
+        },
+        {
+            "API": "Authentic Jobs",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job board for designers, hackers, and creative pros",
+            "HTTPS": true,
+            "Link": "https://authenticjobs.com/api/docs"
+        },
+        {
+            "API": "Careerjet",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job search engine",
+            "HTTPS": false,
+            "Link": "https://www.careerjet.com/partners/api/"
+        },
+        {
+            "API": "Github Jobs",
+            "Auth": null,
+            "Category": "Jobs",
+            "Description": "Jobs for software developers",
+            "HTTPS": true,
+            "Link": "https://jobs.github.com/api"
+        },
+        {
+            "API": "Indeed",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job board aggregator",
+            "HTTPS": true,
+            "Link": "https://www.indeed.com/publisher"
+        },
+        {
+            "API": "Jobs2Careers",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job aggregator",
+            "HTTPS": true,
+            "Link": "http://api.jobs2careers.com/api/spec.pdf"
+        },
+        {
+            "API": "Jooble",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job search engine",
+            "HTTPS": true,
+            "Link": "https://us.jooble.org/api/about"
+        },
+        {
+            "API": "Juju",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job search engine",
+            "HTTPS": false,
+            "Link": "http://www.juju.com/publisher/spec/"
+        },
+        {
+            "API": "Open Skills",
+            "Auth": null,
+            "Category": "Jobs",
+            "Description": "Job titles, skills, and related jobs data",
+            "HTTPS": false,
+            "Link": "https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview"
+        },
+        {
+            "API": "Reed",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job board aggregator",
+            "HTTPS": true,
+            "Link": "https://www.reed.co.uk/developers"
+        },
+        {
+            "API": "Search.gov Jobs",
+            "Auth": null,
+            "Category": "Jobs",
+            "Description": "Tap into a list of current jobs openings with the United States government",
+            "HTTPS": true,
+            "Link": "https://search.gov/developer/jobs.html"
+        },
+        {
+            "API": "The Muse",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job board and company profiles",
+            "HTTPS": true,
+            "Link": "https://www.themuse.com/developers/api/v2"
+        },
+        {
+            "API": "Upwork",
+            "Auth": "OAuth",
+            "Category": "Jobs",
+            "Description": "Freelance job board and management system",
+            "HTTPS": true,
+            "Link": "https://developers.upwork.com/"
+        },
+        {
+            "API": "USAJOBS",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "US government job board",
+            "HTTPS": true,
+            "Link": "https://developer.usajobs.gov/"
+        },
+        {
+            "API": "ZipRecruiter",
+            "Auth": "apiKey",
+            "Category": "Jobs",
+            "Description": "Job search app and website",
+            "HTTPS": true,
+            "Link": "https://www.ziprecruiter.com/publishers"
         },
         {
             "API": "Clarifai",
@@ -1328,6 +1992,14 @@
             "Description": "Web chat bot",
             "HTTPS": true,
             "Link": "https://www.cleverbot.com/api/"
+        },
+        {
+            "API": "Dialogflow",
+            "Auth": "apiKey",
+            "Category": "Machine Learning",
+            "Description": "Natural Language Processing",
+            "HTTPS": true,
+            "Link": "https://dialogflow.com"
         },
         {
             "API": "Keen IO",
@@ -1382,8 +2054,8 @@
             "Auth": "OAuth",
             "Category": "Music",
             "Description": "Music",
-            "HTTPS": false,
-            "Link": "http://developers.deezer.com/login?redirect=/api"
+            "HTTPS": true,
+            "Link": "https://developers.deezer.com/api"
         },
         {
             "API": "Discogs",
@@ -1422,8 +2094,8 @@
             "Auth": "apiKey",
             "Category": "Music",
             "Description": "Music",
-            "HTTPS": false,
-            "Link": "http://www.last.fm/api"
+            "HTTPS": true,
+            "Link": "https://www.last.fm/api"
         },
         {
             "API": "Lyrics.ovh",
@@ -1498,6 +2170,22 @@
             "Link": "https://developer.spotify.com/web-api/"
         },
         {
+            "API": "TasteDive",
+            "Auth": "apiKey",
+            "Category": "Music",
+            "Description": "Similar artist API (also works for movies and TV shows)",
+            "HTTPS": true,
+            "Link": "https://tastedive.com/read/api"
+        },
+        {
+            "API": "TheAudioDB",
+            "Auth": "apiKey",
+            "Category": "Music",
+            "Description": "Music",
+            "HTTPS": false,
+            "Link": "http://www.theaudiodb.com"
+        },
+        {
             "API": "Vagalume",
             "Auth": "apiKey",
             "Category": "Music",
@@ -1514,6 +2202,14 @@
             "Link": "http://chroniclingamerica.loc.gov/about/api/"
         },
         {
+            "API": "Feedbin",
+            "Auth": "OAuth",
+            "Category": "News",
+            "Description": "RSS reader",
+            "HTTPS": true,
+            "Link": "https://github.com/feedbin/feedbin-api"
+        },
+        {
             "API": "New York Times",
             "Auth": "apiKey",
             "Category": "News",
@@ -1528,6 +2224,14 @@
             "Description": "Headlines currently published on a range of news sources and blogs",
             "HTTPS": true,
             "Link": "https://newsapi.org/"
+        },
+        {
+            "API": "NPR One",
+            "Auth": "OAuth",
+            "Category": "News",
+            "Description": "Personalized news listening experience from NPR",
+            "HTTPS": true,
+            "Link": "http://dev.npr.org/api/"
         },
         {
             "API": "The Guardian",
@@ -1618,12 +2322,44 @@
             "Link": "https://dronestre.am/"
         },
         {
+            "API": "Federal Register",
+            "Auth": null,
+            "Category": "Open Data",
+            "Description": "The Daily Journal of the United States Government",
+            "HTTPS": true,
+            "Link": "https://www.federalregister.gov/reader-aids/developer-resources"
+        },
+        {
             "API": "fonoApi",
             "Auth": null,
             "Category": "Open Data",
             "Description": "Mobile Device Description",
             "HTTPS": true,
             "Link": "https://fonoapi.freshpixl.com/"
+        },
+        {
+            "API": "French Address Search",
+            "Auth": null,
+            "Category": "Open Data",
+            "Description": "French Government",
+            "HTTPS": true,
+            "Link": "https://adresse.data.gouv.fr/api"
+        },
+        {
+            "API": "Marijuana Strains",
+            "Auth": "apiKey",
+            "Category": "Open Data",
+            "Description": "Marijuana strains, races, flavors, and effects",
+            "HTTPS": false,
+            "Link": "http://strains.evanbusse.com/"
+        },
+        {
+            "API": "Microlink.io",
+            "Auth": null,
+            "Category": "Open Data",
+            "Description": "Turns any link into information",
+            "HTTPS": true,
+            "Link": "https://docs.microlink.io"
         },
         {
             "API": "Open Government, Australia",
@@ -1642,6 +2378,14 @@
             "Link": "http://open.canada.ca/en"
         },
         {
+            "API": "Open Government, France",
+            "Auth": "apiKey",
+            "Category": "Open Data",
+            "Description": "French Government Open Data",
+            "HTTPS": true,
+            "Link": "https://www.data.gouv.fr/"
+        },
+        {
             "API": "Open Government, India",
             "Auth": "apiKey",
             "Category": "Open Data",
@@ -1658,6 +2402,14 @@
             "Link": "https://www.data.govt.nz/"
         },
         {
+            "API": "Open Government, Taiwan",
+            "Auth": null,
+            "Category": "Open Data",
+            "Description": "Taiwan Government Open Data",
+            "HTTPS": true,
+            "Link": "https://data.gov.tw/"
+        },
+        {
             "API": "Open Government, USA",
             "Auth": null,
             "Category": "Open Data",
@@ -1672,14 +2424,6 @@
             "Description": "A Database of Everything",
             "HTTPS": true,
             "Link": "https://outpan.mixnode.com/developers"
-        },
-        {
-            "API": "Pearson",
-            "Auth": "apiKey",
-            "Category": "Open Data",
-            "Description": "Dictionary Data",
-            "HTTPS": false,
-            "Link": "http://developer.pearson.com/apis/dictionaries"
         },
         {
             "API": "Prague Opendata",
@@ -1746,14 +2490,6 @@
             "Link": "https://www.mediawiki.org/wiki/API:Main_page"
         },
         {
-            "API": "Wordnik",
-            "Auth": null,
-            "Category": "Open Data",
-            "Description": "Dictionary Data",
-            "HTTPS": false,
-            "Link": "http://developer.wordnik.com"
-        },
-        {
             "API": "Yelp",
             "Auth": "OAuth",
             "Category": "Open Data",
@@ -1764,7 +2500,7 @@
         {
             "API": "Countly",
             "Auth": null,
-            "Category": "Open Source projects",
+            "Category": "Open Source Projects",
             "Description": "Countly web analytics",
             "HTTPS": false,
             "Link": "http://resources.count.ly/docs"
@@ -1772,7 +2508,7 @@
         {
             "API": "Drupal.org",
             "Auth": null,
-            "Category": "Open Source projects",
+            "Category": "Open Source Projects",
             "Description": "Drupalorg",
             "HTTPS": true,
             "Link": "https://www.drupal.org/drupalorg/docs/api"
@@ -1780,7 +2516,7 @@
         {
             "API": "Libraries.io",
             "Auth": "apiKey",
-            "Category": "Open Source projects",
+            "Category": "Open Source Projects",
             "Description": "Open source software libraries",
             "HTTPS": true,
             "Link": "https://libraries.io/api"
@@ -1816,6 +2552,14 @@
             "Description": "JSON API for hand curated Chuck Norris jokes",
             "HTTPS": true,
             "Link": "https://api.chucknorris.io"
+        },
+        {
+            "API": "FavQs.com",
+            "Auth": "apiKey",
+            "Category": "Personality",
+            "Description": "FavQs allows you to collect, discover, and share your favorite quotes",
+            "HTTPS": true,
+            "Link": "https://favqs.com/api"
         },
         {
             "API": "Forismatic",
@@ -1882,6 +2626,14 @@
             "Link": "https://www.flickr.com/services/api/"
         },
         {
+            "API": "Getty Images",
+            "Auth": "OAuth",
+            "Category": "Photography",
+            "Description": "Build applications using the world's most powerful imagery",
+            "HTTPS": true,
+            "Link": "http://developers.gettyimages.com/api/docs/"
+        },
+        {
             "API": "Gfycat",
             "Auth": "OAuth",
             "Category": "Photography",
@@ -1891,11 +2643,19 @@
         },
         {
             "API": "Giphy",
-            "Auth": null,
+            "Auth": "apiKey",
             "Category": "Photography",
             "Description": "Get all your gifs",
             "HTTPS": true,
-            "Link": "https://github.com/Giphy/GiphyAPI"
+            "Link": "https://developers.giphy.com/docs/"
+        },
+        {
+            "API": "Gyazo",
+            "Auth": "apiKey",
+            "Category": "Photography",
+            "Description": "Upload images",
+            "HTTPS": true,
+            "Link": "https://gyazo.com/api/docs"
         },
         {
             "API": "Imgur",
@@ -1903,7 +2663,23 @@
             "Category": "Photography",
             "Description": "Images",
             "HTTPS": true,
-            "Link": "https://api.imgur.com/#overview"
+            "Link": "https://apidocs.imgur.com/"
+        },
+        {
+            "API": "Pixabay",
+            "Auth": "apiKey",
+            "Category": "Photography",
+            "Description": "Photography",
+            "HTTPS": true,
+            "Link": "https://pixabay.com/sk/service/about/api/"
+        },
+        {
+            "API": "Pixhost",
+            "Auth": null,
+            "Category": "Photography",
+            "Description": "Upload images, photos, galleries",
+            "HTTPS": true,
+            "Link": "https://pixhost.org/api/index.html"
         },
         {
             "API": "PlaceKitten",
@@ -1946,14 +2722,6 @@
             "Link": "https://core.ac.uk/services#api"
         },
         {
-            "API": "Fedger.io",
-            "Auth": null,
-            "Category": "Science",
-            "Description": "Query machine intelligence data",
-            "HTTPS": true,
-            "Link": "https://dev.fedger.io/docs/"
-        },
-        {
             "API": "inspirehep.net",
             "Auth": null,
             "Category": "Science",
@@ -1992,6 +2760,14 @@
             "Description": "ISS astronauts, current location, etc",
             "HTTPS": false,
             "Link": "http://open-notify.org/Open-Notify-API/"
+        },
+        {
+            "API": "SpaceX",
+            "Auth": null,
+            "Category": "Science",
+            "Description": "Company, vehicle, launchpad and launch data",
+            "HTTPS": true,
+            "Link": "https://github.com/r-spacex/SpaceX-API"
         },
         {
             "API": "Sunrise and Sunset",
@@ -2050,12 +2826,36 @@
             "Link": "https://data.police.uk/docs/"
         },
         {
+            "API": "Best Buy",
+            "Auth": "apiKey",
+            "Category": "Shopping",
+            "Description": "Products, Buying Options, Categories, Recommendations, Stores, and Commerce",
+            "HTTPS": true,
+            "Link": "https://bestbuyapis.github.io/api-documentation/#overview"
+        },
+        {
             "API": "eBay",
             "Auth": "OAuth",
             "Category": "Shopping",
             "Description": "Sell and Buy on eBay",
             "HTTPS": true,
             "Link": "https://go.developer.ebay.com/"
+        },
+        {
+            "API": "Wal-Mart",
+            "Auth": "apiKey",
+            "Category": "Shopping",
+            "Description": "Item price and availability",
+            "HTTPS": true,
+            "Link": "https://developer.walmartlabs.com/docs"
+        },
+        {
+            "API": "Buffer",
+            "Auth": "OAuth",
+            "Category": "Social",
+            "Description": "Access to pending and sent updates in Buffer",
+            "HTTPS": true,
+            "Link": "https://buffer.com/developers/api"
         },
         {
             "API": "Cisco Spark",
@@ -2170,6 +2970,14 @@
             "Link": "https://www.reddit.com/dev/api"
         },
         {
+            "API": "SharedCount",
+            "Auth": "apiKey",
+            "Category": "Social",
+            "Description": "Social media like and share data for any URL",
+            "HTTPS": true,
+            "Link": "http://docs.sharedcount.com/"
+        },
+        {
             "API": "Slack",
             "Auth": "OAuth",
             "Category": "Social",
@@ -2207,7 +3015,7 @@
             "Category": "Social",
             "Description": "Game Streaming API",
             "HTTPS": true,
-            "Link": "https://github.com/justintv/Twitch-API"
+            "Link": "https://dev.twitch.tv/docs"
         },
         {
             "API": "Twitter",
@@ -2224,6 +3032,14 @@
             "Description": "Read and write vk data",
             "HTTPS": true,
             "Link": "https://vk.com/dev/sites"
+        },
+        {
+            "API": "BikeWise",
+            "Auth": null,
+            "Category": "Sports & Fitness",
+            "Description": "Bikewise is a place to learn about and report bike crashes, hazards, and thefts",
+            "HTTPS": true,
+            "Link": "https://www.bikewise.org/documentation/api_v2"
         },
         {
             "API": "Cartola FC",
@@ -2282,6 +3098,14 @@
             "Link": "https://developer.jcdecaux.com/"
         },
         {
+            "API": "NBA Stats",
+            "Auth": null,
+            "Category": "Sports & Fitness",
+            "Description": "Current and historical NBA Statistics",
+            "HTTPS": true,
+            "Link": "https://any-api.com/nba_com/nba_com/docs/API_Description"
+        },
+        {
             "API": "NFL Arrests",
             "Auth": null,
             "Category": "Sports & Fitness",
@@ -2306,6 +3130,22 @@
             "Link": "https://strava.github.io/api/"
         },
         {
+            "API": "SuredBits",
+            "Auth": null,
+            "Category": "Sports & Fitness",
+            "Description": "Query sports data, including teams, players, games, scores, and statistics",
+            "HTTPS": false,
+            "Link": "https://suredbits.com/api/"
+        },
+        {
+            "API": "TheSportsDB",
+            "Auth": "apiKey",
+            "Category": "Sports & Fitness",
+            "Description": "Crowd-Sourced Sports Data and Artwork",
+            "HTTPS": false,
+            "Link": "http://www.thesportsdb.com"
+        },
+        {
             "API": "UFC Data",
             "Auth": null,
             "Category": "Sports & Fitness",
@@ -2320,6 +3160,126 @@
             "Description": "Workout manager data as exercises, muscles or equipment",
             "HTTPS": true,
             "Link": "https://wger.de/en/software/api"
+        },
+        {
+            "API": "Adorable Avatars",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "Generate random cartoon avatars",
+            "HTTPS": true,
+            "Link": "http://avatars.adorable.io"
+        },
+        {
+            "API": "Bacon Ipsum",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "A Meatier Lorem Ipsum Generator",
+            "HTTPS": true,
+            "Link": "https://baconipsum.com/json-api/"
+        },
+        {
+            "API": "FHIR",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "Fast Healthcare Interoperability Resources test data",
+            "HTTPS": true,
+            "Link": "http://fhirtest.uhn.ca/home"
+        },
+        {
+            "API": "Hipster Ipsum",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "Generates Hipster Ipsum text",
+            "HTTPS": false,
+            "Link": "http://hipsterjesus.com/"
+        },
+        {
+            "API": "JSONPlaceholder",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "Fake data for testing and prototyping",
+            "HTTPS": false,
+            "Link": "http://jsonplaceholder.typicode.com/"
+        },
+        {
+            "API": "Lorem Text",
+            "Auth": "X-Mashape-Key",
+            "Category": "Test Data",
+            "Description": "Generates Lorem Ipsum text",
+            "HTTPS": true,
+            "Link": "https://market.mashape.com/montanaflynn/lorem-text-generator"
+        },
+        {
+            "API": "Loripsum",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "The \"lorem ipsum\" generator that doesn't suck",
+            "HTTPS": false,
+            "Link": "http://loripsum.net/"
+        },
+        {
+            "API": "RandomUser",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "Generates random user data",
+            "HTTPS": true,
+            "Link": "https://randomuser.me"
+        },
+        {
+            "API": "RoboHash",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "Generate random robot/alien avatars",
+            "HTTPS": true,
+            "Link": "https://robohash.org/"
+        },
+        {
+            "API": "UI Names",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "Generate random fake names",
+            "HTTPS": true,
+            "Link": "https://github.com/thm/uinames"
+        },
+        {
+            "API": "Yes No",
+            "Auth": null,
+            "Category": "Test Data",
+            "Description": "Generate yes or no randomly",
+            "HTTPS": true,
+            "Link": "https://yesno.wtf/api"
+        },
+        {
+            "API": "Aylien Text Analysis",
+            "Auth": "apiKey",
+            "Category": "Text Analysis",
+            "Description": "A collection of information retrieval and natural language APIs",
+            "HTTPS": true,
+            "Link": "http://docs.aylien.com/"
+        },
+        {
+            "API": "Google Cloud Natural",
+            "Auth": "apiKey",
+            "Category": "Text Analysis",
+            "Description": "Natural language understanding technologies to developers, including sentiment, entity, and syntax analysis",
+            "HTTPS": true,
+            "Link": "https://cloud.google.com/natural-language/docs/"
+        },
+        {
+            "API": "Semantira",
+            "Auth": "OAuth",
+            "Category": "Text Analysis",
+            "Description": "Text Analytics with sentiment analysis, categorization & named entity extraction",
+            "HTTPS": true,
+            "Link": "https://semantria.readme.io/docs"
+        },
+        {
+            "API": "Watson Natural Language Understanding",
+            "Auth": "OAuth",
+            "Category": "Text Analysis",
+            "Description": "Natural language processing for advanced text analysis",
+            "HTTPS": true,
+            "Link": "https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/"
         },
         {
             "API": "Postmon",
@@ -2378,6 +3338,14 @@
             "Link": "https://developer.goibibo.com/docs"
         },
         {
+            "API": "GraphHopper",
+            "Auth": "apiKey",
+            "Category": "Transportation",
+            "Description": "A-to-B routing with turn-by-turn instructions",
+            "HTTPS": true,
+            "Link": "https://graphhopper.com/api/1/docs/"
+        },
+        {
             "API": "Icelandic APIs",
             "Auth": null,
             "Category": "Transportation",
@@ -2410,12 +3378,12 @@
             "Link": "https://api.navitia.io/"
         },
         {
-            "API": "Nomad List",
+            "API": "REFUGE Restrooms",
             "Auth": null,
             "Category": "Transportation",
-            "Description": "A list of the best places to live/work remotely",
+            "Description": "Provides safe restroom access for transgender, intersex, and gender nonconforming individuals",
             "HTTPS": true,
-            "Link": "https://nomadlist.com/faq"
+            "Link": "https://www.refugerestrooms.org/api/docs/#!/restrooms"
         },
         {
             "API": "Schiphol Airport",
@@ -2658,14 +3626,6 @@
             "Link": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
         },
         {
-            "API": "Transport for Tokyo, Japan",
-            "Auth": "apiKey",
-            "Category": "Transportation",
-            "Description": "Tokyo Metro",
-            "HTTPS": true,
-            "Link": "https://developer.tokyometroapp.jp/info"
-        },
-        {
             "API": "Transport for Toronto, Canada",
             "Auth": null,
             "Category": "Transportation",
@@ -2706,14 +3666,6 @@
             "Link": "https://developer.wmata.com/"
         },
         {
-            "API": "Uber",
-            "Auth": "OAuth",
-            "Category": "Transportation",
-            "Description": "Request Uber rides, reach riders, transport things, and reward drivers",
-            "HTTPS": true,
-            "Link": "https://developer.uber.com/"
-        },
-        {
             "API": "WhereIsMyTransport",
             "Auth": "OAuth",
             "Category": "Transportation",
@@ -2728,6 +3680,38 @@
             "Description": "University names, countries and domains",
             "HTTPS": true,
             "Link": "https://github.com/Hipo/university-domains-list"
+        },
+        {
+            "API": "Bitly",
+            "Auth": "OAuth",
+            "Category": "URL Shorteners",
+            "Description": "URL shortener and link management",
+            "HTTPS": true,
+            "Link": "http://dev.bitly.com/get_started.html"
+        },
+        {
+            "API": "ClickMeter",
+            "Auth": "apiKey",
+            "Category": "URL Shorteners",
+            "Description": "Monitor, compare, and optimize your marketing links",
+            "HTTPS": true,
+            "Link": "https://support.clickmeter.com/hc/en-us/categories/201474986"
+        },
+        {
+            "API": "Google URL Shortener",
+            "Auth": "apiKey",
+            "Category": "URL Shorteners",
+            "Description": "Takes long URLs and squeezes them into fewer characters to make a link that is easier to share",
+            "HTTPS": true,
+            "Link": "https://developers.google.com/url-shortener/v1/getting_started"
+        },
+        {
+            "API": "Rebrandly",
+            "Auth": "apiKey",
+            "Category": "URL Shorteners",
+            "Description": "Custom URL shortener for sharing branded links",
+            "HTTPS": true,
+            "Link": "https://developers.rebrandly.com/v1/docs"
         },
         {
             "API": "Brazilian Vehicles and Prices",
@@ -2760,6 +3744,14 @@
             "Description": "Game Of Thrones API",
             "HTTPS": true,
             "Link": "https://anapioficeandfire.com/"
+        },
+        {
+            "API": "Czech Television",
+            "Auth": null,
+            "Category": "Video",
+            "Description": "TV programme of Czech TV",
+            "HTTPS": false,
+            "Link": "http://www.ceskatelevize.cz/xml/tv-program/"
         },
         {
             "API": "Dailymotion",
@@ -2802,12 +3794,28 @@
             "Link": "https://www.themoviedb.org/documentation/api"
         },
         {
+            "API": "TVDB",
+            "Auth": "apiKey",
+            "Category": "Video",
+            "Description": "Television data",
+            "HTTPS": true,
+            "Link": "https://api.thetvdb.com/swagger"
+        },
+        {
             "API": "TVMaze",
             "Auth": null,
             "Category": "Video",
             "Description": "TV Show Data",
             "HTTPS": false,
             "Link": "http://www.tvmaze.com/api"
+        },
+        {
+            "API": "Utelly",
+            "Auth": "X-Mashape-Key",
+            "Category": "Video",
+            "Description": "Check where a tv show or movie is available",
+            "HTTPS": true,
+            "Link": "https://market.mashape.com/utelly/utelly"
         },
         {
             "API": "Vimeo",
@@ -2840,6 +3848,14 @@
             "Description": "Weather",
             "HTTPS": true,
             "Link": "https://www.metaweather.com/api/"
+        },
+        {
+            "API": "ODWeather",
+            "Auth": null,
+            "Category": "Weather",
+            "Description": "Weather and weather webcams",
+            "HTTPS": false,
+            "Link": "http://api.oceandrivers.com/static/docs.html"
         },
         {
             "API": "OpenWeatherMap",
