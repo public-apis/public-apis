@@ -281,7 +281,7 @@ API | Description | Auth | HTTPS | Link |
 | The Report of the Week | Food & Drink Reviews | No | Yes | [Go!](https://github.com/andyklimczak/TheReportOfTheWeek-API) |
 | TheCocktailDB | Cocktail Recipes | `apiKey` | No | [Go!](http://www.thecocktaildb.com/) |
 | TheMealDB | Meal Recipes | `apiKey` | No | [Go!](http://www.themealdb.com/) |
-| What's on the menu? | NYPL human-transcribed historical menu collection | `apiKey` | No | [Go!](nypl.github.io/menus-api/) |
+| What's on the menu? | NYPL human-transcribed historical menu collection | `apiKey` | No | [Go!](http://nypl.github.io/menus-api/) |
 | Yummly | Find food recipes | `apiKey` | Yes | [Go!](https://developer.yummly.com/) |
 | Zomato | Discover restaurants | `apiKey` | Yes | [Go!](https://developers.zomato.com/api) |
 
