@@ -481,7 +481,6 @@ API | Description | Auth | HTTPS | Link |
 | Open Government, New Zealand | New Zealand Government Open Data | No | Yes | [Go!](https://www.data.govt.nz/) |
 | Open Government, Taiwan | Taiwan Government Open Data | No | Yes | [Go!](https://data.gov.tw/) |
 | Open Government, USA | United States Government Open Data | No | Yes | [Go!](https://www.data.gov/) |
-| Outpan | A Database of Everything | `apiKey` | Yes | [Go!](https://outpan.mixnode.com/developers) |
 | Prague Opendata | Prague City Open Data | No | No | [Go!](http://opendata.praha.eu/en) |
 | Quandl | Stock Market Data | No | Yes | [Go!](https://www.quandl.com/) |
 | Represent by Open North | Find Canadian Government Representatives | No | Yes | [Go!](https://represent.opennorth.ca/) |
@@ -523,7 +522,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | 500px | Photography Community | `OAuth` | Yes | [Go!](https://github.com/500px/api-documentation) |
 | Flickr | Flickr Services | `OAuth` | Yes | [Go!](https://www.flickr.com/services/api/) |
-| Getty Images | Build applications using the world's most powerful imagery | `OAuth` | Yes | [Go!](http://developers.gettyimages.com/api/docs/) |
+| Getty Images | Build applications using the world's most powerful imagery | `OAuth` | Yes | [Go!](http://developers.gettyimages.com/en/) |
 | Gfycat | Jiffier GIFs | `OAuth` | Yes | [Go!](https://developers.gfycat.com/api/) |
 | Giphy | Get all your gifs | `apiKey` | Yes | [Go!](https://developers.giphy.com/docs/) |
 | Gyazo | Upload images | `apiKey` | Yes | [Go!](https://gyazo.com/api/docs) |
@@ -540,7 +539,7 @@ API | Description | Auth | HTTPS | Link |
 | arcsecond.io | Multiple astronomy data sources | No | Yes | [Go!](https://api.arcsecond.io/) |
 | CORE | Access the world's Open Access research papers | `apiKey` | Yes | [Go!](https://core.ac.uk/services#api) |
 | inspirehep.net | High Energy Physics info. system | No | Yes | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
-| Launch Library | Upcoming Space Launches | No | Yes | [Go!](https://launchlibrary.net/1.2/docs/api.html) |
+| Launch Library | Upcoming Space Launches | No | Yes | [Go!](https://launchlibrary.net/docs/1.3/api.html) |
 | Minor Planet Center | Asterank.com Information | No | No | [Go!](http://www.asterank.com/mpc) |
 | NASA | NASA data, including imagery | No | Yes | [Go!](https://api.nasa.gov) |
 | Open Notify | ISS astronauts, current location, etc | No | No | [Go!](http://open-notify.org/Open-Notify-API/) |
