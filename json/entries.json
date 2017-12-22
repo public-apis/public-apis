@@ -1,5 +1,5 @@
 {
-    "count": 486,
+    "count": 485,
     "entries": [
         {
             "API": "Dogs",
@@ -2418,14 +2418,6 @@
             "Link": "https://www.data.gov/"
         },
         {
-            "API": "Outpan",
-            "Auth": "apiKey",
-            "Category": "Open Data",
-            "Description": "A Database of Everything",
-            "HTTPS": true,
-            "Link": "https://outpan.mixnode.com/developers"
-        },
-        {
             "API": "Prague Opendata",
             "Auth": null,
             "Category": "Open Data",
@@ -2631,7 +2623,7 @@
             "Category": "Photography",
             "Description": "Build applications using the world's most powerful imagery",
             "HTTPS": true,
-            "Link": "http://developers.gettyimages.com/api/docs/"
+            "Link": "http://developers.gettyimages.com/en/"
         },
         {
             "API": "Gfycat",
@@ -2735,7 +2727,7 @@
             "Category": "Science",
             "Description": "Upcoming Space Launches",
             "HTTPS": true,
-            "Link": "https://launchlibrary.net/1.2/docs/api.html"
+            "Link": "https://launchlibrary.net/docs/1.3/api.html"
         },
         {
             "API": "Minor Planet Center",
