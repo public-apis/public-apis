@@ -124,7 +124,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
-| Czech Namedays Calendar | Lookup for a name and returns nameday date | No | No | [Go!](http://svatky.adresa.info/) |
+| Czech and Slovak Namedays Calendar | Lookup for a date and returns name | No | Yes | [Go!](https://api.abalin.net/) |
 | Google Calendar | Display, create and modify Google calendar events | `OAuth` | Yes | [Go!](https://developers.google.com/google-apps/calendar/) |
 | Hebrew Calendar | Convert between Gregarian and Hebrew, fetch Shabbat and Holiday times, etc | No | No | [Go!](https://www.hebcal.com/home/developer-apis) |
 | Holidays | Historical data regarding holidays | `apiKey` | Yes | [Go!](https://holidayapi.com/) |
