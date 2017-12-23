@@ -1,5 +1,5 @@
 {
-    "count": 484,
+    "count": 485,
     "entries": [
         {
             "API": "Dogs",
@@ -304,6 +304,14 @@
             "Description": "Catholic liturgical calendar",
             "HTTPS": false,
             "Link": "http://calapi.inadiutorium.cz/"
+        },
+        {
+            "API": "Czech and Slovak Namedays Calendar",
+            "Auth": null,
+            "Category": "Calendar",
+            "Description": "Lookup for a date and returns nameday",
+            "HTTPS": true,
+            "Link": "https://api.abalin.net/"
         },
         {
             "API": "Czech Namedays Calendar",
