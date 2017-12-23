@@ -30,7 +30,7 @@ else
 fi
 
 echo "running format validation..."
-./validate_format.rb $FORMAT_FILE
+./validate_format.py $FORMAT_FILE
 if [[ $? != 0 ]]; then
   echo "format validation failed!"
   exit 1
