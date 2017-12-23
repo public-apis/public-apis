@@ -14,7 +14,7 @@ def markdown_to_json(filename, anchor):
                     and line.startswith(anchor) or line.startswith('| '))
     for line in lines:
         if line.startswith(anchor):
-            category = line.split()[1]
+            category = line.split(anchor)[1].strip()
             continue
         chunks = [x.strip() for x in line.split('|')[1:-1]]
         entry = {
@@ -26,7 +26,11 @@ def markdown_to_json(filename, anchor):
             'Category': category,
         }
         entries.append(entry)
-    return json.dumps(entries)
+    final = {
+        'count': len(entries),
+        'entries': entries,
+    }
+    return json.dumps(final)
 
 
 def main():
