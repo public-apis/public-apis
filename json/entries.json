@@ -1,5 +1,5 @@
 {
-    "count": 485,
+    "count": 484,
     "entries": [
         {
             "API": "Dogs",
@@ -3560,14 +3560,6 @@
             "Description": "SEPTA APIs",
             "HTTPS": false,
             "Link": "http://www3.septa.org/hackathon/"
-        },
-        {
-            "API": "Transport for Rio de Janeiro, Brazil",
-            "Auth": null,
-            "Category": "Transportation",
-            "Description": "Prefeitura do Rio (City Hall)",
-            "HTTPS": false,
-            "Link": "http://data.rio/group/transporte-e-mobilidade"
         },
         {
             "API": "Transport for Sao Paulo, Brazil",
