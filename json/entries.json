@@ -1,5 +1,5 @@
 {
-    "count": 485,
+    "count": 486,
     "entries": [
         {
             "API": "Dogs",
@@ -456,6 +456,14 @@
             "Description": "Bitcoin, Litecoin and Ethereum Prices",
             "HTTPS": true,
             "Link": "https://developers.coinbase.com"
+        },
+        {
+            "API": "CoinBin",
+            "Auth": null,
+            "Category": "Cryptocurrency",
+            "Description": "Cryptocurrency information",
+            "HTTPS": true,
+            "Link": "https://coinbin.org/"
         },
         {
             "API": "CoinDesk",
