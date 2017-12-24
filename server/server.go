@@ -20,6 +20,12 @@ type SearchRequest struct {
 	Category    string `schema:"category"`
 }
 
+// Entries contains an array of API entries, and a count representing the length of that array.
+type Entries struct {
+	Count   int     `json:"count"`
+	Entries []Entry `json:"entries"`
+}
+
 // Entry describes a single API reference.
 type Entry struct {
 	API         string
@@ -28,17 +34,6 @@ type Entry struct {
 	HTTPS       bool
 	Link        string
 	Category    string
-}
-
-// Entries contains an array of entry objects.
-type Entries struct {
-	Entries []Entry
-}
-
-// SearchResponse contains a count of the results found, and an array of entries.
-type SearchResponse struct {
-	Count   int     `json:"count"`
-	Entries []Entry `json:"entries"`
 }
 
 // checkEntryMatches checks if the given entry matches the given request's parameters.
@@ -68,9 +63,9 @@ func main() {
 		panic("failed to open entries.min.json: " + err.Error())
 	}
 
-	// Decode file's contents into an array of entries.
-	apiEntries := new(Entries)
-	err = json.NewDecoder(file).Decode(apiEntries)
+	// Decode file's contents into an Entries object.
+	var apiList Entries
+	err = json.NewDecoder(file).Decode(&apiList)
 	if err != nil {
 		panic("failed to decode JSON from file: " + err.Error())
 	}
@@ -93,12 +88,12 @@ func main() {
 		}
 		defer req.Body.Close()
 
-		// Our matching entries to return in response object.
+		// Holds our matching entries that met the search parameters.
 		var results []Entry
 
-		// Loop through our list of APIs seeing if our search parameters match any in our list, appending them to the
-		// return object if so.
-		for _, e := range apiEntries.Entries {
+		// Loop through our APIs seeing if our search parameters match any in our list, appending them to the return
+		// object if so.
+		for _, e := range apiList.Entries {
 			if checkEntryMatches(e, searchReq) {
 				results = append(results, e)
 			}
@@ -107,13 +102,14 @@ func main() {
 		// Set content-type.
 		w.Header().Set("Content-Type", "json/application")
 
-		// Encode a new search response to return to the client containing the results. 200 is implied.
-		err = json.NewEncoder(w).Encode(SearchResponse{
+		// Encode a new Entries object as our return response to the client for the search results. 200 is implied.
+		err = json.NewEncoder(w).Encode(Entries{
 			Count:   len(results),
 			Entries: results,
 		})
 		if err != nil {
-			panic("failed to encode response object: " + err.Error())
+			http.Error(w, "server failed to encode response object: "+err.Error(), http.StatusInternalServerError)
+			return
 		}
 	})
 
