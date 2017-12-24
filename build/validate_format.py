@@ -89,7 +89,7 @@ def check_format(filename):
         # START Link
         # url should be wrapped in '[Go!]()' Markdown syntax
         link = segments[index_link]
-        if not link.startswith('[Go!](') or not link.endswith(')'):
+        if not link.startswith('[Go!](http') or not link.endswith(')'):
             add_error(line_num, 'link format should be "[Go!](LINK)"')
         # END Link
     # END Check Entries
