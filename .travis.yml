@@ -1,10 +1,7 @@
-language: node_js
+language: python
+python: "3.6"
 notifications:
   email: true
-before_install:
-  - rvm install 2.4.0
-install:
-  - gem install httparty ruby-progressbar
 before_script:
   - cd build
 script:
