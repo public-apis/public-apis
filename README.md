@@ -217,6 +217,7 @@ API | Description | Auth | HTTPS | Link |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | [Go!](https://reqres.in/ ) |
 | Scrape Website Email | Grabs email addresses from a URL | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/tommytcchan/scrape-website-email) |
 | SHOUTCLOUD | ALL-CAPS AS A SERVICE | No | No | [Go!](http://shoutcloud.io/) |
+| Sphere Engine | Compile and run source code. 80+ compilers supported. Test cases supported | `apiKey` | Yes | [Go!](https://sphere-engine.com/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | [Go!](https://api.stackexchange.com/) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | [Go!](https://verse.pawelad.xyz/) |
 | XML to JSON | Integration developer utility APIs | No | Yes | [Go!](https://developers.wso2apistore.com/) |
