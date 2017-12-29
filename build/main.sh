@@ -45,7 +45,7 @@ else
 fi
 
 echo "running link validation..."
-./validate_links.rb $LINK_FILE
+./validate_links.py $LINK_FILE
 if [[ $? != 0 ]]; then
   echo "link validation failed!"
   exit 1
