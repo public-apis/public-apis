@@ -474,6 +474,7 @@ API | Description | Auth | HTTPS | Link |
 | Federal Register | The Daily Journal of the United States Government | No | Yes | [Go!](https://www.federalregister.gov/reader-aids/developer-resources) |
 | fonoApi | Mobile Device Description | No | Yes | [Go!](https://fonoapi.freshpixl.com/) |
 | French Address Search | French Government | No | Yes | [Go!](https://adresse.data.gouv.fr/api) |
+| INQStats | Open demographic data such as population, life expectancy, migration rate, etc | `apiKey` | No | [Go!](http://blog.inqubu.com/inqstats-open-api-published-to-get-demographic-data) |
 | Marijuana Strains | Marijuana strains, races, flavors, and effects | `apiKey` | No | [Go!](http://strains.evanbusse.com/) |
 | Microlink.io | Turns any link into information | No | Yes | [Go!](https://docs.microlink.io) |
 | Open Government, Australia | Australian Government Open Data | No | Yes | [Go!](https://www.data.gov.au/) |
