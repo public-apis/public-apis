@@ -1,5 +1,5 @@
 {
-    "count": 486,
+    "count": 487,
     "entries": [
         {
             "API": "Dogs",
@@ -2359,6 +2359,14 @@
             "Auth": null,
             "HTTPS": true,
             "Link": "https://adresse.data.gouv.fr/api",
+            "Category": "Open Data"
+        },
+        {
+            "API": "INQStats",
+            "Description": "Open demographic data such as population, life expectancy, migration rate, etc",
+            "Auth": "apiKey",
+            "HTTPS": false,
+            "Link": "http://blog.inqubu.com/inqstats-open-api-published-to-get-demographic-data",
             "Category": "Open Data"
         },
         {
