@@ -2,6 +2,8 @@ language: python
 python: "3.6"
 notifications:
   email: true
+install:
+  - pip install -r build/requirements.txt
 before_script:
   - cd build
 script:
