@@ -197,7 +197,7 @@
             "API": "BookNomads",
             "Auth": null,
             "Category": "Books",
-            "Description": "Books published in the Netherlands and Flanders (about 25 million), book covers, and related data",
+            "Description": "Books published in the Netherlands and Flanders (about 2.5 million), book covers, and related data",
             "HTTPS": true,
             "Link": "https://www.booknomads.com/dev"
         },
@@ -765,7 +765,7 @@
             "API": "JSONbin.io",
             "Auth": "apiKey",
             "Category": "Development",
-            "Description": "Free JSON storage service Ideal for small scale Web apps, Websites and Mobile apps",
+            "Description": "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps",
             "HTTPS": true,
             "Link": "https://jsonbin.io"
         },
@@ -1741,7 +1741,7 @@
             "API": "BusinessUSA",
             "Auth": "apiKey",
             "Category": "Government",
-            "Description": "BusinessUSA gives developers access to authoritative information on US. programs, events, services and more",
+            "Description": "BusinessUSA gives developers access to authoritative information on U.S. programs, events, services and more",
             "HTTPS": true,
             "Link": "https://business.usa.gov/developer"
         },
@@ -1781,7 +1781,7 @@
             "API": "Regulations.gov",
             "Auth": "apiKey",
             "Category": "Government",
-            "Description": "Regulationsgov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process",
+            "Description": "Regulations.gov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process",
             "HTTPS": true,
             "Link": "https://regulationsgov.github.io/developers/"
         },
@@ -1837,7 +1837,7 @@
             "API": "Medicare",
             "Auth": null,
             "Category": "Health",
-            "Description": "Access to the data from the CMS - medicaregov",
+            "Description": "Access to the data from the CMS - medicare.gov",
             "HTTPS": true,
             "Link": "https://data.medicare.gov/developers"
         },
@@ -2477,7 +2477,7 @@
             "API": "UPC database",
             "Auth": "apiKey",
             "Category": "Open Data",
-            "Description": "More than 15 million barcode numbers from all around the world",
+            "Description": "More than 1.5 million barcode numbers from all around the world",
             "HTTPS": true,
             "Link": "https://upcdatabase.org/api"
         },
@@ -2517,7 +2517,7 @@
             "API": "Drupal.org",
             "Auth": null,
             "Category": "Open Source Projects",
-            "Description": "Drupalorg",
+            "Description": "Drupal.org",
             "HTTPS": true,
             "Link": "https://www.drupal.org/drupalorg/docs/api"
         },
@@ -2733,7 +2733,7 @@
             "API": "inspirehep.net",
             "Auth": null,
             "Category": "Science",
-            "Description": "High Energy Physics info system",
+            "Description": "High Energy Physics info. system",
             "HTTPS": true,
             "Link": "https://inspirehep.net/info/hep/api?ln=en"
         },
@@ -2749,7 +2749,7 @@
             "API": "Minor Planet Center",
             "Auth": null,
             "Category": "Science",
-            "Description": "Asterankcom Information",
+            "Description": "Asterank.com Information",
             "HTTPS": false,
             "Link": "http://www.asterank.com/mpc"
         },
@@ -2949,7 +2949,7 @@
             "API": "Meetup.com",
             "Auth": "apiKey",
             "Category": "Social",
-            "Description": "Data about Meetups from Meetupcom",
+            "Description": "Data about Meetups from Meetup.com",
             "HTTPS": true,
             "Link": "https://www.meetup.com/meetup_api/"
         },
