@@ -49,7 +49,7 @@ def check_format(filename):
 
     for category, entries in sections.items():
         if sorted(entries) != entries:
-            add_error(section_line_num[category], '{} section is not in alphabetical order'.format(category))
+            add_error(section_line_num[category], "{} section is not in alphabetical order".format(category))
     # END Alphabetical Order
 
     # START Check Entries
@@ -64,6 +64,11 @@ def check_format(filename):
                 add_error(line_num, "each segment must start and end with exactly 1 space")
         # END Global
         segments = [seg.strip() for seg in segments]
+        # START Title
+        title = segments[index_title].upper()
+        if title.endswith(' API'):
+            add_error(line_num, 'Title should not contain "API"')
+        # END Title
         # START Description
         # first character should be capitalized
         char = segments[index_desc][0]
@@ -97,7 +102,7 @@ def check_format(filename):
 def main():
     num_args = len(sys.argv)
     if num_args < 2:
-        print("No .md file passed")
+        print("No file passed (file should contain Markdown table syntax)")
         sys.exit(1)
 
     check_format(sys.argv[1])
