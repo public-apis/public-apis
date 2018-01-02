@@ -633,7 +633,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Aylien Text Analysis | A collection of information retrieval and natural language APIs | `apiKey` | Yes | [Go!](http://docs.aylien.com/) |
 | Google Cloud Natural | Natural language understanding technologies to developers, including sentiment, entity, and syntax analysis | `apiKey` | Yes | [Go!](https://cloud.google.com/natural-language/docs/) |
-| Language Detection API | Detects text language | `apiKey` | Yes | [Go!](https://detectlanguage.com/) |
+| Detect Language | Detects text language | `apiKey` | Yes | [Go!](https://detectlanguage.com/) |
 | Semantira | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | [Go!](https://semantria.readme.io/docs) |
 | Watson Natural Language Understanding | Natural language processing for advanced text analysis | `OAuth` | Yes | [Go!](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) |
 
