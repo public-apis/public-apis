@@ -112,7 +112,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Charity Search | Non-profit charity data | `apiKey` | No | [Go!](http://charityapi.orghunter.com/) |
-| Clearbit Logo API | Search for company logos and embed them in your projects | No | Yes | [Go!](https://clearbit.com/docs#logo-api) |
+| Clearbit Logo | Search for company logos and embed them in your projects | No | Yes | [Go!](https://clearbit.com/docs#logo-api) |
 | Domainsdb.info | Registered Domain Names Search | No | Yes | [Go!](https://domainsdb.info/) |
 | Gmail | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | [Go!](https://developers.google.com/gmail/api/) |
 | Google Analytics | Collect, configure, and analyze your data to reach the right audience | `OAuth` | Yes | [Go!](https://developers.google.com/analytics/) |
@@ -207,7 +207,7 @@ API | Description | Auth | HTTPS | Link |
 | IPinfo | Another simple IP Address API | No | Yes | [Go!](https://ipinfo.io/developers) |
 | JSON 2 JSONP | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
 | JSONbin.io | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | [Go!](https://jsonbin.io) |
-| Judge0 API | Compile and run source code | No | Yes | [Go!](https://api.judge0.com/) |
+| Judge0 | Compile and run source code | No | Yes | [Go!](https://api.judge0.com/) |
 | Kairos | Face Recognition and Emotion Analysis | `apiKey` | Yes | [Go!](https://www.kairos.com/features) |
 | Let's Validate | Uncovers the technologies used on websites and URL to thumbnail | No | Yes | [Go!](https://github.com/letsvalidate/api) |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.liveedu.tv/developer/applications/) |
@@ -234,7 +234,7 @@ API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | File.io | File Sharing | No | Yes | [Go!](https://www.file.io) |
 | Mercury | Web parser | `apiKey` | Yes | [Go!](https://mercury.postlight.com/web-parser/) |
-| pdflayer API | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
+| pdflayer | HTML/URL to PDF | No | Yes | [Go!](https://pdflayer.com) |
 | Pocket | Bookmarking service | `OAuth` | Yes | [Go!](https://getpocket.com/developer/) |
 | PrexView | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | [Go!](https://prexview.com) |
 | Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | [Go!](https://restpack.io/) |
@@ -424,7 +424,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Newton | Symbolic and Arithmetic Math Calculator | No | Yes | [Go!](https://newton.now.sh/) |
-| Numbers API | Facts about numbers | No | No | [Go!](http://numbersapi.com) |
+| Numbers | Facts about numbers | No | No | [Go!](http://numbersapi.com) |
 
 ### Music
 API | Description | Auth | HTTPS | Link |
@@ -455,7 +455,7 @@ API | Description | Auth | HTTPS | Link |
 | Chronicling America | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | [Go!](http://chroniclingamerica.loc.gov/about/api/) |
 | Feedbin | RSS reader | `OAuth` | Yes | [Go!](https://github.com/feedbin/feedbin-api) |
 | New York Times | Provides news | `apiKey` | Yes | [Go!](https://developer.nytimes.com/) |
-| News API | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | [Go!](https://newsapi.org/) |
+| News | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | [Go!](https://newsapi.org/) |
 | NPR One | Personalized news listening experience from NPR | `OAuth` | Yes | [Go!](http://dev.npr.org/api/) |
 | The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | [Go!](http://open-platform.theguardian.com/) |
 
