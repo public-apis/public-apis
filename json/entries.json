@@ -242,7 +242,7 @@
             "Category": "Business"
         },
         {
-            "API": "Clearbit Logo API",
+            "API": "Clearbit Logo",
             "Description": "Search for company logos and embed them in your projects",
             "Auth": null,
             "HTTPS": true,
@@ -778,7 +778,7 @@
             "Category": "Development"
         },
         {
-            "API": "Judge0 API",
+            "API": "Judge0",
             "Description": "Compile and run source code",
             "Auth": null,
             "HTTPS": true,
@@ -930,7 +930,7 @@
             "Category": "Documents & Productivity"
         },
         {
-            "API": "pdflayer API",
+            "API": "pdflayer",
             "Description": "HTML/URL to PDF",
             "Auth": null,
             "HTTPS": true,
@@ -2058,7 +2058,7 @@
             "Category": "Math"
         },
         {
-            "API": "Numbers API",
+            "API": "Numbers",
             "Description": "Facts about numbers",
             "Auth": null,
             "HTTPS": false,
@@ -2242,7 +2242,7 @@
             "Category": "News"
         },
         {
-            "API": "News API",
+            "API": "News",
             "Description": "Headlines currently published on a range of news sources and blogs",
             "Auth": "apiKey",
             "HTTPS": true,
