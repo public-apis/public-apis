@@ -1,5 +1,5 @@
 {
-    "count": 487,
+    "count": 488,
     "entries": [
         {
             "API": "Dogs",
@@ -424,6 +424,14 @@
             "HTTPS": true,
             "Link": "https://docs.travis-ci.com/api/",
             "Category": "Continuous Integration"
+        },
+        {
+            "API": "BitcoinCharts",
+            "Description": "Financial and Technical Data related to the Bitcoin Network",
+            "Auth": null,
+            "HTTPS": true,
+            "Link": "https://bitcoincharts.com/about/exchanges/",
+            "Category": "Cryptocurrency"
         },
         {
             "API": "Bitfinex",
