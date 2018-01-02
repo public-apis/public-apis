@@ -151,6 +151,7 @@ API | Description | Auth | HTTPS | Link |
 ### Cryptocurrency
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| BitcoinCharts | Financial and Technical Data related to the Bitcoin Network | No | Yes | [Go!](https://bitcoincharts.com/about/exchanges/) |
 | Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | [Go!](https://www.block.io/docs/basic) |
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | [Go!](https://www.blockchain.info/api) |
