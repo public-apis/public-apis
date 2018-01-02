@@ -1,5 +1,5 @@
 {
-    "count": 488,
+    "count": 489,
     "entries": [
         {
             "API": "Dogs",
@@ -3279,6 +3279,14 @@
             "Auth": "apiKey",
             "HTTPS": true,
             "Link": "http://docs.aylien.com/",
+            "Category": "Text Analysis"
+        },
+        {
+            "API": "Detect Language",
+            "Description": "Detects text language",
+            "Auth": "apiKey",
+            "HTTPS": true,
+            "Link": "https://detectlanguage.com/",
             "Category": "Text Analysis"
         },
         {
