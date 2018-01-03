@@ -1,5 +1,5 @@
 {
-    "count": 489,
+    "count": 490,
     "entries": [
         {
             "API": "Dogs",
@@ -2783,6 +2783,14 @@
             "Auth": null,
             "HTTPS": false,
             "Link": "http://open-notify.org/Open-Notify-API/",
+            "Category": "Science"
+        },
+        {
+            "API": "Open Science Framework",
+            "Description": "Repository and archive for study designs, research materials, data, manuscripts, etc",
+            "Auth": null,
+            "HTTPS": true,
+            "Link": "https://developer.osf.io",
             "Category": "Science"
         },
         {
