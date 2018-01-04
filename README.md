@@ -548,6 +548,7 @@ API | Description | Auth | HTTPS | Link |
 | NASA | NASA data, including imagery | No | Yes | [Go!](https://api.nasa.gov) |
 | Open Notify | ISS astronauts, current location, etc | No | No | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Open Science Framework | Repository and archive for study designs, research materials, data, manuscripts, etc | No | Yes | [Go!](https://developer.osf.io) |
+| SHARE | A free, open, dataset about research and scholarly activities | No | Yes | [Go!](https://share.osf.io/api/v2/) | 
 | SpaceX | Company, vehicle, launchpad and launch data | No | Yes | [Go!](https://github.com/r-spacex/SpaceX-API) |
 | Sunrise and Sunset | Sunset and sunrise times for a given latitude and longitude | No | Yes | [Go!](https://sunrise-sunset.org/api) |
 | USGS Earthquake Hazards Program | Earthquakes data real-time | No | Yes | [Go!](https://earthquake.usgs.gov/fdsnws/event/1/) |
