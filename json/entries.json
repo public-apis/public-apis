@@ -1,5 +1,5 @@
 {
-    "count": 490,
+    "count": 491,
     "entries": [
         {
             "API": "Dogs",
@@ -2791,6 +2791,14 @@
             "Auth": null,
             "HTTPS": true,
             "Link": "https://developer.osf.io",
+            "Category": "Science"
+        },
+        {
+            "API": "SHARE",
+            "Description": "A free, open, dataset about research and scholarly activities",
+            "Auth": null,
+            "HTTPS": true,
+            "Link": "https://share.osf.io/api/v2/",
             "Category": "Science"
         },
         {
