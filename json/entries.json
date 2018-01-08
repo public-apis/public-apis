@@ -1,5 +1,5 @@
 {
-    "count": 491,
+    "count": 492,
     "entries": [
         {
             "API": "Dogs",
@@ -503,6 +503,14 @@
             "Auth": null,
             "HTTPS": true,
             "Link": "https://www.cryptonator.com/api/",
+            "Category": "Cryptocurrency"
+        },
+        {
+            "API": "GDAX",
+            "Description": "Cryptocurrency Trading Platform",
+            "Auth": "apiKey",
+            "HTTPS": true,
+            "Link": "https://docs.gdax.com/#api",
             "Category": "Cryptocurrency"
         },
         {
