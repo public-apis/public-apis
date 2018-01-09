@@ -344,6 +344,7 @@ API | Description | Auth | HTTPS | Link |
 | GeoApi | French geographical data | No | Yes | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Geocode.xyz | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | [Go!](https://geocode.xyz/) |
 | GeoNames | Place names and other geographical data | No | No | [Go!](http://www.geonames.org/export/web-services.html) |
+| Google Earth Engine | A cloud-based platform for planetary-scale environmental data analysis | `apiKey` | Yes | [Go!](https://developers.google.com/earth-engine/) |
 | Google Maps | Create/customize digital maps based on Google Maps data | `apiKey` | Yes | [Go!](https://developers.google.com/maps/) |
 | GraphLoc | Free GraphQL IP Geolocation API | No | Yes | [Go!](https://www.graphloc.com) |
 | IP 2 Country | Map an IP to a country | No | Yes | [Go!](https://ip2country.info) |
