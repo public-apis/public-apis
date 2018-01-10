@@ -652,6 +652,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | ADS-B Exchange | Access real-time and historical data of any and all airbone aircraft | No | Yes | [Go!](https://www.adsbexchange.com/data/) |
+| AIS Hub | Real-time data of any marine and inland vessel equipped with AIS tracking system | `apiKey` | No | [Go!](http://www.aishub.net/api) |
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apiKey` | Yes | [Go!](https://sandbox.amadeus.com/) |
 | Bay Area Rapid Transit | Stations and predicted arrivals for BART | `apiKey` | No | [Go!](http://api.bart.gov) |
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
