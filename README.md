@@ -577,6 +577,7 @@ API | Description | Auth | HTTPS | Link |
 | Buffer | Access to pending and sent updates in Buffer | `OAuth` | Yes | [Go!](https://buffer.com/developers/api) |
 | Cisco Spark | Team Collaboration Software | `OAuth` | Yes | [Go!](https://developer.ciscospark.com) |
 | Discord | Make bots for Discord, integrate Discord onto an external platform | `OAuth` | Yes | [Go!](https://discordapp.com/developers/docs/intro) |
+| Disqus | Communicate with Disqus data | `OAuth` | Yes | [Go!](https://disqus.com/api/docs/auth/) |
 | DonReach Social Count | Get the social share count of a URL from every major social network | No | Yes | [Go!](https://donreach.com/social-share-count/) |
 | Facebook | Facebook Login, Share on FB, Social Plugins, Analytics and more | `OAuth` | Yes | [Go!](https://developers.facebook.com/) |
 | Foursquare | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | `OAuth` | Yes | [Go!](https://developer.foursquare.com/) |
