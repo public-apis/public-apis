@@ -1,5 +1,5 @@
 {
-    "count": 492,
+    "count": 494,
     "entries": [
         {
             "API": "Dogs",
@@ -1575,6 +1575,14 @@
             "Auth": null,
             "HTTPS": false,
             "Link": "http://www.geonames.org/export/web-services.html",
+            "Category": "Geocoding"
+        },
+        {
+            "API": "Google Earth Engine",
+            "Description": "A cloud-based platform for planetary-scale environmental data analysis",
+            "Auth": "apiKey",
+            "HTTPS": true,
+            "Link": "https://developers.google.com/earth-engine/",
             "Category": "Geocoding"
         },
         {
@@ -3359,6 +3367,14 @@
             "Auth": null,
             "HTTPS": true,
             "Link": "https://www.adsbexchange.com/data/",
+            "Category": "Transportation"
+        },
+        {
+            "API": "AIS Hub",
+            "Description": "Real-time data of any marine and inland vessel equipped with AIS tracking system",
+            "Auth": "apiKey",
+            "HTTPS": false,
+            "Link": "http://www.aishub.net/api",
             "Category": "Transportation"
         },
         {
