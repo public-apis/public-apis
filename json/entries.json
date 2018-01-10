@@ -1,5 +1,5 @@
 {
-    "count": 494,
+    "count": 495,
     "entries": [
         {
             "API": "Dogs",
@@ -2927,6 +2927,14 @@
             "Auth": "OAuth",
             "HTTPS": true,
             "Link": "https://discordapp.com/developers/docs/intro",
+            "Category": "Social"
+        },
+        {
+            "API": "Disqus",
+            "Description": "Communicate with Disqus data",
+            "Auth": "OAuth",
+            "HTTPS": true,
+            "Link": "https://disqus.com/api/docs/auth/",
             "Category": "Social"
         },
         {
