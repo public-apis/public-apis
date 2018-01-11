@@ -347,6 +347,7 @@ API | Description | Auth | HTTPS | Link |
 | Google Earth Engine | A cloud-based platform for planetary-scale environmental data analysis | `apiKey` | Yes | [Go!](https://developers.google.com/earth-engine/) |
 | Google Maps | Create/customize digital maps based on Google Maps data | `apiKey` | Yes | [Go!](https://developers.google.com/maps/) |
 | GraphLoc | Free GraphQL IP Geolocation API | No | Yes | [Go!](https://www.graphloc.com) |
+| Hello, salut! | Get hello translation following user language | No | Yes | [Go!](https://www.fourtonfish.com/hellosalut/hello/) |
 | IP 2 Country | Map an IP to a country | No | Yes | [Go!](https://ip2country.info) |
 | IP Address Details | Find geolocation with ip address | No | Yes | [Go!](https://ipinfo.io/) |
 | IP Location | Find IP address location information | No | Yes | [Go!](https://ipapi.co/) |
