@@ -1461,8 +1461,8 @@
             "API": "Pok\u00e9api",
             "Description": "Pok\u00e9mon Information",
             "Auth": null,
-            "HTTPS": false,
-            "Link": "http://pokeapi.co",
+            "HTTPS": true,
+            "Link": "https://pokeapi.co",
             "Category": "Games & Comics"
         },
         {
