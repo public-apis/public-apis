@@ -325,7 +325,7 @@ API | Description | Auth | HTTPS | Link |
 | Open Trivia | Trivia Questions | No | Yes | [Go!](https://opentdb.com/api_config.php) |
 | PandaScore | E-sports games and results | `apiKey` | Yes | [Go!](https://api.pandascore.co) |
 | PlayerUnknown's Battlegrounds | PUBG Stats | `apiKey` | Yes | [Go!](https://pubgtracker.com/site-api) |
-| Pokéapi | Pokémon Information | No | No | [Go!](http://pokeapi.co) |
+| Pokéapi | Pokémon Information | No | Yes | [Go!](https://pokeapi.co) |
 | Qriusity | Quiz/Trivia Questions | No | Yes | [Go!](https://qriusity.com/) |
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client Interaction | `OAuth` | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
