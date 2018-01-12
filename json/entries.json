@@ -1,5 +1,5 @@
 {
-    "count": 496,
+    "count": 495,
     "entries": [
         {
             "API": "Dogs",
@@ -3799,14 +3799,6 @@
             "Auth": null,
             "HTTPS": true,
             "Link": "https://deividfortuna.github.io/fipe/",
-            "Category": "Vehicle"
-        },
-        {
-            "API": "Edmunds",
-            "Description": "Lot of vehicles information",
-            "Auth": "apiKey",
-            "HTTPS": false,
-            "Link": "http://developer.edmunds.com/api-documentation/overview/",
             "Category": "Vehicle"
         },
         {
