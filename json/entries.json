@@ -1,5 +1,5 @@
 {
-    "count": 495,
+    "count": 496,
     "entries": [
         {
             "API": "Dogs",
@@ -3271,6 +3271,14 @@
             "Auth": "X-Mashape-Key",
             "HTTPS": true,
             "Link": "https://market.mashape.com/montanaflynn/lorem-text-generator",
+            "Category": "Test Data"
+        },
+        {
+            "API": "LoremPicsum",
+            "Description": "Generate placeholder pictures",
+            "Auth": null,
+            "HTTPS": false,
+            "Link": "http://lorempicsum.com",
             "Category": "Test Data"
         },
         {
