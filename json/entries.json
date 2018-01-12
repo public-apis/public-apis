@@ -1,5 +1,5 @@
 {
-    "count": 495,
+    "count": 496,
     "entries": [
         {
             "API": "Dogs",
@@ -1463,6 +1463,14 @@
             "Auth": null,
             "HTTPS": true,
             "Link": "https://pokeapi.co",
+            "Category": "Games & Comics"
+        },
+        {
+            "API": "Pok\u00e9mon TCG",
+            "Description": "Pok\u00e9mon TCG Information",
+            "Auth": null,
+            "HTTPS": true,
+            "Link": "https://pokemontcg.io",
             "Category": "Games & Comics"
         },
         {
