@@ -1,5 +1,5 @@
 {
-    "count": 496,
+    "count": 497,
     "entries": [
         {
             "API": "Dogs",
@@ -1607,6 +1607,14 @@
             "Auth": null,
             "HTTPS": true,
             "Link": "https://www.graphloc.com",
+            "Category": "Geocoding"
+        },
+        {
+            "API": "HelloSalut",
+            "Description": "Get hello translation following user language",
+            "Auth": null,
+            "HTTPS": true,
+            "Link": "https://www.fourtonfish.com/hellosalut/hello/",
             "Category": "Geocoding"
         },
         {
