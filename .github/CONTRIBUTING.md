@@ -10,22 +10,28 @@ community build applications and use free, public APIs quickly and easily. Pull 
 
 Current API entry format:
 
-| API | Description | Auth | HTTPS | Link |
-| --- | --- | --- | --- | --- |
-| API Title | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Link to API webpage |
+| API | Description | Auth | HTTPS | CORS | Link |
+| --- | --- | --- | --- | --- | --- |
+| API Title | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * | Link to API webpage |
 
 Example entry:
 
 ```
-| NASA | NASA data, including imagery | No | Yes | [Go!](https://api.nasa.gov) |
+| NASA | NASA data, including imagery | No | Yes | Yes | [Go!](https://api.nasa.gov) |
 ```
 
-\* Currently, the only accepted inputs for this field are as follows:
+\* Currently, the only accepted inputs for the `Auth` field are as follows:
 
 * `OAuth` - _the API supports OAuth_
 * `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
 * `X-Mashape-Key` - _the name of the header which may need to be sent_
 * `No` - _the API requires no authentication to run_
+
+\* Currently, the only accepted inputs for the `CORS` field are as follows:
+
+* `Yes` - _the API supports CORS_
+* `No` - _the API does not support CORS_
+* `Unknown` - _it is unknown if the API supports CORS_
 
 Please continue to follow the alphabetical ordering that is in place per section. Each table column should be padded with one space on either side.
 
