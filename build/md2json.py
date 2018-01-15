@@ -22,7 +22,8 @@ def markdown_to_json(filename, anchor):
             'Description': chunks[1],
             'Auth': None if chunks[2].upper() == 'NO' else chunks[2].strip('`'),
             'HTTPS': True if chunks[3].upper() == 'YES' else False,
-            'Link': chunks[4].replace('[Go!]', '')[1:-1],
+            'CORS': chunks[4].strip('`'),
+            'Link': chunks[5].replace('[Go!]', '')[1:-1],
             'Category': category,
         }
         entries.append(entry)
