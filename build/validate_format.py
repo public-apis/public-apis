@@ -8,12 +8,14 @@ anchor = '###'
 auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'No']
 punctuation = ['.', '?', '!']
 https_keys = ['Yes', 'No']
+cors_keys = ['Yes', 'No', 'Unknown']
 
 index_title = 0
 index_desc = 1
 index_auth = 2
 index_https = 3
-index_link = 4
+index_cors = 4
+index_link = 5
 
 errors = []
 
@@ -91,6 +93,12 @@ def check_format(filename):
         if https not in https_keys:
             add_error(line_num, "{} is not a valid HTTPS option".format(https))
         # END HTTPS
+        # START CORS
+        # values should conform to valid options only
+        cors = segments[index_cors]
+        if cors not in cors_keys:
+            add_error(line_num, "{} is not a valid CORS option".format(cors))
+        # END CORS
         # START Link
         # url should be wrapped in '[Go!]()' Markdown syntax
         link = segments[index_link]
