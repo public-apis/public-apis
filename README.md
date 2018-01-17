@@ -480,6 +480,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | fonoApi | Mobile Device Description | No | Yes | Unknown | [Go!](https://fonoapi.freshpixl.com/) |
 | French Address Search | French Government | No | Yes | Unknown | [Go!](https://adresse.data.gouv.fr/api) |
 | INQStats | Open demographic data such as population, life expectancy, migration rate, etc | `apiKey` | No | Unknown | [Go!](http://blog.inqubu.com/inqstats-open-api-published-to-get-demographic-data) |
+| LinkPreview | Get JSON formatted summary with title, description and preview image for any requested URL | `apiKey` | Yes | Yes | [Go!](https://www.linkpreview.net) |
 | Marijuana Strains | Marijuana strains, races, flavors, and effects | `apiKey` | No | Unknown | [Go!](http://strains.evanbusse.com/) |
 | Microlink.io | Turns any link into information | No | Yes | Unknown | [Go!](https://docs.microlink.io) |
 | Open Government, Australia | Australian Government Open Data | No | Yes | Unknown | [Go!](https://www.data.gov.au/) |
