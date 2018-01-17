@@ -355,7 +355,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | IP Sidekick | Geolocation API that returns extra information about an IP address | apiKey | Yes | Unknown | [Go!](https://ipsidekick.com) |
 | IP Vigilante | Free IP Geolocation API | No | Yes | Unknown | [Go!](https://www.ipvigilante.com/) |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown | [Go!](https://www.mapbox.com/developers/) |
-| Mapzen Search | Open Source & Open Data Global Geocoding Service | `apiKey` | Yes | Unknown | [Go!](https://mapzen.com/products/search/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | Unknown | [Go!](https://github.com/IcaliaLabs/sepomex) |
 | One Map, Singapore | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | Unknown | [Go!](https://docs.onemap.sg/) |
 | OnWater | Determine if a lat/lon is on water or land | No | Yes | Unknown | [Go!](https://onwater.io/) |
