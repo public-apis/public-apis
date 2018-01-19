@@ -241,6 +241,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | Unknown | [Go!](https://restpack.io/) |
 | Todoist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.todoist.com) |
 | Wunderlist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.wunderlist.com/documentation) |
+| Vector Express | Free vector file converting API | No | No | Yes | [Go!](http://vector.express) |
 
 ### Environment
 API | Description | Auth | HTTPS | CORS | Link |
