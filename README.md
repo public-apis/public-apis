@@ -27,6 +27,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Documents & Productivity](#documents--productivity)
 * [Environment](#environment)
 * [Events](#events)
+* [File Uploader](#file--uploader)
 * [Finance](#finance)
 * [Food & Drink](#food--drink)
 * [Fraud Prevention](#fraud-prevention)
@@ -256,6 +257,11 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Eventbrite | Find events | `OAuth` | Yes | Unknown | [Go!](https://www.eventbrite.com/developer/v3/) |
 | Picatic | Sell tickets anywhere | `apiKey` | Yes | Unknown | [Go!](http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto) |
 | Ticketmaster | Search events, attractions, or venues | `apiKey` | Yes | Unknown | [Go!](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/) |
+
+### File Uploader
+API | Description | Auth | HTTPS | CORS | Link |
+|---|---|---|---|---|---|
+| Uppy | File upload api | No | Yes | Unknown | [Go!](https://uppy.io/) |
 
 ### Finance
 API | Description | Auth | HTTPS | CORS | Link |
