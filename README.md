@@ -240,8 +240,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | PrexView | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | Unknown | [Go!](https://prexview.com) |
 | Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | Unknown | [Go!](https://restpack.io/) |
 | Todoist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.todoist.com) |
-| Wunderlist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.wunderlist.com/documentation) |
 | Vector Express | Free vector file converting API | No | No | Yes | [Go!](http://vector.express) |
+| Wunderlist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.wunderlist.com/documentation) |
 
 ### Environment
 API | Description | Auth | HTTPS | CORS | Link |
