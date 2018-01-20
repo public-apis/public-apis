@@ -1,11 +1,12 @@
 {
-    "count": 497,
+    "count": 498,
     "entries": [
         {
             "API": "Dogs",
             "Description": "Based on the Stanford Dogs Dataset",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://dog.ceo/dog-api/",
             "Category": "Animals"
         },
@@ -14,6 +15,7 @@
             "Description": "Cat for every HTTP Status",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://http.cat/",
             "Category": "Animals"
         },
@@ -22,6 +24,7 @@
             "Description": "IUCN Red List of Threatened Species",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://apiv3.iucnredlist.org/api/v3/docs",
             "Category": "Animals"
         },
@@ -30,6 +33,7 @@
             "Description": "Movement and Migration data of animals",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/movebank/movebank-api-doc",
             "Category": "Animals"
         },
@@ -38,6 +42,7 @@
             "Description": "Adoption",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.petfinder.com/developers/api-docs/",
             "Category": "Animals"
         },
@@ -46,6 +51,7 @@
             "Description": "Adoption",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home",
             "Category": "Animals"
         },
@@ -54,6 +60,7 @@
             "Description": "Anime discovery & tracking",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/AniList/ApiV2-GraphQL-Docs",
             "Category": "Anime"
         },
@@ -62,6 +69,7 @@
             "Description": "Unofficial MyAnimeList API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://jikan.me",
             "Category": "Anime"
         },
@@ -70,6 +78,7 @@
             "Description": "Anime discovery platform",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://docs.kitsu.apiary.io/",
             "Category": "Anime"
         },
@@ -78,6 +87,7 @@
             "Description": "Resources from Studio Ghibli films",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://ghibliapi.herokuapp.com",
             "Category": "Anime"
         },
@@ -86,6 +96,7 @@
             "Description": "IP/domain/URL reputation",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://otx.alienvault.com/api/",
             "Category": "Anti-Malware"
         },
@@ -94,6 +105,7 @@
             "Description": "Certly Link/Domain Flagging",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://guard.certly.io/",
             "Category": "Anti-Malware"
         },
@@ -102,6 +114,7 @@
             "Description": "Google Link/Domain Flagging",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.google.com/safe-browsing/",
             "Category": "Anti-Malware"
         },
@@ -110,6 +123,7 @@
             "Description": "Metacert Link Flagging",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://metacert.com/",
             "Category": "Anti-Malware"
         },
@@ -118,6 +132,7 @@
             "Description": "VirusTotal File/URL Analysis",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.virustotal.com/en/documentation/public-api/",
             "Category": "Anti-Malware"
         },
@@ -126,6 +141,7 @@
             "Description": "Website reputation",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.mywot.com/wiki/API",
             "Category": "Anti-Malware"
         },
@@ -134,6 +150,7 @@
             "Description": "Design",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.behance.net/dev",
             "Category": "Art & Design"
         },
@@ -142,6 +159,7 @@
             "Description": "Smithsonian Design Museum",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://collection.cooperhewitt.org/api",
             "Category": "Art & Design"
         },
@@ -150,6 +168,7 @@
             "Description": "Design",
             "Auth": "OAuth",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://developer.dribbble.com/v1/",
             "Category": "Art & Design"
         },
@@ -158,6 +177,7 @@
             "Description": "Art",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "https://github.com/harvardartmuseums/api-docs",
             "Category": "Art & Design"
         },
@@ -166,6 +186,7 @@
             "Description": "Icons",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.iconfinder.com",
             "Category": "Art & Design"
         },
@@ -174,6 +195,7 @@
             "Description": "Icons",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://docs.icons8.apiary.io/#reference/0/meta",
             "Category": "Art & Design"
         },
@@ -182,6 +204,7 @@
             "Description": "Icons",
             "Auth": "OAuth",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://api.thenounproject.com/index.html",
             "Category": "Art & Design"
         },
@@ -190,6 +213,7 @@
             "Description": "Art",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.rijksmuseum.nl/en/api",
             "Category": "Art & Design"
         },
@@ -198,6 +222,7 @@
             "Description": "Books published in the Netherlands and Flanders (about 2.5 million), book covers, and related data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.booknomads.com/dev",
             "Category": "Books"
         },
@@ -206,6 +231,7 @@
             "Description": "Books",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://bnb.data.bl.uk/",
             "Category": "Books"
         },
@@ -214,6 +240,7 @@
             "Description": "Books",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.goodreads.com/api",
             "Category": "Books"
         },
@@ -222,6 +249,7 @@
             "Description": "Books",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.google.com/books/",
             "Category": "Books"
         },
@@ -230,6 +258,7 @@
             "Description": "Books, book covers, and related data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://openlibrary.org/developers/api",
             "Category": "Books"
         },
@@ -238,6 +267,7 @@
             "Description": "Non-profit charity data",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://charityapi.orghunter.com/",
             "Category": "Business"
         },
@@ -246,6 +276,7 @@
             "Description": "Search for company logos and embed them in your projects",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://clearbit.com/docs#logo-api",
             "Category": "Business"
         },
@@ -254,6 +285,7 @@
             "Description": "Registered Domain Names Search",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://domainsdb.info/",
             "Category": "Business"
         },
@@ -262,6 +294,7 @@
             "Description": "Flexible, RESTful access to the user's inbox",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.google.com/gmail/api/",
             "Category": "Business"
         },
@@ -270,6 +303,7 @@
             "Description": "Collect, configure, and analyze your data to reach the right audience",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.google.com/analytics/",
             "Category": "Business"
         },
@@ -278,6 +312,7 @@
             "Description": "Email Service",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.mailgun.com/",
             "Category": "Business"
         },
@@ -286,6 +321,7 @@
             "Description": "Trademark Search",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.markerapi.com/",
             "Category": "Business"
         },
@@ -294,6 +330,7 @@
             "Description": "Boards, lists, and cards to help you organize and prioritize your projects",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.trello.com/",
             "Category": "Business"
         },
@@ -302,6 +339,7 @@
             "Description": "Catholic liturgical calendar",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://calapi.inadiutorium.cz/",
             "Category": "Calendar"
         },
@@ -310,6 +348,7 @@
             "Description": "Lookup for a date and returns nameday",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.abalin.net/",
             "Category": "Calendar"
         },
@@ -318,6 +357,7 @@
             "Description": "Lookup for a name and returns nameday date",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://svatky.adresa.info/",
             "Category": "Calendar"
         },
@@ -326,6 +366,7 @@
             "Description": "Display, create and modify Google calendar events",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.google.com/google-apps/calendar/",
             "Category": "Calendar"
         },
@@ -334,6 +375,7 @@
             "Description": "Convert between Gregarian and Hebrew, fetch Shabbat and Holiday times, etc",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "https://www.hebcal.com/home/developer-apis",
             "Category": "Calendar"
         },
@@ -342,6 +384,7 @@
             "Description": "Historical data regarding holidays",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://holidayapi.com/",
             "Category": "Calendar"
         },
@@ -350,6 +393,7 @@
             "Description": "Protestant liturgical calendar",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.lectserve.com",
             "Category": "Calendar"
         },
@@ -358,6 +402,7 @@
             "Description": "Database of ICS files for non working days",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/gadael/icsdb",
             "Category": "Calendar"
         },
@@ -366,6 +411,7 @@
             "Description": "File Sharing and Storage",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.box.com/",
             "Category": "Cloud Storage & File Sharing"
         },
@@ -374,6 +420,7 @@
             "Description": "File Sharing and Storage",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.dropbox.com/developers",
             "Category": "Cloud Storage & File Sharing"
         },
@@ -382,6 +429,7 @@
             "Description": "File Sharing and Storage",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.google.com/drive/",
             "Category": "Cloud Storage & File Sharing"
         },
@@ -390,6 +438,7 @@
             "Description": "File Sharing and Storage",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://dev.onedrive.com/",
             "Category": "Cloud Storage & File Sharing"
         },
@@ -398,6 +447,7 @@
             "Description": "Plain Text Storage",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pastebin.com/api/",
             "Category": "Cloud Storage & File Sharing"
         },
@@ -406,6 +456,7 @@
             "Description": "Automate the software development process using continuous integration and continuous delivery",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://circleci.com/docs/api/v1-reference/",
             "Category": "Continuous Integration"
         },
@@ -414,6 +465,7 @@
             "Description": "Codeship is a Continuous Integration Platform in the cloud",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://apidocs.codeship.com/",
             "Category": "Continuous Integration"
         },
@@ -422,6 +474,7 @@
             "Description": "Sync your GitHub projects with Travis CI to test your code in minutes",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://docs.travis-ci.com/api/",
             "Category": "Continuous Integration"
         },
@@ -430,6 +483,7 @@
             "Description": "Financial and Technical Data related to the Bitcoin Network",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://bitcoincharts.com/about/exchanges/",
             "Category": "Cryptocurrency"
         },
@@ -438,6 +492,7 @@
             "Description": "Cryptocurrency Trading Platform",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://docs.bitfinex.com/docs/introduction",
             "Category": "Cryptocurrency"
         },
@@ -446,6 +501,7 @@
             "Description": "Bitcoin Payment, Wallet & Transaction Data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.block.io/docs/basic",
             "Category": "Cryptocurrency"
         },
@@ -454,6 +510,7 @@
             "Description": "Bitcoin Payment, Wallet & Transaction Data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.blockchain.info/api",
             "Category": "Cryptocurrency"
         },
@@ -462,6 +519,7 @@
             "Description": "Bitcoin, Litecoin and Ethereum Prices",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.coinbase.com",
             "Category": "Cryptocurrency"
         },
@@ -470,6 +528,7 @@
             "Description": "Cryptocurrency information",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://coinbin.org/",
             "Category": "Cryptocurrency"
         },
@@ -478,6 +537,7 @@
             "Description": "Bitcoin Price Index",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.coindesk.com/api/",
             "Category": "Cryptocurrency"
         },
@@ -486,6 +546,7 @@
             "Description": "Cryptocurrencies Prices",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://coinmarketcap.com/api/",
             "Category": "Cryptocurrency"
         },
@@ -494,6 +555,7 @@
             "Description": "Cryptocurrencies Comparison",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.cryptocompare.com/api#",
             "Category": "Cryptocurrency"
         },
@@ -502,6 +564,7 @@
             "Description": "Cryptocurrencies Exchange Rates",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.cryptonator.com/api/",
             "Category": "Cryptocurrency"
         },
@@ -510,6 +573,7 @@
             "Description": "Cryptocurrency Trading Platform",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://docs.gdax.com/#api",
             "Category": "Cryptocurrency"
         },
@@ -518,6 +582,7 @@
             "Description": "Brazilian Cryptocurrency Information",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.mercadobitcoin.net/api-doc/",
             "Category": "Cryptocurrency"
         },
@@ -526,6 +591,7 @@
             "Description": "Forex currency market data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://1forge.com/forex-data-api/api-documentation",
             "Category": "Currency Exchange"
         },
@@ -534,6 +600,7 @@
             "Description": "Exchange rates and currency conversion",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://currencylayer.com/documentation",
             "Category": "Currency Exchange"
         },
@@ -542,6 +609,7 @@
             "Description": "A collection of exchange rates",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml",
             "Category": "Currency Exchange"
         },
@@ -550,6 +618,7 @@
             "Description": "Exchange rates and currency conversion",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://fixer.io",
             "Category": "Currency Exchange"
         },
@@ -558,6 +627,7 @@
             "Description": "Language detection",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://languagelayer.com",
             "Category": "Data Validation"
         },
@@ -566,6 +636,7 @@
             "Description": "US Address Verification",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://lob.com/",
             "Category": "Data Validation"
         },
@@ -574,6 +645,7 @@
             "Description": "Email address validation",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://mailboxlayer.com",
             "Category": "Data Validation"
         },
@@ -582,6 +654,7 @@
             "Description": "Email address validation",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://mailtest.in/documentation/",
             "Category": "Data Validation"
         },
@@ -590,6 +663,7 @@
             "Description": "Open Source phone number validation",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://numvalidate.com",
             "Category": "Data Validation"
         },
@@ -598,6 +672,7 @@
             "Description": "Phone number validation",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://numverify.com",
             "Category": "Data Validation"
         },
@@ -606,6 +681,7 @@
             "Description": "Content validator against profanity & obscenity",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.purgomalum.com",
             "Category": "Data Validation"
         },
@@ -614,6 +690,7 @@
             "Description": "VAT number validation",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://vatlayer.com",
             "Category": "Data Validation"
         },
@@ -622,6 +699,7 @@
             "Description": "Make screenshots from web pages and HTML",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://apileap.com/",
             "Category": "Development"
         },
@@ -630,6 +708,7 @@
             "Description": "Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://apis.guru/api-doc/",
             "Category": "Development"
         },
@@ -638,6 +717,7 @@
             "Description": "Return a site's meta tags in JSON format",
             "Auth": "X-Mashape-Key",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://bettermeta.io",
             "Category": "Development"
         },
@@ -646,6 +726,7 @@
             "Description": "Pull public information for a Bitbucket account",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.bitbucket.org/2.0/users/karllhughes",
             "Category": "Development"
         },
@@ -654,6 +735,7 @@
             "Description": "Easily make screenshots of web pages in any screen size, as any device",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://browshot.com/api/documentation",
             "Category": "Development"
         },
@@ -662,6 +744,7 @@
             "Description": "Library info on CDNJS",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.cdnjs.com/libraries/jquery",
             "Category": "Development"
         },
@@ -670,6 +753,7 @@
             "Description": "Structured changelog metadata from open source projects",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://changelogs.md",
             "Category": "Development"
         },
@@ -678,6 +762,7 @@
             "Description": "Persistent counting and A/B testing",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://count.io",
             "Category": "Development"
         },
@@ -686,6 +771,7 @@
             "Description": "Status of all DigitalOcean services",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://status.digitalocean.com/api/v1",
             "Category": "Development"
         },
@@ -694,6 +780,7 @@
             "Description": "Domain name search to find all domains containing particular words/phrases/etc",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://domainsdb.info/apidomainsdb/index.php",
             "Category": "Development"
         },
@@ -702,6 +789,7 @@
             "Description": "A tool to detect face",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.faceplusplus.com/",
             "Category": "Development"
         },
@@ -710,6 +798,7 @@
             "Description": "Determines a gender from a first name",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://genderize.io",
             "Category": "Development"
         },
@@ -718,6 +807,7 @@
             "Description": "Information for a user's Github profile",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.github.com/v3/",
             "Category": "Development"
         },
@@ -726,6 +816,7 @@
             "Description": "Chat for GitHub",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/gitterHQ/docs",
             "Category": "Development"
         },
@@ -734,6 +825,7 @@
             "Description": "Compile source code and run against a set of provided test cases",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.hackerrank.com/api/docs",
             "Category": "Development"
         },
@@ -742,6 +834,7 @@
             "Description": "Test endpoints for client and server HTTP/2 protocol support",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://http2.pro/doc/api",
             "Category": "Development"
         },
@@ -750,6 +843,7 @@
             "Description": "Retrieve structured data from a website or RSS feed",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://api.docs.import.io/",
             "Category": "Development"
         },
@@ -758,6 +852,7 @@
             "Description": "A simple IP Address API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.ipify.org/",
             "Category": "Development"
         },
@@ -766,6 +861,7 @@
             "Description": "Another simple IP Address API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://ipinfo.io/developers",
             "Category": "Development"
         },
@@ -774,6 +870,7 @@
             "Description": "Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://json2jsonp.com/",
             "Category": "Development"
         },
@@ -782,6 +879,7 @@
             "Description": "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://jsonbin.io",
             "Category": "Development"
         },
@@ -790,6 +888,7 @@
             "Description": "Compile and run source code",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.judge0.com/",
             "Category": "Development"
         },
@@ -798,6 +897,7 @@
             "Description": "Face Recognition and Emotion Analysis",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.kairos.com/features",
             "Category": "Development"
         },
@@ -806,6 +906,7 @@
             "Description": "Uncovers the technologies used on websites and URL to thumbnail",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/letsvalidate/api",
             "Category": "Development"
         },
@@ -814,6 +915,7 @@
             "Description": "Live Coding Streaming",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.liveedu.tv/developer/applications/",
             "Category": "Development"
         },
@@ -822,6 +924,7 @@
             "Description": "A simple JSON store for your web or mobile app",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://myjson.com/api",
             "Category": "Development"
         },
@@ -830,6 +933,7 @@
             "Description": "Spam filtering system",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://plino.herokuapp.com/",
             "Category": "Development"
         },
@@ -838,6 +942,7 @@
             "Description": "A collective list of free JSON APIs for use in web development",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/toddmotto/public-apis/tree/master/json",
             "Category": "Development"
         },
@@ -846,6 +951,7 @@
             "Description": "Generate and decode / read QR code graphics",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://goqr.me/api/",
             "Category": "Development"
         },
@@ -854,6 +960,7 @@
             "Description": "A hosted REST-API ready to respond to your AJAX requests",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://reqres.in/ ",
             "Category": "Development"
         },
@@ -862,6 +969,7 @@
             "Description": "Grabs email addresses from a URL",
             "Auth": "X-Mashape-Key",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://market.mashape.com/tommytcchan/scrape-website-email",
             "Category": "Development"
         },
@@ -870,6 +978,7 @@
             "Description": "ALL-CAPS AS A SERVICE",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://shoutcloud.io/",
             "Category": "Development"
         },
@@ -878,6 +987,7 @@
             "Description": "Q&A forum for developers",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.stackexchange.com/",
             "Category": "Development"
         },
@@ -886,6 +996,7 @@
             "Description": "Check what's the latest version of your favorite open-source project",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://verse.pawelad.xyz/",
             "Category": "Development"
         },
@@ -894,6 +1005,7 @@
             "Description": "Integration developer utility APIs",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.wso2apistore.com/",
             "Category": "Development"
         },
@@ -902,6 +1014,7 @@
             "Description": "Dictionary Data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.oxforddictionaries.com/",
             "Category": "Dictionaries"
         },
@@ -910,6 +1023,7 @@
             "Description": "Dictionary Data",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://developer.wordnik.com",
             "Category": "Dictionaries"
         },
@@ -918,6 +1032,7 @@
             "Description": "Definitions and synonyms for more than 150,000 words",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.wordsapi.com/",
             "Category": "Dictionaries"
         },
@@ -926,6 +1041,7 @@
             "Description": "File Sharing",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.file.io",
             "Category": "Documents & Productivity"
         },
@@ -934,6 +1050,7 @@
             "Description": "Web parser",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://mercury.postlight.com/web-parser/",
             "Category": "Documents & Productivity"
         },
@@ -942,6 +1059,7 @@
             "Description": "HTML/URL to PDF",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pdflayer.com",
             "Category": "Documents & Productivity"
         },
@@ -950,6 +1068,7 @@
             "Description": "Bookmarking service",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://getpocket.com/developer/",
             "Category": "Documents & Productivity"
         },
@@ -958,6 +1077,7 @@
             "Description": "Data from XML or JSON to PDF, HTML or Image",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://prexview.com",
             "Category": "Documents & Productivity"
         },
@@ -966,6 +1086,7 @@
             "Description": "Provides screenshot, HTML to PDF, and content extraction APIs",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://restpack.io/",
             "Category": "Documents & Productivity"
         },
@@ -974,7 +1095,17 @@
             "Description": "Todo Lists",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.todoist.com",
+            "Category": "Documents & Productivity"
+        },
+        {
+            "API": "Vector Express",
+            "Description": "Free vector file converting API",
+            "Auth": null,
+            "HTTPS": false,
+            "CORS": "Yes",
+            "Link": "http://vector.express",
             "Category": "Documents & Productivity"
         },
         {
@@ -982,6 +1113,7 @@
             "Description": "Todo Lists",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.wunderlist.com/documentation",
             "Category": "Documents & Productivity"
         },
@@ -990,6 +1122,7 @@
             "Description": "Air quality and weather data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://airvisual.com/api",
             "Category": "Environment"
         },
@@ -998,6 +1131,7 @@
             "Description": "Open air quality data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://docs.openaq.org/",
             "Category": "Environment"
         },
@@ -1006,6 +1140,7 @@
             "Description": "Air quality of China",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.pm25.in/api_doc",
             "Category": "Environment"
         },
@@ -1014,6 +1149,7 @@
             "Description": "The Official Carbon Intensity API for Great Britain developed by National Grid",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0",
             "Category": "Environment"
         },
@@ -1022,6 +1158,7 @@
             "Description": "Find events",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.eventbrite.com/developer/v3/",
             "Category": "Events"
         },
@@ -1030,6 +1167,7 @@
             "Description": "Sell tickets anywhere",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto",
             "Category": "Events"
         },
@@ -1038,6 +1176,7 @@
             "Description": "Search events, attractions, or venues",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/",
             "Category": "Events"
         },
@@ -1046,6 +1185,7 @@
             "Description": "Realtime and historical stock data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.alphavantage.co/",
             "Category": "Finance"
         },
@@ -1054,6 +1194,7 @@
             "Description": "Stock, Futures, and Forex Market Data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.barchartondemand.com/free",
             "Category": "Finance"
         },
@@ -1062,6 +1203,7 @@
             "Description": "Financial services consumer complains data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://data.consumerfinance.gov/resource/jhzv-w97w.json",
             "Category": "Finance"
         },
@@ -1070,6 +1212,7 @@
             "Description": "Stocks and Market Data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://iextrading.com/developer/",
             "Category": "Finance"
         },
@@ -1078,6 +1221,7 @@
             "Description": "Spreadbetting and CFD Market Data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://labs.ig.com/gettingstarted",
             "Category": "Finance"
         },
@@ -1086,6 +1230,7 @@
             "Description": "Connect with users\u2019 bank accounts and access transaction data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://plaid.com/",
             "Category": "Finance"
         },
@@ -1094,6 +1239,7 @@
             "Description": "Indian Financial Systems Code (Bank Branch Codes)",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://ifsc.razorpay.com/",
             "Category": "Finance"
         },
@@ -1102,6 +1248,7 @@
             "Description": "ACH/NACHA Bank Routing Numbers",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.routingnumbers.info/api/index.html",
             "Category": "Finance"
         },
@@ -1110,6 +1257,7 @@
             "Description": "A collection of all VAT rates for EU countries",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://jsonvat.com/",
             "Category": "Finance"
         },
@@ -1118,6 +1266,7 @@
             "Description": "Recipe Search",
             "Auth": "X-Mashape-Key",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://api2.bigoven.com/",
             "Category": "Food & Drink"
         },
@@ -1126,6 +1275,7 @@
             "Description": "Beer",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.brewerydb.com/developers",
             "Category": "Food & Drink"
         },
@@ -1134,6 +1284,7 @@
             "Description": "Recipe Search",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.edamam.com/",
             "Category": "Food & Drink"
         },
@@ -1142,6 +1293,7 @@
             "Description": "Recipe Search",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://food2fork.com/about/api",
             "Category": "Food & Drink"
         },
@@ -1150,6 +1302,7 @@
             "Description": "Alcohol",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://lcboapi.com/",
             "Category": "Food & Drink"
         },
@@ -1158,6 +1311,7 @@
             "Description": "Food Products Database",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://world.openfoodfacts.org/data",
             "Category": "Food & Drink"
         },
@@ -1166,6 +1320,7 @@
             "Description": "Brewdog Beer Recipes",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://punkapi.com/",
             "Category": "Food & Drink"
         },
@@ -1174,6 +1329,7 @@
             "Description": "Food",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.recipepuppy.com/about/api/",
             "Category": "Food & Drink"
         },
@@ -1182,6 +1338,7 @@
             "Description": "Community-driven taco database",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "https://github.com/evz/tacofancy-api",
             "Category": "Food & Drink"
         },
@@ -1190,6 +1347,7 @@
             "Description": "Food & Drink Reviews",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/andyklimczak/TheReportOfTheWeek-API",
             "Category": "Food & Drink"
         },
@@ -1198,6 +1356,7 @@
             "Description": "Cocktail Recipes",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.thecocktaildb.com/",
             "Category": "Food & Drink"
         },
@@ -1206,6 +1365,7 @@
             "Description": "Meal Recipes",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.themealdb.com/",
             "Category": "Food & Drink"
         },
@@ -1214,6 +1374,7 @@
             "Description": "NYPL human-transcribed historical menu collection",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://nypl.github.io/menus-api/",
             "Category": "Food & Drink"
         },
@@ -1222,6 +1383,7 @@
             "Description": "Find food recipes",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.yummly.com/",
             "Category": "Food & Drink"
         },
@@ -1230,6 +1392,7 @@
             "Description": "Discover restaurants",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.zomato.com/api",
             "Category": "Food & Drink"
         },
@@ -1238,6 +1401,7 @@
             "Description": "Global identity verification with phone, address, email, and IP",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pro.whitepages.com/developer/documentation/identity-check-api/",
             "Category": "Fraud Prevention"
         },
@@ -1246,6 +1410,7 @@
             "Description": "Phone reputation to detect spammy phones",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pro.whitepages.com/developer/documentation/phone-reputation-api/",
             "Category": "Fraud Prevention"
         },
@@ -1254,6 +1419,7 @@
             "Description": "Get an owner\u2019s name, address, demographics based on the phone number",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pro.whitepages.com/developer/documentation/reverse-phone-api/",
             "Category": "Fraud Prevention"
         },
@@ -1262,6 +1428,7 @@
             "Description": "Phone number validation, line_type, carrier append",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pro.whitepages.com/developer/documentation/phone-intelligence-api/",
             "Category": "Fraud Prevention"
         },
@@ -1270,6 +1437,7 @@
             "Description": "Get normalized physical address, residents, address type, and validity",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pro.whitepages.com/developer/documentation/reverse-address-api/",
             "Category": "Fraud Prevention"
         },
@@ -1278,6 +1446,7 @@
             "Description": "Blizzard Entertainment",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://dev.battle.net/",
             "Category": "Games & Comics"
         },
@@ -1286,6 +1455,7 @@
             "Description": "Battlefield 4 Information",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://bf4stats.com/api",
             "Category": "Games & Comics"
         },
@@ -1294,6 +1464,7 @@
             "Description": "Jokes",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.icndb.com/api/",
             "Category": "Games & Comics"
         },
@@ -1302,6 +1473,7 @@
             "Description": "Clash of Clans Game Information",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.clashofclans.com",
             "Category": "Games & Comics"
         },
@@ -1310,6 +1482,7 @@
             "Description": "Clash Royale Game Information",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/martincarrera/clash-royale-api",
             "Category": "Games & Comics"
         },
@@ -1318,6 +1491,7 @@
             "Description": "Comics",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://comicvine.gamespot.com/api/documentation",
             "Category": "Games & Comics"
         },
@@ -1326,6 +1500,7 @@
             "Description": "Deck of Cards",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://deckofcardsapi.com/",
             "Category": "Games & Comics"
         },
@@ -1334,6 +1509,7 @@
             "Description": "Bungie Platform API",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/Bungie-net/api",
             "Category": "Games & Comics"
         },
@@ -1342,6 +1518,7 @@
             "Description": "Provides information about Player stats , Match stats, Rankings for Dota 2",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://docs.opendota.com/",
             "Category": "Games & Comics"
         },
@@ -1350,6 +1527,7 @@
             "Description": "Third-Party Developer Documentation",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://eveonline-third-party-documentation.readthedocs.io/en/latest/",
             "Category": "Games & Comics"
         },
@@ -1358,6 +1536,7 @@
             "Description": "Minecraft and other server info & user info)",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://docs.gameapis.net/",
             "Category": "Games & Comics"
         },
@@ -1366,6 +1545,7 @@
             "Description": "Video Games",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.giantbomb.com/api/documentation",
             "Category": "Games & Comics"
         },
@@ -1374,6 +1554,7 @@
             "Description": "Guild Wars 2 Game Information",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://wiki.guildwars2.com/wiki/API:Main",
             "Category": "Games & Comics"
         },
@@ -1382,6 +1563,7 @@
             "Description": "Halo 5 and Halo Wars 2 Information",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.haloapi.com/",
             "Category": "Games & Comics"
         },
@@ -1390,6 +1572,7 @@
             "Description": "Hearthstone Cards Information",
             "Auth": "X-Mashape-Key",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://hearthstoneapi.com/",
             "Category": "Games & Comics"
         },
@@ -1398,6 +1581,7 @@
             "Description": "Video Game Database",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.igdb.com/",
             "Category": "Games & Comics"
         },
@@ -1406,6 +1590,7 @@
             "Description": "Programming and general jokes",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/15Dkatz/official_joke_api",
             "Category": "Games & Comics"
         },
@@ -1414,6 +1599,7 @@
             "Description": "Jeopardy Question Database",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://jservice.io",
             "Category": "Games & Comics"
         },
@@ -1422,6 +1608,7 @@
             "Description": "Magic The Gathering Game Information",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://magicthegathering.io/",
             "Category": "Games & Comics"
         },
@@ -1430,6 +1617,7 @@
             "Description": "Marvel Comics",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://developer.marvel.com",
             "Category": "Games & Comics"
         },
@@ -1438,6 +1626,7 @@
             "Description": "Trivia Questions",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://opentdb.com/api_config.php",
             "Category": "Games & Comics"
         },
@@ -1446,6 +1635,7 @@
             "Description": "E-sports games and results",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.pandascore.co",
             "Category": "Games & Comics"
         },
@@ -1454,6 +1644,7 @@
             "Description": "PUBG Stats",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pubgtracker.com/site-api",
             "Category": "Games & Comics"
         },
@@ -1462,6 +1653,7 @@
             "Description": "Pok\u00e9mon Information",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pokeapi.co",
             "Category": "Games & Comics"
         },
@@ -1470,6 +1662,7 @@
             "Description": "Pok\u00e9mon TCG Information",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pokemontcg.io",
             "Category": "Games & Comics"
         },
@@ -1478,6 +1671,7 @@
             "Description": "Quiz/Trivia Questions",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://qriusity.com/",
             "Category": "Games & Comics"
         },
@@ -1486,6 +1680,7 @@
             "Description": "League of Legends Game Information",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.riotgames.com/",
             "Category": "Games & Comics"
         },
@@ -1494,6 +1689,7 @@
             "Description": "Steam Client Interaction",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.valvesoftware.com/wiki/Steam_Web_API",
             "Category": "Games & Comics"
         },
@@ -1502,6 +1698,7 @@
             "Description": "Retrieve xkcd comics as JSON",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://xkcd.com/json.html",
             "Category": "Games & Comics"
         },
@@ -1510,6 +1707,7 @@
             "Description": "Address database of France, geocoding, and reverse",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://adresse.data.gouv.fr",
             "Category": "Geocoding"
         },
@@ -1518,6 +1716,7 @@
             "Description": "A (country/region/city) in-cascade location API",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://battuta.medunes.net",
             "Category": "Geocoding"
         },
@@ -1526,6 +1725,7 @@
             "Description": "Create/customize digital maps based on Bing Maps data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.microsoft.com/maps/",
             "Category": "Geocoding"
         },
@@ -1534,6 +1734,7 @@
             "Description": "Crime, school, and transportation data for US cities",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.citycontext.com/api-reference#/",
             "Category": "Geocoding"
         },
@@ -1542,6 +1743,7 @@
             "Description": "Open APIs for select European cities",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://www.citysdk.eu/citysdk-toolkit/",
             "Category": "Geocoding"
         },
@@ -1550,6 +1752,7 @@
             "Description": "Daum Maps provide multiple APIs for Korean maps",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://apis.map.daum.net/",
             "Category": "Geocoding"
         },
@@ -1558,6 +1761,7 @@
             "Description": "Geolocation of IP addresses",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://freegeoip.net/",
             "Category": "Geocoding"
         },
@@ -1566,6 +1770,7 @@
             "Description": "French geographical data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.gouv.fr/api/geoapi.html",
             "Category": "Geocoding"
         },
@@ -1574,6 +1779,7 @@
             "Description": "Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://geocode.xyz/",
             "Category": "Geocoding"
         },
@@ -1582,6 +1788,7 @@
             "Description": "Place names and other geographical data",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.geonames.org/export/web-services.html",
             "Category": "Geocoding"
         },
@@ -1590,6 +1797,7 @@
             "Description": "A cloud-based platform for planetary-scale environmental data analysis",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.google.com/earth-engine/",
             "Category": "Geocoding"
         },
@@ -1598,6 +1806,7 @@
             "Description": "Create/customize digital maps based on Google Maps data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.google.com/maps/",
             "Category": "Geocoding"
         },
@@ -1606,6 +1815,7 @@
             "Description": "Free GraphQL IP Geolocation API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.graphloc.com",
             "Category": "Geocoding"
         },
@@ -1614,6 +1824,7 @@
             "Description": "Get hello translation following user language",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.fourtonfish.com/hellosalut/hello/",
             "Category": "Geocoding"
         },
@@ -1622,6 +1833,7 @@
             "Description": "Map an IP to a country",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://ip2country.info",
             "Category": "Geocoding"
         },
@@ -1630,6 +1842,7 @@
             "Description": "Find geolocation with ip address",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://ipinfo.io/",
             "Category": "Geocoding"
         },
@@ -1638,6 +1851,7 @@
             "Description": "Find IP address location information",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://ipapi.co/",
             "Category": "Geocoding"
         },
@@ -1646,6 +1860,7 @@
             "Description": "Geolocation API that returns extra information about an IP address",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://ipsidekick.com",
             "Category": "Geocoding"
         },
@@ -1654,6 +1869,7 @@
             "Description": "Free IP Geolocation API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.ipvigilante.com/",
             "Category": "Geocoding"
         },
@@ -1662,15 +1878,8 @@
             "Description": "Create/customize beautiful digital maps",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.mapbox.com/developers/",
-            "Category": "Geocoding"
-        },
-        {
-            "API": "Mapzen Search",
-            "Description": "Open Source & Open Data Global Geocoding Service",
-            "Auth": "apiKey",
-            "HTTPS": true,
-            "Link": "https://mapzen.com/products/search/",
             "Category": "Geocoding"
         },
         {
@@ -1678,6 +1887,7 @@
             "Description": "Mexico RESTful zip codes API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/IcaliaLabs/sepomex",
             "Category": "Geocoding"
         },
@@ -1686,6 +1896,7 @@
             "Description": "Singapore Land Authority REST API services for Singapore addresses",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://docs.onemap.sg/",
             "Category": "Geocoding"
         },
@@ -1694,6 +1905,7 @@
             "Description": "Determine if a lat/lon is on water or land",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://onwater.io/",
             "Category": "Geocoding"
         },
@@ -1702,6 +1914,7 @@
             "Description": "Forward and reverse geocoding using open data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://geocoder.opencagedata.com",
             "Category": "Geocoding"
         },
@@ -1710,6 +1923,7 @@
             "Description": "Navigation, geolocation and geographical data",
             "Auth": "OAuth",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://wiki.openstreetmap.org/wiki/API",
             "Category": "Geocoding"
         },
@@ -1718,6 +1932,7 @@
             "Description": "Provide geolocation data based on postcode for Dutch addresses",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json",
             "Category": "Geocoding"
         },
@@ -1726,6 +1941,7 @@
             "Description": "Postcode lookup & Geolocation for the UK",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://postcodes.io",
             "Category": "Geocoding"
         },
@@ -1734,6 +1950,7 @@
             "Description": "Get information about countries via a RESTful API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://restcountries.eu",
             "Category": "Geocoding"
         },
@@ -1742,6 +1959,7 @@
             "Description": "Discover and share maps with friends",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://uebermaps.com/api/v2",
             "Category": "Geocoding"
         },
@@ -1750,6 +1968,7 @@
             "Description": "Utah Web API for geocoding Utah addresses",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.mapserv.utah.gov",
             "Category": "Geocoding"
         },
@@ -1758,6 +1977,7 @@
             "Description": "Brazil RESTful zip codes API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://viacep.com.br",
             "Category": "Geocoding"
         },
@@ -1766,6 +1986,7 @@
             "Description": "Get information about place such as country, city, state, etc",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.zippopotam.us",
             "Category": "Geocoding"
         },
@@ -1774,6 +1995,7 @@
             "Description": "Access to the laws of British Columbia",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.bclaws.ca/civix/template/complete/api/index.html",
             "Category": "Government"
         },
@@ -1782,6 +2004,7 @@
             "Description": "BusinessUSA gives developers access to authoritative information on U.S. programs, events, services and more",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://business.usa.gov/developer",
             "Category": "Government"
         },
@@ -1790,6 +2013,7 @@
             "Description": "The US Census Bureau provides various APIs and data sets on demographics and businesses",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.census.gov/data/developers/data-sets.html",
             "Category": "Government"
         },
@@ -1798,6 +2022,7 @@
             "Description": "Web services and data sets from the US Environmental Protection Agency",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.epa.gov/category/api/",
             "Category": "Government"
         },
@@ -1806,6 +2031,7 @@
             "Description": "Information on campaign donations in federal elections",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.open.fec.gov/developers/",
             "Category": "Government"
         },
@@ -1814,6 +2040,7 @@
             "Description": "UK food hygiene rating data API",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://ratings.food.gov.uk/open-data/en-GB",
             "Category": "Government"
         },
@@ -1822,6 +2049,7 @@
             "Description": "Regulations.gov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://regulationsgov.github.io/developers/",
             "Category": "Government"
         },
@@ -1830,6 +2058,7 @@
             "Description": "Detailed information about doctors in your area",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.betterdoctor.com/",
             "Category": "Health"
         },
@@ -1838,6 +2067,7 @@
             "Description": "Logging and retrieving diabetes information",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://predictbgl.com/api/",
             "Category": "Health"
         },
@@ -1846,6 +2076,7 @@
             "Description": "Influenza-like symptoms with geotracking",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.flutrack.org/",
             "Category": "Health"
         },
@@ -1854,6 +2085,7 @@
             "Description": "Educational content about the US Health Insurance Marketplace",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.healthcare.gov/developers/",
             "Category": "Health"
         },
@@ -1862,6 +2094,7 @@
             "Description": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://docs.lexigram.io/v1/welcome",
             "Category": "Health"
         },
@@ -1870,6 +2103,7 @@
             "Description": "Makeup Information",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://makeup-api.herokuapp.com/",
             "Category": "Health"
         },
@@ -1878,6 +2112,7 @@
             "Description": "Access to the data from the CMS - medicare.gov",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://data.medicare.gov/developers",
             "Category": "Health"
         },
@@ -1886,6 +2121,7 @@
             "Description": "National Plan & Provider Enumeration System, info on healthcare providers registered in US",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://npiregistry.cms.hhs.gov/registry/help-api",
             "Category": "Health"
         },
@@ -1894,6 +2130,7 @@
             "Description": "Worlds largest verified nutrition database",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.nutritionix.com/",
             "Category": "Health"
         },
@@ -1902,6 +2139,7 @@
             "Description": "Public FDA data about drugs, devices, and foods",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://open.fda.gov/api/",
             "Category": "Health"
         },
@@ -1910,6 +2148,7 @@
             "Description": "National Nutrient Database for Standard Reference",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://ndb.nal.usda.gov/ndb/doc/index",
             "Category": "Health"
         },
@@ -1918,6 +2157,7 @@
             "Description": "Job board aggregator",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.adzuna.com/overview",
             "Category": "Jobs"
         },
@@ -1926,6 +2166,7 @@
             "Description": "Job board for designers, hackers, and creative pros",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://authenticjobs.com/api/docs",
             "Category": "Jobs"
         },
@@ -1934,6 +2175,7 @@
             "Description": "Job search engine",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "https://www.careerjet.com/partners/api/",
             "Category": "Jobs"
         },
@@ -1942,6 +2184,7 @@
             "Description": "Jobs for software developers",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://jobs.github.com/api",
             "Category": "Jobs"
         },
@@ -1950,6 +2193,7 @@
             "Description": "Job board aggregator",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.indeed.com/publisher",
             "Category": "Jobs"
         },
@@ -1958,6 +2202,7 @@
             "Description": "Job aggregator",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://api.jobs2careers.com/api/spec.pdf",
             "Category": "Jobs"
         },
@@ -1966,6 +2211,7 @@
             "Description": "Job search engine",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://us.jooble.org/api/about",
             "Category": "Jobs"
         },
@@ -1974,6 +2220,7 @@
             "Description": "Job search engine",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.juju.com/publisher/spec/",
             "Category": "Jobs"
         },
@@ -1982,6 +2229,7 @@
             "Description": "Job titles, skills, and related jobs data",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview",
             "Category": "Jobs"
         },
@@ -1990,6 +2238,7 @@
             "Description": "Job board aggregator",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.reed.co.uk/developers",
             "Category": "Jobs"
         },
@@ -1998,6 +2247,7 @@
             "Description": "Tap into a list of current jobs openings with the United States government",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://search.gov/developer/jobs.html",
             "Category": "Jobs"
         },
@@ -2006,6 +2256,7 @@
             "Description": "Job board and company profiles",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.themuse.com/developers/api/v2",
             "Category": "Jobs"
         },
@@ -2014,6 +2265,7 @@
             "Description": "Freelance job board and management system",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.upwork.com/",
             "Category": "Jobs"
         },
@@ -2022,6 +2274,7 @@
             "Description": "US government job board",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.usajobs.gov/",
             "Category": "Jobs"
         },
@@ -2030,6 +2283,7 @@
             "Description": "Job search app and website",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.ziprecruiter.com/publishers",
             "Category": "Jobs"
         },
@@ -2038,6 +2292,7 @@
             "Description": "Computer Vision",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.clarifai.com/",
             "Category": "Machine Learning"
         },
@@ -2046,6 +2301,7 @@
             "Description": "Web chat bot",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.cleverbot.com/api/",
             "Category": "Machine Learning"
         },
@@ -2054,6 +2310,7 @@
             "Description": "Natural Language Processing",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://dialogflow.com",
             "Category": "Machine Learning"
         },
@@ -2062,6 +2319,7 @@
             "Description": "Data Analytics",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://keen.io/",
             "Category": "Machine Learning"
         },
@@ -2070,6 +2328,7 @@
             "Description": "Forecasting API for timeseries data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://unplu.gg/test_api.html",
             "Category": "Machine Learning"
         },
@@ -2078,6 +2337,7 @@
             "Description": "Natural Language Processing",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://wit.ai/",
             "Category": "Machine Learning"
         },
@@ -2086,6 +2346,7 @@
             "Description": "Symbolic and Arithmetic Math Calculator",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://newton.now.sh/",
             "Category": "Math"
         },
@@ -2094,6 +2355,7 @@
             "Description": "Facts about numbers",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://numbersapi.com",
             "Category": "Math"
         },
@@ -2102,6 +2364,7 @@
             "Description": "Music Events",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0",
             "Category": "Music"
         },
@@ -2110,6 +2373,7 @@
             "Description": "Music",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.deezer.com/api",
             "Category": "Music"
         },
@@ -2118,6 +2382,7 @@
             "Description": "Music",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.discogs.com/developers/",
             "Category": "Music"
         },
@@ -2126,6 +2391,7 @@
             "Description": "Crowdsourced lyrics and music knowledge",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://docs.genius.com/",
             "Category": "Music"
         },
@@ -2134,6 +2400,7 @@
             "Description": "Software products",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/",
             "Category": "Music"
         },
@@ -2142,6 +2409,7 @@
             "Description": "Music",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.jamendo.com/v3.0",
             "Category": "Music"
         },
@@ -2150,6 +2418,7 @@
             "Description": "Music",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.last.fm/api",
             "Category": "Music"
         },
@@ -2158,6 +2427,7 @@
             "Description": "Simple API to retrieve the lyrics of a song",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://docs.lyricsovh.apiary.io/",
             "Category": "Music"
         },
@@ -2166,6 +2436,7 @@
             "Description": "Music",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.mixcloud.com/developers/",
             "Category": "Music"
         },
@@ -2174,6 +2445,7 @@
             "Description": "Music",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2",
             "Category": "Music"
         },
@@ -2182,6 +2454,7 @@
             "Description": "Music",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://music-api.musikki.com/reference",
             "Category": "Music"
         },
@@ -2190,6 +2463,7 @@
             "Description": "Music",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.musixmatch.com/",
             "Category": "Music"
         },
@@ -2198,6 +2472,7 @@
             "Description": "Music Events",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.songkick.com/developer/",
             "Category": "Music"
         },
@@ -2206,6 +2481,7 @@
             "Description": "Provides guitar, bass and drums tabs and chords",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.songsterr.com/a/wa/api/",
             "Category": "Music"
         },
@@ -2214,6 +2490,7 @@
             "Description": "Music",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.soundcloud.com/",
             "Category": "Music"
         },
@@ -2222,6 +2499,7 @@
             "Description": "Music",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.spotify.com/web-api/",
             "Category": "Music"
         },
@@ -2230,6 +2508,7 @@
             "Description": "Similar artist API (also works for movies and TV shows)",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://tastedive.com/read/api",
             "Category": "Music"
         },
@@ -2238,6 +2517,7 @@
             "Description": "Music",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.theaudiodb.com",
             "Category": "Music"
         },
@@ -2246,6 +2526,7 @@
             "Description": "Crowdsourced lyrics and music knowledge",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.vagalume.com.br/docs/",
             "Category": "Music"
         },
@@ -2254,6 +2535,7 @@
             "Description": "Provides access to millions of pages of historic US newspapers from the Library of Congress",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://chroniclingamerica.loc.gov/about/api/",
             "Category": "News"
         },
@@ -2262,6 +2544,7 @@
             "Description": "RSS reader",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/feedbin/feedbin-api",
             "Category": "News"
         },
@@ -2270,6 +2553,7 @@
             "Description": "Provides news",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.nytimes.com/",
             "Category": "News"
         },
@@ -2278,6 +2562,7 @@
             "Description": "Headlines currently published on a range of news sources and blogs",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://newsapi.org/",
             "Category": "News"
         },
@@ -2286,6 +2571,7 @@
             "Description": "Personalized news listening experience from NPR",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://dev.npr.org/api/",
             "Category": "News"
         },
@@ -2294,6 +2580,7 @@
             "Description": "Access all the content the Guardian creates, categorised by tags and section",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://open-platform.theguardian.com/",
             "Category": "News"
         },
@@ -2302,6 +2589,7 @@
             "Description": "US Federal Government /Developer Program",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://18f.github.io/API-All-the-X/",
             "Category": "Open Data"
         },
@@ -2310,6 +2598,7 @@
             "Description": "Get abbreviations and meanings",
             "Auth": "X-Mashape-Key",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://market.mashape.com/daxeel/abbreviations",
             "Category": "Open Data"
         },
@@ -2318,6 +2607,7 @@
             "Description": "United States ham radio callsigns",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://callook.info",
             "Category": "Open Data"
         },
@@ -2326,6 +2616,7 @@
             "Description": "Location Information Prediction",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://carto.com/",
             "Category": "Open Data"
         },
@@ -2334,6 +2625,7 @@
             "Description": "Celebrity information",
             "Auth": "X-Mashape-Key",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://market.mashape.com/daxeel/celebinfo/",
             "Category": "Open Data"
         },
@@ -2342,6 +2634,7 @@
             "Description": "Formatted and geolocated Colorado public data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://codataengine.org/",
             "Category": "Open Data"
         },
@@ -2350,6 +2643,7 @@
             "Description": "Colorado State Government Open Data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://data.colorado.gov/",
             "Category": "Open Data"
         },
@@ -2358,6 +2652,7 @@
             "Description": "US Public Data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://datausa.io/about/api/",
             "Category": "Open Data"
         },
@@ -2366,6 +2661,7 @@
             "Description": "The open product database",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.datakick.org/api",
             "Category": "Open Data"
         },
@@ -2374,6 +2670,7 @@
             "Description": "Tracks United States drone strikes",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://dronestre.am/",
             "Category": "Open Data"
         },
@@ -2382,6 +2679,7 @@
             "Description": "The Daily Journal of the United States Government",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.federalregister.gov/reader-aids/developer-resources",
             "Category": "Open Data"
         },
@@ -2390,6 +2688,7 @@
             "Description": "Mobile Device Description",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://fonoapi.freshpixl.com/",
             "Category": "Open Data"
         },
@@ -2398,6 +2697,7 @@
             "Description": "French Government",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://adresse.data.gouv.fr/api",
             "Category": "Open Data"
         },
@@ -2406,7 +2706,17 @@
             "Description": "Open demographic data such as population, life expectancy, migration rate, etc",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://blog.inqubu.com/inqstats-open-api-published-to-get-demographic-data",
+            "Category": "Open Data"
+        },
+        {
+            "API": "LinkPreview",
+            "Description": "Get JSON formatted summary with title, description and preview image for any requested URL",
+            "Auth": "apiKey",
+            "HTTPS": true,
+            "CORS": "Yes",
+            "Link": "https://www.linkpreview.net",
             "Category": "Open Data"
         },
         {
@@ -2414,6 +2724,7 @@
             "Description": "Marijuana strains, races, flavors, and effects",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://strains.evanbusse.com/",
             "Category": "Open Data"
         },
@@ -2422,6 +2733,7 @@
             "Description": "Turns any link into information",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://docs.microlink.io",
             "Category": "Open Data"
         },
@@ -2430,6 +2742,7 @@
             "Description": "Australian Government Open Data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.data.gov.au/",
             "Category": "Open Data"
         },
@@ -2438,6 +2751,7 @@
             "Description": "Canadian Government Open Data",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://open.canada.ca/en",
             "Category": "Open Data"
         },
@@ -2446,6 +2760,7 @@
             "Description": "French Government Open Data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.data.gouv.fr/",
             "Category": "Open Data"
         },
@@ -2454,6 +2769,7 @@
             "Description": "Indian Government Open Data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://data.gov.in/",
             "Category": "Open Data"
         },
@@ -2462,6 +2778,7 @@
             "Description": "New Zealand Government Open Data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.data.govt.nz/",
             "Category": "Open Data"
         },
@@ -2470,6 +2787,7 @@
             "Description": "Taiwan Government Open Data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://data.gov.tw/",
             "Category": "Open Data"
         },
@@ -2478,6 +2796,7 @@
             "Description": "United States Government Open Data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.data.gov/",
             "Category": "Open Data"
         },
@@ -2486,6 +2805,7 @@
             "Description": "Prague City Open Data",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://opendata.praha.eu/en",
             "Category": "Open Data"
         },
@@ -2494,6 +2814,7 @@
             "Description": "Stock Market Data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.quandl.com/",
             "Category": "Open Data"
         },
@@ -2502,6 +2823,7 @@
             "Description": "Find Canadian Government Representatives",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://represent.opennorth.ca/",
             "Category": "Open Data"
         },
@@ -2510,6 +2832,7 @@
             "Description": "Content Curation Service",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.scoop.it/dev",
             "Category": "Open Data"
         },
@@ -2518,6 +2841,7 @@
             "Description": "Quality of Life Data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.teleport.org/",
             "Category": "Open Data"
         },
@@ -2526,6 +2850,7 @@
             "Description": "More than 1.5 million barcode numbers from all around the world",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://upcdatabase.org/api",
             "Category": "Open Data"
         },
@@ -2534,6 +2859,7 @@
             "Description": "Collaboratively edited knowledge base operated by the Wikimedia Foundation",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.wikidata.org/w/api.php?action=help",
             "Category": "Open Data"
         },
@@ -2542,6 +2868,7 @@
             "Description": "Mediawiki Encyclopedia",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.mediawiki.org/wiki/API:Main_page",
             "Category": "Open Data"
         },
@@ -2550,6 +2877,7 @@
             "Description": "Find Local Business",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.yelp.com/developers/documentation/v3",
             "Category": "Open Data"
         },
@@ -2558,6 +2886,7 @@
             "Description": "Countly web analytics",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://resources.count.ly/docs",
             "Category": "Open Source Projects"
         },
@@ -2566,6 +2895,7 @@
             "Description": "Drupal.org",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.drupal.org/drupalorg/docs/api",
             "Category": "Open Source Projects"
         },
@@ -2574,6 +2904,7 @@
             "Description": "Open source software libraries",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://libraries.io/api",
             "Category": "Open Source Projects"
         },
@@ -2582,6 +2913,7 @@
             "Description": "European patent search system api",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.epo.org/",
             "Category": "Patent"
         },
@@ -2590,6 +2922,7 @@
             "Description": "Taiwan patent search system api",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00",
             "Category": "Patent"
         },
@@ -2598,6 +2931,7 @@
             "Description": "USA patent api services",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.uspto.gov/learning-and-resources/open-data-and-mobility",
             "Category": "Patent"
         },
@@ -2606,6 +2940,7 @@
             "Description": "JSON API for hand curated Chuck Norris jokes",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.chucknorris.io",
             "Category": "Personality"
         },
@@ -2614,6 +2949,7 @@
             "Description": "FavQs allows you to collect, discover, and share your favorite quotes",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://favqs.com/api",
             "Category": "Personality"
         },
@@ -2622,6 +2958,7 @@
             "Description": "Inspirational Quotes",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://forismatic.com/en/api/",
             "Category": "Personality"
         },
@@ -2630,6 +2967,7 @@
             "Description": "The largest selection of dad jokes on the internet",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://icanhazdadjoke.com/api",
             "Category": "Personality"
         },
@@ -2638,6 +2976,7 @@
             "Description": "Community of readers and writers offering unique perspectives on ideas",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/Medium/medium-api-docs",
             "Category": "Personality"
         },
@@ -2646,6 +2985,7 @@
             "Description": "Inspirational Quotes",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://quotesondesign.com/api-v4-0/",
             "Category": "Personality"
         },
@@ -2654,6 +2994,7 @@
             "Description": "Assess, collect, and analyze Personality",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://app.traitify.com/developer",
             "Category": "Personality"
         },
@@ -2662,6 +3003,7 @@
             "Description": "Api & web archive for the things Donald Trump has said",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.tronalddump.io",
             "Category": "Personality"
         },
@@ -2670,6 +3012,7 @@
             "Description": "Photography Community",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/500px/api-documentation",
             "Category": "Photography"
         },
@@ -2678,6 +3021,7 @@
             "Description": "Flickr Services",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.flickr.com/services/api/",
             "Category": "Photography"
         },
@@ -2686,6 +3030,7 @@
             "Description": "Build applications using the world's most powerful imagery",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://developers.gettyimages.com/en/",
             "Category": "Photography"
         },
@@ -2694,6 +3039,7 @@
             "Description": "Jiffier GIFs",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.gfycat.com/api/",
             "Category": "Photography"
         },
@@ -2702,6 +3048,7 @@
             "Description": "Get all your gifs",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.giphy.com/docs/",
             "Category": "Photography"
         },
@@ -2710,6 +3057,7 @@
             "Description": "Upload images",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://gyazo.com/api/docs",
             "Category": "Photography"
         },
@@ -2718,6 +3066,7 @@
             "Description": "Images",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://apidocs.imgur.com/",
             "Category": "Photography"
         },
@@ -2726,6 +3075,7 @@
             "Description": "Photography",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pixabay.com/sk/service/about/api/",
             "Category": "Photography"
         },
@@ -2734,6 +3084,7 @@
             "Description": "Upload images, photos, galleries",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pixhost.org/api/index.html",
             "Category": "Photography"
         },
@@ -2742,6 +3093,7 @@
             "Description": "Resizable kitten placeholder images",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://placekitten.com/",
             "Category": "Photography"
         },
@@ -2750,6 +3102,7 @@
             "Description": "URL 2 Image",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://screenshotlayer.com",
             "Category": "Photography"
         },
@@ -2758,6 +3111,7 @@
             "Description": "Photography",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://unsplash.com/developers",
             "Category": "Photography"
         },
@@ -2766,6 +3120,7 @@
             "Description": "Multiple astronomy data sources",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.arcsecond.io/",
             "Category": "Science"
         },
@@ -2774,6 +3129,7 @@
             "Description": "Access the world's Open Access research papers",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://core.ac.uk/services#api",
             "Category": "Science"
         },
@@ -2782,6 +3138,7 @@
             "Description": "High Energy Physics info. system",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://inspirehep.net/info/hep/api?ln=en",
             "Category": "Science"
         },
@@ -2790,6 +3147,7 @@
             "Description": "Upcoming Space Launches",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://launchlibrary.net/docs/1.3/api.html",
             "Category": "Science"
         },
@@ -2798,6 +3156,7 @@
             "Description": "Asterank.com Information",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.asterank.com/mpc",
             "Category": "Science"
         },
@@ -2806,6 +3165,7 @@
             "Description": "NASA data, including imagery",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.nasa.gov",
             "Category": "Science"
         },
@@ -2814,6 +3174,7 @@
             "Description": "ISS astronauts, current location, etc",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://open-notify.org/Open-Notify-API/",
             "Category": "Science"
         },
@@ -2822,6 +3183,7 @@
             "Description": "Repository and archive for study designs, research materials, data, manuscripts, etc",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.osf.io",
             "Category": "Science"
         },
@@ -2830,6 +3192,7 @@
             "Description": "A free, open, dataset about research and scholarly activities",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://share.osf.io/api/v2/",
             "Category": "Science"
         },
@@ -2838,6 +3201,7 @@
             "Description": "Company, vehicle, launchpad and launch data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/r-spacex/SpaceX-API",
             "Category": "Science"
         },
@@ -2846,6 +3210,7 @@
             "Description": "Sunset and sunrise times for a given latitude and longitude",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://sunrise-sunset.org/api",
             "Category": "Science"
         },
@@ -2854,6 +3219,7 @@
             "Description": "Earthquakes data real-time",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://earthquake.usgs.gov/fdsnws/event/1/",
             "Category": "Science"
         },
@@ -2862,6 +3228,7 @@
             "Description": "Water quality and level info for rivers and lakes",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://waterservices.usgs.gov/",
             "Category": "Science"
         },
@@ -2870,6 +3237,7 @@
             "Description": "World Data",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
             "Category": "Science"
         },
@@ -2878,6 +3246,7 @@
             "Description": "AXFR public database",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://api.axfrcheck.com",
             "Category": "Security"
         },
@@ -2886,6 +3255,7 @@
             "Description": "Passwords which have previously been exposed in data breaches",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://haveibeenpwned.com/API/v2",
             "Category": "Security"
         },
@@ -2894,6 +3264,7 @@
             "Description": "UK Police data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://data.police.uk/docs/",
             "Category": "Security"
         },
@@ -2902,6 +3273,7 @@
             "Description": "Products, Buying Options, Categories, Recommendations, Stores, and Commerce",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://bestbuyapis.github.io/api-documentation/#overview",
             "Category": "Shopping"
         },
@@ -2910,6 +3282,7 @@
             "Description": "Sell and Buy on eBay",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://go.developer.ebay.com/",
             "Category": "Shopping"
         },
@@ -2918,6 +3291,7 @@
             "Description": "Item price and availability",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.walmartlabs.com/docs",
             "Category": "Shopping"
         },
@@ -2926,6 +3300,7 @@
             "Description": "Access to pending and sent updates in Buffer",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://buffer.com/developers/api",
             "Category": "Social"
         },
@@ -2934,6 +3309,7 @@
             "Description": "Team Collaboration Software",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.ciscospark.com",
             "Category": "Social"
         },
@@ -2942,6 +3318,7 @@
             "Description": "Make bots for Discord, integrate Discord onto an external platform",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://discordapp.com/developers/docs/intro",
             "Category": "Social"
         },
@@ -2950,6 +3327,7 @@
             "Description": "Communicate with Disqus data",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://disqus.com/api/docs/auth/",
             "Category": "Social"
         },
@@ -2958,6 +3336,7 @@
             "Description": "Get the social share count of a URL from every major social network",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://donreach.com/social-share-count/",
             "Category": "Social"
         },
@@ -2966,6 +3345,7 @@
             "Description": "Facebook Login, Share on FB, Social Plugins, Analytics and more",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.facebook.com/",
             "Category": "Social"
         },
@@ -2974,6 +3354,7 @@
             "Description": "Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc)",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.foursquare.com/",
             "Category": "Social"
         },
@@ -2982,6 +3363,7 @@
             "Description": "Asks someone to fuck off",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.foaas.com",
             "Category": "Social"
         },
@@ -2990,6 +3372,7 @@
             "Description": "Get Social Media profiles and contact Information",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.fullcontact.com/developer/docs/",
             "Category": "Social"
         },
@@ -2998,6 +3381,7 @@
             "Description": "Social news for CS and entrepreneurship",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/HackerNews/API",
             "Category": "Social"
         },
@@ -3006,6 +3390,7 @@
             "Description": "Instagram Login, Share on Instagram, Social Plugins and more",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.instagram.com/developer/",
             "Category": "Social"
         },
@@ -3014,6 +3399,7 @@
             "Description": "The foundation of all digital integrations with LinkedIn",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.linkedin.com/docs/rest-api",
             "Category": "Social"
         },
@@ -3022,6 +3408,7 @@
             "Description": "Data about Meetups from Meetup.com",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.meetup.com/meetup_api/",
             "Category": "Social"
         },
@@ -3030,6 +3417,7 @@
             "Description": "The world's catalog of ideas",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.pinterest.com/",
             "Category": "Social"
         },
@@ -3038,6 +3426,7 @@
             "Description": "Boosted version of the Telegram bot API",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://pwrtelegram.xyz",
             "Category": "Social"
         },
@@ -3046,6 +3435,7 @@
             "Description": "Homepage of the internet",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.reddit.com/dev/api",
             "Category": "Social"
         },
@@ -3054,6 +3444,7 @@
             "Description": "Social media like and share data for any URL",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://docs.sharedcount.com/",
             "Category": "Social"
         },
@@ -3062,6 +3453,7 @@
             "Description": "Team Instant Messaging",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.slack.com/",
             "Category": "Social"
         },
@@ -3070,6 +3462,7 @@
             "Description": "Simplified HTTP version of the MTProto API for bots",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://core.telegram.org/bots/api",
             "Category": "Social"
         },
@@ -3078,6 +3471,7 @@
             "Description": "Read and write Telegram data",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://core.telegram.org/api#getting-started",
             "Category": "Social"
         },
@@ -3086,6 +3480,7 @@
             "Description": "Read and write Tumblr Data",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.tumblr.com/docs/en/api/v2",
             "Category": "Social"
         },
@@ -3094,6 +3489,7 @@
             "Description": "Game Streaming API",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://dev.twitch.tv/docs",
             "Category": "Social"
         },
@@ -3102,6 +3498,7 @@
             "Description": "Read and write Twitter data",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://dev.twitter.com/rest/public",
             "Category": "Social"
         },
@@ -3110,6 +3507,7 @@
             "Description": "Read and write vk data",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://vk.com/dev/sites",
             "Category": "Social"
         },
@@ -3118,6 +3516,7 @@
             "Description": "Bikewise is a place to learn about and report bike crashes, hazards, and thefts",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.bikewise.org/documentation/api_v2",
             "Category": "Sports & Fitness"
         },
@@ -3126,6 +3525,7 @@
             "Description": "The Cartola FC API serves to check the partial points of your team",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/wgenial/cartrolandofc",
             "Category": "Sports & Fitness"
         },
@@ -3134,6 +3534,7 @@
             "Description": "City Bikes around the world",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://api.citybik.es/v2/",
             "Category": "Sports & Fitness"
         },
@@ -3142,6 +3543,7 @@
             "Description": "Live cricket scores",
             "Auth": "X-Mashape-Key",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://market.mashape.com/dev132/cricket-live-scores",
             "Category": "Sports & Fitness"
         },
@@ -3150,6 +3552,7 @@
             "Description": "F1 data from the beginning of the world championships in 1950",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://ergast.com/mrd/",
             "Category": "Sports & Fitness"
         },
@@ -3158,6 +3561,7 @@
             "Description": "Fitbit Information",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://dev.fitbit.com/",
             "Category": "Sports & Fitness"
         },
@@ -3166,6 +3570,7 @@
             "Description": "Football Data",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://api.football-data.org/index",
             "Category": "Sports & Fitness"
         },
@@ -3174,6 +3579,7 @@
             "Description": "JCDecaux's self-service bicycles",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.jcdecaux.com/",
             "Category": "Sports & Fitness"
         },
@@ -3182,6 +3588,7 @@
             "Description": "Current and historical NBA Statistics",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://any-api.com/nba_com/nba_com/docs/API_Description",
             "Category": "Sports & Fitness"
         },
@@ -3190,6 +3597,7 @@
             "Description": "NFL Arrest Data",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://nflarrest.com/api/",
             "Category": "Sports & Fitness"
         },
@@ -3198,6 +3606,7 @@
             "Description": "The RESTful AMA Pro Motocross lap times for every racer on the start gate",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://promotocrossapi.com",
             "Category": "Sports & Fitness"
         },
@@ -3206,6 +3615,7 @@
             "Description": "Connect with athletes, activities and more",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://strava.github.io/api/",
             "Category": "Sports & Fitness"
         },
@@ -3214,6 +3624,7 @@
             "Description": "Query sports data, including teams, players, games, scores, and statistics",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "https://suredbits.com/api/",
             "Category": "Sports & Fitness"
         },
@@ -3222,6 +3633,7 @@
             "Description": "Crowd-Sourced Sports Data and Artwork",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.thesportsdb.com",
             "Category": "Sports & Fitness"
         },
@@ -3230,6 +3642,7 @@
             "Description": "Ultimate Fighting Championship information for events and fighters",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://ufc-data-api.ufc.com/",
             "Category": "Sports & Fitness"
         },
@@ -3238,6 +3651,7 @@
             "Description": "Workout manager data as exercises, muscles or equipment",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://wger.de/en/software/api",
             "Category": "Sports & Fitness"
         },
@@ -3246,6 +3660,7 @@
             "Description": "Generate random cartoon avatars",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://avatars.adorable.io",
             "Category": "Test Data"
         },
@@ -3254,6 +3669,7 @@
             "Description": "A Meatier Lorem Ipsum Generator",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://baconipsum.com/json-api/",
             "Category": "Test Data"
         },
@@ -3262,6 +3678,7 @@
             "Description": "Fast Healthcare Interoperability Resources test data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://fhirtest.uhn.ca/home",
             "Category": "Test Data"
         },
@@ -3270,6 +3687,7 @@
             "Description": "Generates Hipster Ipsum text",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://hipsterjesus.com/",
             "Category": "Test Data"
         },
@@ -3278,6 +3696,7 @@
             "Description": "Fake data for testing and prototyping",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://jsonplaceholder.typicode.com/",
             "Category": "Test Data"
         },
@@ -3286,6 +3705,7 @@
             "Description": "Generates Lorem Ipsum text",
             "Auth": "X-Mashape-Key",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://market.mashape.com/montanaflynn/lorem-text-generator",
             "Category": "Test Data"
         },
@@ -3294,6 +3714,7 @@
             "Description": "Generate placeholder pictures",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://lorempicsum.com",
             "Category": "Test Data"
         },
@@ -3302,6 +3723,7 @@
             "Description": "The \"lorem ipsum\" generator that doesn't suck",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://loripsum.net/",
             "Category": "Test Data"
         },
@@ -3310,6 +3732,7 @@
             "Description": "Generates random user data",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://randomuser.me",
             "Category": "Test Data"
         },
@@ -3318,6 +3741,7 @@
             "Description": "Generate random robot/alien avatars",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://robohash.org/",
             "Category": "Test Data"
         },
@@ -3326,6 +3750,7 @@
             "Description": "Generate random fake names",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/thm/uinames",
             "Category": "Test Data"
         },
@@ -3334,6 +3759,7 @@
             "Description": "Generate yes or no randomly",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://yesno.wtf/api",
             "Category": "Test Data"
         },
@@ -3342,6 +3768,7 @@
             "Description": "A collection of information retrieval and natural language APIs",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://docs.aylien.com/",
             "Category": "Text Analysis"
         },
@@ -3350,6 +3777,7 @@
             "Description": "Detects text language",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://detectlanguage.com/",
             "Category": "Text Analysis"
         },
@@ -3358,6 +3786,7 @@
             "Description": "Natural language understanding technologies to developers, including sentiment, entity, and syntax analysis",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://cloud.google.com/natural-language/docs/",
             "Category": "Text Analysis"
         },
@@ -3366,6 +3795,7 @@
             "Description": "Text Analytics with sentiment analysis, categorization & named entity extraction",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://semantria.readme.io/docs",
             "Category": "Text Analysis"
         },
@@ -3374,6 +3804,7 @@
             "Description": "Natural language processing for advanced text analysis",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/",
             "Category": "Text Analysis"
         },
@@ -3382,6 +3813,7 @@
             "Description": "An API to query Brazilian ZIP codes and orders easily, quickly and free",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://postmon.com.br",
             "Category": "Tracking"
         },
@@ -3390,6 +3822,7 @@
             "Description": "Provides information about parcels in transport",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "https://developer.postnord.com/docs2",
             "Category": "Tracking"
         },
@@ -3398,6 +3831,7 @@
             "Description": "Access real-time and historical data of any and all airbone aircraft",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.adsbexchange.com/data/",
             "Category": "Transportation"
         },
@@ -3406,6 +3840,7 @@
             "Description": "Real-time data of any marine and inland vessel equipped with AIS tracking system",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.aishub.net/api",
             "Category": "Transportation"
         },
@@ -3414,6 +3849,7 @@
             "Description": "Travel Search - Limited usage",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://sandbox.amadeus.com/",
             "Category": "Transportation"
         },
@@ -3422,6 +3858,7 @@
             "Description": "Stations and predicted arrivals for BART",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://api.bart.gov",
             "Category": "Transportation"
         },
@@ -3430,6 +3867,7 @@
             "Description": "Transitland API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints",
             "Category": "Transportation"
         },
@@ -3438,6 +3876,7 @@
             "Description": "API for travel search",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.goibibo.com/docs",
             "Category": "Transportation"
         },
@@ -3446,6 +3885,7 @@
             "Description": "A-to-B routing with turn-by-turn instructions",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://graphhopper.com/api/1/docs/",
             "Category": "Transportation"
         },
@@ -3454,6 +3894,7 @@
             "Description": "Open APIs that deliver services in or regarding Iceland",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://docs.apis.is/",
             "Category": "Transportation"
         },
@@ -3462,6 +3903,7 @@
             "Description": "Indian Railways Information",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://api.erail.in/",
             "Category": "Transportation"
         },
@@ -3470,6 +3912,7 @@
             "Description": "Audio guide for travellers",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://api-docs.izi.travel/",
             "Category": "Transportation"
         },
@@ -3478,6 +3921,7 @@
             "Description": "The open API for building cool stuff with transport data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.navitia.io/",
             "Category": "Transportation"
         },
@@ -3486,6 +3930,7 @@
             "Description": "Provides safe restroom access for transgender, intersex, and gender nonconforming individuals",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.refugerestrooms.org/api/docs/#!/restrooms",
             "Category": "Transportation"
         },
@@ -3494,6 +3939,7 @@
             "Description": "Schiphol",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.schiphol.nl/",
             "Category": "Transportation"
         },
@@ -3502,6 +3948,7 @@
             "Description": "Transit Aggregation",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://transit.land/documentation/datastore/api-endpoints.html",
             "Category": "Transportation"
         },
@@ -3510,6 +3957,7 @@
             "Description": "Marta",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.itsmarta.com/app-developer-resources.aspx",
             "Category": "Transportation"
         },
@@ -3518,6 +3966,7 @@
             "Description": "Auckland Transport",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.at.govt.nz/",
             "Category": "Transportation"
         },
@@ -3526,6 +3975,7 @@
             "Description": "Belgian transport API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://hello.irail.be/api/",
             "Category": "Transportation"
         },
@@ -3534,6 +3984,7 @@
             "Description": "Third-party VBB API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md",
             "Category": "Transportation"
         },
@@ -3542,6 +3993,7 @@
             "Description": "MBTA API",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://realtime.mbta.com/Portal/Home/Documents",
             "Category": "Transportation"
         },
@@ -3550,6 +4002,7 @@
             "Description": "Budapest public transport API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://apiary.io/",
             "Category": "Transportation"
         },
@@ -3558,6 +4011,7 @@
             "Description": "CTA",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.transitchicago.com/developers/",
             "Category": "Transportation"
         },
@@ -3566,6 +4020,7 @@
             "Description": "Czech transport API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.chaps.cz/eng/products/idos-internet",
             "Category": "Transportation"
         },
@@ -3574,6 +4029,7 @@
             "Description": "RTD",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.rtd-denver.com/gtfs-developer-guide.shtml",
             "Category": "Transportation"
         },
@@ -3582,6 +4038,7 @@
             "Description": "Finnish transport API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://digitransit.fi/en/developers/ ",
             "Category": "Transportation"
         },
@@ -3590,6 +4047,7 @@
             "Description": "Deutsche Bahn (DB) API",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://data.deutschebahn.com/dataset/api-fahrplan",
             "Category": "Transportation"
         },
@@ -3598,6 +4056,7 @@
             "Description": "India Public Transport API",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://data.gov.in/sector/transport",
             "Category": "Transportation"
         },
@@ -3606,6 +4065,7 @@
             "Description": "TfL API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.tfl.gov.uk",
             "Category": "Transportation"
         },
@@ -3614,6 +4074,7 @@
             "Description": "Madrid BUS transport API",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://opendata.emtmadrid.es/Servicios-web/BUS",
             "Category": "Transportation"
         },
@@ -3622,6 +4083,7 @@
             "Description": "NexTrip API",
             "Auth": "OAuth",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://svc.metrotransit.org/",
             "Category": "Transportation"
         },
@@ -3630,6 +4092,7 @@
             "Description": "MTA",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://datamine.mta.info/",
             "Category": "Transportation"
         },
@@ -3638,6 +4101,7 @@
             "Description": "Norwegian transport API",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://reisapi.ruter.no/help",
             "Category": "Transportation"
         },
@@ -3646,6 +4110,7 @@
             "Description": "OC Transpo next bus arrival API",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.octranspo.com/index.php/developers",
             "Category": "Transportation"
         },
@@ -3654,6 +4119,7 @@
             "Description": "RATP Open Data API",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://data.ratp.fr/api/v1/console/datasets/1.0/search/",
             "Category": "Transportation"
         },
@@ -3662,6 +4128,7 @@
             "Description": "Live schedules made simple",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://restratpws.azurewebsites.net/swagger/",
             "Category": "Transportation"
         },
@@ -3670,6 +4137,7 @@
             "Description": "SEPTA APIs",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www3.septa.org/hackathon/",
             "Category": "Transportation"
         },
@@ -3678,6 +4146,7 @@
             "Description": "SPTrans",
             "Auth": "OAuth",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx",
             "Category": "Transportation"
         },
@@ -3686,6 +4155,7 @@
             "Description": "Public Transport consumer",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.trafiklab.se/api",
             "Category": "Transportation"
         },
@@ -3694,6 +4164,7 @@
             "Description": "Swiss public transport API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://transport.opendata.ch/",
             "Category": "Transportation"
         },
@@ -3702,6 +4173,7 @@
             "Description": "Official Swiss Public Transport Open Data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://opentransportdata.swiss/en/",
             "Category": "Transportation"
         },
@@ -3710,6 +4182,7 @@
             "Description": "NS, only trains",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.ns.nl/reisinformatie/ns-api",
             "Category": "Transportation"
         },
@@ -3718,6 +4191,7 @@
             "Description": "OVAPI, country-wide public transport",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/skywave/KV78Turbo-OVAPI/wiki",
             "Category": "Transportation"
         },
@@ -3726,6 +4200,7 @@
             "Description": "TTC",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://myttc.ca/developers",
             "Category": "Transportation"
         },
@@ -3734,6 +4209,7 @@
             "Description": "NextBus API",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf",
             "Category": "Transportation"
         },
@@ -3742,6 +4218,7 @@
             "Description": "TransLink",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.translink.ca/",
             "Category": "Transportation"
         },
@@ -3750,6 +4227,7 @@
             "Description": "PTV API",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.ptv.vic.gov.au/about-ptv/ptv-data-and-reports/digital-products/ptv-timetable-api/",
             "Category": "Transportation"
         },
@@ -3758,6 +4236,7 @@
             "Description": "Washington Metro transport API",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.wmata.com/",
             "Category": "Transportation"
         },
@@ -3766,6 +4245,7 @@
             "Description": "Platform for public transport data in emerging cities",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.whereismytransport.com/",
             "Category": "Transportation"
         },
@@ -3774,6 +4254,7 @@
             "Description": "University names, countries and domains",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/Hipo/university-domains-list",
             "Category": "University"
         },
@@ -3782,6 +4263,7 @@
             "Description": "URL shortener and link management",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "http://dev.bitly.com/get_started.html",
             "Category": "URL Shorteners"
         },
@@ -3790,6 +4272,7 @@
             "Description": "Monitor, compare, and optimize your marketing links",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://support.clickmeter.com/hc/en-us/categories/201474986",
             "Category": "URL Shorteners"
         },
@@ -3798,6 +4281,7 @@
             "Description": "Takes long URLs and squeezes them into fewer characters to make a link that is easier to share",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.google.com/url-shortener/v1/getting_started",
             "Category": "URL Shorteners"
         },
@@ -3806,6 +4290,7 @@
             "Description": "Custom URL shortener for sharing branded links",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.rebrandly.com/v1/docs",
             "Category": "URL Shorteners"
         },
@@ -3814,6 +4299,7 @@
             "Description": "Vehicles information from Funda\u00e7\u00e3o Instituto de Pesquisas Econ\u00f4micas - Fipe",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://deividfortuna.github.io/fipe/",
             "Category": "Vehicle"
         },
@@ -3822,6 +4308,7 @@
             "Description": "NHTSA Product Information Catalog and Vehicle Listing",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://vpic.nhtsa.dot.gov/api/",
             "Category": "Vehicle"
         },
@@ -3830,6 +4317,7 @@
             "Description": "Game Of Thrones API",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://anapioficeandfire.com/",
             "Category": "Video"
         },
@@ -3838,6 +4326,7 @@
             "Description": "TV programme of Czech TV",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.ceskatelevize.cz/xml/tv-program/",
             "Category": "Video"
         },
@@ -3846,6 +4335,7 @@
             "Description": "Dailymotion Developer API",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.dailymotion.com/",
             "Category": "Video"
         },
@@ -3854,6 +4344,7 @@
             "Description": "Netflix database",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://netflixroulette.net/api/",
             "Category": "Video"
         },
@@ -3862,6 +4353,7 @@
             "Description": "Television",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api",
             "Category": "Video"
         },
@@ -3870,6 +4362,7 @@
             "Description": "Star Wars Information",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://swapi.co",
             "Category": "Video"
         },
@@ -3878,6 +4371,7 @@
             "Description": "Community-based movie data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.themoviedb.org/documentation/api",
             "Category": "Video"
         },
@@ -3886,6 +4380,7 @@
             "Description": "Television data",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://api.thetvdb.com/swagger",
             "Category": "Video"
         },
@@ -3894,6 +4389,7 @@
             "Description": "TV Show Data",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://www.tvmaze.com/api",
             "Category": "Video"
         },
@@ -3902,6 +4398,7 @@
             "Description": "Check where a tv show or movie is available",
             "Auth": "X-Mashape-Key",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://market.mashape.com/utelly/utelly",
             "Category": "Video"
         },
@@ -3910,6 +4407,7 @@
             "Description": "Vimeo Developer API",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.vimeo.com/",
             "Category": "Video"
         },
@@ -3918,6 +4416,7 @@
             "Description": "Add YouTube functionality to your sites and apps",
             "Auth": "OAuth",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developers.google.com/youtube/",
             "Category": "Video"
         },
@@ -3926,6 +4425,7 @@
             "Description": "Weather",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://darksky.net/dev/",
             "Category": "Weather"
         },
@@ -3934,6 +4434,7 @@
             "Description": "Weather",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.metaweather.com/api/",
             "Category": "Weather"
         },
@@ -3942,6 +4443,7 @@
             "Description": "Weather and weather webcams",
             "Auth": null,
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://api.oceandrivers.com/static/docs.html",
             "Category": "Weather"
         },
@@ -3950,6 +4452,7 @@
             "Description": "Weather",
             "Auth": "apiKey",
             "HTTPS": false,
+            "CORS": "Unknown",
             "Link": "http://openweathermap.org/api",
             "Category": "Weather"
         },
@@ -3958,6 +4461,7 @@
             "Description": "Weather",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.weatherbit.io/api",
             "Category": "Weather"
         },
@@ -3966,6 +4470,7 @@
             "Description": "Weather",
             "Auth": "apiKey",
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://www.wunderground.com/weather/api/",
             "Category": "Weather"
         },
@@ -3974,6 +4479,7 @@
             "Description": "Weather",
             "Auth": null,
             "HTTPS": true,
+            "CORS": "Unknown",
             "Link": "https://developer.yahoo.com/weather/",
             "Category": "Weather"
         }
