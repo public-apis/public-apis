@@ -447,7 +447,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Musixmatch | Music | `apiKey` | Yes | Unknown | [Go!](https://developer.musixmatch.com/) |
 | Songkick | Music Events | `OAuth` | Yes | Unknown | [Go!](https://www.songkick.com/developer/) |
 | Songsterr | Provides guitar, bass and drums tabs and chords | No | Yes | Unknown | [Go!](https://www.songsterr.com/a/wa/api/) |
-| Soundcloud | Music | No | Yes | Unknown | [Go!](https://developers.soundcloud.com/) |
 | Spotify | Music | `OAuth` | Yes | Unknown | [Go!](https://developer.spotify.com/web-api/) |
 | TasteDive | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown | [Go!](https://tastedive.com/read/api) |
 | TheAudioDB | Music | `apiKey` | No | Unknown | [Go!](http://www.theaudiodb.com) |
