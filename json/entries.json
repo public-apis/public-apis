@@ -1,5 +1,5 @@
 {
-    "count": 498,
+    "count": 497,
     "entries": [
         {
             "API": "Dogs",
@@ -2483,15 +2483,6 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://www.songsterr.com/a/wa/api/",
-            "Category": "Music"
-        },
-        {
-            "API": "Soundcloud",
-            "Description": "Music",
-            "Auth": null,
-            "HTTPS": true,
-            "CORS": "Unknown",
-            "Link": "https://developers.soundcloud.com/",
             "Category": "Music"
         },
         {
