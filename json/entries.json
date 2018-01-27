@@ -2487,11 +2487,11 @@
         },
         {
             "API": "Spotify",
-            "Description": "Music",
+            "Description": "Fetch data from the Spotify music catalog, manage users' playlists and saved music, get recommendations, control Spotify Connect, and more",
             "Auth": "OAuth",
             "HTTPS": true,
             "CORS": "Unknown",
-            "Link": "https://developer.spotify.com/web-api/",
+            "Link": "https://beta.developer.spotify.com/documentation/web-api/",
             "Category": "Music"
         },
         {
