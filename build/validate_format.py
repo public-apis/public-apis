@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
 import json
+import re
 import string
 import sys
 
 anchor = '###'
+min_entries_per_section = 3
 auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'No']
 punctuation = ['.', '?', '!']
 https_keys = ['Yes', 'No']
@@ -55,9 +57,23 @@ def check_format(filename):
     # END Alphabetical Order
 
     # START Check Entries
+    num_in_category = min_entries_per_section + 1
+    anchor_re = re.compile('###\s\S+')
     for line_num, line in enumerate(lines):
+        # check each section for the minimum number of entries
+        if line.startswith(anchor):
+            if not anchor_re.match(line):
+                add_error(line_num, "section header is not formatted correctly")
+            if num_in_category < min_entries_per_section:
+                add_error(category_line, "{} section does not have the minimum {} entries (only has {})".format(
+                    category, min_entries_per_section, num_in_category))
+            category = line.split(' ')[1]
+            category_line = line_num
+            num_in_category = 0
+            continue
         if not line.startswith('|') or line.startswith('|---'):
             continue
+        num_in_category += 1
         segments = line.split('|')[1:-1]
         # START Global
         for segment in segments:
@@ -75,7 +91,7 @@ def check_format(filename):
         # first character should be capitalized
         char = segments[index_desc][0]
         if char.upper() != char:
-            add_error(line_num, "first char of Description is not capitalized")
+            add_error(line_num, "first character of description is not capitalized")
         # last character should not punctuation
         char = segments[index_desc][-1]
         if char in punctuation:
@@ -103,7 +119,7 @@ def check_format(filename):
         # url should be wrapped in '[Go!]()' Markdown syntax
         link = segments[index_link]
         if not link.startswith('[Go!](http') or not link.endswith(')'):
-            add_error(line_num, 'link format should be "[Go!](LINK)"')
+            add_error(line_num, 'link syntax should be "[Go!](LINK)"')
         # END Link
     # END Check Entries
 

@@ -36,7 +36,6 @@ Please note a passing build status indicates all listed APIs are available since
 * [Health](#health)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
-* [Math](#math)
 * [Music](#music)
 * [News](#news)
 * [Open Data](#open-data)
@@ -44,7 +43,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Patent](#patent)
 * [Personality](#personality)
 * [Photography](#photography)
-* [Science](#science)
+* [Science & Math](#science--math)
 * [Security](#security)
 * [Shopping](#shopping)
 * [Social](#social)
@@ -53,7 +52,6 @@ Please note a passing build status indicates all listed APIs are available since
 * [Text Analysis](#text-analysis)
 * [Tracking](#tracking)
 * [Transportation](#transportation)
-* [University](#university)
 * [URL Shorteners](#url-shorteners)
 * [Vehicle](#vehicle)
 * [Video](#video)
@@ -424,12 +422,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Unplugg | Forecasting API for timeseries data | `apiKey` | Yes | Unknown | [Go!](https://unplu.gg/test_api.html) |
 | Wit.ai | Natural Language Processing | `OAuth` | Yes | Unknown | [Go!](https://wit.ai/) |
 
-### Math
-API | Description | Auth | HTTPS | CORS | Link |
-|---|---|---|---|---|---|
-| Newton | Symbolic and Arithmetic Math Calculator | No | Yes | Unknown | [Go!](https://newton.now.sh/) |
-| Numbers | Facts about numbers | No | No | Unknown | [Go!](http://numbersapi.com) |
-
 ### Music
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
@@ -494,6 +486,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Represent by Open North | Find Canadian Government Representatives | No | Yes | Unknown | [Go!](https://represent.opennorth.ca/) |
 | Scoop.it | Content Curation Service | `apiKey` | No | Unknown | [Go!](http://www.scoop.it/dev) |
 | Teleport | Quality of Life Data | No | Yes | Unknown | [Go!](https://developers.teleport.org/) |
+| Universities List | University names, countries and domains | No | Yes | Unknown | [Go!](https://github.com/Hipo/university-domains-list) |
 | UPC database | More than 1.5 million barcode numbers from all around the world | `apiKey` | Yes | Unknown | [Go!](https://upcdatabase.org/api) |
 | Wikidata | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | Unknown | [Go!](https://www.wikidata.org/w/api.php?action=help) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | Unknown | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
@@ -541,7 +534,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | ScreenShotLayer | URL 2 Image | No | Yes | Unknown | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | `OAuth` | Yes | Unknown | [Go!](https://unsplash.com/developers) |
 
-### Science
+### Science & Math
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | arcsecond.io | Multiple astronomy data sources | No | Yes | Unknown | [Go!](https://api.arcsecond.io/) |
@@ -550,6 +543,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Launch Library | Upcoming Space Launches | No | Yes | Unknown | [Go!](https://launchlibrary.net/docs/1.3/api.html) |
 | Minor Planet Center | Asterank.com Information | No | No | Unknown | [Go!](http://www.asterank.com/mpc) |
 | NASA | NASA data, including imagery | No | Yes | Unknown | [Go!](https://api.nasa.gov) |
+| Newton | Symbolic and Arithmetic Math Calculator | No | Yes | Unknown | [Go!](https://newton.now.sh/) |
+| Numbers | Facts about numbers | No | No | Unknown | [Go!](http://numbersapi.com) |
 | Open Notify | ISS astronauts, current location, etc | No | No | Unknown | [Go!](http://open-notify.org/Open-Notify-API/) |
 | Open Science Framework | Repository and archive for study designs, research materials, data, manuscripts, etc | No | Yes | Unknown | [Go!](https://developer.osf.io) |
 | SHARE | A free, open, dataset about research and scholarly activities | No | Yes | Unknown | [Go!](https://share.osf.io/api/v2/) |
@@ -651,6 +646,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Postmon | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | Unknown | [Go!](http://postmon.com.br) |
 | Sweden | Provides information about parcels in transport | `apiKey` | No | Unknown | [Go!](https://developer.postnord.com/docs2) |
+| UPS | Shipment and Address information | `apiKey` | Yes | Unknown | [Go!](https://www.ups.com/upsdeveloperkit) |
 
 ### Transportation
 API | Description | Auth | HTTPS | CORS | Link |
@@ -703,11 +699,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Transport for Washington, US | Washington Metro transport API | `OAuth` | Yes | Unknown | [Go!](https://developer.wmata.com/) |
 | WhereIsMyTransport | Platform for public transport data in emerging cities | `OAuth` | Yes | Unknown | [Go!](https://developer.whereismytransport.com/) |
 
-### University
-API | Description | Auth | HTTPS | CORS | Link |
-|---|---|---|---|---|---|
-| Universities List | University names, countries and domains | No | Yes | Unknown | [Go!](https://github.com/Hipo/university-domains-list) |
-
 ### URL Shorteners
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
@@ -720,6 +711,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Brazilian Vehicles and Prices | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | Unknown | [Go!](https://deividfortuna.github.io/fipe/) |
+| Kelley Blue Book | Vehicle info, pricing, configuration, plus much more | `apiKey` | Yes | No | [Go!](http://developer.kbb.com/#!/data/1-Default) |
 | NHTSA | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown | [Go!](https://vpic.nhtsa.dot.gov/api/) |
 
 ### Video
