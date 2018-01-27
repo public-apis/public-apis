@@ -2,7 +2,7 @@
 
 A collective list of free APIs for use in web development.
 
-A JSON encoding of all entries can be found [here](json).
+A public API for this project can be found [here](https://github.com/davemachado/public-api).
 
 For information on contributing to this project, please see the [contributing guide](.github/CONTRIBUTING.md).
 
@@ -212,7 +212,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | Unknown | [Go!](https://www.liveedu.tv/developer/applications/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | Unknown | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | Yes | Unknown | [Go!](https://plino.herokuapp.com/) |
-| Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | Unknown | [Go!](https://github.com/toddmotto/public-apis/tree/master/json) |
+| Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | Unknown | [Go!](https://github.com/davemachado/public-api) |
 | QR code | Generate and decode / read QR code graphics | No | Yes | Unknown | [Go!](http://goqr.me/api/) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | Unknown | [Go!](https://reqres.in/ ) |
 | Scrape Website Email | Grabs email addresses from a URL | `X-Mashape-Key` | Yes | Unknown | [Go!](https://market.mashape.com/tommytcchan/scrape-website-email) |
