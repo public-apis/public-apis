@@ -1,5 +1,5 @@
 {
-    "count": 497,
+    "count": 499,
     "entries": [
         {
             "API": "Dogs",
@@ -2342,24 +2342,6 @@
             "Category": "Machine Learning"
         },
         {
-            "API": "Newton",
-            "Description": "Symbolic and Arithmetic Math Calculator",
-            "Auth": null,
-            "HTTPS": true,
-            "CORS": "Unknown",
-            "Link": "https://newton.now.sh/",
-            "Category": "Math"
-        },
-        {
-            "API": "Numbers",
-            "Description": "Facts about numbers",
-            "Auth": null,
-            "HTTPS": false,
-            "CORS": "Unknown",
-            "Link": "http://numbersapi.com",
-            "Category": "Math"
-        },
-        {
             "API": "Bandsintown",
             "Description": "Music Events",
             "Auth": null,
@@ -2837,6 +2819,15 @@
             "Category": "Open Data"
         },
         {
+            "API": "Universities List",
+            "Description": "University names, countries and domains",
+            "Auth": null,
+            "HTTPS": true,
+            "CORS": "Unknown",
+            "Link": "https://github.com/Hipo/university-domains-list",
+            "Category": "Open Data"
+        },
+        {
             "API": "UPC database",
             "Description": "More than 1.5 million barcode numbers from all around the world",
             "Auth": "apiKey",
@@ -3113,7 +3104,7 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://api.arcsecond.io/",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "CORE",
@@ -3122,7 +3113,7 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://core.ac.uk/services#api",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "inspirehep.net",
@@ -3131,7 +3122,7 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://inspirehep.net/info/hep/api?ln=en",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "Launch Library",
@@ -3140,7 +3131,7 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://launchlibrary.net/docs/1.3/api.html",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "Minor Planet Center",
@@ -3149,7 +3140,7 @@
             "HTTPS": false,
             "CORS": "Unknown",
             "Link": "http://www.asterank.com/mpc",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "NASA",
@@ -3158,7 +3149,25 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://api.nasa.gov",
-            "Category": "Science"
+            "Category": "Science & Math"
+        },
+        {
+            "API": "Newton",
+            "Description": "Symbolic and Arithmetic Math Calculator",
+            "Auth": null,
+            "HTTPS": true,
+            "CORS": "Unknown",
+            "Link": "https://newton.now.sh/",
+            "Category": "Science & Math"
+        },
+        {
+            "API": "Numbers",
+            "Description": "Facts about numbers",
+            "Auth": null,
+            "HTTPS": false,
+            "CORS": "Unknown",
+            "Link": "http://numbersapi.com",
+            "Category": "Science & Math"
         },
         {
             "API": "Open Notify",
@@ -3167,7 +3176,7 @@
             "HTTPS": false,
             "CORS": "Unknown",
             "Link": "http://open-notify.org/Open-Notify-API/",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "Open Science Framework",
@@ -3176,7 +3185,7 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://developer.osf.io",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "SHARE",
@@ -3185,7 +3194,7 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://share.osf.io/api/v2/",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "SpaceX",
@@ -3194,7 +3203,7 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://github.com/r-spacex/SpaceX-API",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "Sunrise and Sunset",
@@ -3203,7 +3212,7 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://sunrise-sunset.org/api",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "USGS Earthquake Hazards Program",
@@ -3212,7 +3221,7 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://earthquake.usgs.gov/fdsnws/event/1/",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "USGS Water Services",
@@ -3221,7 +3230,7 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://waterservices.usgs.gov/",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "World Bank",
@@ -3230,7 +3239,7 @@
             "HTTPS": false,
             "CORS": "Unknown",
             "Link": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
-            "Category": "Science"
+            "Category": "Science & Math"
         },
         {
             "API": "AXFR Database",
@@ -3818,6 +3827,15 @@
             "Category": "Tracking"
         },
         {
+            "API": "UPS",
+            "Description": "Shipment and Address information",
+            "Auth": "apiKey",
+            "HTTPS": true,
+            "CORS": "Unknown",
+            "Link": "https://www.ups.com/upsdeveloperkit",
+            "Category": "Tracking"
+        },
+        {
             "API": "ADS-B Exchange",
             "Description": "Access real-time and historical data of any and all airbone aircraft",
             "Auth": null,
@@ -4241,15 +4259,6 @@
             "Category": "Transportation"
         },
         {
-            "API": "Universities List",
-            "Description": "University names, countries and domains",
-            "Auth": null,
-            "HTTPS": true,
-            "CORS": "Unknown",
-            "Link": "https://github.com/Hipo/university-domains-list",
-            "Category": "University"
-        },
-        {
             "API": "Bitly",
             "Description": "URL shortener and link management",
             "Auth": "OAuth",
@@ -4292,6 +4301,15 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://deividfortuna.github.io/fipe/",
+            "Category": "Vehicle"
+        },
+        {
+            "API": "Kelley Blue Book",
+            "Description": "Vehicle info, pricing, configuration, plus much more",
+            "Auth": "apiKey",
+            "HTTPS": true,
+            "CORS": "No",
+            "Link": "http://developer.kbb.com/#!/data/1-Default",
             "Category": "Vehicle"
         },
         {
