@@ -58,6 +58,7 @@ def check_format(filename):
 
     # START Check Entries
     num_in_category = min_entries_per_section + 1
+    category_line = 0
     anchor_re = re.compile('###\s\S+')
     for line_num, line in enumerate(lines):
         # check each section for the minimum number of entries
