@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-import json
 import re
-import string
 import sys
 
 anchor = '###'
@@ -24,20 +22,14 @@ errors = []
 
 def add_error(line_num, message):
     """adds an error to the dynamic error list"""
-    err = '(L{:03d}) {}'.format(line_num+1, message)
+    err = '(L{:03d}) {}'.format(line_num + 1, message)
     errors.append(err)
 
 
-def check_format(filename):
+def check_alphabetical(lines):
     """
-    validates that each line is formatted correctly,
-    appending to error list as needed
+    checks if all entries per section are in alphabetical order based in entry title
     """
-    with open(filename) as fp:
-        lines = list(line.rstrip() for line in fp)
-
-    # START Alphabetical Order
-    category = ""
     sections = {}
     section_line_num = {}
     for line_num, line in enumerate(lines):
@@ -54,10 +46,61 @@ def check_format(filename):
     for category, entries in sections.items():
         if sorted(entries) != entries:
             add_error(section_line_num[category], "{} section is not in alphabetical order".format(category))
-    # END Alphabetical Order
 
+
+def check_entry(line_num, segments):
+    # START Title
+    title = segments[index_title].upper()
+    if title.endswith(' API'):
+        add_error(line_num, 'Title should not contain "API"')
+    # END Title
+    # START Description
+    # first character should be capitalized
+    char = segments[index_desc][0]
+    if char.upper() != char:
+        add_error(line_num, "first character of description is not capitalized")
+    # last character should not punctuation
+    char = segments[index_desc][-1]
+    if char in punctuation:
+        add_error(line_num, "description should not end with {}".format(char))
+    # END Description
+    # START Auth
+    # values should conform to valid options only
+    auth = segments[index_auth].replace('`', '')
+    if auth not in auth_keys:
+        add_error(line_num, "{} is not a valid Auth option".format(auth))
+    # END Auth
+    # START HTTPS
+    # values should conform to valid options only
+    https = segments[index_https]
+    if https not in https_keys:
+        add_error(line_num, "{} is not a valid HTTPS option".format(https))
+    # END HTTPS
+    # START CORS
+    # values should conform to valid options only
+    cors = segments[index_cors]
+    if cors not in cors_keys:
+        add_error(line_num, "{} is not a valid CORS option".format(cors))
+    # END CORS
+    # START Link
+    # url should be wrapped in '[Go!]()' Markdown syntax
+    link = segments[index_link]
+    if not link.startswith('[Go!](http') or not link.endswith(')'):
+        add_error(line_num, 'link syntax should be "[Go!](LINK)"')
+    # END Link
+
+
+def check_format(filename):
+    """
+    validates that each line is formatted correctly,
+    appending to error list as needed
+    """
+    with open(filename) as fp:
+        lines = list(line.rstrip() for line in fp)
+    check_alphabetical(lines)
     # START Check Entries
     num_in_category = min_entries_per_section + 1
+    category = ""
     category_line = 0
     anchor_re = re.compile('###\s\S+')
     for line_num, line in enumerate(lines):
@@ -83,46 +126,9 @@ def check_format(filename):
                 add_error(line_num, "each segment must start and end with exactly 1 space")
         # END Global
         segments = [seg.strip() for seg in segments]
-        # START Title
-        title = segments[index_title].upper()
-        if title.endswith(' API'):
-            add_error(line_num, 'Title should not contain "API"')
-        # END Title
-        # START Description
-        # first character should be capitalized
-        char = segments[index_desc][0]
-        if char.upper() != char:
-            add_error(line_num, "first character of description is not capitalized")
-        # last character should not punctuation
-        char = segments[index_desc][-1]
-        if char in punctuation:
-            add_error(line_num, "description should not end with {}".format(char))
-        # END Description
-        # START Auth
-        # values should conform to valid options only
-        auth = segments[index_auth].replace('`', '')
-        if auth not in auth_keys:
-            add_error(line_num, "{} is not a valid Auth option".format(auth))
-        # END Auth
-        # START HTTPS
-        # values should conform to valid options only
-        https = segments[index_https]
-        if https not in https_keys:
-            add_error(line_num, "{} is not a valid HTTPS option".format(https))
-        # END HTTPS
-        # START CORS
-        # values should conform to valid options only
-        cors = segments[index_cors]
-        if cors not in cors_keys:
-            add_error(line_num, "{} is not a valid CORS option".format(cors))
-        # END CORS
-        # START Link
-        # url should be wrapped in '[Go!]()' Markdown syntax
-        link = segments[index_link]
-        if not link.startswith('[Go!](http') or not link.endswith(')'):
-            add_error(line_num, 'link syntax should be "[Go!](LINK)"')
-        # END Link
+        check_entry(line_num, segments)
     # END Check Entries
+
 
 def main():
     num_args = len(sys.argv)

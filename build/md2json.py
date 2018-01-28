@@ -10,8 +10,8 @@ def markdown_to_json(filename, anchor):
     entries = []
     with open(filename) as fp:
         lines = (line.rstrip() for line in fp)
-        lines = list(line for line in lines if line \
-                    and line.startswith(anchor) or line.startswith('| '))
+        lines = list(line for line in lines if line and
+                     line.startswith(anchor) or line.startswith('| '))
     for line in lines:
         if line.startswith(anchor):
             category = line.split(anchor)[1].strip()
@@ -44,6 +44,7 @@ def main():
     else:
         anchor = sys.argv[2]
     print(markdown_to_json(sys.argv[1], anchor))
+
 
 if __name__ == "__main__":
     main()

@@ -10,11 +10,12 @@ def parse_links(filename):
     """Returns a list of URLs from text file"""
     with open(filename) as fp:
         data = fp.read()
-    raw_links = re.findall( \
-            'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', \
-            data)
+    raw_links = re.findall(
+        'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+',
+        data)
     links = [raw_link.replace(')', '') for raw_link in raw_links]
     return links
+
 
 def validate_links(links):
     """Checks each entry in JSON file for live link"""
@@ -34,6 +35,7 @@ def validate_links(links):
             errors.append("SOC: {} : {}".format(socketerror, link))
     return errors
 
+
 if __name__ == "__main__":
     num_args = len(sys.argv)
     if num_args < 2:
@@ -44,4 +46,3 @@ if __name__ == "__main__":
         for err in errors:
             print(err)
         sys.exit(1)
-
