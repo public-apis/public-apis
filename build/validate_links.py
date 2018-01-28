@@ -5,6 +5,11 @@ import re
 import socket
 import sys
 
+try:
+    TimeoutError            # Python 3
+except NameError:
+    TimeoutError = OSError  # Python 2
+
 
 def parse_links(filename):
     """Returns a list of URLs from text file"""
