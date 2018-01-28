@@ -161,6 +161,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Cryptonator | Cryptocurrencies Exchange Rates | No | Yes | Unknown | [Go!](https://www.cryptonator.com/api/) |
 | GDAX | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.gdax.com/#api) |
 | MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | Unknown | [Go!](https://www.mercadobitcoin.net/api-doc/) |
+| Nexchange | Automated cryptocurrency exchange service | No | No | Yes | [Go!](https://nexchange2.docs.apiary.io/) |
+| Poloniex | US-based digital asset exchange | `apiKey` | Yes | No | No | [Go!](https://poloniex.com/support/api/) |
 
 ### Currency Exchange
 API | Description | Auth | HTTPS | CORS | Link |
@@ -237,8 +239,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Pocket | Bookmarking service | `OAuth` | Yes | Unknown | [Go!](https://getpocket.com/developer/) |
 | PrexView | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | Unknown | [Go!](https://prexview.com) |
 | Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | Unknown | [Go!](https://restpack.io/) |
-| Todoist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.todoist.com) | 
-| Vector Express | Free vector file converting API | No | No | Yes | [Go!](http://vector.express) | 
+| Todoist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.todoist.com) |
+| Vector Express | Free vector file converting API | No | No | Yes | [Go!](http://vector.express) |
 | Wunderlist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.wunderlist.com/documentation) |
 
 ### Environment
