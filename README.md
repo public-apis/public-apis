@@ -199,7 +199,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Genderize.io | Determines a gender from a first name | No | Yes | Unknown | [Go!](https://genderize.io) |
 | Github | Information for a user's Github profile | No | Yes | Unknown | [Go!](https://developer.github.com/v3/) |
 | Gitter | Chat for GitHub | `OAuth` | Yes | Unknown | [Go!](https://github.com/gitterHQ/docs) |
-| HackerRank | Compile source code and run against a set of provided test cases | `apiKey` | Yes | Unknown | [Go!](https://www.hackerrank.com/api/docs) |
 | HTTP2.Pro | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown | [Go!](https://http2.pro/doc/api) |
 | import.io | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | Unknown | [Go!](http://api.docs.import.io/) |
 | IPify | A simple IP Address API | No | Yes | Unknown | [Go!](https://www.ipify.org/) |
