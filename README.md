@@ -697,6 +697,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Transport for Vancouver, Canada | TransLink | `OAuth` | Yes | Unknown | [Go!](https://developer.translink.ca/) |
 | Transport for Victoria, AU | PTV API | `apiKey` | Yes | Unknown | [Go!](https://www.ptv.vic.gov.au/about-ptv/ptv-data-and-reports/digital-products/ptv-timetable-api/) |
 | Transport for Washington, US | Washington Metro transport API | `OAuth` | Yes | Unknown | [Go!](https://developer.wmata.com/) |
+| Uber | Uber ride requests and price estimation | `OAuth` | Yes | Unknown | [Go!](https://developer.uber.com/products) |
 | WhereIsMyTransport | Platform for public transport data in emerging cities | `OAuth` | Yes | Unknown | [Go!](https://developer.whereismytransport.com/) |
 
 ### URL Shorteners
