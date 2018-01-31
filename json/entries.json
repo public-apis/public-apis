@@ -1,5 +1,5 @@
 {
-    "count": 500,
+    "count": 501,
     "entries": [
         {
             "API": "Dogs",
@@ -4256,6 +4256,15 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://developer.wmata.com/",
+            "Category": "Transportation"
+        },
+        {
+            "API": "Uber",
+            "Description": "Uber ride requests and price estimation",
+            "Auth": "OAuth",
+            "HTTPS": true,
+            "CORS": "Yes",
+            "Link": "https://developer.uber.com/products",
             "Category": "Transportation"
         },
         {
