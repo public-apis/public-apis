@@ -1,5 +1,5 @@
 {
-    "count": 501,
+    "count": 500,
     "entries": [
         {
             "API": "Dogs",
@@ -836,15 +836,6 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://github.com/gitterHQ/docs",
-            "Category": "Development"
-        },
-        {
-            "API": "HackerRank",
-            "Description": "Compile source code and run against a set of provided test cases",
-            "Auth": "apiKey",
-            "HTTPS": true,
-            "CORS": "Unknown",
-            "Link": "https://www.hackerrank.com/api/docs",
             "Category": "Development"
         },
         {
