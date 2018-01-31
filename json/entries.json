@@ -1,5 +1,5 @@
 {
-    "count": 499,
+    "count": 501,
     "entries": [
         {
             "API": "Dogs",
@@ -584,6 +584,24 @@
             "HTTPS": true,
             "CORS": "Unknown",
             "Link": "https://www.mercadobitcoin.net/api-doc/",
+            "Category": "Cryptocurrency"
+        },
+        {
+            "API": "Nexchange",
+            "Description": "Automated cryptocurrency exchange service",
+            "Auth": null,
+            "HTTPS": false,
+            "CORS": "Yes",
+            "Link": "https://nexchange2.docs.apiary.io/",
+            "Category": "Cryptocurrency"
+        },
+        {
+            "API": "Poloniex",
+            "Description": "US based digital asset exchange",
+            "Auth": "apiKey",
+            "HTTPS": true,
+            "CORS": "Unknown",
+            "Link": "https://poloniex.com/support/api/",
             "Category": "Cryptocurrency"
         },
         {
