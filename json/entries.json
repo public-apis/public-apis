@@ -952,7 +952,7 @@
             "Auth": null,
             "HTTPS": true,
             "CORS": "Unknown",
-            "Link": "https://github.com/toddmotto/public-apis/tree/master/json",
+            "Link": "https://github.com/davemachado/public-api",
             "Category": "Development"
         },
         {
