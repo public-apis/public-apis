@@ -1,5 +1,5 @@
 {
-    "count": 501,
+    "count": 502,
     "entries": [
         {
             "API": "Dogs",
@@ -4328,6 +4328,15 @@
             "HTTPS": true,
             "CORS": "No",
             "Link": "http://developer.kbb.com/#!/data/1-Default",
+            "Category": "Vehicle"
+        },
+        {
+            "API": "Mercedes-Benz",
+            "Description": "Telematics data, remotely access vehicle functions, car configurator, locate service dealers",
+            "Auth": "apiKey",
+            "HTTPS": true,
+            "CORS": "No",
+            "Link": "https://developer.mercedes-benz.com/apis",
             "Category": "Vehicle"
         },
         {
