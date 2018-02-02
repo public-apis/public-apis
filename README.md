@@ -714,6 +714,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Brazilian Vehicles and Prices | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | Unknown | [Go!](https://deividfortuna.github.io/fipe/) |
 | Kelley Blue Book | Vehicle info, pricing, configuration, plus much more | `apiKey` | Yes | No | [Go!](http://developer.kbb.com/#!/data/1-Default) |
+| Mercedes-Benz | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | `apiKey` | Yes | No | [Go!](https://developer.mercedes-benz.com/apis) |
 | NHTSA | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown | [Go!](https://vpic.nhtsa.dot.gov/api/) |
 
 ### Video
