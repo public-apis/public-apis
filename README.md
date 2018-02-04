@@ -739,6 +739,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Dark Sky | Weather | `apiKey` | Yes | Unknown | [Go!](https://darksky.net/dev/) |
 | MetaWeather | Weather | No | Yes | Unknown | [Go!](https://www.metaweather.com/api/) |
 | ODWeather | Weather and weather webcams | No | No | Unknown | [Go!](http://api.oceandrivers.com/static/docs.html) |
+| OpenUV | Real-time UV Index Forecast | `apiKey` | Yes | Unknown | [Go!](https://www.openuv.io) |
 | OpenWeatherMap | Weather | `apiKey` | No | Unknown | [Go!](http://openweathermap.org/api) |
 | Weatherbit | Weather | `apiKey` | Yes | Unknown | [Go!](https://www.weatherbit.io/api) |
 | Wunderground | Weather | `apiKey` | Yes | Unknown | [Go!](https://www.wunderground.com/weather/api/) |
