@@ -249,6 +249,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | AirVisual | Air quality and weather data | `apiKey` | Yes | Unknown | [Go!](https://airvisual.com/api) |
 | OpenAQ | Open air quality data | `apiKey` | Yes | Unknown | [Go!](https://docs.openaq.org/) |
 | PM2.5.in | Air quality of China | `apiKey` | No | Unknown | [Go!](http://www.pm25.in/api_doc) |
+| PVWatts | Energy production photovoltaic (PV) energy systems | `apiKey` | Yes | Unknown | [Go!](https://developer.nrel.gov/docs/solar/pvwatts-v5/) |
 | UK Carbon Intensity | The Official Carbon Intensity API for Great Britain developed by National Grid | No | Yes | Unknown | [Go!](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0) |
 
 ### Events
