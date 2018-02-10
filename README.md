@@ -623,6 +623,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Adorable Avatars | Generate random cartoon avatars | No | Yes | Unknown | [Go!](http://avatars.adorable.io) |
 | Bacon Ipsum | A Meatier Lorem Ipsum Generator | No | Yes | Unknown | [Go!](https://baconipsum.com/json-api/) |
+| FakeJSON | REST API to generate test data | `apiKey` | Yes | Yes | [Go!](https://fakejson.com) |
 | FHIR | Fast Healthcare Interoperability Resources test data | No | Yes | Unknown | [Go!](http://fhirtest.uhn.ca/home) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | Unknown | [Go!](http://hipsterjesus.com/) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | No | Unknown | [Go!](http://jsonplaceholder.typicode.com/) |
@@ -633,7 +634,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | RoboHash | Generate random robot/alien avatars | No | Yes | Unknown | [Go!](https://robohash.org/) |
 | UI Names | Generate random fake names | No | Yes | Unknown | [Go!](https://github.com/thm/uinames) |
 | Yes No | Generate yes or no randomly | No | Yes | Unknown | [Go!](https://yesno.wtf/api) |
-| FakeJSON | REST API to generate test data | `apiKey` | Yes | Yes | [Go!](https://fakejson.com) |
 
 ### Text Analysis
 API | Description | Auth | HTTPS | CORS | Link |
