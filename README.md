@@ -2,7 +2,7 @@
 
 A collective list of free APIs for use in web development.
 
-A public API for this project can be found [here](https://github.com/davemachado/public-api).
+A public API for this project can be found [here](https://github.com/davemachado/public-api) - thanks to [DigitalOcean](https://www.digitalocean.com/) for helping us provide this service!
 
 For information on contributing to this project, please see the [contributing guide](.github/CONTRIBUTING.md).
 
