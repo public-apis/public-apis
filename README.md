@@ -193,7 +193,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | ApiLeap | Make screenshots from web pages and HTML | `apiKey` | Yes | Unknown | [Go!](https://apileap.com/) |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown | [Go!](https://apis.guru/api-doc/) |
-| BetterMeta | Return a site's meta tags in JSON format | X-Mashape-Key | Yes | Unknown | [Go!](http://bettermeta.io) |
+| BetterMeta | Return a site's meta tags in JSON format | `X-Mashape-Key` | Yes | Unknown | [Go!](http://bettermeta.io) |
 | Bitbucket | Pull public information for a Bitbucket account | No | Yes | Unknown | [Go!](https://api.bitbucket.org/2.0/users/karllhughes) |
 | Browshot | Easily make screenshots of web pages in any screen size, as any device | `apiKey` | Yes | Unknown | [Go!](https://browshot.com/api/documentation) |
 | CDNJS | Library info on CDNJS | No | Yes | Unknown | [Go!](https://api.cdnjs.com/libraries/jquery) |
@@ -270,7 +270,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Consumer Financial Protection Bureau | Financial services consumer complains data | `apiKey` | Yes | Unknown | [Go!](https://data.consumerfinance.gov/resource/jhzv-w97w.json) |
 | IEX | Stocks and Market Data | No | Yes | Unknown | [Go!](https://iextrading.com/developer/) |
 | IG | Spreadbetting and CFD Market Data | `apiKey` | Yes | Unknown | [Go!](https://labs.ig.com/gettingstarted) |
-| Plaid | Connect with users’ bank accounts and access transaction data | apiKey | Yes | Unknown | [Go!](https://plaid.com/) |
+| Plaid | Connect with users’ bank accounts and access transaction data | `apiKey` | Yes | Unknown | [Go!](https://plaid.com/) |
 | Razorpay IFSC | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown | [Go!](https://ifsc.razorpay.com/) |
 | RoutingNumbers.info | ACH/NACHA Bank Routing Numbers | No | Yes | Unknown | [Go!](https://www.routingnumbers.info/api/index.html) |
 | VAT Rates | A collection of all VAT rates for EU countries | No | Yes | Unknown | [Go!](https://jsonvat.com/) |
@@ -357,7 +357,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | IP 2 Country | Map an IP to a country | No | Yes | Unknown | [Go!](https://ip2country.info) |
 | IP Address Details | Find geolocation with ip address | No | Yes | Unknown | [Go!](https://ipinfo.io/) |
 | IP Location | Find IP address location information | No | Yes | Unknown | [Go!](https://ipapi.co/) |
-| IP Sidekick | Geolocation API that returns extra information about an IP address | apiKey | Yes | Unknown | [Go!](https://ipsidekick.com) |
+| IP Sidekick | Geolocation API that returns extra information about an IP address | `apiKey` | Yes | Unknown | [Go!](https://ipsidekick.com) |
 | IP Vigilante | Free IP Geolocation API | No | Yes | Unknown | [Go!](https://www.ipvigilante.com/) |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown | [Go!](https://www.mapbox.com/developers/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | Unknown | [Go!](https://github.com/IcaliaLabs/sepomex) |
