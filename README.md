@@ -633,7 +633,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | RoboHash | Generate random robot/alien avatars | No | Yes | Unknown | [Go!](https://robohash.org/) |
 | UI Names | Generate random fake names | No | Yes | Unknown | [Go!](https://github.com/thm/uinames) |
 | Yes No | Generate yes or no randomly | No | Yes | Unknown | [Go!](https://yesno.wtf/api) |
-| FakeJSON | Test data REST API | `apiKey` | Yes | Yes | [Go!](https://fakejson.com) |
+| FakeJSON | REST API to generate test data | `apiKey` | Yes | Yes | [Go!](https://fakejson.com) |
 
 ### Text Analysis
 API | Description | Auth | HTTPS | CORS | Link |
