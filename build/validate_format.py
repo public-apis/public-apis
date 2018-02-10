@@ -66,8 +66,10 @@ def check_entry(line_num, segments):
     # END Description
     # START Auth
     # values should conform to valid options only
-    auth = segments[index_auth].replace('`', '')
-    if auth not in auth_keys:
+    auth = segments[index_auth]
+    if auth != 'No' and (not auth.startswith('`') or not auth.endswith('`')):
+        add_error(line_num, "auth value is not enclosed with `backticks`")
+    if auth.replace('`', '') not in auth_keys:
         add_error(line_num, "{} is not a valid Auth option".format(auth))
     # END Auth
     # START HTTPS
