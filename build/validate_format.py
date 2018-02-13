@@ -63,6 +63,9 @@ def check_entry(line_num, segments):
     char = segments[index_desc][-1]
     if char in punctuation:
         add_error(line_num, "description should not end with {}".format(char))
+    desc_length = len(segments[index_desc])
+    if desc_length > 100:
+        add_error(line_num, "description should not exceed 100 characters (currently {})".format(desc_length))
     # END Description
     # START Auth
     # values should conform to valid options only

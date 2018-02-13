@@ -380,12 +380,12 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | BCLaws | Access to the laws of British Columbia | No | No | Unknown | [Go!](http://www.bclaws.ca/civix/template/complete/api/index.html) |
-| BusinessUSA | BusinessUSA gives developers access to authoritative information on U.S. programs, events, services and more | `apiKey` | Yes | Unknown | [Go!](https://business.usa.gov/developer) |
+| BusinessUSA | Authoritative information on U.S. programs, events, services and more | `apiKey` | Yes | Unknown | [Go!](https://business.usa.gov/developer) |
 | Census.gov | The US Census Bureau provides various APIs and data sets on demographics and businesses | No | Yes | Unknown | [Go!](https://www.census.gov/data/developers/data-sets.html) |
 | EPA | Web services and data sets from the US Environmental Protection Agency | No | Yes | Unknown | [Go!](https://developer.epa.gov/category/api/) |
 | FEC | Information on campaign donations in federal elections | `apiKey` | Yes | Unknown | [Go!](https://api.open.fec.gov/developers/) |
 | Food Standards Agency | UK food hygiene rating data API | No | No | Unknown | [Go!](http://ratings.food.gov.uk/open-data/en-GB) |
-| Regulations.gov | Regulations.gov provides access to Federal regulatory materials and increases public participation and their understanding of the Federal rule making process | `apiKey` | Yes | Unknown | [Go!](https://regulationsgov.github.io/developers/) |
+| Regulations.gov | Federal regulatory materialsto increase understanding of the Federal rule making process | `apiKey` | Yes | Unknown | [Go!](https://regulationsgov.github.io/developers/) |
 
 ### Health
 API | Description | Auth | HTTPS | CORS | Link |
@@ -448,7 +448,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Musixmatch | Music | `apiKey` | Yes | Unknown | [Go!](https://developer.musixmatch.com/) |
 | Songkick | Music Events | `OAuth` | Yes | Unknown | [Go!](https://www.songkick.com/developer/) |
 | Songsterr | Provides guitar, bass and drums tabs and chords | No | Yes | Unknown | [Go!](https://www.songsterr.com/a/wa/api/) |
-| Spotify | Fetch data from the Spotify music catalog, manage users' playlists and saved music, get recommendations, control Spotify Connect, and more | `OAuth` | Yes | Unknown | [Go!](https://beta.developer.spotify.com/documentation/web-api/) |
+| Spotify | View Spotify music catalog, manage users' libraries, get recommendations, and more | `OAuth` | Yes | Unknown | [Go!](https://beta.developer.spotify.com/documentation/web-api/) |
 | TasteDive | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown | [Go!](https://tastedive.com/read/api) |
 | TheAudioDB | Music | `apiKey` | No | Unknown | [Go!](http://www.theaudiodb.com) |
 | Vagalume | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown | [Go!](https://api.vagalume.com.br/docs/) |
@@ -647,7 +647,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Aylien Text Analysis | A collection of information retrieval and natural language APIs | `apiKey` | Yes | Unknown | [Go!](http://docs.aylien.com/) |
 | Detect Language | Detects text language | `apiKey` | Yes | Unknown | [Go!](https://detectlanguage.com/) |
-| Google Cloud Natural | Natural language understanding technologies to developers, including sentiment, entity, and syntax analysis | `apiKey` | Yes | Unknown | [Go!](https://cloud.google.com/natural-language/docs/) |
+| Google Cloud Natural | Natural language understanding technology, including sentiment, entity, and syntax analysis | `apiKey` | Yes | Unknown | [Go!](https://cloud.google.com/natural-language/docs/) |
 | Semantira | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown | [Go!](https://semantria.readme.io/docs) |
 | Watson Natural Language Understanding | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown | [Go!](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) |
 
