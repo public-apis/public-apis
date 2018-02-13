@@ -659,7 +659,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | ADS-B Exchange | Access real-time and historical data of any and all airbone aircraft | No | Yes | Unknown | [Go!](https://www.adsbexchange.com/data/) |
 | AIS Hub | Real-time data of any marine and inland vessel equipped with AIS tracking system | `apiKey` | No | Unknown | [Go!](http://www.aishub.net/api) |
-| AIS Web | The Brazilian a AISWEB is the official source of aeronautical information in digital media produced by the Department of Airspace Control (DECEA) | `apiKey` | No | Unknown | [Go!](http://www.aisweb.aer.mil.br/api/doc/index.cfm) |
+| AIS Web | Aeronautical information in digital media produced by the Department of Airspace Control (DECEA) | `apiKey` | No | Unknown | [Go!](http://www.aisweb.aer.mil.br/api/doc/index.cfm) |
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apiKey` | Yes | Unknown | [Go!](https://sandbox.amadeus.com/) |
 | Bay Area Rapid Transit | Stations and predicted arrivals for BART | `apiKey` | No | Unknown | [Go!](http://api.bart.gov) |
 | Community Transit | Transitland API | No | Yes | Unknown | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
