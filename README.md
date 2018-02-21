@@ -175,12 +175,12 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Currencylayer | Exchange rates and currency conversion | `apiKey` | Yes | Unknown | [Go!](https://currencylayer.com/documentation) |
 | Czech National Bank | A collection of exchange rates | No | Yes | Unknown | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
 | Fixer.io | Exchange rates and currency conversion | No | Yes | Unknown | [Go!](http://fixer.io) |
-| LabStack | Accurate and reliable live currency exchange rates for over 150 symbols | `apiKey` | Yes | Yes | [Go!](https://labstack.com/api/currency/convert) |
+| LabStack | Accurate and reliable live currency exchange rates for over 150 symbols | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/currency) |
 
 ### Data Validation
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| LabStack | Check email address for syntax error, disposable mail server and valid SMTP mailbox | `apiKey` | Yes | Yes | [Go!](https://labstack.com/api/email/verify) |
+| LabStack | Check email address for syntax error, disposable mail server and valid SMTP mailbox | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/email) |
 | languagelayer | Language detection | No | Yes | Unknown | [Go!](https://languagelayer.com) |
 | Lob.com | US Address Verification | `apiKey` | Yes | Unknown | [Go!](https://lob.com/) |
 | mailboxlayer | Email address validation | No | Yes | Unknown | [Go!](https://mailboxlayer.com) |
@@ -361,7 +361,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | IP Location | Find IP address location information | No | Yes | Unknown | [Go!](https://ipapi.co/) |
 | IP Sidekick | Geolocation API that returns extra information about an IP address | `apiKey` | Yes | Unknown | [Go!](https://ipsidekick.com) |
 | IP Vigilante | Free IP Geolocation API | No | Yes | Unknown | [Go!](https://www.ipvigilante.com/) |
-| LabStack | Find IP to location, location to latitude-longitude and reverse | `apiKey` | Yes | Yes | [Go!](https://labstack.com/api/geocode/address) |
+| LabStack | Find IP to location, location to latitude-longitude and reverse | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/geocode) |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown | [Go!](https://www.mapbox.com/developers/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | Unknown | [Go!](https://github.com/IcaliaLabs/sepomex) |
 | One Map, Singapore | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | Unknown | [Go!](https://docs.onemap.sg/) |
