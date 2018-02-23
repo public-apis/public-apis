@@ -309,6 +309,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Games & Comics
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
+| AmiiboAPI | Amiibo Information | No | No | Yes | [Go!](http://www.amiiboapi.com/) |
 | Battle.net | Blizzard Entertainment | `apiKey` | Yes | Unknown | [Go!](https://dev.battle.net/) |
 | Battlefield 4 | Battlefield 4 Information | No | Yes | Unknown | [Go!](https://bf4stats.com/api) |
 | Chuck Norris Database | Jokes | No | No | Unknown | [Go!](http://www.icndb.com/api/) |
