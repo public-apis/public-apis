@@ -115,7 +115,7 @@ API | Description | Auth | HTTPS | Link |
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
-| US, Czech, Slovak, Polish, French, Hungarian, Swedish, Austrian, Italian, Spanish, Croatian Namedays Calendar | Lookup for a date and returns nameday | No | Yes | [Go!](https://api.abalin.net/) |
+| Namedays Calendar | Returns nameday for US, CZ, SK, PL, FR, HU, SWE, AT, IT, ES, HR| No | Yes | [Go!](https://api.abalin.net/) |
 | Czech Namedays Calendar | Lookup for a name and returns nameday date | No | No | [Go!](http://svatky.adresa.info/) |
 | Google Calendar | Display, create and modify Google calendar events | `OAuth` | Yes | [Go!](https://developers.google.com/google-apps/calendar/) |
 | Holidays | Historical data regarding holidays | `apiKey` | Yes | [Go!](https://holidayapi.com/) |
