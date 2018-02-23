@@ -127,7 +127,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Hebrew Calendar | Convert between Gregarian and Hebrew, fetch Shabbat and Holiday times, etc | No | No | Unknown | [Go!](https://www.hebcal.com/home/developer-apis) |
 | Holidays | Historical data regarding holidays | `apiKey` | Yes | Unknown | [Go!](https://holidayapi.com/) |
 | LectServe | Protestant liturgical calendar | No | No | Unknown | [Go!](http://www.lectserve.com) |
-| Namedays Calendar | Returns nameday for US, CZ, SK, PL, FR, HU, SWE, AT, IT, ES, HR | No | Yes | Yes | [Go!](https://api.abalin.net/) |
+| Namedays Calendar | Provides namedays for multiple countries | No | Yes | Yes | [Go!](https://api.abalin.net/) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | Unknown | [Go!](https://github.com/gadael/icsdb) |
 
 ### Cloud Storage & File Sharing
