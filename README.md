@@ -119,16 +119,15 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Trello | Boards, lists, and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown | [Go!](https://developers.trello.com/) |
 
 ### Calendar
-API | Description | Auth | HTTPS | CORS | Link |
-|---|---|---|---|---|---|
-| Church Calendar | Catholic liturgical calendar | No | No | Unknown | [Go!](http://calapi.inadiutorium.cz/) |
-| Czech and Slovak Namedays Calendar | Lookup for a date and returns nameday | No | Yes | Unknown | [Go!](https://api.abalin.net/) |
-| Czech Namedays Calendar | Lookup for a name and returns nameday date | No | No | Unknown | [Go!](http://svatky.adresa.info/) |
-| Google Calendar | Display, create and modify Google calendar events | `OAuth` | Yes | Unknown | [Go!](https://developers.google.com/google-apps/calendar/) |
-| Hebrew Calendar | Convert between Gregarian and Hebrew, fetch Shabbat and Holiday times, etc | No | No | Unknown | [Go!](https://www.hebcal.com/home/developer-apis) |
-| Holidays | Historical data regarding holidays | `apiKey` | Yes | Unknown | [Go!](https://holidayapi.com/) |
-| LectServe | Protestant liturgical calendar | No | No | Unknown | [Go!](http://www.lectserve.com) |
-| Non-Working Days | Database of ICS files for non working days | No | Yes | Unknown | [Go!](https://github.com/gadael/icsdb) |
+API | Description | Auth | HTTPS | CORS |Link |
+|---|---|---|---|---|
+| Church Calendar | Catholic liturgical calendar | No | No | Unknown| [Go!](http://calapi.inadiutorium.cz/) |
+| Namedays Calendar | Returns nameday for US, CZ, SK, PL, FR, HU, SWE, AT, IT, ES, HR| No | Yes | Yes |[Go!](https://api.abalin.net/) |
+| Czech Namedays Calendar | Lookup for a name and returns nameday date | No | No | Unknown| [Go!](http://svatky.adresa.info/) |
+| Google Calendar | Display, create and modify Google calendar events | `OAuth` | Yes | Unknown| [Go!](https://developers.google.com/google-apps/calendar/) |
+| Holidays | Historical data regarding holidays | `apiKey` | Yes | Unknown| [Go!](https://holidayapi.com/) |
+| LectServe | Protestant liturgical calendar | No | No | Unknown| [Go!](http://www.lectserve.com) |
+| Non-Working Days | Database of ICS files for non working days | No | Yes | Unknown| [Go!](https://github.com/gadael/icsdb) |
 
 ### Cloud Storage & File Sharing
 API | Description | Auth | HTTPS | CORS | Link |
