@@ -335,6 +335,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | PlayerUnknown's Battlegrounds | PUBG Stats | `apiKey` | Yes | Unknown | [Go!](https://pubgtracker.com/site-api) |
 | Pokéapi | Pokémon Information | No | Yes | Unknown | [Go!](https://pokeapi.co) |
 | Pokémon TCG | Pokémon TCG Information | No | Yes | Unknown | [Go!](https://pokemontcg.io) |
+| Rick and Morty | All the Rick and Morty information, including images | No | Yes | Yes | [Go!](https://rickandmortyapi.com) |
 | Qriusity | Quiz/Trivia Questions | No | Yes | Unknown | [Go!](https://qriusity.com/) |
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | Unknown | [Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client Interaction | `OAuth` | Yes | Unknown | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
