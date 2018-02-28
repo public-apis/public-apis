@@ -579,7 +579,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Best Buy | Products, Buying Options, Categories, Recommendations, Stores, and Commerce | `apiKey` | Yes | Unknown | [Go!](https://bestbuyapis.github.io/api-documentation/#overview) |
 | eBay | Sell and Buy on eBay | `OAuth` | Yes | Unknown | [Go!](https://go.developer.ebay.com/) |
 | Wal-Mart | Item price and availability | `apiKey` | Yes | Unknown | [Go!](https://developer.walmartlabs.com/docs) |
-| Wegmans | Wegmans Food Markets | `apiKey` | Unknown | Unknown | [Go!](https://dev.wegmans.io)
+| Wegmans | Wegmans Food Markets | `apiKey` | Unknown | Unknown | [Go!](https://dev.wegmans.io) |
 
 ### Social
 API | Description | Auth | HTTPS | CORS | Link |
