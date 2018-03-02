@@ -280,7 +280,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Food & Drink
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| BigOven | Recipe Search | `X-Mashape-Key` | No | Unknown | [Go!](http://api2.bigoven.com/) |
 | BreweryDB | Beer | `apiKey` | No | Unknown | [Go!](http://www.brewerydb.com/developers) |
 | Edamam | Recipe Search | `apiKey` | Yes | Unknown | [Go!](https://developer.edamam.com/) |
 | Food2Fork | Recipe Search | `apiKey` | No | Unknown | [Go!](http://food2fork.com/about/api) |
