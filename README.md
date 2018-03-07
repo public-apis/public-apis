@@ -194,6 +194,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | ApiLeap | Make screenshots from web pages and HTML | `apiKey` | Yes | Unknown | [Go!](https://apileap.com/) |
+| Apility.io | IP, Domains and Emails anti-abuse API blocklist | No | Yes | Yes | [Go!](https://apility.io/apidocs/) |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown | [Go!](https://apis.guru/api-doc/) |
 | BetterMeta | Return a site's meta tags in JSON format | `X-Mashape-Key` | Yes | Unknown | [Go!](http://bettermeta.io) |
 | Bitbucket | Pull public information for a Bitbucket account | No | Yes | Unknown | [Go!](https://api.bitbucket.org/2.0/users/karllhughes) |
