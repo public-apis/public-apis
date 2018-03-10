@@ -100,7 +100,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Books
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| Bhagavad Gita | The Bhagavad Gita API allows a web or mobile developer to use the Bhagavad Gita text in their web or mobile application(s) | `OAuth` | Yes | Yes | [Go!](https://bhagavadgita.io/api) |
+| Bhagavad Gita | Bhagavad Gita text for your web or mobile application(s) | `OAuth` | Yes | Yes | [Go!](https://bhagavadgita.io/api) |
 | BookNomads | Books published in the Netherlands and Flanders (about 2.5 million), book covers, and related data | No | Yes | Unknown | [Go!](https://www.booknomads.com/dev) |
 | British National Bibliography | Books | No | No | Unknown | [Go!](http://bnb.data.bl.uk/) |
 | Goodreads | Books | `apiKey` | Yes | Unknown | [Go!](https://www.goodreads.com/api) |
