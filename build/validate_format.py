@@ -18,6 +18,9 @@ index_cors = 4
 index_link = 5
 
 errors = []
+title_links = []
+anchor_re = re.compile('###\s(.+)')
+section_title_re = re.compile('\*\s\[(.*)\]')
 
 
 def add_error(line_num, message):
@@ -107,11 +110,16 @@ def check_format(filename):
     num_in_category = min_entries_per_section + 1
     category = ""
     category_line = 0
-    anchor_re = re.compile('###\s\S+')
     for line_num, line in enumerate(lines):
+        if section_title_re.match(line):
+            title_links.append(section_title_re.match(line).group(1))
         # check each section for the minimum number of entries
         if line.startswith(anchor):
-            if not anchor_re.match(line):
+            match = anchor_re.match(line)
+            if match:
+                if match.group(1) not in title_links:
+                    add_error(line_num, "section header ({}) not added as a title link".format(match.group(1)))
+            else:
                 add_error(line_num, "section header is not formatted correctly")
             if num_in_category < min_entries_per_section:
                 add_error(category_line, "{} section does not have the minimum {} entries (only has {})".format(
