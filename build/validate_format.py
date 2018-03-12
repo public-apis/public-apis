@@ -19,7 +19,7 @@ index_link = 5
 
 errors = []
 title_links = []
-anchor_re = re.compile('###\s(.+)')
+anchor_re = re.compile(anchor + '\s(.+)')
 section_title_re = re.compile('\*\s\[(.*)\]')
 
 
@@ -128,6 +128,7 @@ def check_format(filename):
             category_line = line_num
             num_in_category = 0
             continue
+        # skips lines that we do not care about
         if not line.startswith('|') or line.startswith('|---'):
             continue
         num_in_category += 1
@@ -144,11 +145,9 @@ def check_format(filename):
 
 
 def main():
-    num_args = len(sys.argv)
-    if num_args < 2:
+    if len(sys.argv) < 2:
         print("No file passed (file should contain Markdown table syntax)")
         sys.exit(1)
-
     check_format(sys.argv[1])
     if len(errors) > 0:
         for err in errors:
