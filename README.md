@@ -167,6 +167,9 @@ API | Description | Auth | HTTPS | CORS | Link |
 | MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | Unknown | [Go!](https://www.mercadobitcoin.net/api-doc/) |
 | Nexchange | Automated cryptocurrency exchange service | No | No | Yes | [Go!](https://nexchange2.docs.apiary.io/) |
 | Poloniex | US based digital asset exchange | `apiKey` | Yes | Unknown | [Go!](https://poloniex.com/support/api/) |
+| Koinex | Indian Cryptocurrency exchange | No | Yes | Yes | [Go!](https://koinex.in/api/ticker) |
+| BitBNS | Indian Cryptocurrency exchange | No | Yes | No | [Go!](https://bitbns.com/order/getTickerAll) |
+| Zebpay | Indian Cryptocurrency exchange/wallet | No | Yes | No | [Go!](https://support.zebpay.com/hc/en-us/articles/115004228609-Zebpay-APIs) |
 
 ### Currency Exchange
 API | Description | Auth | HTTPS | CORS | Link |
@@ -248,6 +251,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Todoist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.todoist.com) |
 | Vector Express | Free vector file converting API | No | No | Yes | [Go!](http://vector.express) |
 | Wunderlist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.wunderlist.com/documentation) |
+| Send Anywhere | Free file sharing service with timer | `apiKey` | Yes | Unknown | [Go!](https://send-anywhere.com/api) |
+
 
 ### Environment
 API | Description | Auth | HTTPS | CORS | Link |
@@ -465,6 +470,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | News | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | Unknown | [Go!](https://newsapi.org/) |
 | NPR One | Personalized news listening experience from NPR | `OAuth` | Yes | Unknown | [Go!](http://dev.npr.org/api/) |
 | The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | Unknown | [Go!](http://open-platform.theguardian.com/) |
+| Newsapi | Get queried News articles as JSON | `apiKey` | Yes | Yes | [Go!](https://newsapi.org/) |
+
 
 ### Open Data
 API | Description | Auth | HTTPS | CORS | Link |
@@ -521,7 +528,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Personality
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| chucknorris.io | JSON API for hand curated Chuck Norris jokes | No | Yes | Unknown | [Go!](https://api.chucknorris.io) |
+| chucknorris.io | JSON API for hand curated Chuck Norris jokes | No | Yes | Unknown | [Go!](https://api.chucknorris.io) |	
 | FavQs.com | FavQs allows you to collect, discover, and share your favorite quotes | `apiKey` | Yes | Unknown | [Go!](https://favqs.com/api) |
 | Forismatic | Inspirational Quotes | No | No | Unknown | [Go!](http://forismatic.com/en/api/) |
 | icanhazdadjoke | The largest selection of dad jokes on the internet | No | Yes | Unknown | [Go!](https://icanhazdadjoke.com/api) |
@@ -545,6 +552,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | PlaceKitten | Resizable kitten placeholder images | No | Yes | Unknown | [Go!](https://placekitten.com/) |
 | ScreenShotLayer | URL 2 Image | No | Yes | Unknown | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | `OAuth` | Yes | Unknown | [Go!](https://unsplash.com/developers) |
+| Pixabay | Stock Images | `apiKey` | Yes | Yes | [Go!](https://pixabay.com/api/docs/s) |
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS | Link |
@@ -758,3 +766,4 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Weatherbit | Weather | `apiKey` | Yes | Unknown | [Go!](https://www.weatherbit.io/api) |
 | Wunderground | Weather | `apiKey` | Yes | Unknown | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | Unknown | [Go!](https://developer.yahoo.com/weather/) |
+	
