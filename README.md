@@ -596,6 +596,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Full Contact | Get Social Media profiles and contact Information | `OAuth` | Yes | Unknown | [Go!](https://www.fullcontact.com/developer/docs/) |
 | HackerNews | Social news for CS and entrepreneurship | No | Yes | Unknown | [Go!](https://github.com/HackerNews/API) |
 | Instagram | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | Unknown | [Go!](https://www.instagram.com/developer/) |
+| Instagram Proxy API | Instagram's public data as an API | No | Yes | Yes | [Go!](https://github.com/whizzzkid/instagram-proxy-api) |
 | LinkedIn | The foundation of all digital integrations with LinkedIn | `OAuth` | Yes | Unknown | [Go!](https://developer.linkedin.com/docs/rest-api) |
 | Meetup.com | Data about Meetups from Meetup.com | `apiKey` | Yes | Unknown | [Go!](https://www.meetup.com/meetup_api/) |
 | Pinterest | The world's catalog of ideas | `OAuth` | Yes | Unknown | [Go!](https://developers.pinterest.com/) |
