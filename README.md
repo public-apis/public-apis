@@ -471,7 +471,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | News | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | Unknown | [Go!](https://newsapi.org/) |
 | NPR One | Personalized news listening experience from NPR | `OAuth` | Yes | Unknown | [Go!](http://dev.npr.org/api/) |
 | The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | Unknown | [Go!](http://open-platform.theguardian.com/) |
-| Newsapi | Get queried News articles as JSON | `apiKey` | Yes | Yes | [Go!](https://newsapi.org/) |
+
 
 
 ### Open Data
@@ -553,7 +553,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | PlaceKitten | Resizable kitten placeholder images | No | Yes | Unknown | [Go!](https://placekitten.com/) |
 | ScreenShotLayer | URL 2 Image | No | Yes | Unknown | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | `OAuth` | Yes | Unknown | [Go!](https://unsplash.com/developers) |
-| Pixabay | Stock Images | `apiKey` | Yes | Yes | [Go!](https://pixabay.com/api/docs/s) |
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS | Link |
