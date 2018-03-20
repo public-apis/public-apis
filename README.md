@@ -662,6 +662,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Google Cloud Natural | Natural language understanding technology, including sentiment, entity, and syntax analysis | `apiKey` | Yes | Unknown | [Go!](https://cloud.google.com/natural-language/docs/) |
 | Semantira | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown | [Go!](https://semantria.readme.io/docs) |
 | Watson Natural Language Understanding | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown | [Go!](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) |
+| Yandex Translate | Translate languages easily with Yandex | `apiKey` | Yes | No | [Go!](https://tech.yandex.com/translate/doc/dg/concepts/api-overview-docpage/) |
+
 
 ### Tracking
 API | Description | Auth | HTTPS | CORS | Link |
