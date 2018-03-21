@@ -254,8 +254,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Vector Express | Free vector file converting API | No | No | Yes | [Go!](http://vector.express) |
 | Wunderlist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.wunderlist.com/documentation) |
 
-
-
 ### Environment
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
@@ -664,7 +662,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Semantira | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown | [Go!](https://semantria.readme.io/docs) |
 | Watson Natural Language Understanding | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown | [Go!](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) |
 | Yandex Translate | Translate languages easily with Yandex | `apiKey` | Yes | No | [Go!](https://tech.yandex.com/translate/doc/dg/concepts/api-overview-docpage/) |
-
 
 ### Tracking
 API | Description | Auth | HTTPS | CORS | Link |
