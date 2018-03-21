@@ -190,6 +190,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | numverify | Phone number validation | No | Yes | Unknown | [Go!](https://numverify.com) |
 | PurgoMalum | Content validator against profanity & obscenity | No | No | Unknown | [Go!](http://www.purgomalum.com) |
 | vatlayer | VAT number validation | No | Yes | Unknown | [Go!](https://vatlayer.com) |
+| Whitepages Pro | Validate, normalize, parse, geocode addresses internationally and in US | `apiKey` | Yes | Yes | [Go!](https://pro.whitepages.com/developer/documentation/address-validation-api) |
 
 ### Development
 API | Description | Auth | HTTPS | CORS | Link |
