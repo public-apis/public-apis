@@ -68,8 +68,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | RescueGroups | Adoption | No | Yes | Unknown | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
 | RandomCat | Random pictures of cats | No | Yes | Unknown | [Go!](https://aws.random.cat/meow) |
 | RandomDog | Random pictures of dogs | No | Yes | Unknown | [Go!](https://random.dog/woof.json) |
-| The Cat API | Pictures of cats from Tumblr | No | Yes | Unknown | [Go!](https://thecatapi.com/docs.html) |
 | RandomFox | Random pictures of foxes | No | Yes | Unknown | [Go!](https://randomfox.ca/floof/) |
+| The Cat API | Pictures of cats from Tumblr | No | Yes | Unknown | [Go!](https://thecatapi.com/docs.html) |
 
 ### Anime
 API | Description | Auth | HTTPS | CORS | Link |
