@@ -69,6 +69,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | RandomCat | Random pictures of cats | No | Yes | Unknown | [Go!](https://aws.random.cat/meow) |
 | RandomDog | Random pictures of dogs | No | Yes | Unknown | [Go!](https://random.dog/woof.json) |
 | RandomFox | Random pictures of foxes | No | Yes | Unknown | [Go!](https://randomfox.ca/floof/) |
+| Shibe.Online | Random pictures of Shibu Inu, cats or birds | No | No | Unknown | [Go!](http://shibe.online/) |
 | The Cat API | Pictures of cats from Tumblr | No | Yes | Unknown | [Go!](https://thecatapi.com/docs.html) |
 
 ### Anime
