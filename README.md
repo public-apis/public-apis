@@ -66,6 +66,10 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Movebank | Movement and Migration data of animals | No | Yes | Unknown | [Go!](https://github.com/movebank/movebank-api-doc) |
 | Petfinder | Adoption | `apiKey` | Yes | Unknown | [Go!](https://www.petfinder.com/developers/api-docs/) |
 | RescueGroups | Adoption | No | Yes | Unknown | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
+| RandomCat | Random pictures of cats | No | Yes | Unknown | [Go!](https://aws.random.cat/meow) |
+| RandomDog | Random pictures of dogs | No | Yes | Unknown | [Go!](https://random.dog/woof.json) |
+| The Cat API | Pictures of cats from Tumblr | No | Yes | Unknown | [Go!](https://thecatapi.com/docs.html) |
+| RandomFox | Random pictures of foxes | No | Yes | Unknown | [Go!](https://randomfox.ca/floof/) |
 
 ### Anime
 API | Description | Auth | HTTPS | CORS | Link |
