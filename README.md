@@ -341,7 +341,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | Unknown | [Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client Interaction | `OAuth` | Yes | Unknown | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | xkcd | Retrieve xkcd comics as JSON | No | Yes | Unknown | [Go!](https://xkcd.com/json.html) |
-| Wargaming.net | Get access to Wargaming.net content, including in-game and game-related content, as well as player statistics. | apiKey | Yes | No | [Go!](https://developers.wargaming.net/) |
+| Wargaming.net | Wargaming.net info and stats | apiKey | Yes | No | [Go!](https://developers.wargaming.net/) |
 
 ### Geocoding
 API | Description | Auth | HTTPS | CORS | Link |
