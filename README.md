@@ -66,9 +66,9 @@ API | Description | Auth | HTTPS | CORS | Link |
 | IUCN | IUCN Red List of Threatened Species | `apiKey` | No | Unknown | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
 | Movebank | Movement and Migration data of animals | No | Yes | Unknown | [Go!](https://github.com/movebank/movebank-api-doc) |
 | Petfinder | Adoption | `apiKey` | Yes | Unknown | [Go!](https://www.petfinder.com/developers/api-docs/) |
-| RandomCat | Random pictures of cats | No | Yes | Unknown | [Go!](https://aws.random.cat/meow) |
-| RandomDog | Random pictures of dogs | No | Yes | Unknown | [Go!](https://random.dog/woof.json) |
-| RandomFox | Random pictures of foxes | No | Yes | Unknown | [Go!](https://randomfox.ca/floof/) |
+| RandomCat | Random pictures of cats | No | Yes | Yes | [Go!](https://aws.random.cat/meow) |
+| RandomDog | Random pictures of dogs | No | Yes | Yes | [Go!](https://random.dog/woof.json) |
+| RandomFox | Random pictures of foxes | No | Yes | Yes | [Go!](https://randomfox.ca/floof/) |
 | RescueGroups | Adoption | No | Yes | Unknown | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
 | Shibe.Online | Random pictures of Shibu Inu, cats or birds | No | No | Unknown | [Go!](http://shibe.online/) |
 
