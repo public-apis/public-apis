@@ -30,10 +30,12 @@ Please note a passing build status indicates all listed APIs are available since
 * [Finance](#finance)
 * [Food & Drink](#food--drink)
 * [Fraud Prevention](#fraud-prevention)
+* [Fun](#fun)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
 * [Government](#government)
 * [Health](#health)
+* [Information](#Information)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Math](#math)
@@ -300,6 +302,13 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Whitepages Pro | Phone number validation, line_type, carrier append | `apiKey` | Yes | Unknown | [Go!](https://pro.whitepages.com/developer/documentation/phone-intelligence-api/) |
 | Whitepages Pro | Get normalized physical address, residents, address type, and validity | `apiKey` | Yes | Unknown | [Go!](https://pro.whitepages.com/developer/documentation/reverse-address-api/) |
 
+
+### Fun
+API | Description | Auth | HTTPS | CORS | Link |
+|---|---|---|---|---|---|
+| Sebisauce | Based on Sebi, a discord user | `apiKey` | No | Unknown | [Go!](http://ikbengeslaagd.com/API/sebisauce.json) |
+
+
 ### Games & Comics
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
@@ -394,6 +403,13 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` | Yes | Unknown | [Go!](https://developer.nutritionix.com/) |
 | openFDA | Public FDA data about drugs, devices, and foods | No | Yes | Unknown | [Go!](https://open.fda.gov/api/) |
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | Yes | Unknown | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
+
+
+### Information
+API | Description | Auth | HTTPS | CORS | Link |
+|---|---|---|---|---|---|
+| Phobia | Based on all sorts of phobias | `apiKey` | No | Unknown | [Go!](http://ikbengeslaagd.com/API/phobia.json) |
+
 
 ### Jobs
 API | Description | Auth | HTTPS | CORS | Link |

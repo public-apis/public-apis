@@ -1,6 +1,24 @@
 {
-    "count": 498,
+    "count": 500,
     "entries": [
+        {
+            "API": "Sebisauce",
+            "Description": "Based on Sebi, a discord user",
+            "Auth": null,
+            "HTTPS": false,
+            "CORS": "Unknown",
+            "Link": "http://ikbengeslaagd.com/API/sebisauce.json",
+            "Category": "Random"
+        },
+        {
+            "API": "Phobia",
+            "Description": "Based on all sorts of phobias",
+            "Auth": null,
+            "HTTPS": false,
+            "CORS": "Unknown",
+            "Link": "http://ikbengeslaagd.com/API/phobia.json",
+            "Category": "Information"
+        },
         {
             "API": "Dogs",
             "Description": "Based on the Stanford Dogs Dataset",
