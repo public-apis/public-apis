@@ -34,6 +34,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Geocoding](#geocoding)
 * [Government](#government)
 * [Health](#health)
+* [Internet Archive](#internet-archive)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Music](#music)
@@ -406,6 +407,11 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` | Yes | Unknown | [Go!](https://developer.nutritionix.com/) |
 | openFDA | Public FDA data about drugs, devices, and foods | No | Yes | Unknown | [Go!](https://open.fda.gov/api/) |
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | Yes | Unknown | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
+
+### Internet Archive
+API | Description | Auth | HTTPS | CORS | Link |
+|---|---|---|---|---|---|
+| Archive.org | The Internet Archive | No | Yes | Unknown | [Go!](https://archive.readme.io/docs) |
 
 ### Jobs
 API | Description | Auth | HTTPS | CORS | Link |
