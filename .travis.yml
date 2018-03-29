@@ -1,11 +1,14 @@
-language: node_js
+language: python
+python: "3.6"
 notifications:
   email: true
-before_install:
-  - rvm install 2.4.0
 install:
-  - gem install httparty ruby-progressbar
+  - pip install -r build/requirements.txt
 before_script:
+  # stop the build if there are Python syntax errors or undefined names
+  - flake8 . --count --select=E901,E999,F821,F822,F823 --show-source --statistics
+  # exit-zero treats all errors as warnings.  The GitHub editor is 127 chars wide
+  - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
   - cd build
 script:
   - ./main.sh
