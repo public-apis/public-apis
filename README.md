@@ -392,10 +392,23 @@ API | Description | Auth | HTTPS | CORS | Link |
 | BCLaws | Access to the laws of British Columbia | No | No | Unknown | [Go!](http://www.bclaws.ca/civix/template/complete/api/index.html) |
 | BusinessUSA | Authoritative information on U.S. programs, events, services and more | `apiKey` | Yes | Unknown | [Go!](https://business.usa.gov/developer) |
 | Census.gov | The US Census Bureau provides various APIs and data sets on demographics and businesses | No | Yes | Unknown | [Go!](https://www.census.gov/data/developers/data-sets.html) |
+| Colorado Data Engine | Formatted and geolocated Colorado public data | No | Yes | Unknown | [Go!](http://codataengine.org/) |
+| Colorado Information Marketplace | Colorado State Government Open Data | No | Yes | Unknown | [Go!](https://data.colorado.gov/) |
+| Data USA | US Public Data | No | Yes | Unknown | [Go!](https://datausa.io/about/api/) |
 | EPA | Web services and data sets from the US Environmental Protection Agency | No | Yes | Unknown | [Go!](https://developer.epa.gov/category/api/) |
 | FEC | Information on campaign donations in federal elections | `apiKey` | Yes | Unknown | [Go!](https://api.open.fec.gov/developers/) |
+| Federal Register | The Daily Journal of the United States Government | No | Yes | Unknown | [Go!](https://www.federalregister.gov/reader-aids/developer-resources) |
 | Food Standards Agency | UK food hygiene rating data API | No | No | Unknown | [Go!](http://ratings.food.gov.uk/open-data/en-GB) |
+| Open Government, Australia | Australian Government Open Data | No | Yes | Unknown | [Go!](https://www.data.gov.au/) |
+| Open Government, Canada | Canadian Government Open Data | No | No | Unknown | [Go!](http://open.canada.ca/en) |
+| Open Government, France | French Government Open Data | `apiKey` | Yes | Unknown | [Go!](https://www.data.gouv.fr/) |
+| Open Government, India | Indian Government Open Data | `apiKey` | Yes | Unknown | [Go!](https://data.gov.in/) |
+| Open Government, New Zealand | New Zealand Government Open Data | No | Yes | Unknown | [Go!](https://www.data.govt.nz/) |
+| Open Government, Taiwan | Taiwan Government Open Data | No | Yes | Unknown | [Go!](https://data.gov.tw/) |
+| Open Government, USA | United States Government Open Data | No | Yes | Unknown | [Go!](https://www.data.gov/) |
+| Prague Opendata | Prague City Open Data | No | No | Unknown | [Go!](http://opendata.praha.eu/en) |
 | Regulations.gov | Federal regulatory materialsto increase understanding of the Federal rule making process | `apiKey` | Yes | Unknown | [Go!](https://regulationsgov.github.io/developers/) |
+| Represent by Open North | Find Canadian Government Representatives | No | Yes | Unknown | [Go!](https://represent.opennorth.ca/) |
 
 ### Health
 API | Description | Auth | HTTPS | CORS | Link |
@@ -497,21 +510,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Wikidata | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | Unknown | [Go!](https://www.wikidata.org/w/api.php?action=help) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | Unknown | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Yelp | Find Local Business | `OAuth` | Yes | Unknown | [Go!](https://www.yelp.com/developers/documentation/v3) |
-
-### Open Data (Government)
-| Colorado Data Engine | Formatted and geolocated Colorado public data | No | Yes | Unknown | [Go!](http://codataengine.org/) |
-| Colorado Information Marketplace | Colorado State Government Open Data | No | Yes | Unknown | [Go!](https://data.colorado.gov/) |
-| Data USA | US Public Data | No | Yes | Unknown | [Go!](https://datausa.io/about/api/) |
-| Federal Register | The Daily Journal of the United States Government | No | Yes | Unknown | [Go!](https://www.federalregister.gov/reader-aids/developer-resources) |
-| Open Government, Australia | Australian Government Open Data | No | Yes | Unknown | [Go!](https://www.data.gov.au/) |
-| Open Government, Canada | Canadian Government Open Data | No | No | Unknown | [Go!](http://open.canada.ca/en) |
-| Open Government, France | French Government Open Data | `apiKey` | Yes | Unknown | [Go!](https://www.data.gouv.fr/) |
-| Open Government, India | Indian Government Open Data | `apiKey` | Yes | Unknown | [Go!](https://data.gov.in/) |
-| Open Government, New Zealand | New Zealand Government Open Data | No | Yes | Unknown | [Go!](https://www.data.govt.nz/) |
-| Open Government, Taiwan | Taiwan Government Open Data | No | Yes | Unknown | [Go!](https://data.gov.tw/) |
-| Open Government, USA | United States Government Open Data | No | Yes | Unknown | [Go!](https://www.data.gov/) |
-| Prague Opendata | Prague City Open Data | No | No | Unknown | [Go!](http://opendata.praha.eu/en) |
-| Represent by Open North | Find Canadian Government Representatives | No | Yes | Unknown | [Go!](https://represent.opennorth.ca/) |
 
 ### Open Source Projects
 API | Description | Auth | HTTPS | CORS | Link |
