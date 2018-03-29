@@ -34,7 +34,6 @@ Please note a passing build status indicates all listed APIs are available since
 * [Geocoding](#geocoding)
 * [Government](#government)
 * [Health](#health)
-* [Internet Archive](#internet-archive)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Music](#music)
@@ -426,11 +425,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | openFDA | Public FDA data about drugs, devices, and foods | No | Yes | Unknown | [Go!](https://open.fda.gov/api/) |
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | Yes | Unknown | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
 
-### Internet Archive
-API | Description | Auth | HTTPS | CORS | Link |
-|---|---|---|---|---|---|
-| Archive.org | The Internet Archive | No | Yes | Unknown | [Go!](https://archive.readme.io/docs) |
-
 ### Jobs
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
@@ -497,6 +491,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | 18F | Unofficial US Federal Government API Development | No | No | Unknown | [Go!](http://18f.github.io/API-All-the-X/) |
 | Abbreviation | Get abbreviations and meanings | `X-Mashape-Key` | Yes | Unknown | [Go!](https://market.mashape.com/daxeel/abbreviations) |
+| Archive.org | The Internet Archive | No | Yes | Unknown | [Go!](https://archive.readme.io/docs) |
 | Callook.info | United States ham radio callsigns | No | Yes | Unknown | [Go!](https://callook.info) |
 | CARTO | Location Information Prediction | `apiKey` | Yes | Unknown | [Go!](https://carto.com/) |
 | Celebinfo | Celebrity information | `X-Mashape-Key` | Yes | Unknown | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
