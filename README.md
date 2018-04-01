@@ -296,8 +296,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Recipe Puppy | Food | No | No | Unknown | [Go!](http://www.recipepuppy.com/about/api/) |
 | TacoFancy | Community-driven taco database | No | No | Unknown | [Go!](https://github.com/evz/tacofancy-api) |
 | The Report of the Week | Food & Drink Reviews | No | Yes | Unknown | [Go!](https://github.com/andyklimczak/TheReportOfTheWeek-API) |
-| TheCocktailDB | Cocktail Recipes | `apiKey` | No | Unknown | [Go!](http://www.thecocktaildb.com/) |
-| TheMealDB | Meal Recipes | `apiKey` | No | Unknown | [Go!](http://www.themealdb.com/) |
+| TheCocktailDB | Cocktail Recipes | `apiKey` | Yes | Yes | [Go!](https://www.thecocktaildb.com/api.php) |
+| TheMealDB | Meal Recipes | `apiKey` | Yes | Yes | [Go!](https://www.themealdb.com/api.php) |
 | What's on the menu? | NYPL human-transcribed historical menu collection | `apiKey` | No | Unknown | [Go!](http://nypl.github.io/menus-api/) |
 | Yummly | Find food recipes | `apiKey` | Yes | Unknown | [Go!](https://developer.yummly.com/) |
 | Zomato | Discover restaurants | `apiKey` | Yes | Unknown | [Go!](https://developers.zomato.com/api) |
@@ -634,7 +634,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Pro Motocross | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | Unknown | [Go!](http://promotocrossapi.com) |
 | Strava | Connect with athletes, activities and more | `OAuth` | Yes | Unknown | [Go!](https://strava.github.io/api/) |
 | SuredBits | Query sports data, including teams, players, games, scores, and statistics | No | No | Unknown | [Go!](https://suredbits.com/api/) |
-| TheSportsDB | Crowd-Sourced Sports Data and Artwork | `apiKey` | No | Unknown | [Go!](http://www.thesportsdb.com) |
+| TheSportsDB | Crowd-Sourced Sports Data and Artwork | `apiKey` | Yes | Yes | [Go!](https://www.thesportsdb.com/api.php) |
 | UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | Unknown | [Go!](http://ufc-data-api.ufc.com/) |
 | Wger | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown | [Go!](https://wger.de/en/software/api) |
 
