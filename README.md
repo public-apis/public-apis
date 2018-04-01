@@ -212,8 +212,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | DomainDb Info | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown | [Go!](https://domainsdb.info/apidomainsdb/index.php) |
 | Faceplusplus | A tool to detect face | `OAuth` | Yes | Unknown | [Go!](https://www.faceplusplus.com/) |
 | Genderize.io | Determines a gender from a first name | No | Yes | Unknown | [Go!](https://genderize.io) |
-| Github | GitHub REST API v3 | `OAuth` | Yes | Unknown | [Go!](https://developer.github.com/v3/) |
-| Gitlab | Automate GitLab via a simple and powerful API | `OAuth` | Yes | Unknown | [Go!](https://docs.gitlab.com/ee/api/) |
+| Github | Make use of GitHub repositories, code and user info programmatically | `OAuth` | Yes | Yes | [Go!](https://developer.github.com/v3/) |
+| Gitlab | Automate GitLab interaction programmatically | `OAuth` | Yes | Unknown | [Go!](https://docs.gitlab.com/ee/api/) |
 | Gitter | Chat for GitHub | `OAuth` | Yes | Unknown | [Go!](https://github.com/gitterHQ/docs) |
 | HTTP2.Pro | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown | [Go!](https://http2.pro/doc/api) |
 | import.io | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | Unknown | [Go!](http://api.docs.import.io/) |
