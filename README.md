@@ -366,6 +366,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Google Maps | Create/customize digital maps based on Google Maps data | `apiKey` | Yes | Unknown | [Go!](https://developers.google.com/maps/) |
 | GraphLoc | Free GraphQL IP Geolocation API | No | Yes | Unknown | [Go!](https://www.graphloc.com) |
 | HelloSalut | Get hello translation following user language | No | Yes | Unknown | [Go!](https://www.fourtonfish.com/hellosalut/hello/) |
+| HERE Maps | Create/customize digital maps based on HERE Maps data | `apiKey` | Yes | Unknown | [Go!](https://developer.here.com) |
 | IP 2 Country | Map an IP to a country | No | Yes | Unknown | [Go!](https://ip2country.info) |
 | IP Address Details | Find geolocation with ip address | No | Yes | Unknown | [Go!](https://ipinfo.io/) |
 | IP Location | Find IP address location information | No | Yes | Unknown | [Go!](https://ipapi.co/) |
