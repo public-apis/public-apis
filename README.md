@@ -249,7 +249,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | File.io | File Sharing | No | Yes | Unknown | [Go!](https://www.file.io) |
 | Mercury | Web parser | `apiKey` | Yes | Unknown | [Go!](https://mercury.postlight.com/web-parser/) |
-| pdflayer | HTML/URL to PDF | No | Yes | Unknown | [Go!](https://pdflayer.com) |
+| pdflayer | HTML/URL to PDF | `apiKey` | Yes | Unknown | [Go!](https://pdflayer.com) |
 | Pocket | Bookmarking service | `OAuth` | Yes | Unknown | [Go!](https://getpocket.com/developer/) |
 | PrexView | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | Unknown | [Go!](https://prexview.com) |
 | Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | Unknown | [Go!](https://restpack.io/) |
