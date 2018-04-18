@@ -748,6 +748,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | An API of Ice And Fire | Game Of Thrones API | No | Yes | Unknown | [Go!](https://anapioficeandfire.com/) |
 | Czech Television | TV programme of Czech TV | No | No | Unknown | [Go!](http://www.ceskatelevize.cz/xml/tv-program/) |
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | Unknown | [Go!](https://developer.dailymotion.com/) |
+| The Open Movie Database | Movie API | `apiKey` | Yes | Unknown | [Go!](http://www.omdbapi.com/) |
 | Ron Swanson Quotes | Television | No | Yes | Unknown | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
 | SWAPI | Star Wars Information | No | Yes | Unknown | [Go!](https://swapi.co) |
 | TMDb | Community-based movie data | `apiKey` | Yes | Unknown | [Go!](https://www.themoviedb.org/documentation/api) |
