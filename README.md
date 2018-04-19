@@ -500,6 +500,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Celebinfo | Celebrity information | `X-Mashape-Key` | Yes | Unknown | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Datakick | The open product database | `apiKey` | Yes | Unknown | [Go!](https://www.datakick.org/api) |
 | Dronestream | Tracks United States drone strikes | No | Yes | Unknown | [Go!](https://dronestre.am/) |
+| Enigma Public | Broadest collection of public data | Yes | Yes | Yes | [Go!](http://docs.enigma.com/public/public_v20_api_about.html) |
 | fonoApi | Mobile Device Description | No | Yes | Unknown | [Go!](https://fonoapi.freshpixl.com/) |
 | French Address Search | Address search via the French Government | No | Yes | Unknown | [Go!](https://adresse.data.gouv.fr/api) |
 | INQStats | Open demographic data such as population, life expectancy, migration rate, etc | `apiKey` | No | Unknown | [Go!](http://blog.inqubu.com/inqstats-open-api-published-to-get-demographic-data) |
@@ -514,7 +515,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Wikidata | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | Unknown | [Go!](https://www.wikidata.org/w/api.php?action=help) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | Unknown | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Yelp | Find Local Business | `OAuth` | Yes | Unknown | [Go!](https://www.yelp.com/developers/documentation/v3) |
-| Enigma Public | Broadest collection of public data | Yes | Yes | Yes | [Go!](http://docs.enigma.com/public/public_v20_api_about.html) |
 
 ### Open Source Projects
 API | Description | Auth | HTTPS | CORS | Link |
