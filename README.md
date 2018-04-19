@@ -514,6 +514,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Wikidata | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | Unknown | [Go!](https://www.wikidata.org/w/api.php?action=help) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | Unknown | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
 | Yelp | Find Local Business | `OAuth` | Yes | Unknown | [Go!](https://www.yelp.com/developers/documentation/v3) |
+| Enigma Public | Broadest collection of public data | Yes | Yes | Yes | [Go!](http://docs.enigma.com/public/public_v20_api_about.html) |
 
 ### Open Source Projects
 API | Description | Auth | HTTPS | CORS | Link |
