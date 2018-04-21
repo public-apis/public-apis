@@ -16,6 +16,7 @@ index_auth = 2
 index_https = 3
 index_cors = 4
 index_link = 5
+num_segments = 6
 
 errors = []
 title_links = []
@@ -133,6 +134,10 @@ def check_format(filename):
             continue
         num_in_category += 1
         segments = line.split('|')[1:-1]
+        if len(segments) < num_segments:
+            add_error(line_num, "entry does not have all the required sections (have {}, need {})".format(
+                len(segments), num_segments))
+            continue
         # START Global
         for segment in segments:
             # every line segment should start and end with exactly 1 space
