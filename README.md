@@ -105,7 +105,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Books
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| Bhagavad Gita | Bhagavad Gita text | `OAuth` | Yes | Yes | [Go!](https://bhagavadgita.io/api) |
 | BookNomads | Books published in the Netherlands and Flanders (about 2.5 million), book covers, and related data | No | Yes | Unknown | [Go!](https://www.booknomads.com/dev) |
 | British National Bibliography | Books | No | No | Unknown | [Go!](http://bnb.data.bl.uk/) |
 | Goodreads | Books | `apiKey` | Yes | Unknown | [Go!](https://www.goodreads.com/api) |
@@ -156,23 +155,27 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Binance | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown | [Go!](https://github.com/binance-exchange/binance-official-api-docs) |
+| BitBNS | Indian Cryptocurrency exchange | No | Yes | No | [Go!](https://bitbns.com/order/getTickerAll) |
 | BitcoinCharts | Financial and Technical Data related to the Bitcoin Network | No | Yes | Unknown | [Go!](https://bitcoincharts.com/about/exchanges/) |
 | Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Bitmex | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown | [Go!](https://www.bitmex.com/app/apiOverview) |
 | Bittrex | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://bittrex.com/Home/Api) |
 | Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown | [Go!](https://www.block.io/docs/basic) |
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | Unknown | [Go!](https://www.blockchain.info/api) |
+| Blockcypher | Cryptocurrency transaction status API | No | Yes | Unknown | [Go!](https://www.blockcypher.com/dev/) |
 | CoinAPI | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No | [Go!](https://docs.coinapi.io/) |
 | Coinbase | Bitcoin, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown | [Go!](https://developers.coinbase.com) |
 | CoinBin | Cryptocurrency information | No | Yes | Unknown | [Go!](https://coinbin.org/) |
 | CoinDesk | Bitcoin Price Index | No | No | Unknown | [Go!](http://www.coindesk.com/api/) |
 | CoinMarketCap | Cryptocurrencies Prices | No | Yes | Unknown | [Go!](https://coinmarketcap.com/api/) |
 | CryptoCompare | Cryptocurrencies Comparison | No | Yes | Unknown | [Go!](https://www.cryptocompare.com/api#) |
-| Cryptonator | Cryptocurrencies Exchange Rates | No | Yes | Unknown | [Go!](https://www.cryptonator.com/api/) |
+| Cryptonator | Cryptocurrencies Exchange Rates | No | Yes | Unknown | [Go!](https://www.cryptonator.com/api/) |	
 | GDAX | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.gdax.com/#api) |
+| Koinex | Indian Cryptocurrency exchange | No | Yes | Yes | [Go!](https://koinex.in/api/ticker) |
 | MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | Unknown | [Go!](https://www.mercadobitcoin.net/api-doc/) |
 | Nexchange | Automated cryptocurrency exchange service | No | No | Yes | [Go!](https://nexchange2.docs.apiary.io/) |
 | Poloniex | US based digital asset exchange | `apiKey` | Yes | Unknown | [Go!](https://poloniex.com/support/api/) |
+| Zebpay | Indian Cryptocurrency exchange/wallet | No | Yes | No | [Go!](https://support.zebpay.com/hc/en-us/articles/115004228609-Zebpay-APIs) |
 
 ### Currency Exchange
 API | Description | Auth | HTTPS | CORS | Link |
@@ -182,12 +185,12 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Czech National Bank | A collection of exchange rates | No | Yes | Unknown | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
 | Exchangeratesapi.io | Exchange rates with currency conversion | No | Yes | Yes | [Go!](https://exchangeratesapi.io) |
 | Fixer.io | Exchange rates and currency conversion | No | Yes | Unknown | [Go!](http://fixer.io) |
-| LabStack | Accurate and reliable live currency exchange rates for over 150 symbols | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/currency) |
+| LabStack | Accurate and reliable live currency exchange rates for over 150 symbols | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/currency) |
 
 ### Data Validation
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| LabStack | Check email address for syntax error, disposable mail server and valid SMTP mailbox | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/email) |
+| LabStack | Check email address for syntax error, disposable mail server and valid SMTP mailbox | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/email) |
 | languagelayer | Language detection | No | Yes | Unknown | [Go!](https://languagelayer.com) |
 | Lob.com | US Address Verification | `apiKey` | Yes | Unknown | [Go!](https://lob.com/) |
 | mailboxlayer | Email address validation | No | Yes | Unknown | [Go!](https://mailboxlayer.com) |
@@ -253,6 +256,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Pocket | Bookmarking service | `OAuth` | Yes | Unknown | [Go!](https://getpocket.com/developer/) |
 | PrexView | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | Unknown | [Go!](https://prexview.com) |
 | Restpack | Provides screenshot, HTML to PDF, and content extraction APIs | `apiKey` | Yes | Unknown | [Go!](https://restpack.io/) |
+| Send Anywhere | Free file sharing service with timer | `apiKey` | Yes | Unknown | [Go!](https://send-anywhere.com/api) |
 | Todoist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.todoist.com) |
 | Vector Express | Free vector file converting API | No | No | Yes | [Go!](http://vector.express) |
 | Wunderlist | Todo Lists | `OAuth` | Yes | Unknown | [Go!](https://developer.wunderlist.com/documentation) |
@@ -373,7 +377,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | IP Location | Find IP address location information | No | Yes | Unknown | [Go!](https://ipapi.co/) |
 | IP Sidekick | Geolocation API that returns extra information about an IP address | `apiKey` | Yes | Unknown | [Go!](https://ipsidekick.com) |
 | IP Vigilante | Free IP Geolocation API | No | Yes | Unknown | [Go!](https://www.ipvigilante.com/) |
-| LabStack | Find IP to location, location to latitude-longitude and reverse | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/geocode) |
+| LabStack | Find IP to location, location to latitude-longitude and reverse | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/geocode) |
 | LocationIQ | Provides forward/reverse geocoding and batch geocoding | `apiKey` | Yes | Yes | [Go!](https://locationiq.org/docs/) |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown | [Go!](https://www.mapbox.com/developers/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | Unknown | [Go!](https://github.com/IcaliaLabs/sepomex) |
@@ -491,6 +495,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | Unknown | [Go!](http://open-platform.theguardian.com/) |
 | The Old Reader | RSS reader | `apiKey` | Yes | Unknown | [Go!](https://github.com/theoldreader/api) |
 
+
+
 ### Open Data
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
@@ -535,7 +541,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Personality
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| chucknorris.io | JSON API for hand curated Chuck Norris jokes | No | Yes | Unknown | [Go!](https://api.chucknorris.io) |
+| chucknorris.io | JSON API for hand curated Chuck Norris jokes | No | Yes | Unknown | [Go!](https://api.chucknorris.io) |	
 | FavQs.com | FavQs allows you to collect, discover, and share your favorite quotes | `apiKey` | Yes | Unknown | [Go!](https://favqs.com/api) |
 | Forismatic | Inspirational Quotes | No | No | Unknown | [Go!](http://forismatic.com/en/api/) |
 | icanhazdadjoke | The largest selection of dad jokes on the internet | No | Yes | Unknown | [Go!](https://icanhazdadjoke.com/api) |
@@ -668,6 +674,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Google Cloud Natural | Natural language understanding technology, including sentiment, entity, and syntax analysis | `apiKey` | Yes | Unknown | [Go!](https://cloud.google.com/natural-language/docs/) |
 | Semantira | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown | [Go!](https://semantria.readme.io/docs) |
 | Watson Natural Language Understanding | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown | [Go!](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) |
+| Yandex Translate | Translate languages easily with Yandex | `apiKey` | Yes | No | [Go!](https://tech.yandex.com/translate/doc/dg/concepts/api-overview-docpage/) |
 
 ### Tracking
 API | Description | Auth | HTTPS | CORS | Link |
@@ -769,7 +776,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | ODWeather | Weather and weather webcams | No | No | Unknown | [Go!](http://api.oceandrivers.com/static/docs.html) |
 | OpenUV | Real-time UV Index Forecast | `apiKey` | Yes | Unknown | [Go!](https://www.openuv.io) |
 | OpenWeatherMap | Weather | `apiKey` | No | Unknown | [Go!](http://openweathermap.org/api) |
-| Storm Glass | Global marine weather from multiple sources | `apiKey` | Yes | Yes | [Go!](https://stormglass.io/) |
 | Weatherbit | Weather | `apiKey` | Yes | Unknown | [Go!](https://www.weatherbit.io/api) |
 | Wunderground | Weather | `apiKey` | Yes | Unknown | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | Unknown | [Go!](https://developer.yahoo.com/weather/) |
+	
