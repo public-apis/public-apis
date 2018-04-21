@@ -52,6 +52,7 @@ merge conflicts will be less likely. See more detailed instructions [here][synci
 * Create a [branch][branch-link] for your edits.
 * Contribute in the style of the project as outlined above. This makes it easier for the collaborators to merge
 and for others to understand and maintain in the future.
+* Please make sure you squash all commits together before opening a pull request. If your pull request requires changes upon review, please be sure to squash all additional commits as well. [This wiki page][squash-link] outlines the squash process.
 
 ### Open Pull Requests
 
@@ -74,4 +75,5 @@ Thanks for being a part of this project, and we look forward to hearing from you
 [pr-link]: <https://help.github.com/articles/creating-a-pull-request/>
 [remote-link]: <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
 [syncing-link]: <https://help.github.com/articles/syncing-a-fork>
+[squash-link]: <https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit>
 
