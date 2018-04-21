@@ -502,6 +502,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Celebinfo | Celebrity information | `X-Mashape-Key` | Yes | Unknown | [Go!](https://market.mashape.com/daxeel/celebinfo/) |
 | Datakick | The open product database | `apiKey` | Yes | Unknown | [Go!](https://www.datakick.org/api) |
 | Dronestream | Tracks United States drone strikes | No | Yes | Unknown | [Go!](https://dronestre.am/) |
+| Enigma Public | Broadest collection of public data | `apiKey` | Yes | Yes | [Go!](http://docs.enigma.com/public/public_v20_api_about) |
 | fonoApi | Mobile Device Description | No | Yes | Unknown | [Go!](https://fonoapi.freshpixl.com/) |
 | French Address Search | Address search via the French Government | No | Yes | Unknown | [Go!](https://adresse.data.gouv.fr/api) |
 | INQStats | Open demographic data such as population, life expectancy, migration rate, etc | `apiKey` | No | Unknown | [Go!](http://blog.inqubu.com/inqstats-open-api-published-to-get-demographic-data) |
