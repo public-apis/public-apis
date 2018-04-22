@@ -173,6 +173,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | Unknown | [Go!](https://www.mercadobitcoin.net/api-doc/) |
 | Nexchange | Automated cryptocurrency exchange service | No | No | Yes | [Go!](https://nexchange2.docs.apiary.io/) |
 | Poloniex | US based digital asset exchange | `apiKey` | Yes | Unknown | [Go!](https://poloniex.com/support/api/) |
+| WorldCoinIndex | Cryptocurrencies Prices | `apiKey` | Yes | Unknown | [Go!](https://www.worldcoinindex.com/apiservice) |
 
 ### Currency Exchange
 API | Description | Auth | HTTPS | CORS | Link |
@@ -328,6 +329,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Destiny The Game | Bungie Platform API | `apiKey` | Yes | Unknown | [Go!](https://github.com/Bungie-net/api) |
 | Dota 2 | Provides information about Player stats , Match stats, Rankings for Dota 2 | No | Yes | Unknown | [Go!](https://docs.opendota.com/) |
 | Eve Online | Third-Party Developer Documentation | `OAuth` | Yes | Unknown | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
+| Fortnite | Fortnite Stats | `apiKey` | Yes | Unknown | [Go!](https://fortnitetracker.com/site-api) |
 | Games | Minecraft and other server info & user info) | No | Yes | Unknown | [Go!](https://docs.gameapis.net/) |
 | Giant Bomb | Video Games | No | Yes | Unknown | [Go!](https://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` | Yes | Unknown | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
