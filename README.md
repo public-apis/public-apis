@@ -648,6 +648,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Adorable Avatars | Generate random cartoon avatars | No | Yes | Unknown | [Go!](http://avatars.adorable.io) |
 | Bacon Ipsum | A Meatier Lorem Ipsum Generator | No | Yes | Unknown | [Go!](https://baconipsum.com/json-api/) |
+| Dicebear Avatars | Generate random pixel-art avatars | No | Yes | Unknown | [Go!](https://avatars.dicebear.com/) |
 | FakeJSON | Service to generate test and fake data | `apiKey` | Yes | Yes | [Go!](https://fakejson.com) |
 | FHIR | Fast Healthcare Interoperability Resources test data | No | Yes | Unknown | [Go!](http://fhirtest.uhn.ca/home) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | Unknown | [Go!](http://hipsterjesus.com/) |
