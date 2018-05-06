@@ -20,6 +20,7 @@ num_segments = 6
 
 errors = []
 title_links = []
+previous_links = []
 anchor_re = re.compile(anchor + '\s(.+)')
 section_title_re = re.compile('\*\s\[(.*)\]')
 
@@ -96,6 +97,10 @@ def check_entry(line_num, segments):
     link = segments[index_link]
     if not link.startswith('[Go!](http') or not link.endswith(')'):
         add_error(line_num, 'link syntax should be "[Go!](LINK)"')
+    if link in previous_links:
+        add_error(line_num, 'duplicate link - entries should only be included in one section')
+    else:
+        previous_links.append(link)
     # END Link
 
 
