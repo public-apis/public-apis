@@ -776,5 +776,4 @@ API | Description | Auth | HTTPS | CORS | Link |
 | OpenWeatherMap | Weather | `apiKey` | No | Unknown | [Go!](http://openweathermap.org/api) |
 | Storm Glass | Global marine weather from multiple sources | `apiKey` | Yes | Yes | [Go!](https://stormglass.io/) |
 | Weatherbit | Weather | `apiKey` | Yes | Unknown | [Go!](https://www.weatherbit.io/api) |
-| Wunderground | Weather | `apiKey` | Yes | Unknown | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | Unknown | [Go!](https://developer.yahoo.com/weather/) |
