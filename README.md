@@ -243,7 +243,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Oxford | Dictionary Data | `apiKey` | Yes | Unknown | [Go!](https://developer.oxforddictionaries.com/) |
-| Wordnik | Dictionary Data | No | No | Unknown | [Go!](http://developer.wordnik.com) |
+| Wordnik | Dictionary Data | `apiKey` | No | Unknown | [Go!](http://developer.wordnik.com) |
 | Words | Definitions and synonyms for more than 150,000 words | `apiKey` | Yes | Unknown | [Go!](https://www.wordsapi.com/) |
 
 ### Documents & Productivity
