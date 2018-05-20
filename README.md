@@ -362,7 +362,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | City Context | Crime, school, and transportation data for US cities | `apiKey` | Yes | Unknown | [Go!](https://www.citycontext.com/api-reference#/) |
 | CitySDK | Open APIs for select European cities | No | Yes | Unknown | [Go!](http://www.citysdk.eu/citysdk-toolkit/) |
 | Daum Maps | Daum Maps provide multiple APIs for Korean maps | `apiKey` | No | Unknown | [Go!](http://apis.map.daum.net/) |
-| FreeGeoIP | Geolocation of IP addresses | No | Yes | Unknown | [Go!](https://freegeoip.net/) |
 | GeoApi | French geographical data | No | Yes | Unknown | [Go!](https://api.gouv.fr/api/geoapi.html) |
 | Geocode.xyz | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | Unknown | [Go!](https://geocode.xyz/) |
 | GeoNames | Place names and other geographical data | No | No | Unknown | [Go!](http://www.geonames.org/export/web-services.html) |
@@ -376,6 +375,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | IP Location | Find IP address location information | No | Yes | Unknown | [Go!](https://ipapi.co/) |
 | IP Sidekick | Geolocation API that returns extra information about an IP address | `apiKey` | Yes | Unknown | [Go!](https://ipsidekick.com) |
 | IP Vigilante | Free IP Geolocation API | No | Yes | Unknown | [Go!](https://www.ipvigilante.com/) |
+| ipstack | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown | [Go!](https://ipstack.com/) |
 | LabStack | Find IP to location, location to latitude-longitude and reverse | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/geocode) |
 | LocationIQ | Provides forward/reverse geocoding and batch geocoding | `apiKey` | Yes | Yes | [Go!](https://locationiq.org/docs/) |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown | [Go!](https://www.mapbox.com/developers/) |
