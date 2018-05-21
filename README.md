@@ -1,4 +1,4 @@
-# Public APIs [![Build Status](https://api.travis-ci.org/toddmotto/public-apis.svg)](https://travis-ci.org/toddmotto/public-apis)
+﻿# Public APIs [![Build Status](https://api.travis-ci.org/toddmotto/public-apis.svg)](https://travis-ci.org/toddmotto/public-apis)
 
 A collective list of free APIs for use in web development.
 
@@ -76,7 +76,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | AniList | Anime discovery & tracking | `OAuth` | Yes | Unknown | [Go!](https://github.com/AniList/ApiV2-GraphQL-Docs) |
-| Jikan | Unofficial MyAnimeList API | No | Yes | Yes | [Go!](https://jikan.me) |
+| Jikan | Unofficial MyAnimeList API | No | Yes | Yes | [Go!](https://jikan.moe/) |
 | Kitsu | Anime discovery platform | `OAuth` | Yes | Unknown | [Go!](http://docs.kitsu.apiary.io/) |
 | Studio Ghibli | Resources from Studio Ghibli films | No | Yes | Unknown | [Go!](https://ghibliapi.herokuapp.com) |
 
