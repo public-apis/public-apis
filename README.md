@@ -454,7 +454,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Clarifai | Computer Vision | `OAuth` | Yes | Unknown | [Go!](https://developer.clarifai.com/) |
-| Cleverbot | Web chat bot | `apiKey` | Yes | Unknown | [Go!](https://www.cleverbot.com/api/) |
 | Cloudmersive | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes | [Go!](https://www.cloudmersive.com/image-recognition-and-processing-api) |
 | Dialogflow | Natural Language Processing | `apiKey` | Yes | Unknown | [Go!](https://dialogflow.com) |
 | Keen IO | Data Analytics | `apiKey` | Yes | Unknown | [Go!](https://keen.io/) |
