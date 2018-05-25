@@ -590,7 +590,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | AXFR Database | AXFR public database | No | No | Unknown | [Go!](http://api.axfrcheck.com) |
 | HaveIBeenPwned | Passwords which have previously been exposed in data breaches | No | Yes | Unknown | [Go!](https://haveibeenpwned.com/API/v2) |
 | UK Police | UK Police data | No | Yes | Unknown | [Go!](https://data.police.uk/docs/) |
-| SecurityTrails | Domain and IP related information such as current and historical WHOIS, current and historical records | `APIKEY` | Yes | Unknown | [Go!](https://securitytrails.com/corp/apidocs) |
+| SecurityTrails | Domain and IP related information such as current and historical WHOIS, current and historical records | `apiKey` | Yes | Unknown | [Go!](https://securitytrails.com/corp/apidocs) |
 
 ### Shopping
 API | Description | Auth | HTTPS | CORS | Link |
