@@ -335,6 +335,7 @@ API | Description | Auth | HTTPS | Link |
 ### Geocoding
 API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| <a href="https://github.com/bhattsameer/numspy-api">Numspy</a> | A public api by which you can find some details of any mobile number in india. | None | NO | [Go!](http://numspy.pythonanywhere.com) |
 | adresse.data.gouv.fr | Address database of France, geocoding, and reverse | No | Yes | [Go!](https://adresse.data.gouv.fr) |
 | Battuta | A (country/region/city) in-cascade location API | `apiKey` | Yes | [Go!](https://battuta.medunes.net) |
 | Bing Maps | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | [Go!](https://www.microsoft.com/maps/) |
