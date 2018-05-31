@@ -122,6 +122,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Google Analytics | Collect, configure, and analyze your data to reach the right audience | `OAuth` | Yes | Unknown | [Go!](https://developers.google.com/analytics/) |
 | mailgun | Email Service | `apiKey` | Yes | Unknown | [Go!](https://www.mailgun.com/) |
 | markerapi | Trademark Search | No | No | Unknown | [Go!](http://www.markerapi.com/) |
+| Ticksel | Friendly website analytics made for humans | No | Yes | Unknown | [Go!](https://ticksel.com) |
 | Trello | Boards, lists, and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown | [Go!](https://developers.trello.com/) |
 
 ### Calendar
