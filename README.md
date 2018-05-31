@@ -194,7 +194,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | languagelayer | Language detection | No | Yes | Unknown | [Go!](https://languagelayer.com) |
 | Lob.com | US Address Verification | `apiKey` | Yes | Unknown | [Go!](https://lob.com/) |
 | mailboxlayer | Email address validation | No | Yes | Unknown | [Go!](https://mailboxlayer.com) |
-| MailTest | Email address validation | No | Yes | Unknown | [Go!](http://mailtest.in/documentation/) |
 | NumValidate | Open Source phone number validation | No | Yes | Unknown | [Go!](https://numvalidate.com) |
 | numverify | Phone number validation | No | Yes | Unknown | [Go!](https://numverify.com) |
 | PurgoMalum | Content validator against profanity & obscenity | No | No | Unknown | [Go!](http://www.purgomalum.com) |
