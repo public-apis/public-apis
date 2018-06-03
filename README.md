@@ -111,6 +111,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Goodreads | Books | `apiKey` | Yes | Unknown | [Go!](https://www.goodreads.com/api) |
 | Google Books | Books | `OAuth` | Yes | Unknown | [Go!](https://developers.google.com/books/) |
 | Open Library | Books, book covers, and related data | No | Yes | Unknown | [Go!](https://openlibrary.org/developers/api) |
+| Penguin Publishing | Books, book covers, and related data | No | Yes | Unknown | [Go!](http://www.penguinrandomhouse.biz/webservices/rest/) |
 
 ### Business
 API | Description | Auth | HTTPS | CORS | Link |
