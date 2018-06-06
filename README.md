@@ -664,6 +664,9 @@ API | Description | Auth | HTTPS | CORS | Link |
 | RoboHash | Generate random robot/alien avatars | No | Yes | Unknown | [Go!](https://robohash.org/) |
 | UI Names | Generate random fake names | No | Yes | Unknown | [Go!](https://github.com/thm/uinames) |
 | Yes No | Generate yes or no randomly | No | Yes | Unknown | [Go!](https://yesno.wtf/api) |
+| JSONPlaceholder | Fake Online REST API for Testing and Prototyping | No | Yes | Unknown | [Go!](http://jsonplaceholder.typicode.com) |
+
+
 
 ### Text Analysis
 API | Description | Auth | HTTPS | CORS | Link |
