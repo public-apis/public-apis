@@ -157,6 +157,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Binance | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown | [Go!](https://github.com/binance-exchange/binance-official-api-docs) |
+| BitBNS | Indian Cryptocurrency exchange price ticker | No | Yes | No | [Go!](https://bitbns.com/order/getTickerWithVolume/) |
 | BitcoinCharts | Financial and Technical Data related to the Bitcoin Network | No | Yes | Unknown | [Go!](https://bitcoincharts.com/about/exchanges/) |
 | Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Bitmex | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown | [Go!](https://www.bitmex.com/app/apiOverview) |
@@ -176,6 +177,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Nexchange | Automated cryptocurrency exchange service | No | No | Yes | [Go!](https://nexchange2.docs.apiary.io/) |
 | Poloniex | US based digital asset exchange | `apiKey` | Yes | Unknown | [Go!](https://poloniex.com/support/api/) |
 | WorldCoinIndex | Cryptocurrencies Prices | `apiKey` | Yes | Unknown | [Go!](https://www.worldcoinindex.com/apiservice) |
+| Zebpay | Zebpay Price Ticker | No | Yes | No | [Go!](https://support.zebpay.com/hc/en-us/articles/115004228609-Zebpay-APIs) |
 
 ### Currency Exchange
 API | Description | Auth | HTTPS | CORS | Link |
@@ -626,6 +628,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Twitch | Game Streaming API | `OAuth` | Yes | Unknown | [Go!](https://dev.twitch.tv/docs) |
 | Twitter | Read and write Twitter data | `OAuth` | Yes | Unknown | [Go!](https://dev.twitter.com/rest/public) |
 | vk | Read and write vk data | `OAuth` | Yes | Unknown | [Go!](https://vk.com/dev/sites) |
+| Whatsapp | Send Whatsapp messages | No | Yes | Yes | [Go!](https://faq.whatsapp.com/en/android/26000030/) |
 
 ### Sports & Fitness
 API | Description | Auth | HTTPS | CORS | Link |
