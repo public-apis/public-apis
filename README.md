@@ -467,6 +467,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Deezer | Music | `OAuth` | Yes | Unknown | [Go!](https://developers.deezer.com/api) |
 | Discogs | Music | `OAuth` | Yes | Unknown | [Go!](https://www.discogs.com/developers/) |
 | Genius | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | Unknown | [Go!](https://docs.genius.com/) |
+| Genrenator | Music genre generator | No | Yes | Unknown | [Go!](https://binaryjazz.us/genrenator-api/) |
 | iTunes Search | Software products | No | Yes | Unknown | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 | Jamendo | Music | `OAuth` | Yes | Unknown | [Go!](https://developer.jamendo.com/v3.0) |
 | LastFm | Music | `apiKey` | Yes | Unknown | [Go!](https://www.last.fm/api) |
