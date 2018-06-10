@@ -627,7 +627,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Telegram MTProto | Read and write Telegram data | `OAuth` | Yes | Unknown | [Go!](https://core.telegram.org/api#getting-started) |
 | Tumblr | Read and write Tumblr Data | `OAuth` | Yes | Unknown | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 | Twitch | Game Streaming API | `OAuth` | Yes | Unknown | [Go!](https://dev.twitch.tv/docs) |
-| Twitter | Read and write Twitter data | `OAuth` | Yes | Unknown | [Go!](https://dev.twitter.com/rest/public) |
+| Twitter | Read and write Twitter data | `OAuth` | Yes | No | [Go!](https://developer.twitter.com/en/docs) |
 | vk | Read and write vk data | `OAuth` | Yes | Unknown | [Go!](https://vk.com/dev/sites) |
 
 ### Sports & Fitness
