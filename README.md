@@ -687,7 +687,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Transportation
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| ADS-B Exchange | Access real-time and historical data of any and all airbone aircraft | No | Yes | Unknown | [Go!](https://www.adsbexchange.com/data/) |
+| ADS-B Exchange | Access real-time and historical data of any and all airborne aircraft | No | Yes | Unknown | [Go!](https://www.adsbexchange.com/data/) |
 | AIS Hub | Real-time data of any marine and inland vessel equipped with AIS tracking system | `apiKey` | No | Unknown | [Go!](http://www.aishub.net/api) |
 | AIS Web | Aeronautical information in digital media produced by the Department of Airspace Control (DECEA) | `apiKey` | No | Unknown | [Go!](http://www.aisweb.aer.mil.br/api/doc/index.cfm) |
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apiKey` | Yes | Unknown | [Go!](https://sandbox.amadeus.com/) |
@@ -780,4 +780,4 @@ API | Description | Auth | HTTPS | CORS | Link |
 | OpenWeatherMap | Weather | `apiKey` | No | Unknown | [Go!](http://openweathermap.org/api) |
 | Storm Glass | Global marine weather from multiple sources | `apiKey` | Yes | Yes | [Go!](https://stormglass.io/) |
 | Weatherbit | Weather | `apiKey` | Yes | Unknown | [Go!](https://www.weatherbit.io/api) |
-| Yahoo! Weather | Weather | No | Yes | Unknown | [Go!](https://developer.yahoo.com/weather/) |
+| Yahoo! Weather | Weather | `apiKey` | Yes | Unknown | [Go!](https://developer.yahoo.com/weather/) |
