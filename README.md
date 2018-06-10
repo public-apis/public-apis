@@ -228,6 +228,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Judge0 | Compile and run source code | No | Yes | Unknown | [Go!](https://api.judge0.com/) |
 | Kairos | Face Recognition and Emotion Analysis | `apiKey` | Yes | Unknown | [Go!](https://www.kairos.com/features) |
 | Let's Validate | Uncovers the technologies used on websites and URL to thumbnail | No | Yes | Unknown | [Go!](https://github.com/letsvalidate/api) |
+| License-API | Unofficial REST API for choosealicense.com | No | Yes | No | [Go!](https://github.com/cmccandless/license-api/blob/master/README.md) |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | Unknown | [Go!](https://www.liveedu.tv/developer/applications/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | Unknown | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | Yes | Unknown | [Go!](https://plino.herokuapp.com/) |
