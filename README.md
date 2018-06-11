@@ -713,6 +713,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Transport for Denver, US | RTD | No | No | Unknown | [Go!](http://www.rtd-denver.com/gtfs-developer-guide.shtml) |
 | Transport for Finland | Finnish transport API | No | Yes | Unknown | [Go!](https://digitransit.fi/en/developers/ ) |
 | Transport for Germany | Deutsche Bahn (DB) API | `apiKey` | No | Unknown | [Go!](http://data.deutschebahn.com/dataset/api-fahrplan) |
+| Transport for Grenoble, France | TAG Open Data API | No | No | No | [Go!](https://www.metromobilite.fr/pages/opendata/OpenDataApi.html#) |
 | Transport for India | India Public Transport API | `apiKey` | Yes | Unknown | [Go!](https://data.gov.in/sector/transport) |
 | Transport for London, England | TfL API | No | Yes | Unknown | [Go!](https://api.tfl.gov.uk) |
 | Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` | No | Unknown | [Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
@@ -734,7 +735,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Transport for Vancouver, Canada | TransLink | `OAuth` | Yes | Unknown | [Go!](https://developer.translink.ca/) |
 | Transport for Victoria, AU | PTV API | `apiKey` | Yes | Unknown | [Go!](https://www.ptv.vic.gov.au/about-ptv/ptv-data-and-reports/digital-products/ptv-timetable-api/) |
 | Transport for Washington, US | Washington Metro transport API | `OAuth` | Yes | Unknown | [Go!](https://developer.wmata.com/) |
-| Transport for Grenoble, France | TAG Open Data API | No | No | No | [Go!](https://www.metromobilite.fr/pages/opendata/OpenDataApi.html#) |
 | Uber | Uber ride requests and price estimation | `OAuth` | Yes | Yes | [Go!](https://developer.uber.com/products) |
 | WhereIsMyTransport | Platform for public transport data in emerging cities | `OAuth` | Yes | Unknown | [Go!](https://developer.whereismytransport.com/) |
 
