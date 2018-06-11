@@ -736,6 +736,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Transport for Washington, US | Washington Metro transport API | `OAuth` | Yes | Unknown | [Go!](https://developer.wmata.com/) |
 | Uber | Uber ride requests and price estimation | `OAuth` | Yes | Yes | [Go!](https://developer.uber.com/products) |
 | WhereIsMyTransport | Platform for public transport data in emerging cities | `OAuth` | Yes | Unknown | [Go!](https://developer.whereismytransport.com/) |
+| Transport for Grenoble, France | TAG Open Data API | No | No | No | [Go!](https://www.metromobilite.fr/pages/opendata/OpenDataApi.html#) |
 
 ### URL Shorteners
 API | Description | Auth | HTTPS | CORS | Link |
