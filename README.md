@@ -468,6 +468,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Bandsintown | Music Events | No | Yes | Unknown | [Go!](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) |
 | Deezer | Music | `OAuth` | Yes | Unknown | [Go!](https://developers.deezer.com/api) |
 | Discogs | Music | `OAuth` | Yes | Unknown | [Go!](https://www.discogs.com/developers/) |
+| Encyclopaedia Metallum | RESTful API for Encyclopaedia Metallum | `apiKey` | Yes | Unknown | [Go!](http://em.wemakesites.net/) |
 | Genius | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | Unknown | [Go!](https://docs.genius.com/) |
 | Genrenator | Music genre generator | No | Yes | Unknown | [Go!](https://binaryjazz.us/genrenator-api/) |
 | iTunes Search | Software products | No | Yes | Unknown | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
