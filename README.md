@@ -160,9 +160,11 @@ API | Description | Auth | HTTPS | CORS | Link |
 | BitcoinCharts | Financial and Technical Data related to the Bitcoin Network | No | Yes | Unknown | [Go!](https://bitcoincharts.com/about/exchanges/) |
 | Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Bitmex | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown | [Go!](https://www.bitmex.com/app/apiOverview) |
+| Bitpay | Cryptographically Secure RESTful Interface | `apiKey` | Yes | Yes | [Go!](https://bitpay.com/api) |
 | Bittrex | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://bittrex.com/Home/Api) |
 | Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown | [Go!](https://www.block.io/docs/basic) |
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | Unknown | [Go!](https://www.blockchain.info/api) |
+| Blockcypher | Infrastructure Fabric for blockchain applications | No | Yes | Unknown | [Go!](https://www.blockcypher.com/dev/bitcoin/#introduction) |
 | CoinAPI | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No | [Go!](https://docs.coinapi.io/) |
 | Coinbase | Bitcoin, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown | [Go!](https://developers.coinbase.com) |
 | CoinBin | Cryptocurrency information | No | Yes | Unknown | [Go!](https://coinbin.org/) |
@@ -175,6 +177,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | Unknown | [Go!](https://www.mercadobitcoin.net/api-doc/) |
 | Nexchange | Automated cryptocurrency exchange service | No | No | Yes | [Go!](https://nexchange2.docs.apiary.io/) |
 | Poloniex | US based digital asset exchange | `apiKey` | Yes | Unknown | [Go!](https://poloniex.com/support/api/) |
+| Quandl | Premier source of financial, economic, alternative datasets | `apiKey` | Yes | Unknown | [Go!](https://docs.quandl.com/) |
 | WorldCoinIndex | Cryptocurrencies Prices | `apiKey` | Yes | Unknown | [Go!](https://www.worldcoinindex.com/apiservice) |
 
 ### Currency Exchange
