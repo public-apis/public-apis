@@ -312,6 +312,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Fraud Prevention
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
+| Numspy | LocateMobile India | No | No | Yes | [Go!](http://numspy.pythonanywhere.com) |
 | Whitepages Pro | Global identity verification with phone, address, email, and IP | `apiKey` | Yes | Unknown | [Go!](https://pro.whitepages.com/developer/documentation/identity-check-api/) |
 | Whitepages Pro | Phone reputation to detect spammy phones | `apiKey` | Yes | Unknown | [Go!](https://pro.whitepages.com/developer/documentation/phone-reputation-api/) |
 | Whitepages Pro | Get an owner’s name, address, demographics based on the phone number | `apiKey` | Yes | Unknown | [Go!](https://pro.whitepages.com/developer/documentation/reverse-phone-api/) |
