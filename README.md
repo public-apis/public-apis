@@ -161,10 +161,12 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Bitmex | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown | [Go!](https://www.bitmex.com/app/apiOverview) |
 | BitMinter | Bitcoin mining pool made easy | No | Yes | Unknown | [Go!](https://bitminter.com/api)
+| BitcoinPay | Bitcoin Payment Processing Provider | `apiKey` | Yes | Unknown | [Go!](https://bitcoinpaycom.docs.apiary.io/#)
 | Bitpay | Cryptographically Secure RESTful Interface | `apiKey` | Yes | Yes | [Go!](https://bitpay.com/api) |
 | Bittrex | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://bittrex.com/Home/Api) |
 | Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown | [Go!](https://www.block.io/docs/basic) |
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | Unknown | [Go!](https://www.blockchain.info/api) |
+| BlockchainAPI | Altcoin payment processor API | `apiKey` | Yes | Unknown | [Go!](https://blockchainapi.org/docs)
 | Blockcypher | Infrastructure Fabric for blockchain applications | No | Yes | Unknown | [Go!](https://www.blockcypher.com/dev/bitcoin/#introduction) |
 | CoinAPI | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No | [Go!](https://docs.coinapi.io/) |
 | Coinbase | Bitcoin, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown | [Go!](https://developers.coinbase.com) |
