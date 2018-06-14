@@ -290,6 +290,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Razorpay IFSC | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown | [Go!](https://ifsc.razorpay.com/) |
 | RoutingNumbers.info | ACH/NACHA Bank Routing Numbers | No | Yes | Unknown | [Go!](https://www.routingnumbers.info/api/index.html) |
 | VAT Rates | A collection of all VAT rates for EU countries | No | Yes | Unknown | [Go!](https://jsonvat.com/) |
+| Bin Codes | BIN & Card number checker| No | Yes | Unknown | [Go!](https://www.bincodes.com/api-lookup/) |
 
 ### Food & Drink
 API | Description | Auth | HTTPS | CORS | Link |
