@@ -280,8 +280,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Alpha Vantage | Realtime and historical stock data | `apiKey` | Yes | Unknown | [Go!](https://www.alphavantage.co/) |
-| Bin Codes | BIN & Card number checker| No | Yes | Unknown | [Go!](https://www.bincodes.com/api-lookup/) |
 | Barchart OnDemand | Stock, Futures, and Forex Market Data | `apiKey` | Yes | Unknown | [Go!](https://www.barchartondemand.com/free) |
+| Bin Codes | BIN & Card number checker| No | Yes | Unknown | [Go!](https://www.bincodes.com/api-lookup/) |
 | Consumer Financial Protection Bureau | Financial services consumer complaint data | `apiKey` | Yes | Unknown | [Go!](https://data.consumerfinance.gov/resource/jhzv-w97w.json) |
 | IEX | Stocks and Market Data | No | Yes | Unknown | [Go!](https://iextrading.com/developer/) |
 | IG | Spreadbetting and CFD Market Data | `apiKey` | Yes | Unknown | [Go!](https://labs.ig.com/gettingstarted) |
