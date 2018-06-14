@@ -290,7 +290,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | RoutingNumbers.info | ACH/NACHA Bank Routing Numbers | No | Yes | Unknown | [Go!](https://www.routingnumbers.info/api/index.html) |
 | VAT Rates | A collection of all VAT rates for EU countries | No | Yes | Unknown | [Go!](https://jsonvat.com/) |
 
-
 ### Food & Drink
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
