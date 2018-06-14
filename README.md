@@ -161,7 +161,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Bitmex | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown | [Go!](https://www.bitmex.com/app/apiOverview) |
 | BitMinter | Bitcoin mining pool made easy | No | Yes | Unknown | [Go!](https://bitminter.com/api)
-| BitcoinPay | Bitcoin Payment Processing Provider | `apiKey` | Yes | Unknown | [Go!](https://bitcoinpaycom.docs.apiary.io/#)
+| BitcoinPay | Bitcoin Payment Processing Provider | `apiKey` | Yes | Unknown | [Go!](https://bitcoinpaycom.docs.apiary.io/#) |
 | Bitpay | Cryptographically Secure RESTful Interface | `apiKey` | Yes | Yes | [Go!](https://bitpay.com/api) |
 | Bittrex | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://bittrex.com/Home/Api) |
 | Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown | [Go!](https://www.block.io/docs/basic) |
@@ -179,7 +179,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | GDAX | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.gdax.com/#api) |
 | itBit | Crypto Asset and Trading Platform | `OAuth` | Yes | Unknown | [Go!](https://api.itbit.com/docs) |
 | Livecoin | Cryptocurrency Exchange | No | Yes | Unknown | [Go!](https://www.livecoin.net/api) |
-| Luno | Wallet & Exchange for Buying and Trading BTC and ETH | `apiKey` | Yes | Unknown | [Go!](https://www.luno.com/en/api)
+| Luno | Wallet & Exchange for Buying and Trading BTC and ETH | `apiKey` | Yes | Unknown | [Go!](https://www.luno.com/en/api) |
 | MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | Unknown | [Go!](https://www.mercadobitcoin.net/api-doc/) |
 | Nexchange | Automated cryptocurrency exchange service | No | No | Yes | [Go!](https://nexchange2.docs.apiary.io/) |
 | Poloniex | US based digital asset exchange | `apiKey` | Yes | Unknown | [Go!](https://poloniex.com/support/api/) |
