@@ -288,6 +288,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Razorpay IFSC | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown | [Go!](https://ifsc.razorpay.com/) |
 | RoutingNumbers.info | ACH/NACHA Bank Routing Numbers | No | Yes | Unknown | [Go!](https://www.routingnumbers.info/api/index.html) |
 | VAT Rates | A collection of all VAT rates for EU countries | No | Yes | Unknown | [Go!](https://jsonvat.com/) |
+| Bin Codes | BIN & Card number checker| No | Yes | Unknown | [Go!](https://www.bincodes.com/api-lookup/) |
 
 ### Food & Drink
 API | Description | Auth | HTTPS | CORS | Link |
@@ -664,9 +665,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | RoboHash | Generate random robot/alien avatars | No | Yes | Unknown | [Go!](https://robohash.org/) |
 | UI Names | Generate random fake names | No | Yes | Unknown | [Go!](https://github.com/thm/uinames) |
 | Yes No | Generate yes or no randomly | No | Yes | Unknown | [Go!](https://yesno.wtf/api) |
-| JSONPlaceholder | Fake Online REST API for Testing and Prototyping | No | Yes | Unknown | [Go!](http://jsonplaceholder.typicode.com) |
-
-
 
 ### Text Analysis
 API | Description | Auth | HTTPS | CORS | Link |
