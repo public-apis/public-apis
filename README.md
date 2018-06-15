@@ -111,6 +111,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Goodreads | Books | `apiKey` | Yes | Unknown | [Go!](https://www.goodreads.com/api) |
 | Google Books | Books | `OAuth` | Yes | Unknown | [Go!](https://developers.google.com/books/) |
 | Open Library | Books, book covers, and related data | No | Yes | Unknown | [Go!](https://openlibrary.org/developers/api) |
+| Penguin Publishing | Books, book covers, and related data | No | Yes | Unknown | [Go!](http://www.penguinrandomhouse.biz/webservices/rest/) |
 
 ### Business
 API | Description | Auth | HTTPS | CORS | Link |
@@ -236,6 +237,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Judge0 | Compile and run source code | No | Yes | Unknown | [Go!](https://api.judge0.com/) |
 | Kairos | Face Recognition and Emotion Analysis | `apiKey` | Yes | Unknown | [Go!](https://www.kairos.com/features) |
 | Let's Validate | Uncovers the technologies used on websites and URL to thumbnail | No | Yes | Unknown | [Go!](https://github.com/letsvalidate/api) |
+| License-API | Unofficial REST API for choosealicense.com | No | Yes | No | [Go!](https://github.com/cmccandless/license-api/blob/master/README.md) |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | Unknown | [Go!](https://www.liveedu.tv/developer/applications/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | Unknown | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | Yes | Unknown | [Go!](https://plino.herokuapp.com/) |
@@ -319,6 +321,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Fraud Prevention
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
+| Numspy | LocateMobile India | No | No | Yes | [Go!](http://numspy.pythonanywhere.com) |
 | Whitepages Pro | Global identity verification with phone, address, email, and IP | `apiKey` | Yes | Unknown | [Go!](https://pro.whitepages.com/developer/documentation/identity-check-api/) |
 | Whitepages Pro | Phone reputation to detect spammy phones | `apiKey` | Yes | Unknown | [Go!](https://pro.whitepages.com/developer/documentation/phone-reputation-api/) |
 | Whitepages Pro | Get an owner’s name, address, demographics based on the phone number | `apiKey` | Yes | Unknown | [Go!](https://pro.whitepages.com/developer/documentation/reverse-phone-api/) |
@@ -415,6 +418,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Federal Register | The Daily Journal of the United States Government | No | Yes | Unknown | [Go!](https://www.federalregister.gov/reader-aids/developer-resources) |
 | Food Standards Agency | UK food hygiene rating data API | No | No | Unknown | [Go!](http://ratings.food.gov.uk/open-data/en-GB) |
 | Open Government, Australia | Australian Government Open Data | No | Yes | Unknown | [Go!](https://www.data.gov.au/) |
+| Open Government, Belgium | Belgium Government Open Data | No | Yes | Unknown | [Go!](https://data.gov.be/) |
 | Open Government, Canada | Canadian Government Open Data | No | No | Unknown | [Go!](http://open.canada.ca/en) |
 | Open Government, France | French Government Open Data | `apiKey` | Yes | Unknown | [Go!](https://www.data.gouv.fr/) |
 | Open Government, India | Indian Government Open Data | `apiKey` | Yes | Unknown | [Go!](https://data.gov.in/) |
@@ -476,6 +480,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Deezer | Music | `OAuth` | Yes | Unknown | [Go!](https://developers.deezer.com/api) |
 | Discogs | Music | `OAuth` | Yes | Unknown | [Go!](https://www.discogs.com/developers/) |
 | Genius | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | Unknown | [Go!](https://docs.genius.com/) |
+| Genrenator | Music genre generator | No | Yes | Unknown | [Go!](https://binaryjazz.us/genrenator-api/) |
 | iTunes Search | Software products | No | Yes | Unknown | [Go!](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
 | Jamendo | Music | `OAuth` | Yes | Unknown | [Go!](https://developer.jamendo.com/v3.0) |
 | LastFm | Music | `apiKey` | Yes | Unknown | [Go!](https://www.last.fm/api) |
@@ -633,7 +638,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Telegram MTProto | Read and write Telegram data | `OAuth` | Yes | Unknown | [Go!](https://core.telegram.org/api#getting-started) |
 | Tumblr | Read and write Tumblr Data | `OAuth` | Yes | Unknown | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 | Twitch | Game Streaming API | `OAuth` | Yes | Unknown | [Go!](https://dev.twitch.tv/docs) |
-| Twitter | Read and write Twitter data | `OAuth` | Yes | Unknown | [Go!](https://dev.twitter.com/rest/public) |
+| Twitter | Read and write Twitter data | `OAuth` | Yes | No | [Go!](https://developer.twitter.com/en/docs) |
 | vk | Read and write vk data | `OAuth` | Yes | Unknown | [Go!](https://vk.com/dev/sites) |
 
 ### Sports & Fitness
@@ -693,7 +698,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Transportation
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| ADS-B Exchange | Access real-time and historical data of any and all airbone aircraft | No | Yes | Unknown | [Go!](https://www.adsbexchange.com/data/) |
+| ADS-B Exchange | Access real-time and historical data of any and all airborne aircraft | No | Yes | Unknown | [Go!](https://www.adsbexchange.com/data/) |
 | AIS Hub | Real-time data of any marine and inland vessel equipped with AIS tracking system | `apiKey` | No | Unknown | [Go!](http://www.aishub.net/api) |
 | AIS Web | Aeronautical information in digital media produced by the Department of Airspace Control (DECEA) | `apiKey` | No | Unknown | [Go!](http://www.aisweb.aer.mil.br/api/doc/index.cfm) |
 | Amadeus Travel Innovation Sandbox | Travel Search - Limited usage | `apiKey` | Yes | Unknown | [Go!](https://sandbox.amadeus.com/) |
@@ -778,6 +783,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Weather
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
+| ClimaCell Micro Weather | Historical, real-time, and nowcast weather data | `apiKey` | Yes | Yes | [Go!](https://developer.climacell.co) |
 | Dark Sky | Weather | `apiKey` | Yes | No | [Go!](https://darksky.net/dev/) |
 | MetaWeather | Weather | No | Yes | No | [Go!](https://www.metaweather.com/api/) |
 | ODWeather | Weather and weather webcams | No | No | Unknown | [Go!](http://api.oceandrivers.com/static/docs.html) |
@@ -785,4 +791,4 @@ API | Description | Auth | HTTPS | CORS | Link |
 | OpenWeatherMap | Weather | `apiKey` | No | Unknown | [Go!](http://openweathermap.org/api) |
 | Storm Glass | Global marine weather from multiple sources | `apiKey` | Yes | Yes | [Go!](https://stormglass.io/) |
 | Weatherbit | Weather | `apiKey` | Yes | Unknown | [Go!](https://www.weatherbit.io/api) |
-| Yahoo! Weather | Weather | No | Yes | Unknown | [Go!](https://developer.yahoo.com/weather/) |
+| Yahoo! Weather | Weather | `apiKey` | Yes | Unknown | [Go!](https://developer.yahoo.com/weather/) |
