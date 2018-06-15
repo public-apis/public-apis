@@ -160,7 +160,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | BitcoinCharts | Financial and Technical Data related to the Bitcoin Network | No | Yes | Unknown | [Go!](https://bitcoincharts.com/about/exchanges/) |
 | Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Bitmex | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown | [Go!](https://www.bitmex.com/app/apiOverview) |
-| BitMinter | Bitcoin mining pool made easy | No | Yes | Unknown | [Go!](https://bitminter.com/api)
+| BitMinter | Bitcoin mining pool made easy | No | Yes | Unknown | [Go!](https://bitminter.com/api) |
 | BitcoinPay | Bitcoin Payment Processing Provider | `apiKey` | Yes | Unknown | [Go!](https://bitcoinpaycom.docs.apiary.io/) |
 | Bitpay | Cryptographically Secure RESTful Interface | `apiKey` | Yes | Yes | [Go!](https://bitpay.com/api) |
 | Bittrex | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://bittrex.com/Home/Api) |
