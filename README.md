@@ -715,7 +715,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Transport for Denver, US | RTD | No | No | Unknown | [Go!](http://www.rtd-denver.com/gtfs-developer-guide.shtml) |
 | Transport for Finland | Finnish transport API | No | Yes | Unknown | [Go!](https://digitransit.fi/en/developers/ ) |
 | Transport for Germany | Deutsche Bahn (DB) API | `apiKey` | No | Unknown | [Go!](http://data.deutschebahn.com/dataset/api-fahrplan) |
-| Transport for Honolulu, US | TheBus API | `apiKey` | No | Unknown | [Go!](hea.thebus.org/api_info.asp) | 
+| Transport for Honolulu, US | TheBus API | `apiKey` | No | Unknown | [Go!](http://hea.thebus.org/api_info.asp) | 
 | Transport for India | India Public Transport API | `apiKey` | Yes | Unknown | [Go!](https://data.gov.in/sector/transport) |
 | Transport for London, England | TfL API | No | Yes | Unknown | [Go!](https://api.tfl.gov.uk) |
 | Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` | No | Unknown | [Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
