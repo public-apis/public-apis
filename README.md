@@ -759,6 +759,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | An API of Ice And Fire | Game Of Thrones API | No | Yes | Unknown | [Go!](https://anapioficeandfire.com/) |
+| Breaking Bad Quotes | Some Breaking Bad quotes | No | Yes | Unknown | [Go!](https://github.com/shevabam/breaking-bad-quotes) |
 | Czech Television | TV programme of Czech TV | No | No | Unknown | [Go!](http://www.ceskatelevize.cz/xml/tv-program/) |
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | Unknown | [Go!](https://developer.dailymotion.com/) |
 | Open Movie Database | Movie information | `apiKey` | Yes | Unknown | [Go!](http://www.omdbapi.com/) |
