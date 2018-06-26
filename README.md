@@ -237,6 +237,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | QR code | Generate and decode / read QR code graphics | No | Yes | Unknown | [Go!](http://goqr.me/api/) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | Unknown | [Go!](https://reqres.in/ ) |
 | Scrape Website Email | Grabs email addresses from a URL | `X-Mashape-Key` | Yes | Unknown | [Go!](https://market.mashape.com/tommytcchan/scrape-website-email) |
+| ScraperApi | Easily build scalable web scrapers | `apiKey` | Yes | Unknown | [Go!](https://www.scraperapi.com) |
 | SHOUTCLOUD | ALL-CAPS AS A SERVICE | No | No | Unknown | [Go!](http://shoutcloud.io/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | Unknown | [Go!](https://api.stackexchange.com/) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | Unknown | [Go!](https://verse.pawelad.xyz/) |
