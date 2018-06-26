@@ -187,6 +187,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Exchangeratesapi.io | Exchange rates with currency conversion | No | Yes | Yes | [Go!](https://exchangeratesapi.io) |
 | Fixer.io | Exchange rates and currency conversion | `apiKey` | Yes | Unknown | [Go!](http://fixer.io) |
 | LabStack | Accurate and reliable live currency exchange rates for over 150 symbols | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/currency) |
+| CryptoStandardizer | Standardize crypto coin symbols (e.g. BTC, XBT) across 100+ exchanges | `apiKey` | Yes | Unknown | [Go!](https://cryptostandardizer.com) |
 
 ### Data Validation
 API | Description | Auth | HTTPS | CORS | Link |
