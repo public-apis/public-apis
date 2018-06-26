@@ -404,6 +404,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Colorado Data Engine | Formatted and geolocated Colorado public data | No | Yes | Unknown | [Go!](http://codataengine.org/) |
 | Colorado Information Marketplace | Colorado State Government Open Data | No | Yes | Unknown | [Go!](https://data.colorado.gov/) |
 | Data USA | US Public Data | No | Yes | Unknown | [Go!](https://datausa.io/about/api/) |
+| Data.gov | US Government Data | `apiKey` | Yes | Unknown | [Go!](https://api.data.gov/) |
 | EPA | Web services and data sets from the US Environmental Protection Agency | No | Yes | Unknown | [Go!](https://developer.epa.gov/category/api/) |
 | FEC | Information on campaign donations in federal elections | `apiKey` | Yes | Unknown | [Go!](https://api.open.fec.gov/developers/) |
 | Federal Register | The Daily Journal of the United States Government | No | Yes | Unknown | [Go!](https://www.federalregister.gov/reader-aids/developer-resources) |
@@ -419,6 +420,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Prague Opendata | Prague City Open Data | No | No | Unknown | [Go!](http://opendata.praha.eu/en) |
 | Regulations.gov | Federal regulatory materialsto increase understanding of the Federal rule making process | `apiKey` | Yes | Unknown | [Go!](https://regulationsgov.github.io/developers/) |
 | Represent by Open North | Find Canadian Government Representatives | No | Yes | Unknown | [Go!](https://represent.opennorth.ca/) |
+| USAspending.gov | US federal spending data | No | Yes | Unknown | [Go!](https://api.usaspending.gov/) |
 
 ### Health
 API | Description | Auth | HTTPS | CORS | Link |
