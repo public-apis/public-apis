@@ -519,7 +519,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | French Address Search | Address search via the French Government | No | Yes | Unknown | [Go!](https://adresse.data.gouv.fr/api) |
 | LinkPreview | Get JSON formatted summary with title, description and preview image for any requested URL | `apiKey` | Yes | Yes | [Go!](https://www.linkpreview.net) |
 | Marijuana Strains | Marijuana strains, races, flavors, and effects | `apiKey` | No | Unknown | [Go!](http://strains.evanbusse.com/) |
-| Microlink.io | Turns any link into information | No | Yes | Unknown | [Go!](https://docs.microlink.io) |
+| Microlink.io | Extract structured data from any website | No | Yes | Yes | [Go!](https://microlink.io) |
 | Population.io | Open demographic data such as population tables, population rank and life expectancy | No | No | Unknown | [Go!](http://api.population.io/) |
 | Quandl | Stock Market Data | No | Yes | Unknown | [Go!](https://www.quandl.com/) |
 | Scoop.it | Content Curation Service | `apiKey` | No | Unknown | [Go!](http://www.scoop.it/dev) |
