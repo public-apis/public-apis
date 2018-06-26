@@ -516,7 +516,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | INQStats | Open demographic data such as population, life expectancy, migration rate, etc | `apiKey` | No | Unknown | [Go!](http://blog.inqubu.com/inqstats-open-api-published-to-get-demographic-data) |
 | LinkPreview | Get JSON formatted summary with title, description and preview image for any requested URL | `apiKey` | Yes | Yes | [Go!](https://www.linkpreview.net) |
 | Marijuana Strains | Marijuana strains, races, flavors, and effects | `apiKey` | No | Unknown | [Go!](http://strains.evanbusse.com/) |
-| Microlink.io | Turns any link into information | No | Yes | Unknown | [Go!](https://docs.microlink.io) |
+| Microlink.io | Extract structured data from any website | No | Yes | Yes | [Go!](https://microlink.io) |
 | Quandl | Stock Market Data | No | Yes | Unknown | [Go!](https://www.quandl.com/) |
 | Scoop.it | Content Curation Service | `apiKey` | No | Unknown | [Go!](http://www.scoop.it/dev) |
 | Teleport | Quality of Life Data | No | Yes | Unknown | [Go!](https://developers.teleport.org/) |
