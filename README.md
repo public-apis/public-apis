@@ -233,9 +233,11 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Myjson | A simple JSON store for your web or mobile app | No | No | Unknown | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | Yes | Unknown | [Go!](https://plino.herokuapp.com/) |
 | Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | Unknown | [Go!](https://github.com/davemachado/public-api) |
+| QR code | Create an easy to read QR code and URL shortener | No | Yes | Yes | [Go!](http://qrtag.net/api/) |
 | QR code | Generate and decode / read QR code graphics | No | Yes | Unknown | [Go!](http://goqr.me/api/) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | Unknown | [Go!](https://reqres.in/ ) |
 | Scrape Website Email | Grabs email addresses from a URL | `X-Mashape-Key` | Yes | Unknown | [Go!](https://market.mashape.com/tommytcchan/scrape-website-email) |
+| ScraperApi | Easily build scalable web scrapers | `apiKey` | Yes | Unknown | [Go!](https://www.scraperapi.com) |
 | SHOUTCLOUD | ALL-CAPS AS A SERVICE | No | No | Unknown | [Go!](http://shoutcloud.io/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | Unknown | [Go!](https://api.stackexchange.com/) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | Unknown | [Go!](https://verse.pawelad.xyz/) |
@@ -404,6 +406,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Colorado Data Engine | Formatted and geolocated Colorado public data | No | Yes | Unknown | [Go!](http://codataengine.org/) |
 | Colorado Information Marketplace | Colorado State Government Open Data | No | Yes | Unknown | [Go!](https://data.colorado.gov/) |
 | Data USA | US Public Data | No | Yes | Unknown | [Go!](https://datausa.io/about/api/) |
+| Data.gov | US Government Data | `apiKey` | Yes | Unknown | [Go!](https://api.data.gov/) |
 | EPA | Web services and data sets from the US Environmental Protection Agency | No | Yes | Unknown | [Go!](https://developer.epa.gov/category/api/) |
 | FEC | Information on campaign donations in federal elections | `apiKey` | Yes | Unknown | [Go!](https://api.open.fec.gov/developers/) |
 | Federal Register | The Daily Journal of the United States Government | No | Yes | Unknown | [Go!](https://www.federalregister.gov/reader-aids/developer-resources) |
@@ -419,6 +422,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Prague Opendata | Prague City Open Data | No | No | Unknown | [Go!](http://opendata.praha.eu/en) |
 | Regulations.gov | Federal regulatory materialsto increase understanding of the Federal rule making process | `apiKey` | Yes | Unknown | [Go!](https://regulationsgov.github.io/developers/) |
 | Represent by Open North | Find Canadian Government Representatives | No | Yes | Unknown | [Go!](https://represent.opennorth.ca/) |
+| USAspending.gov | US federal spending data | No | Yes | Unknown | [Go!](https://api.usaspending.gov/) |
 
 ### Health
 API | Description | Auth | HTTPS | CORS | Link |
@@ -759,6 +763,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | An API of Ice And Fire | Game Of Thrones API | No | Yes | Unknown | [Go!](https://anapioficeandfire.com/) |
+| Breaking Bad Quotes | Some Breaking Bad quotes | No | Yes | Unknown | [Go!](https://github.com/shevabam/breaking-bad-quotes) |
 | Czech Television | TV programme of Czech TV | No | No | Unknown | [Go!](http://www.ceskatelevize.cz/xml/tv-program/) |
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | Unknown | [Go!](https://developer.dailymotion.com/) |
 | Open Movie Database | Movie information | `apiKey` | Yes | Unknown | [Go!](http://www.omdbapi.com/) |
