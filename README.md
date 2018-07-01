@@ -137,6 +137,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | LectServe | Protestant liturgical calendar | No | No | Unknown | [Go!](http://www.lectserve.com) |
 | Namedays Calendar | Provides namedays for multiple countries | No | Yes | Yes | [Go!](https://api.abalin.net/) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | Unknown | [Go!](https://github.com/gadael/icsdb) |
+| Russian Calendar | Check if a date is a Russian holiday or not | No | Yes | No | [Go!](https://github.com/egno/work-calendar) |
 
 ### Cloud Storage & File Sharing
 API | Description | Auth | HTTPS | CORS | Link |
