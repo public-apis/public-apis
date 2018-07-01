@@ -561,7 +561,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Photography
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| 500px | Photography Community | `OAuth` | Yes | Unknown | [Go!](https://github.com/500px/api-documentation) |
 | Flickr | Flickr Services | `OAuth` | Yes | Unknown | [Go!](https://www.flickr.com/services/api/) |
 | Getty Images | Build applications using the world's most powerful imagery | `OAuth` | Yes | Unknown | [Go!](http://developers.gettyimages.com/en/) |
 | Gfycat | Jiffier GIFs | `OAuth` | Yes | Unknown | [Go!](https://developers.gfycat.com/api/) |
