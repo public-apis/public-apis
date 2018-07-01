@@ -147,6 +147,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Google Drive | File Sharing and Storage | `OAuth` | Yes | Unknown | [Go!](https://developers.google.com/drive/) |
 | OneDrive | File Sharing and Storage | `OAuth` | Yes | Unknown | [Go!](https://dev.onedrive.com/) |
 | Pastebin | Plain Text Storage | `apiKey` | Yes | Unknown | [Go!](https://pastebin.com/api/) |
+| WeTransfer | File Sharing | `apiKey` | Yes | Yes | [Go!](https://developers.wetransfer.com) |
 
 ### Continuous Integration
 API | Description | Auth | HTTPS | CORS | Link |
