@@ -329,7 +329,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Battle.net | Blizzard Entertainment | `apiKey` | Yes | Unknown | [Go!](https://dev.battle.net/) |
 | Battlefield 4 | Battlefield 4 Information | No | Yes | Unknown | [Go!](https://bf4stats.com/api) |
 | Chuck Norris Database | Jokes | No | No | Unknown | [Go!](http://www.icndb.com/api/) |
-| Clash of Clans | Clash of Clans Game Information | No | Yes | Unknown | [Go!](https://developer.clashofclans.com) |
+| Clash of Clans | Clash of Clans Game Information | `apiKey` | Yes | Unknown | [Go!](https://developer.clashofclans.com) |
 | Clash Royale | Clash Royale Game Information | No | Yes | Unknown | [Go!](https://github.com/martincarrera/clash-royale-api) |
 | Comic Vine | Comics | No | Yes | Unknown | [Go!](https://comicvine.gamespot.com/api/documentation) |
 | Deck of Cards | Deck of Cards | No | No | Unknown | [Go!](http://deckofcardsapi.com/) |
