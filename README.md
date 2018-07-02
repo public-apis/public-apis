@@ -168,7 +168,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Bitpay | Cryptographically Secure RESTful Interface | `apiKey` | Yes | Yes | [Go!](https://bitpay.com/api) |
 | Bittrex | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://bittrex.com/Home/Api) |
 | Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown | [Go!](https://www.block.io/docs/basic) |
-| Blockchain.info | Bitcoin Payment, Wallet & Transaction Data | No | Yes | Unknown | [Go!](https://www.blockchain.info/api) |
+| Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | Unknown | [Go!](https://www.blockchain.info/api) |
 | BlockchainAPI | Altcoin payment processor API | `apiKey` | Yes | Unknown | [Go!](https://blockchainapi.org/docs) |
 | Blockcypher | Infrastructure Fabric for blockchain applications | No | Yes | Unknown | [Go!](https://www.blockcypher.com/dev/bitcoin/#introduction) |
 | CoinAPI | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No | [Go!](https://docs.coinapi.io/) |
