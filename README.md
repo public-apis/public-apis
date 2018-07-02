@@ -160,24 +160,33 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Binance | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown | [Go!](https://github.com/binance-exchange/binance-official-api-docs) |
+| BitMinter | Bitcoin mining pool made easy | No | Yes | Unknown | [Go!](https://bitminter.com/api) |
 | BitcoinCharts | Financial and Technical Data related to the Bitcoin Network | No | Yes | Unknown | [Go!](https://bitcoincharts.com/about/exchanges/) |
+| BitcoinPay | Bitcoin Payment Processing Provider | `apiKey` | Yes | Unknown | [Go!](https://bitcoinpaycom.docs.apiary.io/) |
 | Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Bitmex | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown | [Go!](https://www.bitmex.com/app/apiOverview) |
+| Bitpay | Cryptographically Secure RESTful Interface | `apiKey` | Yes | Yes | [Go!](https://bitpay.com/api) |
 | Bittrex | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://bittrex.com/Home/Api) |
 | Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown | [Go!](https://www.block.io/docs/basic) |
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | Unknown | [Go!](https://www.blockchain.info/api) |
+| BlockchainAPI | Altcoin payment processor API | `apiKey` | Yes | Unknown | [Go!](https://blockchainapi.org/docs) |
+| Blockcypher | Infrastructure Fabric for blockchain applications | No | Yes | Unknown | [Go!](https://www.blockcypher.com/dev/bitcoin/#introduction) |
 | CoinAPI | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No | [Go!](https://docs.coinapi.io/) |
-| Coinbase | Bitcoin, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown | [Go!](https://developers.coinbase.com) |
 | CoinBin | Cryptocurrency information | No | Yes | Unknown | [Go!](https://coinbin.org/) |
 | CoinDesk | Bitcoin Price Index | No | No | Unknown | [Go!](http://www.coindesk.com/api/) |
 | CoinMarketCap | Cryptocurrencies Prices | No | Yes | Unknown | [Go!](https://coinmarketcap.com/api/) |
+| Coinbase | Bitcoin, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown | [Go!](https://developers.coinbase.com) |
+| Coinigy | Interact with Coinigy Accounts and Exchange Accounts Directly | `apiKey` | Yes | Unknown | [Go!](https://coinigy.docs.apiary.io) |
 | CryptoCompare | Cryptocurrencies Comparison | No | Yes | Unknown | [Go!](https://www.cryptocompare.com/api#) |
 | Cryptonator | Cryptocurrencies Exchange Rates | No | Yes | Unknown | [Go!](https://www.cryptonator.com/api/) |
 | GDAX | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.gdax.com/#api) |
+| itBit | Crypto Asset and Trading Platform | `OAuth` | Yes | Unknown | [Go!](https://api.itbit.com/docs) |
 | Livecoin | Cryptocurrency Exchange | No | Yes | Unknown | [Go!](https://www.livecoin.net/api) |
+| Luno | Wallet & Exchange for Buying and Trading BTC and ETH | `apiKey` | Yes | Unknown | [Go!](https://www.luno.com/en/api) |
 | MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | Unknown | [Go!](https://www.mercadobitcoin.net/api-doc/) |
 | Nexchange | Automated cryptocurrency exchange service | No | No | Yes | [Go!](https://nexchange2.docs.apiary.io/) |
 | Poloniex | US based digital asset exchange | `apiKey` | Yes | Unknown | [Go!](https://poloniex.com/support/api/) |
+| Quandl | Premier source of financial, economic, alternative datasets | `apiKey` | Yes | Unknown | [Go!](https://docs.quandl.com/) |
 | WorldCoinIndex | Cryptocurrencies Prices | `apiKey` | Yes | Unknown | [Go!](https://www.worldcoinindex.com/apiservice) |
 
 ### Currency Exchange
