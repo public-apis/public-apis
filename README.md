@@ -137,6 +137,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | LectServe | Protestant liturgical calendar | No | No | Unknown | [Go!](http://www.lectserve.com) |
 | Namedays Calendar | Provides namedays for multiple countries | No | Yes | Yes | [Go!](https://api.abalin.net/) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | Unknown | [Go!](https://github.com/gadael/icsdb) |
+| Russian Calendar | Check if a date is a Russian holiday or not | No | Yes | No | [Go!](https://github.com/egno/work-calendar) |
 
 ### Cloud Storage & File Sharing
 API | Description | Auth | HTTPS | CORS | Link |
@@ -146,6 +147,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Google Drive | File Sharing and Storage | `OAuth` | Yes | Unknown | [Go!](https://developers.google.com/drive/) |
 | OneDrive | File Sharing and Storage | `OAuth` | Yes | Unknown | [Go!](https://dev.onedrive.com/) |
 | Pastebin | Plain Text Storage | `apiKey` | Yes | Unknown | [Go!](https://pastebin.com/api/) |
+| WeTransfer | File Sharing | `apiKey` | Yes | Yes | [Go!](https://developers.wetransfer.com) |
 
 ### Continuous Integration
 API | Description | Auth | HTTPS | CORS | Link |
@@ -242,9 +244,11 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Myjson | A simple JSON store for your web or mobile app | No | No | Unknown | [Go!](http://myjson.com/api) |
 | Plino | Spam filtering system | No | Yes | Unknown | [Go!](https://plino.herokuapp.com/) |
 | Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | Unknown | [Go!](https://github.com/davemachado/public-api) |
+| QR code | Create an easy to read QR code and URL shortener | No | Yes | Yes | [Go!](http://qrtag.net/api/) |
 | QR code | Generate and decode / read QR code graphics | No | Yes | Unknown | [Go!](http://goqr.me/api/) |
 | ReqRes | A hosted REST-API ready to respond to your AJAX requests | No | Yes | Unknown | [Go!](https://reqres.in/ ) |
 | Scrape Website Email | Grabs email addresses from a URL | `X-Mashape-Key` | Yes | Unknown | [Go!](https://market.mashape.com/tommytcchan/scrape-website-email) |
+| ScraperApi | Easily build scalable web scrapers | `apiKey` | Yes | Unknown | [Go!](https://www.scraperapi.com) |
 | SHOUTCLOUD | ALL-CAPS AS A SERVICE | No | No | Unknown | [Go!](http://shoutcloud.io/) |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | Unknown | [Go!](https://api.stackexchange.com/) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | Unknown | [Go!](https://verse.pawelad.xyz/) |
@@ -335,7 +339,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Battle.net | Blizzard Entertainment | `apiKey` | Yes | Unknown | [Go!](https://dev.battle.net/) |
 | Battlefield 4 | Battlefield 4 Information | No | Yes | Unknown | [Go!](https://bf4stats.com/api) |
 | Chuck Norris Database | Jokes | No | No | Unknown | [Go!](http://www.icndb.com/api/) |
-| Clash of Clans | Clash of Clans Game Information | No | Yes | Unknown | [Go!](https://developer.clashofclans.com) |
+| Clash of Clans | Clash of Clans Game Information | `apiKey` | Yes | Unknown | [Go!](https://developer.clashofclans.com) |
 | Clash Royale | Clash Royale Game Information | No | Yes | Unknown | [Go!](https://github.com/martincarrera/clash-royale-api) |
 | Comic Vine | Comics | No | Yes | Unknown | [Go!](https://comicvine.gamespot.com/api/documentation) |
 | Deck of Cards | Deck of Cards | No | No | Unknown | [Go!](http://deckofcardsapi.com/) |
@@ -413,6 +417,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Colorado Data Engine | Formatted and geolocated Colorado public data | No | Yes | Unknown | [Go!](http://codataengine.org/) |
 | Colorado Information Marketplace | Colorado State Government Open Data | No | Yes | Unknown | [Go!](https://data.colorado.gov/) |
 | Data USA | US Public Data | No | Yes | Unknown | [Go!](https://datausa.io/about/api/) |
+| Data.gov | US Government Data | `apiKey` | Yes | Unknown | [Go!](https://api.data.gov/) |
 | EPA | Web services and data sets from the US Environmental Protection Agency | No | Yes | Unknown | [Go!](https://developer.epa.gov/category/api/) |
 | FEC | Information on campaign donations in federal elections | `apiKey` | Yes | Unknown | [Go!](https://api.open.fec.gov/developers/) |
 | Federal Register | The Daily Journal of the United States Government | No | Yes | Unknown | [Go!](https://www.federalregister.gov/reader-aids/developer-resources) |
@@ -428,6 +433,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Prague Opendata | Prague City Open Data | No | No | Unknown | [Go!](http://opendata.praha.eu/en) |
 | Regulations.gov | Federal regulatory materialsto increase understanding of the Federal rule making process | `apiKey` | Yes | Unknown | [Go!](https://regulationsgov.github.io/developers/) |
 | Represent by Open North | Find Canadian Government Representatives | No | Yes | Unknown | [Go!](https://represent.opennorth.ca/) |
+| USAspending.gov | US federal spending data | No | Yes | Unknown | [Go!](https://api.usaspending.gov/) |
 
 ### Health
 API | Description | Auth | HTTPS | CORS | Link |
@@ -525,7 +531,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | INQStats | Open demographic data such as population, life expectancy, migration rate, etc | `apiKey` | No | Unknown | [Go!](http://blog.inqubu.com/inqstats-open-api-published-to-get-demographic-data) |
 | LinkPreview | Get JSON formatted summary with title, description and preview image for any requested URL | `apiKey` | Yes | Yes | [Go!](https://www.linkpreview.net) |
 | Marijuana Strains | Marijuana strains, races, flavors, and effects | `apiKey` | No | Unknown | [Go!](http://strains.evanbusse.com/) |
-| Microlink.io | Turns any link into information | No | Yes | Unknown | [Go!](https://docs.microlink.io) |
+| Microlink.io | Extract structured data from any website | No | Yes | Yes | [Go!](https://microlink.io) |
 | Quandl | Stock Market Data | No | Yes | Unknown | [Go!](https://www.quandl.com/) |
 | Scoop.it | Content Curation Service | `apiKey` | No | Unknown | [Go!](http://www.scoop.it/dev) |
 | Teleport | Quality of Life Data | No | Yes | Unknown | [Go!](https://developers.teleport.org/) |
@@ -564,7 +570,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Photography
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| 500px | Photography Community | `OAuth` | Yes | Unknown | [Go!](https://github.com/500px/api-documentation) |
 | Flickr | Flickr Services | `OAuth` | Yes | Unknown | [Go!](https://www.flickr.com/services/api/) |
 | Getty Images | Build applications using the world's most powerful imagery | `OAuth` | Yes | Unknown | [Go!](http://developers.gettyimages.com/en/) |
 | Gfycat | Jiffier GIFs | `OAuth` | Yes | Unknown | [Go!](https://developers.gfycat.com/api/) |
@@ -724,6 +729,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Transport for Denver, US | RTD | No | No | Unknown | [Go!](http://www.rtd-denver.com/gtfs-developer-guide.shtml) |
 | Transport for Finland | Finnish transport API | No | Yes | Unknown | [Go!](https://digitransit.fi/en/developers/ ) |
 | Transport for Germany | Deutsche Bahn (DB) API | `apiKey` | No | Unknown | [Go!](http://data.deutschebahn.com/dataset/api-fahrplan) |
+| Transport for Grenoble, France | Grenoble public transport | No | No | No | [Go!](https://www.metromobilite.fr/pages/opendata/OpenDataApi.html) |
 | Transport for India | India Public Transport API | `apiKey` | Yes | Unknown | [Go!](https://data.gov.in/sector/transport) |
 | Transport for London, England | TfL API | No | Yes | Unknown | [Go!](https://api.tfl.gov.uk) |
 | Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` | No | Unknown | [Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
@@ -768,6 +774,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | An API of Ice And Fire | Game Of Thrones API | No | Yes | Unknown | [Go!](https://anapioficeandfire.com/) |
+| Breaking Bad Quotes | Some Breaking Bad quotes | No | Yes | Unknown | [Go!](https://github.com/shevabam/breaking-bad-quotes) |
 | Czech Television | TV programme of Czech TV | No | No | Unknown | [Go!](http://www.ceskatelevize.cz/xml/tv-program/) |
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | Unknown | [Go!](https://developer.dailymotion.com/) |
 | Open Movie Database | Movie information | `apiKey` | Yes | Unknown | [Go!](http://www.omdbapi.com/) |
