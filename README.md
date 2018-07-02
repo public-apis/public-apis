@@ -180,6 +180,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | CryptoCompare | Cryptocurrencies Comparison | No | Yes | Unknown | [Go!](https://www.cryptocompare.com/api#) |
 | Cryptonator | Cryptocurrencies Exchange Rates | No | Yes | Unknown | [Go!](https://www.cryptonator.com/api/) |
 | GDAX | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.gdax.com/#api) |
+| itBit | Crypto Asset and Trading Platform | `OAuth` | Yes | Unknown | [Go!](https://api.itbit.com/docs) |
 | Livecoin | Cryptocurrency Exchange | No | Yes | Unknown | [Go!](https://www.livecoin.net/api) |
 | Luno | Wallet & Exchange for Buying and Trading BTC and ETH | `apiKey` | Yes | Unknown | [Go!](https://www.luno.com/en/api) |
 | MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | Unknown | [Go!](https://www.mercadobitcoin.net/api-doc/) |
@@ -187,7 +188,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Poloniex | US based digital asset exchange | `apiKey` | Yes | Unknown | [Go!](https://poloniex.com/support/api/) |
 | Quandl | Premier source of financial, economic, alternative datasets | `apiKey` | Yes | Unknown | [Go!](https://docs.quandl.com/) |
 | WorldCoinIndex | Cryptocurrencies Prices | `apiKey` | Yes | Unknown | [Go!](https://www.worldcoinindex.com/apiservice) |
-| itBit | Crypto Asset and Trading Platform | `OAuth` | Yes | Unknown | [Go!](https://api.itbit.com/docs) |
 
 ### Currency Exchange
 API | Description | Auth | HTTPS | CORS | Link |
