@@ -244,6 +244,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | StackExchange | Q&A forum for developers | `OAuth` | Yes | Unknown | [Go!](https://api.stackexchange.com/) |
 | Verse | Check what's the latest version of your favorite open-source project | No | Yes | Unknown | [Go!](https://verse.pawelad.xyz/) |
 | XML to JSON | Integration developer utility APIs | No | Yes | Unknown | [Go!](https://developers.wso2apistore.com/) |
+| APIsHub | A Platform to Get & Develop APIs | No | Yes | Unknown | [Go!](https://apishub.com/) |
 
 ### Dictionaries
 API | Description | Auth | HTTPS | CORS | Link |
