@@ -234,6 +234,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | License-API | Unofficial REST API for choosealicense.com | No | Yes | No | [Go!](https://github.com/cmccandless/license-api/blob/master/README.md) |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | Unknown | [Go!](https://www.liveedu.tv/developer/applications/) |
 | Myjson | A simple JSON store for your web or mobile app | No | No | Unknown | [Go!](http://myjson.com/api) |
+| OOPSpam | Multiple spam filtering service | No | Yes | Yes | [Go!](https://oopspam.com/) |
 | Plino | Spam filtering system | No | Yes | Unknown | [Go!](https://plino.herokuapp.com/) |
 | Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | Unknown | [Go!](https://github.com/davemachado/public-api) |
 | QR code | Create an easy to read QR code and URL shortener | No | Yes | Yes | [Go!](http://qrtag.net/api/) |
