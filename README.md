@@ -184,6 +184,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | 1Forge | Forex currency market data | `apiKey` | Yes | Unknown | [Go!](https://1forge.com/forex-data-api/api-documentation) |
+| CryptoStandardizer | Standardize crypto coin symbols (e.g. BTC, XBT) across 100+ exchanges | `apiKey` | Yes | Unknown | [Go!](https://cryptostandardizer.com) |
 | Currencylayer | Exchange rates and currency conversion | `apiKey` | Yes | Unknown | [Go!](https://currencylayer.com/documentation) |
 | Czech National Bank | A collection of exchange rates | No | Yes | Unknown | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
 | Exchangeratesapi.io | Exchange rates with currency conversion | No | Yes | Yes | [Go!](https://exchangeratesapi.io) |
