@@ -786,6 +786,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | ClimaCell Micro Weather | Historical, real-time, and nowcast weather data | `apiKey` | Yes | Yes | [Go!](https://developer.climacell.co) |
 | Dark Sky | Weather | `apiKey` | Yes | No | [Go!](https://darksky.net/dev/) |
 | MetaWeather | Weather | No | Yes | No | [Go!](https://www.metaweather.com/api/) |
+| NOAA Climate Data | Weather and climate data | `apiKey` | Yes | Unknown | [Go!](https://www.ncdc.noaa.gov/cdo-web/) |
 | ODWeather | Weather and weather webcams | No | No | Unknown | [Go!](http://api.oceandrivers.com/static/docs.html) |
 | OpenUV | Real-time UV Index Forecast | `apiKey` | Yes | Unknown | [Go!](https://www.openuv.io) |
 | OpenWeatherMap | Weather | `apiKey` | No | Unknown | [Go!](http://openweathermap.org/api) |
