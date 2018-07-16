@@ -723,8 +723,8 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Transport for Denver, US | RTD | No | No | Unknown | [Go!](http://www.rtd-denver.com/gtfs-developer-guide.shtml) |
 | Transport for Finland | Finnish transport API | No | Yes | Unknown | [Go!](https://digitransit.fi/en/developers/ ) |
 | Transport for Germany | Deutsche Bahn (DB) API | `apiKey` | No | Unknown | [Go!](http://data.deutschebahn.com/dataset/api-fahrplan) |
-| Transport for Honolulu, US | Honolulu Transportation Information | `apiKey` | No | Unknown | [Go!](http://hea.thebus.org/api_info.asp) | 
 | Transport for Grenoble, France | Grenoble public transport | No | No | No | [Go!](https://www.metromobilite.fr/pages/opendata/OpenDataApi.html) |
+| Transport for Honolulu, US | Honolulu Transportation Information | `apiKey` | No | Unknown | [Go!](http://hea.thebus.org/api_info.asp) | 
 | Transport for India | India Public Transport API | `apiKey` | Yes | Unknown | [Go!](https://data.gov.in/sector/transport) |
 | Transport for London, England | TfL API | No | Yes | Unknown | [Go!](https://api.tfl.gov.uk) |
 | Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` | No | Unknown | [Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
@@ -732,13 +732,13 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Transport for New York City, US | MTA | `apiKey` | No | Unknown | [Go!](http://datamine.mta.info/) |
 | Transport for Norway | Norwegian transport API | No | No | Unknown | [Go!](http://reisapi.ruter.no/help) |
 | Transport for Ottawa, Canada | OC Transpo next bus arrival API | No | No | Unknown | [Go!](http://www.octranspo.com/index.php/developers) |
-| Transport for Paris, France | RATP Open Data API | No | No | Unknown | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
 | Transport for Paris, France | Live schedules made simple | No | No | Unknown | [Go!](http://restratpws.azurewebsites.net/swagger/) |
+| Transport for Paris, France | RATP Open Data API | No | No | Unknown | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
 | Transport for Philadelphia, US | SEPTA APIs | No | No | Unknown | [Go!](http://www3.septa.org/hackathon/) |
 | Transport for Sao Paulo, Brazil | SPTrans | `OAuth` | No | Unknown | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for Sweden | Public Transport consumer | `OAuth` | Yes | Unknown | [Go!](https://www.trafiklab.se/api) |
-| Transport for Switzerland | Swiss public transport API | No | Yes | Unknown | [Go!](https://transport.opendata.ch/) |
 | Transport for Switzerland | Official Swiss Public Transport Open Data | `apiKey` | Yes | Unknown | [Go!](https://opentransportdata.swiss/en/) |
+| Transport for Switzerland | Swiss public transport API | No | Yes | Unknown | [Go!](https://transport.opendata.ch/) |
 | Transport for The Netherlands | NS, only trains | `apiKey` | No | Unknown | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 | Transport for The Netherlands | OVAPI, country-wide public transport | No | Yes | Unknown | [Go!](https://github.com/skywave/KV78Turbo-OVAPI/wiki) |
 | Transport for Toronto, Canada | TTC | No | Yes | Unknown | [Go!](https://myttc.ca/developers) |
