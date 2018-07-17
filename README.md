@@ -567,6 +567,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | PlaceKitten | Resizable kitten placeholder images | No | Yes | Unknown | [Go!](https://placekitten.com/) |
 | ScreenShotLayer | URL 2 Image | No | Yes | Unknown | [Go!](https://screenshotlayer.com) |
 | Unsplash | Photography | `OAuth` | Yes | Unknown | [Go!](https://unsplash.com/developers) |
+| Lorem Picsum | Images from unsplash | No | Yes | Unknown | [Go!](https://picsum.photos/) |
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS | Link |
