@@ -654,9 +654,9 @@ API | Description | Auth | HTTPS | CORS | Link |
 | NFL Arrests | NFL Arrest Data | No | No | Unknown | [Go!](http://nflarrest.com/api/) |
 | Pro Motocross | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | Unknown | [Go!](http://promotocrossapi.com) |
 | Strava | Connect with athletes, activities and more | `OAuth` | Yes | Unknown | [Go!](https://strava.github.io/api/) |
-| SuredBits | Query sports data, including teams, players, games, scores, and statistics | No | No | Unknown | [Go!](https://suredbits.com/api/) |
+| SuredBits | Query sports data, including teams, players, games, scores, and statistics | No | No | No | [Go!](https://suredbits.com/api/) |
 | TheSportsDB | Crowd-Sourced Sports Data and Artwork | `apiKey` | Yes | Yes | [Go!](https://www.thesportsdb.com/api.php) |
-| UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | Unknown | [Go!](http://ufc-data-api.ufc.com/) |
+| UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | No | [Go!](http://ufc-data-api.ufc.com/) |
 | Wger | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown | [Go!](https://wger.de/en/software/api) |
 
 ### Test Data
