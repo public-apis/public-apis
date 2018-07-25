@@ -468,6 +468,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Clarifai | Computer Vision | `OAuth` | Yes | Unknown | [Go!](https://developer.clarifai.com/) |
 | Cloudmersive | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes | [Go!](https://www.cloudmersive.com/image-recognition-and-processing-api) |
 | Dialogflow | Natural Language Processing | `apiKey` | Yes | Unknown | [Go!](https://dialogflow.com) |
+| InData Labs | Natural Language Processing | `apiKey` | Yes | Unknown | [Go!](https://indatalabs.com/natural-language-processing-api) |
 | Keen IO | Data Analytics | `apiKey` | Yes | Unknown | [Go!](https://keen.io/) |
 | Unplugg | Forecasting API for timeseries data | `apiKey` | Yes | Unknown | [Go!](https://unplu.gg/test_api.html) |
 | Wit.ai | Natural Language Processing | `OAuth` | Yes | Unknown | [Go!](https://wit.ai/) |
