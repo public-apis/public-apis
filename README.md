@@ -218,6 +218,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Changelogs.md | Structured changelog metadata from open source projects | No | Yes | Unknown | [Go!](https://changelogs.md) |
 | Count.io | Persistent counting and A/B testing | No | Yes | Unknown | [Go!](https://count.io) |
 | DigitalOcean Status | Status of all DigitalOcean services | No | Yes | Unknown | [Go!](https://status.digitalocean.com/api/v1) |
+| DailyNowCo | List of webdeveloper news from over 50+ sources | No | Yes | No | [Go!](https://app.dailynow.co/v1/posts/latest?latest=2018-07-31T14:08:51.422Z&page=0&pageSize=30) |
 | DomainDb Info | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown | [Go!](https://domainsdb.info/apidomainsdb/index.php) |
 | Faceplusplus | A tool to detect face | `OAuth` | Yes | Unknown | [Go!](https://www.faceplusplus.com/) |
 | Genderize.io | Determines a gender from a first name | No | Yes | Unknown | [Go!](https://genderize.io) |
