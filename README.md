@@ -167,7 +167,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown | [Go!](https://www.block.io/docs/basic) |
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | Unknown | [Go!](https://www.blockchain.info/api) |
 | CoinAPI | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No | [Go!](https://docs.coinapi.io/) |
-| Coinbase | Bitcoin, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown | [Go!](https://developers.coinbase.com) |
+| Coinbase | Bitcoin, Bitcoin Cash, Litecoin, and Ethereum Prices | `apiKey` | Yes | Unknown | [Go!](https://developers.coinbase.com) |
 | CoinBin | Cryptocurrency information | No | Yes | Unknown | [Go!](https://coinbin.org/) |
 | CoinDesk | Bitcoin Price Index | No | No | Unknown | [Go!](http://www.coindesk.com/api/) |
 | Coinigy | Interacting with Coinigy Accounts and Exchange Directly | `apiKey` | Yes | Unknown | [Go!](https://coinigy.docs.apiary.io) |
@@ -292,6 +292,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Alpha Vantage | Realtime and historical stock data | `apiKey` | Yes | Unknown | [Go!](https://www.alphavantage.co/) |
 | Barchart OnDemand | Stock, Futures, and Forex Market Data | `apiKey` | Yes | Unknown | [Go!](https://www.barchartondemand.com/free) |
 | Consumer Financial Protection Bureau | Financial services consumer complaint data | `apiKey` | Yes | Unknown | [Go!](https://data.consumerfinance.gov/resource/jhzv-w97w.json) |
+| Financial Modeling Prep | Stock information and data | No | Yes | Unknown | [Go!](https://financialmodelingprep.com/) |
 | IEX | Stocks and Market Data | No | Yes | Unknown | [Go!](https://iextrading.com/developer/) |
 | IG | Spreadbetting and CFD Market Data | `apiKey` | Yes | Unknown | [Go!](https://labs.ig.com/gettingstarted) |
 | Plaid | Connect with users’ bank accounts and access transaction data | `apiKey` | Yes | Unknown | [Go!](https://plaid.com/) |
@@ -626,7 +627,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Full Contact | Get Social Media profiles and contact Information | `OAuth` | Yes | Unknown | [Go!](https://www.fullcontact.com/developer/docs/) |
 | HackerNews | Social news for CS and entrepreneurship | No | Yes | Unknown | [Go!](https://github.com/HackerNews/API) |
 | Instagram | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | Unknown | [Go!](https://www.instagram.com/developer/) |
-| Instagram Proxy | Instagram's public data as an API | No | Yes | Yes | [Go!](https://github.com/whizzzkid/instagram-proxy-api) |
 | LinkedIn | The foundation of all digital integrations with LinkedIn | `OAuth` | Yes | Unknown | [Go!](https://developer.linkedin.com/docs/rest-api) |
 | Meetup.com | Data about Meetups from Meetup.com | `apiKey` | Yes | Unknown | [Go!](https://www.meetup.com/meetup_api/) |
 | Pinterest | The world's catalog of ideas | `OAuth` | Yes | Unknown | [Go!](https://developers.pinterest.com/) |
@@ -656,9 +656,9 @@ API | Description | Auth | HTTPS | CORS | Link |
 | NFL Arrests | NFL Arrest Data | No | No | Unknown | [Go!](http://nflarrest.com/api/) |
 | Pro Motocross | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | Unknown | [Go!](http://promotocrossapi.com) |
 | Strava | Connect with athletes, activities and more | `OAuth` | Yes | Unknown | [Go!](https://strava.github.io/api/) |
-| SuredBits | Query sports data, including teams, players, games, scores, and statistics | No | No | Unknown | [Go!](https://suredbits.com/api/) |
+| SuredBits | Query sports data, including teams, players, games, scores, and statistics | No | No | No | [Go!](https://suredbits.com/api/) |
 | TheSportsDB | Crowd-Sourced Sports Data and Artwork | `apiKey` | Yes | Yes | [Go!](https://www.thesportsdb.com/api.php) |
-| UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | Unknown | [Go!](http://ufc-data-api.ufc.com/) |
+| UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | No | [Go!](http://ufc-data-api.ufc.com/) |
 | Wger | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown | [Go!](https://wger.de/en/software/api) |
 
 ### Test Data
