@@ -160,6 +160,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Binance | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown | [Go!](https://github.com/binance-exchange/binance-official-api-docs) |
+| BitcoinAverage | Digital Asset Price Data for the blockchain industry | `apiKey` | Yes | Unknown | [Go!](https://apiv2.bitcoinaverage.com/) |
 | BitcoinCharts | Financial and Technical Data related to the Bitcoin Network | No | Yes | Unknown | [Go!](https://bitcoincharts.com/about/exchanges/) |
 | Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Bitmex | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown | [Go!](https://www.bitmex.com/app/apiOverview) |
