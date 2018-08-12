@@ -172,6 +172,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Coinbase Pro | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.pro.coinbase.com/#api) |
 | CoinBin | Cryptocurrency information | No | Yes | Unknown | [Go!](https://coinbin.org/) |
 | CoinDesk | Bitcoin Price Index | No | No | Unknown | [Go!](http://www.coindesk.com/api/) |
+| Coingate | Bitcoin and Altcoin Payment Service | `OAuth` | Yes | Unknown | [Go!](https://developer.coingate.com/) |
 | Coinigy | Interacting with Coinigy Accounts and Exchange Directly | `apiKey` | Yes | Unknown | [Go!](https://coinigy.docs.apiary.io) |
 | CoinMarketCap | Cryptocurrencies Prices | No | Yes | Unknown | [Go!](https://coinmarketcap.com/api/) |
 | CryptoCompare | Cryptocurrencies Comparison | No | Yes | Unknown | [Go!](https://www.cryptocompare.com/api#) |
@@ -192,13 +193,11 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Czech National Bank | A collection of exchange rates | No | Yes | Unknown | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
 | Exchangeratesapi.io | Exchange rates with currency conversion | No | Yes | Yes | [Go!](https://exchangeratesapi.io) |
 | Fixer.io | Exchange rates and currency conversion | `apiKey` | Yes | Unknown | [Go!](http://fixer.io) |
-| LabStack | Accurate and reliable live currency exchange rates for over 150 symbols | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/currency) |
 
 ### Data Validation
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Cloudmersive Validate | Valide email addresses, phone numbers, VAT numbers, and domain names | `apiKey` | Yes | Yes | [Go!](https://cloudmersive.com/validate-api) |
-| LabStack | Check email address for syntax error, disposable mail server and valid SMTP mailbox | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/email) |
 | languagelayer | Language detection | No | Yes | Unknown | [Go!](https://languagelayer.com) |
 | Lob.com | US Address Verification | `apiKey` | Yes | Unknown | [Go!](https://lob.com/) |
 | mailboxlayer | Email address validation | No | Yes | Unknown | [Go!](https://mailboxlayer.com) |
@@ -390,7 +389,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | IP Sidekick | Geolocation API that returns extra information about an IP address | `apiKey` | Yes | Unknown | [Go!](https://ipsidekick.com) |
 | IP Vigilante | Free IP Geolocation API | No | Yes | Unknown | [Go!](https://www.ipvigilante.com/) |
 | ipstack | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown | [Go!](https://ipstack.com/) |
-| LabStack | Find IP to location, location to latitude-longitude and reverse | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/geocode) |
 | LocationIQ | Provides forward/reverse geocoding and batch geocoding | `apiKey` | Yes | Yes | [Go!](https://locationiq.org/docs/) |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown | [Go!](https://www.mapbox.com/developers/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | Unknown | [Go!](https://github.com/IcaliaLabs/sepomex) |
