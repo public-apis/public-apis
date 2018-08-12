@@ -197,6 +197,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 ### Data Validation
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
+| Cloudmersive Validate | Valide email addresses, phone numbers, VAT numbers, and domain names | `apiKey` | Yes | Yes | [Go!](https://cloudmersive.com/validate-api) |
 | LabStack | Check email address for syntax error, disposable mail server and valid SMTP mailbox | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/email) |
 | languagelayer | Language detection | No | Yes | Unknown | [Go!](https://languagelayer.com) |
 | Lob.com | US Address Verification | `apiKey` | Yes | Unknown | [Go!](https://lob.com/) |
