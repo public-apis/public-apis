@@ -572,6 +572,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Giphy | Get all your gifs | `apiKey` | Yes | Unknown | [Go!](https://developers.giphy.com/docs/) |
 | Gyazo | Upload images | `apiKey` | Yes | Unknown | [Go!](https://gyazo.com/api/docs) |
 | Imgur | Images | `OAuth` | Yes | Unknown | [Go!](https://apidocs.imgur.com/) |
+| Lorem Picsum | Images from Unsplash | No | Yes | Unknown | [Go!](https://picsum.photos/) |
 | Pixabay | Photography | `apiKey` | Yes | Unknown | [Go!](https://pixabay.com/sk/service/about/api/) |
 | Pixhost | Upload images, photos, galleries | No | Yes | Unknown | [Go!](https://pixhost.org/api/index.html) |
 | PlaceKitten | Resizable kitten placeholder images | No | Yes | Unknown | [Go!](https://placekitten.com/) |
