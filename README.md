@@ -443,7 +443,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Medicare | Access to the data from the CMS - medicare.gov | No | Yes | Unknown | [Go!](https://data.medicare.gov/developers) |
 | NPPES | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | Unknown | [Go!](https://npiregistry.cms.hhs.gov/registry/help-api) |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` | Yes | Unknown | [Go!](https://developer.nutritionix.com/) |
-| openFDA | Public FDA data about drugs, devices, and foods | No | Yes | Unknown | [Go!](https://open.fda.gov/api/) |
+| openFDA | Public FDA data about drugs, devices, and foods | No | Yes | Unknown | [Go!](https://open.fda.gov) |
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | Yes | Unknown | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
 
 ### Jobs
