@@ -446,6 +446,7 @@ API | Description | Auth | HTTPS | CORS |
 | [openFDA](https://open.fda.gov/api/) | Public FDA data about drugs, devices, and foods | No | Yes | Unknown |
 | [USDA Nutrients](https://ndb.nal.usda.gov/ndb/doc/index) | National Nutrient Database for Standard Reference | No | Yes | Unknown |
 
+
 ### Jobs
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
