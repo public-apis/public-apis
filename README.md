@@ -61,7 +61,7 @@ Please note a passing build status indicates all listed APIs are available since
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Cats | Pictures of cats from Tumblr | No | Yes | Unknown | [Go!](https://thecatapi.com/docs.html) |
-| Dogs | Based on the Stanford Dogs Dataset | No | Yes | Unknown | [Go!](https://dog.ceo/dog-api/) |
+| Dogs | Based on the Stanford Dogs Dataset | No | Yes | Yes | [Go!](https://dog.ceo/dog-api/) |
 | HTTPCat | Cat for every HTTP Status | No | Yes | Unknown | [Go!](https://http.cat/) |
 | IUCN | IUCN Red List of Threatened Species | `apiKey` | No | Unknown | [Go!](http://apiv3.iucnredlist.org/api/v3/docs) |
 | Movebank | Movement and Migration data of animals | No | Yes | Unknown | [Go!](https://github.com/movebank/movebank-api-doc) |
@@ -70,7 +70,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | RandomDog | Random pictures of dogs | No | Yes | Yes | [Go!](https://random.dog/woof.json) |
 | RandomFox | Random pictures of foxes | No | Yes | Yes | [Go!](https://randomfox.ca/floof/) |
 | RescueGroups | Adoption | No | Yes | Unknown | [Go!](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) |
-| Shibe.Online | Random pictures of Shibu Inu, cats or birds | No | No | Unknown | [Go!](http://shibe.online/) |
+| Shibe.Online | Random pictures of Shibu Inu, cats or birds | No | No | No | [Go!](http://shibe.online/) |
 
 ### Anime
 API | Description | Auth | HTTPS | CORS | Link |
@@ -160,6 +160,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Binance | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown | [Go!](https://github.com/binance-exchange/binance-official-api-docs) |
+| BitcoinAverage | Digital Asset Price Data for the blockchain industry | `apiKey` | Yes | Unknown | [Go!](https://apiv2.bitcoinaverage.com/) |
 | BitcoinCharts | Financial and Technical Data related to the Bitcoin Network | No | Yes | Unknown | [Go!](https://bitcoincharts.com/about/exchanges/) |
 | Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.bitfinex.com/docs/introduction) |
 | Bitmex | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown | [Go!](https://www.bitmex.com/app/apiOverview) |
@@ -168,13 +169,13 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | Unknown | [Go!](https://www.blockchain.info/api) |
 | CoinAPI | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No | [Go!](https://docs.coinapi.io/) |
 | Coinbase | Bitcoin, Bitcoin Cash, Litecoin, and Ethereum Prices | `apiKey` | Yes | Unknown | [Go!](https://developers.coinbase.com) |
+| Coinbase Pro | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.pro.coinbase.com/#api) |
 | CoinBin | Cryptocurrency information | No | Yes | Unknown | [Go!](https://coinbin.org/) |
 | CoinDesk | Bitcoin Price Index | No | No | Unknown | [Go!](http://www.coindesk.com/api/) |
 | Coinigy | Interacting with Coinigy Accounts and Exchange Directly | `apiKey` | Yes | Unknown | [Go!](https://coinigy.docs.apiary.io) |
 | CoinMarketCap | Cryptocurrencies Prices | No | Yes | Unknown | [Go!](https://coinmarketcap.com/api/) |
 | CryptoCompare | Cryptocurrencies Comparison | No | Yes | Unknown | [Go!](https://www.cryptocompare.com/api#) |
 | Cryptonator | Cryptocurrencies Exchange Rates | No | Yes | Unknown | [Go!](https://www.cryptonator.com/api/) |
-| GDAX | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.gdax.com/#api) |
 | Livecoin | Cryptocurrency Exchange | No | Yes | Unknown | [Go!](https://www.livecoin.net/api) |
 | MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | Unknown | [Go!](https://www.mercadobitcoin.net/api-doc/) |
 | Nexchange | Automated cryptocurrency exchange service | No | No | Yes | [Go!](https://nexchange2.docs.apiary.io/) |
@@ -191,12 +192,11 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Czech National Bank | A collection of exchange rates | No | Yes | Unknown | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
 | Exchangeratesapi.io | Exchange rates with currency conversion | No | Yes | Yes | [Go!](https://exchangeratesapi.io) |
 | Fixer.io | Exchange rates and currency conversion | `apiKey` | Yes | Unknown | [Go!](http://fixer.io) |
-| LabStack | Accurate and reliable live currency exchange rates for over 150 symbols | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/currency) |
 
 ### Data Validation
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
-| LabStack | Check email address for syntax error, disposable mail server and valid SMTP mailbox | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/email) |
+| Cloudmersive Validate | Valide email addresses, phone numbers, VAT numbers, and domain names | `apiKey` | Yes | Yes | [Go!](https://cloudmersive.com/validate-api) |
 | languagelayer | Language detection | No | Yes | Unknown | [Go!](https://languagelayer.com) |
 | Lob.com | US Address Verification | `apiKey` | Yes | Unknown | [Go!](https://lob.com/) |
 | mailboxlayer | Email address validation | No | Yes | Unknown | [Go!](https://mailboxlayer.com) |
@@ -388,7 +388,6 @@ API | Description | Auth | HTTPS | CORS | Link |
 | IP Sidekick | Geolocation API that returns extra information about an IP address | `apiKey` | Yes | Unknown | [Go!](https://ipsidekick.com) |
 | IP Vigilante | Free IP Geolocation API | No | Yes | Unknown | [Go!](https://www.ipvigilante.com/) |
 | ipstack | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown | [Go!](https://ipstack.com/) |
-| LabStack | Find IP to location, location to latitude-longitude and reverse | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/geocode) |
 | LocationIQ | Provides forward/reverse geocoding and batch geocoding | `apiKey` | Yes | Yes | [Go!](https://locationiq.org/docs/) |
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown | [Go!](https://www.mapbox.com/developers/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | Unknown | [Go!](https://github.com/IcaliaLabs/sepomex) |
@@ -443,7 +442,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Medicare | Access to the data from the CMS - medicare.gov | No | Yes | Unknown | [Go!](https://data.medicare.gov/developers) |
 | NPPES | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | Unknown | [Go!](https://npiregistry.cms.hhs.gov/registry/help-api) |
 | Nutritionix | Worlds largest verified nutrition database | `apiKey` | Yes | Unknown | [Go!](https://developer.nutritionix.com/) |
-| openFDA | Public FDA data about drugs, devices, and foods | No | Yes | Unknown | [Go!](https://open.fda.gov/api/) |
+| openFDA | Public FDA data about drugs, devices, and foods | No | Yes | Unknown | [Go!](https://open.fda.gov) |
 | USDA Nutrients | National Nutrient Database for Standard Reference | No | Yes | Unknown | [Go!](https://ndb.nal.usda.gov/ndb/doc/index) |
 
 ### Jobs
@@ -572,6 +571,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Giphy | Get all your gifs | `apiKey` | Yes | Unknown | [Go!](https://developers.giphy.com/docs/) |
 | Gyazo | Upload images | `apiKey` | Yes | Unknown | [Go!](https://gyazo.com/api/docs) |
 | Imgur | Images | `OAuth` | Yes | Unknown | [Go!](https://apidocs.imgur.com/) |
+| Lorem Picsum | Images from Unsplash | No | Yes | Unknown | [Go!](https://picsum.photos/) |
 | Pixabay | Photography | `apiKey` | Yes | Unknown | [Go!](https://pixabay.com/sk/service/about/api/) |
 | Pixhost | Upload images, photos, galleries | No | Yes | Unknown | [Go!](https://pixhost.org/api/index.html) |
 | PlaceKitten | Resizable kitten placeholder images | No | Yes | Unknown | [Go!](https://placekitten.com/) |
@@ -629,6 +629,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Instagram | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | Unknown | [Go!](https://www.instagram.com/developer/) |
 | LinkedIn | The foundation of all digital integrations with LinkedIn | `OAuth` | Yes | Unknown | [Go!](https://developer.linkedin.com/docs/rest-api) |
 | Meetup.com | Data about Meetups from Meetup.com | `apiKey` | Yes | Unknown | [Go!](https://www.meetup.com/meetup_api/) |
+| MySocialApp | Seamless Social Networking features, API, SDK to any app | `apiKey` | Yes | Unknown | [Go!](https://mysocialapp.io) |
 | Pinterest | The world's catalog of ideas | `OAuth` | Yes | Unknown | [Go!](https://developers.pinterest.com/) |
 | PWRTelegram bot | Boosted version of the Telegram bot API | `OAuth` | Yes | Unknown | [Go!](https://pwrtelegram.xyz) |
 | Reddit | Homepage of the internet | `OAuth` | Yes | Unknown | [Go!](https://www.reddit.com/dev/api) |
