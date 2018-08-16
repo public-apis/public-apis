@@ -502,6 +502,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Chronicling America | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | Unknown | [Go!](http://chroniclingamerica.loc.gov/about/api/) |
+| Currents | Latest news published in various news sources, blogs and forums | `apiKey` | Yes | Yes | [Go!](https://currentsapi.services/) |
 | Feedbin | RSS reader | `OAuth` | Yes | Unknown | [Go!](https://github.com/feedbin/feedbin-api) |
 | Feedster | Searchable and categorized collections of RSS feeds | `apiKey` | Yes | Unknown | [Go!](https://api.feedster.me/v1/docs/) |
 | New York Times | Provides news | `apiKey` | Yes | Unknown | [Go!](https://developer.nytimes.com/) |
