@@ -641,6 +641,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Slack | Team Instant Messaging | `OAuth` | Yes | Unknown | [Go!](https://api.slack.com/) |
 | Telegram Bot | Simplified HTTP version of the MTProto API for bots | `OAuth` | Yes | Unknown | [Go!](https://core.telegram.org/bots/api) |
 | Telegram MTProto | Read and write Telegram data | `OAuth` | Yes | Unknown | [Go!](https://core.telegram.org/api#getting-started) |
+| Trash Nothing | A freecycling community with thousands of free items posted every day | `OAuth` | Yes | Yes | [Go!](https://trashnothing.com/developer) |
 | Tumblr | Read and write Tumblr Data | `OAuth` | Yes | Unknown | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 | Twitch | Game Streaming API | `OAuth` | Yes | Unknown | [Go!](https://dev.twitch.tv/docs) |
 | Twitter | Read and write Twitter data | `OAuth` | Yes | No | [Go!](https://developer.twitter.com/en/docs) |
