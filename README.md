@@ -308,6 +308,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Edamam | Recipe Search | `apiKey` | Yes | Unknown | [Go!](https://developer.edamam.com/) |
 | Food2Fork | Recipe Search | `apiKey` | No | Unknown | [Go!](http://food2fork.com/about/api) |
 | LCBO | Alcohol | `apiKey` | Yes | Unknown | [Go!](https://lcboapi.com/) |
+| Open Brewery DB | Breweries, Cideries, and Craft Beer Bottle Shops | No | Yes | Yes | [Go!](https://www.openbrewerydb.org) |
 | Open Food Facts | Food Products Database | No | Yes | Unknown | [Go!](https://world.openfoodfacts.org/data) |
 | PunkAPI | Brewdog Beer Recipes | No | Yes | Unknown | [Go!](https://punkapi.com/) |
 | Recipe Puppy | Food | No | No | Unknown | [Go!](http://www.recipepuppy.com/about/api/) |
