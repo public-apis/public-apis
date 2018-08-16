@@ -238,6 +238,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Myjson | A simple JSON store for your web or mobile app | No | No | Unknown | [Go!](http://myjson.com/api) |
 | OOPSpam | Multiple spam filtering service | No | Yes | Yes | [Go!](https://oopspam.com/) |
 | Plino | Spam filtering system | No | Yes | Unknown | [Go!](https://plino.herokuapp.com/) |
+| ProxyCrawl | Scraping and crawling anticaptcha service | `apiKey` | Yes | Unknown | [Go!](https://proxycrawl.com) |
 | Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | Unknown | [Go!](https://github.com/davemachado/public-api) |
 | QR code | Create an easy to read QR code and URL shortener | No | Yes | Yes | [Go!](http://qrtag.net/api/) |
 | QR code | Generate and decode / read QR code graphics | No | Yes | Unknown | [Go!](http://goqr.me/api/) |
