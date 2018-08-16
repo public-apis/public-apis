@@ -509,6 +509,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | NPR One | Personalized news listening experience from NPR | `OAuth` | Yes | Unknown | [Go!](http://dev.npr.org/api/) |
 | The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | Unknown | [Go!](http://open-platform.theguardian.com/) |
 | The Old Reader | RSS reader | `apiKey` | Yes | Unknown | [Go!](https://github.com/theoldreader/api) |
+| Worldwide News | Access worldwide news  | `apiKey` | Yes | Unknown | [Go!](https://newsapi.org/) |
 
 ### Open Data
 API | Description | Auth | HTTPS | CORS | Link |
