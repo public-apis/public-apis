@@ -778,6 +778,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | Unknown | [Go!](https://developer.dailymotion.com/) |
 | Open Movie Database | Movie information | `apiKey` | Yes | Unknown | [Go!](http://www.omdbapi.com/) |
 | Ron Swanson Quotes | Television | No | Yes | Unknown | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
+| STAPI | Information on all things Star Trek | No | No | No | [Go!](http://stapi.co) |
 | SWAPI | Star Wars Information | No | Yes | Unknown | [Go!](https://swapi.co) |
 | TMDb | Community-based movie data | `apiKey` | Yes | Unknown | [Go!](https://www.themoviedb.org/documentation/api) |
 | TVDB | Television data | `apiKey` | Yes | Unknown | [Go!](https://api.thetvdb.com/swagger) |
