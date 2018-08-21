@@ -213,6 +213,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | APIs.guru | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown | [Go!](https://apis.guru/api-doc/) |
 | BetterMeta | Return a site's meta tags in JSON format | `X-Mashape-Key` | Yes | Unknown | [Go!](http://bettermeta.io) |
 | Bitbucket | Pull public information for a Bitbucket account | No | Yes | Unknown | [Go!](https://api.bitbucket.org/2.0/users/karllhughes) |
+| Bored | Find random activities to fight boredom | No | Yes | Unknown | [Go!](https://www.boredapi.com/) |
 | Browshot | Easily make screenshots of web pages in any screen size, as any device | `apiKey` | Yes | Unknown | [Go!](https://browshot.com/api/documentation) |
 | CDNJS | Library info on CDNJS | No | Yes | Unknown | [Go!](https://api.cdnjs.com/libraries/jquery) |
 | Changelogs.md | Structured changelog metadata from open source projects | No | Yes | Unknown | [Go!](https://changelogs.md) |
@@ -238,6 +239,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Myjson | A simple JSON store for your web or mobile app | No | No | Unknown | [Go!](http://myjson.com/api) |
 | OOPSpam | Multiple spam filtering service | No | Yes | Yes | [Go!](https://oopspam.com/) |
 | Plino | Spam filtering system | No | Yes | Unknown | [Go!](https://plino.herokuapp.com/) |
+| ProxyCrawl | Scraping and crawling anticaptcha service | `apiKey` | Yes | Unknown | [Go!](https://proxycrawl.com) |
 | Public APIs | A collective list of free JSON APIs for use in web development | No | Yes | Unknown | [Go!](https://github.com/davemachado/public-api) |
 | QR code | Create an easy to read QR code and URL shortener | No | Yes | Yes | [Go!](http://qrtag.net/api/) |
 | QR code | Generate and decode / read QR code graphics | No | Yes | Unknown | [Go!](http://goqr.me/api/) |
@@ -306,6 +308,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Edamam | Recipe Search | `apiKey` | Yes | Unknown | [Go!](https://developer.edamam.com/) |
 | Food2Fork | Recipe Search | `apiKey` | No | Unknown | [Go!](http://food2fork.com/about/api) |
 | LCBO | Alcohol | `apiKey` | Yes | Unknown | [Go!](https://lcboapi.com/) |
+| Open Brewery DB | Breweries, Cideries, and Craft Beer Bottle Shops | No | Yes | Yes | [Go!](https://www.openbrewerydb.org) |
 | Open Food Facts | Food Products Database | No | Yes | Unknown | [Go!](https://world.openfoodfacts.org/data) |
 | PunkAPI | Brewdog Beer Recipes | No | Yes | Unknown | [Go!](https://punkapi.com/) |
 | Recipe Puppy | Food | No | No | Unknown | [Go!](http://www.recipepuppy.com/about/api/) |
@@ -501,6 +504,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Chronicling America | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | Unknown | [Go!](http://chroniclingamerica.loc.gov/about/api/) |
+| Currents | Latest news published in various news sources, blogs and forums | `apiKey` | Yes | Yes | [Go!](https://currentsapi.services/) |
 | Feedbin | RSS reader | `OAuth` | Yes | Unknown | [Go!](https://github.com/feedbin/feedbin-api) |
 | Feedster | Searchable and categorized collections of RSS feeds | `apiKey` | Yes | Unknown | [Go!](https://api.feedster.me/v1/docs/) |
 | New York Times | Provides news | `apiKey` | Yes | Unknown | [Go!](https://developer.nytimes.com/) |
@@ -637,6 +641,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Slack | Team Instant Messaging | `OAuth` | Yes | Unknown | [Go!](https://api.slack.com/) |
 | Telegram Bot | Simplified HTTP version of the MTProto API for bots | `OAuth` | Yes | Unknown | [Go!](https://core.telegram.org/bots/api) |
 | Telegram MTProto | Read and write Telegram data | `OAuth` | Yes | Unknown | [Go!](https://core.telegram.org/api#getting-started) |
+| Trash Nothing | A freecycling community with thousands of free items posted every day | `OAuth` | Yes | Yes | [Go!](https://trashnothing.com/developer) |
 | Tumblr | Read and write Tumblr Data | `OAuth` | Yes | Unknown | [Go!](https://www.tumblr.com/docs/en/api/v2) |
 | Twitch | Game Streaming API | `OAuth` | Yes | Unknown | [Go!](https://dev.twitch.tv/docs) |
 | Twitter | Read and write Twitter data | `OAuth` | Yes | No | [Go!](https://developer.twitter.com/en/docs) |
@@ -777,6 +782,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | Unknown | [Go!](https://developer.dailymotion.com/) |
 | Open Movie Database | Movie information | `apiKey` | Yes | Unknown | [Go!](http://www.omdbapi.com/) |
 | Ron Swanson Quotes | Television | No | Yes | Unknown | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
+| STAPI | Information on all things Star Trek | No | No | No | [Go!](http://stapi.co) |
 | SWAPI | Star Wars Information | No | Yes | Unknown | [Go!](https://swapi.co) |
 | TMDb | Community-based movie data | `apiKey` | Yes | Unknown | [Go!](https://www.themoviedb.org/documentation/api) |
 | TVDB | Television data | `apiKey` | Yes | Unknown | [Go!](https://api.thetvdb.com/swagger) |
