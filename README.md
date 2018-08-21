@@ -172,6 +172,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Coinbase Pro | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.pro.coinbase.com/#api) |
 | CoinBin | Cryptocurrency information | No | Yes | Unknown | [Go!](https://coinbin.org/) |
 | CoinDesk | Bitcoin Price Index | No | No | Unknown | [Go!](http://www.coindesk.com/api/) |
+| Coingate | Bitcoin and Altcoin Payment Service | `OAuth` | Yes | Unknown | [Go!](https://developer.coingate.com/) |
 | Coinigy | Interacting with Coinigy Accounts and Exchange Directly | `apiKey` | Yes | Unknown | [Go!](https://coinigy.docs.apiary.io) |
 | CoinMarketCap | Cryptocurrencies Prices | No | Yes | Unknown | [Go!](https://coinmarketcap.com/api/) |
 | CryptoCompare | Cryptocurrencies Comparison | No | Yes | Unknown | [Go!](https://www.cryptocompare.com/api#) |
