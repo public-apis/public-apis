@@ -558,6 +558,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | chucknorris.io | JSON API for hand curated Chuck Norris jokes | No | Yes | Unknown | [Go!](https://api.chucknorris.io) |
+| Evil Insult Generator | Open Source API for hand curated & evil insults | No | Yes | Yes | [Go!](https://evilinsult.com/) |
 | FavQs.com | FavQs allows you to collect, discover, and share your favorite quotes | `apiKey` | Yes | Unknown | [Go!](https://favqs.com/api) |
 | Forismatic | Inspirational Quotes | No | No | Unknown | [Go!](http://forismatic.com/en/api/) |
 | icanhazdadjoke | The largest selection of dad jokes on the internet | No | Yes | Unknown | [Go!](https://icanhazdadjoke.com/api) |
