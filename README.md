@@ -118,6 +118,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 |---|---|---|---|---|---|
 | Charity Search | Non-profit charity data | `apiKey` | No | Unknown | [Go!](http://charityapi.orghunter.com/) |
 | Clearbit Logo | Search for company logos and embed them in your projects | No | Yes | Unknown | [Go!](https://clearbit.com/docs#logo-api) |
+| Cloudmersive OCR | Turn scanned images, photos of documents/receipts into text | `apiKey` | Yes | Yes | [Go!](https://www.cloudmersive.com/ocr-api) |
 | Domainsdb.info | Registered Domain Names Search | No | Yes | Unknown | [Go!](https://domainsdb.info/) |
 | Gmail | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | Unknown | [Go!](https://developers.google.com/gmail/api/) |
 | Google Analytics | Collect, configure, and analyze your data to reach the right audience | `OAuth` | Yes | Unknown | [Go!](https://developers.google.com/analytics/) |
