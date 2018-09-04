@@ -167,6 +167,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Bittrex | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://bittrex.com/Home/Api) |
 | Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown | [Go!](https://www.block.io/docs/basic) |
 | Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | Unknown | [Go!](https://www.blockchain.info/api) |
+| Chasing Coin | Cryptocurrency, coin, and token resource on the web | No | Yes | Unknown | [Go!](https://chasing-coins.com/api) |
 | CoinAPI | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No | [Go!](https://docs.coinapi.io/) |
 | Coinbase | Bitcoin, Bitcoin Cash, Litecoin, and Ethereum Prices | `apiKey` | Yes | Unknown | [Go!](https://developers.coinbase.com) |
 | Coinbase Pro | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.pro.coinbase.com/#api) |
