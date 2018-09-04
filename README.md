@@ -173,6 +173,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | CoinBin | Cryptocurrency information | No | Yes | Unknown | [Go!](https://coinbin.org/) |
 | CoinDesk | Bitcoin Price Index | No | No | Unknown | [Go!](http://www.coindesk.com/api/) |
 | Coinigy | Interacting with Coinigy Accounts and Exchange Directly | `apiKey` | Yes | Unknown | [Go!](https://coinigy.docs.apiary.io) |
+| CoinLayer | Real-time Crypto Currency Exchange Rates | `apiKey` | Yes | Unknown | [Go!](https://coinlayer.com) |
 | CoinMarketCap | Cryptocurrencies Prices | No | Yes | Unknown | [Go!](https://coinmarketcap.com/api/) |
 | CryptoCompare | Cryptocurrencies Comparison | No | Yes | Unknown | [Go!](https://www.cryptocompare.com/api#) |
 | Cryptonator | Cryptocurrencies Exchange Rates | No | Yes | Unknown | [Go!](https://www.cryptonator.com/api/) |
