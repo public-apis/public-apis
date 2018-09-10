@@ -16,13 +16,14 @@ index_auth = 2
 index_https = 3
 index_cors = 4
 index_link = 5
-num_segments = 6
+num_segments = 5
 
 errors = []
 title_links = []
 previous_links = []
 anchor_re = re.compile(anchor + '\s(.+)')
 section_title_re = re.compile('\*\s\[(.*)\]')
+link_re = re.compile('\[(.+)\]\((http.*)\)')
 
 
 def add_error(line_num, message):
@@ -45,8 +46,10 @@ def check_alphabetical(lines):
             continue
         if not line.startswith('|') or line.startswith('|---'):
             continue
-        title = [x.strip() for x in line.split('|')[1:-1]][0].upper()
-        sections[category].append(title)
+        raw_title = [x.strip() for x in line.split('|')[1:-1]][0]
+        title_re_match = link_re.match(raw_title)
+        if title_re_match:
+            sections[category].append(title_re_match.group(1).upper())
 
     for category, entries in sections.items():
         if sorted(entries) != entries:
@@ -55,9 +58,22 @@ def check_alphabetical(lines):
 
 def check_entry(line_num, segments):
     # START Title
-    title = segments[index_title].upper()
-    if title.endswith(' API'):
-        add_error(line_num, 'Title should not contain "API"')
+    raw_title = segments[index_title]
+    title_re_match = link_re.match(raw_title)
+    # url should be wrapped in '[TITLE](LINK)' Markdown syntax
+    if not title_re_match:
+        add_error(line_num, 'Title syntax should be "[TITLE](LINK)"')
+    else:
+        # do not allow "... API" in the entry title
+        title = title_re_match.group(1)
+        if title.upper().endswith(' API'):
+            add_error(line_num, 'Title should not end with "... API". Every entry is an API here!')
+        # do not allow duplicate links
+        link = title_re_match.group(2)
+        if link in previous_links:
+            add_error(line_num, 'Duplicate link - entries should only be included in one section')
+        else:
+            previous_links.append(link)
     # END Title
     # START Description
     # first character should be capitalized
@@ -92,16 +108,6 @@ def check_entry(line_num, segments):
     if cors not in cors_keys:
         add_error(line_num, "{} is not a valid CORS option".format(cors))
     # END CORS
-    # START Link
-    # url should be wrapped in '[Go!]()' Markdown syntax
-    link = segments[index_link]
-    if not link.startswith('[Go!](http') or not link.endswith(')'):
-        add_error(line_num, 'link syntax should be "[Go!](LINK)"')
-    if link in previous_links:
-        add_error(line_num, 'duplicate link - entries should only be included in one section')
-    else:
-        previous_links.append(link)
-    # END Link
 
 
 def check_format(filename):
