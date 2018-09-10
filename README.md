@@ -537,6 +537,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | Scoop.it | Content Curation Service | `apiKey` | No | Unknown | [Go!](http://www.scoop.it/dev) |
 | Teleport | Quality of Life Data | No | Yes | Unknown | [Go!](https://developers.teleport.org/) |
 | Universities List | University names, countries and domains | No | Yes | Unknown | [Go!](https://github.com/Hipo/university-domains-list) |
+| University of Oslo | Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway) | No | Yes | Unknown | [Go!](https://data.uio.no/) |
 | UPC database | More than 1.5 million barcode numbers from all around the world | `apiKey` | Yes | Unknown | [Go!](https://upcdatabase.org/api) |
 | Wikidata | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | Unknown | [Go!](https://www.wikidata.org/w/api.php?action=help) |
 | Wikipedia | Mediawiki Encyclopedia | No | Yes | Unknown | [Go!](https://www.mediawiki.org/wiki/API:Main_page) |
