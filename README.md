@@ -596,6 +596,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Unknown |
 | [Newton](https://newton.now.sh/) | Symbolic and Arithmetic Math Calculator | No | Yes | Unknown |
 | [Numbers](http://numbersapi.com) | Facts about numbers | No | No | Unknown |
+| [N2YO](https://www.n2yo.com/api) | Satellite tracking and prediction data | `apiKey` | Yes | Unknown |
 | [Open Notify](http://open-notify.org/Open-Notify-API/) | ISS astronauts, current location, etc | No | No | Unknown |
 | [Open Science Framework](https://developer.osf.io) | Repository and archive for study designs, research materials, data, manuscripts, etc | No | Yes | Unknown |
 | [SHARE](https://share.osf.io/api/v2/) | A free, open, dataset about research and scholarly activities | No | Yes | Unknown |
@@ -604,7 +605,6 @@ API | Description | Auth | HTTPS | CORS |
 | [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | Unknown |
 | [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | Unknown |
 | [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | No | Unknown |
-| [N2YO](https://www.n2yo.com/api) | Satellite tracking and prediction data | `apiKey` | Yes | Unknown |
 
 ### Security
 API | Description | Auth | HTTPS | CORS |
