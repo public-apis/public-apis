@@ -765,7 +765,6 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Bitly](http://dev.bitly.com/get_started.html) | URL shortener and link management | `OAuth` | Yes | Unknown |
 | [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | Monitor, compare, and optimize your marketing links | `apiKey` | Yes | Unknown |
-| [Google URL Shortener](https://developers.google.com/url-shortener/v1/getting_started) | Takes long URLs and squeezes them into fewer characters to make a link that is easier to share | `apiKey` | Yes | Unknown |
 | [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
 
 ### Vehicle
