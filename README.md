@@ -380,6 +380,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CitySDK](http://www.citysdk.eu/citysdk-toolkit/) | Open APIs for select European cities | No | Yes | Unknown |
 | [Daum Maps](http://apis.map.daum.net/) | Daum Maps provide multiple APIs for Korean maps | `apiKey` | No | Unknown |
 | [GeoApi](https://api.gouv.fr/api/geoapi.html) | French geographical data | No | Yes | Unknown |
+| [Geobarriers.io](https://www.geobarriers.io) | GeoJSON data via REST API for postal code, counties, and states | `apiKey` | Yes | Yes |
 | [Geocode.xyz](https://geocode.xyz/) | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | Unknown |
 | [GeoNames](http://www.geonames.org/export/web-services.html) | Place names and other geographical data | No | No | Unknown |
 | [Google Earth Engine](https://developers.google.com/earth-engine/) | A cloud-based platform for planetary-scale environmental data analysis | `apiKey` | Yes | Unknown |
