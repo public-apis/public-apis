@@ -552,6 +552,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Countly](http://resources.count.ly/docs) | Countly web analytics | No | No | Unknown |
 | [Drupal.org](https://www.drupal.org/drupalorg/docs/api) | Drupal.org | No | Yes | Unknown |
 | [Libraries.io](https://libraries.io/api) | Open source software libraries | `apiKey` | Yes | Unknown |
+| [yoda-api](https://github.com/richchurcher/yoda-api) | Translate to Yodish, you can. | No | No | Unknown |
 
 ### Patent
 API | Description | Auth | HTTPS | CORS |
