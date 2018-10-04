@@ -187,6 +187,7 @@ API | Description | Auth | HTTPS | CORS | Link |
 | MailTest | Email address validation | No | Yes | Unknown | [Go!](http://mailtest.in/documentation/) |
 | NumValidate | Open Source phone number validation | No | Yes | Unknown | [Go!](https://numvalidate.com) |
 | numverify | Phone number validation | No | Yes | Unknown | [Go!](https://numverify.com) |
+| Personal identification number validation | Validates PIN and generates valid PINs| No | Yes | Yes | [Go!](https://rcapi.abalin.net) |
 | PurgoMalum | Content validator against profanity & obscenity | No | No | Unknown | [Go!](http://www.purgomalum.com) |
 | vatlayer | VAT number validation | No | Yes | Unknown | [Go!](https://vatlayer.com) |
 
