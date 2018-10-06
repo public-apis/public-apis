@@ -536,6 +536,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Marijuana Strains](http://strains.evanbusse.com/) | Marijuana strains, races, flavors, and effects | `apiKey` | No | Unknown |
 | [Microlink.io](https://microlink.io) | Extract structured data from any website | No | Yes | Yes |
 | [Population.io](http://api.population.io/) | Open demographic data such as population tables, population rank and life expectancy | No | No | Unknown |
+| [Iextrading](https://iextrading.com/developer/) | Stock Market Data | No | Yes | Unknown |
 | [Quandl](https://www.quandl.com/) | Stock Market Data | No | Yes | Unknown |
 | [Scoop.it](http://www.scoop.it/dev) | Content Curation Service | `apiKey` | No | Unknown |
 | [Teleport](https://developers.teleport.org/) | Quality of Life Data | No | Yes | Unknown |
