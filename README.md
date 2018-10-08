@@ -449,6 +449,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Lexigram](https://docs.lexigram.io/v1/welcome) | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | Yes | Unknown |
 | [Makeup](http://makeup-api.herokuapp.com/) | Makeup Information | No | No | Unknown |
 | [Medicare](https://data.medicare.gov/developers) | Access to the data from the CMS - medicare.gov | No | Yes | Unknown |
+| [MINDBODY Public](https://developers.mindbodyonline.com/PublicDocumentation/GettingStarted) | World's largest fitness, beauty, and wellness marketplace | `apiKey` | Yes | Unknown |
 | [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | Unknown |
 | [Nutritionix](https://developer.nutritionix.com/) | Worlds largest verified nutrition database | `apiKey` | Yes | Unknown |
 | [openFDA](https://open.fda.gov) | Public FDA data about drugs, devices, and foods | No | Yes | Unknown |
