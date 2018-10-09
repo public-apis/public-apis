@@ -752,6 +752,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for Paris, France](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) | RATP Open Data API | No | No | Unknown |
 | [Transport for Philadelphia, US](http://www3.septa.org/hackathon/) | SEPTA APIs | No | No | Unknown |
 | [Transport for Sao Paulo, Brazil](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) | SPTrans | `OAuth` | No | Unknown |
+| [Transport for Stuttgart, Germany](https://efa-api.asw.io/api/v1/) | Stuttgart transport API | No | Yes | Unknown |
 | [Transport for Sweden](https://www.trafiklab.se/api) | Public Transport consumer | `OAuth` | Yes | Unknown |
 | [Transport for Switzerland](https://opentransportdata.swiss/en/) | Official Swiss Public Transport Open Data | `apiKey` | Yes | Unknown |
 | [Transport for Switzerland](https://transport.opendata.ch/) | Swiss public transport API | No | Yes | Unknown |
