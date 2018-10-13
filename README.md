@@ -18,6 +18,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Business](#business)
 * [Calendar](#calendar)
 * [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
+* [Countries](#countries)
 * [Continuous Integration](#continuous-integration)
 * [Cryptocurrency](#cryptocurrency)
 * [Currency Exchange](#currency-exchange)
@@ -157,6 +158,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Codeship](https://apidocs.codeship.com/) | Codeship is a Continuous Integration Platform in the cloud | `apiKey` | Yes | Unknown |
 | [Travis CI](https://docs.travis-ci.com/api/) | Sync your GitHub projects with Travis CI to test your code in minutes | `apiKey` | Yes | Unknown |
 
+### Countries
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [RestCountries](https://restcountries.eu/rest/v2/all) | List of Countries, Country Codes, Currencies etc | No | Yes | Unknown |
 ### Cryptocurrency
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
