@@ -199,7 +199,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Data Validation
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Valide email addresses, phone numbers, VAT numbers, and domain names | `apiKey` | Yes | Yes |
+| [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers, and domain names | `apiKey` | Yes | Yes |
 | [languagelayer](https://languagelayer.com) | Language detection | No | Yes | Unknown |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown |
 | [mailboxlayer](https://mailboxlayer.com) | Email address validation | No | Yes | Unknown |
