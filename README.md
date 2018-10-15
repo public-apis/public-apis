@@ -1,6 +1,6 @@
 # Public APIs [![Build Status](https://api.travis-ci.org/toddmotto/public-apis.svg)](https://travis-ci.org/toddmotto/public-apis)
 
-A collective list of free APIs for use in web development.
+A collective list of free APIs for use in software and web development.
 
 A public API for this project can be found [here](https://github.com/davemachado/public-api) - thanks to [DigitalOcean](https://www.digitalocean.com/) for helping us provide this service!
 
