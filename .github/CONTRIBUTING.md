@@ -10,14 +10,14 @@ community build applications and use free, public APIs quickly and easily. Pull 
 
 Current API entry format:
 
-| API | Description | Auth | HTTPS | CORS | Link |
-| --- | --- | --- | --- | --- | --- |
-| API Title | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * | Link to API webpage |
+| API | Description | Auth | HTTPS | CORS |
+| --- | --- | --- | --- | --- |
+| API Title(Link to API webpage) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * |
 
 Example entry:
 
 ```
-| NASA | NASA data, including imagery | No | Yes | Yes | [Go!](https://api.nasa.gov) |
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes |
 ```
 
 \* Currently, the only accepted inputs for the `Auth` field are as follows:
