@@ -35,6 +35,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Government](#government)
 * [Health](#health)
 * [Jobs](#jobs)
+* [Load Balancers & Content Delivery Networks](#load-balancers--content-delivery-networks)
 * [Machine Learning](#machine-learning)
 * [Music](#music)
 * [News](#news)
@@ -475,6 +476,13 @@ API | Description | Auth | HTTPS | CORS |
 | [Upwork](https://developers.upwork.com/) | Freelance job board and management system | `OAuth` | Yes | Unknown |
 | [USAJOBS](https://developer.usajobs.gov/) | US government job board | `apiKey` | Yes | Unknown |
 | [ZipRecruiter](https://www.ziprecruiter.com/publishers) | Job search app and website | `apiKey` | Yes | Unknown |
+
+### Load Balancers & Content Delivery Networks
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Akamai](https://developer.akamai.com/api/) | Akamai CDN | `apiKey` | Yes | Unknown |
+| [F5 Big IP](https://devcentral.f5.com/wiki/iControlREST.HomePage.ashx?lc=1) | F5 application services products | `apiKey` | Yes | Unknown |
+| [Netscaler](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/12.0/api-reference/) | Citrix Netscaler application delivery controller | `apiKey` | Yes | Unknown |
 
 ### Machine Learning
 API | Description | Auth | HTTPS | CORS |
