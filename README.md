@@ -17,6 +17,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Books](#books)
 * [Business](#business)
 * [Calendar](#calendar)
+* [Cloud Services](#cloud-services)
 * [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
 * [Continuous Integration](#continuous-integration)
 * [Cryptocurrency](#cryptocurrency)
@@ -140,6 +141,13 @@ API | Description | Auth | HTTPS | CORS |
 | [Namedays Calendar](https://api.abalin.net/) | Provides namedays for multiple countries | No | Yes | Yes |
 | [Non-Working Days](https://github.com/gadael/icsdb) | Database of ICS files for non working days | No | Yes | Unknown |
 | [Russian Calendar](https://github.com/egno/work-calendar) | Check if a date is a Russian holiday or not | No | Yes | No |
+
+### Cloud Services
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [AWS Config](https://docs.aws.amazon.com/config/latest/APIReference/Welcome.html) | AWS config | `apiKey` | Yes | Unknown |
+| [Azure](https://docs.microsoft.com/en-us/rest/api/azure/) | Azure cloud services | `OAuth` | Yes | Unknown |
+| [GCP](https://cloud.google.com/resource-manager/reference/rest/) | Google cloud platform | `OAuth` | Yes | Unknown |
 
 ### Cloud Storage & File Sharing
 API | Description | Auth | HTTPS | CORS |
