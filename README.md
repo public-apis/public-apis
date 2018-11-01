@@ -225,6 +225,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Changelogs.md](https://changelogs.md) | Structured changelog metadata from open source projects | No | Yes | Unknown |
 | [Count.io](https://count.io) | Persistent counting and A/B testing | No | Yes | Unknown |
 | [DigitalOcean Status](https://status.digitalocean.com/api/v1) | Status of all DigitalOcean services | No | Yes | Unknown |
+| [Docker](https://docs.docker.com/develop/sdk/) | Docker Engine SDKs and API for Docker daemon | No | Yes | Unknown |
 | [DomainDb Info](https://domainsdb.info/apidomainsdb/index.php) | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown |
 | [Faceplusplus](https://www.faceplusplus.com/) | A tool to detect face | `OAuth` | Yes | Unknown |
 | [Genderize.io](https://genderize.io) | Determines a gender from a first name | No | Yes | Unknown |
