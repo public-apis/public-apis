@@ -245,6 +245,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Myjson](http://myjson.com/api) | A simple JSON store for your web or mobile app | No | No | Unknown |
 | [OOPSpam](https://oopspam.com/) | Multiple spam filtering service | No | Yes | Yes |
 | [Plino](https://plino.herokuapp.com/) | Spam filtering system | No | Yes | Unknown |
+| [Postman](https://docs.api.getpostman.com/) | Tool for testing APIs | `apiKey` | Yes | Unknown |
 | [ProxyCrawl](https://proxycrawl.com) | Scraping and crawling anticaptcha service | `apiKey` | Yes | Unknown |
 | [Public APIs](https://github.com/davemachado/public-api) | A collective list of free JSON APIs for use in web development | No | Yes | Unknown |
 | [Pusher Beams](https://pusher.com/beams) | Push notifications for Android & iOS | `apiKey` | Yes | Unknown |
