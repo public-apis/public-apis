@@ -817,4 +817,5 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenWeatherMap](http://openweathermap.org/api) | Weather | `apiKey` | No | Unknown |
 | [Storm Glass](https://stormglass.io/) | Global marine weather from multiple sources | `apiKey` | Yes | Yes |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
+| [WTTR.in](https://github.com/chubin/wttr.in) | Console-oriented weather forecast service | No | No | Unknown |
 | [Yahoo! Weather](https://developer.yahoo.com/weather/) | Weather | `apiKey` | Yes | Unknown |
