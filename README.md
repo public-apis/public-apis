@@ -209,6 +209,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NumValidate](https://numvalidate.com) | Open Source phone number validation | No | Yes | Unknown |
 | [numverify](https://numverify.com) | Phone number validation | No | Yes | Unknown |
 | [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown |
+| [streetlayer](https://streetlayer.com) | Street address info and validation | `apiKey` | Yes | Unknown |
 | [vatlayer](https://vatlayer.com) | VAT number validation | No | Yes | Unknown |
 
 ### Development
