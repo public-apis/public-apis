@@ -2,6 +2,10 @@
 
 A collective list of free APIs for use in software and web development.
 
+Sponsor:
+
+<a href="https://ultimatecourses.com?utm_source=github.com"><img src="https://ultimatecourses.com/assets/img/banners/uc-leader.svg" style="width:100%;max-width:100%"></a>
+
 A public API for this project can be found [here](https://github.com/davemachado/public-api) - thanks to [DigitalOcean](https://www.digitalocean.com/) for helping us provide this service!
 
 For information on contributing to this project, please see the [contributing guide](.github/CONTRIBUTING.md).
@@ -77,6 +81,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
+| [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) | Anime industry news | No | Yes | Yes |
 | [Jikan](https://jikan.moe) | Unofficial MyAnimeList API | No | Yes | Yes |
 | [Kitsu](http://docs.kitsu.apiary.io/) | Anime discovery platform | `OAuth` | Yes | Unknown |
 | [Studio Ghibli](https://ghibliapi.herokuapp.com) | Resources from Studio Ghibli films | No | Yes | Unknown |
@@ -209,6 +214,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NumValidate](https://numvalidate.com) | Open Source phone number validation | No | Yes | Unknown |
 | [numverify](https://numverify.com) | Phone number validation | No | Yes | Unknown |
 | [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown |
+| [streetlayer](https://streetlayer.com) | Street address info and validation | `apiKey` | Yes | Unknown |
 | [vatlayer](https://vatlayer.com) | VAT number validation | No | Yes | Unknown |
 
 ### Development
@@ -238,7 +244,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IPify](https://www.ipify.org/) | A simple IP Address API | No | Yes | Unknown |
 | [IPinfo](https://ipinfo.io/developers) | Another simple IP Address API | No | Yes | Unknown |
 | [JSON 2 JSONP](https://json2jsonp.com/) | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | Unknown |
-| [JSONbin.io](https://jsonbin.io) | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | Unknown |
+| [JSONbin.io](https://jsonbin.io) | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | Yes |
 | [Judge0](https://api.judge0.com/) | Compile and run source code | No | Yes | Unknown |
 | [Let's Validate](https://github.com/letsvalidate/api) | Uncovers the technologies used on websites and URL to thumbnail | No | Yes | Unknown |
 | [License-API](https://github.com/cmccandless/license-api/blob/master/README.md) | Unofficial REST API for choosealicense.com | No | Yes | No |
@@ -390,7 +396,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Daum Maps](http://apis.map.daum.net/) | Daum Maps provide multiple APIs for Korean maps | `apiKey` | No | Unknown |
 | [GeoApi](https://api.gouv.fr/api/geoapi.html) | French geographical data | No | Yes | Unknown |
 | [Geocode.xyz](https://geocode.xyz/) | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | Unknown |
+| [GeoJS](https://geojs.io/) | IP geolocation with ChatOps integration | No | Yes | Yes |
 | [GeoNames](http://www.geonames.org/export/web-services.html) | Place names and other geographical data | No | No | Unknown |
+| [geoPlugin](https://www.geoplugin.com) | IP geolocation and currency conversion | No | Yes | Yes |
 | [Google Earth Engine](https://developers.google.com/earth-engine/) | A cloud-based platform for planetary-scale environmental data analysis | `apiKey` | Yes | Unknown |
 | [Google Maps](https://developers.google.com/maps/) | Create/customize digital maps based on Google Maps data | `apiKey` | Yes | Unknown |
 | [GraphLoc](https://www.graphloc.com) | Free GraphQL IP Geolocation API | No | Yes | Unknown |
@@ -401,6 +409,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IP Location](https://ipapi.co/) | Find IP address location information | No | Yes | Unknown |
 | [IP Sidekick](https://ipsidekick.com) | Geolocation API that returns extra information about an IP address | `apiKey` | Yes | Unknown |
 | [IP Vigilante](https://www.ipvigilante.com/) | Free IP Geolocation API | No | Yes | Unknown |
+| [IPGeolocationAPI.com](https://ipgeolocationapi.com/) | Locate your visitors by IP with country details | No | Yes | Yes |
 | [ipstack](https://ipstack.com/) | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown |
 | [LocationIQ](https://locationiq.org/docs/) | Provides forward/reverse geocoding and batch geocoding | `apiKey` | Yes | Yes |
 | [Mapbox](https://www.mapbox.com/developers/) | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown |
@@ -624,6 +633,7 @@ API | Description | Auth | HTTPS | CORS |
 | [AXFR Database](http://api.axfrcheck.com) | AXFR public database | No | No | Unknown |
 | [FilterLists](https://filterlists.com/api) | Lists of filters for adblockers and firewalls | No | Yes | Unknown |
 | [HaveIBeenPwned](https://haveibeenpwned.com/API/v2) | Passwords which have previously been exposed in data breaches | No | Yes | Unknown |
+| [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | U.S. National Vulnerability Database | No | Yes | Unknown |
 | [SecurityTrails](https://securitytrails.com/corp/apidocs) | Domain and IP related information such as current and historical WHOIS and DNS records | `apiKey` | Yes | Unknown |
 | [Shodan](https://developer.shodan.io/) | Search engine for Internet connected devices | `apiKey` | Yes | Unknown |
 | [UK Police](https://data.police.uk/docs/) | UK Police data | No | Yes | Unknown |
@@ -812,6 +822,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Weather
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [APIXU](https://www.apixu.com/doc/request.aspx) | Weather | `apiKey` | Yes | Unknown |
 | [ClimaCell Micro Weather](https://developer.climacell.co) | Historical, real-time and nowcast weather data | `apiKey` | Yes | Yes |
 | [Dark Sky](https://darksky.net/dev/) | Weather | `apiKey` | Yes | No |
 | [MetaWeather](https://www.metaweather.com/api/) | Weather | No | Yes | No |
