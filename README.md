@@ -502,7 +502,9 @@ API | Description | Auth | HTTPS | CORS |
 ### Metal Rates
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Xignite](https://www.xignite.com/product/gold-metal/#/DeveloperResources) | Real Time Metal Rates | `apiKey` | Yes | Unknown |
+| [Xignite](https://www.xignite.com/product/gold-metal/#/DeveloperResources) | Real time metal rates | `apiKey` | Yes | Unknown |
+| [Goldpricez](http://goldpricez.com/about/api) | Real time Gold rates | `apiKey` | No | Unknown |
+| [Silvergoldbull](https://silvergoldbull.com/api) | Real time Gold rates | `apiKey` | Yes | Unknown |
 
 ### Music
 API | Description | Auth | HTTPS | CORS |
