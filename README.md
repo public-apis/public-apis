@@ -40,6 +40,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Health](#health)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
+* [Metal Rates](#metal-rates)
 * [Music](#music)
 * [News](#news)
 * [Open Data](#open-data)
@@ -497,6 +498,11 @@ API | Description | Auth | HTTPS | CORS |
 | [Keen IO](https://keen.io/) | Data Analytics | `apiKey` | Yes | Unknown |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [Wit.ai](https://wit.ai/) | Natural Language Processing | `OAuth` | Yes | Unknown |
+
+### Metal Rates
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Xignite](https://www.xignite.com/product/gold-metal/#/DeveloperResources) | Real Time Metal Rates | `apiKey` | Yes | Unknown |
 
 ### Music
 API | Description | Auth | HTTPS | CORS |
