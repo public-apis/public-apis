@@ -383,7 +383,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Steam](https://developer.valvesoftware.com/wiki/Steam_Web_API) | Steam Client Interaction | `OAuth` | Yes | Unknown |
 | [Vainglory](https://developer.vainglorygame.com/) | Vainglory Players, Matches and Telemetry | `apiKey` | Yes | Yes |
 | [Wargaming.net](https://developers.wargaming.net/) | Wargaming.net info and stats | `apiKey` | Yes | No |
-| [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | Unknown |
+| [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | Yes |
 
 ### Geocoding
 API | Description | Auth | HTTPS | CORS |
