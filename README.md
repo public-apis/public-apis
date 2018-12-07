@@ -430,6 +430,8 @@ API | Description | Auth | HTTPS | CORS |
 | [ViaCep](https://viacep.com.br) | Brazil RESTful zip codes API | No | Yes | Unknown |
 | [Zipcodeapi](https://www.zipcodeapi.com) | Find out possible zip codes for a city, distance between zip codes etc | `apiKey` | Yes | Unknown |
 | [Zippopotam](http://www.zippopotam.us) | Get information about place such as country, city, state, etc | No | No | Unknown |
+| [Geocod.io](https://www.geocod.io/) | Address geocoding, reverse geocoding using API endpoints and can be used for bulk geocode addresses by uploading a spreadsheet | `apiKey` | Yes | Unknown |
+
 
 ### Government
 API | Description | Auth | HTTPS | CORS |
