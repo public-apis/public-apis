@@ -769,6 +769,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for India](https://data.gov.in/sector/transport) | India Public Transport API | `apiKey` | Yes | Unknown |
 | [Transport for London, England](https://api.tfl.gov.uk) | TfL API | No | Yes | Unknown |
 | [Transport for Madrid, Spain](http://opendata.emtmadrid.es/Servicios-web/BUS) | Madrid BUS transport API | `apiKey` | No | Unknown |
+| [Transport for Manchester, England](https://developer.tfgm.com/) | TfGM transport network data | `apiKey` | Yes | No |
 | [Transport for Minneapolis, US](http://svc.metrotransit.org/) | NexTrip API | `OAuth` | No | Unknown |
 | [Transport for New York City, US](http://datamine.mta.info/) | MTA | `apiKey` | No | Unknown |
 | [Transport for Norway](http://reisapi.ruter.no/help) | Norwegian transport API | No | No | Unknown |
