@@ -691,6 +691,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Cricket Live Scores](https://market.mashape.com/dev132/cricket-live-scores) | Live cricket scores | `X-Mashape-Key` | Yes | Unknown |
 | [Ergast F1](http://ergast.com/mrd/) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
 | [Fitbit](https://dev.fitbit.com/) | Fitbit Information | `OAuth` | Yes | Unknown |
+| [Football Prediction](https://boggio-analytics.com/fp-api/) | Predictions for upcoming football matches, odds, results and stats | `X-Mashape-Key` | Yes | Unknown |
 | [Football-Data.org](http://api.football-data.org/index) | Football Data | No | No | Unknown |
 | [JCDecaux Bike](https://developer.jcdecaux.com/) | JCDecaux's self-service bicycles | `apiKey` | Yes | Unknown |
 | [NBA Stats](https://any-api.com/nba_com/nba_com/docs/API_Description) | Current and historical NBA Statistics | No | Yes | Unknown |
