@@ -354,6 +354,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Games & Comics
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Age of Empires II](https://age-of-empires-2-api.herokuapp.com) | Get information about Age of Empires II resources | No | Yes | Unknown |
 | [AmiiboAPI](http://www.amiiboapi.com/) | Amiibo Information | No | No | Yes |
 | [Battle.net](https://dev.battle.net/) | Blizzard Entertainment | `apiKey` | Yes | Unknown |
 | [Battlefield 4](https://bf4stats.com/api) | Battlefield 4 Information | No | Yes | Unknown |
