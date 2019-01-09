@@ -47,6 +47,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Patent](#patent)
 * [Personality](#personality)
 * [Photography](#photography)
+* [Plants](#plants)
 * [Science & Math](#science--math)
 * [Security](#security)
 * [Shopping](#shopping)
@@ -615,6 +616,11 @@ API | Description | Auth | HTTPS | CORS |
 | [PlaceKitten](https://placekitten.com/) | Resizable kitten placeholder images | No | Yes | Unknown |
 | [ScreenShotLayer](https://screenshotlayer.com) | URL 2 Image | No | Yes | Unknown |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
+
+### Plants
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Trefle](https://trefle.io/) | Provides information about thousands of plants | `apiKey` | Yes | Unknown |
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
