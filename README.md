@@ -93,7 +93,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Google Safe Browsing](https://developers.google.com/safe-browsing/) | Google Link/Domain Flagging | `apiKey` | Yes | Unknown |
 | [Metacert](https://metacert.com/) | Metacert Link Flagging | `apiKey` | Yes | Unknown |
 | [VirusTotal](https://www.virustotal.com/en/documentation/public-api/) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
-| [Web Of Trust (WOT)](https://www.mywot.com/wiki/API) | Website reputation | `apiKey` | Yes | Unknown |
+| [Web Of Trust (WOT)](https://www.mywot.com/en/API) | Website reputation | `apiKey` | Yes | Unknown |
 
 ### Art & Design
 API | Description | Auth | HTTPS | CORS |
