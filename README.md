@@ -578,6 +578,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Countly](http://resources.count.ly/docs) | Countly web analytics | No | No | Unknown |
 | [Drupal.org](https://www.drupal.org/drupalorg/docs/api) | Drupal.org | No | Yes | Unknown |
+| [Evil Insult Generator](https://evilinsult.com/api) | Evil Insults | No | Yes | Yes |
 | [Libraries.io](https://libraries.io/api) | Open source software libraries | `apiKey` | Yes | Unknown |
 
 ### Patent
