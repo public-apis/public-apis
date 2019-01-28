@@ -515,6 +515,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Discogs](https://www.discogs.com/developers/) | Music | `OAuth` | Yes | Unknown |
 | [Genius](https://docs.genius.com/) | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | Unknown |
 | [Genrenator](https://binaryjazz.us/genrenator-api/) | Music genre generator | No | Yes | Unknown |
+| [GoArtistAPI](https://www.goartistapi.xyz/) | Artists for a respective genre | No | Yes | Unknown |
 | [iTunes Search](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) | Software products | No | Yes | Unknown |
 | [Jamendo](https://developer.jamendo.com/v3.0) | Music | `OAuth` | Yes | Unknown |
 | [LastFm](https://www.last.fm/api) | Music | `apiKey` | Yes | Unknown |
