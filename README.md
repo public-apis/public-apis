@@ -156,6 +156,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OneDrive](https://dev.onedrive.com/) | File Sharing and Storage | `OAuth` | Yes | Unknown |
 | [Pastebin](https://pastebin.com/api/) | Plain Text Storage | `apiKey` | Yes | Unknown |
 | [WeTransfer](https://developers.wetransfer.com) | File Sharing | `apiKey` | Yes | Yes |
+| [Put.io](https://api.put.io/v2/docs/index.html) | Cloud storage that can fetch files for you | `OAuth` | Yes | Yes |
 
 ### Continuous Integration
 API | Description | Auth | HTTPS | CORS |
