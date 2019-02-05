@@ -692,6 +692,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Cartola FC](https://github.com/wgenial/cartrolandofc) | The Cartola FC API serves to check the partial points of your team | No | Yes | Unknown |
 | [City Bikes](http://api.citybik.es/v2/) | City Bikes around the world | No | No | Unknown |
 | [Cricket Live Scores](https://market.mashape.com/dev132/cricket-live-scores) | Live cricket scores | `X-Mashape-Key` | Yes | Unknown |
+| [Decathlon Sports](https://developers.decathlon.com/sports) | AI-powered Sport Recommendations | No | Yes | Yes |
+| [Decathlon Sport Places](https://developers.decathlon.com/sportplaces) | Location data on places to practice sports | No | Yes | Yes |
 | [Ergast F1](http://ergast.com/mrd/) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
 | [Fitbit](https://dev.fitbit.com/) | Fitbit Information | `OAuth` | Yes | Unknown |
 | [Football Prediction](https://boggio-analytics.com/fp-api/) | Predictions for upcoming football matches, odds, results and stats | `X-Mashape-Key` | Yes | Unknown |
