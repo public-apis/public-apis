@@ -769,7 +769,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for Belgium](https://hello.irail.be/api/) | Belgian transport API | No | Yes | Unknown |
 | [Transport for Berlin, Germany](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) | Third-party VBB API | No | Yes | Unknown |
 | [Transport for Boston, US](https://mbta.com/developers/v3-api) | MBTA API | No | No | Unknown |
-| [Transport for Budapest, Hungary](https://apiary.io/) | Budapest public transport API | No | Yes | Unknown |
+| [Transport for Budapest, Hungary](https://bkkfutar.docs.apiary.io) | Budapest public transport API | No | Yes | Unknown |
 | [Transport for Chicago, US](http://www.transitchicago.com/developers/) | CTA | No | No | Unknown |
 | [Transport for Czech Republic](https://www.chaps.cz/eng/products/idos-internet) | Czech transport API | No | Yes | Unknown |
 | [Transport for Denver, US](http://www.rtd-denver.com/gtfs-developer-guide.shtml) | RTD | No | No | Unknown |
