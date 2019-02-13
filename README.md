@@ -512,25 +512,25 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [AI Mastering](https://aimastering.com/api_docs/) | Automated Music Mastering | `apiKey` | Yes | Yes |
 | [Bandsintown](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) | Music Events | No | Yes | Unknown |
-| [Deezer](https://developers.deezer.com/api) | Music | `OAuth` | Yes | Unknown |
-| [Discogs](https://www.discogs.com/developers/) | Music | `OAuth` | Yes | Unknown |
+| [Deezer](https://developers.deezer.com/api) | Web-based music streaming service | `OAuth` | Yes | Unknown |
+| [Discogs](https://www.discogs.com/developers/) | User-built database with artist/label information | `OAuth` | Yes | Unknown |
 | [Genius](https://docs.genius.com/) | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | Unknown |
 | [Genrenator](https://binaryjazz.us/genrenator-api/) | Music genre generator | No | Yes | Unknown |
 | [iTunes Search](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) | Software products | No | Yes | Unknown |
-| [Jamendo](https://developer.jamendo.com/v3.0) | Music | `OAuth` | Yes | Unknown |
-| [LastFm](https://www.last.fm/api) | Music | `apiKey` | Yes | Unknown |
+| [Jamendo](https://developer.jamendo.com/v3.0) | Database of albums, artists, tracks, playlists, reviews| `OAuth` | Yes | Unknown |
+| [LastFm](https://www.last.fm/api) | Build programs with Last.fm data | `apiKey` | Yes | Unknown |
 | [Lyrics.ovh](http://docs.lyricsovh.apiary.io/) | Simple API to retrieve the lyrics of a song | No | Yes | Unknown |
-| [Mixcloud](https://www.mixcloud.com/developers/) | Music | `OAuth` | Yes | Yes |
-| [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) | Music | No | Yes | Unknown |
-| [Musikki](https://music-api.musikki.com/reference) | Music | `apiKey` | Yes | Unknown |
-| [Musixmatch](https://developer.musixmatch.com/) | Music | `apiKey` | Yes | Unknown |
+| [Mixcloud](https://www.mixcloud.com/developers/) | Search Mixcloud database, embeddable widget | `OAuth` | Yes | Yes |
+| [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) | Open source music metadata encyclopedia | No | Yes | Unknown |
+| [Musikki](https://music-api.musikki.com/reference) | Real-time music database, aggregates info from multiple APIs | `apiKey` | Yes | Unknown |
+| [Musixmatch](https://developer.musixmatch.com/) | Search for songs by artist, title or lyrics, retrieve lyrics, surround lyrics with song metadata | `apiKey` | Yes | Unknown |
 | [Openwhyd](https://openwhyd.github.io/openwhyd/API) | Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...) | `No` | Yes | No |
 | [Songkick](https://www.songkick.com/developer/) | Music Events | `OAuth` | Yes | Unknown |
 | [Songsterr](https://www.songsterr.com/a/wa/api/) | Provides guitar, bass and drums tabs and chords | No | Yes | Unknown |
 | [SoundCloud](https://developers.soundcloud.com/) | Allow users to upload and share sounds | `OAuth` | Yes | Unknown |
 | [Spotify](https://beta.developer.spotify.com/documentation/web-api/) | View Spotify music catalog, manage users' libraries, get recommendations and more | `OAuth` | Yes | Unknown |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
-| [TheAudioDB](http://www.theaudiodb.com) | Music | `apiKey` | No | Unknown |
+| [TheAudioDB](http://www.theaudiodb.com) | Community database of audio artwork and data | `apiKey` | No | Unknown |
 | [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
 
 ### News
