@@ -291,6 +291,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Restpack](https://restpack.io/) | Provides screenshot, HTML to PDF and content extraction APIs | `apiKey` | Yes | Unknown |
 | [Todoist](https://developer.todoist.com) | Todo Lists | `OAuth` | Yes | Unknown |
 | [Vector Express](http://vector.express) | Free vector file converting API | No | No | Yes |
+| [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Wunderlist](https://developer.wunderlist.com/documentation) | Todo Lists | `OAuth` | Yes | Unknown |
 
 ### Environment
@@ -429,6 +430,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Postcodes.io](https://postcodes.io) | Postcode lookup & Geolocation for the UK | No | Yes | Yes |
 | [REST Countries](https://restcountries.eu) | Get information about countries via a RESTful API | No | Yes | Unknown |
 | [Uebermaps](https://uebermaps.com/api/v2) | Discover and share maps with friends | `apiKey` | Yes | Unknown |
+| [US Autocomplete](https://smartystreets.com/docs/cloud/us-autocomplete-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes |
+| [US Extract](https://smartystreets.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes |
+| [US Street Address](https://smartystreets.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes |
 | [Utah AGRC](https://api.mapserv.utah.gov) | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | Unknown |
 | [ViaCep](https://viacep.com.br) | Brazil RESTful zip codes API | No | Yes | Unknown |
 | [Zipcodeapi](https://www.zipcodeapi.com) | Find out possible zip codes for a city, distance between zip codes etc | `apiKey` | Yes | Unknown |
@@ -556,6 +560,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Callook.info](https://callook.info) | United States ham radio callsigns | No | Yes | Unknown |
 | [CARTO](https://carto.com/) | Location Information Prediction | `apiKey` | Yes | Unknown |
 | [Celebinfo](https://market.mashape.com/daxeel/celebinfo/) | Celebrity information | `X-Mashape-Key` | Yes | Unknown |
+| [CivicFeed](https://developers.civicfeed.com/) | News articles and public datasets | `apiKey` | Yes | Unknown |
 | [Datakick](https://www.datakick.org/api) | The open product database | `apiKey` | Yes | Unknown |
 | [Dronestream](https://dronestre.am/) | Tracks United States drone strikes | No | Yes | Unknown |
 | [Enigma Public](http://docs.enigma.com/public/public_v20_api_about) | Broadest collection of public data | `apiKey` | Yes | Yes |
@@ -694,6 +699,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [balldontlie](https://balldontlie.io) | Ballldontlie provides access to stats data from the NBA | No | Yes | Yes |
 | [BikeWise](https://www.bikewise.org/documentation/api_v2) | Bikewise is a place to learn about and report bike crashes, hazards and thefts | No | Yes | Unknown |
+| [Canadian Football League (CFL)](http://api.cfl.ca/) | Official JSON API providing real-time league, team and player statistics about the CFL | `apiKey` | Yes | No |
 | [Cartola FC](https://github.com/wgenial/cartrolandofc) | The Cartola FC API serves to check the partial points of your team | No | Yes | Unknown |
 | [City Bikes](http://api.citybik.es/v2/) | City Bikes around the world | No | No | Unknown |
 | [Cricket Live Scores](https://market.mashape.com/dev132/cricket-live-scores) | Live cricket scores | `X-Mashape-Key` | Yes | Unknown |
