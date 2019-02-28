@@ -140,7 +140,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Church Calendar](http://calapi.inadiutorium.cz/) | Catholic liturgical calendar | No | No | Unknown |
 | [Czech Namedays Calendar](http://svatky.adresa.info/) | Lookup for a name and returns nameday date | No | No | Unknown |
 | [Google Calendar](https://developers.google.com/google-apps/calendar/) | Display, create and modify Google calendar events | `OAuth` | Yes | Unknown |
-| [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) | Convert between Gregarian and Hebrew, fetch Shabbat and Holiday times, etc | No | No | Unknown |
+| [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) | Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc | No | No | Unknown |
 | [Holidays](https://holidayapi.com/) | Historical data regarding holidays | `apiKey` | Yes | Unknown |
 | [LectServe](http://www.lectserve.com) | Protestant liturgical calendar | No | No | Unknown |
 | [Nager.Date](https://date.nager.at) | Public holidays for more than 90 countries | No | Yes | No |
@@ -445,7 +445,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Colorado Information Marketplace](https://data.colorado.gov/) | Colorado State Government Open Data | No | Yes | Unknown |
 | [Data USA](https://datausa.io/about/api/) | US Public Data | No | Yes | Unknown |
 | [Data.gov](https://api.data.gov/) | US Government Data | `apiKey` | Yes | Unknown |
-| [Data.parliament.uk](http://www.data.parliament.uk/developers/) | Contains live datasets including information about petitions, bills, MP votes, attendence and more | No | No | Unknown |
+| [Data.parliament.uk](http://www.data.parliament.uk/developers/) | Contains live datasets including information about petitions, bills, MP votes, attendance and more | No | No | Unknown |
 | [District of Columbia Open Data](http://opendata.dc.gov/pages/using-apis) | Contains D.C. government public datasets, including crime, GIS, financial data, and so on | No | Yes | Unknown |
 | [EPA](https://developer.epa.gov/category/apis/) | Web services and data sets from the US Environmental Protection Agency | No | Yes | Unknown |
 | [FEC](https://api.open.fec.gov/developers/) | Information on campaign donations in federal elections | `apiKey` | Yes | Unknown |
