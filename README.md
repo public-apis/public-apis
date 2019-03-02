@@ -343,6 +343,7 @@ API | Description | Auth | HTTPS | CORS |
 | [What's on the menu?](http://nypl.github.io/menus-api/) | NYPL human-transcribed historical menu collection | `apiKey` | No | Unknown |
 | [Yummly](https://developer.yummly.com/) | Find food recipes | `apiKey` | Yes | Unknown |
 | [Zomato](https://developers.zomato.com/api) | Discover restaurants | `apiKey` | Yes | Unknown |
+| [Order Pizza API](https://github.com/muhammadh-s/order-pizza-api) | A RESTful API as pizza restaurant ordering system. | `apiKey` | Yes | Unknown |
 
 
 ### Fraud Prevention
