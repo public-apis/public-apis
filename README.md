@@ -334,6 +334,7 @@ API | Description | Auth | HTTPS | CORS |
 | [LCBO](https://lcboapi.com/) | Alcohol | `apiKey` | Yes | Unknown |
 | [Open Brewery DB](https://www.openbrewerydb.org) | Breweries, Cideries and Craft Beer Bottle Shops | No | Yes | Yes |
 | [Open Food Facts](https://world.openfoodfacts.org/data) | Food Products Database | No | Yes | Unknown |
+| [Order Pizza API](https://github.com/muhammadh-s/order-pizza-api) | A RESTful API as pizza restaurant ordering system | `apiKey` | Yes | Unknown |
 | [PunkAPI](https://punkapi.com/) | Brewdog Beer Recipes | No | Yes | Unknown |
 | [Recipe Puppy](http://www.recipepuppy.com/about/api/) | Food | No | No | Unknown |
 | [TacoFancy](https://github.com/evz/tacofancy-api) | Community-driven taco database | No | No | Unknown |
@@ -343,8 +344,6 @@ API | Description | Auth | HTTPS | CORS |
 | [What's on the menu?](http://nypl.github.io/menus-api/) | NYPL human-transcribed historical menu collection | `apiKey` | No | Unknown |
 | [Yummly](https://developer.yummly.com/) | Find food recipes | `apiKey` | Yes | Unknown |
 | [Zomato](https://developers.zomato.com/api) | Discover restaurants | `apiKey` | Yes | Unknown |
-| [Order Pizza API](https://github.com/muhammadh-s/order-pizza-api) | A RESTful API as pizza restaurant ordering system. | `apiKey` | Yes | Unknown |
-
 
 ### Fraud Prevention
 API | Description | Auth | HTTPS | CORS |
