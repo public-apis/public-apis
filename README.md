@@ -621,6 +621,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PlaceKitten](https://placekitten.com/) | Resizable kitten placeholder images | No | Yes | Unknown |
 | [ScreenShotLayer](https://screenshotlayer.com) | URL 2 Image | No | Yes | Unknown |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
+| [ImgFlip](https://api.imgflip.com/) | Meme Photos | `apiKey` | Yes | Unknown |
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
