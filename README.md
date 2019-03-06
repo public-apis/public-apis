@@ -461,6 +461,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Taiwan](https://data.gov.tw/) | Taiwan Government Open Data | No | Yes | Unknown |
 | [Open Government, USA](https://www.data.gov/) | United States Government Open Data | No | Yes | Unknown |
 | [Prague Opendata](http://opendata.praha.eu/en) | Prague City Open Data | No | No | Unknown |
+| [Receita WS](https://www.receitaws.com.br//) | Consult companies by CNPJ for Brazilian companies | No | Yes | Unknown |
 | [Regulations.gov](https://regulationsgov.github.io/developers/) | Federal regulatory materials to increase understanding of the Federal rule making process | `apiKey` | Yes | Unknown |
 | [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
