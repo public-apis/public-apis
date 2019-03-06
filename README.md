@@ -464,6 +464,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Regulations.gov](https://regulationsgov.github.io/developers/) | Federal regulatory materials to increase understanding of the Federal rule making process | `apiKey` | Yes | Unknown |
 | [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
+| [Receita WS](https://www.receitaws.com.br//) | Consult companies by CNPJ for Brazilian companies | No | Yes | Unknown |
 
 ### Health
 API | Description | Auth | HTTPS | CORS |
