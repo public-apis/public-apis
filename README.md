@@ -747,6 +747,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Postmon](http://postmon.com.br) | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | Unknown |
 | [Sweden](https://developer.postnord.com/docs2) | Provides information about parcels in transport | `apiKey` | No | Unknown |
 | [UPS](https://www.ups.com/upsdeveloperkit) | Shipment and Address information | `apiKey` | Yes | Unknown |
+| [WhatPulse](https://whatpulse.org/pages/webapi/) | Small application that measures your keyboard/mouse usage | No | Yes | Unknown |
 
 ### Transportation
 API | Description | Auth | HTTPS | CORS |
