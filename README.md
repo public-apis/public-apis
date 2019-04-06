@@ -380,7 +380,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Jservice](http://jservice.io) | Jeopardy Question Database | No | No | Unknown |
 | [Magic The Gathering](http://magicthegathering.io/) | Magic The Gathering Game Information | No | No | Unknown |
 | [Marvel](http://developer.marvel.com) | Marvel Comics | `apiKey` | No | Unknown |
-| [mod.io](https://docs.mod.io) | Mod API | `apiKey` | Yes | Unknown |
+| [mod.io](https://docs.mod.io) | Cross Platform Mod API | `apiKey` | Yes | Unknown |
 | [Open Trivia](https://opentdb.com/api_config.php) | Trivia Questions | No | Yes | Unknown |
 | [PandaScore](https://api.pandascore.co) | E-sports games and results | `apiKey` | Yes | Unknown |
 | [PlayerUnknown's Battlegrounds](https://pubgtracker.com/site-api) | PUBG Stats | `apiKey` | Yes | Unknown |
