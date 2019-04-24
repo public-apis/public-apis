@@ -850,7 +850,6 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [APIXU](https://www.apixu.com/doc/request.aspx) | Weather | `apiKey` | Yes | Unknown |
-| [ClimaCell Micro Weather](https://developer.climacell.co) | Historical, real-time and nowcast weather data | `apiKey` | Yes | Yes |
 | [Dark Sky](https://darksky.net/dev/) | Weather | `apiKey` | Yes | No |
 | [MetaWeather](https://www.metaweather.com/api/) | Weather | No | Yes | No |
 | [NOAA Climate Data](https://www.ncdc.noaa.gov/cdo-web/) | Weather and climate data | `apiKey` | Yes | Unknown |
