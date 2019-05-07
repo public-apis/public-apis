@@ -85,6 +85,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Jikan](https://jikan.moe) | Unofficial MyAnimeList API | No | Yes | Yes |
 | [Kitsu](http://docs.kitsu.apiary.io/) | Anime discovery platform | `OAuth` | Yes | Unknown |
 | [Studio Ghibli](https://ghibliapi.herokuapp.com) | Resources from Studio Ghibli films | No | Yes | Unknown |
+| [What Anime](https://soruly.github.io/trace.moe/) | Scan anime image to get specific Detail | `apiKey` | Yes | Unknown
 
 ### Anti-Malware
 API | Description | Auth | HTTPS | CORS |
@@ -747,6 +748,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Google Cloud Natural](https://cloud.google.com/natural-language/docs/) | Natural language understanding technology, including sentiment, entity and syntax analysis | `apiKey` | Yes | Unknown |
 | [Semantira](https://semantria.readme.io/docs) | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown |
 | [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown |
+| [OCR (Optical Character Recognition)](https://ocr.space/ocrapi) | is the use of technology to distinguish printed or handwritten text characters inside digital images of physical documents. | `apiKey` | Yes | Unknown |
 
 ### Tracking
 API | Description | Auth | HTTPS | CORS |
