@@ -448,7 +448,7 @@ API | Description | Auth | HTTPS | CORS |
 | [BCLaws](http://www.bclaws.ca/civix/template/complete/api/index.html) | Access to the laws of British Columbia | No | No | Unknown |
 | [BusinessUSA](https://business.usa.gov/developer) | Authoritative information on U.S. programs, events, services and more | `apiKey` | Yes | Unknown |
 | [Census.gov](https://www.census.gov/data/developers/data-sets.html) | The US Census Bureau provides various APIs and data sets on demographics and businesses | No | Yes | Unknown |
-| [Code.gov](https://code.gov) | The primary platform for Open Sourse and code sharing for the U.S. Federal Government | `apikey` | Yes | Unknown |
+| [Code.gov](https://code.gov) | The primary platform for Open Sourse and code sharing for the U.S. Federal Government | `apiKey` | Yes | Unknown |
 | [Colorado Data Engine](http://codataengine.org/) | Formatted and geolocated Colorado public data | No | Yes | Unknown |
 | [Colorado Information Marketplace](https://data.colorado.gov/) | Colorado State Government Open Data | No | Yes | Unknown |
 | [Data USA](https://datausa.io/about/api/) | US Public Data | No | Yes | Unknown |
