@@ -837,7 +837,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Dailymotion](https://developer.dailymotion.com/) | Dailymotion Developer API | `OAuth` | Yes | Unknown |
 | [Open Movie Database](http://www.omdbapi.com/) | Movie information | `apiKey` | Yes | Unknown |
 | [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) | Television | No | Yes | Unknown |
-| [similar.tv](https://similar.tv) | A free API to discover similar TV shows. | No | Yes | Yes |
+| [similar.tv](https://similar.tv) | A free API to discover similar TV shows | No | Yes | Yes |
 | [STAPI](http://stapi.co) | Information on all things Star Trek | No | No | No |
 | [SWAPI](https://swapi.co) | Star Wars Information | No | Yes | Unknown |
 | [TMDb](https://www.themoviedb.org/documentation/api) | Community-based movie data | `apiKey` | Yes | Unknown |
