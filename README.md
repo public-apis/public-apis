@@ -118,6 +118,8 @@ API | Description | Auth | HTTPS | CORS |
 | [LibGen](http://garbage.world/posts/libgen/) | Library Genesis search engine | No | No | Unknown |
 | [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | Yes | Unknown |
 | [Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/) | Books, book covers and related data | No | Yes | Unknown |
+| [Rig Veda API](https://aninditabasu.github.io/indica/html/rv.html) | Returns the gods and poets, their categories, and the meters from all of the Rig Veda verses, together with the mandal and sukta number | No | Yes | Unknown |
+| [Vedic Society API](https://aninditabasu.github.io/indica/html/vs.html) | Returns the descriptions of all nouns (names, places, animals, things) from the entire vedic literature | No | Yes | Unknown |
 
 ### Business
 API | Description | Auth | HTTPS | CORS |
