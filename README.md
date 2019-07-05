@@ -424,6 +424,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IPGeolocationAPI.com](https://ipgeolocationapi.com/) | Locate your visitors by IP with country details | No | Yes | Yes |
 | [IPInfoDB](https://ipinfodb.com/api) | Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address | `apiKey` | Yes | Unknown |
 | [ipstack](https://ipstack.com/) | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown |
+| [Kwelo Network](https://www.kwelo.com/network/ip-address) | Locate and get detailed information on IP address | No | Yes | Yes |
 | [LocationIQ](https://locationiq.org/docs/) | Provides forward/reverse geocoding and batch geocoding | `apiKey` | Yes | Yes |
 | [Mapbox](https://www.mapbox.com/developers/) | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown |
 | [Mexico](https://github.com/IcaliaLabs/sepomex) | Mexico RESTful zip codes API | No | Yes | Unknown |
@@ -728,6 +729,7 @@ API | Description | Auth | HTTPS | CORS |
 | [FakeJSON](https://fakejson.com) | Service to generate test and fake data | `apiKey` | Yes | Yes |
 | [FHIR](http://fhirtest.uhn.ca/home) | Fast Healthcare Interoperability Resources test data | No | Yes | Unknown |
 | [Hipster Ipsum](http://hipsterjesus.com/) | Generates Hipster Ipsum text | No | No | Unknown |
+| [Identicon](https://www.kwelo.com/media/identicon/) | Generates abstract avatar image | No | Yes | Yes |
 | [JSONPlaceholder](http://jsonplaceholder.typicode.com/) | Fake data for testing and prototyping | No | No | Unknown |
 | [Lorem Text](https://market.mashape.com/montanaflynn/lorem-text-generator) | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | Unknown |
 | [LoremPicsum](http://lorempicsum.com) | Generate placeholder pictures | No | No | Unknown |
