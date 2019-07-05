@@ -301,6 +301,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [AirVisual](https://airvisual.com/api) | Air quality and weather data | `apiKey` | Yes | Unknown |
+| [GrünstromIndex](https://www.corrently.de/hintergrund/gruenstromindex/index.html) | Green Power Index for Germany (Grünstromindex/GSI) | No | No | Yes |
 | [OpenAQ](https://docs.openaq.org/) | Open air quality data | `apiKey` | Yes | Unknown |
 | [PM2.5.in](http://www.pm25.in/api_doc) | Air quality of China | `apiKey` | No | Unknown |
 | [PVWatts](https://developer.nrel.gov/docs/solar/pvwatts/v6/) | Energy production photovoltaic (PV) energy systems | `apiKey` | Yes | Unknown |
