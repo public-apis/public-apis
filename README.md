@@ -774,6 +774,7 @@ API | Description | Auth | HTTPS | CORS |
 | [AIS Web](http://www.aisweb.aer.mil.br/api/doc/index.cfm) | Aeronautical information in digital media produced by the Department of Airspace Control (DECEA) | `apiKey` | No | Unknown |
 | [Amadeus Travel Innovation Sandbox](https://sandbox.amadeus.com/) | Travel Search - Limited usage | `apiKey` | Yes | Unknown |
 | [Bay Area Rapid Transit](http://api.bart.gov) | Stations and predicted arrivals for BART | `apiKey` | No | Unknown |
+| [BlaBlaCar](https://dev.blablacar.com/docs/versions/1.0) | Search car sharing trips | `apiKey` | Yes | Unknown |
 | [Community Transit](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) | Transitland API | No | Yes | Unknown |
 | [Goibibo](https://developer.goibibo.com/docs) | API for travel search | `apiKey` | Yes | Unknown |
 | [GraphHopper](https://graphhopper.com/api/1/docs/) | A-to-B routing with turn-by-turn instructions | `apiKey` | Yes | Unknown |
