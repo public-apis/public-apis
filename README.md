@@ -867,6 +867,7 @@ API | Description | Auth | HTTPS | CORS |
 | [APIXU](https://www.apixu.com/doc/request.aspx) | Weather | `apiKey` | Yes | Unknown |
 | [Dark Sky](https://darksky.net/dev/) | Weather | `apiKey` | Yes | No |
 | [MetaWeather](https://www.metaweather.com/api/) | Weather | No | Yes | No |
+| [Meteorologisk Institutt](https://api.met.no/weatherapi/documentation) | Weather and climate data | No | Yes | Unknown |
 | [NOAA Climate Data](https://www.ncdc.noaa.gov/cdo-web/) | Weather and climate data | `apiKey` | Yes | Unknown |
 | [ODWeather](http://api.oceandrivers.com/static/docs.html) | Weather and weather webcams | No | No | Unknown |
 | [OpenUV](https://www.openuv.io) | Real-time UV Index Forecast | `apiKey` | Yes | Unknown |
