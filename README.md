@@ -478,6 +478,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
 
+
 ### Health
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
@@ -575,6 +576,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Enigma Public](http://docs.enigma.com/public/public_v20_api_about) | Broadest collection of public data | `apiKey` | Yes | Yes |
 | [fonoApi](https://fonoapi.freshpixl.com/) | Mobile Device Description | No | Yes | Unknown |
 | [French Address Search](https://adresse.data.gouv.fr/api) | Address search via the French Government | No | Yes | Unknown |
+| [Italy DatiOpen](http://www.datiopen.it/) | Italy open data | No | Yes | Unknown |
 | [LinkPreview](https://www.linkpreview.net) | Get JSON formatted summary with title, description and preview image for any requested URL | `apiKey` | Yes | Yes |
 | [Marijuana Strains](http://strains.evanbusse.com/) | Marijuana strains, races, flavors and effects | `apiKey` | No | Unknown |
 | [Microlink.io](https://microlink.io) | Extract structured data from any website | No | Yes | Yes |
