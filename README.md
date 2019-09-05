@@ -107,6 +107,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Icons8](http://docs.icons8.apiary.io/#reference/0/meta) | Icons | `OAuth` | Yes | Unknown |
 | [Noun Project](http://api.thenounproject.com/index.html) | Icons | `OAuth` | No | Unknown |
 | [Rijksmuseum](https://www.rijksmuseum.nl/en/api) | Art | `apiKey` | Yes | Unknown |
+| [Metropolitan Museum of Art](https://metmuseum.github.io/) | Art | No | Yes | Unknown |
+
 
 ### Books
 API | Description | Auth | HTTPS | CORS |
