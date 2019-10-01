@@ -276,6 +276,7 @@ API | Description | Auth | HTTPS | CORS |
 | [StackExchange](https://api.stackexchange.com/) | Q&A forum for developers | `OAuth` | Yes | Unknown |
 | [Verse](https://verse.pawelad.xyz/) | Check what's the latest version of your favorite open-source project | No | Yes | Unknown |
 | [XML to JSON](https://developers.wso2apistore.com/) | Integration developer utility APIs | No | Yes | Unknown |
+| [Image to Link](https://images.ctfassets.net/) | Generate link from image(Integration developer utility APIs) | No | Yes | YES |
 
 ### Dictionaries
 API | Description | Auth | HTTPS | CORS |
