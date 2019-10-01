@@ -545,7 +545,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SoundCloud](https://developers.soundcloud.com/) | Allow users to upload and share sounds | `OAuth` | Yes | Unknown |
 | [Spotify](https://beta.developer.spotify.com/documentation/web-api/) | View Spotify music catalog, manage users' libraries, get recommendations and more | `OAuth` | Yes | Unknown |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
-| [TheAudioDB](http://www.theaudiodb.com) | Music | `apiKey` | No | Unknown |
+| [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
 | [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
 
 ### News
