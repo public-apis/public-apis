@@ -199,7 +199,6 @@ API | Description | Auth | HTTPS | CORS |
 | [NiceHash](https://www.nicehash.com/doc-api) | Largest Crypto Mining Marketplace | `apiKey` | Yes | Unknown |
 | [Poloniex](https://poloniex.com/support/api/) | US based digital asset exchange | `apiKey` | Yes | Unknown |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
-| [Zloader](https://www.zloadr.com/cryptocurrency-developers.php) | Due diligence data platform | `apiKey` | Yes | Unknown |
 
 ### Currency Exchange
 API | Description | Auth | HTTPS | CORS |
