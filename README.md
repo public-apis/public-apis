@@ -90,6 +90,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Anti-Malware
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [AbuseIPDB](https://docs.abuseipdb.com/) | IP/domain/URL reputation | `apikey` | Yes | Unknown |
 | [AlienVault Open Threat Exchange (OTX)](https://otx.alienvault.com/api/) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
 | [Google Safe Browsing](https://developers.google.com/safe-browsing/) | Google Link/Domain Flagging | `apiKey` | Yes | Unknown |
 | [Metacert](https://metacert.com/) | Metacert Link Flagging | `apiKey` | Yes | Unknown |
