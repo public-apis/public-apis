@@ -206,7 +206,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Livecoin](https://www.livecoin.net/api) | Cryptocurrency Exchange | No | Yes | Unknown |
 | [MercadoBitcoin](https://www.mercadobitcoin.net/api-doc/) | Brazilian Cryptocurrency Information | No | Yes | Unknown |
 | [Nexchange](https://nexchange2.docs.apiary.io/) | Automated cryptocurrency exchange service | No | No | Yes |
-| [NiceHash](https://www.nicehash.com/doc-api) | Largest Crypto Mining Marketplace | `apiKey` | Yes | Unknown |
+| [NiceHash](https://docs.nicehash.com/) | Largest Crypto Mining Marketplace | `apiKey` | Yes | Unknown |
 | [Poloniex](https://poloniex.com/support/api/) | US based digital asset exchange | `apiKey` | Yes | Unknown |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
 | [Zloader](https://www.zloadr.com/cryptocurrency-developers.php) | Due diligence data platform | `apiKey` | Yes | Unknown |
