@@ -523,7 +523,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [Wit.ai](https://wit.ai/) | Natural Language Processing | `OAuth` | Yes | Unknown |
 
-
 ### Music
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
