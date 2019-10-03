@@ -728,6 +728,7 @@ API | Description | Auth | HTTPS | CORS |
 | [JCDecaux Bike](https://developer.jcdecaux.com/) | JCDecaux's self-service bicycles | `apiKey` | Yes | Unknown |
 | [NBA Stats](https://any-api.com/nba_com/nba_com/docs/API_Description) | Current and historical NBA Statistics | No | Yes | Unknown |
 | [NFL Arrests](http://nflarrest.com/api/) | NFL Arrest Data | No | No | Unknown |
+| [NHL Records and Stats](https://gitlab.com/dword4/nhlapi) | NHL historical data and statistics | No | Yes | Unknown |
 | [Pro Motocross](http://promotocrossapi.com) | The RESTful AMA Pro Motocross lap times for every racer on the start gate | No | No | Unknown |
 | [Strava](https://strava.github.io/api/) | Connect with athletes, activities and more | `OAuth` | Yes | Unknown |
 | [SuredBits](https://suredbits.com/api/) | Query sports data, including teams, players, games, scores and statistics | No | No | No |
