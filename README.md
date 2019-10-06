@@ -709,7 +709,6 @@ API | Description | Auth | HTTPS | CORS |
 ### Security
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [AXFR Database](http://api.axfrcheck.com) | AXFR public database | No | No | Unknown |
 | [CRXcavator](https://crxcavator.io/apidocs) | Chrome extension risk scoring | `apiKey` | Yes | Unknown |
 | [FilterLists](https://filterlists.com/api) | Lists of filters for adblockers and firewalls | No | Yes | Unknown |
 | [HaveIBeenPwned](https://haveibeenpwned.com/API/v3) | Passwords which have previously been exposed in data breaches | `apiKey` | Yes | Unknown |
