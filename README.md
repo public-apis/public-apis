@@ -17,7 +17,6 @@ Please note a passing build status indicates all listed APIs are available since
 * [Animals](#animals)
 * [Anime](#anime)
 * [Anti-Malware](#anti-malware)
-* [Audio](#audio)
 * [Art & Design](#art--design)
 * [Books](#books)
 * [Business](#business)
@@ -41,6 +40,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Health](#health)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
+* [Music](#music)
 * [News](#news)
 * [Open Data](#open-data)
 * [Open Source Projects](#open-source-projects)
@@ -94,32 +94,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Metacert](https://metacert.com/) | Metacert Link Flagging | `apiKey` | Yes | Unknown |
 | [VirusTotal](https://www.virustotal.com/en/documentation/public-api/) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
 | [Web Of Trust (WOT)](https://www.mywot.com/en/API) | Website reputation | `apiKey` | Yes | Unknown |
-
-### Audio
-API | Description | Auth | HTTPS | CORS |
-|---|---|---|---|---|
-| [AI Mastering](https://aimastering.com/api_docs/) | Automated Music Mastering | `apiKey` | Yes | Yes |
-| [Bandsintown](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) | Music Events | No | Yes | Unknown |
-| [Deezer](https://developers.deezer.com/api) | Music | `OAuth` | Yes | Unknown |
-| [Discogs](https://www.discogs.com/developers/) | Music | `OAuth` | Yes | Unknown |
-| [Genius](https://docs.genius.com/) | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | Unknown |
-| [Genrenator](https://binaryjazz.us/genrenator-api/) | Music genre generator | No | Yes | Unknown |
-| [iTunes Search](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) | Software products | No | Yes | Unknown |
-| [Jamendo](https://developer.jamendo.com/v3.0) | Music | `OAuth` | Yes | Unknown |
-| [LastFm](https://www.last.fm/api) | Music | `apiKey` | Yes | Unknown |
-| [Listen Notes](https://www.listennotes.com/api/) | Podcast search engine | `apiKey` | Yes | No |
-| [Lyrics.ovh](http://docs.lyricsovh.apiary.io/) | Simple API to retrieve the lyrics of a song | No | Yes | Unknown |
-| [Mixcloud](https://www.mixcloud.com/developers/) | Music | `OAuth` | Yes | Yes |
-| [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) | Music | No | Yes | Unknown |
-| [Musixmatch](https://developer.musixmatch.com/) | Music | `apiKey` | Yes | Unknown |
-| [Openwhyd](https://openwhyd.github.io/openwhyd/API) | Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...) | `No` | Yes | No |
-| [Songkick](https://www.songkick.com/developer/) | Music Events | `OAuth` | Yes | Unknown |
-| [Songsterr](https://www.songsterr.com/a/wa/api/) | Provides guitar, bass and drums tabs and chords | No | Yes | Unknown |
-| [SoundCloud](https://developers.soundcloud.com/) | Allow users to upload and share sounds | `OAuth` | Yes | Unknown |
-| [Spotify](https://beta.developer.spotify.com/documentation/web-api/) | View Spotify music catalog, manage users' libraries, get recommendations and more | `OAuth` | Yes | Unknown |
-| [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
-| [TheAudioDB](http://www.theaudiodb.com) | Music | `apiKey` | No | Unknown |
-| [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
 
 ### Art & Design
 API | Description | Auth | HTTPS | CORS |
@@ -542,6 +516,32 @@ API | Description | Auth | HTTPS | CORS |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [Wit.ai](https://wit.ai/) | Natural Language Processing | `OAuth` | Yes | Unknown |
 
+### Music
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [AI Mastering](https://aimastering.com/api_docs/) | Automated Music Mastering | `apiKey` | Yes | Yes |
+| [Bandsintown](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) | Music Events | No | Yes | Unknown |
+| [Deezer](https://developers.deezer.com/api) | Music | `OAuth` | Yes | Unknown |
+| [Discogs](https://www.discogs.com/developers/) | Music | `OAuth` | Yes | Unknown |
+| [Genius](https://docs.genius.com/) | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | Unknown |
+| [Genrenator](https://binaryjazz.us/genrenator-api/) | Music genre generator | No | Yes | Unknown |
+| [iTunes Search](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) | Software products | No | Yes | Unknown |
+| [Jamendo](https://developer.jamendo.com/v3.0) | Music | `OAuth` | Yes | Unknown |
+| [LastFm](https://www.last.fm/api) | Music | `apiKey` | Yes | Unknown |
+| [Listen Notes](https://www.listennotes.com/api/) | Podcast search engine | `apiKey` | Yes | Yes |
+| [Lyrics.ovh](http://docs.lyricsovh.apiary.io/) | Simple API to retrieve the lyrics of a song | No | Yes | Unknown |
+| [Mixcloud](https://www.mixcloud.com/developers/) | Music | `OAuth` | Yes | Yes |
+| [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) | Music | No | Yes | Unknown |
+| [Musixmatch](https://developer.musixmatch.com/) | Music | `apiKey` | Yes | Unknown |
+| [Openwhyd](https://openwhyd.github.io/openwhyd/API) | Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...) | `No` | Yes | No |
+| [Songkick](https://www.songkick.com/developer/) | Music Events | `OAuth` | Yes | Unknown |
+| [Songsterr](https://www.songsterr.com/a/wa/api/) | Provides guitar, bass and drums tabs and chords | No | Yes | Unknown |
+| [SoundCloud](https://developers.soundcloud.com/) | Allow users to upload and share sounds | `OAuth` | Yes | Unknown |
+| [Spotify](https://beta.developer.spotify.com/documentation/web-api/) | View Spotify music catalog, manage users' libraries, get recommendations and more | `OAuth` | Yes | Unknown |
+| [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
+| [TheAudioDB](http://www.theaudiodb.com) | Music | `apiKey` | No | Unknown |
+| [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
+
 ### News
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
@@ -627,7 +627,6 @@ API | Description | Auth | HTTPS | CORS |
 | [PlaceKitten](https://placekitten.com/) | Resizable kitten placeholder images | No | Yes | Unknown |
 | [ScreenShotLayer](https://screenshotlayer.com) | URL 2 Image | No | Yes | Unknown |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
-
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
