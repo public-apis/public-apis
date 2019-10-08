@@ -510,6 +510,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, India](https://data.gov.in/) | Indian Government Open Data | `apiKey` | Yes | Unknown |
 | [Open Government, Italy](https://www.dati.gov.it/) | Italy Government Open Data | No | Yes | Unknown |
 | [Open Government, New Zealand](https://www.data.govt.nz/) | New Zealand Government Open Data | No | Yes | Unknown |
+| [Open Government, Romania](http://data.gov.ro/) | Romania Government Open Data | No | No | Unknown |
 | [Open Government, Taiwan](https://data.gov.tw/) | Taiwan Government Open Data | No | Yes | Unknown |
 | [Open Government, USA](https://www.data.gov/) | United States Government Open Data | No | Yes | Unknown |
 | [Regulations.gov](https://regulationsgov.github.io/developers/) | Federal regulatory materials to increase understanding of the Federal rule making process | `apiKey` | Yes | Unknown |
