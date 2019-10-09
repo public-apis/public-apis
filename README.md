@@ -131,6 +131,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | `apiKey` | Yes | Unknown |
+| [Domain (LabStack)](https://labstack.com/domain) | Search domain for availability, lookup DNS & whois record of a domain  | `apiKey` | Yes | Yes |
 | [Domainsdb.info](https://domainsdb.info/) | Registered Domain Names Search | No | Yes | Unknown |
 | [Freelancer](https://developers.freelancer.com) | Hire freelancers to get work done | `OAuth` | Yes | Unknown |
 | [Gmail](https://developers.google.com/gmail/api/) | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | Unknown |
@@ -217,6 +218,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [1Forge](https://1forge.com/forex-data-api/api-documentation) | Forex currency market data | `apiKey` | Yes | Unknown |
+| [Currency (LabStack)](https://labstack.com/currency) | Convert one currency to another with reliable exchanges rates | `apiKey` | Yes | Yes |
 | [Currencylayer](https://currencylayer.com/documentation) | Exchange rates and currency conversion | `apiKey` | Yes | Unknown |
 | [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | A collection of exchange rates | No | Yes | Unknown |
 | [ExchangeRate-API](https://www.exchangerate-api.com) | Free currency conversion | No | Yes | Yes |
@@ -229,6 +231,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | Yes |
+| [Email (LabStack)](https://labstack.com/email) | Instant email address verification to filter legit addresses | `apiKey` | Yes | Yes |
 | [languagelayer](https://languagelayer.com) | Language detection | No | Yes | Unknown |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown |
 | [mailboxlayer](https://mailboxlayer.com) | Email address validation | No | Yes | Unknown |
@@ -319,6 +322,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Todoist](https://developer.todoist.com) | Todo Lists | `OAuth` | Yes | Unknown |
 | [Vector Express](http://vector.express) | Free vector file converting API | No | No | Yes |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
+| [Webpage (Labstack)](https://labstack.com/webpage) | High resolution, retina display and responsive screenshot | `apiKey` | Yes | Yes |
 | [Wunderlist](https://developer.wunderlist.com/documentation) | Todo Lists | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
@@ -457,6 +461,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Indian Cities](https://indian-cities-api-nocbegfhqg.now.sh/) | Get all Indian cities in a clean JSON Format | No | Yes | Yes |
 | [IP 2 Country](https://ip2country.info) | Map an IP to a country | No | Yes | Unknown |
 | [IP Address Details](https://ipinfo.io/) | Find geolocation with ip address | No | Yes | Unknown |
+| [IP (LabStack)](http://labstack.com/ip) | Lookup country, region, city, time-zone, currency and language of an IP | `apiKey` | Yes | Yes |
 | [IP Location](http://ip-api.com/) | Find location with ip address | No | No | Unknown |
 | [IP Location](https://ipapi.co/) | Find IP address location information | No | Yes | Unknown |
 | [IP Sidekick](https://ipsidekick.com) | Geolocation API that returns extra information about an IP address | `apiKey` | Yes | Unknown |
