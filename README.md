@@ -357,6 +357,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth` | Yes | Yes |
 | [VAT Rates](https://jsonvat.com/) | A collection of all VAT rates for EU countries | No | Yes | Unknown |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes |
+| [BB](https://developers.bb.com.br/pt-br/) | Banco do Brasil | `OAuth` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Food & Drink
