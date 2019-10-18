@@ -856,6 +856,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Community Transit](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) | Transitland API | No | Yes | Unknown |
 | [Goibibo](https://developer.goibibo.com/docs) | API for travel search | `apiKey` | Yes | Unknown |
 | [GraphHopper](https://graphhopper.com/api/1/docs/) | A-to-B routing with turn-by-turn instructions | `apiKey` | Yes | Unknown |
+| [HyperTrack](https://docs.hypertrack.com/) | Build applications that track the movement of your business | `apiKey` | Yes | Yes |
 | [Icelandic APIs](http://docs.apis.is/) | Open APIs that deliver services in or regarding Iceland | No | Yes | Unknown |
 | [Indian Railways](http://api.erail.in/) | Indian Railways Information | `apiKey` | No | Unknown |
 | [Izi](http://api-docs.izi.travel/) | Audio guide for travellers | `apiKey` | Yes | Unknown |
