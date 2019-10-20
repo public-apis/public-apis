@@ -346,6 +346,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | `apiKey` | Yes | Unknown |
 | [Barchart OnDemand](https://www.barchartondemand.com/free) | Stock, Futures and Forex Market Data | `apiKey` | Yes | Unknown |
+| [BB](https://developers.bb.com.br/pt-br/) | Banco do Brasil | `OAuth` | Yes | Yes |
 | [Consumer Financial Protection Bureau](https://data.consumerfinance.gov/resource/jhzv-w97w.json) | Financial services consumer complaint data | `apiKey` | Yes | Unknown |
 | [Financial Modeling Prep](https://financialmodelingprep.com/) | Stock information and data | No | Yes | Unknown |
 | [IEX](https://iextrading.com/developer/) | Realtime stock data | No | Yes | Yes |
@@ -357,7 +358,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth` | Yes | Yes |
 | [VAT Rates](https://jsonvat.com/) | A collection of all VAT rates for EU countries | No | Yes | Unknown |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes |
-| [BB](https://developers.bb.com.br/pt-br/) | Banco do Brasil | `OAuth` | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 ### Food & Drink
