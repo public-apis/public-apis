@@ -943,6 +943,7 @@ API | Description | Auth | HTTPS | CORS |
 | [STAPI](http://stapi.co) | Information on all things Star Trek | No | No | No |
 | [SWAPI](https://swapi.co) | Star Wars Information | No | Yes | Unknown |
 | [TMDb](https://www.themoviedb.org/documentation/api) | Community-based movie data | `apiKey` | Yes | Unknown |
+| [Trakt](https://trakt.tv/b/api-docs) | Movie and TV Data | `apiKey` | Yes | Yes |
 | [TVDB](https://api.thetvdb.com/swagger) | Television data | `apiKey` | Yes | Unknown |
 | [TVMaze](http://www.tvmaze.com/api) | TV Show Data | No | No | Unknown |
 | [Utelly](https://market.mashape.com/utelly/utelly) | Check where a tv show or movie is available | `X-Mashape-Key` | Yes | Unknown |
