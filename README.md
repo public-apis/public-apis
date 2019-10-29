@@ -622,6 +622,7 @@ API | Description | Auth | HTTPS | CORS |
 | [18F](http://18f.github.io/API-All-the-X/) | Unofficial US Federal Government API Development | No | No | Unknown |
 | [Abbreviation](https://market.mashape.com/daxeel/abbreviations) | Get abbreviations and meanings | `X-Mashape-Key` | Yes | Unknown |
 | [Archive.org](https://archive.readme.io/docs) | The Internet Archive | No | Yes | Unknown |
+| [ARSAT](https://datos.arsat.com.ar/developers/) | ARSAT public data | `apiKey` | Yes | Unknown |
 | [Callook.info](https://callook.info) | United States ham radio callsigns | No | Yes | Unknown |
 | [CARTO](https://carto.com/) | Location Information Prediction | `apiKey` | Yes | Unknown |
 | [Celebinfo](https://market.mashape.com/daxeel/celebinfo/) | Celebrity information | `X-Mashape-Key` | Yes | Unknown |
