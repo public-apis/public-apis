@@ -344,7 +344,6 @@ API | Description | Auth | HTTPS | CORS |
 ### Finance
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Intrinio](https://intrinio.com/) | A wide selection of financial data feeds | `apiKey` | Yes | Unknown |
 | [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | `apiKey` | Yes | Unknown |
 | [Barchart OnDemand](https://www.barchartondemand.com/free) | Stock, Futures and Forex Market Data | `apiKey` | Yes | Unknown |
 | [Consumer Financial Protection Bureau](https://data.consumerfinance.gov/resource/jhzv-w97w.json) | Financial services consumer complaint data | `apiKey` | Yes | Unknown |
@@ -352,6 +351,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IEX](https://iextrading.com/developer/) | Realtime stock data | No | Yes | Yes |
 | [IEX Cloud](https://iexcloud.io/) | Realtime & Historical Stock and Market Data | `apiKey` | Yes | Yes |
 | [IG](https://labs.ig.com/gettingstarted) | Spreadbetting and CFD Market Data | `apiKey` | Yes | Unknown |
+| [Intrinio](https://intrinio.com/) | A wide selection of financial data feeds | `apiKey` | Yes | Unknown |
 | [Plaid](https://plaid.com/) | Connect with users’ bank accounts and access transaction data | `apiKey` | Yes | Unknown |
 | [Razorpay IFSC](https://ifsc.razorpay.com/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown |
 | [RoutingNumbers.info](https://www.routingnumbers.info/api/index.html) | ACH/NACHA Bank Routing Numbers | No | Yes | Unknown |
