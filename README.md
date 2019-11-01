@@ -611,6 +611,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Currents](https://currentsapi.services/) | Latest news published in various news sources, blogs and forums | `apiKey` | Yes | Yes |
 | [Feedbin](https://github.com/feedbin/feedbin-api) | RSS reader | `OAuth` | Yes | Unknown |
 | [Feedster](https://api.feedster.me/v1/docs/) | Searchable and categorized collections of RSS feeds | `apiKey` | Yes | Unknown |
+| [Listen Notes](https://www.listennotes.com/api/) | Podcast search and directory API | `apiKey` | Yes | Yes |
 | [New York Times](https://developer.nytimes.com/) | Provides news | `apiKey` | Yes | Unknown |
 | [News](https://newsapi.org/) | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | Unknown |
 | [NPR One](http://dev.npr.org/api/) | Personalized news listening experience from NPR | `OAuth` | Yes | Unknown |
