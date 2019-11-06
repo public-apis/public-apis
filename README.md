@@ -32,6 +32,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Environment](#environment)
 * [Events](#events)
 * [Finance](#finance)
+* [Flight-Data](#Flight-Data)
 * [Food & Drink](#food--drink)
 * [Fraud Prevention](#fraud-prevention)
 * [Games & Comics](#games--comics)
@@ -361,6 +362,16 @@ API | Description | Auth | HTTPS | CORS |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
+
+### Flight-Data
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Travel Payouts](https://support.travelpayouts.com/hc/en-us/articles/203956163) | Gives Data About Flight According to Api Requests | `apiKey` | No | Unknown |
+| [Travel Payouts](https://support.travelpayouts.com/hc/en-us/articles/203956173) | A Flight Search Api which gives real time data of flights | `apiKey` | No | Unknown |
+
+**[⬆ Back to Index](#index)**
+
 ### Food & Drink
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
