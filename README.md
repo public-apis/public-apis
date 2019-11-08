@@ -968,6 +968,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenUV](https://www.openuv.io) | Real-time UV Index Forecast | `apiKey` | Yes | Unknown |
 | [OpenWeatherMap](http://openweathermap.org/api) | Weather | `apiKey` | No | Unknown |
 | [Storm Glass](https://stormglass.io/) | Global marine weather from multiple sources | `apiKey` | Yes | Yes |
+| [Weather Hacks](http://weather.livedoor.com/weather_hacks/) | Weather, for Japan | No | No | No |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
 | [Yahoo! Weather](https://developer.yahoo.com/weather/) | Weather | `apiKey` | Yes | Unknown |
 
