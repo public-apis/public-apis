@@ -365,7 +365,6 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Edamam](https://developer.edamam.com/) | Recipe Search | `apiKey` | Yes | Unknown |
-| [Food2Fork](http://food2fork.com/about/api) | Recipe Search | `apiKey` | No | Unknown |
 | [LCBO](https://lcboapi.com/) | Alcohol | `apiKey` | Yes | Unknown |
 | [Open Brewery DB](https://www.openbrewerydb.org) | Breweries, Cideries and Craft Beer Bottle Shops | No | Yes | Yes |
 | [Open Food Facts](https://world.openfoodfacts.org/data) | Food Products Database | No | Yes | Unknown |
@@ -396,7 +395,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Age of Empires II](https://age-of-empires-2-api.herokuapp.com) | Get information about Age of Empires II resources | No | Yes | Unknown |
 | [AmiiboAPI](http://www.amiiboapi.com/) | Amiibo Information | No | No | Yes |
 | [Battle.net](https://dev.battle.net/) | Blizzard Entertainment | `apiKey` | Yes | Unknown |
-| [Battlefield 4](https://bf4stats.com/api) | Battlefield 4 Information | No | Yes | Unknown |
 | [Chuck Norris Database](http://www.icndb.com/api/) | Jokes | No | No | Unknown |
 | [Clash of Clans](https://developer.clashofclans.com) | Clash of Clans Game Information | `apiKey` | Yes | Unknown |
 | [Clash Royale](https://developer.clashroyale.com) | Clash Royale Game Information | `apiKey` | Yes | Unknown |
