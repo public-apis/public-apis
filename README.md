@@ -210,6 +210,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Nexchange](https://nexchange2.docs.apiary.io/) | Automated cryptocurrency exchange service | No | No | Yes |
 | [NiceHash](https://docs.nicehash.com/) | Largest Crypto Mining Marketplace | `apiKey` | Yes | Unknown |
 | [Poloniex](https://poloniex.com/support/api/) | US based digital asset exchange | `apiKey` | Yes | Unknown |
+| [Technical Analysis API](https://technical-analysis-api.com) | Cryptocurrency prices and technical analysis | `apiKey` | Yes | No |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
