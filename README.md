@@ -368,6 +368,7 @@ API | Description | Auth | HTTPS | CORS |
 | [LCBO](https://lcboapi.com/) | Alcohol | `apiKey` | Yes | Unknown |
 | [Open Brewery DB](https://www.openbrewerydb.org) | Breweries, Cideries and Craft Beer Bottle Shops | No | Yes | Yes |
 | [Open Food Facts](https://world.openfoodfacts.org/data) | Food Products Database | No | Yes | Unknown |
+| [Order Pizza](https://order-pizza-api.herokuapp.com/api/ui) | Pizza ordering system | `apiKey` | Yes | Yes |
 | [PunkAPI](https://punkapi.com/) | Brewdog Beer Recipes | No | Yes | Unknown |
 | [Recipe Puppy](http://www.recipepuppy.com/about/api/) | Food | No | No | Unknown |
 | [TacoFancy](https://github.com/evz/tacofancy-api) | Community-driven taco database | No | No | Unknown |
