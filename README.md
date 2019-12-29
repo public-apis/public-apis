@@ -823,6 +823,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Lorem Text](https://market.mashape.com/montanaflynn/lorem-text-generator) | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | Unknown |
 | [LoremPicsum](http://lorempicsum.com) | Generate placeholder pictures | No | No | Unknown |
 | [Loripsum](http://loripsum.net/) | The "lorem ipsum" generator that doesn't suck | No | No | Unknown |
+| [Micro-Jaymock](https://micro-jaymock.now.sh/) | Tiny API mocking microservice for generating fake JSON data | No | Yes | No |
 | [RandomUser](https://randomuser.me) | Generates random user data | No | Yes | Unknown |
 | [RoboHash](https://robohash.org/) | Generate random robot/alien avatars | No | Yes | Unknown |
 | [This Person Does not Exist](https://thispersondoesnotexist.com) | Generates real-life faces of people who do not exist | No | Yes | Unknown |
