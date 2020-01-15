@@ -828,6 +828,7 @@ API | Description | Auth | HTTPS | CORS |
 | [This Person Does not Exist](https://thispersondoesnotexist.com) | Generates real-life faces of people who do not exist | No | Yes | Unknown |
 | [UI Names](https://github.com/thm/uinames) | Generate random fake names | No | Yes | Unknown |
 | [Yes No](https://yesno.wtf/api) | Generate yes or no randomly | No | Yes | Unknown |
+| [Randommer](https://randommer.io/randommer-api) | Random data generator | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Text Analysis
