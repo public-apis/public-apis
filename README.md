@@ -353,6 +353,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IEX](https://iextrading.com/developer/) | Realtime stock data | No | Yes | Yes |
 | [IEX Cloud](https://iexcloud.io/) | Realtime & Historical Stock and Market Data | `apiKey` | Yes | Yes |
 | [IG](https://labs.ig.com/gettingstarted) | Spreadbetting and CFD Market Data | `apiKey` | Yes | Unknown |
+| [Jive Data](https://jivedata.com/documentation) | 13F Hedge Fund and Mutual Fund holdings. Form 4 Insider Transactions | No | Yes | Unknown |
 | [Plaid](https://plaid.com/) | Connect with users’ bank accounts and access transaction data | `apiKey` | Yes | Unknown |
 | [Razorpay IFSC](https://ifsc.razorpay.com/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown |
 | [RoutingNumbers.info](https://www.routingnumbers.info/api/index.html) | ACH/NACHA Bank Routing Numbers | No | Yes | Unknown |
