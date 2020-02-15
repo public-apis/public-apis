@@ -350,7 +350,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Barchart OnDemand](https://www.barchartondemand.com/free) | Stock, Futures and Forex Market Data | `apiKey` | Yes | Unknown |
 | [Consumer Financial Protection Bureau](https://data.consumerfinance.gov/resource/jhzv-w97w.json) | Financial services consumer complaint data | `apiKey` | Yes | Unknown |
 | [Financial Modeling Prep](https://financialmodelingprep.com/) | Stock information and data | No | Yes | Unknown |
-| [IEX](https://iextrading.com/developer/) | Realtime stock data | No | Yes | Yes |
+| [IEX](https://iextrading.com/developer/) | Realtime stock data | `apiKey` | Yes | Yes |
 | [IEX Cloud](https://iexcloud.io/) | Realtime & Historical Stock and Market Data | `apiKey` | Yes | Yes |
 | [IG](https://labs.ig.com/gettingstarted) | Spreadbetting and CFD Market Data | `apiKey` | Yes | Unknown |
 | [Plaid](https://plaid.com/) | Connect with users’ bank accounts and access transaction data | `apiKey` | Yes | Unknown |
