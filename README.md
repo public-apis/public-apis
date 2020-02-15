@@ -918,6 +918,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Bitly](http://dev.bitly.com/get_started.html) | URL shortener and link management | `OAuth` | Yes | Unknown |
 | [CleanURI](https://cleanuri.com/docs) | URL shortener service | `No` | Yes | Yes |
 | [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | Monitor, compare and optimize your marketing links | `apiKey` | Yes | Unknown |
+| [T.LY](https://t.ly/) | URL shortener API | No | Yes | No |
 | [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
 | [Relink](https://rel.ink) | Free and secure URL shortener | No | Yes | Yes |
 
