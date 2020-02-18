@@ -296,6 +296,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Dictionaries
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Google Dictionary API](https://dictionaryapi.dev) | Word definitions, examples, pronunciations, synonyms, and others | No | Yes | Yes |
 | [Lingua Robot](https://www.linguarobot.io) | Word definitions, pronunciations, synonyms, antonyms and others | `apiKey` | Yes | Yes |
 | [Merriam-Webster](https://dictionaryapi.com/) | Dictionary and Thesaurus Data | `apiKey` | Yes | Unknown |
 | [OwlBot](https://owlbot.info/) | Definitions with example sentence and photo if available | `apiKey` | Yes | Yes |
