@@ -476,6 +476,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Postcodes.io](https://postcodes.io) | Postcode lookup & Geolocation for the UK | No | Yes | Yes |
 | [REST Countries](https://restcountries.eu) | Get information about countries via a RESTful API | No | Yes | Unknown |
 | [SmartIP.io](https://smartip.io) | IP Geolocation and Threat Intelligence API | `apiKey` | Yes | Yes |
+| [SLF](https://github.com/slftool/slftool.github.io/blob/master/API.md) | German city, country, river, database | No | Yes | Yes |
 | [Uebermaps](https://uebermaps.com/api/v2) | Discover and share maps with friends | `apiKey` | Yes | Unknown |
 | [US ZipCode](https://smartystreets.com/docs/cloud/us-zipcode-api) | Validate and append data for any US ZipCode | `apiKey` | Yes | Yes |
 | [Utah AGRC](https://api.mapserv.utah.gov) | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | Unknown |
