@@ -16,6 +16,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Art & Design](#art--design)
 * [Books](#books)
 * [Business](#business)
+* [Corona Virus](#corona-virus)
 * [Calendar](#calendar)
 * [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
 * [Continuous Integration](#continuous-integration)
@@ -136,6 +137,12 @@ API | Description | Auth | HTTPS | CORS |
 | [markerapi](http://www.markerapi.com/) | Trademark Search | No | No | Unknown |
 | [Ticksel](https://ticksel.com) | Friendly website analytics made for humans | No | Yes | Unknown |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Corona Virus
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [REST API Coronavirus](https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme) | HTTP API for Latest Wuhan Coronavirus Data | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Calendar
