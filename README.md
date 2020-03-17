@@ -524,7 +524,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [BetterDoctor](https://developer.betterdoctor.com/) | Detailed information about doctors in your area | `apiKey` | Yes | Unknown |
 | [Diabetes](http://predictbgl.com/api/) | Logging and retrieving diabetes information | No | No | Unknown |
-| [Corvid-19](https://covid19api.com/) | Corvid 19 spread, infection and recovery | No | Yes | Yes |
+| [Covid-19](https://covid19api.com/) | Covid 19 spread, infection and recovery | No | Yes | Yes |
 | [Flutrack](http://www.flutrack.org/) | Influenza-like symptoms with geotracking | No | No | Unknown |
 | [Healthcare.gov](https://www.healthcare.gov/developers/) | Educational content about the US Health Insurance Marketplace | No | Yes | Unknown |
 | [Lexigram](https://docs.lexigram.io/v1/welcome) | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | Yes | Unknown |
