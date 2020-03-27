@@ -967,6 +967,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenWeatherMap](http://openweathermap.org/api) | Weather | `apiKey` | No | Unknown |
 | [Storm Glass](https://stormglass.io/) | Global marine weather from multiple sources | `apiKey` | Yes | Yes |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
+| [Weatherstack](https://weatherstack.com/product) | Real-Time & Historical World Weather Data API | `apiKey` | Yes | Yes |
 | [Yahoo! Weather](https://developer.yahoo.com/weather/) | Weather | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
