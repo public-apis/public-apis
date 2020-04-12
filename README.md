@@ -837,7 +837,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Google Cloud Natural](https://cloud.google.com/natural-language/docs/) | Natural language understanding technology, including sentiment, entity and syntax analysis | `apiKey` | Yes | Unknown |
 | [Language Identification](https://rapidapi.com/BigLobster/api/language-identification-prediction) | Automatic language detection for any texts, supports over 175 languages | `X-Mashape-Key` | Yes | Unknown |
 | [Semantria](https://semantria.readme.io/docs) | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown |
-| [Tisane](https://tisane.ai/) | Detect abusive content, entities, topics, parse trees, spellchecking. Nearly 30 languages, offline SDK available. | `apiKey` | Yes | Yes |
+| [Tisane](https://tisane.ai/) | Detect abusive content, entities, topics, Wikidata links, parse trees, spellchecking. Nearly 30 languages, offline SDK available | `apiKey` | Yes | Yes |
 | [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
