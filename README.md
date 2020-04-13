@@ -78,8 +78,8 @@ API | Description | Auth | HTTPS | CORS |
 ### Anime
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [AnimeChan](https://github.com/RocktimSaikia/anime-chan) | Anime quotes (over 10k+)  | No | Yes | Unknown |
 | [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
+| [AnimeChan](https://github.com/RocktimSaikia/anime-chan) | Anime quotes (over 10k+)  | No | Yes | No |
 | [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) | Anime industry news | No | Yes | Yes |
 | [Jikan](https://jikan.moe) | Unofficial MyAnimeList API | No | Yes | Yes |
 | [Kitsu](http://docs.kitsu.apiary.io/) | Anime discovery platform | `OAuth` | Yes | Unknown |
