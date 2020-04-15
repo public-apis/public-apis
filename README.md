@@ -83,6 +83,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Jikan](https://jikan.moe) | Unofficial MyAnimeList API | No | Yes | Yes |
 | [Kitsu](http://docs.kitsu.apiary.io/) | Anime discovery platform | `OAuth` | Yes | Unknown |
 | [Studio Ghibli](https://ghibliapi.herokuapp.com) | Resources from Studio Ghibli films | No | Yes | Unknown |
+| [Rick and Morty API](https://rickandmortyapi.com) | Information about the characters in Rick and Morty | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Anti-Malware
