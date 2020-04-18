@@ -318,6 +318,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Vector Express](http://vector.express) | Free vector file converting API | No | No | Yes |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Wunderlist](https://developer.wunderlist.com/documentation) | Todo Lists | `OAuth` | Yes | Unknown |
+| [Zube](https://zube.io/docs/api) | Full stack project management | `OAtuh` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Environment
