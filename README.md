@@ -696,10 +696,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Pixabay](https://pixabay.com/sk/service/about/api/) | Photography | `apiKey` | Yes | Unknown |
 | [Pixhost](https://pixhost.org/api/index.html) | Upload images, photos, galleries | No | Yes | Unknown |
 | [PlaceKitten](https://placekitten.com/) | Resizable kitten placeholder images | No | Yes | Unknown |
+| [ReSmush.it](https://resmush.it/api) | Photo optimization | No | No | Unknown |
 | [ScreenShotLayer](https://screenshotlayer.com) | URL 2 Image | No | Yes | Unknown |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
 | [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | `apiKey` | Yes | Unknown |
-| [ReSmush.it](https://resmush.it/api) | Photo optimization | No | No | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Science & Math
