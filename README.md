@@ -699,6 +699,8 @@ API | Description | Auth | HTTPS | CORS |
 | [ScreenShotLayer](https://screenshotlayer.com) | URL 2 Image | No | Yes | Unknown |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
 | [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | `apiKey` | Yes | Unknown |
+| [ReSmush.it](https://resmush.it/api) | Photo optimization | No | No | Unknown |
+
 
 **[⬆ Back to Index](#index)**
 ### Science & Math
