@@ -308,8 +308,8 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api) | HTML/URL to PDF/PNG, Office documents to PDF, image conversion | `apiKey` | Yes | Yes |
-| [Google Docs Contract](https://github.com/bejaneps/agreement-api) | Contract Signing Using Google Docs | `apiKey` | Yes | Unknown |
 | [File.io](https://www.file.io) | File Sharing | No | Yes | Unknown |
+| [Google Docs Contract](https://github.com/bejaneps/agreement-api) | Contract Signing Using Google Docs | `apiKey` | Yes | Unknown |
 | [Mercury](https://mercury.postlight.com/web-parser/) | Web parser | `apiKey` | Yes | Unknown |
 | [pdflayer](https://pdflayer.com) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
 | [Pocket](https://getpocket.com/developer/) | Bookmarking service | `OAuth` | Yes | Unknown |
