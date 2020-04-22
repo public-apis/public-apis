@@ -29,7 +29,6 @@ Please note a passing build status indicates all listed APIs are available since
 * [Events](#events)
 * [Finance](#finance)
 * [Food & Drink](#food--drink)
-* [Fraud Prevention](#fraud-prevention)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
 * [Government](#government)
@@ -246,7 +245,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Apility.io](https://apility.io/apidocs/) | IP, Domains and Emails anti-abuse API blocklist | No | Yes | Yes |
 | [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown |
 | [BetterMeta](http://bettermeta.io) | Return a site's meta tags in JSON format | `X-Mashape-Key` | Yes | Unknown |
-| [Bitbucket](https://developer.atlassian.com/bitbucket/api/2/reference/) | Bitbucket API | OAuth | Yes | Unknown |
+| [Bitbucket](https://developer.atlassian.com/bitbucket/api/2/reference/) | Bitbucket API | `OAuth` | Yes | Unknown |
 | [Bored](https://www.boredapi.com/) | Find random activities to fight boredom | No | Yes | Unknown |
 | [Browshot](https://browshot.com/api/documentation) | Easily make screenshots of web pages in any screen size, as any device | `apiKey` | Yes | Unknown |
 | [CDNJS](https://api.cdnjs.com/libraries/jquery) | Library info on CDNJS | No | Yes | Unknown |
@@ -361,12 +360,6 @@ API | Description | Auth | HTTPS | CORS |
 | [TheMealDB](https://www.themealdb.com/api.php) | Meal Recipes | `apiKey` | Yes | Yes |
 | [What's on the menu?](http://nypl.github.io/menus-api/) | NYPL human-transcribed historical menu collection | `apiKey` | No | Unknown |
 | [Zomato](https://developers.zomato.com/api) | Discover restaurants | `apiKey` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-### Fraud Prevention
-API | Description | Auth | HTTPS | CORS |
-|---|---|---|---|---|
-| [FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order) | Screen order information using AI to detect frauds | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Games & Comics
@@ -514,7 +507,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | Unknown |
 | [Nutritionix](https://developer.nutritionix.com/) | Worlds largest verified nutrition database | `apiKey` | Yes | Unknown |
 | [openFDA](https://open.fda.gov) | Public FDA data about drugs, devices and foods | No | Yes | Unknown |
-| [USDA Nutrients](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | `apikey` | Yes | Unknown |
+| [USDA Nutrients](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Jobs
@@ -705,6 +698,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Censys.io](https://censys.io/api) | Search engine for Internet connected host and devices | `apiKey` | Yes | No |
 | [CRXcavator](https://crxcavator.io/apidocs) | Chrome extension risk scoring | `apiKey` | Yes | Unknown |
 | [FilterLists](https://filterlists.com) | Lists of filters for adblockers and firewalls | No | Yes | Unknown |
+| [FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order) | Screen order information using AI to detect frauds | `apiKey` | Yes | Unknown |
 | [HaveIBeenPwned](https://haveibeenpwned.com/API/v3) | Passwords which have previously been exposed in data breaches | `apiKey` | Yes | Unknown |
 | [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | U.S. National Vulnerability Database | No | Yes | Unknown |
 | [SecurityTrails](https://securitytrails.com/corp/apidocs) | Domain and IP related information such as current and historical WHOIS and DNS records | `apiKey` | Yes | Unknown |
