@@ -20,4 +20,4 @@ jobs:
 
       - name: Validate pull request changes
         run: build/github-pull.sh ${{ github.repository }} ${{ github.event.pull_request.number }} ${FORMAT_FILE}
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && github.event.action != 'closed'
