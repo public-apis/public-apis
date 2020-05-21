@@ -706,6 +706,8 @@ API | Description | Auth | HTTPS | CORS |
 | [SecurityTrails](https://securitytrails.com/corp/apidocs) | Domain and IP related information such as current and historical WHOIS and DNS records | `apiKey` | Yes | Unknown |
 | [Shodan](https://developer.shodan.io/) | Search engine for Internet connected devices | `apiKey` | Yes | Unknown |
 | [UK Police](https://data.police.uk/docs/) | UK Police data | No | Yes | Unknown |
+| [Mozilla http scanner](https://http-observatory.security.mozilla.org/api/v1/) | Mozilla observatory http scanner | No | Yes | Unknown |
+| [Mozilla tls scanner](https://tls-observatory.services.mozilla.com/api/v1/) | Mozilla observatory tls scanner | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Shopping
