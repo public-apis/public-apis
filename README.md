@@ -258,6 +258,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GitHub](https://developer.github.com/v3/) | Make use of GitHub repositories, code and user info programmatically | `OAuth` | Yes | Yes |
 | [Gitlab](https://docs.gitlab.com/ee/api/) | Automate GitLab interaction programmatically | `OAuth` | Yes | Unknown |
 | [Gitter](https://developer.gitter.im/docs/welcome) | Chat for Developers | `OAuth` | Yes | Unknown |
+| [Hookless](https://hookless.co) | Schedule jobs with ease | `apiKey` | Yes | Unknown |
 | [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown |
 | [IBM Text to Speech](https://console.bluemix.net/docs/services/text-to-speech/getting-started.html) | Convert text to speech | `apiKey` | Yes | Yes |
 | [Image-Charts](https://documentation.image-charts.com/) | Generate charts, QR codes and graph images | No | Yes | Yes |
