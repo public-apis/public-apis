@@ -278,7 +278,7 @@ API | Description | Auth | HTTPS | CORS |
 | [import.io](http://api.docs.import.io/) | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | Unknown |
 | [IPify](https://www.ipify.org/) | A simple IP Address API | No | Yes | Unknown |
 | [IPinfo](https://ipinfo.io/developers) | Another simple IP Address API | No | Yes | Unknown |
-| [jsDelivr](https://github.com/jsdelivr/data.jsdelivr.com) | Package info and download stats on jsDelivr CDN | No | Yes | Yes |  
+| [jsDelivr](https://github.com/jsdelivr/data.jsdelivr.com) | Package info and download stats on jsDelivr CDN | No | Yes | Yes |
 | [JSON 2 JSONP](https://json2jsonp.com/) | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | Unknown |
 | [JSONbin.io](https://jsonbin.io) | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | Yes |
 | [Judge0](https://api.judge0.com/) | Compile and run source code | No | Yes | Unknown |
@@ -530,8 +530,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Romania](http://data.gov.ro/) | Romania Government Open Data | No | No | Unknown |
 | [Open Government, Taiwan](https://data.gov.tw/) | Taiwan Government Open Data | No | Yes | Unknown |
 | [Open Government, Thailand](https://data.go.th/) | Thailand Government Open Data | `apiKey` | Yes | Unknown |
+| [Open Government, UK](https://data.gov.uk/) | UK Government Open Data | No | Yes | Unknown |
 | [Open Government, USA](https://www.data.gov/) | United States Government Open Data | No | Yes | Unknown |
 | [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
+| [UK government API catalogue](https://alphagov.github.io/api-catalogue) | APIs from UK government organisations | No | Yes | Unknown |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
