@@ -846,7 +846,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for Honolulu, US](http://hea.thebus.org/api_info.asp) | Honolulu Transportation Information | `apiKey` | No | Unknown |
 | [Transport for India](https://data.gov.in/sector/transport) | India Public Transport API | `apiKey` | Yes | Unknown |
 | [Transport for Lisbon, Portugal](https://emel.city-platform.com/opendata/) | Data about buses routes, parking and traffic | `apiKey` | Yes | Unknown |
-| [Transport for London, England](https://api.tfl.gov.uk) | TfL API | No | Yes | Unknown |
+| [Transport for London, England](https://api.tfl.gov.uk) | TfL API | `apiKey` | Yes | Unknown |
 | [Transport for Manchester, England](https://developer.tfgm.com/) | TfGM transport network data | `apiKey` | Yes | No |
 | [Transport for New York City, US](http://datamine.mta.info/) | MTA | `apiKey` | No | Unknown |
 | [Transport for Norway](http://reisapi.ruter.no/help) | Norwegian transport API | No | No | Unknown |
