@@ -876,7 +876,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Relink](https://rel.ink) | Free and secure URL shortener | No | Yes | Yes |
 | [Reduced](https://reduced.me) | Create short links quickly | No | Yes | Yes |
 
-
 **[⬆ Back to Index](#index)**
 ### Vehicle
 API | Description | Auth | HTTPS | CORS |
