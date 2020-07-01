@@ -874,6 +874,8 @@ API | Description | Auth | HTTPS | CORS |
 | [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | Monitor, compare and optimize your marketing links | `apiKey` | Yes | Unknown |
 | [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
 | [Relink](https://rel.ink) | Free and secure URL shortener | No | Yes | Yes |
+| [Reduced](https://reduced.me) | Create short links quickly | No | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 ### Vehicle
