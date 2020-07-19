@@ -8,6 +8,13 @@ For information on contributing to this project, please see the [contributing gu
 
 Please note a passing build status indicates all listed APIs are available since the last update. A failing build status indicates that 1 or more services may be unavailable at the moment.
 
+## Translations
+
+* [Español](/translations/README.es.md)
+* [français](/translations/README.fr.md)
+* [हिन्दी](translations/README.hi.md)
+* [中文](/translations/README.zh-CN.md)
+
 ## Index
 
 * [Animals](#animals)
