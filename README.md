@@ -111,6 +111,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Books
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Bible](https://bibleapi.co/) | RESTful Bible API with 7 versions, 4 languages and multiple features | `apiKey` | Yes | Unknown |
 | [Bhagavad Gita](https://bhagavadgita.io/api) | Bhagavad Gita text | `OAuth` | Yes | Yes |
 | [British National Bibliography](http://bnb.data.bl.uk/) | Books | No | No | Unknown |
 | [Goodreads](https://www.goodreads.com/api) | Books | `apiKey` | Yes | Unknown |
