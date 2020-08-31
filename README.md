@@ -432,7 +432,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IP Address Details](https://ipinfo.io/) | Find geolocation with ip address | No | Yes | Unknown |
 | [IP Location](http://ip-api.com/) | Find location with ip address | No | No | Unknown |
 | [IP Location](https://ipapi.co/) | Find IP address location information | No | Yes | Unknown |
-| [BigDataCloud](https://www.bigdatacloud.com/ip-geolocation-apis) | Fast and affordable IP geolocation API to detect confidence area and security parameters of an IP address and much more. | `apiKey` | Yes | Unknown |
+| [BigDataCloud](https://www.bigdatacloud.com/ip-geolocation-apis) | Fast and affordable IP geolocation APIs that provide confidence area and security check of an IP address and much more. | `apiKey` | Yes | Unknown |
 | [IP Sidekick](https://ipsidekick.com) | Geolocation API that returns extra information about an IP address | `apiKey` | Yes | Unknown |
 | [IP Vigilante](https://www.ipvigilante.com/) | Free IP Geolocation API | No | Yes | Unknown |
 | [IP2Location](https://www.ip2location.com/web-service/ip2location) | IP geolocation web service to get more than 55 parameters | `apiKey` | Yes | Unknown |
