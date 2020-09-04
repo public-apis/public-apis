@@ -284,6 +284,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ScreenshotAPI.net](https://screenshotapi.net/) | Create pixel-perfect website screenshots | `apiKey` | Yes | Yes |
 | [SHOUTCLOUD](http://shoutcloud.io/) | ALL-CAPS AS A SERVICE | No | No | Unknown |
 | [StackExchange](https://api.stackexchange.com/) | Q&A forum for developers | `OAuth` | Yes | Unknown |
+| [Unixtime](http://unixtime.co.za/) | Convert to and from Unixtime | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Dictionaries
