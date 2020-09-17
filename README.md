@@ -899,6 +899,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Movie Database](http://www.omdbapi.com/) | Movie information | `apiKey` | Yes | Unknown |
 | [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) | Television | No | Yes | Unknown |
 | [STAPI](http://stapi.co) | Information on all things Star Trek | No | No | No |
+| [SWAPI](https://swapi.dev/) | Star Wars API | No | Yes | Unknown |
 | [The Lord of the Rings](https://the-one-api.herokuapp.com/) | The Lord of the Rings API | `apiKey` | Yes | Unknown |
 | [TMDb](https://www.themoviedb.org/documentation/api) | Community-based movie data | `apiKey` | Yes | Unknown |
 | [Trakt](https://trakt.tv/b/api-docs) | Movie and TV Data | `apiKey` | Yes | Yes |
