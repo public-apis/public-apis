@@ -442,6 +442,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Kwelo Network](https://www.kwelo.com/network/ip-address) | Locate and get detailed information on IP address | No | Yes | Yes |
 | [LocationIQ](https://locationiq.org/docs/) | Provides forward/reverse geocoding and batch geocoding | `apiKey` | Yes | Yes |
 | [Mapbox](https://www.mapbox.com/developers/) | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown |
+| [MetaURLtags](https://promptapi.com/marketplace/) | Scrapes, parses and retrieves META tags of any URL | `apiKey` | Yes | Unknown |
 | [Mexico](https://github.com/IcaliaLabs/sepomex) | Mexico RESTful zip codes API | No | Yes | Unknown |
 | [One Map, Singapore](https://docs.onemap.sg/) | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | Unknown |
 | [OnWater](https://onwater.io/) | Determine if a lat/lon is on water or land | No | Yes | Unknown |
@@ -456,7 +457,6 @@ API | Description | Auth | HTTPS | CORS |
 | [ViaCep](https://viacep.com.br) | Brazil RESTful zip codes API | No | Yes | Unknown |
 | [ZipCodeAPI](https://www.zipcodeapi.com) | US zip code distance, radius and location API | `apiKey` | Yes | Unknown |
 | [Zippopotam](http://www.zippopotam.us) | Get information about place such as country, city, state, etc | No | No | Unknown |
-| [MetaURLtags](https://promptapi.com/marketplace/) | Scrapes, parses and retrieves META tags of any URL | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Government
@@ -732,6 +732,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Fuck Off as a Service](https://www.foaas.com) | Asks someone to fuck off | No | Yes | Unknown |
 | [Full Contact](https://www.fullcontact.com/developer/docs/) | Get Social Media profiles and contact Information | `OAuth` | Yes | Unknown |
 | [HackerNews](https://github.com/HackerNews/API) | Social news for CS and entrepreneurship | No | Yes | Unknown |
+| [Hashtags](https://ritekit.com/api-demo/hashtag-suggestions) | Returns list of hashtag suggestions | `apiKey` | Yes | Unknown |
 | [Instagram](https://www.instagram.com/developer/) | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | Unknown |
 | [LinkedIn](https://developer.linkedin.com/docs/rest-api) | The foundation of all digital integrations with LinkedIn | `OAuth` | Yes | Unknown |
 | [Meetup.com](https://www.meetup.com/meetup_api/) | Data about Meetups from Meetup.com | `apiKey` | Yes | Unknown |
@@ -749,7 +750,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Twitch](https://dev.twitch.tv/docs) | Game Streaming API | `OAuth` | Yes | Unknown |
 | [Twitter](https://developer.twitter.com/en/docs) | Read and write Twitter data | `OAuth` | Yes | No |
 | [vk](https://vk.com/dev/sites) | Read and write vk data | `OAuth` | Yes | Unknown |
-| [Hashtags](https://ritekit.com/api-demo/hashtag-suggestions) | Returns list of hashtag suggestions | `apiKey` | Yes | Unknown |
 
 
 **[⬆ Back to Index](#index)**
