@@ -350,6 +350,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Edamam](https://developer.edamam.com/) | Recipe Search | `apiKey` | Yes | Unknown |
 | [LCBO](https://lcboapi.com/) | Alcohol | `apiKey` | Yes | Unknown |
+| [Spoonacular](https://spoonacular.com/food-api) | Nutrition Data, Classify Recipes | `apiKey` | Yes | Unknown |
 | [Open Brewery DB](https://www.openbrewerydb.org) | Breweries, Cideries and Craft Beer Bottle Shops | No | Yes | Yes |
 | [Open Food Facts](https://world.openfoodfacts.org/data) | Food Products Database | No | Yes | Unknown |
 | [PunkAPI](https://punkapi.com/) | Brewdog Beer Recipes | No | Yes | Unknown |
@@ -535,6 +536,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Clarifai](https://developer.clarifai.com/) | Computer Vision | `OAuth` | Yes | Unknown |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes |
 | [Deepcode](https://www.deepcode.ai/docs/Overview%252FOverview) | AI for code review | No | Yes | Unknown |
+| [Microsoft](https://azure.microsoft.com/en-in/services/cognitive-services/face/#features) | AI for face detection | No | Yes | Unknown |
 | [Dialogflow](https://dialogflow.com) | Natural Language Processing | `apiKey` | Yes | Unknown |
 | [Keen IO](https://keen.io/) | Data Analytics | `apiKey` | Yes | Unknown |
 | [Sentim-API](https://sentim-api.herokuapp.com) | Text sentiment analysis | No | Yes | Yes |
