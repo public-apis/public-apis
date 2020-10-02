@@ -359,6 +359,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TheMealDB](https://www.themealdb.com/api.php) | Meal Recipes | `apiKey` | Yes | Yes |
 | [What's on the menu?](http://nypl.github.io/menus-api/) | NYPL human-transcribed historical menu collection | `apiKey` | No | Unknown |
 | [Zomato](https://developers.zomato.com/api) | Discover restaurants | `apiKey` | Yes | Unknown |
+| [Spoonacular](https://spoonacular.com/food-api) | Recipes and Food product | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Games & Comics
