@@ -77,6 +77,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Anime
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [AniDB](https://wiki.anidb.net/API) | Anime Database | No | Yes | Unknown |
 | [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
 | [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) | Anime industry news | No | Yes | Yes |
 | [Jikan](https://jikan.moe) | Unofficial MyAnimeList API | No | Yes | Yes |
