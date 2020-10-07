@@ -496,8 +496,8 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 ### Education
 API | Description | Auth | HTTPS | CORS |
-|---|---|---|---|---
-| [CollegeScoreCard.ed.gov](https://api.data.gov/ed/collegescorecard/v1/schools) | US federal spending data | Yes | Yes | Unknown |
+|---|---|---|---|---|
+| [CollegeScoreCard.ed.gov](https://api.data.gov/ed/collegescorecard/v1/schools) | College Score Card | Yes | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Health
