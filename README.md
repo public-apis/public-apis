@@ -32,6 +32,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
 * [Government](#government)
+* [Education](#education)
 * [Health](#health)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
@@ -491,6 +492,12 @@ API | Description | Auth | HTTPS | CORS |
 | [Regulations.gov](https://regulationsgov.github.io/developers/) | Federal regulatory materials to increase understanding of the Federal rule making process | `apiKey` | Yes | Unknown |
 | [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Education
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---
+| [CollegeScoreCard.ed.gov](https://api.data.gov/ed/collegescorecard/v1/schools) | US federal spending data | Yes | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Health
