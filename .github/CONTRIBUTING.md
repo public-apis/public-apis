@@ -14,7 +14,7 @@ Current API entry format:
 
 | API | Description | Auth | HTTPS | CORS |
 | --- | --- | --- | --- | --- |
-| API Title(Link to API webpage) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * |
+| API Title(Link to API documentation) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * |
 
 Example entry:
 
