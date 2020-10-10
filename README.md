@@ -255,7 +255,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Changelogs.md](https://changelogs.md) | Structured changelog metadata from open source projects | No | Yes | Unknown |
 | [CountAPI](https://countapi.xyz) | Free and simple counting service. You can use it to track page hits and specific events | No | Yes | Yes |
 | [DigitalOcean Status](https://status.digitalocean.com/api) | Status of all DigitalOcean services | No | Yes | Unknown |
-| [DomainDb Info](https://domainsdb.info) | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown |
+| [DomainDb Info](https://api.domainsdb.info/) | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown |
 | [Faceplusplus](https://www.faceplusplus.com/) | A tool to detect face | `OAuth` | Yes | Unknown |
 | [Genderize.io](https://genderize.io) | Estimates a gender from a first name | No | Yes | Yes |
 | [GitHub](https://developer.github.com/v3/) | Make use of GitHub repositories, code and user info programmatically | `OAuth` | Yes | Yes |
