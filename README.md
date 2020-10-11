@@ -93,6 +93,7 @@ API | Description | Auth | HTTPS | CORS |
 | [AlienVault Open Threat Exchange (OTX)](https://otx.alienvault.com/api/) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
 | [Google Safe Browsing](https://developers.google.com/safe-browsing/) | Google Link/Domain Flagging | `apiKey` | Yes | Unknown |
 | [Metacert](https://metacert.com/) | Metacert Link Flagging | `apiKey` | Yes | Unknown |
+| [URLScan.io](https://urlscan.io/about-api/) | Scan and Analyse URLs | `apiKey` | Yes | Unknown |
 | [VirusTotal](https://www.virustotal.com/en/documentation/public-api/) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
 | [Web Of Trust (WOT)](https://support.mywot.com/hc/en-us/articles/360024398673-3-Using-the-API) | Website reputation | `apiKey` | Yes | Unknown |
 
@@ -227,7 +228,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | Yes |
-| [languagelayer](https://languagelayer.com) | Language detection | No | Yes | Unknown |
+| [languagelayer](https://languagelayer.com) | Language detection | `apiKey` | Yes | Unknown |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown |
 | [mailboxlayer](https://mailboxlayer.com) | Email address validation | No | Yes | Unknown |
 | [NumValidate](https://numvalidate.com) | Open Source phone number validation | No | Yes | Unknown |
@@ -258,20 +259,22 @@ API | Description | Auth | HTTPS | CORS |
 | [DomainDb Info](https://api.domainsdb.info/) | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown |
 | [Faceplusplus](https://www.faceplusplus.com/) | A tool to detect face | `OAuth` | Yes | Unknown |
 | [Genderize.io](https://genderize.io) | Estimates a gender from a first name | No | Yes | Yes |
-| [GitHub](https://developer.github.com/v3/) | Make use of GitHub repositories, code and user info programmatically | `OAuth` | Yes | Yes |
+| [GitHub](https://docs.github.com/en/free-pro-team@latest/rest) | Make use of GitHub repositories, code and user info programmatically | `OAuth` | Yes | Yes |
 | [Gitlab](https://docs.gitlab.com/ee/api/) | Automate GitLab interaction programmatically | `OAuth` | Yes | Unknown |
 | [Gitter](https://developer.gitter.im/docs/welcome) | Chat for Developers | `OAuth` | Yes | Unknown |
 | [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown |
 | [IBM Text to Speech](https://console.bluemix.net/docs/services/text-to-speech/getting-started.html) | Convert text to speech | `apiKey` | Yes | Yes |
+| [IBM Visual Recognition](https://cloud.ibm.com/apidocs/visual-recognition/visual-recognition-v3) | Visual Recognition with pretrained or user trained model | `apiKey` | Yes | Unknown |
 | [Image-Charts](https://documentation.image-charts.com/) | Generate charts, QR codes and graph images | No | Yes | Yes |
 | [import.io](http://api.docs.import.io/) | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | Unknown |
 | [IPify](https://www.ipify.org/) | A simple IP Address API | No | Yes | Unknown |
 | [IPinfo](https://ipinfo.io/developers) | Another simple IP Address API | No | Yes | Unknown |
 | [JSON 2 JSONP](https://json2jsonp.com/) | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | Unknown |
+| [JSON Pretty Print](https://jsonprettyprint.org/api) | Pretty Prints JSON data | No | Yes | Yes |
 | [JSONbin.io](https://jsonbin.io) | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | Yes |
 | [Judge0](https://api.judge0.com/) | Compile and run source code | No | Yes | Unknown |
 | [License-API](https://github.com/cmccandless/license-api/blob/master/README.md) | Unofficial REST API for choosealicense.com | No | Yes | No |
-| [MAC address vendor lookup](https://macaddress.io) | Retrieve vendor details and other information regarding a given MAC address or an OUI | `apiKey` | Yes | Yes |
+| [MAC address vendor lookup](https://macaddress.io/api) | Retrieve vendor details and other information regarding a given MAC address or an OUI | `apiKey` | Yes | Yes |
 | [Nationalize.io](https://nationalize.io) | Estimate the nationality of a first name | No | Yes | Yes |
 | [OOPSpam](https://oopspam.com/) | Multiple spam filtering service | No | Yes | Yes |
 | [Plino](https://plino.herokuapp.com/) | Spam filtering system | No | Yes | Unknown |
@@ -351,7 +354,8 @@ API | Description | Auth | HTTPS | CORS |
 ### Food & Drink
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Edamam](https://developer.edamam.com/) | Recipe Search | `apiKey` | Yes | Unknown |
+| [Edamam nutrition](https://developer.edamam.com/edamam-docs-nutrition-api) | Nutrition Analysis | `apiKey` | Yes | Unknown |
+| [Edamam recipes](https://developer.edamam.com/edamam-docs-recipe-api) | Recipe Search | `apiKey` | Yes | Unknown |
 | [Foodish](https://github.com/surhud004/Foodish#readme) | Random pictures of food dishes | No | Yes | Yes |
 | [LCBO](https://lcboapi.com/) | Alcohol | `apiKey` | Yes | Unknown |
 | [Open Brewery DB](https://www.openbrewerydb.org) | Breweries, Cideries and Craft Beer Bottle Shops | No | Yes | Yes |
@@ -388,6 +392,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Halo](https://developer.haloapi.com/) | Halo 5 and Halo Wars 2 Information | `apiKey` | Yes | Unknown |
 | [Hearthstone](http://hearthstoneapi.com/) | Hearthstone Cards Information | `X-Mashape-Key` | Yes | Unknown |
 | [Hypixel](https://api.hypixel.net/) | Hypixel player stats | `apiKey` | Yes | Unknown |
+| [Hytale](https://hytale-api.com/) | Hytale blog posts and jobs | No | Yes | Unknown |
 | [IGDB.com](https://api.igdb.com/) | Video Game Database | `apiKey` | Yes | Unknown |
 | [JokeAPI](https://sv443.net/jokeapi) | Programming, Miscellaneous and Dark Jokes | No | Yes | Yes |
 | [Jokes](https://github.com/15Dkatz/official_joke_api) | Programming and general jokes | No | Yes | Unknown |
@@ -903,7 +908,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Movie Database](http://www.omdbapi.com/) | Movie information | `apiKey` | Yes | Unknown |
 | [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) | Television | No | Yes | Unknown |
 | [STAPI](http://stapi.co) | Information on all things Star Trek | No | No | No |
-| [The Lord of the Rings](https://the-one-api.herokuapp.com/) | The Lord of the Rings API | `apiKey` | Yes | Unknown |
+| [The Lord of the Rings](https://the-one-api.dev/) | The Lord of the Rings API | `apiKey` | Yes | Unknown |
 | [TMDb](https://www.themoviedb.org/documentation/api) | Community-based movie data | `apiKey` | Yes | Unknown |
 | [Trakt](https://trakt.tv/b/api-docs) | Movie and TV Data | `apiKey` | Yes | Yes |
 | [TVDB](https://api.thetvdb.com/swagger) | Television data | `apiKey` | Yes | Unknown |
