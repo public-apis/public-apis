@@ -15,8 +15,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Validate Markdown format
-        run: build/validate_format.py ${FORMAT_FILE}
-
       - name: Validate all links from README.md
         run: build/validate_links.sh ${FORMAT_FILE}
