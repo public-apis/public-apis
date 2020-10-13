@@ -33,8 +33,9 @@ def validate_links(links):
             errors.append("TMO: " + link)
         except socket.error as socketerror:
             errors.append("SOC: {} : {}".format(socketerror, link))
+        except Exception as e:
+            errors.append("ERR: {} : {}".format(e, link))
     return errors
-
 
 if __name__ == "__main__":
     num_args = len(sys.argv)
