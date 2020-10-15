@@ -11,9 +11,9 @@ def parse_links(filename):
     with open(filename) as fp:
         data = fp.read()
     raw_links = re.findall(
-        'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+',
+        '((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'\".,<>?«»“”‘’]))',
         data)
-    links = [raw_link.replace(')', '') for raw_link in raw_links]
+    links = [raw_link[0] for raw_link in raw_links]
     return links
 
 
@@ -22,9 +22,9 @@ def validate_links(links):
     print('Validating {} links...'.format(len(links)))
     errors = []
     for link in links:
-        h = httplib2.Http(disable_ssl_certificate_validation=True, timeout=5)
+        h = httplib2.Http(disable_ssl_certificate_validation=True, timeout=10)
         try:
-            resp = h.request(link, 'HEAD')
+            resp = h.request(link)
             code = int(resp[0]['status'])
             # check if status code is a client or server error
             if code >= 404:
