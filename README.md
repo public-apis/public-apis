@@ -69,8 +69,8 @@ API | Description | Auth | HTTPS | CORS |
 | [PlaceGOAT](https://placegoat.com/) | Placeholder goat images | No | Yes | Unknown |
 | [RandomCat](https://aws.random.cat/meow) | Random pictures of cats | No | Yes | Yes |
 | [RandomDog](https://random.dog/woof.json) | Random pictures of dogs | No | Yes | Yes |
-| [Request Kittens](https://github.com/joshwcomeau/RequestKittens) | Provides a way to return various cat images | No | Yes | Unknown |
 | [RandomFox](https://randomfox.ca/floof/) | Random pictures of foxes | No | Yes | No |
+| [Request Kittens](https://github.com/joshwcomeau/RequestKittens) | Provides a way to return various cat images | No | Yes | Unknown |
 | [RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) | Adoption | No | Yes | Unknown |
 | [Shibe.Online](http://shibe.online/) | Random pictures of Shibu Inu, cats or birds | No | Yes | Yes |
 
