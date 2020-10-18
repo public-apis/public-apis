@@ -34,7 +34,11 @@ def validate_links(links):
         except socket.error as socketerror:
             errors.append("SOC: {} : {}".format(socketerror, link))
         except Exception as e:
-            errors.append("ERR: {} : {}".format(e, link))
+            # Ignore some exceptions which are not actually errors.
+            # The list below should be extended with other exceptions in the future if needed
+            if ((-1 != str(e).find("Content purported to be compressed with gzip but failed to decompress.")) and 
+                (-1 != str(e).find("[SSL: CERTIFICATE_VERIFY_FAIL)ED] certificate verify failed (_ssl.c:852)"))) :
+                errors.append("ERR: {} : {}".format(e, link))
     return errors
 
 if __name__ == "__main__":
