@@ -22,9 +22,9 @@ def validate_links(links):
     print('Validating {} links...'.format(len(links)))
     errors = []
     for link in links:
-        h = httplib2.Http(disable_ssl_certificate_validation=True, timeout=10)
+        h = httplib2.Http(disable_ssl_certificate_validation=True, timeout=25)
         try:
-            resp = h.request(link)
+            resp = h.request(link, headers={'user-agent': 'Mozilla/5.0'})
             code = int(resp[0]['status'])
             # check if status code is a client or server error
             if code >= 404:
@@ -37,7 +37,7 @@ def validate_links(links):
             # Ignore some exceptions which are not actually errors.
             # The list below should be extended with other exceptions in the future if needed
             if ((-1 != str(e).find("Content purported to be compressed with gzip but failed to decompress.")) and 
-                (-1 != str(e).find("[SSL: CERTIFICATE_VERIFY_FAIL)ED] certificate verify failed (_ssl.c:852)"))) :
+                (-1 != str(e).find("[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:852)"))) :
                 errors.append("ERR: {} : {}".format(e, link))
     return errors
 
