@@ -24,7 +24,7 @@ def validate_links(links):
     for link in links:
         h = httplib2.Http(disable_ssl_certificate_validation=True, timeout=25)
         try:
-            resp = h.request(link, headers={'user-agent': 'Mozilla/5.0'})
+            resp = h.request(link, headers={'user-agent': 'python-httplib2/0.9.2'})
             code = int(resp[0]['status'])
             # check if status code is a client or server error
             if code >= 404:
