@@ -1,7 +1,5 @@
 # Public APIs [![Run tests](https://github.com/public-apis/public-apis/workflows/Run%20tests/badge.svg)](https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22) [![Validate links](https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master)](https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22)
 
-![Run tests](https://github.com/public-apis/public-apis/workflows/Run%20tests/badge.svg?branch=master)
-
 A collective list of free APIs for use in software and web development.
 
 A public API for this project can be found [here](https://github.com/davemachado/public-api)!
