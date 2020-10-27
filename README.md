@@ -517,6 +517,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | Unknown |
 | [Nutritionix](https://developer.nutritionix.com/) | Worlds largest verified nutrition database | `apiKey` | Yes | Unknown |
 | [openFDA](https://open.fda.gov) | Public FDA data about drugs, devices and foods | No | Yes | Unknown |
+| [Orion Health](https://developer.orionhealth.io/) | Medical platform which allows the development of applications for different healthcare scenarios | `apiKey` | Yes | Unknown |
 | [USDA Nutrients](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
