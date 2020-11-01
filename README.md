@@ -914,7 +914,6 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [7Timer!](http://www.7timer.info/doc.php?lang=en) | Weather, especially for Astroweather | No | No | Unknown |
 | [APIXU](https://www.apixu.com/doc/request.aspx) | Weather | `apiKey` | Yes | Unknown |
-| [MetaWeather](https://www.metaweather.com/api/) | Weather | No | Yes | No |
 | [Meteorologisk Institutt](https://api.met.no/weatherapi/documentation) | Weather and climate data | No | Yes | Unknown |
 | [NOAA Climate Data](https://www.ncdc.noaa.gov/cdo-web/) | Weather and climate data | `apiKey` | Yes | Unknown |
 | [ODWeather](http://api.oceandrivers.com/static/docs.html) | Weather and weather webcams | No | No | Unknown |
