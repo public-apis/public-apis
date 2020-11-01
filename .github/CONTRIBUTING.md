@@ -35,6 +35,8 @@ Example entry:
 * `No` - _the API does not support CORS_
 * `Unknown` - _it is unknown if the API supports CORS_
 
+_Without proper [CORS configuration](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) an API will only be usable server side._
+
 Please continue to follow the alphabetical ordering that is in place per section. Each table column should be padded with one space on either side.
 
 If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
