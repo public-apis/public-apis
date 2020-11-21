@@ -160,8 +160,12 @@ API | Description | Auth | HTTPS | CORS |
 ### Cloud Storage & File Sharing
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [AnonFiles](https://anonfiles.com/docs/api) | File Sharing | No | Yes | Unknown |
+| [BayFiles](https://bayfiles.com/docs/api) | File Sharing | No | Yes | Unknown |
 | [Box](https://developer.box.com/) | File Sharing and Storage | `OAuth` | Yes | Unknown |
 | [Dropbox](https://www.dropbox.com/developers) | File Sharing and Storage | `OAuth` | Yes | Unknown |
+| [File.io](https://www.file.io) | File Sharing | No | Yes | Unknown |
+| [Gofile](https://gofile.io/api) | File Sharing | No | Yes | Unknown |
 | [Google Drive](https://developers.google.com/drive/) | File Sharing and Storage | `OAuth` | Yes | Unknown |
 | [OneDrive](https://dev.onedrive.com/) | File Sharing and Storage | `OAuth` | Yes | Unknown |
 | [Pastebin](https://pastebin.com/api/) | Plain Text Storage | `apiKey` | Yes | Unknown |
@@ -307,12 +311,8 @@ API | Description | Auth | HTTPS | CORS |
 ### Documents & Productivity
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [AnonFiles](https://anonfiles.com/docs/api) | File Sharing | No | Yes | Unknown |
-| [BayFiles](https://bayfiles.com/docs/api) | File Sharing | No | Yes | Unknown |
 | [Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api) | HTML/URL to PDF/PNG, Office documents to PDF, image conversion | `apiKey` | Yes | Yes |
 | [earthquake.usgs.gov](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquake information and news | No | Yes | Unknown |
-| [File.io](https://www.file.io) | File Sharing | No | Yes | Unknown |
-| [Gofile](https://gofile.io/api) | File Sharing | No | Yes | Unknown |
 | [Mercury](https://mercury.postlight.com/web-parser/) | Web parser | `apiKey` | Yes | Unknown |
 | [pdflayer](https://pdflayer.com) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
 | [Pocket](https://getpocket.com/developer/) | Bookmarking service | `OAuth` | Yes | Unknown |
