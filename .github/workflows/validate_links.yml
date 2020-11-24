@@ -1,0 +1,22 @@
+name: "Validate links"
+
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+  push:
+    branches:
+      - master
+
+env:
+  FORMAT_FILE: README.md
+
+jobs:
+  test:
+    name: 'Validate links'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Validate all links from README.md
+        run: build/validate_links.py ${FORMAT_FILE}
