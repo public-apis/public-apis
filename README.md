@@ -664,6 +664,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Photography
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Dagpi](https://dagpi.xyz) |  Powerful and Fast Image Manipulation API | Yes | Unkown |
 | [Flickr](https://www.flickr.com/services/api/) | Flickr Services | `OAuth` | Yes | Unknown |
 | [Getty Images](http://developers.gettyimages.com/en/) | Build applications using the world's most powerful imagery | `OAuth` | Yes | Unknown |
 | [Gfycat](https://developers.gfycat.com/api/) | Jiffier GIFs | `OAuth` | Yes | Unknown |
