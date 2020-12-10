@@ -25,6 +25,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Development](#development)
 * [Dictionaries](#dictionaries)
 * [Documents & Productivity](#documents--productivity)
+* [Education](#education)
 * [Environment](#environment)
 * [Events](#events)
 * [Finance](#finance)
@@ -317,6 +318,12 @@ API | Description | Auth | HTTPS | CORS |
 | [Todoist](https://developer.todoist.com) | Todo Lists | `OAuth` | Yes | Unknown |
 | [Vector Express](http://vector.express) | Free vector file converting API | No | No | Yes |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Education
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [PlatziAPI](https://platzi-api.erik172.dev) | [Platzi](https://platzi.com) online education website API | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Environment
