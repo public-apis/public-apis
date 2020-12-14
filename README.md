@@ -116,7 +116,6 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Bhagavad Gita](https://bhagavadgita.io/api) | Bhagavad Gita text | `OAuth` | Yes | Yes |
 | [British National Bibliography](http://bnb.data.bl.uk/) | Books | No | No | Unknown |
-| [Goodreads](https://www.goodreads.com/api) | Books | `apiKey` | Yes | Unknown |
 | [Google Books](https://developers.google.com/books/) | Books | `OAuth` | Yes | Unknown |
 | [LibGen](https://garbage.world/posts/libgen/) | Library Genesis search engine | No | No | Unknown |
 | [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | Yes | No |
