@@ -929,6 +929,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Storm Glass](https://stormglass.io/) | Global marine weather from multiple sources | `apiKey` | Yes | Yes |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
 | [Yahoo! Weather](https://developer.yahoo.com/weather/) | Weather | `apiKey` | Yes | Unknown |
-| [US Weather](https://api.weather.gov/points/47.7601,-122.2054) | Weather for US by Latitude and Longitude | `apiKey` | Yes | Unknown |
+| [US Weather ](https://api.weather.gov/points/47.7601,-122.2054) | Weather for US by Latitude and Longitude | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
