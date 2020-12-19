@@ -301,6 +301,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Oxford](https://developer.oxforddictionaries.com/) | Dictionary Data | `apiKey` | Yes | No |
 | [Wordnik](http://developer.wordnik.com) | Dictionary Data | `apiKey` | No | Unknown |
 | [Words](https://www.wordsapi.com/) | Definitions and synonyms for more than 150,000 words | `apiKey` | Yes | Unknown |
+| [Urban Dictionary](http://api.urbandictionary.com/v0/define?term=wikipedia) |Urban Disctionary Definintion Search | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Documents & Productivity
