@@ -438,13 +438,13 @@ API | Description | Auth | HTTPS | CORS |
 | [HERE Maps](https://developer.here.com) | Create/customize digital maps based on HERE Maps data | `apiKey` | Yes | Unknown |
 | [IP 2 Country](https://ip2country.info) | Map an IP to a country | No | Yes | Unknown |
 | [IP Address Details](https://ipinfo.io/) | Find geolocation with ip address | No | Yes | Unknown |
+| [IP Geolocation](https://ipgeolocation.io/) | IP Geolocation AP with free plan 30k requests per month | `apiKey` | Yes | Yes |
 | [IP Location](http://ip-api.com/) | Find location with ip address | No | No | Unknown |
 | [IP Location](https://ipapi.co/) | Find IP address location information | No | Yes | Unknown |
 | [IP Sidekick](https://ipsidekick.com) | Geolocation API that returns extra information about an IP address | `apiKey` | Yes | Unknown |
 | [IP Vigilante](https://www.ipvigilante.com/) | Free IP Geolocation API | No | Yes | Unknown |
 | [IP2Location](https://www.ip2location.com/web-service/ip2location) | IP geolocation web service to get more than 55 parameters | `apiKey` | Yes | Unknown |
 | [IP2Proxy](https://www.ip2location.com/web-service/ip2proxy) | Detect proxy and VPN using IP address | `apiKey` | Yes | Unknown |
-| [IP Geolocation](https://ipgeolocation.io/) | IP Geolocation AP with free plan 30k requests per month | `apiKey` | Yes | Yes |
 | [IPGeolocationAPI.com](https://ipgeolocationapi.com/) | Locate your visitors by IP with country details | No | Yes | Yes |
 | [IPInfoDB](https://ipinfodb.com/api) | Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address | `apiKey` | Yes | Unknown |
 | [ipstack](https://ipstack.com/) | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown |
