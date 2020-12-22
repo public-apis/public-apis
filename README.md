@@ -212,7 +212,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Currency Exchange
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [CurrencyFreaks](https://currencyfreaks.com/) | Provides current and historical currency exchange rates. Free DEVELOPER plan available with 1000 requests/month | `apiKey` | Yes | Yes |
+| [CurrencyFreaks](https://currencyfreaks.com/) | Provides current and historical currency exchange rates with free plan 1K requests/month | `apiKey` | Yes | Yes |
 | [1Forge](https://1forge.com/forex-data-api/api-documentation) | Forex currency market data | `apiKey` | Yes | Unknown |
 | [Currencylayer](https://currencylayer.com/documentation) | Exchange rates and currency conversion | `apiKey` | Yes | Unknown |
 | [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | A collection of exchange rates | No | Yes | Unknown |
@@ -436,7 +436,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Google Maps](https://developers.google.com/maps/) | Create/customize digital maps based on Google Maps data | `apiKey` | Yes | Unknown |
 | [HelloSalut](https://www.fourtonfish.com/hellosalut/hello/) | Get hello translation following user language | No | Yes | Unknown |
 | [HERE Maps](https://developer.here.com) | Create/customize digital maps based on HERE Maps data | `apiKey` | Yes | Unknown |
-| [IP Geolocation](https://ipgeolocation.io/) | IP Geolocation API - Forever free plan for developers with 30k requests per month | `apiKey` | Yes | Yes |
+| [IP Geolocation](https://ipgeolocation.io/) | IP Geolocation AP with free plan 30k requests per month | `apiKey` | Yes | Yes |
 | [IP 2 Country](https://ip2country.info) | Map an IP to a country | No | Yes | Unknown |
 | [IP Address Details](https://ipinfo.io/) | Find geolocation with ip address | No | Yes | Unknown |
 | [IP Location](http://ip-api.com/) | Find location with ip address | No | No | Unknown |
