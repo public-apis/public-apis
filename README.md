@@ -51,6 +51,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Text Analysis](#text-analysis)
 * [Tracking](#tracking)
 * [Transportation](#transportation)
+* [Travel](#travel)
 * [URL Shorteners](#url-shorteners)
 * [Vehicle](#vehicle)
 * [Video](#video)
@@ -825,7 +826,6 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [ADS-B Exchange](https://www.adsbexchange.com/data/) | Access real-time and historical data of any and all airborne aircraft | No | Yes | Unknown |
 | [AIS Hub](http://www.aishub.net/api) | Real-time data of any marine and inland vessel equipped with AIS tracking system | `apiKey` | No | Unknown |
-| [Amadeus Travel Innovation Sandbox](https://sandbox.amadeus.com/) | Travel Search - Limited usage | `apiKey` | Yes | Unknown |
 | [Bay Area Rapid Transit](http://api.bart.gov) | Stations and predicted arrivals for BART | `apiKey` | No | Unknown |
 | [BlaBlaCar](https://dev.blablacar.com) | Search car sharing trips | `apiKey` | Yes | Unknown |
 | [Community Transit](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) | Transitland API | No | Yes | Unknown |
@@ -871,6 +871,14 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for Washington, US](https://developer.wmata.com/) | Washington Metro transport API | `OAuth` | Yes | Unknown |
 | [Uber](https://developer.uber.com/products) | Uber ride requests and price estimation | `OAuth` | Yes | Yes |
 | [WhereIsMyTransport](https://developer.whereismytransport.com/) | Platform for public transport data in emerging cities | `OAuth` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Travel
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Amadeus Travel Innovation Sandbox](https://sandbox.amadeus.com/) | Travel Search - Limited usage | `apiKey` | Yes | Unknown |
+| [Laya](https://docs.laya.ai/) | Dynamic packaging for flights, cars and accommodation | `X-API-KEY` | Yes | No |
+| [Impala Hotel Booking API](https://docs.impala.travel/docs/booking-api/) | Hotel content, rates and room bookings | `X-API-KEY` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 ### URL Shorteners
