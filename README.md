@@ -877,8 +877,8 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Amadeus Travel Innovation Sandbox](https://sandbox.amadeus.com/) | Travel Search - Limited usage | `apiKey` | Yes | Unknown |
-| [Laya](https://docs.laya.ai/) | Dynamic packaging for flights, cars and accommodation | `X-API-KEY` | Yes | No |
-| [Impala Hotel Booking API](https://docs.impala.travel/docs/booking-api/) | Hotel content, rates and room bookings | `X-API-KEY` | Yes | No |
+| [Impala Hotel Bookings](https://docs.impala.travel/docs/booking-api/) | Hotel content, rates and room bookings | `apiKey` | Yes | No |
+| [Laya](https://docs.laya.ai/) | Dynamic packaging for flights, cars and accommodation | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 ### URL Shorteners
