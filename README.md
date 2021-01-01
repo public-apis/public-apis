@@ -102,6 +102,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Behance](https://www.behance.net/dev) | Design | `apiKey` | Yes | Unknown |
+| [ColourLovers](http://www.colourlovers.com/api) | Get various patterns, palettes and images | No | No | Unknown |
 | [Cooper Hewitt](https://collection.cooperhewitt.org/api) | Smithsonian Design Museum | `apiKey` | Yes | Unknown |
 | [Dribbble](http://developer.dribbble.com/v2/) | Design | `OAuth` | No | Unknown |
 | [Harvard Art Museums](https://github.com/harvardartmuseums/api-docs) | Art | `apiKey` | No | Unknown |
