@@ -138,6 +138,7 @@ API | Description | Auth | HTTPS | CORS |
 | [markerapi](http://www.markerapi.com/) | Trademark Search | No | No | Unknown |
 | [Ticksel](https://ticksel.com) | Friendly website analytics made for humans | No | Yes | Unknown |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
+| [SwiftKanban](https://www.digite.com/swiftkanban/) | Kanban software, Visualize Work, Improve Teams' FLOW, Increase Organizations Lead Time, Throughput & Productivity | `apiKey` | Yes | CORS |
 
 **[⬆ Back to Index](#index)**
 ### Calendar
