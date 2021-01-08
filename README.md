@@ -202,7 +202,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Cryptonator](https://www.cryptonator.com/api/) | Cryptocurrencies Exchange Rates | No | Yes | Unknown |
 | [Gemini](https://docs.gemini.com/rest-api/) | Cryptocurrencies Exchange | No | Yes | Unknown |
 | [ICObench](https://icobench.com/developers) | Various information on listing, ratings, stats, and more | `apiKey` | Yes | Unknown |
-| [Livecoin](https://www.livecoin.net/api) | Cryptocurrency Exchange | No | Yes | Unknown |
 | [MercadoBitcoin](https://www.mercadobitcoin.net/api-doc/) | Brazilian Cryptocurrency Information | No | Yes | Unknown |
 | [Nexchange](https://nexchange2.docs.apiary.io/) | Automated cryptocurrency exchange service | No | No | Yes |
 | [Poloniex](https://poloniex.com/support/api/) | US based digital asset exchange | `apiKey` | Yes | Unknown |
