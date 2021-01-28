@@ -537,6 +537,13 @@ API | Description | Auth | HTTPS | CORS |
 | [ZipRecruiter](https://www.ziprecruiter.com/publishers) | Job search app and website | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
+### Logs
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Logs.to](https://logs.to/) | Generate logs | 'apiKey' | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+
 ### Machine Learning
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
