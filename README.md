@@ -117,7 +117,7 @@ API | Description | Auth | HTTPS | CORS |
 | [British National Bibliography](http://bnb.data.bl.uk/) | Books | No | No | Unknown |
 | [Google Books](https://developers.google.com/books/) | Books | `OAuth` | Yes | Unknown |
 | [LibGen](https://garbage.world/posts/libgen/) | Library Genesis search engine | No | No | Unknown |
-| [New York Times Books](https://developer.nytimes.com/docs/books-product/1/overview) |  book reviews and The New York Times Best Sellers lists | `apiKey` | Yes | Unknown |
+| [New York Times Books](https://developer.nytimes.com/docs/books-product/1/overview) |  Book reviews and The New York Times Best Sellers lists | `apiKey` | Yyes | Unknown |
 | [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | Yes | No |
 | [Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/) | Books, book covers and related data | No | Yes | Unknown |
 | [Rig Veda](https://aninditabasu.github.io/indica/html/rv.html) | Gods and poets, their categories, and the verse meters, with the mandal and sukta number | No | Yes | Unknown |
