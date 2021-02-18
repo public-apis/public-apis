@@ -686,6 +686,7 @@ API | Description | Auth | HTTPS | CORS |
 | [inspirehep.net](https://inspirehep.net/info/hep/api?ln=en) | High Energy Physics info. system | No | Yes | Unknown |
 | [ITIS](https://www.itis.gov/ws_description.html) | Integrated Taxonomic Information System | No | Yes | Unknown |
 | [Launch Library 2](https://ll.thespacedevs.com/2.1.0/swagger) | Spaceflight launches and events database | No | Yes | Yes |
+| [Minerals identify](https://minerals-identify.com/documentation) | Minerals data | No | Yes | No |
 | [Minor Planet Center](http://www.asterank.com/mpc) | Asterank.com Information | No | No | Unknown |
 | [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Unknown |
 | [NASA APOD (unofficial API)](https://apodapi.herokuapp.com/) | API for getting APOD (Astronomy Image of the Day) images along with metadata | No | Yes | Yes |
@@ -700,7 +701,6 @@ API | Description | Auth | HTTPS | CORS |
 | [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | Unknown |
 | [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | Unk
 | [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | No | Unknown |nown |
-| [Minerals identify](https://minerals-identify.com/documentation) | Minerals data | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
 ### Security
