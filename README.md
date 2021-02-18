@@ -699,8 +699,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Sunrise and Sunset](https://sunrise-sunset.org/api) | Sunset and sunrise times for a given latitude and longitude | No | Yes | Unknown |
 | [Trefle](https://trefle.io/) | Botanical data for plant species | `apiKey` | Yes | Unknown |
 | [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | Unknown |
-| [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | Unk
-| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | No | Unknown |nown |
+| [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | Unknown |
+| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | No | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Security
