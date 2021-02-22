@@ -536,6 +536,7 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 ### Machine Learning
 API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
 | [Clarifai](https://docs.clarifai.com) | Computer Vision | `OAuth` | Yes | Unknown |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes |
 | [Deepcode](https://www.deepcode.ai/docs/Overview%252FOverview) | AI for code review | No | Yes | Unknown |
