@@ -67,6 +67,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Movebank](https://github.com/movebank/movebank-api-doc) | Movement and Migration data of animals | No | Yes | Unknown |
 | [PlaceGOAT](https://placegoat.com/) | Placeholder goat images | No | Yes | Unknown |
 | [RandomCat](https://aws.random.cat/meow) | Random pictures of cats | No | Yes | Yes |
+| [Placekitten](https://placekitten.com/) | Random pictures of cats | No | Yes | Unknown |
 | [RandomDog](https://random.dog/woof.json) | Random pictures of dogs | No | Yes | Yes |
 | [RandomFox](https://randomfox.ca/floof/) | Random pictures of foxes | No | Yes | No |
 | [RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) | Adoption | No | Yes | Unknown |
