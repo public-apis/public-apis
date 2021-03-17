@@ -42,6 +42,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Patent](#patent)
 * [Personality](#personality)
 * [Photography](#photography)
+* [Programming](#programming)
 * [Science & Math](#science--math)
 * [Security](#security)
 * [Shopping](#shopping)
@@ -670,6 +671,12 @@ API | Description | Auth | HTTPS | CORS |
 | [ScreenShotLayer](https://screenshotlayer.com) | URL 2 Image | No | Yes | Unknown |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
 | [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | `apiKey` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Programming
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Lua Decompiler](https://lua-decompiler.ferib.dev/) | Online Lua 5.1 Decompiler | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Science & Math
