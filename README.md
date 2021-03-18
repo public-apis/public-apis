@@ -870,6 +870,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CleanURI](https://cleanuri.com/docs) | URL shortener service | `No` | Yes | Yes |
 | [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | Monitor, compare and optimize your marketing links | `apiKey` | Yes | Unknown |
 | [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
+| [TinyURL](https://gist.github.com/chand1012/96581b90c575d70bbf671ed00a74adde) | Unofficial TinyURL API for shortening URLs | `No` | Yes | Unknown |  
 
 **[⬆ Back to Index](#index)**
 ### Vehicle
