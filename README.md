@@ -922,7 +922,6 @@ API | Description | Auth | HTTPS | CORS |
 ### Weather
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [weatherstack](https://weatherstack.com/) | Real-Time & Historical World Weather Data API | `apiKey` | Yes | Unknown |
 | [7Timer!](http://www.7timer.info/doc.php?lang=en) | Weather, especially for Astroweather | No | No | Unknown |
 | [APIXU](https://www.apixu.com/doc/request.aspx) | Weather | `apiKey` | Yes | Unknown |
 | [Foreca](https://developer.foreca.com) | Weather | `OAuth` | Yes | Unknown |
@@ -934,5 +933,6 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenWeatherMap](https://openweathermap.org/api) | Weather | `apiKey` | Yes | Unknown |
 | [Storm Glass](https://stormglass.io/) | Global marine weather from multiple sources | `apiKey` | Yes | Yes |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
+| [weatherstack](https://weatherstack.com/) | Real-Time & Historical World Weather Data API | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
