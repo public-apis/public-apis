@@ -882,6 +882,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CleanURI](https://cleanuri.com/docs) | URL shortener service | `No` | Yes | Yes |
 | [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | Monitor, compare and optimize your marketing links | `apiKey` | Yes | Unknown |
 | [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
+| [Mocker](https://softon.github.io/mocker-docs/docs/api/urls/create) | URL shortener for sharing links with password protection, auto delete, etc. | `No` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Vehicle
