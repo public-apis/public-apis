@@ -5,6 +5,11 @@ import re
 import socket
 import sys
 
+ignored_links = [
+    'https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22', 
+    'https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master', 
+    'https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22',
+]
 
 def parse_links(filename):
     """Returns a list of URLs from text file"""
@@ -16,6 +21,29 @@ def parse_links(filename):
     links = [raw_link[0] for raw_link in raw_links]
     return links
 
+def dup_links(links):
+    """Check for duplicated links"""
+    print(f'Checking for duplicated links...')
+    hasError = False
+    seen = {}
+    dupes = []
+
+    for x in links:
+        if x in ignored_links:
+            continue
+
+        if x not in seen:
+            seen[x] = 1
+        else:
+            if seen[x] == 1:
+                dupes.append(x)
+
+    if not dupes:
+        print(f"No duplicated links")
+    else:
+        print(f"Found duplicated links: {dupes}")  
+        hasError = True  
+    return hasError
 
 def validate_links(links):
     """Checks each entry in JSON file for live link"""
@@ -58,6 +86,9 @@ if __name__ == "__main__":
     if num_args < 2:
         print("No .md file passed")
         sys.exit(1)
-    hasError = validate_links(parse_links(sys.argv[1]))
+    links = parse_links(sys.argv[1])
+    hasError = dup_links(links)
+    if not hasError:
+        hasError = validate_links(links)
     if hasError:
         sys.exit(1)
