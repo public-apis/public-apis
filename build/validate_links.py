@@ -9,6 +9,7 @@ ignored_links = [
     'https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22', 
     'https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master', 
     'https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22',
+    'https://github.com/davemachado/public-api',
 ]
 
 def parse_links(filename):
@@ -28,20 +29,21 @@ def dup_links(links):
     seen = {}
     dupes = []
 
-    for x in links:
-        if x in ignored_links:
+    for link in links:
+        link = link.rstrip('/')
+        if link in ignored_links:
             continue
 
-        if x not in seen:
-            seen[x] = 1
+        if link not in seen:
+            seen[link] = 1
         else:
-            if seen[x] == 1:
-                dupes.append(x)
+            if seen[link] == 1:
+                dupes.append(link)
 
     if not dupes:
-        print(f"No duplicated links")
+        print(f"No duplicate links")
     else:
-        print(f"Found duplicated links: {dupes}")  
+        print(f"Found duplicate links: {dupes}")  
         hasError = True  
     return hasError
 
