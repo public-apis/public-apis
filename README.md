@@ -273,6 +273,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MAC address vendor lookup](https://macaddress.io/api) | Retrieve vendor details and other information regarding a given MAC address or an OUI | `apiKey` | Yes | Yes |
 | [Nationalize.io](https://nationalize.io) | Estimate the nationality of a first name | No | Yes | Yes |
 | [OOPSpam](https://oopspam.com/) | Multiple spam filtering service | No | Yes | Yes |
+| [PageCDN](https://pagecdn.com/docs/public-api) | Public API for javascript, css and font libraries on PageCDN | `apiKey` | Yes | Yes |
 | [Plino](https://plino.herokuapp.com/) | Spam filtering system | No | Yes | Unknown |
 | [Postman](https://docs.api.getpostman.com/) | Tool for testing APIs | `apiKey` | Yes | Unknown |
 | [ProxyCrawl](https://proxycrawl.com) | Scraping and crawling anticaptcha service | `apiKey` | Yes | Unknown |
