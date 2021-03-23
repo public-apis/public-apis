@@ -279,6 +279,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ProxyCrawl](https://proxycrawl.com) | Scraping and crawling anticaptcha service | `apiKey` | Yes | Unknown |
 | [Public APIs](https://github.com/davemachado/public-api) | A collective list of free JSON APIs for use in web development | No | Yes | Unknown |
 | [Pusher Beams](https://pusher.com/beams) | Push notifications for Android & iOS | `apiKey` | Yes | Unknown |
+| [QR Code](https://fungenerators.com/api/qrcode/) | Create new QR Code or decode existing one | `apiKey` | Yes | Yes |
 | [QR code](http://qrtag.net/api/) | Create an easy to read QR code and URL shortener | No | Yes | Yes |
 | [QR code](http://goqr.me/api/) | Generate and decode / read QR code graphics | No | Yes | Unknown |
 | [QuickChart](https://quickchart.io/) | Generate chart and graph images | No | Yes | Yes |
@@ -399,6 +400,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IGDB.com](https://api.igdb.com/) | Video Game Database | `apiKey` | Yes | Unknown |
 | [JokeAPI](https://sv443.net/jokeapi/v2/) | Programming, Miscellaneous and Dark Jokes | No | Yes | Yes |
 | [Jokes](https://github.com/15Dkatz/official_joke_api) | Programming and general jokes | No | Yes | Unknown |
+| [Jokes One](https://jokes.one/api/joke/) | Joke of the day and large category of jokes accessible via REST API | `apiKey` | Yes | Yes |
 | [Jservice](http://jservice.io) | Jeopardy Question Database | No | No | Unknown |
 | [Magic The Gathering](http://magicthegathering.io/) | Magic The Gathering Game Information | No | No | Unknown |
 | [Marvel](http://developer.marvel.com) | Marvel Comics | `apiKey` | No | Unknown |
@@ -408,6 +410,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PlayerUnknown's Battlegrounds](https://pubgtracker.com/site-api) | PUBG Stats | `apiKey` | Yes | Unknown |
 | [Pokéapi](https://pokeapi.co) | Pokémon Information | No | Yes | Unknown |
 | [Pokémon TCG](https://pokemontcg.io) | Pokémon TCG Information | No | Yes | Unknown |
+| [Random Facts](https://fungenerators.com/api/facts/) | Random Facts from hundreds of categories | `apiKey` | Yes | Yes |
 | [Rick and Morty](https://rickandmortyapi.com) | All the Rick and Morty information, including images | No | Yes | Yes |
 | [Riot Games](https://developer.riotgames.com/) | League of Legends Game Information | `apiKey` | Yes | Unknown |
 | [Scryfall](https://scryfall.com/docs/api) | Magic: The Gathering database | No | Yes | Yes |
@@ -698,6 +701,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Unknown |
 | [NASA APOD (unofficial API)](https://apodapi.herokuapp.com/) | API for getting APOD (Astronomy Image of the Day) images along with metadata | No | Yes | Yes |
 | [Newton](https://newton.now.sh/) | Symbolic and Arithmetic Math Calculator | No | Yes | Unknown |
+| [Numbers](https://math.tools/api/numbers/) | Number of the day, random number, number facts and anything else you want to do with numbers | `apiKey` | Yes | Yes |
 | [Numbers](http://numbersapi.com) | Facts about numbers | No | No | Unknown |
 | [Open Notify](http://open-notify.org/Open-Notify-API/) | ISS astronauts, current location, etc | No | No | Unknown |
 | [Open Science Framework](https://developer.osf.io) | Repository and archive for study designs, research materials, data, manuscripts, etc | No | Yes | Unknown |
