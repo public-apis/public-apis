@@ -132,7 +132,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Freelancer](https://developers.freelancer.com) | Hire freelancers to get work done | `OAuth` | Yes | Unknown |
 | [Gmail](https://developers.google.com/gmail/api/) | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | Unknown |
 | [Google Analytics](https://developers.google.com/analytics/) | Collect, configure and analyze your data to reach the right audience | `OAuth` | Yes | Unknown |
-| [mailboxlayer](https://mailboxlayer.com/) | Email validation & verification JSON API for developers | `apiKey` | Yes | Unknown |
 | [MailboxValidator](https://www.mailboxvalidator.com/api-single-validation) | Validate email address to improve deliverability | `apiKey` | Yes | Unknown |
 | [mailgun](https://www.mailgun.com/) | Email Service | `apiKey` | Yes | Unknown |
 | [markerapi](http://www.markerapi.com/) | Trademark Search | No | No | Unknown |
@@ -225,9 +224,8 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | Yes |
-| [languagelayer](https://languagelayer.com) | Language detection | `apiKey` | Yes | Unknown |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown |
-| [mailboxlayer](https://mailboxlayer.com) | Email address validation | No | Yes | Unknown |
+| [mailboxlayer](https://mailboxlayer.com/) | Email validation & verification JSON API for developers | `apiKey` | Yes | Unknown |
 | [NumValidate](https://numvalidate.com) | Open Source phone number validation | No | Yes | Unknown |
 | [numverify](https://numverify.com) | Phone number validation | No | Yes | Unknown |
 | [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown |
@@ -329,7 +327,6 @@ API | Description | Auth | HTTPS | CORS |
 | [PM25.in](http://www.pm25.in/api_doc) | Air quality of China | `apiKey` | No | Unknown |
 | [PVWatts](https://developer.nrel.gov/docs/solar/pvwatts/v6/) | Energy production photovoltaic (PV) energy systems | `apiKey` | Yes | Unknown |
 | [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0) | The Official Carbon Intensity API for Great Britain developed by National Grid | No | Yes | Unknown |
-| [weatherstack](https://weatherstack.com/) | Real-Time & Historical World Weather Data API | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Events
