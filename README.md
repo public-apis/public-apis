@@ -308,9 +308,9 @@ API | Description | Auth | HTTPS | CORS |
 ### Disasters
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [USGS](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquake Data | `apiKey` | Yes | Unknown
-| [RWLabs](https://apidoc.rwlabs.org/#api-use) | All types of disaster data | `apiKey` | Yes | Unknown
 | [PredictHQ](https://developer.predicthq.com/) | Events and natural disasters data | oAuth | Yes | Unknown
+| [RWLabs](https://apidoc.rwlabs.org/#api-use) | All types of disaster data | `apiKey` | Yes | Unknown
+| [USGS](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquake Data | `apiKey` | Yes | Unknown
 
 **[⬆ Back to Index](#index)**
 ### Documents & Productivity
