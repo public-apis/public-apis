@@ -80,7 +80,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Jikan](https://jikan.moe) | Unofficial MyAnimeList API | No | Yes | Yes |
 | [Kitsu](https://kitsu.docs.apiary.io/) | Anime discovery platform | `OAuth` | Yes | Yes |
 | [MyAnimeList](https://myanimelist.net/clubs.php?cid=13727) | Anime and Manga Database and Community | `OAuth` | Yes | Unknown |
-| [Studio Ghibli](https://ghibliapi.herokuapp.com) | Resources from Studio Ghibli films | No | Yes | Unknown |
+| [Studio Ghibli](https://ghibliapi.herokuapp.com) | Resources from Studio Ghibli films | No | Yes | Yes |
 | [What Anime](https://soruly.github.io/trace.moe/) | Scan anime image to get specific detail | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
