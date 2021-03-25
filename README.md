@@ -41,6 +41,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Open Source Projects](#open-source-projects)
 * [Patent](#patent)
 * [Personality](#personality)
+* [Phone](#phone)
 * [Photography](#photography)
 * [Science & Math](#science--math)
 * [Security](#security)
@@ -141,6 +142,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Calendar
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Abstract Public Holidays](https://www.abstractapi.com/holidays-api) | Data on national, regional, and religious holidays via API | `apiKey` | Yes | Yes |
 | [Calendar Index](https://www.calendarindex.com/) | Worldwide Holidays and Working Days | `apiKey` | Yes | Yes |
 | [Church Calendar](http://calapi.inadiutorium.cz/) | Catholic liturgical calendar | No | No | Unknown |
 | [Czech Namedays Calendar](https://svatky.adresa.info) | Lookup for a name and returns nameday date | No | No | Unknown |
@@ -223,11 +225,10 @@ API | Description | Auth | HTTPS | CORS |
 ### Data Validation
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Abstract Email Validation](https://www.abstractapi.com/email-verification-validation-api) | Validate email addresses for deliverability and spam | `apiKey` | Yes | Yes |
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | Yes |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown |
-| [mailboxlayer](https://mailboxlayer.com/) | Email validation & verification JSON API for developers | `apiKey` | Yes | Unknown |
-| [NumValidate](https://numvalidate.com) | Open Source phone number validation | No | Yes | Unknown |
-| [numverify](https://numverify.com) | Phone number validation | No | Yes | Unknown |
+| [mailboxlayer](https://mailboxlayer.com) | Email address validation | No | Yes | Unknown |
 | [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown |
 | [US Autocomplete](https://smartystreets.com/docs/cloud/us-autocomplete-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes |
 | [US Extract](https://smartystreets.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes |
@@ -239,7 +240,8 @@ API | Description | Auth | HTTPS | CORS |
 ### Development
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | No |
+| [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
+| [Abstract Screenshot](https://www.abstractapi.com/website-screenshot-api) | Take programmatic screenshots of web pages from any website | `apiKey` | Yes | Yes |
 | [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
 | [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown |
@@ -340,6 +342,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Finance
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Abstract VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes | Yes |
 | [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | `apiKey` | Yes | Unknown |
 | [IEX Cloud](https://iexcloud.io/docs/api/) | Realtime & Historical Stock and Market Data | `apiKey` | Yes | Yes |
 | [IG](https://labs.ig.com/gettingstarted) | Spreadbetting and CFD Market Data | `apiKey` | Yes | Unknown |
@@ -422,6 +425,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Geocoding
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Abstract IP Geolocation](https://www.abstractapi.com/ip-geolocation-api) | Geolocate website visitors from their IPs | `apiKey` | Yes | Yes |
 | [adresse.data.gouv.fr](https://adresse.data.gouv.fr) | Address database of France, geocoding and reverse | No | Yes | Unknown |
 | [Battuta](http://battuta.medunes.net) | A (country/region/city) in-cascade location API | `apiKey` | No | Unknown |
 | [Bing Maps](https://www.microsoft.com/maps/) | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | Unknown |
@@ -666,6 +670,15 @@ API | Description | Auth | HTTPS | CORS |
 | [Quotes on Design](https://quotesondesign.com/api/) | Inspirational Quotes | No | Yes | Unknown |
 | [taylor.rest](https://taylor.rest) | REST API for random Taylor Swift quotes | No | Yes | No |
 | [Traitify](https://app.traitify.com/developer) | Assess, collect and analyze Personality | No | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Phone
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Abstract Phone Validation](https://www.abstractapi.com/phone-validation-api) | Validate phone numbers globally | `apiKey` | Yes | Yes |
+| [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | `apiKey` | Yes | Yes |
+| [NumValidate](https://numvalidate.com) | Open Source phone number validation | No | Yes | Unknown |
+| [numverify](https://numverify.com) | Phone number validation | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Photography
