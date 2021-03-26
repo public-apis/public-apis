@@ -372,7 +372,6 @@ API | Description | Auth | HTTPS | CORS |
 | [What's on the menu?](http://nypl.github.io/menus-api/) | NYPL human-transcribed historical menu collection | `apiKey` | No | Unknown |
 | [WhiskyHunter](https://whiskyhunter.net/api/) | Past online whisky auctions statistical data | No | Yes | Unknown |
 | [Zestful](https://zestfuldata.com/) | Parse recipe ingredients | `apiKey` | Yes | Yes |
-| [Zomato](https://developers.zomato.com/api) | Discover restaurants | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Games & Comics
@@ -509,7 +508,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Romania](http://data.gov.ro/) | Romania Government Open Data | No | No | Unknown |
 | [Open Government, Taiwan](https://data.gov.tw/) | Taiwan Government Open Data | No | Yes | Unknown |
 | [Open Government, USA](https://www.data.gov/) | United States Government Open Data | No | Yes | Unknown |
-| [Regulations.gov](https://regulationsgov.github.io/developers/) | Federal regulatory materials to increase understanding of the Federal rule making process | `apiKey` | Yes | Unknown |
 | [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
 
@@ -517,7 +515,6 @@ API | Description | Auth | HTTPS | CORS |
 ### Health
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [BetterDoctor](https://developer.betterdoctor.com/) | Detailed information about doctors in your area | `apiKey` | Yes | Unknown |
 | [Covid-19](https://covid19api.com/) | Covid 19 spread, infection and recovery | No | Yes | Yes |
 | [Covid-19](https://github.com/M-Media-Group/Covid-19-API) | Covid 19 cases, deaths and recovery per country | No | Yes | Yes |
 | [Covid-19 Government Response](https://covidtracker.bsg.ox.ac.uk) | Government measures tracker to fight against the Covid-19 pandemic | No | Yes | Yes |
