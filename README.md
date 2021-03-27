@@ -156,6 +156,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Nager.Date](https://date.nager.at) | Public holidays for more than 90 countries | No | Yes | No |
 | [Namedays Calendar](https://api.abalin.net/) | Provides namedays for multiple countries | No | Yes | Yes |
 | [Non-Working Days](https://github.com/gadael/icsdb) | Database of ICS files for non working days | No | Yes | Unknown |
+| [Non-Working Days](https://isdayoff.ru) | Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other | No | Yes | Yes |
 | [Russian Calendar](https://github.com/egno/work-calendar) | Check if a date is a Russian holiday or not | No | Yes | No |
 | [UnixTime Converter](https://unixtime.co.za) | A REST API to convert UnixTime to DateTime and DateTime to UnixTime | No | Yes | Unknown |
 
