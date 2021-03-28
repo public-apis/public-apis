@@ -908,6 +908,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
 | [Relink](https://rel.ink) | Free and secure URL shortener | No | Yes | Yes |
 | [TinyUID](https://tinyuid.com/docs) | Shorten long URLs | No | Yes | Yes |
+| [T.LY](https://t.ly/docs) | URL shortener API | No | Yes | No |
 | [Zero Width Shortener](https://docs.zws.im) | Shortens URLs using spaces that have zero width, making them invisible to humans | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
