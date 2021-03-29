@@ -839,7 +839,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Google Cloud Natural](https://cloud.google.com/natural-language/docs/) | Natural language understanding technology, including sentiment, entity and syntax analysis | `apiKey` | Yes | Unknown |
 | [languagelayer](https://languagelayer.com/) | Language Detection JSON API supporting 173 languages | `OAuth` | Yes | Unknown |
 | [Semantria](https://semantria.readme.io/docs) | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown |
-| [Tisane](https://tisane.ai/) | Detect abusive content, entities, topics, Wikidata, parse trees. 28 languages, usable offline | `apiKey` | Yes | Yes |
+| [Tisane](https://dev.tisane.ai/) | Detect abusive content, entities, topics, Wikidata, parse trees. 28 languages, usable offline | `apiKey` | Yes | Yes |
 | [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
