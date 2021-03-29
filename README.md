@@ -837,7 +837,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api) | Natural language processing and text analysis | `apiKey` | Yes | Yes |
 | [Detect Language](https://detectlanguage.com/) | Detects text language | `apiKey` | Yes | Unknown |
 | [Google Cloud Natural](https://cloud.google.com/natural-language/docs/) | Natural language understanding technology, including sentiment, entity and syntax analysis | `apiKey` | Yes | Unknown |
-| [Language Identification](https://rapidapi.com/BigLobster/api/language-identification-prediction) | Automatic language detection for any texts, supports over 175 languages | `X-Mashape-Key` | Yes | Unknown |
 | [languagelayer](https://languagelayer.com/) | Language Detection JSON API supporting 173 languages | `OAuth` | Yes | Unknown |
 | [Semantria](https://semantria.readme.io/docs) | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown |
 | [Tisane](https://tisane.ai/) | Detect abusive content, entities, topics, Wikidata, parse trees. 28 languages, usable offline | `apiKey` | Yes | Yes |
