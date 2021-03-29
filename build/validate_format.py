@@ -20,7 +20,6 @@ num_segments = 5
 
 errors = []
 title_links = []
-previous_links = []
 anchor_re = re.compile(anchor + '\s(.+)')
 section_title_re = re.compile('\*\s\[(.*)\]')
 link_re = re.compile('\[(.+)\]\((http.*)\)')
@@ -68,12 +67,6 @@ def check_entry(line_num, segments):
         title = title_re_match.group(1)
         if title.upper().endswith(' API'):
             add_error(line_num, 'Title should not end with "... API". Every entry is an API here!')
-        # do not allow duplicate links
-        link = title_re_match.group(2)
-        if link in previous_links:
-            add_error(line_num, 'Duplicate link - entries should only be included in one section')
-        else:
-            previous_links.append(link)
     # END Title
     # START Description
     # first character should be capitalized
