@@ -4,6 +4,8 @@
 opened to market company APIs that offer paid solutions. This API list is not a marketing tool, but a tool to help the
 community build applications and use free, public APIs quickly and easily. Pull requests that are identified as marketing attempts will not be accepted.
 >
+> Please make sure the API you want to add has a full free access or at least a free tier before submitting.
+>
 > Thanks for understanding! :)
 
 ## Formatting
@@ -12,7 +14,7 @@ Current API entry format:
 
 | API | Description | Auth | HTTPS | CORS |
 | --- | --- | --- | --- | --- |
-| API Title(Link to API webpage) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * |
+| API Title(Link to API documentation) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * |
 
 Example entry:
 
@@ -32,6 +34,8 @@ Example entry:
 * `Yes` - _the API supports CORS_
 * `No` - _the API does not support CORS_
 * `Unknown` - _it is unknown if the API supports CORS_
+
+_Without proper [CORS configuration](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) an API will only be usable server side._
 
 Please continue to follow the alphabetical ordering that is in place per section. Each table column should be padded with one space on either side.
 
