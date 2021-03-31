@@ -109,7 +109,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Rijksmuseum](https://www.rijksmuseum.nl/en/api) | Art | `apiKey` | Yes | Unknown |
 | [Metropolitan Museum of Art](https://metmuseum.github.io/) | Art | No | Yes | Unknown |
 
-
 ### Books
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
