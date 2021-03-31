@@ -528,8 +528,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Thailand](https://data.go.th/) | Thailand Government Open Data | `apiKey` | Yes | Unknown |
 | [Open Government, USA](https://www.data.gov/) | United States Government Open Data | No | Yes | Unknown |
 | [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
-| [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
 | [US Census Bureau](https://www.census.gov/data/developers/data-sets.html) | U.S. Census data sets and Geolocation | No | Yes | Unknown |
+| [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
+
 
 **[⬆ Back to Index](#index)**
 ### Health
