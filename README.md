@@ -536,7 +536,6 @@ API | Description | Auth | HTTPS | CORS |
 | [US Census Bureau](https://www.census.gov/data/developers/data-sets.html) | U.S. Census data sets and Geolocation | No | Yes | Unknown |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
 
-
 **[⬆ Back to Index](#index)**
 ### Health
 API | Description | Auth | HTTPS | CORS |
