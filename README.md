@@ -701,10 +701,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Quotes on Design](https://quotesondesign.com/api/) | Inspirational Quotes | No | Yes | Unknown |
 | [taylor.rest](https://taylor.rest) | REST API for random Taylor Swift quotes | No | Yes | No |
 | [Traitify](https://app.traitify.com/developer) | Assess, collect and analyze Personality | No | Yes | Unknown |
-<<<<<<< HEAD
 | [tronalddump.io](https://www.tronalddump.io) | Api & web archive for the things Donald Trump has said | No | Yes | Unknown |
 | [Vadivelu HTTP Codes](https://vadivelu.anoram.com/) | On demand HTTP Codes with images | No | Yes | No |
-=======
 
 **[⬆ Back to Index](#index)**
 ### Phone
@@ -714,7 +712,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | `apiKey` | Yes | Yes |
 | [NumValidate](https://numvalidate.com) | Open Source phone number validation | No | Yes | Unknown |
 | [numverify](https://numverify.com) | Phone number validation | No | Yes | Unknown |
->>>>>>> upstream/master
 
 **[⬆ Back to Index](#index)**
 ### Photography
