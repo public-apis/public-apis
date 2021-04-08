@@ -1,4 +1,4 @@
-name: "Validate links"
+name: PhoenixDOMString.json
 
 on:
   schedule:
