@@ -1,12 +1,12 @@
 # Public APIs [![Run tests](https://github.com/public-apis/public-apis/workflows/Run%20tests/badge.svg)](https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22) [![Validate links](https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master)](https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22)
 
-A collective list of free APIs for use in software and web development.
+*A collective list of free APIs for use in software and web development.*
 
 A public API for this project can be found [here](https://github.com/davemachado/public-api)!
 
-For information on contributing to this project, please see the [contributing guide](.github/CONTRIBUTING.md).
+For information on contributing to this project, please see the [contributing guide](CONTRIBUTING.md).
 
-Please note a passing build status indicates all listed APIs are available since the last update. A failing build status indicates that 1 or more services may be unavailable at the moment.
+**NOTE: A passing build status indicates all listed APIs are available since the last update. A failing build status indicates that 1 or more services may be unavailable at the moment.**
 
 ## Index
 
@@ -1018,3 +1018,8 @@ API | Description | Auth | HTTPS | CORS |
 | [weatherstack](https://weatherstack.com/) | Real-Time & Historical World Weather Data API | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
+
+<br>
+
+## License
+[MIT](LICENSE)
