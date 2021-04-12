@@ -310,7 +310,6 @@ API | Description | Auth | HTTPS | CORS |
 | [StackExchange](https://api.stackexchange.com/) | Q&A forum for developers | `OAuth` | Yes | Unknown |
 | [userstack](https://userstack.com/) | Secure User-Agent String Lookup JSON API | `OAuth` | Yes | Unknown |
 
-
 **[⬆ Back to Index](#index)**
 ### Dictionaries
 API | Description | Auth | HTTPS | CORS |
@@ -720,7 +719,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | `apiKey` | Yes | Yes |
 | [NumValidate](https://numvalidate.com) | Open Source phone number validation | No | Yes | Unknown |
 
-
 **[⬆ Back to Index](#index)**
 ### Photography
 API | Description | Auth | HTTPS | CORS |
@@ -997,7 +995,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Vimeo](https://developer.vimeo.com/) | Vimeo Developer API | `OAuth` | Yes | Unknown |
 | [YouTube](https://developers.google.com/youtube/) | Add YouTube functionality to your sites and apps | `OAuth` | Yes | Unknown |
 | [YTS](https://yts.mx/api) | Movie Data | No | Yes | Unknown |
-
 
 **[⬆ Back to Index](#index)**
 ### Weather
