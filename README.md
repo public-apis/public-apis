@@ -630,6 +630,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
 | [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
 | [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
+| [JioSaavn](https://github.com/cyberboysumanjay/JioSaavnAPI) | API to retrive song information, album meta data and many more from JioSaavn | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### News
