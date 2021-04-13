@@ -1,0 +1,20 @@
+site_name: Public-APIs
+site_url: https://www.public-apis.dev
+site_description: A collective list of free APIs for use in software and web development.
+
+theme:
+        name: flatly
+        nav_style: dark
+        
+repo_url: https://github.com/public-apis/public-apis
+repo_name: "GitHub"
+
+nav:
+    - Home: index.md
+    - Contribute: contributing.md
+    - License: license.md
+    
+extra_css:
+        -  css/extra.css
+
+copyright: Copyright &copy; 2021 Public-Apis.

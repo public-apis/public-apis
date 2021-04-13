@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Merriweather+Sans:wght@500&display=swap');
+
+div.col-md-9 h1:first-of-type {
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    /* color: #325272; */
+}
+div.bg-dark{
+    background-color: #185e7a !important;
+}
+.bg-dark.navbar-dark .navbar-nav .nav-link:focus, .bg-dark.navbar-dark .navbar-nav .nav-link:hover, .bg-dark.navbar-dark .navbar-nav .active>.nav-link {
+    color: #35f2fc !important;
+}
+
+div.col-md-9>p:first-of-type {
+    text-align: center;
+    font-family: 'Amiri', serif;
+    font-size: 26px;
+}
+
+div.col-md-9 p.admonition-title:first-of-type {
+    text-align: left;
+}
+
+a{
+    color: #9835fc
+    ;
+}
+
+div.col-md-9 h1:first-of-type .headerlink {
+    display: none;
+}
+
+code.no-highlight {
+    color: black;
+}
+
+/* Definition List styles */
+
+dd {
+    padding-left: 20px;
+}
+
