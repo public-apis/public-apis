@@ -1,2 +1,0 @@
-language = "bash"
-run = ""
