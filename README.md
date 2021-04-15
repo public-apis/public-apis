@@ -184,7 +184,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Travis CI](https://docs.travis-ci.com/api/) | Sync your GitHub projects with Travis CI to test your code in minutes | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
-### Cryptocurrency
+### 
+ocurrency
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Binance](https://github.com/binance/binance-spot-api-docs) | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown |
@@ -218,6 +219,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Poloniex](https://poloniex.com/support/api/) | US based digital asset exchange | `apiKey` | Yes | Unknown |
 | [VALR](https://docs.valr.com/) | Cryptocurrency Exchange based in South Africa | `apiKey` | Yes | Unknown |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
+| [ZMOK](https://zmok.io/) | Ethereum JSON RPC API and Web3 provider | NO | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Currency Exchange
