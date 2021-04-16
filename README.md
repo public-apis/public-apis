@@ -10,52 +10,55 @@ For information on contributing to this project, please see the [contributing gu
 
 ## Index
 
-* [Animals](#animals)
-* [Anime](#anime)
-* [Anti-Malware](#anti-malware)
-* [Art & Design](#art--design)
-* [Books](#books)
-* [Business](#business)
-* [Calendar](#calendar)
-* [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
-* [Continuous Integration](#continuous-integration)
-* [Cryptocurrency](#cryptocurrency)
-* [Currency Exchange](#currency-exchange)
-* [Data Validation](#data-validation)
-* [Development](#development)
-* [Dictionaries](#dictionaries)
-* [Documents & Productivity](#documents--productivity)
-* [Environment](#environment)
-* [Events](#events)
-* [Finance](#finance)
-* [Food & Drink](#food--drink)
-* [Games & Comics](#games--comics)
-* [Geocoding](#geocoding)
-* [Government](#government)
-* [Health](#health)
-* [Jobs](#jobs)
-* [Machine Learning](#machine-learning)
-* [Music](#music)
-* [News](#news)
-* [Open Data](#open-data)
-* [Open Source Projects](#open-source-projects)
-* [Patent](#patent)
-* [Personality](#personality)
-* [Phone](#phone)
-* [Photography](#photography)
-* [Science & Math](#science--math)
-* [Security](#security)
-* [Shopping](#shopping)
-* [Social](#social)
-* [Sports & Fitness](#sports--fitness)
-* [Test Data](#test-data)
-* [Text Analysis](#text-analysis)
-* [Tracking](#tracking)
-* [Transportation](#transportation)
-* [URL Shorteners](#url-shorteners)
-* [Vehicle](#vehicle)
-* [Video](#video)
-* [Weather](#weather)
+- [Public APIs ![Run tests](https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22) [![Validate links](https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master)](https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22)](#public-apis--)
+  - [Index](#index)
+    - [Animals](#animals)
+    - [Anime](#anime)
+    - [Anti-Malware](#anti-malware)
+    - [Art & Design](#art--design)
+    - [Books](#books)
+    - [Business](#business)
+    - [Calendar](#calendar)
+    - [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
+    - [Continuous Integration](#continuous-integration)
+    - [Cryptocurrency](#cryptocurrency)
+    - [Currency Exchange](#currency-exchange)
+    - [Data Validation](#data-validation)
+    - [Development](#development)
+    - [Dictionaries](#dictionaries)
+    - [Documents & Productivity](#documents--productivity)
+    - [Environment](#environment)
+    - [Events](#events)
+    - [Finance](#finance)
+    - [Food & Drink](#food--drink)
+    - [Games & Comics](#games--comics)
+    - [Geocoding](#geocoding)
+    - [Government](#government)
+    - [Health](#health)
+    - [Jobs](#jobs)
+    - [Machine Learning](#machine-learning)
+    - [Music](#music)
+    - [News](#news)
+    - [Open Data](#open-data)
+    - [Open Source Projects](#open-source-projects)
+    - [Patent](#patent)
+    - [Personality](#personality)
+    - [Phone](#phone)
+    - [Photography](#photography)
+    - [Science & Math](#science--math)
+    - [Security](#security)
+    - [Shopping](#shopping)
+    - [Social](#social)
+    - [Sports & Fitness](#sports--fitness)
+    - [Test Data](#test-data)
+    - [Text Analysis](#text-analysis)
+    - [Tracking](#tracking)
+    - [Transportation](#transportation)
+    - [URL Shorteners](#url-shorteners)
+    - [Vehicle](#vehicle)
+    - [Video](#video)
+    - [Weather](#weather)
+  - [License](#license)
 
 ### Animals
 API | Description | Auth | HTTPS | CORS |
@@ -824,7 +827,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Full Contact](https://www.fullcontact.com/developer/docs/) | Get Social Media profiles and contact Information | `OAuth` | Yes | Unknown |
 | [HackerNews](https://github.com/HackerNews/API) | Social news for CS and entrepreneurship | No | Yes | Unknown |
 | [Instagram](https://www.instagram.com/developer/) | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | Unknown |
-| [LinkedIn](https://developer.linkedin.com/docs/rest-api) | The foundation of all digital integrations with LinkedIn | `OAuth` | Yes | Unknown |
 | [Meetup.com](https://www.meetup.com/meetup_api/) | Data about Meetups from Meetup.com | `apiKey` | Yes | Unknown |
 | [MySocialApp](https://mysocialapp.io) | Seamless Social Networking features, API, SDK to any app | `apiKey` | Yes | Unknown |
 | [Open Collective](https://docs.opencollective.com/help/developers/api) | Get Open Collective data | No | Yes | Unknown |
@@ -891,6 +893,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Google Cloud Natural](https://cloud.google.com/natural-language/docs/) | Natural language understanding technology, including sentiment, entity and syntax analysis | `apiKey` | Yes | Unknown |
 | [languagelayer](https://languagelayer.com/) | Language Detection JSON API supporting 173 languages | `OAuth` | Yes | Unknown |
 | [Semantria](https://semantria.readme.io/docs) | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown |
+| [Sentium](https://sentim-api.herokuapp.com/) | Free API for Text Sentimental Analysis | No | Yes | Unknown |
 | [Tisane](https://tisane.ai/) | Text Analytics with focus on detection of abusive content and law enforcement applications | `OAuth` | Yes | Yes |
 | [Watson Natural Language Understanding](https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding) | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown |
 
