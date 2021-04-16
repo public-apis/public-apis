@@ -28,6 +28,7 @@ Example entry:
 * `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
 * `X-Mashape-Key` - _the name of the header which may need to be sent_
 * `No` - _the API requires no authentication to run_
+* `User-Agent` - _the name of the header to be sent with requests to the API_
 
 \* Currently, the only accepted inputs for the `CORS` field are as follows:
 
