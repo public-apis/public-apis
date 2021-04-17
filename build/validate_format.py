@@ -5,7 +5,7 @@ import sys
 
 anchor = '###'
 min_entries_per_section = 3
-auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'No']
+auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'No', 'User-Agent']
 punctuation = ['.', '?', '!']
 https_keys = ['Yes', 'No']
 cors_keys = ['Yes', 'No', 'Unknown']
