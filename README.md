@@ -971,11 +971,13 @@ API | Description | Auth | HTTPS | CORS |
 | [Bitly](http://dev.bitly.com/get_started.html) | URL shortener and link management | `OAuth` | Yes | Unknown |
 | [CleanURI](https://cleanuri.com/docs) | URL shortener service | No | Yes | Yes |
 | [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | Monitor, compare and optimize your marketing links | `apiKey` | Yes | Unknown |
+| [LiteLink](https://litelink.ml/) | Simple URL Shortener | `No` | Yes | Yes |
 | [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
 | [Shrtlnk](https://shrtlnk.dev/developer) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
 | [T.LY](https://t.ly/docs) | URL shortener API | No | Yes | No |
 | [TinyUID](https://tinyuid.com/docs) | Shorten long URLs | No | Yes | Yes |
 | [Zero Width Shortener](https://docs.zws.im) | Shortens URLs using spaces that have zero width, making them invisible to humans | No | Yes | Unknown |
+
 
 **[⬆ Back to Index](#index)**
 ### Vehicle
