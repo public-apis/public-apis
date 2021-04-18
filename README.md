@@ -433,6 +433,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Hearthstone](http://hearthstoneapi.com/) | Hearthstone Cards Information | `X-Mashape-Key` | Yes | Unknown |
 | [Humble Bundle](https://rapidapi.com/Ziggoto/api/humble-bundle) | Humble Bundle's current bundles | `apiKey` | Yes | Unknown |
 | [Hypixel](https://api.hypixel.net/) | Hypixel player stats | `apiKey` | Yes | Unknown |
+| [Hyrule Compendium](https://github.com/gadhagod/Hyrule-Compendium-API) | Data on all interactive items from The Legend of Zelda: BOTW | No | Yes | Unknown |
 | [Hytale](https://hytale-api.com/) | Hytale blog posts and jobs | No | Yes | Unknown |
 | [IGDB.com](https://api.igdb.com/) | Video Game Database | `apiKey` | Yes | Unknown |
 | [JokeAPI](https://sv443.net/jokeapi/v2/) | Programming, Miscellaneous and Dark Jokes | No | Yes | Yes |
