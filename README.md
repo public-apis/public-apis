@@ -313,6 +313,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Scraper.AI](https://docs.scraper.ai/#/) | Extract and monitor data from any website | `apiKey` | Yes | Unknown |
 | [ScraperApi](https://www.scraperapi.com) | Easily build scalable web scrapers | `apiKey` | Yes | Unknown |
 | [scrapestack](https://scrapestack.com/) | Real-time, Scalable Proxy & Web Scraping REST API | `apiKey` | Yes | Unknown |
+| [ScrapingAnt](https://scrapingant.com) | Headless Chrome scraping with a simple API | `apiKey` | Yes | Unknown |
 | [ScrapingDog](https://www.scrapingdog.com/) | Proxy API for Web scraping | `apiKey` | Yes | Unknown |
 | [ScreenshotAPI.net](https://screenshotapi.net/) | Create pixel-perfect website screenshots | `apiKey` | Yes | Yes |
 | [serpstack](https://serpstack.com/) | Real-Time & Accurate Google Search Results API | `apiKey` | Yes | Yes |
