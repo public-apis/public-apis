@@ -4,6 +4,8 @@
 opened to market company APIs that offer paid solutions. This API list is not a marketing tool, but a tool to help the
 community build applications and use free, public APIs quickly and easily. Pull requests that are identified as marketing attempts will not be accepted.
 >
+> Please make sure the API you want to add has a full free access or at least a free tier before submitting.
+>
 > Thanks for understanding! :)
 
 ## Formatting
@@ -12,7 +14,7 @@ Current API entry format:
 
 | API | Description | Auth | HTTPS | CORS |
 | --- | --- | --- | --- | --- |
-| API Title(Link to API webpage) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * |
+| API Title(Link to API documentation) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * |
 
 Example entry:
 
@@ -26,12 +28,15 @@ Example entry:
 * `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
 * `X-Mashape-Key` - _the name of the header which may need to be sent_
 * `No` - _the API requires no authentication to run_
+* `User-Agent` - _the name of the header to be sent with requests to the API_
 
 \* Currently, the only accepted inputs for the `CORS` field are as follows:
 
 * `Yes` - _the API supports CORS_
 * `No` - _the API does not support CORS_
 * `Unknown` - _it is unknown if the API supports CORS_
+
+_Without proper [CORS configuration](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) an API will only be usable server side._
 
 Please continue to follow the alphabetical ordering that is in place per section. Each table column should be padded with one space on either side.
 
