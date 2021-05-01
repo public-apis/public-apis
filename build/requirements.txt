@@ -1,2 +1,2 @@
 flake8>=3.5.0
-httplib2==0.9.2
+httplib2==0.19.0
