@@ -1,8 +1,14 @@
 name: "Run tests"
 
 on:
-  - push
-  - pull_request
+  schedule:
+    - cron:  '0 0 * * *'
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 env:
   FORMAT_FILE: README.md
