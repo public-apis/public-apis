@@ -52,6 +52,7 @@ After you've created a branch on your fork with your changes, it's time to [make
 * Use a short descriptive commit message. *for e.g.*: ❌`Update Readme.md`  ✔ `Add Blockchain API to Cryptocurrency`
 * Search previous Pull Requests or Issues before making a new one, as yours may be a duplicate.
 * Don't mention the TLD(Top Level Domain) in the name of the API. *for e.g.*: ❌Gmail.com ✔Gmail
+* Please make sure the API name does not end with `API`. *for e.g.*: ❌Gmail API ✔Gmail 
 * Please make sure the API has proper documentation.
 * Please make sure you squash all commits together before opening a pull request. If your pull request requires changes upon review, please be sure to squash all additional commits as well. [This wiki page][squash-link] outlines the squash process.
 * Target your Pull Request to the `master` branch of the `public-apis`
@@ -80,7 +81,7 @@ If so, add more commits to your branch and push them – they will automatically
 
 Opening a pull request will trigger a Travis CI build to check the validity of all links in the project. After the build completes, **please ensure that the build has passed**. If the build did not pass, please view the Travis CI log and correct any errors that were found in your contribution. 
 
-*Thanks for being a part of this project, and we look forward to hearing from you soon!* 
+*Thanks for being a part of this project, and we look forward to hearing from you soon!*
 
 [branch-link]: <http://guides.github.com/introduction/flow/>
 [clone-link]: <https://help.github.com/articles/cloning-a-repository/>
