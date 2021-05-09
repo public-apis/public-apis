@@ -101,6 +101,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Metacert](https://metacert.com/) | Metacert Link Flagging | `apiKey` | Yes | Unknown |
 | [URLScan.io](https://urlscan.io/about-api/) | Scan and Analyse URLs | `apiKey` | Yes | Unknown |
 | [VirusTotal](https://www.virustotal.com/en/documentation/public-api/) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
+| [URLhaus](https://urlhaus-api.abuse.ch/)| Bulk queries and Download Malware Samples| No | Yes | Unknown|
 
 **[⬆ Back to Index](#index)**
 ### Art & Design
