@@ -1,0 +1,25 @@
+User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+
+           }
+
+PinCode = "332742" #Enter your pincode here
+
+CheckAfter = 1 # Specify your time limit after which you want to check in minutes
+
+CheckAfter = 5 # Specify your time limit after which you want to check in minutes
+
+VaccineType = "COVISHIELD" # Set your vaccine type acceptable values COVISHIELD and COVAXIN
+
+MyAge = 24 # Set your age here, there are different sessions for people having age 18+ and below
+
+@@ -51,4 +51,4 @@ def SlotChecker():
+
+    SlotChecker()
+
+    print("Last checked at %s " % (str(datetime.now().time()),))
+
+    print("We'll check again in %s minute(s)" % (CheckAfter,))
+
+    time.sleep(CheckAfter*60) 
+
+    time.sleep(CheckAfter*60)
