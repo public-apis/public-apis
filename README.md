@@ -407,6 +407,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IG](https://labs.ig.com/gettingstarted) | Spreadbetting and CFD Market Data | `apiKey` | Yes | Unknown |
 | [Intrinio](https://intrinio.com/) | A wide selection of financial data feeds | `apiKey` | Yes | Unknown |
 | [marketstack](https://marketstack.com/) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown |
+| [Nordigen](https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/) | Connect to bank accounts using official bank APIs and get raw transaction data | `apiKey` | Yes | Unknown |
 | [Plaid](https://plaid.com/) | Connect with users’ bank accounts and access transaction data | `apiKey` | Yes | Unknown |
 | [Razorpay IFSC](https://ifsc.razorpay.com/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown |
 | [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | Websocket API to access realtime stock data | `apiKey` | No | Unknown |
@@ -655,7 +656,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Deepcode](https://www.deepcode.ai) | AI for code review | No | Yes | Unknown |
 | [Dialogflow](https://dialogflow.com) | Natural Language Processing | `apiKey` | Yes | Unknown |
 | [EXUDE-API](http://uttesh.com/exude-api/) | Used for the primary ways for filtering the stopping, stemming words from the text data | No | Yes | Yes |
-| [IPS Online](https://docs.identity.ps/docs) | Face and License Plate Anonymization | `apiKey` | Yes | Unknown | 
+| [IPS Online](https://docs.identity.ps/docs) | Face and License Plate Anonymization | `apiKey` | Yes | Unknown |
 | [Keen IO](https://keen.io/) | Data Analytics | `apiKey` | Yes | Unknown |
 | [NLP Cloud](https://nlpcloud.io) | NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more | `apiKey` | Yes | Unknown |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
