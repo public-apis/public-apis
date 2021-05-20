@@ -1021,7 +1021,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Is.gd](https://is.gd/developers.php) | URL Shortening API | `No` | Yes | Unknown |
 | [LiteLink](https://litelink.ml/) | Simple URL Shortener | `No` | Yes | Yes |
 | [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
-| [Shrtcode](https://shrtco.de/docs) | URl Shortener with multiple Domains, No signup | No | Yes | Yes |
+| [Shrtcode](https://shrtco.de/docs) | URl Shortener with multiple Domains | No | Yes | Yes |
 | [Shrtlnk](https://shrtlnk.dev/developer) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
 | [T.LY](https://t.ly/docs) | URL shortener API | No | Yes | No |
 | [TinyUID](https://tinyuid.com/docs) | Shorten long URLs | No | Yes | Yes |
