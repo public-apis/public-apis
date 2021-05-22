@@ -12,6 +12,5 @@
 | Health | [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | HTTPSConnectionPool error |
 | Science & Math | [Trefle](https://trefle.io/) | HTTPSConnectionPool error |
 | Shopping | [Wal-Mart](https://developer.walmartlabs.com/docs) | HTTPSConnectionPool error |
-| Social Carro | [Score](https://docs.score.getcarro.com/) | HTTPSConnectionPool error |
+| Social | [Carro Score](https://docs.score.getcarro.com/) | HTTPSConnectionPool error |
 | Transportation | [Metro Lisboa](http://app.metrolisboa.pt/status/getLinhas.php) | HTTPSConnectionPool error |
-
