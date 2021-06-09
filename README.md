@@ -739,7 +739,6 @@ API | Description | Auth | HTTPS | CORS |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | No | Yes | Unknown |
 | [Kaggle](https://www.kaggle.com/docs/api) | Create and interact with Datasets, Notebooks, and connect with Kaggle | `apiKey` | Yes | Unknown |
 | [LinkPreview](https://www.linkpreview.net) | Get JSON formatted summary with title, description and preview image for any requested URL | `apiKey` | Yes | Yes |
-| [Marijuana Strains](http://strains.evanbusse.com/) | Marijuana strains, races, flavors and effects | `apiKey` | No | Unknown |
 | [Microlink.io](https://microlink.io) | Extract structured data from any website | No | Yes | Yes |
 | [OpenCorporates](http://api.opencorporates.com/documentation/API-Reference) | Data on corporate entities and directors in many countries | `apiKey` | Yes | Unknown |
 | [Quandl](https://www.quandl.com/) | Stock Market Data | No | Yes | Unknown |
