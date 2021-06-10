@@ -125,6 +125,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Books
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Bhagavad Gita](https://docs.bhagavadgitaapi.in) | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | `apiKey` | Yes | Yes |
 | [Bhagavad Gita](https://bhagavadgita.io/api) | Bhagavad Gita text | `OAuth` | Yes | Yes |
 | [Bible](https://bibleapi.co/) | RESTful Bible API with 7 versions, 4 languages and multiple features | `apiKey` | Yes | Unknown |
 | [British National Bibliography](http://bnb.data.bl.uk/) | Books | No | No | Unknown |
@@ -136,7 +137,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/) | Books, book covers and related data | No | Yes | Yes |
 | [Quran](https://quran.api-docs.io/) | RESTful Quran API with multiple languages | No | Yes | Yes |
 | [Rig Veda](https://aninditabasu.github.io/indica/html/rv.html) | Gods and poets, their categories, and the verse meters, with the mandal and sukta number | No | Yes | Unknown |
-| [Shrimad Bhagavad Gita](https://vedicscriptures.github.io/) | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | No | Yes | Yes |
 | [Thirukkural](https://api-thirukkural.web.app/) | 1330 Thirukkural poems and explanation in Tamil and English | No | Yes | Yes |
 | [Vedic Society](https://aninditabasu.github.io/indica/html/vs.html) | Descriptions of all nouns (names, places, animals, things) from vedic literature | No | Yes | Unknown |
 | [Wolne Lektury](https://wolnelektury.pl/api/) | API for obtaining information about e-books available on the WolneLektury.pl website | No | Yes | Unknown |
