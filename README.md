@@ -312,6 +312,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Host.io](https://host.io) | Domains Data API for Developers | `apiKey` | Yes | Yes |
 | [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown |
 | [Httpbin](https://httpbin.org/) | A Simple HTTP Request & Response Service | No | Yes | Yes |
+| [Httpbin Cloudflare](https://cloudflare-quic.com/b/) | A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare | No | Yes | Yes |
 | [IBM Text to Speech](https://cloud.ibm.com/docs/text-to-speech/getting-started.html) | Convert text to speech | `apiKey` | Yes | Yes |
 | [Icanhazip](https://major.io/icanhazip-com-faq/) | IP Address API | No | Yes | Yes |
 | [IFTTT](https://platform.ifttt.com/docs/connect_api) | IFTTT Connect API | No | Yes | Unknown |
