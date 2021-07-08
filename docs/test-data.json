@@ -70,13 +70,6 @@
         "CORS": "Unknown"
     },
     {
-        "API": "<a href=\"https://reqres.in\" target=\"_blank\">Reqres</a>",
-        "Description": "Generates random user data",
-        "Auth": "No",
-        "HTTPS": "Yes",
-        "CORS": "Unknown"
-    },
-    {
         "API": "<a href=\"https://robohash.org/\" target=\"_blank\">RoboHash</a>",
         "Description": "Generate random robot/alien avatars",
         "Auth": "No",

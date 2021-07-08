@@ -393,7 +393,7 @@
     },
     {
         "API": "<a href=\"https://reqres.in/\" target=\"_blank\">ReqRes</a>",
-        "Description": "A hosted REST-API ready to respond to your AJAX requests",
+        "Description": "A hosted REST-API ready to respond to your AJAX requests. It can also generate random user data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
