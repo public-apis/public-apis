@@ -1,41 +1,41 @@
 [
     {
-        "API": "[Pixela](https://pixe.la)",
+        "API": "<a href=\"https://pixe.la\" target=\"_blank\">Pixela</a>",
         "Description": "API for recording and tracking habits or effort, routines",
         "Auth": "`X-Mashape-Key`",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Postmon](http://postmon.com.br)",
+        "API": "<a href=\"http://postmon.com.br\" target=\"_blank\">Postmon</a>",
         "Description": "An API to query Brazilian ZIP codes and orders easily, quickly and free",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Sweden](https://developer.postnord.com/docs2)",
+        "API": "<a href=\"https://developer.postnord.com/docs2\" target=\"_blank\">Sweden</a>",
         "Description": "Provides information about parcels in transport",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[UPS](https://www.ups.com/upsdeveloperkit)",
+        "API": "<a href=\"https://www.ups.com/upsdeveloperkit\" target=\"_blank\">UPS</a>",
         "Description": "Shipment and Address information",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[WeCanTrack](https://docs.wecantrack.com)",
+        "API": "<a href=\"https://docs.wecantrack.com\" target=\"_blank\">WeCanTrack</a>",
         "Description": "Automatically place subids in affiliate links to attribute affiliate conversions to click data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[WhatPulse](https://whatpulse.org/pages/webapi/)",
+        "API": "<a href=\"https://whatpulse.org/pages/webapi/\" target=\"_blank\">WhatPulse</a>",
         "Description": "Small application that measures your keyboard/mouse usage",
         "Auth": "No",
         "HTTPS": "Yes",

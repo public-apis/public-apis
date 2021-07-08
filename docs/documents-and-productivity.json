@@ -1,92 +1,92 @@
 [
     {
-        "API": "[Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api)",
-        "Description": "HTML/URL to PDF/PNG, Office documents to PDF, image conversion",
-        "Auth": "`apiKey`",
+        "API": "<a href=\"https://cloudmersive.com/convert-api\" target=\"_blank\">Cloudmersive Document and Data Conversion</a>",
+        "Description": "HTML/ to PDF/PNG, Office documents to PDF, image conversion",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Code::Stats](https://codestats.net/api-docs)",
+        "API": "<a href=\"https://codestats.net/api-docs\" target=\"_blank\">Code::Stats</a>",
         "Description": "Automatic time tracking for programmers",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[File.io](https://www.file.io)",
+        "API": "<a href=\"https://www.file.io\" target=\"_blank\">File.io</a>",
         "Description": "File Sharing",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Mercury](https://mercury.postlight.com/web-parser/)",
+        "API": "<a href=\"https://mercury.postlight.com/web-parser/\" target=\"_blank\">Mercury</a>",
         "Description": "Web parser",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Notion](https://developers.notion.com/docs/getting-started)",
+        "API": "<a href=\"https://developers.notion.com/docs/getting-started\" target=\"_blank\">Notion</a>",
         "Description": "Integrate with Notion",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[pdflayer](https://pdflayer.com)",
-        "Description": "HTML/URL to PDF",
-        "Auth": "`apiKey`",
+        "API": "<a href=\"https://pdflayer.com\" target=\"_blank\">pdflayer</a>",
+        "Description": "HTML/ to PDF",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Pocket](https://getpocket.com/developer/)",
+        "API": "<a href=\"https://getpocket.com/developer/\" target=\"_blank\">Pocket</a>",
         "Description": "Bookmarking service",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[PrexView](https://prexview.com)",
+        "API": "<a href=\"https://prexview.com\" target=\"_blank\">PrexView</a>",
         "Description": "Data from XML or JSON to PDF, HTML or Image",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Restpack](https://restpack.io/)",
+        "API": "<a href=\"https://restpack.io/\" target=\"_blank\">Restpack</a>",
         "Description": "Provides screenshot, HTML to PDF and content extraction APIs",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Todoist](https://developer.todoist.com)",
+        "API": "<a href=\"https://developer.todoist.com\" target=\"_blank\">Todoist</a>",
         "Description": "Todo Lists",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Vector Express v2.0](https://vector.express)",
+        "API": "<a href=\"https://vector.express\" target=\"_blank\">Vector Express v2.0</a>",
         "Description": "Free vector file converting API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[WakaTime](https://wakatime.com/developers)",
+        "API": "<a href=\"https://wakatime.com/developers\" target=\"_blank\">WakaTime</a>",
         "Description": "Automated time tracking leaderboards for programmers",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Zube](https://zube.io/docs/api)",
+        "API": "<a href=\"https://zube.io/docs/api\" target=\"_blank\">Zube</a>",
         "Description": "Full stack project management",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

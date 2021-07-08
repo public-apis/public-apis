@@ -1,127 +1,127 @@
 [
     {
-        "API": "[Coronavirus in the UK](https://coronavirus.data.gov.uk/details/developers-guide)",
+        "API": "<a href=\"https://coronavirus.data.gov.uk/details/developers-guide\" target=\"_blank\">Coronavirus in the UK</a>",
         "Description": "UK Government coronavirus data, including deaths and cases by region",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Covid-19](https://covid19api.com/)",
+        "API": "<a href=\"https://covid19api.com/\" target=\"_blank\">Covid-19</a>",
         "Description": "Covid 19 spread, infection and recovery",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Covid-19](https://github.com/M-Media-Group/Covid-19-API)",
+        "API": "<a href=\"https://github.com/M-Media-Group/Covid-19-API\" target=\"_blank\">Covid-19</a>",
         "Description": "Covid 19 cases, deaths and recovery per country",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Covid-19 Government Response](https://covidtracker.bsg.ox.ac.uk)",
+        "API": "<a href=\"https://covidtracker.bsg.ox.ac.uk\" target=\"_blank\">Covid-19 Government Response</a>",
         "Description": "Government measures tracker to fight against the Covid-19 pandemic",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[COVID-19 Tracker Canada](https://api.covid19tracker.ca/docs/1.0/overview)",
+        "API": "<a href=\"https://api.covid19tracker.ca/docs/1.0/overview\" target=\"_blank\">COVID-19 Tracker Canada</a>",
         "Description": "Details on Covid-19 cases across Canada",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Dataflow Kit COVID-19](https://covid-19.dataflowkit.com)",
+        "API": "<a href=\"https://covid-19.dataflowkit.com\" target=\"_blank\">Dataflow Kit COVID-19</a>",
         "Description": "COVID-19 live statistics into sites per hour",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Diabetes](http://predictbgl.com/api/)",
+        "API": "<a href=\"http://predictbgl.com/api/\" target=\"_blank\">Diabetes</a>",
         "Description": "Logging and retrieving diabetes information",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Healthcare.gov](https://www.healthcare.gov/developers/)",
+        "API": "<a href=\"https://www.healthcare.gov/developers/\" target=\"_blank\">Healthcare.gov</a>",
         "Description": "Educational content about the US Health Insurance Marketplace",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Lexigram](https://docs.lexigram.io/v1/welcome)",
+        "API": "<a href=\"https://docs.lexigram.io/v1/welcome\" target=\"_blank\">Lexigram</a>",
         "Description": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Makeup](http://makeup-api.herokuapp.com/)",
+        "API": "<a href=\"http://makeup-api.herokuapp.com/\" target=\"_blank\">Makeup</a>",
         "Description": "Makeup Information",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Medicare](https://data.medicare.gov/developers)",
+        "API": "<a href=\"https://data.medicare.gov/developers\" target=\"_blank\">Medicare</a>",
         "Description": "Access to the data from the CMS - medicare.gov",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[NPPES](https://npiregistry.cms.hhs.gov/registry/help-api)",
+        "API": "<a href=\"https://npiregistry.cms.hhs.gov/registry/help-api\" target=\"_blank\">NPPES</a>",
         "Description": "National Plan & Provider Enumeration System, info on healthcare providers registered in US",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Nutritionix](https://developer.nutritionix.com/)",
+        "API": "<a href=\"https://developer.nutritionix.com/\" target=\"_blank\">Nutritionix</a>",
         "Description": "Worlds largest verified nutrition database",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Open Disease](https://disease.sh/)",
+        "API": "<a href=\"https://disease.sh/\" target=\"_blank\">Open Disease</a>",
         "Description": "API for Current cases and more stuff about COVID-19 and Influenza",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[openFDA](https://open.fda.gov)",
+        "API": "<a href=\"https://open.fda.gov\" target=\"_blank\">openFDA</a>",
         "Description": "Public FDA data about drugs, devices and foods",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Orion Health](https://developer.orionhealth.io/)",
+        "API": "<a href=\"https://developer.orionhealth.io/\" target=\"_blank\">Orion Health</a>",
         "Description": "Medical platform which allows the development of applications for different healthcare scenarios",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Quarantine](https://quarantine.country/coronavirus/api/)",
+        "API": "<a href=\"https://quarantine.country/coronavirus/api/\" target=\"_blank\">Quarantine</a>",
         "Description": "Coronavirus API with free COVID-19 live updates",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[USDA Nutrients](https://fdc.nal.usda.gov/)",
+        "API": "<a href=\"https://fdc.nal.usda.gov/\" target=\"_blank\">USDA Nutrients</a>",
         "Description": "National Nutrient Database for Standard Reference",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

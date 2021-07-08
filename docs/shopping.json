@@ -1,50 +1,50 @@
 [
     {
-        "API": "[Best Buy](https://bestbuyapis.github.io/api-documentation/#overview)",
+        "API": "<a href=\"https://bestbuyapis.github.io/api-documentation/#overview\" target=\"_blank\">Best Buy</a>",
         "Description": "Products, Buying Options, Categories, Recommendations, Stores and Commerce",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Bratabase](https://developers.bratabase.com/)",
+        "API": "<a href=\"https://developers.bratabase.com/\" target=\"_blank\">Bratabase</a>",
         "Description": "Database of different types of Bra Sizes",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Dummy Products](https://dummyproducts-api.herokuapp.com/)",
+        "API": "<a href=\"https://dummyproducts-api.herokuapp.com/\" target=\"_blank\">Dummy Products</a>",
         "Description": "An api to fetch dummy e-commerce products JSON data with placeholder images",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[eBay](https://go.developer.ebay.com/)",
+        "API": "<a href=\"https://go.developer.ebay.com/\" target=\"_blank\">eBay</a>",
         "Description": "Sell and Buy on eBay",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics)",
+        "API": "<a href=\"https://www.etsy.com/developers/documentation/getting_started/api_basics\" target=\"_blank\">Etsy</a>",
         "Description": "Manage shop and interact with listings",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Wal-Mart](https://developer.walmartlabs.com/docs)",
+        "API": "<a href=\"https://developer.walmartlabs.com/docs\" target=\"_blank\">Wal-Mart</a>",
         "Description": "Item price and availability",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Wegmans](https://dev.wegmans.io)",
+        "API": "<a href=\"https://dev.wegmans.io\" target=\"_blank\">Wegmans</a>",
         "Description": "Wegmans Food Markets",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

@@ -1,83 +1,83 @@
 [
     {
-        "API": "[1Forge](https://1forge.com/forex-data-api/api-documentation)",
+        "API": "<a href=\"https://1forge.com/forex-data-api/api-documentation\" target=\"_blank\">1Forge</a>",
         "Description": "Forex currency market data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[apilayer fixer.io](https://fixer.io)",
+        "API": "<a href=\"https://fixer.io\" target=\"_blank\">apilayer fixer.io</a>",
         "Description": "Exchange rates and currency conversion",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Currency-api](https://github.com/fawazahmed0/currency-api#readme)",
+        "API": "<a href=\"https://github.com/fawazahmed0/currency-api#readme\" target=\"_blank\">Currency-api</a>",
         "Description": "Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Currencylayer](https://currencylayer.com/documentation)",
+        "API": "<a href=\"https://currencylayer.com/documentation\" target=\"_blank\">Currencylayer</a>",
         "Description": "Exchange rates and currency conversion",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CurrencyScoop](https://currencyscoop.com/api-documentation)",
+        "API": "<a href=\"https://currencyscoop.com/api-documentation\" target=\"_blank\">CurrencyScoop</a>",
         "Description": "Real-time and historical currency rates JSON API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml)",
+        "API": "<a href=\"https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml\" target=\"_blank\">Czech National Bank</a>",
         "Description": "A collection of exchange rates",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[ExchangeRate-API](https://www.exchangerate-api.com)",
+        "API": "<a href=\"https://www.exchangerate-api.com\" target=\"_blank\">ExchangeRate-API</a>",
         "Description": "Free currency conversion",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Exchangerate.host](https://exchangerate.host)",
+        "API": "<a href=\"https://exchangerate.host\" target=\"_blank\">Exchangerate.host</a>",
         "Description": "Free foreign exchange & crypto rates API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Exchangeratesapi.io](https://exchangeratesapi.io)",
+        "API": "<a href=\"https://exchangeratesapi.io\" target=\"_blank\">Exchangeratesapi.io</a>",
         "Description": "Exchange rates with currency conversion",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Frankfurter](https://www.frankfurter.app/docs)",
+        "API": "<a href=\"https://www.frankfurter.app/docs\" target=\"_blank\">Frankfurter</a>",
         "Description": "Exchange rates, currency conversion and time series",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[National Bank of Poland](http://api.nbp.pl/en.html)",
+        "API": "<a href=\"http://api.nbp.pl/en.html\" target=\"_blank\">National Bank of Poland</a>",
         "Description": "A collection of currency exchange rates (data in XML and JSON)",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[VATComply.com](https://www.vatcomply.com/documentation)",
+        "API": "<a href=\"https://www.vatcomply.com/documentation\" target=\"_blank\">VATComply.com</a>",
         "Description": "Exchange rates, geolocation and VAT number validation",
         "Auth": "No",
         "HTTPS": "Yes",

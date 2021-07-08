@@ -1,132 +1,132 @@
 [
     {
-        "API": "[Censys.io](https://censys.io/api)",
+        "API": "<a href=\"https://censys.io/api\" target=\"_blank\">Censys.io</a>",
         "Description": "Search engine for Internet connected host and devices",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[CRXcavator](https://crxcavator.io/apidocs)",
+        "API": "<a href=\"https://crxcavator.io/apidocs\" target=\"_blank\">CRXcavator</a>",
         "Description": "Chrome extension risk scoring",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Escape](https://github.com/polarspetroll/EscapeAPI)",
+        "API": "<a href=\"https://github.com/polarspetroll/EscapeAPI\" target=\"_blank\">Escape</a>",
         "Description": "An API for escaping different kind of queries",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[FilterLists](https://filterlists.com)",
+        "API": "<a href=\"https://filterlists.com\" target=\"_blank\">FilterLists</a>",
         "Description": "Lists of filters for adblockers and firewalls",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order)",
+        "API": "<a href=\"https://www.fraudlabspro.com/developer/api/screen-order\" target=\"_blank\">FraudLabs Pro</a>",
         "Description": "Screen order information using AI to detect frauds",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[GitGuardian](https://api.gitguardian.com/doc)",
+        "API": "<a href=\"https://api.gitguardian.com/doc\" target=\"_blank\">GitGuardian</a>",
         "Description": "Scan files for secrets (API Keys, database credentials, ...)",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[HaveIBeenPwned](https://haveibeenpwned.com/API/v3)",
+        "API": "<a href=\"https://haveibeenpwned.com/API/v3\" target=\"_blank\">HaveIBeenPwned</a>",
         "Description": "Passwords which have previously been exposed in data breaches",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Intelligence X](https://github.com/IntelligenceX/SDK/blob/master/Intelligence%20X%20API.pdf)",
+        "API": "<a href=\"https://github.com/IntelligenceX/SDK/blob/master/Intelligence%20X%20API.pdf\" target=\"_blank\">Intelligence X</a>",
         "Description": "Perform OSINT via Intelligence X",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[LoginRadius](https://www.loginradius.com/docs/)",
+        "API": "<a href=\"https://www.loginradius.com/docs/\" target=\"_blank\">LoginRadius</a>",
         "Description": "Managed User Authentication Service",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Mozilla http scanner](https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md)",
+        "API": "<a href=\"https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md\" target=\"_blank\">Mozilla http scanner</a>",
         "Description": "Mozilla observatory http scanner",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Mozilla tls scanner](https://github.com/mozilla/tls-observatory#api-endpoints)",
+        "API": "<a href=\"https://github.com/mozilla/tls-observatory#api-endpoints\" target=\"_blank\">Mozilla tls scanner</a>",
         "Description": "Mozilla observatory tls scanner",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog)",
+        "API": "<a href=\"https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog\" target=\"_blank\">National Vulnerability Database</a>",
         "Description": "U.S. National Vulnerability Database",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Passwordinator](https://github.com/fawazsullia/password-generator/)",
+        "API": "<a href=\"https://github.com/fawazsullia/password-generator/\" target=\"_blank\">Passwordinator</a>",
         "Description": "Generate random passwords of varying complexities",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[PhishStats](https://phishstats.info/)",
+        "API": "<a href=\"https://phishstats.info/\" target=\"_blank\">PhishStats</a>",
         "Description": "Phishing database",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Pulsedive](https://pulsedive.com/api/)",
+        "API": "<a href=\"https://pulsedive.com/api/\" target=\"_blank\">Pulsedive</a>",
         "Description": "Scan, search and collect threat intelligence data in real-time",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[SecurityTrails](https://securitytrails.com/corp/apidocs)",
+        "API": "<a href=\"https://securitytrails.com/corp/apidocs\" target=\"_blank\">SecurityTrails</a>",
         "Description": "Domain and IP related information such as current and historical WHOIS and DNS records",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Shodan](https://developer.shodan.io/)",
+        "API": "<a href=\"https://developer.shodan.io/\" target=\"_blank\">Shodan</a>",
         "Description": "Search engine for Internet connected devices",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[UK Police](https://data.police.uk/docs/)",
+        "API": "<a href=\"https://data.police.uk/docs/\" target=\"_blank\">UK Police</a>",
         "Description": "UK Police data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Virushee](https://api.virushee.com/)",
+        "API": "<a href=\"https://api.virushee.com/\" target=\"_blank\">Virushee</a>",
         "Description": "Virushee file/data scanning",
         "Auth": "No",
         "HTTPS": "Yes",

@@ -1,34 +1,34 @@
 [
     {
-        "API": "[Countly](https://api.count.ly/reference)",
+        "API": "<a href=\"https://api.count.ly/reference\" target=\"_blank\">Countly</a>",
         "Description": "Countly web analytics",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Creative Commons Catalog](https://api.creativecommons.engineering/)",
+        "API": "<a href=\"https://api.creativecommons.engineering/\" target=\"_blank\">Creative Commons Catalog</a>",
         "Description": "Search among openly licensed and public domain works",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Datamuse](https://www.datamuse.com/api/)",
+        "API": "<a href=\"https://www.datamuse.com/api/\" target=\"_blank\">Datamuse</a>",
         "Description": "Word-finding query engine",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Drupal.org](https://www.drupal.org/drupalorg/docs/api)",
+        "API": "<a href=\"https://www.drupal.org/drupalorg/docs/api\" target=\"_blank\">Drupal.org</a>",
         "Description": "Drupal.org",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Evil Insult Generator](https://evilinsult.com/api)",
+        "API": "<a href=\"https://evilinsult.com/api\" target=\"_blank\">Evil Insult Generator</a>",
         "Description": "Evil Insults",
         "Auth": "No",
         "HTTPS": "Yes",

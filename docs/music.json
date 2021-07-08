@@ -1,204 +1,204 @@
 [
     {
-        "API": "[7digital](https://docs.7digital.com/reference)",
+        "API": "<a href=\"https://docs.7digital.com/reference\" target=\"_blank\">7digital</a>",
         "Description": "Api of Music store 7digital",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[AI Mastering](https://aimastering.com/api_docs/)",
+        "API": "<a href=\"https://aimastering.com/api_docs/\" target=\"_blank\">AI Mastering</a>",
         "Description": "Automated Music Mastering",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Apple Music](https://developer.apple.com/documentation/applemusicapi/)",
+        "API": "<a href=\"https://developer.apple.com/documentation/applemusicapi/\" target=\"_blank\">Apple Music</a>",
         "Description": "Official API of the music streaming site Apple Music",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Audiomack](https://www.audiomack.com/data-api/docs)",
+        "API": "<a href=\"https://www.audiomack.com/data-api/docs\" target=\"_blank\">Audiomack</a>",
         "Description": "Api of the streaming music hub Audiomack",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Bandcamp](https://bandcamp.com/developer)",
+        "API": "<a href=\"https://bandcamp.com/developer\" target=\"_blank\">Bandcamp</a>",
         "Description": "API of Music store Bandcamp",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Bandsintown](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0)",
+        "API": "<a href=\"https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0\" target=\"_blank\">Bandsintown</a>",
         "Description": "Music Events",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[BlipFm](http://api.blip.fm/)",
+        "API": "<a href=\"http://api.blip.fm/\" target=\"_blank\">BlipFm</a>",
         "Description": "Api of BlipFm",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Deezer](https://developers.deezer.com/api)",
+        "API": "<a href=\"https://developers.deezer.com/api\" target=\"_blank\">Deezer</a>",
         "Description": "Music",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Discogs](https://www.discogs.com/developers/)",
+        "API": "<a href=\"https://www.discogs.com/developers/\" target=\"_blank\">Discogs</a>",
         "Description": "Music",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Freesound](https://freesound.org/docs/api/)",
+        "API": "<a href=\"https://freesound.org/docs/api/\" target=\"_blank\">Freesound</a>",
         "Description": "Music Samples",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Genius](https://docs.genius.com/)",
+        "API": "<a href=\"https://docs.genius.com/\" target=\"_blank\">Genius</a>",
         "Description": "Crowdsourced lyrics and music knowledge",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Genrenator](https://binaryjazz.us/genrenator-api/)",
+        "API": "<a href=\"https://binaryjazz.us/genrenator-api/\" target=\"_blank\">Genrenator</a>",
         "Description": "Music genre generator",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[iTunes Search](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)",
+        "API": "<a href=\"https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/\" target=\"_blank\">iTunes Search</a>",
         "Description": "Software products",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Jamendo](https://developer.jamendo.com/v3.0/docs)",
+        "API": "<a href=\"https://developer.jamendo.com/v3.0/docs\" target=\"_blank\">Jamendo</a>",
         "Description": "Music",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[JioSaavn](https://github.com/cyberboysumanjay/JioSaavnAPI)",
+        "API": "<a href=\"https://github.com/cyberboysumanjay/JioSaavnAPI\" target=\"_blank\">JioSaavn</a>",
         "Description": "API to retrive song information, album meta data and many more from JioSaavn",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[KKBOX](https://developer.kkbox.com)",
+        "API": "<a href=\"https://developer.kkbox.com\" target=\"_blank\">KKBOX</a>",
         "Description": "Get music libraries, playlists, charts, and perform out of KKBOX's platform",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[LastFm](https://www.last.fm/api)",
+        "API": "<a href=\"https://www.last.fm/api\" target=\"_blank\">LastFm</a>",
         "Description": "Music",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Lyrics.ovh](http://docs.lyricsovh.apiary.io/)",
+        "API": "<a href=\"http://docs.lyricsovh.apiary.io/\" target=\"_blank\">Lyrics.ovh</a>",
         "Description": "Simple API to retrieve the lyrics of a song",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Mixcloud](https://www.mixcloud.com/developers/)",
+        "API": "<a href=\"https://www.mixcloud.com/developers/\" target=\"_blank\">Mixcloud</a>",
         "Description": "Music",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2)",
+        "API": "<a href=\"https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2\" target=\"_blank\">MusicBrainz</a>",
         "Description": "Music",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Musixmatch](https://developer.musixmatch.com/)",
+        "API": "<a href=\"https://developer.musixmatch.com/\" target=\"_blank\">Musixmatch</a>",
         "Description": "Music",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Openwhyd](https://openwhyd.github.io/openwhyd/API)",
+        "API": "<a href=\"https://openwhyd.github.io/openwhyd/API\" target=\"_blank\">Openwhyd</a>",
         "Description": "Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...)",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Songkick](https://www.songkick.com/developer/)",
+        "API": "<a href=\"https://www.songkick.com/developer/\" target=\"_blank\">Songkick</a>",
         "Description": "Music Events",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Songsterr](https://www.songsterr.com/a/wa/api/)",
+        "API": "<a href=\"https://www.songsterr.com/a/wa/api/\" target=\"_blank\">Songsterr</a>",
         "Description": "Provides guitar, bass and drums tabs and chords",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[SoundCloud](https://developers.soundcloud.com/)",
+        "API": "<a href=\"https://developers.soundcloud.com/\" target=\"_blank\">SoundCloud</a>",
         "Description": "Allow users to upload and share sounds",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Spotify](https://beta.developer.spotify.com/documentation/web-api/)",
+        "API": "<a href=\"https://beta.developer.spotify.com/documentation/web-api/\" target=\"_blank\">Spotify</a>",
         "Description": "View Spotify music catalog, manage users' libraries, get recommendations and more",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[TasteDive](https://tastedive.com/read/api)",
+        "API": "<a href=\"https://tastedive.com/read/api\" target=\"_blank\">TasteDive</a>",
         "Description": "Similar artist API (also works for movies and TV shows)",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[TheAudioDB](https://www.theaudiodb.com/api_guide.php)",
+        "API": "<a href=\"https://www.theaudiodb.com/api_guide.php\" target=\"_blank\">TheAudioDB</a>",
         "Description": "Music",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Vagalume](https://api.vagalume.com.br/docs/)",
+        "API": "<a href=\"https://api.vagalume.com.br/docs/\" target=\"_blank\">Vagalume</a>",
         "Description": "Crowdsourced lyrics and music knowledge",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

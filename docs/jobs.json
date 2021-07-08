@@ -1,92 +1,92 @@
 [
     {
-        "API": "[Adzuna](https://developer.adzuna.com/overview)",
+        "API": "<a href=\"https://developer.adzuna.com/overview\" target=\"_blank\">Adzuna</a>",
         "Description": "Job board aggregator",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Careerjet](https://www.careerjet.com/partners/api/)",
+        "API": "<a href=\"https://www.careerjet.com/partners/api/\" target=\"_blank\">Careerjet</a>",
         "Description": "Job search engine",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[DevITjobs UK](https://devitjobs.uk/job_feed.xml)",
+        "API": "<a href=\"https://devitjobs.uk/job_feed.xml\" target=\"_blank\">DevITjobs UK</a>",
         "Description": "Jobs with GraphQL",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[GraphQL Jobs](https://graphql.jobs/docs/api/)",
+        "API": "<a href=\"https://graphql.jobs/docs/api/\" target=\"_blank\">GraphQL Jobs</a>",
         "Description": "Jobs with GraphQL",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf)",
+        "API": "<a href=\"http://api.jobs2careers.com/api/spec.pdf\" target=\"_blank\">Jobs2Careers</a>",
         "Description": "Job aggregator",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Jooble](https://us.jooble.org/api/about)",
+        "API": "<a href=\"https://us.jooble.org/api/about\" target=\"_blank\">Jooble</a>",
         "Description": "Job search engine",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Juju](http://www.juju.com/publisher/spec/)",
+        "API": "<a href=\"http://www.juju.com/publisher/spec/\" target=\"_blank\">Juju</a>",
         "Description": "Job search engine",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview)",
+        "API": "<a href=\"https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview\" target=\"_blank\">Open Skills</a>",
         "Description": "Job titles, skills and related jobs data",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Reed](https://www.reed.co.uk/developers)",
+        "API": "<a href=\"https://www.reed.co.uk/developers\" target=\"_blank\">Reed</a>",
         "Description": "Job board aggregator",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[The Muse](https://www.themuse.com/developers/api/v2)",
+        "API": "<a href=\"https://www.themuse.com/developers/api/v2\" target=\"_blank\">The Muse</a>",
         "Description": "Job board and company profiles",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Upwork](https://developers.upwork.com/)",
+        "API": "<a href=\"https://developers.upwork.com/\" target=\"_blank\">Upwork</a>",
         "Description": "Freelance job board and management system",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[USAJOBS](https://developer.usajobs.gov/)",
+        "API": "<a href=\"https://developer.usajobs.gov/\" target=\"_blank\">USAJOBS</a>",
         "Description": "US government job board",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[ZipRecruiter](https://www.ziprecruiter.com/publishers)",
+        "API": "<a href=\"https://www.ziprecruiter.com/publishers\" target=\"_blank\">ZipRecruiter</a>",
         "Description": "Job search app and website",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

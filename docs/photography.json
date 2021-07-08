@@ -1,106 +1,106 @@
 [
     {
-        "API": "[Flickr](https://www.flickr.com/services/api/)",
+        "API": "<a href=\"https://www.flickr.com/services/api/\" target=\"_blank\">Flickr</a>",
         "Description": "Flickr Services",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Getty Images](http://developers.gettyimages.com/en/)",
+        "API": "<a href=\"http://developers.gettyimages.com/en/\" target=\"_blank\">Getty Images</a>",
         "Description": "Build applications using the world's most powerful imagery",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Gfycat](https://developers.gfycat.com/api/)",
+        "API": "<a href=\"https://developers.gfycat.com/api/\" target=\"_blank\">Gfycat</a>",
         "Description": "Jiffier GIFs",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Giphy](https://developers.giphy.com/docs/)",
+        "API": "<a href=\"https://developers.giphy.com/docs/\" target=\"_blank\">Giphy</a>",
         "Description": "Get all your gifs",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Gyazo](https://gyazo.com/api/docs)",
+        "API": "<a href=\"https://gyazo.com/api/docs\" target=\"_blank\">Gyazo</a>",
         "Description": "Upload images",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Imgur](https://apidocs.imgur.com/)",
+        "API": "<a href=\"https://apidocs.imgur.com/\" target=\"_blank\">Imgur</a>",
         "Description": "Images",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Lorem Picsum](https://picsum.photos/)",
+        "API": "<a href=\"https://picsum.photos/\" target=\"_blank\">Lorem Picsum</a>",
         "Description": "Images from Unsplash",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[ObjectCut](https://objectcut.com/)",
+        "API": "<a href=\"https://objectcut.com/\" target=\"_blank\">ObjectCut</a>",
         "Description": "Image Background removal",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Pexels](https://www.pexels.com/api/)",
+        "API": "<a href=\"https://www.pexels.com/api/\" target=\"_blank\">Pexels</a>",
         "Description": "Free Stock Photos and Videos",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Pixabay](https://pixabay.com/sk/service/about/api/)",
+        "API": "<a href=\"https://pixabay.com/sk/service/about/api/\" target=\"_blank\">Pixabay</a>",
         "Description": "Photography",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[PlaceKitten](https://placekitten.com/)",
+        "API": "<a href=\"https://placekitten.com/\" target=\"_blank\">PlaceKitten</a>",
         "Description": "Resizable kitten placeholder images",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[ReSmush.it](https://resmush.it/api)",
+        "API": "<a href=\"https://resmush.it/api\" target=\"_blank\">ReSmush.it</a>",
         "Description": "Photo optimization",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[ScreenShotLayer](https://screenshotlayer.com)",
+        "API": "<a href=\"https://screenshotlayer.com\" target=\"_blank\">ScreenShotLayer</a>",
         "Description": "URL 2 Image",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Unsplash](https://unsplash.com/developers)",
+        "API": "<a href=\"https://unsplash.com/developers\" target=\"_blank\">Unsplash</a>",
         "Description": "Photography",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Wallhaven](https://wallhaven.cc/help/api)",
+        "API": "<a href=\"https://wallhaven.cc/help/api\" target=\"_blank\">Wallhaven</a>",
         "Description": "Wallpapers",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

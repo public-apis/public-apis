@@ -1,153 +1,153 @@
 [
     {
-        "API": "[Advice Slip](http://api.adviceslip.com/)",
+        "API": "<a href=\"\" target=\"_blank\">Advice Slip</a>(http://api.adviceslip.com/)",
         "Description": "Generate random advice slips",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Affirmations](https://affirmations.dev/)",
+        "API": "<a href=\"\" target=\"_blank\">Affirmations</a>(https://affirmations.dev/)",
         "Description": "Generate Stuart Smalley Affirmations",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Biriyani As A Service](https://biriyani.anoram.com/)",
+        "API": "<a href=\"\" target=\"_blank\">Biriyani As A Service</a>(https://biriyani.anoram.com/)",
         "Description": "Biriyani images placeholder",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[chucknorris.io](https://api.chucknorris.io)",
+        "API": "<a href=\"\" target=\"_blank\">chucknorris.io</a>(https://api.chucknorris.io)",
         "Description": "JSON API for hand curated Chuck Norris jokes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Dictum](https://github.com/fisenkodv/dictum)",
+        "API": "<a href=\"\" target=\"_blank\">Dictum</a>(https://github.com/fisenkodv/dictum)",
         "Description": "API to get access to the collection of the most inspiring expressions of mankind",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[FavQs.com](https://favqs.com/api)",
+        "API": "<a href=\"\" target=\"_blank\">FavQs.com</a>(https://favqs.com/api)",
         "Description": "FavQs allows you to collect, discover and share your favorite quotes",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[FOAAS](http://www.foaas.com/)",
+        "API": "<a href=\"\" target=\"_blank\">FOAAS</a>(http://www.foaas.com/)",
         "Description": "Fuck Off As A Service",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Forismatic](http://forismatic.com/en/api/)",
+        "API": "<a href=\"\" target=\"_blank\">Forismatic</a>(http://forismatic.com/en/api/)",
         "Description": "Inspirational Quotes",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[icanhazdadjoke](https://icanhazdadjoke.com/api)",
+        "API": "<a href=\"\" target=\"_blank\">icanhazdadjoke</a>(https://icanhazdadjoke.com/api)",
         "Description": "The largest selection of dad jokes on the internet",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Imgflip](https://imgflip.com/api)",
+        "API": "<a href=\"https://imgflip.com/api\" target=\"_blank\">Imgflip</a>",
         "Description": "Gets an array of popular memes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Inspiration](https://inspiration.goprogram.ai/docs/)",
+        "API": "<a href=\"https://inspiration.goprogram.ai/docs/\" target=\"_blank\">Inspiration</a>",
         "Description": "Motivational and Inspirational quotes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[kanye.rest](https://kanye.rest)",
+        "API": "<a href=\"https://kanye.rest\" target=\"_blank\">kanye.rest</a>",
         "Description": "REST API for random Kanye West quotes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Medium](https://github.com/Medium/medium-api-docs)",
+        "API": "<a href=\"https://github.com/Medium/medium-api-docs\" target=\"_blank\">Medium</a>",
         "Description": "Community of readers and writers offering unique perspectives on ideas",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[NaMoMemes](https://github.com/theIYD/NaMoMemes)",
+        "API": "<a href=\"https://github.com/theIYD/NaMoMemes\" target=\"_blank\">NaMoMemes</a>",
         "Description": "Memes on Narendra Modi",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Programming Quotes](https://github.com/skolakoda/programming-quotes-api)",
+        "API": "<a href=\"https://github.com/skolakoda/programming-quotes-api\" target=\"_blank\">Programming Quotes</a>",
         "Description": "Programming Quotes API for open source projects",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Quotable Quotes](https://github.com/lukePeavey/quotable)",
+        "API": "<a href=\"https://github.com/lukePeavey/quotable\" target=\"_blank\">Quotable Quotes</a>",
         "Description": "Quotable is a free, open source quotations API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Quote Garden](https://pprathameshmore.github.io/QuoteGarden/)",
+        "API": "<a href=\"https://pprathameshmore.github.io/QuoteGarden/\" target=\"_blank\">Quote Garden</a>()",
         "Description": "REST API for more than 5000 famous quotes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Quotes on Design](https://quotesondesign.com/api/)",
+        "API": "<a href=\"https://quotesondesign.com/api/\" target=\"_blank\">Quotes on Design</a>",
         "Description": "Inspirational Quotes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[taylor.rest](https://taylor.rest)",
+        "API": "<a href=\"https://taylor.rest\" target=\"_blank\">taylor.rest</a>",
         "Description": "REST API for random Taylor Swift quotes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Traitify](https://app.traitify.com/developer)",
+        "API": "<a href=\"https://app.traitify.com/developer\" target=\"_blank\">Traitify</a>",
         "Description": "Assess, collect and analyze Personality",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Vadivelu HTTP Codes](https://vadivelu.anoram.com/)",
+        "API": "<a href=\"https://vadivelu.anoram.com/\" target=\"_blank\">Vadivelu HTTP Codes</a>",
         "Description": "On demand HTTP Codes with images",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2)",
+        "API": "<a href=\"https://github.com/beanboi7/yomomma-apiv2\" target=\"_blank\">Yo Momma Jokes</a>",
         "Description": "REST API for Yo Momma Jokes",
         "Auth": "No",
         "HTTPS": "Yes",

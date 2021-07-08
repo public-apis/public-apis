@@ -1,146 +1,146 @@
 [
     {
-        "API": "[18F](http://18f.github.io/API-All-the-X/)",
+        "API": "<a href=\"http://18f.github.io/API-All-the-X/\" target=\"_blank\">18F</a>",
         "Description": "Unofficial US Federal Government API Development",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Archive.org](https://archive.readme.io/docs)",
+        "API": "<a href=\"https://archive.readme.io/docs\" target=\"_blank\">Archive.org</a>",
         "Description": "The Internet Archive",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Callook.info](https://callook.info)",
+        "API": "<a href=\"https://callook.info\" target=\"_blank\">Callook.info</a>",
         "Description": "United States ham radio callsigns",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CARTO](https://carto.com/)",
+        "API": "<a href=\"https://carto.com/\" target=\"_blank\">CARTO</a>",
         "Description": "Location Information Prediction",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CivicFeed](https://developers.civicfeed.com/)",
+        "API": "<a href=\"https://developers.civicfeed.com/\" target=\"_blank\">CivicFeed</a>",
         "Description": "News articles and public datasets",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Enigma Public](http://docs.enigma.com/public/public_v20_api_about)",
+        "API": "<a href=\"http://docs.enigma.com/public/public_v20_api_about\" target=\"_blank\">Enigma Public</a>",
         "Description": "Broadest collection of public data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[French Address Search](https://geo.api.gouv.fr/adresse)",
+        "API": "<a href=\"https://geo.api.gouv.fr/adresse\" target=\"_blank\">French Address Search</a>",
         "Description": "Address search via the French Government",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Kaggle](https://www.kaggle.com/docs/api)",
+        "API": "<a href=\"https://www.kaggle.com/docs/api\" target=\"_blank\">Kaggle</a>",
         "Description": "Create and interact with Datasets, Notebooks, and connect with Kaggle",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[LinkPreview](https://www.linkpreview.net)",
-        "Description": "Get JSON formatted summary with title, description and preview image for any requested URL",
-        "Auth": "`apiKey`",
+        "API": "<a href=\"https://www.linkpreview.net\" target=\"_blank\">LinkPreview</a>",
+        "Description": "Get JSON formatted summary with title, description and preview image for any requested ",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Microlink.io](https://microlink.io)",
+        "API": "<a href=\"https://microlink.io\" target=\"_blank\">Microlink.io</a>",
         "Description": "Extract structured data from any website",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[OpenCorporates](http://api.opencorporates.com/documentation/API-Reference)",
+        "API": "<a href=\"http://api.opencorporates.com/documentation/API-Reference\" target=\"_blank\">OpenCorporates</a>",
         "Description": "Data on corporate entities and directors in many countries",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Quandl](https://www.quandl.com/)",
+        "API": "<a href=\"https://www.quandl.com/\" target=\"_blank\">Quandl</a>",
         "Description": "Stock Market Data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Recreation Information Database](https://ridb.recreation.gov/)",
+        "API": "<a href=\"https://ridb.recreation.gov/\" target=\"_blank\">Recreation Information Database</a>",
         "Description": "Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Scoop.it](http://www.scoop.it/dev)",
+        "API": "<a href=\"http://www.scoop.it/dev\" target=\"_blank\">Scoop.it</a>",
         "Description": "Content Curation Service",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Teleport](https://developers.teleport.org/)",
+        "API": "<a href=\"https://developers.teleport.org/\" target=\"_blank\">Teleport</a>",
         "Description": "Quality of Life Data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Universities List](https://github.com/Hipo/university-domains-list)",
+        "API": "<a href=\"https://github.com/Hipo/university-domains-list\" target=\"_blank\">Universities List</a>",
         "Description": "University names, countries and domains",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[University of Oslo](https://data.uio.no/)",
+        "API": "<a href=\"https://data.uio.no/\" target=\"_blank\">University of Oslo</a>",
         "Description": "Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway)",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[UPC database](https://upcdatabase.org/api)",
+        "API": "<a href=\"https://upcdatabase.org/api\" target=\"_blank\">UPC database</a>",
         "Description": "More than 1.5 million barcode numbers from all around the world",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Wikidata](https://www.wikidata.org/w/api.php?action=help)",
+        "API": "<a href=\"https://www.wikidata.org/w/api.php?action=help\" target=\"_blank\">Wikidata</a>",
         "Description": "Collaboratively edited knowledge base operated by the Wikimedia Foundation",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)",
+        "API": "<a href=\"https://www.mediawiki.org/wiki/API:Main_page\" target=\"_blank\">Wikipedia</a>",
         "Description": "Mediawiki Encyclopedia",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Yelp](https://www.yelp.com/developers/documentation/v3)",
+        "API": "<a href=\"https://www.yelp.com/developers/documentation/v3\" target=\"_blank\">Yelp</a>",
         "Description": "Find Local Business",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",

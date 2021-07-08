@@ -1,188 +1,188 @@
 [
     {
-        "API": "[arcsecond.io](https://api.arcsecond.io/)",
+        "API": "<a href=\"https://api.arcsecond.io/\" target=\"_blank\">arcsecond.io</a>",
         "Description": "Multiple astronomy data sources",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[arXiv](https://arxiv.org/help/api/user-manual)",
+        "API": "<a href=\"https://arxiv.org/help/api/user-manual\" target=\"_blank\">arXiv</a>",
         "Description": "Curated research-sharing platform: physics, mathematics, quantitative finance, and economics",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CORE](https://core.ac.uk/services#api)",
+        "API": "<a href=\"https://core.ac.uk/services#api\" target=\"_blank\">CORE</a>",
         "Description": "Access the world's Open Access research papers",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[GBIF](https://www.gbif.org/developer/summary)",
+        "API": "<a href=\"https://www.gbif.org/developer/summary\" target=\"_blank\">GBIF</a>",
         "Description": "Global Biodiversity Information Facility",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[hubblesite](https://hubblesite.org/api/documentation/)",
+        "API": "<a href=\"https://hubblesite.org/api/documentation/\" target=\"_blank\">hubblesite</a>",
         "Description": "Space Telescope News Releases",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[iDigBio](https://github.com/idigbio/idigbio-search-api/wiki)",
+        "API": "<a href=\"https://github.com/idigbio/idigbio-search-api/wiki\" target=\"_blank\">iDigBio</a>",
         "Description": "Access millions of museum specimens from organizations around the world",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[inspirehep.net](https://inspirehep.net/info/hep/api?ln=en)",
+        "API": "<a href=\"https://inspirehep.net/info/hep/api?ln=en\" target=\"_blank\">inspirehep.net</a>",
         "Description": "High Energy Physics info. system",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[isEven (humor)](https://isevenapi.xyz/)",
+        "API": "<a href=\"https://isevenapi.xyz/\" target=\"_blank\">isEven (humor)</a>",
         "Description": "Check if a number is even",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[ITIS](https://www.itis.gov/ws_description.html)",
+        "API": "<a href=\"https://www.itis.gov/ws_description.html\" target=\"_blank\">ITIS</a>",
         "Description": "Integrated Taxonomic Information System",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Launch Library 2](https://thespacedevs.com/llapi)",
+        "API": "<a href=\"https://thespacedevs.com/llapi\" target=\"_blank\">Launch Library 2</a>",
         "Description": "Spaceflight launches and events database",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Materials Platform for Data Science](https://mpds.io)",
+        "API": "<a href=\"https://mpds.io\" target=\"_blank\">Materials Platform for Data Science</a>",
         "Description": "Curated experimental data for materials science",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Minor Planet Center](http://www.asterank.com/mpc)",
+        "API": "<a href=\"http://www.asterank.com/mpc\" target=\"_blank\">Minor Planet Center</a>",
         "Description": "Asterank.com Information",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[NASA](https://api.nasa.gov)",
+        "API": "<a href=\"https://api.nasa.gov\" target=\"_blank\">NASA</a>",
         "Description": "NASA data, including imagery",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[NASA APOD (unofficial API)](https://apodapi.herokuapp.com/)",
+        "API": "<a href=\"https://apodapi.herokuapp.com/\" target=\"_blank\">NASA APOD (unofficial API)</a>",
         "Description": "API for getting APOD (Astronomy Image of the Day) images along with metadata",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Newton](https://newton.now.sh/)",
+        "API": "<a href=\"https://newton.now.sh/\" target=\"_blank\">Newton</a>",
         "Description": "Symbolic and Arithmetic Math Calculator",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Numbers](https://math.tools/api/numbers/)",
+        "API": "<a href=\"https://math.tools/api/numbers/\" target=\"_blank\">Numbers</a>",
         "Description": "Number of the day, random number, number facts and anything else you want to do with numbers",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Numbers](http://numbersapi.com)",
+        "API": "<a href=\"http://numbersapi.com\" target=\"_blank\">Numbers</a>",
         "Description": "Facts about numbers",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Open Notify](http://open-notify.org/Open-Notify-API/)",
+        "API": "<a href=\"http://open-notify.org/Open-Notify-API/\" target=\"_blank\">Open Notify</a>",
         "Description": "ISS astronauts, current location, etc",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Open Science Framework](https://developer.osf.io)",
+        "API": "<a href=\"https://developer.osf.io\" target=\"_blank\">Open Science Framework</a>",
         "Description": "Repository and archive for study designs, research materials, data, manuscripts, etc",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Purple Air](https://www2.purpleair.com/)",
+        "API": "<a href=\"https://www2.purpleair.com/\" target=\"_blank\">Purple Air</a>",
         "Description": "Real Time Air Quality Monitoring",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Satellite Passes](https://satellites.fly.dev)",
+        "API": "<a href=\"https://satellites.fly.dev\" target=\"_blank\">Satellite Passes</a>",
         "Description": "Query next satellite passes above you",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[SHARE](https://share.osf.io/api/v2/)",
+        "API": "<a href=\"https://share.osf.io/api/v2/\" target=\"_blank\">SHARE</a>",
         "Description": "A free, open, dataset about research and scholarly activities",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[SpaceX](https://github.com/r-spacex/SpaceX-API)",
+        "API": "<a href=\"https://github.com/r-spacex/SpaceX-API\" target=\"_blank\">SpaceX</a>",
         "Description": "Company, vehicle, launchpad and launch data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Sunrise and Sunset](https://sunrise-sunset.org/api)",
+        "API": "<a href=\"https://sunrise-sunset.org/api\" target=\"_blank\">Sunrise and Sunset</a>",
         "Description": "Sunset and sunrise times for a given latitude and longitude",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/)",
+        "API": "<a href=\"https://earthquake.usgs.gov/fdsnws/event/1/\" target=\"_blank\">USGS Earthquake Hazards Program</a>",
         "Description": "Earthquakes data real-time",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[USGS Water Services](https://waterservices.usgs.gov/)",
+        "API": "<a href=\"https://waterservices.usgs.gov/\" target=\"_blank\">USGS Water Services</a>",
         "Description": "Water quality and level info for rivers and lakes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589)",
+        "API": "<a href=\"https://datahelpdesk.worldbank.org/knowledgebase/topics/125589\" target=\"_blank\">World Bank</a>",
         "Description": "World Data",
         "Auth": "No",
         "HTTPS": "No",

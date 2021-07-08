@@ -1,41 +1,41 @@
 [
     {
-        "API": "[Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/)",
+        "API": "<a href=\"https://deividfortuna.github.io/fipe/\" target=\"_blank\">Brazilian Vehicles and Prices</a>",
         "Description": "Vehicles information from Funda\u00e7\u00e3o Instituto de Pesquisas Econ\u00f4micas - Fipe",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Kelley Blue Book](http://developer.kbb.com/#!/data/1-Default)",
+        "API": "<a href=\"http://developer.kbb.com/#!/data/1-Default\" target=\"_blank\">Kelley Blue Book</a>",
         "Description": "Vehicle info, pricing, configuration, plus much more",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Mercedes-Benz](https://developer.mercedes-benz.com/apis)",
+        "API": "<a href=\"https://developer.mercedes-benz.com/apis\" target=\"_blank\">Mercedes-Benz</a>",
         "Description": "Telematics data, remotely access vehicle functions, car configurator, locate service dealers",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Motor Vehicle Department, Maharashtra, India](https://apisetu.gov.in/public/api/transportmh)",
+        "API": "<a href=\"https://apisetu.gov.in/public/api/transportmh\" target=\"_blank\">Motor Vehicle Department, Maharashtra, India</a>",
         "Description": "Driving License (DL) and Vehicle Registration Certificate (RC) of the State Maharashtra of India",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[NHTSA](https://vpic.nhtsa.dot.gov/api/)",
+        "API": "<a href=\"https://vpic.nhtsa.dot.gov/api/\" target=\"_blank\">NHTSA</a>",
         "Description": "NHTSA Product Information Catalog and Vehicle Listing",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Smartcar](https://smartcar.com/docs/)",
+        "API": "<a href=\"https://smartcar.com/docs/\" target=\"_blank\">Smartcar</a>",
         "Description": "Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",

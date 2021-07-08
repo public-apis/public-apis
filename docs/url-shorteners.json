@@ -1,97 +1,97 @@
 [
     {
-        "API": "[1pt](https://github.com/1pt-co/api/blob/main/README.md)",
-        "Description": "A simple URL shortener",
+        "API": "<a href=\"https://github.com/1pt-co/api/blob/main/README.md\" target=\"_blank\">1pt</a>",
+        "Description": "A simple shortener",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Bitly](http://dev.bitly.com/get_started.html)",
+        "API": "<a href=\"http://dev.bitly.com/get_started.html\" target=\"_blank\">Bitly</a>",
         "Description": "URL shortener and link management",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CleanURI](https://cleanuri.com/docs)",
+        "API": "<a href=\"https://cleanuri.com/docs\" target=\"_blank\">CleanURI</a>",
         "Description": "URL shortener service",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986)",
+        "API": "<a href=\"https://support.clickmeter.com/hc/en-us/categories/201474986\" target=\"_blank\">ClickMeter</a>",
         "Description": "Monitor, compare and optimize your marketing links",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Git.io](https://github.blog/2011-11-10-git-io-github-url-shortener/)",
-        "Description": "Git.io URL shortener",
+        "API": "<a href=\"https://github.blog/2011-11-10-git-io-github--shortener/\" target=\"_blank\">Git.io</a>",
+        "Description": "Git.io  shortener",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Is.gd](https://is.gd/developers.php)",
+        "API": "<a href=\"https://is.gd/developers.php\" target=\"_blank\">Is.gd</a>",
         "Description": "URL Shortening API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Kutt](https://docs.kutt.it/)",
-        "Description": "Free Modern URL Shortener",
-        "Auth": "`apiKey`",
+        "API": "<a href=\"https://docs.kutt.it/\" target=\"_blank\">Kutt</a>",
+        "Description": "Free Modern  Shortener",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[LiteLink](https://litelink.ml/)",
-        "Description": "Simple URL Shortener",
+        "API": "<a href=\"https://litelink.ml/\" target=\"_blank\">LiteLink</a>",
+        "Description": "Simple  Shortener",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Rebrandly](https://developers.rebrandly.com/v1/docs)",
-        "Description": "Custom URL shortener for sharing branded links",
-        "Auth": "`apiKey`",
+        "API": "<a href=\"https://developers.rebrandly.com/v1/docs\" target=\"_blank\">Rebrandly</a>",
+        "Description": "Custom  shortener for sharing branded links",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Shrtcode](https://shrtco.de/docs)",
-        "Description": "URl Shortener with multiple Domains",
+        "API": "<a href=\"https://shrtco.de/docs\" target=\"_blank\">Shrtcode</a>",
+        "Description": "URL Shortener with multiple Domains",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Shrtlnk](https://shrtlnk.dev/developer)",
+        "API": "<a href=\"https://shrtlnk.dev/developer\" target=\"_blank\">Shrtlnk</a>",
         "Description": "Simple and efficient short link creation",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[T.LY](https://t.ly/docs)",
+        "API": "<a href=\"https://t.ly/docs\" target=\"_blank\">T.LY</a>",
         "Description": "URL shortener API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[TinyUID](https://tinyuid.com/docs)",
+        "API": "<a href=\"https://tinyuid.com/docs\" target=\"_blank\">TinyUID</a>",
         "Description": "Shorten long URLs",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Zero Width Shortener](https://docs.zws.im)",
+        "API": "<a href=\"https://docs.zws.im\" target=\"_blank\">Zero Width Shortener</a>",
         "Description": "Shortens URLs using spaces that have zero width, making them invisible to humans",
         "Auth": "No",
         "HTTPS": "Yes",

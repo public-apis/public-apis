@@ -1,349 +1,349 @@
 [
     {
-        "API": "[ADS-B Exchange](https://www.adsbexchange.com/data/)",
+        "API": "<a href=\"https://www.adsbexchange.com/data/\" target=\"_blank\">ADS-B Exchange</a>",
         "Description": "Access real-time and historical data of any and all airborne aircraft",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[AIS Hub](http://www.aishub.net/api)",
+        "API": "<a href=\"http://www.aishub.net/api\" target=\"_blank\">AIS Hub</a>",
         "Description": "Real-time data of any marine and inland vessel equipped with AIS tracking system",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Amadeus for Developers](https://developers.amadeus.com/self-service)",
+        "API": "<a href=\"https://developers.amadeus.com/self-service\" target=\"_blank\">Amadeus for Developers</a>",
         "Description": "Travel Search - Limited usage",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[aviationstack](https://aviationstack.com/)",
+        "API": "<a href=\"https://aviationstack.com/\" target=\"_blank\">aviationstack</a>",
         "Description": "Real-time Flight Status & Global Aviation Data API",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Bay Area Rapid Transit](http://api.bart.gov)",
+        "API": "<a href=\"http://api.bart.gov\" target=\"_blank\">Bay Area Rapid Transit</a>",
         "Description": "Stations and predicted arrivals for BART",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[BlaBlaCar](https://dev.blablacar.com)",
+        "API": "<a href=\"https://dev.blablacar.com\" target=\"_blank\">BlaBlaCar</a>",
         "Description": "Search car sharing trips",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Boston MBTA Transit](https://www.mbta.com/developers/v3-api)",
+        "API": "<a href=\"https://www.mbta.com/developers/v3-api\" target=\"_blank\">Boston MBTA Transit</a>",
         "Description": "Stations and predicted arrivals for MBTA",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Community Transit](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints)",
+        "API": "<a href=\"https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints\" target=\"_blank\">Community Transit</a>",
         "Description": "Transitland API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[GraphHopper](https://graphhopper.com/api/1/docs/)",
+        "API": "<a href=\"https://graphhopper.com/api/1/docs/\" target=\"_blank\">GraphHopper</a>",
         "Description": "A-to-B routing with turn-by-turn instructions",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Icelandic APIs](http://docs.apis.is/)",
+        "API": "<a href=\"http://docs.apis.is/\" target=\"_blank\">Icelandic APIs</a>",
         "Description": "Open APIs that deliver services in or regarding Iceland",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Izi](http://api-docs.izi.travel/)",
+        "API": "<a href=\"http://api-docs.izi.travel/\" target=\"_blank\">Izi</a>",
         "Description": "Audio guide for travellers",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Metro Lisboa](http://app.metrolisboa.pt/status/getLinhas.php)",
+        "API": "<a href=\"http://app.metrolisboa.pt/status/getLinhas.php\" target=\"_blank\">Metro Lisboa</a>",
         "Description": "Delays in subway lines",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "No"
     },
     {
-        "API": "[Navitia](https://api.navitia.io/)",
+        "API": "<a href=\"https://api.navitia.io/\" target=\"_blank\">Navitia</a>",
         "Description": "The open API for building cool stuff with transport data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Open Charge Map](https://openchargemap.org/site/develop/api)",
+        "API": "<a href=\"https://openchargemap.org/site/develop/api\" target=\"_blank\">Open Charge Map</a>",
         "Description": "Global public registry of electric vehicle charging locations",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[OpenSky Network](https://opensky-network.org/apidoc/index.html)",
+        "API": "<a href=\"https://opensky-network.org/apidoc/index.html\" target=\"_blank\">OpenSky Network</a>",
         "Description": "Free real-time ADS-B aviation data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[REFUGE Restrooms](https://www.refugerestrooms.org/api/docs/#!/restrooms)",
+        "API": "<a href=\"https://www.refugerestrooms.org/api/docs/#!/restrooms\" target=\"_blank\">REFUGE Restrooms</a>",
         "Description": "Provides safe restroom access for transgender, intersex and gender nonconforming individuals",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Schiphol Airport](https://developer.schiphol.nl/)",
+        "API": "<a href=\"https://developer.schiphol.nl/\" target=\"_blank\">Schiphol Airport</a>",
         "Description": "Schiphol",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[TransitLand](https://transit.land/documentation/datastore/api-endpoints.html)",
+        "API": "<a href=\"https://transit.land/documentation/datastore/api-endpoints.html\" target=\"_blank\">TransitLand</a>",
         "Description": "Transit Aggregation",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Atlanta, US](http://www.itsmarta.com/app-developer-resources.aspx)",
+        "API": "<a href=\"http://www.itsmarta.com/app-developer-resources.aspx\" target=\"_blank\">Transport for Atlanta, US</a>",
         "Description": "Marta",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Auckland, New Zealand](https://api.at.govt.nz/)",
+        "API": "<a href=\"https://api.at.govt.nz/\" target=\"_blank\">Transport for Auckland, New Zealand</a>",
         "Description": "Auckland Transport",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Belgium](https://hello.irail.be/api/)",
+        "API": "<a href=\"https://hello.irail.be/api/\" target=\"_blank\">Transport for Belgium</a>",
         "Description": "Belgian transport API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Berlin, Germany](https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md)",
+        "API": "<a href=\"https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md\" target=\"_blank\">Transport for Berlin, Germany</a>",
         "Description": "Third-party VBB API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Bordeaux, France](https://opendata.bordeaux-metropole.fr/explore/)",
+        "API": "<a href=\"https://opendata.bordeaux-metropole.fr/explore/\" target=\"_blank\">Transport for Bordeaux, France</a>",
         "Description": "Bordeaux M\u00e9tropole public transport and more (France)",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Boston, US](https://mbta.com/developers/v3-api)",
+        "API": "<a href=\"https://mbta.com/developers/v3-api\" target=\"_blank\">Transport for Boston, US</a>",
         "Description": "MBTA API",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Budapest, Hungary](https://bkkfutar.docs.apiary.io)",
+        "API": "<a href=\"https://bkkfutar.docs.apiary.io\" target=\"_blank\">Transport for Budapest, Hungary</a>",
         "Description": "Budapest public transport API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Chicago, US](http://www.transitchicago.com/developers/)",
+        "API": "<a href=\"http://www.transitchicago.com/developers/\" target=\"_blank\">Transport for Chicago, US</a>",
         "Description": "CTA",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Czech Republic](https://www.chaps.cz/eng/products/idos-internet)",
+        "API": "<a href=\"https://www.chaps.cz/eng/products/idos-internet\" target=\"_blank\">Transport for Czech Republic</a>",
         "Description": "Czech transport API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Denver, US](http://www.rtd-denver.com/gtfs-developer-guide.shtml)",
+        "API": "<a href=\"http://www.rtd-denver.com/gtfs-developer-guide.shtml\" target=\"_blank\">Transport for Denver, US</a>",
         "Description": "RTD",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Finland](https://digitransit.fi/en/developers/ )",
+        "API": "<a href=\"https://digitransit.fi/en/developers/\" target=\"_blank\">Transport for Finland</a>",
         "Description": "Finnish transport API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Germany](http://data.deutschebahn.com/dataset/api-fahrplan)",
+        "API": "<a href=\"http://data.deutschebahn.com/dataset/api-fahrplan\" target=\"_blank\">Transport for Germany</a>",
         "Description": "Deutsche Bahn (DB) API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Grenoble, France](https://www.metromobilite.fr/pages/opendata/OpenDataApi.html)",
+        "API": "<a href=\"https://www.metromobilite.fr/pages/opendata/OpenDataApi.html\" target=\"_blank\">Transport for Grenoble, France</a>",
         "Description": "Grenoble public transport",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "No"
     },
     {
-        "API": "[Transport for Honolulu, US](http://hea.thebus.org/api_info.asp)",
+        "API": "<a href=\"http://hea.thebus.org/api_info.asp\" target=\"_blank\">Transport for Honolulu, US</a>",
         "Description": "Honolulu Transportation Information",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for India](https://data.gov.in/sector/transport)",
+        "API": "<a href=\"https://data.gov.in/sector/transport\" target=\"_blank\">Transport for India</a>",
         "Description": "India Public Transport API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Lisbon, Portugal](https://emel.city-platform.com/opendata/)",
+        "API": "<a href=\"https://emel.city-platform.com/opendata/\" target=\"_blank\">Transport for Lisbon, Portugal</a>",
         "Description": "Data about buses routes, parking and traffic",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for London, England](https://api.tfl.gov.uk)",
+        "API": "<a href=\"https://api.tfl.gov.uk\" target=\"_blank\">Transport for London, England</a>",
         "Description": "TfL API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Manchester, England](https://developer.tfgm.com/)",
+        "API": "<a href=\"https://developer.tfgm.com/\" target=\"_blank\">Transport for Manchester, England</a>",
         "Description": "TfGM transport network data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Transport for Paris, France](http://data.ratp.fr/api/v1/console/datasets/1.0/search/)",
+        "API": "<a href=\"http://data.ratp.fr/api/v1/console/datasets/1.0/search/\" target=\"_blank\">Transport for Paris, France</a>",
         "Description": "RATP Open Data API",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Philadelphia, US](http://www3.septa.org/hackathon/)",
+        "API": "<a href=\"http://www3.septa.org/hackathon/\" target=\"_blank\">Transport for Philadelphia, US</a>",
         "Description": "SEPTA APIs",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Sao Paulo, Brazil](http://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/)",
+        "API": "<a href=\"http://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/\" target=\"_blank\">Transport for Sao Paulo, Brazil</a>",
         "Description": "SPTrans",
         "Auth": "`OAuth`",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Sweden](https://www.trafiklab.se/api)",
+        "API": "<a href=\"https://www.trafiklab.se/api\" target=\"_blank\">Transport for Sweden</a>",
         "Description": "Public Transport consumer",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Switzerland](https://opentransportdata.swiss/en/)",
+        "API": "<a href=\"https://opentransportdata.swiss/en/\" target=\"_blank\">Transport for Switzerland</a>",
         "Description": "Official Swiss Public Transport Open Data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Switzerland](https://transport.opendata.ch/)",
+        "API": "<a href=\"https://transport.opendata.ch/\" target=\"_blank\">Transport for Switzerland</a>",
         "Description": "Swiss public transport API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for The Netherlands](http://www.ns.nl/reisinformatie/ns-api)",
+        "API": "<a href=\"http://www.ns.nl/reisinformatie/ns-api\" target=\"_blank\">Transport for The Netherlands</a>",
         "Description": "NS, only trains",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for The Netherlands](https://github.com/skywave/KV78Turbo-OVAPI/wiki)",
+        "API": "<a href=\"https://github.com/skywave/KV78Turbo-OVAPI/wiki\" target=\"_blank\">Transport for The Netherlands</a>",
         "Description": "OVAPI, country-wide public transport",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Toronto, Canada](https://myttc.ca/developers)",
+        "API": "<a href=\"https://myttc.ca/developers\" target=\"_blank\">Transport for Toronto, Canada</a>",
         "Description": "TTC",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for United States](http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf)",
+        "API": "<a href=\"http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf\" target=\"_blank\">Transport for United States</a>",
         "Description": "NextBus API",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Vancouver, Canada](https://developer.translink.ca/)",
+        "API": "<a href=\"https://developer.translink.ca/\" target=\"_blank\">Transport for Vancouver, Canada</a>",
         "Description": "TransLink",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Transport for Washington, US](https://developer.wmata.com/)",
+        "API": "<a href=\"https://developer.wmata.com/\" target=\"_blank\">Transport for Washington, US</a>",
         "Description": "Washington Metro transport API",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Uber](https://developer.uber.com/products)",
+        "API": "<a href=\"https://developer.uber.com/products\" target=\"_blank\">Uber</a>",
         "Description": "Uber ride requests and price estimation",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[WhereIsMyTransport](https://developer.whereismytransport.com/)",
+        "API": "<a href=\"https://developer.whereismytransport.com/\" target=\"_blank\">WhereIsMyTransport</a>",
         "Description": "Platform for public transport data in emerging cities",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",

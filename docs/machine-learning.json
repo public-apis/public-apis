@@ -1,83 +1,83 @@
 [
     {
-        "API": "[Clarifai](https://docs.clarifai.com)",
+        "API": "<a href=\"https://docs.clarifai.com\" target=\"_blank\">Clarifai</a>",
         "Description": "Computer Vision",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api)",
+        "API": "<a href=\"https://www.cloudmersive.com/image-recognition-and-processing-api\" target=\"_blank\">Cloudmersive</a>",
         "Description": "Image captioning, face recognition, NSFW classification",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Deepcode](https://www.deepcode.ai)",
+        "API": "<a href=\"https://www.deepcode.ai\" target=\"_blank\">Deepcode</a>",
         "Description": "AI for code review",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Dialogflow](https://dialogflow.com)",
+        "API": "<a href=\"https://dialogflow.com\" target=\"_blank\">Dialogflow</a>",
         "Description": "Natural Language Processing",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[EXUDE-API](http://uttesh.com/exude-api/)",
+        "API": "<a href=\"http://uttesh.com/exude-api/\" target=\"_blank\">EXUDE-API</a>",
         "Description": "Used for the primary ways for filtering the stopping, stemming words from the text data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[IPS Online](https://docs.identity.ps/docs)",
+        "API": "<a href=\"https://docs.identity.ps/docs\" target=\"_blank\">IPS Online</a>",
         "Description": "Face and License Plate Anonymization",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Keen IO](https://keen.io/)",
+        "API": "<a href=\"https://keen.io/\" target=\"_blank\">Keen IO</a>",
         "Description": "Data Analytics",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[NLP Cloud](https://nlpcloud.io)",
+        "API": "<a href=\"https://nlpcloud.io\" target=\"_blank\">NLP Cloud</a>",
         "Description": "NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[OpenVisionAPI](https://openvisionapi.com)",
+        "API": "<a href=\"https://openvisionapi.com\" target=\"_blank\">OpenVisionAPI</a>",
         "Description": "Open source computer vision API based on open source models",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Time Door](https://timedoor.io)",
+        "API": "<a href=\"https://timedoor.io\" target=\"_blank\">Time Door</a>",
         "Description": "A time series analysis API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Unplugg](https://unplu.gg/test_api.html)",
+        "API": "<a href=\"https://unplu.gg/test_api.html\" target=\"_blank\">Unplugg</a>",
         "Description": "Forecasting API for timeseries data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Wit.ai](https://wit.ai/)",
+        "API": "<a href=\"https://wit.ai/\" target=\"_blank\">Wit.ai</a>",
         "Description": "Natural Language Processing",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",

@@ -1,57 +1,57 @@
 [
     {
-        "API": "[Chinese Character Web](http://ccdb.hemiola.com/)",
+        "API": "<a href=\"http://ccdb.hemiola.com/\" target=\"_blank\">Chinese Character Web</a>",
         "Description": "Chinese character definitions and pronunciations",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "No"
     },
     {
-        "API": "[Chinese Text Project](https://ctext.org/tools/api)",
+        "API": "<a href=\"https://ctext.org/tools/api\" target=\"_blank\">Chinese Text Project</a>",
         "Description": "Online open-access digital library for pre-modern Chinese texts",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Lingua Robot](https://www.linguarobot.io)",
+        "API": "<a href=\"https://www.linguarobot.io\" target=\"_blank\">Lingua Robot</a>",
         "Description": "Word definitions, pronunciations, synonyms, antonyms and others",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Merriam-Webster](https://dictionaryapi.com/)",
+        "API": "<a href=\"https://dictionaryapi.com/\" target=\"_blank\">Merriam-Webster</a>",
         "Description": "Dictionary and Thesaurus Data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[OwlBot](https://owlbot.info/)",
+        "API": "<a href=\"https://owlbot.info/\" target=\"_blank\">OwlBot</a>",
         "Description": "Definitions with example sentence and photo if available",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Oxford](https://developer.oxforddictionaries.com/)",
+        "API": "<a href=\"https://developer.oxforddictionaries.com/\" target=\"_blank\">Oxford</a>",
         "Description": "Dictionary Data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Wordnik](http://developer.wordnik.com)",
+        "API": "<a href=\"http://developer.wordnik.com\" target=\"_blank\">Wordnik</a>",
         "Description": "Dictionary Data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Words](https://www.wordsapi.com/)",
+        "API": "<a href=\"https://www.wordsapi.com/\" target=\"_blank\">Words</a>",
         "Description": "Definitions and synonyms for more than 150,000 words",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

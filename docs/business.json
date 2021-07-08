@@ -1,99 +1,99 @@
 [
     {
-        "API": "[Charity Search](http://charityapi.orghunter.com/)",
+        "API": "<a href=\"http://charityapi.orghunter.com/\" target=\"_blank\">Charity Search</a>",
         "Description": "Non-profit charity data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Clearbit Logo](https://clearbit.com/docs#logo-api)",
+        "API": "<a href=\"https://clearbit.com/docs#logo-api\" target=\"_blank\">Clearbit Logo</a>",
         "Description": "Search for company logos and embed them in your projects",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Domainsdb.info](https://domainsdb.info/)",
+        "API": "<a href=\"https://domainsdb.info/\" target=\"_blank\">Domainsdb.info</a>",
         "Description": "Registered Domain Names Search",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Freelancer](https://developers.freelancer.com)",
+        "API": "<a href=\"https://developers.freelancer.com\" target=\"_blank\">Freelancer</a>",
         "Description": "Hire freelancers to get work done",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Gmail](https://developers.google.com/gmail/api/)",
+        "API": "<a href=\"https://developers.google.com/gmail/api/\" target=\"_blank\">Gmail</a>",
         "Description": "Flexible, RESTful access to the user's inbox",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Google Analytics](https://developers.google.com/analytics/)",
+        "API": "<a href=\"https://developers.google.com/analytics/\" target=\"_blank\">Google Analytics</a>",
         "Description": "Collect, configure and analyze your data to reach the right audience",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[mail.tm](https://docs.mail.tm)",
+        "API": "<a href=\"https://docs.mail.tm\" target=\"_blank\">mail.tm</a>()",
         "Description": "Temporary Email Service",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[MailboxValidator](https://www.mailboxvalidator.com/api-email-free)",
+        "API": "<a href=\"https://www.mailboxvalidator.com/api-email-free\" target=\"_blank\">MailboxValidator</a>",
         "Description": "Validate email address to improve deliverability",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[mailgun](https://www.mailgun.com/)",
+        "API": "<a href=\"https://www.mailgun.com/\" target=\"_blank\">mailgun</a>",
         "Description": "Email Service",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[markerapi](http://www.markerapi.com/)",
+        "API": "<a href=\"http://www.markerapi.com/\" target=\"_blank\">markerapi</a>",
         "Description": "Trademark Search",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Smartsheet](https://smartsheet-platform.github.io/api-docs/)",
+        "API": "<a href=\"https://smartsheet-platform.github.io/api-docs/\" target=\"_blank\">Smartsheet</a>",
         "Description": "Allows you to programmatically access and Smartsheet data and account information",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[SwiftKanban](https://www.digite.com/swiftkanban/)",
+        "API": "<a href=\"https://www.digite.com/swiftkanban/\" target=\"_blank\">SwiftKanban</a>",
         "Description": "Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Ticksel](https://ticksel.com)",
+        "API": "<a href=\"https://ticksel.com\" target=\"_blank\">Ticksel</a>",
         "Description": "Friendly website analytics made for humans",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Trello](https://developers.trello.com/)",
+        "API": "<a href=\"https://developers.trello.com/\" target=\"_blank\">Trello</a>",
         "Description": "Boards, lists and cards to help you organize and prioritize your projects",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

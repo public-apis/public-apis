@@ -1,50 +1,50 @@
 [
     {
-        "API": "[Box](https://developer.box.com/)",
+        "API": "<a href=\"https://developer.box.com/\" target=\"_blank\">Box</a>",
         "Description": "File Sharing and Storage",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Dropbox](https://www.dropbox.com/developers)",
+        "API": "<a href=\"https://www.dropbox.com/developers\" target=\"_blank\">Dropbox</a>",
         "Description": "File Sharing and Storage",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[GoFile](https://gofile.io/api)",
+        "API": "<a href=\"https://gofile.io/api\" target=\"_blank\">GoFile</a>",
         "Description": "Unlimited size file uploads for free",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Google Drive](https://developers.google.com/drive/)",
+        "API": "<a href=\"https://developers.google.com/drive/\" target=\"_blank\">Google Drive</a>",
         "Description": "File Sharing and Storage",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[OneDrive](https://dev.onedrive.com/)",
+        "API": "<a href=\"https://dev.onedrive.com/\" target=\"_blank\">OneDrive</a>",
         "Description": "File Sharing and Storage",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Pantry](https://getpantry.cloud/)",
+        "API": "<a href=\"https://getpantry.cloud/\" target=\"_blank\">Pantry</a>",
         "Description": "Free JSON storage for small projects",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Pastebin](https://pastebin.com/api/)",
+        "API": "<a href=\"https://pastebin.com/api/\" target=\"_blank\">Pastebin</a>",
         "Description": "Plain Text Storage",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

@@ -1,118 +1,118 @@
 [
     {
-        "API": "[Bhagavad Gita](https://docs.bhagavadgitaapi.in)",
+        "API": "<a href=\"https://docs.bhagavadgitaapi.in\" target=\"_blank\">Bhagavad Gita</a>",
         "Description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Bhagavad Gita](https://bhagavadgita.io/api)",
+        "API": "<a href=\"https://bhagavadgita.io/api\" target=\"_blank\">Bhagavad Gita</a>",
         "Description": "Bhagavad Gita text",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Bible](https://bibleapi.co/)",
+        "API": "<a href=\"https://bibleapi.co/\" target=\"_blank\">Bible</a>",
         "Description": "RESTful Bible API with 7 versions, 4 languages and multiple features",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[British National Bibliography](http://bnb.data.bl.uk/)",
+        "API": "<a href=\"http://bnb.data.bl.uk/\" target=\"_blank\">British National Bibliography</a>",
         "Description": "Books",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Crossref Metadata Search](https://github.com/CrossRef/rest-api-doc)",
+        "API": "<a href=\"https://github.com/CrossRef/rest-api-doc\" target=\"_blank\">Crossref Metadata Search</a>",
         "Description": "Books & Articles Metadata",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Google Books](https://developers.google.com/books/)",
+        "API": "<a href=\"https://developers.google.com/books/\" target=\"_blank\">Google Books</a>",
         "Description": "Books",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[LibGen](https://garbage.world/posts/libgen/)",
+        "API": "<a href=\"https://garbage.world/posts/libgen/\" target=\"_blank\">LibGen</a>",
         "Description": "Library Genesis search engine",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[New York Times Books](https://developer.nytimes.com/docs/books-product/1/overview)",
+        "API": "<a href=\"https://developer.nytimes.com/docs/books-product/1/overview\" target=\"_blank\">New York Times Books</a>",
         "Description": "Book reviews and The New York Times Best Sellers lists",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Open Library](https://openlibrary.org/developers/api)",
+        "API": "<a href=\"https://openlibrary.org/developers/api\" target=\"_blank\">Open Library</a>",
         "Description": "Books, book covers and related data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/)",
+        "API": "<a href=\"http://www.penguinrandomhouse.biz/webservices/rest/\" target=\"_blank\">Penguin Publishing</a>",
         "Description": "Books, book covers and related data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Quran](https://quran.api-docs.io/)",
+        "API": "<a href=\"https://quran.api-docs.io/\" target=\"_blank\">Quran</a>",
         "Description": "RESTful Quran API with multiple languages",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Quran Cloud](https://alquran.cloud/api)",
+        "API": "<a href=\"https://alquran.cloud/api\" target=\"_blank\">Quran Cloud</a>",
         "Description": "A RESTful Quran API to retrieve an Ayah, Surah, Juz or the enitre Holy Quran",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Quran-api](https://github.com/fawazahmed0/quran-api#readme)",
+        "API": "<a href=\"https://github.com/fawazahmed0/quran-api#readme\" target=\"_blank\">Quran-api</a>",
         "Description": "Free Quran API Service with 90+ different languages and 400+ translations",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Rig Veda](https://aninditabasu.github.io/indica/html/rv.html)",
+        "API": "<a href=\"https://aninditabasu.github.io/indica/html/rv.html\" target=\"_blank\">Rig Veda</a>",
         "Description": "Gods and poets, their categories, and the verse meters, with the mandal and sukta number",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Thirukkural](https://api-thirukkural.web.app/)",
+        "API": "<a href=\"https://api-thirukkural.web.app/\" target=\"_blank\">Thirukkural</a>",
         "Description": "1330 Thirukkural poems and explanation in Tamil and English",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Vedic Society](https://aninditabasu.github.io/indica/html/vs.html)",
+        "API": "<a href=\"https://aninditabasu.github.io/indica/html/vs.html\" target=\"_blank\">Vedic Society</a>",
         "Description": "Descriptions of all nouns (names, places, animals, things) from vedic literature",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Wolne Lektury](https://wolnelektury.pl/api/)",
+        "API": "<a href=\"https://wolnelektury.pl/api/\" target=\"_blank\">Wolne Lektury</a>",
         "Description": "API for obtaining information about e-books available on the WolneLektury.pl website",
         "Auth": "No",
         "HTTPS": "Yes",

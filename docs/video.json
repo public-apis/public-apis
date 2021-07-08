@@ -1,167 +1,167 @@
 [
     {
-        "API": "[An API of Ice And Fire](https://anapioficeandfire.com/)",
+        "API": "<a href=\"https://anapioficeandfire.com/\" target=\"_blank\">An API of Ice And Fire</a>",
         "Description": "Game Of Thrones API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Breaking Bad](https://breakingbadapi.com/documentation)",
+        "API": "<a href=\"https://breakingbadapi.com/documentation\" target=\"_blank\">Breaking Bad</a>",
         "Description": "Breaking Bad API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes)",
+        "API": "<a href=\"https://github.com/shevabam/breaking-bad-quotes\" target=\"_blank\">Breaking Bad Quotes</a>",
         "Description": "Some Breaking Bad quotes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Czech Television](http://www.ceskatelevize.cz/xml/tv-program/)",
+        "API": "<a href=\"http://www.ceskatelevize.cz/xml/tv-program/\" target=\"_blank\">Czech Television</a>",
         "Description": "TV programme of Czech TV",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Dailymotion](https://developer.dailymotion.com/)",
+        "API": "<a href=\"https://developer.dailymotion.com/\" target=\"_blank\">Dailymotion</a>",
         "Description": "Dailymotion Developer API",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[ErosNow](https://erosnow.com/developers/api/)",
+        "API": "<a href=\"https://erosnow.com/developers/api/\" target=\"_blank\">ErosNow</a>",
         "Description": "API for Bollywood films and many more",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Final Space](https://finalspaceapi.com/docs/)",
+        "API": "<a href=\"https://finalspaceapi.com/docs/\" target=\"_blank\">Final Space</a>",
         "Description": "Final Space API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Game of Thrones Quotes](https://gameofthronesquotes.xyz/)",
+        "API": "<a href=\"https://gameofthronesquotes.xyz/\" target=\"_blank\">Game of Thrones Quotes</a>",
         "Description": "Some Game of Thrones quotes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Harry Potter](https://www.potterapi.com/)",
+        "API": "<a href=\"https://www.potterapi.com/\" target=\"_blank\">Harry Potter</a>",
         "Description": "Harry Potter API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[MCU Countdown](https://github.com/DiljotSG/MCU-Countdown)",
+        "API": "<a href=\"https://github.com/DiljotSG/MCU-Countdown\" target=\"_blank\">MCU Countdown</a>",
         "Description": "A Countdown to the next MCU Film",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Movie Quote](https://github.com/F4R4N/movie-quote/)",
+        "API": "<a href=\"https://github.com/F4R4N/movie-quote/\" target=\"_blank\">Movie Quote</a>",
         "Description": "Random Movie and Series Quotes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Open Movie Database](http://www.omdbapi.com/)",
+        "API": "<a href=\"http://www.omdbapi.com/\" target=\"_blank\">Open Movie Database</a>",
         "Description": "Movie information",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api)",
+        "API": "<a href=\"https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api\" target=\"_blank\">Ron Swanson Quotes</a>",
         "Description": "Television",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[STAPI](http://stapi.co)",
+        "API": "<a href=\"http://stapi.co\" target=\"_blank\">STAPI</a>",
         "Description": "Information on all things Star Trek",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "No"
     },
     {
-        "API": "[SWAPI](https://swapi.dev/)",
+        "API": "<a href=\"https://swapi.dev/\" target=\"_blank\">SWAPI</a>",
         "Description": "All the Star Wars data you've ever wanted",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[SWAPI](https://www.swapi.tech)",
+        "API": "<a href=\"https://www.swapi.tech\" target=\"_blank\">SWAPI</a>",
         "Description": "All things Star Wars",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[The Lord of the Rings](https://the-one-api.dev/)",
+        "API": "<a href=\"https://the-one-api.dev/\" target=\"_blank\">The Lord of the Rings</a>",
         "Description": "The Lord of the Rings API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[The Vampire Diaries](https://vampire-diaries-api.netlify.app/)",
+        "API": "<a href=\"https://vampire-diaries-api.netlify.app/\" target=\"_blank\">The Vampire Diaries</a>",
         "Description": "TV Show Data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[TMDb](https://www.themoviedb.org/documentation/api)",
+        "API": "<a href=\"https://www.themoviedb.org/documentation/api\" target=\"_blank\">TMDb</a>",
         "Description": "Community-based movie data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Trakt](https://trakt.tv/b/api-docs)",
+        "API": "<a href=\"https://trakt.tv/b/api-docs\" target=\"_blank\">Trakt</a>",
         "Description": "Movie and TV Data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[TVDB](https://api.thetvdb.com/swagger)",
+        "API": "<a href=\"https://api.thetvdb.com/swagger\" target=\"_blank\">TVDB</a>",
         "Description": "Television data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[TVMaze](http://www.tvmaze.com/api)",
+        "API": "<a href=\"http://www.tvmaze.com/api\" target=\"_blank\">TVMaze</a>",
         "Description": "TV Show Data",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Vimeo](https://developer.vimeo.com/)",
+        "API": "<a href=\"https://developer.vimeo.com/\" target=\"_blank\">Vimeo</a>",
         "Description": "Vimeo Developer API",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[YouTube](https://developers.google.com/youtube/)",
+        "API": "<a href=\"https://developers.google.com/youtube/\" target=\"_blank\">YouTube</a>",
         "Description": "Add YouTube functionality to your sites and apps",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",

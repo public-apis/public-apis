@@ -1,127 +1,127 @@
 [
     {
-        "API": "[balldontlie](https://balldontlie.io)",
+        "API": "<a href=\"https://balldontlie.io\" target=\"_blank\">balldontlie</a>",
         "Description": "Balldontlie provides access to stats data from the NBA",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[BikeWise](https://www.bikewise.org/documentation/api_v2)",
+        "API": "<a href=\"https://www.bikewise.org/documentation/api_v2\" target=\"_blank\">BikeWise</a>",
         "Description": "Bikewise is a place to learn about and report bike crashes, hazards and thefts",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Canadian Football League (CFL)](http://api.cfl.ca/)",
+        "API": "<a href=\"http://api.cfl.ca/\" target=\"_blank\">Canadian Football League (CFL)</a>",
         "Description": "Official JSON API providing real-time league, team and player statistics about the CFL",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[City Bikes](http://api.citybik.es/v2/)",
+        "API": "<a href=\"http://api.citybik.es/v2/\" target=\"_blank\">City Bikes</a>",
         "Description": "City Bikes around the world",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Ergast F1](http://ergast.com/mrd/)",
+        "API": "<a href=\"http://ergast.com/mrd/\" target=\"_blank\">Ergast F1</a>",
         "Description": "F1 data from the beginning of the world championships in 1950",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Fitbit](https://dev.fitbit.com/)",
+        "API": "<a href=\"https://dev.fitbit.com/\" target=\"_blank\">Fitbit</a>",
         "Description": "Fitbit Information",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Football (Soccer) Videos](https://www.scorebat.com/video-api/)",
+        "API": "<a href=\"https://www.scorebat.com/video-api/\" target=\"_blank\">Football (Soccer) Videos</a>",
         "Description": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Football Prediction](https://boggio-analytics.com/fp-api/)",
+        "API": "<a href=\"https://boggio-analytics.com/fp-api/\" target=\"_blank\">Football Prediction</a>",
         "Description": "Predictions for upcoming football matches, odds, results and stats",
         "Auth": "`X-Mashape-Key`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Football-Data.org](http://api.football-data.org/index)",
+        "API": "<a href=\"http://api.football-data.org/index\" target=\"_blank\">Football-Data.org</a>",
         "Description": "Football Data",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[JCDecaux Bike](https://developer.jcdecaux.com/)",
+        "API": "<a href=\"https://developer.jcdecaux.com/\" target=\"_blank\">JCDecaux Bike</a>",
         "Description": "JCDecaux's self-service bicycles",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[MLB Records and Stats](https://appac.github.io/mlb-data-api-docs/)",
+        "API": "<a href=\"https://appac.github.io/mlb-data-api-docs/\" target=\"_blank\">MLB Records and Stats</a>",
         "Description": "Current and historical MLB statistics",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[NBA Stats](https://any-api.com/nba_com/nba_com/docs/API_Description)",
+        "API": "<a href=\"https://any-api.com/nba_com/nba_com/docs/API_Description\" target=\"_blank\">NBA Stats</a>",
         "Description": "Current and historical NBA Statistics",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[NHL Records and Stats](https://gitlab.com/dword4/nhlapi)",
+        "API": "<a href=\"https://gitlab.com/dword4/nhlapi\" target=\"_blank\">NHL Records and Stats</a>",
         "Description": "NHL historical data and statistics",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Sport List & Data](https://developers.decathlon.com/products/sports)",
+        "API": "<a href=\"https://developers.decathlon.com/products/sports\" target=\"_blank\">Sport List & Data</a>",
         "Description": "List of and resources related to sports",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Strava](https://strava.github.io/api/)",
+        "API": "<a href=\"https://strava.github.io/api/\" target=\"_blank\">Strava</a>",
         "Description": "Connect with athletes, activities and more",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[SuredBits](https://suredbits.com/api/)",
+        "API": "<a href=\"https://suredbits.com/api/\" target=\"_blank\">SuredBits</a>",
         "Description": "Query sports data, including teams, players, games, scores and statistics",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "No"
     },
     {
-        "API": "[TheSportsDB](https://www.thesportsdb.com/api.php)",
+        "API": "<a href=\"https://www.thesportsdb.com/api.php\" target=\"_blank\">TheSportsDB</a>",
         "Description": "Crowd-Sourced Sports Data and Artwork",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Wger](https://wger.de/en/software/api)",
+        "API": "<a href=\"https://wger.de/en/software/api\" target=\"_blank\">Wger</a>",
         "Description": "Workout manager data as exercises, muscles or equipment",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

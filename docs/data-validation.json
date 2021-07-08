@@ -1,78 +1,78 @@
 [
     {
-        "API": "[Abstract Email Validation](https://www.abstractapi.com/email-verification-validation-api)",
+        "API": "<a href=\"https://www.abstractapi.com/email-verification-validation-api\" target=\"_blank\">Abstract Email Validation</a>",
         "Description": "Validate email addresses for deliverability and spam",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Cloudmersive Validate](https://cloudmersive.com/validate-api)",
+        "API": "<a href=\"https://cloudmersive.com/validate-api\" target=\"_blank\">Cloudmersive Validate</a>",
         "Description": "Validate email addresses, phone numbers, VAT numbers and domain names",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[EVA](https://eva.pingutil.com/)",
+        "API": "<a href=\"https://eva.pingutil.com/\" target=\"_blank\">EVA</a>",
         "Description": "Validate email addresses",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Lob.com](https://lob.com/)",
+        "API": "<a href=\"https://lob.com/\" target=\"_blank\">Lob.com</a>",
         "Description": "US Address Verification",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[mailboxlayer](https://mailboxlayer.com)",
+        "API": "<a href=\"https://mailboxlayer.com\" target=\"_blank\">mailboxlayer</a>",
         "Description": "Email address validation",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[PurgoMalum](http://www.purgomalum.com)",
+        "API": "<a href=\"http://www.purgomalum.com\" target=\"_blank\">PurgoMalum</a>",
         "Description": "Content validator against profanity & obscenity",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[US Autocomplete](https://smartystreets.com/docs/cloud/us-autocomplete-api)",
+        "API": "<a href=\"https://smartystreets.com/docs/cloud/us-autocomplete-api\" target=\"_blank\">US Autocomplete</a>",
         "Description": "Enter address data quickly with real-time address suggestions",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[US Extract](https://smartystreets.com/products/apis/us-extract-api)",
+        "API": "<a href=\"https://smartystreets.com/products/apis/us-extract-api\" target=\"_blank\">US Extract</a>",
         "Description": "Extract postal addresses from any text including emails",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[US Street Address](https://smartystreets.com/docs/cloud/us-street-api)",
+        "API": "<a href=\"https://smartystreets.com/docs/cloud/us-street-api\" target=\"_blank\">US Street Address</a>",
         "Description": "Validate and append data for any US postal address",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[vatlayer](https://vatlayer.com)",
+        "API": "<a href=\"https://vatlayer.com\" target=\"_blank\">vatlayer</a>",
         "Description": "VAT number validation",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Veriphone](https://veriphone.io)",
+        "API": "<a href=\"https://veriphone.io\" target=\"_blank\">Veriphone</a>",
         "Description": "Phone number validation & carrier lookup",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     }

@@ -1,69 +1,69 @@
 [
     {
-        "API": "[AniList](https://github.com/AniList/ApiV2-GraphQL-Docs)",
+        "API": "<a href=\"https://github.com/AniList/ApiV2-GraphQL-Docs\" target=\"_blank\">AniList</a>",
         "Description": "Anime discovery & tracking",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[AnimeChan](https://github.com/RocktimSaikia/anime-chan)",
+        "API": "<a href=\"https://github.com/RocktimSaikia/anime-chan\" target=\"_blank\">AnimeChan</a>",
         "Description": "Anime quotes (over 10k+)",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php)",
+        "API": "<a href=\"https://www.animenewsnetwork.com/encyclopedia/api.php\" target=\"_blank\">AnimeNewsNetwork</a>",
         "Description": "Anime industry news",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Jikan](https://jikan.moe)",
+        "API": "<a href=\"https://jikan.moe\" target=\"_blank\">Jikan</a>",
         "Description": "Unofficial MyAnimeList API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Kitsu](https://kitsu.docs.apiary.io/)",
+        "API": "<a href=\"https://kitsu.docs.apiary.io/\" target=\"_blank\">Kitsu</a>",
         "Description": "Anime discovery platform",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[MyAnimeList](https://myanimelist.net/clubs.php?cid=13727)",
+        "API": "<a href=\"https://myanimelist.net/clubs.php?cid=13727\" target=\"_blank\">MyAnimeList</a>",
         "Description": "Anime and Manga Database and Community",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Shikimori](https://shikimori.one/api/doc)",
+        "API": "<a href=\"https://shikimori.one/api/doc\" target=\"_blank\">Shikimori</a>",
         "Description": "Anime discovery, tracking, forum, rates",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Studio Ghibli](https://ghibliapi.herokuapp.com)",
+        "API": "<a href=\"https://ghibliapi.herokuapp.com\" target=\"_blank\">Studio Ghibli</a>",
         "Description": "Resources from Studio Ghibli films",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Waifu.pics](https://waifu.pics/docs)",
+        "API": "<a href=\"https://waifu.pics/docs\" target=\"_blank\">Waifu.pics</a>",
         "Description": "Image sharing platform for anime images",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[What Anime](https://soruly.github.io/trace.moe/)",
+        "API": "<a href=\"https://soruly.github.io/trace.moe/\" target=\"_blank\">What Anime</a>",
         "Description": "Scan anime image to get specific detail",
         "Auth": "No",
         "HTTPS": "Yes",

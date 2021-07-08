@@ -1,260 +1,260 @@
 [
     {
-        "API": "[Binance](https://github.com/binance/binance-spot-api-docs)",
+        "API": "<a href=\"https://github.com/binance/binance-spot-api-docs\" target=\"_blank\">Binance</a>",
         "Description": "Exchange for Trading Cryptocurrencies based in China",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[BitcoinAverage](https://apiv2.bitcoinaverage.com/)",
+        "API": "<a href=\"https://apiv2.bitcoinaverage.com/\" target=\"_blank\">BitcoinAverage</a>",
         "Description": "Digital Asset Price Data for the blockchain industry",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[BitcoinCharts](https://bitcoincharts.com/about/exchanges/)",
+        "API": "<a href=\"https://bitcoincharts.com/about/exchanges/\" target=\"_blank\">BitcoinCharts</a>",
         "Description": "Financial and Technical Data related to the Bitcoin Network",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Bitfinex](https://docs.bitfinex.com/docs)",
+        "API": "<a href=\"https://docs.bitfinex.com/docs\" target=\"_blank\">Bitfinex</a>",
         "Description": "Cryptocurrency Trading Platform",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Bitmex](https://www.bitmex.com/app/apiOverview)",
+        "API": "<a href=\"https://www.bitmex.com/app/apiOverview\" target=\"_blank\">Bitmex</a>",
         "Description": "Real-Time Cryptocurrency derivatives trading platform based in Hong Kong",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Bittrex](https://bittrex.com/Home/Api)",
+        "API": "<a href=\"https://bittrex.com/Home/Api\" target=\"_blank\">Bittrex</a>",
         "Description": "Next Generation Crypto Trading Platform",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Block](https://www.block.io/docs/basic)",
+        "API": "<a href=\"https://www.block.io/docs/basic\" target=\"_blank\">Block</a>",
         "Description": "Bitcoin Payment, Wallet & Transaction Data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Blockchain](https://www.blockchain.com/api)",
+        "API": "<a href=\"https://www.blockchain.com/api\" target=\"_blank\">Blockchain</a>",
         "Description": "Bitcoin Payment, Wallet & Transaction Data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[BlockFacts](https://blockfacts.io/)",
+        "API": "<a href=\"https://blockfacts.io/\" target=\"_blank\">BlockFacts</a>",
         "Description": "Real-time crypto data from multiple exchanges via a single unified API, and much more",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CoinAPI](https://docs.coinapi.io/)",
+        "API": "<a href=\"https://docs.coinapi.io/\" target=\"_blank\">CoinAPI</a>",
         "Description": "All Currency Exchanges integrate under a single api",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Coinbase](https://developers.coinbase.com)",
+        "API": "<a href=\"https://developers.coinbase.com\" target=\"_blank\">Coinbase</a>",
         "Description": "Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Coinbase Pro](https://docs.pro.coinbase.com/#api)",
+        "API": "<a href=\"https://docs.pro.coinbase.com/#api\" target=\"_blank\">Coinbase Pro</a>",
         "Description": "Cryptocurrency Trading Platform",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CoinCap](https://docs.coincap.io/)",
+        "API": "<a href=\"https://docs.coincap.io/\" target=\"_blank\">CoinCap</a>",
         "Description": "Real time Cryptocurrency prices through a RESTful API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CoinDesk](http://www.coindesk.com/api/)",
+        "API": "<a href=\"http://www.coindesk.com/api/\" target=\"_blank\">CoinDesk</a>",
         "Description": "Bitcoin Price Index",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[CoinGecko](http://www.coingecko.com/api)",
+        "API": "<a href=\"http://www.coingecko.com/api\" target=\"_blank\">CoinGecko</a>",
         "Description": "Cryptocurrency Price, Market, and Developer/Social Data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Coinigy](https://coinigy.docs.apiary.io)",
+        "API": "<a href=\"https://coinigy.docs.apiary.io\" target=\"_blank\">Coinigy</a>",
         "Description": "Interacting with Coinigy Accounts and Exchange Directly",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[coinlayer](https://coinlayer.com)",
+        "API": "<a href=\"https://coinlayer.com\" target=\"_blank\">coinlayer</a>",
         "Description": "Real-time Crypto Currency Exchange Rates",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Coinlib](https://coinlib.io/apidocs)",
+        "API": "<a href=\"https://coinlib.io/apidocs\" target=\"_blank\">Coinlib</a>",
         "Description": "Crypto Currency Prices",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Coinlore](https://www.coinlore.com/cryptocurrency-data-api)",
+        "API": "<a href=\"https://www.coinlore.com/cryptocurrency-data-api\" target=\"_blank\">Coinlore</a>",
         "Description": "Cryptocurrencies prices, volume and more",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CoinMarketCap](https://coinmarketcap.com/api/)",
+        "API": "<a href=\"https://coinmarketcap.com/api/\" target=\"_blank\">CoinMarketCap</a>",
         "Description": "Cryptocurrencies Prices",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Coinpaprika](https://api.coinpaprika.com)",
+        "API": "<a href=\"https://api.coinpaprika.com\" target=\"_blank\">Coinpaprika</a>",
         "Description": "Cryptocurrencies prices, volume and more",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[CoinRanking](https://docs.coinranking.com/)",
+        "API": "<a href=\"https://docs.coinranking.com/\" target=\"_blank\">CoinRanking</a>",
         "Description": "Live Cryptocurrency data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CoinStats](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest)",
+        "API": "<a href=\"https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest\" target=\"_blank\">CoinStats</a>",
         "Description": "Crypto Tracker",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Covalent](https://www.covalenthq.com/docs/api/)",
+        "API": "<a href=\"https://www.covalenthq.com/docs/api/\" target=\"_blank\">Covalent</a>",
         "Description": "Multi-blockchain data aggregator",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CryptoCompare](https://www.cryptocompare.com/api#)",
+        "API": "<a href=\"https://www.cryptocompare.com/api#\" target=\"_blank\">CryptoCompare</a>",
         "Description": "Cryptocurrencies Comparison",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[CryptoMarket](https://developers.cryptomkt.com)",
+        "API": "<a href=\"https://developers.cryptomkt.com\" target=\"_blank\">CryptoMarket</a>",
         "Description": "Cryptocurrencies Trading platform",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Cryptonator](https://www.cryptonator.com/api/)",
+        "API": "<a href=\"https://www.cryptonator.com/api/\" target=\"_blank\">Cryptonator</a>",
         "Description": "Cryptocurrencies Exchange Rates",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Gemini](https://docs.gemini.com/rest-api/)",
+        "API": "<a href=\"https://docs.gemini.com/rest-api/\" target=\"_blank\">Gemini</a>",
         "Description": "Cryptocurrencies Exchange",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[ICObench](https://icobench.com/developers)",
+        "API": "<a href=\"https://icobench.com/developers\" target=\"_blank\">ICObench</a>",
         "Description": "Various information on listing, ratings, stats, and more",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[MercadoBitcoin](https://www.mercadobitcoin.net/api-doc/)",
+        "API": "<a href=\"https://www.mercadobitcoin.net/api-doc/\" target=\"_blank\">MercadoBitcoin</a>",
         "Description": "Brazilian Cryptocurrency Information",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Nexchange](https://nexchange2.docs.apiary.io/)",
+        "API": "<a href=\"https://nexchange2.docs.apiary.io/\" target=\"_blank\">Nexchange</a>",
         "Description": "Automated cryptocurrency exchange service",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Yes"
     },
     {
-        "API": "[Nomics](https://nomics.com/docs/)",
+        "API": "<a href=\"https://nomics.com/docs/\" target=\"_blank\">Nomics</a>",
         "Description": "Historical and realtime cryptocurrency prices and market data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Poloniex](https://poloniex.com/support/api/)",
+        "API": "<a href=\"https://poloniex.com/support/api/\" target=\"_blank\">Poloniex</a>",
         "Description": "US based digital asset exchange",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Technical Analysis](https://technical-analysis-api.com)",
+        "API": "<a href=\"https://technical-analysis-api.com\" target=\"_blank\">Technical Analysis</a>",
         "Description": "Cryptocurrency prices and technical analysis",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[VALR](https://docs.valr.com/)",
+        "API": "<a href=\"https://docs.valr.com/\" target=\"_blank\">VALR</a>",
         "Description": "Cryptocurrency Exchange based in South Africa",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/)",
+        "API": "<a href=\"https://dashboard.nbshare.io/apps/reddit/api/\" target=\"_blank\">WallstreetBets</a>",
         "Description": "WallstreetBets Stock Comments Sentiment Analysis",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[WorldCoinIndex](https://www.worldcoinindex.com/apiservice)",
+        "API": "<a href=\"https://www.worldcoinindex.com/apiservice\" target=\"_blank\">WorldCoinIndex</a>",
         "Description": "Cryptocurrencies Prices",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

@@ -1,113 +1,113 @@
 [
     {
-        "API": "[Edamam nutrition](https://developer.edamam.com/edamam-docs-nutrition-api)",
+        "API": "<a href=\"https://developer.edamam.com/edamam-docs-nutrition-api\" target=\"_blank\">Edamam nutrition</a>",
         "Description": "Nutrition Analysis",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Edamam recipes](https://developer.edamam.com/edamam-docs-recipe-api)",
+        "API": "<a href=\"https://developer.edamam.com/edamam-docs-recipe-api\" target=\"_blank\">Edamam recipes</a>",
         "Description": "Recipe Search",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Foodish](https://github.com/surhud004/Foodish#readme)",
+        "API": "<a href=\"https://github.com/surhud004/Foodish#readme\" target=\"_blank\">Foodish</a>",
         "Description": "Random pictures of food dishes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[LCBO](https://lcboapi.com/)",
+        "API": "<a href=\"https://lcboapi.com/\" target=\"_blank\">LCBO</a>",
         "Description": "Alcohol",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Open Brewery DB](https://www.openbrewerydb.org)",
+        "API": "<a href=\"https://www.openbrewerydb.org\" target=\"_blank\">Open Brewery DB</a>",
         "Description": "Breweries, Cideries and Craft Beer Bottle Shops",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Open Food Facts](https://world.openfoodfacts.org/data)",
+        "API": "<a href=\"https://world.openfoodfacts.org/data\" target=\"_blank\">Open Food Facts</a>",
         "Description": "Food Products Database",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[PunkAPI](https://punkapi.com/)",
+        "API": "<a href=\"https://punkapi.com/\" target=\"_blank\">PunkAPI</a>",
         "Description": "Brewdog Beer Recipes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Recipe Puppy](http://www.recipepuppy.com/about/api/)",
+        "API": "<a href=\"http://www.recipepuppy.com/about/api/\" target=\"_blank\">Recipe Puppy</a>",
         "Description": "Food",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Spoonacular](https://spoonacular.com/food-api)",
+        "API": "<a href=\"https://spoonacular.com/food-api\" target=\"_blank\">Spoonacular</a>",
         "Description": "Recipes and Food product",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[TacoFancy](https://github.com/evz/tacofancy-api)",
+        "API": "<a href=\"https://github.com/evz/tacofancy-api\" target=\"_blank\">TacoFancy</a>",
         "Description": "Community-driven taco database",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[The Report of the Week](https://github.com/andyklimczak/TheReportOfTheWeek-API)",
+        "API": "<a href=\"https://github.com/andyklimczak/TheReportOfTheWeek-API\" target=\"_blank\">The Report of the Week</a>",
         "Description": "Food & Drink Reviews",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[TheCocktailDB](https://www.thecocktaildb.com/api.php)",
+        "API": "<a href=\"https://www.thecocktaildb.com/api.php\" target=\"_blank\">TheCocktailDB</a>",
         "Description": "Cocktail Recipes",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[TheMealDB](https://www.themealdb.com/api.php)",
+        "API": "<a href=\"https://www.themealdb.com/api.php\" target=\"_blank\">TheMealDB</a>",
         "Description": "Meal Recipes",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[What's on the menu?](http://nypl.github.io/menus-api/)",
+        "API": "<a href=\"http://nypl.github.io/menus-api/\" target=\"_blank\">What's on the menu?</a>",
         "Description": "NYPL human-transcribed historical menu collection",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[WhiskyHunter](https://whiskyhunter.net/api/)",
+        "API": "<a href=\"https://whiskyhunter.net/api/\" target=\"_blank\">WhiskyHunter</a>",
         "Description": "Past online whisky auctions statistical data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Zestful](https://zestfuldata.com/)",
+        "API": "<a href=\"https://zestfuldata.com/\" target=\"_blank\">Zestful</a>",
         "Description": "Parse recipe ingredients",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     }

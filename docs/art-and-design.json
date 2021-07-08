@@ -1,92 +1,92 @@
 [
     {
-        "API": "[Art Institute of Chicago](https://api.artic.edu/docs/)",
+        "API": "<a href=\"https://api.artic.edu/docs/\" target=\"_blank\">Art Institute of Chicago</a>",
         "Description": "Art",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[ColourLovers](http://www.colourlovers.com/api)",
+        "API": "<a href=\"http://www.colourlovers.com/api\" target=\"_blank\">ColourLovers</a>",
         "Description": "Get various patterns, palettes and images",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Cooper Hewitt](https://collection.cooperhewitt.org/api)",
+        "API": "<a href=\"https://collection.cooperhewitt.org/api\" target=\"_blank\">Cooper Hewitt</a>",
         "Description": "Smithsonian Design Museum",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Dribbble](http://developer.dribbble.com/v2/)",
+        "API": "<a href=\"http://developer.dribbble.com/v2/\" target=\"_blank\">Dribbble</a>",
         "Description": "Design",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Europeana](https://pro.europeana.eu/resources/apis/search)",
+        "API": "<a href=\"https://pro.europeana.eu/resources/apis/search\" target=\"_blank\">Europeana</a>",
         "Description": "European Museum and Galleries content",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Harvard Art Museums](https://github.com/harvardartmuseums/api-docs)",
+        "API": "<a href=\"https://github.com/harvardartmuseums/api-docs\" target=\"_blank\">Harvard Art Museums</a>",
         "Description": "Art",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Iconfinder](https://developer.iconfinder.com)",
+        "API": "<a href=\"https://developer.iconfinder.com\" target=\"_blank\">Iconfinder</a>",
         "Description": "Icons",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Icons8](http://docs.icons8.apiary.io/#reference/0/meta)",
+        "API": "<a href=\"http://docs.icons8.apiary.io/#reference/0/meta\" target=\"_blank\">Icons8</a>",
         "Description": "Icons",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Metropolitan Museum of Art](https://metmuseum.github.io/)",
+        "API": "<a href=\"https://metmuseum.github.io/\" target=\"_blank\">Metropolitan Museum of Art</a>",
         "Description": "Met Museum of Art",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Noun Project](http://api.thenounproject.com/index.html)",
+        "API": "<a href=\"http://api.thenounproject.com/index.html\" target=\"_blank\">Noun Project</a>",
         "Description": "Icons",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[PHP-Noise](https://php-noise.com/)",
+        "API": "<a href=\"https://php-noise.com/\" target=\"_blank\">PHP-Noise</a>",
         "Description": "Noise Background Image Generator",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Pixel Encounter](https://pixelencounter.com/api)",
+        "API": "<a href=\"https://pixelencounter.com/api\" target=\"_blank\">Pixel Encounter</a>",
         "Description": "SVG Icon Generator",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Rijksmuseum](https://www.rijksmuseum.nl/en/api)",
+        "API": "<a href=\"https://www.rijksmuseum.nl/en/api\" target=\"_blank\">Rijksmuseum</a>",
         "Description": "Art",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

@@ -1,69 +1,69 @@
 [
     {
-        "API": "[Aylien Text Analysis](https://docs.aylien.com/textapi/#getting-started)",
+        "API": "<a href=\"https://docs.aylien.com/textapi/#getting-started\" target=\"_blank\">Aylien Text Analysis</a>",
         "Description": "A collection of information retrieval and natural language APIs",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api)",
+        "API": "<a href=\"https://www.cloudmersive.com/nlp-api\" target=\"_blank\">Cloudmersive Natural Language Processing</a>",
         "Description": "Natural language processing and text analysis",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Detect Language](https://detectlanguage.com/)",
+        "API": "<a href=\"https://detectlanguage.com/\" target=\"_blank\">Detect Language</a>",
         "Description": "Detects text language",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Google Cloud Natural](https://cloud.google.com/natural-language/docs/)",
+        "API": "<a href=\"https://cloud.google.com/natural-language/docs/\" target=\"_blank\">Google Cloud Natural</a>",
         "Description": "Natural language understanding technology, including sentiment, entity and syntax analysis",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[languagelayer](https://languagelayer.com/)",
+        "API": "<a href=\"https://languagelayer.com/\" target=\"_blank\">languagelayer</a>",
         "Description": "Language Detection JSON API supporting 173 languages",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Semantria](https://semantria.readme.io/docs)",
+        "API": "<a href=\"https://semantria.readme.io/docs\" target=\"_blank\">Semantria</a>",
         "Description": "Text Analytics with sentiment analysis, categorization & named entity extraction",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Sentiment Analysis](https://www.meaningcloud.com/developer/sentiment-analysis)",
+        "API": "<a href=\"https://www.meaningcloud.com/developer/sentiment-analysis\" target=\"_blank\">Sentiment Analysis</a>",
         "Description": "Multilingual sentiment analysis of texts from different sources",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Sentium](https://sentim-api.herokuapp.com/)",
+        "API": "<a href=\"https://sentim-api.herokuapp.com/\" target=\"_blank\">Sentium</a>",
         "Description": "Free API for Text Sentimental analysis",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Tisane](https://tisane.ai/)",
+        "API": "<a href=\"https://tisane.ai/\" target=\"_blank\">Tisane</a>",
         "Description": "Text Analytics with focus on detection of abusive content and law enforcement applications",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Watson Natural Language Understanding](https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding)",
+        "API": "<a href=\"https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding\" target=\"_blank\">Watson Natural Language Understanding</a>",
         "Description": "Natural language processing for advanced text analysis",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",

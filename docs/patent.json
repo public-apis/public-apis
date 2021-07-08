@@ -1,20 +1,20 @@
 [
     {
-        "API": "[EPO](https://developers.epo.org/)",
+        "API": "<a href=\"https://developers.epo.org/\" target=\"_blank\">EPO</a>",
         "Description": "European patent search system api",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[TIPO](https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00)",
+        "API": "<a href=\"https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00\" target=\"_blank\">TIPO</a>",
         "Description": "Taiwan patent search system api",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[USPTO](https://www.uspto.gov/learning-and-resources/open-data-and-mobility)",
+        "API": "<a href=\"https://www.uspto.gov/learning-and-resources/open-data-and-mobility\" target=\"_blank\">USPTO</a>",
         "Description": "USA patent api services",
         "Auth": "No",
         "HTTPS": "Yes",

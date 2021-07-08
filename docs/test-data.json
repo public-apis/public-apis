@@ -1,111 +1,111 @@
 [
     {
-        "API": "[Bacon Ipsum](https://baconipsum.com/json-api/)",
+        "API": "<a href=\"https://baconipsum.com/json-api/\" target=\"_blank\">Bacon Ipsum</a>",
         "Description": "A Meatier Lorem Ipsum Generator",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Dicebear Avatars](https://avatars.dicebear.com/)",
+        "API": "<a href=\"https://avatars.dicebear.com/\" target=\"_blank\">Dicebear Avatars</a>",
         "Description": "Generate random pixel-art avatars",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[FakeJSON](https://fakejson.com)",
+        "API": "<a href=\"https://fakejson.com\" target=\"_blank\">FakeJSON</a>",
         "Description": "Service to generate test and fake data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[FakerAPI](https://fakerapi.it/en)",
+        "API": "<a href=\"https://fakerapi.it/en\" target=\"_blank\">FakerAPI</a>",
         "Description": "APIs collection to get fake data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[JSONPlaceholder](http://jsonplaceholder.typicode.com/)",
+        "API": "<a href=\"http://jsonplaceholder.typicode.com/\" target=\"_blank\">JSONPlaceholder</a>",
         "Description": "Fake data for testing and prototyping",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Loripsum](http://loripsum.net/)",
+        "API": "<a href=\"http://loripsum.net/\" target=\"_blank\">Loripsum</a>",
         "Description": "The \"lorem ipsum\" generator that doesn't suck",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[PIPL](https://pipl.ir/)",
+        "API": "<a href=\"https://pipl.ir/\" target=\"_blank\">PIPL</a>",
         "Description": "Free and public API that generates random and fake people's data in JSON",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[QuickMocker](https://quickmocker.com)",
+        "API": "<a href=\"https://quickmocker.com\" target=\"_blank\">QuickMocker</a>",
         "Description": "API mocking tool to generate contextual, fake or random data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Randommer](https://randommer.io/randommer-api)",
+        "API": "<a href=\"https://randommer.io/randommer-api\" target=\"_blank\">Randommer</a>",
         "Description": "Random data generator",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[RandomUser](https://randomuser.me)",
+        "API": "<a href=\"https://randomuser.me\" target=\"_blank\">RandomUser</a>",
         "Description": "Generates and list user data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Reqres](https://reqres.in)",
+        "API": "<a href=\"https://reqres.in\" target=\"_blank\">Reqres</a>",
         "Description": "Generates random user data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[RoboHash](https://robohash.org/)",
+        "API": "<a href=\"https://robohash.org/\" target=\"_blank\">RoboHash</a>",
         "Description": "Generate random robot/alien avatars",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Spanish random words](https://palabras-aleatorias-public-api.herokuapp.com)",
+        "API": "<a href=\"https://palabras-aleatorias-public-api.herokuapp.com\" target=\"_blank\">Spanish random words</a>",
         "Description": "Generate spanish words randomly",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[This Person Does not Exist](https://thispersondoesnotexist.com)",
+        "API": "<a href=\"https://thispersondoesnotexist.com\" target=\"_blank\">This Person Does not Exist</a>",
         "Description": "Generates real-life faces of people who do not exist",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[UUID Generator](https://www.uuidtools.com/docs)",
+        "API": "<a href=\"https://www.uuidtools.com/docs\" target=\"_blank\">UUID Generator</a>",
         "Description": "Generate UUIDs",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Yes No](https://yesno.wtf/api)",
+        "API": "<a href=\"https://yesno.wtf/api\" target=\"_blank\">Yes No</a>",
         "Description": "Generate yes or no randomly",
         "Auth": "No",
         "HTTPS": "Yes",

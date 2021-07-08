@@ -1,111 +1,111 @@
 [
     {
-        "API": "[Abstract Public Holidays](https://www.abstractapi.com/holidays-api)",
+        "API": "<a href=\"https://www.abstractapi.com/holidays-api\" target=\"_blank\">Abstract Public Holidays</a>",
         "Description": "Data on national, regional, and religious holidays via API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Calendar Index](https://www.calendarindex.com/)",
+        "API": "<a href=\"https://www.calendarindex.com/\" target=\"_blank\">Calendar Index</a>",
         "Description": "Worldwide Holidays and Working Days",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Church Calendar](http://calapi.inadiutorium.cz/)",
+        "API": "<a href=\"http://calapi.inadiutorium.cz/\" target=\"_blank\">Church Calendar</a>",
         "Description": "Catholic liturgical calendar",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Czech Namedays Calendar](https://svatky.adresa.info)",
+        "API": "<a href=\"https://svatky.adresa.info\" target=\"_blank\">Czech Namedays Calendar</a>",
         "Description": "Lookup for a name and returns nameday date",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Google Calendar](https://developers.google.com/google-apps/calendar/)",
+        "API": "<a href=\"https://developers.google.com/google-apps/calendar/\" target=\"_blank\">Google Calendar</a>",
         "Description": "Display, create and modify Google calendar events",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Hebrew Calendar](https://www.hebcal.com/home/developer-apis)",
+        "API": "<a href=\"https://www.hebcal.com/home/developer-apis\" target=\"_blank\">Hebrew Calendar</a>",
         "Description": "Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Holidays](https://holidayapi.com/)",
+        "API": "<a href=\"https://holidayapi.com/\" target=\"_blank\">Holidays</a>",
         "Description": "Historical data regarding holidays",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[LectServe](http://www.lectserve.com)",
+        "API": "<a href=\"http://www.lectserve.com\" target=\"_blank\">LectServe</a>",
         "Description": "Protestant liturgical calendar",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Megavangelical](https://megavangelicals.com/sundays.json)",
+        "API": "<a href=\"https://megavangelicals.com/sundays.json\" target=\"_blank\">Megavangelical</a>",
         "Description": "A (satirical) Evangelical liturgical calendar",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Nager.Date](https://date.nager.at)",
+        "API": "<a href=\"https://date.nager.at\" target=\"_blank\">Nager.Date</a>",
         "Description": "Public holidays for more than 90 countries",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Namedays Calendar](https://nameday.abalin.net)",
+        "API": "<a href=\"https://nameday.abalin.net\" target=\"_blank\">Namedays Calendar</a>",
         "Description": "Provides namedays for multiple countries",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Non-Working Days](https://github.com/gadael/icsdb)",
+        "API": "<a href=\"https://github.com/gadael/icsdb\" target=\"_blank\">Non-Working Days</a>",
         "Description": "Database of ICS files for non working days",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Non-Working Days](https://isdayoff.ru)",
+        "API": "<a href=\"https://isdayoff.ru\" target=\"_blank\">Non-Working Days</a>",
         "Description": "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Russian Calendar](https://github.com/egno/work-calendar)",
+        "API": "<a href=\"https://github.com/egno/work-calendar\" target=\"_blank\">Russian Calendar</a>",
         "Description": "Check if a date is a Russian holiday or not",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[UK Bank Holidays](https://www.gov.uk/bank-holidays.json)",
+        "API": "<a href=\"https://www.gov.uk/bank-holidays.json\" target=\"_blank\">UK Bank Holidays</a>",
         "Description": "Bank holidays in England and Wales, Scotland and Northern Ireland",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[UnixTime Converter](https://unixtime.co.za)",
+        "API": "<a href=\"https://unixtime.co.za\" target=\"_blank\">UnixTime Converter</a>",
         "Description": "A REST API to convert UnixTime to DateTime and DateTime to UnixTime",
         "Auth": "No",
         "HTTPS": "Yes",

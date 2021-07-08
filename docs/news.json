@@ -1,92 +1,92 @@
 [
     {
-        "API": "[Associated Press](https://developer.ap.org/)",
+        "API": "<a href=\"https://developer.ap.org/\" target=\"_blank\">Associated Press</a>",
         "Description": "Search for news and metadata from Associated Press",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Chronicling America](http://chroniclingamerica.loc.gov/about/api/)",
+        "API": "<a href=\"http://chroniclingamerica.loc.gov/about/api/\" target=\"_blank\">Chronicling America</a>",
         "Description": "Provides access to millions of pages of historic US newspapers from the Library of Congress",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Currents](https://currentsapi.services/)",
+        "API": "<a href=\"https://currentsapi.services/\" target=\"_blank\">Currents</a>",
         "Description": "Latest news published in various news sources, blogs and forums",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Feedbin](https://github.com/feedbin/feedbin-api)",
+        "API": "<a href=\"https://github.com/feedbin/feedbin-api\" target=\"_blank\">Feedbin</a>",
         "Description": "RSS reader",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[GNews](https://gnews.io/)",
+        "API": "<a href=\"https://gnews.io/\" target=\"_blank\">GNews</a>",
         "Description": "Search for news from various sources",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Graphs for Coronavirus](https://corona.dnsforfamily.com/api.txt)",
+        "API": "<a href=\"https://corona.dnsforfamily.com/api.txt\" target=\"_blank\">Graphs for Coronavirus</a>",
         "Description": "Each Country separately and Worldwide Graphs for Coronavirus. Daily updates",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[mediastack](https://mediastack.com/)",
+        "API": "<a href=\"https://mediastack.com/\" target=\"_blank\">mediastack</a>",
         "Description": "Free, Simple REST API for Live News & Blog Articles",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[New York Times](https://developer.nytimes.com/)",
+        "API": "<a href=\"https://developer.nytimes.com/\" target=\"_blank\">New York Times</a>",
         "Description": "Provides news",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[News](https://newsapi.org/)",
+        "API": "<a href=\"https://newsapi.org/\" target=\"_blank\">News</a>",
         "Description": "Headlines currently published on a range of news sources and blogs",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[NPR One](http://dev.npr.org/api/)",
+        "API": "<a href=\"http://dev.npr.org/api/\" target=\"_blank\">NPR One</a>",
         "Description": "Personalized news listening experience from NPR",
         "Auth": "`OAuth`",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Spaceflight News](https://spaceflightnewsapi.net)",
+        "API": "<a href=\"https://spaceflightnewsapi.net\" target=\"_blank\">Spaceflight News</a>",
         "Description": "Spaceflight related news \ud83d\ude80",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[The Guardian](http://open-platform.theguardian.com/)",
+        "API": "<a href=\"http://open-platform.theguardian.com/\" target=\"_blank\">The Guardian</a>",
         "Description": "Access all the content the Guardian creates, categorised by tags and section",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[The Old Reader](https://github.com/theoldreader/api)",
+        "API": "<a href=\"https://github.com/theoldreader/api\" target=\"_blank\">The Old Reader</a>",
         "Description": "RSS reader",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     }

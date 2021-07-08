@@ -1,461 +1,461 @@
 [
     {
-        "API": "[Abstract IP Geolocation](https://www.abstractapi.com/ip-geolocation-api)",
+        "API": "<a href=\"https://www.abstractapi.com/ip-geolocation-api\" target=\"_blank\">Abstract IP Geolocation</a>",
         "Description": "Geolocate website visitors from their IPs",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[adresse.data.gouv.fr](https://adresse.data.gouv.fr)",
+        "API": "<a href=\"https://adresse.data.gouv.fr\" target=\"_blank\">adresse.data.gouv.fr</a>",
         "Description": "Address database of France, geocoding and reverse",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Airtel IP](https://sys.airtel.lv/ip2country/1.1.1.1/?full=true)",
+        "API": "<a href=\"https://sys.airtel.lv/ip2country/1.1.1.1/?full=true\" target=\"_blank\">Airtel IP</a>",
         "Description": "IP Geolocation API. Collecting data from multiple sources",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[apilayer ipstack](https://ipstack.com/)",
+        "API": "<a href=\"https://ipstack.com/\" target=\"_blank\">apilayer ipstack</a>",
         "Description": "Locate and identify website visitors by IP address",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Battuta](http://battuta.medunes.net)",
+        "API": "<a href=\"http://battuta.medunes.net\" target=\"_blank\">Battuta</a>",
         "Description": "A (country/region/city) in-cascade location API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[BigDataCloud](https://www.bigdatacloud.com/ip-geolocation-apis)",
+        "API": "<a href=\"https://www.bigdatacloud.com/ip-geolocation-apis\" target=\"_blank\">BigDataCloud</a>",
         "Description": "Provides fast and accurate IP geolocation APIs along with security checks and confidence area",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Bing Maps](https://www.microsoft.com/maps/)",
+        "API": "<a href=\"https://www.microsoft.com/maps/\" target=\"_blank\">Bing Maps</a>",
         "Description": "Create/customize digital maps based on Bing Maps data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[bng2latlong](https://www.getthedata.com/bng2latlong)",
+        "API": "<a href=\"https://www.getthedata.com/bng2latlong\" target=\"_blank\">bng2latlong</a>",
         "Description": "Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Cartes.io](https://github.com/M-Media-Group/Cartes.io/wiki/API)",
+        "API": "<a href=\"https://github.com/M-Media-Group/Cartes.io/wiki/API\" target=\"_blank\">Cartes.io</a>",
         "Description": "Create maps and markers for anything",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Cep.la](http://cep.la/)",
+        "API": "<a href=\"http://cep.la/\" target=\"_blank\">Cep.la</a>",
         "Description": "Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[CitySDK](http://www.citysdk.eu/citysdk-toolkit/)",
+        "API": "<a href=\"http://www.citysdk.eu/citysdk-toolkit/\" target=\"_blank\">CitySDK</a>",
         "Description": "Open APIs for select European cities",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Country](http://country.is/)",
+        "API": "<a href=\"http://country.is/\" target=\"_blank\">Country</a>",
         "Description": "Get your visitors' country from their IP",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[CountryStateCity](https://countrystatecity.in/)",
+        "API": "<a href=\"https://countrystatecity.in/\" target=\"_blank\">CountryStateCity</a>",
         "Description": "World countries, states, regions, provinces, cities & towns in JSON, SQL, XML, YAML, & CSV format",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Daum Maps](http://apis.map.daum.net/)",
+        "API": "<a href=\"http://apis.map.daum.net/\" target=\"_blank\">Daum Maps</a>",
         "Description": "Daum Maps provide multiple APIs for Korean maps",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[FreeGeoIP](https://freegeoip.app/)",
+        "API": "<a href=\"https://freegeoip.app/\" target=\"_blank\">FreeGeoIP</a>",
         "Description": "Free geo ip information, no registration required. 15k/hour rate limit",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[GeoApi](https://api.gouv.fr/api/geoapi.html)",
+        "API": "<a href=\"https://api.gouv.fr/api/geoapi.html\" target=\"_blank\">GeoApi</a>",
         "Description": "French geographical data",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Geoapify](https://www.geoapify.com/api/geocoding-api/)",
+        "API": "<a href=\"https://www.geoapify.com/api/geocoding-api/\" target=\"_blank\">Geoapify</a>",
         "Description": "Forward and reverse geocoding, address autocomplete",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Geocod.io](https://www.geocod.io/)",
+        "API": "<a href=\"https://www.geocod.io/\" target=\"_blank\">Geocod.io</a>",
         "Description": "Address geocoding / reverse geocoding in bulk",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Geocode.xyz](https://geocode.xyz/api)",
+        "API": "<a href=\"https://geocode.xyz/api\" target=\"_blank\">Geocode.xyz</a>",
         "Description": "Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Geocodify.com](https://geocodify.com/)",
+        "API": "<a href=\"https://geocodify.com/\" target=\"_blank\">Geocodify.com</a>",
         "Description": "Worldwide geocoding, geoparsing and autocomplete for addresses",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Geocoding.ai](https://nominatim.geocoding.ai/)",
+        "API": "<a href=\"https://nominatim.geocoding.ai/\" target=\"_blank\">Geocoding.ai</a>",
         "Description": "Provides worldwide forward / reverse geocoding",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[GeoDataSource](https://www.geodatasource.com/web-service)",
+        "API": "<a href=\"https://www.geodatasource.com/web-service\" target=\"_blank\">GeoDataSource</a>",
         "Description": "Geocoding of city name by using latitude and longitude coordinates",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[GeoJS](https://geojs.io/)",
+        "API": "<a href=\"https://geojs.io/\" target=\"_blank\">GeoJS</a>",
         "Description": "IP geolocation with ChatOps integration",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[GeoNames](http://www.geonames.org/export/web-services.html)",
+        "API": "<a href=\"http://www.geonames.org/export/web-services.html\" target=\"_blank\">GeoNames</a>",
         "Description": "Place names and other geographical data",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[geoPlugin](https://www.geoplugin.com)",
+        "API": "<a href=\"https://www.geoplugin.com\" target=\"_blank\">geoPlugin</a>",
         "Description": "IP geolocation and currency conversion",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Google Earth Engine](https://developers.google.com/earth-engine/)",
+        "API": "<a href=\"https://developers.google.com/earth-engine/\" target=\"_blank\">Google Earth Engine</a>",
         "Description": "A cloud-based platform for planetary-scale environmental data analysis",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Google Maps](https://developers.google.com/maps/)",
+        "API": "<a href=\"https://developers.google.com/maps/\" target=\"_blank\">Google Maps</a>",
         "Description": "Create/customize digital maps based on Google Maps data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Graph Countries](https://github.com/lennertVanSever/graphcountries)",
+        "API": "<a href=\"https://github.com/lennertVanSever/graphcountries\" target=\"_blank\">Graph Countries</a>",
         "Description": "Country-related data like currencies, languages, flags, regions+subregions and bordering countries",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[HelloSalut](https://www.fourtonfish.com/hellosalut/hello/)",
+        "API": "<a href=\"https://www.fourtonfish.com/hellosalut/hello/\" target=\"_blank\">HelloSalut</a>",
         "Description": "Get hello translation following user language",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[HERE Maps](https://developer.here.com)",
+        "API": "<a href=\"https://developer.here.com\" target=\"_blank\">HERE Maps</a>",
         "Description": "Create/customize digital maps based on HERE Maps data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Hong Kong GeoData Store](https://geodata.gov.hk/gs/)",
+        "API": "<a href=\"https://geodata.gov.hk/gs/\" target=\"_blank\">Hong Kong GeoData Store</a>",
         "Description": "API for accessing geo-data of Hong Kong",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[IP 2 Country](https://ip2country.info)",
+        "API": "<a href=\"https://ip2country.info\" target=\"_blank\">IP 2 Country</a>",
         "Description": "Map an IP to a country",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[IP Address Details](https://ipinfo.io/)",
+        "API": "<a href=\"https://ipinfo.io/\" target=\"_blank\">IP Address Details</a>",
         "Description": "Find geolocation with ip address",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[IP Location](https://ipapi.co/api/#introduction)",
+        "API": "<a href=\"https://ipapi.co/api/#introduction\" target=\"_blank\">IP Location</a>",
         "Description": "Find IP address location information",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[IP Location](https://ip-api.com/docs)",
+        "API": "<a href=\"https://ip-api.com/docs\" target=\"_blank\">IP Location</a>",
         "Description": "Find location with ip address",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[IP Sidekick](https://ipsidekick.com)",
+        "API": "<a href=\"https://ipsidekick.com\" target=\"_blank\">IP Sidekick</a>",
         "Description": "Geolocation API that returns extra information about an IP address",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[IP Vigilante](https://www.ipvigilante.com/)",
+        "API": "<a href=\"https://www.ipvigilante.com/\" target=\"_blank\">IP Vigilante</a>",
         "Description": "Free IP Geolocation API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[IP2Location](https://www.ip2location.com/web-service/ip2location)",
+        "API": "<a href=\"https://www.ip2location.com/web-service/ip2location\" target=\"_blank\">IP2Location</a>",
         "Description": "IP geolocation web service to get more than 55 parameters",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[IP2Proxy](https://www.ip2location.com/web-service/ip2proxy)",
+        "API": "<a href=\"https://www.ip2location.com/web-service/ip2proxy\" target=\"_blank\">IP2Proxy</a>",
         "Description": "Detect proxy and VPN using IP address",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[ipapi](https://ipapi.com/)",
+        "API": "<a href=\"https://ipapi.com/\" target=\"_blank\">ipapi</a>",
         "Description": "Real-time Geolocation & Reverse IP Lookup REST API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[IPGEO](https://api.techniknews.net/ipgeo/)",
+        "API": "<a href=\"https://api.techniknews.net/ipgeo/\" target=\"_blank\">IPGEO</a>",
         "Description": "Unlimited free IP Address API with useful information",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[IPGeolocationAPI.com](https://ipgeolocationapi.com/)",
+        "API": "<a href=\"https://ipgeolocationapi.com/\" target=\"_blank\">IPGeolocationAPI.com</a>",
         "Description": "Locate your visitors by IP with country details",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[IPInfoDB](https://ipinfodb.com/api)",
+        "API": "<a href=\"https://ipinfodb.com/api\" target=\"_blank\">IPInfoDB</a>",
         "Description": "Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Localizr](https://docs.localizr.xyz)",
+        "API": "<a href=\"https://docs.localizr.xyz\" target=\"_blank\">Localizr</a>",
         "Description": "Get a list of countries,currencies or locales translated from a locale/language code",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[LocationIQ](https://locationiq.org/docs/)",
+        "API": "<a href=\"https://locationiq.org/docs/\" target=\"_blank\">LocationIQ</a>",
         "Description": "Provides forward/reverse geocoding and batch geocoding",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Mapbox](https://www.mapbox.com/developers/)",
+        "API": "<a href=\"https://www.mapbox.com/developers/\" target=\"_blank\">Mapbox</a>",
         "Description": "Create/customize beautiful digital maps",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Mexico](https://github.com/IcaliaLabs/sepomex)",
+        "API": "<a href=\"https://github.com/IcaliaLabs/sepomex\" target=\"_blank\">Mexico</a>",
         "Description": "Mexico RESTful zip codes API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[One Map, Singapore](https://docs.onemap.sg/)",
+        "API": "<a href=\"https://docs.onemap.sg/\" target=\"_blank\">One Map, Singapore</a>",
         "Description": "Singapore Land Authority REST API services for Singapore addresses",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[OnWater](https://onwater.io/)",
+        "API": "<a href=\"https://onwater.io/\" target=\"_blank\">OnWater</a>",
         "Description": "Determine if a lat/lon is on water or land",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Open Topo Data](https://www.opentopodata.org)",
+        "API": "<a href=\"https://www.opentopodata.org\" target=\"_blank\">Open Topo Data</a>",
         "Description": "Elevation and ocean depth for a latitude and longitude",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[OpenCage](https://opencagedata.com)",
+        "API": "<a href=\"https://opencagedata.com\" target=\"_blank\">OpenCage</a>",
         "Description": "Forward and reverse geocoding using open data",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[openrouteservice.org](https://openrouteservice.org/)",
+        "API": "<a href=\"https://openrouteservice.org/\" target=\"_blank\">openrouteservice.org</a>",
         "Description": "Directions, POIs, isochrones, geocoding (+reverse), elevation, and more",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[OpenStreetMap](http://wiki.openstreetmap.org/wiki/API)",
+        "API": "<a href=\"http://wiki.openstreetmap.org/wiki/API\" target=\"_blank\">OpenStreetMap</a>",
         "Description": "Navigation, geolocation and geographical data",
-        "Auth": "`OAuth`",
+        "Auth": "<code>OAuth</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[positionstack](https://positionstack.com/)",
+        "API": "<a href=\"https://positionstack.com/\" target=\"_blank\">positionstack</a>",
         "Description": "Forward & Reverse Batch Geocoding REST API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[PostcodeData.nl](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json)",
+        "API": "<a href=\"http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json\" target=\"_blank\">PostcodeData.nl</a>",
         "Description": "Provide geolocation data based on postcode for Dutch addresses",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Postcodes.io](https://postcodes.io)",
+        "API": "<a href=\"https://postcodes.io\" target=\"_blank\">Postcodes.io</a>",
         "Description": "Postcode lookup & Geolocation for the UK",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[REST Countries](https://restcountries.eu)",
+        "API": "<a href=\"https://restcountries.eu\" target=\"_blank\">REST Countries</a>",
         "Description": "Get information about countries via a RESTful API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[RoadGoat Cities](https://www.roadgoat.com/business/cities-api)",
+        "API": "<a href=\"https://www.roadgoat.com/business/cities-api\" target=\"_blank\">RoadGoat Cities</a>",
         "Description": "Cities content & photos API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[SpotSense](https://www.spotsense.io)",
+        "API": "<a href=\"https://www.spotsense.io\" target=\"_blank\">SpotSense</a>",
         "Description": "Add location based interactions to your mobile app",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Uebermaps](https://uebermaps.com/api/v2)",
+        "API": "<a href=\"https://uebermaps.com/api/v2\" target=\"_blank\">Uebermaps</a>",
         "Description": "Discover and share maps with friends",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[US ZipCode](https://smartystreets.com/docs/cloud/us-zipcode-api)",
+        "API": "<a href=\"https://smartystreets.com/docs/cloud/us-zipcode-api\" target=\"_blank\">US ZipCode</a>",
         "Description": "Validate and append data for any US ZipCode",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Utah AGRC](https://api.mapserv.utah.gov)",
+        "API": "<a href=\"https://api.mapserv.utah.gov\" target=\"_blank\">Utah AGRC</a>",
         "Description": "Utah Web API for geocoding Utah addresses",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[ViaCep](https://viacep.com.br)",
+        "API": "<a href=\"https://viacep.com.br\" target=\"_blank\">ViaCep</a>",
         "Description": "Brazil RESTful zip codes API",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[ZipCodeAPI](https://www.zipcodeapi.com)",
+        "API": "<a href=\"https://www.zipcodeapi.com\" target=\"_blank\">ZipCodeAPI</a>",
         "Description": "US zip code distance, radius and location API",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Zippopotam.us](http://www.zippopotam.us)",
+        "API": "<a href=\"http://www.zippopotam.us\" target=\"_blank\">Zippopotam.us</a>",
         "Description": "Get information about place such as country, city, state, etc",
         "Auth": "No",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Ziptastic](https://ziptasticapi.com/)",
+        "API": "<a href=\"https://ziptasticapi.com/\" target=\"_blank\">Ziptastic</a>",
         "Description": "Get the country, state, and city of any US zip-code",
         "Auth": "No",
         "HTTPS": "Yes",

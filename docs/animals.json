@@ -1,104 +1,104 @@
 [
     {
-        "API": "[Cat Facts](https://alexwohlbruck.github.io/cat-facts/)",
+        "API": "<a href=\"https://alexwohlbruck.github.io/cat-facts/\" target=\"_blank\">Cat Facts</a>",
         "Description": "Daily cat facts",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[Cataas](https://cataas.com/)",
+        "API": "<a href=\"https://cataas.com/\" target=\"_blank\">Cataas</a>",
         "Description": "Cat as a service (cats pictures and gifs)",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[catAPI](https://github.com/ThatCopy/catAPI/wiki/Usage)",
+        "API": "<a href=\"https://github.com/ThatCopy/catAPI/wiki/Usage\" target=\"_blank\">catAPI</a>",
         "Description": "Random pictures of cats",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[Cats](https://docs.thecatapi.com/)",
+        "API": "<a href=\"https://docs.thecatapi.com/\" target=\"_blank\">Cats</a>",
         "Description": "Pictures of cats from Tumblr",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Dog Facts](https://dukengn.github.io/Dog-facts-API/)",
+        "API": "<a href=\"https://dukengn.github.io/Dog-facts-API/\" target=\"_blank\">Dog Facts</a>",
         "Description": "Random dog facts",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Dogs](https://dog.ceo/dog-api/)",
+        "API": "<a href=\"https://dog.ceo/dog-api/\" target=\"_blank\">Dogs</a>",
         "Description": "Based on the Stanford Dogs Dataset",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[HTTPCat](https://http.cat/)",
+        "API": "<a href=\"https://http.cat/\" target=\"_blank\">HTTPCat</a>",
         "Description": "Cat for every HTTP Status",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[IUCN](http://apiv3.iucnredlist.org/api/v3/docs)",
+        "API": "<a href=\"http://apiv3.iucnredlist.org/api/v3/docs\" target=\"_blank\">IUCN</a>",
         "Description": "IUCN Red List of Threatened Species",
-        "Auth": "`apiKey`",
+        "Auth": "<code>apiKey</code>",
         "HTTPS": "No",
         "CORS": "Unknown"
     },
     {
-        "API": "[Movebank](https://github.com/movebank/movebank-api-doc)",
+        "API": "<a href=\"https://github.com/movebank/movebank-api-doc\" target=\"_blank\">Movebank</a>",
         "Description": "Movement and Migration data of animals",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[PlaceDog](https://place.dog)",
+        "API": "<a href=\"https://place.dog\" target=\"_blank\">PlaceDog</a>",
         "Description": "Placeholder Dog pictures",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[RandomCat](https://aws.random.cat/meow)",
+        "API": "<a href=\"https://aws.random.cat/meow\" target=\"_blank\">RandomCat</a>",
         "Description": "Random pictures of cats",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[RandomDog](https://random.dog/woof.json)",
+        "API": "<a href=\"https://random.dog/woof.json\" target=\"_blank\">RandomDog</a>",
         "Description": "Random pictures of dogs",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Yes"
     },
     {
-        "API": "[RandomFox](https://randomfox.ca/floof/)",
+        "API": "<a href=\"https://randomfox.ca/floof/\" target=\"_blank\">RandomFox</a>",
         "Description": "Random pictures of foxes",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "No"
     },
     {
-        "API": "[RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home)",
+        "API": "<a href=\"https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home\" target=\"_blank\">RescueGroups</a>",
         "Description": "Adoption",
         "Auth": "No",
         "HTTPS": "Yes",
         "CORS": "Unknown"
     },
     {
-        "API": "[Shibe.Online](http://shibe.online/)",
+        "API": "<a href=\"http://shibe.online/\" target=\"_blank\">Shibe.Online</a>",
         "Description": "Random pictures of Shiba Inu, cats or birds",
         "Auth": "No",
         "HTTPS": "Yes",
