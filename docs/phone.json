@@ -1,0 +1,30 @@
+[
+    {
+        "API": "[Abstract Phone Validation](https://www.abstractapi.com/phone-validation-api)",
+        "Description": "Validate phone numbers globally",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[apilayer numverify](https://numverify.com)",
+        "Description": "Phone number validation",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API)",
+        "Description": "Validate international phone numbers",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[NumValidate](https://numvalidate.com)",
+        "Description": "Open Source phone number validation",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "API": "[EPO](https://developers.epo.org/)",
+        "Description": "European patent search system api",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[TIPO](https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00)",
+        "Description": "Taiwan patent search system api",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[USPTO](https://www.uspto.gov/learning-and-resources/open-data-and-mobility)",
+        "Description": "USA patent api services",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

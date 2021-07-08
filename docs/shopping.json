@@ -1,0 +1,51 @@
+[
+    {
+        "API": "[Best Buy](https://bestbuyapis.github.io/api-documentation/#overview)",
+        "Description": "Products, Buying Options, Categories, Recommendations, Stores and Commerce",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Bratabase](https://developers.bratabase.com/)",
+        "Description": "Database of different types of Bra Sizes",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Dummy Products](https://dummyproducts-api.herokuapp.com/)",
+        "Description": "An api to fetch dummy e-commerce products JSON data with placeholder images",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[eBay](https://go.developer.ebay.com/)",
+        "Description": "Sell and Buy on eBay",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics)",
+        "Description": "Manage shop and interact with listings",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Wal-Mart](https://developer.walmartlabs.com/docs)",
+        "Description": "Item price and availability",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Wegmans](https://dev.wegmans.io)",
+        "Description": "Wegmans Food Markets",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

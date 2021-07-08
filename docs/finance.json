@@ -1,0 +1,114 @@
+[
+    {
+        "API": "[Abstract VAT Validation](https://www.abstractapi.com/vat-validation-rates-api)",
+        "Description": "Validate VAT numbers and calculate VAT rates",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Alpha Vantage](https://www.alphavantage.co/)",
+        "Description": "Realtime and historical stock data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Banco do Brasil](https://developers.bb.com.br/home)",
+        "Description": "All Banco do Brasil financial transaction APIs",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Financial Modeling Prep](https://financialmodelingprep.com/developer/docs/)",
+        "Description": "Realtime and historical stock data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[IEX Cloud](https://iexcloud.io/docs/api/)",
+        "Description": "Realtime & Historical Stock and Market Data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[IG](https://labs.ig.com/gettingstarted)",
+        "Description": "Spreadbetting and CFD Market Data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Intrinio](https://intrinio.com/)",
+        "Description": "A wide selection of financial data feeds",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[marketstack](https://marketstack.com/)",
+        "Description": "Real-Time, Intraday & Historical Market Data API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Nordigen](https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/)",
+        "Description": "Connect to bank accounts using official bank APIs and get raw transaction data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Plaid](https://plaid.com/)",
+        "Description": "Connect with users\u2019 bank accounts and access transaction data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Razorpay IFSC](https://ifsc.razorpay.com/)",
+        "Description": "Indian Financial Systems Code (Bank Branch Codes)",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/)",
+        "Description": "Websocket API to access realtime stock data",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Styvio](https://www.Styvio.com)",
+        "Description": "Realtime and historical stock data and current stock sentiment",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Tradier](https://developer.tradier.com)",
+        "Description": "US equity/option market data (delayed, intraday, historical)",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Twelve Data](https://twelvedata.com/)",
+        "Description": "Stock market data (real-time & historical)",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[YNAB](https://api.youneedabudget.com/)",
+        "Description": "Budgeting & Planning",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    }
+]

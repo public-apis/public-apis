@@ -1,0 +1,107 @@
+[
+    {
+        "API": "[Cat Facts](https://alexwohlbruck.github.io/cat-facts/)",
+        "Description": "Daily cat facts",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Cataas](https://cataas.com/)",
+        "Description": "Cat as a service (cats pictures and gifs)",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[catAPI](https://github.com/ThatCopy/catAPI/wiki/Usage)",
+        "Description": "Random pictures of cats",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Cats](https://docs.thecatapi.com/)",
+        "Description": "Pictures of cats from Tumblr",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Dog Facts](https://dukengn.github.io/Dog-facts-API/)",
+        "Description": "Random dog facts",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Dogs](https://dog.ceo/dog-api/)",
+        "Description": "Based on the Stanford Dogs Dataset",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[HTTPCat](https://http.cat/)",
+        "Description": "Cat for every HTTP Status",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[IUCN](http://apiv3.iucnredlist.org/api/v3/docs)",
+        "Description": "IUCN Red List of Threatened Species",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Movebank](https://github.com/movebank/movebank-api-doc)",
+        "Description": "Movement and Migration data of animals",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PlaceDog](https://place.dog)",
+        "Description": "Placeholder Dog pictures",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[RandomCat](https://aws.random.cat/meow)",
+        "Description": "Random pictures of cats",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[RandomDog](https://random.dog/woof.json)",
+        "Description": "Random pictures of dogs",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[RandomFox](https://randomfox.ca/floof/)",
+        "Description": "Random pictures of foxes",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home)",
+        "Description": "Adoption",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Shibe.Online](http://shibe.online/)",
+        "Description": "Random pictures of Shiba Inu, cats or birds",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    }
+]

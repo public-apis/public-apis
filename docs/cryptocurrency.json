@@ -1,0 +1,261 @@
+[
+    {
+        "API": "[Binance](https://github.com/binance/binance-spot-api-docs)",
+        "Description": "Exchange for Trading Cryptocurrencies based in China",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[BitcoinAverage](https://apiv2.bitcoinaverage.com/)",
+        "Description": "Digital Asset Price Data for the blockchain industry",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[BitcoinCharts](https://bitcoincharts.com/about/exchanges/)",
+        "Description": "Financial and Technical Data related to the Bitcoin Network",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Bitfinex](https://docs.bitfinex.com/docs)",
+        "Description": "Cryptocurrency Trading Platform",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Bitmex](https://www.bitmex.com/app/apiOverview)",
+        "Description": "Real-Time Cryptocurrency derivatives trading platform based in Hong Kong",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Bittrex](https://bittrex.com/Home/Api)",
+        "Description": "Next Generation Crypto Trading Platform",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Block](https://www.block.io/docs/basic)",
+        "Description": "Bitcoin Payment, Wallet & Transaction Data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Blockchain](https://www.blockchain.com/api)",
+        "Description": "Bitcoin Payment, Wallet & Transaction Data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[BlockFacts](https://blockfacts.io/)",
+        "Description": "Real-time crypto data from multiple exchanges via a single unified API, and much more",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CoinAPI](https://docs.coinapi.io/)",
+        "Description": "All Currency Exchanges integrate under a single api",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Coinbase](https://developers.coinbase.com)",
+        "Description": "Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Coinbase Pro](https://docs.pro.coinbase.com/#api)",
+        "Description": "Cryptocurrency Trading Platform",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CoinCap](https://docs.coincap.io/)",
+        "Description": "Real time Cryptocurrency prices through a RESTful API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CoinDesk](http://www.coindesk.com/api/)",
+        "Description": "Bitcoin Price Index",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CoinGecko](http://www.coingecko.com/api)",
+        "Description": "Cryptocurrency Price, Market, and Developer/Social Data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Coinigy](https://coinigy.docs.apiary.io)",
+        "Description": "Interacting with Coinigy Accounts and Exchange Directly",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[coinlayer](https://coinlayer.com)",
+        "Description": "Real-time Crypto Currency Exchange Rates",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Coinlib](https://coinlib.io/apidocs)",
+        "Description": "Crypto Currency Prices",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Coinlore](https://www.coinlore.com/cryptocurrency-data-api)",
+        "Description": "Cryptocurrencies prices, volume and more",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CoinMarketCap](https://coinmarketcap.com/api/)",
+        "Description": "Cryptocurrencies Prices",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Coinpaprika](https://api.coinpaprika.com)",
+        "Description": "Cryptocurrencies prices, volume and more",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[CoinRanking](https://docs.coinranking.com/)",
+        "Description": "Live Cryptocurrency data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CoinStats](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest)",
+        "Description": "Crypto Tracker",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Covalent](https://www.covalenthq.com/docs/api/)",
+        "Description": "Multi-blockchain data aggregator",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CryptoCompare](https://www.cryptocompare.com/api#)",
+        "Description": "Cryptocurrencies Comparison",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CryptoMarket](https://developers.cryptomkt.com)",
+        "Description": "Cryptocurrencies Trading platform",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Cryptonator](https://www.cryptonator.com/api/)",
+        "Description": "Cryptocurrencies Exchange Rates",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Gemini](https://docs.gemini.com/rest-api/)",
+        "Description": "Cryptocurrencies Exchange",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ICObench](https://icobench.com/developers)",
+        "Description": "Various information on listing, ratings, stats, and more",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[MercadoBitcoin](https://www.mercadobitcoin.net/api-doc/)",
+        "Description": "Brazilian Cryptocurrency Information",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Nexchange](https://nexchange2.docs.apiary.io/)",
+        "Description": "Automated cryptocurrency exchange service",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Nomics](https://nomics.com/docs/)",
+        "Description": "Historical and realtime cryptocurrency prices and market data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Poloniex](https://poloniex.com/support/api/)",
+        "Description": "US based digital asset exchange",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Technical Analysis](https://technical-analysis-api.com)",
+        "Description": "Cryptocurrency prices and technical analysis",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[VALR](https://docs.valr.com/)",
+        "Description": "Cryptocurrency Exchange based in South Africa",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/)",
+        "Description": "WallstreetBets Stock Comments Sentiment Analysis",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[WorldCoinIndex](https://www.worldcoinindex.com/apiservice)",
+        "Description": "Cryptocurrencies Prices",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

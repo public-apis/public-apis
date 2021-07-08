@@ -1,0 +1,72 @@
+[
+    {
+        "API": "[Aylien Text Analysis](https://docs.aylien.com/textapi/#getting-started)",
+        "Description": "A collection of information retrieval and natural language APIs",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api)",
+        "Description": "Natural language processing and text analysis",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Detect Language](https://detectlanguage.com/)",
+        "Description": "Detects text language",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Google Cloud Natural](https://cloud.google.com/natural-language/docs/)",
+        "Description": "Natural language understanding technology, including sentiment, entity and syntax analysis",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[languagelayer](https://languagelayer.com/)",
+        "Description": "Language Detection JSON API supporting 173 languages",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Semantria](https://semantria.readme.io/docs)",
+        "Description": "Text Analytics with sentiment analysis, categorization & named entity extraction",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Sentiment Analysis](https://www.meaningcloud.com/developer/sentiment-analysis)",
+        "Description": "Multilingual sentiment analysis of texts from different sources",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Sentium](https://sentim-api.herokuapp.com/)",
+        "Description": "Free API for Text Sentimental analysis",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Tisane](https://tisane.ai/)",
+        "Description": "Text Analytics with focus on detection of abusive content and law enforcement applications",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Watson Natural Language Understanding](https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding)",
+        "Description": "Natural language processing for advanced text analysis",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

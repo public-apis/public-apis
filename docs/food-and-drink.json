@@ -1,0 +1,114 @@
+[
+    {
+        "API": "[Edamam nutrition](https://developer.edamam.com/edamam-docs-nutrition-api)",
+        "Description": "Nutrition Analysis",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Edamam recipes](https://developer.edamam.com/edamam-docs-recipe-api)",
+        "Description": "Recipe Search",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Foodish](https://github.com/surhud004/Foodish#readme)",
+        "Description": "Random pictures of food dishes",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[LCBO](https://lcboapi.com/)",
+        "Description": "Alcohol",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Open Brewery DB](https://www.openbrewerydb.org)",
+        "Description": "Breweries, Cideries and Craft Beer Bottle Shops",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Open Food Facts](https://world.openfoodfacts.org/data)",
+        "Description": "Food Products Database",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PunkAPI](https://punkapi.com/)",
+        "Description": "Brewdog Beer Recipes",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Recipe Puppy](http://www.recipepuppy.com/about/api/)",
+        "Description": "Food",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Spoonacular](https://spoonacular.com/food-api)",
+        "Description": "Recipes and Food product",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[TacoFancy](https://github.com/evz/tacofancy-api)",
+        "Description": "Community-driven taco database",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[The Report of the Week](https://github.com/andyklimczak/TheReportOfTheWeek-API)",
+        "Description": "Food & Drink Reviews",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[TheCocktailDB](https://www.thecocktaildb.com/api.php)",
+        "Description": "Cocktail Recipes",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[TheMealDB](https://www.themealdb.com/api.php)",
+        "Description": "Meal Recipes",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[What's on the menu?](http://nypl.github.io/menus-api/)",
+        "Description": "NYPL human-transcribed historical menu collection",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[WhiskyHunter](https://whiskyhunter.net/api/)",
+        "Description": "Past online whisky auctions statistical data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Zestful](https://zestfuldata.com/)",
+        "Description": "Parse recipe ingredients",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    }
+]

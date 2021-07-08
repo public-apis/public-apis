@@ -1,0 +1,107 @@
+[
+    {
+        "API": "[Flickr](https://www.flickr.com/services/api/)",
+        "Description": "Flickr Services",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Getty Images](http://developers.gettyimages.com/en/)",
+        "Description": "Build applications using the world's most powerful imagery",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Gfycat](https://developers.gfycat.com/api/)",
+        "Description": "Jiffier GIFs",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Giphy](https://developers.giphy.com/docs/)",
+        "Description": "Get all your gifs",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Gyazo](https://gyazo.com/api/docs)",
+        "Description": "Upload images",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Imgur](https://apidocs.imgur.com/)",
+        "Description": "Images",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Lorem Picsum](https://picsum.photos/)",
+        "Description": "Images from Unsplash",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ObjectCut](https://objectcut.com/)",
+        "Description": "Image Background removal",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Pexels](https://www.pexels.com/api/)",
+        "Description": "Free Stock Photos and Videos",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Pixabay](https://pixabay.com/sk/service/about/api/)",
+        "Description": "Photography",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PlaceKitten](https://placekitten.com/)",
+        "Description": "Resizable kitten placeholder images",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ReSmush.it](https://resmush.it/api)",
+        "Description": "Photo optimization",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ScreenShotLayer](https://screenshotlayer.com)",
+        "Description": "URL 2 Image",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Unsplash](https://unsplash.com/developers)",
+        "Description": "Photography",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Wallhaven](https://wallhaven.cc/help/api)",
+        "Description": "Wallpapers",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

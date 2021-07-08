@@ -1,0 +1,93 @@
+[
+    {
+        "API": "[Adzuna](https://developer.adzuna.com/overview)",
+        "Description": "Job board aggregator",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Careerjet](https://www.careerjet.com/partners/api/)",
+        "Description": "Job search engine",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[DevITjobs UK](https://devitjobs.uk/job_feed.xml)",
+        "Description": "Jobs with GraphQL",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[GraphQL Jobs](https://graphql.jobs/docs/api/)",
+        "Description": "Jobs with GraphQL",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf)",
+        "Description": "Job aggregator",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Jooble](https://us.jooble.org/api/about)",
+        "Description": "Job search engine",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Juju](http://www.juju.com/publisher/spec/)",
+        "Description": "Job search engine",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview)",
+        "Description": "Job titles, skills and related jobs data",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Reed](https://www.reed.co.uk/developers)",
+        "Description": "Job board aggregator",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[The Muse](https://www.themuse.com/developers/api/v2)",
+        "Description": "Job board and company profiles",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Upwork](https://developers.upwork.com/)",
+        "Description": "Freelance job board and management system",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[USAJOBS](https://developer.usajobs.gov/)",
+        "Description": "US government job board",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ZipRecruiter](https://www.ziprecruiter.com/publishers)",
+        "Description": "Job search app and website",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "API": "[Eventbrite](https://www.eventbrite.com/developer/v3/)",
+        "Description": "Find events",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Picatic](http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto)",
+        "Description": "Sell tickets anywhere",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Ticketmaster](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/)",
+        "Description": "Search events, attractions, or venues",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

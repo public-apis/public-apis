@@ -1,0 +1,37 @@
+[
+    {
+        "API": "[Countly](https://api.count.ly/reference)",
+        "Description": "Countly web analytics",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Creative Commons Catalog](https://api.creativecommons.engineering/)",
+        "Description": "Search among openly licensed and public domain works",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Datamuse](https://www.datamuse.com/api/)",
+        "Description": "Word-finding query engine",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Drupal.org](https://www.drupal.org/drupalorg/docs/api)",
+        "Description": "Drupal.org",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Evil Insult Generator](https://evilinsult.com/api)",
+        "Description": "Evil Insults",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    }
+]

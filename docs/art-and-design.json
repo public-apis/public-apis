@@ -1,0 +1,93 @@
+[
+    {
+        "API": "[Art Institute of Chicago](https://api.artic.edu/docs/)",
+        "Description": "Art",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[ColourLovers](http://www.colourlovers.com/api)",
+        "Description": "Get various patterns, palettes and images",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Cooper Hewitt](https://collection.cooperhewitt.org/api)",
+        "Description": "Smithsonian Design Museum",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Dribbble](http://developer.dribbble.com/v2/)",
+        "Description": "Design",
+        "Auth": "`OAuth`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Europeana](https://pro.europeana.eu/resources/apis/search)",
+        "Description": "European Museum and Galleries content",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Harvard Art Museums](https://github.com/harvardartmuseums/api-docs)",
+        "Description": "Art",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Iconfinder](https://developer.iconfinder.com)",
+        "Description": "Icons",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Icons8](http://docs.icons8.apiary.io/#reference/0/meta)",
+        "Description": "Icons",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Metropolitan Museum of Art](https://metmuseum.github.io/)",
+        "Description": "Met Museum of Art",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Noun Project](http://api.thenounproject.com/index.html)",
+        "Description": "Icons",
+        "Auth": "`OAuth`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PHP-Noise](https://php-noise.com/)",
+        "Description": "Noise Background Image Generator",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Pixel Encounter](https://pixelencounter.com/api)",
+        "Description": "SVG Icon Generator",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Rijksmuseum](https://www.rijksmuseum.nl/en/api)",
+        "Description": "Art",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "API": "[AniList](https://github.com/AniList/ApiV2-GraphQL-Docs)",
+        "Description": "Anime discovery & tracking",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[AnimeChan](https://github.com/RocktimSaikia/anime-chan)",
+        "Description": "Anime quotes (over 10k+)",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php)",
+        "Description": "Anime industry news",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Jikan](https://jikan.moe)",
+        "Description": "Unofficial MyAnimeList API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Kitsu](https://kitsu.docs.apiary.io/)",
+        "Description": "Anime discovery platform",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[MyAnimeList](https://myanimelist.net/clubs.php?cid=13727)",
+        "Description": "Anime and Manga Database and Community",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Shikimori](https://shikimori.one/api/doc)",
+        "Description": "Anime discovery, tracking, forum, rates",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Studio Ghibli](https://ghibliapi.herokuapp.com)",
+        "Description": "Resources from Studio Ghibli films",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Waifu.pics](https://waifu.pics/docs)",
+        "Description": "Image sharing platform for anime images",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[What Anime](https://soruly.github.io/trace.moe/)",
+        "Description": "Scan anime image to get specific detail",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    }
+]

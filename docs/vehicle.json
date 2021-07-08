@@ -1,0 +1,44 @@
+[
+    {
+        "API": "[Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/)",
+        "Description": "Vehicles information from Funda\u00e7\u00e3o Instituto de Pesquisas Econ\u00f4micas - Fipe",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Kelley Blue Book](http://developer.kbb.com/#!/data/1-Default)",
+        "Description": "Vehicle info, pricing, configuration, plus much more",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Mercedes-Benz](https://developer.mercedes-benz.com/apis)",
+        "Description": "Telematics data, remotely access vehicle functions, car configurator, locate service dealers",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Motor Vehicle Department, Maharashtra, India](https://apisetu.gov.in/public/api/transportmh)",
+        "Description": "Driving License (DL) and Vehicle Registration Certificate (RC) of the State Maharashtra of India",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[NHTSA](https://vpic.nhtsa.dot.gov/api/)",
+        "Description": "NHTSA Product Information Catalog and Vehicle Listing",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Smartcar](https://smartcar.com/docs/)",
+        "Description": "Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    }
+]

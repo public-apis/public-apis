@@ -1,0 +1,51 @@
+[
+    {
+        "API": "[Box](https://developer.box.com/)",
+        "Description": "File Sharing and Storage",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Dropbox](https://www.dropbox.com/developers)",
+        "Description": "File Sharing and Storage",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[GoFile](https://gofile.io/api)",
+        "Description": "Unlimited size file uploads for free",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Google Drive](https://developers.google.com/drive/)",
+        "Description": "File Sharing and Storage",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[OneDrive](https://dev.onedrive.com/)",
+        "Description": "File Sharing and Storage",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Pantry](https://getpantry.cloud/)",
+        "Description": "Free JSON storage for small projects",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Pastebin](https://pastebin.com/api/)",
+        "Description": "Plain Text Storage",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "API": "[Bacon Ipsum](https://baconipsum.com/json-api/)",
+        "Description": "A Meatier Lorem Ipsum Generator",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Dicebear Avatars](https://avatars.dicebear.com/)",
+        "Description": "Generate random pixel-art avatars",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[FakeJSON](https://fakejson.com)",
+        "Description": "Service to generate test and fake data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[FakerAPI](https://fakerapi.it/en)",
+        "Description": "APIs collection to get fake data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[JSONPlaceholder](http://jsonplaceholder.typicode.com/)",
+        "Description": "Fake data for testing and prototyping",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Loripsum](http://loripsum.net/)",
+        "Description": "The \"lorem ipsum\" generator that doesn't suck",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PIPL](https://pipl.ir/)",
+        "Description": "Free and public API that generates random and fake people's data in JSON",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[QuickMocker](https://quickmocker.com)",
+        "Description": "API mocking tool to generate contextual, fake or random data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Randommer](https://randommer.io/randommer-api)",
+        "Description": "Random data generator",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[RandomUser](https://randomuser.me)",
+        "Description": "Generates and list user data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Reqres](https://reqres.in)",
+        "Description": "Generates random user data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[RoboHash](https://robohash.org/)",
+        "Description": "Generate random robot/alien avatars",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Spanish random words](https://palabras-aleatorias-public-api.herokuapp.com)",
+        "Description": "Generate spanish words randomly",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[This Person Does not Exist](https://thispersondoesnotexist.com)",
+        "Description": "Generates real-life faces of people who do not exist",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[UUID Generator](https://www.uuidtools.com/docs)",
+        "Description": "Generate UUIDs",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Yes No](https://yesno.wtf/api)",
+        "Description": "Generate yes or no randomly",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

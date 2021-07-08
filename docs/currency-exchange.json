@@ -1,0 +1,86 @@
+[
+    {
+        "API": "[1Forge](https://1forge.com/forex-data-api/api-documentation)",
+        "Description": "Forex currency market data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[apilayer fixer.io](https://fixer.io)",
+        "Description": "Exchange rates and currency conversion",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Currency-api](https://github.com/fawazahmed0/currency-api#readme)",
+        "Description": "Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Currencylayer](https://currencylayer.com/documentation)",
+        "Description": "Exchange rates and currency conversion",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CurrencyScoop](https://currencyscoop.com/api-documentation)",
+        "Description": "Real-time and historical currency rates JSON API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml)",
+        "Description": "A collection of exchange rates",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ExchangeRate-API](https://www.exchangerate-api.com)",
+        "Description": "Free currency conversion",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Exchangerate.host](https://exchangerate.host)",
+        "Description": "Free foreign exchange & crypto rates API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Exchangeratesapi.io](https://exchangeratesapi.io)",
+        "Description": "Exchange rates with currency conversion",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Frankfurter](https://www.frankfurter.app/docs)",
+        "Description": "Exchange rates, currency conversion and time series",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[National Bank of Poland](http://api.nbp.pl/en.html)",
+        "Description": "A collection of currency exchange rates (data in XML and JSON)",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[VATComply.com](https://www.vatcomply.com/documentation)",
+        "Description": "Exchange rates, geolocation and VAT number validation",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    }
+]

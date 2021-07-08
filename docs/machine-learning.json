@@ -1,0 +1,86 @@
+[
+    {
+        "API": "[Clarifai](https://docs.clarifai.com)",
+        "Description": "Computer Vision",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api)",
+        "Description": "Image captioning, face recognition, NSFW classification",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Deepcode](https://www.deepcode.ai)",
+        "Description": "AI for code review",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Dialogflow](https://dialogflow.com)",
+        "Description": "Natural Language Processing",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[EXUDE-API](http://uttesh.com/exude-api/)",
+        "Description": "Used for the primary ways for filtering the stopping, stemming words from the text data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[IPS Online](https://docs.identity.ps/docs)",
+        "Description": "Face and License Plate Anonymization",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Keen IO](https://keen.io/)",
+        "Description": "Data Analytics",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[NLP Cloud](https://nlpcloud.io)",
+        "Description": "NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[OpenVisionAPI](https://openvisionapi.com)",
+        "Description": "Open source computer vision API based on open source models",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Time Door](https://timedoor.io)",
+        "Description": "A time series analysis API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Unplugg](https://unplu.gg/test_api.html)",
+        "Description": "Forecasting API for timeseries data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Wit.ai](https://wit.ai/)",
+        "Description": "Natural Language Processing",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

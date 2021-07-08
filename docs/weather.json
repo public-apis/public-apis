@@ -1,0 +1,149 @@
+[
+    {
+        "API": "[7Timer!](http://www.7timer.info/doc.php?lang=en)",
+        "Description": "Weather, especially for Astroweather",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[AccuWeather](https://developer.accuweather.com/apis)",
+        "Description": "Weather and forecast data",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[APIXU](https://www.apixu.com/doc/request.aspx)",
+        "Description": "Weather",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[AviationWeather](https://www.aviationweather.gov/dataserver)",
+        "Description": "NOAA aviation weather forecasts and observations",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ColorfulClouds](https://open.caiyunapp.com/ColorfulClouds_Weather_API)",
+        "Description": "Weather",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Foreca](https://developer.foreca.com)",
+        "Description": "Weather",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[MetaWeather](https://www.metaweather.com/api/)",
+        "Description": "Weather",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Meteorologisk Institutt](https://api.met.no/weatherapi/documentation)",
+        "Description": "Weather and climate data",
+        "Auth": "`User-Agent`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[NOAA Climate Data](https://www.ncdc.noaa.gov/cdo-web/)",
+        "Description": "Weather and climate data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ODWeather](http://api.oceandrivers.com/static/docs.html)",
+        "Description": "Weather and weather webcams",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[openSenseMap](https://api.opensensemap.org/)",
+        "Description": "Data from Personal Weather Stations called senseBoxes",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[OpenUV](https://www.openuv.io)",
+        "Description": "Real-time UV Index Forecast",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[OpenWeatherMap](https://openweathermap.org/api)",
+        "Description": "Weather",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[QWeather](https://dev.qweather.com/)",
+        "Description": "Location-based weather data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Storm Glass](https://stormglass.io/)",
+        "Description": "Global marine weather from multiple sources",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[TheRainery](https://therainery.com/documentation/)",
+        "Description": "Forecast models from meteorological institutes",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Troposphere](https://www.troposphere.io/developer)",
+        "Description": "Global weather and climate data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Visual Crossing](https://www.visualcrossing.com/weather-api)",
+        "Description": "Global historical and weather forecast data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[weather-api](https://github.com/robertoduessmann/weather-api)",
+        "Description": "A RESTful free API to check the weather",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Weatherbit](https://www.weatherbit.io/api)",
+        "Description": "Weather",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[weatherstack](https://weatherstack.com/)",
+        "Description": "Real-Time & Historical World Weather Data API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

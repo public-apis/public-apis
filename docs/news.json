@@ -1,0 +1,93 @@
+[
+    {
+        "API": "[Associated Press](https://developer.ap.org/)",
+        "Description": "Search for news and metadata from Associated Press",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Chronicling America](http://chroniclingamerica.loc.gov/about/api/)",
+        "Description": "Provides access to millions of pages of historic US newspapers from the Library of Congress",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Currents](https://currentsapi.services/)",
+        "Description": "Latest news published in various news sources, blogs and forums",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Feedbin](https://github.com/feedbin/feedbin-api)",
+        "Description": "RSS reader",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[GNews](https://gnews.io/)",
+        "Description": "Search for news from various sources",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Graphs for Coronavirus](https://corona.dnsforfamily.com/api.txt)",
+        "Description": "Each Country separately and Worldwide Graphs for Coronavirus. Daily updates",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[mediastack](https://mediastack.com/)",
+        "Description": "Free, Simple REST API for Live News & Blog Articles",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[New York Times](https://developer.nytimes.com/)",
+        "Description": "Provides news",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[News](https://newsapi.org/)",
+        "Description": "Headlines currently published on a range of news sources and blogs",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[NPR One](http://dev.npr.org/api/)",
+        "Description": "Personalized news listening experience from NPR",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Spaceflight News](https://spaceflightnewsapi.net)",
+        "Description": "Spaceflight related news \ud83d\ude80",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[The Guardian](http://open-platform.theguardian.com/)",
+        "Description": "Access all the content the Guardian creates, categorised by tags and section",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[The Old Reader](https://github.com/theoldreader/api)",
+        "Description": "RSS reader",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

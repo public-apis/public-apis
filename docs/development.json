@@ -1,0 +1,513 @@
+[
+    {
+        "API": "[24 Pull Requests](https://24pullrequests.com/api)",
+        "Description": "Project to promote open source collaboration during December",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Abstract Screenshot](https://www.abstractapi.com/website-screenshot-api)",
+        "Description": "Take programmatic screenshots of web pages from any website",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Agify.io](https://agify.io)",
+        "Description": "Estimates the age from a first name",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[ApicAgent](https://www.apicagent.com)",
+        "Description": "Extract device details from user-agent string",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[ApiFlash](https://apiflash.com/)",
+        "Description": "Chrome based screenshot API for developers",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[APIs.guru](https://apis.guru/api-doc/)",
+        "Description": "Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[BetterMeta](http://bettermeta.io)",
+        "Description": "Return a site's meta tags in JSON format",
+        "Auth": "`X-Mashape-Key`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Bitbucket](https://developer.atlassian.com/bitbucket/api/2/reference/)",
+        "Description": "Bitbucket API",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Blitapp](https://blitapp.com/api/)",
+        "Description": "Schedule screenshots of web pages and sync them to your cloud",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Bored](https://www.boredapi.com/)",
+        "Description": "Find random activities to fight boredom",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Browshot](https://browshot.com/api/documentation)",
+        "Description": "Easily make screenshots of web pages in any screen size, as any device",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[CDNJS](https://api.cdnjs.com/libraries/jquery)",
+        "Description": "Library info on CDNJS",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Changelogs.md](https://changelogs.md)",
+        "Description": "Structured changelog metadata from open source projects",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Ciprand](https://github.com/polarspetroll/ciprand)",
+        "Description": "Secure random string generator",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[CountAPI](https://countapi.xyz)",
+        "Description": "Free and simple counting service. You can use it to track page hits and specific events",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[DigitalOcean Status](https://status.digitalocean.com/api)",
+        "Description": "Status of all DigitalOcean services",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[DomainDb Info](https://api.domainsdb.info/)",
+        "Description": "Domain name search to find all domains containing particular words/phrases/etc",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html)",
+        "Description": "A simple JSON store API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Form2Channel](https://form2channel.com/)",
+        "Description": "Send static html form submissions to Google Sheets, Email, Slack or Telegram",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Genderize.io](https://genderize.io)",
+        "Description": "Estimates a gender from a first name",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[GETPing](https://www.getping.info)",
+        "Description": "Trigger an email notification with a simple GET request",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[GitHub](https://docs.github.com/en/free-pro-team@latest/rest)",
+        "Description": "Make use of GitHub repositories, code and user info programmatically",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Gitlab](https://docs.gitlab.com/ee/api/)",
+        "Description": "Automate GitLab interaction programmatically",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Gitter](https://developer.gitter.im/docs/welcome)",
+        "Description": "Chat for Developers",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Glitterly](https://developers.glitterly.app)",
+        "Description": "Image generation API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Gorest](https://gorest.co.in/)",
+        "Description": "Online REST API for Testing and Prototyping",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Hexabin](https://hexabin.herokuapp.com/)",
+        "Description": "Convert and retrieve hexadecimal, binary, decimal, and octal values with ease",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Host.io](https://host.io)",
+        "Description": "Domains Data API for Developers",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[HTTP2.Pro](https://http2.pro/doc/api)",
+        "Description": "Test endpoints for client and server HTTP/2 protocol support",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[IBM Text to Speech](https://cloud.ibm.com/docs/text-to-speech/getting-started.html)",
+        "Description": "Convert text to speech",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Icanhazip](https://major.io/icanhazip-com-faq/)",
+        "Description": "IP Address API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[IFTTT](https://platform.ifttt.com/docs/connect_api)",
+        "Description": "IFTTT Connect API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Image-Charts](https://documentation.image-charts.com/)",
+        "Description": "Generate charts, QR codes and graph images",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[import.io](http://api.docs.import.io/)",
+        "Description": "Retrieve structured data from a website or RSS feed",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[IP2WHOIS Information Lookup](https://www.ip2whois.com/)",
+        "Description": "WHOIS domain name lookup",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[IPify](https://www.ipify.org/)",
+        "Description": "A simple IP Address API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[IPinfo](https://ipinfo.io/developers)",
+        "Description": "Another simple IP Address API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[jsDelivr](https://github.com/jsdelivr/data.jsdelivr.com)",
+        "Description": "Package info and download stats on jsDelivr CDN",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[JSON 2 JSONP](https://json2jsonp.com/)",
+        "Description": "Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[JSONbin.io](https://jsonbin.io)",
+        "Description": "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Judge0](https://api.judge0.com/)",
+        "Description": "Compile and run source code",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Kroki](https://kroki.io)",
+        "Description": "Creates diagrams from textual descriptions",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[License-API](https://github.com/cmccandless/license-api/blob/master/README.md)",
+        "Description": "Unofficial REST API for choosealicense.com",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[MAC address vendor lookup](https://macaddress.io/api)",
+        "Description": "Retrieve vendor details and other information regarding a given MAC address or an OUI",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[MicroENV](https://microenv.com/)",
+        "Description": "Fake Rest API for developers",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Nationalize.io](https://nationalize.io)",
+        "Description": "Estimate the nationality of a first name",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[OOPSpam](https://oopspam.com/)",
+        "Description": "Multiple spam filtering service",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[PageCDN](https://pagecdn.com/docs/public-api)",
+        "Description": "Public API for javascript, css and font libraries on PageCDN",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Postman](https://docs.api.getpostman.com/)",
+        "Description": "Tool for testing APIs",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ProxyCrawl](https://proxycrawl.com)",
+        "Description": "Scraping and crawling anticaptcha service",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Public APIs](https://github.com/davemachado/public-api)",
+        "Description": "A collective list of free JSON APIs for use in web development",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Pusher Beams](https://pusher.com/beams)",
+        "Description": "Push notifications for Android & iOS",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[QR Code](https://fungenerators.com/api/qrcode/)",
+        "Description": "Create new QR Code or decode existing one",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[QR code](http://qrtag.net/api/)",
+        "Description": "Create an easy to read QR code and URL shortener",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[QR code](http://goqr.me/api/)",
+        "Description": "Generate and decode / read QR code graphics",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[QuickChart](https://quickchart.io/)",
+        "Description": "Generate chart and graph images",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[ReqRes](https://reqres.in/ )",
+        "Description": "A hosted REST-API ready to respond to your AJAX requests",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[RSS feed to JSON](https://rss-to-json-serverless-api.vercel.app)",
+        "Description": "Returns RSS feed in JSON format using feed URL",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Scraper.AI](https://docs.scraper.ai/#/)",
+        "Description": "Extract and monitor data from any website",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ScraperApi](https://www.scraperapi.com)",
+        "Description": "Easily build scalable web scrapers",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[scraperBox](https://scraperbox.com/)",
+        "Description": "Undetectable web scraping API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[scrapestack](https://scrapestack.com/)",
+        "Description": "Real-time, Scalable Proxy & Web Scraping REST API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ScrapingAnt](https://scrapingant.com)",
+        "Description": "Headless Chrome scraping with a simple API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ScrapingDog](https://www.scrapingdog.com/)",
+        "Description": "Proxy API for Web scraping",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[ScreenshotAPI.net](https://screenshotapi.net/)",
+        "Description": "Create pixel-perfect website screenshots",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Serialif Color](https://color.serialif.com/)",
+        "Description": "Color conversion, complementary, grayscale and contrasted text",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[serpstack](https://serpstack.com/)",
+        "Description": "Real-Time & Accurate Google Search Results API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[SHOUTCLOUD](http://shoutcloud.io/)",
+        "Description": "ALL-CAPS AS A SERVICE",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[StackExchange](https://api.stackexchange.com/)",
+        "Description": "Q&A forum for developers",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Statically](https://statically.io/)",
+        "Description": "A free CDN for developers",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Trending-Github](https://docs.trending-github.com)",
+        "Description": "Discover what is currently trending on github",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[userstack](https://userstack.com/)",
+        "Description": "Secure User-Agent String Lookup JSON API",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[WebScraping.AI](https://webscraping.ai/)",
+        "Description": "Web Scraping API with built-in proxies and JS rendering",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    }
+]

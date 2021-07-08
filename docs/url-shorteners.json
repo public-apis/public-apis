@@ -1,0 +1,100 @@
+[
+    {
+        "API": "[1pt](https://github.com/1pt-co/api/blob/main/README.md)",
+        "Description": "A simple URL shortener",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Bitly](http://dev.bitly.com/get_started.html)",
+        "Description": "URL shortener and link management",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CleanURI](https://cleanuri.com/docs)",
+        "Description": "URL shortener service",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986)",
+        "Description": "Monitor, compare and optimize your marketing links",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Git.io](https://github.blog/2011-11-10-git-io-github-url-shortener/)",
+        "Description": "Git.io URL shortener",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Is.gd](https://is.gd/developers.php)",
+        "Description": "URL Shortening API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Kutt](https://docs.kutt.it/)",
+        "Description": "Free Modern URL Shortener",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[LiteLink](https://litelink.ml/)",
+        "Description": "Simple URL Shortener",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Rebrandly](https://developers.rebrandly.com/v1/docs)",
+        "Description": "Custom URL shortener for sharing branded links",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Shrtcode](https://shrtco.de/docs)",
+        "Description": "URl Shortener with multiple Domains",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Shrtlnk](https://shrtlnk.dev/developer)",
+        "Description": "Simple and efficient short link creation",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[T.LY](https://t.ly/docs)",
+        "Description": "URL shortener API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[TinyUID](https://tinyuid.com/docs)",
+        "Description": "Shorten long URLs",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Zero Width Shortener](https://docs.zws.im)",
+        "Description": "Shortens URLs using spaces that have zero width, making them invisible to humans",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

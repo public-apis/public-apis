@@ -1,0 +1,72 @@
+[
+    {
+        "API": "[AirVisual](https://airvisual.com/api)",
+        "Description": "Air quality and weather data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Carbon Interface](https://docs.carboninterface.com/)",
+        "Description": "API to calculate carbon (C02) emissions estimates for common C02 emitting activities",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Cloverly](https://www.cloverly.com/carbon-offset-documentation)",
+        "Description": "API calculates the impact of common carbon-intensive activities in real time",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Gr\u00fcnstromIndex](https://www.corrently.de/hintergrund/gruenstromindex/index.html)",
+        "Description": "Green Power Index for Germany (Gr\u00fcnstromindex/GSI)",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[La Data Verte](https://ladataverte.fr)",
+        "Description": "Aggregation of multiple environmental indicators (CO2 emissions, Average temperature, etc)",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[OpenAQ](https://docs.openaq.org/)",
+        "Description": "Open air quality data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PM2.5 Open Data Portal](https://pm25.lass-net.org/#apis)",
+        "Description": "Open low-cost PM2.5 sensor data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PM25.in](http://www.pm25.in/api_doc)",
+        "Description": "Air quality of China",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PVWatts](https://developer.nrel.gov/docs/solar/pvwatts/v6/)",
+        "Description": "Energy production photovoltaic (PV) energy systems",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0)",
+        "Description": "The Official Carbon Intensity API for Great Britain developed by National Grid",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

@@ -1,0 +1,93 @@
+[
+    {
+        "API": "[Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api)",
+        "Description": "HTML/URL to PDF/PNG, Office documents to PDF, image conversion",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Code::Stats](https://codestats.net/api-docs)",
+        "Description": "Automatic time tracking for programmers",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[File.io](https://www.file.io)",
+        "Description": "File Sharing",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Mercury](https://mercury.postlight.com/web-parser/)",
+        "Description": "Web parser",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Notion](https://developers.notion.com/docs/getting-started)",
+        "Description": "Integrate with Notion",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[pdflayer](https://pdflayer.com)",
+        "Description": "HTML/URL to PDF",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Pocket](https://getpocket.com/developer/)",
+        "Description": "Bookmarking service",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PrexView](https://prexview.com)",
+        "Description": "Data from XML or JSON to PDF, HTML or Image",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Restpack](https://restpack.io/)",
+        "Description": "Provides screenshot, HTML to PDF and content extraction APIs",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Todoist](https://developer.todoist.com)",
+        "Description": "Todo Lists",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Vector Express v2.0](https://vector.express)",
+        "Description": "Free vector file converting API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[WakaTime](https://wakatime.com/developers)",
+        "Description": "Automated time tracking leaderboards for programmers",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Zube](https://zube.io/docs/api)",
+        "Description": "Full stack project management",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

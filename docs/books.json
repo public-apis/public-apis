@@ -1,0 +1,121 @@
+[
+    {
+        "API": "[Bhagavad Gita](https://docs.bhagavadgitaapi.in)",
+        "Description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Bhagavad Gita](https://bhagavadgita.io/api)",
+        "Description": "Bhagavad Gita text",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Bible](https://bibleapi.co/)",
+        "Description": "RESTful Bible API with 7 versions, 4 languages and multiple features",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[British National Bibliography](http://bnb.data.bl.uk/)",
+        "Description": "Books",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Crossref Metadata Search](https://github.com/CrossRef/rest-api-doc)",
+        "Description": "Books & Articles Metadata",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Google Books](https://developers.google.com/books/)",
+        "Description": "Books",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[LibGen](https://garbage.world/posts/libgen/)",
+        "Description": "Library Genesis search engine",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[New York Times Books](https://developer.nytimes.com/docs/books-product/1/overview)",
+        "Description": "Book reviews and The New York Times Best Sellers lists",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Open Library](https://openlibrary.org/developers/api)",
+        "Description": "Books, book covers and related data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/)",
+        "Description": "Books, book covers and related data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Quran](https://quran.api-docs.io/)",
+        "Description": "RESTful Quran API with multiple languages",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Quran Cloud](https://alquran.cloud/api)",
+        "Description": "A RESTful Quran API to retrieve an Ayah, Surah, Juz or the enitre Holy Quran",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Quran-api](https://github.com/fawazahmed0/quran-api#readme)",
+        "Description": "Free Quran API Service with 90+ different languages and 400+ translations",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Rig Veda](https://aninditabasu.github.io/indica/html/rv.html)",
+        "Description": "Gods and poets, their categories, and the verse meters, with the mandal and sukta number",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Thirukkural](https://api-thirukkural.web.app/)",
+        "Description": "1330 Thirukkural poems and explanation in Tamil and English",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Vedic Society](https://aninditabasu.github.io/indica/html/vs.html)",
+        "Description": "Descriptions of all nouns (names, places, animals, things) from vedic literature",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Wolne Lektury](https://wolnelektury.pl/api/)",
+        "Description": "API for obtaining information about e-books available on the WolneLektury.pl website",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

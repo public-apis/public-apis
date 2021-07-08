@@ -1,0 +1,177 @@
+[
+    {
+        "API": "[4chan](https://github.com/4chan/4chan-API)",
+        "Description": "Simple image-based bulletin board dedicated to a variety of topics",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Buffer](https://buffer.com/developers/api)",
+        "Description": "Access to pending and sent updates in Buffer",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Cisco Spark](https://developer.ciscospark.com)",
+        "Description": "Team Collaboration Software",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Discord](https://discord.com/developers/docs/intro)",
+        "Description": "Make bots for Discord, integrate Discord onto an external platform",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Disqus](https://disqus.com/api/docs/auth/)",
+        "Description": "Communicate with Disqus data",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Facebook](https://developers.facebook.com/)",
+        "Description": "Facebook Login, Share on FB, Social Plugins, Analytics and more",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Foursquare](https://developer.foursquare.com/)",
+        "Description": "Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc)",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Fuck Off as a Service](https://www.foaas.com)",
+        "Description": "Asks someone to fuck off",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Full Contact](https://www.fullcontact.com/developer/docs/)",
+        "Description": "Get Social Media profiles and contact Information",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[HackerNews](https://github.com/HackerNews/API)",
+        "Description": "Social news for CS and entrepreneurship",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Instagram](https://www.instagram.com/developer/)",
+        "Description": "Instagram Login, Share on Instagram, Social Plugins and more",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Meetup.com](https://www.meetup.com/meetup_api/)",
+        "Description": "Data about Meetups from Meetup.com",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[MySocialApp](https://mysocialapp.io)",
+        "Description": "Seamless Social Networking features, API, SDK to any app",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Open Collective](https://docs.opencollective.com/help/developers/api)",
+        "Description": "Get Open Collective data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Pinterest](https://developers.pinterest.com/)",
+        "Description": "The world's catalog of ideas",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Reddit](https://www.reddit.com/dev/api)",
+        "Description": "Homepage of the internet",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Saidit](https://www.saidit.net/dev/api)",
+        "Description": "Open Source Reddit Clone",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Slack](https://api.slack.com/)",
+        "Description": "Team Instant Messaging",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Telegram Bot](https://core.telegram.org/bots/api)",
+        "Description": "Simplified HTTP version of the MTProto API for bots",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Telegram MTProto](https://core.telegram.org/api#getting-started)",
+        "Description": "Read and write Telegram data",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Trash Nothing](https://trashnothing.com/developer)",
+        "Description": "A freecycling community with thousands of free items posted every day",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Tumblr](https://www.tumblr.com/docs/en/api/v2)",
+        "Description": "Read and write Tumblr Data",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Twitch](https://dev.twitch.tv/docs)",
+        "Description": "Game Streaming API",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Twitter](https://developer.twitter.com/en/docs)",
+        "Description": "Read and write Twitter data",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[vk](https://vk.com/dev/sites)",
+        "Description": "Read and write vk data",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

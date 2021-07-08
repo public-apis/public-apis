@@ -1,0 +1,58 @@
+[
+    {
+        "API": "[Chinese Character Web](http://ccdb.hemiola.com/)",
+        "Description": "Chinese character definitions and pronunciations",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "No"
+    },
+    {
+        "API": "[Chinese Text Project](https://ctext.org/tools/api)",
+        "Description": "Online open-access digital library for pre-modern Chinese texts",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Lingua Robot](https://www.linguarobot.io)",
+        "Description": "Word definitions, pronunciations, synonyms, antonyms and others",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Merriam-Webster](https://dictionaryapi.com/)",
+        "Description": "Dictionary and Thesaurus Data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[OwlBot](https://owlbot.info/)",
+        "Description": "Definitions with example sentence and photo if available",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Oxford](https://developer.oxforddictionaries.com/)",
+        "Description": "Dictionary Data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Wordnik](http://developer.wordnik.com)",
+        "Description": "Dictionary Data",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Words](https://www.wordsapi.com/)",
+        "Description": "Definitions and synonyms for more than 150,000 words",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

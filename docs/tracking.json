@@ -1,0 +1,44 @@
+[
+    {
+        "API": "[Pixela](https://pixe.la)",
+        "Description": "API for recording and tracking habits or effort, routines",
+        "Auth": "`X-Mashape-Key`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Postmon](http://postmon.com.br)",
+        "Description": "An API to query Brazilian ZIP codes and orders easily, quickly and free",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Sweden](https://developer.postnord.com/docs2)",
+        "Description": "Provides information about parcels in transport",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[UPS](https://www.ups.com/upsdeveloperkit)",
+        "Description": "Shipment and Address information",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[WeCanTrack](https://docs.wecantrack.com)",
+        "Description": "Automatically place subids in affiliate links to attribute affiliate conversions to click data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[WhatPulse](https://whatpulse.org/pages/webapi/)",
+        "Description": "Small application that measures your keyboard/mouse usage",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

@@ -1,0 +1,401 @@
+[
+    {
+        "API": "[Age of Empires II](https://age-of-empires-2-api.herokuapp.com)",
+        "Description": "Get information about Age of Empires II resources",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[AmiiboAPI](https://amiiboapi.com/)",
+        "Description": "Nintendo Amiibo Information",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Animal Crossing: New Horizons](http://acnhapi.com/)",
+        "Description": "API for critters, fossils, art, music, furniture and villagers",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Autochess VNG](https://github.com/didadadida93/autochess-vng-api)",
+        "Description": "Rest Api for Autochess VNG",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Board Game Geek](https://boardgamegeek.com/wiki/page/BGG_XML_API2)",
+        "Description": "Board games, RPG and videogames",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Brawl Stars](https://developer.brawlstars.com)",
+        "Description": "Brawl Stars Game Information",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CheapShark](https://www.cheapshark.com/api)",
+        "Description": "Steam/PC Game Prices and Deals",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Chuck Norris Database](http://www.icndb.com/api/)",
+        "Description": "Jokes",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Clash of Clans](https://developer.clashofclans.com)",
+        "Description": "Clash of Clans Game Information",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Clash Royale](https://developer.clashroyale.com)",
+        "Description": "Clash Royale Game Information",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Comic Vine](https://comicvine.gamespot.com/api/documentation)",
+        "Description": "Comics",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Dark Souls 3](https://blog.mugenmonkey.com/2017/09/10/ds3-api.html)",
+        "Description": "Information about Dark Souls 3 Items",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Deck of Cards](http://deckofcardsapi.com/)",
+        "Description": "Deck of Cards",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Destiny The Game](https://github.com/Bungie-net/api)",
+        "Description": "Bungie Platform API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Dota 2](https://docs.opendota.com/)",
+        "Description": "Provides information about Player stats , Match stats, Rankings for Dota 2",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Dungeons and Dragons](http://www.dnd5eapi.co/)",
+        "Description": "Reference for 5th edition spells, classes, monsters, and more",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "No"
+    },
+    {
+        "API": "[Eve Online](https://esi.evetech.net/ui)",
+        "Description": "Third-Party Developer Documentation",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[FIFA Ultimate Team](https://www.easports.com/fifa/ultimate-team/api/fut/item)",
+        "Description": "FIFA Ultimate Team items API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Final Fantasy XIV](https://xivapi.com/)",
+        "Description": "Final Fantasy XIV Game data API",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Fortnite](https://fortnitetracker.com/site-api)",
+        "Description": "Fortnite Stats",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[FreeToGame](https://www.freetogame.com/api-doc)",
+        "Description": "Free-To-Play Games Database",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[GamerPower](https://www.gamerpower.com/api-read)",
+        "Description": "Game Giveaways Tracker",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Giant Bomb](https://www.giantbomb.com/api/documentation)",
+        "Description": "Video Games",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Guild Wars 2](https://wiki.guildwars2.com/wiki/API:Main)",
+        "Description": "Guild Wars 2 Game Information",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[GW2Spidy](https://github.com/rubensayshi/gw2spidy/wiki)",
+        "Description": "GW2Spidy API, Items data on the Guild Wars 2 Trade Market",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Halo](https://developer.haloapi.com/)",
+        "Description": "Halo 5 and Halo Wars 2 Information",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Hearthstone](http://hearthstoneapi.com/)",
+        "Description": "Hearthstone Cards Information",
+        "Auth": "`X-Mashape-Key`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Humble Bundle](https://rapidapi.com/Ziggoto/api/humble-bundle)",
+        "Description": "Humble Bundle's current bundles",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Hypixel](https://api.hypixel.net/)",
+        "Description": "Hypixel player stats",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Hyrule Compendium](https://github.com/gadhagod/Hyrule-Compendium-API)",
+        "Description": "Data on all interactive items from The Legend of Zelda: BOTW",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Hytale](https://hytale-api.com/)",
+        "Description": "Hytale blog posts and jobs",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[IGDB.com](https://api.igdb.com/)",
+        "Description": "Video Game Database",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[JokeAPI](https://sv443.net/jokeapi/v2/)",
+        "Description": "Programming, Miscellaneous and Dark Jokes",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Jokes](https://github.com/15Dkatz/official_joke_api)",
+        "Description": "Programming and general jokes",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Jokes One](https://jokes.one/api/joke/)",
+        "Description": "Joke of the day and large category of jokes accessible via REST API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Jservice](http://jservice.io)",
+        "Description": "Jeopardy Question Database",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Lichess](https://lichess.org/api)",
+        "Description": "Access to all data of users, games, puzzles and etc on Lichess",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Magic The Gathering](http://magicthegathering.io/)",
+        "Description": "Magic The Gathering Game Information",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Marvel](http://developer.marvel.com)",
+        "Description": "Marvel Comics",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[mod.io](https://docs.mod.io)",
+        "Description": "Cross Platform Mod API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Open Trivia](https://opentdb.com/api_config.php)",
+        "Description": "Trivia Questions",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PandaScore](https://developers.pandascore.co/)",
+        "Description": "E-sports games and results",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[PlayerUnknown's Battlegrounds](https://pubgtracker.com/site-api)",
+        "Description": "PUBG Stats",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Pok\u00e9api](https://pokeapi.co)",
+        "Description": "Pok\u00e9mon Information",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Pok\u00e9mon TCG](https://pokemontcg.io)",
+        "Description": "Pok\u00e9mon TCG Information",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Psychonauts](https://psychonauts-api.netlify.app/)",
+        "Description": "Psychonauts World Characters Information and PSI Powers",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Random Facts](https://fungenerators.com/api/facts/)",
+        "Description": "Random Facts from hundreds of categories",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Rick and Morty](https://rickandmortyapi.com)",
+        "Description": "All the Rick and Morty information, including images",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Riot Games](https://developer.riotgames.com/)",
+        "Description": "League of Legends Game Information",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[RuneScape](https://runescape.wiki/w/Application_programming_interface)",
+        "Description": "RuneScape and OSRS RPGs information",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[Scryfall](https://scryfall.com/docs/api)",
+        "Description": "Magic: The Gathering database",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[SpaceTradersAPI](https://spacetraders.io?rel=pub-apis)",
+        "Description": "A playable inter-galactic space trading MMOAPI",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Steam](https://developer.valvesoftware.com/wiki/Steam_Web_API)",
+        "Description": "Steam Client Interaction",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[SuperHeroes](https://superheroapi.com)",
+        "Description": "All SuperHeroes and Villains data from all universes under a single API",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Tronald Dump](https://www.tronalddump.io/)",
+        "Description": "The dumbest things Donald Trump has ever said",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Wargaming.net](https://developers.wargaming.net/)",
+        "Description": "Wargaming.net info and stats",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    },
+    {
+        "API": "[xkcd](https://xkcd.com/json.html)",
+        "Description": "Retrieve xkcd comics as JSON",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "No"
+    }
+]

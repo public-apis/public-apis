@@ -1,0 +1,23 @@
+[
+    {
+        "API": "[CircleCI](https://circleci.com/docs/api/v1-reference/)",
+        "Description": "Automate the software development process using continuous integration and continuous delivery",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Codeship](https://apidocs.codeship.com/)",
+        "Description": "Codeship is a Continuous Integration Platform in the cloud",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Travis CI](https://docs.travis-ci.com/api/)",
+        "Description": "Sync your GitHub projects with Travis CI to test your code in minutes",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]

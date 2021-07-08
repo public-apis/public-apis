@@ -1,0 +1,149 @@
+[
+    {
+        "API": "[18F](http://18f.github.io/API-All-the-X/)",
+        "Description": "Unofficial US Federal Government API Development",
+        "Auth": "No",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Archive.org](https://archive.readme.io/docs)",
+        "Description": "The Internet Archive",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Callook.info](https://callook.info)",
+        "Description": "United States ham radio callsigns",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CARTO](https://carto.com/)",
+        "Description": "Location Information Prediction",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[CivicFeed](https://developers.civicfeed.com/)",
+        "Description": "News articles and public datasets",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Enigma Public](http://docs.enigma.com/public/public_v20_api_about)",
+        "Description": "Broadest collection of public data",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[French Address Search](https://geo.api.gouv.fr/adresse)",
+        "Description": "Address search via the French Government",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Kaggle](https://www.kaggle.com/docs/api)",
+        "Description": "Create and interact with Datasets, Notebooks, and connect with Kaggle",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[LinkPreview](https://www.linkpreview.net)",
+        "Description": "Get JSON formatted summary with title, description and preview image for any requested URL",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[Microlink.io](https://microlink.io)",
+        "Description": "Extract structured data from any website",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Yes"
+    },
+    {
+        "API": "[OpenCorporates](http://api.opencorporates.com/documentation/API-Reference)",
+        "Description": "Data on corporate entities and directors in many countries",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Quandl](https://www.quandl.com/)",
+        "Description": "Stock Market Data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Recreation Information Database](https://ridb.recreation.gov/)",
+        "Description": "Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Scoop.it](http://www.scoop.it/dev)",
+        "Description": "Content Curation Service",
+        "Auth": "`apiKey`",
+        "HTTPS": "No",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Teleport](https://developers.teleport.org/)",
+        "Description": "Quality of Life Data",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Universities List](https://github.com/Hipo/university-domains-list)",
+        "Description": "University names, countries and domains",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[University of Oslo](https://data.uio.no/)",
+        "Description": "Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway)",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[UPC database](https://upcdatabase.org/api)",
+        "Description": "More than 1.5 million barcode numbers from all around the world",
+        "Auth": "`apiKey`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Wikidata](https://www.wikidata.org/w/api.php?action=help)",
+        "Description": "Collaboratively edited knowledge base operated by the Wikimedia Foundation",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)",
+        "Description": "Mediawiki Encyclopedia",
+        "Auth": "No",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    },
+    {
+        "API": "[Yelp](https://www.yelp.com/developers/documentation/v3)",
+        "Description": "Find Local Business",
+        "Auth": "`OAuth`",
+        "HTTPS": "Yes",
+        "CORS": "Unknown"
+    }
+]
