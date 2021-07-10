@@ -60,6 +60,7 @@ For information on contributing to this project, please see the [contributing gu
 ### Animals
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Axolotl API](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | Unkown
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
 | [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | Unknown |
 | [catAPI](https://github.com/ThatCopy/catAPI/wiki/Usage) | Random pictures of cats | No | Yes | Yes |
