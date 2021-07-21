@@ -14,6 +14,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Anime](#anime)
 * [Anti-Malware](#anti-malware)
 * [Art & Design](#art--design)
+* [Authentication](#authentication)
 * [Books](#books)
 * [Business](#business)
 * [Calendar](#calendar)
@@ -120,6 +121,14 @@ API | Description | Auth | HTTPS | CORS |
 | [PHP-Noise](https://php-noise.com/) | Noise Background Image Generator | No | Yes | Yes |
 | [Pixel Encounter](https://pixelencounter.com/api) | SVG Icon Generator | No | Yes | No |
 | [Rijksmuseum](https://www.rijksmuseum.nl/en/api) | Art | `apiKey` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Authentication
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Auth0](https://auth0.com) | Easy to implement, adaptable authentication and authorization platform | `apiKey` | Yes | Yes |
+| [Micro User Service](https://m3o.com/user) | User management and authentication | `apiKey` | Yes | No |
+| [Stytch](https://stytch.com/) | User infrastructure for modern applications | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 ### Books
