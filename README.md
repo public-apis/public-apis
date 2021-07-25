@@ -429,6 +429,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Picatic](http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto) | Sell tickets anywhere | `apiKey` | Yes | Unknown |
 | [SeatGeek](https://platform.seatgeek.com/) | Search events, venues and performers | `apiKey` | Yes | Unknown |
 | [Ticketmaster](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/) | Search events, attractions, or venues | `apiKey` | Yes | Unknown |
+| [PredictHQ](https://www.predicthq.com/apis) | Search events, entities and live tv events | `OAuth` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Finance
