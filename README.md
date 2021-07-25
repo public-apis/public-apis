@@ -243,7 +243,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Coinpaprika](https://api.coinpaprika.com) | Cryptocurrencies prices, volume and more | No | Yes | Yes |
 | [CoinRanking](https://docs.coinranking.com/) | Live Cryptocurrency data | No | Yes | Unknown |
 | [CoinStats](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest) | Crypto Tracker | No | Yes | Unknown |
-| [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator | `apiKey` | Yes | Unknown |
+| [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
 | [CryptoCompare](https://www.cryptocompare.com/api#) | Cryptocurrencies Comparison | No | Yes | Unknown |
 | [CryptoMarket](https://developers.cryptomkt.com) | Cryptocurrencies Trading platform | `apiKey` | Yes | Yes |
 | [Cryptonator](https://www.cryptonator.com/api/) | Cryptocurrencies Exchange Rates | No | Yes | Unknown |
@@ -281,7 +281,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Abstract Email Validation](https://www.abstractapi.com/email-verification-validation-api) | Validate email addresses for deliverability and spam | `apiKey` | Yes | Yes |
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | Yes |
-| [EVA](https://eva.pingutil.com/) | Validate email addresses | No | Yes | Unknown |
+| [EVA](https://eva.pingutil.com/) | Validate email addresses | No | Yes | Yes |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown |
 | [mailboxlayer](https://mailboxlayer.com) | Email address validation | No | Yes | Unknown |
 | [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown |
