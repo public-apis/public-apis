@@ -391,6 +391,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Documents & Productivity
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Airtable](https://airtable.com/api) | Integrate with Airtable | `apiKey` | Yes | Unknown |
 | [apilayer pdflayer](https://pdflayer.com) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
 | [Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api) | HTML/URL to PDF/PNG, Office documents to PDF, image conversion | `apiKey` | Yes | Yes |
 | [Code::Stats](https://codestats.net/api-docs) | Automatic time tracking for programmers | `apiKey` | Yes | No |
