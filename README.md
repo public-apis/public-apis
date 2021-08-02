@@ -1189,7 +1189,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Visual Crossing](https://www.visualcrossing.com/weather-api) | Global historical and weather forecast data | `apiKey` | Yes | Yes |
 | [weather-api](https://github.com/robertoduessmann/weather-api) | A RESTful free API to check the weather | No | Yes | No |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
-| [wttr](https://wttr.in) | :partly_sunny: The right way to check the weather [GitHub](https://github.com/chubin/wttr.in) | No | Yes | Unknown |
+| [wttr](https://github.com/chubin/wttr.in) | :partly_sunny: The right way to check the weather | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 
