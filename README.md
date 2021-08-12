@@ -36,6 +36,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Health](#health)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
+* [Manga](#manga) 
 * [Music](#music)
 * [News](#news)
 * [Open Data](#open-data)
@@ -722,6 +723,15 @@ API | Description | Auth | HTTPS | CORS |
 | [Wit.ai](https://wit.ai/) | Natural Language Processing | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
+
+### Manga
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Solo leveling](https://levelingsolo.com/) | Free Various | `W-16` | Yes | Yes |
+| [Chainsaw Man](https://w16.read-chainsawman.com/) | Free Various | `W-16` | Yes | Yes |
+
+**[⬆ Back to Index](#index)**
+
 ### Music
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
