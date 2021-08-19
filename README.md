@@ -1112,7 +1112,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Git.io](https://github.blog/2011-11-10-git-io-github-url-shortener/) | Git.io URL shortener | No | Yes | Unknown |
 | [Is.gd](https://is.gd/developers.php) | URL Shortening API | No | Yes | Unknown |
 | [Kutt](https://docs.kutt.it/) | Free Modern URL Shortener | `apiKey` | Yes | Yes |
-| [LiteLink](https://litelink.ml/) | Simple URL Shortener | No | Yes | Yes |
 | [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
 | [Shrtcode](https://shrtco.de/docs) | URl Shortener with multiple Domains | No | Yes | Yes |
 | [Shrtlnk](https://shrtlnk.dev/developer) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
