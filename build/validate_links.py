@@ -5,12 +5,6 @@ import re
 import socket
 import sys
 
-ignored_links = [
-    'https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22', 
-    'https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master', 
-    'https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22',
-    'https://github.com/davemachado/public-api',
-]
 
 def parse_links(filename):
     """Returns a list of URLs from text file"""
@@ -37,9 +31,6 @@ def dup_links(links):
     dupes = []
 
     for link in links:
-        if link in ignored_links:
-            continue
-
         if link not in seen:
             seen[link] = 1
         else:
