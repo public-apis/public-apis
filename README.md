@@ -19,7 +19,7 @@
 <br />
 
 <div align="center">
-    <sup>The Project</sup>
+    <sub>The Project</sub>
     <br />
     <a href="CONTRIBUTING.md">Contributing Guide</a> •
     <a href="https://github.com/davemachado/public-api">API for this project</a> •
@@ -38,7 +38,7 @@
 <br />
 
 <div align="center">
-    <sup>Alternative sites for the project (unofficials)</sup>
+    <sub>Alternative sites for the project (unofficials)</sub>
     <br />
     <a href="https://free-apis.github.io">Free APIs</a> •
     <a href="https://devresourc.es/tools-and-utilities/public-apis">Dev Resources</a> •
