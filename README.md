@@ -3,6 +3,17 @@
     <i>A collective list of free APIs for use in software and web development</i>
 </div>
 
+<div align="center">
+    <sup>Status</sup>
+    <br />
+    <a href="https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22">
+        <img alt="Run tests" src="https://github.com/public-apis/public-apis/workflows/Run%20tests/badge.svg" />
+    </a>
+    <a href="https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22">
+        <img alt="Validate links" src="https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master" />
+    </a>
+</div>
+
 ---
 
 ## Index
