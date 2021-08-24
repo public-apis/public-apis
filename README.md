@@ -31,6 +31,14 @@
     <a href="https://github.com/yannbertrand">yannbertrand</a>
 </div>
 
+<div align="center">
+    <sup>Alternative sites for the project (unofficials)</sup>
+    <br />
+    <a href="https://free-apis.github.io">Free APIs</a> •
+    <a href="https://devresourc.es/tools-and-utilities/public-apis">Dev Resources</a> •
+    <a href="https://public-apis-site.vercel.app">Public APIs Site</a>
+</div>
+
 ---
 
 ## Index
