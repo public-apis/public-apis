@@ -199,8 +199,11 @@ API | Description | Auth | HTTPS | CORS |
 ### Cloud Storage & File Sharing
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [AnonFiles](https://anonfiles.com/docs/api) | Upload and share your files anonymously | No | Yes | Unknown |
+| [BayFiles](https://bayfiles.com/docs/api) | Upload and share your files | No | Yes | Unknown |
 | [Box](https://developer.box.com/) | File Sharing and Storage | `OAuth` | Yes | Unknown |
 | [Dropbox](https://www.dropbox.com/developers) | File Sharing and Storage | `OAuth` | Yes | Unknown |
+| [File.io](https://www.file.io) | Super simple file sharing, convenient, anonymous and secure | No | Yes | Unknown |
 | [GoFile](https://gofile.io/api) | Unlimited size file uploads for free | `apiKey` | Yes | Unknown |
 | [Google Drive](https://developers.google.com/drive/) | File Sharing and Storage | `OAuth` | Yes | Unknown |
 | [OneDrive](https://dev.onedrive.com/) | File Sharing and Storage | `OAuth` | Yes | Unknown |
@@ -398,7 +401,6 @@ API | Description | Auth | HTTPS | CORS |
 | [apilayer pdflayer](https://pdflayer.com) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
 | [Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api) | HTML/URL to PDF/PNG, Office documents to PDF, image conversion | `apiKey` | Yes | Yes |
 | [Code::Stats](https://codestats.net/api-docs) | Automatic time tracking for programmers | `apiKey` | Yes | No |
-| [File.io](https://www.file.io) | File Sharing | No | Yes | Unknown |
 | [Mercury](https://mercury.postlight.com/web-parser/) | Web parser | `apiKey` | Yes | Unknown |
 | [Notion](https://developers.notion.com/docs/getting-started) | Integrate with Notion | `OAuth` | Yes | Unknown |
 | [Pocket](https://getpocket.com/developer/) | Bookmarking service | `OAuth` | Yes | Unknown |
@@ -853,7 +855,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Abstract Phone Validation](https://www.abstractapi.com/phone-validation-api) | Validate phone numbers globally | `apiKey` | Yes | Yes |
 | [apilayer numverify](https://numverify.com) | Phone number validation | `apiKey` | Yes | Unknown |
 | [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | `apiKey` | Yes | Yes |
-| [NumValidate](https://numvalidate.com) | Open Source phone number validation | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Photography
@@ -954,6 +955,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Cisco Spark](https://developer.ciscospark.com) | Team Collaboration Software | `OAuth` | Yes | Unknown |
 | [Discord](https://discord.com/developers/docs/intro) | Make bots for Discord, integrate Discord onto an external platform | `OAuth` | Yes | Unknown |
 | [Disqus](https://disqus.com/api/docs/auth/) | Communicate with Disqus data | `OAuth` | Yes | Unknown |
+| [Doge-Meme](https://api.doge-meme.lol/docs) | Top meme posts from r/dogecoin which include 'Meme' flair | No | Yes | Yes |
 | [Facebook](https://developers.facebook.com/) | Facebook Login, Share on FB, Social Plugins, Analytics and more | `OAuth` | Yes | Unknown |
 | [Foursquare](https://developer.foursquare.com/) | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | `OAuth` | Yes | Unknown |
 | [Fuck Off as a Service](https://www.foaas.com) | Asks someone to fuck off | No | Yes | Unknown |
@@ -992,9 +994,12 @@ API | Description | Auth | HTTPS | CORS |
 | [NBA Stats](https://any-api.com/nba_com/nba_com/docs/API_Description) | Current and historical NBA Statistics | No | Yes | Unknown |
 | [NHL Records and Stats](https://gitlab.com/dword4/nhlapi) | NHL historical data and statistics | No | Yes | Unknown |
 | [Sport List & Data](https://developers.decathlon.com/products/sports) | List of and resources related to sports | No | Yes | Yes |
+| [Sport Places](https://developers.decathlon.com/products/sport-places) | Crowd-source sports places around the world | No | Yes | No |
+| [Sport Vision](https://developers.decathlon.com/products/sport-vision) | Identify sport, brands and gear in an image. Also does image sports captioning | `apiKey` | Yes | Yes |
 | [Strava](https://strava.github.io/api/) | Connect with athletes, activities and more | `OAuth` | Yes | Unknown |
 | [SuredBits](https://suredbits.com/api/) | Query sports data, including teams, players, games, scores and statistics | No | No | No |
 | [TheSportsDB](https://www.thesportsdb.com/api.php) | Crowd-Sourced Sports Data and Artwork | `apiKey` | Yes | Yes |
+| [Tredict](https://www.tredict.com/blog/oauth_docs/) | Get and set activities, health data and more | `OAuth` | Yes | Unknown |
 | [Wger](https://wger.de/en/software/api) | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
