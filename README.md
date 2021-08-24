@@ -3,6 +3,8 @@
     <i>A collective list of free APIs for use in software and web development</i>
 </div>
 
+<br />
+
 <div align="center">
     <sup>Status</sup>
     <br />
@@ -14,6 +16,8 @@
     </a>
 </div>
 
+<br />
+
 <div align="center">
     <sup>The Project</sup>
     <br />
@@ -22,7 +26,7 @@
     <a href="https://github.com/public-apis/public-apis/issues">Issues</a> •
     <a href="https://github.com/public-apis/public-apis/pulls">Pull Requests</a> •
     <a href="LICENSE">License</a>
-    <br />
+    <br /><br />
     <sub>Currently Active Maintainers</sub>
     <br />
     <a href="https://github.com/matheusfelipeog">matheusfelipeog</a> •
@@ -30,6 +34,8 @@
     <a href="https://github.com/marekdano">marekdano</a> •
     <a href="https://github.com/yannbertrand">yannbertrand</a>
 </div>
+
+<br />
 
 <div align="center">
     <sup>Alternative sites for the project (unofficials)</sup>
