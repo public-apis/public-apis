@@ -1,12 +1,54 @@
-# Public APIs [![Run tests](https://github.com/public-apis/public-apis/workflows/Run%20tests/badge.svg)](https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22) [![Validate links](https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master)](https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22)
+<div align="center">
+    <h1>Public APIs</h1>
+    <i>A collective list of free APIs for use in software and web development</i>
+</div>
 
-*A collective list of free APIs for use in software and web development.*
+<br />
 
-A public API for this project can be found [here](https://github.com/davemachado/public-api)!
+<div align="center">
+    <sup>Status</sup>
+    <br />
+    <a href="https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22">
+        <img alt="Run tests" src="https://github.com/public-apis/public-apis/workflows/Run%20tests/badge.svg" />
+    </a>
+    <a href="https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22">
+        <img alt="Validate links" src="https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master" />
+    </a>
+    <a href="https://github.com/public-apis/public-apis">
+        <img alt="Number of APIs" src="https://img.shields.io/badge/dynamic/json?url=https://api.publicapis.org/entries&label=Number%20of%20APIs&query=$.count&color=informational" />
+    </a>
+</div>
 
-For information on contributing to this project, please see the [contributing guide](CONTRIBUTING.md).
+<br />
 
-**NOTE: A passing build status indicates all listed APIs are available since the last update. A failing build status indicates that 1 or more services may be unavailable at the moment.**
+<div align="center">
+    <sub>The Project</sub>
+    <br />
+    <a href="CONTRIBUTING.md">Contributing Guide</a> •
+    <a href="https://github.com/davemachado/public-api">API for this project</a> •
+    <a href="https://github.com/public-apis/public-apis/issues">Issues</a> •
+    <a href="https://github.com/public-apis/public-apis/pulls">Pull Requests</a> •
+    <a href="LICENSE">License</a>
+    <br /><br />
+    <sub>Currently Active Maintainers</sub>
+    <br />
+    <a href="https://github.com/matheusfelipeog">matheusfelipeog</a> •
+    <a href="https://github.com/pawelborkar">pawelborkar</a> •
+    <a href="https://github.com/marekdano">marekdano</a> •
+    <a href="https://github.com/yannbertrand">yannbertrand</a>
+</div>
+
+<br />
+
+<div align="center">
+    <sub>Alternative sites for the project (unofficials)</sub>
+    <br />
+    <a href="https://free-apis.github.io">Free APIs</a> •
+    <a href="https://devresourc.es/tools-and-utilities/public-apis">Dev Resources</a> •
+    <a href="https://www.public-apis.ml">Public APIs Site</a>
+</div>
+
+---
 
 ## Index
 
@@ -496,6 +538,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Clash of Clans](https://developer.clashofclans.com) | Clash of Clans Game Information | `apiKey` | Yes | Unknown |
 | [Clash Royale](https://developer.clashroyale.com) | Clash Royale Game Information | `apiKey` | Yes | Unknown |
 | [Comic Vine](https://comicvine.gamespot.com/api/documentation) | Comics | No | Yes | Unknown |
+| [Cross Universe](https://crossuniverse.psychpsyo.com/apiDocs.html) | Cross Universe Card Data | No | Yes | Yes |
 | [Deck of Cards](http://deckofcardsapi.com/) | Deck of Cards | No | No | Unknown |
 | [Destiny The Game](https://github.com/Bungie-net/api) | Bungie Platform API | `apiKey` | Yes | Unknown |
 | [Dota 2](https://docs.opendota.com/) | Provides information about Player stats , Match stats, Rankings for Dota 2 | `apiKey` | Yes | Unknown |
@@ -718,6 +761,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Keen IO](https://keen.io/) | Data Analytics | `apiKey` | Yes | Unknown |
 | [NLP Cloud](https://nlpcloud.io) | NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more | `apiKey` | Yes | Unknown |
 | [OpenVisionAPI](https://openvisionapi.com) | Open source computer vision API based on open source models | No | Yes | Yes |
+| [Perspective](https://perspectiveapi.com) | NLP API to return probability that if text is toxic, obscene, insulting or threatening | `apiKey` | Yes | Unknown |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [Wit.ai](https://wit.ai/) | Natural Language Processing | `OAuth` | Yes | Unknown |
@@ -751,7 +795,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Openwhyd](https://openwhyd.github.io/openwhyd/API) | Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...) | No | Yes | No |
 | [Songkick](https://www.songkick.com/developer/) | Music Events | `OAuth` | Yes | Unknown |
 | [Songsterr](https://www.songsterr.com/a/wa/api/) | Provides guitar, bass and drums tabs and chords | No | Yes | Unknown |
-| [SoundCloud](https://developers.soundcloud.com/) | Allow users to upload and share sounds | `OAuth` | Yes | Unknown |
 | [Spotify](https://beta.developer.spotify.com/documentation/web-api/) | View Spotify music catalog, manage users' libraries, get recommendations and more | `OAuth` | Yes | Unknown |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
 | [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
@@ -888,6 +931,7 @@ API | Description | Auth | HTTPS | CORS |
 | [iDigBio](https://github.com/idigbio/idigbio-search-api/wiki) | Access millions of museum specimens from organizations around the world | No | Yes | Unknown |
 | [inspirehep.net](https://github.com/inspirehep/rest-api-doc) | High Energy Physics info. system | No | Yes | Unknown |
 | [isEven (humor)](https://isevenapi.xyz/) | Check if a number is even | No | Yes | Unknown |
+| [ISRO](https://isro.vercel.app) | ISRO Space Crafts Information | No | Yes | Unknown |
 | [ITIS](https://www.itis.gov/ws_description.html) | Integrated Taxonomic Information System | No | Yes | Unknown |
 | [Launch Library 2](https://thespacedevs.com/llapi) | Spaceflight launches and events database | No | Yes | Yes |
 | [Materials Platform for Data Science](https://mpds.io) | Curated experimental data for materials science | `apiKey` | Yes | No |
