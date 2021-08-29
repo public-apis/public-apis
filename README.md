@@ -357,6 +357,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Changelogs.md](https://changelogs.md) | Structured changelog metadata from open source projects | No | Yes | Unknown |
 | [Ciprand](https://github.com/polarspetroll/ciprand) | Secure random string generator | No | Yes | No |
 | [Cloudflare Trace](https://github.com/fawazahmed0/cloudflare-trace-api) | Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More | No | Yes | Yes |
+| [Contentful Images](https://www.contentful.com/developers/docs/references/images-api/) | Used to retrieve and apply transformations to images | `apiKey` | Yes | Yes |
+| [CORS Proxy](https://github.com/burhanuday/cors-proxy) | Get around the dreaded CORS error by using this proxy as a middle man | No | Yes | Yes |
 | [CountAPI](https://countapi.xyz) | Free and simple counting service. You can use it to track page hits and specific events | No | Yes | Yes |
 | [DigitalOcean Status](https://status.digitalocean.com/api) | Status of all DigitalOcean services | No | Yes | Unknown |
 | [DomainDb Info](https://api.domainsdb.info/) | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown |
@@ -566,7 +568,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Lichess](https://lichess.org/api) | Access to all data of users, games, puzzles and etc on Lichess | `OAuth` | Yes | Unknown |
 | [Magic The Gathering](http://magicthegathering.io/) | Magic The Gathering Game Information | No | No | Unknown |
 | [Mario Kart Tour](https://mario-kart-tour-api.herokuapp.com/) | API for Drivers, Karts, Gliders and Courses | `OAuth` | Yes | Unknown |
-| [Marvel](http://developer.marvel.com) | Marvel Comics | `apiKey` | No | Unknown |
+| [Marvel](https://developer.marvel.com) | Marvel Comics | `apiKey` | Yes | Unknown |
+| [MMO Games](https://www.mmobomb.com/api) | MMO Games Database, News and Giveaways | No | Yes | No |
 | [mod.io](https://docs.mod.io) | Cross Platform Mod API | `apiKey` | Yes | Unknown |
 | [Open Trivia](https://opentdb.com/api_config.php) | Trivia Questions | No | Yes | Unknown |
 | [PandaScore](https://developers.pandascore.co/) | E-sports games and results | `apiKey` | Yes | Unknown |
