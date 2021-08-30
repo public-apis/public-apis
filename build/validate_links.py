@@ -5,21 +5,22 @@ import re
 import socket
 import sys
 
-ignored_links = [
-    'https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22', 
-    'https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master', 
-    'https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22',
-    'https://github.com/davemachado/public-api',
-]
 
 def parse_links(filename):
     """Returns a list of URLs from text file"""
-    with open(filename) as fp:
-        data = fp.read()
+    with open(filename, mode='r', encoding='utf-8') as fp:
+        readme = fp.read()
+        index_section = readme.find('## Index')
+        content = readme[index_section:]
+
     raw_links = re.findall(
         '((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'\".,<>?«»“”‘’]))',
-        data)
-    links = [raw_link[0] for raw_link in raw_links]
+        content)
+
+    links = [
+        str(raw_link[0]).rstrip('/') for raw_link in raw_links
+    ]
+
     return links
 
 def dup_links(links):
@@ -30,10 +31,6 @@ def dup_links(links):
     dupes = []
 
     for link in links:
-        link = link.rstrip('/')
-        if link in ignored_links:
-            continue
-
         if link not in seen:
             seen[link] = 1
         else:
