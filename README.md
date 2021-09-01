@@ -1175,6 +1175,7 @@ API | Description | Auth | HTTPS | CORS |
 | [T.LY](https://t.ly/docs) | URL shortener API | No | Yes | No |
 | [TinyUID](https://tinyuid.com/docs) | Shorten long URLs | No | Yes | Yes |
 | [Zero Width Shortener](https://docs.zws.im) | Shortens URLs using spaces that have zero width, making them invisible to humans | No | Yes | Unknown |
+| [All Shortener](https://shortlink.api.fayas.me) | Short URLs support so many domainsdomains | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Vehicle
