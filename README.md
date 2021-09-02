@@ -45,7 +45,8 @@
     <br />
     <a href="https://free-apis.github.io">Free APIs</a> •
     <a href="https://devresourc.es/tools-and-utilities/public-apis">Dev Resources</a> •
-    <a href="https://www.public-apis.ml">Public APIs Site</a>
+    <a href="https://www.public-apis.ml">Public APIs Site</a> •
+    <a href="https://apihouse.vercel.app">Apihouse</a>
 </div>
 
 ---
