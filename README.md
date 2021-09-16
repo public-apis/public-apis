@@ -525,7 +525,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Food Facts](https://world.openfoodfacts.org/data) | Food Products Database | No | Yes | Unknown |
 | [PunkAPI](https://punkapi.com/) | Brewdog Beer Recipes | No | Yes | Unknown |
 | [Rustybeer](https://rustybeer.herokuapp.com/) | Beer brewing tools | No | Yes | No |
-| [Spoonacular](https://spoonacular.com/food-api) | Recipes and Food product | `apiKey` | Yes | Unknown |
+| [Spoonacular](https://spoonacular.com/food-api) | Recipes, Food Products, and Meal Planning | `apiKey` | Yes | Unknown |
 | [TacoFancy](https://github.com/evz/tacofancy-api) | Community-driven taco database | No | No | Unknown |
 | [The Report of the Week](https://github.com/andyklimczak/TheReportOfTheWeek-API) | Food & Drink Reviews | No | Yes | Unknown |
 | [TheCocktailDB](https://www.thecocktaildb.com/api.php) | Cocktail Recipes | `apiKey` | Yes | Yes |
@@ -570,6 +570,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Halo](https://developer.haloapi.com/) | Halo 5 and Halo Wars 2 Information | `apiKey` | Yes | Unknown |
 | [Hearthstone](http://hearthstoneapi.com/) | Hearthstone Cards Information | `X-Mashape-Key` | Yes | Unknown |
 | [Humble Bundle](https://rapidapi.com/Ziggoto/api/humble-bundle) | Humble Bundle's current bundles | `apiKey` | Yes | Unknown |
+| [Humor](https://humorapi.com) | Humor, Jokes, and Memes | `apiKey` | Yes | Unknown |
 | [Hypixel](https://api.hypixel.net/) | Hypixel player stats | `apiKey` | Yes | Unknown |
 | [Hyrule Compendium](https://github.com/gadhagod/Hyrule-Compendium-API) | Data on all interactive items from The Legend of Zelda: BOTW | No | Yes | Unknown |
 | [Hytale](https://hytale-api.com/) | Hytale blog posts and jobs | No | Yes | Unknown |
