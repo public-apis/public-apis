@@ -1235,7 +1235,6 @@ API | Description | Auth | HTTPS | CORS |
 | [STAPI](http://stapi.co) | Information on all things Star Trek | No | No | No |
 | [Stranger Things Quotes](https://github.com/shadowoff09/strangerthings-quotes) | Returns Stranger Things quotes | No | Yes | Unknown |
 | [SWAPI](https://swapi.dev/) | All the Star Wars data you've ever wanted | No | Yes | Yes |
-| [SWAPI](https://www.swapi.tech) | All things Star Wars | No | Yes | Yes |
 | [The Lord of the Rings](https://the-one-api.dev/) | The Lord of the Rings API | `apiKey` | Yes | Unknown |
 | [The Vampire Diaries](https://vampire-diaries-api.netlify.app/) | TV Show Data | `apiKey` | Yes | Yes |
 | [ThronesApi](https://thronesapi.com/) | Game Of Thrones Characters Data with imagery | No | Yes | Unknown |
