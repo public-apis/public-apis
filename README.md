@@ -130,9 +130,9 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [AniAPI](https://github.com/AniAPI-Team/AniAPI) | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | Yes |
 | [AniDB](https://wiki.anidb.net/HTTP_API_Definition) | Anime Database | `apiKey` | No | Unknown |
-| [AnimeFacts](https://chandan-02.github.io/anime-facts-rest-api/) | Anime Facts (over 100+) | No | Yes | Yes |
 | [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
 | [AnimeChan](https://github.com/RocktimSaikia/anime-chan) | Anime quotes (over 10k+) | No | Yes | No |
+| [AnimeFacts](https://chandan-02.github.io/anime-facts-rest-api/) | Anime Facts (over 100+) | No | Yes | Yes |
 | [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) | Anime industry news | No | Yes | Yes |
 | [Jikan](https://jikan.moe) | Unofficial MyAnimeList API | No | Yes | Yes |
 | [Kitsu](https://kitsu.docs.apiary.io/) | Anime discovery platform | `OAuth` | Yes | Yes |
