@@ -848,6 +848,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Spaceflight News](https://spaceflightnewsapi.net) | Spaceflight related news 🚀 | No | Yes | Yes |
 | [The Guardian](http://open-platform.theguardian.com/) | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | Unknown |
 | [The Old Reader](https://github.com/theoldreader/api) | RSS reader | `apiKey` | Yes | Unknown |
+| [NewsApi](https://newsapi.org/) | articles and breaking news headlines from news sources and blogs across the web | `apikey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Open Data
