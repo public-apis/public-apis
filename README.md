@@ -437,6 +437,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Trending-Github](https://docs.trending-github.com) | Discover what is currently trending on github | No | Yes | Yes |
 | [Tyk](https://tyk.io/open-source/) | Api and service management platform | `apiKey` | Yes | Yes |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
+| [WhoisFreaks.com](https://whoisfreaks.com) | Well-parsed and structured domain WHOIS data for all domain names, registrars, countries and TLDs | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Dictionaries
