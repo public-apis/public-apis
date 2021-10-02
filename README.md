@@ -80,6 +80,7 @@
 * [Health](#health)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
+* [Movies](#movie)
 * [Music](#music)
 * [News](#news)
 * [Open Data](#open-data)
@@ -798,6 +799,12 @@ API | Description | Auth | HTTPS | CORS |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [Wit.ai](https://wit.ai/) | Natural Language Processing | `OAuth` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Movie
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [IMDB](https://imdb-api.com/api) | Api of movies | `API KEY` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Music
