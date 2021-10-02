@@ -849,6 +849,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Spaceflight News](https://spaceflightnewsapi.net) | Spaceflight related news 🚀 | No | Yes | Yes |
 | [The Guardian](http://open-platform.theguardian.com/) | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | Unknown |
 | [The Old Reader](https://github.com/theoldreader/api) | RSS reader | `apiKey` | Yes | Unknown |
+| [Tagesschau API (inofficial)](https://gist.github.com/Brawl345/d7807f30b2fdcf03333136f1214d6114) | Inofficial API for the german news channel Tagesschau | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Open Data
