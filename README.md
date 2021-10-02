@@ -974,6 +974,8 @@ API | Description | Auth | HTTPS | CORS |
 | [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Unknown |
 | [NASA APOD (official API)](https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY) | Official API for getting APOD (Astronomy Image of the Day) images along with metadata | `apiKey` | Yes | Yes |
 | [NASA APOD (unofficial API)](https://apodapi.herokuapp.com/) | API for getting APOD (Astronomy Image of the Day) images along with metadata | No | Yes | Yes |
+| [NASA EONET](https://eonet.sci.gsfc.nasa.gov/docs/v3) | API to a curated source of continuously updated natural event metadata | No | Yes | Yes |
+| [NASA EPIC](https://epic.gsfc.nasa.gov/about/api) | Official API for getting daily imagery, metadata and information from Earth Polychromatic Imaging Camera (EPIC) | No | Yes | Yes |
 | [Newton](https://newton.vercel.app) | Symbolic and Arithmetic Math Calculator | No | Yes | Unknown |
 | [Numbers](https://math.tools/api/numbers/) | Number of the day, random number, number facts and anything else you want to do with numbers | `apiKey` | Yes | Yes |
 | [Numbers](http://numbersapi.com) | Facts about numbers | No | No | Unknown |
