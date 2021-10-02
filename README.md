@@ -68,7 +68,7 @@
 * [Currency Exchange](#currency-exchange)
 * [Data Validation](#data-validation)
 * [Development](#development)
-* [Dictionaries](#dictionaries)f
+* [Dictionaries](#dictionaries)
 * [Documents & Productivity](#documents--productivity)
 * [Environment](#environment)
 * [Events](#events)
