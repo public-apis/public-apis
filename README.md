@@ -1157,7 +1157,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenSky Network](https://opensky-network.org/apidoc/index.html) | Free real-time ADS-B aviation data | No | Yes | Unknown |
 | [REFUGE Restrooms](https://www.refugerestrooms.org/api/docs/#!/restrooms) | Provides safe restroom access for transgender, intersex and gender nonconforming individuals | No | Yes | Unknown |
 | [Schiphol Airport](https://developer.schiphol.nl/) | Schiphol | `apiKey` | Yes | Unknown |
-| [Skyscanner](https://rapidapi.com/skyscanner/api/skyscanner-flight-search) | The Skyscanner API lets you search for flights & get flight prices from Skyscanner’s database of prices, as well as get live quotes directly from ticketing agencies. | `apiKey` | Yes | Unknown |
+| [Skyscanner](https://rapidapi.com/skyscanner/api/skyscanner-flight-search) | Search for flights & get flight prices from Skyscanner’s database | `apiKey` | Yes | Unknown |
 | [Tankerkoenig](https://creativecommons.tankerkoenig.de/swagger/) | German realtime gas/diesel prices | `apiKey` | Yes | Yes |
 | [TransitLand](https://transit.land/documentation/datastore/api-endpoints.html) | Transit Aggregation | No | Yes | Unknown |
 | [Transport for Atlanta, US](http://www.itsmarta.com/app-developer-resources.aspx) | Marta | No | No | Unknown |
