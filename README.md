@@ -123,6 +123,7 @@ API | Description | Auth | HTTPS | CORS |
 | [RandomFox](https://randomfox.ca/floof/) | Random pictures of foxes | No | Yes | No |
 | [RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) | Adoption | No | Yes | Unknown |
 | [Shibe.Online](http://shibe.online/) | Random pictures of Shiba Inu, cats or birds | No | Yes | Yes |
+| [SomeRandomBirb](https://some-random-api.ml/img/birb) | Some random birb (bird) pictures | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Anime
