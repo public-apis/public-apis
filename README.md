@@ -1287,6 +1287,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Trakt](https://trakt.tv/b/api-docs) | Movie and TV Data | `apiKey` | Yes | Yes |
 | [TVDB](https://api.thetvdb.com/swagger) | Television data | `apiKey` | Yes | Unknown |
 | [TVMaze](http://www.tvmaze.com/api) | TV Show Data | No | No | Unknown |
+| [Utelly](https://rapidapi.com/utelly/api/utelly) | Movies, Series and TV shows Recommendations | `apiKey` | Yes | Unknown |
 | [Vimeo](https://developer.vimeo.com/) | Vimeo Developer API | `OAuth` | Yes | Unknown |
 | [YouTube](https://developers.google.com/youtube/) | Add YouTube functionality to your sites and apps | `OAuth` | Yes | Unknown |
 
