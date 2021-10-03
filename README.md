@@ -738,7 +738,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
 | [UK government API catalogue](https://alphagov.github.io/api-catalogue) | APIs from UK government organisations | No | Yes | Unknown |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
-| [Vietnam news](https://webhose.io/news-api/vietnam-business-news-api) | Vietnam News Apis | Yes | Yes | Unknown |
+| [Vietnam news](https://webhose.io/news-api/vietnam-business-news-api) | Vietnam News Apis | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Health
