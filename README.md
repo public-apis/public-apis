@@ -867,6 +867,7 @@ API | Description | Auth | HTTPS | CORS |
 | [18F](http://18f.github.io/API-All-the-X/) | Unofficial US Federal Government API Development | No | No | Unknown |
 | [Archive.org](https://archive.readme.io/docs) | The Internet Archive | No | Yes | Unknown |
 | [Black History Facts](https://blackhistoryapi.io/docs) | Contribute or search one of the largest black history fact databases on the web | `apiKey` | Yes | Yes |
+| [BotsArchive](https://botsarchive.com/docs.html) | Get JSON formatted details about a Telegram Bot | No | Yes | Unknown |
 | [Callook.info](https://callook.info) | United States ham radio callsigns | No | Yes | Unknown |
 | [CARTO](https://carto.com/) | Location Information Prediction | `apiKey` | Yes | Unknown |
 | [CivicFeed](https://developers.civicfeed.com/) | News articles and public datasets | `apiKey` | Yes | Unknown |
