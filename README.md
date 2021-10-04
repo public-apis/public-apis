@@ -443,6 +443,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Trending-Github](https://docs.trending-github.com) | Discover what is currently trending on github | No | Yes | Yes |
 | [Tyk](https://tyk.io/open-source/) | Api and service management platform | `apiKey` | Yes | Yes |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
+| [Api2Pdf](https://app.swaggerhub.com/apis-docs/api2pdf/api2pdf/1.0.0#/) | Api2Pdf - PDF Generation, Powered by AWS Lambda | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Dictionaries
