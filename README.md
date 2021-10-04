@@ -189,8 +189,8 @@ API | Description | Auth | HTTPS | CORS |
 ### Blockchain
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
 | [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
-
 
 **[⬆ Back to Index](#index)**
 ### Books
