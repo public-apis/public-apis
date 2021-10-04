@@ -53,56 +53,53 @@
 ---
 
 ## Index
-
-- [Index](#index)
-  - [Animals](#animals)
-  - [Anime](#anime)
-  - [Anti-Malware](#anti-malware)
-  - [Art & Design](#art--design)
-  - [Authentication](#authentication)
-  - [Books](#books)
-  - [Business](#business)
-  - [Calendar](#calendar)
-  - [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
-  - [Continuous Integration](#continuous-integration)
-  - [Cryptocurrency](#cryptocurrency)
-  - [Currency Exchange](#currency-exchange)
-  - [Data Validation](#data-validation)
-  - [Development](#development)
-  - [Dictionaries](#dictionaries)
-  - [Documents & Productivity](#documents--productivity)
-  - [Environment](#environment)
-  - [Events](#events)
-  - [Finance](#finance)
-  - [Food & Drink](#food--drink)
-  - [Games & Comics](#games--comics)
-  - [Geocoding](#geocoding)
-  - [Government](#government)
-  - [Health](#health)
-  - [Jobs](#jobs)
-  - [Machine Learning](#machine-learning)
-  - [Music](#music)
-  - [News](#news)
-  - [Open Data](#open-data)
-  - [Open Source Projects](#open-source-projects)
-  - [Patent](#patent)
-  - [Personality](#personality)
-  - [Phone](#phone)
-  - [Photography](#photography)
-  - [Science & Math](#science--math)
-  - [Security](#security)
-  - [Shopping](#shopping)
-  - [Social](#social)
-  - [Sports & Fitness](#sports--fitness)
-  - [Test Data](#test-data)
-  - [Text Analysis](#text-analysis)
-  - [Tracking](#tracking)
-  - [Transportation](#transportation)
-  - [URL Shorteners](#url-shorteners)
-  - [Vehicle](#vehicle)
-  - [Video](#video)
-  - [Weather](#weather)
-- [License](#license)
+* [Animals](#animals)
+* [Anime](#anime)
+* [Anti-Malware](#anti-malware)
+* [Art & Design](#art--design)
+* [Authentication](#authentication)
+* [Books](#books)
+* [Business](#business)
+* [Calendar](#calendar)
+* [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
+* [Continuous Integration](#continuous-integration)
+* [Cryptocurrency](#cryptocurrency)
+* [Currency Exchange](#currency-exchange)
+* [Data Validation](#data-validation)
+* [Development](#development)
+* [Dictionaries](#dictionaries)
+* [Documents & Productivity](#documents--productivity)
+* [Environment](#environment)
+* [Events](#events)
+* [Finance](#finance)
+* [Food & Drink](#food--drink)
+* [Games & Comics](#games--comics)
+* [Geocoding](#geocoding)
+* [Government](#government)
+* [Health](#health)
+* [Jobs](#jobs)
+* [Machine Learning](#machine-learning)
+* [Music](#music)
+* [News](#news)
+* [Open Data](#open-data)
+* [Open Source Projects](#open-source-projects)
+* [Patent](#patent)
+* [Personality](#personality)
+* [Phone](#phone)
+* [Photography](#photography)
+* [Science & Math](#science--math)
+* [Security](#security)
+* [Shopping](#shopping)
+* [Social](#social)
+* [Sports & Fitness](#sports--fitness)
+* [Test Data](#test-data)
+* [Text Analysis](#text-analysis)
+* [Tracking](#tracking)
+* [Transportation](#transportation)
+* [URL Shorteners](#url-shorteners)
+* [Vehicle](#vehicle)
+* [Video](#video)
+* [Weather](#weather)
 
 ### Animals
 API | Description | Auth | HTTPS | CORS |
@@ -185,6 +182,13 @@ API | Description | Auth | HTTPS | CORS |
 | [Micro User Service](https://m3o.com/user) | User management and authentication | `apiKey` | Yes | No |
 | [MojoAuth](https://mojoauth.com) | Secure and modern passwordless authentication platform | `apiKey` | Yes | Yes |
 | [Stytch](https://stytch.com/) | User infrastructure for modern applications | `apiKey` | Yes | No |
+
+**[⬆ Back to Index](#index)**
+### Blockchain
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
+
 
 **[⬆ Back to Index](#index)**
 ### Books
@@ -301,7 +305,6 @@ API | Description | Auth | HTTPS | CORS |
 | [CoinRanking](https://developers.coinranking.com/api/documentation) | Live Cryptocurrency data | `apiKey` | Yes | Unknown |
 | [Coinremitter](https://coinremitter.com/docs) | Cryptocurrencies Payment & Prices | `apiKey` | Yes | Unknown |
 | [CoinStats](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest) | Crypto Tracker | No | Yes | Unknown |
-| [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
 | [CryptoCompare](https://www.cryptocompare.com/api#) | Cryptocurrencies Comparison | No | Yes | Unknown |
 | [CryptoMarket](https://developers.cryptomkt.com) | Cryptocurrencies Trading platform | `apiKey` | Yes | Yes |
 | [Cryptonator](https://www.cryptonator.com/api/) | Cryptocurrencies Exchange Rates | No | Yes | Unknown |
@@ -414,6 +417,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MAC address vendor lookup](https://macaddress.io/api) | Retrieve vendor details and other information regarding a given MAC address or an OUI | `apiKey` | Yes | Yes |
 | [MicroENV](https://microenv.com/) | Fake Rest API for developers | No | Yes | Unknown |
 | [Nationalize.io](https://nationalize.io) | Estimate the nationality of a first name | No | Yes | Yes |
+| [OneSignal](https://documentation.onesignal.com/docs/onesignal-api) | Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App | `apiKey` | Yes | Unknown |
 | [OOPSpam](https://oopspam.com/) | Multiple spam filtering service | No | Yes | Yes |
 | [PageCDN](https://pagecdn.com/docs/public-api) | Public API for javascript, css and font libraries on PageCDN | `apiKey` | Yes | Yes |
 | [Postman](https://docs.api.getpostman.com/) | Tool for testing APIs | `apiKey` | Yes | Unknown |
@@ -719,6 +723,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Food Standards Agency](http://ratings.food.gov.uk/open-data/en-GB) | UK food hygiene rating data API | No | No | Unknown |
 | [Gazette Data, UK](https://www.thegazette.co.uk/data) | UK official public record API | `OAuth` | Yes | Unknown |
 | [INEI](http://iinei.inei.gob.pe/microdatos/) | Peruvian Statistical Government Open Data | No | No | Unknown |
+| [Interpol Red Notices](https://interpol.api.bund.dev/) | Access and search Interpol Red Notices | No | Yes | Unknown |
 | [Istanbul (İBB) Open Data](https://data.ibb.gov.tr) | Data sets from the İstanbul Metropolitan Municipality (İBB) | No | Yes | Unknown |
 | [Open Government, Australia](https://www.data.gov.au/) | Australian Government Open Data | No | Yes | Unknown |
 | [Open Government, Belgium](https://data.gov.be/) | Belgium Government Open Data | No | Yes | Unknown |
@@ -1039,6 +1044,7 @@ API | Description | Auth | HTTPS | CORS |
 | [eBay](https://go.developer.ebay.com/) | Sell and Buy on eBay | `OAuth` | Yes | Unknown |
 | [Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics) | Manage shop and interact with listings | `OAuth` | Yes | Unknown |
 | [Mercadolibre](https://developers.mercadolibre.cl/es_ar/api-docs-es) | Manage sales, ads, products, services and Shops | `apiKey` | Yes | Unknown |
+| [Shopee](https://open.shopee.com/documents?version=1) | Shopee's official API for integration of various services from Shopee | `apiKey` | Yes | Unknown |
 | [Wegmans](https://dev.wegmans.io) | Wegmans Food Markets | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
