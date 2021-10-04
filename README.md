@@ -59,6 +59,7 @@
 * [Anti-Malware](#anti-malware)
 * [Art & Design](#art--design)
 * [Authentication](#authentication)
+* [Blockchain](#blockchain)
 * [Books](#books)
 * [Business](#business)
 * [Calendar](#calendar)
@@ -185,6 +186,13 @@ API | Description | Auth | HTTPS | CORS |
 | [Stytch](https://stytch.com/) | User infrastructure for modern applications | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
+### Blockchain
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
+
+
+**[⬆ Back to Index](#index)**
 ### Books
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
@@ -300,7 +308,6 @@ API | Description | Auth | HTTPS | CORS |
 | [CoinRanking](https://developers.coinranking.com/api/documentation) | Live Cryptocurrency data | `apiKey` | Yes | Unknown |
 | [Coinremitter](https://coinremitter.com/docs) | Cryptocurrencies Payment & Prices | `apiKey` | Yes | Unknown |
 | [CoinStats](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest) | Crypto Tracker | No | Yes | Unknown |
-| [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
 | [CryptoCompare](https://www.cryptocompare.com/api#) | Cryptocurrencies Comparison | No | Yes | Unknown |
 | [CryptoMarket](https://developers.cryptomkt.com) | Cryptocurrencies Trading platform | `apiKey` | Yes | Yes |
 | [Cryptonator](https://www.cryptonator.com/api/) | Cryptocurrencies Exchange Rates | No | Yes | Unknown |
