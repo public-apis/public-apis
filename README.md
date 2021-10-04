@@ -77,7 +77,6 @@
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
 * [Government](#government)
-* [Education](#education)
 * [Health](#health)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
@@ -743,12 +742,6 @@ API | Description | Auth | HTTPS | CORS |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
-### Education
-API | Description | Auth | HTTPS | CORS |
-|---|---|---|---|---|
-| [CollegeScoreCard.ed.gov](https://api.data.gov/ed/collegescorecard/v1/schools) | College Score Card | Yes | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
 ### Health
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
@@ -896,6 +889,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Wikidata](https://www.wikidata.org/w/api.php?action=help) | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | Unknown |
 | [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page) | Mediawiki Encyclopedia | No | Yes | Unknown |
 | [Yelp](https://www.yelp.com/developers/documentation/v3) | Find Local Business | `OAuth` | Yes | Unknown |
+| [CollegeScoreCard.ed.gov](https://api.data.gov/ed/collegescorecard/v1/schools) | College Score Card | Yes | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Open Source Projects
