@@ -48,6 +48,12 @@
     <a href="https://www.public-apis.ml">Public APIs Site</a> •
     <a href="https://apihouse.vercel.app">Apihouse</a> •
     <a href="https://www.collective-api.ml">Collective APIs</a>
+        <a href="http://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=astro&output=json">7 Timer/a>
+       <a href="https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita">Coctail Database</a>
+            <a href="https://api.coinbase.com/v2/currencies">Coin Base</a>
+            <a href="https://https://api.ip2country.info/ip?161.185.160.93">Ip 2 country</a>
+            <a href="https://v2.jokeapi.dev/joke/Any">Joke api</a>
+            <a href="http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline">MAkeup</a>
 </div>
 
 ---
