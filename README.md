@@ -98,6 +98,7 @@
 * [Text Analysis](#text-analysis)
 * [Tracking](#tracking)
 * [Transportation](#transportation)
+* [Travel](#travel)
 * [URL Shorteners](#url-shorteners)
 * [Vehicle](#vehicle)
 * [Video](#video)
@@ -1224,6 +1225,13 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for Vancouver, Canada](https://developer.translink.ca/) | TransLink | `OAuth` | Yes | Unknown |
 | [Transport for Washington, US](https://developer.wmata.com/) | Washington Metro transport API | `OAuth` | Yes | Unknown |
 | [Uber](https://developer.uber.com/products) | Uber ride requests and price estimation | `OAuth` | Yes | Yes |
+
+**[⬆ Back to Index](#index)**
+### Travel
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Impala Hotel Bookings](https://docs.impala.travel/docs/booking-api/) | Hotel content, rates and room bookings | `apiKey` | Yes | No |
+| [Laya](https://docs.laya.ai/) | Dynamic packaging for flights, cars and accommodation | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 ### URL Shorteners
