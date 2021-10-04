@@ -1,4 +1,3 @@
-Thanks for looking to open an issue for this project.
+Thank you for your interest in submitting a bug report for this project.
 
-If you are opening an issue to suggest adding a new entry, please consider opening a pull request instead!
-
+Please consider filing a pull request instead of an issue if you want to suggest adding a new entry.
