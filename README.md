@@ -59,6 +59,7 @@
 * [Anti-Malware](#anti-malware)
 * [Art & Design](#art--design)
 * [Authentication](#authentication)
+* [Blockchain](#blockchain)
 * [Books](#books)
 * [Business](#business)
 * [Calendar](#calendar)
@@ -185,6 +186,13 @@ API | Description | Auth | HTTPS | CORS |
 | [Stytch](https://stytch.com/) | User infrastructure for modern applications | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
+### Blockchain
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
+
+
+**[⬆ Back to Index](#index)**
 ### Books
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
@@ -300,7 +308,6 @@ API | Description | Auth | HTTPS | CORS |
 | [CoinRanking](https://developers.coinranking.com/api/documentation) | Live Cryptocurrency data | `apiKey` | Yes | Unknown |
 | [Coinremitter](https://coinremitter.com/docs) | Cryptocurrencies Payment & Prices | `apiKey` | Yes | Unknown |
 | [CoinStats](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest) | Crypto Tracker | No | Yes | Unknown |
-| [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
 | [CryptoCompare](https://www.cryptocompare.com/api#) | Cryptocurrencies Comparison | No | Yes | Unknown |
 | [CryptoMarket](https://developers.cryptomkt.com) | Cryptocurrencies Trading platform | `apiKey` | Yes | Yes |
 | [Cryptonator](https://www.cryptonator.com/api/) | Cryptocurrencies Exchange Rates | No | Yes | Unknown |
@@ -386,6 +393,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Gitlab](https://docs.gitlab.com/ee/api/) | Automate GitLab interaction programmatically | `OAuth` | Yes | Unknown |
 | [Gitter](https://developer.gitter.im/docs/welcome) | Chat for Developers | `OAuth` | Yes | Unknown |
 | [Glitterly](https://developers.glitterly.app) | Image generation API | `apiKey` | Yes | Yes |
+| [Google Sheets](https://developers.google.com/sheets/api/reference/rest) | API to read, write, and format Google Sheets data | `OAuth` | Yes | Unknown |
 | [Gorest](https://gorest.co.in/) | Online REST API for Testing and Prototyping | `OAuth` | Yes | Unknown |
 | [Hexabin](https://hexabin.herokuapp.com/) | Convert and retrieve hexadecimal, binary, decimal, and octal values with ease | No | No | Unknown |
 | [host-t.com](https://host-t.com) | Basic DNS query via HTTP GET request | No | Yes | No |
@@ -412,6 +420,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MAC address vendor lookup](https://macaddress.io/api) | Retrieve vendor details and other information regarding a given MAC address or an OUI | `apiKey` | Yes | Yes |
 | [MicroENV](https://microenv.com/) | Fake Rest API for developers | No | Yes | Unknown |
 | [Nationalize.io](https://nationalize.io) | Estimate the nationality of a first name | No | Yes | Yes |
+| [OneSignal](https://documentation.onesignal.com/docs/onesignal-api) | Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App | `apiKey` | Yes | Unknown |
 | [OOPSpam](https://oopspam.com/) | Multiple spam filtering service | No | Yes | Yes |
 | [PageCDN](https://pagecdn.com/docs/public-api) | Public API for javascript, css and font libraries on PageCDN | `apiKey` | Yes | Yes |
 | [Postman](https://docs.api.getpostman.com/) | Tool for testing APIs | `apiKey` | Yes | Unknown |
@@ -529,6 +538,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Food & Drink
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Coffee](https://coffee.alexflipnote.dev/) | Random pictures of coffee | No | Yes | Unknown |
 | [Edamam nutrition](https://developer.edamam.com/edamam-docs-nutrition-api) | Nutrition Analysis | `apiKey` | Yes | Unknown |
 | [Edamam recipes](https://developer.edamam.com/edamam-docs-recipe-api) | Recipe Search | `apiKey` | Yes | Unknown |
 | [Foodish](https://github.com/surhud004/Foodish#readme) | Random pictures of food dishes | No | Yes | Yes |
@@ -716,6 +726,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Food Standards Agency](http://ratings.food.gov.uk/open-data/en-GB) | UK food hygiene rating data API | No | No | Unknown |
 | [Gazette Data, UK](https://www.thegazette.co.uk/data) | UK official public record API | `OAuth` | Yes | Unknown |
 | [INEI](http://iinei.inei.gob.pe/microdatos/) | Peruvian Statistical Government Open Data | No | No | Unknown |
+| [Interpol Red Notices](https://interpol.api.bund.dev/) | Access and search Interpol Red Notices | No | Yes | Unknown |
 | [Istanbul (İBB) Open Data](https://data.ibb.gov.tr) | Data sets from the İstanbul Metropolitan Municipality (İBB) | No | Yes | Unknown |
 | [Open Government, Australia](https://www.data.gov.au/) | Australian Government Open Data | No | Yes | Unknown |
 | [Open Government, Belgium](https://data.gov.be/) | Belgium Government Open Data | No | Yes | Unknown |
@@ -966,6 +977,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ReSmush.it](https://resmush.it/api) | Photo optimization | No | No | Unknown |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
 | [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | `apiKey` | Yes | Unknown |
+| [Webdam](https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API) | Images | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Science & Math
@@ -1036,6 +1048,7 @@ API | Description | Auth | HTTPS | CORS |
 | [eBay](https://go.developer.ebay.com/) | Sell and Buy on eBay | `OAuth` | Yes | Unknown |
 | [Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics) | Manage shop and interact with listings | `OAuth` | Yes | Unknown |
 | [Mercadolibre](https://developers.mercadolibre.cl/es_ar/api-docs-es) | Manage sales, ads, products, services and Shops | `apiKey` | Yes | Unknown |
+| [Shopee](https://open.shopee.com/documents?version=1) | Shopee's official API for integration of various services from Shopee | `apiKey` | Yes | Unknown |
 | [Wegmans](https://dev.wegmans.io) | Wegmans Food Markets | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
