@@ -190,7 +190,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
-
+| [Hyperledger](https://www.hyperledger.org/use) | Suite of stable frameworks, tools and libraries for enterprise-grade blockchain deployments | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Books
