@@ -78,6 +78,7 @@
 * [Geocoding](#geocoding)
 * [Government](#government)
 * [Health](#health)
+* [Images](#images)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Music](#music)
@@ -769,6 +770,12 @@ API | Description | Auth | HTTPS | CORS |
 | [Orion Health](https://developer.orionhealth.io/) | Medical platform which allows the development of applications for different healthcare scenarios | `OAuth` | Yes | Unknown |
 | [Quarantine](https://quarantine.country/coronavirus/api/) | Coronavirus API with free COVID-19 live updates | No | Yes | Yes |
 | [USDA Nutrients](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | `apiKey` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Images
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Imsea](https://imsea.herokuapp.com/) | Free image search API | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Jobs
