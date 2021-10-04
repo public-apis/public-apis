@@ -355,7 +355,7 @@ API | Description | Auth | HTTPS | CORS |
 | [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
 | [Abstract Screenshot](https://www.abstractapi.com/website-screenshot-api) | Take programmatic screenshots of web pages from any website | `apiKey` | Yes | Yes |
 | [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
-| [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | No | Unknown |
+| [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | Yes | Unknown |
 | [ApicAgent](https://www.apicagent.com) | Extract device details from user-agent string | No | Yes | Yes |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
 | [apilayer userstack](https://userstack.com/) | Secure User-Agent String Lookup JSON API | `OAuth` | Yes | Unknown |
