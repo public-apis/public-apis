@@ -190,7 +190,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
-| [Nownodes](https://nownodes.io/) | blockchain-as-a-service solution that provides high-quality connection via API | `apiKey` | Yes | Unknown |
+| [Nownodes](https://nownodes.io/) | Blockchain-as-a-service solution that provides high-quality connection via API | `apiKey` | Yes | Unknown |
 
 
 **[⬆ Back to Index](#index)**
