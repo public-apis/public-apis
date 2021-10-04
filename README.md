@@ -1185,6 +1185,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Charge Map](https://openchargemap.org/site/develop/api) | Global public registry of electric vehicle charging locations | `apiKey` | Yes | Yes |
 | [OpenSky Network](https://opensky-network.org/apidoc/index.html) | Free real-time ADS-B aviation data | No | Yes | Unknown |
 | [REFUGE Restrooms](https://www.refugerestrooms.org/api/docs/#!/restrooms) | Provides safe restroom access for transgender, intersex and gender nonconforming individuals | No | Yes | Unknown |
+| [Railway Transport for France](https://www.digital.sncf.com/startup/api) | SNCF public API | `apikey` | Yes | Unknow |
 | [Schiphol Airport](https://developer.schiphol.nl/) | Schiphol | `apiKey` | Yes | Unknown |
 | [Skyscanner](https://rapidapi.com/skyscanner/api/skyscanner-flight-search) | Search for flights & get flight prices from Skyscanner’s database | `apiKey` | Yes | Unknown |
 | [Tankerkoenig](https://creativecommons.tankerkoenig.de/swagger/) | German realtime gas/diesel prices | `apiKey` | Yes | Yes |
@@ -1220,7 +1221,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for United States](http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf) | NextBus API | No | No | Unknown |
 | [Transport for Vancouver, Canada](https://developer.translink.ca/) | TransLink | `OAuth` | Yes | Unknown |
 | [Transport for Washington, US](https://developer.wmata.com/) | Washington Metro transport API | `OAuth` | Yes | Unknown |
-| [Rail Transport for France](https://www.digital.sncf.com/startup/api) | SNCF public API | `apikey` | Yes | Unknow |
 | [Uber](https://developer.uber.com/products) | Uber ride requests and price estimation | `OAuth` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
