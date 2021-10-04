@@ -775,7 +775,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Images
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Imsea](https://imsea.herokuapp.com/) | Free image search API | No | Yes | Unknown |
+| [Imsea](https://imsea.herokuapp.com/) | Free image search | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Jobs
