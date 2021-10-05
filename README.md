@@ -162,6 +162,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Art Institute of Chicago](https://api.artic.edu/docs/) | Art | No | Yes | Yes |
+| [Colormind](http://colormind.io/api-access/) | Color scheme generator | No | No | Unknown |
 | [ColourLovers](http://www.colourlovers.com/api) | Get various patterns, palettes and images | No | No | Unknown |
 | [Cooper Hewitt](https://collection.cooperhewitt.org/api) | Smithsonian Design Museum | `apiKey` | Yes | Unknown |
 | [Dribbble](https://developer.dribbble.com) | Discover the world’s top designers & creatives | `OAuth` | Yes | Unknown |
@@ -462,6 +463,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Chinese Character Web](http://ccdb.hemiola.com/) | Chinese character definitions and pronunciations | No | No | No |
 | [Chinese Text Project](https://ctext.org/tools/api) | Online open-access digital library for pre-modern Chinese texts | No | Yes | Unknown |
+| [Collins](https://api.collinsdictionary.com/api/v1/documentation/html/) | Bilingual Dictionary and Thesaurus Data | `apiKey` | Yes | Unknown |
 | [Free Dictionary](https://dictionaryapi.dev/) | Definitions, phonetics, pronounciations, parts of speech, examples, synonyms | No | Yes | Unknown |
 | [Lingua Robot](https://www.linguarobot.io) | Word definitions, pronunciations, synonyms, antonyms and others | `apiKey` | Yes | Yes |
 | [Merriam-Webster](https://dictionaryapi.com/) | Dictionary and Thesaurus Data | `apiKey` | Yes | Unknown |
