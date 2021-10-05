@@ -1312,6 +1312,7 @@ API | Description | Auth | HTTPS | CORS |
 | [AccuWeather](https://developer.accuweather.com/apis) | Weather and forecast data | `apiKey` | No | Unknown |
 | [apilayer weatherstack](https://weatherstack.com/) | Real-Time & Historical World Weather Data API | `apiKey` | Yes | Unknown |
 | [APIXU](https://www.apixu.com/doc/request.aspx) | Weather | `apiKey` | Yes | Unknown |
+| [AQICN](https://aqicn.org/api/) | Air Quality Index Data for over 1000 cities | `apiKey` | Yes | Unknown |
 | [AviationWeather](https://www.aviationweather.gov/dataserver) | NOAA aviation weather forecasts and observations | No | Yes | Unknown |
 | [ColorfulClouds](https://open.caiyunapp.com/ColorfulClouds_Weather_API) | Weather | `apiKey` | Yes | Yes |
 | [Foreca](https://developer.foreca.com) | Weather | `OAuth` | Yes | Unknown |
