@@ -368,6 +368,7 @@ API | Description | Auth | HTTPS | CORS |
 | [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
 | [Abstract Screenshot](https://www.abstractapi.com/website-screenshot-api) | Take programmatic screenshots of web pages from any website | `apiKey` | Yes | Yes |
 | [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
+| [Api2Pdf](https://app.swaggerhub.com/apis-docs/api2pdf/api2pdf/1.0.0#/) | Api2Pdf - PDF Generation, Powered by AWS Lambda | `apiKey` | Yes | Unknown |
 | [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | Yes | Unknown |
 | [ApicAgent](https://www.apicagent.com) | Extract device details from user-agent string | No | Yes | Yes |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
@@ -455,7 +456,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Trending-Github](https://docs.trending-github.com) | Discover what is currently trending on github | No | Yes | Yes |
 | [Tyk](https://tyk.io/open-source/) | Api and service management platform | `apiKey` | Yes | Yes |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
-| [Api2Pdf](https://app.swaggerhub.com/apis-docs/api2pdf/api2pdf/1.0.0#/) | Api2Pdf - PDF Generation, Powered by AWS Lambda | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Dictionaries
