@@ -1251,6 +1251,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Motor Vehicle Department, Maharashtra, India](https://apisetu.gov.in/public/api/transportmh) | Driving License (DL) and Vehicle Registration Certificate (RC) of the State Maharashtra of India | `apiKey` | Yes | No |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown |
 | [Smartcar](https://smartcar.com/docs/) | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth` | Yes | Yes |
+| [Tesla](https://www.teslaapi.io/) | API commands to communicate between your vehicle and your client | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Video
