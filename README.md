@@ -770,6 +770,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Covid-19](https://github.com/M-Media-Group/Covid-19-API) | Covid 19 cases, deaths and recovery per country | No | Yes | Yes |
 | [Covid-19 Government Response](https://covidtracker.bsg.ox.ac.uk) | Government measures tracker to fight against the Covid-19 pandemic | No | Yes | Yes |
 | [COVID-19 Tracker Canada](https://api.covid19tracker.ca/docs/1.0/overview) | Details on Covid-19 cases across Canada | No | Yes | Unknown |
+| [Covid-19 Tracker Indonesia](https://data.covid19.go.id/public/api/update.json) | The official public API for tracking Covid-19 statistics released by the Indonesian government | No | Yes | No |
 | [Cowin](https://apisetu.gov.in/public/api/cowin) | Indian government Covid-19 vaccination tracking | No | Yes | Yes |
 | [Dataflow Kit COVID-19](https://covid-19.dataflowkit.com) | COVID-19 live statistics into sites per hour | No | Yes | Unknown |
 | [Diabetes](http://predictbgl.com/api/) | Logging and retrieving diabetes information | No | No | Unknown |
