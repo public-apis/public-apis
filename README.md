@@ -903,6 +903,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Scoop.it](http://www.scoop.it/dev) | Content Curation Service | `apiKey` | No | Unknown |
 | [Socrata](https://dev.socrata.com/) | Access to Open Data from Governments, Non-profits and NGOs around the world | `OAuth` | Yes | Yes |
 | [Teleport](https://developers.teleport.org/) | Quality of Life Data | No | Yes | Unknown |
+| [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets.php) | Many datasets of different categories and sizes, mainly for Machine Learning | No | Yes | Unknown |
 | [Universities List](https://github.com/Hipo/university-domains-list) | University names, countries and domains | No | Yes | Unknown |
 | [University of Oslo](https://data.uio.no/) | Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway) | No | Yes | Unknown |
 | [UPC database](https://upcdatabase.org/api) | More than 1.5 million barcode numbers from all around the world | `apiKey` | Yes | Unknown |
