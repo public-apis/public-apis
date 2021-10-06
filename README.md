@@ -584,6 +584,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Destiny The Game](https://github.com/Bungie-net/api) | Bungie Platform API | `apiKey` | Yes | Unknown |
 | [Dota 2](https://docs.opendota.com/) | Provides information about Player stats , Match stats, Rankings for Dota 2 | `apiKey` | Yes | Unknown |
 | [Dungeons and Dragons](http://www.dnd5eapi.co/) | Reference for 5th edition spells, classes, monsters, and more | No | No | No |
+| [Dungeons and Dragons (Alternate)](https://open5e.com/) | Includes all monsters and spells from the SRD (System Reference Document) as well as a search API | No | Yes | Yes |
 | [Eve Online](https://esi.evetech.net/ui) | Third-Party Developer Documentation | `OAuth` | Yes | Unknown |
 | [FIFA Ultimate Team](https://www.easports.com/fifa/ultimate-team/api/fut/item) | FIFA Ultimate Team items API | No | Yes | Unknown |
 | [Final Fantasy XIV](https://xivapi.com/) | Final Fantasy XIV Game data API | No | Yes | Yes |
