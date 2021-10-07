@@ -651,6 +651,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Wargaming.net](https://developers.wargaming.net/) | Wargaming.net info and stats | `apiKey` | Yes | No |
 | [When is next MCU film](https://www.whenisthenextmcufilm.com/) | Upcomimg MCU film information | No | Yes | Unknown |
 | [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | No |
+| [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Geocoding
