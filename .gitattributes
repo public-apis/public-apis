@@ -4,3 +4,5 @@
 /build          export-ignore
 .travis.yml     export-ignore
 README.md       export-ignore
+/.github        export-ignore
+.travis.yml     export-ignore
