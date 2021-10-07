@@ -3,6 +3,7 @@
 - [ ] My submission is formatted according to the guidelines in the [contributing guide](/CONTRIBUTING.md)
 - [ ] My addition is ordered alphabetically
 - [ ] My submission has a useful description
+- [ ] The description does not have more than 100 characters
 - [ ] The description does not end with punctuation
 - [ ] Each table column is padded with one space on either side
 - [ ] I have searched the repository for any relevant issues or pull requests
