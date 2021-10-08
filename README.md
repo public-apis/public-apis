@@ -210,6 +210,7 @@ API | Description | Auth | HTTPS | CORS |
 | [British National Bibliography](http://bnb.data.bl.uk/) | Books | No | No | Unknown |
 | [Crossref Metadata Search](https://github.com/CrossRef/rest-api-doc) | Books & Articles Metadata | No | Yes | Unknown |
 | [Google Books](https://developers.google.com/books/) | Books | `OAuth` | Yes | Unknown |
+| [Hary Potter](https://github.com/bethfraser/hp-api) | The Harry Potter API returns spell routes, character routes, house, and sorting hat routes in JSON format | No | Yes | Unknown |
 | [LibGen](https://garbage.world/posts/libgen/) | Library Genesis search engine | No | No | Unknown |
 | [New York Times Books](https://developer.nytimes.com/docs/books-product/1/overview) | Book reviews and The New York Times Best Sellers lists | `apiKey` | Yes | Unknown |
 | [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | Yes | No |
