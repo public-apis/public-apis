@@ -1031,6 +1031,12 @@ API | Description | Auth | HTTPS | CORS |
 | [Webdam](https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API) | Images | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
+### Quantum Computing
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Google Quantum Computing Service](https://quantumai.google/cirq/google/engine) | Execute quantum circuits on Google's quantum processor or simulator backends | `OAuth` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
