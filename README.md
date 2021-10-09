@@ -1034,7 +1034,9 @@ API | Description | Auth | HTTPS | CORS |
 ### Quantum Computing
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Google Quantum Computing Service](https://quantumai.google/cirq/google/engine) | Execute quantum circuits on Google's quantum processor or simulator backends | `OAuth` | Yes | Unknown |
+| [IBMQ Experience](https://qiskit.org/documentation/stubs/qiskit.providers.ibmq.AccountProvider.html) |working with quantum computers at the level of circuits, pulses, and algorithms | `apiKey` | Yes | Unknown |
+| [QuTech Inspire](https://www.quantum-inspire.com) | access to various technologies to perform quantum computations | `User-Agent`| Unknown |
+| [Xanadu Quantum Cloud](https://xanadu.ai/cloud) | Direct access to Xanadu's photonic QPUs | `User-Agent` | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Science & Math
