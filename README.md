@@ -765,6 +765,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Census.gov](https://www.census.gov/data/developers/data-sets.html) | The US Census Bureau provides various APIs and data sets on demographics and businesses | No | Yes | Unknown |
 | [City, Berlin](https://daten.berlin.de/) | Berlin(DE) City Open Data | No | Yes | Unknown |
 | [City, Gdańsk](https://ckan.multimediagdansk.pl/en) | Gdańsk (PL) City Open Data | No | Yes | Unknown |
+| [City, Gdynia](http://otwartedane.gdynia.pl/en/) | Gdynia (PL) City Open Data | No | No | Unknown |
 | [City, Helsinki](https://hri.fi/en_gb/) | Helsinki(FI) City Open Data | No | Yes | Unknown |
 | [City, Nantes Opendata](https://data.nantesmetropole.fr/pages/home/) | Nantes(FR) City Open Data | `apiKey` | Yes | Unknown |
 | [City, New York Opendata](https://opendata.cityofnewyork.us/) | New York (US) City Open Data | No | Yes | Unknown |
