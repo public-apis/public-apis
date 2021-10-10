@@ -955,6 +955,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Microlink.io](https://microlink.io) | Extract structured data from any website | No | Yes | Yes |
 | [openAFRICA](https://africaopendata.org/) | Large datasets repository of African open data | No | Yes | Unknown |
 | [OpenCorporates](http://api.opencorporates.com/documentation/API-Reference) | Data on corporate entities and directors in many countries | `apiKey` | Yes | Unknown |
+| [Programming Quotes](https://programming-quotes-api.herokuapp.com/) | Quotes of programming | No | Yes | Unknown |
 | [Quandl](https://www.quandl.com/) | Stock Market Data | No | Yes | Unknown |
 | [Recreation Information Database](https://ridb.recreation.gov/) | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) | `apiKey` | Yes | Unknown |
 | [Scoop.it](http://www.scoop.it/dev) | Content Curation Service | `apiKey` | No | Unknown |
