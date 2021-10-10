@@ -1337,6 +1337,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Mercedes-Benz](https://developer.mercedes-benz.com/apis) | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | `apiKey` | Yes | No |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown |
 | [Smartcar](https://smartcar.com/docs/) | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth` | Yes | Yes |
+| [Tesla](https://www.teslaapi.io/) | API commands to communicate between your vehicle and your client | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Video
