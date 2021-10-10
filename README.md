@@ -107,7 +107,7 @@
 ### Animals
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | Unknown |
+| [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | Yes |
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
 | [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | Unknown |
 | [catAPI](https://github.com/ThatCopy/catAPI/wiki/Usage) | Random pictures of cats | No | Yes | Yes |
@@ -200,6 +200,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Bitquery](https://graphql.bitquery.io/ide) | Onchain GraphQL APIs & DEX APIs | `apiKey` | Yes | Yes |
 | [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
+| [Chainpoint](https://tierion.com/chainpoint/) | Chainpoint is a global network for anchoring data to the Bitcoin blockchain | No | Yes | Unknown |
 | [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
 | [Nownodes](https://nownodes.io/) | Blockchain-as-a-service solution that provides high-quality connection via API | `apiKey` | Yes | Unknown |
 
