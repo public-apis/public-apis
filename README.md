@@ -89,6 +89,7 @@
 * [Personality](#personality)
 * [Phone](#phone)
 * [Photography](#photography)
+* [Religion](#Religion)
 * [Science & Math](#science--math)
 * [Security](#security)
 * [Shopping](#shopping)
@@ -1046,6 +1047,12 @@ API | Description | Auth | HTTPS | CORS |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
 | [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | `apiKey` | Yes | Unknown |
 | [Webdam](https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API) | Images | `OAuth` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Religion
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [AlQuran](https://alquran.cloud/api) | the source of the fire of the Quran surah and its verses. Full 30 juz | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Science & Math
