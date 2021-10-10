@@ -202,6 +202,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Chainpoint](https://tierion.com/chainpoint/) | Chainpoint is a global network for anchoring data to the Bitcoin blockchain | No | Yes | Unknown |
 | [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
 | [Nownodes](https://nownodes.io/) | Blockchain-as-a-service solution that provides high-quality connection via API | `apiKey` | Yes | Unknown |
+| [Factom-API](https://github.com/FactomProject/factom-api) | This library provides Python clients for interacting with the factomd and factom-walletd APIs. | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Books
