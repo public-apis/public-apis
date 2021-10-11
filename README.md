@@ -1123,6 +1123,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Shodan](https://developer.shodan.io/) | Search engine for Internet connected devices | `apiKey` | Yes | Unknown |
 | [UK Police](https://data.police.uk/docs/) | UK Police data | No | Yes | Unknown |
 | [Virushee](https://api.virushee.com/) | Virushee file/data scanning | No | Yes | Yes |
+| [Bugcrowd](https://docs.bugcrowd.com/api/getting-started/) | These bugcrowd API has been created to help streamline the process of implementing bugcrowd's Crowdcontrol data into your applications which to enhance productivity by interacting and tracking the issues programmatically | apiKey | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Shopping
