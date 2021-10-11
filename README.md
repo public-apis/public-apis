@@ -473,7 +473,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Serialif Color](https://color.serialif.com/) | Color conversion, complementary, grayscale and contrasted text | No | Yes | No |
 | [serpstack](https://serpstack.com/) | Real-Time & Accurate Google Search Results API | `apiKey` | Yes | Yes |
 | [SHOUTCLOUD](http://shoutcloud.io/) | ALL-CAPS AS A SERVICE | No | No | Unknown |
-| [SonarQube](https://sonarcloud.io/web_api) | SonarQube REST APIs to detect bugs, code smells & security vulnerabilities | `OAuth`| Yes | Unknown |
+| [SonarQube](https://sonarcloud.io/web_api) | SonarQube REST APIs to detect bugs, code smells & security vulnerabilities |`OAuth`| Yes | Unknown |
 | [StackExchange](https://api.stackexchange.com/) | Q&A forum for developers | `OAuth` | Yes | Unknown |
 | [Statically](https://statically.io/) | A free CDN for developers | No | Yes | Yes |
 | [Supportivekoala](https://developers.supportivekoala.com/) | Autogenerate images with template | `apiKey` | Yes | Yes |
