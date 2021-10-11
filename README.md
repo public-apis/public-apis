@@ -689,6 +689,9 @@ API | Description | Auth | HTTPS | CORS |
 | [BigDataCloud](https://www.bigdatacloud.com/ip-geolocation-apis) | Provides fast and accurate IP geolocation APIs along with security checks and confidence area | `apiKey` | Yes | Unknown |
 | [Bing Maps](https://www.microsoft.com/maps/) | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | Unknown |
 | [bng2latlong](https://www.getthedata.com/bng2latlong) | Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude | No | Yes | Yes |
+| [Cambodia Destrict Detail](https://pumiapp.herokuapp.com/pumi/districts) | Get the Destrict detail of Cambodia  | No | Yes | Unknown |
+| [Cambodia Province Detail](https://pumiapp.herokuapp.com/pumi/provinces) | Get the Province detail of Cambodia  | No | Yes | Unknown |
+| [Cambodia Village Detail](https://pumiapp.herokuapp.com/pumi/villages) | Get the all Village detail of Cambodia  | No | Yes | Unknown |
 | [Cartes.io](https://github.com/M-Media-Group/Cartes.io/wiki/API) | Create maps and markers for anything | No | Yes | Unknown |
 | [Cep.la](http://cep.la/) | Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states | No | No | Unknown |
 | [CitySDK](http://www.citysdk.eu/citysdk-toolkit/) | Open APIs for select European cities | No | Yes | Unknown |
@@ -752,9 +755,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ZipCodeAPI](https://www.zipcodeapi.com) | US zip code distance, radius and location API | `apiKey` | Yes | Unknown |
 | [Zippopotam.us](http://www.zippopotam.us) | Get information about place such as country, city, state, etc | No | No | Unknown |
 | [Ziptastic](https://ziptasticapi.com/) | Get the country, state, and city of any US zip-code | No | Yes | Unknown |
-| [Cambodia Province Detail](https://pumiapp.herokuapp.com/pumi/provinces) | Get the Province detail of Cambodia  | No | Yes | Unknown |
-| [Cambodia Destrict Detail](https://pumiapp.herokuapp.com/pumi/districts) | Get the Destrict detail of Cambodia  | No | Yes | Unknown |
-| [Cambodia Village Detail](https://pumiapp.herokuapp.com/pumi/villages) | Get the all Village detail of Cambodia  | No | Yes | Unknown |
+
 
 **[⬆ Back to Index](#index)**
 ### Government
