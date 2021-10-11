@@ -752,6 +752,9 @@ API | Description | Auth | HTTPS | CORS |
 | [ZipCodeAPI](https://www.zipcodeapi.com) | US zip code distance, radius and location API | `apiKey` | Yes | Unknown |
 | [Zippopotam.us](http://www.zippopotam.us) | Get information about place such as country, city, state, etc | No | No | Unknown |
 | [Ziptastic](https://ziptasticapi.com/) | Get the country, state, and city of any US zip-code | No | Yes | Unknown |
+| [Cambodia Province Detail](https://pumiapp.herokuapp.com/pumi/provinces) | Get the Province detail of Cambodia  | No | Yes | Unknown |
+| [Cambodia Destrict Detail](https://pumiapp.herokuapp.com/pumi/districts) | Get the Destrict detail of Cambodia  | No | Yes | Unknown |
+| [Cambodia Village Detail](https://pumiapp.herokuapp.com/pumi/villages) | Get the all Village detail of Cambodia  | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Government
