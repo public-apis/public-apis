@@ -1415,6 +1415,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenUV](https://www.openuv.io) | Real-time UV Index Forecast | `apiKey` | Yes | Unknown |
 | [OpenWeatherMap](https://openweathermap.org/api) | Weather | `apiKey` | Yes | Unknown |
 | [QWeather](https://dev.qweather.com/) | Location-based weather data | `apiKey` | Yes | Yes |
+| [RainViewer](https://www.rainviewer.com/api.html) | Radar data collected from different websites across the Internet | No | Yes | Unknown |
 | [SG Weather Reading](https://data.gov.sg/dataset/realtime-weather-readings) | Realtime weather readings for Singapore area including other weather parameters | No | Yes | Unknown |
 | [Storm Glass](https://stormglass.io/) | Global marine weather from multiple sources | `apiKey` | Yes | Yes |
 | [Tomorrow](https://docs.tomorrow.io) | Weather API Powered by Proprietary Technology | `apiKey` | Yes | Unknown |
