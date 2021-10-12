@@ -98,6 +98,7 @@
 * [Text Analysis](#text-analysis)
 * [Tracking](#tracking)
 * [Transportation](#transportation)
+* [Travel](#travel)
 * [URL Shorteners](#url-shorteners)
 * [Vehicle](#vehicle)
 * [Video](#video)
@@ -1026,8 +1027,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Stoicism Quote](https://github.com/tlcheah2/stoic-quote-lambda-public-api) | Quotes about Stoicism | No | Yes | Unknown |
 | [Traitify](https://app.traitify.com/developer) | Assess, collect and analyze Personality | No | Yes | Unknown |
 | [Vadivelu HTTP Codes](https://vadivelu.anoram.com/) | On demand HTTP Codes with images | No | Yes | No |
-| [Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2) | REST API for Yo Momma Jokes | No | Yes | Unknown | 
-| [Zen Quotes](https://zenquotes.io/) | Large collection of Zen quotes for inspiration | No | Yes | Yes | 
+| [Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2) | REST API for Yo Momma Jokes | No | Yes | Unknown |
+| [Zen Quotes](https://zenquotes.io/) | Large collection of Zen quotes for inspiration | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Phone
@@ -1270,7 +1271,6 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [ADS-B Exchange](https://www.adsbexchange.com/data/) | Access real-time and historical data of any and all airborne aircraft | No | Yes | Unknown |
 | [AIS Hub](http://www.aishub.net/api) | Real-time data of any marine and inland vessel equipped with AIS tracking system | `apiKey` | No | Unknown |
-| [Amadeus for Developers](https://developers.amadeus.com/self-service) | Travel Search - Limited usage | `OAuth` | Yes | Unknown |
 | [apilayer aviationstack](https://aviationstack.com/) | Real-time Flight Status & Global Aviation Data API | `OAuth` | Yes | Unknown |
 | [Bay Area Rapid Transit](http://api.bart.gov) | Stations and predicted arrivals for BART | `apiKey` | No | Unknown |
 | [BC Ferries](https://www.bcferriesapi.ca) | Sailing times and capacities for BC Ferries | No | Yes | Yes |
@@ -1325,6 +1325,14 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for Vancouver, Canada](https://developer.translink.ca/) | TransLink | `OAuth` | Yes | Unknown |
 | [Transport for Washington, US](https://developer.wmata.com/) | Washington Metro transport API | `OAuth` | Yes | Unknown |
 | [Uber](https://developer.uber.com/products) | Uber ride requests and price estimation | `OAuth` | Yes | Yes |
+
+**[⬆ Back to Index](#index)**
+### Travel
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Amadeus for Developers](https://developers.amadeus.com/self-service) | Travel Search - Limited usage | `OAuth` | Yes | Unknown |
+| [Impala Hotel Bookings](https://docs.impala.travel/docs/booking-api/) | Hotel content, rates and room bookings | `apiKey` | Yes | No |
+| [Laya](https://docs.laya.ai/) | Dynamic packaging for flights, cars and accommodation | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 ### URL Shorteners
