@@ -182,6 +182,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PHP-Noise](https://php-noise.com/) | Noise Background Image Generator | No | Yes | Yes |
 | [Pixel Encounter](https://pixelencounter.com/api) | SVG Icon Generator | No | Yes | No |
 | [Rijksmuseum](https://www.rijksmuseum.nl/en/api) | Art | `apiKey` | Yes | Unknown |
+| [Word Cloud API](https://wordcloudapi.com/) | Art | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Authentication
