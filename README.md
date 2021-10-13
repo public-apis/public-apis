@@ -126,6 +126,7 @@ API | Description | Auth | HTTPS | CORS |
 | [RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) | Adoption | No | Yes | Unknown |
 | [Shibe.Online](http://shibe.online/) | Random pictures of Shiba Inu, cats or birds | No | Yes | Yes |
 | [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
+| [Petfinder](https://www.petfinder.com/developers/) | Petfinder is dedicated to helping pets find homes. Petfinder's free API is another resource to get pets adopted. | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Anime
