@@ -1425,6 +1425,7 @@ API | Description | Auth | HTTPS | CORS |
 | [WeatherAPI](https://www.weatherapi.com/) | Weather API with other stuff like Astronomy and Geolocation API | `apiKey` | Yes | Yes |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
 | [wttr](https://github.com/chubin/wttr.in) | :partly_sunny: The right way to check the weather | No | Yes | Unknown |
+| [Yahoo Weather](https://developer.yahoo.com/weather/) | Weather API from Yahoo | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 
