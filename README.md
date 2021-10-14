@@ -549,39 +549,17 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 ### Finance
 API | Description | Auth | HTTPS | CORS |
-| ---                                                          | ---                                                          | ---                                | ---  | ---  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------- | ---- | ---- |
-| [Front Accounting API](https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule) | FrontAccounting (FA) is a Open Source professional web-based Accounting system for the entire ERP chain written in PHP, using MySQL. FA is multilingual and multicurrency. | Pass username & Password In header | Yes  | Yes  |
-| [Abstract VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes  | Yes  |
-| ------------------------------------------------------------ | -------------------------------------------- | -------- | ---- | ---- |
-|                                                              |                                              |          |      |      |
-| [Aletheia](https://aletheiaapi.com/) | Insider trading data, earnings call analysis, financial statements, and more | `apiKey` | Yes  | Yes  |
-| ------------------------------------ | ------------------------------------------------------------ | -------- | ---- | ---- |
-|                                      |                                                              |          |      |      |
-
-| [Alpaca](https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/) | Realtime and historical market data on all US equities and ETFs | `apiKey` | Yes  | Yes  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | -------- | ---- | ---- |
-|                                                              |                                                              |          |      |      |
-| [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | `apiKey` | Yes  | Unknown |
-| --------------------------------------------- | ---------------------------------- | -------- | ---- | ------- |
-|                                               |                                    |          |      |         |
-| [apilayer marketstack](https://marketstack.com/) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes  | Unknown |
-| ------------------------------------------------ | ------------------------------------------------ | -------- | ---- | ------- |
-|                                                  |                                                  |          |      |         |
-| [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | `OAuth` | Yes  | Yes  |
-| ---------------------------------------------------- | ---------------------------------------------- | ------- | ---- | ---- |
-|                                                      |                                                |         |      |      |
-| [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No   | Yes  | Yes  |
-| ------------------------------------- | ------------------------- | ---- | ---- | ---- |
-|                                       |                           |      |      |      |
-| [Financial Modeling Prep](https://financialmodelingprep.com/developer/docs/) | Realtime and historical stock data | `apiKey` | Yes  | Unknown |
-| ------------------------------------------------------------ | ---------------------------------- | -------- | ---- | ------- |
-|                                                              |                                    |          |      |         |
-
-| [FRED](https://fred.stlouisfed.org/docs/api/fred/) | Economic data from the Federal Reserve Bank of St. Louis | `apiKey` | Yes  | Yes  |
-| -------------------------------------------------- | -------------------------------------------------------- | -------- | ---- | ---- |
-|                                                    |                                                          |          |      |      |
-
+|---|---|---|---|---|
+| [Abstract VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes | Yes |
+| [Aletheia](https://aletheiaapi.com/) | Insider trading data, earnings call analysis, financial statements, and more | `apiKey` | Yes | Yes |
+| [Alpaca](https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/) | Realtime and historical market data on all US equities and ETFs | `apiKey` | Yes | Yes |
+| [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | `apiKey` | Yes | Unknown |
+| [apilayer marketstack](https://marketstack.com/) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown |
+| [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | `OAuth` | Yes | Yes |
+| [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes |
+| [Financial Modeling Prep](https://financialmodelingprep.com/developer/docs/) | Realtime and historical stock data | `apiKey` | Yes | Unknown |
+| [Front Accounting API](https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule) | FrontAccounting (FA) is multilingual and multicurrency Software for Small Businesses | OAuth | Yes  | Yes  |
+| [FRED](https://fred.stlouisfed.org/docs/api/fred/) | Economic data from the Federal Reserve Bank of St. Louis | `apiKey` | Yes | Yes |
 | [Hotstoks](https://hotstoks.com?utm_source=public-apis) | Stock market data powered by SQL | `apiKey` | Yes | Yes |
 | [IEX Cloud](https://iexcloud.io/docs/api/) | Realtime & Historical Stock and Market Data | `apiKey` | Yes | Yes |
 | [IG](https://labs.ig.com/gettingstarted) | Spreadbetting and CFD Market Data | `apiKey` | Yes | Unknown |
@@ -823,6 +801,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Belgium](https://data.gov.be/) | Belgium Government Open Data | No | Yes | Unknown |
 | [Open Government, Canada](http://open.canada.ca/en) | Canadian Government Open Data | No | No | Unknown |
 | [Open Government, Colombia](https://www.dane.gov.co/) | Colombia Government Open Data | No | No | Unknown |
+| [Open Government, Croatia](https://data.gov.hr/en) | Croatia Government Open Data | No | Yes | Unknown |
 | [Open Government, Cyprus](https://data.gov.cy/?language=en) | Cyprus Government Open Data | No | Yes | Unknown |
 | [Open Government, Denmark](https://www.opendata.dk/) | Denmark Government Open Data | No | Yes | Unknown |
 | [Open Government, Finland](https://www.avoindata.fi/en) | Finland Government Open Data | No | Yes | Unknown |
