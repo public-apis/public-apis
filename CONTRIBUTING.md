@@ -1,6 +1,6 @@
 # Contributing to public-apis
 
-> While the masses of pull requests and community involvement is appreciated, some pull requests have been specifically
+> While the masses of pull requests and community involvement are appreciated, some pull requests have been specifically
 opened to market company APIs that offer paid solutions. This API list is not a marketing tool, but a tool to help the
 community build applications and use free, public APIs quickly and easily. Pull requests that are identified as marketing attempts will not be accepted.
 >
