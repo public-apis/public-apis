@@ -756,7 +756,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Zippopotam.us](http://www.zippopotam.us) | Get information about place such as country, city, state, etc | No | No | Unknown |
 | [Ziptastic](https://ziptasticapi.com/) | Get the country, state, and city of any US zip-code | No | Yes | Unknown |
 
-
 **[⬆ Back to Index](#index)**
 ### Government
 API | Description | Auth | HTTPS | CORS |
