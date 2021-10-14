@@ -558,7 +558,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | `OAuth` | Yes | Yes |
 | [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes |
 | [Financial Modeling Prep](https://financialmodelingprep.com/developer/docs/) | Realtime and historical stock data | `apiKey` | Yes | Unknown |
-| [Front Accounting API](https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule) | FrontAccounting (FA) is multilingual and multicurrency Software for Small Businesses | OAuth | Yes  | Yes  |
+| [Front Accounting API](https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule) | FrontAccounting (FA) is multilingual and multicurrency Software for Small Businesses | `OAuth`  | Yes  | Yes  |
 | [FRED](https://fred.stlouisfed.org/docs/api/fred/) | Economic data from the Federal Reserve Bank of St. Louis | `apiKey` | Yes | Yes |
 | [Hotstoks](https://hotstoks.com?utm_source=public-apis) | Stock market data powered by SQL | `apiKey` | Yes | Yes |
 | [IEX Cloud](https://iexcloud.io/docs/api/) | Realtime & Historical Stock and Market Data | `apiKey` | Yes | Yes |
