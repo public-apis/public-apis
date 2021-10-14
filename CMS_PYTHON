@@ -1,0 +1,67 @@
+#BLL Code Starts from Here
+list_id=[]
+list_name=[]
+list_address=[]
+list_mobileno=[]
+def addcustomer(id,name,address,mobileno):
+    list_id.append(id)
+    list_name.append(name)
+    list_address.append(address)
+    list_mobileno.append(mobileno)
+def searchcustomer(id):
+    if list_id.__contains__(id)==True:
+        i=list_id.index(id)
+        name=list_name[i]
+        address=list_address[i]
+        mobileno=list_mobileno[i]
+        print("Name:",name,"Address:",address,"Mobile NO:",mobileno)#Wrong code Solve in OOP
+    else:
+        print("Id not found")#Wrong code solve in Exception Handling
+def deletecustomer(id):
+    if list_id.__contains__(id)==True:
+        i=list_id.index(id)
+        list_id.pop(i)
+        list_name.pop(i)
+        list_address.pop(i)
+        list_mobileno.pop(i)
+    else:
+        print("Id not found")#Wrong code solve in Exception Handling
+
+#BLL Code Ends Here
+#PL Code Starts from Here
+def showallCustomer():
+    for i in range(len(list_id)):
+        print("id:",list_id[i],"Name:", list_name[i], "Address:", list_address[i], "Mobile NO:", list_mobileno[i])
+while True:
+    print("1.Add\n2.Search\n3.Delete\n4.Modify\n5.Show All\n0.Exit")
+    ch=input("Enter your choice")
+    if ch=='1':
+        # write code for add customer
+        id=int(input("Enter id"))
+        name=input("Enter NAme")
+        address=input("Enter Address")
+        mobileno=input("Enter Mobile no")
+        addcustomer(id,name,address,mobileno)
+        print("Customer Added Sucessfully")
+        pass
+    elif ch=='2':
+        # write code for search customer
+        id=int(input("Enter id"))
+        searchcustomer(id)
+        pass
+    elif ch=='3':
+        # write code for delete customer
+        id = int(input("Enter id"))
+        deletecustomer(id)
+        print("Customer Deleted Sucessfully")
+        pass
+    elif ch=='4':
+        # write code for modify customer
+        pass
+    elif ch=='5':
+        # write code for show All customer
+        showallCustomer()
+        pass
+    else:
+        break
+#PL Code Ends Here
