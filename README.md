@@ -346,6 +346,7 @@ API | Description | Auth | HTTPS | CORS |
 | [VALR](https://docs.valr.com/) | Cryptocurrency Exchange based in South Africa | `apiKey` | Yes | Unknown |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
 | [ZMOK](https://zmok.io) | Ethereum JSON RPC API and Web3 provider | No | Yes | Unknown |
+| [blockfrost Cardano](https://blockfrost.io/) | Interaction with the Cardano mainnet and several testnets| 'apiKey' | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Currency Exchange
