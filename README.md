@@ -801,6 +801,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Colombia](https://www.dane.gov.co/) | Colombia Government Open Data | No | No | Unknown |
 | [Open Government, Cyprus](https://data.gov.cy/?language=en) | Cyprus Government Open Data | No | Yes | Unknown |
 | [Open Government, Denmark](https://www.opendata.dk/) | Denmark Government Open Data | No | Yes | Unknown |
+| [Open Government, Finland](https://www.avoindata.fi/en) | Finland Government Open Data | No | Yes | Unknown |
 | [Open Government, France](https://www.data.gouv.fr/) | French Government Open Data | `apiKey` | Yes | Unknown |
 | [Open Government, India](https://data.gov.in/) | Indian Government Open Data | `apiKey` | Yes | Unknown |
 | [Open Government, Italy](https://www.dati.gov.it/) | Italy Government Open Data | No | Yes | Unknown |
