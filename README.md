@@ -939,6 +939,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Songkick](https://www.songkick.com/developer/) | Music Events | `OAuth` | Yes | Unknown |
 | [Songlink / Odesli](https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741) | Get all the services on which a song is available | `apiKey` | Yes | Yes |
 | [Songsterr](https://www.songsterr.com/a/wa/api/) | Provides guitar, bass and drums tabs and chords | No | Yes | Unknown |
+| [Soundcloud](https://developers.soundcloud.com/docs/api/guide) | View soundcloud library, manage user profile, playlists, upload content | `OAuth` | Yes | Unknown |
 | [Spotify](https://beta.developer.spotify.com/documentation/web-api/) | View Spotify music catalog, manage users' libraries, get recommendations and more | `OAuth` | Yes | Unknown |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
 | [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
