@@ -79,6 +79,7 @@
 * [Geocoding](#geocoding)
 * [Government](#government)
 * [Health](#health)
+* [Humor](#humor)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Music](#music)
@@ -817,6 +818,15 @@ API | Description | Auth | HTTPS | CORS |
 | [Orion Health](https://developer.orionhealth.io/) | Medical platform which allows the development of applications for different healthcare scenarios | `OAuth` | Yes | Unknown |
 | [Quarantine](https://quarantine.country/coronavirus/api/) | Coronavirus API with free COVID-19 live updates | No | Yes | Yes |
 | [USDA Nutrients](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | `apiKey` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+
+### Humor
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Bread Puns](https://my-bao-server.herokuapp.com/api/breadpuns) | Provides puns about bread | No | Yes | Unknown |
+| [Icanhazdadjoke](https://icanhazdadjoke.com/) | Largest selection of dad jokes on the internet | No | Yes | Unknown |
+| [ICNDb](https://www.icndb.com/api/) | The Internet Chuck Norris Database | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Jobs
