@@ -826,6 +826,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Russia](https://data.gov.ru/?language=en) | Open Data Portal Russia | `apiKey` | No | Unknown |
 | [Open Government, Saudi Arabia](https://data.gov.sa) | Saudi Arabia Government Open Data | No | Yes | Unknown |
 | [Open Government, Singapore](https://data.gov.sg/) | Singapore Government Open Data | No | Yes | Unknown |
+| [Open Government, Slovakia](https://data.gov.sk/en/) | Slovakia Government Open Data | No | Yes | Unknown |
 | [Open Government, South Australian Government](https://data.sa.gov.au/) | South Australian Government Open Data | No | Yes | Unknown |
 | [Open Government, Spain](https://datos.gob.es/en) | Spain Government Open Data | No | Yes | Unknown |
 | [Open Government, Switzerland](https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html) | Switzerland Government Open Data | No | Yes | Unknown |
