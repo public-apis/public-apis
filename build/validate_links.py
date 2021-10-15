@@ -51,7 +51,7 @@ def validate_links(links):
     for link in links:
         h = httplib2.Http(disable_ssl_certificate_validation=True, timeout=25)
         try:
-            resp = h.request(link, headers={
+            resp = h.request(link + "/", headers={
                 # Faking user agent as some hosting services block not-whitelisted UA
                 'User-Agent': 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36'
             })
