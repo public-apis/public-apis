@@ -67,9 +67,11 @@ def check_entry(line_num, segments):
         title = title_re_match.group(1)
         if title.upper().endswith(' API'):
             add_error(line_num, 'Title should not end with "... API". Every entry is an API here!')
+    
     # END Title
     # START Description
     # first character should be capitalized
+    
     char = segments[index_desc][0]
     if char.upper() != char:
         add_error(line_num, "first character of description is not capitalized")
@@ -80,23 +82,29 @@ def check_entry(line_num, segments):
     desc_length = len(segments[index_desc])
     if desc_length > 100:
         add_error(line_num, "description should not exceed 100 characters (currently {})".format(desc_length))
+   
     # END Description
     # START Auth
     # values should conform to valid options only
+    
     auth = segments[index_auth]
     if auth != 'No' and (not auth.startswith('`') or not auth.endswith('`')):
         add_error(line_num, "auth value is not enclosed with `backticks`")
     if auth.replace('`', '') not in auth_keys:
         add_error(line_num, "{} is not a valid Auth option".format(auth))
+    
     # END Auth
     # START HTTPS
     # values should conform to valid options only
+    
     https = segments[index_https]
     if https not in https_keys:
         add_error(line_num, "{} is not a valid HTTPS option".format(https))
+    
     # END HTTPS
     # START CORS
     # values should conform to valid options only
+    
     cors = segments[index_cors]
     if cors not in cors_keys:
         add_error(line_num, "{} is not a valid CORS option".format(cors))
@@ -151,7 +159,6 @@ def check_format(filename):
         segments = [seg.strip() for seg in segments]
         check_entry(line_num, segments)
     # END Check Entries
-
 
 def main():
     if len(sys.argv) < 2:
