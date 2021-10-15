@@ -1106,6 +1106,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Satellite Passes](https://satellites.fly.dev) | Query next satellite passes above you | No | Yes | Yes |
 | [SHARE](https://share.osf.io/api/v2/) | A free, open, dataset about research and scholarly activities | No | Yes | Unknown |
 | [SpaceX](https://github.com/r-spacex/SpaceX-API) | Company, vehicle, launchpad and launch data | No | Yes | Unknown |
+| [SpaceX](https://api.spacex.land/graphql/) | GraphQL, Company, Ships, launchpad and launch data | No | Yes | Unknown |
 | [Sunrise and Sunset](https://sunrise-sunset.org/api) | Sunset and sunrise times for a given latitude and longitude | No | Yes | Unknown |
 | [TLE](https://tle.ivanstanojevic.me/#/docs) | Satellite information | No | Yes | Unknown |
 | [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | Unknown |
