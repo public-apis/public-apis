@@ -949,11 +949,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Lorem Picsum](https://picsum.photos/) | Images from Unsplash | No | Yes | Unknown |
 | [ObjectCut](https://objectcut.com/) | Image Background removal | `apiKey` | Yes | Yes |
 | [Pexels](https://www.pexels.com/api/) | Free Stock Photos and Videos | `apiKey` | Yes | Yes |
-<<<<<<< HEAD
-| [PhotoRoom](https://www.photoroom.com/api/) |  Remove background from images | `apiKey` | Yes | Unknown | 
-=======
-| [PhotoRoom](https://www.photoroom.com/api/) | Remove background from images| `apiKey` | Yes | Unknown |
->>>>>>> 986ad6c0242e4139947abcfd0380fd6f10ffacaf
+| [PhotoRoom](https://www.photoroom.com/api/) | Remove background from images | `apiKey` | Yes | Unknown | 
 | [Pixabay](https://pixabay.com/sk/service/about/api/) | Photography | `apiKey` | Yes | Unknown |
 | [PlaceKitten](https://placekitten.com/) | Resizable kitten placeholder images | No | Yes | Unknown |
 | [ReSmush.it](https://resmush.it/api) | Photo optimization | No | No | Unknown |
