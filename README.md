@@ -1438,6 +1438,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [7Timer!](http://www.7timer.info/doc.php?lang=en) | Weather, especially for Astroweather | No | No | Unknown |
 | [AccuWeather](https://developer.accuweather.com/apis) | Weather and forecast data | `apiKey` | No | Unknown |
+| [AEMET](http://www.aemet.es/es/datos_abiertos/AEMET_OpenData) | Data API of the Spanish Meteorological Agency | `apiKey` | Yes | Unknown |
 | [apilayer weatherstack](https://weatherstack.com/) | Real-Time & Historical World Weather Data API | `apiKey` | Yes | Unknown |
 | [APIXU](https://www.apixu.com/doc/request.aspx) | Weather | `apiKey` | Yes | Unknown |
 | [AQICN](https://aqicn.org/api/) | Air Quality Index Data for over 1000 cities | `apiKey` | Yes | Unknown |
