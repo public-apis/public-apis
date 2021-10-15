@@ -428,6 +428,7 @@ API | Description | Auth | HTTPS | CORS |
 | [host-t.com](https://host-t.com) | Basic DNS query via HTTP GET request | No | Yes | No |
 | [Host.io](https://host.io) | Domains Data API for Developers | `apiKey` | Yes | Yes |
 | [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown |
+| [Http Cats](https://http.cat/) | Cat images for HTTP status codes | No | Yes | Unknown |
 | [Httpbin](https://httpbin.org/) | A Simple HTTP Request & Response Service | No | Yes | Yes |
 | [Httpbin Cloudflare](https://cloudflare-quic.com/b/) | A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare | No | Yes | Yes |
 | [IBM Text to Speech](https://cloud.ibm.com/docs/text-to-speech/getting-started.html) | Convert text to speech | `apiKey` | Yes | Yes |
