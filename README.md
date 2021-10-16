@@ -159,8 +159,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Metacert](https://metacert.com/) | Metacert Link Flagging | `apiKey` | Yes | Unknown |
 | [Quttera](https://quttera.com/quttera-anti-malware-api-help) | Website Malware Scanner | `apiKey` | Yes | Unknown |
 | [Sucuri](https://docs.sucuri.net/website-monitoring/scanning-api/) | Website Malware Scanner | `apiKey` | Yes | Unknown |
-| [URLScan.io](https://urlscan.io/about-api/) | Scan and Analyse URLs | `apiKey` | Yes | Unknown |
 | [URLhaus](https://urlhaus-api.abuse.ch/) | Bulk queries and Download Malware Samples | No | Yes | Unknown |
+| [URLScan.io](https://urlscan.io/about-api/) | Scan and Analyse URLs | `apiKey` | Yes | Unknown |
 | [VirusTotal](https://www.virustotal.com/en/documentation/public-api/) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
 | [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
 
