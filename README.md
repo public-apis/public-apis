@@ -203,6 +203,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
 | [Nownodes](https://nownodes.io/) | Blockchain-as-a-service solution that provides high-quality connection via API | `apiKey` | Yes | Unknown |
 | [The Graph](https://thegraph.com) | Indexing protocol for querying networks like Ethereum with GraphQL | No | Yes | Unknown |
+| [Walltime](https://walltime.info/api.html?v=deltoid-4.10.0) | To retrieve Walltime's market info | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Books
