@@ -205,6 +205,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Nownodes](https://nownodes.io/) | Blockchain-as-a-service solution that provides high-quality connection via API | `apiKey` | Yes | Unknown |
 | [The Graph](https://thegraph.com) | Indexing protocol for querying networks like Ethereum with GraphQL | No | Yes | Unknown |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
+| [Steem](https://developers.steem.io/) | Blockchain-based blogging and social media website | Yes | No | No |
 
 **[⬆ Back to Index](#index)**
 ### Books
