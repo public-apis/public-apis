@@ -1408,6 +1408,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown |
 | [Smartcar](https://smartcar.com/docs/) | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth` | Yes | Yes |
 | [Tesla](https://www.teslaapi.io/) | API commands to communicate between your vehicle and your client | `OAuth` | Yes | Unknown |
+| [UK Vehicle Data](https://ukvehicledata.co.uk/) | A diverse collection of APIs that provide data on vehicles from the United Kingdom | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Video
