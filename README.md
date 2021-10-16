@@ -1243,6 +1243,7 @@ API | Description | Auth | HTTPS | CORS |
 | [City Bikes](https://api.citybik.es/v2/) | City Bikes around the world | No | Yes | Unknown |
 | [Cloudbet](https://www.cloudbet.com/api/) | Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically | `apiKey` | Yes | Yes |
 | [Cricket Scores](https://www.cricapi.com/) | Live cricket score, player statistics and fantasy scorecard API | `apiKey` | Yes | Unknown |
+| [Decathlon](https://developers.decathlon.com/) | Get data about sport places, exhaustive list of sports powerded by smart recommandation endpoints | No | Yes | Unknown |
 | [Ergast F1](http://ergast.com/mrd/) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
 | [Fitbit](https://dev.fitbit.com/) | Fitbit Information | `OAuth` | Yes | Unknown |
 | [Football (Soccer) Videos](https://www.scorebat.com/video-api/) | Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more | No | Yes | Yes |
