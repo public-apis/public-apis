@@ -1285,6 +1285,7 @@ API | Description | Auth | HTTPS | CORS |
 | [This Person Does not Exist](https://thispersondoesnotexist.com) | Generates real-life faces of people who do not exist | No | Yes | Unknown |
 | [UUID Generator](https://www.uuidtools.com/docs) | Generate UUIDs | No | Yes | No |
 | [Yes No](https://yesno.wtf/api) | Generate yes or no randomly | No | Yes | Unknown |
+| [Kanye West Quotes](https://kanye.rest/) | GenerateKanye West Quotes | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Text Analysis
