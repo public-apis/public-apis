@@ -473,7 +473,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Random Stuff](https://api-docs.pgamerx.com/) | Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed | `apiKey` | Yes | Unknown |
 | [Rejax](https://rejax.io/) | Reverse AJAX service to notify clients | `apiKey` | Yes | No |
 | [ReqRes](https://reqres.in/ ) | A hosted REST-API ready to respond to your AJAX requests | No | Yes | Unknown |
-| [RiteKit](https://ritekit.com/api-demo) | A collection of APIs to improve ROI of social media posts and ads programmatically | `apiKey` | Yes | Unknown |
 | [RSS feed to JSON](https://rss-to-json-serverless-api.vercel.app) | Returns RSS feed in JSON format using feed URL | No | Yes | Yes |
 | [SavePage.io](https://www.savepage.io) | A free, RESTful API used to screenshot any desktop, or mobile website | `apiKey` | Yes | Yes |
 | [Scraper.AI](https://docs.scraper.ai/#/) | Extract and monitor data from any website | `apiKey` | Yes | Unknown |
