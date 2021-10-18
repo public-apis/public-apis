@@ -2,9 +2,11 @@
 
 import httplib2
 import re
+import os
 import socket
 import sys
 
+print('Please wait....')
 
 def parse_links(filename):
     """Returns a list of URLs from text file"""
