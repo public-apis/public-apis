@@ -80,6 +80,7 @@
 * [Geocoding](#geocoding)
 * [Government](#government)
 * [Health](#health)
+* [Home Automation](#home-automation)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Music](#music)
@@ -899,6 +900,14 @@ API | Description | Auth | HTTPS | CORS |
 | [Orion Health](https://developer.orionhealth.io/) | Medical platform which allows the development of applications for different healthcare scenarios | `OAuth` | Yes | Unknown |
 | [Quarantine](https://quarantine.country/coronavirus/api/) | Coronavirus API with free COVID-19 live updates | No | Yes | Yes |
 | [USDA Nutrients](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | `apiKey` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Home Automation
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Foobot](http://api.foobot.io/apidoc/index.html) | Foobot Air Monitoring Device | `OAuth` | Yes | Unknown |
+| [Honeywell Home](https://developer.honeywellhome.com/api-methods) | Honeywell Home Devices | `OAuth` | Yes | Unknown |
+| [Samsung SmartThings](https://smartthings.developer.samsung.com/) | Samsung SmartThings | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Jobs
