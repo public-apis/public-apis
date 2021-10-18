@@ -297,6 +297,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Continuous Integration
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Buddy](https://buddy.works/docs/api/getting-started/overview) | The fastest continuous integration and continuous delivery platform | `OAuth` | Yes | Unknown | 
 | [CircleCI](https://circleci.com/docs/api/v1-reference/) | Automate the software development process using continuous integration and continuous delivery | `apiKey` | Yes | Unknown |
 | [Codeship](https://apidocs.codeship.com/) | Codeship is a Continuous Integration Platform in the cloud | `apiKey` | Yes | Unknown |
 | [Travis CI](https://docs.travis-ci.com/api/) | Sync your GitHub projects with Travis CI to test your code in minutes | `apiKey` | Yes | Unknown |
