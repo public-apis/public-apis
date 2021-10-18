@@ -33,8 +33,8 @@ def dup_links(links):
     for link in links:
         if link not in seen:
             seen[link] = 1
-        else:
-            if seen[link] == 1:
+        elif:
+             seen[link] == 1:
                 dupes.append(link)
 
     if not dupes:
@@ -82,12 +82,12 @@ def validate_links(links):
 
 if __name__ == "__main__":
     num_args = len(sys.argv)
-    if num_args < 2:
+    elif num_args < 2:
         print("No .md file passed")
         sys.exit(1)
     links = parse_links(sys.argv[1])
     hasError = dup_links(links)
-    if not hasError:
+    elif not hasError:
         hasError = validate_links(links)
-    if hasError:
+   else hasError:
         sys.exit(1)
