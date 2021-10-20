@@ -578,6 +578,7 @@ API | Description | Auth | HTTPS | CORS |
 | [apilayer marketstack](https://marketstack.com/) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown |
 | [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | `OAuth` | Yes | Yes |
 | [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes |
+| [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | U.S. Department of the Treasury Data | No | Yes | Unknown |
 | [Financial Modeling Prep](https://financialmodelingprep.com/developer/docs/) | Realtime and historical stock data | `apiKey` | Yes | Unknown |
 | [FRED](https://fred.stlouisfed.org/docs/api/fred/) | Economic data from the Federal Reserve Bank of St. Louis | `apiKey` | Yes | Yes |
 | [Hotstoks](https://hotstoks.com?utm_source=public-apis) | Stock market data powered by SQL | `apiKey` | Yes | Yes |
@@ -1078,7 +1079,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Stoicism Quote](https://github.com/tlcheah2/stoic-quote-lambda-public-api) | Quotes about Stoicism | No | Yes | Unknown |
 | [Traitify](https://app.traitify.com/developer) | Assess, collect and analyze Personality | No | Yes | Unknown |
 | [Vadivelu HTTP Codes](https://vadivelu.anoram.com/) | On demand HTTP Codes with images | No | Yes | No |
-| [Zen Quotes](https://zenquotes.io/) | Large collection of Zen quotes for inspiration | No | Yes | Yes | 
+| [Zen Quotes](https://zenquotes.io/) | Large collection of Zen quotes for inspiration | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Phone
