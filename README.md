@@ -1,3 +1,6 @@
+<!-- This Code is Useful For Your Software-->
+
+Read more: https://html.com/tags/comment-tag/#ixzz79ojXE3xG
 <div align="center">
     <h1>Public APIs</h1>
     <i>A collective list of free APIs for use in software and web development</i>
