@@ -58,9 +58,9 @@ def validate_links(links):
                 
             resp = h.request(link, headers={
                 # Faking user agent as some hosting services block not-whitelisted UA
-                'user-agent': 'Mozilla/5.0'
+                'user-agent': 'Mozilla/5.0',
                 # setting host because Cloudflare returns 403 asking for captcha if host is missing
-                f'host: {host}'
+                'host': host
             })
             code = int(resp[0]['status'])
             # Checking status code errors
