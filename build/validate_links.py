@@ -51,9 +51,16 @@ def validate_links(links):
     for link in links:
         h = httplib2.Http(disable_ssl_certificate_validation=True, timeout=25)
         try:
+            # fetching host name, removing leading www
+            host = link.split('//', 1)[1].split('/', 1)[0]
+            if host[:3] == 'www':
+                host = host[4:]
+                
             resp = h.request(link, headers={
                 # Faking user agent as some hosting services block not-whitelisted UA
-                'user-agent': 'Mozilla/5.0'
+                'user-agent': 'Mozilla/5.0',
+                # setting host because Cloudflare returns 403 asking for captcha if host is missing
+                'host': host
             })
             code = int(resp[0]['status'])
             # Checking status code errors
