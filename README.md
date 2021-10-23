@@ -648,7 +648,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Crafatar](https://crafatar.com) | API for Minecraft skins and faces | No | Yes | Yes |
 | [Cross Universe](https://crossuniverse.psychpsyo.com/apiDocs.html) | Cross Universe Card Data | No | Yes | Yes |
 | [Deck of Cards](http://deckofcardsapi.com/) | Deck of Cards | No | No | Unknown |
-| [Destiny The Game](https://github.com/Bungie-net/api) | Bungie Platform API | `apiKey` | Yes | Unknown |
+| [Destiny The Game](https://bungie-net.github.io/multi/index.html) | Bungie Platform API | `apiKey` | Yes | Unknown |
 | [Digimon Information](https://digimon-api.vercel.app/) | Provides information about digimon creatures | No | Yes | Unknown |
 | [Digimon TCG](https://documenter.getpostman.com/view/14059948/TzecB4fH) | Search for Digimon cards in digimoncard.io | No | Yes | Unknown | 
 | [Disney](https://disneyapi.dev) | Information of Disney characters | No | Yes | Yes |
