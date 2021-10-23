@@ -64,7 +64,7 @@ def validate_links(links):
             })
             code = int(resp[0]['status'])
             # Checking status code errors
-            if (code >= 300):
+            if (code >= 400):
                 hasError = True
                 print(f"ERR:CLT:{code} : {link}")
         except TimeoutError:
