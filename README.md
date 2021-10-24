@@ -107,6 +107,7 @@
 ### Animals
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Dog CEO](https://dog.ceo/dog-api/) | The Dog CEO Dog API allows developers to access and integrate over 20,000 images of dogs from over 120 breeds with other applications. |No | Yes | No |
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | Yes |
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
 | [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
