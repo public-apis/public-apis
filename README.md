@@ -149,6 +149,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Shikimori](https://shikimori.one/api/doc) | Anime discovery, tracking, forum, rates | `OAuth` | Yes | Unknown |
 | [Studio Ghibli](https://ghibliapi.herokuapp.com) | Resources from Studio Ghibli films | No | Yes | Yes |
 | [Waifu.pics](https://waifu.pics/docs) | Image sharing platform for anime images | No | Yes | No |
+| [MyAnimeLisAPI](https://myanimelist.net/apiconfig/references/api/v2) | Resources from Anime List API | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Anti-Malware
