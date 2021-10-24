@@ -1331,6 +1331,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Tracking
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Aftership](https://developers.aftership.com/reference/quick-start) | API to update, manage and track shipment efficiently | `apiKey` | Yes | Yes |
 | [Pixela](https://pixe.la) | API for recording and tracking habits or effort, routines | `X-Mashape-Key` | Yes | Yes |
 | [Postmon](http://postmon.com.br) | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | Unknown |
 | [Sweden](https://developer.postnord.com/docs2) | Provides information about parcels in transport | `apiKey` | No | Unknown |
