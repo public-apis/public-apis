@@ -262,6 +262,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Abstract Public Holidays](https://www.abstractapi.com/holidays-api) | Data on national, regional, and religious holidays via API | `apiKey` | Yes | Yes |
+| [Bank of Canada Holiday Schedule](https://www.bankofcanada.ca/press/upcoming-events/bank-of-canada-holiday-schedule/) | Dates on holidays from the Bank of Canada | No | No | Unknown |
 | [Calendar Index](https://www.calendarindex.com/) | Worldwide Holidays and Working Days | `apiKey` | Yes | Yes |
 | [Calendarific](https://calendarific.com/) | Worldwide Holidays | `apiKey` | Yes | Unknown |
 | [Church Calendar](http://calapi.inadiutorium.cz/) | Catholic liturgical calendar | No | No | Unknown |
