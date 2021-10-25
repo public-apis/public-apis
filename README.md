@@ -242,7 +242,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | `apiKey` | Yes | Unknown |
 | [Domainsdb.info](https://domainsdb.info/) | Registered Domain Names Search | No | Yes | No |
-| [Freelancer](https://developers.freelancer.com) | Hire freelancers to get work done | `OAuth` | Yes | Unknown |
+| [Freelancer](https://developers.freelancer.com/docs) | Hire freelancers to get work done | `OAuth` | Yes | Unknown |
 | [Gmail](https://developers.google.com/gmail/api/) | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | Unknown |
 | [Google Analytics](https://developers.google.com/analytics/) | Collect, configure and analyze your data to reach the right audience | `OAuth` | Yes | Unknown |
 | [ImprovMX](https://improvmx.com/api) | API for free email forwarding service | `apiKey` | Yes | Unknown |
@@ -401,7 +401,7 @@ API | Description | Auth | HTTPS | CORS |
 | [US Autocomplete](https://smartystreets.com/docs/cloud/us-autocomplete-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes |
 | [US Extract](https://smartystreets.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes |
 | [US Street Address](https://smartystreets.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes |
-| [vatlayer](https://vatlayer.com) | VAT number validation | No | Yes | Unknown |
+| [vatlayer](https://vatlayer.com/documentation) | VAT number validation | No | Yes | Unknown |
 | [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
@@ -509,7 +509,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Serialif Color](https://color.serialif.com/) | Color conversion, complementary, grayscale and contrasted text | No | Yes | No |
 | [serpstack](https://serpstack.com/) | Real-Time & Accurate Google Search Results API | `apiKey` | Yes | Yes |
 | [SHOUTCLOUD](http://shoutcloud.io/) | ALL-CAPS AS A SERVICE | No | No | Unknown |
-| [Sonar](https://omnisint.io/) | Project Sonar DNS Enumeration API | No | Yes | Yes |
+| [Sonar](https://github.com/Cgboal/SonarSearch) | Project Sonar DNS Enumeration API | No | Yes | Yes |
 | [SonarQube](https://sonarcloud.io/web_api) | SonarQube REST APIs to detect bugs, code smells & security vulnerabilities | `OAuth` | Yes | Unknown |
 | [StackExchange](https://api.stackexchange.com/) | Q&A forum for developers | `OAuth` | Yes | Unknown |
 | [Statically](https://statically.io/) | A free CDN for developers | No | Yes | Yes |
@@ -533,7 +533,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OwlBot](https://owlbot.info/) | Definitions with example sentence and photo if available | `apiKey` | Yes | Yes |
 | [Oxford](https://developer.oxforddictionaries.com/) | Dictionary Data | `apiKey` | Yes | No |
 | [Wordnik](https://developer.wordnik.com) | Dictionary Data | `apiKey` | Yes | Unknown |
-| [Words](https://www.wordsapi.com/) | Definitions and synonyms for more than 150,000 words | `apiKey` | Yes | Unknown |
+| [Words](https://www.wordsapi.com/docs/) | Definitions and synonyms for more than 150,000 words | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Documents & Productivity
@@ -624,7 +624,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenFIGI](https://www.openfigi.com/api) | Equity, index, futures, options symbology from Bloomberg LP | `apiKey` | Yes | Yes |
 | [Plaid](https://plaid.com/) | Connect with user's bank accounts and access transaction data | `apiKey` | Yes | Unknown |
 | [Polygon](https://polygon.io/) | Historical stock market data | `apiKey` | Yes | Unknown |
-| [Razorpay IFSC](https://ifsc.razorpay.com/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown |
+| [Razorpay IFSC](https://razorpay.com/docs/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown |
 | [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | Websocket API to access realtime stock data | `apiKey` | No | Unknown |
 | [SmartAPI](https://smartapi.angelbroking.com/) | Gain access to set of <SmartAPI> and create end-to-end broking services | `apiKey` | Yes | Unknown |
 | [StockData](https://www.StockData.org) | Real-Time, Intraday & Historical Market Data, News and Sentiment API | `apiKey` | Yes | Yes |
@@ -688,7 +688,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Digimon TCG](https://documenter.getpostman.com/view/14059948/TzecB4fH) | Search for Digimon cards in digimoncard.io | No | Yes | Unknown |
 | [Disney](https://disneyapi.dev) | Information of Disney characters | No | Yes | Yes |
 | [Dota 2](https://docs.opendota.com/) | Provides information about Player stats , Match stats, Rankings for Dota 2 | `apiKey` | Yes | Unknown |
-| [Dungeons and Dragons](http://www.dnd5eapi.co/) | Reference for 5th edition spells, classes, monsters, and more | No | No | No |
+| [Dungeons and Dragons](https://www.dnd5eapi.co/docs/) | Reference for 5th edition spells, classes, monsters, and more | No | No | No |
 | [Dungeons and Dragons (Alternate)](https://open5e.com/) | Includes all monsters and spells from the SRD (System Reference Document) as well as a search API | No | Yes | Yes |
 | [Eve Online](https://esi.evetech.net/ui) | Third-Party Developer Documentation | `OAuth` | Yes | Unknown |
 | [FIFA Ultimate Team](https://www.easports.com/fifa/ultimate-team/api/fut/item) | FIFA Ultimate Team items API | No | Yes | Unknown |
@@ -748,7 +748,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tronald Dump](https://www.tronalddump.io/) | The dumbest things Donald Trump has ever said | No | Yes | Unknown |
 | [Valorant (non-official)](https://valorant-api.com) | An extensive API containing data of most Valorant in-game items, assets and more | No | Yes | Unknown |
 | [Wargaming.net](https://developers.wargaming.net/) | Wargaming.net info and stats | `apiKey` | Yes | No |
-| [When is next MCU film](https://www.whenisthenextmcufilm.com/) | Upcomimg MCU film information | No | Yes | Unknown |
+| [When is next MCU film](https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md) | Upcomimg MCU film information | No | Yes | Unknown |
 | [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | No |
 | [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
 
@@ -845,7 +845,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Census.gov](https://www.census.gov/data/developers/data-sets.html) | The US Census Bureau provides various APIs and data sets on demographics and businesses | No | Yes | Unknown |
 | [City, Berlin](https://daten.berlin.de/) | Berlin(DE) City Open Data | No | Yes | Unknown |
 | [City, Gdańsk](https://ckan.multimediagdansk.pl/en) | Gdańsk (PL) City Open Data | No | Yes | Unknown |
-| [City, Gdynia](http://otwartedane.gdynia.pl/en/) | Gdynia (PL) City Open Data | No | No | Unknown |
+| [City, Gdynia](http://otwartedane.gdynia.pl/en/api_doc.html) | Gdynia (PL) City Open Data | No | No | Unknown |
 | [City, Helsinki](https://hri.fi/en_gb/) | Helsinki(FI) City Open Data | No | Yes | Unknown |
 | [City, Nantes Open Data](https://data.nantesmetropole.fr/pages/home/) | Nantes(FR) City Open Data | `apiKey` | Yes | Unknown |
 | [City, New York Open Data](https://opendata.cityofnewyork.us/) | New York (US) City Open Data | No | Yes | Unknown |
@@ -862,7 +862,7 @@ API | Description | Auth | HTTPS | CORS |
 | [EPA](https://www.epa.gov/developers/data-data-products#apis) | Web services and data sets from the US Environmental Protection Agency | No | Yes | Unknown |
 | [FBI Wanted](https://www.fbi.gov/wanted/api) | Access information on the FBI Wanted program | No | Yes | Unknown |
 | [FEC](https://api.open.fec.gov/developers/) | Information on campaign donations in federal elections | `apiKey` | Yes | Unknown |
-| [Federal Register](https://www.federalregister.gov/reader-aids/developer-resources) | The Daily Journal of the United States Government | No | Yes | Unknown |
+| [Federal Register](https://www.federalregister.gov/reader-aids/developer-resources/rest-api) | The Daily Journal of the United States Government | No | Yes | Unknown |
 | [Food Standards Agency](http://ratings.food.gov.uk/open-data/en-GB) | UK food hygiene rating data API | No | No | Unknown |
 | [Gazette Data, UK](https://www.thegazette.co.uk/data) | UK official public record API | `OAuth` | Yes | Unknown |
 | [INEI](http://iinei.inei.gob.pe/microdatos/) | Peruvian Statistical Government Open Data | No | No | Unknown |
