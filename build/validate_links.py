@@ -56,9 +56,9 @@ def validate_links(links):
             if host[:3] == 'www':
                 host = host[4:]
                 
-            resp = h.request(link, headers={
+            resp = h.request(link + "/", headers={
                 # Faking user agent as some hosting services block not-whitelisted UA
-                'user-agent': 'Mozilla/5.0',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36',
                 # setting host because Cloudflare returns 403 asking for captcha if host is missing
                 'host': host
             })
