@@ -1,6 +1,6 @@
 # Contributing to public-apis
 
-> While the masses of pull requests and community involvement is appreciated, some pull requests have been specifically
+> While the masses of pull requests and community involvement are appreciated, some pull requests have been specifically
 opened to market company APIs that offer paid solutions. This API list is not a marketing tool, but a tool to help the
 community build applications and use free, public APIs quickly and easily. Pull requests that are identified as marketing attempts will not be accepted.
 >
@@ -44,6 +44,7 @@ After you've created a branch on your fork with your changes, it's time to [make
 
 ## Pull Request Guidelines
 
+* Never put an update/new version of an API that is already listed, the old version of the API gets deprecated.
 * Continue to follow the alphabetical ordering that is in place per section.
 * Each table column should be padded with one space on either side.
 * The Description should not exceed 100 characters.
@@ -80,7 +81,7 @@ During the discussion, you may be asked to make some changes to your pull reques
 
 If so, add more commits to your branch and push them – they will automatically go into the existing pull request. But don't forget to squash them.
 
-Opening a pull request will trigger a Travis CI build to check the validity of all links in the project. After the build completes, **please ensure that the build has passed**. If the build did not pass, please view the Travis CI log and correct any errors that were found in your contribution. 
+Opening a pull request will trigger a build to check the validity of all links in the project. After the build completes, **please ensure that the build has passed**. If the build did not pass, please view the build logs and correct any errors that were found in your contribution. 
 
 *Thanks for being a part of this project, and we look forward to hearing from you soon!*
 
