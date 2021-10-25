@@ -1329,6 +1329,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Tracking
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [PostalPinCode](http://www.postalpincode.in/Api-Details)| API for getting Pincode details in India | No | Yes | Unknown |
 | [Pixela](https://pixe.la) | API for recording and tracking habits or effort, routines | `X-Mashape-Key` | Yes | Yes |
 | [Postmon](http://postmon.com.br) | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | Unknown |
 | [Sweden](https://developer.postnord.com/docs2) | Provides information about parcels in transport | `apiKey` | No | Unknown |
