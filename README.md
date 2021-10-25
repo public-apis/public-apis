@@ -891,6 +891,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Netherlands](https://data.overheid.nl/en/ondersteuning/data-publiceren/api) | Netherlands Government Open Data | No | Yes | Unknown |
 | [Open Government, New South Wales](https://api.nsw.gov.au/) | New South Wales Government Open Data | `apiKey` | Yes | Unknown |
 | [Open Government, New Zealand](https://www.data.govt.nz/) | New Zealand Government Open Data | No | Yes | Unknown |
+| [Open Government, Norway](https://data.norge.no/dataservices) | Norwegian Government Open Data | No | Yes | Yes |
 | [Open Government, Peru](https://www.datosabiertos.gob.pe/) | Peru Government Open Data | No | Yes | Unknown |
 | [Open Government, Poland](https://dane.gov.pl/en) | Poland Government Open Data | No | Yes | Yes |
 | [Open Government, Portugal](https://dados.gov.pt/en/docapi/) | Portugal Government Open Data | No | Yes | Yes |
