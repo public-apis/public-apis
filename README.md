@@ -646,6 +646,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OrderPizzaAPI](https://order-pizza-api.herokuapp.com/api/ui/) | Order Pizza | `apiKey` | Yes | Unknown |
 | [PunkAPI](https://punkapi.com/) | Brewdog Beer Recipes | No | Yes | Unknown |
 | [Rustybeer](https://rustybeer.herokuapp.com/) | Beer brewing tools | No | Yes | No |
+| [Recipe](http://www.recipepuppy.com/about/api/) | Recipes food, ingredients | No | No | No |
 | [Spoonacular](https://spoonacular.com/food-api) | Recipes, Food Products, and Meal Planning | `apiKey` | Yes | Unknown |
 | [Systembolaget](https://api-portal.systembolaget.se) | Govornment owned liqour store in Sweden | `apiKey` | Yes | Unknown |
 | [TacoFancy](https://github.com/evz/tacofancy-api) | Community-driven taco database | No | No | Unknown |
