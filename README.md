@@ -461,6 +461,7 @@ API | Description | Auth | HTTPS | CORS |
 | [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown |
 | [Httpbin](https://httpbin.org/) | A Simple HTTP Request & Response Service | No | Yes | Yes |
 | [Httpbin Cloudflare](https://cloudflare-quic.com/b/) | A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare | No | Yes | Yes |
+| [Hunter](https://hunter.io/api) | API for domain search, professional email finder, author finder and email verifier | `apiKey` | Yes | Unknown |
 | [IBM Text to Speech](https://cloud.ibm.com/docs/text-to-speech/getting-started.html) | Convert text to speech | `apiKey` | Yes | Yes |
 | [Icanhazepoch](https://icanhazepoch.com) | Get Epoch time | No | Yes | Yes |
 | [Icanhazip](https://major.io/icanhazip-com-faq/) | IP Address API | No | Yes | Yes |
