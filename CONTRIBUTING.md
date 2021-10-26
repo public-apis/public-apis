@@ -4,7 +4,7 @@
 opened to market company APIs that offer paid solutions. This API list is not a marketing tool, but a tool to help the
 community build applications and use free, public APIs quickly and easily. Pull requests that are identified as marketing attempts will not be accepted.
 >
-> Please make sure the API you want to add has a full free access or at least a free tier before submitting.
+> Please make sure the API you want to add has full, free access or at least a free tier and does not depend on the purchase of a device/service before submitting.  An example that would be rejected is an API that is used to control a smart outlet - the API is free, but you must purchase the smart device.
 >
 > Thanks for understanding! :)
 
