@@ -1444,7 +1444,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for Grenoble, France](https://www.metromobilite.fr/pages/opendata/OpenDataApi.html) | Grenoble public transport | No | No | No |
 | [Transport for Hessen, Germany](https://opendata.rmv.de/site/start.html) | RMV API (Public Transport in Hessen) | No | Yes | Unknown |
 | [Transport for Honolulu, US](http://hea.thebus.org/api_info.asp) | Honolulu Transportation Information | `apiKey` | No | Unknown |
-| [Transport for India](https://data.gov.in/sector/transport) | India Public Transport API | `apiKey` | Yes | Unknown |
 | [Transport for Lisbon, Portugal](https://emel.city-platform.com/opendata/) | Data about buses routes, parking and traffic | `apiKey` | Yes | Unknown |
 | [Transport for London, England](https://api.tfl.gov.uk) | TfL API | `apiKey` | Yes | Unknown |
 | [Transport for Manchester, England](https://developer.tfgm.com/) | TfGM transport network data | `apiKey` | Yes | No |
