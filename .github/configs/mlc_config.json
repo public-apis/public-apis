@@ -1,0 +1,22 @@
+{
+   "ignorePatterns": [
+    {
+      "pattern": "^https://example.com"
+    },
+    {
+      "pattern": "^https://github.com/public-apis/public-apis/issues"
+    },
+    {
+      "pattern": "^https://github.com/public-apis/public-apis/pulls"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/",
+      "replacement": "{{env.DEPLOYMENT_WORKSPACE}}/"
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true
+}
+

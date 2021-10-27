@@ -18,5 +18,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Set Deployment Workspace
+        run:
+          echo "DEPLOYMENT_WORKSPACE=$GITHUB_WORKSPACE" >> $GITHUB_ENV
+
       - name: Validate all links from README.md
-        run: build/validate_links.py ${FORMAT_FILE}
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'no'
+          use-verbose-mode: 'yes'
+          config-file: '.github/configs/mlc_config.json'
+
