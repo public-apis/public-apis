@@ -162,11 +162,12 @@ API | Description | Auth | HTTPS | CORS |
 | [MalShare](https://malshare.com/doc.php) | Malware Archive / file sourcing | `apiKey` | Yes | No |
 | [MalwareBazaar](https://bazaar.abuse.ch/api/) | Collect and share malware samples | `apiKey` | Yes | Unknown |
 | [Metacert](https://metacert.com/) | Metacert Link Flagging | `apiKey` | Yes | Unknown |
+| [Scanii](https://docs.scanii.com/) | Simple REST API that can scan submitted documents/files for the presence of threats.| `apiKey` | Yes | Yes |
 | [URLhaus](https://urlhaus-api.abuse.ch/) | Bulk queries and Download Malware Samples | No | Yes | Unknown |
 | [URLScan.io](https://urlscan.io/about-api/) | Scan and Analyse URLs | `apiKey` | Yes | Unknown |
 | [VirusTotal](https://www.virustotal.com/en/documentation/public-api/) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
 | [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
-| [Scanii](https://docs.scanii.com/) | Simple REST API that can scan submitted documents/files for the presence of threats.| `apiKey` | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 ### Art & Design
