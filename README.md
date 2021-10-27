@@ -206,6 +206,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Blockchain
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Ankr](https://app.ankr.com/) | Multi-blockchain nodes setup and api provider | `apiKey` | Yes | Yes |
 | [Bitquery](https://graphql.bitquery.io/ide) | Onchain GraphQL APIs & DEX APIs | `apiKey` | Yes | Yes |
 | [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
 | [Chainpoint](https://tierion.com/chainpoint/) | Chainpoint is a global network for anchoring data to the Bitcoin blockchain | No | Yes | Unknown |
