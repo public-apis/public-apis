@@ -215,6 +215,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Steem](https://developers.steem.io/) | Blockchain-based blogging and social media website | No | No | No |
 | [The Graph](https://thegraph.com) | Indexing protocol for querying networks like Ethereum with GraphQL | No | Yes | Unknown |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
+| [Wazirx](https://api.wazirx.com/api/v2/market-status) | To retrieve Wazirx's market info | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Books
