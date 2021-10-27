@@ -114,6 +114,7 @@ API | Description | Auth | HTTPS | CORS |
 | [catAPI](https://thatcopy.pw/catapi) | Random pictures of cats | No | Yes | Yes |
 | [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | No |
 | [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Yes |
+| [Dog Facts](https://kinduff.github.io/dog-api/) | Random facts of Dogs | No | Yes | Yes |
 | [Dogs](https://dog.ceo/dog-api/) | Based on the Stanford Dogs Dataset | No | Yes | Yes |
 | [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59) | Retrieve recent or notable birding observations within a region | `apiKey` | Yes | Unknown |
 | [Elephants](https://elephant-api.herokuapp.com/) | A free API to feature awesome elephants in your next project | No | Yes | Yes |
