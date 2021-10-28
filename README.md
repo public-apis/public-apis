@@ -71,6 +71,7 @@
 * [Development](#development)
 * [Dictionaries](#dictionaries)
 * [Documents & Productivity](#documents--productivity)
+* [Email](#email)
 * [Entertainment](#entertainment)
 * [Environment](#environment)
 * [Events](#events)
@@ -579,6 +580,13 @@ API | Description | Auth | HTTPS | CORS |
 | [Vector Express v2.0](https://vector.express) | Free vector file converting API | No | Yes | No |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Email
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Mailtrap](https://mailtrap.docs.apiary.io/#) | A service for the safe testing of emails sent from the development and staging environments | `apiKey` | Yes | Unknown |
+| [Sendgrid](https://sendgrid.com/docs/api-reference/) | A cloud-based SMTP provider that allows you to send emails without having to maintain email servers | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Entertainment
