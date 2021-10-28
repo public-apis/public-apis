@@ -136,7 +136,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Anime
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [AniAPI](https://github.com/AniAPI-Team/AniAPI) | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | Yes |
+| [AniAPI](https://aniapi.com/docs/) | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | Yes |
 | [AniDB](https://wiki.anidb.net/HTTP_API_Definition) | Anime Database | `apiKey` | No | Unknown |
 | [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
 | [AnimeChan](https://github.com/RocktimSaikia/anime-chan) | Anime quotes (over 10k+) | No | Yes | No |
