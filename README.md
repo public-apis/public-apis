@@ -484,6 +484,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IFTTT](https://platform.ifttt.com/docs/connect_api) | IFTTT Connect API | No | Yes | Unknown |
 | [Image-Charts](https://documentation.image-charts.com/) | Generate charts, QR codes and graph images | No | Yes | Yes |
 | [import.io](http://api.docs.import.io/) | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | Unknown |
+| [ip-fast.com](https://ip-fast.com/docs/) | IP address, country and city | No | Yes | Yes |
 | [IP2WHOIS Information Lookup](https://www.ip2whois.com/) | WHOIS domain name lookup | `apiKey` | Yes | Unknown |
 | [ipfind.io](https://ipfind.io) | Geographic location of an IP address or any domain name along with some other useful information | `apiKey` | Yes | Yes |
 | [IPify](https://www.ipify.org/) | A simple IP Address API | No | Yes | Unknown |
