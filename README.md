@@ -263,6 +263,7 @@ API | Description | Auth | HTTPS | CORS |
 | [markerapi](http://www.markerapi.com/) | Trademark Search | No | No | Unknown |
 | [ORB Intelligence](https://api.orb-intelligence.com/docs/) | Company lookup | `apiKey` | Yes | Unknown |
 | [Smartsheet](https://smartsheet.redoc.ly/) | Allows you to programmatically access and Smartsheet data and account information | `OAuth` | Yes | No |
+| [Square](https://developer.squareup.com/reference/square) | Easy way to take payments, manage refunds, and help customers checkout online | `OAuth` | Yes | Unknown |
 | [SwiftKanban](https://www.digite.com/swiftkanban/) | Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity | `apiKey` | Yes | Unknown |
 | [Tenders in Hungary](https://tenders.guru/hu/api) | Get data for procurements in Hungary in JSON format | No | Yes | Unknown |
 | [Tenders in Poland](https://tenders.guru/pl/api) | Get data for procurements in Poland in JSON format | No | Yes | Unknown |
