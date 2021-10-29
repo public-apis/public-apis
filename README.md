@@ -578,6 +578,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Flowdash](https://docs.flowdash.com/docs/api-introduction) | Automate business workflows | `apiKey` | Yes | Unknown |
 | [Html2PDF](https://html2pdf.app/) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
 | [JIRA](https://developer.atlassian.com/server/jira/platform/rest-apis/) | JIRA is a proprietary issue tracking product that allows bug tracking and agile project management | `OAuth` | Yes | Unknown |
+| [Mattermost](https://api.mattermost.com/) | An open source platform for developer collaboration | `OAuth` | Yes | Unknown |
 | [Mercury](https://mercury.postlight.com/web-parser/) | Web parser | `apiKey` | Yes | Unknown |
 | [Monday](https://api.developer.monday.com/docs) | Programmatically access and update data inside a monday.com account | `apiKey` | Yes | Unknown |
 | [Notion](https://developers.notion.com/docs/getting-started) | Integrate with Notion | `OAuth` | Yes | Unknown |
