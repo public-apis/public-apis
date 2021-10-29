@@ -789,6 +789,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TCGdex](https://www.tcgdex.net/docs) | Multi languages Pokémon TCG Information | No | Yes | Yes |
 | [Tebex](https://docs.tebex.io/plugin/) | Tebex API for information about game purchases | `X-Mashape-Key` | Yes | No |
 | [Tronald Dump](https://www.tronalddump.io/) | The dumbest things Donald Trump has ever said | No | Yes | Unknown |
+| [Universalis](https://universalis.app/docs/index.html) | Final Fantasy XIV market board data | No | Yes | Yes |
 | [Valorant (non-official)](https://valorant-api.com) | An extensive API containing data of most Valorant in-game items, assets and more | No | Yes | Unknown |
 | [Wargaming.net](https://developers.wargaming.net/) | Wargaming.net info and stats | `apiKey` | Yes | No |
 | [When is next MCU film](https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md) | Upcomimg MCU film information | No | Yes | Unknown |
