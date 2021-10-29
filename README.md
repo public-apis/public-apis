@@ -544,7 +544,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tyk](https://tyk.io/open-source/) | Api and service management platform | `apiKey` | Yes | Yes |
 | [Wandbox](https://github.com/melpon/wandbox/blob/master/kennel2/API.rst) | Code compiler supporting 35+ languages mentioned at wandbox.org | No | Yes | Unknown |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
-| [Sms Api & Received OTP](https://jotp.me/) | Send SMS Via API And OTP Receiving Service | `apiKey,secret,acid` | Yes | Yes |
+| [Sms Api & Received OTP](https://jotp.me/) | Send SMS Via API And OTP Receiving Service | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 ### Dictionaries
