@@ -1696,6 +1696,7 @@ API | Description | Auth | HTTPS | CORS |
 | [weather-api](https://github.com/robertoduessmann/weather-api) | A RESTful free API to check the weather | No | Yes | No |
 | [WeatherAPI](https://www.weatherapi.com/) | Weather API with other stuff like Astronomy and Geolocation API | `apiKey` | Yes | Yes |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
+| [Weather Stack](https://weatherstack.com) | Retrieve accurate weather information in lightweight JSON format | `apiKey` | Yes | Unknown |
 | [Yahoo Weather](https://developer.yahoo.com/weather/) | Weather API from Yahoo | `OAuth` | Yes | Unknown |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
 
