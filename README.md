@@ -1283,7 +1283,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Hackerearth](https://www.hackerearth.com/docs/wiki/developers/v4/) | For compiling and running code in several languages | `apiKey` | Yes | Unknown |
 | [Judge0 CE](https://ce.judge0.com/) | Online code execution system | `apiKey` | Yes | Unknown |
 
-
 **[⬆ Back to Index](#index)**
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
@@ -1661,7 +1660,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Vimeo](https://developer.vimeo.com/) | Vimeo Developer API | `OAuth` | Yes | Unknown |
 | [Watchmode](https://api.watchmode.com/) | API for finding out the streaming availability of movies & shows | `apiKey` | Yes | Unknown |
 | [YouTube](https://developers.google.com/youtube/) | Add YouTube functionality to your sites and apps | `OAuth` | Yes | Unknown |
-
 
 **[⬆ Back to Index](#index)**
 ### Weather
