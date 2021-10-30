@@ -1652,6 +1652,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Vimeo](https://developer.vimeo.com/) | Vimeo Developer API | `OAuth` | Yes | Unknown |
 | [Watchmode](https://api.watchmode.com/) | API for finding out the streaming availability of movies & shows | `apiKey` | Yes | Unknown |
 | [YouTube](https://developers.google.com/youtube/) | Add YouTube functionality to your sites and apps | `OAuth` | Yes | Unknown |
+| [face-api.js](https://github.com/justadudewhohacks/face-api.js/) | Detects the mood, age, and face landmarks via realtime video | No | Yes | Unknown | 
 
 **[⬆ Back to Index](#index)**
 ### Weather
