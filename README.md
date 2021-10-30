@@ -233,6 +233,7 @@ API | Description | Auth | HTTPS | CORS |
 | [British National Bibliography](http://bnb.data.bl.uk/) | Books | No | No | Unknown |
 | [Crossref Metadata Search](https://github.com/CrossRef/rest-api-doc) | Books & Articles Metadata | No | Yes | Unknown |
 | [Google Books](https://developers.google.com/books/) | Books | `OAuth` | Yes | Unknown |
+| [GurbaniNow](https://github.com/GurbaniNow/api) | Fast and Accurate Gurbani RESTful API | No | Yes | Unknown |
 | [Gutendex](https://gutendex.com/) | Web-API for fetching data from Project Gutenberg Books Library | No | Yes | Unknown |
 | [LibGen](https://garbage.world/posts/libgen/) | Library Genesis search engine | No | No | Unknown |
 | [New York Times Books](https://developer.nytimes.com/docs/books-product/1/overview) | Book reviews and The New York Times Best Sellers lists | `apiKey` | Yes | Unknown |
@@ -699,7 +700,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Yahoo Finance](https://www.yahoofinanceapi.com/) | Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange | `apiKey` | Yes | Yes |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes |
 | [Zoho Books](https://www.zoho.com/books/api/v3/) | Online accounting software, built for your business | `OAuth` | Yes | Unknown |
-| [Polygon.io](https://polygon.io/docs) | Real time & Historical Data APIs for US Stocks | `apiKey` | Yes | Unknown | 
+
 
 **[⬆ Back to Index](#index)**
 ### Food & Drink
