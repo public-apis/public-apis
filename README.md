@@ -189,7 +189,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Harvard Art Museums](https://github.com/harvardartmuseums/api-docs) | Art | `apiKey` | No | Unknown |
 | [Icon Horse](https://icon.horse) | Favicons for any website, with fallbacks | No | Yes | Yes |
 | [Iconfinder](https://developer.iconfinder.com) | Icons | `apiKey` | Yes | Unknown |
-| [Icons8](http://docs.icons8.apiary.io/#reference/0/meta) | Icons | `OAuth` | Yes | Unknown |
+| [Icons8](https://img.icons8.com/) | Icons (find "search icon" hyperlink in page) | No | Yes | Unknown |
 | [Lordicon](https://lordicon.com/) | Icons with predone Animations | No | Yes | Yes |
 | [Metropolitan Museum of Art](https://metmuseum.github.io/) | Met Museum of Art | No | Yes | No |
 | [Noun Project](http://api.thenounproject.com/index.html) | Icons | `OAuth` | No | Unknown |
@@ -454,6 +454,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Base](https://www.base-api.io/) | Building quick backends | `apiKey` | Yes | Yes |
 | [Beeceptor](https://beeceptor.com/) | Build a mock Rest API endpoint in seconds | No | Yes | Yes |
 | [Bitbucket](https://developer.atlassian.com/bitbucket/api/2/reference/) | Bitbucket API | `OAuth` | Yes | Unknown |
+| [Blague.xyz](https://blague.xyz/) | La plus grande API de Blagues FR/The biggest FR jokes API | `apiKey` | Yes | Yes |
 | [Blitapp](https://blitapp.com/api/) | Schedule screenshots of web pages and sync them to your cloud | `apiKey` | Yes | Unknown |
 | [Blynk-Cloud](https://blynkapi.docs.apiary.io/#) | Control IoT Devices from Blynk IoT Cloud | `apiKey` | No | Unknown |
 | [Bored](https://www.boredapi.com/) | Find random activities to fight boredom | No | Yes | Unknown |
@@ -1141,6 +1142,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GNews](https://gnews.io/) | Search for news from various sources | `apiKey` | Yes | Yes |
 | [Graphs for Coronavirus](https://corona.dnsforfamily.com/api.txt) | Each Country separately and Worldwide Graphs for Coronavirus. Daily updates | No | Yes | Yes |
 | [Inshorts News](https://github.com/cyberboysumanjay/Inshorts-News-API) | Provides news from inshorts | No | Yes | Unknown |
+| [MarketAux](https://marketaux.com/) | Live stock market news with tagged tickers + sentiment and stats JSON API | `apiKey` | Yes | Yes |
 | [New York Times](https://developer.nytimes.com/) | Provides news | `apiKey` | Yes | Unknown |
 | [News](https://newsapi.org/) | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | Unknown |
 | [NPR One](http://dev.npr.org/api/) | Personalized news listening experience from NPR | `OAuth` | Yes | Unknown |
@@ -1199,6 +1201,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Evil Insult Generator](https://evilinsult.com/api) | Evil Insults | No | Yes | Yes |
 | [GitHub Contribution Chart Generator](https://github-contributions.vercel.app) | Create an image of your GitHub contributions | No | Yes | Yes |
 | [GitHub ReadMe Stats](https://github.com/anuraghazra/github-readme-stats) | Add dynamically generated statistics to your GitHub profile ReadMe | No | Yes | Yes |
+| [Metabase](https://www.metabase.com/) | An open source Business Intelligence server to share data and analytics inside your company | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Patent
