@@ -7,7 +7,7 @@ import sys
 
 
 def parse_links(filename):
-    """Returns a list of URLs from text file"""
+    #Returns a list of URLs from text file
     with open(filename, mode='r', encoding='utf-8') as fp:
         readme = fp.read()
         index_section = readme.find('## Index')
@@ -24,7 +24,7 @@ def parse_links(filename):
     return links
 
 def dup_links(links):
-    """Check for duplicated links"""
+    #Check for duplicated links
     print(f'Checking for duplicated links...')
     hasError = False
     seen = {}
@@ -45,7 +45,7 @@ def dup_links(links):
     return hasError
 
 def validate_links(links):
-    """Checks each entry in JSON file for live link"""
+    #Checks each entry in JSON file for live link
     print(f'Validating {len(links)} links...')
     hasError = False
     for link in links:
@@ -75,8 +75,8 @@ def validate_links(links):
             print(f"ERR:SOC: {socketerror} : {link}")
         except Exception as e:
             hasError = True
-            # Ignore some exceptions which are not actually errors.
-            # The list below should be extended with other exceptions in the future if needed
+            """ Ignore some exceptions which are not actually errors.
+             The list below should be extended with other exceptions in the future if needed """
             if (-1 != str(e).find("[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:852)")):
                 print(f"ERR:SSL: {e} : {link}")
             elif (-1 != str(e).find("Content purported to be compressed with gzip but failed to decompress.")):
