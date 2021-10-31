@@ -1035,6 +1035,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Lexigram](https://docs.lexigram.io/v1/welcome) | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | Yes | Unknown |
 | [Makeup](http://makeup-api.herokuapp.com/) | Makeup Information | No | No | Unknown |
 | [Medicare](https://data.medicare.gov/developers) | Access to the data from the CMS - medicare.gov | `apiKey` | Yes | Unknown |
+| [MyVaccination](https://documenter.getpostman.com/view/16605343/Tzm8GG7u) | Vaccination data for Malaysia | No | Yes | Unknown | 
 | [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | Unknown |
 | [Nutritionix](https://developer.nutritionix.com/) | Worlds largest verified nutrition database | `apiKey` | Yes | Unknown |
 | [Open Data NHS Scotland](https://www.opendata.nhs.scot) | Medical reference data and statistics by Public Health Scotland | No | Yes | Unknown |
