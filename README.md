@@ -1535,6 +1535,7 @@ API | Description | Auth | HTTPS | CORS |
 | [AZ511](https://www.az511.com/developers/doc) | Access traffic data from the ADOT API | `apiKey` | Yes | Unknown |
 | [Bay Area Rapid Transit](http://api.bart.gov) | Stations and predicted arrivals for BART | `apiKey` | No | Unknown |
 | [BC Ferries](https://www.bcferriesapi.ca) | Sailing times and capacities for BC Ferries | No | Yes | Yes |
+| [BIC-Boxtech](https://docs.bic-boxtech.org/) | Container technical detail for the global container fleet | Yes | Yes | Unknown |
 | [BlaBlaCar](https://dev.blablacar.com) | Search car sharing trips | `apiKey` | Yes | Unknown |
 | [Boston MBTA Transit](https://www.mbta.com/developers/v3-api) | Stations and predicted arrivals for MBTA | `apiKey` | Yes | Unknown |
 | [Community Transit](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) | Transitland API | No | Yes | Unknown |
