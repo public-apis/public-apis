@@ -381,6 +381,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Indodax](https://github.com/btcid/indodax-official-api-docs) | Trade your Bitcoin and other assets with rupiah | `apiKey` | Yes | Unknown |
 | [INFURA Ethereum](https://infura.io/product/ethereum) | Interaction with the Ethereum mainnet and several testnets | `apiKey` | Yes | Yes |
 | [Kraken](https://docs.kraken.com/rest/) | Cryptocurrencies Exchange | `apiKey` | Yes | Unknown |
+| [KuCoin](https://docs.kucoin.com/) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
 | [Localbitcoins](https://localbitcoins.com/api-docs/) | P2P platform to buy and sell Bitcoins | No | Yes | Unknown |
 | [Mempool](https://mempool.space/api) | Bitcoin API Service focusing on the transaction fee | No | Yes | No |
 | [MercadoBitcoin](https://www.mercadobitcoin.net/api-doc/) | Brazilian Cryptocurrency Information | No | Yes | Unknown |
