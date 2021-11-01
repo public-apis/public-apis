@@ -400,7 +400,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Solana JSON RPC](https://docs.solana.com/developing/clients/jsonrpc-api) | Provides various endpoints to interact with the Solana Blockchain | No | Yes | Unknown |
 | [Technical Analysis](https://technical-analysis-api.com) | Cryptocurrency prices and technical analysis | `apiKey` | Yes | No |
 | [VALR](https://docs.valr.com/) | Cryptocurrency Exchange based in South Africa | `apiKey` | Yes | Unknown |
-| [Wazirx](https://wazirx.github.io/) | Cryptocurrencies Exchange | `apiKey` | Yes | Unknown | 
+| [Wazirx](https://wazirx.github.io/) | Cryptocurrencies Exchange | `apiKey` | Yes | Unknown |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
 | [ZMOK](https://zmok.io) | Ethereum JSON RPC API and Web3 provider | No | Yes | Unknown |
 
@@ -683,6 +683,7 @@ API | Description | Auth | HTTPS | CORS |
 | [apilayer marketstack](https://marketstack.com/) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown |
 | [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | `OAuth` | Yes | Yes |
 | [Binlist](https://binlist.net/) | Public access to a database of IIN/BIN information | No | Yes | Unknown |
+| [Bloomberg](https://www.bloomberg.com/professional/product/multi-asset-risk-system-mars-api) | Bloomberg’s MARS system uses consistent pricing and risk data to model every deal in your portfolio | `apiKey` | Yes | Unknown
 | [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | `apiKey` | Yes | Unknown |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | All Citigroup account and statement data APIs | `apiKey` | Yes | Unknown |
 | [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes |
@@ -863,7 +864,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CitySDK](http://www.citysdk.eu/citysdk-toolkit/) | Open APIs for select European cities | No | Yes | Unknown |
 | [Country](http://country.is/) | Get your visitor's country from their IP | No | Yes | Yes |
 | [CountryStateCity](https://countrystatecity.in/) | World countries, states, regions, provinces, cities & towns in JSON, SQL, XML, YAML, & CSV format | `apiKey` | Yes | Yes |
-| [Ducks Unlimited](https://gis.ducks.org/datasets/du-university-chapters/api) | API explorer that gives a query URL with a JSON response of locations and cities | No | Yes | No | 
+| [Ducks Unlimited](https://gis.ducks.org/datasets/du-university-chapters/api) | API explorer that gives a query URL with a JSON response of locations and cities | No | Yes | No |
 | [FreeGeoIP](https://freegeoip.app/) | Free geo ip information, no registration required. 15k/hour rate limit | No | Yes | Yes |
 | [GeoApi](https://api.gouv.fr/api/geoapi.html) | French geographical data | No | Yes | Unknown |
 | [Geoapify](https://www.geoapify.com/api/geocoding-api/) | Forward and reverse geocoding, address autocomplete | `apiKey` | Yes | Yes |
@@ -1052,7 +1053,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Lexigram](https://docs.lexigram.io/v1/welcome) | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | Yes | Unknown |
 | [Makeup](http://makeup-api.herokuapp.com/) | Makeup Information | No | No | Unknown |
 | [Medicare](https://data.medicare.gov/developers) | Access to the data from the CMS - medicare.gov | `apiKey` | Yes | Unknown |
-| [MyVaccination](https://documenter.getpostman.com/view/16605343/Tzm8GG7u) | Vaccination data for Malaysia | No | Yes | Unknown | 
+| [MyVaccination](https://documenter.getpostman.com/view/16605343/Tzm8GG7u) | Vaccination data for Malaysia | No | Yes | Unknown |
 | [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | Unknown |
 | [Nutritionix](https://developer.nutritionix.com/) | Worlds largest verified nutrition database | `apiKey` | Yes | Unknown |
 | [Open Data NHS Scotland](https://www.opendata.nhs.scot) | Medical reference data and statistics by Public Health Scotland | No | Yes | Unknown |
@@ -1439,7 +1440,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Telegram Bot](https://core.telegram.org/bots/api) | Simplified HTTP version of the MTProto API for bots | `apiKey` | Yes | Unknown |
 | [Telegram MTProto](https://core.telegram.org/api#getting-started) | Read and write Telegram data | `OAuth` | Yes | Unknown |
 | [Telegraph](https://telegra.ph/api) | Create attractive blogs easily, to share | `apiKey` | Yes | Unknown |
-| [TikTok](https://developers.tiktok.com/doc/login-kit-web) | Fetches user info and user's video posts on TikTok platform | `OAuth` | Yes | Unknown | 
+| [TikTok](https://developers.tiktok.com/doc/login-kit-web) | Fetches user info and user's video posts on TikTok platform | `OAuth` | Yes | Unknown |
 | [Trash Nothing](https://trashnothing.com/developer) | A freecycling community with thousands of free items posted every day | `OAuth` | Yes | Yes |
 | [Tumblr](https://www.tumblr.com/docs/en/api/v2) | Read and write Tumblr Data | `OAuth` | Yes | Unknown |
 | [Twitch](https://dev.twitch.tv/docs) | Game Streaming API | `OAuth` | Yes | Unknown |
