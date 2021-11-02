@@ -936,6 +936,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Government
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Bank Negara Malaysia Open Data](https://api.bnm.gov.my/) | Malaysia Central Bank Open Data | No | Yes | Unknown |
 | [BCLaws](http://www.bclaws.ca/civix/template/complete/api/index.html) | Access to the laws of British Columbia | No | No | Unknown |
 | [Brazil](https://brasilapi.com.br/) | Community driven API for Brazil Public Data | No | Yes | Yes |
 | [Brazil Central Bank Open Data](https://dadosabertos.bcb.gov.br/) | Brazil Central Bank Open Data | No | Yes | Unknown |
