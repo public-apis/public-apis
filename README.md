@@ -1614,6 +1614,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for The Netherlands](http://www.ns.nl/reisinformatie/ns-api) | NS, only trains | `apiKey` | No | Unknown |
 | [Transport for The Netherlands](https://github.com/skywave/KV78Turbo-OVAPI/wiki) | OVAPI, country-wide public transport | No | Yes | Unknown |
 | [Transport for Toronto, Canada](https://myttc.ca/developers) | TTC | No | Yes | Unknown |
+| [Transport for UK](https://developer.transportapi.com) | Transport API and dataset for UK | `apiKey` | Yes | Unknown |
 | [Transport for United States](http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf) | NextBus API | No | No | Unknown |
 | [Transport for Vancouver, Canada](https://developer.translink.ca/) | TransLink | `OAuth` | Yes | Unknown |
 | [Transport for Washington, US](https://developer.wmata.com/) | Washington Metro transport API | `OAuth` | Yes | Unknown |
