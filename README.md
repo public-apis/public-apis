@@ -434,6 +434,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Abstract Email Validation](https://www.abstractapi.com/email-verification-validation-api) | Validate email addresses for deliverability and spam | `apiKey` | Yes | Yes |
 | [apilayer mailboxlayer](https://mailboxlayer.com) | Email address validation | `apiKey` | Yes | Unknown |
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | Yes |
+| [Disify](https://www.disify.com/) | Validate and detect disposable and temporary email addresses | No | Yes | Yes |
 | [EVA](https://eva.pingutil.com/) | Validate email addresses | No | Yes | Yes |
 | [Kickbox](https://open.kickbox.com/) | Email verification API | No | Yes | Yes |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown |
