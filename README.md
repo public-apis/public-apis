@@ -601,7 +601,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Airtable](https://airtable.com/api) | Integrate with Airtable | `apiKey` | Yes | Unknown |
 | [Api2Convert](https://www.api2convert.com/) | Online File Conversion API | `apiKey` | Yes | Unknown |
 | [apilayer pdflayer](https://pdflayer.com) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
-| [APITemplate.io](https://apitemplate.io) | Dynamically generate images and PDFs from templates with a simple API  | `apiKey` | Yes | Yes |
 | [Asana](https://developers.asana.com/docs) | Programmatic access to all data in your asana system | `apiKey` | Yes | Yes |
 | [ClickUp](https://clickup.com/api) | ClickUp is a robust, cloud-based project management tool for boosting productivity | `OAuth` | Yes | Unknown |
 | [Clockify](https://clockify.me/developers-api ) | Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems | `apiKey` | Yes | Unknown |
@@ -1280,6 +1279,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [apilayer screenshotlayer](https://screenshotlayer.com) | URL 2 Image | No | Yes | Unknown |
+| [APITemplate.io](https://apitemplate.io) | Dynamically generate images and PDFs from templates with a simple API  | `apiKey` | Yes | Yes |    
 | [Bruzu](https://docs.bruzu.com) | Image generation with query string | `apiKey` | Yes | Yes |
 | [CheetahO](https://cheetaho.com/docs/getting-started/) | Photo optimization and resize | `apiKey` | Yes | Unknown |
 | [Dagpi](https://dagpi.xyz) | Image manipulation and processing | `apiKey` | Yes | Unknown |
