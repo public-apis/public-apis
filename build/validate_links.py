@@ -49,7 +49,7 @@ def validate_links(links):
     print(f'Validating {len(links)} links...')
     hasError = False
     for link in links:
-        h = httplib2.Http(disable_ssl_certificate_validation=True, timeout=25)
+        h = httplib2.Http(disable_ssl_certificate_validation=True, timeout=999)
         try:
             # fetching host name, removing leading www
             host = link.split('//', 1)[1].split('/', 1)[0]
