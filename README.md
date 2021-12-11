@@ -127,6 +127,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Petfinder](https://www.petfinder.com/developers/) | Petfinder is dedicated to helping pets find homes, another resource to get pets adopted | `apiKey` | Yes | Yes |
 | [PlaceBear](https://placebear.com/) | Placeholder bear pictures | No | Yes | Yes |
 | [PlaceDog](https://place.dog) | Placeholder Dog pictures | No | Yes | Yes |
+| [PlaceKitten](https://placekitten.com/) | Placeholder Kitten pictures | No | Yes | Yes |
 | [RandomCat](https://aws.random.cat) | Random pictures of cats | No | Yes | Yes |
 | [RandomDog](https://random.dog/woof.json) | Random pictures of dogs | No | Yes | Yes |
 | [RandomDuck](https://random-d.uk/api) | Random pictures of ducks | No | Yes | No |
@@ -1310,7 +1311,6 @@ API | Description | Auth | HTTPS | CORS |
 | [PhotoRoom](https://www.photoroom.com/api/) | Remove background from images | `apiKey` | Yes | Unknown |
 | [Pixabay](https://pixabay.com/sk/service/about/api/) | Photography | `apiKey` | Yes | Unknown |
 | [PlaceKeanu](https://placekeanu.com/) | Resizable Keanu Reeves placeholder images with grayscale and young Keanu options | No | Yes | Unknown |
-| [PlaceKitten](https://placekitten.com/) | Resizable kitten placeholder images | No | Yes | Unknown |
 | [Readme typing SVG](https://github.com/DenverCoder1/readme-typing-svg) | Customizable typing and deleting text SVG | No | Yes | Unknown |
 | [Remove.bg](https://www.remove.bg/api) | Image Background removal | `apiKey` | Yes | Unknown |
 | [ReSmush.it](https://resmush.it/api) | Photo optimization | No | No | Unknown |
