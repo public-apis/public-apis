@@ -110,7 +110,7 @@
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
-| [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | Yes |
+| [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
 | [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
 | [catAPI](https://thatcopy.pw/catapi) | Random pictures of cats | No | Yes | Yes |
@@ -118,8 +118,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Yes |
 | [Dog Facts](https://kinduff.github.io/dog-api/) | Random facts of Dogs | No | Yes | Yes |
 | [Dogs](https://dog.ceo/dog-api/) | Based on the Stanford Dogs Dataset | No | Yes | Yes |
-| [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59) | Retrieve recent or notable birding observations within a region | `apiKey` | Yes | Unknown |
-| [FishWatch](https://www.fishwatch.gov/developers) | Information and pictures about individual fish species | No | Yes | Unknown |
+| [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59) | Retrieve recent or notable birding observations within a region | `apiKey` | Yes | No |
+| [FishWatch](https://www.fishwatch.gov/developers) | Information and pictures about individual fish species | No | Yes | Yes |
 | [HTTPCat](https://http.cat/) | Cat for every HTTP Status | No | Yes | Yes |
 | [IUCN](http://apiv3.iucnredlist.org/api/v3/docs) | IUCN Red List of Threatened Species | `apiKey` | No | No |
 | [MeowFacts](https://github.com/wh-iterabb-it/meowfacts) | Get random cat facts | No | Yes | Unknown |
@@ -1340,32 +1340,32 @@ API | Description | Auth | HTTPS | CORS |
 | [iDigBio](https://github.com/idigbio/idigbio-search-api/wiki) | Access millions of museum specimens from organizations around the world | No | Yes | Unknown |
 | [inspirehep.net](https://github.com/inspirehep/rest-api-doc) | High Energy Physics info. system | No | Yes | Unknown |
 | [isEven (humor)](https://isevenapi.xyz/) | Check if a number is even | No | Yes | Unknown |
-| [ISRO](https://isro.vercel.app) | ISRO Space Crafts Information | No | Yes | Unknown |
+| [ISRO](https://isro.vercel.app) | ISRO Space Crafts Information | No | Yes | No |
 | [ITIS](https://www.itis.gov/ws_description.html) | Integrated Taxonomic Information System | No | Yes | Unknown |
 | [Launch Library 2](https://thespacedevs.com/llapi) | Spaceflight launches and events database | No | Yes | Yes |
 | [Materials Platform for Data Science](https://mpds.io) | Curated experimental data for materials science | `apiKey` | Yes | No |
 | [Minor Planet Center](http://www.asterank.com/mpc) | Asterank.com Information | No | No | Unknown |
-| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Unknown |
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | No |
 | [NASA ADS](https://ui.adsabs.harvard.edu/help/api/api-docs.html) | NASA Astrophysics Data System | `OAuth` | Yes | Yes |
-| [NASA APOD (official API)](https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY) | Official API for getting APOD (Astronomy Image of the Day) images along with metadata | `apiKey` | Yes | Yes |
-| [NASA APOD (unofficial API)](https://apodapi.herokuapp.com/) | API for getting APOD (Astronomy Image of the Day) images along with metadata | No | Yes | Yes |
-| [Newton](https://newton.vercel.app) | Symbolic and Arithmetic Math Calculator | No | Yes | Unknown |
+| [NASA APOD (official API)](https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY) | Official API for getting APOD (Astronomy Image of the Day) images along with metadata | `apiKey` | Yes | No |
+| [NASA APOD (unofficial API)](https://apodapi.herokuapp.com/) | API for getting APOD (Astronomy Image of the Day) images along with metadata | No | Yes | No |
+| [Newton](https://newton.vercel.app) | Symbolic and Arithmetic Math Calculator | No | Yes | No |
 | [Noctua](https://api.noctuasky.com/api/v1/swaggerdoc/) | REST API used to access NoctuaSky features | No | Yes | Unknown |
-| [Numbers](https://math.tools/api/numbers/) | Number of the day, random number, number facts and anything else you want to do with numbers | `apiKey` | Yes | Yes |
-| [Numbers](http://numbersapi.com) | Facts about numbers | No | No | Unknown |
-| [Open Notify](http://open-notify.org/Open-Notify-API/) | ISS astronauts, current location, etc | No | No | Unknown |
+| [Numbers](https://math.tools/api/numbers/) | Number of the day, random number, number facts and anything else you want to do with numbers | `apiKey` | Yes | No |
+| [Numbers](http://numbersapi.com) | Facts about numbers | No | No | No |
+| [Open Notify](http://open-notify.org/Open-Notify-API/) | ISS astronauts, current location, etc | No | No | No |
 | [Open Science Framework](https://developer.osf.io) | Repository and archive for study designs, research materials, data, manuscripts, etc | No | Yes | Unknown |
 | [Purple Air](https://www2.purpleair.com/) | Real Time Air Quality Monitoring | No | Yes | Unknown |
-| [Quadratic Solver](https://quadratic-solver-api.herokuapp.com/) | A Quadratic Solver | No | Yes | Unknown |
-| [Satellite Passes](https://satellites.fly.dev) | Query next satellite passes above you | No | Yes | Yes |
-| [SHARE](https://share.osf.io/api/v2/) | A free, open, dataset about research and scholarly activities | No | Yes | Unknown |
-| [SpaceX](https://github.com/r-spacex/SpaceX-API) | Company, vehicle, launchpad and launch data | No | Yes | Unknown |
+| [Quadratic Solver](https://quadratic-solver-api.herokuapp.com/) | A Quadratic Solver | No | Yes | Yes |
+| [Satellite Passes](https://satellites.fly.dev) | Query next satellite passes above you | No | Yes | No |
+| [SHARE](https://share.osf.io/api/v2/) | A free, open, dataset about research and scholarly activities | No | Yes | No |
+| [SpaceX](https://github.com/r-spacex/SpaceX-API) | Company, vehicle, launchpad and launch data | No | Yes | No |
 | [SpaceX](https://api.spacex.land/graphql/) | GraphQL, Company, Ships, launchpad and launch data | No | Yes | Unknown |
-| [Sunrise and Sunset](https://sunrise-sunset.org/api) | Sunset and sunrise times for a given latitude and longitude | No | Yes | Unknown |
-| [TLE](https://tle.ivanstanojevic.me/#/docs) | Satellite information | No | Yes | Unknown |
-| [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | Unknown |
-| [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | Unknown |
-| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | No | Unknown |
+| [Sunrise and Sunset](https://sunrise-sunset.org/api) | Sunset and sunrise times for a given latitude and longitude | No | Yes | No |
+| [TLE](https://tle.ivanstanojevic.me/#/docs) | Satellite information | No | Yes | No |
+| [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | No |
+| [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | No |
+| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | No | No |
 | [xMath](https://x-math.herokuapp.com/) | Random mathematical expressions | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
