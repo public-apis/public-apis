@@ -822,6 +822,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Magic The Gathering](http://magicthegathering.io/) | Magic The Gathering Game Information | No | No | Unknown |
 | [Mario Kart Tour](https://mario-kart-tour-api.herokuapp.com/) | API for Drivers, Karts, Gliders and Courses | `OAuth` | Yes | Unknown |
 | [Marvel](https://developer.marvel.com) | Marvel Comics | `apiKey` | Yes | Unknown |
+| [Minecraft Server Status](https://api.mcsrvstat.us) | API to get Information about a Minecraft Server | No | Yes | No |    
 | [MMO Games](https://www.mmobomb.com/api) | MMO Games Database, News and Giveaways | No | Yes | No |
 | [mod.io](https://docs.mod.io) | Cross Platform Mod API | `apiKey` | Yes | Unknown |
 | [Mojang](https://wiki.vg/Mojang_API) | Mojang / Minecraft API | `apiKey` | Yes | Unknown |
