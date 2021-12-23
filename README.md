@@ -684,8 +684,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Events
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Eventbrite](https://www.eventbrite.com/developer/v3/) | Find events | `OAuth` | Yes | Unknown |
-| [Picatic](http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto) | Sell tickets anywhere | `apiKey` | Yes | Unknown |
+| [Eventbrite](https://www.eventbrite.com/platform/api/) | Find events | `OAuth` | Yes | Unknown |
 | [SeatGeek](https://platform.seatgeek.com/) | Search events, venues and performers | `apiKey` | Yes | Unknown |
 | [Ticketmaster](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/) | Search events, attractions, or venues | `apiKey` | Yes | Unknown |
 
