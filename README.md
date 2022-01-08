@@ -62,7 +62,6 @@
 * [Books](#books)
 * [Business](#business)
 * [Calendar](#calendar)
-* [Chatbots](#chatbots)
 * [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
 * [Continuous Integration](#continuous-integration)
 * [Cryptocurrency](#cryptocurrency)
@@ -309,12 +308,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Russian Calendar](https://github.com/egno/work-calendar) | Check if a date is a Russian holiday or not | No | Yes | No |
 | [UK Bank Holidays](https://www.gov.uk/bank-holidays.json) | Bank holidays in England and Wales, Scotland and Northern Ireland | No | Yes | Unknown |
 | [UnixTime Converter](https://unixtime.co.za) | A REST API to convert UnixTime to DateTime and DateTime to UnixTime | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-### Chatbots
-API | Description | Auth | HTTPS | CORS |
-|---|---|---|---|---|
-| [MessengerX.io](https://messengerx.rtfd.io) | FREE API for developers to build, launch and grow messaging based apps inside a website / app | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Cloud Storage & File Sharing
@@ -1138,6 +1131,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [Wit.ai](https://wit.ai/) | Natural Language Processing | `OAuth` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
+| [MessengerX.io](https://messengerx.rtfd.io) | A FREE API for developers to build, launch and grow ML based messaging apps inside a website / app | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Music
