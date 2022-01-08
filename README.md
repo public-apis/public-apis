@@ -1133,7 +1133,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Wit.ai](https://wit.ai/) | Natural Language Processing | `OAuth` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
 
-
 **[⬆ Back to Index](#index)**
 ### Music
 API | Description | Auth | HTTPS | CORS |
