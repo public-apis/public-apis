@@ -63,6 +63,7 @@
 * [Books](#books)
 * [Business](#business)
 * [Calendar](#calendar)
+* [Chatbots](#chatbots)
 * [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
 * [Continuous Integration](#continuous-integration)
 * [Cryptocurrency](#cryptocurrency)
@@ -302,6 +303,11 @@ API | Description | Auth | HTTPS | CORS |
 | [Russian Calendar](https://github.com/egno/work-calendar) | Check if a date is a Russian holiday or not | No | Yes | No |
 | [UK Bank Holidays](https://www.gov.uk/bank-holidays.json) | Bank holidays in England and Wales, Scotland and Northern Ireland | No | Yes | Unknown |
 | [UnixTime Converter](https://unixtime.co.za) | A REST API to convert UnixTime to DateTime and DateTime to UnixTime | No | Yes | Unknown |
+
+### Chatbots
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [MessengerX.io](https://messengerx.rtfd.io) | A FREE developer API to build, launch and grow chat apps inside a website / app | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Cloud Storage & File Sharing
