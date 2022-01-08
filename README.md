@@ -307,7 +307,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Chatbots
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [MessengerX.io](https://messengerx.rtfd.io) | A FREE developer API to build, launch and grow chat apps inside a website / app | `apiKey` | Yes | Yes |
+| [MessengerX.io](https://messengerx.rtfd.io) | FREE API for developers to build, launch and grow messaging based apps inside a website / app | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Cloud Storage & File Sharing
