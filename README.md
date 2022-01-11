@@ -1782,4 +1782,4 @@ API | Description | Auth | HTTPS | CORS |
 <br>
 
 ## License
-[MIT](LICENSE)
+[MIT](LICENSE) (c) 2022 public-apis
