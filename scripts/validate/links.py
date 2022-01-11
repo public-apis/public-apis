@@ -2,7 +2,7 @@
 
 import sys
 import re
-from typing import List
+from typing import List, Tuple
 
 
 def find_links_in_text(text: str) -> List[str]:
@@ -32,10 +32,11 @@ def find_links_in_file(filename: str) -> List[str]:
     return links
 
 
-def check_duplicate_links(links: List[str]) -> bool:
-    """Check for duplicated links and return True or False."""
+def check_duplicate_links(links: List[str]) -> Tuple[bool, List]:
+    """Check for duplicated links.
 
-    print('Checking for duplicated links...')
+    Returns a tuple with True or False and duplicate list.
+    """
 
     seen = {}
     duplicates = []
@@ -48,13 +49,10 @@ def check_duplicate_links(links: List[str]) -> bool:
             if seen[link] == 1:
                 duplicates.append(link)
 
-    if not duplicates:
-        print(f'No duplicate links.')
-    else:
-        print(f'Found duplicate links: {duplicates}')
+    if duplicates:
         has_duplicate = True
-    
-    return has_duplicate
+
+    return (has_duplicate, duplicates)
 
 
 if __name__ == '__main__':
@@ -66,4 +64,11 @@ if __name__ == '__main__':
 
     links = find_links_in_file(sys.argv[1])
 
-    has_duplicate = check_duplicate_links(links)
+    print('Checking for duplicate links...')
+
+    has_duplicate_link, duplicates_links = check_duplicate_links(links)
+
+    if has_duplicate_link:
+        print(f'Found duplicate links: {duplicates_links}')
+    else:
+        print('No duplicate links.')
