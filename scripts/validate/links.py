@@ -32,6 +32,31 @@ def find_links_in_file(filename: str) -> List[str]:
     return links
 
 
+def check_duplicate_links(links: List[str]) -> bool:
+    """Check for duplicated links and return True or False."""
+
+    print('Checking for duplicated links...')
+
+    seen = {}
+    duplicates = []
+    has_duplicate = False
+
+    for link in links:
+        if link not in seen:
+            seen[link] = 1
+        else:
+            if seen[link] == 1:
+                duplicates.append(link)
+
+    if not duplicates:
+        print(f'No duplicate links.')
+    else:
+        print(f'Found duplicate links: {duplicates}')
+        has_duplicate = True
+    
+    return has_duplicate
+
+
 if __name__ == '__main__':
     num_args = len(sys.argv)
 
@@ -40,3 +65,5 @@ if __name__ == '__main__':
         sys.exit(1)
 
     links = find_links_in_file(sys.argv[1])
+
+    has_duplicate = check_duplicate_links(links)
