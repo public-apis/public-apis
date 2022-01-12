@@ -65,3 +65,6 @@ class TestValidateLinks(unittest.TestCase):
                 self.assertNotIn('/', host)
                 self.assertNotIn('?', host)
                 self.assertNotIn('#', host)
+
+        with self.assertRaises(TypeError):
+            get_host_from_link()
