@@ -5,10 +5,10 @@ import unittest
 from validate.links import find_links_in_text
 
 
-class TestValidateLinks(unittest.TestCase):
+class TestValidateLinks(unittest.TestCase):  
 
-    def setUp(self):
-        self.text = """
+    def test_find_link_in_text(self):
+        text = """
             # this is valid
 
             http://example.com?param1=1&param2=2#anchor
@@ -27,10 +27,8 @@ class TestValidateLinks(unittest.TestCase):
             https//example.com
             https//.com
         """
-        
 
-    def test_find_link_in_text(self):
-        links = find_links_in_text(self.text)
+        links = find_links_in_text(text)
 
         self.assertIsInstance(links, list)
         self.assertEqual(len(links), 7)
