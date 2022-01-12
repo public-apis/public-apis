@@ -3,6 +3,7 @@
 import unittest
 
 from validate.links import find_links_in_text
+from validate.links import get_host_from_link
 
 
 class TestValidateLinks(unittest.TestCase):
@@ -42,3 +43,25 @@ class TestValidateLinks(unittest.TestCase):
             find_links_in_text()
             find_links_in_text(1)
             find_links_in_text(True)
+    
+    def test_get_host_from_link(self):
+        links = [
+            'example.com',
+            'https://example.com',
+            'https://www.example.com',
+            'https://www.example.com.br',
+            'https://www.example.com/route',
+            'https://www.example.com?p=1&q=2',
+            'https://www.example.com#anchor'
+        ]
+
+        for link in links:
+            host = get_host_from_link(link)
+
+            with self.subTest():
+                self.assertIsInstance(host, str)
+
+                self.assertNotIn('://', host)
+                self.assertNotIn('/', host)
+                self.assertNotIn('?', host)
+                self.assertNotIn('#', host)
