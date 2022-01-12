@@ -6,6 +6,7 @@ import random
 from typing import List, Tuple
 
 import requests
+from requests.models import Response
 
 
 def find_links_in_text(text: str) -> List[str]:
@@ -88,6 +89,63 @@ def get_host_from_link(link: str) -> str:
     return host
 
 
+def has_cloudflare_protection(resp: Response) -> bool:
+    """Checks if there is any cloudflare protection in the response.
+    
+    Cloudflare implements multiple network protections on a given link,
+    this script tries to detect if any of them exist in the response from request.
+
+    Common protections have the following HTTP code as a response:
+        - 403: When host header is missing or incorrect (and more)
+        - 503: When DDOS protection exists
+    
+    See more about it at:
+        - https://support.cloudflare.com/hc/en-us/articles/115003014512-4xx-Client-Error
+        - https://support.cloudflare.com/hc/en-us/articles/115003011431-Troubleshooting-Cloudflare-5XX-errors
+        - https://www.cloudflare.com/ddos/
+        - https://superuser.com/a/888526
+
+    Discussions in issues and pull requests:
+        - https://github.com/public-apis/public-apis/pull/2409
+        - https://github.com/public-apis/public-apis/issues/2960 
+    """
+
+    code = resp.status_code
+    server = resp.headers.get('Server') or resp.headers.get('server')
+    cloudflare_flags = [
+        '403 Forbidden',
+        'cloudflare',
+        'Cloudflare',
+        'Security check',
+        'Please Wait... | Cloudflare',
+        'We are checking your browser...',
+        'Please stand by, while we are checking your browser...',
+        'Checking your browser before accessing',
+        'This process is automatic.',
+        'Your browser will redirect to your requested content shortly.',
+        'Please allow up to 5 seconds',
+        'DDoS protection by',
+        'Ray ID:',
+        'Cloudflare Ray ID:',
+        '_cf_chl',
+        '_cf_chl_opt',
+        '__cf_chl_rt_tk',
+        'cf-spinner-please-wait',
+        'cf-spinner-redirecting'
+    ]
+
+    if code in [403, 503] and server == 'cloudflare':
+        html = resp.text
+
+        flags_found = [flag in html for flag in cloudflare_flags]
+        any_flag_found = any(flags_found)
+
+        if any_flag_found:
+            return True
+
+    return False
+
+
 def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     """Checks if a link is working.
 
@@ -109,7 +167,8 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
         })
 
         code = resp.status_code
-        if code >= 400:
+
+        if code >= 400 and not has_cloudflare_protection(resp):
             has_error = True
             error_message = f'ERR:CLT: {code} : {link}'
 
