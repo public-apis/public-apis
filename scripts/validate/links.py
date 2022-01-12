@@ -132,6 +132,17 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     return (has_error, error_message)
 
 
+def check_if_list_of_links_are_working(list_of_links: List[str]) -> List[str]:
+    error_messages = []
+    for link in list_of_links:
+        has_error, error_message = check_if_link_is_working(link)
+
+        if has_error:
+            error_messages.append(error_message)
+
+    return error_messages
+
+
 if __name__ == '__main__':
     num_args = len(sys.argv)
 
@@ -147,5 +158,14 @@ if __name__ == '__main__':
 
     if has_duplicate_link:
         print(f'Found duplicate links: {duplicates_links}')
+        sys.exit(1)
     else:
         print('No duplicate links.')
+
+    print(f'Checking if {len(links)} links are working...')
+
+    errors = check_if_list_of_links_are_working(links)
+    if errors:
+        for error_message in errors:
+            print(error_message)
+        sys.exit(1)
