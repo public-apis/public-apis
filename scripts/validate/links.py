@@ -90,7 +90,7 @@ def get_host_from_link(link: str) -> str:
 
 def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     """Checks if a link is working.
-    
+
     If an error is identified when the request for the link occurs,
     the return will be a tuple with the first value True and the second
     value a string containing the error message.
@@ -116,11 +116,11 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     except (TimeoutError, requests.exceptions.ConnectTimeout):
         has_error = True
         error_message = f'ERR:TMO: {link}'
-    
+
     except requests.exceptions.SSLError as error:
         has_error = True
         error_message = f'ERR:SSL: {error} : {link}'
-    
+
     except requests.exceptions.TooManyRedirects as error:
         has_error = True
         error_message = f'ERR:TMR: {error} : {link}'
@@ -128,7 +128,7 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     except Exception as error:
         has_error = True
         error_message = f'ERR:UKN: {error} : {link}'
-    
+
     return (has_error, error_message)
 
 
