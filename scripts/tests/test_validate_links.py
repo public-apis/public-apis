@@ -5,7 +5,7 @@ import unittest
 from validate.links import find_links_in_text
 
 
-class TestValidateLinks(unittest.TestCase):  
+class TestValidateLinks(unittest.TestCase):
 
     def test_find_link_in_text(self):
         text = """
