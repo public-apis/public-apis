@@ -73,7 +73,7 @@ def fake_user_agent() -> str:
 
 def get_host_from_link(link: str) -> str:
 
-    host = link.split('://', 1)[1]
+    host = link.split('://', 1)[1] if '://' in link else link
 
     # Remove routes, arguments and anchors
     if '/' in host:
