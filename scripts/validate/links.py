@@ -91,14 +91,14 @@ def get_host_from_link(link: str) -> str:
 
 def has_cloudflare_protection(resp: Response) -> bool:
     """Checks if there is any cloudflare protection in the response.
-    
+
     Cloudflare implements multiple network protections on a given link,
     this script tries to detect if any of them exist in the response from request.
 
     Common protections have the following HTTP code as a response:
         - 403: When host header is missing or incorrect (and more)
         - 503: When DDOS protection exists
-    
+
     See more about it at:
         - https://support.cloudflare.com/hc/en-us/articles/115003014512-4xx-Client-Error
         - https://support.cloudflare.com/hc/en-us/articles/115003011431-Troubleshooting-Cloudflare-5XX-errors
