@@ -202,14 +202,7 @@ def check_if_list_of_links_are_working(list_of_links: List[str]) -> List[str]:
     return error_messages
 
 
-if __name__ == '__main__':
-    num_args = len(sys.argv)
-
-    if num_args < 2:
-        print('No .md file passed')
-        sys.exit(1)
-
-    links = find_links_in_file(sys.argv[1])
+def start_duplicate_links_checker(links: List[str]) -> None:
 
     print('Checking for duplicate links...')
 
@@ -217,12 +210,16 @@ if __name__ == '__main__':
 
     if has_duplicate_link:
         print(f'Found duplicate links:')
+
         for duplicate_link in duplicates_links:
             print(duplicate_link)
 
         sys.exit(1)
     else:
         print('No duplicate links.')
+
+
+def start_links_working_checker(links: List[str]) -> None:
 
     print(f'Checking if {len(links)} links are working...')
 
@@ -236,3 +233,23 @@ if __name__ == '__main__':
             print(error_message)
 
         sys.exit(1)
+
+
+def main(filename: str) -> None:
+
+    links = find_links_in_file(filename)
+
+    start_duplicate_links_checker(links)
+    start_links_working_checker(links)
+
+
+if __name__ == '__main__':
+    num_args = len(sys.argv)
+
+    if num_args < 2:
+        print('No .md file passed')
+        sys.exit(1)
+
+    filename = sys.argv[1]
+
+    main(filename)
