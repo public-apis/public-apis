@@ -3,6 +3,7 @@
 import unittest
 
 from validate.links import find_links_in_text
+from validate.links import fake_user_agent
 from validate.links import get_host_from_link
 from validate.links import has_cloudflare_protection
 
@@ -63,6 +64,10 @@ class TestValidateLinks(unittest.TestCase):
             find_links_in_text(1)
             find_links_in_text(True)
     
+    def test_if_fake_user_agent_has_a_str_as_return(self):
+        user_agent = fake_user_agent()
+        self.assertIsInstance(user_agent, str)
+
     def test_get_host_from_link(self):
         links = [
             'example.com',
