@@ -216,7 +216,10 @@ if __name__ == '__main__':
     has_duplicate_link, duplicates_links = check_duplicate_links(links)
 
     if has_duplicate_link:
-        print(f'Found duplicate links: {duplicates_links}')
+        print(f'Found duplicate links:')
+        for duplicate_link in duplicates_links:
+            print(duplicate_link)
+
         sys.exit(1)
     else:
         print('No duplicate links.')
