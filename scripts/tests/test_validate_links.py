@@ -3,6 +3,7 @@
 import unittest
 
 from validate.links import find_links_in_text
+from validate.links import check_duplicate_links
 from validate.links import fake_user_agent
 from validate.links import get_host_from_link
 from validate.links import has_cloudflare_protection
@@ -18,6 +19,18 @@ class FakeResponse():
 class TestValidateLinks(unittest.TestCase):
 
     def setUp(self):
+        self.duplicate_links = [
+            'https://www.example.com',
+            'https://www.example.com',
+            'https://www.example.com',
+            'https://www.anotherexample.com',
+        ]
+        self.no_duplicate_links = [
+            'https://www.firstexample.com',
+            'https://www.secondexample.com',
+            'https://www.anotherexample.com',
+        ]
+
         self.code_200 = 200
         self.code_403 = 403
         self.code_503 = 503
@@ -63,7 +76,26 @@ class TestValidateLinks(unittest.TestCase):
             find_links_in_text()
             find_links_in_text(1)
             find_links_in_text(True)
-    
+
+    def test_if_check_duplicate_links_has_the_correct_return(self):
+        result_1 = check_duplicate_links(self.duplicate_links)
+        result_2 = check_duplicate_links(self.no_duplicate_links)
+
+        self.assertIsInstance(result_1, tuple)
+        self.assertIsInstance(result_2, tuple)
+
+        has_duplicate_links, links = result_1
+        no_duplicate_links, no_links = result_2
+
+        self.assertTrue(has_duplicate_links)
+        self.assertFalse(no_duplicate_links)
+
+        self.assertIsInstance(links, list)
+        self.assertIsInstance(no_links, list)
+
+        self.assertEqual(len(links), 2)
+        self.assertEqual(len(no_links), 0)
+
     def test_if_fake_user_agent_has_a_str_as_return(self):
         user_agent = fake_user_agent()
         self.assertIsInstance(user_agent, str)
