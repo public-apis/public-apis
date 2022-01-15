@@ -184,7 +184,7 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
         has_error = True
         error_message = f'ERR:TMR: {error} : {link}'
 
-    except Exception as error:
+    except (Exception, requests.exceptions.RequestException) as error:
         has_error = True
         error_message = f'ERR:UKN: {error} : {link}'
 
