@@ -172,13 +172,17 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
             has_error = True
             error_message = f'ERR:CLT: {code} : {link}'
 
-    except (TimeoutError, requests.exceptions.ConnectTimeout):
-        has_error = True
-        error_message = f'ERR:TMO: {link}'
-
     except requests.exceptions.SSLError as error:
         has_error = True
         error_message = f'ERR:SSL: {error} : {link}'
+
+    except requests.exceptions.ConnectionError as error:
+        has_error = True
+        error_message = f'ERR:CNT: {error} : {link}'
+
+    except (TimeoutError, requests.exceptions.ConnectTimeout):
+        has_error = True
+        error_message = f'ERR:TMO: {link}'
 
     except requests.exceptions.TooManyRedirects as error:
         has_error = True
