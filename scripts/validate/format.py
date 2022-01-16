@@ -23,3 +23,8 @@ title_links = []
 anchor_re = re.compile(anchor + '\s(.+)')
 section_title_re = re.compile('\*\s\[(.*)\]')
 link_re = re.compile('\[(.+)\]\((http.*)\)')
+
+
+def error_message(line_number: int, message: str) -> str:
+    line = line_number + 1
+    return f'(L{line:03d}) {message}'
