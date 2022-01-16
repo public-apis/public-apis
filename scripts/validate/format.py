@@ -75,3 +75,167 @@ def check_alphabetical_order(lines: List[str]) -> None:
                 f'{category} category is not alphabetical order'
             )
             errors.append(message)
+
+
+def check_title(line_num: int, raw_title: str) -> List[str]:
+
+    err_msgs = []
+
+    title_match = link_re.match(raw_title)
+
+    # url should be wrapped in "[TITLE](LINK)" Markdown syntax
+    if not title_match:
+        err_msg = error_message(line_num, 'Title syntax should be "[TITLE](LINK)"')
+        err_msgs.append(err_msg)
+    else:
+        # do not allow "... API" in the entry title
+        title = title_match.group(1)
+        if title.upper().endswith(' API'):
+            err_msg = error_message(line_num, 'Title should not end with "... API". Every entry is an API here!')
+            err_msgs.append(err_msg)
+
+    return err_msgs
+
+
+def check_description(line_num: int, description: str) -> List[str]:
+
+    err_msgs = []
+
+    first_char = description[0]
+    if first_char.upper() != first_char:
+        err_msg = error_message(line_num, 'first character of description is not capitalized')
+        err_msgs.append(err_msg)
+
+    last_char = description[-1]
+    if last_char in punctuation:
+        err_msg = error_message(line_num, f'description should not end with {last_char}')
+        err_msgs.append(err_msg)
+
+    desc_length = len(description)
+    if desc_length > 100:
+        err_msg = error_message(line_num, f'description should not exceed 100 characters (currently {desc_length})')
+        err_msgs.append(err_msg)
+    
+    return err_msgs
+
+
+def check_auth(line_num: int, auth: str) -> List[str]:
+
+    err_msgs = []
+
+    backtick = '`'
+    if auth != 'No' and (not auth.startswith(backtick) or not auth.endswith(backtick)):
+        err_msg = error_message(line_num, 'auth value is not enclosed with `backticks`')
+        err_msgs.append(err_msg)
+
+    if auth.replace(backtick, '') not in auth_keys:
+        err_msg = error_message(line_num, f'{auth} is not a valid Auth option')
+        err_msgs.append(err_msg)
+    
+    return err_msgs
+
+
+def check_https(line_num: int, https: str) -> List[str]:
+
+    err_msgs = []
+
+    if https not in https_keys:
+        err_msg = error_message(line_num, f'{https} is not a valid HTTPS option')
+        err_msgs.append(err_msg)
+
+    return err_msgs
+
+
+def check_cors(line_num: int, cors: str) -> List[str]:
+
+    err_msgs = []
+
+    if cors not in cors_keys:
+        err_msg = error_message(line_num, f'{cors} is not a valid CORS option')
+        err_msgs.append(err_msg)
+    
+    return err_msgs
+
+
+def check_entry(line_num: int, segments: List[str]) -> List[str]:
+
+    raw_title = segments[index_title]
+    description = segments[index_desc]
+    auth = segments[index_auth]
+    https = segments[index_https]
+    cors = segments[index_cors]
+
+    title_err_msgs = check_title(line_num, raw_title)
+    desc_err_msgs = check_description(line_num, description)
+    auth_err_msgs = check_auth(line_num, auth)
+    https_err_msgs = check_https(line_num, https)
+    cors_err_msgs = check_cors(line_num, cors)
+
+    err_msgs = [
+        *title_err_msgs,
+        *desc_err_msgs,
+        *auth_err_msgs,
+        *https_err_msgs,
+        *cors_err_msgs
+    ]
+
+    return err_msgs
+
+
+def check_file_format(filename: str) -> None:
+
+    with open(filename, mode='r', encoding='utf-8') as file:
+        lines = list(line.rstrip() for line in file)
+
+    check_alphabetical_order(lines)
+
+    num_in_category = min_entries_per_section + 1
+    category = ''
+    category_line = 0
+
+    for line_num, line in enumerate(lines):
+
+        section_title_match = section_title_re.match(line)
+        if section_title_match:
+            title_links.append(section_title_match.group(1))
+
+        # check each section for the minimum number of entries
+        if line.startswith(anchor):
+            category_match = anchor_re.match(line)
+            if category_match:
+                if category_match.group(1) not in title_links:
+                    message = error_message(line_num, f'section header ({category_match.group(1)}) not added as a title link')
+                    errors.append(message)
+            else:
+                message = error_message(line_num, 'section header is not formatted correctly')
+                errors.append(message)
+
+            if num_in_category < min_entries_per_section:
+                message = error_message(category_line, f'{category} section does not have the minimum {min_entries_per_section} entries (only has {num_in_category})')
+                errors.append(message)
+
+            category = line.split(' ')[1]
+            category_line = line_num
+            num_in_category = 0
+            continue
+
+        # skips lines that we do not care about
+        if not line.startswith('|') or line.startswith('|---'):
+            continue
+
+        num_in_category += 1
+        segments = line.split('|')[1:-1]
+        if len(segments) < num_segments:
+            message = error_message(line_num, f'entry does not have all the required sections (have {len(segments)}, need {num_segments})')
+            errors.append(message)
+            continue
+    
+        for segment in segments:
+            # every line segment should start and end with exactly 1 space
+            if len(segment) - len(segment.lstrip()) != 1 or len(segment) - len(segment.rstrip()) != 1:
+                message = error_message(line_num, 'each segment must start and end with exactly 1 space')
+                errors.append(message)
+        
+        segments = [segment.strip() for segment in segments]
+        entry_err_msgs = check_entry(line_num, segments)
+        errors.extend(entry_err_msgs)
