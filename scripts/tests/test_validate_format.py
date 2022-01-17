@@ -238,9 +238,10 @@ class TestValidadeFormat(unittest.TestCase):
                 self.assertEqual(err_msg, expected_err_msg)
 
     def test_check_auth_with_invalid_auth(self):
-        auth_invalid = ['Yes', 'yes', 'no', 'random', 'Unknown']
+        auth_invalid_without_backtick = ['Yes', 'yes', 'no', 'random', 'Unknown']
+        auth_invalid_with_backtick = ['`Yes`', '`yes`', '`no`', '`random`', '`Unknown`']
 
-        for auth in auth_invalid:
+        for auth in auth_invalid_without_backtick:
             with self.subTest():
                 err_msgs = check_auth(0, auth)
                 self.assertIsInstance(err_msgs, list)
@@ -257,6 +258,19 @@ class TestValidadeFormat(unittest.TestCase):
                 self.assertIsInstance(err_msg_2, str)
                 self.assertEqual(err_msg_1, expected_err_msg_1)
                 self.assertEqual(err_msg_2, expected_err_msg_2)
+
+        for auth in auth_invalid_with_backtick:
+            with self.subTest():
+                err_msgs = check_auth(0, auth)
+                self.assertIsInstance(err_msgs, list)
+
+                self.assertEqual(len(err_msgs), 1)
+
+                err_msg = err_msgs[0]
+                expected_err_msg = f'(L001) {auth} is not a valid Auth option'
+
+                self.assertIsInstance(err_msg, str)
+                self.assertEqual(err_msg, expected_err_msg)
 
     def test_check_https_with_valid_https(self):
         for https in https_keys:
