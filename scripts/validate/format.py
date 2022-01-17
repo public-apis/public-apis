@@ -19,7 +19,6 @@ index_cors = 4
 index_link = 5
 num_segments = 5
 
-title_links = []
 anchor_re = re.compile(anchor + '\s(.+)')
 category_title_in_index_re = re.compile('\*\s\[(.*)\]')
 link_re = re.compile('\[(.+)\]\((http.*)\)')
@@ -188,6 +187,7 @@ def check_entry(line_num: int, segments: List[str]) -> List[str]:
 def check_file_format(filename: str) -> List[str]:
 
     err_msgs = []
+    category_title_in_index = []
 
     with open(filename, mode='r', encoding='utf-8') as file:
         lines = list(line.rstrip() for line in file)
@@ -203,13 +203,13 @@ def check_file_format(filename: str) -> List[str]:
 
         category_title_match = category_title_in_index_re.match(line_content)
         if category_title_match:
-            title_links.append(category_title_match.group(1))
+            category_title_in_index.append(category_title_match.group(1))
 
         # check each category for the minimum number of entries
         if line_content.startswith(anchor):
             category_match = anchor_re.match(line_content)
             if category_match:
-                if category_match.group(1) not in title_links:
+                if category_match.group(1) not in category_title_in_index:
                     err_msg = error_message(line_num, f'category header ({category_match.group(1)}) not added to Index section')
                     err_msgs.append(err_msg)
             else:
