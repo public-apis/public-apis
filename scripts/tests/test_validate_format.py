@@ -53,7 +53,7 @@ class TestValidadeFormat(unittest.TestCase):
         categories, category_line_num = result
         self.assertIsInstance(categories, dict)
         self.assertIsInstance(category_line_num, dict)
-        
+
         expected_result = ({'A': ['AA', 'AB'], 'B': ['BA', 'BB']}, {'A': 0, 'B': 6})
 
         for res, ex_res in zip(result, expected_result):
