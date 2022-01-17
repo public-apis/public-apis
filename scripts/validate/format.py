@@ -120,7 +120,7 @@ def check_description(line_num: int, description: str) -> List[str]:
 
     desc_length = len(description)
     if desc_length > max_description_length:
-        err_msg = error_message(line_num, f'description should not exceed 100 characters (currently {desc_length})')
+        err_msg = error_message(line_num, f'description should not exceed {max_description_length} characters (currently {desc_length})')
         err_msgs.append(err_msg)
     
     return err_msgs
