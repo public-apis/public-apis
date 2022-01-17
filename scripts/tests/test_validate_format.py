@@ -9,6 +9,7 @@ from validate.format import check_title
 from validate.format import check_description, max_description_length
 from validate.format import check_auth, auth_keys
 from validate.format import check_https, https_keys
+from validate.format import check_cors, cors_keys
 
 
 class TestValidadeFormat(unittest.TestCase):
@@ -335,6 +336,32 @@ class TestValidadeFormat(unittest.TestCase):
 
                 err_msg = err_msgs[0]
                 expected_err_msg = f'(L001) {https} is not a valid HTTPS option'
+
+                self.assertIsInstance(err_msg, str)
+                self.assertEqual(err_msg, expected_err_msg)
+
+    def test_check_cors_with_valid_cors(self):
+        for cors in cors_keys:
+            with self.subTest():
+                err_msgs = check_cors(0, cors)
+                self.assertIsInstance(err_msgs, list)
+
+                self.assertEqual(len(err_msgs), 0)
+
+                self.assertEqual(err_msgs, [])
+
+    def test_check_cors_with_invalid_cors(self):
+        invalid_cors_keys = ['yes', 'no', 'unknown', 'cors']
+
+        for cors in invalid_cors_keys:
+            with self.subTest():
+                err_msgs = check_cors(0, cors)
+                self.assertIsInstance(err_msgs, list)
+
+                self.assertEqual(len(err_msgs), 1)
+
+                err_msg = err_msgs[0]
+                expected_err_msg = f'(L001) {cors} is not a valid CORS option'
 
                 self.assertIsInstance(err_msg, str)
                 self.assertEqual(err_msg, expected_err_msg)
