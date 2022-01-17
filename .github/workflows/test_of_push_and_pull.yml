@@ -11,7 +11,7 @@ env:
 
 jobs:
   tests:
-    name: 'Validate README.md'
+    name: 'Validate README.md changes'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
