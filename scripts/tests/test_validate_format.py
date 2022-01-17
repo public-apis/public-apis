@@ -150,35 +150,12 @@ class TestValidadeFormat(unittest.TestCase):
 
         self.assertEqual(err_msg, expected_err_msg)
 
-    def test_checK_description_return_type(self):
-        desc_1 = 'This is a fake description'
-        desc_2 = 'this is a fake description'
-        desc_3 = 'This is a fake description!'
-        desc_4 = 'This is a fake descriptionThis is a fake descriptionThis is a fake descriptionThis is a fake description'
-
-        result_1 = check_title(0, desc_1)
-        result_2 = check_title(0, desc_2)
-        result_3 = check_title(0, desc_3)
-        result_4 = check_title(0, desc_4)
-
-        self.assertIsInstance(result_1, list)
-        self.assertIsInstance(result_2, list)
-        self.assertIsInstance(result_3, list)
-        self.assertIsInstance(result_4, list)
-
-        err_msg_1 = result_2[0]
-        err_msg_2 = result_3[0]
-        err_msg_3 = result_4[0]
-
-        self.assertIsInstance(err_msg_1, str)
-        self.assertIsInstance(err_msg_2, str)
-        self.assertIsInstance(err_msg_3, str)
-
     def test_check_description_with_correct_description(self):
         desc = 'This is a fake description'
 
         err_msgs = check_description(0, desc)
 
+        self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 0)
 
         self.assertEqual(err_msgs, [])
@@ -188,11 +165,13 @@ class TestValidadeFormat(unittest.TestCase):
 
         err_msgs = check_description(0, desc)
 
+        self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 1)
         
         err_msg = err_msgs[0]
         expected_err_msg = '(L001) first character of description is not capitalized'
 
+        self.assertIsInstance(err_msg, str)
         self.assertEqual(err_msg, expected_err_msg)
     
     def test_check_description_with_punctuation_in_the_end(self):
@@ -205,11 +184,13 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 err_msgs = check_description(0, desc)
 
+                self.assertIsInstance(err_msgs, list)
                 self.assertEqual(len(err_msgs), 1)
         
                 err_msg = err_msgs[0]
                 expected_err_msg = f'(L001) description should not end with {desc[-1]}'
 
+                self.assertIsInstance(err_msg, str)
                 self.assertEqual(err_msg, expected_err_msg)
 
     def test_check_description_that_exceeds_the_character_limit(self):
@@ -218,11 +199,13 @@ class TestValidadeFormat(unittest.TestCase):
 
         err_msgs = check_description(0, long_desc)
 
+        self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 1)
 
         err_msg = err_msgs[0]
         expected_err_msg = f'(L001) description should not exceed {max_description_length} characters (currently {long_desc_length})'
 
+        self.assertIsInstance(err_msg, str)
         self.assertEqual(err_msg, expected_err_msg)
 
     def test_check_auth_return_type(self):
