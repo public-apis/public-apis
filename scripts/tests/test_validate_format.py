@@ -10,6 +10,7 @@ from validate.format import check_description, max_description_length
 from validate.format import check_auth, auth_keys
 from validate.format import check_https, https_keys
 from validate.format import check_cors, cors_keys
+from validate.format import check_entry
 
 
 class TestValidadeFormat(unittest.TestCase):
@@ -323,3 +324,33 @@ class TestValidadeFormat(unittest.TestCase):
 
                 self.assertIsInstance(err_msg, str)
                 self.assertEqual(err_msg, expected_err_msg)
+
+    def test_check_entry_with_correct_segments(self):
+        correct_segments = ['[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes']
+
+        err_msgs = check_entry(0, correct_segments)
+        
+        self.assertIsInstance(err_msgs, list)
+        self.assertEqual(len(err_msgs), 0)
+        self.assertEqual(err_msgs, [])
+
+    def test_check_entry_with_incorrect_segments(self):
+        incorrect_segments = ['[A API](https://www.ex.com)', 'desc.', 'yes', 'yes', 'yes']
+
+        err_msgs = check_entry(0, incorrect_segments)
+        expected_err_msgs = [
+            '(L001) Title should not end with "... API". Every entry is an API here!',
+            '(L001) first character of description is not capitalized',
+            '(L001) description should not end with .',
+            '(L001) auth value is not enclosed with `backticks`',
+            '(L001) yes is not a valid Auth option',
+            '(L001) yes is not a valid HTTPS option',
+            '(L001) yes is not a valid CORS option'
+        ]
+
+        self.assertIsInstance(err_msgs, list)
+        self.assertEqual(len(err_msgs), 7)
+        for err_msg in err_msgs:
+            with self.subTest():
+                self.assertIsInstance(err_msg, str)
+        self.assertEqual(err_msgs, expected_err_msgs)
