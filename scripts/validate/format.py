@@ -15,7 +15,6 @@ index_desc = 1
 index_auth = 2
 index_https = 3
 index_cors = 4
-index_link = 5
 
 num_segments = 5
 min_entries_per_section = 3
