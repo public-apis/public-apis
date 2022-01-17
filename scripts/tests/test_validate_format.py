@@ -208,7 +208,7 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertIsInstance(err_msg, str)
         self.assertEqual(err_msg, expected_err_msg)
 
-    def test_check_auth_with_correct_auth(self):
+    def test_check_auth_with_valid_auth(self):
         auth_valid = [f'`{auth}`' for auth in auth_keys if auth != 'No']
         auth_valid.append('No')
 
