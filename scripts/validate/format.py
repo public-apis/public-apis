@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import re
+import sys
 from typing import List, Tuple, Dict
 
 
@@ -185,13 +186,10 @@ def check_entry(line_num: int, segments: List[str]) -> List[str]:
     return err_msgs
 
 
-def check_file_format(filename: str) -> List[str]:
+def check_file_format(lines: List[str]) -> List[str]:
 
     err_msgs = []
     category_title_in_index = []
-
-    with open(filename, mode='r', encoding='utf-8') as file:
-        lines = list(line.rstrip() for line in file)
 
     alphabetical_err_msgs = check_alphabetical_order(lines)
     err_msgs.extend(alphabetical_err_msgs)
@@ -248,3 +246,29 @@ def check_file_format(filename: str) -> List[str]:
         err_msgs.extend(entry_err_msgs)
     
     return err_msgs
+
+
+def main(filename: str) -> None:
+
+    with open(filename, mode='r', encoding='utf-8') as file:
+        lines = list(line.rstrip() for line in file)
+
+    file_format_err_msgs = check_file_format(lines)
+
+    if file_format_err_msgs:
+        for err_msg in file_format_err_msgs:
+            print(err_msg)
+        sys.exit(1)
+
+
+if __name__ == '__main__':
+
+    num_args = len(sys.argv)
+
+    if num_args < 2:
+        print('No .md file passed (file should contain Markdown table syntax)')
+        sys.exit(1)
+
+    filename = sys.argv[1]
+
+    main(filename)
