@@ -234,7 +234,7 @@ def check_file_format(lines: List[str]) -> List[str]:
         num_in_category += 1
         segments = line_content.split('|')[1:-1]
         if len(segments) < num_segments:
-            err_msg = error_message(line_num, f'entry does not have all the required sections (have {len(segments)}, need {num_segments})')
+            err_msg = error_message(line_num, f'entry does not have all the required columns (have {len(segments)}, need {num_segments})')
             err_msgs.append(err_msg)
             continue
     
