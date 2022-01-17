@@ -16,6 +16,16 @@ scripts
         links.py
 ```
 
+## Install dependencies
+
+You must have [python](https://www.python.org/) installed to use these scripts.
+
+it is also necessary to install the validation package dependencies, use [pip package manager](https://pypi.org/project/pip/) for this:
+
+```bash
+$ python -m pip install -r scripts/requirements.txt
+```
+
 ## Run validations
 
 To run format validation on the `README.md` file, being in the root directory of public-apis, run:
@@ -55,5 +65,3 @@ To run only the links tests, run:
 ```bash
 $ python -m unittest discover tests/ --verbose --pattern "test_validate_links.py"
 ```
-
-*Note that it is necessary to have [python](https://www.python.org/) installed.*
