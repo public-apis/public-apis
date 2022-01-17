@@ -17,7 +17,7 @@ index_https = 3
 index_cors = 4
 
 num_segments = 5
-min_entries_per_section = 3
+min_entries_per_category = 3
 
 anchor_re = re.compile(anchor + '\s(.+)')
 category_title_in_index_re = re.compile('\*\s\[(.*)\]')
@@ -195,7 +195,7 @@ def check_file_format(filename: str) -> List[str]:
     alphabetical_err_msgs = check_alphabetical_order(lines)
     err_msgs.extend(alphabetical_err_msgs)
 
-    num_in_category = min_entries_per_section + 1
+    num_in_category = min_entries_per_category + 1
     category = ''
     category_line = 0
 
@@ -216,8 +216,8 @@ def check_file_format(filename: str) -> List[str]:
                 err_msg = error_message(line_num, 'category header is not formatted correctly')
                 err_msgs.append(err_msg)
 
-            if num_in_category < min_entries_per_section:
-                err_msg = error_message(category_line, f'{category} category does not have the minimum {min_entries_per_section} entries (only has {num_in_category})')
+            if num_in_category < min_entries_per_category:
+                err_msg = error_message(category_line, f'{category} category does not have the minimum {min_entries_per_category} entries (only has {num_in_category})')
                 err_msgs.append(err_msg)
 
             category = line_content.split(' ')[1]
