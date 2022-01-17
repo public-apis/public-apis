@@ -2,12 +2,12 @@
 
 import re
 import sys
+from string import punctuation
 from typing import List, Tuple, Dict
 
 
 anchor = '###'
 auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'User-Agent', 'No']
-punctuation = ['.', '?', '!']
 https_keys = ['Yes', 'No']
 cors_keys = ['Yes', 'No', 'Unknown']
 
