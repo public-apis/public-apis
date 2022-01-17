@@ -19,7 +19,6 @@ index_cors = 4
 index_link = 5
 num_segments = 5
 
-errors = []
 title_links = []
 anchor_re = re.compile(anchor + '\s(.+)')
 category_title_in_index_re = re.compile('\*\s\[(.*)\]')
@@ -64,17 +63,21 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
     return (categories, category_line_num)
 
 
-def check_alphabetical_order(lines: List[str]) -> None:
+def check_alphabetical_order(lines: List[str]) -> List[str]:
+
+    err_msgs = []
 
     categories, category_line_num = get_categories_content(contents=lines)
 
     for category, api_list in categories.items():
         if sorted(api_list) != api_list:
-            message = error_message(
+            err_msg = error_message(
                 category_line_num[category], 
                 f'{category} category is not alphabetical order'
             )
-            errors.append(message)
+            err_msgs.append(err_msg)
+    
+    return err_msgs
 
 
 def check_title(line_num: int, raw_title: str) -> List[str]:
@@ -182,12 +185,15 @@ def check_entry(line_num: int, segments: List[str]) -> List[str]:
     return err_msgs
 
 
-def check_file_format(filename: str) -> None:
+def check_file_format(filename: str) -> List[str]:
+
+    err_msgs = []
 
     with open(filename, mode='r', encoding='utf-8') as file:
         lines = list(line.rstrip() for line in file)
 
-    check_alphabetical_order(lines)
+    alphabetical_err_msgs = check_alphabetical_order(lines)
+    err_msgs.extend(alphabetical_err_msgs)
 
     num_in_category = min_entries_per_section + 1
     category = ''
@@ -204,15 +210,15 @@ def check_file_format(filename: str) -> None:
             category_match = anchor_re.match(line_content)
             if category_match:
                 if category_match.group(1) not in title_links:
-                    message = error_message(line_num, f'category header ({category_match.group(1)}) not added to Index section')
-                    errors.append(message)
+                    err_msg = error_message(line_num, f'category header ({category_match.group(1)}) not added to Index section')
+                    err_msgs.append(err_msg)
             else:
-                message = error_message(line_num, 'category header is not formatted correctly')
-                errors.append(message)
+                err_msg = error_message(line_num, 'category header is not formatted correctly')
+                err_msgs.append(err_msg)
 
             if num_in_category < min_entries_per_section:
-                message = error_message(category_line, f'{category} category does not have the minimum {min_entries_per_section} entries (only has {num_in_category})')
-                errors.append(message)
+                err_msg = error_message(category_line, f'{category} category does not have the minimum {min_entries_per_section} entries (only has {num_in_category})')
+                err_msgs.append(err_msg)
 
             category = line_content.split(' ')[1]
             category_line = line_num
@@ -226,16 +232,18 @@ def check_file_format(filename: str) -> None:
         num_in_category += 1
         segments = line_content.split('|')[1:-1]
         if len(segments) < num_segments:
-            message = error_message(line_num, f'entry does not have all the required sections (have {len(segments)}, need {num_segments})')
-            errors.append(message)
+            err_msg = error_message(line_num, f'entry does not have all the required sections (have {len(segments)}, need {num_segments})')
+            err_msgs.append(err_msg)
             continue
     
         for segment in segments:
             # every line segment should start and end with exactly 1 space
             if len(segment) - len(segment.lstrip()) != 1 or len(segment) - len(segment.rstrip()) != 1:
-                message = error_message(line_num, 'each segment must start and end with exactly 1 space')
-                errors.append(message)
+                err_msg = error_message(line_num, 'each segment must start and end with exactly 1 space')
+                err_msgs.append(err_msg)
         
         segments = [segment.strip() for segment in segments]
         entry_err_msgs = check_entry(line_num, segments)
-        errors.extend(entry_err_msgs)
+        err_msgs.extend(entry_err_msgs)
+    
+    return err_msgs
