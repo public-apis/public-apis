@@ -158,7 +158,6 @@ class TestValidadeFormat(unittest.TestCase):
 
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 0)
-
         self.assertEqual(err_msgs, [])
     
     def test_check_description_with_first_char_is_not_capitalized(self):
@@ -217,9 +216,7 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 err_msgs = check_auth(0, auth)
                 self.assertIsInstance(err_msgs, list)
-
                 self.assertEqual(len(err_msgs), 0)
-
                 self.assertEqual(err_msgs, [])
 
     def test_check_auth_without_backtick(self):
@@ -229,7 +226,6 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 err_msgs = check_auth(0, auth)
                 self.assertIsInstance(err_msgs, list)
-
                 self.assertEqual(len(err_msgs), 1)
 
                 err_msg = err_msgs[0]
@@ -246,7 +242,6 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 err_msgs = check_auth(0, auth)
                 self.assertIsInstance(err_msgs, list)
-
                 self.assertEqual(len(err_msgs), 2)
 
                 err_msg_1 = err_msgs[0]
@@ -264,7 +259,6 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 err_msgs = check_auth(0, auth)
                 self.assertIsInstance(err_msgs, list)
-
                 self.assertEqual(len(err_msgs), 1)
 
                 err_msg = err_msgs[0]
@@ -278,9 +272,7 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 err_msgs = check_https(0, https)
                 self.assertIsInstance(err_msgs, list)
-
                 self.assertEqual(len(err_msgs), 0)
-
                 self.assertEqual(err_msgs, [])
 
     def test_check_https_with_invalid_https(self):
@@ -290,7 +282,6 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 err_msgs = check_https(0, https)
                 self.assertIsInstance(err_msgs, list)
-
                 self.assertEqual(len(err_msgs), 1)
 
                 err_msg = err_msgs[0]
@@ -304,9 +295,7 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 err_msgs = check_cors(0, cors)
                 self.assertIsInstance(err_msgs, list)
-
                 self.assertEqual(len(err_msgs), 0)
-
                 self.assertEqual(err_msgs, [])
 
     def test_check_cors_with_invalid_cors(self):
@@ -316,7 +305,6 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 err_msgs = check_cors(0, cors)
                 self.assertIsInstance(err_msgs, list)
-
                 self.assertEqual(len(err_msgs), 1)
 
                 err_msg = err_msgs[0]
