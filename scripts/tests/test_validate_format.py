@@ -208,31 +208,6 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertIsInstance(err_msg, str)
         self.assertEqual(err_msg, expected_err_msg)
 
-    def test_check_auth_return_type(self):
-        auth_with_backtick = [f'`{auth}`' for auth in auth_keys if auth != 'No']
-        auth_with_backtick.append('No')
-        auth_without_backtick = [auth for auth in auth_keys if auth != 'No']
-        auth_invalid = ['Yes', 'yes', 'no', 'random', 'Unknown']
-
-        for auth in auth_with_backtick:
-            with self.subTest():
-                result = check_auth(0, auth)
-                self.assertIsInstance(result, list)
-        
-        for auth in auth_without_backtick:
-            with self.subTest():
-                err_msgs = check_auth(0, auth)
-                self.assertIsInstance(result, list)
-                err_msg = err_msgs[0]
-                self.assertIsInstance(err_msg, str)
-        
-        for auth in auth_invalid:
-            with self.subTest():
-                err_msgs = check_auth(0, auth)
-                self.assertIsInstance(result, list)
-                err_msg = err_msgs[0]
-                self.assertIsInstance(err_msg, str)
-
     def test_check_auth_with_correct_auth(self):
         auth_valid = [f'`{auth}`' for auth in auth_keys if auth != 'No']
         auth_valid.append('No')
@@ -259,6 +234,7 @@ class TestValidadeFormat(unittest.TestCase):
                 err_msg = err_msgs[0]
                 expected_err_msg = '(L001) auth value is not enclosed with `backticks`'
 
+                self.assertIsInstance(err_msg, str)
                 self.assertEqual(err_msg, expected_err_msg)
 
     def test_check_auth_with_invalid_auth(self):
@@ -277,6 +253,8 @@ class TestValidadeFormat(unittest.TestCase):
                 expected_err_msg_1 = f'(L001) auth value is not enclosed with `backticks`'
                 expected_err_msg_2 = f'(L001) {auth} is not a valid Auth option'
 
+                self.assertIsInstance(err_msg_1, str)
+                self.assertIsInstance(err_msg_2, str)
                 self.assertEqual(err_msg_1, expected_err_msg_1)
                 self.assertEqual(err_msg_2, expected_err_msg_2)
 
