@@ -11,6 +11,7 @@ from validate.format import check_auth, auth_keys
 from validate.format import check_https, https_keys
 from validate.format import check_cors, cors_keys
 from validate.format import check_entry
+from validate.format import check_file_format, min_entries_per_category, num_segments
 
 
 class TestValidadeFormat(unittest.TestCase):
@@ -342,3 +343,124 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 self.assertIsInstance(err_msg, str)
         self.assertEqual(err_msgs, expected_err_msgs)
+
+    def test_check_file_format_with_correct_format(self):
+        correct_format = [
+            '## Index',
+            '* [A](#a)',
+            '* [B](#b)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '',
+            '### B',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [BC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
+        ]
+
+        err_msgs = check_file_format(lines=correct_format)
+
+        self.assertIsInstance(err_msgs, list)
+        self.assertEqual(len(err_msgs), 0)
+        self.assertEqual(err_msgs, [])
+
+    def test_check_file_format_with_category_header_not_added_to_index(self):
+        incorrect_format = [
+            '## Index',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        err_msgs = check_file_format(lines=incorrect_format)
+        expected_err_msg = '(L003) category header (A) not added to Index section'
+
+        self.assertIsInstance(err_msgs, list)
+        self.assertEqual(len(err_msgs), 1)
+        err_msg = err_msgs[0]
+        self.assertEqual(err_msg, expected_err_msg)
+
+    def test_check_file_format_with_category_without_min_entries(self):
+        incorrect_format = [
+            '## Index',
+            '* [A](#a)',
+            '* [B](#b)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '',
+            '### B',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [BC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
+        ]
+
+        category_with_err = 'A'
+        num_in_category = 1
+
+        err_msgs = check_file_format(lines=incorrect_format)
+        expected_err_msg = f'(L005) {category_with_err} category does not have the minimum {min_entries_per_category} entries (only has {num_in_category})'
+
+        self.assertIsInstance(err_msgs, list)
+        self.assertEqual(len(err_msgs), 1)
+        err_msg = err_msgs[0]
+        self.assertEqual(err_msg, expected_err_msg)
+
+    def test_check_file_format_entry_without_all_necessary_columns(self):
+        incorrect_format = [
+            '## Index',
+            '* [A](#a)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` |',  # missing https and cors
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        current_segments_num = 3
+
+        err_msgs = check_file_format(lines=incorrect_format)
+        expected_err_msg = f'(L008) entry does not have all the required columns (have {current_segments_num}, need {num_segments})'
+
+        self.assertIsInstance(err_msgs, list)
+        self.assertEqual(len(err_msgs), 1)
+        err_msg = err_msgs[0]
+        self.assertEqual(err_msg, expected_err_msg)
+
+    def test_check_file_format_without_1_space_between_the_segments(self):
+        incorrect_format = [
+            '## Index',
+            '* [A](#a)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [AA](https://www.ex.com) | Desc |`apiKey`| Yes | Yes |',  # space between segment of auth column missing
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        err_msgs = check_file_format(lines=incorrect_format)
+        expected_err_msg = f'(L007) each segment must start and end with exactly 1 space'
+
+        self.assertIsInstance(err_msgs, list)
+        self.assertEqual(len(err_msgs), 1)
+        err_msg = err_msgs[0]
+        self.assertEqual(err_msg, expected_err_msg)
