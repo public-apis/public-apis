@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
-from email import message
 import unittest
 
 from validate.format import error_message
 from validate.format import get_categories_content
 from validate.format import check_alphabetical_order
+from validate.format import check_title
 
 
 class TestValidadeFormat(unittest.TestCase):
@@ -110,3 +110,55 @@ class TestValidadeFormat(unittest.TestCase):
 
             with self.subTest():
                 self.assertEqual(err_msg, ex_err_msg)
+
+    def test_check_title_return_type(self):
+        raw_title_1 = '[A](https://www.ex.com)'
+        raw_title_2 = '[A(https://www.ex.com)'
+        raw_title_3 = '[A API](https://www.ex.com)'
+
+        result_1 = check_title(0, raw_title_1)
+        result_2 = check_title(0, raw_title_2)
+        result_3 = check_title(0, raw_title_3)
+
+        self.assertIsInstance(result_1, list)
+        self.assertIsInstance(result_2, list)
+        self.assertIsInstance(result_3, list)
+
+        err_msg_1 = result_2[0]
+        err_msg_2 = result_3[0]
+
+        self.assertIsInstance(err_msg_1, str)
+        self.assertIsInstance(err_msg_2, str)
+    
+    def test_check_title_with_correct_title(self):
+        raw_title = '[A](https://www.ex.com)'
+
+        err_msgs = check_title(0, raw_title)
+
+        self.assertEqual(len(err_msgs), 0)
+        
+        self.assertEqual(err_msgs, [])
+
+    def test_check_title_with_markdown_syntax_incorrect(self):
+        raw_title = '[A(https://www.ex.com)'
+
+        err_msgs = check_title(0, raw_title)
+
+        self.assertEqual(len(err_msgs), 1)
+        
+        err_msg = err_msgs[0]
+        expected_err_msg = '(L001) Title syntax should be "[TITLE](LINK)"'
+
+        self.assertEqual(err_msg, expected_err_msg)
+
+    def test_check_title_with_api_at_the_end_of_the_title(self):
+        raw_title = '[A API](https://www.ex.com)'
+
+        err_msgs = check_title(0, raw_title)
+
+        self.assertEqual(len(err_msgs), 1)
+        
+        err_msg = err_msgs[0]
+        expected_err_msg = '(L001) Title should not end with "... API". Every entry is an API here!'
+
+        self.assertEqual(err_msg, expected_err_msg)
