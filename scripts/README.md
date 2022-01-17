@@ -16,6 +16,20 @@ scripts
         links.py
 ```
 
+## Run validations
+
+To run format validation on the `README.md` file, being in the root directory of public-apis, run:
+
+```bash
+$ python scripts/validate/format.py README.md
+```
+
+To run link validation on the `README.md` file, being in the root directory of public-apis, run:
+
+```bash
+$ python scripts/validate/links.py README.md
+```
+
 ## Running Tests
 
 To run all tests it is necessary to change to the scripts directory:
