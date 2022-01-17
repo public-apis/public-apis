@@ -230,7 +230,7 @@ class TestValidadeFormat(unittest.TestCase):
                 self.assertIsInstance(err_msgs, list)
 
                 self.assertEqual(len(err_msgs), 1)
-                
+
                 err_msg = err_msgs[0]
                 expected_err_msg = '(L001) auth value is not enclosed with `backticks`'
 
@@ -246,7 +246,7 @@ class TestValidadeFormat(unittest.TestCase):
                 self.assertIsInstance(err_msgs, list)
 
                 self.assertEqual(len(err_msgs), 2)
-                
+
                 err_msg_1 = err_msgs[0]
                 err_msg_2 = err_msgs[1]
 
