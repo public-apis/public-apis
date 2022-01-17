@@ -193,15 +193,15 @@ def check_file_format(filename: str) -> None:
     category = ''
     category_line = 0
 
-    for line_num, line in enumerate(lines):
+    for line_num, line_content in enumerate(lines):
 
-        category_title_match = category_title_in_index_re.match(line)
+        category_title_match = category_title_in_index_re.match(line_content)
         if category_title_match:
             title_links.append(category_title_match.group(1))
 
         # check each category for the minimum number of entries
-        if line.startswith(anchor):
-            category_match = anchor_re.match(line)
+        if line_content.startswith(anchor):
+            category_match = anchor_re.match(line_content)
             if category_match:
                 if category_match.group(1) not in title_links:
                     message = error_message(line_num, f'category header ({category_match.group(1)}) not added to Index section')
@@ -214,17 +214,17 @@ def check_file_format(filename: str) -> None:
                 message = error_message(category_line, f'{category} category does not have the minimum {min_entries_per_section} entries (only has {num_in_category})')
                 errors.append(message)
 
-            category = line.split(' ')[1]
+            category = line_content.split(' ')[1]
             category_line = line_num
             num_in_category = 0
             continue
 
         # skips lines that we do not care about
-        if not line.startswith('|') or line.startswith('|---'):
+        if not line_content.startswith('|') or line_content.startswith('|---'):
             continue
 
         num_in_category += 1
-        segments = line.split('|')[1:-1]
+        segments = line_content.split('|')[1:-1]
         if len(segments) < num_segments:
             message = error_message(line_num, f'entry does not have all the required sections (have {len(segments)}, need {num_segments})')
             errors.append(message)
