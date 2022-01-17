@@ -22,7 +22,7 @@ num_segments = 5
 errors = []
 title_links = []
 anchor_re = re.compile(anchor + '\s(.+)')
-section_title_re = re.compile('\*\s\[(.*)\]')
+category_title_in_index_re = re.compile('\*\s\[(.*)\]')
 link_re = re.compile('\[(.+)\]\((http.*)\)')
 
 # Type aliases
@@ -195,23 +195,23 @@ def check_file_format(filename: str) -> None:
 
     for line_num, line in enumerate(lines):
 
-        section_title_match = section_title_re.match(line)
-        if section_title_match:
-            title_links.append(section_title_match.group(1))
+        category_title_match = category_title_in_index_re.match(line)
+        if category_title_match:
+            title_links.append(category_title_match.group(1))
 
-        # check each section for the minimum number of entries
+        # check each category for the minimum number of entries
         if line.startswith(anchor):
             category_match = anchor_re.match(line)
             if category_match:
                 if category_match.group(1) not in title_links:
-                    message = error_message(line_num, f'section header ({category_match.group(1)}) not added as a title link')
+                    message = error_message(line_num, f'category header ({category_match.group(1)}) not added to Index section')
                     errors.append(message)
             else:
-                message = error_message(line_num, 'section header is not formatted correctly')
+                message = error_message(line_num, 'category header is not formatted correctly')
                 errors.append(message)
 
             if num_in_category < min_entries_per_section:
-                message = error_message(category_line, f'{category} section does not have the minimum {min_entries_per_section} entries (only has {num_in_category})')
+                message = error_message(category_line, f'{category} category does not have the minimum {min_entries_per_section} entries (only has {num_in_category})')
                 errors.append(message)
 
             category = line.split(' ')[1]
