@@ -5,7 +5,7 @@ on:
     - cron:  '0 0 * * *'
 
 env:
-  FORMAT_FILE: README.md
+  FILENAME: README.md
 
 jobs:
   validate_links:
@@ -24,4 +24,4 @@ jobs:
         run: python -m pip install -r scripts/requirements.txt
 
       - name: Validate all links from README.md
-        run: python scripts/validate/links.py ${FORMAT_FILE}
+        run: python scripts/validate/links.py ${FILENAME}
