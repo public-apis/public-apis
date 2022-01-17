@@ -5,7 +5,6 @@ from typing import List, Tuple, Dict
 
 
 anchor = '###'
-min_entries_per_section = 3
 auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'User-Agent', 'No']
 punctuation = ['.', '?', '!']
 https_keys = ['Yes', 'No']
@@ -17,7 +16,9 @@ index_auth = 2
 index_https = 3
 index_cors = 4
 index_link = 5
+
 num_segments = 5
+min_entries_per_section = 3
 
 anchor_re = re.compile(anchor + '\s(.+)')
 category_title_in_index_re = re.compile('\*\s\[(.*)\]')
