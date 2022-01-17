@@ -7,6 +7,7 @@ from validate.format import get_categories_content
 from validate.format import check_alphabetical_order
 from validate.format import check_title
 from validate.format import check_description, max_description_length
+from validate.format import check_auth, auth_keys
 
 
 class TestValidadeFormat(unittest.TestCase):
@@ -238,3 +239,75 @@ class TestValidadeFormat(unittest.TestCase):
         expected_err_msg = f'(L001) description should not exceed {max_description_length} characters (currently {long_desc_length})'
 
         self.assertEqual(err_msg, expected_err_msg)
+
+    def test_check_auth_return_type(self):
+        auth_with_backtick = [f'`{auth}`' for auth in auth_keys if auth != 'No']
+        auth_with_backtick.append('No')
+        auth_without_backtick = [auth for auth in auth_keys if auth != 'No']
+        auth_invalid = ['Yes', 'yes', 'no', 'random', 'Unknown']
+
+        for auth in auth_with_backtick:
+            with self.subTest():
+                result = check_auth(0, auth)
+                self.assertIsInstance(result, list)
+        
+        for auth in auth_without_backtick:
+            with self.subTest():
+                err_msgs = check_auth(0, auth)
+                self.assertIsInstance(result, list)
+                err_msg = err_msgs[0]
+                self.assertIsInstance(err_msg, str)
+        
+        for auth in auth_invalid:
+            with self.subTest():
+                err_msgs = check_auth(0, auth)
+                self.assertIsInstance(result, list)
+                err_msg = err_msgs[0]
+                self.assertIsInstance(err_msg, str)
+
+    def test_check_auth_with_correct_auth(self):
+        auth_valid = [f'`{auth}`' for auth in auth_keys if auth != 'No']
+        auth_valid.append('No')
+
+        for auth in auth_valid:
+            with self.subTest():
+                err_msgs = check_auth(0, auth)
+                self.assertIsInstance(err_msgs, list)
+
+                self.assertEqual(len(err_msgs), 0)
+
+                self.assertEqual(err_msgs, [])
+
+    def test_check_auth_without_backtick(self):
+        auth_without_backtick = [auth for auth in auth_keys if auth != 'No']
+
+        for auth in auth_without_backtick:
+            with self.subTest():
+                err_msgs = check_auth(0, auth)
+                self.assertIsInstance(err_msgs, list)
+
+                self.assertEqual(len(err_msgs), 1)
+                
+                err_msg = err_msgs[0]
+                expected_err_msg = '(L001) auth value is not enclosed with `backticks`'
+
+                self.assertEqual(err_msg, expected_err_msg)
+
+    def test_check_auth_with_invalid_auth(self):
+        auth_invalid = ['Yes', 'yes', 'no', 'random', 'Unknown']
+
+        for auth in auth_invalid:
+            with self.subTest():
+                err_msgs = check_auth(0, auth)
+                self.assertIsInstance(err_msgs, list)
+
+                self.assertEqual(len(err_msgs), 2)
+                
+                err_msg_1 = err_msgs[0]
+                err_msg_2 = err_msgs[1]
+
+                expected_err_msg_1 = f'(L001) auth value is not enclosed with `backticks`'
+                expected_err_msg_2 = f'(L001) {auth} is not a valid Auth option'
+
+                self.assertEqual(err_msg_1, expected_err_msg_1)
+                self.assertEqual(err_msg_2, expected_err_msg_2)
