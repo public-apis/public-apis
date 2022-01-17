@@ -8,6 +8,7 @@ from validate.format import check_alphabetical_order
 from validate.format import check_title
 from validate.format import check_description, max_description_length
 from validate.format import check_auth, auth_keys
+from validate.format import check_https, https_keys
 
 
 class TestValidadeFormat(unittest.TestCase):
@@ -311,3 +312,29 @@ class TestValidadeFormat(unittest.TestCase):
 
                 self.assertEqual(err_msg_1, expected_err_msg_1)
                 self.assertEqual(err_msg_2, expected_err_msg_2)
+
+    def test_check_https_with_valid_https(self):
+        for https in https_keys:
+            with self.subTest():
+                err_msgs = check_https(0, https)
+                self.assertIsInstance(err_msgs, list)
+
+                self.assertEqual(len(err_msgs), 0)
+
+                self.assertEqual(err_msgs, [])
+
+    def test_check_https_with_invalid_https(self):
+        invalid_https_keys = ['yes', 'no', 'Unknown', 'https', 'http']
+
+        for https in invalid_https_keys:
+            with self.subTest():
+                err_msgs = check_https(0, https)
+                self.assertIsInstance(err_msgs, list)
+
+                self.assertEqual(len(err_msgs), 1)
+
+                err_msg = err_msgs[0]
+                expected_err_msg = f'(L001) {https} is not a valid HTTPS option'
+
+                self.assertIsInstance(err_msg, str)
+                self.assertEqual(err_msg, expected_err_msg)
