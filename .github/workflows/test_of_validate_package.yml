@@ -21,7 +21,7 @@ jobs:
         python-version: '3.8'
     
     - name: Install dependencies
-        run: python -m pip install -r scripts/requirements.txt
+      run: python -m pip install -r scripts/requirements.txt
 
     - name: Run Unittest
       run: |
