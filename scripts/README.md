@@ -40,6 +40,14 @@ To run link validation on the `README.md` file, being in the root directory of p
 $ python scripts/validate/links.py README.md
 ```
 
+As there are many links to check, this process can take some time. If your goal is not to check if the links are working, you can only check for duplicate links. Run:
+
+```bash
+$ python scripts/validate/links.py README.md -odlc
+```
+
+*`-odlc` is an abbreviation of `--only_duplicate_links_checker`*
+
 ## Running Tests
 
 To run all tests it is necessary to change to the scripts directory:
