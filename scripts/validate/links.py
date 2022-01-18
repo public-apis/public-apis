@@ -241,21 +241,32 @@ def start_links_working_checker(links: List[str]) -> None:
         sys.exit(1)
 
 
-def main(filename: str) -> None:
+def main(filename: str, only_duplicate_links_checker: bool) -> None:
 
     links = find_links_in_file(filename)
 
     start_duplicate_links_checker(links)
-    start_links_working_checker(links)
+
+    if not only_duplicate_links_checker:
+        start_links_working_checker(links)
 
 
 if __name__ == '__main__':
     num_args = len(sys.argv)
+    only_duplicate_links_checker = False
 
     if num_args < 2:
         print('No .md file passed')
         sys.exit(1)
+    elif num_args == 3:
+        third_arg = sys.argv[2].lower()
+
+        if third_arg == '-odlc' or third_arg == '--only_duplicate_links_checker':
+            only_duplicate_links_checker = True
+        else:
+            print(f'Third invalid argument. Usage: python {__file__} [-odlc | --only_duplicate_links_checker]')
+            sys.exit(1)
 
     filename = sys.argv[1]
 
-    main(filename)
+    main(filename, only_duplicate_links_checker)
