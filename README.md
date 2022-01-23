@@ -866,7 +866,8 @@ API | Description | Auth | HTTPS | CORS |
 | [When is next MCU film](https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md) | Upcomimg MCU film information | No | Yes | Unknown |
 | [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | No |
 | [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
-
+| [Api game player name check](bit.ly/apiplayercek) | Get information player name by id game | `apiKey` | Yes | No |
+    
 **[⬆ Back to Index](#index)**
 ### Geocoding
 API | Description | Auth | HTTPS | CORS |
