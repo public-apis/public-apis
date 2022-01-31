@@ -545,7 +545,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Plino](https://plino.herokuapp.com/) | An intelligent spam filtering system | No | Yes | No |
 | [Postman](https://docs.api.getpostman.com/) | Tool for testing APIs | `apiKey` | Yes | Unknown |
 | [ProxyCrawl](https://proxycrawl.com) | Scraping and crawling anticaptcha service | `apiKey` | Yes | Unknown |
-| [Public APIs](https://github.com/davemachado/public-api) | A collective list of free JSON APIs for use in web development | No | Yes | Unknown |
 | [Pusher Beams](https://pusher.com/beams) | Push notifications for Android & iOS | `apiKey` | Yes | Unknown |
 | [QR code](http://qrtag.net/api/) | Create an easy to read QR code and URL shortener | No | Yes | Yes |
 | [QR code](http://goqr.me/api/) | Generate and decode / read QR code graphics | No | Yes | Unknown |
