@@ -55,6 +55,14 @@
 
 ---
 
+<div align="center">
+    <p>
+        <a href="https://opencollective.com/public-apis">[ <strong>Become a sponsor</strong> and support Public APIs and their maintainers ]</a>
+    </p>
+</div>
+
+---
+
 ## Index
 
 * [Animals](#animals)
