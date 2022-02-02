@@ -53,15 +53,31 @@
     <a href="https://collective-api.vercel.app/">Collective APIs</a> 
 </div>
 
+<br />
+
 ---
+
+<br />
 
 <div align="center">
     <p>
         <a href="https://opencollective.com/public-apis">[ <strong>Become a sponsor</strong> and support Public APIs and their maintainers ]</a>
     </p>
+    <p><strong>Special thanks to:</strong></p>
+    <p>
+        <a href="https://m3o.com">
+            <div>
+                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/m3o_logo_black.png" width="250" alt="M3O Logo" />
+            </div>
+        </a>
+    </p>
 </div>
 
+<br />
+
 ---
+
+<br />
 
 ## Index
 
