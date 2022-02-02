@@ -65,9 +65,20 @@
     </p>
     <p><strong>Special thanks to:</strong></p>
     <p>
-        <a href="https://m3o.com">
+        <a href="https://m3o.com#gh-light-mode-only">
             <div>
                 <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/m3o_logo_black.png" width="250" alt="M3O Logo" />
+            </div>
+            <div>
+                <p><strong>The fastest way to integrate APIs into any product</strong></p>
+            </div>
+            <div>
+                <sup>Explore, discover and consume public APIs as simpler programmable building blocks all on one platform for a 10x developer experience.</sup>
+            </div>
+        </a>
+        <a href="https://m3o.com#gh-dark-mode-only">
+            <div>
+                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/m3o_logo_white.png" width="250" alt="M3O Logo" />
             </div>
             <div>
                 <p><strong>The fastest way to integrate APIs into any product</strong></p>
