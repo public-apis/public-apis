@@ -17,7 +17,7 @@ def find_links_in_text(text: str) -> List[str]:
     raw_links = re.findall(link_pattern, text)
 
     links = [
-        str(raw_link[0]).rstrip('/') for raw_link in raw_links
+        str(raw_link[0]) for raw_link in raw_links
     ]
 
     return links
@@ -49,6 +49,7 @@ def check_duplicate_links(links: List[str]) -> Tuple[bool, List]:
     has_duplicate = False
 
     for link in links:
+        link = link.rstrip('/')
         if link not in seen:
             seen[link] = 1
         else:
@@ -163,7 +164,7 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     error_message = ''
 
     try:
-        resp = requests.get(link + '/', timeout=25, headers={
+        resp = requests.get(link, timeout=25, headers={
             'User-Agent': fake_user_agent(),
             'host': get_host_from_link(link)
         })
