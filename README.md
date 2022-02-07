@@ -8,11 +8,11 @@
 <div align="center">
     <sup>Status</sup>
     <br />
-    <a href="https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22">
-        <img alt="Run tests" src="https://github.com/public-apis/public-apis/workflows/Run%20tests/badge.svg" />
+    <a href="https://github.com/public-apis/public-apis/actions/workflows/test_of_push_and_pull.yml">
+        <img alt="Tests of push and pull" src="https://github.com/public-apis/public-apis/actions/workflows/test_of_push_and_pull.yml/badge.svg" />
     </a>
-    <a href="https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22">
-        <img alt="Validate links" src="https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master" />
+    <a href="https://github.com/public-apis/public-apis/actions/workflows/validate_links.yml">
+        <img alt="Validate links" src="https://github.com/public-apis/public-apis/actions/workflows/validate_links.yml/badge.svg" />
     </a>
     <a href="https://github.com/public-apis/public-apis">
         <img alt="Number of Categories" src="https://img.shields.io/badge/dynamic/json?url=https://api.publicapis.org/categories&label=Number%20of%20Categories&query=$.count&color=informational" />
