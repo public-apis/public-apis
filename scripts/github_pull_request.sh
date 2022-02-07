@@ -4,20 +4,20 @@ set -e
 
 # Argument validation
 if [ $# -ne 3 ]; then
-    echo "Usage: $0 <github-repo> <pull-number> <format-file>"
+    echo "Usage: $0 <github-repo> <pull-number> <filename>"
     exit 1
 fi
 
 # Assign variables
 GITHUB_REPOSITORY="$1"
 GITHUB_PULL_REQUEST="$2"
-FORMAT_FILE="$3"
+FILENAME="$3"
 
 # Move to root of project
 cd "$GITHUB_WORKSPACE"
 
 # Determine files
-FORMAT_FILE="$( realpath "${FORMAT_FILE}" )"
+FILENAME="$( realpath "${FILENAME}" )"
 
 # Skip if build number could not be determined
 if [ -z "$GITHUB_REPOSITORY" -o -z "$GITHUB_PULL_REQUEST" ]; then
@@ -31,7 +31,7 @@ echo "running on Pull Request #$GITHUB_PULL_REQUEST"
 # Trick the URL validator python script into not seeing this as a URL
 DUMMY_SCHEME="https"
 DIFF_URL="$DUMMY_SCHEME://patch-diff.githubusercontent.com/raw/$GITHUB_REPOSITORY/pull/$GITHUB_PULL_REQUEST.diff"
-curl -L -o diff.txt "$DIFF_URL"
+curl -L "$DIFF_URL" -o diff.txt
 
 # Construct diff
 echo "------- BEGIN DIFF -------"
@@ -45,13 +45,13 @@ echo "------- END ADDITIONS ------"
 LINK_FILE=additions.txt
 
 # Validate links
-echo "Running link validation..."
-./build/validate_links.py "$LINK_FILE"
+echo "Running link validation on additions..."
+python scripts/validate/links.py "$LINK_FILE"
 
 # Vebosity
 if [[ $? != 0 ]]; then
-    echo "link validation failed!"
+    echo "link validation failed on additions!"
     exit 1
 else
-    echo "link validation passed!"
+    echo "link validation passed on additions!"
 fi
