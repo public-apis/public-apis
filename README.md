@@ -607,7 +607,6 @@ API | Description | Auth | HTTPS | CORS |
 | [StackExchange](https://api.stackexchange.com/) | Q&A forum for developers | `OAuth` | Yes | Unknown |
 | [Statically](https://statically.io/) | A free CDN for developers | No | Yes | Yes |
 | [Supportivekoala](https://developers.supportivekoala.com/) | Autogenerate images with template | `apiKey` | Yes | Yes |
-| [Trending-Github](https://docs.trending-github.com) | Discover what is currently trending on github | No | Yes | Yes |
 | [Tyk](https://tyk.io/open-source/) | Api and service management platform | `apiKey` | Yes | Yes |
 | [Wandbox](https://github.com/melpon/wandbox/blob/master/kennel2/API.rst) | Code compiler supporting 35+ languages mentioned at wandbox.org | No | Yes | Unknown |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
