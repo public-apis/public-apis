@@ -850,6 +850,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Fun Facts](https://asli-fun-fact-api.herokuapp.com/) | Random Fun Facts | No | Yes | Yes |
 | [FunTranslations](https://api.funtranslations.com/) | Translate Text into funny languages | No | Yes | Yes |
 | [GamerPower](https://www.gamerpower.com/api-read) | Game Giveaways Tracker | No | Yes | Yes |
+| [GDBrowser](https://gdbrowser.com/api) | Easy way to use the Geometry Dash Servers | No | Yes | Unknown |    
 | [Geek-Jokes](https://github.com/sameerkumar18/geek-joke-api) | Fetch a random geeky/programming related joke for use in all sorts of applications | No | Yes | Yes |
 | [Genshin Impact](https://genshin.dev) | Genshin Impact game data | No | Yes | Yes |
 | [Giant Bomb](https://www.giantbomb.com/api/documentation) | Video Games | `apiKey` | Yes | Unknown |
