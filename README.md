@@ -71,7 +71,7 @@
     <p>
         <a href="https://m3o.com#gh-light-mode-only">
             <div>
-                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/m3o_logo_black.png" width="250" alt="M3O Logo" />
+                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/cs1586-APILayerLogoUpdate2022-LJ_v2-HighRes.png" width="250" alt=APILayer Logo" />
             </div>
             <div>
                 <p><strong>The fastest way to integrate APIs into any product</strong></p>
