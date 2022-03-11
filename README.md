@@ -182,6 +182,7 @@ API | Description | Auth | HTTPS | CORS |
 | [RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) | Adoption | No | Yes | Unknown |
 | [Shibe.Online](http://shibe.online/) | Random pictures of Shiba Inu, cats or birds | No | Yes | Yes |
 | [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
+| [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
 | [Zoo Animals](https://zoo-animal-api.herokuapp.com/) | Facts and pictures of zoo animals | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
@@ -220,6 +221,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MalShare](https://malshare.com/doc.php) | Malware Archive / file sourcing | `apiKey` | Yes | No |
 | [MalwareBazaar](https://bazaar.abuse.ch/api/) | Collect and share malware samples | `apiKey` | Yes | Unknown |
 | [Metacert](https://metacert.com/) | Metacert Link Flagging | `apiKey` | Yes | Unknown |
+| [NoPhishy](https://rapidapi.com/Amiichu/api/exerra-phishing-check/) | Check links to see if they're known phishing attempts | `apiKey` | Yes | Yes |
 | [Phisherman](https://phisherman.gg/) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
 | [Scanii](https://docs.scanii.com/) | Simple REST API that can scan submitted documents/files for the presence of threats | `apiKey` | Yes | Yes |
 | [URLhaus](https://urlhaus-api.abuse.ch/) | Bulk queries and Download Malware Samples | No | Yes | Yes |
@@ -438,7 +440,9 @@ API | Description | Auth | HTTPS | CORS |
 | [FTX](https://docs.ftx.com/) | Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs | `apiKey` | Yes | Yes |
 | [Gateio](https://www.gate.io/api2) | API provides spot, margin and futures trading operations | `apiKey` | Yes | Unknown |
 | [Gemini](https://docs.gemini.com/rest-api/) | Cryptocurrencies Exchange | No | Yes | Unknown |
+| [Hirak Exchange Rates](https://rates.hirak.site/) | Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits | `apiKey` | Yes | Unknown |
 | [Huobi](https://huobiapi.github.io/docs/spot/v1/en/) | Seychelles based cryptocurrency exchange | `apiKey` | Yes | Unknown |
+| [icy.tools](https://developers.icy.tools/) | GraphQL based NFT API | `apiKey` | Yes | Unknown |
 | [Indodax](https://github.com/btcid/indodax-official-api-docs) | Trade your Bitcoin and other assets with rupiah | `apiKey` | Yes | Unknown |
 | [INFURA Ethereum](https://infura.io/product/ethereum) | Interaction with the Ethereum mainnet and several testnets | `apiKey` | Yes | Yes |
 | [Kraken](https://docs.kraken.com/rest/) | Cryptocurrencies Exchange | `apiKey` | Yes | Unknown |
@@ -703,6 +707,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Meme Maker](https://mememaker.github.io/API/) | REST API for create your own meme | No | Yes | Unknown |
 | [NaMoMemes](https://github.com/theIYD/NaMoMemes) | Memes on Narendra Modi | No | Yes | Unknown |
 | [Random Useless Facts](https://uselessfacts.jsph.pl/) | Get useless, but true facts | No | Yes | Unknown |
+| [Techy](https://techy-api.vercel.app/) | JSON and Plaintext API for tech-savvy sounding phrases | No | Yes | Unknown |
 | [Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2) | REST API for Yo Momma Jokes | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
@@ -725,6 +730,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PVWatts](https://developer.nrel.gov/docs/solar/pvwatts/v6/) | Energy production photovoltaic (PV) energy systems | `apiKey` | Yes | Unknown |
 | [Srp Energy](https://srpenergy-api-client-python.readthedocs.io/en/latest/api.html) | Hourly usage energy report for Srp customers | `apiKey` | Yes | No |
 | [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0) | The Official Carbon Intensity API for Great Britain developed by National Grid | No | Yes | Unknown |
+| [Website Carbon](https://api.websitecarbon.com/) | API to estimate the carbon footprint of loading web pages | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Events
@@ -893,6 +899,7 @@ API | Description | Auth | HTTPS | CORS |
 | [RAWG.io](https://rawg.io/apidocs) | 500,000+ games for 50 platforms including mobiles | `apiKey` | Yes | Unknown |
 | [Rick and Morty](https://rickandmortyapi.com) | All the Rick and Morty information, including images | No | Yes | Yes |
 | [Riot Games](https://developer.riotgames.com/) | League of Legends Game Information | `apiKey` | Yes | Unknown |
+| [RPS 101](https://rps101.pythonanywhere.com/api) | Rock, Paper, Scissors with 101 objects | No | Yes | Yes |
 | [RuneScape](https://runescape.wiki/w/Application_programming_interface) | RuneScape and OSRS RPGs information | No | Yes | No |
 | [Sakura CardCaptor](https://github.com/JessVel/sakura-card-captor-api) | Sakura CardCaptor Cards Information | No | Yes | Unknown |
 | [Scryfall](https://scryfall.com/docs/api) | Magic: The Gathering database | No | Yes | Yes |
@@ -907,7 +914,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Universalis](https://universalis.app/docs/index.html) | Final Fantasy XIV market board data | No | Yes | Yes |
 | [Valorant (non-official)](https://valorant-api.com) | An extensive API containing data of most Valorant in-game items, assets and more | No | Yes | Unknown |
 | [Wargaming.net](https://developers.wargaming.net/) | Wargaming.net info and stats | `apiKey` | Yes | No |
-| [When is next MCU film](https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md) | Upcomimg MCU film information | No | Yes | Unknown |
+| [When is next MCU film](https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md) | Upcoming MCU film information | No | Yes | Unknown |
 | [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | No |
 | [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
 
@@ -920,6 +927,7 @@ API | Description | Auth | HTTPS | CORS |
 | [administrative-divisons-db](https://github.com/kamikazechaser/administrative-divisions-db) | Get all administrative divisions of a country | No | Yes | Yes |
 | [adresse.data.gouv.fr](https://adresse.data.gouv.fr) | Address database of France, geocoding and reverse | No | Yes | Unknown |
 | [Airtel IP](https://sys.airtel.lv/ip2country/1.1.1.1/?full=true) | IP Geolocation API. Collecting data from multiple sources | No | Yes | Unknown |
+| [Apiip](https://apiip.net/) | Get location information by IP address | `apiKey` | Yes | Yes |
 | [apilayer ipstack](https://ipstack.com/) | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown |
 | [Battuta](http://battuta.medunes.net) | A (country/region/city) in-cascade location API | `apiKey` | No | Unknown |
 | [BigDataCloud](https://www.bigdatacloud.com/ip-geolocation-apis) | Provides fast and accurate IP geolocation APIs along with security checks and confidence area | `apiKey` | Yes | Unknown |
@@ -1041,6 +1049,7 @@ API | Description | Auth | HTTPS | CORS |
 | [INEI](http://iinei.inei.gob.pe/microdatos/) | Peruvian Statistical Government Open Data | No | No | Unknown |
 | [Interpol Red Notices](https://interpol.api.bund.dev/) | Access and search Interpol Red Notices | No | Yes | Unknown |
 | [Istanbul (İBB) Open Data](https://data.ibb.gov.tr) | Data sets from the İstanbul Metropolitan Municipality (İBB) | No | Yes | Unknown |
+| [National Park Service, US](https://www.nps.gov/subjects/developer/) | Data from the US National Park Service | `apiKey` | Yes | Yes |
 | [Open Government, ACT](https://www.data.act.gov.au/) | Australian Capital Territory Open Data | No | Yes | Unknown |
 | [Open Government, Argentina](https://datos.gob.ar/) | Argentina Government Open Data | No | Yes | Unknown |
 | [Open Government, Australia](https://www.data.gov.au/) | Australian Government Open Data | No | Yes | Unknown |
@@ -1116,6 +1125,7 @@ API | Description | Auth | HTTPS | CORS |
 | [COVID-19 Tracker Sri Lanka](https://www.hpb.health.gov.lk/en/api-documentation) | Provides situation of the COVID-19 patients reported in Sri Lanka | No | Yes | Unknown |
 | [COVID-ID](https://data.covid19.go.id/public/api/prov.json) | Indonesian government Covid data per province | No | Yes | Yes |
 | [Dataflow Kit COVID-19](https://covid-19.dataflowkit.com) | COVID-19 live statistics into sites per hour | No | Yes | Unknown |
+| [FoodData Central](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | `apiKey` | Yes | Unknown |
 | [Healthcare.gov](https://www.healthcare.gov/developers/) | Educational content about the US Health Insurance Marketplace | No | Yes | Unknown |
 | [Humanitarian Data Exchange](https://data.humdata.org/) | Humanitarian Data Exchange (HDX) is open platform for sharing data across crises and organisations | No | Yes | Unknown |
 | [Infermedica](https://developer.infermedica.com/docs/) | NLP based symptom checker and patient triage API for health diagnosis from text | `apiKey` | Yes | Yes |
@@ -1131,7 +1141,6 @@ API | Description | Auth | HTTPS | CORS |
 | [openFDA](https://open.fda.gov) | Public FDA data about drugs, devices and foods | `apiKey` | Yes | Unknown |
 | [Orion Health](https://developer.orionhealth.io/) | Medical platform which allows the development of applications for different healthcare scenarios | `OAuth` | Yes | Unknown |
 | [Quarantine](https://quarantine.country/coronavirus/api/) | Coronavirus API with free COVID-19 live updates | No | Yes | Yes |
-| [USDA Nutrients](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Jobs
@@ -1144,7 +1153,6 @@ API | Description | Auth | HTTPS | CORS |
 | [DevITjobs UK](https://devitjobs.uk/job_feed.xml) | Jobs with GraphQL | No | Yes | Yes |
 | [Findwork](https://findwork.dev/developers/) | Job board | `apiKey` | Yes | Unknown |
 | [GraphQL Jobs](https://graphql.jobs/docs/api/) | Jobs with GraphQL | No | Yes | Yes |
-| [Indeed](https://developer.indeed.com/) | Jobs search engine | `OAuth` | Yes | Unknown |
 | [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf) | Job aggregator | `apiKey` | Yes | Unknown |
 | [Jooble](https://jooble.org/api/about) | Job search engine | `apiKey` | Yes | Unknown |
 | [Juju](http://www.juju.com/publisher/spec/) | Job search engine | `apiKey` | No | Unknown |
@@ -1165,6 +1173,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Deepcode](https://www.deepcode.ai) | AI for code review | No | Yes | Unknown |
 | [Dialogflow](https://cloud.google.com/dialogflow/docs/) | Natural Language Processing | `apiKey` | Yes | Unknown |
 | [EXUDE-API](http://uttesh.com/exude-api/) | Used for the primary ways for filtering the stopping, stemming words from the text data | No | Yes | Yes |
+| [Hirak FaceAPI](https://faceapi.hirak.site/) | Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits | `apiKey` | Yes | Unknown |    
 | [Imagga](https://imagga.com/) | Image Recognition Solutions like Tagging, Visual Search, NSFW moderation | `apiKey` | Yes | Unknown |
 | [Inferdo](https://rapidapi.com/user/inferdo) | Computer Vision services like Facial detection, Image labeling, NSFW classification | `apiKey` | Yes | Unknown |
 | [IPS Online](https://docs.identity.ps/docs) | Face and License Plate Anonymization | `apiKey` | Yes | Unknown |
@@ -1615,6 +1624,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ELI](https://nlp.insightera.co.th/docs/v1.0) | Natural Language Processing Tools for Thai Language | `apiKey` | Yes | Unknown |
 | [Google Cloud Natural](https://cloud.google.com/natural-language/docs/) | Natural language understanding technology, including sentiment, entity and syntax analysis | `apiKey` | Yes | Unknown |
 | [Hirak Translation](https://translate.hirak.site/) | Translate between 21 of most used languages, accurate, unlimited requests | `apiKey` | Yes | Unknown |
+| [Lecto Translation](https://rapidapi.com/lecto-lecto-default/api/lecto-translation/) | Translation API with free tier and reasonable prices | `apiKey` | Yes | Yes |
 | [LibreTranslate](https://libretranslate.com/docs) | Translation tool with 17 available languages | No | Yes | Unknown |
 | [Semantria](https://semantria.readme.io/docs) | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown |
 | [Sentiment Analysis](https://www.meaningcloud.com/developer/sentiment-analysis) | Multilingual sentiment analysis of texts from different sources | `apiKey` | Yes | Yes |
