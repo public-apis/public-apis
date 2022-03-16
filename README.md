@@ -36,14 +36,7 @@
     <a href="https://github.com/public-apis/public-apis/issues">Issues</a> •
     <a href="https://github.com/public-apis/public-apis/pulls">Pull Requests</a> •
     <a href="LICENSE">License</a>
-    <br /><br />
-    <sub>Currently Active Maintainers</sub>
-    <br />
-    <a href="https://github.com/matheusfelipeog">matheusfelipeog</a> •
-    <a href="https://github.com/pawelborkar">pawelborkar</a> •
-    <a href="https://github.com/marekdano">marekdano</a> •
-    <a href="https://github.com/yannbertrand">yannbertrand</a>
-</div>
+    
 
 <br />
 
@@ -69,9 +62,9 @@
     </p>
     <p><strong>Special thanks to:</strong></p>
     <p>
-        <a href="https://m3o.com#gh-light-mode-only">
+        <a href="https://apilayer.com#gh-light-mode-only">
             <div>
-                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/m3o_logo_black.png" width="250" alt="M3O Logo" />
+                <img src=".github/cs1586-APILayerLogoUpdate2022-LJ_v2-HighRes.png" width="250" alt="APILayer Logo" />
             </div>
             <div>
                 <p><strong>The fastest way to integrate APIs into any product</strong></p>
@@ -80,9 +73,9 @@
                 <sup>Explore, discover and consume public APIs as simpler programmable building blocks all on one platform for a 10x developer experience.</sup>
             </div>
         </a>
-        <a href="https://m3o.com#gh-dark-mode-only">
+        <a href="https://apilayer.com#gh-dark-mode-only">
             <div>
-                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/m3o_logo_white.png" width="250" alt="M3O Logo" />
+                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/m3o_logo_white.png" width="250" alt="APILayer Logo" />
             </div>
             <div>
                 <p><strong>The fastest way to integrate APIs into any product</strong></p>
