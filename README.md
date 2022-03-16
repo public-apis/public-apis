@@ -36,14 +36,7 @@
     <a href="https://github.com/public-apis/public-apis/issues">Issues</a> •
     <a href="https://github.com/public-apis/public-apis/pulls">Pull Requests</a> •
     <a href="LICENSE">License</a>
-    <br /><br />
-    <sub>Currently Active Maintainers</sub>
-    <br />
-    <a href="https://github.com/matheusfelipeog">matheusfelipeog</a> •
-    <a href="https://github.com/pawelborkar">pawelborkar</a> •
-    <a href="https://github.com/marekdano">marekdano</a> •
-    <a href="https://github.com/yannbertrand">yannbertrand</a>
-</div>
+    
 
 <br />
 
@@ -69,9 +62,9 @@
     </p>
     <p><strong>Special thanks to:</strong></p>
     <p>
-        <a href="https://m3o.com#gh-light-mode-only">
+        <a href="https://apilayer.com#gh-light-mode-only">
             <div>
-                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/m3o_logo_black.png" width="250" alt="M3O Logo" />
+                <img src=".github/cs1586-APILayerLogoUpdate2022-LJ_v2-HighRes.png" width="250" alt="APILayer Logo" />
             </div>
             <div>
                 <p><strong>The fastest way to integrate APIs into any product</strong></p>
@@ -80,9 +73,9 @@
                 <sup>Explore, discover and consume public APIs as simpler programmable building blocks all on one platform for a 10x developer experience.</sup>
             </div>
         </a>
-        <a href="https://m3o.com#gh-dark-mode-only">
+        <a href="https://apilayer.com#gh-dark-mode-only">
             <div>
-                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/m3o_logo_white.png" width="250" alt="M3O Logo" />
+                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/assets/sponsors_logo/m3o_logo_white.png" width="250" alt="APILayer Logo" />
             </div>
             <div>
                 <p><strong>The fastest way to integrate APIs into any product</strong></p>
@@ -1606,6 +1599,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Text Analysis
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Code Detection API](https://codedetectionapi.runtime.dev) | Detect, label, format and enrich the code in your app or in your data pipeline | `OAuth` | Yes | Unknown |
 | [apilayer languagelayer](https://languagelayer.com/) | Language Detection JSON API supporting 173 languages | `OAuth` | Yes | Unknown |
 | [Aylien Text Analysis](https://docs.aylien.com/textapi/#getting-started) | A collection of information retrieval and natural language APIs | `apiKey` | Yes | Unknown |
 | [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api) | Natural language processing and text analysis | `apiKey` | Yes | Yes |
@@ -1765,7 +1759,6 @@ API | Description | Auth | HTTPS | CORS |
 | [JSON2Video](https://json2video.com) | Create and edit videos programmatically: watermarks,resizing,slideshows,voice-over,text animations | `apiKey` | Yes | No |
 | [Lucifer Quotes](https://github.com/shadowoff09/lucifer-quotes) | Returns Lucifer quotes | No | Yes | Unknown |
 | [MCU Countdown](https://github.com/DiljotSG/MCU-Countdown) | A Countdown to the next MCU Film | No | Yes | Yes |
-| [MFaaS](https://stitti.github.io/MFaaS) | Modern Family as a Service: API for receiving quotes and actors | No | Yes | No |
 | [Motivational Quotes](https://nodejs-quoteapp.herokuapp.com/) | Random Motivational Quotes | No | Yes | Unknown |
 | [Movie Quote](https://github.com/F4R4N/movie-quote/) | Random Movie and Series Quotes | No | Yes | Yes |
 | [Open Movie Database](http://www.omdbapi.com/) | Movie information | `apiKey` | Yes | Unknown |
