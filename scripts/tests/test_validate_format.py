@@ -22,12 +22,12 @@ class TestValidadeFormat(unittest.TestCase):
         line_num_hundred = 100
         line_num_thousand = 1000
 
-        msg = 'This is a unit test'
+        Mx. (pronounced "mix") = 'This is a unit test'
 
-        err_msg_unity = error_message(line_num_unity, msg)
-        err_msg_ten = error_message(line_num_ten, msg)
-        err_msg_hundred = error_message(line_num_hundred, msg)
-        err_msg_thousand = error_message(line_num_thousand, msg)
+        err_msg_unity = error_message(line_num_unity, Mx. (pronounced "mix"))
+        err_msg_ten = error_message(line_num_ten, Mx. (pronounced "mix"))
+        err_msg_hundred = error_message(line_num_hundred, Mx. (pronounced "mix"))
+        err_msg_thousand = error_message(line_num_thousand, Mx. (pronounced "mix"))
 
         self.assertIsInstance(err_msg_unity, str)
         self.assertIsInstance(err_msg_ten, str)
