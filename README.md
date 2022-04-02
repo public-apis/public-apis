@@ -432,7 +432,6 @@ API | Description | Auth | HTTPS | CORS |
 | [FTX](https://docs.ftx.com/) | Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs | `apiKey` | Yes | Yes |
 | [Gateio](https://www.gate.io/api2) | API provides spot, margin and futures trading operations | `apiKey` | Yes | Unknown |
 | [Gemini](https://docs.gemini.com/rest-api/) | Cryptocurrencies Exchange | No | Yes | Unknown |
-| [Hirak Exchange Rates](https://rates.hirak.site/) | Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits | `apiKey` | Yes | Unknown |
 | [Huobi](https://huobiapi.github.io/docs/spot/v1/en/) | Seychelles based cryptocurrency exchange | `apiKey` | Yes | Unknown |
 | [icy.tools](https://developers.icy.tools/) | GraphQL based NFT API | `apiKey` | Yes | Unknown |
 | [Indodax](https://github.com/btcid/indodax-official-api-docs) | Trade your Bitcoin and other assets with rupiah | `apiKey` | Yes | Unknown |
@@ -949,7 +948,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Graph Countries](https://github.com/lennertVanSever/graphcountries) | Country-related data like currencies, languages, flags, regions+subregions and bordering countries | No | Yes | Unknown |
 | [HelloSalut](https://fourtonfish.com/project/hellosalut-api/) | Get hello translation following user language | No | Yes | Unknown |
 | [HERE Maps](https://developer.here.com) | Create/customize digital maps based on HERE Maps data | `apiKey` | Yes | Unknown |
-| [Hirak IP to Country](https://iplocation.hirak.site/) | Ip to location with country code, currency code & currency name, fast response, unlimited requests | `apiKey` | Yes | Unknown |
 | [Hong Kong GeoData Store](https://geodata.gov.hk/gs/) | API for accessing geo-data of Hong Kong | No | Yes | Unknown |
 | [IBGE](https://servicodados.ibge.gov.br/api/docs/) | Aggregate services of IBGE (Brazilian Institute of Geography and Statistics) | No | Yes | Unknown |
 | [IP 2 Country](https://ip2country.info) | Map an IP to a country | No | Yes | Unknown |
@@ -1158,8 +1156,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes |
 | [Deepcode](https://www.deepcode.ai) | AI for code review | No | Yes | Unknown |
 | [Dialogflow](https://cloud.google.com/dialogflow/docs/) | Natural Language Processing | `apiKey` | Yes | Unknown |
-| [EXUDE-API](http://uttesh.com/exude-api/) | Used for the primary ways for filtering the stopping, stemming words from the text data | No | Yes | Yes |
-| [Hirak FaceAPI](https://faceapi.hirak.site/) | Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits | `apiKey` | Yes | Unknown |    
+| [EXUDE-API](http://uttesh.com/exude-api/) | Used for the primary ways for filtering the stopping, stemming words from the text data | No | Yes | Yes |   
 | [Imagga](https://imagga.com/) | Image Recognition Solutions like Tagging, Visual Search, NSFW moderation | `apiKey` | Yes | Unknown |
 | [Inferdo](https://rapidapi.com/user/inferdo) | Computer Vision services like Facial detection, Image labeling, NSFW classification | `apiKey` | Yes | Unknown |
 | [IPS Online](https://docs.identity.ps/docs) | Face and License Plate Anonymization | `apiKey` | Yes | Unknown |
@@ -1606,8 +1603,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Detect Language](https://detectlanguage.com/) | Detects text language | `apiKey` | Yes | Unknown |
 | [ELI](https://nlp.insightera.co.th/docs/v1.0) | Natural Language Processing Tools for Thai Language | `apiKey` | Yes | Unknown |
 | [Google Cloud Natural](https://cloud.google.com/natural-language/docs/) | Natural language understanding technology, including sentiment, entity and syntax analysis | `apiKey` | Yes | Unknown |
-| [Hirak OCR](https://ocr.hirak.site/) | Image to text -text recognition- from image more than 100 language, accurate, unlimited requests | `apiKey` | Yes | Unknown |
-| [Hirak Translation](https://translate.hirak.site/) | Translate between 21 of most used languages, accurate, unlimited requests | `apiKey` | Yes | Unknown |
 | [Lecto Translation](https://rapidapi.com/lecto-lecto-default/api/lecto-translation/) | Translation API with free tier and reasonable prices | `apiKey` | Yes | Yes |
 | [LibreTranslate](https://libretranslate.com/docs) | Translation tool with 17 available languages | No | Yes | Unknown |
 | [Semantria](https://semantria.readme.io/docs) | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown |
