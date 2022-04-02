@@ -10,6 +10,7 @@ from validate.links import has_cloudflare_protection
 
 
 class FakeResponse():
+
     def __init__(self, code: int, headers: dict, text: str) -> None:
         self.status_code = code
         self.headers = headers
@@ -102,13 +103,9 @@ class TestValidateLinks(unittest.TestCase):
 
     def test_get_host_from_link(self):
         links = [
-            'example.com',
-            'https://example.com',
-            'https://www.example.com',
-            'https://www.example.com.br',
-            'https://www.example.com/route',
-            'https://www.example.com?p=1&q=2',
-            'https://www.example.com#anchor'
+            'example.com', 'https://example.com', 'https://www.example.com',
+            'https://www.example.com.br', 'https://www.example.com/route',
+            'https://www.example.com?p=1&q=2', 'https://www.example.com#anchor'
         ]
 
         for link in links:
@@ -129,17 +126,17 @@ class TestValidateLinks(unittest.TestCase):
         resp_with_cloudflare_protection_code_403 = FakeResponse(
             code=self.code_403,
             headers=self.cloudflare_headers,
-            text=self.text_with_cloudflare_flags
-        )
+            text=self.text_with_cloudflare_flags)
 
         resp_with_cloudflare_protection_code_503 = FakeResponse(
             code=self.code_503,
             headers=self.cloudflare_headers,
-            text=self.text_with_cloudflare_flags
-        )
+            text=self.text_with_cloudflare_flags)
 
-        result1 = has_cloudflare_protection(resp_with_cloudflare_protection_code_403)
-        result2 = has_cloudflare_protection(resp_with_cloudflare_protection_code_503)
+        result1 = has_cloudflare_protection(
+            resp_with_cloudflare_protection_code_403)
+        result2 = has_cloudflare_protection(
+            resp_with_cloudflare_protection_code_503)
 
         self.assertTrue(result1)
         self.assertTrue(result2)
@@ -148,24 +145,24 @@ class TestValidateLinks(unittest.TestCase):
         resp_without_cloudflare_protection1 = FakeResponse(
             code=self.code_200,
             headers=self.no_cloudflare_headers,
-            text=self.text_without_cloudflare_flags
-        )
+            text=self.text_without_cloudflare_flags)
 
         resp_without_cloudflare_protection2 = FakeResponse(
             code=self.code_403,
             headers=self.no_cloudflare_headers,
-            text=self.text_without_cloudflare_flags
-        )
+            text=self.text_without_cloudflare_flags)
 
         resp_without_cloudflare_protection3 = FakeResponse(
             code=self.code_503,
             headers=self.no_cloudflare_headers,
-            text=self.text_without_cloudflare_flags
-        )
+            text=self.text_without_cloudflare_flags)
 
-        result1 = has_cloudflare_protection(resp_without_cloudflare_protection1)
-        result2 = has_cloudflare_protection(resp_without_cloudflare_protection2)
-        result3 = has_cloudflare_protection(resp_without_cloudflare_protection3)
+        result1 = has_cloudflare_protection(
+            resp_without_cloudflare_protection1)
+        result2 = has_cloudflare_protection(
+            resp_without_cloudflare_protection2)
+        result3 = has_cloudflare_protection(
+            resp_without_cloudflare_protection3)
 
         self.assertFalse(result1)
         self.assertFalse(result2)

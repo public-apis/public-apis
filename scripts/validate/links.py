@@ -12,13 +12,13 @@ from requests.models import Response
 def find_links_in_text(text: str) -> List[str]:
     """Find links in a text and return a list of URLs."""
 
-    link_pattern = re.compile(r'((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'\".,<>?«»“”‘’]))')
+    link_pattern = re.compile(
+        r'((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'\".,<>?«»“”‘’]))'
+    )
 
     raw_links = re.findall(link_pattern, text)
 
-    links = [
-        str(raw_link[0]) for raw_link in raw_links
-    ]
+    links = [str(raw_link[0]) for raw_link in raw_links]
 
     return links
 
@@ -116,25 +116,14 @@ def has_cloudflare_protection(resp: Response) -> bool:
     code = resp.status_code
     server = resp.headers.get('Server') or resp.headers.get('server')
     cloudflare_flags = [
-        '403 Forbidden',
-        'cloudflare',
-        'Cloudflare',
-        'Security check',
-        'Please Wait... | Cloudflare',
-        'We are checking your browser...',
+        '403 Forbidden', 'cloudflare', 'Cloudflare', 'Security check',
+        'Please Wait... | Cloudflare', 'We are checking your browser...',
         'Please stand by, while we are checking your browser...',
-        'Checking your browser before accessing',
-        'This process is automatic.',
+        'Checking your browser before accessing', 'This process is automatic.',
         'Your browser will redirect to your requested content shortly.',
-        'Please allow up to 5 seconds',
-        'DDoS protection by',
-        'Ray ID:',
-        'Cloudflare Ray ID:',
-        '_cf_chl',
-        '_cf_chl_opt',
-        '__cf_chl_rt_tk',
-        'cf-spinner-please-wait',
-        'cf-spinner-redirecting'
+        'Please allow up to 5 seconds', 'DDoS protection by', 'Ray ID:',
+        'Cloudflare Ray ID:', '_cf_chl', '_cf_chl_opt', '__cf_chl_rt_tk',
+        'cf-spinner-please-wait', 'cf-spinner-redirecting'
     ]
 
     if code in [403, 503] and server == 'cloudflare':
@@ -164,10 +153,12 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     error_message = ''
 
     try:
-        resp = requests.get(link, timeout=25, headers={
-            'User-Agent': fake_user_agent(),
-            'host': get_host_from_link(link)
-        })
+        resp = requests.get(link,
+                            timeout=25,
+                            headers={
+                                'User-Agent': fake_user_agent(),
+                                'host': get_host_from_link(link)
+                            })
 
         code = resp.status_code
 
@@ -234,7 +225,8 @@ def start_links_working_checker(links: List[str]) -> None:
     if errors:
 
         num_errors = len(errors)
-        print(f'Apparently {num_errors} links are not working properly. See in:')
+        print(
+            f'Apparently {num_errors} links are not working properly. See in:')
 
         for error_message in errors:
             print(error_message)
@@ -265,7 +257,9 @@ if __name__ == '__main__':
         if third_arg == '-odlc' or third_arg == '--only_duplicate_links_checker':
             only_duplicate_links_checker = True
         else:
-            print(f'Third invalid argument. Usage: python {__file__} [-odlc | --only_duplicate_links_checker]')
+            print(
+                f'Third invalid argument. Usage: python {__file__} [-odlc | --only_duplicate_links_checker]'
+            )
             sys.exit(1)
 
     filename = sys.argv[1]

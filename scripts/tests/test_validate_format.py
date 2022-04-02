@@ -15,7 +15,7 @@ from validate.format import check_file_format, min_entries_per_category, num_seg
 
 
 class TestValidadeFormat(unittest.TestCase):
-    
+
     def test_error_message_return_and_return_type(self):
         line_num_unity = 1
         line_num_ten = 10
@@ -41,14 +41,11 @@ class TestValidadeFormat(unittest.TestCase):
 
     def test_if_get_categories_content_return_correct_data_of_categories(self):
         fake_contents = [
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
+            '### A', 'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
             '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '',
-            '### B',
-            'API | Description | Auth | HTTPS | CORS |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |', '',
+            '### B', 'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
             '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
             '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
@@ -61,7 +58,13 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertIsInstance(categories, dict)
         self.assertIsInstance(category_line_num, dict)
 
-        expected_result = ({'A': ['AA', 'AB'], 'B': ['BA', 'BB']}, {'A': 0, 'B': 6})
+        expected_result = ({
+            'A': ['AA', 'AB'],
+            'B': ['BA', 'BB']
+        }, {
+            'A': 0,
+            'B': 6
+        })
 
         for res, ex_res in zip(result, expected_result):
 
@@ -70,33 +73,26 @@ class TestValidadeFormat(unittest.TestCase):
 
     def test_if_check_alphabetical_order_return_correct_msg_error(self):
         correct_lines = [
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
+            '### A', 'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
             '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '',
-            '### B',
-            'API | Description | Auth | HTTPS | CORS |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |', '',
+            '### B', 'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
             '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
             '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
         ]
 
         incorrect_lines = [
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
+            '### A', 'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
             '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '',
-            '### B',
-            'API | Description | Auth | HTTPS | CORS |',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |', '',
+            '### B', 'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
             '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
             '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
         ]
-
 
         err_msgs_1 = check_alphabetical_order(correct_lines)
         err_msgs_2 = check_alphabetical_order(incorrect_lines)
@@ -116,7 +112,7 @@ class TestValidadeFormat(unittest.TestCase):
 
             with self.subTest():
                 self.assertEqual(err_msg, ex_err_msg)
-    
+
     def test_check_title_with_correct_title(self):
         raw_title = '[A](https://www.ex.com)'
 
@@ -133,7 +129,7 @@ class TestValidadeFormat(unittest.TestCase):
 
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 1)
-        
+
         err_msg = err_msgs[0]
         expected_err_msg = '(L001) Title syntax should be "[TITLE](LINK)"'
 
@@ -143,10 +139,10 @@ class TestValidadeFormat(unittest.TestCase):
         raw_title = '[A API](https://www.ex.com)'
 
         err_msgs = check_title(0, raw_title)
-        
+
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 1)
-        
+
         err_msg = err_msgs[0]
         expected_err_msg = '(L001) Title should not end with "... API". Every entry is an API here!'
 
@@ -160,7 +156,7 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 0)
         self.assertEqual(err_msgs, [])
-    
+
     def test_check_description_with_first_char_is_not_capitalized(self):
         desc = 'this is a fake description'
 
@@ -168,18 +164,18 @@ class TestValidadeFormat(unittest.TestCase):
 
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 1)
-        
+
         err_msg = err_msgs[0]
         expected_err_msg = '(L001) first character of description is not capitalized'
 
         self.assertIsInstance(err_msg, str)
         self.assertEqual(err_msg, expected_err_msg)
-    
+
     def test_check_description_with_punctuation_in_the_end(self):
         base_desc = 'This is a fake description'
         punctuation = r"""!"#$%&'*+,-./:;<=>?@[\]^_`{|}~"""
         desc_with_punc = [base_desc + punc for punc in punctuation]
-        
+
         for desc in desc_with_punc:
 
             with self.subTest():
@@ -187,7 +183,7 @@ class TestValidadeFormat(unittest.TestCase):
 
                 self.assertIsInstance(err_msgs, list)
                 self.assertEqual(len(err_msgs), 1)
-        
+
                 err_msg = err_msgs[0]
                 expected_err_msg = f'(L001) description should not end with {desc[-1]}'
 
@@ -236,8 +232,12 @@ class TestValidadeFormat(unittest.TestCase):
                 self.assertEqual(err_msg, expected_err_msg)
 
     def test_check_auth_with_invalid_auth(self):
-        auth_invalid_without_backtick = ['Yes', 'yes', 'no', 'random', 'Unknown']
-        auth_invalid_with_backtick = ['`Yes`', '`yes`', '`no`', '`random`', '`Unknown`']
+        auth_invalid_without_backtick = [
+            'Yes', 'yes', 'no', 'random', 'Unknown'
+        ]
+        auth_invalid_with_backtick = [
+            '`Yes`', '`yes`', '`no`', '`random`', '`Unknown`'
+        ]
 
         for auth in auth_invalid_without_backtick:
             with self.subTest():
@@ -315,16 +315,20 @@ class TestValidadeFormat(unittest.TestCase):
                 self.assertEqual(err_msg, expected_err_msg)
 
     def test_check_entry_with_correct_segments(self):
-        correct_segments = ['[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes']
+        correct_segments = [
+            '[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes'
+        ]
 
         err_msgs = check_entry(0, correct_segments)
-        
+
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 0)
         self.assertEqual(err_msgs, [])
 
     def test_check_entry_with_incorrect_segments(self):
-        incorrect_segments = ['[A API](https://www.ex.com)', 'desc.', 'yes', 'yes', 'yes']
+        incorrect_segments = [
+            '[A API](https://www.ex.com)', 'desc.', 'yes', 'yes', 'yes'
+        ]
 
         err_msgs = check_entry(0, incorrect_segments)
         expected_err_msgs = [
@@ -346,19 +350,13 @@ class TestValidadeFormat(unittest.TestCase):
 
     def test_check_file_format_with_correct_format(self):
         correct_format = [
-            '## Index',
-            '* [A](#a)',
-            '* [B](#b)',
-            '',
-            '### A',
+            '## Index', '* [A](#a)', '* [B](#b)', '', '### A',
             'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
             '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
             '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '',
-            '### B',
-            'API | Description | Auth | HTTPS | CORS |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |', '',
+            '### B', 'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
             '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
             '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
@@ -393,17 +391,11 @@ class TestValidadeFormat(unittest.TestCase):
 
     def test_check_file_format_with_category_without_min_entries(self):
         incorrect_format = [
-            '## Index',
-            '* [A](#a)',
-            '* [B](#b)',
-            '',
-            '### A',
+            '## Index', '* [A](#a)', '* [B](#b)', '', '### A',
             'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
-            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '',
-            '### B',
-            'API | Description | Auth | HTTPS | CORS |',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |', '',
+            '### B', 'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
             '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
             '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
