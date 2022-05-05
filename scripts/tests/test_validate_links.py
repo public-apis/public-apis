@@ -56,6 +56,7 @@ class TestValidateLinks(unittest.TestCase):
             # this not is valid
 
             example.com
+            http/:.example.com
             https:example.com
             https:/example.com
             https//example.com
