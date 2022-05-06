@@ -119,6 +119,7 @@ class TestValidateLinks(unittest.TestCase):
                 self.assertIsInstance(host, str)
 
                 self.assertNotIn('://', host)
+                self.assertNotIn('/:.', host)
                 self.assertNotIn('/', host)
                 self.assertNotIn('?', host)
                 self.assertNotIn('#', host)
