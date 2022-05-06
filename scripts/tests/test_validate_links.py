@@ -119,7 +119,7 @@ class TestValidateLinks(unittest.TestCase):
                 self.assertIsInstance(host, str)
 
                 self.assertNotIn('://', host)
-                self.assertNotIn('/:.', host)
+                self.assertNotIn('/:.', host) # A new example of a syntax error
                 self.assertNotIn('/', host)
                 self.assertNotIn('?', host)
                 self.assertNotIn('#', host)
