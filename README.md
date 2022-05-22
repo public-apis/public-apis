@@ -1732,6 +1732,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Vehicle
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [BMW-Group](https://aos.bmwgroup.com/web/oss/bmw-apis-overview) | Aftersales data including repair instructions, wiring diagrams, and spare parts data | `OAuth` | Yes | Yes |
 | [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | No |
 | [Helipaddy sites](https://helipaddy.com/api/) | Helicopter and passenger drone landing site directory, Helipaddy data and much more | `apiKey` | Yes | Unknown |
 | [Kelley Blue Book](http://developer.kbb.com/#!/data/1-Default) | Vehicle info, pricing, configuration, plus much more | `apiKey` | Yes | No |
