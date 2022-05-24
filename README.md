@@ -1577,6 +1577,7 @@ API | Description | Auth | HTTPS | CORS |
 | [FakerAPI](https://fakerapi.it/en) | APIs collection to get fake data | No | Yes | Yes |
 | [FakeStoreAPI](https://fakestoreapi.com/) | Fake store rest API for your e-commerce or shopping website prototype | No | Yes | Unknown |
 | [GeneradorDNI](https://api.generadordni.es) | Data generator API. Profiles, vehicles, banks and cards, etc | `apiKey` | Yes | Unknown |
+| [German Random Words](https://zufallsworte.herokuapp.com/redoc) | Generate german words randomly | No | Yes | Unknown |
 | [ItsThisForThat](https://itsthisforthat.com/api.php) | Generate Random startup ideas | No | Yes | No |
 | [JSONPlaceholder](http://jsonplaceholder.typicode.com/) | Fake data for testing and prototyping | No | No | Unknown |
 | [Loripsum](http://loripsum.net/) | The "lorem ipsum" generator that doesn't suck | No | No | Unknown |
