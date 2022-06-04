@@ -152,6 +152,8 @@
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [A11yWatch](https://a11ywatch.com/api-info) | Web accessibility testing using real browsers | `apiKey` | Yes | Yes |
+| [PageSpeed](https://developers.google.com/speed/docs/insights/v5/get-started) |Improve web page's performance, accessibility, and SEO using lighthouse. | `apiKey` | Yes | Yes |
+| [Wave](https://wave.webaim.org/api/) | Web accessibility evaluation tool | `apiKey` | Yes | Yes |
     
 ### Animals
 API | Description | Auth | HTTPS | CORS |
