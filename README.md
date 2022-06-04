@@ -99,6 +99,7 @@
 * [Anime](#anime)
 * [Anti-Malware](#anti-malware)
 * [Art & Design](#art--design)
+* [Accessibility](#accessibility)
 * [Authentication & Authorization](#authentication--authorization)
 * [Blockchain](#blockchain)
 * [Books](#books)
@@ -147,6 +148,11 @@
 * [Video](#video)
 * [Weather](#weather)
 
+### Accessibility
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [A11yWatch](https://a11ywatch.com/api-info) | Web accessibility testing using real browsers | `apiKey` | Yes | Yes |
+    
 ### Animals
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
