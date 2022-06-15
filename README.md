@@ -1176,7 +1176,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
-
+| [OpenAI](https://beta.openai.com/docs/introduction/overview) | The OpenAI API can be applied to virtually any task that involves understanding or generating natural language or code. | `apiKey` | Yes | Unknown |
+    
 **[⬆ Back to Index](#index)**
 ### Music
 API | Description | Auth | HTTPS | CORS |
