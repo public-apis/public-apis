@@ -1240,7 +1240,7 @@ API | Description | Auth | HTTPS | CORS |
 | [The Old Reader](https://github.com/theoldreader/api) | RSS reader | `apiKey` | Yes | Unknown |
 | [TheNews](https://www.thenewsapi.com/) | Aggregated headlines, top story and live news JSON API | `apiKey` | Yes | Yes |
 | [Trove](https://trove.nla.gov.au/about/create-something/using-api) | Search through the National Library of Australia collection of 1000s of digitised newspapers | `apiKey` | Yes | Unknown |
-| [World News API](https://worldnewsapi.com) | World News API | `apiKey` | Yes | Unknown |
+| [World News API](https://worldnewsapi.com) | The World News API gives you access to thousands of news sources in over 50 languages from over 150 countries. News are semantically tagged. | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Open Data
