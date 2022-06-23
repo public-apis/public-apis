@@ -132,6 +132,7 @@
 * [Personality](#personality)
 * [Phone](#phone)
 * [Photography](#photography)
+* [Podcasts](#podcasts)
 * [Programming](#programming)
 * [Science & Math](#science--math)
 * [Security](#security)
@@ -1372,6 +1373,16 @@ API | Description | Auth | HTTPS | CORS |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
 | [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | `apiKey` | Yes | Unknown |
 | [Webdam](https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API) | Images | `OAuth` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Podcasts
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [iTunes](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html#//apple_ref/doc/uid/TP40017632-CH3-SW1) | Apple Podcasts Directory  | No | Yes | Unknown |
+| [Listen Notes](https://www.hackerearth.com/docs/wiki/developers/v4/) | Get details on podcasts & episodes, Podcast & Episode Search | `apiKey` | Yes | Unknown |
+| [PodcastIndex](https://podcastindex-org.github.io/docs-api/) | Get details on podcasts & episodes, Podcast Search | `apiKey` | Yes | Unknown |
+| [Spotify](https://developer.spotify.com/documentation/web-api/) | Get details on podcasts & episodes | `OAuth` | Yes | Unknown |
+| [Taddy Podcasts](https://taddy.org/developers/podcast-api) | Get details on podcasts & episodes, Podcast & Episode Search, Webhook notifications | `X-API-KEY` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Programming
