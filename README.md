@@ -1430,6 +1430,7 @@ API | Description | Auth | HTTPS | CORS |
 | [BitWarden](https://bitwarden.com/help/api/) | Best open-source password manager | `OAuth` | Yes | Unknown |
 | [Botd](https://github.com/fingerprintjs/botd) | Botd is a browser library for JavaScript bot detection | `apiKey` | Yes | Yes |
 | [Bugcrowd](https://docs.bugcrowd.com/api/getting-started/) | Bugcrowd API for interacting and tracking the reported issues programmatically | `apiKey` | Yes | Unknown |
+| [Bypass Default Passwords](https://share.streamlit.io/aydinnyunus/gatecracker/main/main.py) | GateCracker API allows to bypass Door, ICS, IOT Passwords  | No | Yes | Unknown |
 | [Censys](https://search.censys.io/api) | Search engine for Internet connected host and devices | `apiKey` | Yes | No |
 | [Classify](https://classify-web.herokuapp.com/#/api) | Encrypting & decrypting text messages | No | Yes | Yes |
 | [Complete Criminal Checks](https://completecriminalchecks.com/Developers) | Provides data of offenders from all U.S. States and Pureto Rico | `apiKey` | Yes | Yes |
@@ -1463,7 +1464,6 @@ API | Description | Auth | HTTPS | CORS |
 | [UK Police](https://data.police.uk/docs/) | UK Police data | No | Yes | Unknown |
 | [Virushee](https://api.virushee.com/) | Virushee file/data scanning | No | Yes | Yes |
 | [VulDB](https://vuldb.com/?doc.api) | VulDB API allows to initiate queries for one or more items along with transactional bots | `apiKey` | Yes | Unknown |
-| [Bypass Default Passwords](https://share.streamlit.io/aydinnyunus/gatecracker/main/main.py) | GateCracker API allows to bypass Door, ICS, IOT Passwords  | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Shopping
