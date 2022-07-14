@@ -741,6 +741,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Alpaca](https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/) | Realtime and historical market data on all US equities and ETFs | `apiKey` | Yes | Yes |
 | [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | `apiKey` | Yes | Unknown |
 | [apilayer marketstack](https://marketstack.com/) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown |
+| [Atom Finance](https://atom.finance/) | Atom Finance provides access to market, earnings and news data | `apiKey` | Yes | Yes |
 | [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | `OAuth` | Yes | Yes |
 | [Billplz](https://www.billplz.com/api) | Payment platform | `apiKey` | Yes | Unknown |
 | [Binlist](https://binlist.net/) | Public access to a database of IIN/BIN information | No | Yes | Unknown |
