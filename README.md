@@ -1141,8 +1141,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Arbeitsamt](https://jobsuche.api.bund.dev/) | API for the "Arbeitsamt", which is a german Job board aggregator | `OAuth` | Yes  | Unknown |
 | [Careerjet](https://www.careerjet.com/partners/api/) | Job search engine | `apiKey` | No   | Unknown |
 | [DevITjobs UK](https://devitjobs.uk/job_feed.xml) | Jobs with GraphQL | No | Yes  | Yes |
-| [Findwork](https://findwork.dev/developers/) | Application Tracking System | `apiKey` | Yes  | Unknown |
-| [FriendWork](https://friend.work/) | Job board | `apiKey` | Yes  | Unknown |
+| [Findwork](https://findwork.dev/developers/) | Job board | `apiKey` | Yes  | Unknown |
+| [FriendWork](https://friend.work/) | Application Tracking System | `apiKey` | Yes  | Unknown |
 | [GraphQL Jobs](https://graphql.jobs/docs/api/) | Jobs with GraphQL | No | Yes  | Yes |
 | [HeadHunter](https://dev.hh.ru/) | Job board | `apiKey` | Yes  | Yes |
 | [Huntflow](https://huntflow.ru/api) | Application Tracking System | `apiKey` | Yes | Yes |
