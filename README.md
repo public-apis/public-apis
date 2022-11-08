@@ -828,7 +828,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Bugsnax](https://www.bugsnaxapi.com/) | Get information about Bugsnax | No | Yes | Yes |
 | [CheapShark](https://www.cheapshark.com/api) | Steam/PC Game Prices and Deals | No | Yes | Yes |
 | [Chess.com](https://www.chess.com/news/view/published-data-api) | Chess.com read-only REST API | No | Yes | Unknown |
-| [Chuck Norris Database](http://www.icndb.com/api/) | Jokes | No | No | Unknown |
+| [chucknorris.io](https://api.chucknorris.io/) | Jokes | No | No | Unknown |
 | [Clash of Clans](https://developer.clashofclans.com) | Clash of Clans Game Information | `apiKey` | Yes | Unknown |
 | [Clash Royale](https://developer.clashroyale.com) | Clash Royale Game Information | `apiKey` | Yes | Unknown |
 | [Comic Vine](https://comicvine.gamespot.com/api/documentation) | Comics | No | Yes | Unknown |
