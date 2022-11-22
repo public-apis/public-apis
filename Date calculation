@@ -1,0 +1,26 @@
+//1- lowest to now
+//2 -highest to now
+function remaning_time(Выбранная_дата, Тип_отсчета){
+  var tDate = new Date;
+  var sec = 1000;
+  var min = 60*sec;
+  var hour = 60*min;
+  var day = 24*hour;
+// 1 - means lowest date to current date
+  if(Тип_отсчета == 1){
+  var diff = tDate-Выбранная_дата;
+  var days = Math.floor(diff/day);
+  var hours = Math.floor(diff%day/hour);
+  var minutes = Math.floor(diff%day%hour/min);
+  return ['> ' + days + 'dd. ' + hours + 'hh. ' + minutes + 'mm.'];    
+  }
+// 2 - means highest date to current date
+  if(Тип_отсчета == 2){
+  var diff=Выбранная_дата-tDate;
+  var days = Math.floor(diff/day);
+  var hours = Math.floor(diff%day/hour);
+  var minutes = Math.floor(diff%day%hour/min);
+  return [days + 'д. ' + hours + 'ч. ' + minutes + 'м.'+ ' >'];
+  }
+
+}
