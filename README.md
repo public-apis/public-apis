@@ -151,7 +151,7 @@
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
-| [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
+| [Axolotl](https://axolotlapi.netlify.app/) | Fetches over 100 posts from r/axolotls and sends back a number of those based on filters provided | No | Yes | Unknown |
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
 | [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
 | [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | No |
