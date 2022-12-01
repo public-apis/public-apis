@@ -3,11 +3,15 @@
 import re
 import sys
 import random
+import ssl
 from typing import List, Tuple
 
 import requests
 from requests.models import Response
 
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
 
 def find_links_in_text(text: str) -> List[str]:
     """Find links in a text and return a list of URLs."""
