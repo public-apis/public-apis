@@ -817,7 +817,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Games & Comics
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Age of Empires II](https://age-of-empires-2-api.herokuapp.com) | Get information about Age of Empires II resources | No | Yes | No |
+| [Age of Empires II](https://aoe2.net/#api) | Get information about Age of Empires II leaderboards, ratings and matches | No | Yes | No |
 | [AmiiboAPI](https://amiiboapi.com/) | Nintendo Amiibo Information | No | Yes | Yes |
 | [Animal Crossing: New Horizons](http://acnhapi.com/) | API for critters, fossils, art, music, furniture and villagers | No | Yes | Unknown |
 | [Autochess VNG](https://github.com/didadadida93/autochess-vng-api) | Rest Api for Autochess VNG | No | Yes | Yes |
