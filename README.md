@@ -8,6 +8,7 @@
 <div align="center">
     <sup>Status</sup>
     <br />
+	I'm trying!
     <a href="https://github.com/public-apis/public-apis#index">
         <img alt="Number of Categories" src="https://img.shields.io/badge/dynamic/json?url=https://api.publicapis.org/categories&label=Number%20of%20Categories&query=$.count&color=informational" />
     </a>
