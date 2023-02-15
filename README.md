@@ -64,7 +64,7 @@
     <p>
         <a href="https://apilayer.com#gh-light-mode-only">
             <div>
-                <img src=".github/cs1586-APILayerLogoUpdate2022-LJ_v2-HighRes.png" width="250" alt="APILayer Logo" />
+                <img src="https://raw.githubusercontent.com/public-apis/public-apis/master/.github/cs1586-APILayerLogoUpdate2022-LJ_v2-HighRes.png" width="250" alt="APILayer Logo" />
             </div>
             <div>
                 <p><strong>The fastest way to integrate APIs into any product</strong></p>
