@@ -143,6 +143,7 @@
 * [Tracking](#tracking)
 * [Transportation](#transportation)
 * [URL Shorteners](#url-shorteners)
+* [URL Summarization](#url-summarization) 
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
@@ -1731,6 +1732,19 @@ API | Description | Auth | HTTPS | CORS |
 | [Shrtlnk](https://shrtlnk.dev/developer) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
 | [TinyURL](https://tinyurl.com/app/dev) | Shorten long URLs | `apiKey` | Yes | No |
 | [UrlBae](https://urlbae.com/developers) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
+
+**[⬆ Back to Index](#index)**
+### URL Summarization.
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Diffbot](https://www.diffbot.com/) | An AI-powered web scraping tool for content analysis | `apiKey` | Yes | Yes |
+| [Aylien](https://aylien.com/) | A text analysis platform that provides a range of NLP and machine learning APIs  | `apiKey` | Yes | Yes |
+| [TextRazor](https://www.textrazor.com/) | A natural language processing API for text analysis and content classification | `apiKey`| Yes | Yes |
+| [MeaningCloud]( https://www.meaningcloud.com/) |  A text analytics platform for sentiment analysis, text classification, and more  | `apiKey` | Yes | Yes |
+| [OpenAI GPT-3](https://openai.com/api/) | powerful language generation API capable of generating human-like text | `apiKey` | Yes | Unknown |
+| [SummarizeBot](https://www.summarizebot.com/) | machine learning-based API for summarizing articles, news, and websites | `apiKey` | Yes | Yes |
+| [Smmry](https://smmry.com/) | free text summarization tool for online articles and web pages | No | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 ### Vehicle
