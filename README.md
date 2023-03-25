@@ -274,6 +274,7 @@ API | Description | Auth | HTTPS | CORS |
 | [The Graph](https://thegraph.com) | Indexing protocol for querying networks like Ethereum with GraphQL | `apiKey` | Yes | Unknown |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
 | [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
+| [Web3js](https://web3js.readthedocs.io/en/v1.8.2/web3.html) |  A collection of modules that contain functionality for the ethereum ecosystem. | `apiKey`| Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 ### Books
