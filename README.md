@@ -1287,6 +1287,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Open Source Projects
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Codeforces Readme Stats](https://github.com/RedHeadphone/Codeforces-readme-stats) | Add dynamically generated Codeforces stats to your GitHub profile Readme | No | Yes | Yes |
 | [Countly](https://api.count.ly/reference) | Countly web analytics | No | No | Unknown |
 | [Creative Commons Catalog](https://api.creativecommons.engineering/) | Search among openly licensed and public domain works | `OAuth` | Yes | Yes |
 | [Datamuse](https://www.datamuse.com/api/) | Word-finding query engine | No | Yes | Unknown |
