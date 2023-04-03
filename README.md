@@ -1599,6 +1599,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UUID Generator](https://www.uuidtools.com/docs) | Generate UUIDs | No | Yes | No |
 | [What The Commit](http://whatthecommit.com/index.txt) | Random commit message generator | No | No | Yes |
 | [Yes No](https://yesno.wtf/api) | Generate yes or no randomly | No | Yes | Unknown |
+| [People Generator](https://peoplegeneratorapi.live) | Generate realistic, fake user data aimed for testing purposes | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
 ### Text Analysis
