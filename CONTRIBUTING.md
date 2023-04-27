@@ -1,10 +1,10 @@
 # Contributing to public-apis
 
-> While the masses of pull requests and community involvement is appreciated, some pull requests have been specifically
+> While the masses of pull requests and community involvement are appreciated, some pull requests have been specifically
 opened to market company APIs that offer paid solutions. This API list is not a marketing tool, but a tool to help the
 community build applications and use free, public APIs quickly and easily. Pull requests that are identified as marketing attempts will not be accepted.
 >
-> Please make sure the API you want to add has a full free access or at least a free tier before submitting.
+> Please make sure the API you want to add has full, free access or at least a free tier and does not depend on the purchase of a device/service before submitting.  An example that would be rejected is an API that is used to control a smart outlet - the API is free, but you must purchase the smart device.
 >
 > Thanks for understanding! :)
 
@@ -38,13 +38,26 @@ Example entry:
 
 _Without proper [CORS configuration](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) an API will only be usable server side._
 
-Please continue to follow the alphabetical ordering that is in place per section. Each table column should be padded with one space on either side.
+After you've created a branch on your fork with your changes, it's time to [make a pull request][pr-link]. 
 
-If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
+*Please follow the guidelines given below while making a Pull Request to the Public APIs*
 
-## Pull Request
+## Pull Request Guidelines
 
-After you've created a branch on your fork with your changes, it's time to [make a pull request][pr-link]!
+* Never put an update/new version of an API that is already listed, the old version of the API gets deprecated.
+* Continue to follow the alphabetical ordering that is in place per section.
+* Each table column should be padded with one space on either side.
+* The Description should not exceed 100 characters.
+* If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
+* Add one link per Pull Request.
+* Make sure the PR title is in the format of `Add Api-name API` *for e.g.*: `Add Blockchain API`
+* Use a short descriptive commit message. *for e.g.*: ❌`Update Readme.md`  ✔ `Add Blockchain API to Cryptocurrency`
+* Search previous Pull Requests or Issues before making a new one, as yours may be a duplicate.
+* Don't mention the TLD(Top Level Domain) in the name of the API. *for e.g.*: ❌Gmail.com ✔Gmail
+* Please make sure the API name does not end with `API`. *for e.g.*: ❌Gmail API ✔Gmail 
+* Please make sure the API has proper documentation.
+* Please make sure you squash all commits together before opening a pull request. If your pull request requires changes upon review, please be sure to squash all additional commits as well. [This wiki page][squash-link] outlines the squash process.
+* Target your Pull Request to the `master` branch of the `public-apis`
 
 Once you’ve submitted a pull request, the collaborators can review your proposed changes and decide whether or not to incorporate (pull in) your changes.
 
@@ -57,7 +70,6 @@ merge conflicts will be less likely. See more detailed instructions [here][synci
 * Create a [branch][branch-link] for your edits.
 * Contribute in the style of the project as outlined above. This makes it easier for the collaborators to merge
 and for others to understand and maintain in the future.
-* Please make sure you squash all commits together before opening a pull request. If your pull request requires changes upon review, please be sure to squash all additional commits as well. [This wiki page][squash-link] outlines the squash process.
 
 ### Open Pull Requests
 
@@ -67,11 +79,11 @@ Other contributors and users may chime in, but ultimately the decision is made b
 
 During the discussion, you may be asked to make some changes to your pull request.
 
-If so, add more commits to your branch and push them – they will automatically go into the existing pull request!
+If so, add more commits to your branch and push them – they will automatically go into the existing pull request. But don't forget to squash them.
 
-Opening a pull request will trigger a Travis CI build to check the validity of all links in the project. After the build completes, **please ensure that the build has passed**. If the build did not pass, please view the Travis CI log and correct any errors that were found in your contribution. 
+Opening a pull request will trigger a build to check the validity of all links in the project. After the build completes, **please ensure that the build has passed**. If the build did not pass, please view the build logs and correct any errors that were found in your contribution. 
 
-Thanks for being a part of this project, and we look forward to hearing from you soon! 
+*Thanks for being a part of this project, and we look forward to hearing from you soon!*
 
 [branch-link]: <http://guides.github.com/introduction/flow/>
 [clone-link]: <https://help.github.com/articles/cloning-a-repository/>
