@@ -98,3 +98,5 @@ if __name__ == "__main__":
         hasError = validate_links(links)
     if hasError:
         sys.exit(1)
+
+#test
