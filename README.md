@@ -1343,6 +1343,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | `apiKey` | Yes | Yes |
 | [Phone Specification](https://github.com/azharimm/phone-specs-api) | Rest Api for Phone specifications | No | Yes | Yes |
 | [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
+| [WhatsApp](https://github.com/Neotastisch/WhatsApp-API/blob/main/README.md) | Sending/Recieving WhatsApp messages (FREE) | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
 ### Photography
