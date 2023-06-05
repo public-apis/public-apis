@@ -177,6 +177,13 @@ API | Description | Auth | HTTPS | CORS |
 | [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
 | [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
 | [Zoo Animals](https://zoo-animal-api.herokuapp.com/) | Facts and pictures of zoo animals | No | Yes | Yes |
+| [Dog CEO's Dog API](https://dog.ceo/dog-api/) | Collection of dog images | No | Yes | Yes |
+| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | Yes |
+| [The Dog API](https://thedogapi.com/) | Dog images, breeds, and sub-breeds | `apiKey` | Yes | No |
+| [Axolotl](https://theaxolotlapi.netlify.app/) | Axolotl pictures and facts | No | Yes | No |
+| [FishWatch](https://www.fishwatch.gov/developers) | Information and pictures about fish species | No | Yes | Yes |
+| [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 ### Anime
