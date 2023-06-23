@@ -170,3 +170,4 @@ class TestValidateLinks(unittest.TestCase):
         self.assertFalse(result1)
         self.assertFalse(result2)
         self.assertFalse(result3)
+        self.assertFalse(result4)
