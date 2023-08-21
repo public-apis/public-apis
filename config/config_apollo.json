@@ -1,0 +1,108 @@
+{
+  "servers": [
+    {
+      "default_log_path": "stdout",
+      "default_log_level": "DEBUG",
+      "listeners": [
+        {
+          "name": "grpc",
+          "address": "127.0.0.1:34904",
+          "bind_port": true,
+          "filter_chains": [
+            {
+              "filters": [
+                {
+                  "type": "tcpcopy",
+                  "config": {
+                    "strategy": {
+                      "switch": "ON",
+                      "interval": 30,
+                      "duration": 10,
+                      "cpu_max_rate": 80,
+                      "mem_max_rate": 80
+                    }
+                  }
+                },
+                {
+                  "type": "grpc",
+                  "config": {
+                    "server_name": "runtime",
+                    "grpc_config": {
+                      "hellos": {
+                        "helloworld": {
+                          "type": "helloworld",
+                          "hello": "greeting"
+                        }
+                      },
+                      "config_store": {
+                        "config_demo": {
+                          "type": "apollo",
+                          "address": [
+                            "http://106.54.227.205:8080"
+                          ],
+                          "metadata": {
+                            "app_id": "testApplication_yang",
+                            "cluster": "default",
+                            "namespace_name": "dubbo,product.joe,application",
+                            "is_backup_config": "true",
+                            "secret": "6ce3ff7e96a24335a9634fe9abca6d51",
+                            "open_api_token": "947b0db097d2931ba5bf503f1e33c10394f90d11",
+                            "open_api_address": "http://106.54.227.205",
+                            "open_api_user": "apollo"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dynamic_resources": {
+    "lds_config": {
+      "ads": {},
+      "initial_fetch_timeout": "0s",
+      "resource_api_version": "V3"
+    },
+    "cds_config": {
+      "ads": {},
+      "initial_fetch_timeout": "0s",
+      "resource_api_version": "V3"
+    },
+    "ads_config": {
+      "api_type": "GRPC",
+      "set_node_on_first_message_only": true,
+      "transport_api_version": "V3",
+      "grpc_services": [{
+        "envoy_grpc": {
+          "cluster_name": "xds-grpc"
+        }
+      }]
+    }
+  },
+  "static_resources": {
+    "clusters": [{
+      "name": "xds-grpc",
+      "type": "STATIC",
+      "connect_timeout": "1s",
+      "lb_policy": "ROUND_ROBIN",
+      "load_assignment": {
+        "cluster_name": "xds-grpc",
+        "endpoints": [{
+          "lb_endpoints": [{
+            "endpoint": {
+              "address": {
+                "socket_address": {"address": "127.0.0.1", "port_value": 30681}
+              }
+            }
+          }
+          ]
+        }]
+      }
+    }]
+  }
+}
