@@ -2,7 +2,6 @@ name: Alipay Cloud Devops Codescan
 on:
   push:
 
-
 jobs:
   deployment:
     runs-on: ubuntu-latest
