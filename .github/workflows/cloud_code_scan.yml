@@ -1,0 +1,16 @@
+name: Alipay Cloud Devops Codescan
+on:
+  push:
+
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: codeScan
+        uses: layotto/alipay-cloud-devops-codescan@opensource-check
+        with:
+          parent_uid: ${{ secrets.ALI_PID }}
+          private_key: ${{ secrets.ALI_PK }}
+
+
