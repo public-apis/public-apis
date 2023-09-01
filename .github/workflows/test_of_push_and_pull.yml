@@ -35,3 +35,4 @@ jobs:
       - name: Checking if push changes are duplicated
         run: python scripts/validate/links.py ${FILENAME} --only_duplicate_links_checker
         if: github.event_name == 'push'
+	
