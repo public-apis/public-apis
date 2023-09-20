@@ -17,27 +17,23 @@ from validate.format import check_file_format, min_entries_per_category, num_seg
 class TestValidadeFormat(unittest.TestCase):
     
     def test_error_message_return_and_return_type(self):
-        line_num_unity = 1
-        line_num_ten = 10
-        line_num_hundred = 100
-        line_num_thousand = 1000
-
+        line_nums = [1, 10, 100, 1000]
         msg = 'This is a unit test'
 
-        err_msg_unity = error_message(line_num_unity, msg)
-        err_msg_ten = error_message(line_num_ten, msg)
-        err_msg_hundred = error_message(line_num_hundred, msg)
-        err_msg_thousand = error_message(line_num_thousand, msg)
+        err_msgs = [error_message(line_num, msg) for line_num in line_nums]
 
-        self.assertIsInstance(err_msg_unity, str)
-        self.assertIsInstance(err_msg_ten, str)
-        self.assertIsInstance(err_msg_hundred, str)
-        self.assertIsInstance(err_msg_thousand, str)
+        expected_err_msgs = [
+            '(L002) This is a unit test',
+            '(L011) This is a unit test',
+            '(L101) This is a unit test',
+            '(L1001) This is a unit test'
+        ]
 
-        self.assertEqual(err_msg_unity, '(L002) This is a unit test')
-        self.assertEqual(err_msg_ten, '(L011) This is a unit test')
-        self.assertEqual(err_msg_hundred, '(L101) This is a unit test')
-        self.assertEqual(err_msg_thousand, '(L1001) This is a unit test')
+        for i, err_msg in enumerate(err_msgs):
+            with self.subTest(line_num=line_nums[i]):
+                self.assertIsInstance(err_msg, str)
+                self.assertEqual(err_msg, expected_err_msgs[i])
+
 
     def test_if_get_categories_content_return_correct_data_of_categories(self):
         fake_contents = [
