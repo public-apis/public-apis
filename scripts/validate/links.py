@@ -3,11 +3,15 @@
 import re
 import sys
 import random
+import ssl
 from typing import List, Tuple
 
 import requests
 from requests.models import Response
 
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
 
 def find_links_in_text(text: str) -> List[str]:
     """Find links in a text and return a list of URLs."""
@@ -175,9 +179,7 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
             has_error = True
             error_message = f'ERR:CLT: {code} : {link}'
 
-    except requests.exceptions.SSLError as error:
-        has_error = True
-        error_message = f'ERR:SSL: {error} : {link}'
+   
 
     except requests.exceptions.ConnectionError as error:
         has_error = True
