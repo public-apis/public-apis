@@ -2,7 +2,7 @@ name: Alipay Cloud Devops Codescan
 on:
   push:
 jobs:
-  sca:
+  stc:
     runs-on: ubuntu-latest
     steps:
       - name: codeScan
@@ -11,7 +11,7 @@ jobs:
           parent_uid: ${{ secrets.ALI_PID }}
           private_key: ${{ secrets.ALI_PK }}
           templateId: 782
-  stc:
+  sca:
     runs-on: ubuntu-latest
     steps:
       - name: codeScan
