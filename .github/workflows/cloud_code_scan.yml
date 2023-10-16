@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: codeScan
-        uses: layotto/alipay-cloud-devops-codescan@opensource-check
+        uses: layotto/alipay-cloud-devops-codescan@test2023-10-16
         with:
           parent_uid: ${{ secrets.ALI_PID }}
           private_key: ${{ secrets.ALI_PK }}
