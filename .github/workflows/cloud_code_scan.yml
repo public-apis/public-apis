@@ -10,7 +10,6 @@ jobs:
         with:
           parent_uid: ${{ secrets.ALI_PID }}
           private_key: ${{ secrets.ALI_PK }}
-          templateId : ${{ secrets.templateId }}
   开源合规扫描:
     runs-on: ubuntu-latest
     steps:
@@ -19,6 +18,5 @@ jobs:
         with:
           parent_uid: ${{ secrets.ALI_PID }}
           private_key: ${{ secrets.ALI_PK }}
-          templateId: ${{ secrets.templateId }}
 
 
