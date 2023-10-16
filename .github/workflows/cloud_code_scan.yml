@@ -10,7 +10,7 @@ jobs:
         with:
           parent_uid: ${{ secrets.ALI_PID }}
           private_key: ${{ secrets.ALI_PK }}
-  开源合规扫描:
+  开源合规扫描1:
     runs-on: ubuntu-latest
     steps:
       - name: codeScan
