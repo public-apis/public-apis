@@ -965,6 +965,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IP2Proxy](https://www.ip2location.com/web-service/ip2proxy) | Detect proxy and VPN using IP address | `apiKey` | Yes | Unknown |
 | [ipapi.co](https://ipapi.co/api/#introduction) | Find IP address location information | No | Yes | Yes |
 | [ipapi.com](https://ipapi.com/) | Real-time Geolocation & Reverse IP Lookup REST API | `apiKey` | Yes | Unknown |
+| [ipapi.is](https://ipapi.is) | Free IP Address API with Geolocation, Organisation, ASN and hosting detection support | No | Yes | Yes |
 | [IPGEO](https://api.techniknews.net/ipgeo/) | Unlimited free IP Address API with useful information | No | Yes | Unknown |
 | [ipgeolocation](https://ipgeolocation.io/) | IP Geolocation AP with free plan 30k requests per month | `apiKey` | Yes | Yes |
 | [IPInfoDB](https://www.ipinfodb.com/api) | Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address | `apiKey` | Yes | Unknown |
