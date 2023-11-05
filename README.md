@@ -96,6 +96,7 @@
 ## Index
 
 * [Animals](#animals)
+* [Artificial Intelligence](#artificial-intelligence)
 * [Anime](#anime)
 * [Anti-Malware](#anti-malware)
 * [Art & Design](#art--design)
@@ -177,8 +178,13 @@ API | Description | Auth | HTTPS | CORS |
 | [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
 | [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
 | [Zoo Animals](https://zoo-animal-api.herokuapp.com/) | Facts and pictures of zoo animals | No | Yes | Yes |
-
 **[⬆ Back to Index](#index)**
+
+### Artificial Intelligence
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+|[Google Bard](https://rapidapi.com/nishantapps55/api/google-bard1) | Best AI chat api | `OAuth` | No | No |
+
 ### Anime
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
