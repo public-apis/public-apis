@@ -200,7 +200,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Studio Ghibli](https://ghibliapi.herokuapp.com) | Resources from Studio Ghibli films | No | Yes | Yes |
 | [Trace Moe](https://soruly.github.io/trace.moe-api/#/) | A useful tool to get the exact scene of an anime from a screenshot | No | Yes | No |
 | [Waifu.im](https://waifu.im/docs) | Get waifu pictures from an archive of over 4000 images and multiple tags | No | Yes | Yes |
-| [Waifu.it](https://docs.waifu.it/) | An Open-source API Serving Bunch of Anime stuff | No | Yes | Yes |
+| [Waifu.it](https://docs.waifu.it/) | An Open-source API Serving Bunch of Anime stuff | `apiKey` | Yes | Yes |
 | [Waifu.pics](https://waifu.pics/docs) | Image sharing platform for anime images | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
