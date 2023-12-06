@@ -251,7 +251,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Authentication & Authorization
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Aserto](https://www.aserto.com) | Fine-grained authorization for applications & APIs | `apikey` | Yes | Yes | 
+| [Aserto](https://www.aserto.com) | API for application authorization | `apikey` | Yes | Yes | 
 | [Auth0](https://auth0.com) | Easy to implement, adaptable authentication and authorization platform | `apiKey` | Yes | Yes |
 | [GetOTP](https://otp.dev/en/docs/) | Implement OTP flow quickly | `apiKey` | Yes | No |
 | [Micro User Service](https://m3o.com/user) | User management and authentication | `apiKey` | Yes | No |
