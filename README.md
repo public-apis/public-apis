@@ -685,6 +685,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MailboxValidator](https://www.mailboxvalidator.com/api-email-free) | Validate email address to improve deliverability | `apiKey` | Yes | Unknown |
 | [MailCheck.ai](https://www.mailcheck.ai/#documentation) | Prevent users to sign up with temporary email addresses | No | Yes | Unknown |
 | [Mailtrap](https://mailtrap.docs.apiary.io/#) | A service for the safe testing of emails sent from the development and staging environments | `apiKey` | Yes | Unknown |
+| [Proweblook Email Checker](https://proweblook.com/email-verifier) | Validate email addresses without sending | `apiKey` | Yes | Yes |
 | [Sendgrid](https://docs.sendgrid.com/api-reference/) | A cloud-based SMTP provider that allows you to send emails without having to maintain email servers | `apiKey` | Yes | Unknown |
 | [Sendinblue](https://developers.sendinblue.com/docs) | A service that provides solutions relating to marketing and/or transactional email and/or SMS | `apiKey` | Yes | Unknown |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
@@ -988,6 +989,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Postali](https://postali.app/api) | Mexico Zip Codes API | No | Yes | Yes |
 | [PostcodeData.nl](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) | Provide geolocation data based on postcode for Dutch addresses | No | No | Unknown |
 | [Postcodes.io](https://postcodes.io) | Postcode lookup & Geolocation for the UK | No | Yes | Yes |
+| [Proweblook](https://proweblook.com/ipapi) | Proweblook lookup & Geolocation | `apiKey` | Yes | Yes |
 | [Queimadas INPE](https://queimadas.dgi.inpe.br/queimadas/dados-abertos/) | Access to heat focus data (probable wildfire) | No | Yes | Unknown |
 | [REST Countries](https://restcountries.com) | Get information about countries via a RESTful API | No | Yes | Yes |
 | [RoadGoat Cities](https://www.roadgoat.com/business/cities-api) | Cities content & photos API | `apiKey` | Yes | No |
@@ -1343,7 +1345,10 @@ API | Description | Auth | HTTPS | CORS |
 | [apilayer numverify](https://numverify.com) | Phone number validation | `apiKey` | Yes | Unknown |
 | [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | `apiKey` | Yes | Yes |
 | [Phone Specification](https://github.com/azharimm/phone-specs-api) | Rest Api for Phone specifications | No | Yes | Yes |
+| [Proweblook](https://proweblook.com/phone-number-validator) | Phone number validation | `apiKey` | Yes | Yes |
 | [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
+| [Whatsapp Contact Checker Proweblook](https://proweblook.com/whatsapp-number-checker) | Whatsapp number validation | `apiKey` | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 ### Photography
