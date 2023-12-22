@@ -150,6 +150,7 @@
 ### Animals
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [the cat](https://thecatapi.com/) | An API about cats, more than 60000 images, breeds, facts | `apiKey` | Yes | no |
 | [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
