@@ -1,0 +1,12 @@
+{ "name" : "nopt"
+, "version" : "1.0.10"
+, "description" : "Option parsing for Node, supporting types, shorthands, etc. Used by npm."
+, "author" : "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)"
+, "main" : "lib/nopt.js"
+, "scripts" : { "test" : "node lib/nopt.js" }
+, "repository" : "http://github.com/isaacs/nopt"
+, "bin" : "./bin/nopt.js"
+, "license" :
+  { "type" : "MIT"
+  , "url" : "https://github.com/isaacs/nopt/raw/master/LICENSE" }
+, "dependencies" : { "abbrev" : "1" }}

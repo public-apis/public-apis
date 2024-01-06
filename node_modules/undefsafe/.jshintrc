@@ -1,0 +1,16 @@
+{
+  "browser": false,
+  "camelcase": true,
+  "curly": true,
+  "devel": true,
+  "eqeqeq": true,
+  "forin": true,
+  "indent": 2,
+  "noarg": true,
+  "node": true,
+  "quotmark": "single",
+  "undef": true,
+  "strict": false,
+  "unused": true
+}
+

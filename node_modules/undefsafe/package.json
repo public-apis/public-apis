@@ -1,0 +1,34 @@
+{
+  "name": "undefsafe",
+  "description": "Undefined safe way of extracting object properties",
+  "main": "lib/undefsafe.js",
+  "tonicExampleFilename": "example.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/**/*.test.js -R spec",
+    "cover": "tap test/*.test.js --cov --coverage-report=lcov",
+    "semantic-release": "semantic-release"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "singleQuote": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remy/undefsafe.git"
+  },
+  "keywords": [
+    "undefined"
+  ],
+  "author": "Remy Sharp",
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^18.0.0",
+    "tap": "^5.7.1",
+    "tap-only": "0.0.5"
+  },
+  "dependencies": {},
+  "version": "2.0.5"
+}

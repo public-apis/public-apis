@@ -1,0 +1,16 @@
+{
+  "name": "public-apis",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">     <h1>Public APIs</h1>     <i>A collective list of free APIs for use in software and web development</i> </div>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

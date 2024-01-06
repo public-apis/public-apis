@@ -1,0 +1,3 @@
+{
+  "singleQuote": true
+}

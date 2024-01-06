@@ -1,0 +1,20 @@
+    ;                                 ;
+    kO.                              x0
+    KMX,          .:x0kc.          'KMN
+    0MMM0:     'oKMMMMMMMXd,     ;OMMMX
+    oMMMMMWKOONMMMMMMMMMMMMMWOOKWMMMMMx
+     OMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK.
+    .oWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd.
+    KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN
+    KMMMMMMMMMMMMMMW0k0WMMMMMMMMMMMMMMW
+    KMMMMMMMMMMMNk:.    :xNMMMMMMMMMMMW
+    KMMMMMMMMMMK           OMMMMMMMMMMW
+    KMMMMMMMMMMO           xMMMMMMMMMMN
+    KMMMMMMMMMMO           xMMMMMMMMMMN
+    KMMMMMMMMMMO           xMMMMMMMMMMN
+    KMMMMMMMMMMO           xMMMMMMMMMMN
+    KMMMMMMMMMMO           xMMMMMMMMMMN
+    KMMMMMMMMMNc           ;NMMMMMMMMMN
+    KMMMMMW0o'               .lOWMMMMMN
+    KMMKd;                       ,oKMMN
+    kX:                             ,K0

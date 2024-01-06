@@ -1,0 +1,21 @@
+{
+  "name": "abbrev",
+  "version": "1.1.1",
+  "description": "Like ruby's abbrev module, but in js",
+  "author": "Isaac Z. Schlueter <i@izs.me>",
+  "main": "abbrev.js",
+  "scripts": {
+    "test": "tap test.js --100",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
+  },
+  "repository": "http://github.com/isaacs/abbrev-js",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^10.1"
+  },
+  "files": [
+    "abbrev.js"
+  ]
+}

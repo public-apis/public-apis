@@ -1,0 +1,74 @@
+{
+  "name": "nodemon",
+  "homepage": "https://nodemon.io",
+  "author": {
+    "name": "Remy Sharp",
+    "url": "https://github.com/remy"
+  },
+  "bin": {
+    "nodemon": "./bin/nodemon.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remy/nodemon.git"
+  },
+  "description": "Simple monitor script for use during development of a Node.js app.",
+  "keywords": [
+    "cli",
+    "monitor",
+    "monitor",
+    "development",
+    "restart",
+    "autoload",
+    "reload",
+    "terminal"
+  ],
+  "license": "MIT",
+  "main": "./lib/nodemon",
+  "scripts": {
+    "commitmsg": "commitlint -e",
+    "coverage": "istanbul cover _mocha -- --timeout 30000 --ui bdd --reporter list test/**/*.test.js",
+    "lint": "eslint lib/**/*.js",
+    "test": "npm run lint && npm run spec",
+    "spec": "for FILE in test/**/*.test.js; do echo $FILE; TEST=1 mocha --exit --timeout 30000 $FILE; if [ $? -ne 0 ]; then exit 1; fi; sleep 1; done",
+    "postspec": "npm run clean",
+    "clean": "rm -rf test/fixtures/test*.js test/fixtures/test*.md",
+    "web": "node web",
+    "semantic-release": "semantic-release",
+    "prepush": "npm run lint",
+    "killall": "ps auxww | grep node | grep -v grep | awk '{ print $2 }' | xargs kill -9"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "async": "1.4.2",
+    "coffee-script": "~1.7.1",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.4",
+    "mocha": "^2.5.3",
+    "nyc": "^15.1.0",
+    "proxyquire": "^1.8.0",
+    "semantic-release": "^18.0.0",
+    "should": "~4.0.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "debug": "^4",
+    "ignore-by-default": "^1.0.1",
+    "minimatch": "^3.1.2",
+    "pstree.remy": "^1.1.8",
+    "semver": "^7.5.3",
+    "simple-update-notifier": "^2.0.0",
+    "supports-color": "^5.5.0",
+    "touch": "^3.1.0",
+    "undefsafe": "^2.0.5"
+  },
+  "version": "3.0.2",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/nodemon"
+  }
+}

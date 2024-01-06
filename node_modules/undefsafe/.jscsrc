@@ -1,0 +1,13 @@
+{
+  "preset": "node-style-guide",
+  "requireCapitalizedComments": null,
+  "requireSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningCurlyBrace": true,
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowSpacesInNamedFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+  "excludeFiles": ["node_modules/**"],
+  "disallowSpacesInFunction": null
+}

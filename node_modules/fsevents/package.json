@@ -1,0 +1,62 @@
+{
+  "name": "fsevents",
+  "version": "2.3.3",
+  "description": "Native Access to MacOS FSEvents",
+  "main": "fsevents.js",
+  "types": "fsevents.d.ts",
+  "os": [
+    "darwin"
+  ],
+  "files": [
+    "fsevents.d.ts",
+    "fsevents.js",
+    "fsevents.node"
+  ],
+  "engines": {
+    "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
+  },
+  "scripts": {
+    "clean": "node-gyp clean && rm -f fsevents.node",
+    "build": "node-gyp clean && rm -f fsevents.node && node-gyp rebuild && node-gyp clean",
+    "test": "/bin/bash ./test.sh 2>/dev/null",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsevents/fsevents.git"
+  },
+  "keywords": [
+    "fsevents",
+    "mac"
+  ],
+  "contributors": [
+    {
+      "name": "Philipp Dunkel",
+      "email": "pip@pipobscure.com"
+    },
+    {
+      "name": "Ben Noordhuis",
+      "email": "info@bnoordhuis.nl"
+    },
+    {
+      "name": "Elan Shankar",
+      "email": "elan.shanker@gmail.com"
+    },
+    {
+      "name": "Miroslav Bajtoš",
+      "email": "mbajtoss@gmail.com"
+    },
+    {
+      "name": "Paul Miller",
+      "url": "https://paulmillr.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fsevents/fsevents/issues"
+  },
+  "homepage": "https://github.com/fsevents/fsevents",
+  "devDependencies": {
+    "node-gyp": "^9.4.0"
+  }
+}
