@@ -1,0 +1,25 @@
+
+
+```python
+from flask import Flask, request
+from twilio.twiml.messaging_response import MessagingResponse
+
+app = Flask(__name__)
+
+@app.route("/whatsapp", methods=['POST'])
+def whatsapp_bot():
+    incoming_msg = request.values.get('Body', '').lower()
+    resp = MessagingResponse()
+    msg = resp.message()
+
+    if 'bonjour' in incoming_msg:
+        msg.body("Bonjour ! Comment puis-je t'aider ?")
+    elif 'aurevoir' in incoming_msg:
+        msg.body("Au revoir ! Passe une excellente journée !")
+    else:
+        msg.body("Désolé, je ne comprends pas cette commande. Essaye encore.")
+
+    return str(resp)
+
+if __name__ == "__main__":
+    app.run(sage est reçu, le bot  !
