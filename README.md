@@ -266,6 +266,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Bitquery](https://graphql.bitquery.io/ide) | Onchain GraphQL APIs & DEX APIs | `apiKey` | Yes | Yes |
 | [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
 | [Chainpoint](https://tierion.com/chainpoint/) | Chainpoint is a global network for anchoring data to the Bitcoin blockchain | No | Yes | Unknown |
+| [CoinGecko](https://www.coingecko.com/api/documentation) | Cryptocurrency data including price, market capitalization, trading volume, and more | No | Yes | Yes |
+| [Coinlore](https://www.coinlore.com/cryptocurrency-data-api) | Cryptocurrency data with real-time and historical information | No | Yes | Yes | 
+| [Coinpaprika](https://api.coinpaprika.com/) | Cryptocurrency data with information on prices, exchanges, and more | No | Yes | Unknown |
+| [CoinRanking](https://developers.coinranking.com/api/documentation) | Cryptocurrency data and rankings | No | Yes | Unknown |
 | [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
 | [Etherscan](https://etherscan.io/apis) | Ethereum explorer API | `apiKey` | Yes | Yes |
 | [Helium](https://docs.helium.com/api/blockchain/introduction/) | Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage | No | Yes | Unknown |
