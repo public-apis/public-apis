@@ -102,7 +102,7 @@
 * [Authentication & Authorization](#authentication--authorization)
 * [Blockchain](#blockchain)
 * [Books](#books)
-* [Business](#business)
+* [Businesses](#business)
 * [Calendar](#calendar)
 * [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
 * [Continuous Integration](#continuous-integration)
