@@ -63,7 +63,7 @@ def check_duplicate_links(links: List[str]) -> Tuple[bool, List]:
 
 
 def fake_user_agent() -> str:
-    """Faking user agent as some hosting services block not-whitelisted UA."""
+    """Faking user agent as some hosting services block not-allowlisted UA."""
 
     user_agents = [
         'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36',
