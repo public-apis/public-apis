@@ -337,6 +337,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Abstract Public Holidays](https://www.abstractapi.com/holidays-api) | Data on national, regional, and religious holidays via API | `apiKey` | Yes | Yes |
 | [Calendarific](https://calendarific.com/) | Worldwide Holidays | `apiKey` | Yes | Unknown |
+| [Checkiday - National Holiday API](https://apilayer.com/marketplace/checkiday-api) | Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies | `apiKey` | Yes | Unknown |
 | [Church Calendar](http://calapi.inadiutorium.cz/) | Catholic liturgical calendar | No | No | Unknown |
 | [Czech Namedays Calendar](https://svatky.adresa.info) | Lookup for a name and returns nameday date | No | No | Unknown |
 | [Festivo Public Holidays](https://docs.getfestivo.com/docs/products/public-holidays-api/intro) | Fastest and most advanced public holiday and observance service on the market | `apiKey` | Yes | Yes |
@@ -661,6 +662,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PrexView](https://prexview.com) | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | Unknown |
 | [Restpack](https://restpack.io/) | Provides screenshot, HTML to PDF and content extraction APIs | `apiKey` | Yes | Unknown |
 | [Todoist](https://developer.todoist.com) | Todo Lists | `OAuth` | Yes | Unknown |
+| [Smart Image Enhancement API](https://apilayer.com/marketplace/image_enhancement-api) | Performs image upscaling by adding detail to images through multiple super-resolution algorithms | `apiKey` | Yes | Unknown |
 | [Vector Express v2.0](https://vector.express) | Free vector file converting API | No | Yes | No |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
@@ -742,6 +744,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | `apiKey` | Yes | Unknown |
 | [apilayer marketstack](https://marketstack.com/) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown |
 | [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | `OAuth` | Yes | Yes |
+| [Bank Data API](https://apilayer.com/marketplace/bank_data-api) | Instant IBAN and SWIFT number validation across the globe | `apiKey` | Yes | Unknown |
 | [Billplz](https://www.billplz.com/api) | Payment platform | `apiKey` | Yes | Unknown |
 | [Binlist](https://binlist.net/) | Public access to a database of IIN/BIN information | No | Yes | Unknown |
 | [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | `apiKey` | Yes | Unknown |
@@ -773,6 +776,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SmartAPI](https://smartapi.angelbroking.com/) | Gain access to set of <SmartAPI> and create end-to-end broking services | `apiKey` | Yes | Unknown |
 | [StockData](https://www.StockData.org) | Real-Time, Intraday & Historical Market Data, News and Sentiment API | `apiKey` | Yes | Yes |
 | [Styvio](https://www.Styvio.com) | Realtime and historical stock data and current stock sentiment | `apiKey` | Yes | Unknown |
+| [Tax Data API](https://apilayer.com/marketplace/tax_data-api) | Instant VAT number and tax validation across the globe | `apiKey` | Yes | Unkown |
 | [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth` | Yes | Yes |
 | [Twelve Data](https://twelvedata.com/) | Stock market data (real-time & historical) | `apiKey` | Yes | Unknown |
 | [WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/) | WallstreetBets Stock Comments Sentiment Analysis | No | Yes | Unknown |
@@ -964,6 +968,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IPGEO](https://api.techniknews.net/ipgeo/) | Unlimited free IP Address API with useful information | No | Yes | Unknown |
 | [ipgeolocation](https://ipgeolocation.io/) | IP Geolocation AP with free plan 30k requests per month | `apiKey` | Yes | Yes |
 | [IPInfoDB](https://www.ipinfodb.com/api) | Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address | `apiKey` | Yes | Unknown |
+| [ipstack](https://ipstack.com/) | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown |
 | [Kakao Maps](https://apis.map.kakao.com) | Kakao Maps provide multiple APIs for Korean maps | `apiKey` | Yes | Unknown |
 | [keycdn IP Location Finder](https://tools.keycdn.com/geo) | Get the IP geolocation data through the simple REST API. All the responses are JSON encoded | `apiKey` | Yes | Unknown |
 | [LocationIQ](https://locationiq.org/docs/) | Provides forward/reverse geocoding and batch geocoding | `apiKey` | Yes | Yes |
@@ -1357,6 +1362,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Gfycat](https://developers.gfycat.com/api/) | Jiffier GIFs | `OAuth` | Yes | Unknown |
 | [Giphy](https://developers.giphy.com/docs/) | Get all your gifs | `apiKey` | Yes | Unknown |
 | [Google Photos](https://developers.google.com/photos) | Integrate Google Photos with your apps or devices | `OAuth` | Yes | Unknown |
+| [Image Upload](https://apilayer.com/marketplace/image_upload-api) | Image Optimization | `apiKey` | Yes | Unknown |
 | [Imgur](https://apidocs.imgur.com/) | Images | `OAuth` | Yes | Unknown |
 | [Imsea](https://imsea.herokuapp.com/) | Free image search | No | Yes | Unknown |
 | [Lorem Picsum](https://picsum.photos/) | Images from Unsplash | No | Yes | Unknown |
