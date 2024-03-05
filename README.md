@@ -283,6 +283,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Bhagavad Gita](https://docs.bhagavadgitaapi.in) | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | `apiKey` | Yes | Yes |
 | [Bhagavad Gita](https://bhagavadgita.io/api) | Bhagavad Gita text | `OAuth` | Yes | Yes |
 | [Bhagavad Gita telugu](https://gita-api.vercel.app) | Bhagavad Gita API in telugu and odia languages | No | Yes | Yes |
+| [Big Book](https://bigbookapi.com) | Access millions of books | `apiKey` | Yes | Unknown |
 | [Bible-api](https://bible-api.com/) | Free Bible API with multiple languages | No | Yes | Yes |
 | [British National Bibliography](http://bnb.data.bl.uk/) | Books | No | No | Unknown |
 | [Crossref Metadata Search](https://github.com/CrossRef/rest-api-doc) | Books & Articles Metadata | No | Yes | Unknown |
@@ -498,6 +499,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Abstract Screenshot](https://www.abstractapi.com/website-screenshot-api) | Take programmatic screenshots of web pages from any website | `apiKey` | Yes | Yes |
 | [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
 | [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | Yes | Unknown |
+| [API League](https://apileague.com) | World Class APIs in a single Hub | `apiKey` | Yes | Unknown |
 | [ApicAgent](https://www.apicagent.com) | Extract device details from user-agent string | No | Yes | Yes |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
 | [apilayer userstack](https://userstack.com/) | Secure User-Agent String Lookup JSON API | `OAuth` | Yes | Unknown |
