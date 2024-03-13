@@ -114,8 +114,8 @@ Explore popular APIs and see them work in an API collaboration tool.
 * [Weather](#weather)
 
 ### Animals
-API | Description | Auth | HTTPS | CORS | Run in Postman |
-|---|---|---|---|---|---|
+API | Description | Auth | HTTPS | CORS 
+|---|---|---|---|---|
 | [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No | |
