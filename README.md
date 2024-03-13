@@ -1,30 +1,35 @@
-# Try Free Public APIs for free
+# Try Public APIs for free
 Explore popular APIs and see them work in an API collaboration tool.
 
+<strong>Learn more about Public APIs</strong>
+
+[APILayer](https://apilayer.com/) created this repository to support the community in easily finding and learning how to use APIs.
+
 ### Popular Free Public APIs
-| API | Description | Auth | HTTPS | CORS | Run in Postman |
-|---|---|---|---|---|---|
-| [Bitly](https://bitly.com/) | URL Shortener | `apiKey` | YES | | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/1034536-ec65aa12-bea7-413c-9f3f-5f96d63eb62e?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D1034536-ec65aa12-bea7-413c-9f3f-5f96d63eb62e%26entityType%3Dcollection%26workspaceId%3D67bb7371-b898-48d6-b4ba-19a622f3f5c2) |
-| [Discord](https://discord.com/developers/docs/intro) | Make bots for Discord, integrate Discord onto an external platform | `apiKey` | YES | | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/1034536-ec65aa12-bea7-413c-9f3f-5f96d63eb62e?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D1034536-ec65aa12-bea7-413c-9f3f-5f96d63eb62e%26entityType%3Dcollection%26workspaceId%3D67bb7371-b898-48d6-b4ba-19a622f3f5c2)</sup> |
-| [Microsoft Graph](https://graph.microsoft.com/) | Microsoft 365 API |`apiKey`| YES | | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/25426789-f6fb9900-7a91-4641-8de2-922086ff21fd?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-f6fb9900-7a91-4641-8de2-922086ff21fd%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6) |
-| [Plaid](https://www.plaid.com/docs) | Connect with user's bank accounts and access transaction data	 | `apiKey` | YES | | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/25426789-ae5e66eb-613e-4553-a99c-0f58d875ff88?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-ae5e66eb-613e-4553-a99c-0f58d875ff88%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6) |
-| [Miro]() | Visual Workspaces | `OAuth` | YES | | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/25426789-d12d9f89-7fb0-4636-a83d-07c247469f0b?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-d12d9f89-7fb0-4636-a83d-07c247469f0b%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6) |
-| [Notion](https://developers.notion.com) | Collaboration Workspaces | `apiKey`  | YES | | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/25426789-68f0e9e4-b7bc-4543-945a-b50ae385c540?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-68f0e9e4-b7bc-4543-945a-b50ae385c540%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6) |
+| API | Description | Auth | HTTPS | Run in Postman |
+|---|---|---|---|---|
+| [Pokéapi](https://pokeapi.co) | Pokémon Information | No | Yes |  |
+| [Sportmonks Football](https://docs.sportmonks.com/football/) | Football score/schedule, news API, tv channels, stats, history, display standing e.g. epl, la liga | `apiKey` | Yes | |
+| [HTTP Cat](https://http.cat/) | Cat for every HTTP Status | No | Yes | |
+| [Google Maps](https://developers.google.com/maps/) | Create/customize digital maps based on Google Maps data | `apiKey` | Yes | |
+| [Discord](https://discord.com/developers/docs/intro) | Make bots for Discord, integrate Discord onto an external platform | `apiKey` | YES | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/1034536-ec65aa12-bea7-413c-9f3f-5f96d63eb62e?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D1034536-ec65aa12-bea7-413c-9f3f-5f96d63eb62e%26entityType%3Dcollection%26workspaceId%3D67bb7371-b898-48d6-b4ba-19a622f3f5c2)</sup> |
+| [Notion](https://developers.notion.com) | Collaboration Workspaces | `apiKey`  | YES | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/25426789-68f0e9e4-b7bc-4543-945a-b50ae385c540?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-68f0e9e4-b7bc-4543-945a-b50ae385c540%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6) |
+| [Plaid](https://www.plaid.com/docs) | Connect with user's bank accounts and access transaction data	 | `apiKey` | YES | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/25426789-ae5e66eb-613e-4553-a99c-0f58d875ff88?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-ae5e66eb-613e-4553-a99c-0f58d875ff88%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6) |
+| [Bitly](https://bitly.com/) | URL Shortener | `apiKey` | YES | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/1034536-ec65aa12-bea7-413c-9f3f-5f96d63eb62e?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D1034536-ec65aa12-bea7-413c-9f3f-5f96d63eb62e%26entityType%3Dcollection%26workspaceId%3D67bb7371-b898-48d6-b4ba-19a622f3f5c2) |
+
+
 
 ## Popular API Categories
 
 * [Animals](#animals)
 * [Anime](#anime)
-* [Anti-Malware](#anti-malware)
 * [Art & Design](#art--design)
 * [Authentication & Authorization](#authentication--authorization)
 * [Blockchain](#blockchain)
-* [Books](#books)
+* [Business](#business)
+* [Currency Exchange](#currency-exchange)
+* [Social](#social)
 
-
-<strong>Learn more about Public APIs</strong>
-
-[APILayer]() created this repository to support the community in easily finding and learning how to use APIs.
 
 <strong>Get Involved</strong> 
 
@@ -38,12 +43,12 @@ Explore popular APIs and see them work in an API collaboration tool.
 
 <strong>More Resources</strong>
 
-[Contributing Guide](CONTRIBUTING.md) <br />
-[API for this project](https://github.com/davemachado/public-api) <br />
-[Issues](https://github.com/public-apis/public-apis/issues) <br />
-[Pull Requests](https://github.com/public-apis/public-apis/pulls) <br />
-[LICENSE](LICENSE)
-<br />
+[Free APIs](https://free-apis.github.io) <br />
+[Dev Resources](https://devresourc.es/tools-and-utilities/public-apis) <br />
+[Public APIs Site](https://www.public-apis.ml) <br />
+[Apihouse](https://apihouse.vercel.app) <br />
+[Collective APIs](https://collective-api.vercel.app)<br />
+
 </div>
 
 </details>
@@ -113,7 +118,7 @@ API | Description | Auth | HTTPS | CORS | Run in Postman |
 |---|---|---|---|---|---|
 | [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
-| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/1034536-ec65aa12-bea7-413c-9f3f-5f96d63eb62e?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D1034536-ec65aa12-bea7-413c-9f3f-5f96d63eb62e%26entityType%3Dcollection%26workspaceId%3D67bb7371-b898-48d6-b4ba-19a622f3f5c2) |
+| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No | |
 | [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
 | [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | No |
 | [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Yes |
