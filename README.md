@@ -1,5 +1,5 @@
 # Try Public APIs for free
-Explore popular APIs and see them work in an API collaboration tool.
+Explore popular APIs and see them work in Postman(https://www.postman.com).
 
 <strong>Learn more about Public APIs</strong>
 
