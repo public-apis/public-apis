@@ -1635,6 +1635,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UPS](https://www.ups.com/upsdeveloperkit) | Shipment and Address information | `apiKey` | Yes | Unknown |
 | [WeCanTrack](https://docs.wecantrack.com) | Automatically place subids in affiliate links to attribute affiliate conversions to click data | `apiKey` | Yes | Yes |
 | [WhatPulse](https://developer.whatpulse.org/#web-api) | Small application that measures your keyboard/mouse usage | No | Yes | Unknown |
+| [TrackingMore](https://www.trackingmore.com/docs/trackingmore/) | Multi-carrier tracking API to track and update all your shipments' statuses in real time | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 ### Transportation
