@@ -12,14 +12,14 @@ community build applications and use free, public APIs quickly and easily. Pull 
 
 Current API entry format:
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
-| API Title(Link to API documentation) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * |
+| API | Description | Auth | HTTPS | CORS | Call this API |
+| --- | --- | --- | --- | --- | --- |
+| API Title(Link to API documentation) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * | [Does this API have a public Postman Collection?](https://learning.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) | 
 
 Example entry:
 
 ```
-| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes |
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes | [Run in Postman Button]
 ```
 
 \* Currently, the only accepted inputs for the `Auth` field are as follows:
@@ -36,9 +36,13 @@ Example entry:
 * `No` - _the API does not support CORS_
 * `Unknown` - _it is unknown if the API supports CORS_
 
+\* For the Call this API column, add a link to a Postman collection. You may need to [create a collection](https://learning.postman.com/docs/getting-started/first-steps/creating-the-first-collection/) to create a Run in Postman Button. 
+
+
 _Without proper [CORS configuration](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) an API will only be usable server side._
 
 After you've created a branch on your fork with your changes, it's time to [make a pull request][pr-link]. 
+
 
 *Please follow the guidelines given below while making a Pull Request to the Public APIs*
 
