@@ -1555,6 +1555,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MLB Records and Stats](https://appac.github.io/mlb-data-api-docs/) | Current and historical MLB statistics | No | No | Unknown |
 | [NBA Data](https://rapidapi.com/api-sports/api/api-nba/) | All NBA Stats DATA, Games, Livescore, Standings, Statistics | `apiKey` | Yes | Unknown |
 | [NBA Stats](https://any-api.com/nba_com/nba_com/docs/API_Description) | Current and historical NBA Statistics | No | Yes | Unknown |
+| [NBA Stats API](https://documenter.getpostman.com/view/25652688/2sA35EZNNj) | REST API for NBA player shot chart, staistics, and data | No | Yes | Yes |
 | [NHL Records and Stats](https://gitlab.com/dword4/nhlapi) | NHL historical data and statistics | No | Yes | Unknown |
 | [Oddsmagnet](https://data.oddsmagnet.com) | Odds history from multiple UK bookmakers | No | Yes | Yes |
 | [OpenLigaDB](https://www.openligadb.de) | Crowd sourced sports league results | No | Yes | Yes |
