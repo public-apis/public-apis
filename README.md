@@ -1820,6 +1820,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Shrtlnk](https://shrtlnk.dev/developer) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
 | [TinyURL](https://tinyurl.com/app/dev) | Shorten long URLs | `apiKey` | Yes | No |
 | [UrlBae](https://urlbae.com/developers) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
+| [Y.GY](https://app.y.gy/docs/api-docs/api-quickstart) | URL Shortener & QR Code Creator: Use your domains. Stop Bots. Analyze Traffic. Do everything by API | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
