@@ -1867,6 +1867,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Stranger Things Quotes](https://github.com/shadowoff09/strangerthings-quotes) | Returns Stranger Things quotes | No | Yes | Unknown |
 | [Stream](https://api.stream.cz/graphiql) | Czech internet television, films, series and online videos for free | No | Yes | No |
 | [Stromberg Quotes](https://www.stromberg-api.de/) | Returns Stromberg quotes and more | No | Yes | Unknown |
+| [Supernatural API](https://lidiakovac.github.io/supernatural-api/) | Supernatural Quotes & Character Data | No | Yes | Yes |
 | [SWAPI](https://swapi.dev/) | All the Star Wars data you've ever wanted | No | Yes | Yes |
 | [SWAPI](https://www.swapi.tech) | All things Star Wars | No | Yes | Yes |
 | [SWAPI GraphQL](https://graphql.org/swapi-graphql) | Star Wars GraphQL API | No | Yes | Unknown |
