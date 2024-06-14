@@ -805,6 +805,7 @@ API | Description | Auth | HTTPS | CORS | Call this API |
 | [Portfolio Optimizer](https://portfoliooptimizer.io/) | Portfolio analysis and optimization | No | Yes | Yes | |
 | [Razorpay IFSC](https://razorpay.com/docs/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown | |
 | [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | Websocket API to access realtime stock data | `apiKey` | No | Unknown | |
+| [RentCast](https://developers.rentcast.io) | Retrieve real-time property and rental data for real estate in the United States | `apiKey` | Yes | Yes | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/34259606-4b4532c7-3e0f-4a51-a019-438a3d68b4c3?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D34259606-4b4532c7-3e0f-4a51-a019-438a3d68b4c3%26entityType%3Dcollection%26workspaceId%3D4e40489c-abf4-41f4-8693-6e1a6ee2e515#?env%5BDevelopment%5D=W3sia2V5IjoiYXBpX2tleSIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6InNlY3JldCIsInNlc3Npb25WYWx1ZSI6IiIsInNlc3Npb25JbmRleCI6MH1d) |
 | [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | API to access annual reports of public US companies | No | Yes | Yes | |
 | [SmartAPI](https://smartapi.angelbroking.com/) | Gain access to set of <SmartAPI> and create end-to-end broking services | `apiKey` | Yes | Unknown | |
 | [StockData](https://www.StockData.org) | Real-Time, Intraday & Historical Market Data, News and Sentiment API | `apiKey` | Yes | Yes | |
