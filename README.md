@@ -29,9 +29,9 @@ Explore popular APIs and see them work in Postman.
 |:---|:---|:---|:---|
 | [HTTP Cat](https://http.cat/) | Cat for every HTTP Status | No | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/25426789-12bc9867-e424-4de8-b4ee-662632714f6c?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-12bc9867-e424-4de8-b4ee-662632714f6c%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6) |
 | [Sportmonks Football](https://docs.sportmonks.com/football/) | Football score/schedule, news API, tv channels, stats, history, display standing e.g. epl, la liga | `apiKey` | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/25426789-b21c360e-6b87-431d-9b39-74e824f29e45?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-b21c360e-6b87-431d-9b39-74e824f29e45%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6)|
-| [Google Maps](https://developers.notion.com) | Create/customize digital maps based on Google Maps data | `apiKey`  | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/25426789-2c9bbe63-f45b-45d4-9327-ec3376542b64?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-2c9bbe63-f45b-45d4-9327-ec3376542b64%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6)|
+| [Google Maps](https://developers.notion.com) | Create/customize digital maps based on Google Maps data | `apiKey`  | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/35401298-47767ce7-8b54-4301-9e39-9a6a6d001ff1?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D35401298-47767ce7-8b54-4301-9e39-9a6a6d001ff1%26entityType%3Dcollection%26workspaceId%3Dgoogle-maps-platform)|
 | [Notion](https://developers.notion.com) | Integrate with Notion | `apiKey`  | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/25426789-68f0e9e4-b7bc-4543-945a-b50ae385c540?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-68f0e9e4-b7bc-4543-945a-b50ae385c540%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6)|
-| [Plaid](https://www.plaid.com/docs) | Connect with user's bank accounts and access transaction data	 | `apiKey` | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/25426789-ae5e66eb-613e-4553-a99c-0f58d875ff88?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25426789-ae5e66eb-613e-4553-a99c-0f58d875ff88%26entityType%3Dcollection%26workspaceId%3De4d9a7d3-b961-474e-a054-51861ed481f6)|
+| [Pokéapi](https://pokeapi.co) | Pokémon Information | No | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/12403653-bebf2ce6-331d-48fd-a5ed-577b96a11f1b?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D12403653-bebf2ce6-331d-48fd-a5ed-577b96a11f1b%26entityType%3Dcollection%26workspaceId%3Dpostman-team-collections) |
 
 <br >
 
@@ -137,8 +137,8 @@ Explore popular APIs and see them work in Postman.
 <br >
 
 ### Animals
-API | Description | Auth | HTTPS | CORS 
-|:---|:---|:---|:---|:---|
+API | Description | Auth | HTTPS | CORS | Call this API |
+|:---|:---|:---|:---|:---|:---|
 | [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No | |
@@ -149,7 +149,7 @@ API | Description | Auth | HTTPS | CORS
 | [Dogs](https://dog.ceo/dog-api/) | Based on the Stanford Dogs Dataset | No | Yes | Yes |
 | [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59) | Retrieve recent or notable birding observations within a region | `apiKey` | Yes | No |
 | [FishWatch](https://www.fishwatch.gov/developers) | Information and pictures about individual fish species | No | Yes | Yes |
-| [HTTP Cat](https://http.cat/) | Cat for every HTTP Status | No | Yes | Yes |
+| [HTTP Cat](https://http.cat/) | Cat for every HTTP Status | No | Yes | Yes | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/9065401-9ef7b1ba-7dde-4e59-b8ea-938efca495f5?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D9065401-9ef7b1ba-7dde-4e59-b8ea-938efca495f5%26entityType%3Dcollection%26workspaceId%3Dapis-in-the-wild) |
 | [HTTP Dog](https://http.dog/) | Dogs for every HTTP response status code | No | Yes | Yes |
 | [IUCN](http://apiv3.iucnredlist.org/api/v3/docs) | IUCN Red List of Threatened Species | `apiKey` | No | No |
 | [MeowFacts](https://github.com/wh-iterabb-it/meowfacts) | Get random cat facts | No | Yes | No |
@@ -659,8 +659,8 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Documents & Productivity
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+API | Description | Auth | HTTPS | CORS | Call this API |
+|:---|:---|:---|:---|:---|:---|
 | [Airtable](https://airtable.com/api) | Integrate with Airtable | `apiKey` | Yes | Unknown |
 | [Api2Convert](https://www.api2convert.com/) | Online File Conversion API | `apiKey` | Yes | Unknown |
 | [apilayer pdflayer](https://pdflayer.com) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
@@ -678,7 +678,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Mattermost](https://api.mattermost.com/) | An open source platform for developer collaboration | `OAuth` | Yes | Unknown |
 | [Mercury](https://mercury.postlight.com/web-parser/) | Web parser | `apiKey` | Yes | Unknown |
 | [Monday](https://api.developer.monday.com/docs) | Programmatically access and update data inside a monday.com account | `apiKey` | Yes | Unknown |
-| [Notion](https://developers.notion.com/docs/getting-started) | Integrate with Notion | `OAuth` | Yes | Unknown |
+| [Notion](https://developers.notion.com/docs/getting-started) | Integrate with Notion | `OAuth` | Yes | Unknown |[<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/15568543-d990f9b7-98d3-47d3-9131-4866ab9c6df2?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D15568543-d990f9b7-98d3-47d3-9131-4866ab9c6df2%26entityType%3Dcollection%26workspaceId%3Dnotion-s-api-workspace) |
 | [PandaDoc](https://developers.pandadoc.com) | DocGen and eSignatures API | `apiKey` | Yes | No |
 | [Pocket](https://getpocket.com/developer/) | Bookmarking service | `OAuth` | Yes | Unknown |
 | [Podio](https://developers.podio.com) | File sharing and productivity | `OAuth` | Yes | Unknown |
@@ -852,8 +852,8 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Games & Comics
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+API | Description | Auth | HTTPS | CORS | Call this API |
+|:---|:---|:---|:---|:---|:---|
 | [Age of Empires II](https://age-of-empires-2-api.herokuapp.com) | Get information about Age of Empires II resources | No | Yes | No |
 | [AmiiboAPI](https://amiiboapi.com/) | Nintendo Amiibo Information | No | Yes | Yes |
 | [Animal Crossing: New Horizons](http://acnhapi.com/) | API for critters, fossils, art, music, furniture and villagers | No | Yes | Unknown |
@@ -920,7 +920,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PandaScore](https://developers.pandascore.co/) | E-sports games and results | `apiKey` | Yes | Unknown |
 | [Path of Exile](https://www.pathofexile.com/developer/docs) | Path of Exile Game Information | `OAuth` | Yes | Unknown |
 | [PlayerDB](https://playerdb.co/) | Query Minecraft, Steam and XBox Accounts | No | Yes | Unknown |
-| [Pokéapi](https://pokeapi.co) | Pokémon Information | No | Yes | Unknown |
+| [Pokéapi](https://pokeapi.co) | Pokémon Information | No | Yes | Unknown | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/12403653-bebf2ce6-331d-48fd-a5ed-577b96a11f1b?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D12403653-bebf2ce6-331d-48fd-a5ed-577b96a11f1b%26entityType%3Dcollection%26workspaceId%3Dpostman-team-collections) |
 | [PokéAPI (GraphQL)](https://github.com/mazipan/graphql-pokeapi) | The Unofficial GraphQL for PokeAPI | No | Yes | Yes |
 | [Pokémon TCG](https://pokemontcg.io) | Pokémon TCG Information | No | Yes | Unknown |
 | [Psychonauts](https://psychonauts-api.netlify.app/) | Psychonauts World Characters Information and PSI Powers | No | Yes | Yes |
@@ -989,7 +989,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GeoNames](http://www.geonames.org/export/web-services.html) | Place names and other geographical data | No | No | Unknown |
 | [geoPlugin](https://www.geoplugin.com) | IP geolocation and currency conversion | No | Yes | Yes |
 | [Google Earth Engine](https://developers.google.com/earth-engine/) | A cloud-based platform for planetary-scale environmental data analysis | `apiKey` | Yes | Unknown |
-| [Google Maps](https://developers.google.com/maps/) | Create/customize digital maps based on Google Maps data | `apiKey` | Yes | Unknown |
+| [Google Maps](https://developers.google.com/maps/) | Create/customize digital maps based on Google Maps data | `apiKey` | Yes | Unknown | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/35401298-47767ce7-8b54-4301-9e39-9a6a6d001ff1?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D35401298-47767ce7-8b54-4301-9e39-9a6a6d001ff1%26entityType%3Dcollection%26workspaceId%3Dgoogle-maps-platform) |
 | [Graph Countries](https://github.com/lennertVanSever/graphcountries) | Country-related data like currencies, languages, flags, regions+subregions and bordering countries | No | Yes | Unknown |
 | [HelloSalut](https://fourtonfish.com/project/hellosalut-api/) | Get hello translation following user language | No | Yes | Unknown |
 | [HERE Maps](https://developer.here.com) | Create/customize digital maps based on HERE Maps data | `apiKey` | Yes | Unknown |
@@ -1614,8 +1614,8 @@ API | Description | Auth | HTTPS | CORS |  Call this API |
 <br >
 <br >
 ### Sports & Fitness
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+API | Description | Auth | HTTPS | CORS | Call this API |
+|:---|:---|:---|:---|:---|:---|
 | [API-FOOTBALL](https://www.api-football.com/documentation-v3) | Get information about Football Leagues & Cups | `apiKey` | Yes | Yes |
 | [ApiMedic](https://apimedic.com/) | ApiMedic offers a medical symptom checker API primarily for patients | `apiKey` | Yes | Unknown |
 | [balldontlie](https://www.balldontlie.io) | Balldontlie provides access to stats data from the NBA | No | Yes | Yes |
@@ -1642,7 +1642,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Sport Places](https://developers.decathlon.com/products/sport-places) | Crowd-source sports places around the world | No | Yes | No |
 | [Sport Vision](https://developers.decathlon.com/products/sport-vision) | Identify sport, brands and gear in an image. Also does image sports captioning | `apiKey` | Yes | Yes |
 | [Sportmonks Cricket](https://docs.sportmonks.com/cricket/) | Live cricket score, player statistics and fantasy API | `apiKey` | Yes | Unknown |
-| [Sportmonks Football](https://docs.sportmonks.com/football/) | Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga | `apiKey` | Yes | Unknown |
+| [Sportmonks Football](https://docs.sportmonks.com/football/) | Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga | `apiKey` | Yes | Unknown | [<sup>**Run in Postman**</sup>](https://god.gw.postman.com/run-collection/11949411-b410035a-d7f8-453b-9513-5044694d0fcb?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D11949411-b410035a-d7f8-453b-9513-5044694d0fcb%26entityType%3Dcollection%26workspaceId%3Dsportmonks-api-s)|
 | [Squiggle](https://api.squiggle.com.au) | Fixtures, results and predictions for Australian Football League matches | No | Yes | Yes |
 | [Strava](https://strava.github.io/api/) | Connect with athletes, activities and more | `OAuth` | Yes | Unknown |
 | [SuredBits](https://suredbits.com/api/) | Query sports data, including teams, players, games, scores and statistics | No | No | No |
