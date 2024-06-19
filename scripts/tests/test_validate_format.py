@@ -11,7 +11,7 @@ from validate.format import check_auth, auth_keys
 from validate.format import check_https, https_keys
 from validate.format import check_cors, cors_keys
 from validate.format import check_entry
-from validate.format import check_file_format, min_entries_per_category, num_segments
+from validate.format import check_file_format, min_entries_per_category, num_segments, min_segments, max_segments
 
 
 class TestValidadeFormat(unittest.TestCase):
@@ -315,13 +315,23 @@ class TestValidadeFormat(unittest.TestCase):
                 self.assertEqual(err_msg, expected_err_msg)
 
     def test_check_entry_with_correct_segments(self):
-        correct_segments = ['[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes']
 
-        err_msgs = check_entry(0, correct_segments)
-        
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 0)
-        self.assertEqual(err_msgs, [])
+        correct_segments_with_calls_column = ['[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes', 'https://sub.pstmn.io']
+        correct_segments_without_calls_column = ['[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes']
+
+        err_msgs_with_calls_column = check_entry(0, correct_segments_with_calls_column)
+        err_msgs_without_calls_column = check_entry(0, correct_segments_without_calls_column)
+
+        self.assertIsInstance(err_msgs_with_calls_column, list)
+        self.assertEqual(len(err_msgs_with_calls_column), 0)
+        self.assertEqual(err_msgs_with_calls_column, [])
+
+        self.assertIsInstance(err_msgs_without_calls_column, list)
+        self.assertEqual(len(err_msgs_without_calls_column), 0)
+        self.assertEqual(err_msgs_without_calls_column, [])
+
+
+
 
     def test_check_entry_with_incorrect_segments(self):
         incorrect_segments = ['[A API](https://www.ex.com)', 'desc.', 'yes', 'yes', 'yes']
@@ -437,8 +447,7 @@ class TestValidadeFormat(unittest.TestCase):
         current_segments_num = 3
 
         err_msgs = check_file_format(lines=incorrect_format)
-        expected_err_msg = f'(L008) entry does not have all the required columns (have {current_segments_num}, need {num_segments})'
-
+        expected_err_msg = f'(L008) entry does not have all the required columns (have {current_segments_num}, need {min_segments} to {max_segments})'
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 1)
         err_msg = err_msgs[0]
@@ -464,3 +473,66 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertEqual(len(err_msgs), 1)
         err_msg = err_msgs[0]
         self.assertEqual(err_msg, expected_err_msg)
+
+    def test_check_entry_with_calls_column(self):
+        correct_segments_with_calls_column = ['[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes', 'https://sub.pstmn.io']
+        err_msgs_with_calls_column = check_entry(0, correct_segments_with_calls_column)
+        self.assertIsInstance(err_msgs_with_calls_column, list)
+        self.assertEqual(len(err_msgs_with_calls_column), 0)
+
+    def test_check_entry_without_calls_column(self):
+        correct_segments_without_calls_column = ['[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes']
+        err_msgs_without_calls_column = check_entry(0, correct_segments_without_calls_column)
+        self.assertIsInstance(err_msgs_without_calls_column, list)
+        self.assertEqual(len(err_msgs_without_calls_column), 0)
+
+    def test_check_file_format_with_calls_column(self):
+        correct_format_with_calls_column = [
+            '## Index',
+            '* [A](#a)',
+            '* [B](#b)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS | Call this API |',
+            '|---|---|---|---|---|---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes | https://sub.pstmn.io |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes | https://sub.pstmn.io |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes | https://sub.pstmn.io |',
+            '',
+            '### B',
+            'API | Description | Auth | HTTPS | CORS | Call this API |',
+            '|---|---|---|---|---|---|',
+            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes | https://sub.pstmn.io |',
+            '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes | https://sub.pstmn.io |',
+            '| [BC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes | https://sub.pstmn.io |'
+        ]
+
+        err_msgs_with_calls_column = check_file_format(lines=correct_format_with_calls_column)
+        self.assertIsInstance(err_msgs_with_calls_column, list)
+        self.assertEqual(len(err_msgs_with_calls_column), 0)
+
+    def test_check_file_format_without_calls_column(self):
+        correct_format_without_calls_column = [
+            '## Index',
+            '* [A](#a)',
+            '* [B](#b)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '',
+            '### B',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [BC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
+        ]
+
+        err_msgs_without_calls_column = check_file_format(lines=correct_format_without_calls_column)
+        self.assertIsInstance(err_msgs_without_calls_column, list)
+        self.assertEqual(len(err_msgs_without_calls_column), 0)
+
