@@ -10,7 +10,7 @@ Explore popular APIs and see them work in Postman.
     </a>
   </p>
 
-[APILayer](https://apilayer.com/) is the fastest way to integrate APIs into any product. They created this repository to support the community in easily finding public APIs. Explore their collections on the [Postman API Network](https://www.postman.com/apilayer/workspace/apilayer/overview).
+[APILayer](https://apilayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo) is the fastest way to integrate APIs into any product. They created this repository to support the community in easily finding public APIs. Explore their collections on the [Postman API Network](https://www.postman.com/apilayer/workspace/apilayer/overview).
 
 ### APILayer APIs
 | API | Description | Call this API |
