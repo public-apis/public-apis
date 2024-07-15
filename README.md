@@ -376,6 +376,7 @@ API | Description | Auth | HTTPS | CORS | Postman
 | [Google Drive](https://developers.google.com/drive/) | File Sharing and Storage | `OAuth` | Yes | Unknown | |
 | [Gyazo](https://gyazo.com/api/docs) | Save & Share screen captures instantly | `apiKey` | Yes | Unknown | |
 | [Imgbb](https://api.imgbb.com/) | Simple and quick private image sharing | `apiKey` | Yes | Unknown | |
+| [MASV](https://api.massive.app/v1/) | Huge file uploading that's fast, secure, and reliable | apiKey | Yes | Yes | |
 | [OneDrive](https://developer.microsoft.com/onedrive) | File Sharing and Storage | `OAuth` | Yes | Unknown | |
 | [Pantry](https://getpantry.cloud/) | Free JSON storage for small projects | No | Yes | Yes | |
 | [Pastebin](https://pastebin.com/doc_api) | Plain Text Storage | `apiKey` | Yes | Unknown | |
