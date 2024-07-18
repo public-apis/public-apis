@@ -4,6 +4,7 @@ import re
 import sys
 from string import punctuation
 from typing import List, Tuple, Dict
+from urllib.parse import urlparse
 
 # Temporary replacement
 # The descriptions that contain () at the end must adapt to the new policy later
@@ -19,14 +20,17 @@ index_desc = 1
 index_auth = 2
 index_https = 3
 index_cors = 4
+index_call = 5
 
-num_segments = 5
+num_segments = 6
+min_segments = 5 
+max_segments = 6
 min_entries_per_category = 3
 max_description_length = 100
 
-anchor_re = re.compile(anchor + '\s(.+)')
-category_title_in_index_re = re.compile('\*\s\[(.*)\]')
-link_re = re.compile('\[(.+)\]\((http.*)\)')
+anchor_re = re.compile(anchor + r'\s(.+)')
+category_title_in_index_re = re.compile(r'\*\s\[(.*)\]')
+link_re = re.compile(r'\[(.+)\]\((http.*)\)')
 
 # Type aliases
 APIList = List[str]
@@ -163,6 +167,31 @@ def check_cors(line_num: int, cors: str) -> List[str]:
     
     return err_msgs
 
+def extract_url(markdown_link: str) -> str:
+    match = re.search(r'\((http[^)]+)\)', markdown_link)
+    return match.group(1) if match else ''
+
+def uri_validator(url):
+    try:
+        result = urlparse(url)
+        return all([result.scheme, result.netloc]) or ' '
+    except ValueError:
+        return False
+
+def check_calls(line_num: int, calls: str) -> List[str]:
+
+    err_msgs = []
+        
+    if not uri_validator(calls):
+        err_msg = error_message(line_num, 'Call This API column must contain a valid URL')
+        err_msgs.append(err_msg)
+    else:
+        actual_url = extract_url(calls)
+        parsed_url = urlparse(actual_url)
+        if not parsed_url.netloc.endswith('pstmn.io') and not parsed_url.netloc.endswith('postman.com'):
+            err_msg = error_message(line_num, 'Call This API column URL must be a run in Postman button')
+            err_msgs.append(err_msg)
+    return err_msgs
 
 def check_entry(line_num: int, segments: List[str]) -> List[str]:
 
@@ -183,8 +212,15 @@ def check_entry(line_num: int, segments: List[str]) -> List[str]:
         *desc_err_msgs,
         *auth_err_msgs,
         *https_err_msgs,
-        *cors_err_msgs
+        *cors_err_msgs,
     ]
+
+    if len(segments) == max_segments:
+        calls_column = segments[index_call].strip()
+        if calls_column:
+            optional_column_err_msgs = check_calls(line_num, calls_column)
+            err_msgs.extend(optional_column_err_msgs)
+
 
     return err_msgs
 
@@ -201,7 +237,18 @@ def check_file_format(lines: List[str]) -> List[str]:
     category = ''
     category_line = 0
 
+    # Flag to indicate whether we are in the main content section
+    in_main_content = False
+
     for line_num, line_content in enumerate(lines):
+        # Check if the line marks the start of the main content section
+        if "## Index" in line_content:
+            in_main_content = True
+            continue
+        
+        # Skip lines until we reach the main content section
+        if not in_main_content:
+            continue
 
         category_title_match = category_title_in_index_re.match(line_content)
         if category_title_match:
@@ -228,16 +275,16 @@ def check_file_format(lines: List[str]) -> List[str]:
             continue
 
         # skips lines that we do not care about
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if not line_content.startswith('|') or line_content.startswith('|:---'):
             continue
 
         num_in_category += 1
         segments = line_content.split('|')[1:-1]
-        if len(segments) < num_segments:
-            err_msg = error_message(line_num, f'entry does not have all the required columns (have {len(segments)}, need {num_segments})')
+        if len(segments) < 5 or len(segments) > 6:
+            err_msg = error_message(line_num, f'entry does not have all the required columns (have {len(segments)}, need {min_segments} to {max_segments})')
             err_msgs.append(err_msg)
             continue
-    
+
         for segment in segments:
             # every line segment should start and end with exactly 1 space
             if len(segment) - len(segment.lstrip()) != 1 or len(segment) - len(segment.rstrip()) != 1:
@@ -269,7 +316,7 @@ if __name__ == '__main__':
     num_args = len(sys.argv)
 
     if num_args < 2:
-        print('No .md file passed (file should contain Markdown table syntax)')
+        print('No .md file passed (file should contain Markdown table syntax)', flush=True)
         sys.exit(1)
 
     filename = sys.argv[1]
