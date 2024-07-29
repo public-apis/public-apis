@@ -134,7 +134,7 @@ Explore popular APIs and see them work in Postman.
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
-* [Web Scrappers/Crawlers](#scrappers)
+* [Web Scrappers/Crawlers](#web-scrapperscrawlers)
 <br >
 
 ### Animals
