@@ -821,13 +821,14 @@ API | Description | Auth | HTTPS | CORS | Call this API |
 <br >
 <br >
 ### Food & Drink
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+API | Description | Auth | HTTPS | CORS | Call this API |
+|:---|:---|:---|:---|:---|:---|
 | [BaconMockup](https://baconmockup.com/) | Resizable bacon placeholder images | No | Yes | Yes |
 | [Chomp](https://chompthis.com/api/) | Data about various grocery products and foods | `apiKey` | Yes | Unknown |
 | [Coffee](https://coffee.alexflipnote.dev/) | Random pictures of coffee | No | Yes | Unknown |
 | [Edamam nutrition](https://developer.edamam.com/edamam-docs-nutrition-api) | Nutrition Analysis | `apiKey` | Yes | Unknown |
 | [Edamam recipes](https://developer.edamam.com/edamam-docs-recipe-api) | Recipe Search | `apiKey` | Yes | Unknown |
+| [FatSecret](https://platform.fatsecret.com/platform-api/) | Food and Recipe Search	 | `apiKey` | Yes | Unknown | [<sup>**Run in Postman**</sup>](https://www.postman.com/fatsecret/workspace/fatsecret-public-apis/overview) |
 | [Foodish](https://github.com/surhud004/Foodish#readme) | Random pictures of food dishes | No | Yes | Yes |
 | [Fruityvice](https://www.fruityvice.com) | Data about all kinds of fruit | No | Yes | Unknown |
 | [Kroger](https://developer.kroger.com/reference) | Supermarket Data | `apiKey` | Yes | Unknown |
