@@ -466,7 +466,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Solana JSON RPC](https://docs.solana.com/developing/clients/jsonrpc-api) | Provides various endpoints to interact with the Solana Blockchain | No | Yes | Unknown |
 | [Technical Analysis](https://technical-analysis-api.com) | Cryptocurrency prices and technical analysis | `apiKey` | Yes | No |
 | [VALR](https://docs.valr.com/) | Cryptocurrency Exchange based in South Africa | `apiKey` | Yes | Unknown |
-| [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
+| [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown | [Zerion API](https://zerion.io/api) | Real-time Transactions data, NFT metadata, DeFi positions info, and web3 Portfolio data across 15+ blockchains | `apiKey` | Yes | Unknown |
 | [ZMOK](https://zmok.io) | Ethereum JSON RPC API and Web3 provider | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
