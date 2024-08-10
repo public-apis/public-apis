@@ -292,7 +292,7 @@ API | Description | Auth | HTTPS | CORS | Call this API |
 | [Tenders in Ukraine](https://tenders.guru/ua/api) | Get data for procurements in Ukraine in JSON format | No | Yes | Unknown | |
 | [Tomba email finder](https://tomba.io/api) | Email Finder for B2B sales and email marketing and email verifier | `apiKey` | Yes | Yes | |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown | |
-| [Clientsbee](https://clientsbee.com) | Free leads for bussiness and technographics data | Apikey | Yes | No | |
+| [Clientsbee](https://clientsbee.com) | Free leads for bussiness and technographics data | `apikey` | Yes | No | |
 
 **[⬆ Back to Index](#index)**
 <br >
