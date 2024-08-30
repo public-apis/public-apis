@@ -1564,6 +1564,7 @@ API | Description | Auth | HTTPS | CORS | Run in Postman |
 | [Tumblr](https://www.tumblr.com/docs/en/api/v2) | Read and write Tumblr Data | `OAuth` | Yes | Unknown |
 | [Twitch](https://dev.twitch.tv/docs) | Game Streaming API | `OAuth` | Yes | Unknown |
 | [Twitter](https://developer.twitter.com/en/docs) | Read and write Twitter data | `OAuth` | Yes | No |
+| [Whatsapp Profile Info](https://rapidapi.com/marcoscavaleiro/api/whatsapp-profile-info) | Provides profile information from WhatsApp number | `apiKey` | Yes | Yes |
 | [vk](https://vk.com/dev/sites) | Read and write vk data | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
