@@ -1,0 +1,29 @@
+name: "Tests of validate package"
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  unittest:
+    name: 'Run tests of validate package'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    
+    - name: Install dependencies
+      run: python -m pip install -r scripts/requirements.txt
+
+    - name: Run Unittest
+      run: |
+        cd scripts
+        python -m unittest discover tests/ --verbose
