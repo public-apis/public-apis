@@ -1827,6 +1827,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SWAPI](https://swapi.dev/) | All the Star Wars data you've ever wanted | No | Yes | Yes |
 | [SWAPI](https://www.swapi.tech) | All things Star Wars | No | Yes | Yes |
 | [SWAPI GraphQL](https://graphql.org/swapi-graphql) | Star Wars GraphQL API | No | Yes | Unknown |
+| [The Dobby Club](https://thedobby.club/docs/) | The ultimate API for the UK sitcom Peep Show | No | No | No | Yes |
 | [The Lord of the Rings](https://the-one-api.dev/) | The Lord of the Rings API | `apiKey` | Yes | Unknown |
 | [The Vampire Diaries](https://vampire-diaries-api.netlify.app/) | TV Show Data | `apiKey` | Yes | Yes |
 | [ThronesApi](https://thronesapi.com/) | Game Of Thrones Characters Data with imagery | No | Yes | Unknown |
