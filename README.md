@@ -277,6 +277,7 @@ API | Description | Auth | HTTPS | CORS | Call this API |
 | [Gmail](https://developers.google.com/gmail/api/) | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | Unknown | |
 | [Google Analytics](https://developers.google.com/analytics/) | Collect, configure and analyze your data to reach the right audience | `OAuth` | Yes | Unknown | |
 | [Instatus](https://instatus.com/help/api) | Post to and update maintenance and incidents on your status page through an HTTP REST API | `apiKey` | Yes | Unknown | |
+| [Klaviyo](https://developers.klaviyo.com/en/reference/api_overview) | Data-driven marketing automation through robust integrations | `apiKey` | Yes | Yes | [<sup>**Run in Postman**</sup>](https://www.postman.com/klaviyo/klaviyo-developers/overview) |
 | [Mailchimp](https://mailchimp.com/developer/) | Send marketing campaigns and transactional mails | `apiKey` | Yes | Unknown | |
 | [mailjet](https://www.mailjet.com/) | Marketing email can be sent and mail templates made in MJML or HTML can be sent using API | `apiKey` | Yes | Unknown | |
 | [markerapi](https://markerapi.com) | Trademark Search | No | No | Unknown | |
