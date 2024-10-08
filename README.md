@@ -348,6 +348,7 @@ API | Description | Auth | HTTPS | CORS | Postman
 ### Continuous Integration
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Appcircle](https://api.appcircle.io/openapi) | A Mobile CI/CD platform with testing and store deployment for fully automated, better mobile app releases. | `apiKey` | Yes | Unknown |
 | [Azure DevOps Health](https://docs.microsoft.com/en-us/rest/api/resourcehealth) | Resource health helps you diagnose and get support when an Azure issue impacts your resources | `apiKey` | No | No |
 | [Bitrise](https://api-docs.bitrise.io/) | Build tool and processes integrations to create efficient development pipelines | `apiKey` | Yes | Unknown |
 | [Buddy](https://buddy.works/docs/api/getting-started/overview) | The fastest continuous integration and continuous delivery platform | `OAuth` | Yes | Unknown |
