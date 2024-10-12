@@ -1059,6 +1059,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, India](https://data.gov.in/) | Indian Government Open Data | `apiKey` | Yes | Unknown |
 | [Open Government, Ireland](https://data.gov.ie/pages/developers) | Ireland Government Open Data | No | Yes | Unknown |
 | [Open Government, Italy](https://www.dati.gov.it/) | Italy Government Open Data | No | Yes | Unknown |
+| [Open Government, Kazakhstan](https://data.egov.kz/) | Kazakhstan Government Open Data | Yes | Yes | Unknown |
 | [Open Government, Korea](https://www.data.go.kr/) | Korea Government Open Data | `apiKey` | Yes | Unknown |
 | [Open Government, Lithuania](https://data.gov.lt/public/api/1) | Lithuania Government Open Data | No | Yes | Unknown |
 | [Open Government, Luxembourg](https://data.public.lu) | Luxembourgish Government Open Data | `apiKey` | Yes | Unknown |
