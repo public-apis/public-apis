@@ -123,6 +123,7 @@ API | Description | Auth | HTTPS | CORS
 | [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
 | [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
 | [Zoo Animals](https://zoo-animal-api.herokuapp.com/) | Facts and pictures of zoo animals | No | Yes | Yes |
+| [Cat Images](https://api.thecatapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDO) | The Cat API gives you access to 10000's of cat images | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
