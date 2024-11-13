@@ -1413,7 +1413,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Judge0 CE](https://ce.judge0.com/) | Online code execution system | `apiKey` | Yes | Unknown |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
 | [Mintlify](https://docs.mintlify.com) | For programmatically generating documentation for code | `apiKey` | Yes | Yes |
-| [Free Sitemaps API](https://free-sitemaps.com/) | Generates sitemaps for complex websites to assist developers in organizing and visualizing site structure, improving accessibility and navigation for large web projects | `apiKey` | Yes | Unknown |
+| [Free Sitemaps API](https://free-sitemaps.com/) | Creates sitemaps to help developers organize and improve site navigation for complex websites | `apiKey` | Yes | Unknown |
 
 
 
