@@ -297,8 +297,8 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Calendar
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+API | Description | Auth | HTTPS | CORS | Call this API |
+|:---|:---|:---|:---|:---|:----|
 | [Abstract Public Holidays](https://www.abstractapi.com/holidays-api) | Data on national, regional, and religious holidays via API | `apiKey` | Yes | Yes |
 | [Calendarific](https://calendarific.com/) | Worldwide Holidays | `apiKey` | Yes | Unknown |
 | [Checkiday - National Holiday API](https://apilayer.com/marketplace/checkiday-api) | Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies | `apiKey` | Yes | Unknown |
@@ -308,6 +308,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Google Calendar](https://developers.google.com/google-apps/calendar/) | Display, create and modify Google calendar events | `OAuth` | Yes | Unknown |
 | [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) | Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc | No | No | Unknown |
 | [Holidays](https://holidayapi.com/) | Historical data regarding holidays | `apiKey` | Yes | Unknown |
+| [Holidays.rest](https://www.holidays.rest) | A highly scalable, flexible, and easy-to-use public and bank holiday API | `apiKey` | Yes | Yes | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/39376222-291cfb2d-ccc2-4ead-962a-a675589337ca?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D39376222-291cfb2d-ccc2-4ead-962a-a675589337ca%26entityType%3Dcollection%26workspaceId%3D85c675e1-f6c3-46d5-899e-20b85e6a61eb)
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes | |
 | [LectServe](http://www.lectserve.com) | Protestant liturgical calendar | No | No | Unknown |
 | [Nager.Date](https://date.nager.at) | Public holidays for more than 90 countries | No | Yes | No |
 | [Namedays Calendar](https://nameday.abalin.net) | Provides namedays for multiple countries | No | Yes | Yes |
