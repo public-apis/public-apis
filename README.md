@@ -670,6 +670,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Sendgrid](https://docs.sendgrid.com/api-reference/) | A cloud-based SMTP provider that allows you to send emails without having to maintain email servers | `apiKey` | Yes | Unknown |
 | [Sendinblue](https://developers.sendinblue.com/docs) | A service that provides solutions relating to marketing and/or transactional email and/or SMS | `apiKey` | Yes | Unknown |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
+| [Place Card Maker](https://placecard.us/) | A fast, easy and free printable place card maker | `apiKey` | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 <br >
