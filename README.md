@@ -76,6 +76,7 @@ The Public APIs repository is manually curated by community members like you and
 * [Patent](#patent)
 * [Personality](#personality)
 * [Phone](#phone)
+* [Podcast](#podcast)
 * [Photography](#photography)
 * [Programming](#programming)
 * [Science & Math](#science--math)
@@ -1361,6 +1362,14 @@ API | Description | Auth | HTTPS | CORS |
 | [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | `apiKey` | Yes | Yes |
 | [Phone Specification](https://github.com/azharimm/phone-specs-api) | Rest Api for Phone specifications | No | Yes | Yes |
 | [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+### Podcast
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|  
+| [ZenMic](https://zemic.com/docs) | AI Podcast generator | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
