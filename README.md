@@ -507,7 +507,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Ghost](https://ghost.org/) | Get Published content into your Website, App or other embedded media | `apiKey` | Yes | Yes |
 | [GitHub](https://docs.github.com/en/free-pro-team@latest/rest) | Make use of GitHub repositories, code and user info programmatically | `OAuth` | Yes | Yes |
 | [Gitlab](https://docs.gitlab.com/ee/api/) | Automate GitLab interaction programmatically | `OAuth` | Yes | Unknown |
-| [Gitter](https://developer.gitter.im/docs/welcome) | Chat for Developers | `OAuth` | Yes | Unknown |
 | [Glitterly](https://developers.glitterly.app) | Image generation API | `apiKey` | Yes | Yes |
 | [Google Docs](https://developers.google.com/docs/api/reference/rest) | API to read, write, and format Google Docs documents | `OAuth` | Yes | Unknown |
 | [Google Firebase](https://firebase.google.com/docs) | Google's mobile application development platform that helps build, improve, and grow app | `apiKey` | Yes | Yes |
@@ -543,6 +542,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Logs.to](https://logs.to/) | Generate logs | `apiKey` | Yes | Unknown |
 | [Lua Decompiler](https://lua-decompiler.ferib.dev/) | Online Lua 5.1 Decompiler | No | Yes | Yes |
 | [MAC address vendor lookup](https://macaddress.io/api) | Retrieve vendor details and other information regarding a given MAC address or an OUI | `apiKey` | Yes | Yes |
+| [Matrix (Gitter)](https://spec.matrix.org/latest/client-server-api/) | Decentralized communication protocol with Gitter features integrated | `OAuth` | Yes | Unknown |
 | [Micro DB](https://m3o.com/db) | Simple database service | `apiKey` | Yes | Unknown |
 | [MicroENV](https://microenv.com/) | Fake Rest API for developers | No | Yes | Unknown |
 | [Mocky](https://designer.mocky.io/) | Mock user defined test JSON for REST API endpoints | No | Yes | Yes |
