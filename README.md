@@ -1349,6 +1349,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Udemy(instructor)](https://www.udemy.com/developers/instructor/) | API for instructors on Udemy | `apiKey` | Yes | Unknown |
 | [Vadivelu HTTP Codes](https://vadivelu.anoram.com/) | On demand HTTP Codes with images | No | Yes | No |
 | [Zen Quotes](https://zenquotes.io/) | Large collection of Zen quotes for inspiration | No | Yes | Yes |
+| [Quoterism]([https://github.com/fisenkodv/dictum](https://www.quoterism.com/developer)) | API to get access to the collection of the most inspiring expressions of mankind | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
