@@ -91,6 +91,7 @@ The Public APIs repository is manually curated by community members like you and
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
+- [Open-Meteo](https://open-meteo.com/) - Free weather APIs with no API key required. Free.
 <br >
 
 ### Animals
