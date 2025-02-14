@@ -40,6 +40,7 @@ The Public APIs repository is manually curated by community members like you and
 
 ## Index
 
+* [AI & Machine Learning](#ai--machine-learning)
 * [Animals](#animals)
 * [Anime](#anime)
 * [Anti-Malware](#anti-malware)
@@ -91,6 +92,19 @@ The Public APIs repository is manually curated by community members like you and
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
+<br >
+
+### AI & Machine Learning
+API | Description | Auth | HTTPS | CORS 
+|:---|:---|:---|:---|:---|
+| [Hugging Face Inference API](https://huggingface.co/docs/api-inference) | Provides access to various AI models for text generation, translation, and image processing. | `apiKey` | Yes | Unknown |
+| [DeepAI](https://deepai.org/) | Offers AI-powered image generation, text summarization, and sentiment analysis. | `apiKey` | Yes | Unknown |
+| [OpenAI](https://platform.openai.com/docs/) | Provides access to GPT models for text generation, image creation, and language translation. | `apiKey` | Yes | Yes |
+| [IBM Watson](https://cloud.ibm.com/apidocs) | AI services for natural language processing, speech-to-text, and visual recognition. | `apiKey` | Yes | Yes |
+| [Replicate](https://replicate.com/docs) | Run AI models in the cloud, including image generation, audio processing, and text-to-video models. | `apiKey` | Yes | Yes |
+
+**[⬆ Back to Index](#index)**
+<br >
 <br >
 
 ### Animals
@@ -696,6 +710,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [BreezoMeter Pollen](https://docs.breezometer.com/api-documentation/pollen-api/v2/) | Daily Forecast pollen conditions data for a specific location | `apiKey` | Yes | Unknown |
 | [Carbon Interface](https://docs.carboninterface.com/) | API to calculate carbon (C02) emissions estimates for common C02 emitting activities | `apiKey` | Yes | Yes |
+| [Carbon Interface](https://www.carboninterface.com/) | Provides carbon footprint calculations for flights, shipping, vehicles, and electricity usage. | `apiKey` | Yes | Unknown |
 | [Climatiq](https://docs.climatiq.io) | Calculate the environmental footprint created by a broad range of emission-generating activities | `apiKey` | Yes | Yes |
 | [Cloverly](https://www.cloverly.com/carbon-offset-documentation) | API calculates the impact of common carbon-intensive activities in real time | `apiKey` | Yes | Unknown |
 | [CO2 Offset](https://co2offset.io/api.html) | API calculates and validates the carbon footprint | No | Yes | Unknown |
@@ -990,6 +1005,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SLF](https://github.com/slftool/slftool.github.io/blob/master/API.md) | German city, country, river, database | No | Yes | Yes |
 | [SpotSense](https://spotsense.io/) | Add location based interactions to your mobile app | `apiKey` | Yes | Unknown |
 | [Telize](https://rapidapi.com/fcambus/api/telize/) | Telize offers location information from any IP address | `apiKey` | Yes | Yes |
+| [Time API](https://timeapi.io) | Provides time, date, and time zone conversion services. | No | Yes | Unknown |
 | [TomTom](https://developer.tomtom.com/) | Maps, Directions, Places and Traffic APIs | `apiKey` | Yes | Yes |
 | [Uebermaps](https://uebermaps.com/api/v2) | Discover and share maps with friends | `apiKey` | Yes | Unknown |
 | [US ZipCode](https://www.smarty.com/docs/cloud/us-zipcode-api) | Validate and append data for any US ZipCode | `apiKey` | Yes | Yes |
