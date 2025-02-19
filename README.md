@@ -262,6 +262,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Vedic Society](https://aninditabasu.github.io/indica/html/vs.html) | Descriptions of all nouns (names, places, animals, things) from vedic literature | No | Yes | Unknown |
 | [Wizard World](https://wizard-world-api.herokuapp.com/swagger/index.html) | Get information from the Harry Potter universe | No | Yes | Yes |
 | [Wolne Lektury](https://wolnelektury.pl/api/) | API for obtaining information about e-books available on the WolneLektury.pl website | No | Yes | Unknown |
+| [Amazon Scraping eBook](https://crawlbase.com/ebook-amazon-scraping) | Amazon Scraping eBook | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
