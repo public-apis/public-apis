@@ -19,7 +19,28 @@ Current API entry format:
 Example entry:
 
 ```
-| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes | [Run in Postman Button]
+Example entry:
+
+| API  | Description | Auth  | HTTPS | CORS | Call this API |
+|------|------------|-------|-------|------|--------------|
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes | [Run in Postman](#) |
+
+
+#### **Accepted Inputs for the `Auth` Field**:
+- `OAuth` - API supports OAuth authentication
+- `apiKey` - API requires a private key/token for authentication
+- `X-Mashape-Key` - API requires a specific header for authentication
+- `No` - API requires no authentication
+- `User-Agent` - API requires a `User-Agent` header in requests
+
+#### **Accepted Inputs for the `CORS` Field**:
+- `Yes` - API supports CORS
+- `No` - API does not support CORS
+- `Unknown` - CORS support is unknown
+
+➡ **Note**: Without proper [CORS configuration](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), an API will only be usable server-side.
+
+
 ```
 
 \* Currently, the only accepted inputs for the `Auth` field are as follows:
@@ -54,14 +75,20 @@ After you've created a branch on your fork with your changes, it's time to [make
 * The Description should not exceed 100 characters.
 * If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
 * Add one link per Pull Request.
-* Make sure the PR title is in the format of `Add Api-name API` *for e.g.*: `Add Blockchain API`
-* Use a short descriptive commit message. *for e.g.*: ❌`Update Readme.md`  ✔ `Add Blockchain API to Cryptocurrency`
+* Make sure the PR title is in the format of `Add <API-name> API`. For example:  
+  ✅ `Add Blockchain API`
+* Use a short, descriptive commit message. Acceptable formats include:  
+  ✅ `Add Blockchain API`  
+  ✅ `Add Blockchain API to Cryptocurrency`  
+  ❌ `Update Readme.md`
 * Search previous Pull Requests or Issues before making a new one, as yours may be a duplicate.
-* Don't mention the TLD(Top Level Domain) in the name of the API. *for e.g.*: ❌Gmail.com ✔Gmail
-* Please make sure the API name does not end with `API`. *for e.g.*: ❌Gmail API ✔Gmail 
+* Don't mention the TLD (Top Level Domain) in the name of the API. For example:  
+  ❌ `Gmail.com` → ✅ `Gmail`
+* Please make sure the API name does not end with `API`. For example:  
+  ❌ `Gmail API` → ✅ `Gmail`
 * Please make sure the API has proper documentation.
 * Please make sure you squash all commits together before opening a pull request. If your pull request requires changes upon review, please be sure to squash all additional commits as well. [This wiki page][squash-link] outlines the squash process.
-* Target your Pull Request to the `master` branch of the `public-apis`
+* Target your Pull Request to the `master` branch of `public-apis`.
 
 Once you’ve submitted a pull request, the collaborators can review your proposed changes and decide whether or not to incorporate (pull in) your changes.
 
