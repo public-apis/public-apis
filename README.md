@@ -1224,6 +1224,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
 | [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
 | [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
+| [ReccoBeats](https://reccobeats.com/docs/apis/reccobeats-api) | API for accessing Track, Artist, Album database, Music Recommendation and more | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
