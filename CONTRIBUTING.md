@@ -1,100 +1,100 @@
-# Contributing to public-apis
+# 🚀 Contributing to Public APIs
 
-> While the masses of pull requests and community involvement are appreciated, some pull requests have been specifically
-opened to market company APIs that offer paid solutions. This API list is not a marketing tool, but a tool to help the
-community build applications and use free, public APIs quickly and easily. Pull requests that are identified as marketing attempts will not be accepted.
->
-> Please make sure the API you want to add has full, free access or at least a free tier and does not depend on the purchase of a device/service before submitting.  An example that would be rejected is an API that is used to control a smart outlet - the API is free, but you must purchase the smart device.
->
-> Thanks for understanding! :)
+> 💡 **Note:** While community contributions are highly appreciated, some pull requests are created solely to market company APIs offering paid solutions. **This API list is NOT a marketing tool!** It exists to help developers find free, public APIs quickly and easily. Any PR identified as marketing will **not be accepted.**
 
-## Formatting
+✅ **Ensure the API you add has full free access or at least a free tier and does not require purchasing a device/service.** Example: An API controlling a smart outlet would be **rejected** because, while free, it requires a paid device.
 
-Current API entry format:
+🙏 Thanks for understanding! 😊
 
-| API | Description | Auth | HTTPS | CORS | Call this API |
+---
+
+## 📝 Formatting Guidelines
+
+🔹 **API Entry Format:**
+
+| 🌐 API | 📜 Description | 🔑 Auth | 🔒 HTTPS | 🔄 CORS | 🚀 Call this API |
 | --- | --- | --- | --- | --- | --- |
-| API Title(Link to API documentation) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * | [Does this API have a public Postman Collection?](https://learning.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) | 
+| [API Title](Link to API documentation) | Short API description | Authentication method* | Supports HTTPS? | Supports [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)?* | [Run in Postman Button] |
 
-Example entry:
-
+📌 **Example Entry:**
 ```
-| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes | [Run in Postman Button]
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes | [Run in Postman Button] |
 ```
 
-\* Currently, the only accepted inputs for the `Auth` field are as follows:
+📌 **Accepted Inputs for `Auth` Field:**
 
-* `OAuth` - _the API supports OAuth_
-* `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
-* `X-Mashape-Key` - _the name of the header which may need to be sent_
-* `No` - _the API requires no authentication to run_
-* `User-Agent` - _the name of the header to be sent with requests to the API_
+- 🔐 `OAuth` - Supports OAuth
+- 🔑 `apiKey` - Requires a private key/token
+- 🗝️ `X-Mashape-Key` - Header name that must be sent
+- ❌ `No` - No authentication required
+- 👤 `User-Agent` - Must send this header
 
-\* Currently, the only accepted inputs for the `CORS` field are as follows:
+📌 **Accepted Inputs for `CORS` Field:**
 
-* `Yes` - _the API supports CORS_
-* `No` - _the API does not support CORS_
-* `Unknown` - _it is unknown if the API supports CORS_
+- ✅ `Yes` - API supports CORS
+- ❌ `No` - API does not support CORS
+- 🤷 `Unknown` - Not sure if API supports CORS
 
-\* For the Call this API column, add a link to a Postman collection. You may need to [create a collection](https://learning.postman.com/docs/getting-started/first-steps/creating-the-first-collection/) to create a Run in Postman Button. 
+🔹 **For the "Call this API" column, provide a Postman collection link**. If needed, create one: [Guide](https://learning.postman.com/docs/getting-started/first-steps/creating-the-first-collection/).
 
+⚠️ **Without proper [CORS configuration](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), an API will only work server-side.**
 
-_Without proper [CORS configuration](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) an API will only be usable server side._
+---
 
-After you've created a branch on your fork with your changes, it's time to [make a pull request][pr-link]. 
+## 🔄 Submitting a Pull Request (PR)
 
+📢 **Follow these rules when making a PR:**
 
-*Please follow the guidelines given below while making a Pull Request to the Public APIs*
+✔ **Keep API listings alphabetically ordered within each category.**
+✔ **Use a concise description (max 100 characters).**
+✔ **If an API fits multiple categories, place it in the most relevant one.**
+✔ **Add only one API per PR.**
+✔ **Use the PR title format:** `Add [API Name] API` (e.g., `Add Blockchain API`).
+✔ **Write a clear commit message:**
+   - ❌ `Update Readme.md`
+   - ✔ `Add Blockchain API to Cryptocurrency`
+✔ **Check for duplicate PRs before submitting.**
+✔ **Omit the TLD (e.g., Gmail.com ❌ → Gmail ✔).**
+✔ **Avoid adding "API" at the end of the name (e.g., Gmail API ❌ → Gmail ✔).**
+✔ **Ensure proper documentation is available.**
+✔ **Squash all commits before submitting a PR.** [Guide](https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit).
+✔ **Target your PR to the `master` branch.**
 
-## Pull Request Guidelines
+🔄 **After submitting, collaborators will review and decide on your changes.**
 
-* Never put an update/new version of an API that is already listed, the old version of the API gets deprecated.
-* Continue to follow the alphabetical ordering that is in place per section.
-* Each table column should be padded with one space on either side.
-* The Description should not exceed 100 characters.
-* If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
-* Add one link per Pull Request.
-* Make sure the PR title is in the format of `Add Api-name API` *for e.g.*: `Add Blockchain API`
-* Use a short descriptive commit message. *for e.g.*: ❌`Update Readme.md`  ✔ `Add Blockchain API to Cryptocurrency`
-* Search previous Pull Requests or Issues before making a new one, as yours may be a duplicate.
-* Don't mention the TLD(Top Level Domain) in the name of the API. *for e.g.*: ❌Gmail.com ✔Gmail
-* Please make sure the API name does not end with `API`. *for e.g.*: ❌Gmail API ✔Gmail 
-* Please make sure the API has proper documentation.
-* Please make sure you squash all commits together before opening a pull request. If your pull request requires changes upon review, please be sure to squash all additional commits as well. [This wiki page][squash-link] outlines the squash process.
-* Target your Pull Request to the `master` branch of the `public-apis`
+---
 
-Once you’ve submitted a pull request, the collaborators can review your proposed changes and decide whether or not to incorporate (pull in) your changes.
+## 🛠️ Pro Tips for PRs
 
-### Pull Request Pro Tips
+🔹 **Best practices to ensure smooth contributions:**
 
-* [Fork][fork-link] the repository and [clone][clone-link] it locally.
-Connect your local repository to the original `upstream` repository by adding it as a [remote][remote-link].
-Pull in changes from `upstream` often so that you stay up to date and so when you submit your pull request,
-merge conflicts will be less likely. See more detailed instructions [here][syncing-link].
-* Create a [branch][branch-link] for your edits.
-* Contribute in the style of the project as outlined above. This makes it easier for the collaborators to merge
-and for others to understand and maintain in the future.
+1. 🍴 [Fork](http://guides.github.com/activities/forking/) the repository and [clone](https://help.github.com/articles/cloning-a-repository/) it locally.
+2. 🔄 Add the original repository as an [upstream remote](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
+3. 🆙 Regularly **pull updates** from upstream to avoid merge conflicts. [Guide](https://help.github.com/articles/syncing-a-fork)
+4. 🌿 Create a new [branch](http://guides.github.com/introduction/flow/) for your changes.
+5. 🏗️ Follow the project’s style and formatting for better readability.
 
-### Open Pull Requests
+---
 
-Once you’ve opened a pull request, a discussion will start around your proposed changes.
+## 🚀 After Opening a PR
 
-Other contributors and users may chime in, but ultimately the decision is made by the collaborators.
+🔹 **What happens next?**
 
-During the discussion, you may be asked to make some changes to your pull request.
+✔ 🎉 A discussion starts around your proposed changes.
+✔ 👥 Other contributors may provide feedback.
+✔ 🔄 If changes are needed, update your branch and **push again** (no need for a new PR).
+✔ ✅ Ensure **the build passes** (all links in the project are valid).
+✔ 🛠️ Check logs if the build fails and fix any issues.
 
-If so, add more commits to your branch and push them – they will automatically go into the existing pull request. But don't forget to squash them.
+🙌 **Thanks for being a part of this project! Looking forward to your contributions!** 🚀✨
 
-Opening a pull request will trigger a build to check the validity of all links in the project. After the build completes, **please ensure that the build has passed**. If the build did not pass, please view the build logs and correct any errors that were found in your contribution. 
+---
 
-*Thanks for being a part of this project, and we look forward to hearing from you soon!*
+🔗 **Useful Links:**
+- [Forking Guide](http://guides.github.com/activities/forking/)
+- [Cloning a Repository](https://help.github.com/articles/cloning-a-repository/)
+- [PR Guide](https://help.github.com/articles/creating-a-pull-request/)
+- [Squash Commits](https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit)
 
-[branch-link]: <http://guides.github.com/introduction/flow/>
-[clone-link]: <https://help.github.com/articles/cloning-a-repository/>
-[fork-link]: <http://guides.github.com/activities/forking/>
-[oauth-link]: <https://en.wikipedia.org/wiki/OAuth>
-[pr-link]: <https://help.github.com/articles/creating-a-pull-request/>
-[remote-link]: <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
-[syncing-link]: <https://help.github.com/articles/syncing-a-fork>
-[squash-link]: <https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit>
+🔥 Happy Coding! 🚀
 
