@@ -31,7 +31,7 @@ $ python -m pip install -r scripts/requirements.txt
 To run format validation on the `README.md` file, being in the root directory of public-apis, run:
 
 ```bash
-$ python scripts/validate/format.py README.md
+$ python scripts/validate/format.py README.md 
 ```
 
 To run link validation on the `README.md` file, being in the root directory of public-apis, run:
@@ -62,7 +62,7 @@ then run:
 $ python -m unittest discover tests/ --verbose
 ```
 
-To run only the format tests, run: 
+To run only the format tests, run:
 
 ```bash
 $ python -m unittest discover tests/ --verbose --pattern "test_validate_format.py"
