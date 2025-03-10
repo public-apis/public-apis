@@ -62,7 +62,7 @@ then run:
 $ python -m unittest discover tests/ --verbose
 ```
 
-To run only the format tests, run:
+To run only the format tests, run: 
 
 ```bash
 $ python -m unittest discover tests/ --verbose --pattern "test_validate_format.py"
