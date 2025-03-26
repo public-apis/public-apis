@@ -37,6 +37,7 @@ class TestValidateLinks(unittest.TestCase):
 
         self.cloudflare_headers = {'Server': 'cloudflare'}
         self.no_cloudflare_headers = {'Server': 'google'}
+        self.no_cloudflare_headers ={'server' : 'brave'}
 
         self.text_with_cloudflare_flags = '403 Forbidden Cloudflare We are checking your browser...'
         self.text_without_cloudflare_flags = 'Lorem Ipsum'
