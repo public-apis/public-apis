@@ -146,7 +146,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MyAnimeList](https://myanimelist.net/clubs.php?cid=13727) | Anime and Manga Database and Community | `OAuth` | Yes | Unknown |
 | [NekosBest](https://docs.nekos.best) | Neko Images & Anime roleplaying GIFs | No | Yes | Yes |
 | [Shikimori](https://shikimori.one/api/doc) | Anime discovery, tracking, forum, rates | `OAuth` | Yes | Unknown |
-| [Studio Ghibli](https://ghibliapi.herokuapp.com) | Resources from Studio Ghibli films | No | Yes | Yes |
+| [Studio Ghibli](https://ghibliapi.vercel.app/) | Resources from Studio Ghibli films | No | Yes | Yes |
 | [Trace Moe](https://soruly.github.io/trace.moe-api/#/) | A useful tool to get the exact scene of an anime from a screenshot | No | Yes | No |
 | [Waifu.im](https://waifu.im/docs) | Get waifu pictures from an archive of over 4000 images and multiple tags | No | Yes | Yes |
 | [Waifu.pics](https://waifu.pics/docs) | Image sharing platform for anime images | No | Yes | No |
@@ -199,7 +199,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Pixel Encounter](https://pixelencounter.com/api) | SVG Icon Generator | No | Yes | No |
 | [Rijksmuseum](https://data.rijksmuseum.nl/object-metadata/api/) | RijksMuseum Data | `apiKey` | Yes | Unknown |
 | [Word Cloud](https://wordcloudapi.com/) | Easily create word clouds | `apiKey` | Yes | Unknown |
-| [xColors](https://x-colors.herokuapp.com/) | Generate & convert colors | No | Yes | Yes |
+| [xColors](https://x-colors.yurace.pro/) | Generate & convert colors | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -361,12 +361,11 @@ API | Description | Auth | HTTPS | CORS |
 ### Cryptocurrency
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
-| [0x](https://0x.org/api) | API for querying token and pool stats across various liquidity pools | No | Yes | Yes |
+| [0x](https://0x.org/docs/api) | API for querying token and pool stats across various liquidity pools | No | Yes | Yes |
 | [1inch](https://1inch.io/api/) | API for querying decentralize exchange | No | Yes | Unknown |
 | [Alchemy Ethereum](https://docs.alchemy.com/alchemy/) | Ethereum Node-as-a-Service Provider | `apiKey` | Yes | Yes |
 | [apilayer coinlayer](https://coinlayer.com) | Real-time Crypto Currency Exchange Rates | `apiKey` | Yes | Unknown |
 | [Binance](https://github.com/binance/binance-spot-api-docs) | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown |
-| [Bitcambio](https://nova.bitcambio.com.br/api/v3/docs#a-public) | Get the list of all traded assets in the exchange | No | Yes | Unknown |
 | [BitcoinAverage](https://apiv2.bitcoinaverage.com/) | Digital Asset Price Data for the blockchain industry | `apiKey` | Yes | Unknown |
 | [BitcoinCharts](https://bitcoincharts.com/about/exchanges/) | Financial and Technical Data related to the Bitcoin Network | No | Yes | Unknown |
 | [Bitfinex](https://docs.bitfinex.com/docs) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
