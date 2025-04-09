@@ -11,9 +11,10 @@ env:
 jobs:
   validate_links:
     name: 'Check all links are working'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latestddfd
     steps:
       - name: Checkout repository
+      make changes
         uses: actions/checkout@v2
 
       - name: Set up Python
