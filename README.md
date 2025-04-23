@@ -1565,6 +1565,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Twitch](https://dev.twitch.tv/docs) | Game Streaming API | `OAuth` | Yes | Unknown |
 | [Twitter](https://developer.twitter.com/en/docs) | Read and write Twitter data | `OAuth` | Yes | No |
 | [vk](https://vk.com/dev/sites) | Read and write vk data | `OAuth` | Yes | Unknown |
+| [Twilio](https://www.twilio.com/) | Communication APIs for SMS, voice, video, and authentication that enable you to add messaging, voice, and video to your applications. | `apiKey` | Yes | No | 
 
 **[⬆ Back to Index](#index)**
 <br >
