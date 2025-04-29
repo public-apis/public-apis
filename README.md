@@ -1179,6 +1179,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NLP Cloud](https://nlpcloud.io) | NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more | `apiKey` | Yes | Unknown |
 | [OpenVisionAPI](https://openvisionapi.com) | Open source computer vision API based on open source models | No | Yes | Yes |
 | [Perspective](https://perspectiveapi.com) | NLP API to return probability that if text is toxic, obscene, insulting or threatening | `apiKey` | Yes | Unknown |
+| [Pollinations.AI](https://pollinations.ai) | Free, no-signup APIs for text, image, and audio generation | No | Yes | Yes |
 | [Roboflow Universe](https://universe.roboflow.com) | Pre-trained computer vision models | `apiKey` | Yes | Yes |
 | [SkyBiometry](https://skybiometry.com/documentation/) | Face Detection, Face Recognition and Face Grouping | `apiKey` | Yes | Unknown |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
