@@ -14,19 +14,20 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12.3'
+          python-version: '3.10'
 
-      - name: Create virtual environment
-        run: python -m venv .venv
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements-dev.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Install dependencies
         run: |
-          source .venv/bin/activate
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install -r requirements-dev.txt
 
       - name: Run tests
-        run: |
-          echo "Running pytest..."
-          pytest --maxfail=1 --disable-warnings -v
-
+        run: pytest -v
