@@ -1,13 +1,11 @@
-name: Run OpenAI Mock Tests
+# .github/workflows/tests.yml
+name: Run Tests
 
-on:
-  push:
-  pull_request:
+on: [push, pull_request]
 
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
@@ -16,16 +14,11 @@ jobs:
         with:
           python-version: '3.12.3'
 
-      - name: Create virtual environment
-        run: python -m venv .venv
-
       - name: Install dependencies
         run: |
-          source .venv/bin/activate
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install -r requirements-dev.txt
 
       - name: Run tests
-        run: |
-          echo "Running pytest..."
-          pytest -v
+        run: pytest -v -p no:warnings
+
