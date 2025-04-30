@@ -1,27 +1,32 @@
-name: Example Workflow
+name: Run OpenAI Mock Tests
 
-on: [push]
+on:
+  push:
+  pull_request:
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-    
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.12.3'
+      - uses: actions/checkout@v3
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements-dev.txt
-        pip install --upgrade setuptools wheel
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12.3'
 
-    - name: Run script
-      env:
-        OPENAI_API_KEY: ${{ secrets.OPENAIAPI }}
-      run: |
-        python Mocktest.py
+      - name: Create virtual environment
+        run: python -m venv .venv
+
+      - name: Install dependencies
+        run: |
+          source .venv/bin/activate
+          pip install --upgrade pip
+          pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: |
+          echo "Running pytest..."
+          pytest --maxfail=1 --disable-warnings -v
+
