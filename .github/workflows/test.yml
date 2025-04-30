@@ -28,4 +28,4 @@ jobs:
       - name: Run tests
         run: |
           echo "Running pytest..."
-          pytest -v --maxfail=1 --disable-warnings
+          pytest -v
