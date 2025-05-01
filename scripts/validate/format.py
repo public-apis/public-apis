@@ -58,9 +58,7 @@ def get_categories_content(contents: List[str]) -> Tuple[categories, category_li
         if title_match:
                 title = title_match.group(1).upper()
                 categories[category].append(title)
-    
-  
-    return (categories, category_line_num)
+   return (categories, category_line_num)
 
 
 def check_alphabetical_order(lines: List[str]) -> List[str]:
