@@ -38,11 +38,11 @@ def error_message(line_number: int, message: str) -> str:
     line = line_number + 1
     return f'(L{line:03d}) {message}'
 
+categories = {}
+category_line_num = {}
+def get_categories_content(contents: List[str]) -> Tuple[categories, category_line_num]:
 
-def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesLineNumber]:
-
-    categories = {}
-    category_line_num = {}
+    
 
     for line_num, line_content in enumerate(contents):
 
