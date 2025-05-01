@@ -43,6 +43,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
     categories = {}
     category_line_num = {}
+    category = None  # Initialize category to None
 
     for line_num, line_content in enumerate(contents):
 
@@ -61,8 +62,11 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
         title_match = link_re.match(raw_title)
         if title_match:
-                title = title_match.group(1).upper()
+            title = title_match.group(1).upper()
+            if category is not None:
                 categories[category].append(title)
+            else:
+                print(f"⚠️  Warning: title '{title}' found before any category at line {line_num}")
 
     return (categories, category_line_num)
 
