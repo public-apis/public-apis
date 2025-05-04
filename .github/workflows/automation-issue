@@ -1,0 +1,22 @@
+name: Issue Automation
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  respond-to-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add Comment to New Issue
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issueComment = context.payload.issue.body.includes('bug')
+              ? "Thank you for reporting a bug! We'll look into this soon."
+              : "Thank you for opening this issue! We'll get back to you shortly.";
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: context.payload.issue.number,
+              body: issueComment,
+            });
