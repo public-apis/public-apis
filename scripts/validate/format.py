@@ -41,7 +41,7 @@ def error_message(line_number: int, message: str) -> str:
 
 categories = {}
 category_line_num = {}
-def get_categories_content(contents: List[str]) -> Tuple[categories,category_line_num]:
+def get_categories_content(contents: List[str]) -> Tuple[List[str], int]:
     category = None  # Initialize category to None
 
     for line_num, line_content in enumerate(contents):
