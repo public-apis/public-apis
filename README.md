@@ -488,6 +488,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Bored](https://www.boredapi.com/) | Find random activities to fight boredom | No | Yes | Unknown |
 | [Brainshop.ai](https://brainshop.ai/) | Make A Free A.I Brain | `apiKey` | Yes | Yes |
 | [Browshot](https://browshot.com/api/documentation) | Easily make screenshots of web pages in any screen size, as any device | `apiKey` | Yes | Yes |
+| [Cache Horse](https://cache.horse) | Cache & batch HTTP requests to save money on quotas or just to simplify or speed up your app | `apiKey` | Yes | Yes |
 | [CDNJS](https://api.cdnjs.com/libraries/jquery) | Library info on CDNJS | No | Yes | Unknown |
 | [Changelogs.md](https://changelogs.md) | Structured changelog metadata from open source projects | No | Yes | Unknown |
 | [Ciprand](https://github.com/polarspetroll/ciprand) | Secure random string generator | No | Yes | No |
