@@ -684,7 +684,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Imgflip](https://imgflip.com/api) | Gets an array of popular memes | No | Yes | Unknown |
 | [Meme Maker](https://mememaker.github.io/API/) | REST API for create your own meme | No | Yes | Unknown |
 | [NaMoMemes](https://github.com/theIYD/NaMoMemes) | Memes on Narendra Modi | No | Yes | Unknown |
-| [Official Joke](https://github.com/15Dkatz/official_joke_api) | Get random programming jokes | No | Yes | Unknown | 
+| [Official Joke](https://github.com/15Dkatz/official_joke_api) | Random programming/geek jokes | No | Yes | Unknown | 
 | [Random Useless Facts](https://uselessfacts.jsph.pl/) | Get useless, but true facts | No | Yes | Unknown |
 | [Techy](https://techy-api.vercel.app/) | JSON and Plaintext API for tech-savvy sounding phrases | No | Yes | Unknown |
 | [Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2) | REST API for Yo Momma Jokes | No | Yes | Unknown |
