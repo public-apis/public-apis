@@ -1583,7 +1583,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Football (Soccer) Videos](https://www.scorebat.com/video-api/) | Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more | No | Yes | Yes |
 | [Football Standings](https://github.com/azharimm/football-standings-api) | Display football standings e.g epl, la liga, serie a etc. The data is based on espn site | No | Yes | Yes |
 | [Football-Data](https://www.football-data.org) | Football data with matches info, players, teams, and competitions | `X-Mashape-Key` | Yes | Unknown |
-| [Jolpica-f1]([http://ergast.com/mrd/](https://github.com/jolpica/jolpica-f1?tab=readme-ov-file)) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
+| [Jolpica-f1]([http://ergast.com/mrd/](https://github.com/jolpica/jolpica-f1?tab=readme-ov-file) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
 | [JCDecaux Bike](https://developer.jcdecaux.com/) | JCDecaux's self-service bicycles | `apiKey` | Yes | Unknown |
 | [MLB Records and Stats](https://appac.github.io/mlb-data-api-docs/) | Current and historical MLB statistics | No | No | Unknown |
 | [NBA Data](https://rapidapi.com/api-sports/api/api-nba/) | All NBA Stats DATA, Games, Livescore, Standings, Statistics | `apiKey` | Yes | Unknown |
