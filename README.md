@@ -43,7 +43,6 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 ## Index
 
-* [Animals](#animals)
 * [Anime](#anime)
 * [Anti-Malware](#anti-malware)
 * [Art & Design](#art--design)
