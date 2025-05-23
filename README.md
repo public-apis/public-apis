@@ -203,7 +203,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Rijksmuseum](https://data.rijksmuseum.nl/object-metadata/api/) | RijksMuseum Data | `apiKey` | Yes | Unknown |
 | [Word Cloud](https://wordcloudapi.com/) | Easily create word clouds | `apiKey` | Yes | Unknown |
 | [xColors](https://x-colors.herokuapp.com/) | Generate & convert colors | No | Yes | Yes |
-
+2.1
 **[⬆ Back to Index](#index)**
 <br >
 <br >
