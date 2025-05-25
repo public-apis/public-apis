@@ -1234,6 +1234,7 @@ API | Description | Auth | HTTPS | CORS |
 ### News
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [60s](https://github.com/vikiboss/60s) | A 60-Second Daily Briefing on the World Chinese Edition | No | Yes | Unknown |
 | [apilayer mediastack](https://mediastack.com/) | Free, Simple REST API for Live News & Blog Articles | `apiKey` | Yes | Unknown |
 | [Associated Press](https://developer.ap.org/) | Search for news and metadata from Associated Press | `apiKey` | Yes | Unknown |
 | [Chronicling America](http://chroniclingamerica.loc.gov/about/api/) | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | Unknown |
