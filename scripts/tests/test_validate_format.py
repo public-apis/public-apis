@@ -21,6 +21,8 @@ class TestValidadeFormat(unittest.TestCase):
         line_num_ten = 10
         line_num_hundred = 100
         line_num_thousand = 1000
+        line_num_tenthousand = 10000
+        # Test with different line numbers
 
         msg = 'This is a unit test'
 
@@ -28,16 +30,19 @@ class TestValidadeFormat(unittest.TestCase):
         err_msg_ten = error_message(line_num_ten, msg)
         err_msg_hundred = error_message(line_num_hundred, msg)
         err_msg_thousand = error_message(line_num_thousand, msg)
+        err_msg_tenthousand = error_message(line_num_tenthousand, msg)
 
         self.assertIsInstance(err_msg_unity, str)
         self.assertIsInstance(err_msg_ten, str)
         self.assertIsInstance(err_msg_hundred, str)
         self.assertIsInstance(err_msg_thousand, str)
+        self.assertIsInstance(err_msg_tenthousand, str)
 
         self.assertEqual(err_msg_unity, '(L002) This is a unit test')
         self.assertEqual(err_msg_ten, '(L011) This is a unit test')
         self.assertEqual(err_msg_hundred, '(L101) This is a unit test')
         self.assertEqual(err_msg_thousand, '(L1001) This is a unit test')
+        self.assertEqual(err_msg_tenthousand, '(L10001) This is a unit test')
 
     def test_if_get_categories_content_return_correct_data_of_categories(self):
         fake_contents = [
