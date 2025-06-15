@@ -1408,11 +1408,11 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Codeforces](https://codeforces.com/apiHelp) | Get access to Codeforces data | `apiKey` | Yes | Unknown |
+| [Fern](https://buildwithfern.com/learn) | Start with an API spec. Generate SDKs in multiple languages and interactive API documentation tailored to your brand. | `apiKey` | Yes | Yes
 | [Hackerearth](https://www.hackerearth.com/docs/wiki/developers/v4/) | For compiling and running code in several languages | `apiKey` | Yes | Unknown |
 | [Judge0 CE](https://ce.judge0.com/) | Online code execution system | `apiKey` | Yes | Unknown |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
 | [Mintlify](https://docs.mintlify.com) | For programmatically generating documentation for code | `apiKey` | Yes | Yes |
-| [Fern](https://buildwithfern.com/learn) | Start with an API spec. Generate SDKs in multiple languages and interactive API documentation tailored to your brand. | `apiKey` | Yes | Yes
 
 **[⬆ Back to Index](#index)**
 <br >
