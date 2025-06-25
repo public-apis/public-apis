@@ -184,7 +184,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Artificial Intelligence
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
-| [Openrouter](https://openrouter.ai/docs) | Unified API for multiple AI models | `apiKey` | Yes | Unknown |
+| [OpenRouter](https://openrouter.ai/docs) | Unified API for multiple AI models | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
