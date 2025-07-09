@@ -471,6 +471,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Development
+| [WordDrip API](https://github.com/sumaiyahibrahim/worddrip) | Get a daily English word with definition, example, and synonyms | No | Yes | Yes |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
