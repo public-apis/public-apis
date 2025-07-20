@@ -61,6 +61,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Dictionaries](#dictionaries)
 * [Documents & Productivity](#documents--productivity)
 * [Email](#email)
+* [Education](#education)
 * [Entertainment](#entertainment)
 * [Environment](#environment)
 * [Events](#events)
