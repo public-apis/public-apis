@@ -673,7 +673,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Sendgrid](https://docs.sendgrid.com/api-reference/) | A cloud-based SMTP provider that allows you to send emails without having to maintain email servers | `apiKey` | Yes | Unknown |
 | [Sendinblue](https://developers.sendinblue.com/docs) | A service that provides solutions relating to marketing and/or transactional email and/or SMS | `apiKey` | Yes | Unknown |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
-| [Brevo](https://developers.brevo.com/docs/getting-started) | A cloud-based SMTP provider that allows you to send emails without having to maintain email servers, 300 free emails per day | `apiKey` | Yes | Unknown |
+| [Brevo](https://developers.brevo.com/docs/getting-started) | A service that allows you to send 300 free emails per day without having to maintain email servers | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
