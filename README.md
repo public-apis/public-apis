@@ -1424,9 +1424,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CORE](https://core.ac.uk/services#api) | Access the world's Open Access research papers | `apiKey` | Yes | Unknown |
 | [GBIF](https://www.gbif.org/developer/summary) | Global Biodiversity Information Facility | No | Yes | Yes |
 | [iDigBio](https://github.com/idigbio/idigbio-search-api/wiki) | Access millions of museum specimens from organizations around the world | No | Yes | Unknown |
-
-| [GreenAura](https://greenaura-plant-api.onrender.com/plants) | Free plant data including soil, water, temperature, and care guide | No | Yes | Yes |
-
+| [GreenAura](https://github.com/maha-moni123/greenaura-plant-api) | Free read-only plant data (soil, water, temperature, care guide) | No | Yes | Yes |
 | [inspirehep.net](https://github.com/inspirehep/rest-api-doc) | High Energy Physics info. system | No | Yes | Unknown |
 | [isEven (humor)](https://isevenapi.xyz/) | Check if a number is even | No | Yes | Unknown |
 | [ISRO](https://isro.vercel.app) | ISRO Space Crafts Information | No | Yes | No |
