@@ -1295,7 +1295,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Wikidata](https://www.wikidata.org/w/api.php?action=help) | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | Unknown |
 | [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page) | Mediawiki Encyclopedia | No | Yes | Unknown |
 | [Yelp](https://www.yelp.com/developers/documentation/v3) | Find Local Business | `OAuth` | Yes | Unknown |
-
+| [Mental Health Care](https://github.com/Adw-eeyaa/Flask-API-For-Mental-Health-Care-Content) | A custom API with Flask with a scalable Node backend to serve dynamic mental health care based content.  | Yes | No | Yes |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
