@@ -1927,6 +1927,8 @@ This project also includes a simple web dashboard to manually trigger the sync w
 
 You can access the dashboard at: `http://127.0.0.1:5000/dashboard`
 
+The server will also automatically sync with the parent repository every 24 hours to keep the API data up-to-date.
+
 <br>
 
 ## License

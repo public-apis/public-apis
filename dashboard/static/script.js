@@ -2,6 +2,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const syncButton = document.getElementById('sync-button');
     const syncStatus = document.getElementById('sync-status');
     const syncTime = document.getElementById('sync-time');
+    const nextSyncTime = document.getElementById('next-sync-time');
+
+    function fetchNextSyncTime() {
+        fetch('/next-sync-time')
+            .then(response => response.json())
+            .then(data => {
+                if (data.next_run_time) {
+                    nextSyncTime.textContent = new Date(data.next_run_time).toLocaleString();
+                } else {
+                    nextSyncTime.textContent = 'N/A';
+                }
+            })
+            .catch(error => {
+                nextSyncTime.textContent = 'Error loading next sync time.';
+                console.error('Error fetching next sync time:', error);
+            });
+    }
 
     syncButton.addEventListener('click', () => {
         syncStatus.textContent = 'Syncing...';
@@ -23,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 syncStatus.textContent = `Error: ${data.message}`;
             }
             syncTime.textContent = new Date().toLocaleString();
+            fetchNextSyncTime(); // Refresh next sync time after a manual sync
         })
         .catch(error => {
             syncStatus.textContent = `Error: ${error.toString()}`;
@@ -32,4 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             syncButton.disabled = false;
         });
     });
+
+    // Fetch the next sync time when the page loads
+    fetchNextSyncTime();
 });

@@ -1,19 +1,55 @@
 import json
 import random
 import subprocess
+import os
 from flask import Flask, jsonify, request, render_template
+from apscheduler.schedulers.background import BackgroundScheduler
+import atexit
 
 # Create the Flask application
 app = Flask(__name__, template_folder='../dashboard/templates', static_folder='../dashboard/static')
 
+# Get the absolute path of the script's directory
+script_dir = os.path.dirname(os.path.abspath(__file__))
+apis_json_path = os.path.join(script_dir, "apis.json")
+parse_script_path = os.path.join(script_dir, "parse_readme.py")
+
 # Load the API data from the JSON file
 try:
-    with open("scripts/apis.json", "r", encoding="utf-8") as f:
+    with open(apis_json_path, "r", encoding="utf-8") as f:
         api_data = json.load(f)
         all_entries = api_data.get("entries", [])
 except FileNotFoundError:
-    print("Error: scripts/apis.json not found. Please run scripts/parse_readme.py first.")
+    print(f"Error: {apis_json_path} not found. Please run scripts/parse_readme.py first.")
     all_entries = []
+
+def do_sync():
+    """
+    This function contains the logic to sync the repository.
+    """
+    print("Performing sync...")
+    try:
+        # Check if upstream remote exists
+        remotes = subprocess.check_output(['git', 'remote']).decode('utf-8')
+        if 'upstream' not in remotes.split('\n'):
+            subprocess.run(['git', 'remote', 'add', 'upstream', 'https://github.com/public-apis/public-apis.git'], check=True)
+
+        # Fetch and merge from upstream
+        subprocess.run(['git', 'fetch', 'upstream'], check=True)
+        subprocess.run(['git', 'merge', 'upstream/master'], check=True)
+
+        # Rerun the parsing script
+        subprocess.run(['python3', parse_script_path], check=True)
+        print("Sync completed successfully.")
+        return True, "Sync completed successfully."
+    except subprocess.CalledProcessError as e:
+        error_message = f"An error occurred during sync: {e.stderr.decode('utf-8') if e.stderr else str(e)}"
+        print(error_message)
+        return False, error_message
+    except Exception as e:
+        error_message = f"An unexpected error occurred during sync: {str(e)}"
+        print(error_message)
+        return False, error_message
 
 @app.route('/', methods=['GET'])
 @app.route('/dashboard', methods=['GET'])
@@ -28,24 +64,18 @@ def sync_repository():
     """
     Syncs the repository with the parent and updates the API data.
     """
-    try:
-        # Check if upstream remote exists
-        remotes = subprocess.check_output(['git', 'remote']).decode('utf-8')
-        if 'upstream' not in remotes.split('\n'):
-            subprocess.run(['git', 'remote', 'add', 'upstream', 'https://github.com/public-apis/public-apis.git'], check=True)
+    success, message = do_sync()
+    return jsonify({"success": success, "message": message})
 
-        # Fetch and merge from upstream
-        subprocess.run(['git', 'fetch', 'upstream'], check=True)
-        subprocess.run(['git', 'merge', 'upstream/master'], check=True)
-
-        # Rerun the parsing script
-        subprocess.run(['python3', 'scripts/parse_readme.py'], check=True)
-
-        return jsonify({"success": True, "message": "Sync completed successfully."})
-    except subprocess.CalledProcessError as e:
-        return jsonify({"success": False, "message": f"An error occurred during sync: {e.stderr.decode('utf-8') if e.stderr else str(e)}"}), 500
-    except Exception as e:
-        return jsonify({"success": False, "message": str(e)}), 500
+@app.route('/next-sync-time', methods=['GET'])
+def get_next_sync_time():
+    """
+    Returns the time of the next scheduled sync.
+    """
+    if scheduler.get_jobs():
+        next_run = scheduler.get_jobs()[0].next_run_time
+        return jsonify({'next_run_time': next_run.isoformat()})
+    return jsonify({'next_run_time': None})
 
 @app.route('/health', methods=['GET'])
 def health_check():
@@ -99,4 +129,16 @@ def get_random_entry():
 if __name__ == '__main__':
     # This is for development purposes only.
     # For a production environment, use a proper WSGI server like Gunicorn.
-    app.run(host='0.0.0.0', port=5000, debug=True)
+
+    # Set up the scheduler
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(func=do_sync, trigger="interval", hours=24)
+    scheduler.start()
+    print("Scheduler started...")
+
+    # Shut down the scheduler when exiting the app
+    atexit.register(lambda: scheduler.shutdown())
+
+    # To keep the main thread alive, the Flask app needs to be run.
+    # The scheduler will run in the background.
+    app.run(host='0.0.0.0', port=5000, debug=True, use_reloader=False)
