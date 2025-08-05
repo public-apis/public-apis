@@ -1,9 +1,10 @@
 import json
 import random
-from flask import Flask, jsonify, request
+import subprocess
+from flask import Flask, jsonify, request, render_template
 
 # Create the Flask application
-app = Flask(__name__)
+app = Flask(__name__, template_folder='../dashboard/templates', static_folder='../dashboard/static')
 
 # Load the API data from the JSON file
 try:
@@ -13,6 +14,38 @@ try:
 except FileNotFoundError:
     print("Error: scripts/apis.json not found. Please run scripts/parse_readme.py first.")
     all_entries = []
+
+@app.route('/', methods=['GET'])
+@app.route('/dashboard', methods=['GET'])
+def dashboard():
+    """
+    Serves the dashboard page.
+    """
+    return render_template('index.html')
+
+@app.route('/sync', methods=['POST'])
+def sync_repository():
+    """
+    Syncs the repository with the parent and updates the API data.
+    """
+    try:
+        # Check if upstream remote exists
+        remotes = subprocess.check_output(['git', 'remote']).decode('utf-8')
+        if 'upstream' not in remotes.split('\n'):
+            subprocess.run(['git', 'remote', 'add', 'upstream', 'https://github.com/public-apis/public-apis.git'], check=True)
+
+        # Fetch and merge from upstream
+        subprocess.run(['git', 'fetch', 'upstream'], check=True)
+        subprocess.run(['git', 'merge', 'upstream/master'], check=True)
+
+        # Rerun the parsing script
+        subprocess.run(['python3', 'scripts/parse_readme.py'], check=True)
+
+        return jsonify({"success": True, "message": "Sync completed successfully."})
+    except subprocess.CalledProcessError as e:
+        return jsonify({"success": False, "message": f"An error occurred during sync: {e.stderr.decode('utf-8') if e.stderr else str(e)}"}), 500
+    except Exception as e:
+        return jsonify({"success": False, "message": str(e)}), 500
 
 @app.route('/health', methods=['GET'])
 def health_check():

@@ -1921,6 +1921,12 @@ The server will be available at `http://127.0.0.1:5000`.
 *   **`GET /categories`**: Returns a list of all available categories.
 *   **`GET /random`**: Returns a single random API entry.
 
+### Dashboard
+
+This project also includes a simple web dashboard to manually trigger the sync with the parent repository.
+
+You can access the dashboard at: `http://127.0.0.1:5000/dashboard`
+
 <br>
 
 ## License
