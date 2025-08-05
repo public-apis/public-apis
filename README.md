@@ -1887,5 +1887,41 @@ API | Description | Auth | HTTPS | CORS |
 
 <br>
 
+## Local API Server
+
+This project includes a local API server to serve the list of public APIs in a structured JSON format.
+
+### Setup
+
+1.  **Install dependencies:**
+    ```bash
+    pip install -r scripts/requirements.txt
+    ```
+
+2.  **Generate API data:**
+    The server uses a JSON file generated from this `README.md`. To create or update it, run the parsing script:
+    ```bash
+    python3 scripts/parse_readme.py
+    ```
+    This will create a file named `apis.json` in the `scripts/` directory.
+
+### Running the Server
+
+To start the server, run the following command:
+```bash
+python3 scripts/api_server.py
+```
+The server will be available at `http://127.0.0.1:5000`.
+
+### Endpoints
+
+*   **`GET /health`**: Health check for the server.
+*   **`GET /entries`**: Returns all API entries.
+    *   Query parameter: `category` (e.g., `/entries?category=Animals`)
+*   **`GET /categories`**: Returns a list of all available categories.
+*   **`GET /random`**: Returns a single random API entry.
+
+<br>
+
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
