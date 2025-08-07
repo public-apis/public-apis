@@ -1187,6 +1187,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
+## Machine Learning
+| [Deepgram](https://deepgram.com/) | Real-time and batch speech-to-text transcription API | `apiKey` | Yes | Yes | [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/deepgramdev/workspace/deepgram-api-public/overview) |
+
+
 
 **[⬆ Back to Index](#index)**
 <br >
