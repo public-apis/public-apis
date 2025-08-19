@@ -81,6 +81,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Phone](#phone)
 * [Photography](#photography)
 * [Programming](#programming)
+* [Religion](#religion)
 * [Science & Math](#science--math)
 * [Security](#security)
 * [Shopping](#shopping)
@@ -1412,6 +1413,14 @@ API | Description | Auth | HTTPS | CORS |
 | [Judge0 CE](https://ce.judge0.com/) | Online code execution system | `apiKey` | Yes | Unknown |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
 | [Mintlify](https://docs.mintlify.com) | For programmatically generating documentation for code | `apiKey` | Yes | Yes |
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+### Religion
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Quran.com API](https://alquran.cloud/api) | Provides Quran text, translations, and audio recitations | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
