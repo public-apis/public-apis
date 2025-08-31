@@ -312,7 +312,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) | Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc | No | No | Unknown |
 | [Holidays](https://holidayapi.com/) | Historical data regarding holidays | `apiKey` | Yes | Unknown |
 | [LectServe](http://www.lectserve.com) | Protestant liturgical calendar | No | No | Unknown |
-| [Nager.Date](https://date.nager.at) | Public holidays for more than 90 countries | No | Yes | No |
+| [Moulin Time API](https://jim-vix.github.io/-moulin-time-site/) | Timezone conversion & recurring events. Metered pricing (€0.0001/call) | No | Yes | Yes || [Nager.Date](https://date.nager.at) | Public holidays for more than 90 countries | No | Yes | No |
 | [Namedays Calendar](https://nameday.abalin.net) | Provides namedays for multiple countries | No | Yes | Yes |
 | [Non-Working Days](https://github.com/gadael/icsdb) | Database of ICS files for non working days | No | Yes | Unknown |
 | [Non-Working Days](https://isdayoff.ru) | Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other | No | Yes | Yes |
