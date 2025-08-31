@@ -340,6 +340,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Pantry](https://getpantry.cloud/) | Free JSON storage for small projects | No | Yes | Yes | |
 | [Pastebin](https://pastebin.com/doc_api) | Plain Text Storage | `apiKey` | Yes | Unknown | |
 | [Pinata](https://docs.pinata.cloud/) | IPFS Pinning Services API | `apiKey` | Yes | Unknown | |
+| [Puter](https://docs.puter.com/getting-started/) | Serverless JS API for cloud, storage, auth, and AI | No | Yes | Yes |
 | [Quip](https://quip.com/dev/automation/documentation) | File Sharing and Storage for groups | `apiKey` | Yes | Yes | |
 | [Storj](https://docs.storj.io/dcs/) | Decentralized Open-Source Cloud Storage | `apiKey` | Yes | Unknown | |
 | [The Null Pointer](https://0x0.st) | No-bullshit file hosting and URL shortening service | No | Yes | Unknown | |
