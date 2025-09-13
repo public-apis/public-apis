@@ -81,6 +81,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Phone](#phone)
 * [Photography](#photography)
 * [Programming](#programming)
+* [QR Code](#qr-code)
 * [Science & Math](#science--math)
 * [Security](#security)
 * [Shopping](#shopping)
@@ -1412,6 +1413,17 @@ API | Description | Auth | HTTPS | CORS |
 | [Judge0 CE](https://ce.judge0.com/) | Online code execution system | `apiKey` | Yes | Unknown |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
 | [Mintlify](https://docs.mintlify.com) | For programmatically generating documentation for code | `apiKey` | Yes | Yes |
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+
+### QR Code
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [GoQR](https://goqr.me/api/) | Create QR codes via a simple API | No | Yes | Unknown |
+| [QR.io](https://qr.io) | Create QR codes with logos, shapes, and custom colors (free tier available) | No | Yes | Unknown |
+| [QRCode Monkey](https://www.qrcode-monkey.com/qr-code-api-with-logo) | Generate QR codes with embedded logos, custom colors, and design styles | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
