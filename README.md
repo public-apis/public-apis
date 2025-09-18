@@ -1779,7 +1779,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Shrtlnk](https://shrtlnk.dev/developer) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
 | [TinyURL](https://tinyurl.com/app/dev) | Shorten long URLs | `apiKey` | Yes | No |
 | [UrlBae](https://urlbae.com/developers) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
-
+| [0s.lv](https://0s.lv/api-doc) | Free URL shortener | No | Yes | Yes |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
