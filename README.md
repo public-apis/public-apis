@@ -1889,3 +1889,23 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+
+
+## Example APIs for Beginners
+
+### 1. Weather API
+Fetch weather data using OpenWeatherMap:
+```js
+fetch("https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY")
+  .then(response => response.json())
+  .then(data => console.log("Weather Data:", data))
+  .catch(error => console.error("Error fetching weather data:", error)
+
+  # 2 .joke aPI
+
+Fetch a random joke using JokeAPI:
+fetch("https://v2.jokeapi.dev/joke/Any")
+  .then(response => response.json())
+  .then(data => console.log("Joke:", data.setup || data.joke))
+  .catch(error => console.error("Error fetching joke:", error));
