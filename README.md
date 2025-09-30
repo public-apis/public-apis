@@ -1889,3 +1889,5 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+> Small docs improvement by HarithDoka at 2025-09-30T14:41:57Z
