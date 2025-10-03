@@ -1,0 +1,72 @@
+name: Python CI
+
+on:
+  workflow_dispatch:
+    # 他のイベント（例: push, pull_request）を追加する場合は、以下のコメントアウトを解除してください。
+    # push:
+    #   branches:
+    #     - master
+    # pull_request:
+    #   branches:
+    #     - master
+
+permissions:
+  contents: read # リポジトリのコンテンツを読み取るための最小権限
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-test:
+    name: Build and Test on Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest # ジョブを実行するOS環境
+    timeout-minutes: 10 # ジョブの最大実行時間
+
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11"] # テストするPythonのバージョン
+
+    steps:
+      - name: Checkout repository # リポジトリをチェックアウト
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+        with:
+          persist-credentials: false # 認証情報を永続化しない
+
+      - name: Set up Python ${{ matrix.python-version }} # 指定されたPythonバージョンをセットアップ
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Cache pip dependencies # pipの依存関係をキャッシュ
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-python-${{ matrix.python-version }}-pip-${{ hashFiles('scripts/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-python-${{ matrix.python-version }}-pip-
+
+      - name: Install dependencies # プロジェクトの依存関係をインストール
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+          # テスト実行に必要なpytestとpytest-covをインストール
+          pip install pytest pytest-cov
+
+      - name: Run code format validation # コードフォーマットの検証スクリプトを実行
+        run: python scripts/validate/format.py README.md
+
+      - name: Run link duplicate check # リンクの重複チェックを実行
+        run: python scripts/validate/links.py README.md --only_duplicate_links_checker
+
+      - name: Run link working check # リンクの動作チェックを実行
+        run: python scripts/validate/links.py README.md
+
+      - name: Run tests with coverage # テストを実行し、カバレッジを生成
+        run: pytest scripts/tests/ --cov=scripts/validate --cov-report=xml
+
+      # - name: Upload coverage report # カバレッジレポートをアーティファクトとしてアップロード（必要に応じてコメント解除）
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: coverage-report-python-${{ matrix.python-version }}
+      #     path: coverage.xml
