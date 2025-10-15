@@ -295,7 +295,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tenders in Ukraine](https://tenders.guru/ua/api) | Get data for procurements in Ukraine in JSON format | No | Yes | Unknown |
 | [Tomba email finder](https://tomba.io/api) | Email Finder for B2B sales and email marketing and email verifier | `apiKey` | Yes | Yes |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
-
+| [Xero](https://developer.xero.com/documentation/api/api-overview) | Accounting API for businesses to manage invoices, contacts, and payments | `OAuth` | Yes | Unknown |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
