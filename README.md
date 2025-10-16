@@ -1622,8 +1622,10 @@ API | Description | Auth | HTTPS | CORS |
 | [FakeStoreAPI](https://fakestoreapi.com/) | Fake store rest API for your e-commerce or shopping website prototype | No | Yes | Unknown |
 | [GeneradorDNI](https://api.generadordni.es) | Data generator API. Profiles, vehicles, banks and cards, etc | `apiKey` | Yes | Unknown |
 | [ItsThisForThat](https://itsthisforthat.com/api.php) | Generate Random startup ideas | No | Yes | No |
-| [JSONPlaceholder](http://jsonplaceholder.typicode.com/) | Fake data for testing and prototyping | No | No | Unknown |
+| [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | Fake data for testing and prototyping | No | Yes | Unknown |
 | [Loripsum](http://loripsum.net/) | The "lorem ipsum" generator that doesn't suck | No | No | Unknown |
+| [ReqRes](https://reqres.in/) | A hosted REST-API ready to respond to your AJAX requests | No | Yes | Yes |
+| [JSONPlaceholder GraphQL](https://jsonplaceholder.typicode.com/graphql) | GraphQL version of JSONPlaceholder for testing and prototyping | No | Yes | Unknown |
 | [Mailsac](https://mailsac.com/docs/api) | Disposable Email | `apiKey` | Yes | Unknown |
 | [Metaphorsum](http://metaphorpsum.com/) | Generate demo paragraphs giving number of words and sentences | No | No | Unknown |
 | [Mockaroo](https://www.mockaroo.com/docs) | Generate fake data to JSON, CSV, TXT, SQL and XML | `apiKey` | Yes | Unknown |
