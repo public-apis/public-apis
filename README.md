@@ -1646,6 +1646,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Text Analysis
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Advanced Multilanguage AI Translator](https://rapidapi.com/vintarok-vintarok-default/api/advanced-multilanguage-ai-translator-api-with-fast-responses) | Translate text across 80+ languages with AI context awareness | apiKey | Yes | Yes |
 | [Code Detection API](https://codedetectionapi.runtime.dev) | Detect, label, format and enrich the code in your app or in your data pipeline | `OAuth` | Yes | Unknown |
 | [apilayer languagelayer](https://languagelayer.com/) | Language Detection JSON API supporting 173 languages | `OAuth` | Yes | Unknown |
 | [Aylien Text Analysis](https://docs.aylien.com/textapi/#getting-started) | A collection of information retrieval and natural language APIs | `apiKey` | Yes | Unknown |
