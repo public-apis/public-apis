@@ -1630,6 +1630,7 @@ API | Description | Auth | HTTPS | CORS |
 | [QuickMocker](https://quickmocker.com) | API mocking tool to generate contextual, fake or random data | No | Yes | Yes |
 | [Random Data](https://random-data-api.com) | Random data generator | No | Yes | Unknown |
 | [Randommer](https://randommer.io/randommer-api) | Random data generator | `apiKey` | Yes | Yes |
+| [Random Useless Facts](https://uselessfacts.jsph.pl/) | A collection of random useless facts | No | Yes | Yes |
 | [RandomUser](https://randomuser.me) | Generates and list user data | No | Yes | Unknown |
 | [RoboHash](https://robohash.org/) | Generate random robot/alien avatars | No | Yes | Unknown |
 | [Spanish random names](https://random-names-api.herokuapp.com/public) | Generate spanish names (with gender) randomly | No | Yes | Unknown |
@@ -1639,6 +1640,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UUID Generator](https://www.uuidtools.com/docs) | Generate UUIDs | No | Yes | No |
 | [What The Commit](http://whatthecommit.com/index.txt) | Random commit message generator | No | No | Yes |
 | [Yes No](https://yesno.wtf/api) | Generate yes or no randomly | No | Yes | Unknown |
+
 
 **[⬆ Back to Index](#index)**
 <br >
