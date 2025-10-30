@@ -1219,6 +1219,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Openwhyd](https://openwhyd.github.io/openwhyd/API) | Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...) | No | Yes | No |
 | [Phishin](https://phish.in/api-docs) | A web-based archive of legal live audio recordings of the improvisational rock band Phish | `apiKey` | Yes | No |
 | [Radio Browser](https://api.radio-browser.info/) | List of internet radio stations | No | Yes | Yes |
+| [Shazam API](https://rapidapi.com/apidojo/api/shazam) | Identify songs, get artist info, and trending tracks | apikey | Yes | Yes |
 | [Songkick](https://www.songkick.com/developer/) | Music Events | `apiKey` | Yes | Unknown |
 | [Songlink / Odesli](https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741) | Get all the services on which a song is available | `apiKey` | Yes | Yes |
 | [Songsterr](https://www.songsterr.com/a/wa/api/) | Provides guitar, bass and drums tabs and chords | No | Yes | Unknown |
@@ -1227,7 +1228,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
 | [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
 | [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
-| [KSoft.Si Lyrics API](https://docs.ksoft.si/api) | Search lyrics (artist + title) — good for educational / lightweight use | `apiKey` | Yes | Unknown |
+
 
 
 **[⬆ Back to Index](#index)**
