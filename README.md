@@ -1227,6 +1227,8 @@ API | Description | Auth | HTTPS | CORS |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
 | [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
 | [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
+| [KSoft.Si Lyrics API](https://docs.ksoft.si/api) | Search lyrics (artist + title) — good for educational / lightweight use | `apiKey` | Yes | Unknown |
+
 
 **[⬆ Back to Index](#index)**
 <br >
