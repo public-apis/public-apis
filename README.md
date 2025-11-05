@@ -377,6 +377,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Bittrex](https://bittrex.github.io/api/v3) | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown |
 | [Block](https://block.io/docs/basic) | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown |
 | [Blockchain](https://www.blockchain.com/api) | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown |
+### Continuous Integration
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
 | [blockfrost Cardano](https://blockfrost.io/) | Interaction with the Cardano mainnet and several testnets | `apiKey` | Yes | Unknown |
 | [Brave NewCoin](https://bravenewcoin.com/developers) | Real-time and historic crypto data from more than 200+ exchanges | `apiKey` | Yes | Unknown |
 | [BtcTurk](https://docs.btcturk.com/) | Real-time cryptocurrency data, graphs and API that allows buy&sell | `apiKey` | Yes | Yes |
@@ -960,6 +963,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IP Vigilante](https://www.ipvigilante.com/) | Free IP Geolocation API | No | Yes | Unknown |
 | [ip-api](https://ip-api.com/docs) | Find location with IP address or domain | No | No | Unknown |
 | [IP2Location](https://www.ip2location.com/web-service/ip2location) | IP geolocation web service to get more than 55 parameters | `apiKey` | Yes | Unknown |
+
 | [IP2Proxy](https://www.ip2location.com/web-service/ip2proxy) | Detect proxy and VPN using IP address | `apiKey` | Yes | Unknown |
 | [ipapi.co](https://ipapi.co/api/#introduction) | Find IP address location information | No | Yes | Yes |
 | [ipapi.com](https://ipapi.com/) | Real-time Geolocation & Reverse IP Lookup REST API | `apiKey` | Yes | Unknown |
