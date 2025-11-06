@@ -910,6 +910,7 @@ API | Description | Auth | HTTPS | CORS |
 | [When is next MCU film](https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md) | Upcoming MCU film information | No | Yes | Unknown |
 | [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | No |
 | [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
+| [PokéAPI](https://pokeapi.co/api/v2/pokemon/ditto) | Provides Pokémon data like characters, moves, and abilities | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
