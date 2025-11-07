@@ -883,7 +883,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Pokéapi](https://pokeapi.co) | Pokémon Information | No | Yes | Unknown |
 | [PokéAPI (GraphQL)](https://github.com/mazipan/graphql-pokeapi) | The Unofficial GraphQL for PokeAPI | No | Yes | Yes |
 | [Pokémon TCG](https://pokemontcg.io) | Pokémon TCG Information | No | Yes | Unknown |
-| [Psychonauts](https://psychonauts-api.netlify.app/) | Psychonauts World Characters Information and PSI Powers | No | Yes | Yes |
+| [Psychonauts](https://psychonauts-api.vercel.app/) | Psychonauts World Characters Information and PSI Powers | No | Yes | Yes |
 | [PUBG](https://developer.pubg.com/) | Access in-game PUBG data | `apiKey` | Yes | Yes |
 | [Puyo Nexus](https://github.com/deltadex7/puyodb-api-deno) | Puyo Puyo information from Puyo Nexus Wiki | No | Yes | Yes |
 | [quizapi.io](https://quizapi.io/) | Access to various kind of quiz questions | `apiKey` | Yes | Yes |
