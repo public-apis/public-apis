@@ -1412,6 +1412,11 @@ API | Description | Auth | HTTPS | CORS |
 | [Judge0 CE](https://ce.judge0.com/) | Online code execution system | `apiKey` | Yes | Unknown |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
 | [Mintlify](https://docs.mintlify.com) | For programmatically generating documentation for code | `apiKey` | Yes | Yes |
+| [String Encrypt](https://www.stringencrypt.com/) | Polymorphic string encryption for programmers | `apiKey` | Yes | Yes |
+| [AZTEC 2D Decoder](https://www.pelock.com/products/aztec-decoder) | AZTEC 2D Decoder Library for Polish Vehicle ID Cards | `apiKey` | Yes | Yes |
+| [AutoIt Obfuscator](https://www.pelock.com/products/autoit-obfuscator/api) | Automate AutoIt script source code obfuscation with a flexible Web API for software developers and programmers | `apiKey` | Yes | Yes |
+| [JObfuscator](https://www.pelock.com/products/jobfuscator/api) | Automate Java source code obfuscation with a flexible Web API for software developers and programmers | `apiKey` | Yes | Yes |
+| [Assembly Obfuscator](https://www.pelock.com/products/obfuscator/api) | Protect assembler source code & algorithms against cracking, analysis & reverse engineering by using obfuscation | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -1792,7 +1797,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Mercedes-Benz](https://developer.mercedes-benz.com/apis) | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | `apiKey` | Yes | No |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown |
 | [Smartcar](https://smartcar.com/docs/) | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth` | Yes | Yes |
-
+| [Radio Code Calculator](https://www.pelock.com/products/radio-code-calculator) | Radio Code Calculator is an online service along with Web API and SDK for generating car radio unlock codes for popular vehicle brands | `apiKey` | Yes | Yes |
+    
 **[⬆ Back to Index](#index)**
 <br >
 <br >
