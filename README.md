@@ -43,58 +43,62 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 ## Index
 
-* [Animals](#animals)
-* [Anime](#anime)
-* [Anti-Malware](#anti-malware)
-* [Art & Design](#art--design)
-* [Authentication & Authorization](#authentication--authorization)
-* [Blockchain](#blockchain)
-* [Books](#books)
-* [Business](#business)
-* [Calendar](#calendar)
-* [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
-* [Continuous Integration](#continuous-integration)
-* [Cryptocurrency](#cryptocurrency)
-* [Currency Exchange](#currency-exchange)
-* [Data Validation](#data-validation)
-* [Development](#development)
-* [Dictionaries](#dictionaries)
-* [Documents & Productivity](#documents--productivity)
-* [Email](#email)
-* [Entertainment](#entertainment)
-* [Environment](#environment)
-* [Events](#events)
-* [Finance](#finance)
-* [Food & Drink](#food--drink)
-* [Games & Comics](#games--comics)
-* [Geocoding](#geocoding)
-* [Government](#government)
-* [Health](#health)
-* [Jobs](#jobs)
-* [Machine Learning](#machine-learning)
-* [Music](#music)
-* [News](#news)
-* [Open Data](#open-data)
-* [Open Source Projects](#open-source-projects)
-* [Patent](#patent)
-* [Personality](#personality)
-* [Phone](#phone)
-* [Photography](#photography)
-* [Programming](#programming)
-* [Science & Math](#science--math)
-* [Security](#security)
-* [Shopping](#shopping)
-* [Social](#social)
-* [Sports & Fitness](#sports--fitness)
-* [Test Data](#test-data)
-* [Text Analysis](#text-analysis)
-* [Tracking](#tracking)
-* [Transportation](#transportation)
-* [URL Shorteners](#url-shorteners)
-* [Vehicle](#vehicle)
-* [Video](#video)
-* [Weather](#weather)
-<br >
+- [Try Public APIs for free](#try-public-apis-for-free)
+  - [APILayer APIs](#apilayer-apis)
+  - [Learn more about Public APIs](#learn-more-about-public-apis)
+  - [Index](#index)
+    - [Animals](#animals)
+    - [Anime](#anime)
+    - [Anti-Malware](#anti-malware)
+    - [Art \& Design](#art--design)
+    - [Authentication \& Authorization](#authentication--authorization)
+    - [Blockchain](#blockchain)
+    - [Books](#books)
+    - [Business](#business)
+    - [Calendar](#calendar)
+    - [Cloud Storage \& File Sharing](#cloud-storage--file-sharing)
+    - [Continuous Integration](#continuous-integration)
+    - [Cryptocurrency](#cryptocurrency)
+    - [Currency Exchange](#currency-exchange)
+    - [Data Validation](#data-validation)
+    - [Development](#development)
+    - [Dictionaries](#dictionaries)
+    - [Documents \& Productivity](#documents--productivity)
+    - [Email](#email)
+    - [Entertainment](#entertainment)
+    - [Environment](#environment)
+    - [Events](#events)
+    - [Finance](#finance)
+    - [Food \& Drink](#food--drink)
+    - [Games \& Comics](#games--comics)
+    - [Geocoding](#geocoding)
+    - [Government](#government)
+    - [Health](#health)
+    - [Jobs](#jobs)
+    - [Machine Learning](#machine-learning)
+    - [Music](#music)
+    - [News](#news)
+    - [Open Data](#open-data)
+    - [Open Source Projects](#open-source-projects)
+    - [Patent](#patent)
+    - [Personality](#personality)
+    - [Phone](#phone)
+    - [Photography](#photography)
+    - [Programming](#programming)
+    - [Science \& Math](#science--math)
+    - [Security](#security)
+    - [Shopping](#shopping)
+    - [Social](#social)
+    - [Sports \& Fitness](#sports--fitness)
+    - [Test Data](#test-data)
+    - [Text Analysis](#text-analysis)
+    - [Tracking](#tracking)
+    - [Transportation](#transportation)
+    - [URL Shorteners](#url-shorteners)
+    - [Vehicle](#vehicle)
+    - [Video](#video)
+    - [Weather](#weather)
+  - [License](#license)
 
 ### Animals
 API | Description | Auth | HTTPS | CORS 
@@ -1884,6 +1888,89 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
+###AI & Generative APIs
+| API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [OpenAI](https://platform.openai.com/docs/api-reference) | Text, image, and code generation (ChatGPT, DALL·E, GPT models) | `apiKey` | Yes | Yes |
+| [Anthropic Claude](https://docs.anthropic.com/en/api) | Conversational AI and summarization using Claude models | `apiKey` | Yes | Yes |
+| [Stability.ai](https://platform.stability.ai/docs/getting-started) | Text-to-image, image-to-image, and upscaling using Stable Diffusion | `apiKey` | Yes | Yes |
+| [Cohere](https://docs.cohere.com/docs) | NLP, embeddings, summarization, and classification APIs | `apiKey` | Yes | Yes |
+| [Hugging Face Inference](https://huggingface.co/docs/api-inference) | Run ML models instantly for text, vision, and audio | `apiKey` | Yes | Yes |
+| [Google Gemini (Vertex AI)](https://cloud.google.com/vertex-ai/docs/generative-ai/start/overview) | Text, code, and image generation from Google’s AI models | `OAuth` | Yes | Yes |
+| [AWS Bedrock](https://aws.amazon.com/bedrock/) | Access multiple foundation models via AWS (Claude, Titan, etc.) | `apiKey` | Yes | Unknown |
+| [Replicate](https://replicate.com/docs/reference/http) | Run open-source AI models for image, video, and audio generation | `apiKey` | Yes | Yes |
+| [Mistral AI](https://docs.mistral.ai/) | Open-weight LLMs with hosted inference API | `apiKey` | Yes | Yes |
+| [Perplexity AI](https://docs.perplexity.ai/) | AI-powered answer and search API | `apiKey` | Yes | Unknown |
+**[⬆ Back to Index](#index)**
+<br>
+<br>
+###Cybersecurity & Threat Intelligence APIs
+| API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [VirusTotal](https://developers.virustotal.com/reference/overview) | File and URL scanning with multi-engine antivirus checks | `apiKey` | Yes | Yes |
+| [Have I Been Pwned](https://haveibeenpwned.com/API/v3) | Check if emails or passwords have been leaked in breaches | `apiKey` | Yes | No |
+| [AbuseIPDB](https://docs.abuseipdb.com/) | Check if an IP address has been reported for abuse | `apiKey` | Yes | Yes |
+| [GreyNoise](https://docs.greynoise.io/docs) | Identify background noise vs. targeted internet scans | `apiKey` | Yes | Yes |
+| [Shodan](https://developer.shodan.io/api) | Search engine for connected devices and vulnerabilities | `apiKey` | Yes | Yes |
+| [Censys](https://search.censys.io/api) | Internet-wide scanning and asset discovery | `apiKey` | Yes | Yes |
+| [AlienVault OTX](https://otx.alienvault.com/api) | Open threat intelligence data, IOCs, and reputation info | `apiKey` | Yes | Yes |
+| [IPinfo](https://ipinfo.io/developers) | IP geolocation and threat classification | `apiKey` | Yes | Yes |
+| [Google Safe Browsing](https://developers.google.com/safe-browsing) | Detect malicious URLs and phishing pages | `apiKey` | Yes | Unknown |
+| [urlscan.io](https://urlscan.io/docs/api/) | Analyze and scan websites for security and content risks | `apiKey` | Yes | Yes |
+**[⬆ Back to Index](#index)**
+<br>
+<br>
+###Real Estate APIs
+| API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Zillow](https://www.zillow.com/howto/api/APIOverview.htm) | Home value estimates and property details (U.S.) | `apiKey` | Yes | Unknown |
+| [Realtor](https://rapidapi.com/apidojo/api/realtor) | Property listings and real estate data | `apiKey` | Yes | Unknown |
+| [Estated](https://estated.com/docs) | Real estate and property ownership data (U.S.) | `apiKey` | Yes | Yes |
+| [ATTOM Data](https://developer.attomdata.com/) | Property, neighborhood, and boundary insights | `apiKey` | Yes | Unknown |
+| [Ziptastic](https://ziptasticapi.com/) | Get city and state information for U.S. ZIP codes | No | Yes | Yes |
+| [RentCast](https://www.rentcast.io/api) | Rental property data, home values, and market trends | `apiKey` | Yes | Yes |
+| [CoreLogic](https://www.corelogic.com/solutions/property-data-apis.aspx) | Real estate analytics and property data solutions | `apiKey` | Yes | Unknown |
+| [HouseCanary](https://www.housecanary.com/api) | Real estate valuations, comps, and forecasts | `apiKey` | Yes | Yes |
+| [Walk Score](https://www.walkscore.com/professional/api.php) | Location-based walkability, transit, and bike scores | `apiKey` | Yes | Yes |
+| [Retsly (Zillow Group)](https://www.zillowgroup.com/retsly/) | Real estate data platform for property listings | `OAuth` | Yes | Unknown |
+**[⬆ Back to Index](#index)**
+<br>
+<br>
+###E-Commerce & Retail APIs
+| API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Shopify](https://shopify.dev/docs/api) | Manage stores, products, orders, and customers | `OAuth` | Yes | Yes |
+| [eBay](https://developer.ebay.com/docs) | Listings, pricing, inventory, and order management | `OAuth` | Yes | Yes |
+| [Amazon Product Advertising](https://webservices.amazon.com/paapi5/documentation/) | Product search, details, and affiliate links | `apiKey` | Yes | Unknown |
+| [WooCommerce REST](https://woocommerce.github.io/woocommerce-rest-api-docs/) | Manage WordPress-based online stores | `OAuth` | Yes | Yes |
+| [Stripe](https://stripe.com/docs/api) | Payment processing for e-commerce apps | `apiKey` | Yes | Yes |
+| [PayPal](https://developer.paypal.com/docs/api/overview/) | Online payments, transactions, and invoicing | `OAuth` | Yes | Yes |
+| [Square](https://developer.squareup.com/docs) | Payments, orders, and point-of-sale integration | `OAuth` | Yes | Yes |
+| [BigCommerce](https://developer.bigcommerce.com/api-reference) | Manage catalog, orders, and customers | `OAuth` | Yes | Yes |
+| [Best Buy](https://bestbuyapis.github.io/api-documentation/) | Access product catalog, availability, and reviews | `apiKey` | Yes | Unknown |
+| [Walmart](https://developer.walmart.com/) | Product data, inventory, and pricing info | `apiKey` | Yes | Unknown |
+**[⬆ Back to Index](#index)**
+<br>
+<br>
+###Urban & Smart City APIs
+| API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Open511](http://www.open511.org/) | Road event, construction, and traffic incident data | No | No | Unknown |
+| [City of New York Open Data](https://opendata.cityofnewyork.us/) | Access to over 1,600 datasets across NYC agencies | No | Yes | Yes |
+| [Data.gov](https://api.data.gov/) | U.S. government open datasets from multiple domains | `apiKey` | Yes | Yes |
+| [OpenTransportData.swiss](https://opentransportdata.swiss/en/dataset/) | Swiss open transport and transit information | `apiKey` | Yes | Unknown |
+| [UK Government Data (data.gov.uk)](https://data.gov.uk/) | UK open government datasets and APIs | No | Yes | Yes |
+| [European Data Portal](https://data.europa.eu/en) | Open data from European Union member states | No | Yes | Yes |
+| [Smart Dublin API](https://data.smartdublin.ie/) | Open civic data for the Dublin metropolitan area | No | Yes | Yes |
+| [Singapore Data.gov.sg](https://data.gov.sg/developer) | Singapore government open data APIs | No | Yes | Yes |
+| [Transport for London (TfL)](https://api.tfl.gov.uk/) | Real-time public transport data for London | `apiKey` | Yes | Yes |
+| [Open Data Soft](https://public.opendatasoft.com/explore/) | Platform hosting various global open city datasets | No | Yes | Yes |
+**[⬆ Back to Index](#index)**
+<br>
+<br>
+
+
+
 
 <br>
 
