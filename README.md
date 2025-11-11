@@ -1880,6 +1880,7 @@ API | Description | Auth | HTTPS | CORS |
 | [WeatherAPI](https://www.weatherapi.com/) | Weather API with other stuff like Astronomy and Geolocation API | `apiKey` | Yes | Yes |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
+| [Weatherbit Air Quality](https://www.weatherbit.io/api/airquality-current) | Air quality & pollution data API | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
