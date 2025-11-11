@@ -1505,6 +1505,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Shopping
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Amazon](https://docs.steadyapi.com/) | Get Products & ASIN Data, Reviews, Offers, Best Sellers & Deals, Seller Data, Influencers Data, and More from Amazon. | `apiKey` | Yes | Yes |
 | [Best Buy](https://bestbuyapis.github.io/api-documentation/#overview) | Products, Buying Options, Categories, Recommendations, Stores and Commerce | `apiKey` | Yes | Unknown |
 | [Digi-Key](https://www.digikey.com/en/resources/api-solutions) | Retrieve price and inventory of electronic components as well as place orders | `OAuth` | Yes | Unknown |
 | [Dummy Products](https://dummyproducts-api.herokuapp.com/) | An api to fetch dummy e-commerce products JSON data with placeholder images | `apiKey` | Yes | Yes |
