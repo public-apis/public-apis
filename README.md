@@ -235,6 +235,7 @@ API | Description | Auth | HTTPS | CORS |
 | [The Graph](https://thegraph.com) | Indexing protocol for querying networks like Ethereum with GraphQL | `apiKey` | Yes | Unknown |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
 | [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
+| [WazirX](https://docs.wazirx.com/#public-rest-api-for-wazirx) | WazirX API | No | Yes | Yes
 
 **[⬆ Back to Index](#index)**
 <br >
