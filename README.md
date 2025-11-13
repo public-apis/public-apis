@@ -1753,6 +1753,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tripadvisor](https://developer-tripadvisor.com/home/) | Rating content for a hotel, restaurant, attraction or destination | `apiKey` | Yes | Unknown |
 | [Uber](https://developer.uber.com/products) | Uber ride requests and price estimation | `OAuth` | Yes | Yes |
 | [Velib metropolis, Paris, France](https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole) | Velib Open Data API | No | Yes | No |
+| [STM Real-Time Transit API](https://portail.developpeurs.stm.info/apihub/#/) | Real-time bus positions for Montréal STM using GTFS-Realtime feeds. Requires creating an application to obtain an API key. | apiKey |Yes| Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -1792,6 +1793,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Mercedes-Benz](https://developer.mercedes-benz.com/apis) | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | `apiKey` | Yes | No |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown |
 | [Smartcar](https://smartcar.com/docs/) | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth` | Yes | Yes |
+| [STM Real-Time Transit API](https://portail.developpeurs.stm.info/apihub/#/) | Real-time bus positions for Montréal STM using GTFS-Realtime feeds. Requires creating an application to obtain an API key. | apiKey |Yes| Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
