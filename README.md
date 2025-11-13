@@ -1880,6 +1880,7 @@ API | Description | Auth | HTTPS | CORS |
 | [WeatherAPI](https://www.weatherapi.com/) | Weather API with other stuff like Astronomy and Geolocation API | `apiKey` | Yes | Yes |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
+| [Weather Union](https://www.weatherunion.com/dashboard/#tag/default/GET/get_weather_data) | A free API by Zomato to track India's weather accurately | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
