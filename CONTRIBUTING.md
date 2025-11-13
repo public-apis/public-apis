@@ -1,10 +1,10 @@
 # Contributing to public-apis
 
-> While community engagement and the large number of pull requests are greatly appreciated, some submissions have been made solely to promote company APIs that provide paid services. Please note that this API list is not intended for marketing, but rather to help the community discover and use free, public APIs for learning and development. Pull requests that appear to be promotional in nature will not be accepted.
+> While we truly appreciate the community’s engagement and the many pull requests received, a few submissions have been aimed at promoting paid company APIs. Please note that this API list is not a marketing platform, but a resource to help the community find and use free, public APIs for learning and development. Pull requests identified as promotional or advertising paid services will not be accepted.
 
->Before submitting, ensure that the API you are adding offers completely free access or at least includes a free usage tier, and does not require purchasing a device or service. For example, an API that controls a smart outlet may be free to use, but since it requires buying the smart device, it would be rejected.
+>Before contributing, ensure the API you are submitting offers full free access or at least a free usage tier, and does not require purchasing any product or service. For instance, an API used to control a smart outlet would be declined, as it requires buying the device even though the API itself is free.
 
->Thank you for your understanding and for helping keep this list open and accessible to everyone!
+>Thank you for your cooperation and for helping us keep this list open, useful, and accessible to all developers!
 ## Formatting
 
 Current API entry format:
