@@ -1187,6 +1187,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
+| HuggingFace Inference API | https://huggingface.co/inference-api | Run ML models including NLP, Vision, ASR and more | `apiKey` | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 <br >
