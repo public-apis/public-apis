@@ -1661,6 +1661,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Sentiment Analysis](https://www.meaningcloud.com/developer/sentiment-analysis) | Multilingual sentiment analysis of texts from different sources | `apiKey` | Yes | Yes |
 | [Tisane](https://tisane.ai/) | Text Analytics with focus on detection of abusive content and law enforcement applications | `OAuth` | Yes | Yes |
 | [Watson Natural Language Understanding](https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding) | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown |
+| [LanguageTool](https://languagetool.org/http-api/) | Grammar, style and spell checker for 30+ languages — free public HTTP API (rate-limited). | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
