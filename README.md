@@ -982,6 +982,10 @@ API | Description | Auth | HTTPS | CORS |
 | [openrouteservice.org](https://openrouteservice.org/) | Directions, POIs, isochrones, geocoding (+reverse), elevation, and more | `apiKey` | Yes | Unknown |
 | [OpenStreetMap](http://wiki.openstreetmap.org/wiki/API) | Navigation, geolocation and geographical data | `OAuth` | No | Unknown |
 | [Pinball Map](https://pinballmap.com/api/v1/docs) | A crowdsourced map of public pinball machines | No | Yes | Yes |
+| [poocoo Word API (English)](https://api.poocoo.app) | English word search, anagrams, Scrabble dictionaries (TWL/CSW/WWF) | No | Yes | Yes |
+| [poocoo Word API (French)](https://api.poocoo.fr) | French word search, anagrams, Scrabble ODS dictionary | No | Yes | Yes |
+| [poocoo Word API (German)](https://api.poocoo.de) | German word search, anagrams, Scrabble and Wordfeud dictionaries | No | Yes | Yes |
+| [poocoo Word API (Polish)](https://api.poocoo.pl) | Polish word search, anagrams, Scrabble dictionaries (SJP/OSPS) | No | Yes | Yes |
 | [positionstack](https://positionstack.com/) | Forward & Reverse Batch Geocoding REST API | `apiKey` | Yes | Unknown |
 | [Postali](https://postali.app/api) | Mexico Zip Codes API | No | Yes | Yes |
 | [PostcodeData.nl](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) | Provide geolocation data based on postcode for Dutch addresses | No | No | Unknown |
