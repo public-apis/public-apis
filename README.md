@@ -593,7 +593,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Wandbox](https://github.com/melpon/wandbox/blob/master/kennel2/API.rst) | Code compiler supporting 35+ languages mentioned at wandbox.org | No | Yes | Unknown |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
-
+| [Twitter Search](https://docs.desearch.ai/docs/basic-x-search) | Decentralized Real-time Twitter Search API | `apiKey` | Yes | Yes |
+! [WEb Search (SERP)]([https://websearch.com/](https://docs.desearch.ai/docs/basic-web-search#/)) | Decentrilized Real-Time & Search API | `apiKey` | Yes | Yes |
+! [AI Search](https://desearch.ai/) | Decentrilized Real-Time AI Search | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
