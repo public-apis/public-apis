@@ -1,0 +1,26 @@
+[
+  {
+    "name": "GitHub API",
+    "description": "GitHub REST API",
+    "link": "https://api.github.com",
+    "category": "Development"
+  },
+  {
+    "name": "JSONPlaceholder",
+    "description": "Fake online REST API for testing",
+    "link": "https://jsonplaceholder.typicode.com",
+    "category": "Testing"
+  },
+  {
+    "name": "Cat Facts",
+    "description": "Daily cat facts",
+    "link": "https://cat-fact.herokuapp.com/facts",
+    "category": "Animals"
+  },
+  {
+    "name": "Invalid API",
+    "description": "This should fail",
+    "link": "https://example.invalid.api.url",
+    "category": "Invalid"
+  }
+]
