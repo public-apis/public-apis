@@ -5,6 +5,8 @@ import sys
 from string import punctuation
 from typing import List, Tuple, Dict
 
+print('hello')
+
 # Temporary replacement
 # The descriptions that contain () at the end must adapt to the new policy later
 punctuation = punctuation.replace('()', '')
