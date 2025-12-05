@@ -594,8 +594,8 @@ API | Description | Auth | HTTPS | CORS |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
 | [Twitter Search](https://docs.desearch.ai/docs/basic-x-search) | Decentralized Real-time Twitter Search API | `apiKey` | Yes | Yes |
-![Web Search (SERP)](https://docs.desearch.ai/docs/basic-web-search#/) | Decentralized Real-Time Search API | `apiKey` | Yes | Yes |
-! [AI Search](https://desearch.ai/) | Decentrilized Real-Time AI Search | `apiKey` | Yes | Yes |
+| [Web Search (SERP)](https://desearch.ai/docs/api-reference) | Decentralized Real-Time Web Search (SERP) API | `apiKey` | Yes | Yes |
+| [AI Search](https://desearch.ai/) | Decentrilized Real-Time AI Search and Summary | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
