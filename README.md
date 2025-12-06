@@ -1225,6 +1225,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SoundCloud](https://developers.soundcloud.com/docs/api/guide) | With SoundCloud API you can build applications that will give more power to control your content | `OAuth` | Yes | Unknown |
 | [Spotify](https://beta.developer.spotify.com/documentation/web-api/) | View Spotify music catalog, manage users' libraries, get recommendations and more | `OAuth` | Yes | Unknown |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
+| [Taylor Swift](https://taylor-swift-api.sarbo.workers.dev) | API to get data about Taylor Swift albums, songs, and lyrics | No | Yes | Unknown |
 | [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
 | [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
 
