@@ -40,7 +40,6 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [LICENSE](LICENSE) 
 
 <br />
-
 ## Index
 
 * [Animals](#animals)
@@ -217,6 +216,8 @@ API | Description | Auth | HTTPS | CORS |
 | [SAWO Labs](https://sawolabs.com) | Simplify login and improve user experience by integrating passwordless authentication in your app | `apiKey` | Yes | Yes |
 | [Stytch](https://stytch.com/) | User infrastructure for modern applications | `apiKey` | Yes | No |
 | [Warrant](https://warrant.dev/) | APIs for authorization and access control | `apiKey` | Yes | Yes |
+- [Have I Been Pwned](https://haveibeenpwned.com/API/v3) - Check if email or password appears in a data breach - 
+Authentication
 
 **[⬆ Back to Index](#index)**
 <br >
