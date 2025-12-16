@@ -30,7 +30,7 @@ Join our
 
 <br >
 
-## Learn more about Public APIs
+## Learn more about Public APIs 
 
 <strong>Get Involved</strong>
 
@@ -40,7 +40,7 @@ Join our
 * [Pull Requests](https://github.com/public-apis/public-apis/pulls)
 * [LICENSE](LICENSE) 
 
-<br />
+<br/>
 
 ## Index
 
