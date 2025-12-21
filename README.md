@@ -3,7 +3,7 @@ The Public APIs repository is manually curated by community members like you and
 
 <br >
 
-<p>
+<p>f
     <a href="https://apilayer.com">
         <div>
             <img src=".github/cs1586-APILayerLogoUpdate2022-LJ_v2-HighRes.png" width="100%" alt="APILayer Logo" />
@@ -1497,7 +1497,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UK Police](https://data.police.uk/docs/) | UK Police data | No | Yes | Unknown |
 | [Virushee](https://api.virushee.com/) | Virushee file/data scanning | No | Yes | Yes |
 | [VulDB](https://vuldb.com/?doc.api) | VulDB API allows to initiate queries for one or more items along with transactional bots | `apiKey` | Yes | Unknown |
-
+| [Zero Trust API](https://rapidapi.com/image-zero-trust-security-labs/api/zero-trust-api) | Image Content Disarm & Reconstruction | `apiKey` | Yes | Yes |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
