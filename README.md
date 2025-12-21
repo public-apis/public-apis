@@ -3,7 +3,7 @@ The Public APIs repository is manually curated by community members like you and
 
 <br >
 
-<p>f
+<p>
     <a href="https://apilayer.com">
         <div>
             <img src=".github/cs1586-APILayerLogoUpdate2022-LJ_v2-HighRes.png" width="100%" alt="APILayer Logo" />
