@@ -1,4 +1,5 @@
 # Try Public APIs for free
+
 The Public APIs repository is manually curated by community members like you and folks working at [APILayer](https://apilayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo). It includes an extensive list of public APIs from many domains that you can use for your own products. Consider it a treasure trove of APIs well-managed by the community over the years.
 
 <br >
@@ -101,7 +102,7 @@ API | Description | Auth | HTTPS | CORS
 |:---|:---|:---|:---|:---|
 | [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
-| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No | |
+| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
 | [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
 | [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | No |
 | [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Yes |
@@ -119,7 +120,7 @@ API | Description | Auth | HTTPS | CORS
 | [PlaceDog](https://place.dog) | Placeholder Dog pictures | No | Yes | Yes |
 | [PlaceKitten](https://placekitten.com/) | Placeholder Kitten pictures | No | Yes | Yes |
 | [RandomDog](https://random.dog/woof.json) | Random pictures of dogs | No | Yes | Yes |
-| [RandomDuck](https://random-d.uk/api) | Random pictures of ducks | No | Yes | No |
+| [RandomDuck](https://random.d.uk/api) | Random pictures of ducks | No | Yes | No |
 | [RandomFox](https://randomfox.ca/floof/) | Random pictures of foxes | No | Yes | No |
 | [RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) | Adoption | No | Yes | Unknown |
 | [Shibe.Online](http://shibe.online/) | Random pictures of Shiba Inu, cats or birds | No | Yes | Yes |
@@ -134,7 +135,7 @@ API | Description | Auth | HTTPS | CORS
 ### Anime
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
-| [AniAPI](https://aniapi.com/docs/) | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | Yes |
+| [Ani](https://aniapi.com/docs/) | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | Yes |
 | [AniDB](https://wiki.anidb.net/HTTP_API_Definition) | Anime Database | `apiKey` | No | Unknown |
 | [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
 | [AnimeChan](https://github.com/RocktimSaikia/anime-chan) | Anime quotes (over 10k+) | No | Yes | No |
@@ -142,7 +143,7 @@ API | Description | Auth | HTTPS | CORS |
 | [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) | Anime industry news | No | Yes | Yes |
 | [Catboy](https://catboys.com/api) | Neko images, funny GIFs & more | No | Yes | Yes |
 | [Danbooru Anime](https://danbooru.donmai.us/wiki_pages/help:api) | Thousands of anime artist database to find good anime art | `apiKey` | Yes | Yes |
-| [Jikan](https://jikan.moe) | Unofficial MyAnimeList API | No | Yes | Yes |
+| [Jikan](https://jikan.moe) | Unofficial MyAnimeList | No | Yes | Yes |
 | [Kitsu](https://kitsu.docs.apiary.io/) | Anime discovery platform | `OAuth` | Yes | Yes |
 | [MangaDex](https://api.mangadex.org/docs.html) | Manga Database and Community | `apiKey` | Yes | Unknown |
 | [Mangapi](https://rapidapi.com/pierre.carcellermeunier/api/mangapi3/) | Translate manga pages from one language to another | `apiKey` | Yes | Unknown |
@@ -381,7 +382,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Brave NewCoin](https://bravenewcoin.com/developers) | Real-time and historic crypto data from more than 200+ exchanges | `apiKey` | Yes | Unknown |
 | [BtcTurk](https://docs.btcturk.com/) | Real-time cryptocurrency data, graphs and API that allows buy&sell | `apiKey` | Yes | Yes |
 | [Bybit](https://bybit-exchange.github.io/docs/linear/#t-introduction) | Cryptocurrency data feed and algorithmic trading | `apiKey` | Yes | Unknown |
-| [CoinAPI](https://docs.coinapi.io/) | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No |
+| [Coin](https://docs.coinapi.io/) | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No |
 | [Coinbase](https://developers.coinbase.com) | Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown |
 | [Coinbase Pro](https://docs.pro.coinbase.com/#api) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
 | [CoinCap](https://docs.coincap.io/) | Real time Cryptocurrency prices through a RESTful API | No | Yes | Unknown |
@@ -396,7 +397,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CoinRanking](https://developers.coinranking.com/api/documentation) | Live Cryptocurrency data | `apiKey` | Yes | Unknown |
 | [Coinremitter](https://coinremitter.com/docs) | Cryptocurrencies Payment & Prices | `apiKey` | Yes | Unknown |
 | [CoinStats](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest) | Crypto Tracker | No | Yes | Unknown |
-| [CryptAPI](https://docs.cryptapi.io/) | Cryptocurrency Payment Processor | No | Yes | Unknown |
+| [Crypt](https://docs.cryptapi.io/) | Cryptocurrency Payment Processor | No | Yes | Unknown |
 | [CryptingUp](https://www.cryptingup.com/apidoc/#introduction) | Cryptocurrency data | No | Yes | Unknown |
 | [CryptoCompare](https://www.cryptocompare.com/api#) | Cryptocurrencies Comparison | No | Yes | Unknown |
 | [CryptoMarket](https://api.exchange.cryptomkt.com/) | Cryptocurrencies Trading platform | `apiKey` | Yes | Yes |
@@ -498,7 +499,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Codex](https://github.com/Jaagrav/CodeX) | Online Compiler for Various Languages | No | Yes | Unknown |
 | [Contentful Images](https://www.contentful.com/developers/docs/references/images-api/) | Used to retrieve and apply transformations to images | `apiKey` | Yes | Yes |
 | [CORS Proxy](https://github.com/burhanuday/cors-proxy) | Get around the dreaded CORS error by using this proxy as a middle man | No | Yes | Yes |
-| [CountAPI](https://countapi.xyz) | Free and simple counting service. You can use it to track page hits and specific events | No | Yes | Yes |
+| [Count](https://countapi.xyz) | Free and simple counting service. You can use it to track page hits and specific events | No | Yes | Yes |
 | [Databricks](https://docs.databricks.com/dev-tools/api/latest/index.html) | Service to manage your databricks account,clusters, notebooks, jobs and workspaces | `apiKey` | Yes | Yes |
 | [DigitalOcean Status](https://status.digitalocean.com/api) | Status of all DigitalOcean services | No | Yes | Unknown |
 | [Docker Hub](https://docs.docker.com/docker-hub/api/latest/) | Interact with Docker Hub | `apiKey` | Yes | Yes |
