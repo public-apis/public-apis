@@ -1566,8 +1566,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Tumblr](https://www.tumblr.com/docs/en/api/v2) | Read and write Tumblr Data | `OAuth` | Yes | Unknown |
 | [Twitch](https://dev.twitch.tv/docs) | Game Streaming API | `OAuth` | Yes | Unknown |
 | [Twitter](https://developer.twitter.com/en/docs) | Read and write Twitter data | `OAuth` | Yes | No |
+| [Vedika](https://vedika.io/docs) | Vedic astrology API with horoscopes, kundali, panchang, and AI insights | `apiKey` | Yes | Yes |
 | [vk](https://vk.com/dev/sites) | Read and write vk data | `OAuth` | Yes | Unknown |
-| [Vedika](https://vedika.io) | Vedic astrology API with horoscopes, birth charts, and AI insights | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
