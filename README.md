@@ -1187,6 +1187,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
+| [OpenRouter](https://openrouter.ai/docs) | Unified API for 300+ LLM models from OpenAI, Anthropic, Meta, Google | apiKey | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
