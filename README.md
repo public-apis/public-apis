@@ -436,6 +436,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [1Forge](https://1forge.com/forex-data-api/api-documentation) | Forex currency market data | `apiKey` | Yes | Unknown |
+| [AllRatesToday](https://allratestoday.com/developers) | Real-time and historical currency exchange rates for 150+ currencies | `apiKey` | Yes | Unknown |
 | [Amdoren](https://www.amdoren.com/currency-api/) | Free currency API with over 150 currencies | `apiKey` | Yes | Unknown |
 | [apilayer fixer.io](https://fixer.io) | Exchange rates and currency conversion | `apiKey` | No | Unknown |
 | [Bank of Russia](https://www.cbr.ru/development/SXML/) | Exchange rates and currency conversion | No | Yes | Unknown |
