@@ -548,7 +548,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MAC address vendor lookup](https://macaddress.io/api) | Retrieve vendor details and other information regarding a given MAC address or an OUI | `apiKey` | Yes | Yes |
 | [Micro DB](https://m3o.com/db) | Simple database service | `apiKey` | Yes | Unknown |
 | [MicroENV](https://microenv.com/) | Fake Rest API for developers | No | Yes | Unknown |
-| [Mission Control Simulation](https://missioncontrol-e832.onrender.com/scalar/v1) | Space missions API for learning HTTP requests and JSON parsing | No | Yes | Unknown |
+| [Mission Control Simulation](https://missioncontrol-e832.onrender.com/scalar/v1) | Space missions API for learning HTTP requests and JSON parsing | No | Yes | No |
 | [Mocky](https://designer.mocky.io/) | Mock user defined test JSON for REST API endpoints | No | Yes | Yes |
 | [MY IP](https://www.myip.com/api-docs/) | Get IP address information | No | Yes | Unknown |
 | [Nationalize.io](https://nationalize.io) | Estimate the nationality of a first name | No | Yes | Yes |
