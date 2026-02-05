@@ -20,5 +20,11 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "axios": "^1.13.4",
+    "react-router-dom": "^7.13.0",
+    "tailwindcss": "^4.1.18"
+  }
 }
