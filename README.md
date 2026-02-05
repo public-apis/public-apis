@@ -534,6 +534,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Image-Charts](https://documentation.image-charts.com/) | Generate charts, QR codes and graph images | No | Yes | Yes |
 | [import.io](http://api.docs.import.io/) | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | Unknown |
 | [ip-fast.com](https://ip-fast.com/docs/) | IP address, country and city | No | Yes | Yes |
+| [IP GeoLocation API by ipwho.org](https://ipwho.org/) | Enterprise grade API at non-enterprise prices. Trusted by developers, corporate, government clients. | `apiKey` | Yes | Yes |
 | [IP2WHOIS Information Lookup](https://www.ip2whois.com/) | WHOIS domain name lookup | `apiKey` | Yes | Unknown |
 | [ipfind.io](https://ipfind.io) | Geographic location of an IP address or any domain name along with some other useful information | `apiKey` | Yes | Yes |
 | [IPify](https://www.ipify.org/) | A simple IP Address API | No | Yes | Unknown |
@@ -959,6 +960,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IP Address Details](https://ipinfo.io/) | Find geolocation with ip address | No | Yes | Unknown |
 | [IP Vigilante](https://www.ipvigilante.com/) | Free IP Geolocation API | No | Yes | Unknown |
 | [ip-api](https://ip-api.com/docs) | Find location with IP address or domain | No | No | Unknown |
+| [IP GeoLocation API by ipwho.org](https://ipwho.org/) | Enterprise grade API at non-enterprise prices. Trusted by developers, corporate, government clients. | `apiKey` | Yes | Yes |
 | [IP2Location](https://www.ip2location.com/web-service/ip2location) | IP geolocation web service to get more than 55 parameters | `apiKey` | Yes | Unknown |
 | [IP2Proxy](https://www.ip2location.com/web-service/ip2proxy) | Detect proxy and VPN using IP address | `apiKey` | Yes | Unknown |
 | [ipapi.co](https://ipapi.co/api/#introduction) | Find IP address location information | No | Yes | Yes |
