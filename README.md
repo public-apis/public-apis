@@ -283,6 +283,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Mailchimp](https://mailchimp.com/developer/) | Send marketing campaigns and transactional mails | `apiKey` | Yes | Unknown |
 | [mailjet](https://www.mailjet.com/) | Marketing email can be sent and mail templates made in MJML or HTML can be sent using API | `apiKey` | Yes | Unknown |
 | [markerapi](https://markerapi.com) | Trademark Search | No | No | Unknown |
+| [Moltpost](https://moltpost.io) | Send real physical postcards via API, worldwide delivery | No | Yes | Unknown |
 | [ORB Intelligence](https://api.orb-intelligence.com/docs/) | Company lookup | `apiKey` | Yes | Unknown |
 | [Redash](https://redash.io/help/user-guide/integrations-and-api/api) | Access your queries and dashboards on Redash | `apiKey` | Yes | Yes |
 | [Smartsheet](https://smartsheet.redoc.ly/) | Allows you to programmatically access and Smartsheet data and account information | `OAuth` | Yes | No |
