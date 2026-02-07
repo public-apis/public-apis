@@ -37,6 +37,7 @@
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
     "react-router-dom": "^7.13.0",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.1.18",
+    "zustand": "^5.0.11"
   }
 }

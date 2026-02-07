@@ -19,4 +19,15 @@ export type ApiType = {
   https: boolean;
   cors: CORSEnum;
   postmanLink?: string;
+  status?: string;
+};
+
+export type User = {
+  id: number;
+  githubId: number;
+  login: string;
+  avatar?: string;
+  githubToken: string;
+  createdAt: Date;
+  updatedAt: Date;
 };
