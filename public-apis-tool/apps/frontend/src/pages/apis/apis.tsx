@@ -1,169 +1,91 @@
-import React, { useMemo, useState } from "react";
-import type { ApiEntry } from "@repo/shared";
+import React, { useEffect, useMemo, useState } from "react";
+import type { ApiType } from "@repo/shared";
+import { apiClient } from "../../api/api-client";
+import { APIS_ROUTE } from "../../utils/constants";
 
-const APIS: ApiEntry[] = [
-  {
-    name: "OpenWeather",
-    description: "Weather data, forecasts, and historical observations.",
-    category: "Weather",
-    auth: "API Key",
-    https: true,
-    cors: "Yes",
-    link: "https://openweathermap.org/api",
-  },
-  {
-    name: "NewsAPI",
-    description: "Search headlines and news articles from sources worldwide.",
-    category: "News",
-    auth: "API Key",
-    https: true,
-    cors: "Yes",
-    link: "https://newsapi.org/",
-  },
-  {
-    name: "NASA",
-    description: "Astronomy images, missions, and space data feeds.",
-    category: "Science",
-    auth: "API Key",
-    https: true,
-    cors: "Yes",
-    link: "https://api.nasa.gov/",
-  },
-  {
-    name: "Cat Facts",
-    description: "Random cat facts for fun projects.",
-    category: "Animals",
-    auth: "None",
-    https: true,
-    cors: "Yes",
-    link: "https://catfact.ninja/",
-  },
-  {
-    name: "REST Countries",
-    description: "Country data including region, borders, and currencies.",
-    category: "Reference",
-    auth: "None",
-    https: true,
-    cors: "Yes",
-    link: "https://restcountries.com/",
-  },
-  {
-    name: "Exchange Rates",
-    description: "Currency exchange rates and conversions.",
-    category: "Finance",
-    auth: "API Key",
-    https: true,
-    cors: "Yes",
-    link: "https://exchangerate.host/",
-  },
-  {
-    name: "OpenLibrary",
-    description: "Book metadata and author information.",
-    category: "Books",
-    auth: "None",
-    https: true,
-    cors: "Unknown",
-    link: "https://openlibrary.org/developers/api",
-  },
-  {
-    name: "GitHub",
-    description: "Repositories, issues, and user data.",
-    category: "Developer",
-    auth: "OAuth",
-    https: true,
-    cors: "Yes",
-    link: "https://docs.github.com/rest",
-  },
-  {
-    name: "Spotify",
-    description: "Music catalog, playlists, and playback.",
-    category: "Music",
-    auth: "OAuth",
-    https: true,
-    cors: "Yes",
-    link: "https://developer.spotify.com/documentation/web-api",
-  },
-  {
-    name: "OMDb",
-    description: "Movie information and posters.",
-    category: "Entertainment",
-    auth: "API Key",
-    https: true,
-    cors: "Yes",
-    link: "https://www.omdbapi.com/",
-  },
-  {
-    name: "Dog API",
-    description: "Dog breeds and random images.",
-    category: "Animals",
-    auth: "None",
-    https: true,
-    cors: "Yes",
-    link: "https://dog.ceo/dog-api/",
-  },
-  {
-    name: "IPify",
-    description: "Get public IP address quickly.",
-    category: "Utility",
-    auth: "None",
-    https: true,
-    cors: "Yes",
-    link: "https://www.ipify.org/",
-  },
-  {
-    name: "HTTPBin",
-    description: "Testing HTTP requests and responses.",
-    category: "Developer",
-    auth: "None",
-    https: true,
-    cors: "Yes",
-    link: "https://httpbin.org/",
-  },
-  {
-    name: "CoinGecko",
-    description: "Crypto prices and market data.",
-    category: "Finance",
-    auth: "None",
-    https: true,
-    cors: "Yes",
-    link: "https://www.coingecko.com/en/api",
-  },
-  {
-    name: "Random User",
-    description: "Generate random user data for testing.",
-    category: "Utility",
-    auth: "None",
-    https: true,
-    cors: "Yes",
-    link: "https://randomuser.me/",
-  },
-];
+const authLabel = (auth: ApiType["auth"]) => {
+  switch (auth) {
+    case "apiKey":
+      return "API Key";
+    case "No":
+      return "None";
+    case "OAuth":
+      return "OAuth";
+    case "X-Mashape-Key":
+      return "X-Mashape-Key";
+    case "User-Agent":
+      return "User-Agent";
+    default:
+      return String(auth);
+  }
+};
+
+const corsLabel = (cors: ApiType["cors"]) => {
+  switch (cors) {
+    case "Yes":
+      return "Yes";
+    case "No":
+      return "No";
+    case "Unknown":
+      return "Unknown";
+    default:
+      return String(cors);
+  }
+};
 
 const ApisPage = () => {
+  const [apis, setApis] = useState<ApiType[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [selectedAuth, setSelectedAuth] = useState<ApiEntry["auth"][]>([]);
+  const [selectedAuth, setSelectedAuth] = useState<ApiType["auth"][]>([]);
   const [httpsOnly, setHttpsOnly] = useState<"all" | "yes" | "no">("all");
-  const [selectedCors, setSelectedCors] = useState<ApiEntry["cors"][]>([]);
+  const [selectedCors, setSelectedCors] = useState<ApiType["cors"][]>([]);
+
+  useEffect(() => {
+    let active = true;
+    setLoading(true);
+    setError(null);
+    apiClient
+      .get<ApiType[]>(APIS_ROUTE)
+      .then((res) => {
+        if (!active) return;
+        setApis(res.data ?? []);
+      })
+      .catch((err) => {
+        if (!active) return;
+        setError(err?.message ?? "Failed to load APIs");
+        setApis([]);
+      })
+      .finally(() => {
+        if (!active) return;
+        setLoading(false);
+      });
+
+    return () => {
+      active = false;
+    };
+  }, []);
 
   const categories = useMemo(
-    () => Array.from(new Set(APIS.map((api) => api.category))).sort(),
-    []
+    () => Array.from(new Set(apis.map((api) => api.category))).sort(),
+    [apis]
   );
 
   const authTypes = useMemo(
-    () => Array.from(new Set(APIS.map((api) => api.auth))).sort(),
-    []
+    () => Array.from(new Set(apis.map((api) => api.auth))).sort(),
+    [apis]
   );
 
   const corsOptions = useMemo(
-    () => Array.from(new Set(APIS.map((api) => api.cors))).sort(),
-    []
+    () => Array.from(new Set(apis.map((api) => api.cors))).sort(),
+    [apis]
   );
 
   const filteredApis = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
-    return APIS.filter((api) => {
+    return apis.filter((api) => {
       const matchesQuery =
         normalizedQuery.length === 0 ||
         api.name.toLowerCase().includes(normalizedQuery) ||
@@ -193,7 +115,7 @@ const ApisPage = () => {
         matchesCors
       );
     });
-  }, [query, selectedCategories, selectedAuth, httpsOnly, selectedCors]);
+  }, [apis, query, selectedCategories, selectedAuth, httpsOnly, selectedCors]);
 
   const toggleValue = <T,>(value: T, list: T[], setList: (v: T[]) => void) => {
     if (list.includes(value)) {
@@ -272,7 +194,7 @@ const ApisPage = () => {
                         : "border-zinc-300 bg-white text-zinc-700 hover:border-emerald-400 dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-200"
                     }`}
                   >
-                    {auth}
+                    {authLabel(auth)}
                   </button>
                 ))}
               </div>
@@ -293,7 +215,7 @@ const ApisPage = () => {
                         : "border-zinc-300 bg-white text-zinc-700 hover:border-purple-400 dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-200"
                     }`}
                   >
-                    {cors}
+                    {corsLabel(cors)}
                   </button>
                 ))}
               </div>
@@ -334,15 +256,27 @@ const ApisPage = () => {
         <div className="flex items-center justify-between text-sm text-zinc-500">
           <p>
             Found <span className="font-semibold">{filteredApis.length}</span>{" "}
-            out of <span className="font-semibold">{APIS.length}</span>
+            out of <span className="font-semibold">{apis.length}</span>
           </p>
           <p>Shown based on selected filters</p>
         </div>
 
+        {loading && (
+          <div className="rounded-2xl border border-dashed border-zinc-300 p-8 text-center text-zinc-500">
+            Loading APIs...
+          </div>
+        )}
+
+        {error && !loading && (
+          <div className="rounded-2xl border border-dashed border-rose-300 p-8 text-center text-rose-600">
+            {error}
+          </div>
+        )}
+
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {filteredApis.map((api) => (
+          {filteredApis.map((api, index) => (
             <div
-              key={api.name}
+              key={`${api.name}-${api.category}-${api.link ?? "no-link"}-${index}`}
               className="flex h-full flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900"
             >
               <div className="flex items-start justify-between gap-2">
@@ -365,26 +299,32 @@ const ApisPage = () => {
 
               <div className="mt-auto flex flex-wrap gap-2 text-xs">
                 <span className="rounded-full bg-blue-100 px-2 py-1 text-blue-700">
-                  {api.auth}
+                  {authLabel(api.auth)}
                 </span>
                 <span className="rounded-full bg-purple-100 px-2 py-1 text-purple-700">
-                  CORS: {api.cors}
+                  CORS: {corsLabel(api.cors)}
                 </span>
               </div>
 
-              <a
-                href={api.link}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-2 text-sm font-semibold text-blue-700 hover:text-blue-600"
-              >
-                Go to documentation
-              </a>
+              {api.link ? (
+                <a
+                  href={api.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-2 text-sm font-semibold text-blue-700 hover:text-blue-600"
+                >
+                  Go to documentation
+                </a>
+              ) : (
+                <span className="mt-2 text-sm font-semibold text-zinc-400">
+                  No documentation link
+                </span>
+              )}
             </div>
           ))}
         </div>
 
-        {filteredApis.length === 0 && (
+        {filteredApis.length === 0 && !loading && !error && (
           <div className="rounded-2xl border border-dashed border-zinc-300 p-8 text-center text-zinc-500">
            Nothing found. Please change your search query or filters.
           </div>
