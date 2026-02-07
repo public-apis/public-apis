@@ -100,7 +100,7 @@ const Main = () => {
         <p className="font-semibold tracking-widest text-3xl text-center">
           Tech Stack
         </p>
-        <div className="flex w-full items-center justify-center gap-12 px-4 my-12">
+        <div className="flex w-full items-center justify-center gap-12 px-4 my-12 flex-wrap">
           <TechCard
             name="React"
             logo="./tech-icons/react.png"
@@ -131,7 +131,19 @@ const Main = () => {
           <TechCard
             name="NestJS"
             logo="./tech-icons/nestjs.png"
-            gradient="bg-gradient-to-br from-red-500 to-rose-700"
+            gradient="bg-gradient-to-br from-red-400 to-red-700"
+          />
+
+          <TechCard
+            name="Prisma ORM"
+            logo="./tech-icons/prisma.png"
+            gradient="bg-gradient-to-br from-teal-600 to-cyan-800"
+          />
+
+          <TechCard
+            name="PostgreSQL"
+            logo="./tech-icons/postgres.png"
+            gradient="bg-gradient-to-br from-cyan-600 to-blue-700"
           />
 
           <TechCard
