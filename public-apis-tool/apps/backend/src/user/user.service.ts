@@ -1,4 +1,6 @@
-import { Injectable } from "@nestjs/common";
+import { Injectable, Res, UseGuards } from "@nestjs/common";
+import type { Response } from "express";
+import { JwtAuthGuard } from "src/auth/jwt.guard";
 import { User } from "src/generated/prisma/client";
 import { PrismaService } from "src/prisma/prisma.service";
 

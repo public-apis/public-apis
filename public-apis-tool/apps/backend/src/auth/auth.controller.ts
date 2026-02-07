@@ -10,6 +10,16 @@ export class AuthController {
     private readonly userService: UserService,
   ) {}
 
+  @Get("github")
+  githubLogin(@Res() res: Response) {
+    const redirectUrl =
+      `https://github.com/login/oauth/authorize` +
+      `?client_id=${process.env.GITHUB_CLIENT_ID}` +
+      `&scope=repo user`;
+
+    return res.redirect(redirectUrl);
+  }
+
   @Get("github/callback")
   async githubCallback(@Query("code") code: string, @Res() res: Response) {
     const accessToken = await this.authService.getAccessToken(code);
