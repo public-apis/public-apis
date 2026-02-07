@@ -1,3 +1,5 @@
+import { AuthEnum, CORSEnum } from "./enums";
+
 export type ApiEntry = {
   name: string;
   description: string;
@@ -6,4 +8,15 @@ export type ApiEntry = {
   https: boolean;
   cors: "Yes" | "No" | "Unknown";
   link: string;
+};
+
+export type ApiType = {
+  name: string;
+  category: string;
+  link: string;
+  description: string;
+  auth: AuthEnum;
+  https: boolean;
+  cors: CORSEnum;
+  postmanLink?: string;
 };

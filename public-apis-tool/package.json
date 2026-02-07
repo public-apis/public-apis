@@ -9,6 +9,7 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "@types/passport-jwt": "^4.0.1",
     "prettier": "^3.7.4",
     "turbo": "^2.8.1",
     "typescript": "5.9.2"
@@ -22,12 +23,18 @@
     "packages/*"
   ],
   "dependencies": {
+    "@nestjs/jwt": "^11.0.2",
+    "@nestjs/passport": "^11.0.5",
+    "@prisma/client": "^7.3.0",
     "@repo/shared": "*",
     "@tailwindcss/vite": "^4.1.18",
     "axios": "^1.13.4",
+    "cookie-parser": "^1.4.7",
     "dotenv": "^17.2.4",
     "framer-motion": "^12.33.0",
     "lucide-react": "^0.563.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
     "react-router-dom": "^7.13.0",
     "tailwindcss": "^4.1.18"
   }

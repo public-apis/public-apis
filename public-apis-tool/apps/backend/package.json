@@ -44,6 +44,7 @@
     "globals": "^16.0.0",
     "jest": "^30.0.0",
     "prettier": "^3.4.2",
+    "prisma": "^7.3.0",
     "source-map-support": "^0.5.21",
     "supertest": "^7.0.0",
     "ts-jest": "^29.2.5",
