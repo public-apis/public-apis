@@ -2,19 +2,11 @@
   "name": "@repo/shared",
   "version": "0.0.0",
   "private": true,
-  "types": "./dist/types.d.ts",
+  "types": "./src/index.ts",
   "exports": {
-    "./types": {
-      "types": "./dist/types.d.ts",
-      "default": "./dist/types.js"
-    },
-    "./enums": {
-      "types": "./dist/enums.d.ts",
-      "default": "./dist/enums.js"
-    },
-    "./dto/*": {
-      "types": "./dist/dto/*.d.ts",
-      "default": "./dist/dto/*.js"
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
     }
   },
   "scripts": {

@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Feature from "./components/feature";
 import TechCard from "./components/tech-card";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -36,9 +37,12 @@ const Main = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <button className="cursor-pointer text-zinc-100 rounded-xl bg-blue-700 hover:bg-blue-600 hover:shadow-md hover:shadow-blue-600/50 px-12 py-2 text-lg transition-all duration-300">
+          <Link
+            to="/apis"
+            className="cursor-pointer text-zinc-100 rounded-xl bg-blue-700 hover:bg-blue-600 hover:shadow-md hover:shadow-blue-600/50 px-12 py-2 text-lg transition-all duration-300"
+          >
             View APIs
-          </button>
+          </Link>
         </motion.div>
       </div>
       <div className="py-6 w-full max-w-342">

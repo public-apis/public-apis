@@ -22,6 +22,7 @@
     "packages/*"
   ],
   "dependencies": {
+    "@repo/shared": "*",
     "@tailwindcss/vite": "^4.1.18",
     "axios": "^1.13.4",
     "framer-motion": "^12.33.0",

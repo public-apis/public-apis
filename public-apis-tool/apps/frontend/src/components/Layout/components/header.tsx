@@ -14,7 +14,12 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-4">
             <p>Link1</p>
-            <p>Link2</p>
+            <Link
+              to="/apis"
+              className="flex items-center gap-4"
+            >
+              APIs
+            </Link>
             <ThemeToggler />
           </div>
         </div>
