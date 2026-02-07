@@ -18,9 +18,14 @@ const AccountDetail = () => {
 
   if (!user) {
     return (
-      <div className="flex w-full justify-center items-center h-[70vh]">
+      <div className="flex w-full justify-center items-center h-[70vh] px-2">
         <div className="flex flex-col w-full max-w-102 gap-4 items-center justify-center text-center">
           <p className="text-2xl font-semibold">Authorization required!</p>
+          <img
+            src="./tech-icons/github.png"
+            alt="GitHub"
+            className="w-[50vw] max-w-48"
+          />
           <p className="text-md opacity-90">
             You are not authorized with your github account. Use button below to
             login.
