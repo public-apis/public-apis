@@ -1,7 +1,14 @@
 import { Controller } from "@nestjs/common";
 import { ApisService } from "./apis.service";
+import { Get } from "@nestjs/common";
 
-@Controller("apis")
+@Controller('apis')
 export class ApisController {
   constructor(private readonly apisService: ApisService) {}
+
+  @Get()
+  async getApis() {
+    const md = await this.apisService.loadReadme();
+    return this.apisService.parseReadme(md);
+  }
 }
