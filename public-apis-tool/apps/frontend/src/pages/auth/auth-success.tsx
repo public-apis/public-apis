@@ -6,12 +6,14 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 
 const AuthSuccess = () => {
-  const { setUser, clearUser } = useStore();
+  const setUser = useStore((state) => state.setUser);
+  const clearUser = useStore((state) => state.clearUser);
   const navigate = useNavigate();
   const getMe = async () => {
     await apiClient
       .get(GET_ME, { withCredentials: true })
       .then((res) => {
+        console.log(res);
         setUser(res.data.user);
         toast.success("Authorization successful");
       })
@@ -25,9 +27,9 @@ const AuthSuccess = () => {
       });
   };
   useEffect(() => {
-    getMe;
+    getMe();
   }, []);
-  return <div>AuthSuccess</div>;
+  return <div className="mt-4 text-center">Authorizing...</div>;
 };
 
 export default AuthSuccess;

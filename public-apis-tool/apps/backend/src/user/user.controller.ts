@@ -25,6 +25,6 @@ export class UserController {
       maxAge: 1,
     });
 
-    return true;
+    return res.json({ success: true });
   }
 }

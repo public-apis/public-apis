@@ -8,6 +8,6 @@ export interface UserStore {
 
 export const createUserSlice = (set: any): UserStore => ({
   user: null,
-  setUser: (user) => set({ user }),
-  clearUser: () => set(null),
+  setUser: (user: User) => set({ user }),
+  clearUser: () => set({ user: null }),
 });

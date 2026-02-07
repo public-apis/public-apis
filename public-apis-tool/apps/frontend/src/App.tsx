@@ -6,12 +6,13 @@ import AddApi from "./pages/add-api/add-api";
 import AuthSuccess from "./pages/auth/auth-success";
 import { useStore } from "./store";
 import { useEffect } from "react";
-import { toast } from "sonner";
 import { apiClient } from "./api/api-client";
 import { GET_ME } from "./utils/constants";
 
 function App() {
-  const { setUser, clearUser } = useStore();
+  const setUser = useStore((state) => state.setUser);
+  const clearUser = useStore((state) => state.clearUser);
+
   const getMe = async () => {
     await apiClient
       .get(GET_ME, { withCredentials: true })
@@ -24,6 +25,7 @@ function App() {
         clearUser();
       });
   };
+
   useEffect(() => {
     getMe();
   }, []);
@@ -35,10 +37,11 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/apis" element={<ApisPage />} />
           <Route path="/add-api" element={<AddApi />} />
-          <Route path="*" element={<Navigate to={"/"} />} />
         </Route>
 
         <Route path="/auth-success" element={<AuthSuccess />} />
+
+        <Route path="*" element={<Navigate to={"/"} />} />
       </Routes>
     </BrowserRouter>
   );

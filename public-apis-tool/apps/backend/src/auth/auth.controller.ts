@@ -41,6 +41,6 @@ export class AuthController {
       maxAge: 1000 * 60 * 60 * 24,
     });
 
-    res.redirect(`${process.env.ORIGIN}`);
+    res.redirect(`${process.env.ORIGIN}/auth-success`);
   }
 }

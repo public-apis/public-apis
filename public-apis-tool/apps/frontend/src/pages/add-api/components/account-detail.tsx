@@ -6,7 +6,8 @@ import React from "react";
 import { toast } from "sonner";
 
 const AccountDetail = () => {
-  const { user, clearUser } = useStore();
+  const user = useStore((state) => state.user);
+  const clearUser = useStore((state) => state.clearUser);
 
   const handleLogout = async () => {
     await apiClient.get(LOGOUT_ROUTE, { withCredentials: true }).then(() => {
