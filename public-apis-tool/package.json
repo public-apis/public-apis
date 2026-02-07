@@ -25,6 +25,7 @@
   "dependencies": {
     "@nestjs/jwt": "^11.0.2",
     "@nestjs/passport": "^11.0.5",
+    "@prisma/adapter-pg": "^7.3.0",
     "@prisma/client": "^7.3.0",
     "@repo/shared": "*",
     "@tailwindcss/vite": "^4.1.18",
