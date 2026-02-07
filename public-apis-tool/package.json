@@ -25,6 +25,7 @@
     "@repo/shared": "*",
     "@tailwindcss/vite": "^4.1.18",
     "axios": "^1.13.4",
+    "dotenv": "^17.2.4",
     "framer-motion": "^12.33.0",
     "lucide-react": "^0.563.0",
     "react-router-dom": "^7.13.0",
