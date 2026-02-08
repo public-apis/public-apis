@@ -32,7 +32,7 @@ const AccountDetail = () => {
           </p>
           <a
             href={GITHUB_AUTH_ROUTE}
-            className="flex gap-2 justify-center items-center py-2 px-4 bg-zinc-900 dark:bg-zinc-100 shadow-zinc-900/30 dark:shadow-zinc-100/30 hover:shadow-lg rounded-lg cursor-pointer transition-shadow duration-300"
+            className="flex gap-2 justify-center items-center py-2 px-8 bg-zinc-900 dark:bg-zinc-100 shadow-zinc-900/30 dark:shadow-zinc-100/30 hover:shadow-lg rounded-lg cursor-pointer transition-shadow duration-300"
           >
             <Github className="invert" />
             <p className="text-md font-semibold text-zinc-100 dark:text-zinc-900">
@@ -46,16 +46,16 @@ const AccountDetail = () => {
   return (
     <div className="flex w-full justify-center items-center py-4">
       <div className="flex flex-col w-full gap-4 items-center justify-center text-center">
-        <div className="h-32 w-32 rounded-full">
+        <div className="h-24 w-24 rounded-full">
           <img src={user.avatar} alt="" className="rounded-full" />
         </div>
         <p className="text-xl font-semibold">Hello, {user.login}!</p>
         <button
-          className="flex gap-2 justify-center items-center py-2 px-4 bg-zinc-900 dark:bg-zinc-100 shadow-zinc-900/30 dark:shadow-zinc-100/30 hover:shadow-lg rounded-lg cursor-pointer transition-shadow duration-300"
+          className="flex gap-2 justify-center items-center py-2 px-8 bg-zinc-900 dark:bg-zinc-100 shadow-zinc-900/30 dark:shadow-zinc-100/30 hover:shadow-lg rounded-lg cursor-pointer transition-shadow duration-300"
           onClick={handleLogout}
         >
-          <LogOut className="invert" />
-          <p className="text-md font-semibold text-zinc-100 dark:text-zinc-900">
+          <LogOut className="invert" size={18} />
+          <p className="text-sm font-semibold text-zinc-100 dark:text-zinc-900">
             Log Out
           </p>
         </button>
