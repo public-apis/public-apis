@@ -1,3 +1,4 @@
+import { apiClient } from "@/api/api-client";
 import {
   Select,
   SelectContent,
@@ -6,7 +7,9 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Switch } from "@/components/ui/switch";
-import React, { useState } from "react";
+import { GET_CATEGORIES } from "@/utils/constants";
+import React, { useEffect, useState } from "react";
+import { BeatLoader } from "react-spinners";
 
 const PRForm = () => {
   const [category, setCategory] = useState("");
@@ -20,10 +23,54 @@ const PRForm = () => {
 
   const authValues = ["No", "OAuth", "apiKey", "X-Mashape-Key", "User-Agent"];
   const corsValues = ["Unknown", "No", "Yes"];
+  const [categories, setCategories] = useState([]);
+
+  const getCategories = async () => {
+    await apiClient
+      .get(GET_CATEGORIES, { withCredentials: true })
+      .then((res) => {
+        setCategories(res.data.categories);
+        setCategory(res.data.categories[0]);
+      });
+  };
+
+  useEffect(() => {
+    getCategories();
+  }, []);
+
+  if (!categories || categories.length == 0)
+    return (
+      <div className="flex w-full items-center justify-center px-2">
+        <BeatLoader color="#1d4ed8" size={18} />
+      </div>
+    );
 
   return (
     <div className="flex w-full items-center justify-center px-2">
       <div className="flex flex-col w-full gap-3 max-w-132">
+        <div className="flex flex-col">
+          <label className="opacity-75 px-2">Category</label>
+          <Select
+            defaultValue={categories[0]}
+            value={category}
+            onValueChange={(val) => {
+              setCategory(val);
+            }}
+          >
+            <SelectTrigger className="w-full outline-0 border-0 bg-zinc-800 text-md p-2">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent position="popper">
+              <div className="max-h-[60vh]">
+                {categories.map((val) => (
+                  <SelectItem key={val} value={val}>
+                    {val}
+                  </SelectItem>
+                ))}
+              </div>
+            </SelectContent>
+          </Select>
+        </div>
         <div className="flex flex-col">
           <label htmlFor="name" className="opacity-75 px-2">
             API Name
@@ -132,7 +179,7 @@ const PRForm = () => {
             }}
           />
         </div>
-        <button className="bg-blue-700 text-zinc-100 w-full text-center p-2 shadow-blue-700/30 hover:bg-blue-600 hover:shadow-lg rounded-lg cursor-pointer transition-all duration-300">
+        <button className="bg-blue-700 text-zinc-100 mt-2 w-full text-center p-2 shadow-blue-700/30 hover:bg-blue-600 hover:shadow-lg rounded-lg cursor-pointer transition-all duration-300">
           Add API
         </button>
       </div>
