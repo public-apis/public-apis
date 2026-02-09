@@ -1,7 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { PrismaService } from "src/prisma/prisma.service";
-import { readFile } from 'fs/promises';
-import { join, resolve } from 'path';
+import axios from "axios";
 
 export type ApiType = {
   name: string;
@@ -35,9 +34,10 @@ export enum CORSEnum {
 export class ApisService {
 
   async loadReadme(): Promise<string> {
-    const path =
-      resolve(process.cwd(), '../../../README.md');
-    return readFile(path, 'utf-8');
+    const url =
+      "https://raw.githubusercontent.com/L3gvccy/public-apis/master/README.md";
+    const res = await axios.get<string>(url, { responseType: "text" });
+    return res.data;
   }
 
   parseReadme(md: string) {
