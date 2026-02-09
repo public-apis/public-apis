@@ -9,3 +9,6 @@ export const GITHUB_AUTH_ROUTE = `${HOST}${AUTH_ROUTES}/github`;
 export const USER_ROUTES = `/user`;
 export const GET_ME = `${USER_ROUTES}/me`;
 export const LOGOUT_ROUTE = `${USER_ROUTES}/logout`;
+
+export const GITHUB_ROUTES = "/github";
+export const ADD_API_ROUTE = `${GITHUB_ROUTES}/add-api`;

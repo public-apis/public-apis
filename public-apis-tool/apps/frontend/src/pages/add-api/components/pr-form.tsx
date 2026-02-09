@@ -7,9 +7,11 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Switch } from "@/components/ui/switch";
-import { GET_CATEGORIES } from "@/utils/constants";
+import { ADD_API_ROUTE, GET_CATEGORIES } from "@/utils/constants";
+import type { ApiType } from "@repo/shared";
 import React, { useEffect, useState } from "react";
 import { BeatLoader } from "react-spinners";
+import { AuthEnum, CORSEnum } from "@repo/shared";
 
 const PRForm = () => {
   const [category, setCategory] = useState("");
@@ -25,6 +27,30 @@ const PRForm = () => {
   const corsValues = ["Unknown", "No", "Yes"];
   const [categories, setCategories] = useState([]);
 
+  function parseAuthEnum(value: string): AuthEnum {
+    switch (value) {
+      case "OAuth":
+        return AuthEnum.OAuth;
+      case "apiKey":
+        return AuthEnum.apiKey;
+      case "X-Mashape-Key":
+        return AuthEnum.XMashapeKey;
+      case "No":
+        return AuthEnum.No;
+      case "User-Agent":
+        return AuthEnum.UserAgent;
+      default:
+        return AuthEnum.No;
+    }
+  }
+
+  function parseCORSEnum(value: string): CORSEnum {
+    if (Object.values(CORSEnum).includes(value as CORSEnum)) {
+      return value as CORSEnum;
+    }
+    return CORSEnum.Unknown;
+  }
+
   const getCategories = async () => {
     await apiClient
       .get(GET_CATEGORIES, { withCredentials: true })
@@ -37,6 +63,28 @@ const PRForm = () => {
   useEffect(() => {
     getCategories();
   }, []);
+
+  const handleSubmit = async () => {
+    const api: ApiType = {
+      name: name,
+      category,
+      link,
+      description,
+      auth: parseAuthEnum(auth),
+      https,
+      cors: parseCORSEnum(cors),
+      postmanLink: postmanLink ? postmanLink : undefined,
+    };
+
+    await apiClient
+      .post(ADD_API_ROUTE, api, { withCredentials: true })
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  };
 
   if (!categories || categories.length == 0)
     return (
@@ -179,7 +227,10 @@ const PRForm = () => {
             }}
           />
         </div>
-        <button className="bg-blue-700 text-zinc-100 mt-2 w-full text-center p-2 shadow-blue-700/30 hover:bg-blue-600 hover:shadow-lg rounded-lg cursor-pointer transition-all duration-300">
+        <button
+          className="bg-blue-700 text-zinc-100 mt-2 w-full text-center p-2 shadow-blue-700/30 hover:bg-blue-600 hover:shadow-lg rounded-lg cursor-pointer transition-all duration-300"
+          onClick={handleSubmit}
+        >
           Add API
         </button>
       </div>
