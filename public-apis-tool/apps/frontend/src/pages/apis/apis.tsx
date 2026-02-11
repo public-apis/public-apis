@@ -9,6 +9,8 @@ import {
 } from "@/components/ui/collapsible";
 import { ChevronDown, ChevronUp, Filter, FilterX } from "lucide-react";
 import ApiDisplay from "./components/api-display";
+import { BeatLoader } from "react-spinners";
+import ApiPages from "./components/api-pages";
 
 const authLabel = (auth: ApiType["auth"]) => {
   switch (auth) {
@@ -296,8 +298,8 @@ const ApisPage = () => {
         </div>
 
         {loading && (
-          <div className="rounded-2xl border border-dashed border-zinc-300 p-8 text-center text-zinc-500">
-            Loading APIs...
+          <div className="flex justify-center rounded-2xl border border-dashed border-zinc-300 p-8 text-zinc-500">
+            <BeatLoader color="#1d4ed8" size={18} />
           </div>
         )}
 
@@ -307,14 +309,15 @@ const ApisPage = () => {
           </div>
         )}
 
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        {/* <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {filteredApis.map((api, index) => (
             <ApiDisplay
               key={`${api.name}-${api.category}-${api.link ?? "no-link"}-${index}`}
               api={api}
             />
           ))}
-        </div>
+        </div> */}
+        {filteredApis.length > 0 && <ApiPages apis={filteredApis} />}
 
         {filteredApis.length === 0 && !loading && !error && (
           <div className="rounded-2xl border border-dashed border-zinc-300 p-8 text-center text-zinc-500">

@@ -149,7 +149,7 @@ const PRForm = () => {
               setCategory(val);
             }}
           >
-            <SelectTrigger className="w-full outline-0 border-0 bg-zinc-800 text-md p-2">
+            <SelectTrigger className="w-full outline-0 border-0 bg-zinc-100 dark:bg-zinc-800 text-md p-2">
               <SelectValue />
             </SelectTrigger>
             <SelectContent position="popper">
@@ -217,7 +217,7 @@ const PRForm = () => {
               setAuth(val);
             }}
           >
-            <SelectTrigger className="w-full outline-0 border-0 bg-zinc-800 text-md p-2">
+            <SelectTrigger className="w-full outline-0 border-0 bg-zinc-100 dark:bg-zinc-800 text-md p-2">
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
@@ -244,7 +244,7 @@ const PRForm = () => {
               setCors(val);
             }}
           >
-            <SelectTrigger className="w-full outline-0 border-0 bg-zinc-800 text-md p-2">
+            <SelectTrigger className="w-full outline-0 border-0 bg-zinc-100 dark:bg-zinc-800 text-md p-2">
               <SelectValue />
             </SelectTrigger>
             <SelectContent>

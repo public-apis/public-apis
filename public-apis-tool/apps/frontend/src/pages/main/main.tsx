@@ -37,11 +37,10 @@ const Main = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <Link
-            to="/apis"
-            className="cursor-pointer text-zinc-100 rounded-xl bg-blue-700 hover:bg-blue-600 hover:shadow-md hover:shadow-blue-600/50 px-12 py-2 text-lg transition-all duration-300"
-          >
-            View APIs
+          <Link to="/apis">
+            <div className="cursor-pointer text-zinc-100 rounded-xl bg-blue-700 hover:bg-blue-600 hover:shadow-md hover:shadow-blue-600/50 px-12 py-2 text-lg transition-all duration-300">
+              View APIs
+            </div>
           </Link>
         </motion.div>
       </div>
@@ -105,51 +104,60 @@ const Main = () => {
             name="React"
             logo="./tech-icons/react.png"
             gradient="bg-gradient-to-br from-cyan-500 to-blue-600"
+            animationDelay={0.1}
           />
           <TechCard
             name="TypeScript"
             logo="./tech-icons/typescript.png"
             gradient="bg-gradient-to-br from-blue-400 to-indigo-600"
+            animationDelay={0.2}
           />
           <TechCard
             name="Tailwind CSS"
             logo="./tech-icons/tailwind.png"
             gradient="bg-gradient-to-br from-cyan-600 to-blue-700"
+            animationDelay={0.3}
           />
           <TechCard
             name="Zustand"
             logo="./tech-icons/zustand.png"
             gradient="bg-gradient-to-br from-yellow-400 to-yellow-600"
+            animationDelay={0.4}
           />
 
           <TechCard
             name="Node.js"
             logo="./tech-icons/nodejs.png"
             gradient="bg-gradient-to-br from-green-500 to-emerald-700"
+            animationDelay={0.5}
           />
 
           <TechCard
             name="NestJS"
             logo="./tech-icons/nestjs.png"
             gradient="bg-gradient-to-br from-red-400 to-red-700"
+            animationDelay={0.6}
           />
 
           <TechCard
             name="Prisma ORM"
             logo="./tech-icons/prisma.png"
             gradient="bg-gradient-to-br from-teal-600 to-cyan-800"
+            animationDelay={0.7}
           />
 
           <TechCard
             name="PostgreSQL"
             logo="./tech-icons/postgres.png"
             gradient="bg-gradient-to-br from-cyan-600 to-blue-700"
+            animationDelay={0.8}
           />
 
           <TechCard
             name="GitHub"
             logo="./tech-icons/github.png"
             gradient="bg-gradient-to-br from-gray-700 to-black"
+            animationDelay={0.9}
           />
         </div>
       </div>
