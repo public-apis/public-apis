@@ -12,6 +12,7 @@ import type { ApiType } from "@repo/shared";
 import React, { useEffect, useState } from "react";
 import { BeatLoader } from "react-spinners";
 import { AuthEnum, CORSEnum } from "@repo/shared";
+import { toast } from "sonner";
 
 const PRForm = () => {
   const [category, setCategory] = useState("");
@@ -21,6 +22,8 @@ const PRForm = () => {
   const [auth, setAuth] = useState("No");
   const [https, setHttps] = useState(false);
   const [cors, setCors] = useState("Unknown");
+
+  const [creating, setCreating] = useState(false);
 
   const authValues = ["No", "OAuth", "apiKey", "X-Mashape-Key", "User-Agent"];
   const corsValues = ["Unknown", "No", "Yes"];
@@ -63,7 +66,41 @@ const PRForm = () => {
     getCategories();
   }, []);
 
+  const hasForbiddenChars = (text: string): boolean => {
+    return /[\\[\]|]/.test(text);
+  };
+
+  const canSubmit = (): boolean => {
+    if (hasForbiddenChars(name)) {
+      toast.error("Name has forbidden characters (|, [, ])");
+    }
+    if (hasForbiddenChars(link)) {
+      toast.error("Link has forbidden characters (|, [, ])");
+    }
+    if (hasForbiddenChars(description)) {
+      toast.error("Description has forbidden characters (|, [, ])");
+    }
+
+    return true;
+  };
+
+  const resetFields = () => {
+    setCategory(categories[0]);
+    setName("");
+    setLink("");
+    setDescription("");
+    setAuth("No");
+    setHttps(false);
+    setCors("Unknown");
+  };
+
   const handleSubmit = async () => {
+    if (!canSubmit()) {
+      return;
+    }
+
+    setCreating(true);
+
     const api: ApiType = {
       name: name,
       category,
@@ -74,14 +111,23 @@ const PRForm = () => {
       cors: parseCORSEnum(cors),
     };
 
-    await apiClient
-      .post(ADD_API_ROUTE, api, { withCredentials: true })
-      .then((res) => {
-        console.log(res.data);
-      })
-      .catch((err) => {
-        console.error(err);
-      });
+    try {
+      const res = await toast.promise(
+        () => apiClient.post(ADD_API_ROUTE, api, { withCredentials: true }),
+        {
+          loading: "Creating Pull Request...",
+          success: () => "Pull Request was created successfully",
+          error: () => "Error in creating Pull Request",
+        },
+      );
+
+      console.log((await res.unwrap()).data);
+      resetFields();
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setCreating(false);
+    }
   };
 
   if (!categories || categories.length == 0)
@@ -212,10 +258,11 @@ const PRForm = () => {
         </div>
 
         <button
-          className="bg-blue-700 text-zinc-100 mt-2 w-full text-center p-2 shadow-blue-700/30 hover:bg-blue-600 hover:shadow-lg rounded-lg cursor-pointer transition-all duration-300"
+          disabled={!name || !link || !description || creating}
+          className="bg-blue-700 text-zinc-100 mt-2 w-full text-center p-2 shadow-blue-700/30 hover:bg-blue-600 hover:shadow-lg disabled:hover:shadow-none disabled:bg-blue-950 disabled:cursor-auto rounded-lg cursor-pointer transition-all duration-300"
           onClick={handleSubmit}
         >
-          Add API
+          {creating ? "Adding API..." : "Add API"}
         </button>
       </div>
     </div>
