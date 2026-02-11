@@ -1,4 +1,4 @@
-import { Controller } from "@nestjs/common";
+import { Controller, Query } from "@nestjs/common";
 import { ApisService } from "./apis.service";
 import { Get } from "@nestjs/common";
 
@@ -16,5 +16,10 @@ export class ApisController {
   async getCategories() {
     const md = await this.apisService.loadReadme();
     return this.apisService.getCategories(md);
+  }
+
+  @Get("check")
+  async checkDocumentation(@Query("url") url: string) {
+    return await this.apisService.checkApiStatus(url);
   }
 }

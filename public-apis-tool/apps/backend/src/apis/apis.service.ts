@@ -1,6 +1,7 @@
-import { Injectable } from "@nestjs/common";
+import { Injectable, BadRequestException } from "@nestjs/common";
 import { PrismaService } from "src/prisma/prisma.service";
 import axios from "axios";
+import { URL } from "url";
 
 export type ApiType = {
   name: string;
@@ -11,7 +12,7 @@ export type ApiType = {
   https: boolean;
   cors: CORSEnum;
   postmanLink?: string;
-  status?: string;
+  status?: ApiStatusResult;
 };
 
 export enum AuthEnum {
@@ -28,8 +29,27 @@ export enum CORSEnum {
   Unknown = "Unknown",
 }
 
+type ApiStatus = "online" | "offline" | "unknown";
+
+type ApiStatusResult = {
+  url: string;
+  status: ApiStatus;
+  code: number | null;
+  responseTimeMs: number | null;
+  checkedAt: string;
+};
+
+type ApiStatusCacheEntry = {
+  data: ApiStatusResult;
+  expiresAt: number;
+};
+
 @Injectable()
 export class ApisService {
+  private readonly statusCache = new Map<string, ApiStatusCacheEntry>();
+
+  private readonly cacheTtlMs = 1000 * 60 * 30; 
+
   async loadReadme(): Promise<string> {
     const url =
       "https://raw.githubusercontent.com/L3gvccy/public-apis/master/README.md";
@@ -116,6 +136,92 @@ export class ApisService {
     }
 
     return apis;
+  }
+
+  async checkApiStatus(url: string) {
+    const normalizedUrl = this.normalizeUrl(url);
+
+    const cached = this.statusCache.get(normalizedUrl);
+    if (cached && cached.expiresAt > Date.now()) {
+      return cached.data;
+    }
+
+    const start = Date.now();
+    let status: ApiStatus = "unknown";
+    let code: number | null = null;
+
+    try {
+      const head = await axios.head(normalizedUrl, {
+        timeout: 5000,
+        maxRedirects: 3,
+        validateStatus: () => true,
+      });
+      code = head.status;
+      if (code >= 200 && code < 400) {
+        status = "online";
+      } else if (code >= 400 && code < 600) {
+        status = "offline";
+      }
+    } catch {
+      try {
+        const get = await axios.get(normalizedUrl, {
+          timeout: 5000,
+          maxRedirects: 3,
+          validateStatus: () => true,
+        });
+        code = get.status;
+        if (code >= 200 && code < 400) {
+          status = "online";
+        } else if (code >= 400 && code < 600) {
+          status = "offline";
+        }
+      } catch {
+        status = "unknown";
+      }
+    }
+
+    const data: ApiStatusResult = {
+      url: normalizedUrl,
+      status,
+      code,
+      responseTimeMs: Date.now() - start,
+      checkedAt: new Date().toISOString(),
+    };
+
+    this.statusCache.set(normalizedUrl, {
+      data,
+      expiresAt: Date.now() + this.cacheTtlMs,
+    });
+
+    return data;
+  }
+
+  private normalizeUrl(input: string): string {
+    if (!input || input.trim().length === 0) {
+      throw new BadRequestException("URL is required");
+    }
+
+    let parsed: URL;
+    try {
+      parsed = new URL(input);
+    } catch {
+      throw new BadRequestException("Invalid URL");
+    }
+
+    if (!["http:", "https:"].includes(parsed.protocol)) {
+      throw new BadRequestException("Only http/https URLs are allowed");
+    }
+
+    const hostname = parsed.hostname.toLowerCase();
+    if (
+      hostname === "localhost" ||
+      hostname.startsWith("127.") ||
+      hostname.startsWith("192.168.") 
+    ) {
+      throw new BadRequestException("Private network URLs are not allowed");
+    }
+
+    return parsed.toString();
   }
 
   private cleanMarkdown(text: string): string {
