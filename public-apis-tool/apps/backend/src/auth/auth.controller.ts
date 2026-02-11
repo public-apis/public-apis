@@ -12,10 +12,13 @@ export class AuthController {
 
   @Get("github")
   githubLogin(@Res() res: Response) {
-    const redirectUrl =
-      `https://github.com/login/oauth/authorize` +
-      `?client_id=${process.env.GITHUB_CLIENT_ID}` +
-      `&scope=repo user`;
+    const params = new URLSearchParams({
+      client_id: process.env.GITHUB_CLIENT_ID ?? "",
+      scope: "public_repo read:user",
+      prompt: "consent",
+    });
+
+    const redirectUrl = `https://github.com/login/oauth/authorize?${params.toString()}`;
 
     return res.redirect(redirectUrl);
   }
