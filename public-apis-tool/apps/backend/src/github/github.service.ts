@@ -150,4 +150,31 @@ export class GithubService {
 
     return output.join("\n");
   }
+
+  async PRHistory(user: User) {
+    const octokit = new Octokit({ auth: user.githubToken });
+
+    const prs = await octokit.pulls.list({
+      owner: "L3gvccy",
+      repo: "public-apis",
+      state: "all",
+      per_page: 100,
+      page: 1,
+    });
+
+    const history = prs.data
+      .map((pr) => ({
+        number: pr.number,
+        title: pr.title,
+        user: pr.user?.login,
+        state: pr.state,
+        merged: pr.merged_at ? true : false,
+        created_at: pr.created_at,
+        updated_at: pr.updated_at,
+        url: pr.html_url,
+      }))
+      .filter((pr) => pr.user === user.login);
+
+    return { prs: history };
+  }
 }
