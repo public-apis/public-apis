@@ -10,7 +10,6 @@ export type ApiType = {
   auth: AuthEnum;
   https: boolean;
   cors: CORSEnum;
-  postmanLink?: string;
   status?: string;
 };
 
