@@ -21,7 +21,6 @@ const PRForm = () => {
   const [auth, setAuth] = useState("No");
   const [https, setHttps] = useState(false);
   const [cors, setCors] = useState("Unknown");
-  const [postmanLink, setPostmanLink] = useState("");
 
   const authValues = ["No", "OAuth", "apiKey", "X-Mashape-Key", "User-Agent"];
   const corsValues = ["Unknown", "No", "Yes"];
@@ -73,7 +72,6 @@ const PRForm = () => {
       auth: parseAuthEnum(auth),
       https,
       cors: parseCORSEnum(cors),
-      postmanLink: postmanLink ? postmanLink : undefined,
     };
 
     await apiClient
@@ -212,21 +210,7 @@ const PRForm = () => {
             </SelectContent>
           </Select>
         </div>
-        <div className="flex flex-col">
-          <label htmlFor="postman" className="opacity-75 px-2">
-            Postman Link (optional)
-          </label>
-          <input
-            name="postman"
-            id="postman"
-            type="text"
-            className="bg-zinc-100 dark:bg-zinc-800 rounded-md p-2 outline-0"
-            value={postmanLink}
-            onChange={(e) => {
-              setPostmanLink(e.target.value);
-            }}
-          />
-        </div>
+
         <button
           className="bg-blue-700 text-zinc-100 mt-2 w-full text-center p-2 shadow-blue-700/30 hover:bg-blue-600 hover:shadow-lg rounded-lg cursor-pointer transition-all duration-300"
           onClick={handleSubmit}

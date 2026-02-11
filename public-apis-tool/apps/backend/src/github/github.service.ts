@@ -52,8 +52,6 @@ export class GithubService {
       sha: base.data.commit.sha,
     });
 
-    const entry = `\n### ${api.name} - ${api.description} - ${api.link}`;
-
     const readme = (await octokit.repos.getContent({
       owner: user.login,
       repo: upstream.repo,
@@ -62,13 +60,14 @@ export class GithubService {
     })) as any;
 
     const content = Buffer.from(readme.data.content, "base64").toString();
+    const updated = this.insertAPI(content, api);
 
     await octokit.repos.createOrUpdateFileContents({
       owner: user.login,
       repo: upstream.repo,
       path: "README.md",
       message: `Add ${api.name} API to ${api.category} category`,
-      content: Buffer.from(content + entry).toString("base64"),
+      content: Buffer.from(updated).toString("base64"),
       sha: readme.data.sha,
       branch,
     });
@@ -82,5 +81,73 @@ export class GithubService {
     });
 
     return pr.data.html_url;
+  }
+
+  insertAPI(content: string, api: ApiType): string {
+    const rawLines = content.split("\n");
+
+    const entry = `| [${api.name}](${api.link}) | ${api.description} | ${api.auth} | ${api.https} | ${api.cors} |`;
+
+    let inCategory = false;
+    let inserted = false;
+    let output: string[] = [];
+
+    for (let i = 0; i < rawLines.length; i++) {
+      const line = rawLines[i].trim();
+      const nextLine = rawLines[i + 1]?.trim() || "";
+
+      if (line === `### ${api.category}`) {
+        inCategory = true;
+        output.push(line);
+        continue;
+      }
+
+      if (inCategory && !inserted) {
+        if (line === "|:---|:---|:---|:---|:---|" || !line.startsWith("|")) {
+          output.push(rawLines[i]);
+          continue;
+        }
+        const currentMatch = line.match(/\[(.*?)\]/);
+        const nextMatch = nextLine.match(/\[(.*?)\]/);
+
+        if (!nextMatch || nextLine.startsWith("### ")) {
+          if (!currentMatch) {
+            output.push(entry);
+            inserted = true;
+            output.push(rawLines[i]);
+            continue;
+          }
+          const currentName = currentMatch[1].toLowerCase();
+          const newName = api.name.toLowerCase();
+          if (currentName > newName) {
+            output.push(entry);
+            inserted = true;
+          }
+          output.push(rawLines[i]);
+          continue;
+        }
+
+        if (currentMatch && nextMatch) {
+          const currentName = currentMatch[1].toLowerCase();
+          const nextName = nextMatch[1].toLowerCase();
+          const newName = api.name.toLowerCase();
+
+          if (currentName <= newName && newName <= nextName) {
+            output.push(rawLines[i]);
+            output.push(entry);
+            inserted = true;
+            continue;
+          }
+        }
+      }
+
+      output.push(rawLines[i]);
+    }
+
+    if (!inserted && inCategory) {
+      output.push(entry);
+    }
+
+    return output.join("\n");
   }
 }
