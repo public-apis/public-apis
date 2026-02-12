@@ -151,13 +151,12 @@ export class ApisService {
     let code: number | null = null;
 
     try {
-      // HEAD-запит для швидкої перевірки
       const head = await axios.head(normalizedUrl, {
         timeout: 5000,
         maxRedirects: 3,
         validateStatus: () => true,
         headers: {
-          "User-Agent": "Mozilla/5.0", // деякі сайти блокують без UA
+          "User-Agent": "Mozilla/5.0",
         },
       });
       code = head.status;
@@ -165,7 +164,6 @@ export class ApisService {
       if (code >= 200 && code < 400) {
         status = "online";
       } else if (code === 405 || code === 404) {
-        // HEAD не підтримується — робимо GET
         const get = await axios.get(normalizedUrl, {
           timeout: 5000,
           maxRedirects: 3,
@@ -185,7 +183,6 @@ export class ApisService {
       }
     } catch (err) {
       try {
-        // Якщо HEAD/GET не вдалися — пробуємо GET на крайній випадок
         const get = await axios.get(normalizedUrl, {
           timeout: 5000,
           maxRedirects: 3,
