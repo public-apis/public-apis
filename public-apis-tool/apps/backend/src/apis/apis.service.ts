@@ -48,7 +48,7 @@ type ApiStatusCacheEntry = {
 export class ApisService {
   private readonly statusCache = new Map<string, ApiStatusCacheEntry>();
 
-  private readonly cacheTtlMs = 1000 * 60 * 30; 
+  private readonly cacheTtlMs = 1000 * 60 * 30;
 
   async loadReadme(): Promise<string> {
     const url =
@@ -151,23 +151,48 @@ export class ApisService {
     let code: number | null = null;
 
     try {
+      // HEAD-запит для швидкої перевірки
       const head = await axios.head(normalizedUrl, {
         timeout: 5000,
         maxRedirects: 3,
         validateStatus: () => true,
+        headers: {
+          "User-Agent": "Mozilla/5.0", // деякі сайти блокують без UA
+        },
       });
       code = head.status;
+
       if (code >= 200 && code < 400) {
         status = "online";
-      } else if (code >= 400 && code < 600) {
-        status = "offline";
-      }
-    } catch {
-      try {
+      } else if (code === 405 || code === 404) {
+        // HEAD не підтримується — робимо GET
         const get = await axios.get(normalizedUrl, {
           timeout: 5000,
           maxRedirects: 3,
           validateStatus: () => true,
+          headers: {
+            "User-Agent": "Mozilla/5.0",
+          },
+        });
+        code = get.status;
+        if (code >= 200 && code < 400) {
+          status = "online";
+        } else if (code >= 400 && code < 600) {
+          status = "offline";
+        }
+      } else if (code >= 400 && code < 600) {
+        status = "offline";
+      }
+    } catch (err) {
+      try {
+        // Якщо HEAD/GET не вдалися — пробуємо GET на крайній випадок
+        const get = await axios.get(normalizedUrl, {
+          timeout: 5000,
+          maxRedirects: 3,
+          validateStatus: () => true,
+          headers: {
+            "User-Agent": "Mozilla/5.0",
+          },
         });
         code = get.status;
         if (code >= 200 && code < 400) {
@@ -177,6 +202,7 @@ export class ApisService {
         }
       } catch {
         status = "unknown";
+        code = null;
       }
     }
 
@@ -216,7 +242,7 @@ export class ApisService {
     if (
       hostname === "localhost" ||
       hostname.startsWith("127.") ||
-      hostname.startsWith("192.168.") 
+      hostname.startsWith("192.168.")
     ) {
       throw new BadRequestException("Private network URLs are not allowed");
     }
