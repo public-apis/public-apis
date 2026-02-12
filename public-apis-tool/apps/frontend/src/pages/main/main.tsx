@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <div className="flex flex-col w-full justify-center items-center py-4">
-      <div className="flex flex-col w-full max-w-342 h-[90vh] justify-center items-center gap-4">
+      <div className="flex flex-col w-full max-w-342 h-[90vh] justify-center items-center gap-4 p-2 text-center">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
