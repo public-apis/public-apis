@@ -16,7 +16,7 @@ const PRDisplay = ({ pr }: { pr: prType }) => {
   return (
     <div className="flex flex-col gap-1 w-full bg-zinc-100 dark:bg-zinc-800 p-3 rounded-lg">
       <p className="opacity-60">Pull Request #{pr.number}</p>
-      <a href={pr.url} className="text-lg">
+      <a href={pr.url} target="_blank" className="text-lg">
         {pr.title}
       </a>
       <p>
