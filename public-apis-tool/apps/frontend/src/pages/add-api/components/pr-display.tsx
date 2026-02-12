@@ -29,7 +29,7 @@ const PRDisplay = ({ pr }: { pr: prType }) => {
           <span className="text-red-600">Closed</span>
         )}
       </p>
-      <p className="text-sm opacity-60">
+      <p className="text-sm opacity-60 text-end">
         Created at: {dayjs(pr.created_at).format("lll")}
       </p>
     </div>
