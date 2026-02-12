@@ -15,7 +15,7 @@ const ApiPages = ({
   onCheckStatus,
 }: {
   apis: ApiType[];
-  statusByLink: Record<string, ApiType["status"] | null>;
+  statusByLink: Record<string, { status: ApiType["status"] | null } | null>;
   checkingByLink: Record<string, boolean>;
   onCheckStatus: (link: string) => void;
 }) => {
@@ -56,7 +56,7 @@ const ApiPages = ({
           <ApiDisplay
             key={`${api.name}-${api.category}-${api.link ?? "no-link"}-${index}`}
             api={api}
-            status={api.link ? statusByLink[api.link] ?? null : null}
+            status={api.link ? (statusByLink[api.link] ?? null) : null}
             checking={api.link ? Boolean(checkingByLink[api.link]) : false}
             onCheckStatus={onCheckStatus}
           />

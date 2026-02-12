@@ -48,7 +48,7 @@ const ApisPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [statusByLink, setStatusByLink] = useState<
-    Record<string, ApiType["status"] | null>
+    Record<string, { status: ApiType["status"] | null } | null>
   >({});
   const [checkingByLink, setCheckingByLink] = useState<Record<string, boolean>>(
     {},
@@ -151,11 +151,17 @@ const ApisPage = () => {
 
   const handleCheckStatus = async (link: string) => {
     if (!link) return;
+
     setCheckingByLink((prev) => ({ ...prev, [link]: true }));
+
     try {
-      const res = await apiClient.get<ApiType["status"]>(`${APIS_ROUTE}/check`, {
-        params: { url: link },
-      });
+      const res = await apiClient.get<{ status: ApiType["status"] | null }>(
+        `${APIS_ROUTE}/check`,
+        {
+          params: { url: link },
+        },
+      );
+
       setStatusByLink((prev) => ({ ...prev, [link]: res.data ?? null }));
     } catch {
       setStatusByLink((prev) => ({ ...prev, [link]: null }));
