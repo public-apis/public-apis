@@ -73,12 +73,15 @@ const PRForm = () => {
   const canSubmit = (): boolean => {
     if (hasForbiddenChars(name)) {
       toast.error("Name has forbidden characters (|, [, ])");
+      return false;
     }
     if (hasForbiddenChars(link)) {
       toast.error("Link has forbidden characters (|, [, ])");
+      return false;
     }
     if (hasForbiddenChars(description)) {
       toast.error("Description has forbidden characters (|, [, ])");
+      return false;
     }
 
     return true;
