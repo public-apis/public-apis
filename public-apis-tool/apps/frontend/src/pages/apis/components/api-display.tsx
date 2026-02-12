@@ -31,7 +31,17 @@ const corsLabel = (cors: ApiType["cors"]) => {
   }
 };
 
-const ApiDisplay = ({ api }: { api: ApiType }) => {
+const ApiDisplay = ({
+  api,
+  status,
+  checking,
+  onCheckStatus,
+}: {
+  api: ApiType;
+  status: ApiType["status"] | null;
+  checking: boolean;
+  onCheckStatus: (link: string) => void;
+}) => {
   return (
     <div className="flex h-full flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900">
       <div className="flex items-start justify-between gap-2">
@@ -59,17 +69,32 @@ const ApiDisplay = ({ api }: { api: ApiType }) => {
         <span className="rounded-full bg-purple-100 px-2 py-1 text-purple-700">
           CORS: {corsLabel(api.cors)}
         </span>
+        {api.link && (
+          <span className="rounded-full bg-zinc-100 px-2 py-1 text-zinc-700">
+            Status: {status?.status ?? (checking ? "checking" : "not checked")}
+          </span>
+        )}
       </div>
 
       {api.link ? (
-        <a
-          href={api.link}
-          target="_blank"
-          rel="noreferrer"
-          className="mt-2 text-sm font-semibold text-blue-700 hover:text-blue-600"
-        >
-          Go to documentation
-        </a>
+        <div className="mt-2 flex items-center gap-3">
+          <a
+            href={api.link}
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm font-semibold text-blue-700 hover:text-blue-600"
+          >
+            Go to documentation
+          </a>
+          <button
+            type="button"
+            onClick={() => onCheckStatus(api.link)}
+            disabled={checking}
+            className="rounded-full border border-zinc-300 px-3 py-1 text-xs font-semibold text-zinc-600 transition hover:border-zinc-400 hover:text-zinc-900 disabled:cursor-not-allowed disabled:opacity-60"
+          >
+            {checking ? "Checking..." : "Check status"}
+          </button>
+        </div>
       ) : (
         <span className="mt-2 text-sm font-semibold text-zinc-400">
           No documentation link

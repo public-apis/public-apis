@@ -8,7 +8,17 @@ import {
   ChevronsRight,
 } from "lucide-react";
 
-const ApiPages = ({ apis }: { apis: ApiType[] }) => {
+const ApiPages = ({
+  apis,
+  statusByLink,
+  checkingByLink,
+  onCheckStatus,
+}: {
+  apis: ApiType[];
+  statusByLink: Record<string, ApiType["status"] | null>;
+  checkingByLink: Record<string, boolean>;
+  onCheckStatus: (link: string) => void;
+}) => {
   const total = Math.ceil(apis.length / 15);
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedApis, setSelectedApis] = useState<ApiType[]>([]);
@@ -46,6 +56,9 @@ const ApiPages = ({ apis }: { apis: ApiType[] }) => {
           <ApiDisplay
             key={`${api.name}-${api.category}-${api.link ?? "no-link"}-${index}`}
             api={api}
+            status={api.link ? statusByLink[api.link] ?? null : null}
+            checking={api.link ? Boolean(checkingByLink[api.link]) : false}
+            onCheckStatus={onCheckStatus}
           />
         ))}
       </div>

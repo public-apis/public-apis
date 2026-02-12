@@ -47,6 +47,12 @@ const ApisPage = () => {
   const [apis, setApis] = useState<ApiType[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [statusByLink, setStatusByLink] = useState<
+    Record<string, ApiType["status"] | null>
+  >({});
+  const [checkingByLink, setCheckingByLink] = useState<Record<string, boolean>>(
+    {},
+  );
   const [query, setQuery] = useState("");
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedAuth, setSelectedAuth] = useState<ApiType["auth"][]>([]);
@@ -141,6 +147,21 @@ const ApisPage = () => {
     setSelectedAuth([]);
     setHttpsOnly("all");
     setSelectedCors([]);
+  };
+
+  const handleCheckStatus = async (link: string) => {
+    if (!link) return;
+    setCheckingByLink((prev) => ({ ...prev, [link]: true }));
+    try {
+      const res = await apiClient.get<ApiType["status"]>(`${APIS_ROUTE}/check`, {
+        params: { url: link },
+      });
+      setStatusByLink((prev) => ({ ...prev, [link]: res.data ?? null }));
+    } catch {
+      setStatusByLink((prev) => ({ ...prev, [link]: null }));
+    } finally {
+      setCheckingByLink((prev) => ({ ...prev, [link]: false }));
+    }
   };
 
   return (
@@ -317,7 +338,14 @@ const ApisPage = () => {
             />
           ))}
         </div> */}
-        {filteredApis.length > 0 && <ApiPages apis={filteredApis} />}
+        {filteredApis.length > 0 && (
+          <ApiPages
+            apis={filteredApis}
+            statusByLink={statusByLink}
+            checkingByLink={checkingByLink}
+            onCheckStatus={handleCheckStatus}
+          />
+        )}
 
         {filteredApis.length === 0 && !loading && !error && (
           <div className="rounded-2xl border border-dashed border-zinc-300 p-8 text-center text-zinc-500">
