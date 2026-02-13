@@ -83,6 +83,10 @@ const PRForm = () => {
       toast.error("Description has forbidden characters (|, [, ])");
       return false;
     }
+    if (!link.startsWith("http://") && !link.startsWith("https://")) {
+      toast.error("Link must start with http:// or https://");
+      return false;
+    }
 
     return true;
   };
