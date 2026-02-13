@@ -45,6 +45,8 @@
 - **Node.js** – runtime.
 - **Axios** – для запитів до зовнішніх API.
 - **GitHub API** – для створення Pull Request.
+- **Prisma ORM** - ORM для роботи з БД
+- **PostgreSQL** - база даних
 
 ## Summary
 
