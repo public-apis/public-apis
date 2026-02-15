@@ -176,6 +176,7 @@ API | Description | Auth | HTTPS | CORS |
 | [URLScan.io](https://urlscan.io/about-api/) | Scan and Analyse URLs | `apiKey` | Yes | Unknown |
 | [VirusTotal](https://www.virustotal.com/en/documentation/public-api/) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
 | [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/domain/URL reputation | `apiKey` | Yes | Unknown | 
+| [JokeAPI](https://v2.jokeapi.dev/) | Free jokes API | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
