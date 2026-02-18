@@ -1227,6 +1227,8 @@ API | Description | Auth | HTTPS | CORS |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
 | [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
 | [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
+| Ollama API (https://github.com/ollama/ollama/blob/main/docs/)| a free local LLM API | No | Yes | Yes | 
+
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -1452,6 +1454,7 @@ API | Description | Auth | HTTPS | CORS |
 | [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | No |
 | [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | Yes | No |
 | [xMath](https://x-math.herokuapp.com/) | Random mathematical expressions | No | Yes | Yes |
+| Open-Meteo (https://open-meteo.com)|free weather & climate API | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
