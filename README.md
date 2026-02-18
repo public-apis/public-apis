@@ -101,7 +101,7 @@ API | Description | Auth | HTTPS | CORS
 |:---|:---|:---|:---|:---|
 | [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
-| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No | |
+| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
 | [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
 | [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | No |
 | [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Yes |
@@ -273,7 +273,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
 | [Apache Superset](https://superset.apache.org/docs/api) | API to manage your BI dashboards and data sources on Superset | `apiKey` | Yes | Yes |
-| [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown 
+| [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | `apiKey` | Yes | Unknown |
 | [Domainsdb.info](https://domainsdb.info/) | Registered Domain Names Search | No | Yes | No |
 | [Freelancer](https://developers.freelancer.com) | Hire freelancers to get work done | `OAuth` | Yes | Unknown |
