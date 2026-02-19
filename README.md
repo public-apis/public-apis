@@ -229,6 +229,7 @@ API | Description | Auth | HTTPS | CORS |
 | API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
 | [Bitquery](https://graphql.bitquery.io/ide) | Onchain GraphQL APIs & DEX APIs | `apiKey` | Yes | Yes |
+| [ChainAware](https://swagger.chainaware.ai/) | AI-powered tools to analyze wallet behaviour prediction,fraud detection and rug pull prediction | `apiKey` | Yes | Yes |
 | [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
 | [Chainpoint](https://tierion.com/chainpoint/) | Chainpoint is a global network for anchoring data to the Bitcoin blockchain | No | Yes | Unknown |
 | [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
