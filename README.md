@@ -463,6 +463,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Data Validation
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [Interzoid](https://www.interzoid.com/apis/get-org-standard) | Standardize company/organization names | `apiKey` | Yes | Yes | |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown | |
 | [Postman Echo](https://www.postman-echo.com) | Test api server to receive and return value from HTTP method | No | Yes | Unknown | |
 | [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown | |
