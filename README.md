@@ -131,6 +131,8 @@ API | Description | Auth | HTTPS | CORS
 | [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
 | [Zoo Animals](https://zoo-animal-api.herokuapp.com/) | Facts and pictures of zoo animals | No | Yes | Yes |
 
+| [Dog CEO's Dog API](https://dog.ceo/dog-api/) | Random pictures of dogs | No | Yes | No |
+
 **[⬆ Back to Index](#index)**
 <br >
 <br >
