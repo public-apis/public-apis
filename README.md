@@ -1885,6 +1885,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
 
+| [LanguageTool](https://languagetool.org/api) | Grammar checking and language analysis API for spell check, style check, and grammar correction | `apiKey` | Yes | Yes |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
