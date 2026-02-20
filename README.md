@@ -1416,6 +1416,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Judge0 CE](https://ce.judge0.com/) | Online code execution system | `apiKey` | Yes | Unknown |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
 | [Mintlify](https://docs.mintlify.com) | For programmatically generating documentation for code | `apiKey` | Yes | Yes |
+| [DummyImage](https://dummyimage.com/) | Generate placeholder images of any size and color for testing | No | Yes | Unknown
+
 
 **[⬆ Back to Index](#index)**
 <br >
