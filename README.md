@@ -531,6 +531,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Httpbin](https://httpbin.org/) | A Simple HTTP Request & Response Service | No | Yes | Yes |
 | [Httpbin Cloudflare](https://cloudflare-quic.com/b/) | A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare | No | Yes | Yes |
 | [Hunter](https://hunter.io/api) | API for domain search, professional email finder, author finder and email verifier | `apiKey` | Yes | Unknown |
+| [eidosSpeech](https://eidosspeech.xyz) | Free text-to-speech API with 1,200+ voices in 75+ languages | `apiKey` | Yes | Yes |
 | [IBM Text to Speech](https://cloud.ibm.com/docs/text-to-speech/getting-started.html) | Convert text to speech | `apiKey` | Yes | Yes |
 | [Icanhazepoch](https://icanhazepoch.com) | Get Epoch time | No | Yes | Yes |
 | [Icanhazip](https://major.io/icanhazip-com-faq/) | IP Address API | No | Yes | Yes |
