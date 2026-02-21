@@ -661,6 +661,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [apilayer mailboxlayer](https://mailboxlayer.com) | Email address validation | `apiKey` | Yes | Unknown |
+| [Brevo](https://developers.brevo.com/docs/getting-started) | A service that allows you to send 300 free emails per day without having to maintain email servers | `apiKey` | Yes | Unknown |
 | [Email Validation](https://www.abstractapi.com/email-verification-validation-api) | Validate email addresses for deliverability and spam | `apiKey` | Yes | Yes |
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | Yes |
 | [Disify](https://www.disify.com/) | Validate and detect disposable and temporary email addresses | No | Yes | Yes |
@@ -1289,6 +1290,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PeakMetrics](https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news) | News articles and public datasets | `apiKey` | Yes | Unknown |
 | [Recreation Information Database](https://ridb.recreation.gov/) | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) | `apiKey` | Yes | Unknown |
 | [Scoop.it](http://www.scoop.it/dev) | Content Curation Service | `apiKey` | No | Unknown |
+| [Simplybusiness.com](https://trade.api.simplybusiness.com/v1/trades) | List of all types of trades and businesses | No | No | Yes |
 | [Socrata](https://dev.socrata.com/) | Access to Open Data from Governments, Non-profits and NGOs around the world | `OAuth` | Yes | Yes |
 | [Teleport](https://developers.teleport.org/) | Quality of Life Data | No | Yes | Unknown |
 | [Umeå Open Data](https://opendata.umea.se/api/) | Open data of the city Umeå in northen Sweden | No | Yes | Yes |
