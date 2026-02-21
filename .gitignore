@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+*.log
+node_modules/
+*.env
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -128,3 +133,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+>>>>>>> 67a154b8ce2f8939c3a717d082eb8537d66a1490
