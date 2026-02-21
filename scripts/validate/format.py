@@ -250,6 +250,38 @@ def check_file_format(lines: List[str]) -> List[str]:
     
     return err_msgs
 
+def get_suggestion_for_auth_error(invalid_auth: str) -> str:
+    """Provide suggestions for common auth errors."""
+    suggestions = {
+        'yes': 'No',
+        'no': 'No',
+        'api-key': '`apiKey`',
+        'api_key': '`apiKey`',
+        'oauth': '`OAuth`',
+        'bearer': '`apiKey`',
+        'token': '`apiKey`'
+    }
+    suggestion = suggestions.get(invalid_auth.lower())
+    if suggestion:
+        return f' Did you mean {suggestion}?'
+    return ''
+
+def check_auth(line_num: int, auth: str) -> List[str]:
+    err_msgs = []
+    backtick = '`'
+    
+    if auth != 'No' and (not auth.startswith(backtick) or not auth.endswith(backtick)):
+        err_msg = error_message(line_num, 'auth value is not enclosed with `backticks`')
+        err_msgs.append(err_msg)
+    
+    if auth.replace(backtick, '') not in auth_keys:
+        suggestion = get_suggestion_for_auth_error(auth.replace(backtick, ''))
+        err_msg = error_message(line_num, f'{auth} is not a valid Auth option.{suggestion}')
+        err_msgs.append(err_msg)
+    
+    return err_msgs
+
+
 
 def main(filename: str) -> None:
 
