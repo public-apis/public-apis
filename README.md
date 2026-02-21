@@ -131,6 +131,8 @@ API | Description | Auth | HTTPS | CORS
 | [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
 | [Zoo Animals](https://zoo-animal-api.herokuapp.com/) | Facts and pictures of zoo animals | No | Yes | Yes |
 
+| [Dog CEO's Dog API](https://dog.ceo/dog-api/) | Random pictures of dogs | No | Yes | No |
+
 **[⬆ Back to Index](#index)**
 <br >
 <br >
@@ -1064,6 +1066,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Germany](https://www.govdata.de/daten/-/details/govdata-metadatenkatalog) | Germany Government Open Data | No | Yes | Unknown |
 | [Open Government, Greece](https://data.gov.gr/) | Greece Government Open Data | `OAuth` | Yes | Unknown |
 | [Open Government, India](https://data.gov.in/) | Indian Government Open Data | `apiKey` | Yes | Unknown |
+| [India COVID-19 API](https://data.covid19india.org/) | Official COVID-19 statistics for India | No | Yes | Yes |
+| [Indian Railways API](https://www.indianrail.gov.in/) | Train schedules, PNR status, and station info | `apiKey` | Yes | Unknown |
+| [Open Government Data (OGD) Platform India](https://data.gov.in/) | Government datasets across multiple sectors | `apiKey` | Yes | Unknown |
+| [UIDAI Aadhaar API](https://uidai.gov.in/) | Aadhaar authentication and verification | `apiKey` | Yes | Unknown |
 | [Open Government, Ireland](https://data.gov.ie/pages/developers) | Ireland Government Open Data | No | Yes | Unknown |
 | [Open Government, Italy](https://www.dati.gov.it/) | Italy Government Open Data | No | Yes | Unknown |
 | [Open Government, Korea](https://www.data.go.kr/) | Korea Government Open Data | `apiKey` | Yes | Unknown |
