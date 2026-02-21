@@ -47,58 +47,62 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 ## Index
 
-* [Animals](#animals)
-* [Anime](#anime)
-* [Anti-Malware](#anti-malware)
-* [Art & Design](#art--design)
-* [Authentication & Authorization](#authentication--authorization)
-* [Blockchain](#blockchain)
-* [Books](#books)
-* [Business](#business)
-* [Calendar](#calendar)
-* [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
-* [Continuous Integration](#continuous-integration)
-* [Cryptocurrency](#cryptocurrency)
-* [Currency Exchange](#currency-exchange)
-* [Data Validation](#data-validation)
-* [Development](#development)
-* [Dictionaries](#dictionaries)
-* [Documents & Productivity](#documents--productivity)
-* [Email](#email)
-* [Entertainment](#entertainment)
-* [Environment](#environment)
-* [Events](#events)
-* [Finance](#finance)
-* [Food & Drink](#food--drink)
-* [Games & Comics](#games--comics)
-* [Geocoding](#geocoding)
-* [Government](#government)
-* [Health](#health)
-* [Jobs](#jobs)
-* [Machine Learning](#machine-learning)
-* [Music](#music)
-* [News](#news)
-* [Open Data](#open-data)
-* [Open Source Projects](#open-source-projects)
-* [Patent](#patent)
-* [Personality](#personality)
-* [Phone](#phone)
-* [Photography](#photography)
-* [Programming](#programming)
-* [Science & Math](#science--math)
-* [Security](#security)
-* [Shopping](#shopping)
-* [Social](#social)
-* [Sports & Fitness](#sports--fitness)
-* [Test Data](#test-data)
-* [Text Analysis](#text-analysis)
-* [Tracking](#tracking)
-* [Transportation](#transportation)
-* [URL Shorteners](#url-shorteners)
-* [Vehicle](#vehicle)
-* [Video](#video)
-* [Weather](#weather)
-<br >
+- [Try Public APIs for free](#try-public-apis-for-free)
+  - [APILayer APIs](#apilayer-apis)
+  - [Learn more about Public APIs](#learn-more-about-public-apis)
+  - [Index](#index)
+    - [Animals](#animals)
+    - [Anime](#anime)
+    - [Anti-Malware](#anti-malware)
+    - [Art \& Design](#art--design)
+    - [Authentication \& Authorization](#authentication--authorization)
+    - [Blockchain](#blockchain)
+    - [Books](#books)
+    - [Business](#business)
+    - [Calendar](#calendar)
+    - [Cloud Storage \& File Sharing](#cloud-storage--file-sharing)
+    - [Continuous Integration](#continuous-integration)
+    - [Cryptocurrency](#cryptocurrency)
+    - [Currency Exchange](#currency-exchange)
+    - [Data Validation](#data-validation)
+    - [Development](#development)
+    - [Dictionaries](#dictionaries)
+    - [Documents \& Productivity](#documents--productivity)
+    - [Email](#email)
+    - [Entertainment](#entertainment)
+    - [Environment](#environment)
+    - [Events](#events)
+    - [Finance](#finance)
+    - [Food \& Drink](#food--drink)
+    - [Games \& Comics](#games--comics)
+    - [Geocoding](#geocoding)
+    - [Government](#government)
+    - [Health](#health)
+    - [Jobs](#jobs)
+    - [Machine Learning](#machine-learning)
+    - [Music](#music)
+    - [News](#news)
+    - [Open Data](#open-data)
+    - [Open Source Projects](#open-source-projects)
+    - [Patent](#patent)
+    - [Personality](#personality)
+    - [Phone](#phone)
+    - [Photography](#photography)
+    - [Programming](#programming)
+    - [Science \& Math](#science--math)
+    - [Security](#security)
+    - [Shopping](#shopping)
+    - [Social](#social)
+    - [Sports \& Fitness](#sports--fitness)
+    - [Test Data](#test-data)
+    - [Text Analysis](#text-analysis)
+    - [Tracking](#tracking)
+    - [Transportation](#transportation)
+    - [URL Shorteners](#url-shorteners)
+    - [Vehicle](#vehicle)
+    - [Video](#video)
+    - [Weather](#weather)
+  - [License](#license)
 
 ### Animals
 API | Description | Auth | HTTPS | CORS 
@@ -705,6 +709,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Carbon Interface](https://docs.carboninterface.com/) | API to calculate carbon (C02) emissions estimates for common C02 emitting activities | `apiKey` | Yes | Yes |
 | [Climatiq](https://docs.climatiq.io) | Calculate the environmental footprint created by a broad range of emission-generating activities | `apiKey` | Yes | Yes |
 | [Cloverly](https://www.cloverly.com/carbon-offset-documentation) | API calculates the impact of common carbon-intensive activities in real time | `apiKey` | Yes | Unknown |
+| [CO2 Meter API](https://console.corrently.io/co2meter.html) |Enables precise tracking of CO2 emissions associated with electricity consumption (Germany) | No | Yes | Yes |
 | [CO2 Offset](https://co2offset.io/api.html) | API calculates and validates the carbon footprint | No | Yes | Unknown |
 | [Danish data service Energi](https://www.energidataservice.dk/) | Open energy data from Energinet to society | No | Yes | Unknown |
 | [GrünstromIndex](https://gruenstromindex.de/) | Green Power Index for Germany (Grünstromindex/GSI) | No | No | Yes |
@@ -759,6 +764,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Indian Mutual Fund](https://www.mfapi.in/) | Get complete history of India Mutual Funds Data | No | Yes | Unknown | |
 | [Intrinio](https://intrinio.com/) | A wide selection of financial data feeds | `apiKey` | Yes | Unknown | |
 | [Klarna](https://docs.klarna.com/klarna-payments/api/payments-api/) | Klarna payment and shopping service | `apiKey` | Yes | Unknown | |
+| [Marketdata](https://console.corrently.io/marketdata.html) | Electricity Marketdata for regional tariffs (Germany). | No | Yes | Yes |
 | [MercadoPago](https://www.mercadopago.com.br/developers/es/reference) | Mercado Pago API reference - all the information you need to develop your integrations | `apiKey` | Yes | Unknown | |
 | [Mono](https://mono.co/) | Connect with users’ bank accounts and access transaction data in Africa | `apiKey` | Yes | Unknown | |
 | [Moov](https://docs.moov.io/api/) | The Moov API makes it simple for platforms to send, receive, and store money | `apiKey` | Yes | Unknown | |
@@ -1713,6 +1719,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Navitia](https://doc.navitia.io/) | The open API for building cool stuff with transport data | `apiKey` | Yes | Unknown |
 | [Open Charge Map](https://openchargemap.org/site/develop/api) | Global public registry of electric vehicle charging locations | `apiKey` | Yes | Yes |
 | [OpenSky Network](https://opensky-network.org/apidoc/index.html) | Free real-time ADS-B aviation data | No | Yes | Unknown |
+| [PHEV Charge Or Fuel](https://console.corrently.io/phevChargeOrFuel.html) | Decision-making tool designed for Plug-in Hybrid Electric Vehicle (PHEV) drivers in Germany. | No | Yes | Yes |
 | [Railway Transport for France](https://www.digital.sncf.com/startup/api) | SNCF public API | `apiKey` | Yes | Unknown |
 | [REFUGE Restrooms](https://www.refugerestrooms.org/api/docs/#!/restrooms) | Provides safe restroom access for transgender, intersex and gender nonconforming individuals | No | Yes | Unknown |
 | [Sabre for Developers](https://developer.sabre.com/guides/travel-agency/quickstart/getting-started-in-travel) | Travel Search - Limited usage | `apiKey` | Yes | Unknown |
