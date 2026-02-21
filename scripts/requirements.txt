@@ -3,3 +3,6 @@ charset-normalizer==2.0.10
 idna==3.3
 requests==2.27.1
 urllib3==1.26.8
+Flask==2.1.2
+Werkzeug==2.3.0
+apscheduler==3.9.1

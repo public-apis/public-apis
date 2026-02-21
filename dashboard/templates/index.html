@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public APIs Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Public APIs Dashboard</h1>
+        <div class="card">
+            <h2>Repository Sync</h2>
+            <p>Keep your local data up-to-date with the parent repository.</p>
+            <button id="sync-button">Sync with Parent</button>
+            <div id="status-area">
+                <p><strong>Last Sync Status:</strong> <span id="sync-status">Not yet synced</span></p>
+                <p><strong>Last Sync Time:</strong> <span id="sync-time">N/A</span></p>
+                <p><strong>Next Scheduled Sync:</strong> <span id="next-sync-time">Loading...</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
