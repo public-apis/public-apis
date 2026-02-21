@@ -1,4 +1,4 @@
-# Contributing to public-apis
+# Contributing to Public-APIs
 
 > While the masses of pull requests and community involvement are appreciated, some pull requests have been specifically
 opened to market company APIs that offer paid solutions. This API list is not a marketing tool, but a tool to help the
