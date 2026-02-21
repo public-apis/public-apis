@@ -1315,6 +1315,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GitHub ReadMe Stats](https://github.com/anuraghazra/github-readme-stats) | Add dynamically generated statistics to your GitHub profile ReadMe | No | Yes | Yes |
 | [Metabase](https://www.metabase.com/) | An open source Business Intelligence server to share data and analytics inside your company | No | Yes | Yes |
 | [Shields](https://shields.io/) | Concise, consistent, and legible badges in SVG and raster format | No | Yes | Unknown |
+| [Svix](https://www.svix.com/open-source-webhook-service/) | Open source webhooks as a service | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
