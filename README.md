@@ -98,6 +98,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
+- [Open-Meteo](https://open-meteo.com/) - Free weather APIs with no API key required. Free.
 <br >
 
 ### Animals
