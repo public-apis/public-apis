@@ -636,6 +636,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Code::Stats](https://codestats.net/api-docs) | Automatic time tracking for programmers | `apiKey` | Yes | No |
 | [CraftMyPDF](https://craftmypdf.com) | Generate PDF documents from templates with a drop-and-drop editor and a simple API | `apiKey` | Yes | No |
 | [Flowdash](https://docs.flowdash.com/docs/api-introduction) | Automate business workflows | `apiKey` | Yes | Unknown |
+| [FormForge](https://formforge-api.vercel.app) | Dynamic HTML form generation from JSON schemas with themes | `apiKey` | Yes | Yes |
 | [Html2PDF](https://html2pdf.app/) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
 | [iLovePDF](https://developer.ilovepdf.com/) | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | `apiKey` | Yes | Yes |
 | [JIRA](https://developer.atlassian.com/server/jira/platform/rest-apis/) | JIRA is a proprietary issue tracking product that allows bug tracking and agile project management | `OAuth` | Yes | Unknown |
