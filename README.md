@@ -1180,6 +1180,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Inferdo](https://rapidapi.com/user/inferdo) | Computer Vision services like Facial detection, Image labeling, NSFW classification | `apiKey` | Yes | Unknown |
 | [IPS Online](https://docs.identity.ps/docs) | Face and License Plate Anonymization | `apiKey` | Yes | Unknown |
 | [Irisnet](https://irisnet.de/api/) | Realtime content moderation API that blocks or blurs unwanted images in real-time | `apiKey` | Yes | Yes |
+| [IteraTools](https://api.iteratools.com) | Multi-tool API for AI agents: image generation, OCR, TTS, scraping, QR codes, weather, crypto, PDF and more | `apiKey` | Yes | Yes |
 | [Keen IO](https://keen.io/) | Data Analytics | `apiKey` | Yes | Unknown |
 | [Machinetutors](https://www.machinetutors.com/portfolio/MT_api.html) | AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP | `apiKey` | Yes | Yes |
 | [MessengerX.io](https://messengerx.rtfd.io) | A FREE API for developers to build and monetize personalized ML based chat apps | `apiKey` | Yes | Yes |
