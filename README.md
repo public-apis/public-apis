@@ -1851,6 +1851,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Weather
+| WeatherAPI | Weather forecast and historical weather data API | apiKey | Yes | Unknown | https://www.weatherapi.com/ |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [7Timer!](http://www.7timer.info/doc.php?lang=en) | Weather, especially for Astroweather | No | No | Unknown |
