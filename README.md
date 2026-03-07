@@ -132,8 +132,8 @@ API | Description | Auth | HTTPS | CORS
 | [Zoo Animals](https://zoo-animal-api.herokuapp.com/) | Facts and pictures of zoo animals | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
-<br >
-<br >
+<br>
+<br>
 
 ### Anime
 API | Description | Auth | HTTPS | CORS |
@@ -1170,6 +1170,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AI For Thai](https://aiforthai.in.th/index.php) | Free Various Thai AI API | `apiKey` | Yes | Yes |
+| [Agent Gateway](https://agent-gateway-kappa.vercel.app) | 40+ services for AI agents: web scraping, screenshots, code execution, crypto data, agent memory, file storage | apiKey (optional) | Yes | Yes |
 | [Clarifai](https://docs.clarifai.com/api-guide/api-overview) | Computer Vision | `OAuth` | Yes | Unknown |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes |
 | [Deepcode](https://www.deepcode.ai) | AI for code review | No | Yes | Unknown |
