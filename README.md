@@ -85,6 +85,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Phone](#phone)
 * [Photography](#photography)
 * [Programming](#programming)
+* [Religion](#religion)
 * [Science & Math](#science--math)
 * [Security](#security)
 * [Shopping](#shopping)
