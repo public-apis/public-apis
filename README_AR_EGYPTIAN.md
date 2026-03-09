@@ -556,3 +556,144 @@
 | [CoinRanking](https://developers.coinranking.com/api/documentation) | بيانات عملات رقمية مباشرة | `apiKey` | نعم | مش معروف |
 
 **[⬆ ارجع للفهرس](#index)**
+
+---
+
+### 🎮 ألعاب (Games)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Chess.com](https://www.chess.com/news/view/published-data-api) | العب شطرنج اونلاين وشوف المباريات واللاعبين | لا | نعم | نعم |
+| [Clash of Clans](https://developer.clashofclans.com/) | بيانات لعبة كلاش أوف كلانز | `apiKey` | نعم | مش معروف |
+| [RAWG.io](https://rawg.io/apidocs) | قاعدة بيانات ضخمة للألعاب ومعلوماتها | `apiKey` | نعم | نعم |
+| [Steam Web API](https://steamcommunity.com/dev) | بيانات ألعاب ستيم واللاعبين | `apiKey` | نعم | مش معروف |
+| [Xbox Live](https://docs.microsoft.com/en-us/gaming/xbox-live/) | بيانات Xbox Live واللاعبين | `OAuth` | نعم | مش معروف |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+
+### 🌐 خرائط وعنوانين (Geospatial) - تكملَة
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial) | خرائط جوجل وخدمات العنوانين | `apiKey` | نعم | نعم |
+| [Mapbox](https://docs.mapbox.com/api/) | خرائط مخصصة وخدمات تحديد المواقع | `apiKey` | نعم | نعم |
+| [OpenStreetMap](https://wiki.openstreetmap.org/wiki/API_v0.6) | خرائط مفتوحة المصدر من المجتمع | لا | نعم | نعم |
+| [Here Maps](https://developer.here.com/documentation) | خرائط وخدمات ملاحة من HERE | `apiKey` | نعم | نعم |
+| [TomTom](https://developer.tomtom.com/) | خرائط وخدمات مرور وتنقل | `apiKey` | نعم | نعم |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+
+### 👤 حكومة (Government) - تكملَة
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [data.gov](https://api.data.gov/) | بوابة البيانات المفتوحة الأمريكية | `apiKey` | نعم | نعم |
+| [EU Open Data Portal](https://data.europa.eu/euodp/en/data/api) | بيانات مفتوحة من الاتحاد الأوروبي | لا | نعم | نعم |
+| [UK Government Data](https://data.gov.uk/) | بيانات حكومية بريطانية مفتوحة | لا | نعم | نعم |
+| [Census.gov](https://www.census.gov/data/developers.html) | بيانات التعداد السكاني الأمريكي | `apiKey` | نعم | نعم |
+| [NASA API](https://api.nasa.gov/) | بيانات وصور من وكالة ناسا | `apiKey` | نعم | نعم |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+
+### 🏥 صحة (Health)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Fitness Calculator](https://fitness-calculator.api-docs.io/) | حاسبة اللياقة البدنية والسعرات | `apiKey` | نعم | نعم |
+| [Human API](https://humanapi.co/) | بيانات صحية من أجهزة وأ التطبيقات | `OAuth` | نعم | نعم |
+| [Makeup API](https://makeup-api.herokuapp.com/) | معلومات منتجات المكياج | لا | نعم | نعم |
+| [OpenFDA](https://open.fda.gov/api/) | بيانات أدوية وأغذية من FDA | لا | نعم | نعم |
+| [Pharmasecure](https://pharmasecure.com/) | تتبع الأدوية والتحقق منها | `apiKey` | نعم | مش معروف |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+
+### 💼 وظائف (Jobs)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Adzuna](https://developer.adzuna.com/overview) | محرك بحث عن وظائف | `apiKey` | نعم | نعم |
+| [CareerBuilder](https://api.careerbuilder.com/) | موقع توظيف ووظائف | `apiKey` | نعم | مش معروف |
+| [DevITJobs](https://devitjobs.com/) | وظائف في مجال التطوير والتقنية | لا | نعم | نعم |
+| [Glassdoor](https://www.glassdoor.com/employer/api.htm) | وظائف وتقييمات شركات | `apiKey` | نعم | مش معروف |
+| [Indeed](https://publisher.indeed.com/services/htmlsearch) | محرك بحث عن وظائف | `apiKey` | نعم | مش معروف |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+
+### 🤖 ذكاء اصطناعي (Machine Learning) - تكملَة
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Dialogflow](https://cloud.google.com/dialogflow/docs) | بناء chatbots ومساعدين ذكيين | `OAuth` | نعم | نعم |
+| [IBM Watson](https://cloud.ibm.com/apidocs) | خدمات ذكاء اصطناعي من IBM | `apiKey` | نعم | نعم |
+| [Microsoft Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/) | رؤية كمبيوتر ومعالجة لغة طبيعية | `apiKey` | نعم | نعم |
+| [Clarifai](https://docs.clarifai.com/api-guide/api-overview) | رؤية كمبيوتر وتحليل صور | `apiKey` | نعم | نعم |
+| [Hugging Face](https://huggingface.co/docs/api-inference/index) | نماذج ذكاء اصطناعي جاهزة للاستخدام | `apiKey` | نعم | نعم |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+
+### 🎵 موسيقى (Music) - تكملَة
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Last.fm](https://www.last.fm/api) | بيانات موسيقية وإحصائيات استماع | `apiKey` | نعم | نعم |
+| [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) | قاعدة بيانات موسيقية مفتوحة | لا | نعم | نعم |
+| [SoundCloud](https://developers.soundcloud.com/docs/api/guide) | مشاركة واستماع للموسيقى | `OAuth` | نعم | نعم |
+| [Shazam](https://rapidapi.com/apidojo/api/shazam/) | التعرف على الأغاني | `apiKey` | نعم | نعم |
+| [Genius](https://docs.genius.com/) | كلمات أغاني ومعلومات عنها | `OAuth` | نعم | نعم |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+
+### 📰 أخبار (News) - تكملَة
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [NewsAPI](https://newsapi.org/) | أخبار من مصادر متعددة حول العالم | `apiKey` | نعم | نعم |
+| [The New York Times](https://developer.nytimes.com/) | أخبار من صحيفة نيويورك تايمز | `apiKey` | نعم | نعم |
+| [The Guardian](https://open-platform.theguardian.com/) | أخبار من صحيفة الجارديان | `apiKey` | نعم | نعم |
+| [Reuters News API](https://tr.reuters.com/resources/?site=apigility) | أخبار رويترز العالمية | `apiKey` | نعم | مش معروف |
+| [Associated Press](https://developer.ap.org/) | أخبار وكالة أسوشيتد برس | `apiKey` | نعم | مش معروف |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+
+### 📷 تصوير (Photography) - تكملَة
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Flickr](https://www.flickr.com/services/api/) | مشاركة صور وصور فوتوغرافية | `OAuth` | نعم | نعم |
+| [Instagram Graph API](https://developers.facebook.com/docs/instagram-api) | صور ومنشورات انستجرام | `OAuth` | نعم | نعم |
+| [Pinterest](https://developers.pinterest.com/) | لوحات صور وأفكار | `OAuth` | نعم | نعم |
+| [Unsplash](https://unsplash.com/documentation) | صور عالية الجودة مجاناً | `OAuth` | نعم | نعم |
+| [Pexels](https://www.pexels.com/api/) | صور وفيديوهات مجانية | `apiKey` | نعم | نعم |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+
+### ⚽ رياضة (Sports)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [ESPN](https://gist.github.com/mzgreen/3714a9e3f1f3ab86e6e4d7a7a6ece2b0) | أخبار ونتائج رياضية من ESPN | `apiKey` | نعم | مش معروف |
+| [Football-Data.org](https://www.football-data.org/documentation/quickstart/) | بيانات كرة قدم الأوروبية | `apiKey` | نعم | نعم |
+| [NBA Stats](https://github.com/seemethere/nba_py) | إحصائيات دوري كرة السلة الأمريكي | لا | نعم | نعم |
+| [NFL API](https://nflapi.readthedocs.io/en/latest/) | بيانات دوري كرة القدم الأمريكية | لا | نعم | نعم |
+| [Olympics](https://olympics.com/en/developer-zone) | بيانات الألعاب الأولمبية | `apiKey` | نعم | نعم |
+
+**[⬆ ارجع للفهرس](#index)**
+
