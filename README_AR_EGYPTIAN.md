@@ -207,3 +207,238 @@
 
 ---
 *تمت الترجمة والتبسيط بواسطة مساعدك الذكي باللهجة المصرية ❤️*
+
+---
+<br>
+
+### 🎨 فن وتصميم (تكملَة)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Iconfinder](https://developer.iconfinder.com) | أيقونات جاهزة للاستخدام | `apiKey` | نعم | مش معروف |
+| [Icons8](https://img.icons8.com/) | أيقونات (دور على "search icon" في الصفحة) | لا | نعم | مش معروف |
+| [Lordicon](https://lordicon.com/) | أيقونات فيها حركات جاهزة (Animations) | لا | نعم | نعم |
+| [متحف المتروبوليتان للفنون](https://metmuseum.github.io/) | بيانات من متحف المتروبوليتان | لا | نعم | لا |
+| [Noun Project](http://api.thenounproject.com/index.html) | أيقونات بسيطة | `OAuth` | لا | مش معروف |
+| [PHP-Noise](https://php-noise.com/) | مولد صور خلفية فيها ضوضاء (Noise) | لا | نعم | نعم |
+| [Pixel Encounter](https://pixelencounter.com/api) | مولد أيقونات بصيغة SVG | لا | نعم | لا |
+| [Rijksmuseum](https://data.rijksmuseum.nl/object-metadata/api/) | بيانات من متحف ريكز في هولندا | `apiKey` | نعم | مش معروف |
+| [Word Cloud](https://wordcloudapi.com/) | اعمل سحاب كلمات (Word Clouds) بسهولة | `apiKey` | نعم | مش معروف |
+| [xColors](https://x-colors.herokuapp.com/) | توليد وتحويل الألوان | لا | نعم | نعم |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+<br>
+
+### 🔐 تسجيل الدخول والحماية (Authentication & Authorization)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Auth0](https://auth0.com) | منصة سهلة وسريعة عشان تعمل نظام تسجيل دخول وحماية | `apiKey` | نعم | نعم |
+| [GetOTP](https://otp.dev/en/docs/) | نفذ نظام OTP (كود لمرة واحدة) بسرعة | `apiKey` | نعم | لا |
+| [Micro User Service](https://m3o.com/user) | إدارة المستخدمين والمصادقة | `apiKey` | نعم | لا |
+| [MojoAuth](https://mojoauth.com) | منصة مصادقة حديثة وآمنة من غير باسوورد | `apiKey` | نعم | نعم |
+| [SAWO Labs](https://sawolabs.com) | سهّل عملية الدخول وحسّن تجربة المستخدم بتسجيل دخول من غير باسوورد | `apiKey` | نعم | نعم |
+| [Stytch](https://stytch.com/) | بنية تحتية للمستخدمين للتطبيقات الحديثة | `apiKey` | نعم | لا |
+| [Warrant](https://warrant.dev/) | APIs للصلاحيات والتحكم في الوصول | `apiKey` | نعم | نعم |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+<br>
+
+### ⛓️ البلوك تشين (Blockchain)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Bitquery](https://graphql.bitquery.io/ide) | APIs للـ GraphQL على السلسلة و APIs لتبادل العملات | `apiKey` | نعم | نعم |
+| [Chainlink](https://chain.link/developer-resources) | ابنِ عقود ذكية هجينة باستخدام Chainlink | لا | نعم | مش معروف |
+| [Chainpoint](https://tierion.com/chainpoint/) | شبكة عالمية لربط البيانات بسلسلة بيتكوين | لا | نعم | مش معروف |
+| [Covalent](https://www.covalenthq.com/docs/api/) | منصة لتجميع بيانات من عدة سلاسل كتل | `apiKey` | نعم | مش معروف |
+| [Etherscan](https://etherscan.io/apis) | مستكشف سلسلة إيثيريوم | `apiKey` | نعم | نعم |
+| [Helium](https://docs.helium.com/api/blockchain/introduction/) | شبكة موزعة عالمياً من نقاط اتصال (Hotspots) بتخلق تغطية لاسلكية عامة طويلة المدى | لا | نعم | مش معروف |
+| [Nownodes](https://nownodes.io/) | حل بلوك تشين كخدمة بيوفر اتصال عالي الجودة عبر API | `apiKey` | نعم | مش معروف |
+| [Steem](https://developers.steem.io/) | موقع تدوين وسائل تواصل اجتماعي مبني على البلوك تشين | لا | لا | لا |
+| [The Graph](https://thegraph.com) | بروتوكول لفهرسة البيانات والاستعلام عن شبكات زي إيثيريوم باستخدام GraphQL | `apiKey` | نعم | مش معروف |
+| [Walltime](https://walltime.info/api.html) | استرجاع معلومات السوق من Walltime | لا | نعم | مش معروف |
+| [Watchdata](https://docs.watchdata.io) | بيوفر وصول بسيط وموثوق لسلسلة إيثيريوم | `apiKey` | نعم | مش معروف |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+<br>
+
+### 📚 الكتب (Books)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [A Bíblia Digital](https://www.abibliadigital.com.br/en) | متنشغلش بإدارة النسخ المتعددة للكتاب المقدس | `apiKey` | نعم | لا |
+| [Bhagavad Gita](https://docs.bhagavadgitaapi.in) | API مفتوح المصدر لنص بهاغافاد غيتا مع ترجمات لـ 21+ مؤلف بالسنسكريتية/الإنجليزية/الهندية | `apiKey` | نعم | نعم |
+| [Bhagavad Gita](https://bhagavadgita.io/api) | نص بهاغافاد غيتا | `OAuth` | نعم | نعم |
+| [Bhagavad Gita telugu](https://gita-api.vercel.app) | API لبهاغافاد غيتا بلغات التيلجو والأوديا | لا | نعم | نعم |
+| [Bible-api](https://bible-api.com/) | API مجاني للكتاب المقدس بلغات متعددة | لا | نعم | نعم |
+| [British National Bibliography](http://bnb.data.bl.uk/) | كتب | لا | لا | مش معروف |
+| [Crossref Metadata Search](https://github.com/CrossRef/rest-api-doc) | بيانات وصفية للكتب والمقالات | لا | نعم | مش معروف |
+| [Ganjoor](https://api.ganjoor.net) | أعمال الشعر الفارسي الكلاسيكي بما في ذلك الوصول إلى المخطوطات ذات الصلة والتلاوات والمسارات الموسيقية | `OAuth` | نعم | نعم |
+| [Google Books](https://developers.google.com/books/) | كتب | `OAuth` | نعم | مش معروف |
+| [GurbaniNow](https://github.com/GurbaniNow/api) | API سريع ودقيق لـ Gurbاني | لا | نعم | مش معروف |
+| [Gutendex](https://gutendex.com/) | واجهة ويب لجلب البيانات من مكتبة كتب مشروع جوتنبرج | لا | نعم | مش معروف |
+| [Open Library](https://openlibrary.org/developers/api) | كتب وأغلفة كتب وبيانات ذات صلة | لا | نعم | لا |
+| [Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/) | كتب وأغلفة كتب وبيانات ذات صلة | لا | نعم | نعم |
+| [PoetryDB](https://github.com/thundercomb/poetrydb#readme) | يخليك تاخد بيانات فورية من مجموعة الشعر الضخمة بتاعتهم | لا | نعم | نعم |
+| [Quran](https://quran.api-docs.io/) | API حديث للقرآن بلغات متعددة | لا | نعم | نعم |
+| [Quran Cloud](https://alquran.cloud/api) | API حديث للقرآن لاسترجاع آية أو سورة أو جزء أو القرآن كامل | لا | نعم | نعم |
+| [Quran-api](https://github.com/fawazahmed0/quran-api#readme) | خدمة API مجانية للقرآن مع 90+ لغة و400+ ترجمة | لا | نعم | نعم |
+| [Rig Veda](https://aninditabasu.github.io/indica/html/rv.html) | الآلهة والشعراء وفئاتهم ومقاييس الآيات مع رقم الماندال والسوكتا | لا | نعم | مش معروف |
+| [The Bible](https://docs.api.bible) | كل اللي تحتاجه من الكتاب المقدس في مكان واحد | `apiKey` | نعم | مش معروف |
+| [Thirukkural](https://api-thirukkural.web.app/) | 1330 قصيدة من Thirukkural مع شرح بالتاميلية والإنجليزية | لا | نعم | نعم |
+| [Vedic Society](https://aninditabasu.github.io/indica/html/vs.html) | أوصاف جميع الأسماء (أسماء، أماكن، حيوانات، أشياء) من الأدب الفيدي | لا | نعم | مش معروف |
+| [Wizard World](https://wizard-world-api.herokuapp.com/swagger/index.html) | خد معلومات من عالم هاري بوتر | لا | نعم | نعم |
+| [Wolne Lektury](https://wolnelektury.pl/api/) | API للحصول على معلومات حول الكتب الإلكترونية المتاحة على موقع WolneLektury.pl | لا | نعم | مش معروف |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+<br>
+
+### 💼 الأعمال (Business)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Apache Superset](https://superset.apache.org/docs/api) | API لإدارة لوحات المعلومات ومصادر البيانات على Superset | `apiKey` | نعم | نعم |
+| [Charity Search](http://charityapi.orghunter.com/) | بيانات الجمعيات الخيرية غير الربحية | `apiKey` | لا | مش معروف |
+| [Clearbit Logo](https://clearbit.com/docs#logo-api) | دور على شعارات الشركات وضمّها في مشاريعك | `apiKey` | نعم | مش معروف |
+| [Domainsdb.info](https://domainsdb.info/) | بحث في أسماء النطاقات المسجلة | لا | نعم | لا |
+| [Freelancer](https://developers.freelancer.com) | وظّف مستقلين عشان تنجز شغلك | `OAuth` | نعم | مش معروف |
+| [Gmail](https://developers.google.com/gmail/api/) | وصول مرن وقابل للتخصيص لصندوق وارد المستخدم | `OAuth` | نعم | مش معروف |
+| [Google Analytics](https://developers.google.com/analytics/) | اجمع واعدّد وحلّل بياناتك عشان توصل للجمهور المناسب | `OAuth` | نعم | مش معروف |
+| [Instatus](https://instatus.com/help/api) | انشر وحدّث عمليات الصيانة والحوادث في صفحة الحالة بتاعتك عبر HTTP REST API | `apiKey` | نعم | مش معروف |
+| [Mailchimp](https://mailchimp.com/developer/) | ابعت حملات تسويقية وإيميلات معاملات | `apiKey` | نعم | مش معروف |
+| [mailjet](https://www.mailjet.com/) | إيميلات التسويق ممكن تتبعت وقوالب الإيميل المصممة بـ MJML أو HTML ممكن تتبعت باستخدام API | `apiKey` | نعم | مش معروف |
+| [markerapi](https://markerapi.com) | بحث في العلامات التجارية | لا | لا | مش معروف |
+| [ORB Intelligence](https://api.orb-intelligence.com/docs/) | البحث عن الشركات | `apiKey` | نعم | مش معروف |
+| [Redash](https://redash.io/help/user-guide/integrations-and-api/api) | وصل للاستعلامات ولوحات المعلومات بتاعتك على Redash | `apiKey` | نعم | نعم |
+| [Smartsheet](https://smartsheet.redoc.ly/) | يخليك توصل برمجياً لبيانات Smartsheet ومعلومات حسابك | `OAuth` | نعم | لا |
+| [Square](https://developer.squareup.com/reference/square) | طريقة سهلة لاستلام المدفوعات وإدارة المبالغ المستردة ومساعدة العملاء على الدفع أونلاين | `OAuth` | نعم | مش معروف |
+| [SwiftKanban](https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi) | برنامج Kanban، تصوّر العمل، وزد وقت التسليم والإنتاجية للمؤسسة | `apiKey` | نعم | مش معروف |
+| [المناقصات في المجر](https://tenders.guru/hu/api) | خد بيانات المناقصات في المجر بصيغة JSON | لا | نعم | مش معروف |
+| [المناقصات في بولندا](https://tenders.guru/pl/api) | خد بيانات المناقصات في بولندا بصيغة JSON | لا | نعم | مش معروف |
+| [المناقصات في رومانيا](https://tenders.guru/ro/api) | خد بيانات المناقصات في رومانيا بصيغة JSON | لا | نعم | مش معروف |
+| [المناقصات في إسبانيا](https://tenders.guru/es/api) | خد بيانات المناقصات في إسبانيا بصيغة JSON | لا | نعم | مش معروف |
+| [المناقصات في أوكرانيا](https://tenders.guru/ua/api) | خد بيانات المناقصات في أوكرانيا بصيغة JSON | لا | نعم | مش معروف |
+| [Tomba email finder](https://tomba.io/api) | أداة للعثور على الإيميلات للمبيعات B2B وتسويق الإيميل والتحقق من الإيميل | `apiKey` | نعم | نعم |
+| [Trello](https://developers.trello.com/) | لوحات وقوائم وبطاقات عشان تساعدك تنظّم وتحدد أولويات مشاريعك | `OAuth` | نعم | مش معروف |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+<br>
+
+### 📅 التقويم (Calendar)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Public Holidays](https://www.abstractapi.com/holidays-api) | بيانات عن العطلات الوطنية والإقليمية والدينية عبر API | `apiKey` | نعم | نعم |
+| [Calendarific](https://calendarific.com/) | عطلات عالمية | `apiKey` | نعم | مش معروف |
+| [Checkiday - National Holiday API](https://apilayer.com/marketplace/checkiday-api) | API رائد للعطلات. أكتر من 5000 عطلة وآلاف الأوصاف. موثوق بيهُ من أكبر الشركات العالمية | `apiKey` | نعم | مش معروف |
+| [Church Calendar](http://calapi.inadiutorium.cz/) | تقويم طقوسي كاثوليكي | لا | لا | مش معروف |
+| [Czech Namedays Calendar](https://svatky.adresa.info) | ابحث عن اسم وارجع تاريخ الاحتفال بالاسم | لا | لا | مش معروف |
+| [Festivo Public Holidays](https://docs.getfestivo.com/docs/products/public-holidays-api/intro) | أسرع وأكثر خدمة متقدمة للعطلات الرسمية والمناسبات في السوق | `apiKey` | نعم | نعم |
+| [Google Calendar](https://developers.google.com/google-apps/calendar/) | اعرض وأنشئ وعدّل أحداث تقويم جوجل | `OAuth` | نعم | مش معروف |
+| [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) | حوّل بين التقويم الميلادي والعبري، وجيب مواقيت السبت والأعياد، إلخ | لا | لا | مش معروف |
+| [Holidays](https://holidayapi.com/) | بيانات تاريخية بخصوص العطلات | `apiKey` | نعم | مش معروف |
+| [LectServe](http://www.lectserve.com) | تقويم طقوسي بروتستانتي | لا | لا | مش معروف |
+| [Nager.Date](https://date.nager.at) | عطلات رسمية لأكتر من 90 دولة | لا | نعم | لا |
+| [Namedays Calendar](https://nameday.abalin.net) | بيوفر احتفالات الأسماء لعدة دول | لا | نعم | نعم |
+| [Non-Working Days](https://github.com/gadael/icsdb) | قاعدة بيانات لملفات ICS لأيام عدم العمل | لا | نعم | مش معروف |
+| [Non-Working Days](https://isdayoff.ru) | API بسيط للتحقق من أيام العمل وعدم العمل والأيام المختصرة لروسيا ودول الكومنولث والولايات المتحدة وغيرها | لا | نعم | نعم |
+| [Russian Calendar](https://github.com/egno/work-calendar) | تحقق لو كان التاريخ ده عطلة في روسيا ولا لأ | لا | نعم | لا |
+| [UK Bank Holidays](https://www.gov.uk/bank-holidays.json) | عطلات البنوك في إنجلترا وويلز واسكتلندا وأيرلندا الشمالية | لا | نعم | مش معروف |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+<br>
+
+### ☁️ التخزين السحابي ومشاركة الملفات (Cloud Storage & File Sharing)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [AnonFiles](https://anonfiles.com/docs/api) | ارفع وشارك ملفاتك بشكل مجهول | لا | نعم | مش معروف |
+| [BayFiles](https://bayfiles.com/docs/api) | ارفع وشارك ملفاتك | لا | نعم | مش معروف |
+| [Box](https://developer.box.com/) | مشاركة وتخزين الملفات | `OAuth` | نعم | مش معروف |
+| [ddownload](https://ddownload.com/api) | مشاركة وتخزين الملفات | `apiKey` | نعم | مش معروف |
+| [Dropbox](https://www.dropbox.com/developers) | مشاركة وتخزين الملفات | `OAuth` | نعم | مش معروف |
+| [File.io](https://www.file.io) | مشاركة ملفات بسيطة جداً، مريحة ومجهولة وآمنة | لا | نعم | مش معروف |
+| [Filestack](https://www.filestack.com) | رافع ملفات Filestack و API لرفع الملفات | `apiKey` | نعم | مش معروف |
+| [GoFile](https://gofile.io/api) | رفع ملفات بحجم غير محدود مجاناً | `apiKey` | نعم | مش معروف |
+| [Google Drive](https://developers.google.com/drive/) | مشاركة وتخزين الملفات | `OAuth` | نعم | مش معروف |
+| [Gyazo](https://gyazo.com/api/docs) | احفظ وشارك لقطات الشاشة فوراً | `apiKey` | نعم | مش معروف |
+| [Imgbb](https://api.imgbb.com/) | مشاركة صور خاصة بسيطة وسريعة | `apiKey` | نعم | مش معروف |
+| [OneDrive](https://developer.microsoft.com/onedrive) | مشاركة وتخزين الملفات | `OAuth` | نعم | مش معروف |
+| [Pantry](https://getpantry.cloud/) | تخزين JSON مجاني للمشاريع الصغيرة | لا | نعم | نعم |
+| [Pastebin](https://pastebin.com/doc_api) | تخزين نصوص عادية | `apiKey` | نعم | مش معروف |
+| [Pinata](https://docs.pinata.cloud/) | API لخدمات تثبيت IPFS | `apiKey` | نعم | مش معروف |
+| [Quip](https://quip.com/dev/automation/documentation) | مشاركة وتخزين ملفات للمجموعات | `apiKey` | نعم | نعم |
+| [Storj](https://docs.storj.io/dcs/) | تخزين سحابي لامركزي مفتوح المصدر | `apiKey` | نعم | مش معروف |
+| [The Null Pointer](https://0x0.st) | خدمة استضافة ملفات واختصار روابط من غير تعقيد | لا | نعم | مش معروف |
+| [Web3 Storage](https://web3.storage/) | مشاركة وتخزين ملفات مجاناً مع مساحة 1 تيرابايت | `apiKey` | نعم | نعم |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+<br>
+
+### 🧪 التكامل المستمر (Continuous Integration)
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Azure DevOps Health](https://docs.microsoft.com/en-us/rest/api/resourcehealth) | صحة الموارد بتساعدك تشخّص وتحصل على دعم لما مشكلة في أزور تؤثر على مواردك | `apiKey` | لا | لا |
+| [Bitrise](https://api-docs.bitrise.io/) | أداة بناء وتكامل عمليات لإنشاء خطوط تطوير فعالة | `apiKey` | نعم | مش معروف |
+| [Buddy](https://buddy.works/docs/api/getting-started/overview) | أسرع منصة تكامل مستمر وتسليم مستمر | `OAuth` | نعم | مش معروف |
+| [CircleCI](https://circleci.com/docs/api/v1-reference/) | أتمتة عملية تطوير البرمجيات باستخدام التكامل المستمر والتسليم المستمر | `apiKey` | نعم | مش معروف |
+| [Codeship](https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/) | Codeship هي منصة تكامل مستمر في السحابة | `apiKey` | نعم | مش معروف |
+| [Travis CI](https://docs.travis-ci.com/api/) | زابط مشاريع GitHub مع Travis CI عشان تختبر الكود بتاعك في دقائق | `apiKey` | نعم | مش معروف |
+
+**[⬆ ارجع للفهرس](#index)**
+
+---
+<br>
+
+### 💰 العملات الرقمية (Cryptocurrency) - تكملَة
+
+| API | الوصف | المصادقة | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [0x](https://0x.org/api) | API للاستعلام عن إحصائيات الرموز المميزة والمجمعات عبر مجموعات سيولة مختلفة | لا | نعم | نعم |
+| [1inch](https://1inch.io/api/) | API للاستعلام عن تبادل لامركزي | لا | نعم | مش معروف |
+| [Alchemy Ethereum](https://docs.alchemy.com/alchemy/) | مزود خدمة عقد إيثيريوم كخدمة | `apiKey` | نعم | نعم |
+| [apilayer coinlayer](https://coinlayer.com) | أسعار صرف العملات الرقمية في الوقت الفعلي | `apiKey` | نعم | مش معروف |
+| [Binance](https://github.com/binance/binance-spot-api-docs) | منصة لتداول العملات الرقمية مقرها الصين | `apiKey` | نعم | مش معروف |
+| [Bitcambio](https://nova.bitcambio.com.br/api/v3/docs#a-public) | احصل على قائمة بجميع الأصول المتداولة في البورصة | لا | نعم | مش معروف |
+| [BitcoinAverage](https://apiv2.bitcoinaverage.com/) | بيانات أسعار الأصول الرقمية لصناعة البلوك تشين | `apiKey` | نعم | مش معروف |
+| [BitcoinCharts](https://bitcoincharts.com/about/exchanges/) | بيانات مالية وتقنية متعلقة بشبكة بيتكوين | لا | نعم | مش معروف |
+| [Bitfinex](https://docs.bitfinex.com/docs) | منصة تداول عملات رقمية | `apiKey` | نعم | مش معروف |
+| [Bitmex](https://www.bitmex.com/app/apiOverview) | منصة تداول مشتقات عملات رقمية في الوقت الفعلي مقرها هونغ كونغ | `apiKey` | نعم | مش معروف |
+| [Bittrex](https://bittrex.github.io/api/v3) | منصة تداول عملات رقمية من الجيل التالي | `apiKey` | نعم | مش معروف |
+| [Block](https://block.io/docs/basic) | بيانات مدفوعات ومحافظ ومعاملات بيتكوين | `apiKey` | نعم | مش معروف |
+| [Blockchain](https://www.blockchain.com/api) | بيانات مدفوعات ومحافظ ومعاملات بيتكوين | `apiKey` | نعم | مش معروف |
+| [blockfrost Cardano](https://blockfrost.io/) | تفاعل مع الشبكة الرئيسية لكارდანو وعدة شبكات اختبار | `apiKey` | نعم | مش معروف |
+| [Brave NewCoin](https://bravenewcoin.com/developers) | بيانات عملات رقمية في الوقت الفعلي وتاريخية من أكتر من 200+ بورصة | `apiKey` | نعم | مش معروف |
+| [BtcTurk](https://docs.btcturk.com/) | بيانات عملات رقمية في الوقت الفعلي ورسوم بيانية وAPI يسمح بالشراء والبيع | `apiKey` | نعم | نعم |
+| [Bybit](https://bybit-exchange.github.io/docs/linear/#t-introduction) | تغذية بيانات عملات رقمية وتداول خوارزمي | `apiKey` | نعم | مش معروف |
+| [CoinAPI](https://docs.coinapi.io/) | جميع بورصات العملات مدمجة تحت API واحد | `apiKey` | نعم | لا |
+| [Coinbase](https://developers.coinbase.com) | أسعار بيتكوين وبيتكوين كاش ولايتكوين وإيثيريوم | `apiKey` | نعم | مش معروف |
+| [Coinbase Pro](https://docs.pro.coinbase.com/#api) | منصة تداول عملات رقمية | `apiKey` | نعم | مش معروف |
+| [CoinCap](https://docs.coincap.io/) | أسعار عملات رقمية في الوقت الفعلي عبر RESTful API | لا | نعم | مش معروف |
+| [CoinDCX](https://docs.coindcx.com/) | منصة تداول عملات رقمية | `apiKey` | نعم | مش معروف |
+| [CoinDesk](https://old.coindesk.com/coindesk-api/) | مؤشر أسعار بيتكوين (BPI) من CoinDesk بعملات متعددة | لا | نعم | مش معروف |
+| [CoinGecko](http://www.coingecko.com/api) | أسعار وسوق وبيانات مطورين/تواصل اجتماعي للعملات الرقمية | لا | نعم | نعم |
+| [Coinigy](https://coinigy.docs.apiary.io) | التفاعل مع حسابات Coinigy والتبادل مباشرة | `apiKey` | نعم | مش معروف |
+| [Coinlib](https://coinlib.io/apidocs) | أسعار العملات الرقمية | `apiKey` | نعم | مش معروف |
+| [Coinlore](https://www.coinlore.com/cryptocurrency-data-api) | أسعار وحجم العملات الرقمية وأكثر | لا | نعم | مش معروف |
+| [CoinMarketCap](https://coinmarketcap.com/api/) | أسعار العملات الرقمية | `apiKey` | نعم | مش معروف |
+| [Coinpaprika](https://api.coinpaprika.com) | أسعار وحجم العملات الرقمية وأكثر | لا | نعم | نعم |
+| [CoinRanking](https://developers.coinranking.com/api/documentation) | بيانات عملات رقمية مباشرة | `apiKey` | نعم | مش معروف |
+
+**[⬆ ارجع للفهرس](#index)**
