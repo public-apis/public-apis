@@ -43,6 +43,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
     categories = {}
     category_line_num = {}
+    category = None
 
     for line_num, line_content in enumerate(contents):
 
@@ -55,13 +56,16 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
         if not line_content.startswith('|') or line_content.startswith('|---'):
             continue
 
+        if category is None:
+            continue
+
         raw_title = [
             raw_content.strip() for raw_content in line_content.split('|')[1:-1]
         ][0]
 
         title_match = link_re.match(raw_title)
         if title_match:
-                title = title_match.group(1).upper()
+                title = title_match.group(1)
                 categories[category].append(title)
 
     return (categories, category_line_num)
@@ -74,7 +78,7 @@ def check_alphabetical_order(lines: List[str]) -> List[str]:
     categories, category_line_num = get_categories_content(contents=lines)
 
     for category, api_list in categories.items():
-        if sorted(api_list) != api_list:
+        if sorted(api_list, key=str.upper) != api_list:
             err_msg = error_message(
                 category_line_num[category], 
                 f'{category} category is not alphabetical order'
