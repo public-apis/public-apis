@@ -466,6 +466,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown | |
 | [Postman Echo](https://www.postman-echo.com) | Test api server to receive and return value from HTTP method | No | Yes | Unknown | |
 | [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown | |
+| [Sthan.io Address Autocomplete](https://sthan.io/Products/address-autocomplete-usa) | Real-time US address suggestions with 100K free requests/month | `apiKey` | Yes | No | |
+| [Sthan.io Address Parser](https://sthan.io/Products/address-parser-usa) | AI-powered US address parsing with USPS postal standardization | `apiKey` | Yes | No | |
+| [Sthan.io Address Verification](https://sthan.io/Products/address-verification-usa) | Validate and standardize US addresses with USPS DPV verification | `apiKey` | Yes | No | |
+| [Sthan.io India Autocomplete](https://sthan.io/Products/autocomplete) | Real-time city, locality, and pincode autocomplete for Indian addresses | `apiKey` | Yes | No | |
 | [US Autocomplete](https://www.smarty.com/docs/cloud/us-autocomplete-pro-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes | |
 | [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes | |
 | [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes | |
@@ -996,6 +1000,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Rwanda Locations](https://rapidapi.com/victorkarangwa4/api/rwanda) | Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets | No | Yes | Unknown |
 | [SLF](https://github.com/slftool/slftool.github.io/blob/master/API.md) | German city, country, river, database | No | Yes | Yes |
 | [SpotSense](https://spotsense.io/) | Add location based interactions to your mobile app | `apiKey` | Yes | Unknown |
+| [Sthan.io Forward Geocoding](https://sthan.io/Products/geocoding-usa) | Convert US addresses to latitude/longitude coordinates with 1B+ address database | `apiKey` | Yes | No |
+| [Sthan.io IP Geolocation](https://sthan.io/Products/ip-geolocation) | Get geographic location from any IPv4/IPv6 address | `apiKey` | Yes | No |
+| [Sthan.io Reverse Geocoding](https://sthan.io/Products/reverse-geocoding-usa) | Convert latitude/longitude coordinates to nearest US street address | `apiKey` | Yes | No |
 | [Telize](https://rapidapi.com/fcambus/api/telize/) | Telize offers location information from any IP address | `apiKey` | Yes | Yes |
 | [TomTom](https://developer.tomtom.com/) | Maps, Directions, Places and Traffic APIs | `apiKey` | Yes | Yes |
 | [Uebermaps](https://uebermaps.com/api/v2) | Discover and share maps with friends | `apiKey` | Yes | Unknown |
