@@ -1883,6 +1883,7 @@ API | Description | Auth | HTTPS | CORS |
 | [weather-api](https://github.com/robertoduessmann/weather-api) | A RESTful free API to check the weather | No | Yes | No |
 | [WeatherAPI](https://www.weatherapi.com/) | Weather API with other stuff like Astronomy and Geolocation API | `apiKey` | Yes | Yes |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
+| [wttr.in](https://wttr.in/) | Simple, text-based weather service with multiple output formats | No | Yes | Yes |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
@@ -1890,6 +1891,54 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 
 <br>
+
+---
+
+## Traduction française / French Translation
+
+Ce dépôt est principalement maintenu en anglais. Vous trouverez ci-dessous une traduction des sections clés du README pour les contributeurs francophones.
+
+### À propos / About
+
+Le dépôt **Public APIs** est une liste de APIs publiques gratuites, classées par catégorie, maintenue manuellement par la communauté. Il sert de référence pour les développeurs souhaitant intégrer rapidement des APIs dans leurs projets.
+
+### Contribuer / Contributing
+
+Pour contribuer à ce projet :
+
+1. **Lisez le guide** — Consultez [CONTRIBUTING.md](CONTRIBUTING.md) avant toute chose.
+2. **Forkez le dépôt** — Créez votre propre copie via le bouton « Fork » sur GitHub.
+3. **Créez une branche dédiée** — Ne travaillez jamais directement sur `master` :
+   ```bash
+   git checkout -b ajout-<nom-api>
+   ```
+4. **Ajoutez votre entrée** dans la bonne catégorie du fichier `README.md`, en respectant le format de tableau et l'ordre alphabétique.
+5. **Vérifiez la conformité** en exécutant les scripts de validation :
+   ```bash
+   cd scripts
+   python -m pytest tests/ -v
+   ```
+6. **Soumettez une Pull Request** vers la branche `master` avec un titre au format `Add <Nom> API`.
+
+### Format d'une entrée / Entry Format
+
+| Champ | Valeurs acceptées |
+|---|---|
+| **API** | Lien Markdown `[Nom](URL)` — sans « API » en fin de titre |
+| **Description** | ≤ 100 caractères, commence par une majuscule, sans ponctuation finale |
+| **Auth** | `apiKey`, `OAuth`, `X-Mashape-Key`, `User-Agent`, `No` |
+| **HTTPS** | `Yes` ou `No` |
+| **CORS** | `Yes`, `No` ou `Unknown` |
+
+### Règles importantes / Key Rules
+
+- Une seule API par Pull Request.
+- Les APIs doivent être **gratuites ou freemium** (sans achat matériel préalable).
+- Les descriptions ne doivent pas dépasser **100 caractères**.
+- Le nom de l'API ne doit pas se terminer par « API » ni inclure le domaine de premier niveau (ex. : ✅ `Gmail` ❌ `Gmail.com`).
+- Tous les commits doivent être **squashés en un seul** avant l'ouverture de la PR.
+
+---
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
