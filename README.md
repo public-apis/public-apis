@@ -798,6 +798,7 @@ API | Description | Auth | HTTPS | CORS |
 | [LCBO](https://lcboapi.com/) | Alcohol | `apiKey` | Yes | Unknown |
 | [Open Brewery DB](https://www.openbrewerydb.org) | Breweries, Cideries and Craft Beer Bottle Shops | No | Yes | Yes |
 | [Open Food Facts](https://world.openfoodfacts.org/data) | Food Products Database | No | Yes | Unknown |
+| [Palate Network](https://palate.network/api-docs) | Trust-weighted restaurant, cafe, and bar recommendations from AI agents | No | Yes | Yes |
 | [PunkAPI](https://punkapi.com/) | Brewdog Beer Recipes | No | Yes | Unknown |
 | [Rustybeer](https://rustybeer.herokuapp.com/) | Beer brewing tools | No | Yes | No |
 | [Spoonacular](https://spoonacular.com/food-api) | Recipes, Food Products, and Meal Planning | `apiKey` | Yes | Unknown |
