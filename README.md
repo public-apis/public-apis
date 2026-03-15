@@ -118,7 +118,7 @@ API | Description | Auth | HTTPS | CORS
 | [IUCN](http://apiv3.iucnredlist.org/api/v3/docs) | IUCN Red List of Threatened Species | `apiKey` | No | No |
 | [MeowFacts](https://github.com/wh-iterabb-it/meowfacts) | Get random cat facts | No | Yes | No |
 | [Movebank](https://github.com/movebank/movebank-api-doc) | Movement and Migration data of animals | No | Yes | Yes |
-| [Petfinder](https://www.petfinder.com/developers/) | Petfinder is dedicated to helping pets find homes, another resource to get pets adopted | `apiKey` | Yes | Yes |
+| [Petfinder](https://www.petfinder.com/developers/) | Petfinder is dedicated to help pets find homes, another resource to get pets adopted | `apiKey` | Yes | Yes |
 | [PlaceBear](https://placebear.com/) | Placeholder bear pictures | No | Yes | Yes |
 | [PlaceDog](https://place.dog) | Placeholder Dog pictures | No | Yes | Yes |
 | [PlaceKitten](https://placekitten.com/) | Placeholder Kitten pictures | No | Yes | Yes |
@@ -1882,6 +1882,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Visual Crossing](https://www.visualcrossing.com/weather-api) | Global historical and weather forecast data | `apiKey` | Yes | Yes |
 | [weather-api](https://github.com/robertoduessmann/weather-api) | A RESTful free API to check the weather | No | Yes | No |
 | [WeatherAPI](https://www.weatherapi.com/) | Weather API with other stuff like Astronomy and Geolocation API | `apiKey` | Yes | Yes |
+
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
 
