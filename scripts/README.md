@@ -10,10 +10,12 @@ scripts
 ├───tests  # contains all unit tests from the validate package
 │       test_validate_format.py
 │       test_validate_links.py
+│       test_validate_apis.py
 │
 └───validate  # validate package
         format.py
         links.py
+        apis.py
 ```
 
 ## Install dependencies
@@ -48,6 +50,18 @@ $ python scripts/validate/links.py README.md -odlc
 
 *`-odlc` is an abbreviation of `--only_duplicate_links_checker`*
 
+To run API health and free-tier signal validation on the `README.md` file, run:
+
+```bash
+$ python scripts/validate/apis.py README.md
+```
+
+To apply automatic removals for rows that fail the checks, run:
+
+```bash
+$ python scripts/validate/apis.py README.md --write
+```
+
 ## Running Tests
 
 To run all tests it is necessary to change to the scripts directory:
@@ -72,4 +86,10 @@ To run only the links tests, run:
 
 ```bash
 $ python -m unittest discover tests/ --verbose --pattern "test_validate_links.py"
+```
+
+To run only the API validation tests, run:
+
+```bash
+$ python -m unittest discover tests/ --verbose --pattern "test_validate_apis.py"
 ```
