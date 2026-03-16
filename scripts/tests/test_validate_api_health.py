@@ -3,11 +3,11 @@
 import unittest
 from unittest.mock import patch
 
-from validate.apis import ApiEntry
-from validate.apis import has_free_tier_signal
-from validate.apis import find_entries_to_remove
-from validate.apis import parse_api_entries
-from validate.apis import remove_entries_from_lines
+from validate.api_health import ApiEntry
+from validate.api_health import has_free_tier_signal
+from validate.api_health import find_entries_to_remove
+from validate.api_health import parse_api_entries
+from validate.api_health import remove_entries_from_lines
 
 
 class TestValidateApis(unittest.TestCase):
@@ -36,7 +36,7 @@ class TestValidateApis(unittest.TestCase):
         self.assertFalse(has_free_tier_signal(paid_entry))
 
 
-    @patch('validate.apis.check_if_link_is_working', return_value=(True, 'ERR'))
+    @patch('validate.api_health.check_if_link_is_working', return_value=(True, 'ERR'))
     def test_find_entries_to_remove_counts_link_failures(self, _):
         entries = [
             ApiEntry(1, '', 'A', 'Free tier', 'apikey', 'https://example.com/a'),

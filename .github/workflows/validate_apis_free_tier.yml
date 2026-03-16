@@ -29,7 +29,7 @@ jobs:
         run: python -m pip install -r scripts/requirements.txt
 
       - name: Remove stale or non-free API rows
-        run: python scripts/validate/apis.py ${FILENAME} --write
+        run: python scripts/validate/api_health.py ${FILENAME} --write
 
       - name: Create pull request for removals
         uses: peter-evans/create-pull-request@v7
