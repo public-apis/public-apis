@@ -10,86 +10,9 @@ scripts
 ├───tests  # contains all unit tests from the validate package
 │       test_validate_format.py
 │       test_validate_links.py
-│       test_validate_apis.py
+│       test_validate_api_health.py
 │
 └───validate  # validate package
         format.py
         links.py
-        apis.py
-```
-
-## Install dependencies
-
-You must have [python](https://www.python.org/) installed to use these scripts.
-
-it is also necessary to install the validation package dependencies, use [pip package manager](https://pypi.org/project/pip/) for this:
-
-```bash
-$ python -m pip install -r scripts/requirements.txt
-```
-
-## Run validations
-
-To run format validation on the `README.md` file, being in the root directory of public-apis, run:
-
-```bash
-$ python scripts/validate/format.py README.md
-```
-
-To run link validation on the `README.md` file, being in the root directory of public-apis, run:
-
-```bash
-$ python scripts/validate/links.py README.md
-```
-
-As there are many links to check, this process can take some time. If your goal is not to check if the links are working, you can only check for duplicate links. Run:
-
-```bash
-$ python scripts/validate/links.py README.md -odlc
-```
-
-*`-odlc` is an abbreviation of `--only_duplicate_links_checker`*
-
-To run API health and free-tier signal validation on the `README.md` file, run:
-
-```bash
-$ python scripts/validate/apis.py README.md
-```
-
-To apply automatic removals for rows that fail the checks, run:
-
-```bash
-$ python scripts/validate/apis.py README.md --write
-```
-
-## Running Tests
-
-To run all tests it is necessary to change to the scripts directory:
-
-```bash
-$ cd scripts
-```
-
-then run:
-
-```bash
-$ python -m unittest discover tests/ --verbose
-```
-
-To run only the format tests, run:
-
-```bash
-$ python -m unittest discover tests/ --verbose --pattern "test_validate_format.py"
-```
-
-To run only the links tests, run:
-
-```bash
-$ python -m unittest discover tests/ --verbose --pattern "test_validate_links.py"
-```
-
-To run only the API validation tests, run:
-
-```bash
-$ python -m unittest discover tests/ --verbose --pattern "test_validate_apis.py"
-```
+        api_health.py
