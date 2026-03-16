@@ -29,9 +29,12 @@ jobs:
         run: python -m pip install -r scripts/requirements.txt
 
       - name: Remove stale or non-free API rows
+        id: validate_api_health
+        continue-on-error: true
         run: python scripts/validate/api_health.py ${FILENAME} --write
 
       - name: Create pull request for removals
+        if: steps.validate_api_health.outcome == 'success'
         uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "chore: remove APIs failing health/free-tier checks"

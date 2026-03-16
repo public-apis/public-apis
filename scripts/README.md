@@ -58,6 +58,9 @@ $ python scripts/validate/api_health.py README.md
 
 To apply automatic removals for rows that fail the checks, run:
 
+
+> Note: in restricted network environments, the validator may abort automatic removals to avoid mass deletions when link checks are globally unavailable.
+
 ```bash
 $ python scripts/validate/api_health.py README.md --write
 ```
