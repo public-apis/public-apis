@@ -370,6 +370,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [0x](https://0x.org/api) | API for querying token and pool stats across various liquidity pools | No | Yes | Yes |
 | [1inch](https://1inch.io/api/) | API for querying decentralize exchange | No | Yes | Unknown |
+| [AgentBroker](https://agentbroker.polsia.app) | API-first crypto exchange built for AI agents. REST API + WebSocket. Free sandbox with 10K test USDC. | `apiKey` | Yes | Yes |
 | [Alchemy Ethereum](https://docs.alchemy.com/alchemy/) | Ethereum Node-as-a-Service Provider | `apiKey` | Yes | Yes |
 | [apilayer coinlayer](https://coinlayer.com) | Real-time Crypto Currency Exchange Rates | `apiKey` | Yes | Unknown |
 | [Binance](https://github.com/binance/binance-spot-api-docs) | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown |
