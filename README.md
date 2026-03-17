@@ -768,6 +768,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Polygon](https://polygon.io/) | Historical stock market data | `apiKey` | Yes | Unknown | |
 | [Portfolio Optimizer](https://portfoliooptimizer.io/) | Portfolio analysis and optimization | No | Yes | Yes | |
 | [Razorpay IFSC](https://razorpay.com/docs/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown | |
+| RBIH (Reserve Bank Innovation Hub) | Indian financial APIs for document verification, account aggregation & KYC | apiKey | Yes | Unknown | |
 | [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | Websocket API to access realtime stock data | `apiKey` | No | Unknown | |
 | [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | API to access annual reports of public US companies | No | Yes | Yes | |
 | [SmartAPI](https://smartapi.angelbroking.com/) | Gain access to set of <SmartAPI> and create end-to-end broking services | `apiKey` | Yes | Unknown | |
