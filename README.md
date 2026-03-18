@@ -683,7 +683,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 ### Entertainment
 API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+|The Trivia API|Trivia questions for quiz and entertainment apps|No| Yes| Yes|[Link](https://the-trivia-api.com/docs) |
 | [chucknorris.io](https://api.chucknorris.io) | JSON API for hand curated Chuck Norris jokes | No | Yes | Unknown |
 | [Corporate Buzz Words](https://github.com/sameerkumar18/corporate-bs-generator-api) | REST API for Corporate Buzz Words | No | Yes | Yes |
 | [Excuser](https://excuser.herokuapp.com/) | Get random excuses for various situations | No | Yes | Unknown |
