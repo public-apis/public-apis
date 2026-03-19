@@ -811,6 +811,7 @@ API | Description | Auth | HTTPS | CORS |
 | [What's on the menu?](http://nypl.github.io/menus-api/) | NYPL human-transcribed historical menu collection | `apiKey` | No | Unknown |
 | [WhiskyHunter](https://whiskyhunter.net/api/) | Past online whisky auctions statistical data | No | Yes | Unknown |
 | [Zestful](https://zestfuldata.com/) | Parse recipe ingredients | `apiKey` | Yes | Yes |
+| [CalorieNinjas](https://calorieninjas.com/api)|Nutrition and calorie data API|apiKey|Yes|Yes|
 
 **[⬆ Back to Index](#index)**
 <br >
