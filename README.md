@@ -542,6 +542,7 @@ This is an attempt to categorise different APIs scoured from the web which make 
 | [**TMDb**](https://www.themoviedb.org/documentation/api) | TMDb provides powerful searches as well as powerful movie discovery. | **N/A** |
 | [**Trakt**](https://trakt.docs.apiary.io/) | Trakt collects lots of information about what TV shows and movies everyone is watching. | **N/A** |
 | [**TVmaze**](https://www.tvmaze.com/api) | TV Show and web series database. Episode guide, cast, crew and character information. Recaps, reviews, episode trailers, celebrity photos and more. | **N/A** |
+| [**Stockfilm**](https://api.stockfilm.com/x402/openapi.json) | Search and license 217,000+ authentic vintage 8mm home movie clips (1930s-1980s) restored in 4K. Free search, no auth required. | **N/A** |
 
 [⬆ Back to Table of Contents](#table-of-contents)
 ### Music
