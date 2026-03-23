@@ -414,13 +414,6 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
-### Events
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
 ### Finance
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
@@ -777,13 +770,6 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
-### Programming
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
@@ -828,12 +814,6 @@ API | Description | Auth | HTTPS | CORS |
 | [PhishStats](https://phishstats.info/) | Phishing database | No | Yes | Unknown |
 | [UK Police](https://data.police.uk/docs/) | UK Police data | No | Yes | Unknown |
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Shopping
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
 
 **[⬆ Back to Index](#index)**
 <br >
