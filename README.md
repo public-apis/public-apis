@@ -73,7 +73,6 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Government](#government)
 * [Health](#health)
 * [Jobs](#jobs)
-* [Machine Learning](#machine-learning)
 * [Music](#music)
 * [News](#news)
 * [Open Data](#open-data)
@@ -82,7 +81,6 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Personality](#personality)
 * [Phone](#phone)
 * [Photography](#photography)
-* [Programming](#programming)
 * [Science & Math](#science--math)
 * [Security](#security)
 * [Shopping](#shopping)
@@ -121,9 +119,6 @@ API | Description | Auth | HTTPS | CORS
 | [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
 | [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
 
 ### Anime
 API | Description | Auth | HTTPS | CORS |
