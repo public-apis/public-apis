@@ -1028,6 +1028,7 @@ API | Description | Auth | HTTPS | CORS |
 | [City, Lviv](https://opendata.city-adm.lviv.ua/) | Lviv(UA) City Open Data | No | Yes | Unknown |
 | [City, Nantes Open Data](https://data.nantesmetropole.fr/pages/home/) | Nantes(FR) City Open Data | `apiKey` | Yes | Unknown |
 | [City, New York Open Data](https://opendata.cityofnewyork.us/) | New York (US) City Open Data | No | Yes | Unknown |
+| [City, Munich Open Data](https://opendata.muenchen.de) | Munich (DE) City Open Data | No | Yes | Unknown |
 | [City, Prague Open Data](http://opendata.praha.eu/en) | Prague(CZ) City Open Data | No | No | Unknown |
 | [City, Toronto Open Data](https://open.toronto.ca/) | Toronto (CA) City Open Data | No | Yes | Yes |
 | [Code.gov](https://code.gov) | The primary platform for Open Source and code sharing for the U.S. Federal Government | `apiKey` | Yes | Unknown |
