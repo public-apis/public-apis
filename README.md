@@ -1191,6 +1191,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
+| Quotable | Random quotes API for inspiration | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
