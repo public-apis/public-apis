@@ -1170,6 +1170,17 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AI For Thai](https://aiforthai.in.th/index.php) | Free Various Thai AI API | `apiKey` | Yes | Yes |
+| [Cerebras](https://api-docs.cerebras.ai/) | High-performance Llama models inference | `apiKey` | Yes | Yes |
+| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | Serverless LLM, embeddings, image and audio models | `apiKey` | Yes | Yes |
+| [Cohere](https://docs.cohere.com/) | Chat models, embeddings, and rerank models | `apiKey` | Yes | Yes |
+| [Fireworks AI](https://readme.fireworks.ai/docs) | Serverless inference for powerful LLMs | `apiKey` | Yes | Yes |
+| [GitHub Models](https://github.com/marketplace/models) | Wide range of AI models with GitHub integration | `apiKey` | Yes | Yes |
+| [Google AI Studio](https://ai.google.dev/) | Access to Gemini models with generous free tier | `apiKey` | Yes | Yes |
+| [Groq](https://console.groq.com/docs) | Fast inference for diverse LLM options | `apiKey` | Yes | Yes |
+| [Mistral AI](https://docs.mistral.ai/) | High-performance models for experimentation | `apiKey` | Yes | Yes |
+| [NVIDIA NIM](https://docs.api.nvidia.com/) | NIM-powered LLM endpoints with OpenAI compatibility | `apiKey` | Yes | Yes |
+| [OpenRouter](https://openrouter.ai/docs) | Versatile platform with diverse LLM models | `apiKey` | Yes | Yes |
+| [Together AI](https://docs.together.ai/docs) | Collaborative platform with range of open models | `apiKey` | Yes | Yes |
 | [Clarifai](https://docs.clarifai.com/api-guide/api-overview) | Computer Vision | `OAuth` | Yes | Unknown |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes |
 | [Deepcode](https://www.deepcode.ai) | AI for code review | No | Yes | Unknown |
