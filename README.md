@@ -33,7 +33,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 <br >
 
-## Learn more about Public APIs
+## Learn more about Public APIs by looking at these provided resources
 
 <strong>Get Involved</strong>
 
