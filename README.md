@@ -34,7 +34,9 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 <br >
 
 ## Learn more about Public APIs
-
+### Notes
+- Ensure that all APIs listed are publicly accessible and regularly maintained.
+ 
 <strong>Get Involved</strong>
 
 * [Contributing Guide](CONTRIBUTING.md)
