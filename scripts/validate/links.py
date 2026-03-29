@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 
+import ipaddress
 import re
+import socket
 import sys
 import random
 from typing import List, Tuple
+from urllib.parse import urlparse
 
 import requests
 from requests.models import Response
@@ -149,6 +152,68 @@ def has_cloudflare_protection(resp: Response) -> bool:
     return False
 
 
+def is_safe_url(link: str) -> Tuple[bool, str]:
+    """Validates that a URL is safe to request.
+
+    Blocks non-http(s) schemes, private IP ranges, loopback addresses,
+    link-local addresses, and reserved addresses to prevent SSRF attacks
+    (e.g. access to localhost, RFC 1918 private IPs, or cloud metadata
+    endpoints such as 169.254.169.254).
+
+    Returns a tuple with True and an empty string if the URL is safe,
+    or False and an error message if the URL is not safe.
+    """
+
+    try:
+        parsed = urlparse(link)
+    except Exception:
+        return (False, f'ERR:URL: Invalid URL: {link}')
+
+    if parsed.scheme not in ('http', 'https'):
+        return (False, f'ERR:SCH: Invalid URL scheme "{parsed.scheme}": {link}')
+
+    hostname = parsed.hostname
+    if not hostname:
+        return (False, f'ERR:URL: Missing hostname: {link}')
+
+    try:
+        addr_infos = socket.getaddrinfo(hostname, None)
+        if not addr_infos:
+            return (False, f'ERR:DNS: Could not resolve hostname: {link}')
+        ip = ipaddress.ip_address(addr_infos[0][4][0])
+    except (socket.gaierror, ValueError):
+        return (False, f'ERR:DNS: Could not resolve hostname: {link}')
+
+    if ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_reserved:
+        return (False, f'ERR:PRV: URL resolves to a private/reserved IP address: {link}')
+
+    return (True, '')
+
+
+def safe_request(link: str) -> Response:
+    """Make a safe HTTP GET request with SSRF protection.
+
+    Validates the initial URL and each redirect target against private,
+    loopback, link-local, and reserved IP ranges before sending any request.
+    This prevents SSRF bypass via open redirects.
+    """
+
+    def check_redirect(resp: Response, *args, **kwargs) -> None:
+        """Hook that validates every redirect URL before following it."""
+        if resp.is_redirect:
+            redirect_url = resp.headers.get('Location', '')
+            is_safe, error = is_safe_url(redirect_url)
+            if not is_safe:
+                raise ValueError(error)
+
+    session = requests.Session()
+    session.hooks['response'] = [check_redirect]
+    return session.get(link, timeout=25, headers={
+        'User-Agent': fake_user_agent(),
+        'host': get_host_from_link(link)
+    })
+
+
 def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     """Checks if a link is working.
 
@@ -163,11 +228,12 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     has_error = False
     error_message = ''
 
+    is_safe, safety_error = is_safe_url(link)
+    if not is_safe:
+        return (True, safety_error)
+
     try:
-        resp = requests.get(link, timeout=25, headers={
-            'User-Agent': fake_user_agent(),
-            'host': get_host_from_link(link)
-        })
+        resp = safe_request(link)
 
         code = resp.status_code
 
