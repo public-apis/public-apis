@@ -2,8 +2,11 @@
 
 A collective list of free APIs for use in software and web development.
 
-Browse the [index](#index) below to find public APIs by category, and use the
-[contributing guide](CONTRIBUTING.md) if you want to help keep the directory up to date.
+This repository is no longer the active community-maintained home of the Public APIs list.
+
+For new submissions, issue reports, and maintained project documentation, use the community-run repository at [public-apis-dev/public-apis](https://github.com/public-apis-dev/public-apis).
+
+For background on why community maintenance moved away from this repository, see [issue #3104](https://github.com/public-apis/public-apis/issues/3104).
 
 <br />
 
@@ -12,9 +15,11 @@ Browse the [index](#index) below to find public APIs by category, and use the
 <strong>Get Involved</strong>
 
 * [Contributing Guide](CONTRIBUTING.md)
-* [API for this project](https://github.com/davemachado/public-api)
-* [Issues](https://github.com/public-apis/public-apis/issues)
-* [Pull Requests](https://github.com/public-apis/public-apis/pulls)
+* [Active repository](https://github.com/public-apis-dev/public-apis)
+* [Project API](https://github.com/public-apis-dev/public-apis/blob/master/API.md)
+* [Issues](https://github.com/public-apis-dev/public-apis/issues)
+* [Pull Requests](https://github.com/public-apis-dev/public-apis/pulls)
+* [Background on repository status](https://github.com/public-apis/public-apis/issues/3104)
 * [LICENSE](LICENSE) 
 
 <br />
