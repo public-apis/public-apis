@@ -125,6 +125,7 @@ API | Description | Auth | HTTPS | CORS
 | [RandomDog](https://random.dog/woof.json) | Random pictures of dogs | No | Yes | Yes |
 | [RandomDuck](https://random-d.uk/api) | Random pictures of ducks | No | Yes | No |
 | [RandomFox](https://randomfox.ca/floof/) | Random pictures of foxes | No | Yes | No |
+| [Random Wolf](https://randomwolf.xyz/) | Random wolf images | No | Yes | Yes |
 | [RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) | Adoption | No | Yes | Unknown |
 | [Shibe.Online](http://shibe.online/) | Random pictures of Shiba Inu, cats or birds | No | Yes | Yes |
 | [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
@@ -1893,3 +1894,5 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+f i x   e m a i l  
+ 
