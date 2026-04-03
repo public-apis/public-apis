@@ -156,7 +156,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Lordicon](https://lordicon.com/) | Icons with predone Animations | No | Yes | Yes |
 | [Metropolitan Museum of Art](https://metmuseum.github.io/) | Met Museum of Art | No | Yes | No |
 | [PHP-Noise](https://php-noise.com/) | Noise Background Image Generator | No | Yes | Yes |
-| [Pixel Encounter](https://pixelencounter.com/api) | SVG Icon Generator | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -318,7 +317,6 @@ API | Description | Auth | HTTPS | CORS |
 | [JSON 2 JSONP](https://json2jsonp.com/) | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | Unknown |
 | [JSONbin.io](https://jsonbin.io) | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | Yes |
 | [Kroki](https://kroki.io) | Creates diagrams from textual descriptions | No | Yes | Yes |
-| [License-API](https://github.com/cmccandless/license-api/blob/master/README.md) | Unofficial REST API for choosealicense.com | No | Yes | No |
 | [MicroENV](https://microenv.com/) | Fake Rest API for developers | No | Yes | Unknown |
 | [MY IP](https://www.myip.com/api-docs/) | Get IP address information | No | Yes | Unknown |
 | [Nationalize.io](https://nationalize.io) | Estimate the nationality of a first name | No | Yes | Yes |
@@ -518,7 +516,6 @@ API | Description | Auth | HTTPS | CORS |
 | [IP 2 Country](https://ip2country.info) | Map an IP to a country | No | Yes | Unknown |
 | [IP Address Details](https://ipinfo.io/) | Find geolocation with ip address | No | Yes | Unknown |
 | [IP Vigilante](https://www.ipvigilante.com/) | Free IP Geolocation API | No | Yes | Unknown |
-| [ip-api](https://ip-api.com/docs) | Find location with IP address or domain | No | No | Unknown |
 | [ipapi.co](https://ipapi.co/api/#introduction) | Find IP address location information | No | Yes | Yes |
 | [IPGEO](https://api.techniknews.net/ipgeo/) | Unlimited free IP Address API with useful information | No | Yes | Unknown |
 | [ipgeolocation](https://ipgeolocation.io/) | IP Geolocation AP with free plan 30k requests per month | `apiKey` | Yes | Yes |
@@ -550,7 +547,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Brazilian Chamber of Deputies Open Data](https://dadosabertos.camara.leg.br/swagger/api.html) | Provides legislative information in Apis XML and JSON, as well as files in various formats | No | Yes | No |
 | [Census.gov](https://www.census.gov/data/developers/data-sets.html) | The US Census Bureau provides various APIs and data sets on demographics and businesses | No | Yes | Unknown |
 | [City, Gdańsk](https://ckan.multimediagdansk.pl/en) | Gdańsk (PL) City Open Data | No | Yes | Unknown |
-| [City, Gdynia](http://otwartedane.gdynia.pl/en/api_doc.html) | Gdynia (PL) City Open Data | No | No | Unknown |
 | [City, Helsinki](https://hri.fi/en_gb/) | Helsinki(FI) City Open Data | No | Yes | Unknown |
 | [City, Lviv](https://opendata.city-adm.lviv.ua/) | Lviv(UA) City Open Data | No | Yes | Unknown |
 | [City, Nantes Open Data](https://data.nantesmetropole.fr/pages/home/) | Nantes(FR) City Open Data | `apiKey` | Yes | Unknown |
@@ -575,7 +571,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Czech Republic](https://data.gov.cz/english/) | Czech Republic Government Open Data | No | Yes | Unknown |
 | [Open Government, Denmark](https://www.opendata.dk/) | Denmark Government Open Data | No | Yes | Unknown |
 | [Open Government, France](https://www.data.gouv.fr/) | French Government Open Data | `apiKey` | Yes | Unknown |
-| [Open Government, Germany](https://www.govdata.de/daten/-/details/govdata-metadatenkatalog) | Germany Government Open Data | No | Yes | Unknown |
 | [Open Government, Greece](https://data.gov.gr/) | Greece Government Open Data | `OAuth` | Yes | Unknown |
 | [Open Government, Lithuania](https://data.gov.lt/public/api/1) | Lithuania Government Open Data | No | Yes | Unknown |
 | [Open Government, Luxembourg](https://data.public.lu) | Luxembourgish Government Open Data | `apiKey` | Yes | Unknown |
@@ -584,7 +579,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, New South Wales](https://api.nsw.gov.au/) | New South Wales Government Open Data | `apiKey` | Yes | Unknown |
 | [Open Government, New Zealand](https://www.data.govt.nz/) | New Zealand Government Open Data | No | Yes | Unknown |
 | [Open Government, Norway](https://data.norge.no/dataservices) | Norwegian Government Open Data | No | Yes | Yes |
-| [Open Government, Peru](https://www.datosabiertos.gob.pe/) | Peru Government Open Data | No | Yes | Unknown |
 | [Open Government, Poland](https://dane.gov.pl/en) | Poland Government Open Data | No | Yes | Yes |
 | [Open Government, Portugal](https://dados.gov.pt/en/docapi/) | Portugal Government Open Data | No | Yes | Yes |
 | [Open Government, Queensland Government](https://www.data.qld.gov.au/) | Queensland Government Open Data | No | Yes | Unknown |
@@ -851,7 +845,6 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Bacon Ipsum](https://baconipsum.com/json-api/) | A Meatier Lorem Ipsum Generator | No | Yes | Unknown |
-| [English Random Words](https://random-words-api.vercel.app/word) | Generate English Random Words with Pronunciation | No | Yes | No |
 | [FakerAPI](https://fakerapi.it/en) | APIs collection to get fake data | No | Yes | Yes |
 | [FakeStoreAPI](https://fakestoreapi.com/) | Fake store rest API for your e-commerce or shopping website prototype | No | Yes | Unknown |
 | [ItsThisForThat](https://itsthisforthat.com/api.php) | Generate Random startup ideas | No | Yes | No |
@@ -907,8 +900,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Transport for Czech Republic](https://www.chaps.cz/eng/products/idos-internet) | Czech transport API | No | Yes | Unknown |
 | [Transport for Finland](https://digitransit.fi/en/developers/ ) | Finnish transport API | No | Yes | Unknown |
 | [Transport for Grenoble, France](https://www.mobilites-m.fr/pages/opendata/OpenDataApi.html) | Grenoble public transport | No | No | No |
-| [Transport for Hessen, Germany](https://opendata.rmv.de/site/start.html) | RMV API (Public Transport in Hessen) | No | Yes | Unknown |
-| [Transport for Los Angeles, US](https://developer.metro.net/api/) | Data about positions of Metro vehicles in real time and travel their routes | No | Yes | Unknown |
 | [Transport for Norway](https://developer.entur.org/) | Transport APIs and dataset for Norway | No | Yes | Unknown |
 | [Transport for Paris, France](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) | RATP Open Data API | No | No | Unknown |
 | [Transport for Spain](https://data.renfe.com/api/1/util/snippet/api_info.html?resource_id=a2368cff-1562-4dde-8466-9635ea3a572a) | Public trains of Spain | No | Yes | Unknown |
