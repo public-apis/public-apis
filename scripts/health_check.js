@@ -25,6 +25,7 @@ for (const block of sectionBlocks) {
   for (let i = 1; i < rows.length; i++) {
     const cols = rows[i].split('|').map(c => c.trim()).filter((_, j) => j > 0 && j < 7);
     if (cols.length < 4) { malformedRows++; continue; }
+    if (cols[0] === '---') { continue; } // skip table separator rows
 
     const nameLink = cols[0];
     const desc = cols[1];
