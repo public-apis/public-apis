@@ -1643,6 +1643,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UUID Generator](https://www.uuidtools.com/docs) | Generate UUIDs | No | Yes | No |
 | [What The Commit](http://whatthecommit.com/index.txt) | Random commit message generator | No | No | Yes |
 | [Yes No](https://yesno.wtf/api) | Generate yes or no randomly | No | Yes | Unknown |
+| [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | Free fake REST API for testing and prototyping | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
