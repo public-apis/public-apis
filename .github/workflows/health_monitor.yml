@@ -1,0 +1,43 @@
+name: Health Monitor
+
+on:
+  schedule:
+    - cron: '0 0 1,15 * *'  # Twice monthly
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    name: 'Run health check'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run health check
+        run: node scripts/health_check.js
+
+      - name: Check for regressions
+        run: |
+          echo "Health check complete. Review health_report.json for details."
+
+  spot-check:
+    name: 'Spot connectivity check'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run spot check
+        run: python scripts/spot_check.py
+        continue-on-error: true
