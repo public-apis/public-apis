@@ -1,12 +1,12 @@
 {
-  "generated": "2026-04-04T08:30:57.197Z",
+  "generated": "2026-04-04T08:54:50.198Z",
   "totalApis": 1418,
   "sections": 51,
   "healthScore": 60,
   "httpsCoverage": 93.7,
   "corsYesRate": 27.7,
   "noAuthRate": 47,
-  "formatIssues": 1,
+  "formatIssues": 0,
   "duplicateUrls": 0,
   "bySection": {
     "Animals": {
