@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Category Health Dashboard — public-apis</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0f0f1a; color: #e0e0e0; padding: 1.5rem; margin: 0; }
+    h1 { color: #818cf8; font-size: 1.4rem; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; font-size: 0.8rem; margin-bottom: 1.5rem; }
+    .controls { display: flex; gap: 1rem; margin-bottom: 1rem; align-items: center; }
+    select { background: #1e1e2e; border: 1px solid #3b3b5c; color: #e0e0e0; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.85rem; }
+    th { background: #1e1e2e; color: #a5b4fc; text-align: left; padding: 0.5rem 0.75rem; cursor: pointer; user-select: none; font-size: 0.8rem; }
+    th:hover { color: #fff; }
+    td { padding: 0.45rem 0.75rem; border-bottom: 1px solid #1a1a2e; font-size: 0.82rem; }
+    tr:hover td { background: #1a1a2e; }
+    tr.top5 td { background: #1a2a1a; }
+    .badge { display: inline-block; padding: 1px 7px; border-radius: 4px; font-size: 0.75rem; }
+    .bar-cell { min-width: 120px; }
+    .bar-bg { background: #2a2a3e; border-radius: 4px; height: 6px; width: 100%; margin-top: 4px; }
+    .bar-fill { border-radius: 4px; height: 6px; }
+    .pct { font-size: 0.75rem; color: #94a3b8; }
+    a { color: #818cf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .back { color: #818cf8; font-size: 0.8rem; margin-bottom: 1rem; display: block; }
+  </style>
+</head>
+<body>
+  <a class="back" href="index.html">← Back to API Filter</a>
+  <h1>📊 Category Health Dashboard</h1>
+  <p class="subtitle">51 categories · 1418 APIs · Health Score = HTTPS×0.4 + CORS×0.3 + NoAuth×0.3</p>
+
+  <div class="controls">
+    <label style="color:#94a3b8;font-size:0.85rem">Sort by:</label>
+    <select id="sortSelect">
+      <option value="health">Health Score</option>
+      <option value="cors">CORS Yes Rate</option>
+      <option value="https">HTTPS Rate</option>
+      <option value="noauth">No-Auth Rate</option>
+      <option value="count">API Count</option>
+    </select>
+    <label style="color:#94a3b8;font-size:0.85rem">Min APIs:</label>
+    <select id="minSelect">
+      <option value="0">All</option>
+      <option value="10">≥ 10</option>
+      <option value="20">≥ 20</option>
+      <option value="50">≥ 50</option>
+    </select>
+  </div>
+
+  <table id="table">
+    <thead><tr>
+      <th onclick="sort('name')">Category ▲▼</th>
+      <th onclick="sort('count')"># APIs</th>
+      <th onclick="sort('https')">HTTPS %</th>
+      <th onclick="sort('cors')">CORS Yes %</th>
+      <th onclick="sort('noauth')">No-Auth %</th>
+      <th onclick="sort('health')">Health</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+
+  <script type="module">
+    const DATA = [{"name":"Open Source Projects","count":9,"https":89,"cors":56,"noauth":89},{"name":"Animals","count":27,"https":96,"cors":56,"noauth":78},{"name":"Books","count":23,"https":96,"cors":52,"noauth":74},{"name":"Entertainment","count":10,"https":100,"cors":20,"noauth":100},{"name":"Health","count":31,"https":97,"cors":35,"noauth":77},{"name":"Phone","count":5,"https":100,"cors":80,"noauth":20},{"name":"Anime","count":19,"https":95,"cors":53,"noauth":53},{"name":"Email","count":17,"https":100,"cors":47,"noauth":47},{"name":"Games & Comics","count":94,"https":95,"cors":35,"noauth":65},{"name":"Personality","count":23,"https":91,"cors":22,"noauth":83},{"name":"Currency Exchange","count":17,"https":94,"cors":47,"noauth":53},{"name":"Science & Math","count":33,"https":91,"cors":15,"noauth":88},{"name":"URL Shorteners","count":19,"https":100,"cors":37,"noauth":53},{"name":"Video","count":42,"https":93,"cors":31,"noauth":67},{"name":"Development","count":120,"https":98,"cors":47,"noauth":43},{"name":"Test Data","count":25,"https":84,"cors":20,"noauth":80},{"name":"Government","count":86,"https":90,"cors":8,"noauth":79},{"name":"Geocoding","count":85,"https":92,"cors":31,"noauth":49},{"name":"Open Data","count":35,"https":91,"cors":26,"noauth":54},{"name":"Sports & Fitness","count":33,"https":94,"cors":33,"noauth":42},{"name":"Security","count":38,"https":100,"cors":26,"noauth":37},{"name":"Food & Drink","count":24,"https":92,"cors":25,"noauth":46},{"name":"Art & Design","count":20,"https":80,"cors":30,"noauth":55},{"name":"Machine Learning","count":21,"https":100,"cors":43,"noauth":14},{"name":"Authentication & Authorization","count":7,"https":100,"cors":57,"noauth":0},{"name":"Calendar","count":16,"https":75,"cors":25,"noauth":63},{"name":"Data Validation","count":7,"https":86,"cors":43,"noauth":29},{"name":"Finance","count":45,"https":98,"cors":36,"noauth":18},{"name":"Blockchain","count":11,"https":91,"cors":18,"noauth":45},{"name":"Weather","count":31,"https":90,"cors":32,"noauth":32},{"name":"Dictionaries","count":13,"https":92,"cors":23,"noauth":38},{"name":"Patent","count":4,"https":100,"cors":0,"noauth":50},{"name":"Vehicle","count":6,"https":100,"cors":17,"noauth":33},{"name":"Environment","count":17,"https":88,"cors":18,"noauth":47},{"name":"Cryptocurrency","count":64,"https":98,"cors":16,"noauth":34},{"name":"News","count":19,"https":95,"cors":32,"noauth":21},{"name":"Music","count":33,"https":100,"cors":15,"noauth":30},{"name":"Cloud Storage & File Sharing","count":19,"https":100,"cors":16,"noauth":26},{"name":"Programming","count":5,"https":100,"cors":20,"noauth":20},{"name":"Business","count":22,"https":95,"cors":14,"noauth":32},{"name":"Tracking","count":9,"https":78,"cors":33,"noauth":33},{"name":"Text Analysis","count":15,"https":100,"cors":27,"noauth":7},{"name":"Photography","count":28,"https":96,"cors":18,"noauth":21},{"name":"Social","count":40,"https":100,"cors":13,"noauth":20},{"name":"Anti-Malware","count":14,"https":100,"cors":21,"noauth":7},{"name":"Transportation","count":69,"https":78,"cors":10,"noauth":45},{"name":"Shopping","count":14,"https":100,"cors":21,"noauth":0},{"name":"Documents & Productivity","count":28,"https":100,"cors":11,"noauth":7},{"name":"Jobs","count":17,"https":82,"cors":18,"noauth":24},{"name":"Events","count":3,"https":100,"cors":0,"noauth":0},{"name":"Continuous Integration","count":6,"https":83,"cors":0,"noauth":0}];
+
+    let sortCol = 'health';
+    let sortAsc = false;
+
+    function health(cat) {
+      return Math.round((cat.https / 100 * 0.4 + cat.cors / 100 * 0.3 + cat.noauth / 100 * 0.3) * 100);
+    }
+
+    function bar(color, pct) {
+      return `<div class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${pct}%;background:${color}"></div></div><span class="pct">${pct}%</span></div>`;
+    }
+
+    function render() {
+      const minApis = +document.getElementById('minSelect').value;
+      let cats = DATA.filter(c => c.count >= minApis);
+      cats.sort((a, b) => {
+        let av = a[sortCol], bv = b[sortCol];
+        if (av < bv) return sortAsc ? 1 : -1;
+        if (av > bv) return sortAsc ? -1 : 1;
+        return 0;
+      });
+
+      const tbody = document.getElementById('tbody');
+      tbody.innerHTML = cats.map((c, i) => {
+        const h = health(c);
+        const rowClass = i < 5 ? 'top5' : '';
+        const httpsColor = c.https >= 90 ? '#22c55e' : c.https >= 70 ? '#f59e0b' : '#ef4444';
+        const corsColor  = c.cors  >= 40 ? '#22c55e' : c.cors  >= 20 ? '#f59e0b' : '#ef4444';
+        const noauthColor = c.noauth >= 50 ? '#22c55e' : c.noauth >= 30 ? '#f59e0b' : '#ef4444';
+        const hColor = h >= 60 ? '#22c55e' : h >= 40 ? '#f59e0b' : '#ef4444';
+        return `<tr class="${rowClass}">
+          <td><a href="index.html?cat=${encodeURIComponent(c.name)}">${c.name}</a></td>
+          <td>${c.count}</td>
+          <td>${bar(httpsColor, c.https)}</td>
+          <td>${bar(corsColor, c.cors)}</td>
+          <td>${bar(noauthColor, c.noauth)}</td>
+          <td><span class="badge" style="background:${hColor}22;color:${hColor};border:1px solid ${hColor}44">${h}</span></td>
+        </tr>`;
+      }).join('');
+    }
+
+    window.sort = function(col) {
+      if (sortCol === col) sortAsc = !sortAsc;
+      else { sortCol = col; sortAsc = false; }
+      render();
+    };
+
+    document.getElementById('sortSelect').addEventListener('change', e => {
+      sortCol = e.target.value; sortAsc = false; render();
+    });
+    document.getElementById('minSelect').addEventListener('change', render);
+
+    render();
+  </script>
+</body>
+</html>
