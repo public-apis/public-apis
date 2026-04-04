@@ -45,7 +45,7 @@
   <p style="color:#94a3b8;font-size:0.8rem">419K+ Stars · Curated by APILayer · <a href="https://github.com/public-apis/public-apis" style="color:#818cf8">GitHub</a></p>
 
   <div class="filters">
-    <input type="text" id="searchInput" placeholder="Search APIs..." />
+    <input type="text" id="searchInput" placeholder="Search... (e.g. 'free weather API with HTTPS and CORS')" style="width:340px" />
     <select id="catFilter"><option value="">All Categories</option></select>
     <select id="authFilter"><option value="">Any Auth</option><option value="No">No Auth</option><option value="apiKey">API Key</option><option value="OAuth">OAuth</option></select>
     <select id="httpsFilter"><option value="">HTTPS Any</option><option value="Yes">HTTPS Only</option></select>
@@ -154,18 +154,57 @@
       });
     }
 
+    function parseNatural(q) {
+      // Keywords that map to specific filters
+      const kw = q.toLowerCase();
+      const extraFilters = { cat: '', auth: '', https: '', cors: '' };
+      const textTerms = [];
+
+      // Auth
+      if (kw.includes('no auth') || kw.includes('free') || kw.includes('不需要')) extraFilters.auth = 'No';
+      if (kw.includes('apikey') || kw.includes('api key')) extraFilters.auth = 'apiKey';
+      if (kw.includes('oauth')) extraFilters.auth = 'OAuth';
+
+      // HTTPS
+      if (kw.includes('https')) extraFilters.https = 'Yes';
+
+      // CORS
+      if (kw.includes('cors')) extraFilters.cors = 'Yes';
+      if (kw.includes('cors unknown') || kw.includes('unknown cors')) extraFilters.cors = 'Unknown';
+
+      // Categories
+      const cats = ['Finance','Cryptocurrency','Development','Games','Government','Geocoding','Health','Music','News','Science','Social','Sports','Transportation','Video','Weather'];
+      for (const c of cats) {
+        if (kw.includes(c.toLowerCase())) { extraFilters.cat = c; break; }
+      }
+
+      // Strip filter words from text search
+      const strip = (kw.replace(/no auth|free|不需要|apikey|api key|oauth|https|cors|weather|finance|cryptocurrency|development|games|government|geocoding|health|music|news|science|social|sports|transportation|video/gi, '')).trim();
+      if (strip) textTerms.push(strip);
+
+      return { extraFilters, textTerms };
+    }
+
     function applyFilters() {
-      const q = document.getElementById('searchInput').value.toLowerCase();
+      const rawQ = document.getElementById('searchInput').value;
       const cat = document.getElementById('catFilter').value;
       const auth = document.getElementById('authFilter').value;
       const https = document.getElementById('httpsFilter').value;
       const cors = document.getElementById('corsFilter').value;
+
+      const { extraFilters, textTerms } = parseNatural(rawQ);
+      const mergedCat  = cat  || extraFilters.cat;
+      const mergedAuth = auth || extraFilters.auth;
+      const mergedHttps = https || extraFilters.https;
+      const mergedCors = cors || extraFilters.cors;
+
       filtered = allAPIs.filter(a => {
+        const q = textTerms.join(' ');
         if (q && !a.name.toLowerCase().includes(q) && !a.desc.toLowerCase().includes(q)) return false;
-        if (cat && a.category !== cat) return false;
-        if (auth && a.auth !== auth) return false;
-        if (https && a.https !== https) return false;
-        if (cors && a.cors !== cors) return false;
+        if (mergedCat  && a.category !== mergedCat)  return false;
+        if (mergedAuth && a.auth    !== mergedAuth) return false;
+        if (mergedHttps && a.https  !== mergedHttps) return false;
+        if (mergedCors && a.cors   !== mergedCors)  return false;
         return true;
       });
       filtered.sort((a, b) => {
