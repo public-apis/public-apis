@@ -1,7 +1,7 @@
 # Try Public APIs for free
 The Public APIs repository is manually curated by community members like you and folks working at [APILayer](https://apilayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo). It includes an extensive list of public APIs from many domains that you can use for your own products. Consider it a treasure trove of APIs well-managed by the community over the years.
 
-<br >
+<br>
 
 <p>
     <a href="https://apilayer.com">
@@ -15,7 +15,7 @@ APILayer is the fastest way to integrate APIs into any product. Explore [APILaye
 
 Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo) to get updates, ask questions, get answers, random community calls, and more.
 
-<br >
+<br>
 
 ## APILayer APIs
 | API | Description | Call this API |
@@ -31,7 +31,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [Exchangerate Host](https://exchangerate.host/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-time current and historical foreign exchange and crypto rates |[Documentation](https://docs.apilayer.com/Exchangerate/docs/api-documentation?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers)|
 | [Mailboxlayer](https://mailboxlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Email Validation & Verification JSON API for Developers |[Documentation](https://docs.apilayer.com/mailboxlayer/docs/api-documentation?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers)|
 
-<br >
+<br>
 
 ## Learn more about Public APIs
 
@@ -43,7 +43,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Pull Requests](https://github.com/public-apis/public-apis/pulls)
 * [LICENSE](LICENSE) 
 
-<br />
+<br/>
 
 ## Index
 
@@ -98,7 +98,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
-<br >
+<br>
 
 ### Animals
 API | Description | Auth | HTTPS | CORS 
@@ -132,8 +132,8 @@ API | Description | Auth | HTTPS | CORS
 | [Zoo Animals](https://zoo-animal-api.herokuapp.com/) | Facts and pictures of zoo animals | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
-<br >
-<br >
+<br>
+<br>
 
 ### Anime
 API | Description | Auth | HTTPS | CORS |
@@ -159,8 +159,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Waifu.pics](https://waifu.pics/docs) | Image sharing platform for anime images | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
-<br >
-<br >
+<br>
+<br>
 
 ### Anti-Malware
 API | Description | Auth | HTTPS | CORS |
@@ -182,8 +182,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/domain/URL reputation | `apiKey` | Yes | Unknown | 
 
 **[⬆ Back to Index](#index)**
-<br >
-<br >
+<br>
+<br>
 ### Art & Design
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
@@ -209,8 +209,8 @@ API | Description | Auth | HTTPS | CORS |
 | [xColors](https://x-colors.herokuapp.com/) | Generate & convert colors | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
-<br >
-<br >
+<br>
+<br>
 ### Authentication & Authorization
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
