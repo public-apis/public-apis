@@ -35,7 +35,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 ## Learn more about Public APIs
 
-<strong>Get Involved</strong>
+<strong>Get Involved with us</strong>
 
 * [Contributing Guide](CONTRIBUTING.md)
 * [API for this project](https://github.com/davemachado/public-api)
