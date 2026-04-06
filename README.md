@@ -17,6 +17,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 <br >
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for API orchestration, automated multi-agent coordination, and development workflow management. MIT licensed.
 ## APILayer APIs
 | API | Description | Call this API |
 |:---|:---|:---|
