@@ -1571,6 +1571,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Twitch](https://dev.twitch.tv/docs) | Game Streaming API | `OAuth` | Yes | Unknown |
 | [Twitter](https://developer.twitter.com/en/docs) | Read and write Twitter data | `OAuth` | Yes | No |
 | [vk](https://vk.com/dev/sites) | Read and write vk data | `OAuth` | Yes | Unknown |
+| [Xquik](https://xquik.com/docs) | X (Twitter) automation API with 40+ endpoints for posts, users & analytics | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
