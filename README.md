@@ -916,7 +916,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 ### URL Shorteners
 API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+|---|---|---|---|---|
 | [CleanURI](https://cleanuri.com/docs) | URL shortener service | No | Yes | Yes |
 | [Drivet URL Shortener](https://wiki.drivet.xyz/en/url-shortener/add-links) | Shorten a long URL easily and fast | No | Yes | Unknown |
 | [Free Url Shortener](https://ulvis.net/developer.html) | Free URL Shortener offers a powerful API to interact with other sites | No | Yes | Unknown |
@@ -931,8 +931,9 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 ### Vehicle
 API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+---|---|---|---|---
 | [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | No |
+| [CarMD](https://api.carmd.com/member/docs) | Vehicle data and diagnostics | `apiKey` | Yes | Unknown |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
@@ -940,7 +941,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 ### Video
 API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+---|---|---|---|---
 | [An API of Ice And Fire](https://anapioficeandfire.com/) | Game Of Thrones API | No | Yes | Unknown |
 | [Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes) | Some Breaking Bad quotes | No | Yes | Unknown |
 | [Czech Television](http://www.ceskatelevize.cz/xml/tv-program/) | TV programme of Czech TV | No | No | Unknown |
@@ -966,7 +967,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 ### Weather
 API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+---|---|---|---|---
 | [7Timer!](http://www.7timer.info/doc.php?lang=en) | Weather, especially for Astroweather | No | No | Unknown |
 | [Hong Kong Obervatory](https://www.hko.gov.hk/en/abouthko/opendata_intro.htm) | Provide weather information, earthquake information, and climate data | No | Yes | Unknown |
 | [ODWeather](http://api.oceandrivers.com/static/docs.html) | Weather and weather webcams | No | No | Unknown |
