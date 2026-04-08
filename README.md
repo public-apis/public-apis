@@ -1893,3 +1893,38 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+---
+
+## 🚀 Project Overview
+Enhanced README documentation for clarity, badges, and contribution guidance.
+
+## ✨ Features
+- Improved documentation structure
+- Repository metadata and badges
+- Automated activity insights
+- Contribution guidance
+
+## 🤝 Contributing
+Contributions are welcome.  
+Feel free to open issues or submit pull requests.
+
+## 📊 Repository Statistics
+![Stars](https://img.shields.io/github/stars/public-apis/public-apis)
+![Forks](https://img.shields.io/github/forks/public-apis/public-apis)
+![Issues](https://img.shields.io/github/issues/public-apis/public-apis)
+![License](https://img.shields.io/github/license/public-apis/public-apis)
+
+## 📜 Recent Repository Activity
+- 3261ad3 Update README.md (APILayer, 2026-03-18)
+- 932e6f2 Update README.md (APILayer, 2026-02-19)
+- a58c76c Update README.md (APILayer, 2025-11-04)
+- 675a4e6 Update README.md (APILayer, 2025-05-20)
+- 274ecf0 Update README.md (APILayer, 2024-11-01)
+
+## 🕒 Last Updated
+Wed Apr  8 02:43:45 +04 2026
+
+---
+
+### 🤖 Automated Documentation Update
