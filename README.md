@@ -916,7 +916,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 ### URL Shorteners
 API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
+|---|---|---|---|---|
 | [CleanURI](https://cleanuri.com/docs) | URL shortener service | No | Yes | Yes |
 | [Drivet URL Shortener](https://wiki.drivet.xyz/en/url-shortener/add-links) | Shorten a long URL easily and fast | No | Yes | Unknown |
 | [Free Url Shortener](https://ulvis.net/developer.html) | Free URL Shortener offers a powerful API to interact with other sites | No | Yes | Unknown |
@@ -933,6 +933,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | No |
+| [CarMD](https://api.carmd.com/member/docs) | Vehicle data and diagnostics | `apiKey` | Yes | Unknown |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
