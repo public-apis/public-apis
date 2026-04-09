@@ -734,6 +734,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 ### Finance
 API | Description | Auth | HTTPS | CORS |
+| [HYDRA Regulatory Intelligence](https://hydra-api-nlnj.onrender.com) | Real-time SEC, CFTC, Fed, FinCEN monitoring for prediction markets. Pays via USDC x402. | `apiKey` (x402/USDC) | Yes | Unknown |
 |---|:---|:---|:---|:---|
 | [Marketstack](https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown | |
 | [Aletheia](https://aletheiaapi.com/) | Insider trading data, earnings call analysis, financial statements, and more | `apiKey` | Yes | Yes | |
