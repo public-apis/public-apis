@@ -766,6 +766,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Plaid](https://www.plaid.com/docs) | Connect with user's bank accounts and access transaction data	 | `apiKey` | YES | |  |
 | [Polygon](https://polygon.io/) | Historical stock market data | `apiKey` | Yes | Unknown | |
 | [Portfolio Optimizer](https://portfoliooptimizer.io/) | Portfolio analysis and optimization | No | Yes | Yes | |
+| [rechner-hub](https://rapidapi.com/l1nch-lab-rechner-hub-api/api/rechner-hub-api) | German tax calculators: gross-to-net, severance, inheritance, property tax and more | `apiKey` | Yes | Unknown | |
 | [Razorpay IFSC](https://razorpay.com/docs/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown | |
 | [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | Websocket API to access realtime stock data | `apiKey` | No | Unknown | |
 | [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | API to access annual reports of public US companies | No | Yes | Yes | |
