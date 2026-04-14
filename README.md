@@ -289,6 +289,7 @@ API | Description | Auth | HTTPS | CORS |
 | [markerapi](https://markerapi.com) | Trademark Search | No | No | Unknown |
 | [ORB Intelligence](https://api.orb-intelligence.com/docs/) | Company lookup | `apiKey` | Yes | Unknown |
 | [Redash](https://redash.io/help/user-guide/integrations-and-api/api) | Access your queries and dashboards on Redash | `apiKey` | Yes | Yes |
+| [SkillsAPI](https://skills.wageapi.com/api) | Skills taxonomy and job market intelligence data | `apiKey` | Yes | Yes |
 | [Smartsheet](https://smartsheet.redoc.ly/) | Allows you to programmatically access and Smartsheet data and account information | `OAuth` | Yes | No |
 | [Square](https://developer.squareup.com/reference/square) | Easy way to take payments, manage refunds, and help customers checkout online | `OAuth` | Yes | Unknown |
 | [SwiftKanban](https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi) | Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity | `apiKey` | Yes | Unknown |
@@ -506,6 +507,7 @@ API | Description | Auth | HTTPS | CORS |
 | [DigitalOcean Status](https://status.digitalocean.com/api) | Status of all DigitalOcean services | No | Yes | Unknown |
 | [Docker Hub](https://docs.docker.com/docker-hub/api/latest/) | Interact with Docker Hub | `apiKey` | Yes | Yes |
 | [DomainDb Info](https://api.domainsdb.info/) | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown |
+| [EInvoiceAPI](https://einvoice.aethar.dev/api) | EU e-invoicing with UBL/CII conversion to XRechnung and FatturaPA formats | `apiKey` | Yes | Yes |
 | [ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html) | A simple JSON store API | No | Yes | Yes |
 | [GeekFlare](https://apidocs.geekflare.com/docs/geekflare-api) | Provide numerous capabilities for important testing and monitoring methods for websites | `apiKey` | Yes | Unknown |
 | [Genderize.io](https://genderize.io) | Estimates a gender from a first name | No | Yes | Yes |
@@ -745,7 +747,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Binlist](https://binlist.net/) | Public access to a database of IIN/BIN information | No | Yes | Unknown | |
 | [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | `apiKey` | Yes | Unknown | |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | All Citigroup account and statement data APIs | `apiKey` | Yes | Unknown | |
+| [CostAPI](https://col.wageapi.com/api) | Global cost of living and price index data | `apiKey` | Yes | Yes | |
 | [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes | |
+| [EurostatAPI](https://eurostat.wageapi.com/api) | EU economic statistics — GDP, inflation, unemployment, trade, and population | `apiKey` | Yes | Yes | |
 | [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | U.S. Department of the Treasury Data | No | Yes | Unknown | |
 | [Finage](https://finage.co.uk) | Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider | `apiKey` | Yes | Unknown | |
 | [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs) | Realtime and historical stock data | `apiKey` | Yes | Unknown | |
@@ -776,6 +780,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth` | Yes | Yes | |
 | [Twelve Data](https://twelvedata.com/) | Stock market data (real-time & historical) | `apiKey` | Yes | Unknown | |
 | [VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes | Yes | |
+| [WageAPI](https://salary.wageapi.com/api) | Global salary and wage data from BLS, Eurostat, and OECD | `apiKey` | Yes | Yes | |
 | [WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/) | WallstreetBets Stock Comments Sentiment Analysis | No | Yes | Unknown | |
 | [Yahoo Finance](https://www.yahoofinanceapi.com/) | Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange | `apiKey` | Yes | Yes | |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes | |
