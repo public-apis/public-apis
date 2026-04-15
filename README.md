@@ -208,6 +208,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Word Cloud](https://wordcloudapi.com/) | Easily create word clouds | `apiKey` | Yes | Unknown |
 | [xColors](https://x-colors.herokuapp.com/) | Generate & convert colors | No | Yes | Yes |
 
+### Weather
+
+- **OpenWeatherMap**: https://openweathermap.org/api - Free weather data API
+
 **[⬆ Back to Index](#index)**
 <br >
 <br >
