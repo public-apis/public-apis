@@ -1368,6 +1368,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Phone Specification](https://github.com/azharimm/phone-specs-api) | Rest Api for Phone specifications | No | Yes | Yes |
 | [Phone Validation](https://www.abstractapi.com/phone-validation-api) | Validate phone numbers globally | `apiKey` | Yes | Yes |
 | [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
+| [VirtualSMS](https://virtualsms.io) | SMS verification with real physical SIM cards in 100+ countries | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
