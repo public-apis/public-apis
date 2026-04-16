@@ -1145,6 +1145,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Jobs
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [AI Dev Jobs](https://aidevboard.com/docs) | AI and ML developer jobs with salary data and company info | `apiKey` | Yes | Unknown |
 | [Adzuna](https://developer.adzuna.com/overview) | Job board aggregator | `apiKey` | Yes | Unknown |
 | [Arbeitnow](https://documenter.getpostman.com/view/18545278/UVJbJdKh) | API for Job board aggregator in Europe / Remote | No | Yes | Yes |
 | [Arbeitsamt](https://jobsuche.api.bund.dev/) | API for the "Arbeitsamt", which is a german Job board aggregator | `OAuth` | Yes | Unknown |
