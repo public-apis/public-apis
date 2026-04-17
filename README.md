@@ -1266,6 +1266,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [18F](http://18f.github.io/API-All-the-X/) | Unofficial US Federal Government API Development | No | No | Unknown |
 | [API Setu](https://www.apisetu.gov.in/) | An Indian Government platform that provides a lot of APIS for KYC, business, education & employment | No | Yes | Yes |
+| [APIllow](https://apillow.co) | Zillow property data with 50+ fields per listing | `apiKey` | Yes | Yes |
 | [Archive.org](https://archive.readme.io/docs) | The Internet Archive | No | Yes | No |
 | [Black History Facts](https://www.blackhistoryapi.io/docs) | Contribute or search one of the largest black history fact databases on the web | `apiKey` | Yes | Yes |
 | [BotsArchive](https://botsarchive.com/docs.html) | JSON formatted details about Telegram Bots available in database | No | Yes | Unknown |
