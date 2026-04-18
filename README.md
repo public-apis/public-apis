@@ -602,6 +602,7 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
+- [MeterCall](https://metercall.ai) - 2,866+ SaaS alternatives. Pay per call, no subscription. Open catalog at [patl4588/awesome-saas-replacements](https://github.com/patl4588/awesome-saas-replacements).
 ### Dictionaries
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
