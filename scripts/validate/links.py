@@ -44,17 +44,16 @@ def check_duplicate_links(links: List[str]) -> Tuple[bool, List]:
     Returns a tuple with True or False and duplicate list.
     """
 
-    seen = {}
-    duplicates = []
+    seen: set = set()
+    duplicates: list = []
     has_duplicate = False
 
     for link in links:
-        link = link.rstrip('/')
-        if link not in seen:
-            seen[link] = 1
-        else:
-            if seen[link] == 1:
+        link = link.rstrip("/")
+        if link in seen:
+            if seen.count(link) == 1:
                 duplicates.append(link)
+        seen.add(link)
 
     if duplicates:
         has_duplicate = True
@@ -191,7 +190,7 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
         has_error = True
         error_message = f'ERR:TMR: {error} : {link}'
 
-    except (Exception, requests.exceptions.RequestException) as error:
+    except requests.exceptions.RequestException as error:
         has_error = True
         error_message = f'ERR:UKN: {error} : {link}'
 
