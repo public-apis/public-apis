@@ -44,22 +44,19 @@ def check_duplicate_links(links: List[str]) -> Tuple[bool, List]:
     Returns a tuple with True or False and duplicate list.
     """
 
-    seen = {}
-    duplicates = []
-    has_duplicate = False
+    seen: dict = {}
+    duplicates: list = []
 
     for link in links:
-        link = link.rstrip('/')
-        if link not in seen:
-            seen[link] = 1
-        else:
+        link = link.rstrip("/")
+        if link in seen:
             if seen[link] == 1:
                 duplicates.append(link)
+            seen[link] += 1
+        else:
+            seen[link] = 1
 
-    if duplicates:
-        has_duplicate = True
-
-    return (has_duplicate, duplicates)
+    return (bool(duplicates), duplicates)
 
 
 def fake_user_agent() -> str:
@@ -191,7 +188,7 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
         has_error = True
         error_message = f'ERR:TMR: {error} : {link}'
 
-    except (Exception, requests.exceptions.RequestException) as error:
+    except requests.exceptions.RequestException as error:
         has_error = True
         error_message = f'ERR:UKN: {error} : {link}'
 
