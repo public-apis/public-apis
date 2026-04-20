@@ -44,21 +44,19 @@ def check_duplicate_links(links: List[str]) -> Tuple[bool, List]:
     Returns a tuple with True or False and duplicate list.
     """
 
-    seen: set = set()
+    seen: dict = {}
     duplicates: list = []
-    has_duplicate = False
 
     for link in links:
         link = link.rstrip("/")
         if link in seen:
-            if seen.count(link) == 1:
+            if seen[link] == 1:
                 duplicates.append(link)
-        seen.add(link)
+            seen[link] += 1
+        else:
+            seen[link] = 1
 
-    if duplicates:
-        has_duplicate = True
-
-    return (has_duplicate, duplicates)
+    return (bool(duplicates), duplicates)
 
 
 def fake_user_agent() -> str:
