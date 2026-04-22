@@ -12,7 +12,7 @@ from requests.models import Response
 def find_links_in_text(text: str) -> List[str]:
     """Find links in a text and return a list of URLs."""
 
-    link_pattern = re.compile(r'((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'\".,<>?«»“”‘’]))')
+    link_pattern = re.compile(r'((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'\"\.,<>?«»""'']))')
 
     raw_links = re.findall(link_pattern, text)
 
@@ -55,6 +55,7 @@ def check_duplicate_links(links: List[str]) -> Tuple[bool, List]:
         else:
             if seen[link] == 1:
                 duplicates.append(link)
+            seen[link] += 1
 
     if duplicates:
         has_duplicate = True
