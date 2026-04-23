@@ -1893,3 +1893,10 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+## Obedience AI Text Analysis API
+- Name: Obedience AI Text Analysis API
+- Description: Free API for text analysis (summarize, sentiment, keywords, translation, cleaning)
+- URL: https://theoxicew-obedience-text-api.hf.space
+- Category: AI/ML
+- Auth: None
