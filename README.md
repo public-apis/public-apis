@@ -816,6 +816,8 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Games & Comics
+
+| [REG-Vault](https://regvault.org/docs/api) | Retro-gaming metadata: 91k games across 99 systems, box art, manuals, screenshots, MCP server | No | Yes | Yes |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Age of Empires II](https://age-of-empires-2-api.herokuapp.com) | Get information about Age of Empires II resources | No | Yes | No |
