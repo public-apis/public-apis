@@ -1482,6 +1482,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Bugcrowd](https://docs.bugcrowd.com/api/getting-started/) | Bugcrowd API for interacting and tracking the reported issues programmatically | `apiKey` | Yes | Unknown |
 | [Censys](https://search.censys.io/api) | Search engine for Internet connected host and devices | `apiKey` | Yes | No |
 | [Classify](https://classify-web.herokuapp.com/#/api) | Encrypting & decrypting text messages | No | Yes | Yes |
+| [dead-drop](https://api.dead-drop.xyz/api/v1/docs) | Ephemeral zero-knowledge encrypted data sharing | No | Yes | Yes |
 | [Complete Criminal Checks](https://completecriminalchecks.com/Developers) | Provides data of offenders from all U.S. States and Pureto Rico | `apiKey` | Yes | Yes |
 | [CRXcavator](https://crxcavator.io/apidocs) | Chrome extension risk scoring | `apiKey` | Yes | Unknown |
 | [Dehash.lt](https://github.com/Dehash-lt/api) | Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512 | No | Yes | Unknown |
