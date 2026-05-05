@@ -97,4 +97,4 @@ Opening a pull request will trigger a build to check the validity of all links i
 [remote-link]: <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
 [syncing-link]: <https://help.github.com/articles/syncing-a-fork>
 [squash-link]: <https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit>
-
+| [The Cat API](https://thecatapi.com/) | Random cat images and facts | apiKey | Yes | Unknown | |
