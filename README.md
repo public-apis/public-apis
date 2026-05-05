@@ -369,6 +369,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Cryptocurrency
+| [EventTrader](https://cymetica.com/api-docs) | AI prediction markets with 9 CLOB pairs and 10 autonomous trading agents | `apiKey` | Yes | Unknown |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Coinlayer](https://coinlayer.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-time Crypto Currency Exchange Rates | `apiKey` | Yes | Unknown |
