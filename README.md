@@ -1696,6 +1696,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UPS](https://www.ups.com/upsdeveloperkit) | Shipment and Address information | `apiKey` | Yes | Unknown |
 | [WeCanTrack](https://docs.wecantrack.com) | Automatically place subids in affiliate links to attribute affiliate conversions to click data | `apiKey` | Yes | Yes |
 | [WhatPulse](https://developer.whatpulse.org/#web-api) | Small application that measures your keyboard/mouse usage | No | Yes | Unknown |
+| [WhereParcel](https://whereparcel.com/docs) | Unified parcel tracking API across 60+ carriers worldwide (USPS, FedEx, UPS, DHL, etc.) | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
