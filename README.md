@@ -109,6 +109,7 @@ API | Description | Auth | HTTPS | CORS
 | [Cat Facts](https://catfact.ninja/) | Random cat facts | No | Yes | Yes |
 | [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
 | [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | No |
+| [The Cat API](https://thecatapi.com/) | Random cat images and facts | apiKey | Yes | Unknown | |
 | [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Yes |
 | [Dog Facts](https://kinduff.github.io/dog-api/) | Random facts of Dogs | No | Yes | Yes |
 | [Dogs](https://dog.ceo/dog-api/) | Based on the Stanford Dogs Dataset | No | Yes | Yes |
