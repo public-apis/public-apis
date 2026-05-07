@@ -237,7 +237,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Nownodes](https://nownodes.io/) | Blockchain-as-a-service solution that provides high-quality connection via API | `apiKey` | Yes | Unknown |
 | [Steem](https://developers.steem.io/) | Blockchain-based blogging and social media website | No | No | No |
 | [The Graph](https://thegraph.com) | Indexing protocol for querying networks like Ethereum with GraphQL | `apiKey` | Yes | Unknown |
-| [WalletIQ](https://walletiq.dev) | Wallet intelligence API for EVM addresses: age, activity, DeFi protocol detection, risk score, labels | `apiKey` | Yes | Yes |
+| [WalletIQ](https://walletiq.dev) | Wallet intelligence API for EVM addresses with x402 pay-per-request by default; optional API keys for team workflows | No | Yes | Yes |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
 | [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
 
