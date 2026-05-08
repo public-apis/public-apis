@@ -77,6 +77,7 @@ def fake_user_agent() -> str:
 
 def get_host_from_link(link: str) -> str:
 
+    """get_host_from_link."""
     host = link.split('://', 1)[1] if '://' in link else link
 
     # Remove routes, arguments and anchors
@@ -199,6 +200,7 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
 
 
 def check_if_list_of_links_are_working(list_of_links: List[str]) -> List[str]:
+    """check_if_list_of_links_are_working."""
     error_messages = []
     for link in list_of_links:
         has_error, error_message = check_if_link_is_working(link)
@@ -211,6 +213,7 @@ def check_if_list_of_links_are_working(list_of_links: List[str]) -> List[str]:
 
 def start_duplicate_links_checker(links: List[str]) -> None:
 
+    """start_duplicate_links_checker."""
     print('Checking for duplicate links...')
 
     has_duplicate_link, duplicates_links = check_duplicate_links(links)
@@ -228,6 +231,7 @@ def start_duplicate_links_checker(links: List[str]) -> None:
 
 def start_links_working_checker(links: List[str]) -> None:
 
+    """start_links_working_checker."""
     print(f'Checking if {len(links)} links are working...')
 
     errors = check_if_list_of_links_are_working(links)
@@ -244,6 +248,7 @@ def start_links_working_checker(links: List[str]) -> None:
 
 def main(filename: str, only_duplicate_links_checker: bool) -> None:
 
+    """main."""
     links = find_links_in_file(filename)
 
     start_duplicate_links_checker(links)

@@ -35,12 +35,14 @@ CategoriesLineNumber = Dict[str, int]
 
 
 def error_message(line_number: int, message: str) -> str:
+    """error_message."""
     line = line_number + 1
     return f'(L{line:03d}) {message}'
 
 
 def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesLineNumber]:
 
+    """get_categories_content."""
     categories = {}
     category_line_num = {}
 
@@ -69,6 +71,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
 def check_alphabetical_order(lines: List[str]) -> List[str]:
 
+    """check_alphabetical_order."""
     err_msgs = []
 
     categories, category_line_num = get_categories_content(contents=lines)
@@ -86,6 +89,7 @@ def check_alphabetical_order(lines: List[str]) -> List[str]:
 
 def check_title(line_num: int, raw_title: str) -> List[str]:
 
+    """check_title."""
     err_msgs = []
 
     title_match = link_re.match(raw_title)
@@ -106,6 +110,7 @@ def check_title(line_num: int, raw_title: str) -> List[str]:
 
 def check_description(line_num: int, description: str) -> List[str]:
 
+    """check_description."""
     err_msgs = []
 
     first_char = description[0]
@@ -128,6 +133,7 @@ def check_description(line_num: int, description: str) -> List[str]:
 
 def check_auth(line_num: int, auth: str) -> List[str]:
 
+    """check_auth."""
     err_msgs = []
 
     backtick = '`'
@@ -144,6 +150,7 @@ def check_auth(line_num: int, auth: str) -> List[str]:
 
 def check_https(line_num: int, https: str) -> List[str]:
 
+    """check_https."""
     err_msgs = []
 
     if https not in https_keys:
@@ -155,6 +162,7 @@ def check_https(line_num: int, https: str) -> List[str]:
 
 def check_cors(line_num: int, cors: str) -> List[str]:
 
+    """check_cors."""
     err_msgs = []
 
     if cors not in cors_keys:
@@ -166,6 +174,7 @@ def check_cors(line_num: int, cors: str) -> List[str]:
 
 def check_entry(line_num: int, segments: List[str]) -> List[str]:
 
+    """check_entry."""
     raw_title = segments[index_title]
     description = segments[index_desc]
     auth = segments[index_auth]
@@ -191,6 +200,7 @@ def check_entry(line_num: int, segments: List[str]) -> List[str]:
 
 def check_file_format(lines: List[str]) -> List[str]:
 
+    """check_file_format."""
     err_msgs = []
     category_title_in_index = []
 
@@ -253,6 +263,7 @@ def check_file_format(lines: List[str]) -> List[str]:
 
 def main(filename: str) -> None:
 
+    """main."""
     with open(filename, mode='r', encoding='utf-8') as file:
         lines = list(line.rstrip() for line in file)
 
