@@ -1304,6 +1304,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ModelPartFinder Error Codes](https://modelpartfinder.com/docs/api) | Lookup appliance and equipment error codes by brand and code, with recommended replacement parts | No | Yes | Yes |
 | [Nasdaq Data Link](https://docs.data.nasdaq.com/) | Stock market data | `apiKey` | Yes | Unknown |
 | [Nobel Prize](https://www.nobelprize.org/about/developer-zone-2/) | Open data about nobel prizes and events | No | Yes | Yes |
+| [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) | Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API | No | Yes | Unknown |
 | [Open Data Minneapolis](https://opendata.minneapolismn.gov/) | Spatial (GIS) and non-spatial city data for Minneapolis | No | Yes | No |
 | [openAFRICA](https://africaopendata.org/) | Large datasets repository of African open data | No | Yes | Unknown |
 | [OpenCorporates](http://api.opencorporates.com/documentation/API-Reference) | Data on corporate entities and directors in many countries | `apiKey` | Yes | Unknown |
