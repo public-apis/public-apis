@@ -27,6 +27,7 @@ max_description_length = 100
 anchor_re = re.compile(anchor + '\s(.+)')
 category_title_in_index_re = re.compile('\*\s\[(.*)\]')
 link_re = re.compile('\[(.+)\]\((http.*)\)')
+separator_re = re.compile('^\|[:\-\s|]+$')
 
 # Type aliases
 APIList = List[str]
@@ -43,6 +44,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
     categories = {}
     category_line_num = {}
+    category = None
 
     for line_num, line_content in enumerate(contents):
 
@@ -52,7 +54,10 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
             category_line_num[category] = line_num
             continue
 
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if not line_content.startswith('|') or separator_re.match(line_content):
+            continue
+
+        if category is None:
             continue
 
         raw_title = [
@@ -75,9 +80,15 @@ def check_alphabetical_order(lines: List[str]) -> List[str]:
 
     for category, api_list in categories.items():
         if sorted(api_list) != api_list:
+            # Find the first out-of-order element
+            misplaced = ""
+            for i in range(len(api_list) - 1):
+                if api_list[i] > api_list[i+1]:
+                    misplaced = f' (e.g., "{api_list[i]}" should come after "{api_list[i+1]}")'
+                    break
             err_msg = error_message(
                 category_line_num[category], 
-                f'{category} category is not alphabetical order'
+                f'{category} category is not alphabetical order{misplaced}'
             )
             err_msgs.append(err_msg)
     
@@ -198,7 +209,7 @@ def check_file_format(lines: List[str]) -> List[str]:
     err_msgs.extend(alphabetical_err_msgs)
 
     num_in_category = min_entries_per_category + 1
-    category = ''
+    category = None
     category_line = 0
 
     for line_num, line_content in enumerate(lines):
@@ -211,8 +222,9 @@ def check_file_format(lines: List[str]) -> List[str]:
         if line_content.startswith(anchor):
             category_match = anchor_re.match(line_content)
             if category_match:
-                if category_match.group(1) not in category_title_in_index:
-                    err_msg = error_message(line_num, f'category header ({category_match.group(1)}) not added to Index section')
+                category = category_match.group(1)
+                if category not in category_title_in_index:
+                    err_msg = error_message(line_num, f'category header ({category}) not added to Index section')
                     err_msgs.append(err_msg)
             else:
                 err_msg = error_message(line_num, 'category header is not formatted correctly')
@@ -222,17 +234,24 @@ def check_file_format(lines: List[str]) -> List[str]:
                 err_msg = error_message(category_line, f'{category} category does not have the minimum {min_entries_per_category} entries (only has {num_in_category})')
                 err_msgs.append(err_msg)
 
-            category = line_content.split(' ')[1]
             category_line = line_num
             num_in_category = 0
             continue
 
         # skips lines that we do not care about
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if not line_content.startswith('|') or separator_re.match(line_content):
+            continue
+
+        if category is None:
+            continue
+
+        segments = line_content.split('|')[1:-1]
+
+        # skip table header
+        if segments[0].strip() == 'API':
             continue
 
         num_in_category += 1
-        segments = line_content.split('|')[1:-1]
         if len(segments) < num_segments:
             err_msg = error_message(line_num, f'entry does not have all the required columns (have {len(segments)}, need {num_segments})')
             err_msgs.append(err_msg)
