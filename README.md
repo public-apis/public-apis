@@ -208,6 +208,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Rijksmuseum](https://data.rijksmuseum.nl/object-metadata/api/) | RijksMuseum Data | `apiKey` | Yes | Unknown |
 | [Word Cloud](https://wordcloudapi.com/) | Easily create word clouds | `apiKey` | Yes | Unknown |
 | [xColors](https://x-colors.herokuapp.com/) | Generate & convert colors | No | Yes | Yes |
+| [GadgetHumans QR Code API](https://api.gadgethumans.com) | Customizable QR code generation API with colors, logos, SVG/PNG output | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -477,6 +478,7 @@ API | Description | Auth | HTTPS | CORS |
 | [US Autocomplete](https://www.smarty.com/docs/cloud/us-autocomplete-pro-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes | |
 | [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes | |
 | [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes | |
+| [GadgetHumans Email Verify API](https://email-verify.scotia1973.workers.dev) | Real-time email validation: syntax checks, MX verification, SMTP probing, disposable email detection | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -609,6 +611,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Wandbox](https://github.com/melpon/wandbox/blob/master/kennel2/API.rst) | Code compiler supporting 35+ languages mentioned at wandbox.org | No | Yes | Unknown |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
+| [GadgetHumans API Hub](https://api.gadgethumans.com) | 8-in-1 utility API hub: QR codes, UUIDs, hashes, passwords, base64, lorem ipsum, JSON prettify, color conversion | `apiKey` | Yes | Yes |
 
 
 
