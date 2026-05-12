@@ -56,8 +56,6 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
         if not line_content.startswith('|') or line_content.startswith('|---'):
             continue
 
-        # Skip stray table rows that appear before the first category header;
-        # without this guard, the append below would raise UnboundLocalError.
         if category is None:
             continue
 
