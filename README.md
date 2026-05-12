@@ -609,6 +609,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Wandbox](https://github.com/melpon/wandbox/blob/master/kennel2/API.rst) | Code compiler supporting 35+ languages mentioned at wandbox.org | No | Yes | Unknown |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
+| [GadgetHumans API Hub](https://api.gadgethumans.com/) | 8 unified micro-APIs: QR codes, password generation, UUIDs, hashes, base64, lorem ipsum, JSON prettify, color conversion. Free tier, $1/wk week pass, $5/mo Pro, $15/mo Business | `apiKey` | Yes | Yes |
 
 
 
@@ -694,6 +695,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Sendgrid](https://docs.sendgrid.com/api-reference/) | A cloud-based SMTP provider that allows you to send emails without having to maintain email servers | `apiKey` | Yes | Unknown |
 | [Sendinblue](https://developers.sendinblue.com/docs) | A service that provides solutions relating to marketing and/or transactional email and/or SMS | `apiKey` | Yes | Unknown |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
+| [GadgetHumans Email Verify](https://email-verify.scotia1973.workers.dev/) | Email validation with format check, MX record lookup, disposable email detection, and SMTP verification. Free tier: 50 checks/day | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
