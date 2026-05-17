@@ -1355,6 +1355,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Countly](https://api.count.ly/reference) | Countly web analytics | No | No | Unknown |
 | [Creative Commons Catalog](https://api.creativecommons.engineering/) | Search among openly licensed and public domain works | `OAuth` | Yes | Yes |
 | [Datamuse](https://www.datamuse.com/api/) | Word-finding query engine | No | Yes | Unknown |
+| [Chinese Wisdom API](https://github.com/LukasiJan-komo/chinese-wisdom-api) | Chinese idioms, proverbs & classical poetry with pinyin & translation | No | Yes | Yes |
+| [FlashMind API](https://github.com/LukasiJan-komo/flashmind-api) | Spaced repetition flashcard system powered by SM-2 algorithm | No | Yes | Yes |
+| [QuoteGarden API](https://github.com/LukasiJan-komo/quotegarden-api) | Curated famous quotes with rich metadata (author, era, tags) | No | Yes | Yes |
 | [Drupal.org](https://www.drupal.org/drupalorg/docs/api) | Drupal.org | No | Yes | Unknown |
 | [Evil Insult Generator](https://evilinsult.com/api) | Evil Insults | No | Yes | Yes |
 | [GitHub Contribution Chart Generator](https://github-contributions.vercel.app) | Create an image of your GitHub contributions | No | Yes | Yes |
