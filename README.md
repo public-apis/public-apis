@@ -631,6 +631,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Wiktionary](https://en.wiktionary.org/w/api.php) | Collaborative dictionary data | No | Yes | Yes |
 | [Wordnik](https://developer.wordnik.com) | Dictionary Data | `apiKey` | Yes | Unknown |
 | [Words](https://www.wordsapi.com/docs/) | Definitions and synonyms for more than 150,000 words | `apiKey` | Yes | Unknown |
+| [Datamuse](https://www.datamuse.com/api/) | Find words matching a given set of constraints like rhyming, sounding like, or related to a given word | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
