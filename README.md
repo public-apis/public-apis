@@ -669,6 +669,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Vector Express v2.0](https://vector.express) | Free vector file converting API | No | Yes | No |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
+| [DocuForge API](https://github.com/rnhowcla/docuforge-api) | Document processing: clean Excel, convert CSV, extract PDF text |  | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
