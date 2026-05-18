@@ -1,5 +1,5 @@
 {
-"count": 1583,
+"count": 1584,
 "entries": [
     {
         "API": "Cat Facts",
@@ -3905,6 +3905,15 @@
         "HTTPS": true,
         "Cors": "unknown",
         "Link": "https://www.svix.com",
+        "Category": "Development"
+    },
+    {
+        "API": "TalorData",
+        "Description": "Get structured results from Google, Bing, Yandex, and DuckDuckGo through one API, with fast, reliable responses",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "no",
+        "Link": "https://talordata.com",
         "Category": "Development"
     },
     {
