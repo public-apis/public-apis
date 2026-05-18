@@ -1169,6 +1169,7 @@ API | Description | Auth | HTTPS | CORS |
 | [openFDA](https://open.fda.gov) | Public FDA data about drugs, devices and foods | `apiKey` | Yes | Unknown |
 | [Orion Health](https://developer.orionhealth.io/) | Medical platform which allows the development of applications for different healthcare scenarios | `OAuth` | Yes | Unknown |
 | [Quarantine](https://quarantine.country/coronavirus/api/) | Coronavirus API with free COVID-19 live updates | No | Yes | Yes |
+| [UNMIRI NGS Interpretation](https://api.unmiri.com/openapi.json) | Cross-vendor NGS (genomics) interpretation and genomics-aware clinical decision support over synthetic oncology samples | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
