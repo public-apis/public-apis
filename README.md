@@ -347,6 +347,7 @@ This is an attempt to categorise different APIs scoured from the web which make 
 | [**Switzerland**](https://data.snb.ch/en) | Rich variety of data in [XLS](https://en.wikipedia.org/wiki/Microsoft_Excel#File_formats) and [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) formats. | **N/A** |
 | [**Ukraine**](https://bank.gov.ua/control/en/publish/article?art_id=25365630) | Exchange rates and bond placements in [JSON](https://en.wikipedia.org/wiki/JSON) and [XML](https://en.wikipedia.org/wiki/XML) formats. | **N/A** |
 | [**Portfolio Optimizer**](https://portfoliooptimizer.io/) | API for investment portfolio optimization. | **N/A** |
+| [**CalcFi**](https://calcfi.app/api/insights/openapi.json) | Aggregate personal-finance calculator stats and live macro data from FRED, BLS, IRS, Treasury, Freddie Mac. K-anonymized, CC BY 4.0, OpenAPI 3.1. | ![Open Source](https://raw.githubusercontent.com/abhishekbanthia/Public-APIs/master/opensource.png "Open Source") |
 
 [⬆ Back to Table of Contents](#table-of-contents)
 ### Fitness
