@@ -631,6 +631,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Wiktionary](https://en.wiktionary.org/w/api.php) | Collaborative dictionary data | No | Yes | Yes |
 | [Wordnik](https://developer.wordnik.com) | Dictionary Data | `apiKey` | Yes | Unknown |
 | [Words](https://www.wordsapi.com/docs/) | Definitions and synonyms for more than 150,000 words | `apiKey` | Yes | Unknown |
+| [Datamuse](https://www.datamuse.com/api/) | Find words matching a given set of constraints like rhyming, sounding like, or related to a given word | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -801,6 +802,7 @@ API | Description | Auth | HTTPS | CORS |
 | [VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes | Yes | |
 | [WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/) | WallstreetBets Stock Comments Sentiment Analysis | No | Yes | Unknown | |
 | [Yahoo Finance](https://www.yahoofinanceapi.com/) | Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange | `apiKey` | Yes | Yes | |
+| [CalcFi](https://calcfi.app/api/insights/openapi.json) | Aggregate financial calculator stats + live macro data (FRED, market indicators) | `apiKey` | Yes | Yes | |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes | |
 | [Zoho Books](https://www.zoho.com/books/api/v3/) | Online accounting software, built for your business | `OAuth` | Yes | Unknown | |
 
@@ -893,6 +895,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IGDB.com](https://api-docs.igdb.com) | Video Game Database | `apiKey` | Yes | Unknown |
 | [JokeAPI](https://sv443.net/jokeapi/v2/) | Programming, Miscellaneous and Dark Jokes | No | Yes | Yes |
 | [Jokes One](https://jokes.one/api/joke/) | Joke of the day and large category of jokes accessible via REST API | `apiKey` | Yes | Yes |
+| [Official Joke API](https://official-joke-api.appspot.com) | Random jokes with setup and punchline | No | Yes | Yes |
 | [Jservice](http://jservice.io) | Jeopardy Question Database | No | No | Unknown |
 | [Lichess](https://lichess.org/api) | Access to all data of users, games, puzzles and etc on Lichess | `OAuth` | Yes | Unknown |
 | [Magic The Gathering](http://magicthegathering.io/) | Magic The Gathering Game Information | No | No | Unknown |
@@ -1353,6 +1356,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Countly](https://api.count.ly/reference) | Countly web analytics | No | No | Unknown |
 | [Creative Commons Catalog](https://api.creativecommons.engineering/) | Search among openly licensed and public domain works | `OAuth` | Yes | Yes |
 | [Datamuse](https://www.datamuse.com/api/) | Word-finding query engine | No | Yes | Unknown |
+| [Chinese Wisdom API](https://github.com/LukasiJan-komo/chinese-wisdom-api) | Chinese idioms, proverbs & classical poetry with pinyin & translation | No | Yes | Yes |
+| [FlashMind API](https://github.com/LukasiJan-komo/flashmind-api) | Spaced repetition flashcard system powered by SM-2 algorithm | No | Yes | Yes |
+| [QuoteGarden API](https://github.com/LukasiJan-komo/quotegarden-api) | Curated famous quotes with rich metadata (author, era, tags) | No | Yes | Yes |
 | [Drupal.org](https://www.drupal.org/drupalorg/docs/api) | Drupal.org | No | Yes | Unknown |
 | [Evil Insult Generator](https://evilinsult.com/api) | Evil Insults | No | Yes | Yes |
 | [GitHub Contribution Chart Generator](https://github-contributions.vercel.app) | Create an image of your GitHub contributions | No | Yes | Yes |
