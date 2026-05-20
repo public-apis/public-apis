@@ -336,7 +336,7 @@ API | Description | Auth | HTTPS | CORS |
 | [BayFiles](https://bayfiles.com/docs/api) | Upload and share your files | No | Yes | Unknown | |
 
 | [Box](https://developer.box.com/) | File Sharing and Storage | `OAuth` | Yes | Unknown | |
-| [Catbox](https://catbox.moe/tools.php) | File hosting service supporting uploads, albums, and temporary files via Litterbox | `apiKey` | Yes | Unknown |
+| [Catbox](https://catbox.moe/tools.php) | File hosting service supporting uploads, albums, and temporary files via Litterbox | `apiKey` | Yes | Unknown | |
 | [ddownload](https://ddownload.com/api) | File Sharing and Storage | `apiKey` | Yes | Unknown | |
 | [Dropbox](https://www.dropbox.com/developers) | File Sharing and Storage | `OAuth` | Yes | Unknown | |
 | [File.io](https://www.file.io) | Super simple file sharing, convenient, anonymous and secure | No | Yes | Unknown | |
