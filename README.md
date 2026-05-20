@@ -1550,6 +1550,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UK Police](https://data.police.uk/docs/) | UK Police data | No | Yes | Unknown |
 | [Virushee](https://api.virushee.com/) | Virushee file/data scanning | No | Yes | Yes |
 | [VulDB](https://vuldb.com/?doc.api) | VulDB API allows to initiate queries for one or more items along with transactional bots | `apiKey` | Yes | Unknown |
+| [MITRE ATT&CK](https://attack-taxii.mitre.org/api-docs/) | Official knowledge base of adversary tactics and techniques via TAXII 2.1 REST API | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
