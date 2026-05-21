@@ -1,5 +1,5 @@
 {
-"count": 1584,
+"count": 1585,
 "entries": [
     {
         "API": "Cat Facts",
@@ -3473,6 +3473,15 @@
         "HTTPS": true,
         "Cors": "unknown",
         "Link": "https://hub.openapihub.com/",
+        "Category": "Development"
+    },
+    {
+        "API": "PageBolt",
+        "Description": "Screenshot, PDF, video recording, OG image, and page inspection via REST API",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://pagebolt.dev/",
         "Category": "Development"
     },
     {
