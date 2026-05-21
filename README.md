@@ -575,6 +575,7 @@
 | [OneSignal](https://documentation.onesignal.com/reference/rest-api-overview) | Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App | `apiKey`| Yes | Unknown |
 | [Open Page Rank](https://www.domcop.com/openpagerank/) | API for calculating and comparing metrics of different websites using Page Rank algorithm | `apiKey`| Yes | Unknown |
 | [OpenAPIHub](https://hub.openapihub.com/) | The All-in-one API Platform | `X-Mashape-Key` | Yes | Unknown |
+| [PageBolt](https://pagebolt.dev/) | Screenshot, PDF, video recording, OG image, and page inspection via REST API | `apiKey` | Yes | Yes |
 | [PayUs-as-a-Service (PUaaS)](https://github.com/sticknologic/payus-as-a-service) | A self-hostable API that returns randomized messages for past-due invoices | No | Yes | No |
 | [Piloterr](https://www.piloterr.com/) | Piloterr web scraping API handles headless browsers, rotates proxies for you, and offers json-parsed data extraction | `apiKey` | Yes | Yes |
 | [PipeDream](https://docs.pipedream.com) | Pipedream is the fastest way to build powerful applications that connect all the services in your stack | `OAuth`| Yes | Unknown |
