@@ -1226,6 +1226,7 @@ like WhatsApp | `apiKey` | Yes | Yes |
 | [DevITjobs UK](https://devitjobs.uk/job_feed.xml) | Jobs with GraphQL | No | Yes | Yes |
 | [Fantastic.jobs](https://fantastic.jobs/api) | Access over 8 million jobs per month using our APIs. ATS, LinkedIn, Upwork, and more. | `apiKey` | Yes | Yes |
 | [Findwork](https://findwork.dev/developers/) | Job board | `apiKey` | Yes | Unknown |
+| [Himalayas](https://himalayas.app/api) | Remote job listings with salary, timezone, and location data | No | Yes | No |
 | [jobdata API](https://jobdataapi.com/) | Simple Job Data API | `apiKey` | Yes | Unknown |
 | [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf) | Job aggregator | `apiKey` | Yes | Unknown |
 | [Jooble](https://jooble.org/api/about) | Job search engine | `apiKey` | Yes | Unknown |
@@ -1999,4 +2000,3 @@ like WhatsApp | `apiKey` | Yes | Yes |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
-
