@@ -1,5 +1,5 @@
 {
-"count": 1585,
+"count": 1586,
 "entries": [
     {
         "API": "Cat Facts",
@@ -8621,6 +8621,15 @@
         "HTTPS": true,
         "Cors": "unknown",
         "Link": "https://findwork.dev/developers/",
+        "Category": "Jobs"
+    },
+    {
+        "API": "Himalayas",
+        "Description": "Remote job listings with salary, timezone, and location data",
+        "Auth": "",
+        "HTTPS": true,
+        "Cors": "no",
+        "Link": "https://himalayas.app/api",
         "Category": "Jobs"
     },
     {
