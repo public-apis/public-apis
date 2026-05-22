@@ -746,6 +746,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Events
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [DondeGo](https://dondego.es/pages/api/) | Local events, places, and news for Barcelona and Madrid with OpenAPI 3.1 discovery | No | Yes | No |
 | [Eventbrite](https://www.eventbrite.com/platform/api/) | Find events | `OAuth` | Yes | Unknown |
 | [SeatGeek](https://platform.seatgeek.com/) | Search events, venues and performers | `apiKey` | Yes | Unknown |
 | [Ticketmaster](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/) | Search events, attractions, or venues | `apiKey` | Yes | Unknown |
