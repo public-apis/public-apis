@@ -929,6 +929,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TCGdex](https://www.tcgdex.net/docs) | Multi languages Pokémon TCG Information | No | Yes | Yes |
 | [Tebex](https://docs.tebex.io/plugin/) | Tebex API for information about game purchases | `X-Mashape-Key` | Yes | No |
 | [TETR.IO](https://tetr.io/about/api/) | TETR.IO Tetra Channel API | No | Yes | Unknown |
+| [The Card API](https://thecardapi.com/docs) | True sold prices for Pokémon, Magic: The Gathering and Yu-Gi-Oh cards across eBay and major auction houses. Individual transaction records — not averages — with PSA/CGC graded data, updated daily. | `apiKey` | Yes | Yes |
 | [Tronald Dump](https://www.tronalddump.io/) | The dumbest things Donald Trump has ever said | No | Yes | Unknown |
 | [Universalis](https://universalis.app/docs/index.html) | Final Fantasy XIV market board data | No | Yes | Yes |
 | [Valorant (non-official)](https://valorant-api.com) | An extensive API containing data of most Valorant in-game items, assets and more | No | Yes | Unknown |
@@ -1660,7 +1661,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Squiggle](https://api.squiggle.com.au) | Fixtures, results and predictions for Australian Football League matches | No | Yes | Yes |
 | [Strava](https://strava.github.io/api/) | Connect with athletes, activities and more | `OAuth` | Yes | Unknown |
 | [SuredBits](https://suredbits.com/api/) | Query sports data, including teams, players, games, scores and statistics | No | No | No |
-| [The Card API](https://thecardapi.com/docs) | Sold prices for trading cards across eBay, Goldin, Heritage, Fanatics and more. Includes Best Offer and graded card (PSA/BGS/SGC) prices | `apiKey` | Yes | Yes |
+| [The Card API](https://thecardapi.com/docs) | Individual transaction records for sports cards from eBay, Goldin, Heritage, Fanatics and more — true Best Offer prices included (the amounts most providers hide). PSA/BGS/SGC graded data, updated daily. | `apiKey` | Yes | Yes |
 | [TheSportsDB](https://www.thesportsdb.com/api.php) | Crowd-Sourced Sports Data and Artwork | `apiKey` | Yes | Yes |
 | [TourneyRadar](https://tourneyradar-api.vercel.app) | Upcoming chess tournaments from 140+ national federations worldwide | No | Yes | Unknown |
 | [Tredict](https://www.tredict.com/blog/oauth_docs/) | Get and set activities, health data and more | `OAuth` | Yes | Unknown |
