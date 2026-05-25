@@ -668,6 +668,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Vector Express v2.0](https://vector.express) | Free vector file converting API | No | Yes | No |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
+| [Parseflow](https://docs.parseflow.tech) | Parse DOCX, PDF, TXT files. Extract structured JSON. Free demo + Postman. | `apiKey` | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 <br >
