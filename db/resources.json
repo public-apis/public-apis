@@ -1,5 +1,5 @@
 {
-"count": 1587,
+"count": 1588,
 "entries": [
     {
         "API": "Cat Facts",
@@ -7631,6 +7631,15 @@
         "HTTPS": true,
         "Cors": "no",
         "Link": "https://dadosabertos.camara.leg.br/swagger/api.html",
+        "Category": "Government"
+    },
+    {
+        "API": "BuildData",
+        "Description": "Canadian construction and development data from 17 cities",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://builddata.ca",
         "Category": "Government"
     },
     {
