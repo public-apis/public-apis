@@ -247,6 +247,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Books
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Books Data API](https://booksapi.datsx.com) | Structured book metadata, user demographics, and ratings for analytics and recommender systems | `apiKey` | Yes | Unknown |
 | [A Bíblia Digital](https://www.abibliadigital.com.br/en) | Do not worry about managing the multiple versions of the Bible | `apiKey` | Yes | No |
 | [Amanah Sunnah](https://sunnah.amanahagent.cloud/developers) | Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators | `apiKey` | Yes | Yes |
 | [Bhagavad Gita](https://docs.bhagavadgitaapi.in) | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | `apiKey` | Yes | Yes |
