@@ -1715,6 +1715,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GeoScore](https://geoscoreapi.com) | Score content for AI search citation readiness. Returns a 0-100 GEO score, 8 structural metrics, and improvement fixes | `apiKey` | Yes | Yes |
 | [Hirak OCR](https://ocr.hirak.site/) | Image to text -text recognition- from image more than 100 language, accurate, unlimited requests | `apiKey` | Yes | Unknown |
 | [Hirak Translation](https://translate.hirak.site/) | Translate between 21 of most used languages, accurate, unlimited requests | `apiKey` | Yes | Unknown |
+| [LanguageTool](https://languagetool.org/) | Grammar and spell checking API supporting multiple languages | No | Yes | Yes |
 | [Lecto Translation](https://rapidapi.com/lecto-lecto-default/api/lecto-translation/) | Translation API with free tier and reasonable prices | `apiKey` | Yes | Yes |
 | [LibreTranslate](https://libretranslate.com/docs) | Translation tool with 17 available languages | No | Yes | Unknown |
 | [Semantria](https://semantria.readme.io/docs) | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown |
