@@ -1,0 +1,479 @@
+{
+  "generated": "2026-04-04T09:06:07.641Z",
+  "totalApis": 1418,
+  "sections": 51,
+  "healthScore": 60,
+  "httpsCoverage": 93.7,
+  "corsYesRate": 27.7,
+  "noAuthRate": 47,
+  "formatIssues": 0,
+  "duplicateUrls": 0,
+  "bySection": {
+    "Animals": {
+      "total": 27,
+      "httpsYes": 26,
+      "httpsNo": 1,
+      "corsYes": 15,
+      "corsNo": 10,
+      "corsUnknown": 2,
+      "noAuth": 21
+    },
+    "Anime": {
+      "total": 19,
+      "httpsYes": 18,
+      "httpsNo": 1,
+      "corsYes": 10,
+      "corsNo": 3,
+      "corsUnknown": 6,
+      "noAuth": 10
+    },
+    "Anti-Malware": {
+      "total": 14,
+      "httpsYes": 14,
+      "httpsNo": 0,
+      "corsYes": 3,
+      "corsNo": 1,
+      "corsUnknown": 10,
+      "noAuth": 1
+    },
+    "Art & Design": {
+      "total": 20,
+      "httpsYes": 16,
+      "httpsNo": 4,
+      "corsYes": 6,
+      "corsNo": 2,
+      "corsUnknown": 12,
+      "noAuth": 11
+    },
+    "Authentication & Authorization": {
+      "total": 7,
+      "httpsYes": 7,
+      "httpsNo": 0,
+      "corsYes": 4,
+      "corsNo": 3,
+      "corsUnknown": 0,
+      "noAuth": 0
+    },
+    "Blockchain": {
+      "total": 11,
+      "httpsYes": 10,
+      "httpsNo": 1,
+      "corsYes": 2,
+      "corsNo": 1,
+      "corsUnknown": 8,
+      "noAuth": 5
+    },
+    "Books": {
+      "total": 23,
+      "httpsYes": 22,
+      "httpsNo": 1,
+      "corsYes": 12,
+      "corsNo": 2,
+      "corsUnknown": 9,
+      "noAuth": 17
+    },
+    "Business": {
+      "total": 22,
+      "httpsYes": 21,
+      "httpsNo": 1,
+      "corsYes": 3,
+      "corsNo": 2,
+      "corsUnknown": 17,
+      "noAuth": 7
+    },
+    "Calendar": {
+      "total": 16,
+      "httpsYes": 12,
+      "httpsNo": 4,
+      "corsYes": 4,
+      "corsNo": 2,
+      "corsUnknown": 10,
+      "noAuth": 10
+    },
+    "Cloud Storage & File Sharing": {
+      "total": 19,
+      "httpsYes": 19,
+      "httpsNo": 0,
+      "corsYes": 3,
+      "corsNo": 0,
+      "corsUnknown": 16,
+      "noAuth": 5
+    },
+    "Continuous Integration": {
+      "total": 6,
+      "httpsYes": 5,
+      "httpsNo": 1,
+      "corsYes": 0,
+      "corsNo": 1,
+      "corsUnknown": 5,
+      "noAuth": 0
+    },
+    "Cryptocurrency": {
+      "total": 64,
+      "httpsYes": 63,
+      "httpsNo": 1,
+      "corsYes": 10,
+      "corsNo": 3,
+      "corsUnknown": 51,
+      "noAuth": 22
+    },
+    "Currency Exchange": {
+      "total": 17,
+      "httpsYes": 16,
+      "httpsNo": 1,
+      "corsYes": 8,
+      "corsNo": 1,
+      "corsUnknown": 8,
+      "noAuth": 9
+    },
+    "Data Validation": {
+      "total": 7,
+      "httpsYes": 6,
+      "httpsNo": 1,
+      "corsYes": 3,
+      "corsNo": 0,
+      "corsUnknown": 4,
+      "noAuth": 2
+    },
+    "Development": {
+      "total": 120,
+      "httpsYes": 118,
+      "httpsNo": 2,
+      "corsYes": 56,
+      "corsNo": 5,
+      "corsUnknown": 59,
+      "noAuth": 52
+    },
+    "Dictionaries": {
+      "total": 13,
+      "httpsYes": 12,
+      "httpsNo": 1,
+      "corsYes": 3,
+      "corsNo": 2,
+      "corsUnknown": 8,
+      "noAuth": 5
+    },
+    "Documents & Productivity": {
+      "total": 28,
+      "httpsYes": 28,
+      "httpsNo": 0,
+      "corsYes": 3,
+      "corsNo": 4,
+      "corsUnknown": 21,
+      "noAuth": 2
+    },
+    "Email": {
+      "total": 17,
+      "httpsYes": 17,
+      "httpsNo": 0,
+      "corsYes": 8,
+      "corsNo": 0,
+      "corsUnknown": 9,
+      "noAuth": 8
+    },
+    "Entertainment": {
+      "total": 10,
+      "httpsYes": 10,
+      "httpsNo": 0,
+      "corsYes": 2,
+      "corsNo": 0,
+      "corsUnknown": 8,
+      "noAuth": 10
+    },
+    "Environment": {
+      "total": 17,
+      "httpsYes": 15,
+      "httpsNo": 2,
+      "corsYes": 3,
+      "corsNo": 1,
+      "corsUnknown": 13,
+      "noAuth": 8
+    },
+    "Events": {
+      "total": 3,
+      "httpsYes": 3,
+      "httpsNo": 0,
+      "corsYes": 0,
+      "corsNo": 0,
+      "corsUnknown": 3,
+      "noAuth": 0
+    },
+    "Finance": {
+      "total": 45,
+      "httpsYes": 44,
+      "httpsNo": 1,
+      "corsYes": 16,
+      "corsNo": 0,
+      "corsUnknown": 29,
+      "noAuth": 8
+    },
+    "Food & Drink": {
+      "total": 24,
+      "httpsYes": 22,
+      "httpsNo": 2,
+      "corsYes": 6,
+      "corsNo": 1,
+      "corsUnknown": 17,
+      "noAuth": 11
+    },
+    "Games & Comics": {
+      "total": 94,
+      "httpsYes": 89,
+      "httpsNo": 5,
+      "corsYes": 33,
+      "corsNo": 11,
+      "corsUnknown": 50,
+      "noAuth": 61
+    },
+    "Geocoding": {
+      "total": 85,
+      "httpsYes": 78,
+      "httpsNo": 7,
+      "corsYes": 26,
+      "corsNo": 3,
+      "corsUnknown": 56,
+      "noAuth": 42
+    },
+    "Government": {
+      "total": 86,
+      "httpsYes": 77,
+      "httpsNo": 9,
+      "corsYes": 7,
+      "corsNo": 3,
+      "corsUnknown": 76,
+      "noAuth": 68
+    },
+    "Health": {
+      "total": 31,
+      "httpsYes": 30,
+      "httpsNo": 1,
+      "corsYes": 11,
+      "corsNo": 1,
+      "corsUnknown": 19,
+      "noAuth": 24
+    },
+    "Jobs": {
+      "total": 17,
+      "httpsYes": 14,
+      "httpsNo": 3,
+      "corsYes": 3,
+      "corsNo": 0,
+      "corsUnknown": 14,
+      "noAuth": 4
+    },
+    "Machine Learning": {
+      "total": 21,
+      "httpsYes": 21,
+      "httpsNo": 0,
+      "corsYes": 9,
+      "corsNo": 0,
+      "corsUnknown": 12,
+      "noAuth": 3
+    },
+    "Music": {
+      "total": 33,
+      "httpsYes": 33,
+      "httpsNo": 0,
+      "corsYes": 5,
+      "corsNo": 2,
+      "corsUnknown": 26,
+      "noAuth": 10
+    },
+    "News": {
+      "total": 19,
+      "httpsYes": 18,
+      "httpsNo": 1,
+      "corsYes": 6,
+      "corsNo": 0,
+      "corsUnknown": 13,
+      "noAuth": 4
+    },
+    "Open Data": {
+      "total": 35,
+      "httpsYes": 32,
+      "httpsNo": 3,
+      "corsYes": 9,
+      "corsNo": 3,
+      "corsUnknown": 23,
+      "noAuth": 19
+    },
+    "Open Source Projects": {
+      "total": 9,
+      "httpsYes": 8,
+      "httpsNo": 1,
+      "corsYes": 5,
+      "corsNo": 0,
+      "corsUnknown": 4,
+      "noAuth": 8
+    },
+    "Patent": {
+      "total": 4,
+      "httpsYes": 4,
+      "httpsNo": 0,
+      "corsYes": 0,
+      "corsNo": 0,
+      "corsUnknown": 4,
+      "noAuth": 2
+    },
+    "Personality": {
+      "total": 23,
+      "httpsYes": 21,
+      "httpsNo": 2,
+      "corsYes": 5,
+      "corsNo": 2,
+      "corsUnknown": 16,
+      "noAuth": 19
+    },
+    "Phone": {
+      "total": 5,
+      "httpsYes": 5,
+      "httpsNo": 0,
+      "corsYes": 4,
+      "corsNo": 0,
+      "corsUnknown": 1,
+      "noAuth": 1
+    },
+    "Photography": {
+      "total": 28,
+      "httpsYes": 27,
+      "httpsNo": 1,
+      "corsYes": 5,
+      "corsNo": 0,
+      "corsUnknown": 23,
+      "noAuth": 6
+    },
+    "Programming": {
+      "total": 5,
+      "httpsYes": 5,
+      "httpsNo": 0,
+      "corsYes": 1,
+      "corsNo": 0,
+      "corsUnknown": 4,
+      "noAuth": 1
+    },
+    "Science & Math": {
+      "total": 33,
+      "httpsYes": 30,
+      "httpsNo": 3,
+      "corsYes": 5,
+      "corsNo": 15,
+      "corsUnknown": 13,
+      "noAuth": 29
+    },
+    "Security": {
+      "total": 38,
+      "httpsYes": 38,
+      "httpsNo": 0,
+      "corsYes": 10,
+      "corsNo": 3,
+      "corsUnknown": 25,
+      "noAuth": 14
+    },
+    "Shopping": {
+      "total": 14,
+      "httpsYes": 14,
+      "httpsNo": 0,
+      "corsYes": 3,
+      "corsNo": 0,
+      "corsUnknown": 11,
+      "noAuth": 0
+    },
+    "Social": {
+      "total": 40,
+      "httpsYes": 40,
+      "httpsNo": 0,
+      "corsYes": 5,
+      "corsNo": 1,
+      "corsUnknown": 34,
+      "noAuth": 8
+    },
+    "Sports & Fitness": {
+      "total": 33,
+      "httpsYes": 31,
+      "httpsNo": 2,
+      "corsYes": 11,
+      "corsNo": 3,
+      "corsUnknown": 19,
+      "noAuth": 14
+    },
+    "Test Data": {
+      "total": 25,
+      "httpsYes": 21,
+      "httpsNo": 4,
+      "corsYes": 5,
+      "corsNo": 4,
+      "corsUnknown": 16,
+      "noAuth": 20
+    },
+    "Text Analysis": {
+      "total": 15,
+      "httpsYes": 15,
+      "httpsNo": 0,
+      "corsYes": 4,
+      "corsNo": 0,
+      "corsUnknown": 11,
+      "noAuth": 1
+    },
+    "Tracking": {
+      "total": 9,
+      "httpsYes": 7,
+      "httpsNo": 2,
+      "corsYes": 3,
+      "corsNo": 0,
+      "corsUnknown": 6,
+      "noAuth": 3
+    },
+    "Transportation": {
+      "total": 69,
+      "httpsYes": 54,
+      "httpsNo": 15,
+      "corsYes": 7,
+      "corsNo": 6,
+      "corsUnknown": 56,
+      "noAuth": 31
+    },
+    "URL Shorteners": {
+      "total": 19,
+      "httpsYes": 19,
+      "httpsNo": 0,
+      "corsYes": 7,
+      "corsNo": 2,
+      "corsUnknown": 10,
+      "noAuth": 10
+    },
+    "Vehicle": {
+      "total": 6,
+      "httpsYes": 6,
+      "httpsNo": 0,
+      "corsYes": 1,
+      "corsNo": 3,
+      "corsUnknown": 2,
+      "noAuth": 2
+    },
+    "Video": {
+      "total": 42,
+      "httpsYes": 39,
+      "httpsNo": 3,
+      "corsYes": 13,
+      "corsNo": 3,
+      "corsUnknown": 26,
+      "noAuth": 28
+    },
+    "Weather": {
+      "total": 31,
+      "httpsYes": 28,
+      "httpsNo": 3,
+      "corsYes": 10,
+      "corsNo": 3,
+      "corsUnknown": 18,
+      "noAuth": 10
+    }
+  },
+  "authDistribution": {
+    "apiKey": 596,
+    "No": 666,
+    "OAuth": 149,
+    "X-Mashape-Key": 6,
+    "User-Agent": 1
+  }
+}

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API Filter — public-apis</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0f0f1a; color: #e0e0e0; padding: 1rem; margin: 0; }
+    h1 { color: #818cf8; font-size: 1.4rem; }
+    .filters { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-bottom: 1rem; }
+    select, input { background: #1e1e2e; border: 1px solid #3b3b5c; color: #e0e0e0; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.9rem; }
+    input[type="text"] { width: 200px; }
+    .stats { color: #94a3b8; font-size: 0.85rem; margin-bottom: 0.75rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    th { background: #1e1e2e; color: #a5b4fc; text-align: left; padding: 0.5rem; cursor: pointer; user-select: none; }
+    th:hover { color: #fff; }
+    td { padding: 0.4rem 0.5rem; border-bottom: 1px solid #1e1e2e; vertical-align: top; }
+    tr:hover td { background: #1a1a2e; }
+    td:first-child { max-width: 200px; }
+    td:first-child a { color: #818cf8; text-decoration: none; }
+    td:first-child a:hover { text-decoration: underline; }
+    .badge { display: inline-block; padding: 1px 6px; border-radius: 4px; font-size: 0.75rem; margin: 1px; }
+    .badge-auth-yes { background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b44; }
+    .badge-auth-no { background: #22c55e22; color: #22c55e; border: 1px solid #22c55e44; }
+    .badge-cors-yes { background: #06b6d422; color: #06b6d4; border: 1px solid #06b6d444; }
+    .badge-cors-no { background: #ef444422; color: #ef4444; border: 1px solid #ef444444; }
+    .badge-https-yes { background: #22c55e22; color: #22c55e; border: 1px solid #22c55e44; }
+    .badge-https-no { background: #ef444422; color: #ef4444; border: 1px solid #ef444444; }
+    .tag { background: #3b3b5c44; color: #94a3b8; padding: 1px 5px; border-radius: 3px; font-size: 0.7rem; margin: 1px; display: inline-block; }
+    .desc { color: #9ca3af; font-size: 0.8rem; max-width: 300px; }
+    .cat-nav { margin-bottom: 1rem; }
+    .cat-nav a { color: #818cf8; text-decoration: none; font-size: 0.8rem; margin-right: 0.75rem; }
+    .cat-nav a:hover { text-decoration: underline; }
+    .cat-nav a.active { color: #fff; font-weight: bold; }
+    .pagination { margin-top: 1rem; display: flex; gap: 0.5rem; align-items: center; }
+    button { background: #3730a3; color: #fff; border: none; padding: 0.4rem 1rem; border-radius: 6px; cursor: pointer; font-size: 0.85rem; }
+    button:hover { background: #4338ca; }
+    button:disabled { background: #3b3b5c; color: #64748b; cursor: not-allowed; }
+    .loading { color: #94a3b8; font-size: 1rem; }
+    .no-results { color: #94a3b8; padding: 2rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <h1>🔍 public-apis API Filter</h1>
+  <p style="color:#94a3b8;font-size:0.8rem">419K+ Stars · Curated by APILayer · <a href="https://github.com/public-apis/public-apis" style="color:#818cf8">GitHub</a></p>
+
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="Search... (e.g. 'free weather API with HTTPS and CORS')" style="width:340px" />
+    <select id="catFilter"><option value="">All Categories</option></select>
+    <select id="authFilter"><option value="">Any Auth</option><option value="No">No Auth</option><option value="apiKey">API Key</option><option value="OAuth">OAuth</option></select>
+    <select id="httpsFilter"><option value="">HTTPS Any</option><option value="Yes">HTTPS Only</option></select>
+    <select id="corsFilter"><option value="">CORS Any</option><option value="Yes">CORS Yes</option><option value="No">CORS No</option></select>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <div class="cat-nav" id="catNav"></div>
+  <div class="stats" id="stats"></div>
+  <table id="table">
+    <thead><tr>
+      <th onclick="sort('name')">API ▲▼</th>
+      <th onclick="sort('desc')">Description</th>
+      <th onclick="sort('auth')">Auth</th>
+      <th onclick="sort('https')">HTTPS</th>
+      <th onclick="sort('cors')">CORS</th>
+    </tr></thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div class="pagination" id="pagination"></div>
+
+  <script type="module">
+    const PAGE_SIZE = 50;
+    let allAPIs = [];
+    let filtered = [];
+    let page = 0;
+    let sortCol = 'name';
+    let sortAsc = true;
+
+    const params = new URLSearchParams(location.search);
+    const initCat = params.get('cat') || '';
+    const initSearch = params.get('q') || '';
+
+    function badge(cls, text) { return `<span class="badge ${cls}">${text}</span>`; }
+
+    async function load() {
+      document.getElementById('tbody').innerHTML = '<tr><td colspan="5" class="loading">Loading public-apis data...</td></tr>';
+      try {
+        const res = await fetch('README.md');
+        const text = await res.text();
+        allAPIs = parseReadme(text);
+        document.getElementById('searchInput').value = initSearch;
+        if (initCat) {
+          document.getElementById('catFilter').value = initCat;
+          const catLink = document.querySelector(`.cat-nav a[href*="cat=${encodeURIComponent(initCat)}"]`);
+          if (catLink) catLink.classList.add('active');
+        }
+        buildCatNav();
+        applyFilters();
+      } catch(e) {
+        document.getElementById('tbody').innerHTML = `<tr><td colspan="5" class="no-results">Failed to load: ${e.message}</td></tr>`;
+      }
+    }
+
+    function parseReadme(text) {
+      const apis = [];
+      const sectionRe = /^###\s+(.+)$/gm;
+      let lastSection = '';
+      let m;
+      while ((m = sectionRe.exec(text)) !== null) {
+        lastSection = m[1].trim();
+        const start = m.index + m[0].length;
+        const nextRe = /^###\s+/m;
+        const nextM = nextRe.exec(text.slice(start));
+        const end = nextM ? start + nextM.index : text.length;
+        const chunk = text.slice(start, end);
+
+        const rows = chunk.match(/^\|.+\|$/gm) || [];
+        for (let i = 1; i < rows.length; i++) {
+          const cols = rows[i].split('|').map(c => c.trim());
+          if (cols.length < 5) continue;
+          const nameAndLink = cols[1];
+          const desc = cols[2];
+          const authRaw = (cols[3] || '').replace(/`/g, '').trim();
+          const httpsRaw = (cols[4] || '').toLowerCase();
+          const https = httpsRaw === 'yes' || httpsRaw === 'ye' || httpsRaw === 'y' ? 'Yes' : 'No';
+          const cors = cols[5] || 'Unknown';
+          const nameMatch = nameAndLink.match(/\[([^\]]+)\]\(([^)]+)\)/);
+          if (!nameMatch) continue;
+          apis.push({
+            name: nameMatch[1],
+            url: nameMatch[2],
+            desc: desc,
+            auth: authRaw || 'Unknown',
+            https: https === 'YES' ? 'Yes' : https,
+            cors: cors === 'Unkown' ? 'Unknown' : cors,
+            category: lastSection,
+          });
+        }
+      }
+      return apis;
+    }
+
+    function buildCatNav() {
+      const cats = [...new Set(allAPIs.map(a => a.category))].sort();
+      const catFilter = document.getElementById('catFilter');
+      cats.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c; opt.textContent = c;
+        catFilter.appendChild(opt);
+      });
+      const nav = document.getElementById('catNav');
+      nav.innerHTML = '<a href="#" data-cat="">All</a>';
+      cats.forEach(c => {
+        nav.innerHTML += `<a href="?cat=${encodeURIComponent(c)}" data-cat="${c}">${c}</a>`;
+      });
+    }
+
+    function parseNatural(q) {
+      // Keywords that map to specific filters
+      const kw = q.toLowerCase();
+      const extraFilters = { cat: '', auth: '', https: '', cors: '' };
+      const textTerms = [];
+
+      // Auth
+      if (kw.includes('no auth') || kw.includes('free') || kw.includes('不需要')) extraFilters.auth = 'No';
+      if (kw.includes('apikey') || kw.includes('api key')) extraFilters.auth = 'apiKey';
+      if (kw.includes('oauth')) extraFilters.auth = 'OAuth';
+
+      // HTTPS
+      if (kw.includes('https')) extraFilters.https = 'Yes';
+
+      // CORS
+      if (kw.includes('cors')) extraFilters.cors = 'Yes';
+      if (kw.includes('cors unknown') || kw.includes('unknown cors')) extraFilters.cors = 'Unknown';
+
+      // Categories
+      const cats = ['Finance','Cryptocurrency','Development','Games','Government','Geocoding','Health','Music','News','Science','Social','Sports','Transportation','Video','Weather'];
+      for (const c of cats) {
+        if (kw.includes(c.toLowerCase())) { extraFilters.cat = c; break; }
+      }
+
+      // Strip filter words from text search
+      const strip = (kw.replace(/no auth|free|不需要|apikey|api key|oauth|https|cors|weather|finance|cryptocurrency|development|games|government|geocoding|health|music|news|science|social|sports|transportation|video/gi, '')).trim();
+      if (strip) textTerms.push(strip);
+
+      return { extraFilters, textTerms };
+    }
+
+    function applyFilters() {
+      const rawQ = document.getElementById('searchInput').value;
+      const cat = document.getElementById('catFilter').value;
+      const auth = document.getElementById('authFilter').value;
+      const https = document.getElementById('httpsFilter').value;
+      const cors = document.getElementById('corsFilter').value;
+
+      const { extraFilters, textTerms } = parseNatural(rawQ);
+      const mergedCat  = cat  || extraFilters.cat;
+      const mergedAuth = auth || extraFilters.auth;
+      const mergedHttps = https || extraFilters.https;
+      const mergedCors = cors || extraFilters.cors;
+
+      filtered = allAPIs.filter(a => {
+        const q = textTerms.join(' ');
+        if (q && !a.name.toLowerCase().includes(q) && !a.desc.toLowerCase().includes(q)) return false;
+        if (mergedCat  && a.category !== mergedCat)  return false;
+        if (mergedAuth && a.auth    !== mergedAuth) return false;
+        if (mergedHttps && a.https  !== mergedHttps) return false;
+        if (mergedCors && a.cors   !== mergedCors)  return false;
+        return true;
+      });
+      filtered.sort((a, b) => {
+        let av = a[sortCol] || '', bv = b[sortCol] || '';
+        if (av < bv) return sortAsc ? -1 : 1;
+        if (av > bv) return sortAsc ? 1 : -1;
+        return 0;
+      });
+      page = 0;
+      render();
+    }
+
+    function render() {
+      const start = page * PAGE_SIZE;
+      const slice = filtered.slice(start, start + PAGE_SIZE);
+      const tbody = document.getElementById('tbody');
+      if (slice.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" class="no-results">No APIs match the current filters</td></tr>';
+        document.getElementById('pagination').innerHTML = '';
+        document.getElementById('stats').textContent = '';
+        return;
+      }
+      tbody.innerHTML = slice.map(a => `
+        <tr>
+          <td><a href="${a.url}" target="_blank" rel="noopener">${a.name}</a><br><span class="tag">${a.category}</span></td>
+          <td class="desc">${a.desc}</td>
+          <td>${a.auth === 'No' ? badge('badge-auth-no', 'No Auth') : badge('badge-auth-yes', a.auth)}</td>
+          <td>${a.https === 'Yes' ? badge('badge-https-yes', 'Yes') : badge('badge-https-no', 'No')}</td>
+          <td>${a.cors === 'Yes' ? badge('badge-cors-yes', 'Yes') : a.cors === 'No' ? badge('badge-cors-no', 'No') : badge('', a.cors)}</td>
+        </tr>`).join('');
+
+      document.getElementById('stats').textContent = `Showing ${start + 1}–${Math.min(start + PAGE_SIZE, filtered.length)} of ${filtered.length} APIs (${allAPIs.length} total)`;
+
+      const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+      const pag = document.getElementById('pagination');
+      pag.innerHTML = '';
+      if (totalPages <= 1) return;
+      pag.innerHTML += `<button onclick="prevPage()" ${page === 0 ? 'disabled' : ''}>← Prev</button>`;
+      for (let i = Math.max(0, page - 2); i < Math.min(totalPages, page + 3); i++) {
+        pag.innerHTML += `<button onclick="goPage(${i})" style="background:${i === page ? '#6366f1' : '#3730a3'}">${i + 1}</button>`;
+      }
+      pag.innerHTML += `<button onclick="nextPage()" ${page >= totalPages - 1 ? 'disabled' : ''}>Next →</button>`;
+      if (totalPages > 5) pag.innerHTML += `<span style="color:#94a3b8;font-size:0.8rem;margin-left:0.5rem">Page ${page + 1}/${totalPages}</span>`;
+    }
+
+    window.sort = function(col) {
+      if (sortCol === col) sortAsc = !sortAsc;
+      else { sortCol = col; sortAsc = true; }
+      applyFilters();
+    };
+    window.prevPage = function() { if (page > 0) { page--; render(); }};
+    window.nextPage = function() { page++; render(); };
+    window.goPage = function(p) { page = p; render(); };
+
+    document.getElementById('searchInput').addEventListener('input', applyFilters);
+    document.getElementById('catFilter').addEventListener('change', () => {
+      const cat = document.getElementById('catFilter').value;
+      history.replaceState(null, '', cat ? `?cat=${encodeURIComponent(cat)}` : location.pathname);
+      document.querySelectorAll('.cat-nav a').forEach(a => {
+        a.classList.toggle('active', a.dataset.cat === cat);
+      });
+      applyFilters();
+    });
+    document.getElementById('authFilter').addEventListener('change', applyFilters);
+    document.getElementById('httpsFilter').addEventListener('change', applyFilters);
+    document.getElementById('corsFilter').addEventListener('change', applyFilters);
+    document.getElementById('resetBtn').addEventListener('click', () => {
+      document.getElementById('searchInput').value = '';
+      document.getElementById('catFilter').value = '';
+      document.getElementById('authFilter').value = '';
+      document.getElementById('httpsFilter').value = '';
+      document.getElementById('corsFilter').value = '';
+      history.replaceState(null, '', location.pathname);
+      document.querySelectorAll('.cat-nav a').forEach(a => a.classList.toggle('active', a.dataset.cat === ''));
+      applyFilters();
+    });
+    document.getElementById('catNav').addEventListener('click', e => {
+      if (e.target.tagName === 'A') {
+        e.preventDefault();
+        const cat = e.target.dataset.cat;
+        document.getElementById('catFilter').value = cat;
+        history.replaceState(null, '', cat ? `?cat=${encodeURIComponent(cat)}` : location.pathname);
+        document.querySelectorAll('.cat-nav a').forEach(a => a.classList.toggle('active', a.dataset.cat === cat));
+        applyFilters();
+      }
+    });
+
+    load();
+  </script>
+</body>
+</html>
