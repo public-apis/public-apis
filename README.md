@@ -724,6 +724,7 @@ like WhatsApp | `apiKey` | Yes | Yes |
 | [DropMail](https://dropmail.me/api/#live-demo) | GraphQL API for creating and managing ephemeral e-mail inboxes | No | Yes | Unknown |
 | [Emailvalidation](https://emailvalidation.io/email-validation-api/) | E-Mail address validation | `apiKey` | Yes | Yes |
 | [Enveloop](https://enveloop.com) | Design, host, and send emails and texts. All from one place - with a simple API | `apiKey` | Yes | Yes |
+| [FreeCustom.Email](https://freecustom.email) | Disposable email inboxes with OTP extraction and real-time WebSocket events | `apiKey` | Yes | Yes |
 | [Guerrilla Mail](https://www.guerrillamail.com/GuerrillaMailAPI.html) | Disposable temporary Email addresses | No | Yes | Unknown |
 | [Heybounce](https://www.heybounce.io/#email-verification-api) | Email Verification API | No | Yes | Yes |
 | [ImprovMX](https://improvmx.com/api) | API for free email forwarding service | `apiKey` | Yes | Unknown |
