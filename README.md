@@ -1955,3 +1955,5 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+- Dev Tooling: sample API (added by @ex1234)
