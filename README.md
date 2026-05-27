@@ -706,6 +706,7 @@ API | Description | Auth | HTTPS | CORS |
 | [chucknorris.io](https://api.chucknorris.io) | JSON API for hand curated Chuck Norris jokes | No | Yes | Unknown |
 | [Corporate Buzz Words](https://github.com/sameerkumar18/corporate-bs-generator-api) | REST API for Corporate Buzz Words | No | Yes | Yes |
 | [Excuser](https://excuser.herokuapp.com/) | Get random excuses for various situations | No | Yes | Unknown |
+| [Favqs](https://favqs.com/api) | Quotes and authors search API | API Key | Yes | Unknown |
 | [Fun Fact](https://api.aakhilv.me) | A simple HTTPS api that can randomly select and return a fact from the FFA database | No | Yes | Yes |
 | [Imgflip](https://imgflip.com/api) | Gets an array of popular memes | No | Yes | Unknown |
 | [justmeme.wtf](https://justmeme.wtf/api-docs) | Free meme API with 2400+ templates, search, trending, and AI generation | No | Yes | Yes |
