@@ -1955,3 +1955,5 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes |
