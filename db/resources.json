@@ -1,5 +1,5 @@
 {
-"count": 1586,
+"count": 1587,
 "entries": [
     {
         "API": "Cat Facts",
@@ -4643,6 +4643,15 @@
         "HTTPS": true,
         "Cors": "yes",
         "Link": "https://enveloop.com",
+        "Category": "Email"
+    },
+    {
+        "API": "FreeCustom.Email",
+        "Description": "Disposable email inboxes with OTP extraction and real-time WebSocket events",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://freecustom.email",
         "Category": "Email"
     },
     {
