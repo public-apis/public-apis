@@ -578,6 +578,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ProxyCrawl](https://proxycrawl.com) | Scraping and crawling anticaptcha service | `apiKey` | Yes | Unknown |
 | [ProxyKingdom](https://proxykingdom.com) | Rotating Proxy API that produces a working proxy on every request | `apiKey` | Yes | Yes |
 | [Pusher Beams](https://pusher.com/beams) | Push notifications for Android & iOS | `apiKey` | Yes | Unknown |
+| [QR & Barcode](https://solsigs.com/qrapi/) | QR codes and barcodes (Code 128, EAN-13, Data Matrix, PDF417 + more). SVG or PNG output | No | Yes | Yes |
 | [QR code](https://www.qrtag.net/api/) | Create an easy to read QR code and URL shortener | No | Yes | Yes |
 | [QR code](http://goqr.me/api/) | Generate and decode / read QR code graphics | No | Yes | Unknown |
 | [Qrcode Monkey](https://www.qrcode-monkey.com/qr-code-api-with-logo/) | Integrate custom and unique looking QR codes into your system or workflow | No | Yes | Unknown |
