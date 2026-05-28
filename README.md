@@ -768,6 +768,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | `apiKey` | Yes | Unknown | |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | All Citigroup account and statement data APIs | `apiKey` | Yes | Unknown | |
 | [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes | |
+| [EconPulse](https://econpulse.io) | Live economic data — CPI, PPI, energy, treasury rates, BTC premium | apiKey | Yes | Yes |
 | [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | U.S. Department of the Treasury Data | No | Yes | Unknown | |
 | [Finage](https://finage.co.uk) | Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider | `apiKey` | Yes | Unknown | |
 | [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs) | Realtime and historical stock data | `apiKey` | Yes | Unknown | |
@@ -804,7 +805,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Yahoo Finance](https://www.yahoofinanceapi.com/) | Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange | `apiKey` | Yes | Yes | |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes | |
 | [Zoho Books](https://www.zoho.com/books/api/v3/) | Online accounting software, built for your business | `OAuth` | Yes | Unknown | |
-
 **[⬆ Back to Index](#index)**
 <br >
 <br >
