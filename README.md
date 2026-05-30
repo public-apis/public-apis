@@ -1718,6 +1718,7 @@ like WhatsApp | `apiKey` | Yes | Yes |
 | [SuredBits](https://suredbits.com/api/) | Query sports data, including teams, players, games, scores and statistics | No | No | No |
 | [TheSportsDB](https://www.thesportsdb.com/api.php) | Crowd-Sourced Sports Data and Artwork | `apiKey`| Yes | Yes |
 | [Tredict](https://www.tredict.com/blog/oauth_docs/) | Get and set activities, health data and more | `OAuth` | Yes | Unknown |
+| [Video Exercise, Nutrition & Recipe API - ymove.app](https://ymove.app/exercise-api) | One Workout API for: Exercise Videos, Program Generation, Nutritional info & Posture Analysis | `apiKey` | Yes | Yes |
 | [Wger](https://wger.de/en/software/api) | Workout manager data as exercises, muscles or equipment | `apiKey`| Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
