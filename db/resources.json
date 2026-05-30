@@ -1,5 +1,5 @@
 {
-"count": 1588,
+"count": 1590,
 "entries": [
     {
         "API": "Cat Facts",
@@ -12188,6 +12188,15 @@
         "Category": "Sports & Fitness"
     },
     {
+        "API": "Video Exercise, Nutrition & Recipe API - ymove.app",
+        "Description": "One Workout API for: Exercise Videos, Program Generation, Nutritional info & Posture Analysis",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://ymove.app/exercise-api",
+        "Category": "Sports & Fitness"
+    },
+    {
         "API": "Wger",
         "Description": "Workout manager data as exercises, muscles or equipment",
         "Auth": "apiKey",
@@ -13454,6 +13463,15 @@
         "HTTPS": true,
         "Cors": "no",
         "Link": "https://api.carsxe.com/",
+        "Category": "Vehicle"
+    },
+    {
+        "API": "CarVector",
+        "Description": "Vehicle specs, images, federal recalls, and DTC codes for 12,000+ vehicles (1925–2029)",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://carvector.io/docs",
         "Category": "Vehicle"
     },
     {
