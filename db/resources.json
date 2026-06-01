@@ -1,5 +1,5 @@
 {
-"count": 1591,
+"count": 1592,
 "entries": [
     {
         "API": "Cat Facts",
@@ -8315,6 +8315,15 @@
         "HTTPS": true,
         "Cors": "yes",
         "Link": "https://api.whenisthenextboardexam.com/docs/",
+        "Category": "Government"
+    },
+    {
+        "API": "PolitiData",
+        "Description": "Canadian political financing, lobbying registrations and communications",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://politidata.ca",
         "Category": "Government"
     },
     {
