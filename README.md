@@ -413,6 +413,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Cryptonator](https://www.cryptonator.com/api/) | Cryptocurrencies Exchange Rates | No | Yes | Unknown |
 | [dYdX](https://docs.dydx.exchange/) | Decentralized cryptocurrency exchange | `apiKey` | Yes | Unknown |
 | [Ethplorer](https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API) | Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures | `apiKey` | Yes | Unknown |
+| [EruditePay](https://bridge.eruditepay.com) | Pay-per-call blockchain analytics for Base, Tron, Bitcoin, XRP, Kaspa | `apiKey` | Yes | Yes |
 | [EXMO](https://documenter.getpostman.com/view/10287440/SzYXWKPi) | Cryptocurrencies exchange based in UK | `apiKey` | Yes | Unknown |
 | [FTX](https://docs.ftx.com/) | Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs | `apiKey` | Yes | Yes |
 | [Gateio](https://www.gate.io/api2) | API provides spot, margin and futures trading operations | `apiKey` | Yes | Unknown |
