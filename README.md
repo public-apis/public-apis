@@ -769,6 +769,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Billplz](https://www.billplz.com/api) | Payment platform | `apiKey` | Yes | Unknown | |
 | [Binlist](https://binlist.net/) | Public access to a database of IIN/BIN information | No | Yes | Unknown | |
 | [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | `apiKey` | Yes | Unknown | |
+| [BullrunData](https://bullrundata.com/docs) | Recession probability, capital rotation, and macro market intelligence | `apiKey` | Yes | Yes | |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | All Citigroup account and statement data APIs | `apiKey` | Yes | Unknown | |
 | [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes | |
 | [EconPulse](https://econpulse.io) | Live economic data — CPI, PPI, energy, treasury rates, BTC premium | `apiKey` | Yes | Yes |
