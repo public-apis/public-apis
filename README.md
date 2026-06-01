@@ -326,6 +326,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Public Holidays](https://www.abstractapi.com/holidays-api) | Data on national, regional, and religious holidays via API | `apiKey` | Yes | Yes |
 | [Russian Calendar](https://github.com/egno/work-calendar) | Check if a date is a Russian holiday or not | No | Yes | No |
 | [UK Bank Holidays](https://www.gov.uk/bank-holidays.json) | Bank holidays in England and Wales, Scotland and Northern Ireland | No | Yes | Unknown |
+| [Public Holidays](https://date.nager.at/) | Get public holiday data for different countries | No | Yes | Unknown |
+  
 
 **[⬆ Back to Index](#index)**
 <br >
