@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import re
 import sys
 import random
@@ -242,6 +243,30 @@ def start_links_working_checker(links: List[str]) -> None:
         sys.exit(1)
 
 
+def validate_filename(filename: str) -> str:
+    """Validate and sanitize the filename argument to prevent injection attacks.
+
+    Checks for shell metacharacters, path traversal sequences, and ensures
+    only Markdown (.md) files are accepted.
+    """
+
+    shell_metacharacters = re.compile(r'[;&|`$<>\\!\'\"]')
+    if shell_metacharacters.search(filename):
+        print('Error: Filename contains invalid characters.')
+        sys.exit(1)
+
+    path_parts = filename.replace('\\', '/').split('/')
+    if '..' in path_parts:
+        print('Error: Path traversal sequences are not allowed.')
+        sys.exit(1)
+
+    if not filename.lower().endswith('.md'):
+        print('Error: Only Markdown (.md) files are supported.')
+        sys.exit(1)
+
+    return filename
+
+
 def main(filename: str, only_duplicate_links_checker: bool) -> None:
 
     links = find_links_in_file(filename)
@@ -253,21 +278,23 @@ def main(filename: str, only_duplicate_links_checker: bool) -> None:
 
 
 if __name__ == '__main__':
-    num_args = len(sys.argv)
-    only_duplicate_links_checker = False
+    import argparse
 
-    if num_args < 2:
-        print('No .md file passed')
-        sys.exit(1)
-    elif num_args == 3:
-        third_arg = sys.argv[2].lower()
+    parser = argparse.ArgumentParser(
+        description='Validate links in a Markdown file.'
+    )
+    parser.add_argument(
+        'filename',
+        help='Path to the Markdown (.md) file to validate'
+    )
+    parser.add_argument(
+        '-odlc', '--only_duplicate_links_checker',
+        action='store_true',
+        default=False,
+        help='Only check for duplicate links, skip the working-link check'
+    )
+    args = parser.parse_args()
 
-        if third_arg == '-odlc' or third_arg == '--only_duplicate_links_checker':
-            only_duplicate_links_checker = True
-        else:
-            print(f'Third invalid argument. Usage: python {__file__} [-odlc | --only_duplicate_links_checker]')
-            sys.exit(1)
+    filename = validate_filename(args.filename)
 
-    filename = sys.argv[1]
-
-    main(filename, only_duplicate_links_checker)
+    main(filename, args.only_duplicate_links_checker)
