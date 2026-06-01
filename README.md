@@ -1408,6 +1408,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Udemy(instructor)](https://www.udemy.com/developers/instructor/) | API for instructors on Udemy | `apiKey` | Yes | Unknown |
 | [Vadivelu HTTP Codes](https://vadivelu.anoram.com/) | On demand HTTP Codes with images | No | Yes | No |
 | [Zen Quotes](https://zenquotes.io/) | Large collection of Zen quotes for inspiration | No | Yes | Yes |
+| [ZFGaaS](https://zfgaas.downormal.dev/sorry) | A tiny API for random, verbose, indifferent apologies | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
