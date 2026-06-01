@@ -670,8 +670,6 @@ API | Description | Auth | HTTPS | CORS |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
 
-
-
 **[⬆ Back to Index](#index)**
 <br >
 <br >
