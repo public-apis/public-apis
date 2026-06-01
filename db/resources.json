@@ -1,5 +1,5 @@
 {
-"count": 1592,
+"count": 1593,
 "entries": [
     {
         "API": "Cat Facts",
@@ -1142,6 +1142,15 @@
         "HTTPS": false,
         "Cors": "unknown",
         "Link": "http://charityapi.orghunter.com/",
+        "Category": "Business"
+    },
+    {
+        "API": "CompanyData.com",
+        "Description": "Connect your software to real-time company data from official trade\nregisters. Search all active companies worldwide, including directors, owners, executives, enrichment, or KYC directly in your platform",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://companydata.com",
         "Category": "Business"
     },
     {
