@@ -478,6 +478,7 @@ API | Description | Auth | HTTPS | CORS |
 | [US Autocomplete](https://www.smarty.com/docs/cloud/us-autocomplete-pro-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes | |
 | [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes | |
 | [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes | |
+| [VerifyEd](https://verifyed.org/docs) | Search 912K+ schools worldwide and detect diploma mills for credential verification | `apiKey` | Yes | Yes | |
 
 **[⬆ Back to Index](#index)**
 <br >
