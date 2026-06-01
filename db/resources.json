@@ -1,5 +1,5 @@
 {
-"count": 1590,
+"count": 1591,
 "entries": [
     {
         "API": "Cat Facts",
@@ -7569,6 +7569,15 @@
         "Cors": "unknown",
         "Link": "https://zipcodestack.com/",
         "Category": "Geocoding"
+    },
+    {
+        "API": "Apiverket",
+        "Description": "Swedish public data including companies, statistics, weather and transport",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://apiverket.se/docs",
+        "Category": "Government"
     },
     {
         "API": "Api Colombia",
