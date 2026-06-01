@@ -521,6 +521,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GETPing](https://www.getping.info) | Trigger an email notification with a simple GET request | `apiKey` | Yes | Unknown |
 | [Ghost](https://ghost.org/) | Get Published content into your Website, App or other embedded media | `apiKey` | Yes | Yes |
 | [GitHub](https://docs.github.com/en/free-pro-team@latest/rest) | Make use of GitHub repositories, code and user info programmatically | `OAuth` | Yes | Yes |
+| [GitHub REST API](https://docs.github.com/en/rest) | Official GitHub API for accessing repositories, users, and more | `OAuth` | Yes | Unknown |
 | [Gitlab](https://docs.gitlab.com/ee/api/) | Automate GitLab interaction programmatically | `OAuth` | Yes | Unknown |
 | [Gitter](https://developer.gitter.im/docs/welcome) | Chat for Developers | `OAuth` | Yes | Unknown |
 | [Glitterly](https://developers.glitterly.app) | Image generation API | `apiKey` | Yes | Yes |
