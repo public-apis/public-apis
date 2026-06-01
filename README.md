@@ -1097,6 +1097,7 @@ like WhatsApp | `apiKey` | Yes | Yes |
 ### Government
 | API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [Apiverket](https://apiverket.se/docs) | Swedish public data including companies, statistics, weather and transport | `apiKey` | Yes | Yes |
 | [Api Colombia](https://api-colombia.com/) | Community driven API for Colombia Public Data | No | Yes | Unknown |
 | [Bank Negara Malaysia Open Data](https://apikijangportal.bnm.gov.my/) | Malaysia Central Bank Open Data | No | Yes | Unknown |
 | [BCLaws](https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html) | Access to the laws of British Columbia | No | No | Unknown |
