@@ -726,6 +726,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Environment
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [1 Click Impact](https://docs.1clickimpact.com) | Plant trees, capture carbon, clean oceans, track impact, and join planting sessions | `apiKey` | Yes | Yes |
 | [BreezoMeter Pollen](https://docs.breezometer.com/api-documentation/pollen-api/v2/) | Daily Forecast pollen conditions data for a specific location | `apiKey` | Yes | Unknown |
 | [Carbon Interface](https://docs.carboninterface.com/) | API to calculate carbon (C02) emissions estimates for common C02 emitting activities | `apiKey` | Yes | Yes |
 | [Climatiq](https://docs.climatiq.io) | Calculate the environmental footprint created by a broad range of emission-generating activities | `apiKey` | Yes | Yes |
