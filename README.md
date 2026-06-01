@@ -560,6 +560,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Logs.to](https://logs.to/) | Generate logs | `apiKey` | Yes | Unknown |
 | [Lua Decompiler](https://lua-decompiler.ferib.dev/) | Online Lua 5.1 Decompiler | No | Yes | Yes |
 | [MAC address vendor lookup](https://macaddress.io/api) | Retrieve vendor details and other information regarding a given MAC address or an OUI | `apiKey` | Yes | Yes |
+| [MCP Server Registry](https://kiprio.com/v1/mcp-registry/) | Directory of 700+ Model Context Protocol (MCP) servers from GitHub | `apiKey` | Yes | Yes |
 | [Micro DB](https://m3o.com/db) | Simple database service | `apiKey` | Yes | Unknown |
 | [MicroENV](https://microenv.com/) | Fake Rest API for developers | No | Yes | Unknown |
 | [Mocky](https://designer.mocky.io/) | Mock user defined test JSON for REST API endpoints | No | Yes | Yes |
@@ -689,6 +690,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Guerrilla Mail](https://www.guerrillamail.com/GuerrillaMailAPI.html) | Disposable temporary Email addresses | No | Yes | Unknown |
 | [ImprovMX](https://improvmx.com/api) | API for free email forwarding service | `apiKey` | Yes | Unknown |
 | [Kickbox](https://open.kickbox.com/) | Email verification API | No | Yes | Yes |
+| [Kiprio Email Validate](https://kiprio.com/v1/email-validate/) | Email address validation with syntax, MX, disposable, role and typo checks | `apiKey` | Yes | Yes |
 | [mail.gw](https://docs.mail.gw) | 10 Minute Mail | No | Yes | Yes |
 | [mail.tm](https://docs.mail.tm) | Temporary Email Service | No | Yes | Yes |
 | [MailboxValidator](https://www.mailboxvalidator.com/api-email-free) | Validate email address to improve deliverability | `apiKey` | Yes | Unknown |
@@ -803,6 +805,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tax Data](https://apilayer.com/marketplace/tax_data-api) | Instant VAT number and tax validation across the globe | `apiKey` | Yes | Unknown | |
 | [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth` | Yes | Yes | |
 | [Twelve Data](https://twelvedata.com/) | Stock market data (real-time & historical) | `apiKey` | Yes | Unknown | |
+| [UK Property Prices](https://kiprio.com/v1/property-prices/) | Sold residential property prices and statistics from HM Land Registry | `apiKey` | Yes | Unknown |
 | [VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes | Yes | |
 | [WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/) | WallstreetBets Stock Comments Sentiment Analysis | No | Yes | Unknown | |
 | [Yahoo Finance](https://www.yahoofinanceapi.com/) | Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange | `apiKey` | Yes | Yes | |
