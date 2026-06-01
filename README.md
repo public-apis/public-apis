@@ -485,7 +485,9 @@ API | Description | Auth | HTTPS | CORS |
 ### Development
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+
 | [Userstack](https://userstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Secure User-Agent String Lookup JSON API | `OAuth` | Yes | Unknown |
+| [IPAPI](https://ipapi.co/api/) | IP address location API | No | Yes | Yes |
 | [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
 | [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
 | [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | Yes | Unknown |
