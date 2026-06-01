@@ -670,7 +670,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Vector Express v2.0](https://vector.express) | Free vector file converting API | No | Yes | No |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
-| Zero Retention PDF | Zero-retention HTML to PDF conversion | apiKey | Yes | [Link](https://xeropdf.com) |
+| [Zero Retention PDF](https://xeropdf.com) | Zero-retention HTML to PDF conversion | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
