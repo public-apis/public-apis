@@ -1207,6 +1207,8 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Machine Learning
+
+| [TokenHub](https://t-hub.cc/v1) | OpenAI-compatible relay for 50+ Chinese AI models (DeepSeek, Qwen, GLM, MiniMax). No phone required. | `apiKey` | Yes | Yes |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AI For Thai](https://aiforthai.in.th/index.php) | Free Various Thai AI API | `apiKey` | Yes | Yes |
