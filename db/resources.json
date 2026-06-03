@@ -1,5 +1,5 @@
 {
-"count": 1593,
+"count": 1594,
 "entries": [
     {
         "API": "Cat Facts",
@@ -5606,6 +5606,15 @@
         "HTTPS": true,
         "Cors": "unknown",
         "Link": "https://stripe.com/docs/api",
+        "Category": "Finance"
+    },
+    {
+        "API": "Sugra API",
+        "Description": "One API across markets, economics, commodities, climate, government, and global news. 1,400+ endpoints, 146 primary sources, LLM-ready JSON",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://sugra.ai",
         "Category": "Finance"
     },
     {
