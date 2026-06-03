@@ -856,6 +856,7 @@ like WhatsApp | `apiKey` | Yes | Yes |
 | [SmartAPI](https://smartapi.angelbroking.com/) | Gain access to set of <SmartAPI> and create end-to-end broking services | `apiKey` | Yes | Unknown |
 | [StockData](https://www.StockData.org) | Real-Time, Intraday & Historical Market Data, News and Sentiment API | `apiKey` | Yes | Yes |
 | [Stripe](https://stripe.com/docs/api) | Payment processing, subscriptions, and financial management | `apiKey` | Yes | Unknown |
+| [Sugra API](https://sugra.ai) | One API across markets, economics, commodities, climate, government, and global news. 1,400+ endpoints, 146 primary sources, LLM-ready JSON | `apiKey` | Yes | Yes |
 | [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth`| Yes | Yes |
 | [TradeWatch](https://tradewatch.io/) | Real time financial market data | `apiKey` | Yes | Yes |
 | [Twelve Data](https://twelvedata.com/) | Stock market data (real-time & historical) | `apiKey` | Yes | Unknown |
