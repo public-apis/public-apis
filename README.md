@@ -27,8 +27,8 @@
 <br/>
 
 <div>
-    <p align="center"><a href="https://bigdevsoon.me?ref=dr-pa&utm_medium=public-apis-repo-readme"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/bigdevsoon-dark-mode.svg" width="170px"><source media="(prefers-color-scheme: light)" srcset="./assets/bigdevsoon-light-mode.svg" width="170px"><img alt="BigDevSoon logo" src="./assets/bigdevsoon-dark-mode.svg" width="170px"></picture></a></p>
-    <p align="center"><a href="https://bigdevsoon.me?ref=dr-pa&utm_medium=public-apis-repo-readme">BigDevSoon</a>: Build real-world projects with Figma designs and an AI copilot in a zero-config browser IDE.</p>
+    <p align="center"><a href="https://www.rapidproxy.io/?ref=dr-pa&utm_medium=public-apis-repo-readme"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/rapidproxy-dark-mode.svg" width="160px"><source media="(prefers-color-scheme: light)" srcset="./assets/rapidproxy-light-mode.svg" width="160px"><img alt="RapidProxy logo" src="./assets/rapidproxy-dark-mode.svg" width="160px"></picture></a></p>
+    <p align="center"><a href="https://www.rapidproxy.io/?ref=dr-pa&utm_medium=public-apis-repo-readme">RapidProxy</a>: 90M+ residential IPs in 200+ countries, starting at $0.65/GB with non-expiring traffic. Power your scraping and automation. Try it free today.</p>
 </div>
 
 <br/>
