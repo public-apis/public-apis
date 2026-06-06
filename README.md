@@ -1058,7 +1058,8 @@ API | Description | Auth | HTTPS | CORS |
 | [ZipCodeAPI](https://www.zipcodeapi.com) | US zip code distance, radius and location API | `apiKey` | Yes | Unknown |
 | [Zippopotam.us](http://www.zippopotam.us) | Get information about place such as country, city, state, etc | No | No | Unknown |
 | [Ziptastic](https://ziptasticapi.com/) | Get the country, state, and city of any US zip-code | No | Yes | Unknown |
-
+| [Zip-Codes](https://www.zip-codes.com/api) | US ZIP and Canadian postal code lookup, radius, demographics, boundaries | `apiKey` | Yes | Yes | [Go!](https://api.zip-codes.com/postman/ZIP_Codes_API_v2.postman_collection.json)
+  |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
