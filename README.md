@@ -2013,6 +2013,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
 | [wttr.in](https://wttr.in/:help) | Weather in your terminal, supports JSON output | No | Yes | Yes |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
+| [Open-Meteo](https://open-meteo.com/) | A Free weather forecasts for global locations | None | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 <br >
