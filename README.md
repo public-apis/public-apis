@@ -522,9 +522,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Docker Hub](https://docs.docker.com/docker-hub/api/latest/) | Interact with Docker Hub | `apiKey` | Yes | Yes |
 | [DomainDb Info](https://api.domainsdb.info/) | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown |
 | [DownStatus](https://isitdownstatus.com) | Real-time status for GitHub, AWS, Discord and 90+ services | No | Yes | Yes |
-| [ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html) | A simple JSON store API | No | Yes | Yes |
-| [GeekFlare](https://apidocs.geekflare.com/docs/geekflare-api) | Provide numerous capabilities for important testing and monitoring methods for websites | `apiKey` | Yes | Unknown |
-| [Genderize.io](https://genderize.io) | Estimates a gender from a first name | No | Yes | Yes |
+|| [ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html) | A simple JSON store API | No | Yes | Yes |
+|| [GadgetHumans API Hub](https://api.gadgethumans.com) | 15+ free developer utility APIs (QR codes, passwords, UUIDs, hashes, Base64, JSON, color, email verify, IP geo, crypto, weather, AI text tools & more). No API key needed | No | Yes | Yes |
+|| [GeekFlare](https://apidocs.geekflare.com/docs/geekflare-api) | Provide numerous capabilities for important testing and monitoring methods for websites | `apiKey` | Yes | Unknown |
+|| [Genderize.io](https://genderize.io) | Estimates a gender from a first name | No | Yes | Yes |
 | [GETPing](https://www.getping.info) | Trigger an email notification with a simple GET request | `apiKey` | Yes | Unknown |
 | [Ghost](https://ghost.org/) | Get Published content into your Website, App or other embedded media | `apiKey` | Yes | Yes |
 | [GitHub](https://docs.github.com/en/free-pro-team@latest/rest) | Make use of GitHub repositories, code and user info programmatically | `OAuth` | Yes | Yes |
