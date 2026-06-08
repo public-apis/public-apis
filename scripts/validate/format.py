@@ -43,6 +43,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
     categories = {}
     category_line_num = {}
+    category = None
 
     for line_num, line_content in enumerate(contents):
 
@@ -60,7 +61,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
         ][0]
 
         title_match = link_re.match(raw_title)
-        if title_match:
+        if title_match and category is not None:
                 title = title_match.group(1).upper()
                 categories[category].append(title)
 
