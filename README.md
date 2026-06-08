@@ -188,6 +188,7 @@
 | [Dribbble](https://developer.dribbble.com) | Discover the world’s top designers & creatives | `OAuth`| Yes | Unknown |
 | [EmojiHub](https://github.com/cheatsnake/emojihub) | Get emojis by categories and groups | No | Yes | Yes |
 | [Europeana](https://pro.europeana.eu/resources/apis/search) | European Museum and Galleries content | `apiKey` | Yes | Unknown |
+| [GetGenAI (Gen Content Review API)](https://docs.getgen.ai) | Compliance review API for product labels and marketing assets — automated checks against regulations, retailer specs, and brand guidelines, always up to date | `apiKey` | Yes | No |
 | [Harvard Art Museums](https://github.com/harvardartmuseums/api-docs) | Art | `apiKey` | No | Unknown |
 | [Icon Horse](https://icon.horse/usage) | Favicons for any website, with fallbacks | No | Yes | Yes |
 | [Iconfinder](https://developer.iconfinder.com) | Icons | `apiKey` | Yes | Unknown |
@@ -684,7 +685,6 @@ like WhatsApp | `apiKey` | Yes | Yes |
 | [File Conversions API](https://apyhub.com/catalog/file-conversion) | APIs to handle all your file transformations. Word to PDF, Markdown to HTML, CSV to JSON, audio and many more | `apiKey` | Yes | Yes |
 | [Flowdash](https://docs.flowdash.com/docs/api-introduction) | Automate business workflows | `apiKey` | Yes | Unknown |
 | [fynk](https://fynk.com) | Generate, update, and manage contracts from your own systems with a secure and scalable REST API | `apiKey` | Yes | Yes |
-| [GetGenAI (Gen Content Review API)](https://docs.getgen.ai) | Compliance review API for product labels and marketing assets — automated checks against regulations, retailer specs, and brand guidelines, always up to date | `apiKey` | Yes | No |
 | [Html2PDF](https://html2pdf.app/) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
 | [iLovePDF](https://developer.ilovepdf.com/) | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | `apiKey` | Yes | Yes |
 | [Invoice Parsing API](https://apyhub.com/utility/sharpapi-ai-invoice-parser) | Extract structured invoice data using AI with this API. Multiple formats supported | `apiKey` | Yes | Yes |
