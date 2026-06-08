@@ -596,6 +596,15 @@
         "Category": "Art & Design"
     },
     {
+        "API": "GetGenAI (Gen Content Review API)",
+        "Description": "Compliance review API for product labels and marketing assets — automated checks against regulations, retailer specs, and brand guidelines, always up to date",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "no",
+        "Link": "https://docs.getgen.ai",
+        "Category": "Art & Design"
+    },
+    {
         "API": "Harvard Art Museums",
         "Description": "Art",
         "Auth": "apiKey",
@@ -4328,15 +4337,6 @@
         "HTTPS": true,
         "Cors": "yes",
         "Link": "https://fynk.com",
-        "Category": "Documents & Productivity"
-    },
-    {
-        "API": "GetGenAI (Gen Content Review API)",
-        "Description": "Compliance review API for product labels and marketing assets — automated checks against regulations, retailer specs, and brand guidelines, always up to date",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "no",
-        "Link": "https://docs.getgen.ai",
         "Category": "Documents & Productivity"
     },
     {
