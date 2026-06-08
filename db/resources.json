@@ -1,5 +1,5 @@
 {
-"count": 1596,
+"count": 1597,
 "entries": [
     {
         "API": "Cat Facts",
@@ -10118,12 +10118,12 @@
         "Category": "Personality"
     },
     {
-        "API": "Joke Father",
-        "Description": "Ultimate collection of dad jokes",
-        "Auth": "",
+        "API": "Human Design Hub",
+        "Description": "Human Design bodygraph, transit, compatibility, and penta calculations",
+        "Auth": "apiKey",
         "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://jokefather.com/api/jokes/random",
+        "Cors": "no",
+        "Link": "https://humandesignhub.app/en/docs",
         "Category": "Personality"
     },
     {
@@ -10142,6 +10142,15 @@
         "HTTPS": true,
         "Cors": "yes",
         "Link": "https://indian-quotes-api.vercel.app/",
+        "Category": "Personality"
+    },
+    {
+        "API": "Joke Father",
+        "Description": "Ultimate collection of dad jokes",
+        "Auth": "",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://jokefather.com/api/jokes/random",
         "Category": "Personality"
     },
     {
