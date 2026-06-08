@@ -1,5 +1,5 @@
 {
-"count": 1595,
+"count": 1596,
 "entries": [
     {
         "API": "Cat Facts",
@@ -8342,6 +8342,15 @@
         "HTTPS": true,
         "Cors": "yes",
         "Link": "https://api.whenisthenextboardexam.com/docs/",
+        "Category": "Government"
+    },
+    {
+        "API": "ProcureData",
+        "Description": "Canadian federal procurement contracts, tenders and awards",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://procuredata.ca",
         "Category": "Government"
     },
     {
