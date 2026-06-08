@@ -2000,7 +2000,7 @@ API | Description | Auth | HTTPS | CORS |
 | [openSenseMap](https://api.opensensemap.org/) | Data from Personal Weather Stations called senseBoxes | No | Yes | Yes |
 | [OpenUV](https://www.openuv.io) | Real-time UV Index Forecast | `apiKey` | Yes | Unknown |
 | [OpenWeatherMap](https://openweathermap.org/api) | Weather | `apiKey` | Yes | Unknown |
-| [Pirate Weather](https://pirateweather.net/en/latest/) | Free weather API with forecast data similar to Dark Sky | No | Yes | Yes |
+| [Pirate Weather](https://pirateweather.net/en/latest/) | Free, open-source weather forecast API powered by NOAA data | `apiKey` | Yes | Yes |
 | [QWeather](https://dev.qweather.com/en/) | Location-based weather data | `apiKey` | Yes | Yes |
 | [Rainbow Weather](https://developer.rainbow.ai/) | Global real-time nowcasting API powered by radar + satellite fusion | `apiKey` | Yes | Unknown |
 | [RainViewer](https://www.rainviewer.com/api.html) | Radar data collected from different websites across the Internet | No | Yes | Unknown |
