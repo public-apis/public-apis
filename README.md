@@ -1435,9 +1435,10 @@ like WhatsApp | `apiKey` | Yes | Yes |
 | [Dev.to](https://developers.forem.com/api) | Access Forem articles, users and other resources via API | `apiKey` | Yes | Unknown |
 | [FavQs.com](https://favqs.com/api) | FavQs allows you to collect, discover and share your favorite quotes | `apiKey` | Yes | Unknown |
 | [Forismatic](http://forismatic.com/en/api/) | Inspirational Quotes | No | No | Unknown |
-| [Joke Father](https://jokefather.com/api/jokes/random) | Ultimate collection of dad jokes | No | Yes | Unknown |
+| [Human Design Hub](https://humandesignhub.app/en/docs) | Human Design bodygraph, transit, compatibility, and penta calculations | `apiKey` | Yes | No |
 | [icanhazdadjoke](https://icanhazdadjoke.com/api) | The largest selection of dad jokes on the internet | No | Yes | Unknown |
 | [Indian Quotes](https://indian-quotes-api.vercel.app/) | Curated quotes from India's most successful entrepreneurs | No | Yes | Yes |
+| [Joke Father](https://jokefather.com/api/jokes/random) | Ultimate collection of dad jokes | No | Yes | Unknown |
 | [kanye.rest](https://kanye.rest) | REST API for random Kanye West quotes | No | Yes | Yes |
 | [kimiquotes](https://kimiquotes.pages.dev/docs) | Team radio and interview quotes by Finnish F1 legend Kimi Räikkönen | No | Yes | Yes |
 | [Medium](https://github.com/Medium/medium-api-docs) | Community of readers and writers offering unique perspectives on ideas | `OAuth`| Yes | Unknown |
