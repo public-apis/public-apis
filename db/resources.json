@@ -1,5 +1,5 @@
 {
-"count": 1597,
+"count": 1598,
 "entries": [
     {
         "API": "Cat Facts",
@@ -2888,6 +2888,15 @@
         "HTTPS": true,
         "Cors": "yes",
         "Link": "https://docs.databricks.com/dev-tools/api/latest/index.html",
+        "Category": "Development"
+    },
+    {
+        "API": "DATPAQ",
+        "Description": "Developer-first APIs. Enterprise-ready infrastructure. Sampla data, avatars, image processing and a lot more.",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://datpaq.com",
         "Category": "Development"
     },
     {
