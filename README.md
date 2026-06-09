@@ -1719,6 +1719,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TourneyRadar](https://tourneyradar-api.vercel.app) | Upcoming chess tournaments from 140+ national federations worldwide | No | Yes | Unknown |
 | [Tredict](https://www.tredict.com/blog/oauth_docs/) | Get and set activities, health data and more | `OAuth` | Yes | Unknown |
 | [Wger](https://wger.de/en/software/api) | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown |
+| [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) | World Cup 2026 fixtures with optional local-time conversion | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
