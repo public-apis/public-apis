@@ -1,5 +1,5 @@
 {
-"count": 1598,
+"count": 1599,
 "entries": [
     {
         "API": "Cat Facts",
@@ -13436,6 +13436,15 @@
         "HTTPS": true,
         "Cors": "yes",
         "Link": "https://docs.kutt.it/",
+        "Category": "URL Shorteners"
+    },
+    {
+        "API": "Linkly",
+        "Description": "URL shortener API with branded domains, click tracking, smart redirects, and webhooks",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://linklyhq.com/url-shortener-api",
         "Category": "URL Shorteners"
     },
     {
