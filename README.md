@@ -1888,6 +1888,7 @@ like WhatsApp | `apiKey` | Yes | Yes |
 | [Cutt.ly](https://cutt.ly/api-documentation/cuttly-links-api) | URL shortener service | `apiKey` | Yes | Unknown |
 | [Free Url Shortener](https://ulvis.net/developer.html) | Free URL Shortener offers a powerful API to interact with other sites | No | Yes | Unknown |
 | [Kutt](https://docs.kutt.it/) | Free Modern URL Shortener | `apiKey` | Yes | Yes |
+| [Linkly](https://linklyhq.com/url-shortener-api) | URL shortener API with branded domains, click tracking, smart redirects, and webhooks | `apiKey` | Yes | Yes |
 | [Manyapis.com](https://manyapis.com/products/short-url) | Free URL shortener API with up to 50 requests per day  | Yes | Yes | Yes |
 | [Mgnet.me](http://mgnet.me/api.html) | Torrent URL shorten API | No | Yes | No |
 | [Ogli](https://app.ogli.sh) | Generate short links like any other shortener but with custom OG/meta tags for perfect previews. Ideal for SPAs, apps, and anyone who wants control over what gets shared. | `apiKey` | Yes | Yes |
