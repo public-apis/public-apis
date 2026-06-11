@@ -1,5 +1,5 @@
 {
-"count": 1599,
+"count": 1600,
 "entries": [
     {
         "API": "Cat Facts",
@@ -5921,6 +5921,15 @@
         "HTTPS": true,
         "Cors": "unknown",
         "Link": "https://whiskyhunter.net/api/",
+        "Category": "Food & Drink"
+    },
+    {
+        "API": "Your Move - Nutrition API",
+        "Description": "A complete nutrition API. Search foods, get nutrition facts and values. Generate meal plans and look up packaged products from 180+ countries worldwide.",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://ymove.app/nutrition-api",
         "Category": "Food & Drink"
     },
     {
@@ -12260,21 +12269,21 @@
         "Category": "Sports & Fitness"
     },
     {
-        "API": "Video Exercise, Nutrition & Recipe API - ymove.app",
-        "Description": "One Workout API for: Exercise Videos, Program Generation, Nutritional info & Posture Analysis",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://ymove.app/exercise-api",
-        "Category": "Sports & Fitness"
-    },
-    {
         "API": "Wger",
         "Description": "Workout manager data as exercises, muscles or equipment",
         "Auth": "apiKey",
         "HTTPS": true,
         "Cors": "unknown",
         "Link": "https://wger.de/en/software/api",
+        "Category": "Sports & Fitness"
+    },
+    {
+        "API": "Your Move - Exercise API",
+        "Description": "The complete exercise library and fitness API for your app. 698+ professional HD exercise videos with workout generation and program builder.",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://ymove.app/exercise-api",
         "Category": "Sports & Fitness"
     },
     {
