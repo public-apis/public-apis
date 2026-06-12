@@ -1,5 +1,5 @@
 {
-"count": 1600,
+"count": 1597,
 "entries": [
     {
         "API": "Cat Facts",
@@ -13439,15 +13439,6 @@
         "Category": "URL Shorteners"
     },
     {
-        "API": "Kutt",
-        "Description": "Free Modern URL Shortener",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://docs.kutt.it/",
-        "Category": "URL Shorteners"
-    },
-    {
         "API": "Linkly",
         "Description": "URL shortener API with branded domains, click tracking, smart redirects, and webhooks",
         "Auth": "apiKey",
@@ -13463,24 +13454,6 @@
         "HTTPS": true,
         "Cors": "yes",
         "Link": "https://manyapis.com/products/short-url",
-        "Category": "URL Shorteners"
-    },
-    {
-        "API": "Mgnet.me",
-        "Description": "Torrent URL shorten API",
-        "Auth": "",
-        "HTTPS": true,
-        "Cors": "no",
-        "Link": "http://mgnet.me/api.html",
-        "Category": "URL Shorteners"
-    },
-    {
-        "API": "Ogli",
-        "Description": "Generate short links like any other shortener but with custom OG/meta tags for perfect previews. Ideal for SPAs, apps, and anyone who wants control over what gets shared.",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://app.ogli.sh",
         "Category": "URL Shorteners"
     },
     {
