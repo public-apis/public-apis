@@ -793,6 +793,8 @@ API | Description | Auth | HTTPS | CORS |
 | [BriefTape](https://brieftape.com) | Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged | `apiKey` | Yes | Yes |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | All Citigroup account and statement data APIs | `apiKey` | Yes | Unknown | |
 | [CongressInvests](https://congressinvests.com) | Real-time U.S. congressional stock trade disclosures from Senate EFD and House Clerk | `apiKey` | Yes | Yes | |
+| [DPX Intelligence API](https://intelligence.untitledfinancial.com) | 15 paid intelligence endpoints — macro stress, climate, G10/EM currency stress, supply chain, energy, ESG, sovereign debt, water risk, network topology, nature risk, financial shock cascades | `apiKey` | Yes | Yes |
+| [DPX Stability Oracle](https://stability.untitledfinancial.com) | Real-time stablecoin stability scoring across macro, climate, FX, geopolitical, on-chain, and basket signals | No | Yes | Yes |
 | [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes | |
 | [EconPulse](https://econpulse.io) | Live economic data — CPI, PPI, energy, treasury rates, BTC premium | `apiKey` | Yes | Yes |
 | [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | U.S. Department of the Treasury Data | No | Yes | Unknown | |
