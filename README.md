@@ -85,6 +85,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Patent](#patent)
 * [Personality](#personality)
 * [Phone](#phone)
+* [Podcast](#podcast)
 * [Photography](#photography)
 * [Programming](#programming)
 * [Science & Math](#science--math)
@@ -1470,6 +1471,14 @@ API | Description | Auth | HTTPS | CORS |
 | [Phone Validation](https://www.abstractapi.com/phone-validation-api) | Validate phone numbers globally | `apiKey` | Yes | Yes |
 | [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
 | [VeriRoute Intel](https://verirouteintel.com) | CNAM caller ID, carrier/LRN lookup and spam scoring for North American phone numbers | `apiKey` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+### Podcast
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|  
+| [ZenMic](https://zemic.com/docs) | AI Podcast generator | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
