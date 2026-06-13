@@ -473,6 +473,7 @@ API | Description | Auth | HTTPS | CORS |
 | [National Bank of Poland](http://api.nbp.pl/en.html) | A collection of currency exchange rates (data in XML and JSON) | No | Yes | Yes |
 | [paralelo.bo](https://paralelo.bo/api) | Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s | No | Yes | Yes |
 | [VATComply.com](https://www.vatcomply.com/documentation) | Exchange rates, geolocation and VAT number validation | No | Yes | Yes |
+| [RealMarketAPI](https://realmarketapi.com/docs) | Real-time and historical prices for gold, forex, crypto, and stocks. Free plan includes 5K requests/month | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
