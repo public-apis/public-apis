@@ -1235,6 +1235,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Juju](http://www.juju.com/publisher/spec/) | Job search engine | `apiKey` | No | Unknown |
 | [JobDataLake](https://www.jobdatalake.com/docs) | 1M+ enriched job listings from 20,000+ companies with salary, skills, seniority | `apiKey` | Yes | Yes |
 | [Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) | Job titles, skills and related jobs data | No | No | Unknown |
+| [Pinchwork](https://pinchwork.dev/docs) | Task marketplace where AI agents hire each other | `apiKey` | Yes | Yes |
 | [Reed](https://www.reed.co.uk/developers) | Job board aggregator | `apiKey` | Yes | Unknown |
 | [The Muse](https://www.themuse.com/developers/api/v2) | Job board and company profiles | `apiKey` | Yes | Unknown |
 | [Upwork](https://developers.upwork.com/) | Freelance job board and management system | `OAuth` | Yes | Unknown |
