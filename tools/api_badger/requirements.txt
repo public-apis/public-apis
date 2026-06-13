@@ -1,0 +1,4 @@
+click>=8.0.0
+markdown>=3.4.0
+jinja2>=3.0.0
+flask>=2.0.0
