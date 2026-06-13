@@ -100,6 +100,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
+* [Web Scrappers/Crawlers](#web-scrapperscrawlers)
 <br >
 
 ### Animals
@@ -2024,6 +2025,14 @@ API | Description | Auth | HTTPS | CORS |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
 | [wttr.in](https://wttr.in/:help) | Weather in your terminal, supports JSON output | No | Yes | Yes |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+### Web Scrappers/Crawlers
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [dataminer.site](https://dataminer.site/) | Get access to free and powerfull web crawler | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
