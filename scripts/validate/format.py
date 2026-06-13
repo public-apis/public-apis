@@ -24,9 +24,9 @@ num_segments = 5
 min_entries_per_category = 3
 max_description_length = 100
 
-anchor_re = re.compile(anchor + '\s(.+)')
-category_title_in_index_re = re.compile('\*\s\[(.*)\]')
-link_re = re.compile('\[(.+)\]\((http.*)\)')
+anchor_re = re.compile(anchor + r'\s(.+)')
+category_title_in_index_re = re.compile(r'\*\s\[(.*)\]')
+link_re = re.compile(r'\[(.+)\]\((http.*)\)')
 
 # Type aliases
 APIList = List[str]
@@ -43,6 +43,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
     categories = {}
     category_line_num = {}
+    category = None
 
     for line_num, line_content in enumerate(contents):
 
@@ -52,7 +53,10 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
             category_line_num[category] = line_num
             continue
 
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if not line_content.startswith('|') or line_content.startswith('|---') or line_content.startswith('|:'):
+            continue
+
+        if category is None:
             continue
 
         raw_title = [
@@ -200,6 +204,7 @@ def check_file_format(lines: List[str]) -> List[str]:
     num_in_category = min_entries_per_category + 1
     category = ''
     category_line = 0
+    first_category_found = False
 
     for line_num, line_content in enumerate(lines):
 
@@ -209,6 +214,7 @@ def check_file_format(lines: List[str]) -> List[str]:
 
         # check each category for the minimum number of entries
         if line_content.startswith(anchor):
+            first_category_found = True
             category_match = anchor_re.match(line_content)
             if category_match:
                 if category_match.group(1) not in category_title_in_index:
@@ -228,7 +234,7 @@ def check_file_format(lines: List[str]) -> List[str]:
             continue
 
         # skips lines that we do not care about
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if not first_category_found or not line_content.startswith('|') or line_content.startswith('|---') or line_content.startswith('|:'):
             continue
 
         num_in_category += 1
@@ -236,6 +242,10 @@ def check_file_format(lines: List[str]) -> List[str]:
         if len(segments) < num_segments:
             err_msg = error_message(line_num, f'entry does not have all the required columns (have {len(segments)}, need {num_segments})')
             err_msgs.append(err_msg)
+            continue
+
+        if segments[0].strip() == 'API':
+            num_in_category -= 1
             continue
     
         for segment in segments:
