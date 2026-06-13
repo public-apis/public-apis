@@ -2033,3 +2033,10 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+
+## Contributors
+
+<!-- Added my name as a contributor -->
+- Gopal Chetri 💻 – First open source contribution made on July 7, 2025
+
