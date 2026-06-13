@@ -24,6 +24,7 @@ class TestValidateLinks(unittest.TestCase):
             'https://www.example.com',
             'https://www.example.com',
             'https://www.anotherexample.com',
+            # added a comment
         ]
         self.no_duplicate_links = [
             'https://www.firstexample.com',
