@@ -596,12 +596,12 @@
         "Category": "Art & Design"
     },
     {
-        "API": "GetGenAI (Gen Content Review API)",
+        "API": "GetGenAI (Packaging Compliance Review)",
         "Description": "Compliance review API for product labels and marketing assets — automated checks against regulations, retailer specs, and brand guidelines, always up to date",
         "Auth": "apiKey",
         "HTTPS": true,
         "Cors": "no",
-        "Link": "https://docs.getgen.ai",
+        "Link": "https://www.getgen.ai/build",
         "Category": "Art & Design"
     },
     {
