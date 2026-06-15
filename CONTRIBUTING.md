@@ -1,100 +1,102 @@
-# Contributing to public-apis
+# Contributing
 
-> While the masses of pull requests and community involvement are appreciated, some pull requests have been specifically
-opened to market company APIs that offer paid solutions. This API list is not a marketing tool, but a tool to help the
-community build applications and use free, public APIs quickly and easily. Pull requests that are identified as marketing attempts will not be accepted.
->
-> Please make sure the API you want to add has full, free access or at least a free tier and does not depend on the purchase of a device/service before submitting.  An example that would be rejected is an API that is used to control a smart outlet - the API is free, but you must purchase the smart device.
->
-> Thanks for understanding! :)
+## Format
 
-## Formatting
+所有 glibc API 条目统一使用以下 **5 列** Markdown 表格格式：
 
-Current API entry format:
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| `[function_name](https://man7.org/linux/man-pages/man3/function_name.3.html)` | `<header.h>` | 简短描述（英文，不超过 150 字符） | 标准版本 | Yes / No |
 
-| API | Description | Auth | HTTPS | CORS | Call this API |
-| --- | --- | --- | --- | --- | --- |
-| API Title(Link to API documentation) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * | [Does this API have a public Postman Collection?](https://learning.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) | 
+## Column Guide
 
-Example entry:
+### 1. Function
+
+函数名，需链接到 man7 手册页。格式：
+- `[function](https://man7.org/linux/man-pages/man[section]/[function].[section].html)`
+- section 通常为 2（系统调用）或 3（库函数）
+
+### 2. Header
+
+函数所在头文件，用反引号和尖括号包围。例如：
+- `<stdio.h>`
+- `<stdlib.h>`
+- `<pthread.h>`
+
+### 3. Description
+
+简短英文描述，建议不超过 150 字符，首字母大写，不用句号结尾。
+
+**示例：**
+- `Open a file and associate a stream with it`
+- `Compute the sine of an angle`
+
+### 4. Standard
+
+标注函数遵循的标准。常见值：
+- `C89` - C 标准 1989
+- `C99` - C 标准 1999
+- `POSIX.1-2001` - POSIX 标准 2001
+- `POSIX.1-2008` - POSIX 标准 2008
+- `BSD` - BSD 扩展
+- `SVID` - System V 接口定义
+- `GNU` - GNU 扩展
+- `Linux` - Linux 特定
+- `POSIX.1-2001, C89` - 多个标准用逗号分隔
+
+### 5. MT-Safe
+
+线程安全标注。值只能是 `Yes` 或 `No`。
+- `Yes` - 多线程安全（MT-Safe / MT-Safe locale 等）
+- `No` - 存在竞争条件（例如 `tmpnam`, `strtok`, `rand` 等）
+
+## Table Structure
+
+每个模块使用二级标题 `## Module Name (headers...)`，模块内使用三级标题 `### Subsection` 组织不同功能组。表格前必须有一行表头：
 
 ```
-| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes | [Run in Postman Button]
+### Sub Section
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [func](...) | `<header.h>` | Description | Standard | Yes |
 ```
 
-\* Currently, the only accepted inputs for the `Auth` field are as follows:
+模块之间使用 `<br>` 和 `---` 分隔。
 
-* `OAuth` - _the API supports OAuth_
-* `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
-* `X-Mashape-Key` - _the name of the header which may need to be sent_
-* `No` - _the API requires no authentication to run_
-* `User-Agent` - _the name of the header to be sent with requests to the API_
+## Alphabetical Order
 
-\* Currently, the only accepted inputs for the `CORS` field are as follows:
+每个小节内的函数按名称字母顺序排列（严格按 ASCII 顺序）。
 
-* `Yes` - _the API supports CORS_
-* `No` - _the API does not support CORS_
-* `Unknown` - _it is unknown if the API supports CORS_
-
-\* For the Call this API column, add a link to a Postman collection. You may need to [create a collection](https://learning.postman.com/docs/getting-started/first-steps/creating-the-first-collection/) to create a Run in Postman Button. 
-
-
-_Without proper [CORS configuration](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) an API will only be usable server side._
-
-After you've created a branch on your fork with your changes, it's time to [make a pull request][pr-link]. 
-
-
-*Please follow the guidelines given below while making a Pull Request to the Public APIs*
+例如：
+```
+fclose -> feof -> fflush -> fgetc -> fgetpos -> fgets -> ...
+```
 
 ## Pull Request Guidelines
 
-* Never put an update/new version of an API that is already listed, the old version of the API gets deprecated.
-* Continue to follow the alphabetical ordering that is in place per section.
-* Each table column should be padded with one space on either side.
-* The Description should not exceed 100 characters.
-* If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
-* Add one link per Pull Request.
-* Make sure the PR title is in the format of `Add Api-name API` *for e.g.*: `Add Blockchain API`
-* Use a short descriptive commit message. *for e.g.*: ❌`Update Readme.md`  ✔ `Add Blockchain API to Cryptocurrency`
-* Search previous Pull Requests or Issues before making a new one, as yours may be a duplicate.
-* Don't mention the TLD(Top Level Domain) in the name of the API. *for e.g.*: ❌Gmail.com ✔Gmail
-* Please make sure the API name does not end with `API`. *for e.g.*: ❌Gmail API ✔Gmail 
-* Please make sure the API has proper documentation.
-* Please make sure you squash all commits together before opening a pull request. If your pull request requires changes upon review, please be sure to squash all additional commits as well. [This wiki page][squash-link] outlines the squash process.
-* Target your Pull Request to the `master` branch of the `public-apis`
+- 每个 PR 只添加一个模块或一组相关函数
+- 确保格式严格遵循 5 列表格
+- 按字母顺序添加新条目
+- Description 使用英文，简洁明了
+- 确保表格分隔符行有 5 个 `---`
 
-Once you’ve submitted a pull request, the collaborators can review your proposed changes and decide whether or not to incorporate (pull in) your changes.
+## Header Reference
 
-### Pull Request Pro Tips
-
-* [Fork][fork-link] the repository and [clone][clone-link] it locally.
-Connect your local repository to the original `upstream` repository by adding it as a [remote][remote-link].
-Pull in changes from `upstream` often so that you stay up to date and so when you submit your pull request,
-merge conflicts will be less likely. See more detailed instructions [here][syncing-link].
-* Create a [branch][branch-link] for your edits.
-* Contribute in the style of the project as outlined above. This makes it easier for the collaborators to merge
-and for others to understand and maintain in the future.
-
-### Open Pull Requests
-
-Once you’ve opened a pull request, a discussion will start around your proposed changes.
-
-Other contributors and users may chime in, but ultimately the decision is made by the collaborators.
-
-During the discussion, you may be asked to make some changes to your pull request.
-
-If so, add more commits to your branch and push them – they will automatically go into the existing pull request. But don't forget to squash them.
-
-Opening a pull request will trigger a build to check the validity of all links in the project. After the build completes, **please ensure that the build has passed**. If the build did not pass, please view the build logs and correct any errors that were found in your contribution. 
-
-*Thanks for being a part of this project, and we look forward to hearing from you soon!*
-
-[branch-link]: <http://guides.github.com/introduction/flow/>
-[clone-link]: <https://help.github.com/articles/cloning-a-repository/>
-[fork-link]: <http://guides.github.com/activities/forking/>
-[oauth-link]: <https://en.wikipedia.org/wiki/OAuth>
-[pr-link]: <https://help.github.com/articles/creating-a-pull-request/>
-[remote-link]: <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
-[syncing-link]: <https://help.github.com/articles/syncing-a-fork>
-[squash-link]: <https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit>
-
+常用头文件列表供参考：
+- `<stdio.h>` - 标准 I/O
+- `<stdlib.h>` - 通用工具
+- `<string.h>` - 字符串操作
+- `<math.h>` - 数学函数
+- `<time.h>` - 时间和日期
+- `<pthread.h>` - 线程
+- `<unistd.h>` - POSIX 系统调用
+- `<sys/stat.h>` - 文件状态
+- `<errno.h>` - 错误码
+- `<signal.h>` - 信号
+- `<locale.h>` - 本地化
+- `<regex.h>` - 正则表达式
+- `<dlfcn.h>` - 动态链接
+- `<wchar.h>` - 宽字符
+- `<complex.h>` - 复数数学
+- `<search.h>` - 搜索/排序

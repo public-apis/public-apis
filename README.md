@@ -1,2035 +1,1432 @@
-# Try Public APIs for free
-The Public APIs repository is manually curated by community members like you and folks working at [APILayer](https://apilayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo). It includes an extensive list of public APIs from many domains that you can use for your own products. Consider it a treasure trove of APIs well-managed by the community over the years.
+# glibc — 公共 API 索引
+
+> 以 **glibc (GNU C Library)** 为根本的公共 API 索引。本仓库手工维护，按照功能模块分类，列出 C 库提供的核心函数、头文件与线程安全属性，供系统编程时快速查阅。
+
+> 本项目以 [public-apis](https://github.com/public-apis/public-apis) 项目的文档格式规范为参考。所有 API 条目统一以 **5 列表格**呈现：**Function | Header | Description | Standard | MT-Safe**。
 
 <br >
 
-<p>
-    <a href="https://apilayer.com">
-        <div>
-            <img src=".github/cs1586-APILayerLogoUpdate2022-LJ_v2-HighRes.png" width="100%" alt="APILayer Logo" />
-        </div>
-    </a>
-  </p>
-
-APILayer is the fastest way to integrate APIs into any product. Explore [APILayer APIs](https://apilayer.com/products/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo) here for your next project.
-
-Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo) to get updates, ask questions, get answers, random community calls, and more.
-
-<br >
-
-## APILayer APIs
-| API | Description | Call this API |
-|:---|:---|:---|
-| [IPstack](https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Locate and Identify Website Visitors by IP Address | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/10131015-55145132-244c-448c-8e6f-8780866e4862?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D10131015-55145132-244c-448c-8e6f-8780866e4862%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)|
-| [Marketstack](https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Free, easy-to-use REST API interface delivering worldwide stock market data in JSON format | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/10131015-9cbac391-3611-4f50-9bfd-d24ae41c97c1?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D10131015-9cbac391-3611-4f50-9bfd-d24ae41c97c1%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)|
-| [Weatherstack](https://weatherstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Retrieve instant, accurate weather information for any location in the world in lightweight JSON format | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/10131015-276c4312-f682-425d-b6b1-0f82c0a7f2b3?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D10131015-276c4312-f682-425d-b6b1-0f82c0a7f2b3%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)|
-| [Numverify](https://numverify.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers ) | Global Phone Number Validation & Lookup JSON API |[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/10131015-0760d25e-b802-412e-b0e4-26e5ca3b9ffa?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D10131015-0760d25e-b802-412e-b0e4-26e5ca3b9ffa%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)|
-| [Fixer](https://fixer.io/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Fixer is a simple and lightweight API for current and historical foreign exchange (forex) rates. |[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/10131015-0d9c66b3-5f1a-42ed-a5ca-379217bd629d?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D10131015-0d9c66b3-5f1a-42ed-a5ca-379217bd629d%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)|
-| [Aviationstack](https://aviationstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Free, real-time flight status and global Aviation data API |[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/10131015-72ee0d35-018e-4370-a2b6-a66d3ebd5b5a?action=collection/fork)|
-| [Zenserp](https://zenserp.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Fast, Accurate Google Search Data Built for Developers |[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/10131015-a3d63243-081e-4961-a2f0-39c7a9394b8d?action=collection/fork)|
-| [Filestack](https://www.filestack.com/signup-start/) | Powerful API to upload, transform & deliver any file into your app |[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](www.postman.com/filestack-wolfpack/filestack/overview?sideView=agentMode)|
-| [Screenshotlayer](https://screenshotlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Capture highly customizable screenshots of any website |[Documentation](https://docs.apilayer.com/screenshotlayer/docs/api-documentation?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers)|
-| [Exchangerate Host](https://exchangerate.host/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-time current and historical foreign exchange and crypto rates |[Documentation](https://docs.apilayer.com/Exchangerate/docs/api-documentation?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers)|
-| [Mailboxlayer](https://mailboxlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Email Validation & Verification JSON API for Developers |[Documentation](https://docs.apilayer.com/mailboxlayer/docs/api-documentation?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers)|
-
-
-<br >
-
-## Learn more about Public APIs
-
-<strong>Get Involved</strong>
-
-* [Contributing Guide](CONTRIBUTING.md)
-* [API for this project](https://github.com/davemachado/public-api)
-* [Issues](https://github.com/public-apis/public-apis/issues)
-* [Pull Requests](https://github.com/public-apis/public-apis/pulls)
-* [LICENSE](LICENSE) 
-
-<br />
+---
 
 ## Index
 
-* [Animals](#animals)
-* [Anime](#anime)
-* [Anti-Malware](#anti-malware)
-* [Art & Design](#art--design)
-* [Authentication & Authorization](#authentication--authorization)
-* [Blockchain](#blockchain)
-* [Books](#books)
-* [Business](#business)
-* [Calendar](#calendar)
-* [Cloud Storage & File Sharing](#cloud-storage--file-sharing)
-* [Continuous Integration](#continuous-integration)
-* [Cryptocurrency](#cryptocurrency)
-* [Currency Exchange](#currency-exchange)
-* [Data Validation](#data-validation)
-* [Development](#development)
-* [Dictionaries](#dictionaries)
-* [Documents & Productivity](#documents--productivity)
-* [Email](#email)
-* [Entertainment](#entertainment)
-* [Environment](#environment)
-* [Events](#events)
-* [Finance](#finance)
-* [Food & Drink](#food--drink)
-* [Games & Comics](#games--comics)
-* [Geocoding](#geocoding)
-* [Government](#government)
-* [Health](#health)
-* [Jobs](#jobs)
-* [Machine Learning](#machine-learning)
-* [Music](#music)
-* [News](#news)
-* [Open Data](#open-data)
-* [Open Source Projects](#open-source-projects)
-* [Patent](#patent)
-* [Personality](#personality)
-* [Phone](#phone)
-* [Photography](#photography)
-* [Programming](#programming)
-* [Science & Math](#science--math)
-* [Security](#security)
-* [Shopping](#shopping)
-* [Social](#social)
-* [Sports & Fitness](#sports--fitness)
-* [Test Data](#test-data)
-* [Text Analysis](#text-analysis)
-* [Tracking](#tracking)
-* [Transportation](#transportation)
-* [URL Shorteners](#url-shorteners)
-* [Vehicle](#vehicle)
-* [Video](#video)
-* [Weather](#weather)
+* [Standard I/O (stdio.h)](#standard-io-stdioh)
+* [Character & String (string.h, ctype.h)](#character--string-stringh-ctypeh)
+* [Memory Management (stdlib.h, sys/mman.h)](#memory-management-stdlibh-sysmmanh)
+* [Math Library (math.h)](#math-library-mathh)
+* [Time & Date (time.h, sys/time.h)](#time--date-timeh-systimeh)
+* [File System (unistd.h, sys/stat.h, fcntl.h, dirent.h)](#file-system-unistdh-sysstath-fcntlh-direnth)
+* [Process Control (unistd.h, sys/wait.h)](#process-control-unistdh-syswaith)
+* [Signal Handling (signal.h)](#signal-handling-signalh)
+* [Environment & System Info (unistd.h, sys/utsname.h)](#environment--system-info-unistdh-sysutsnameh)
+* [Error Handling (errno.h)](#error-handling-errnoh)
+* [Locale & Internationalization (locale.h, libintl.h, iconv.h)](#locale--internationalization-localeh-libintlh-iconvh)
+* [Regular Expressions (regex.h)](#regular-expressions-regexh)
+* [Dynamic Linking (dlfcn.h)](#dynamic-linking-dlfcn-h)
+* [Threading (pthread.h)](#threading-pthreadh)
+* [Synchronization Primitives](#synchronization-primitives)
+* [Networking & Sockets (sys/socket.h, netinet/in.h, arpa/inet.h, netdb.h)](#networking--sockets-syssocketh-netinetinh-arpaineth-netdbh)
+* [Wide Character & Multibyte (wchar.h, wctype.h)](#wide-character--multibyte-wcharh-wctypeh)
+* [Complex Math (complex.h)](#complex-math-complexh)
+* [Searching & Sorting (stdlib.h, search.h)](#searching--sorting-stdlibh-searchh)
+* [Random Numbers (stdlib.h)](#random-numbers-stdlibh)
+
 <br >
 
-### Animals
-API | Description | Auth | HTTPS | CORS 
-|:---|:---|:---|:---|:---|
-| [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
-| [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
-| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No | |
-| [Cat Facts](https://catfact.ninja/) | Random cat facts | No | Yes | Yes |
-| [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
-| [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | No |
-| [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Yes |
-| [Dog Facts](https://kinduff.github.io/dog-api/) | Random facts of Dogs | No | Yes | Yes |
-| [Dogs](https://dog.ceo/dog-api/) | Based on the Stanford Dogs Dataset | No | Yes | Yes |
-| [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59) | Retrieve recent or notable birding observations within a region | `apiKey` | Yes | No |
-| [FishWatch](https://www.fishwatch.gov/developers) | Information and pictures about individual fish species | No | Yes | Yes |
-| [HTTP Cat](https://http.cat/) | Cat for every HTTP Status | No | Yes | Yes |
-| [HTTP Dog](https://http.dog/) | Dogs for every HTTP response status code | No | Yes | Yes |
-| [IUCN](http://apiv3.iucnredlist.org/api/v3/docs) | IUCN Red List of Threatened Species | `apiKey` | No | No |
-| [MeowFacts](https://github.com/wh-iterabb-it/meowfacts) | Get random cat facts | No | Yes | No |
-| [Movebank](https://github.com/movebank/movebank-api-doc) | Movement and Migration data of animals | No | Yes | Yes |
-| [Petfinder](https://www.petfinder.com/developers/) | Petfinder is dedicated to helping pets find homes, another resource to get pets adopted | `apiKey` | Yes | Yes |
-| [PlaceBear](https://placebear.com/) | Placeholder bear pictures | No | Yes | Yes |
-| [PlaceDog](https://place.dog) | Placeholder Dog pictures | No | Yes | Yes |
-| [PlaceKitten](https://placekitten.com/) | Placeholder Kitten pictures | No | Yes | Yes |
-| [RandomDog](https://random.dog/woof.json) | Random pictures of dogs | No | Yes | Yes |
-| [RandomDuck](https://random-d.uk/api) | Random pictures of ducks | No | Yes | No |
-| [RandomFox](https://randomfox.ca/floof/) | Random pictures of foxes | No | Yes | No |
-| [RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) | Adoption | No | Yes | Unknown |
-| [Shibe.Online](http://shibe.online/) | Random pictures of Shiba Inu, cats or birds | No | Yes | Yes |
-| [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
-| [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
+---
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
+## Standard I/O (stdio.h)
 
-### Anime
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [AniAPI](https://aniapi.com/docs/) | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | Yes |
-| [AniDB](https://wiki.anidb.net/HTTP_API_Definition) | Anime Database | `apiKey` | No | Unknown |
-| [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
-| [AnimeChan](https://github.com/RocktimSaikia/anime-chan) | Anime quotes (over 10k+) | No | Yes | No |
-| [AnimeFacts](https://chandan-02.github.io/anime-facts-rest-api/) | Anime Facts (over 100+) | No | Yes | Yes |
-| [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) | Anime industry news | No | Yes | Yes |
-| [Catboy](https://catboys.com/api) | Neko images, funny GIFs & more | No | Yes | Yes |
-| [Danbooru Anime](https://danbooru.donmai.us/wiki_pages/help:api) | Thousands of anime artist database to find good anime art | `apiKey` | Yes | Yes |
-| [Jikan](https://jikan.moe) | Unofficial MyAnimeList API | No | Yes | Yes |
-| [Kitsu](https://kitsu.docs.apiary.io/) | Anime discovery platform | `OAuth` | Yes | Yes |
-| [MangaDex](https://api.mangadex.org/docs.html) | Manga Database and Community | `apiKey` | Yes | Unknown |
-| [Mangapi](https://rapidapi.com/pierre.carcellermeunier/api/mangapi3/) | Translate manga pages from one language to another | `apiKey` | Yes | Unknown |
-| [MyAnimeList](https://myanimelist.net/clubs.php?cid=13727) | Anime and Manga Database and Community | `OAuth` | Yes | Unknown |
-| [NekosBest](https://docs.nekos.best) | Neko Images & Anime roleplaying GIFs | No | Yes | Yes |
-| [Shikimori](https://shikimori.one/api/doc) | Anime discovery, tracking, forum, rates | `OAuth` | Yes | Unknown |
-| [Studio Ghibli](https://ghibliapi.herokuapp.com) | Resources from Studio Ghibli films | No | Yes | Yes |
-| [Trace Moe](https://soruly.github.io/trace.moe-api/#/) | A useful tool to get the exact scene of an anime from a screenshot | No | Yes | Yes |
-| [Waifu.im](https://waifu.im/docs) | Get waifu pictures from an archive of over 4000 images and multiple tags | No | Yes | Yes |
-| [Waifu.pics](https://waifu.pics/docs) | Image sharing platform for anime images | No | Yes | No |
+### Stream Open/Close
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [fopen](https://man7.org/linux/man-pages/man3/fopen.3.html) | `<stdio.h>` | Open a file and associate a stream with it | POSIX.1-2001, C89 | Yes |
+| [freopen](https://man7.org/linux/man-pages/man3/freopen.3.html) | `<stdio.h>` | Open the file whose name is the string pointed to by pathname and associates the stream pointed to by stream with it | POSIX.1-2001, C89 | Yes |
+| [fdopen](https://man7.org/linux/man-pages/man3/fdopen.3.html) | `<stdio.h>` | Associate a stream with an existing file descriptor | POSIX.1-2001, POSIX.1-2008 | Yes |
+| [fclose](https://man7.org/linux/man-pages/man3/fclose.3.html) | `<stdio.h>` | Flush and close a stream | POSIX.1-2001, C89 | Yes |
+| [fileno](https://man7.org/linux/man-pages/man3/fileno.3.html) | `<stdio.h>` | Examine the argument stream and return its integer file descriptor | POSIX.1-2001, POSIX.1-2008 | Yes |
 
-### Anti-Malware
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [AbuseIPDB](https://docs.abuseipdb.com/) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
-| [AlienVault Open Threat Exchange (OTX)](https://otx.alienvault.com/api) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
-| [CAPEsandbox](https://capev2.readthedocs.io/en/latest/usage/api.html) | Malware execution and analysis | `apiKey` | Yes | Unknown |
-| [Google Safe Browsing](https://developers.google.com/safe-browsing/) | Google Link/Domain Flagging | `apiKey` | Yes | Unknown |
-| [MalDatabase](https://maldatabase.com/api-doc.html) | Provide malware datasets and threat intelligence feeds | `apiKey` | Yes | Unknown |
-| [MalShare](https://malshare.com/doc.php) | Malware Archive / file sourcing | `apiKey` | Yes | No |
-| [MalwareBazaar](https://bazaar.abuse.ch/api/) | Collect and share malware samples | `apiKey` | Yes | Unknown |
-| [Metacert](https://metacert.com/) | Metacert Link Flagging | `apiKey` | Yes | Unknown |
-| [NoPhishy](https://rapidapi.com/Amiichu/api/exerra-phishing-check/) | Check links to see if they're known phishing attempts | `apiKey` | Yes | Yes |
-| [Phisherman](https://phisherman.gg/) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
-| [Scanii](https://docs.scanii.com/) | Simple REST API that can scan submitted documents/files for the presence of threats | `apiKey` | Yes | Yes |
-| [URLhaus](https://urlhaus-api.abuse.ch/) | Bulk queries and Download Malware Samples | No | Yes | Yes |
-| [URLScan.io](https://urlscan.io/about-api/) | Scan and Analyse URLs | `apiKey` | Yes | Unknown |
-| [VirusTotal](https://docs.virustotal.com/reference/overview) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
-| [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/domain/URL reputation | `apiKey` | Yes | Unknown | 
+### Formatted I/O
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Art & Design
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Améthyste](https://api.amethyste.moe/) | Generate images for Discord users | `apiKey` | Yes | Unknown |
-| [Art Institute of Chicago](https://api.artic.edu/docs/) | Art | No | Yes | Yes |
-| [Colormind](http://colormind.io/api-access/) | Color scheme generator | No | No | Unknown |
-| [ColourLovers](http://www.colourlovers.com/api) | Get various patterns, palettes and images | No | No | Unknown |
-| [Cooper Hewitt](https://collection.cooperhewitt.org/api) | Smithsonian Design Museum | `apiKey` | Yes | Unknown |
-| [Dribbble](https://developer.dribbble.com) | Discover the world’s top designers & creatives | `OAuth` | Yes | Unknown |
-| [DummyImage](https://dummyimage.com/) | Generate placeholder images with custom size, colors and text | No | Yes | Unknown |
-| [EmojiHub](https://github.com/cheatsnake/emojihub) | Get emojis by categories and groups | No | Yes | Yes |
-| [Europeana](https://pro.europeana.eu/resources/apis/search) | European Museum and Galleries content | `apiKey` | Yes | Unknown |
-| [Harvard Art Museums](https://github.com/harvardartmuseums/api-docs) | Art | `apiKey` | No | Unknown |
-| [Icon Horse](https://icon.horse) | Favicons for any website, with fallbacks | No | Yes | Yes |
-| [Iconfinder](https://developer.iconfinder.com) | Icons | `apiKey` | Yes | Unknown |
-| [Icons8](https://img.icons8.com/) | Icons (find "search icon" hyperlink in page) | No | Yes | Unknown |
-| [Lordicon](https://lordicon.com/) | Icons with predone Animations | No | Yes | Yes |
-| [Metropolitan Museum of Art](https://metmuseum.github.io/) | Met Museum of Art | No | Yes | No |
-| [Noun Project](http://api.thenounproject.com/index.html) | Icons | `OAuth` | No | Unknown |
-| [PHP-Noise](https://php-noise.com/) | Noise Background Image Generator | No | Yes | Yes |
-| [Pixel Encounter](https://pixelencounter.com/api) | SVG Icon Generator | No | Yes | No |
-| [Rijksmuseum](https://data.rijksmuseum.nl/object-metadata/api/) | RijksMuseum Data | `apiKey` | Yes | Unknown |
-| [UpRes](https://upres.ai/docs/api) | AI image upscaling to 8K with 18 models (Real-ESRGAN, SeedVR2, AuraSR) | `apiKey` | Yes | Yes |
-| [Word Cloud](https://wordcloudapi.com/) | Easily create word clouds | `apiKey` | Yes | Unknown |
-| [xColors](https://x-colors.herokuapp.com/) | Generate & convert colors | No | Yes | Yes |
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [printf](https://man7.org/linux/man-pages/man3/printf.3.html) | `<stdio.h>` | Write formatted output to stdout | POSIX.1-2001, C89 | Yes |
+| [fprintf](https://man7.org/linux/man-pages/man3/fprintf.3.html) | `<stdio.h>` | Write formatted output to the given stream | POSIX.1-2001, C89 | Yes |
+| [sprintf](https://man7.org/linux/man-pages/man3/sprintf.3.html) | `<stdio.h>` | Write formatted output to a character array | POSIX.1-2001, C89 | Yes |
+| [snprintf](https://man7.org/linux/man-pages/man3/snprintf.3.html) | `<stdio.h>` | Write formatted output to a character array with size limit | POSIX.1-2001, C99 | Yes |
+| [scanf](https://man7.org/linux/man-pages/man3/scanf.3.html) | `<stdio.h>` | Read formatted input from stdin | POSIX.1-2001, C89 | Yes |
+| [fscanf](https://man7.org/linux/man-pages/man3/fscanf.3.html) | `<stdio.h>` | Read formatted input from the given stream | POSIX.1-2001, C89 | Yes |
+| [sscanf](https://man7.org/linux/man-pages/man3/sscanf.3.html) | `<stdio.h>` | Read formatted input from a character array | POSIX.1-2001, C89 | Yes |
+| [vprintf](https://man7.org/linux/man-pages/man3/vprintf.3.html) | `<stdio.h>` | Equivalent to printf with variable argument list | POSIX.1-2001, C89 | Yes |
+| [vfprintf](https://man7.org/linux/man-pages/man3/vfprintf.3.html) | `<stdio.h>` | Equivalent to fprintf with variable argument list | POSIX.1-2001, C89 | Yes |
+| [vsprintf](https://man7.org/linux/man-pages/man3/vsprintf.3.html) | `<stdio.h>` | Equivalent to sprintf with variable argument list | POSIX.1-2001, C89 | Yes |
+| [vsnprintf](https://man7.org/linux/man-pages/man3/vsnprintf.3.html) | `<stdio.h>` | Equivalent to snprintf with variable argument list | POSIX.1-2001, C99 | Yes |
+| [perror](https://man7.org/linux/man-pages/man3/perror.3.html) | `<stdio.h>` | Print a message describing the error code in errno | POSIX.1-2001, C89 | Yes |
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Authentication & Authorization
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Auth0](https://auth0.com) | Easy to implement, adaptable authentication and authorization platform | `apiKey` | Yes | Yes |
-| [GetOTP](https://otp.dev/en/docs/) | Implement OTP flow quickly | `apiKey` | Yes | No |
-| [Micro User Service](https://m3o.com/user) | User management and authentication | `apiKey` | Yes | No |
-| [MojoAuth](https://mojoauth.com) | Secure and modern passwordless authentication platform | `apiKey` | Yes | Yes |
-| [SAWO Labs](https://sawolabs.com) | Simplify login and improve user experience by integrating passwordless authentication in your app | `apiKey` | Yes | Yes |
-| [Stytch](https://stytch.com/) | User infrastructure for modern applications | `apiKey` | Yes | No |
-| [Warrant](https://warrant.dev/) | APIs for authorization and access control | `apiKey` | Yes | Yes |
+### Character & String I/O
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Blockchain
-| API | Description | Auth | HTTPS | CORS |
-|---|:---|:---|:---|:---|
-| [Bitquery](https://graphql.bitquery.io/ide) | Onchain GraphQL APIs & DEX APIs | `apiKey` | Yes | Yes |
-| [Blockscout](https://dev.blockscout.com/) | Multichain block explorer REST API (with Etherscan-compatible JSON-RPC) | `apiKey` | Yes | No |
-| [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
-| [Chainpoint](https://tierion.com/chainpoint/) | Chainpoint is a global network for anchoring data to the Bitcoin blockchain | No | Yes | Unknown |
-| [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
-| [Etherscan](https://etherscan.io/apis) | Ethereum explorer API | `apiKey` | Yes | Yes |
-| [Helium](https://docs.helium.com/api/blockchain/introduction/) | Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage | No | Yes | Unknown |
-| [Nownodes](https://nownodes.io/) | Blockchain-as-a-service solution that provides high-quality connection via API | `apiKey` | Yes | Unknown |
-| [Steem](https://developers.steem.io/) | Blockchain-based blogging and social media website | No | No | No |
-| [TWZRD Agent Intel](https://intel.twzrd.xyz) | Solana on-chain agent trust scoring via MCP; 4 free tools to score, resolve and verify AI agent wallets | No | Yes | Yes |
-| [The Graph](https://thegraph.com) | Indexing protocol for querying networks like Ethereum with GraphQL | `apiKey` | Yes | Unknown |
-| [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
-| [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [fgetc](https://man7.org/linux/man-pages/man3/fgetc.3.html) | `<stdio.h>` | Read the next character from stream and return it as unsigned char cast to int | POSIX.1-2001, C89 | Yes |
+| [getc](https://man7.org/linux/man-pages/man3/getc.3.html) | `<stdio.h>` | Equivalent to fgetc except that it may be implemented as a macro | POSIX.1-2001, C89 | Yes |
+| [getchar](https://man7.org/linux/man-pages/man3/getchar.3.html) | `<stdio.h>` | Equivalent to getc(stdin) | POSIX.1-2001, C89 | Yes |
+| [ungetc](https://man7.org/linux/man-pages/man3/ungetc.3.html) | `<stdio.h>` | Push c back to stream, cast to unsigned char, where it is available for subsequent read operations | POSIX.1-2001, C89 | Yes |
+| [fputc](https://man7.org/linux/man-pages/man3/fputc.3.html) | `<stdio.h>` | Write the character c, cast to unsigned char, to stream | POSIX.1-2001, C89 | Yes |
+| [putc](https://man7.org/linux/man-pages/man3/putc.3.html) | `<stdio.h>` | Equivalent to fputc except that it may be implemented as a macro | POSIX.1-2001, C89 | Yes |
+| [putchar](https://man7.org/linux/man-pages/man3/putchar.3.html) | `<stdio.h>` | Equivalent to putc(c, stdout) | POSIX.1-2001, C89 | Yes |
+| [fgets](https://man7.org/linux/man-pages/man3/fgets.3.html) | `<stdio.h>` | Read in at most one less than size characters from stream | POSIX.1-2001, C89 | Yes |
+| [fputs](https://man7.org/linux/man-pages/man3/fputs.3.html) | `<stdio.h>` | Write the string s to stream, without its terminating null byte | POSIX.1-2001, C89 | Yes |
+| [gets](https://man7.org/linux/man-pages/man3/gets.3.html) | `<stdio.h>` | Read a line from stdin into the buffer pointed to by s until either a terminating newline or EOF, which it replaces with a null byte | POSIX.1-2001 (removed in C11) | Yes |
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Books
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [A Bíblia Digital](https://www.abibliadigital.com.br/en) | Do not worry about managing the multiple versions of the Bible | `apiKey` | Yes | No |
-| [Amanah Sunnah](https://sunnah.amanahagent.cloud/developers) | Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators | `apiKey` | Yes | Yes |
-| [Bhagavad Gita](https://docs.bhagavadgitaapi.in) | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | `apiKey` | Yes | Yes |
-| [Bhagavad Gita](https://bhagavadgita.io/api) | Bhagavad Gita text | `OAuth` | Yes | Yes |
-| [Bhagavad Gita telugu](https://gita-api.vercel.app) | Bhagavad Gita API in telugu and odia languages | No | Yes | Yes |
-| [Bible-api](https://bible-api.com/) | Free Bible API with multiple languages | No | Yes | Yes |
-| [British National Bibliography](http://bnb.data.bl.uk/) | Books | No | No | Unknown |
-| [Crossref Metadata Search](https://github.com/CrossRef/rest-api-doc) | Books & Articles Metadata | No | Yes | Unknown |
-| [Ganjoor](https://api.ganjoor.net) | Classic Persian poetry works including access to related manuscripts, recitations and music tracks | `OAuth` | Yes | Yes |
-| [Google Books](https://developers.google.com/books/) | Books | `OAuth` | Yes | Unknown |
-| [GurbaniNow](https://github.com/GurbaniNow/api) | Fast and Accurate Gurbani RESTful API | No | Yes | Unknown |
-| [Gutendex](https://gutendex.com/) | Web-API for fetching data from Project Gutenberg Books Library | No | Yes | Unknown |
-| [KDP Intelligence](https://kdp-intelligence-api.vercel.app/docs) | KDP niche demand scores, competition analysis and revenue estimates | No | Yes | Yes |
-| [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | Yes | No |
-| [Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/) | Books, book covers and related data | No | Yes | Yes |
-| [PoetryDB](https://github.com/thundercomb/poetrydb#readme) | Enables you to get instant data from our vast poetry collection | No | Yes | Yes |
-| [Quran](https://quran.api-docs.io/) | RESTful Quran API with multiple languages | No | Yes | Yes |
-| [Quran Cloud](https://alquran.cloud/api) | A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran | No | Yes | Yes |
-| [Quran-api](https://github.com/fawazahmed0/quran-api#readme) | Free Quran API Service with 90+ different languages and 400+ translations | No | Yes | Yes |
-| [Rig Veda](https://aninditabasu.github.io/indica/html/rv.html) | Gods and poets, their categories, and the verse meters, with the mandal and sukta number | No | Yes | Unknown |
-| [Runyankole Bible](https://runyankole-bible-api.vercel.app) | Free REST API for the Runyankore-Rukiga Bible — 66 books, 31106 verses | No | Yes | Yes |
-| [The Bible](https://docs.api.bible) | Everything you need from the Bible in one discoverable place | `apiKey` | Yes | Unknown |
-| [Thirukkural](https://api-thirukkural.web.app/) | 1330 Thirukkural poems and explanation in Tamil and English | No | Yes | Yes |
-| [Urantia Papers](https://urantia.dev) | Full-text + semantic search across the Urantia Papers, with audio narration, entities, translations | No | Yes | Yes |
-| [Vedic Society](https://aninditabasu.github.io/indica/html/vs.html) | Descriptions of all nouns (names, places, animals, things) from vedic literature | No | Yes | Unknown |
-| [Wizard World](https://wizard-world-api.herokuapp.com/swagger/index.html) | Get information from the Harry Potter universe | No | Yes | Yes |
-| [Wolne Lektury](https://wolnelektury.pl/api/) | API for obtaining information about e-books available on the WolneLektury.pl website | No | Yes | Unknown |
+### Binary I/O
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Business
-API | Description | Auth | HTTPS | CORS |
-|---|:---|:---|:---|:---|
-| [Apache Superset](https://superset.apache.org/docs/api) | API to manage your BI dashboards and data sources on Superset | `apiKey` | Yes | Yes |
-| [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
-| [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | `apiKey` | Yes | Unknown |
-| [Domainsdb.info](https://domainsdb.info/) | Registered Domain Names Search | No | Yes | No |
-| [Freelancer](https://developers.freelancer.com) | Hire freelancers to get work done | `OAuth` | Yes | Unknown |
-| [Gmail](https://developers.google.com/gmail/api/) | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | Unknown |
-| [Google Analytics](https://developers.google.com/analytics/) | Collect, configure and analyze your data to reach the right audience | `OAuth` | Yes | Unknown |
-| [Instatus](https://instatus.com/help/api) | Post to and update maintenance and incidents on your status page through an HTTP REST API | `apiKey` | Yes | Unknown |
-| [Invovate](https://invovate.com/api) | Generate PDF, JSON & UBL invoices in 11 languages from one JSON POST | `apiKey` | Yes | No |
-| [Mailchimp](https://mailchimp.com/developer/) | Send marketing campaigns and transactional mails | `apiKey` | Yes | Unknown |
-| [mailjet](https://www.mailjet.com/) | Marketing email can be sent and mail templates made in MJML or HTML can be sent using API | `apiKey` | Yes | Unknown |
-| [markerapi](https://markerapi.com) | Trademark Search | No | No | Unknown |
-| [ORB Intelligence](https://api.orb-intelligence.com/docs/) | Company lookup | `apiKey` | Yes | Unknown |
-| [Pick an Agency](https://www.pickanagency.com/developers) | Search 47,000+ marketing agencies by service, location and rating | No | Yes | Yes |
-| [Redash](https://redash.io/help/user-guide/integrations-and-api/api) | Access your queries and dashboards on Redash | `apiKey` | Yes | Yes |
-| [Signaliz](https://signaliz.docs.buildwithfern.com/signaliz-api-public-docs/introduction) | GTM enrichment, lead generation, email verification, and company signals | `apiKey` | Yes | Unknown |
-| [Smartsheet](https://smartsheet.redoc.ly/) | Allows you to programmatically access and Smartsheet data and account information | `OAuth` | Yes | No |
-| [Square](https://developer.squareup.com/reference/square) | Easy way to take payments, manage refunds, and help customers checkout online | `OAuth` | Yes | Unknown |
-| [SwiftKanban](https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi) | Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity | `apiKey` | Yes | Unknown |
-| [Tenders in Hungary](https://tenders.guru/hu/api) | Get data for procurements in Hungary in JSON format | No | Yes | Unknown |
-| [Tenders in Poland](https://tenders.guru/pl/api) | Get data for procurements in Poland in JSON format | No | Yes | Unknown |
-| [Tenders in Romania](https://tenders.guru/ro/api) | Get data for procurements in Romania in JSON format | No | Yes | Unknown |
-| [Tenders in Spain](https://tenders.guru/es/api) | Get data for procurements in Spain in JSON format | No | Yes | Unknown |
-| [Tenders in Ukraine](https://tenders.guru/ua/api) | Get data for procurements in Ukraine in JSON format | No | Yes | Unknown |
-| [Tomba email finder](https://tomba.io/api) | Email Finder for B2B sales and email marketing and email verifier | `apiKey` | Yes | Yes |
-| [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [fread](https://man7.org/linux/man-pages/man3/fread.3.html) | `<stdio.h>` | Read nmemb items of data, each size bytes long, from the stream pointed to by stream | POSIX.1-2001, C89 | Yes |
+| [fwrite](https://man7.org/linux/man-pages/man3/fwrite.3.html) | `<stdio.h>` | Write nmemb items of data, each size bytes long, to the stream pointed to by stream | POSIX.1-2001, C89 | Yes |
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Calendar
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [caldays](https://caldays.com/api) | Public holidays for 195+ countries | No | Yes | Yes |
-| [Calendarific](https://calendarific.com/) | Worldwide Holidays | `apiKey` | Yes | Unknown |
-| [Checkiday - National Holiday](https://apilayer.com/marketplace/checkiday-api) | Industry-leading holiday data with over 5,000 holidays and thousands of descriptions | `apiKey` | Yes | Unknown |
-| [Church Calendar](http://calapi.inadiutorium.cz/) | Catholic liturgical calendar | No | No | Unknown |
-| [Czech Namedays Calendar](https://svatky.adresa.info) | Lookup for a name and returns nameday date | No | No | Unknown |
-| [Festivo Public Holidays](https://docs.getfestivo.com/docs/products/public-holidays-api/intro) | Fastest and most advanced public holiday and observance service on the market | `apiKey` | Yes | Yes |
-| [Google Calendar](https://developers.google.com/google-apps/calendar/) | Display, create and modify Google calendar events | `OAuth` | Yes | Unknown |
-| [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) | Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc | No | No | Unknown |
-| [Holidays](https://holidayapi.com/) | Historical data regarding holidays | `apiKey` | Yes | Unknown |
-| [LectServe](http://www.lectserve.com) | Protestant liturgical calendar | No | No | Unknown |
-| [Nager.Date](https://date.nager.at) | Public holidays for more than 90 countries | No | Yes | No |
-| [Namedays Calendar](https://nameday.abalin.net) | Provides namedays for multiple countries | No | Yes | Yes |
-| [Non-Working Days](https://github.com/gadael/icsdb) | Database of ICS files for non working days | No | Yes | Unknown |
-| [Non-Working Days](https://isdayoff.ru) | Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other | No | Yes | Yes |
-| [Public Holidays](https://www.abstractapi.com/holidays-api) | Data on national, regional, and religious holidays via API | `apiKey` | Yes | Yes |
-| [Russian Calendar](https://github.com/egno/work-calendar) | Check if a date is a Russian holiday or not | No | Yes | No |
-| [The Calendar](https://the-calendar.net/api/) | Public holidays for US states and 30 countries plus sports and finance calendars as static JSON | No | Yes | Yes |
-| [UK Bank Holidays](https://www.gov.uk/bank-holidays.json) | Bank holidays in England and Wales, Scotland and Northern Ireland | No | Yes | Unknown |
+### File Positioning
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Cloud Storage & File Sharing
-API | Description | Auth | HTTPS | CORS |
-|---|:---|:---|:---|:---|
-| [Box](https://developer.box.com/) | File Sharing and Storage | `OAuth` | Yes | Unknown | |
-| [ddownload](https://ddownload.com/api) | File Sharing and Storage | `apiKey` | Yes | Unknown | |
-| [Dropbox](https://www.dropbox.com/developers) | File Sharing and Storage | `OAuth` | Yes | Unknown | |
-| [File.io](https://www.file.io) | Super simple file sharing, convenient, anonymous and secure | No | Yes | Unknown | |
-| [Filestack](https://www.filestack.com) | Filestack File Uploader & File Upload API | `apiKey` | Yes | Unknown |
-| [FileUp](https://github.com/RealSinaSnp/FileUp) | Temporary file hosting with upload API, expiration times, and view limits | No | Yes | Unknown |
-| [GoFile](https://gofile.io/api) | Unlimited size file uploads for free | `apiKey` | Yes | Unknown | |
-| [Google Drive](https://developers.google.com/drive/) | File Sharing and Storage | `OAuth` | Yes | Unknown | |
-| [Gyazo](https://gyazo.com/api/docs) | Save & Share screen captures instantly | `apiKey` | Yes | Unknown | |
-| [Imgbb](https://api.imgbb.com/) | Simple and quick private image sharing | `apiKey` | Yes | Unknown | |
-| [OneDrive](https://developer.microsoft.com/onedrive) | File Sharing and Storage | `OAuth` | Yes | Unknown | |
-| [Pantry](https://getpantry.cloud/) | Free JSON storage for small projects | No | Yes | Yes | |
-| [Pastebin](https://pastebin.com/doc_api) | Plain Text Storage | `apiKey` | Yes | Unknown | |
-| [Pinata](https://docs.pinata.cloud/) | IPFS Pinning Services API | `apiKey` | Yes | Unknown | |
-| [Quip](https://quip.com/dev/automation/documentation) | File Sharing and Storage for groups | `apiKey` | Yes | Yes | |
-| [Storj](https://docs.storj.io/dcs/) | Decentralized Open-Source Cloud Storage | `apiKey` | Yes | Unknown | |
-| [The Null Pointer](https://0x0.st) | No-bullshit file hosting and URL shortening service | No | Yes | Unknown | |
-| [Web3 Storage](https://web3.storage/) | File Sharing and Storage for Free with 1TB Space | `apiKey` | Yes | Yes | |
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [fseek](https://man7.org/linux/man-pages/man3/fseek.3.html) | `<stdio.h>` | Set the file position indicator for the stream pointed to by stream | POSIX.1-2001, C89 | Yes |
+| [ftell](https://man7.org/linux/man-pages/man3/ftell.3.html) | `<stdio.h>` | Obtain the current value of the file position indicator for the stream | POSIX.1-2001, C89 | Yes |
+| [fsetpos](https://man7.org/linux/man-pages/man3/fsetpos.3.html) | `<stdio.h>` | Set the file position indicator for the stream to value of fpos_t | POSIX.1-2001, C89 | Yes |
+| [fgetpos](https://man7.org/linux/man-pages/man3/fgetpos.3.html) | `<stdio.h>` | Store the current value of the file position indicator | POSIX.1-2001, C89 | Yes |
+| [rewind](https://man7.org/linux/man-pages/man3/rewind.3.html) | `<stdio.h>` | Move the file position to the beginning of the file | POSIX.1-2001, C89 | Yes |
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Continuous Integration
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Azure DevOps Health](https://docs.microsoft.com/en-us/rest/api/resourcehealth) | Resource health helps you diagnose and get support when an Azure issue impacts your resources | `apiKey` | No | No |
-| [Bitrise](https://api-docs.bitrise.io/) | Build tool and processes integrations to create efficient development pipelines | `apiKey` | Yes | Unknown |
-| [Buddy](https://buddy.works/docs/api/getting-started/overview) | The fastest continuous integration and continuous delivery platform | `OAuth` | Yes | Unknown |
-| [CircleCI](https://circleci.com/docs/api/v1-reference/) | Automate the software development process using continuous integration and continuous delivery | `apiKey` | Yes | Unknown |
-| [Codeship](https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/) | Codeship is a Continuous Integration Platform in the cloud | `apiKey` | Yes | Unknown |
-| [Travis CI](https://docs.travis-ci.com/api/) | Sync your GitHub projects with Travis CI to test your code in minutes | `apiKey` | Yes | Unknown |
+### Stream Buffering
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Cryptocurrency
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Coinlayer](https://coinlayer.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-time Crypto Currency Exchange Rates | `apiKey` | Yes | Unknown |
-| [0x](https://0x.org/api) | API for querying token and pool stats across various liquidity pools | No | Yes | Yes |
-| [1inch](https://1inch.io/api/) | API for querying decentralize exchange | No | Yes | Unknown |
-| [Alchemy Ethereum](https://docs.alchemy.com/alchemy/) | Ethereum Node-as-a-Service Provider | `apiKey` | Yes | Yes |
-| [Alpha (Mossland)](https://alpha.moss.land/developers) | Korean crypto channel stance + RAG Q&A + canonical entity/topic/event store | No | Yes | Yes |
-| [Binance](https://github.com/binance/binance-spot-api-docs) | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown |
-| [Bitcambio](https://nova.bitcambio.com.br/api/v3/docs#a-public) | Get the list of all traded assets in the exchange | No | Yes | Unknown |
-| [BitcoinAverage](https://apiv2.bitcoinaverage.com/) | Digital Asset Price Data for the blockchain industry | `apiKey` | Yes | Unknown |
-| [BitcoinCharts](https://bitcoincharts.com/about/exchanges/) | Financial and Technical Data related to the Bitcoin Network | No | Yes | Unknown |
-| [Bitfinex](https://docs.bitfinex.com/docs) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
-| [Bitmex](https://www.bitmex.com/app/apiOverview) | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown |
-| [Bittrex](https://bittrex.github.io/api/v3) | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown |
-| [Block](https://block.io/docs/basic) | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown |
-| [Blockchain](https://www.blockchain.com/api) | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown |
-| [blockfrost Cardano](https://blockfrost.io/) | Interaction with the Cardano mainnet and several testnets | `apiKey` | Yes | Unknown |
-| [Brave NewCoin](https://bravenewcoin.com/developers) | Real-time and historic crypto data from more than 200+ exchanges | `apiKey` | Yes | Unknown |
-| [BtcTurk](https://docs.btcturk.com/) | Real-time cryptocurrency data, graphs and API that allows buy&sell | `apiKey` | Yes | Yes |
-| [Bybit](https://bybit-exchange.github.io/docs/linear/#t-introduction) | Cryptocurrency data feed and algorithmic trading | `apiKey` | Yes | Unknown |
-| [CoinAPI](https://docs.coinapi.io/) | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No |
-| [Coinbase](https://developers.coinbase.com) | Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown |
-| [Coinbase Pro](https://docs.pro.coinbase.com/#api) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
-| [CoinCap](https://docs.coincap.io/) | Real time Cryptocurrency prices through a RESTful API | No | Yes | Unknown |
-| [CoinDCX](https://docs.coindcx.com/) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
-| [CoinDesk](https://old.coindesk.com/coindesk-api/) | CoinDesk's Bitcoin Price Index (BPI) in multiple currencies | No | Yes | Unknown |
-| [CoinGecko](http://www.coingecko.com/api) | Cryptocurrency Price, Market, and Developer/Social Data | No | Yes | Yes |
-| [Coinigy](https://coinigy.docs.apiary.io) | Interacting with Coinigy Accounts and Exchange Directly | `apiKey` | Yes | Unknown |
-| [Coinlib](https://coinlib.io/apidocs) | Crypto Currency Prices | `apiKey` | Yes | Unknown |
-| [Coinlore](https://www.coinlore.com/cryptocurrency-data-api) | Cryptocurrencies prices, volume and more | No | Yes | Unknown |
-| [CoinMarketCap](https://coinmarketcap.com/api/) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
-| [Coinpaprika](https://api.coinpaprika.com) | Cryptocurrencies prices, volume and more | No | Yes | Yes |
-| [CoinRanking](https://developers.coinranking.com/api/documentation) | Live Cryptocurrency data | `apiKey` | Yes | Unknown |
-| [Coinremitter](https://coinremitter.com/docs) | Cryptocurrencies Payment & Prices | `apiKey` | Yes | Unknown |
-| [CoinStats](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest) | Crypto Tracker | No | Yes | Unknown |
-| [CryptAPI](https://docs.cryptapi.io/) | Cryptocurrency Payment Processor | No | Yes | Unknown |
-| [CryptingUp](https://www.cryptingup.com/apidoc/#introduction) | Cryptocurrency data | No | Yes | Unknown |
-| [CryptoCompare](https://www.cryptocompare.com/api#) | Cryptocurrencies Comparison | No | Yes | Unknown |
-| [CryptoMarket](https://api.exchange.cryptomkt.com/) | Cryptocurrencies Trading platform | `apiKey` | Yes | Yes |
-| [Cryptonator](https://www.cryptonator.com/api/) | Cryptocurrencies Exchange Rates | No | Yes | Unknown |
-| [dYdX](https://docs.dydx.exchange/) | Decentralized cryptocurrency exchange | `apiKey` | Yes | Unknown |
-| [Ethplorer](https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API) | Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures | `apiKey` | Yes | Unknown |
-| [EXMO](https://documenter.getpostman.com/view/10287440/SzYXWKPi) | Cryptocurrencies exchange based in UK | `apiKey` | Yes | Unknown |
-| [Gateio](https://www.gate.io/api2) | API provides spot, margin and futures trading operations | `apiKey` | Yes | Unknown |
-| [Gemini](https://docs.gemini.com/rest-api/) | Cryptocurrencies Exchange | No | Yes | Unknown |
-| [Hirak Exchange Rates](https://rates.hirak.site/) | Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits | `apiKey` | Yes | Unknown |
-| [Huobi](https://huobiapi.github.io/docs/spot/v1/en/) | Seychelles based cryptocurrency exchange | `apiKey` | Yes | Unknown |
-| [Hyperliquid Market Data](https://rapidapi.com/theliminalguy/api/hyperliquid-market-data-oi-funding-open-interest) | Hyperliquid open interest, funding and cross-venue predicted rates per coin | `apiKey` | Yes | Yes |
-| [icy.tools](https://developers.icy.tools/) | GraphQL based NFT API | `apiKey` | Yes | Unknown |
-| [Indodax](https://github.com/btcid/indodax-official-api-docs) | Trade your Bitcoin and other assets with rupiah | `apiKey` | Yes | Unknown |
-| [INFURA Ethereum](https://infura.io/product/ethereum) | Interaction with the Ethereum mainnet and several testnets | `apiKey` | Yes | Yes |
-| [Kraken](https://docs.kraken.com/rest/) | Cryptocurrencies Exchange | `apiKey` | Yes | Unknown |
-| [KuCoin](https://docs.kucoin.com/) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
-| [Localbitcoins](https://localbitcoins.com/api-docs/) | P2P platform to buy and sell Bitcoins | No | Yes | Unknown |
-| [Mempool](https://mempool.space/api) | Bitcoin API Service focusing on the transaction fee | No | Yes | No |
-| [MercadoBitcoin](https://www.mercadobitcoin.com.br/api-doc/) | Brazilian Cryptocurrency Information | No | Yes | Unknown |
-| [Messari](https://messari.io/api) | Provides API endpoints for thousands of crypto assets | No | Yes | Unknown |
-| [Nexchange](https://nexchange2.docs.apiary.io/) | Automated cryptocurrency exchange service | No | No | Yes |
-| [Nomics](https://nomics.com/docs/) | Historical and realtime cryptocurrency prices and market data | `apiKey` | Yes | Yes |
-| [NovaDax](https://doc.novadax.com/en-US/#introduction) | NovaDAX API to access all market data, trading management endpoints | `apiKey` | Yes | Unknown |
-| [OKEx](https://www.okex.com/docs/) | Cryptocurrency exchange based in Seychelles | `apiKey` | Yes | Unknown |
-| [Poloniex](https://docs.poloniex.com) | US based digital asset exchange | `apiKey` | Yes | Unknown |
-| [PumpFunData](https://pumpfundata.com/docs) | Historical Pump.fun and PumpSwap AMM swap data as hourly Parquet files | `apiKey` | Yes | Unknown |
-| [Solana JSON RPC](https://docs.solana.com/developing/clients/jsonrpc-api) | Provides various endpoints to interact with the Solana Blockchain | No | Yes | Unknown |
-| [Technical Analysis](https://technical-analysis-api.com) | Cryptocurrency prices and technical analysis | `apiKey` | Yes | No |
-| [VALR](https://docs.valr.com/) | Cryptocurrency Exchange based in South Africa | `apiKey` | Yes | Unknown |
-| [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
-| [ZMOK](https://zmok.io) | Ethereum JSON RPC API and Web3 provider | No | Yes | Unknown |
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [fflush](https://man7.org/linux/man-pages/man3/fflush.3.html) | `<stdio.h>` | Flush a stream; if NULL make sure all pending writes complete | POSIX.1-2001, C89 | Yes |
+| [setvbuf](https://man7.org/linux/man-pages/man3/setvbuf.3.html) | `<stdio.h>` | Set the buffering mode and optionally the buffer size for a stream | POSIX.1-2001, C89 | Yes |
+| [setbuf](https://man7.org/linux/man-pages/man3/setbuf.3.html) | `<stdio.h>` | Set the buffer to be used for I/O operations on the stream | POSIX.1-2001, C89 | Yes |
+| [setbuffer](https://man7.org/linux/man-pages/man3/setbuffer.3.html) | `<stdio.h>` | Set the buffer to be used for a stream (BSD) | BSD, SVID | Yes |
+| [setlinebuf](https://man7.org/linux/man-pages/man3/setlinebuf.3.html) | `<stdio.h>` | Set line buffering for stream | 4.2BSD, SVID | Yes |
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Currency Exchange
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Currencylayer](https://currencylayer.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Exchange rates and currency conversion | `apiKey` | Yes | Unknown |
-| [Exchangerate.host](https://exchangerate.host?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Free foreign exchange & crypto rates API | No | Yes | Unknown |
-| [Exchangeratesapi.io](https://exchangeratesapi.io?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Exchange rates with currency conversion | `apiKey` | Yes | Yes |
-| [Fixer](https://fixer.io?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Exchange rates and currency conversion | `apiKey` | No | Unknown |
-| [1Forge](https://1forge.com/forex-data-api/api-documentation) | Forex currency market data | `apiKey` | Yes | Unknown |
-| [Amdoren](https://www.amdoren.com/currency-api/) | Free currency API with over 150 currencies | `apiKey` | Yes | Unknown |
-| [Bank of Russia](https://www.cbr.ru/development/SXML/) | Exchange rates and currency conversion | No | Yes | Unknown |
-| [Currency-api](https://github.com/fawazahmed0/currency-api#readme) | Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits | No | Yes | Yes |
-| [CurrencyFreaks](https://currencyfreaks.com/) | Provides current and historical currency exchange rates with free plan 1K requests/month | `apiKey` | Yes | Yes |
-| [CurrencyScoop](https://currencyscoop.com/api-documentation) | Real-time and historical currency rates JSON API | `apiKey` | Yes | Yes |
-| [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | A collection of exchange rates | No | Yes | Unknown |
-| [Economia.Awesome](https://docs.awesomeapi.com.br/api-de-moedas) | Portuguese free currency prices and conversion with no rate limits | No | Yes | Unknown |
-| [ExchangeRate-API](https://www.exchangerate-api.com) | Free currency conversion | `apiKey` | Yes | Yes |
-| [Frankfurter](https://www.frankfurter.app/docs) | Exchange rates, currency conversion and time series | No | Yes | Yes |
-| [FreeForexAPI](https://freeforexapi.com/Home/Api) | Real-time foreign exchange rates for major currency pairs | No | Yes | No |
-| [National Bank of Poland](http://api.nbp.pl/en.html) | A collection of currency exchange rates (data in XML and JSON) | No | Yes | Yes |
-| [paralelo.bo](https://paralelo.bo/api) | Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s | No | Yes | Yes |
-| [VATComply.com](https://www.vatcomply.com/documentation) | Exchange rates, geolocation and VAT number validation | No | Yes | Yes |
+### File Operations
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Data Validation
-API | Description | Auth | HTTPS | CORS |
-|---|:---|:---|:---|:---|
-| [VATlayer](https://vatlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | VAT number validation | `apiKey` | Yes | Unknown | |
-| [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown | |
-| [Postman Echo](https://www.postman-echo.com) | Test api server to receive and return value from HTTP method | No | Yes | Unknown | |
-| [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown | |
-| [US Autocomplete](https://www.smarty.com/docs/cloud/us-autocomplete-pro-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes | |
-| [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes | |
-| [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes | |
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [remove](https://man7.org/linux/man-pages/man3/remove.3.html) | `<stdio.h>` | Delete a name and possibly the file it refers to | POSIX.1-2001, C89 | Yes |
+| [rename](https://man7.org/linux/man-pages/man3/rename.2.html) | `<stdio.h>` | Change the name or location of a file | POSIX.1-2001, C89 | Yes |
+| [tmpfile](https://man7.org/linux/man-pages/man3/tmpfile.3.html) | `<stdio.h>` | Create a temporary file in binary read/write (w+b) mode | POSIX.1-2001, C89 | Yes |
+| [tmpnam](https://man7.org/linux/man-pages/man3/tmpnam.3.html) | `<stdio.h>` | Return a pointer to a string that is a valid filename | POSIX.1-2001, C89 | No (race:tmpnam) |
+| [tempnam](https://man7.org/linux/man-pages/man3/tempnam.3.html) | `<stdio.h>` | Return a pointer to a string that is a valid filename, in directory dir if non-NULL | POSIX.1-2001 | Yes |
+| [mkstemp](https://man7.org/linux/man-pages/man3/mkstemp.3.html) | `<stdlib.h>` | Create a unique temporary file from template | POSIX.1-2001, 4.3BSD | Yes |
+| [mkdtemp](https://man7.org/linux/man-pages/man3/mkdtemp.3.html) | `<stdlib.h>` | Create a unique temporary directory from template | POSIX.1-2008 | Yes |
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Development
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Userstack](https://userstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Secure User-Agent String Lookup JSON API | `OAuth` | Yes | Unknown |
-| [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
-| [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
-| [Amazonscraperapi](https://amazonscraperapi.com) | Amazon product, search & batch scraping API with residential proxies (1000 free) | `apiKey` | Yes | No |
-| [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | Yes | Unknown |
-| [ApicAgent](https://www.apicagent.com) | Extract device details from user-agent string | No | Yes | Yes |
-| [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
-| [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown |
-| [Azure DevOps](https://docs.microsoft.com/en-us/rest/api/azure/devops) | The Azure DevOps basic components of a REST API request/response pair | `apiKey` | Yes | Unknown |
-| [Base](https://www.base-api.io/) | Building quick backends | `apiKey` | Yes | Yes |
-| [Beeceptor](https://beeceptor.com/) | Build a mock Rest API endpoint in seconds | No | Yes | Yes |
-| [Bitbucket](https://developer.atlassian.com/bitbucket/api/2/reference/) | Bitbucket API | `OAuth` | Yes | Unknown |
-| [Blague.xyz](https://blague.xyz/) | La plus grande API de Blagues FR/The biggest FR jokes API | `apiKey` | Yes | Yes |
-| [Blitapp](https://blitapp.com/api/) | Schedule screenshots of web pages and sync them to your cloud | `apiKey` | Yes | Unknown |
-| [Blynk-Cloud](https://blynkapi.docs.apiary.io/#) | Control IoT Devices from Blynk IoT Cloud | `apiKey` | No | Unknown |
-| [Bored](https://www.boredapi.com/) | Find random activities to fight boredom | No | Yes | Unknown |
-| [Brainshop.ai](https://brainshop.ai/) | Make A Free A.I Brain | `apiKey` | Yes | Yes |
-| [BrewPage](https://brewpage.app) | Free hosting for HTML, JSON, key-value, files, multi-file sites with short URLs and TTL retention | No | Yes | No |
-| [Browshot](https://browshot.com/api/documentation) | Easily make screenshots of web pages in any screen size, as any device | `apiKey` | Yes | Yes |
-| [CDNJS](https://api.cdnjs.com/libraries/jquery) | Library info on CDNJS | No | Yes | Unknown |
-| [Changelogs.md](https://changelogs.md) | Structured changelog metadata from open source projects | No | Yes | Unknown |
-| [Ciprand](https://github.com/polarspetroll/ciprand) | Secure random string generator | No | Yes | No |
-| [Cloudflare Trace](https://github.com/fawazahmed0/cloudflare-trace-api) | Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More | No | Yes | Yes |
-| [Codex](https://github.com/Jaagrav/CodeX) | Online Compiler for Various Languages | No | Yes | Unknown |
-| [Contentful Images](https://www.contentful.com/developers/docs/references/images-api/) | Used to retrieve and apply transformations to images | `apiKey` | Yes | Yes |
-| [CORS Proxy](https://github.com/burhanuday/cors-proxy) | Get around the dreaded CORS error by using this proxy as a middle man | No | Yes | Yes |
-| [CountAPI](https://countapi.xyz) | Free and simple counting service. You can use it to track page hits and specific events | No | Yes | Yes |
-| [Databricks](https://docs.databricks.com/dev-tools/api/latest/index.html) | Service to manage your databricks account,clusters, notebooks, jobs and workspaces | `apiKey` | Yes | Yes |
-| [DigitalOcean Status](https://status.digitalocean.com/api) | Status of all DigitalOcean services | No | Yes | Unknown |
-| [Docker Hub](https://docs.docker.com/docker-hub/api/latest/) | Interact with Docker Hub | `apiKey` | Yes | Yes |
-| [DomainDb Info](https://api.domainsdb.info/) | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown |
-| [DownStatus](https://isitdownstatus.com) | Real-time status for GitHub, AWS, Discord and 90+ services | No | Yes | Yes |
-| [ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html) | A simple JSON store API | No | Yes | Yes |
-| [GeekFlare](https://apidocs.geekflare.com/docs/geekflare-api) | Provide numerous capabilities for important testing and monitoring methods for websites | `apiKey` | Yes | Unknown |
-| [Genderize.io](https://genderize.io) | Estimates a gender from a first name | No | Yes | Yes |
-| [GETPing](https://www.getping.info) | Trigger an email notification with a simple GET request | `apiKey` | Yes | Unknown |
-| [Ghost](https://ghost.org/) | Get Published content into your Website, App or other embedded media | `apiKey` | Yes | Yes |
-| [GitHub](https://docs.github.com/en/free-pro-team@latest/rest) | Make use of GitHub repositories, code and user info programmatically | `OAuth` | Yes | Yes |
-| [Gitlab](https://docs.gitlab.com/ee/api/) | Automate GitLab interaction programmatically | `OAuth` | Yes | Unknown |
-| [Gitter](https://developer.gitter.im/docs/welcome) | Chat for Developers | `OAuth` | Yes | Unknown |
-| [Glitterly](https://developers.glitterly.app) | Image generation API | `apiKey` | Yes | Yes |
-| [Google Docs](https://developers.google.com/docs/api/reference/rest) | API to read, write, and format Google Docs documents | `OAuth` | Yes | Unknown |
-| [Google Firebase](https://firebase.google.com/docs) | Google's mobile application development platform that helps build, improve, and grow app | `apiKey` | Yes | Yes |
-| [Google Fonts](https://developers.google.com/fonts/docs/developer_api) | Metadata for all families served by Google Fonts | `apiKey` | Yes | Unknown |
-| [Google Keep](https://developers.google.com/keep/api/reference/rest) | API to read, write, and format Google Keep notes | `OAuth` | Yes | Unknown |
-| [Google Sheets](https://developers.google.com/sheets/api/reference/rest) | API to read, write, and format Google Sheets data | `OAuth` | Yes | Unknown |
-| [Google Slides](https://developers.google.com/slides/api/reference/rest) | API to read, write, and format Google Slides presentations | `OAuth` | Yes | Unknown |
-| [Gorest](https://gorest.co.in/) | Online REST API for Testing and Prototyping | `OAuth` | Yes | Unknown |
-| [Hasura](https://hasura.io/opensource/) | GraphQL and REST API Engine with built in Authorization | `apiKey` | Yes | Yes |
-| [Heroku](https://devcenter.heroku.com/articles/platform-api-reference/) | REST API to programmatically create apps, provision add-ons and perform other task on Heroku | `OAuth` | Yes | Yes |
-| [host-t.com](https://host-t.com) | Basic DNS query via HTTP GET request | No | Yes | No |
-| [Host.io](https://host.io) | Domains Data API for Developers | `apiKey` | Yes | Yes |
-| [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown |
-| [Httpbin](https://httpbin.org/) | A Simple HTTP Request & Response Service | No | Yes | Yes |
-| [Httpbin Cloudflare](https://cloudflare-quic.com/b/) | A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare | No | Yes | Yes |
-| [Hipsum](https://hipsum.co) | Hipster-themed lorem ipsum generator for placeholder text | No | Yes | Unknown |
-| [Hunter](https://hunter.io/api) | API for domain search, professional email finder, author finder and email verifier | `apiKey` | Yes | Unknown |
-| [IBM Text to Speech](https://cloud.ibm.com/docs/text-to-speech/getting-started.html) | Convert text to speech | `apiKey` | Yes | Yes |
-| [Icanhazepoch](https://icanhazepoch.com) | Get Epoch time | No | Yes | Yes |
-| [Icanhazip](https://major.io/icanhazip-com-faq/) | IP Address API | No | Yes | Yes |
-| [IFTTT](https://platform.ifttt.com/docs/connect_api) | IFTTT Connect API | No | Yes | Unknown |
-| [Image-Charts](https://documentation.image-charts.com/) | Generate charts, QR codes and graph images | No | Yes | Yes |
-| [import.io](http://api.docs.import.io/) | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | Unknown |
-| [ip-fast.com](https://ip-fast.com/docs/) | IP address, country and city | No | Yes | Yes |
-| [IP2WHOIS Information Lookup](https://www.ip2whois.com/) | WHOIS domain name lookup | `apiKey` | Yes | Unknown |
-| [ipfind.io](https://ipfind.io) | Geographic location of an IP address or any domain name along with some other useful information | `apiKey` | Yes | Yes |
-| [IPify](https://www.ipify.org/) | A simple IP Address API | No | Yes | Unknown |
-| [IPinfo](https://ipinfo.io/developers) | Another simple IP Address API | No | Yes | Unknown |
-| [isitdownstatus](https://isitdownstatus.com) | Check if websites and online services are currently down | No | Yes | Unknown |
-| [jsDelivr](https://github.com/jsdelivr/data.jsdelivr.com) | Package info and download stats on jsDelivr CDN | No | Yes | Yes |
-| [JSON 2 JSONP](https://json2jsonp.com/) | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | Unknown |
-| [JSONbin.io](https://jsonbin.io) | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | Yes |
-| [JSONPlaceholder](https://jsonplaceholder.typicode.com) | Fake REST API for testing and prototyping | No | Yes | Yes |
-| [Keyvalue](https://keyvalue.immanuel.co/) | Simple key-value storage REST API for quick prototyping | No | Yes | Unknown |
-| [Kroki](https://kroki.io) | Creates diagrams from textual descriptions | No | Yes | Yes |
-| [License-API](https://github.com/cmccandless/license-api/blob/master/README.md) | Unofficial REST API for choosealicense.com | No | Yes | No |
-| [Logs.to](https://logs.to/) | Generate logs | `apiKey` | Yes | Unknown |
-| [Lua Decompiler](https://lua-decompiler.ferib.dev/) | Online Lua 5.1 Decompiler | No | Yes | Yes |
-| [MAC address vendor lookup](https://macaddress.io/api) | Retrieve vendor details and other information regarding a given MAC address or an OUI | `apiKey` | Yes | Yes |
-| [Micro DB](https://m3o.com/db) | Simple database service | `apiKey` | Yes | Unknown |
-| [MicroENV](https://microenv.com/) | Fake Rest API for developers | No | Yes | Unknown |
-| [Mocky](https://designer.mocky.io/) | Mock user defined test JSON for REST API endpoints | No | Yes | Yes |
-| [MY IP](https://www.myip.com/api-docs/) | Get IP address information | No | Yes | Unknown |
-| [Nationalize.io](https://nationalize.io) | Estimate the nationality of a first name | No | Yes | Yes |
-| [Netlify](https://docs.netlify.com/api/get-started/) | Netlify is a hosting service for the programmable web | `OAuth` | Yes | Unknown |
-| [NetworkCalc](https://networkcalc.com/api/docs) | Network calculators, including subnets, DNS, binary, and security tools | No | Yes | Yes |
-| [npm Registry](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md) | Query information about your favorite Node.js libraries programatically | No | Yes | Unknown |
-| [OneSignal](https://documentation.onesignal.com/docs/onesignal-api) | Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App | `apiKey` | Yes | Unknown |
-| [Open Page Rank](https://www.domcop.com/openpagerank/) | API for calculating and comparing metrics of different websites using Page Rank algorithm | `apiKey` | Yes | Unknown |
-| [OpenAPIHub](https://hub.openapihub.com/) | The All-in-one API Platform | `X-Mashape-Key` | Yes | Unknown |
-| [OpenGraphr](https://opengraphr.com/docs/1.0/overview) | Really simple API to retrieve Open Graph data from an URL | `apiKey` | Yes | Unknown |
-| [oyyi](https://oyyi.xyz/docs/1.0) | API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation | No | Yes | Yes |
-| [PageCDN](https://pagecdn.com/docs/public-api) | Public API for javascript, css and font libraries on PageCDN | `apiKey` | Yes | Yes |
-| [Postman](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) | Tool for testing APIs | `apiKey` | Yes | Unknown |
-| [ProxyCrawl](https://proxycrawl.com) | Scraping and crawling anticaptcha service | `apiKey` | Yes | Unknown |
-| [ProxyKingdom](https://proxykingdom.com) | Rotating Proxy API that produces a working proxy on every request | `apiKey` | Yes | Yes |
-| [Pusher Beams](https://pusher.com/beams) | Push notifications for Android & iOS | `apiKey` | Yes | Unknown |
-| [QR & Barcode](https://solsigs.com/qrapi/) | QR codes and barcodes (Code 128, EAN-13, Data Matrix, PDF417 + more). SVG or PNG output | No | Yes | Yes |
-| [QR code](https://www.qrtag.net/api/) | Create an easy to read QR code and URL shortener | No | Yes | Yes |
-| [QR code](http://goqr.me/api/) | Generate and decode / read QR code graphics | No | Yes | Unknown |
-| [Qrcode Monkey](https://www.qrcode-monkey.com/qr-code-api-with-logo/) | Integrate custom and unique looking QR codes into your system or workflow | No | Yes | Unknown |
-| [QuickChart](https://quickchart.io/) | Generate chart and graph images | No | Yes | Yes |
-| [Random Stuff](https://api-docs.pgamerx.com/) | Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed | `apiKey` | Yes | Yes |
-| [Rejax](https://rejax.io/) | Reverse AJAX service to notify clients | `apiKey` | Yes | No |
-| [ReqRes](https://reqres.in/ ) | A hosted REST-API ready to respond to your AJAX requests | No | Yes | Unknown |
-| [RSS feed to JSON](https://rss-to-json-serverless-api.vercel.app) | Returns RSS feed in JSON format using feed URL | No | Yes | Yes |
-| [SavePage.io](https://www.savepage.io) | A free, RESTful API used to screenshot any desktop, or mobile website | `apiKey` | Yes | Yes |
-| [ScrapeNinja](https://scrapeninja.net) | Scraping API with Chrome fingerprint and residential proxies | `apiKey` | Yes | Unknown |
-| [ScraperApi](https://www.scraperapi.com) | Easily build scalable web scrapers | `apiKey` | Yes | Unknown |
-| [scraperBox](https://scraperbox.com/) | Undetectable web scraping API | `apiKey` | Yes | Yes |
-| [scrapestack](https://scrapestack.com/) | Real-time, Scalable Proxy & Web Scraping REST API | `apiKey` | Yes | Unknown |
-| [ScrapingAnt](https://scrapingant.com) | Headless Chrome scraping with a simple API | `apiKey` | Yes | Unknown |
-| [ScrapingDog](https://www.scrapingdog.com/) | Proxy API for Web scraping | `apiKey` | Yes | Unknown |
-| [Screenshot](https://www.abstractapi.com/website-screenshot-api) | Take programmatic screenshots of web pages from any website | `apiKey` | Yes | Yes |
-| [ScreenshotAPI.net](https://screenshotapi.net/) | Create pixel-perfect website screenshots | `apiKey` | Yes | Yes |
-| [Serialif Color](https://color.serialif.com/) | Color conversion, complementary, grayscale and contrasted text | No | Yes | No |
-| [serpstack](https://serpstack.com/) | Real-Time & Accurate Google Search Results API | `apiKey` | Yes | Yes |
-| [Sheetsu](https://sheetsu.com/) | Easy google sheets integration | `apiKey` | Yes | Unknown |
-| [SHOUTCLOUD](http://shoutcloud.io/) | ALL-CAPS AS A SERVICE | No | No | Unknown |
-| [Sonar](https://github.com/Cgboal/SonarSearch) | Project Sonar DNS Enumeration API | No | Yes | Yes |
-| [SonarQube](https://sonarcloud.io/web_api) | SonarQube REST APIs to detect bugs, code smells & security vulnerabilities | `OAuth` | Yes | Unknown |
-| [StackExchange](https://api.stackexchange.com/) | Q&A forum for developers | `OAuth` | Yes | Unknown |
-| [Statically](https://statically.io/) | A free CDN for developers | No | Yes | Yes |
-| [Supportivekoala](https://developers.supportivekoala.com/) | Autogenerate images with template | `apiKey` | Yes | Yes |
-| [Suprsonic](https://suprsonic.ai) | Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities | `apiKey` | Yes | Yes |
-| [Talordata](https://docs.talordata.com/) | SERP data from major search engines with a free trial | `apiKey` | Yes | Unknown |
-| [Thunder Client](https://www.thunderclient.com/) | API testing tool | No | Yes | Yes |
-| [Thunderbit](https://thunderbit.com/docs/introduction) | Extract web pages as Markdown or structured data for AI apps | `apiKey` | Yes | Unknown |
-| [Tyk](https://tyk.io/open-source/) | Api and service management platform | `apiKey` | Yes | Yes |
-| [Wandbox](https://github.com/melpon/wandbox/blob/master/kennel2/API.rst) | Code compiler supporting 35+ languages mentioned at wandbox.org | No | Yes | Unknown |
-| [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
-| [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
+### File Descriptor I/O (unistd.h, fcntl.h)
 
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [open](https://man7.org/linux/man-pages/man2/open.2.html) | `<fcntl.h>` | Open and possibly create a file | POSIX.1-2001 | Yes |
+| [openat](https://man7.org/linux/man-pages/man2/openat.2.html) | `<fcntl.h>` | Equivalent to open except when pathname is relative, resolves it relative to directory referred to by dirfd | POSIX.1-2008 | Yes |
+| [creat](https://man7.org/linux/man-pages/man2/creat.2.html) | `<fcntl.h>` | Create a new file or rewrite an existing one | POSIX.1-2001 | Yes |
+| [close](https://man7.org/linux/man-pages/man2/close.2.html) | `<unistd.h>` | Close a file descriptor | POSIX.1-2001 | Yes |
+| [read](https://man7.org/linux/man-pages/man2/read.2.html) | `<unistd.h>` | Read up to count bytes from file descriptor fd into buf | POSIX.1-2001 | Yes |
+| [write](https://man7.org/linux/man-pages/man2/write.2.html) | `<unistd.h>` | Write up to count bytes from buffer buf to file descriptor fd | POSIX.1-2001 | Yes |
+| [pread](https://man7.org/linux/man-pages/man2/pread.2.html) | `<unistd.h>` | Read from a file descriptor at an offset without changing the file offset | POSIX.1-2001 | Yes |
+| [pwrite](https://man7.org/linux/man-pages/man2/pwrite.2.html) | `<unistd.h>` | Write to a file descriptor at an offset without changing the file offset | POSIX.1-2001 | Yes |
+| [readv](https://man7.org/linux/man-pages/man2/readv.2.html) | `<sys/uio.h>` | Read data into multiple buffers | POSIX.1-2001 | Yes |
+| [writev](https://man7.org/linux/man-pages/man2/writev.2.html) | `<sys/uio.h>` | Write data from multiple buffers | POSIX.1-2001 | Yes |
+| [preadv](https://man7.org/linux/man-pages/man2/preadv.2.html) | `<sys/uio.h>` | Read from a file descriptor into multiple buffers at a given offset | POSIX.1-2008, Linux | Yes |
+| [pwritev](https://man7.org/linux/man-pages/man2/pwritev.2.html) | `<sys/uio.h>` | Write to a file descriptor from multiple buffers at a given offset | POSIX.1-2008, Linux | Yes |
+| [lseek](https://man7.org/linux/man-pages/man2/lseek.2.html) | `<unistd.h>` | Reposition read/write file offset | POSIX.1-2001 | Yes |
+| [dup](https://man7.org/linux/man-pages/man2/dup.2.html) | `<unistd.h>` | Allocate a new file descriptor that refers to the same open file description | POSIX.1-2001 | Yes |
+| [dup2](https://man7.org/linux/man-pages/man2/dup2.2.html) | `<unistd.h>` | Same as dup, the new file descriptor uses the specified number | POSIX.1-2001 | Yes |
+| [dup3](https://man7.org/linux/man-pages/man2/dup3.2.html) | `<unistd.h>` | Same as dup2, but with additional flags | Linux | Yes |
+| [fcntl](https://man7.org/linux/man-pages/man2/fcntl.2.html) | `<fcntl.h>` | Manipulate file descriptor | POSIX.1-2001 | Yes |
+| [ioctl](https://man7.org/linux/man-pages/man2/ioctl.2.html) | `<sys/ioctl.h>` | Device control operations | POSIX.1-2001 | Yes |
+| [pipe](https://man7.org/linux/man-pages/man2/pipe.2.html) | `<unistd.h>` | Create pipe | POSIX.1-2001 | Yes |
+| [pipe2](https://man7.org/linux/man-pages/man2/pipe2.2.html) | `<fcntl.h>` | Create pipe with flags | Linux | Yes |
 
+### Error/Status
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Dictionaries
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Chinese Character Web](http://ccdb.hemiola.com/) | Chinese character definitions and pronunciations | No | No | No |
-| [Chinese Text Project](https://ctext.org/tools/api) | Online open-access digital library for pre-modern Chinese texts | No | Yes | Unknown |
-| [Collins](https://api.collinsdictionary.com/api/v1/documentation/html/) | Bilingual Dictionary and Thesaurus Data | `apiKey` | Yes | Unknown |
-| [Free Dictionary](https://dictionaryapi.dev/) | Definitions, phonetics, pronounciations, parts of speech, examples, synonyms | No | Yes | Unknown |
-| [Indonesia Dictionary](https://new-kbbi-api.herokuapp.com/) | Indonesia dictionary many words | No | Yes | Unknown |
-| [Lingua Robot](https://www.linguarobot.io) | Word definitions, pronunciations, synonyms, antonyms and others | `apiKey` | Yes | Yes |
-| [Merriam-Webster](https://dictionaryapi.com/) | Dictionary and Thesaurus Data | `apiKey` | Yes | Unknown |
-| [OwlBot](https://owlbot.info/) | Definitions with example sentence and photo if available | `apiKey` | Yes | Yes |
-| [Oxford](https://developer.oxforddictionaries.com/) | Dictionary Data | `apiKey` | Yes | No |
-| [Synonyms](https://www.synonyms.com/synonyms_api.php) | Synonyms, thesaurus and antonyms information for any given word | `apiKey` | Yes | Unknown |
-| [Wiktionary](https://en.wiktionary.org/w/api.php) | Collaborative dictionary data | No | Yes | Yes |
-| [Wordnik](https://developer.wordnik.com) | Dictionary Data | `apiKey` | Yes | Unknown |
-| [Words](https://www.wordsapi.com/docs/) | Definitions and synonyms for more than 150,000 words | `apiKey` | Yes | Unknown |
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [feof](https://man7.org/linux/man-pages/man3/feof.3.html) | `<stdio.h>` | Test the end-of-file indicator for the stream | POSIX.1-2001, C89 | Yes |
+| [ferror](https://man7.org/linux/man-pages/man3/ferror.3.html) | `<stdio.h>` | Test the error indicator for the stream | POSIX.1-2001, C89 | Yes |
+| [clearerr](https://man7.org/linux/man-pages/man3/clearerr.3.html) | `<stdio.h>` | Clear the end-of-file and error indicators for the stream | POSIX.1-2001, C89 | Yes |
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Documents & Productivity
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Airtable](https://airtable.com/api) | Integrate with Airtable | `apiKey` | Yes | Unknown |
-| [Api2Convert](https://www.api2convert.com/) | Online File Conversion API | `apiKey` | Yes | Unknown |
-| [apilayer pdflayer](https://pdflayer.com) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
-| [Asana](https://developers.asana.com/docs) | Programmatic access to all data in your asana system | `apiKey` | Yes | Yes |
-| [BuildPDF](https://buildpdf.co/api/docs) | Convert HTML, images, and text to PDF | `apiKey` | Yes | Yes | |
-| [ClickUp](https://clickup.com/api) | ClickUp is a robust, cloud-based project management tool for boosting productivity | `OAuth` | Yes | Unknown |
-| [Clockify](https://clockify.me/developers-api ) | Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems | `apiKey` | Yes | Unknown |
-| [CloudConvert](https://cloudconvert.com/api/v2) | Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation | `apiKey` | Yes | Unknown |
-| [Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api) | HTML/URL to PDF/PNG, Office documents to PDF, image conversion | `apiKey` | Yes | Yes |
-| [Code::Stats](https://codestats.net/api-docs) | Automatic time tracking for programmers | `apiKey` | Yes | No |
-| [CraftMyPDF](https://craftmypdf.com) | Generate PDF documents from templates with a drop-and-drop editor and a simple API | `apiKey` | Yes | No |
-| [Flowdash](https://docs.flowdash.com/docs/api-introduction) | Automate business workflows | `apiKey` | Yes | Unknown |
-| [Html2PDF](https://html2pdf.app/) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
-| [iLovePDF](https://developer.ilovepdf.com/) | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | `apiKey` | Yes | Yes |
-| [JIRA](https://developer.atlassian.com/server/jira/platform/rest-apis/) | JIRA is a proprietary issue tracking product that allows bug tracking and agile project management | `OAuth` | Yes | Unknown |
-| [Mattermost](https://api.mattermost.com/) | An open source platform for developer collaboration | `OAuth` | Yes | Unknown |
-| [Mercury](https://mercury.postlight.com/web-parser/) | Web parser | `apiKey` | Yes | Unknown |
-| [Monday](https://api.developer.monday.com/docs) | Programmatically access and update data inside a monday.com account | `apiKey` | Yes | Unknown |
-| [Notion](https://developers.notion.com/docs/getting-started) | Integrate with Notion | `OAuth` | Yes | Unknown |
-| [OCR.Space](https://ocr.space/ocrapi) | OCR text extraction from images and PDFs with a free tier | `apiKey` | Yes | Unknown |
-| [PandaDoc](https://developers.pandadoc.com) | DocGen and eSignatures API | `apiKey` | Yes | No |
-| [Pocket](https://getpocket.com/developer/) | Bookmarking service | `OAuth` | Yes | Unknown |
-| [Podio](https://developers.podio.com) | File sharing and productivity | `OAuth` | Yes | Unknown |
-| [PrexView](https://prexview.com) | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | Unknown |
-| [Renderly](https://renderlyapi.com) | HTML to PDF conversion API built on Chromium | `apiKey` | Yes | Yes |
-| [Rendex](https://rendex.dev) | Render HTML, Markdown, or URLs to PNG/JPEG/WebP/PDF, with extraction and templating | `apiKey` | Yes | Unknown |
-| [Restpack](https://restpack.io/) | Provides screenshot, HTML to PDF and content extraction APIs | `apiKey` | Yes | Unknown |
-| [Todoist](https://developer.todoist.com) | Todo Lists | `OAuth` | Yes | Unknown |
-| [Smart Image Enhancement](https://apilayer.com/marketplace/image_enhancement-api) | Performs image upscaling by adding detail to images through multiple super-resolution algorithms | `apiKey` | Yes | Unknown |
-| [staffSign](https://staffsign.de/docs) | Digital employment contract API with QES/eIDAS support for HR and staffing | `apiKey` | Yes | Yes |
-| [Vector Express v2.0](https://vector.express) | Free vector file converting API | No | Yes | No |
-| [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
-| [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
-| [Zero Retention PDF](https://xeropdf.com) | Zero-retention HTML to PDF conversion | `apiKey` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Email
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [mailboxlayer](https://mailboxlayer.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Email address validation | `apiKey` | Yes | Unknown |
-| [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | Yes |
-| [Disify](https://www.disify.com/) | Validate and detect disposable and temporary email addresses | No | Yes | Yes |
-| [DropMail](https://dropmail.me/api/#live-demo) | GraphQL API for creating and managing ephemeral e-mail inboxes | No | Yes | Unknown |
-| [EmailJS](https://www.emailjs.com/docs/) | Send emails directly from client-side JavaScript without a backend server | `apiKey` | Yes | Yes |
-| [Email Validation](https://www.abstractapi.com/email-verification-validation-api) | Validate email addresses for deliverability and spam | `apiKey` | Yes | Yes |
-| [EVA](https://eva.pingutil.com/) | Validate email addresses | No | Yes | Yes |
-| [Guerrilla Mail](https://www.guerrillamail.com/GuerrillaMailAPI.html) | Disposable temporary Email addresses | No | Yes | Unknown |
-| [ImprovMX](https://improvmx.com/api) | API for free email forwarding service | `apiKey` | Yes | Unknown |
-| [Kickbox](https://open.kickbox.com/) | Email verification API | No | Yes | Yes |
-| [Kiprio Email Validate](https://kiprio.com/v1/email-validate) | Free email validation: MX check, disposable detection, syntax | `apiKey` | Yes | Yes |
-| [mail.gw](https://docs.mail.gw) | 10 Minute Mail | No | Yes | Yes |
-| [mail.tm](https://docs.mail.tm) | Temporary Email Service | No | Yes | Yes |
-| [MailboxValidator](https://www.mailboxvalidator.com/api-email-free) | Validate email address to improve deliverability | `apiKey` | Yes | Unknown |
-| [MailCheck.ai](https://www.mailcheck.ai/#documentation) | Prevent users to sign up with temporary email addresses | No | Yes | Unknown |
-| [Mailtrap](https://mailtrap.docs.apiary.io/#) | A service for the safe testing of emails sent from the development and staging environments | `apiKey` | Yes | Unknown |
-| [PostStack](https://poststack.dev/docs) | EU-hosted email API for transactional and marketing email, with contacts, broadcasts, and analytics | `apiKey` | Yes | No |
-| [Sendgrid](https://docs.sendgrid.com/api-reference/) | A cloud-based SMTP provider that allows you to send emails without having to maintain email servers | `apiKey` | Yes | Unknown |
-| [Sendinblue](https://developers.sendinblue.com/docs) | A service that provides solutions relating to marketing and/or transactional email and/or SMS | `apiKey` | Yes | Unknown |
-| [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Entertainment
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Anycrap](https://anycrap.shop/developers) | 35,000+ absurdist AI-generated product concepts with names, descriptions, and images | `apiKey` | Yes | Yes |
-| [chucknorris.io](https://api.chucknorris.io) | JSON API for hand curated Chuck Norris jokes | No | Yes | Unknown |
-| [Corporate Buzz Words](https://github.com/sameerkumar18/corporate-bs-generator-api) | REST API for Corporate Buzz Words | No | Yes | Yes |
-| [Excuser](https://excuser.herokuapp.com/) | Get random excuses for various situations | No | Yes | Unknown |
-| [Fun Fact](https://api.aakhilv.me) | A simple HTTPS api that can randomly select and return a fact from the FFA database | No | Yes | Yes |
-| [Imgflip](https://imgflip.com/api) | Gets an array of popular memes | No | Yes | Unknown |
-| [JokeAPI](https://v2.jokeapi.dev/) | Programmable jokes in multiple languages with filtering options | No | Yes | Yes |
-| [justmeme.wtf](https://justmeme.wtf/api-docs) | Free meme API with 2400+ templates, search, trending, and AI generation | No | Yes | Yes |
-| [Meme Maker](https://mememaker.github.io/API/) | REST API for create your own meme | No | Yes | Unknown |
-| [Memesio](https://memesio.com/developers/api) | Meme creation API with templates, editable captions and hosted share links | No | Yes | No |
-| [NaMoMemes](https://github.com/theIYD/NaMoMemes) | Memes on Narendra Modi | No | Yes | Unknown |
-| [PotterDB](https://docs.potterdb.com/) | Harry Potter universe database with characters, spells, potions and more | No | Yes | Yes |
-| [Random Useless Facts](https://uselessfacts.jsph.pl/) | Get useless, but true facts | No | Yes | Unknown |
-| [TasteDive](https://tastedive.com/read/api) | Content-based recommendations for movies, music, TV shows, books, games, and podcasts | `apiKey` | Yes | No |
-| [Techy](https://techy-api.vercel.app/) | JSON and Plaintext API for tech-savvy sounding phrases | No | Yes | Unknown |
-| [Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2) | REST API for Yo Momma Jokes | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Environment
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [BreezoMeter Pollen](https://docs.breezometer.com/api-documentation/pollen-api/v2/) | Daily Forecast pollen conditions data for a specific location | `apiKey` | Yes | Unknown |
-| [Carbon Interface](https://docs.carboninterface.com/) | API to calculate carbon (C02) emissions estimates for common C02 emitting activities | `apiKey` | Yes | Yes |
-| [Climatiq](https://docs.climatiq.io) | Calculate the environmental footprint created by a broad range of emission-generating activities | `apiKey` | Yes | Yes |
-| [Cloverly](https://www.cloverly.com/carbon-offset-documentation) | API calculates the impact of common carbon-intensive activities in real time | `apiKey` | Yes | Unknown |
-| [CO2 Offset](https://co2offset.io/api.html) | API calculates and validates the carbon footprint | No | Yes | Unknown |
-| [Danish data service Energi](https://www.energidataservice.dk/) | Open energy data from Energinet to society | No | Yes | Unknown |
-| [GrünstromIndex](https://gruenstromindex.de/) | Green Power Index for Germany (Grünstromindex/GSI) | No | No | Yes |
-| [IQAir](https://www.iqair.com/air-pollution-data-api) | Air quality and weather data | `apiKey` | Yes | Unknown |
-| [Luchtmeetnet](https://api-docs.luchtmeetnet.nl/) | Predicted and actual air quality components for The Netherlands (RIVM) | No | Yes | Unknown |
-| [National Grid ESO](https://data.nationalgrideso.com/) | Open data from Great Britain’s Electricity System Operator | No | Yes | Unknown |
-| [OpenAQ](https://docs.openaq.org/) | Open air quality data | `apiKey` | Yes | Unknown |
-| [PM2.5 Open Data Portal](https://pm25.lass-net.org/#apis) | Open low-cost PM2.5 sensor data | No | Yes | Unknown |
-| [PM25.in](http://www.pm25.in/api_doc) | Air quality of China | `apiKey` | No | Unknown |
-| [PVWatts](https://developer.nrel.gov/docs/solar/pvwatts/v6/) | Energy production photovoltaic (PV) energy systems | `apiKey` | Yes | Unknown |
-| [Srp Energy](https://srpenergy-api-client-python.readthedocs.io/en/latest/api.html) | Hourly usage energy report for Srp customers | `apiKey` | Yes | No |
-| [SustainMetrics](https://www.sustainmetrics.net/api) | 18,000+ GHG emission factors from DEFRA, EPA, ADEME, Ember | `apiKey` | Yes | Yes |
-| [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0) | The Official Carbon Intensity API for Great Britain developed by National Grid | No | Yes | Unknown |
-| [Website Carbon](https://api.websitecarbon.com/) | API to estimate the carbon footprint of loading web pages | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Events
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Eventbrite](https://www.eventbrite.com/platform/api/) | Find events | `OAuth` | Yes | Unknown |
-| [SeatGeek](https://platform.seatgeek.com/) | Search events, venues and performers | `apiKey` | Yes | Unknown |
-| [Ticketmaster](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/) | Search events, attractions, or venues | `apiKey` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Finance
-API | Description | Auth | HTTPS | CORS |
-|---|:---|:---|:---|:---|
-| [Marketstack](https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown | |
-| [Aletheia](https://aletheiaapi.com/) | Insider trading data, earnings call analysis, financial statements, and more | `apiKey` | Yes | Yes | |
-| [Alpaca](https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/) | Realtime and historical market data on all US equities and ETFs | `apiKey` | Yes | Yes | |
-| [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | `apiKey` | Yes | Unknown | |
-| [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | `OAuth` | Yes | Yes | |
-| [Bank Data](https://apilayer.com/marketplace/bank_data-api) | Instant IBAN and SWIFT number validation across the globe | `apiKey` | Yes | Unknown | |
-| [Billplz](https://www.billplz.com/api) | Payment platform | `apiKey` | Yes | Unknown | |
-| [Binlist](https://binlist.net/) | Public access to a database of IIN/BIN information | No | Yes | Unknown | |
-| [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | `apiKey` | Yes | Unknown | |
-| [BriefTape](https://brieftape.com) | Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged | `apiKey` | Yes | Yes |
-| [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | All Citigroup account and statement data APIs | `apiKey` | Yes | Unknown | |
-| [CongressInvests](https://congressinvests.com) | Real-time U.S. congressional stock trade disclosures from Senate EFD and House Clerk | `apiKey` | Yes | Yes | |
-| [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes | |
-| [EconPulse](https://econpulse.io) | Live economic data — CPI, PPI, energy, treasury rates, BTC premium | `apiKey` | Yes | Yes |
-| [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | U.S. Department of the Treasury Data | No | Yes | Unknown | |
-| [Finage](https://finage.co.uk) | Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider | `apiKey` | Yes | Unknown | |
-| [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs) | Realtime and historical stock data | `apiKey` | Yes | Unknown | |
-| [Finnhub](https://finnhub.io/docs/api) | Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto | `apiKey` | Yes | Unknown | |
-| [FRED](https://fred.stlouisfed.org/docs/api/fred/) | Economic data from the Federal Reserve Bank of St. Louis | `apiKey` | Yes | Yes | |
-| [Front Accounting APIs](https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule) | Front accounting is multilingual and multicurrency software for small businesses | `OAuth` | Yes | Yes | |
-| [Helium](https://heliumtrades.com/mcp-page/) | News with media bias scoring, balanced news synthesis, live market data, AI options pricing | No | Yes | Yes | |
-| [Hotstoks](https://hotstoks.com?utm_source=public-apis) | Stock market data powered by SQL | `apiKey` | Yes | Yes | |
-| [IBANforge](https://api.ibanforge.com) | IBAN validation and BIC/SWIFT lookup for 75+ countries with 121K+ bank entries | No | Yes | Yes |
-| [IEX Cloud](https://iexcloud.io/docs/api/) | Realtime & Historical Stock and Market Data | `apiKey` | Yes | Yes | |
-| [IG](https://labs.ig.com/gettingstarted) | Spreadbetting and CFD Market Data | `apiKey` | Yes | Unknown | |
-| [Indian Mutual Fund](https://www.mfapi.in/) | Get complete history of India Mutual Funds Data | No | Yes | Unknown | |
-| [Intrinio](https://intrinio.com/) | A wide selection of financial data feeds | `apiKey` | Yes | Unknown | |
-| [Klarna](https://docs.klarna.com/klarna-payments/api/payments-api/) | Klarna payment and shopping service | `apiKey` | Yes | Unknown | |
-| [MercadoPago](https://www.mercadopago.com.br/developers/es/reference) | Mercado Pago API reference - all the information you need to develop your integrations | `apiKey` | Yes | Unknown | |
-| [Mono](https://mono.co/) | Connect with users’ bank accounts and access transaction data in Africa | `apiKey` | Yes | Unknown | |
-| [Moov](https://docs.moov.io/api/) | The Moov API makes it simple for platforms to send, receive, and store money | `apiKey` | Yes | Unknown | |
-| [Nordigen](https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/) | Connect to bank accounts using official bank APIs and get raw transaction data | `apiKey` | Yes | Unknown | |
-| [OpenFIGI](https://www.openfigi.com/api) | Equity, index, futures, options symbology from Bloomberg LP | `apiKey` | Yes | Yes | |
-| [Plaid](https://www.plaid.com/docs) | Connect with user's bank accounts and access transaction data | `apiKey` | Yes | Unknown |
-| [Polygon](https://polygon.io/) | Historical stock market data | `apiKey` | Yes | Unknown | |
-| [Portfolio Optimizer](https://portfoliooptimizer.io/) | Portfolio analysis and optimization | No | Yes | Yes | |
-| [Razorpay IFSC](https://razorpay.com/docs/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown | |
-| [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | Websocket API to access realtime stock data | `apiKey` | No | Unknown | |
-| [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | API to access annual reports of public US companies | No | Yes | Yes | |
-| [SmartAPI](https://smartapi.angelbroking.com/) | Gain access to set of <SmartAPI> and create end-to-end broking services | `apiKey` | Yes | Unknown | |
-| [StockData](https://www.StockData.org) | Real-Time, Intraday & Historical Market Data, News and Sentiment API | `apiKey` | Yes | Yes | |
-| [Styvio](https://www.Styvio.com) | Realtime and historical stock data and current stock sentiment | `apiKey` | Yes | Unknown | |
-| [Sugra](https://sugra.ai) | One API for market data, economics, commodities, climate, and global news. LLM-ready JSON | `apiKey` | Yes | Yes | |
-| [Tax Data](https://apilayer.com/marketplace/tax_data-api) | Instant VAT number and tax validation across the globe | `apiKey` | Yes | Unknown | |
-| [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth` | Yes | Yes | |
-| [Twelve Data](https://twelvedata.com/) | Stock market data (real-time & historical) | `apiKey` | Yes | Unknown | |
-| [VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes | Yes | |
-| [WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/) | WallstreetBets Stock Comments Sentiment Analysis | No | Yes | Unknown | |
-| [Yahoo Finance](https://www.yahoofinanceapi.com/) | Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange | `apiKey` | Yes | Yes | |
-| [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes | |
-| [Zoho Books](https://www.zoho.com/books/api/v3/) | Online accounting software, built for your business | `OAuth` | Yes | Unknown | |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Food & Drink
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [BaconMockup](https://baconmockup.com/) | Resizable bacon placeholder images | No | Yes | Yes |
-| [Chomp](https://chompthis.com/api/) | Data about various grocery products and foods | `apiKey` | Yes | Unknown |
-| [Coffee](https://coffee.alexflipnote.dev/) | Random pictures of coffee | No | Yes | Unknown |
-| [Edamam nutrition](https://developer.edamam.com/edamam-docs-nutrition-api) | Nutrition Analysis | `apiKey` | Yes | Unknown |
-| [Edamam recipes](https://developer.edamam.com/edamam-docs-recipe-api) | Recipe Search | `apiKey` | Yes | Unknown |
-| [Foodish](https://github.com/surhud004/Foodish#readme) | Random pictures of food dishes | No | Yes | Yes |
-| [Fruityvice](https://www.fruityvice.com) | Data about all kinds of fruit | No | Yes | Unknown |
-| [Kroger](https://developer.kroger.com/reference) | Supermarket Data | `apiKey` | Yes | Unknown |
-| [LCBO](https://lcboapi.com/) | Alcohol | `apiKey` | Yes | Unknown |
-| [Open Brewery DB](https://www.openbrewerydb.org) | Breweries, Cideries and Craft Beer Bottle Shops | No | Yes | Yes |
-| [Open Food Facts](https://world.openfoodfacts.org/data) | Food Products Database | No | Yes | Unknown |
-| [PunkAPI](https://punkapi.com/) | Brewdog Beer Recipes | No | Yes | Unknown |
-| [RecipeAPI](https://recipeapi.io) | Recipes, ingredients, nutrition data and cooking instructions | `apiKey` | Yes | Yes |
-| [Rustybeer](https://rustybeer.herokuapp.com/) | Beer brewing tools | No | Yes | No |
-| [Spoonacular](https://spoonacular.com/food-api) | Recipes, Food Products, and Meal Planning | `apiKey` | Yes | Unknown |
-| [Systembolaget](https://api-portal.systembolaget.se) | Govornment owned liqour store in Sweden | `apiKey` | Yes | Unknown |
-| [TacoFancy](https://github.com/evz/tacofancy-api) | Community-driven taco database | No | No | Unknown |
-| [Tasty](https://rapidapi.com/apidojo/api/tasty/) | API to query data about recipe, plan, ingredients | `apiKey` | Yes | Unknown |
-| [The Report of the Week](https://github.com/andyklimczak/TheReportOfTheWeek-API) | Food & Drink Reviews | No | Yes | Unknown |
-| [TheCocktailDB](https://www.thecocktaildb.com/api.php) | Cocktail Recipes | `apiKey` | Yes | Yes |
-| [TheMealDB](https://www.themealdb.com/api.php) | Meal Recipes | `apiKey` | Yes | Yes |
-| [Untappd](https://untappd.com/api/docs) | Social beer sharing | `OAuth` | Yes | Unknown |
-| [What's on the menu?](http://nypl.github.io/menus-api/) | NYPL human-transcribed historical menu collection | `apiKey` | No | Unknown |
-| [WhiskyHunter](https://whiskyhunter.net/api/) | Past online whisky auctions statistical data | No | Yes | Unknown |
-| [Zestful](https://zestfuldata.com/) | Parse recipe ingredients | `apiKey` | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Games & Comics
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [AmiiboAPI](https://amiiboapi.com/) | Nintendo Amiibo Information | No | Yes | Yes |
-| [Animal Crossing: New Horizons](http://acnhapi.com/) | API for critters, fossils, art, music, furniture and villagers | No | Yes | Unknown |
-| [Astroworld](https://api.astroworldmc.com) | Free Minecraft data: mobs, biomes, items, enchantments, structures, commands, versions, achievements, trades | No | Yes | Yes |
-| [Autochess VNG](https://github.com/didadadida93/autochess-vng-api) | Rest Api for Autochess VNG | No | Yes | Yes |
-| [Barter.VG](https://github.com/bartervg/barter.vg/wiki) | Provides information about Game, DLC, Bundles, Giveaways, Trading | No | Yes | Yes |
-| [Battle.net](https://develop.battle.net/documentation/guides/getting-started) | Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs | `OAuth` | Yes | Yes |
-| [Board Game Geek](https://boardgamegeek.com/wiki/page/BGG_XML_API2) | Board games, RPG and videogames | No | Yes | No |
-| [Brawl Stars](https://developer.brawlstars.com) | Brawl Stars Game Information | `apiKey` | Yes | Unknown |
-| [Bugsnax](https://www.bugsnaxapi.com/) | Get information about Bugsnax | No | Yes | Yes |
-| [Call of Duty Mobile](https://callofdutymobile.vercel.app/)                                 | Unofficial API for CODM player data and daily cache claiming                                        | No              | Yes   | Unknown |
-| [CheapShark](https://www.cheapshark.com/api) | Steam/PC Game Prices and Deals | No | Yes | Yes |
-| [Chess.com](https://www.chess.com/news/view/published-data-api) | Chess.com read-only REST API | No | Yes | Unknown |
-| [Chuck Norris Database](http://www.icndb.com/api/) | Jokes | No | No | Unknown |
-| [Clash of Clans](https://developer.clashofclans.com) | Clash of Clans Game Information | `apiKey` | Yes | Unknown |
-| [Clash Royale](https://developer.clashroyale.com) | Clash Royale Game Information | `apiKey` | Yes | Unknown |
-| [Comic Vine](https://comicvine.gamespot.com/api/documentation) | Comics | No | Yes | Unknown |
-| [Crafatar](https://crafatar.com) | API for Minecraft skins and faces | No | Yes | Yes |
-| [Cross Universe](https://crossuniverse.psychpsyo.com/apiDocs.html) | Cross Universe Card Data | No | Yes | Yes |
-| [Deck of Cards](http://deckofcardsapi.com/) | Deck of Cards | No | No | Unknown |
-| [Destiny The Game](https://bungie-net.github.io/multi/index.html) | Bungie Platform API | `apiKey` | Yes | Unknown |
-| [Digimon Information](https://digimon-api.vercel.app/) | Provides information about digimon creatures | No | Yes | Unknown |
-| [Digimon TCG](https://documenter.getpostman.com/view/14059948/TzecB4fH) | Search for Digimon cards in digimoncard.io | No | Yes | Unknown |
-| [Disney](https://disneyapi.dev) | Information of Disney characters | No | Yes | Yes |
-| [Dota 2](https://docs.opendota.com/) | Provides information about Player stats , Match stats, Rankings for Dota 2 | `apiKey` | Yes | Unknown |
-| [Dungeons and Dragons](https://www.dnd5eapi.co/docs/) | Reference for 5th edition spells, classes, monsters, and more | No | No | No |
-| [Dungeons and Dragons (Alternate)](https://open5e.com/) | Includes all monsters and spells from the SRD (System Reference Document) as well as a search API | No | Yes | Yes |
-| [Eve Online](https://esi.evetech.net/ui) | Third-Party Developer Documentation | `OAuth` | Yes | Unknown |
-| [FFXIV Collect](https://ffxivcollect.com/) | Final Fantasy XIV data on collectables | No | Yes | Yes |
-| [FIFA Ultimate Team](https://www.easports.com/fifa/ultimate-team/api/fut/item) | FIFA Ultimate Team items API | No | Yes | Unknown |
-| [Final Fantasy XIV](https://xivapi.com/) | Final Fantasy XIV Game data API | No | Yes | Yes |
-| [Fortnite](https://fortnitetracker.com/site-api) | Fortnite Stats | `apiKey` | Yes | Unknown |
-| [Forza](https://docs.forza-api.tk) | Show random image of car from Forza | No | Yes | Unknown |
-| [FreeToGame](https://www.freetogame.com/api-doc) | Free-To-Play Games Database | No | Yes | Yes |
-| [Fun Facts](https://asli-fun-fact-api.herokuapp.com/) | Random Fun Facts | No | Yes | Yes |
-| [FunTranslations](https://api.funtranslations.com/) | Translate Text into funny languages | No | Yes | Yes |
-| [GamerPower](https://www.gamerpower.com/api-read) | Game Giveaways Tracker | No | Yes | Yes |
-| [GDBrowser](https://gdbrowser.com/api) | Easy way to use the Geometry Dash Servers | No | Yes | Unknown |    
-| [Geek-Jokes](https://github.com/sameerkumar18/geek-joke-api) | Fetch a random geeky/programming related joke for use in all sorts of applications | No | Yes | Yes |
-| [Genshin Impact](https://genshin.dev) | Genshin Impact game data | No | Yes | Yes |
-| [Giant Bomb](https://www.giantbomb.com/api/documentation) | Video Games | `apiKey` | Yes | Unknown |
-| [GraphQL Pokemon](https://github.com/favware/graphql-pokemon) | GraphQL powered Pokemon API. Supports generations 1 through 8 | No | Yes | Yes |
-| [Guild Wars 2](https://wiki.guildwars2.com/wiki/API:Main) | Guild Wars 2 Game Information | `apiKey` | Yes | Unknown |
-| [GW2Spidy](https://github.com/rubensayshi/gw2spidy/wiki) | GW2Spidy API, Items data on the Guild Wars 2 Trade Market | No | Yes | Unknown |
-| [Halo](https://developer.haloapi.com/) | Halo 5 and Halo Wars 2 Information | `apiKey` | Yes | Unknown |
-| [Hearthstone](http://hearthstoneapi.com/) | Hearthstone Cards Information | `X-Mashape-Key` | Yes | Unknown |
-| [Humble Bundle](https://rapidapi.com/Ziggoto/api/humble-bundle) | Humble Bundle's current bundles | `apiKey` | Yes | Unknown |
-| [Humor](https://humorapi.com) | Humor, Jokes, and Memes | `apiKey` | Yes | Unknown |
-| [Hypixel](https://api.hypixel.net/) | Hypixel player stats | `apiKey` | Yes | Unknown |
-| [Hyrule Compendium](https://github.com/gadhagod/Hyrule-Compendium-API) | Data on all interactive items from The Legend of Zelda: BOTW | No | Yes | Unknown |
-| [Hytale](https://hytale-api.com/) | Hytale blog posts and jobs | No | Yes | Unknown |
-| [IGDB.com](https://api-docs.igdb.com) | Video Game Database | `apiKey` | Yes | Unknown |
-| [JokeAPI](https://sv443.net/jokeapi/v2/) | Programming, Miscellaneous and Dark Jokes | No | Yes | Yes |
-| [Jokes One](https://jokes.one/api/joke/) | Joke of the day and large category of jokes accessible via REST API | `apiKey` | Yes | Yes |
-| [Jservice](http://jservice.io) | Jeopardy Question Database | No | No | Unknown |
-| [Lichess](https://lichess.org/api) | Access to all data of users, games, puzzles and etc on Lichess | `OAuth` | Yes | Unknown |
-| [Magic The Gathering](http://magicthegathering.io/) | Magic The Gathering Game Information | No | No | Unknown |
-| [Mario Kart Tour](https://mario-kart-tour-api.herokuapp.com/) | API for Drivers, Karts, Gliders and Courses | `OAuth` | Yes | Unknown |
-| [Marvel](https://developer.marvel.com) | Marvel Comics | `apiKey` | Yes | Unknown |
-| [Minecraft Server Status](https://api.mcsrvstat.us) | API to get Information about a Minecraft Server | No | Yes | No |    
-| [MMO Games](https://www.mmobomb.com/api) | MMO Games Database, News and Giveaways | No | Yes | No |
-| [mod.io](https://docs.mod.io) | Cross Platform Mod API | `apiKey` | Yes | Unknown |
-| [Mojang](https://wiki.vg/Mojang_API) | Mojang / Minecraft API | `apiKey` | Yes | Unknown |
-| [Monster Hunter World](https://docs.mhw-db.com/) | Monster Hunter World data | No | Yes | Yes |
-| [Open Trivia](https://opentdb.com/api_config.php) | Trivia Questions | No | Yes | Unknown |
-| [PandaScore](https://developers.pandascore.co/) | E-sports games and results | `apiKey` | Yes | Unknown |
-| [Path of Exile](https://www.pathofexile.com/developer/docs) | Path of Exile Game Information | `OAuth` | Yes | Unknown |
-| [PlayerDB](https://playerdb.co/) | Query Minecraft, Steam and XBox Accounts | No | Yes | Unknown |
-| [Pokéapi](https://pokeapi.co) | Pokémon Information | No | Yes | Unknown |
-| [PokéAPI (GraphQL)](https://github.com/mazipan/graphql-pokeapi) | The Unofficial GraphQL for PokeAPI | No | Yes | Yes |
-| [Pokémon TCG](https://pokemontcg.io) | Pokémon TCG Information | No | Yes | Unknown |
-| [Psychonauts](https://psychonauts-api.netlify.app/) | Psychonauts World Characters Information and PSI Powers | No | Yes | Yes |
-| [PUBG](https://developer.pubg.com/) | Access in-game PUBG data | `apiKey` | Yes | Yes |
-| [Puyo Nexus](https://github.com/deltadex7/puyodb-api-deno) | Puyo Puyo information from Puyo Nexus Wiki | No | Yes | Yes |
-| [quizapi.io](https://quizapi.io/) | Access to various kind of quiz questions | `apiKey` | Yes | Yes |
-| [Raider](https://raider.io/api) | Provides detailed character and guild rankings for Raiding and Mythic+ content in World of Warcraft | No | Yes | Unknown |
-| [RAWG.io](https://rawg.io/apidocs) | 500,000+ games for 50 platforms including mobiles | `apiKey` | Yes | Unknown |
-| [Rick and Morty](https://rickandmortyapi.com) | All the Rick and Morty information, including images | No | Yes | Yes |
-| [Riot Games](https://developer.riotgames.com/) | League of Legends Game Information | `apiKey` | Yes | Unknown |
-| [RPS 101](https://rps101.pythonanywhere.com/api) | Rock, Paper, Scissors with 101 objects | No | Yes | Yes |
-| [RuneScape](https://runescape.wiki/w/Application_programming_interface) | RuneScape and OSRS RPGs information | No | Yes | No |
-| [Sakura CardCaptor](https://github.com/JessVel/sakura-card-captor-api) | Sakura CardCaptor Cards Information | No | Yes | Unknown |
-| [Scryfall](https://scryfall.com/docs/api) | Magic: The Gathering database | No | Yes | Yes |
-| [SpaceTradersAPI](https://spacetraders.io?rel=pub-apis) | A playable inter-galactic space trading MMOAPI | `OAuth` | Yes | Yes |
-| [Steam](https://steamapi.xpaw.me/) | Steam Web API documentation | `apiKey` | Yes | No |
-| [Steam](https://github.com/Revadike/InternalSteamWebAPI/wiki) | Internal Steam Web API documentation | No | Yes | No |
-| [SuperHeroes](https://superheroapi.com) | All SuperHeroes and Villains data from all universes under a single API | `apiKey` | Yes | Unknown |
-| [TCGdex](https://www.tcgdex.net/docs) | Multi languages Pokémon TCG Information | No | Yes | Yes |
-| [Tebex](https://docs.tebex.io/plugin/) | Tebex API for information about game purchases | `X-Mashape-Key` | Yes | No |
-| [TETR.IO](https://tetr.io/about/api/) | TETR.IO Tetra Channel API | No | Yes | Unknown |
-| [Tronald Dump](https://www.tronalddump.io/) | The dumbest things Donald Trump has ever said | No | Yes | Unknown |
-| [Universalis](https://universalis.app/docs/index.html) | Final Fantasy XIV market board data | No | Yes | Yes |
-| [Valorant (non-official)](https://valorant-api.com) | An extensive API containing data of most Valorant in-game items, assets and more | No | Yes | Unknown |
-| [Warface (non-official)](https://api.wfstats.cf) | Official API proxy with better data structure and more features | No | Yes | No |
-| [Wargaming.net](https://developers.wargaming.net/) | Wargaming.net info and stats | `apiKey` | Yes | No |
-| [When is next MCU film](https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md) | Upcoming MCU film information | No | Yes | Unknown |
-| [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | No |
-| [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Geocoding
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [IPstack](https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown |
-| [ipapi.com](https://ipapi.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-time Geolocation & Reverse IP Lookup REST API | `apiKey` | Yes | Unknown |
-| [Actinia Grass GIS](https://actinia.mundialis.de/api_docs/) | Actinia is an open source REST API for geographical data that uses GRASS GIS | `apiKey` | Yes | Unknown |
-| [administrative-divisons-db](https://github.com/kamikazechaser/administrative-divisions-db) | Get all administrative divisions of a country | No | Yes | Yes |
-| [ApogeoAPI](https://apogeoapi.com) | Bundled API for countries, states, cities, IP geolocation, and live exchange rates | `apiKey` | Yes | Yes |
-| [adresse.data.gouv.fr](https://adresse.data.gouv.fr) | Address database of France, geocoding and reverse | No | Yes | Unknown |
-| [Airtel IP](https://sys.airtel.lv/ip2country/1.1.1.1/?full=true) | IP Geolocation API. Collecting data from multiple sources | No | Yes | Unknown |
-| [Apiip](https://apiip.net/) | Get location information by IP address | `apiKey` | Yes | Yes |
-| [Battuta](http://battuta.medunes.net) | A (country/region/city) in-cascade location API | `apiKey` | No | Unknown |
-| [BdAPIs](https://bdapis.com/) | Get divisions, districts, and upazzilas of Bangladesh | No | Yes | Unknown |
-| [BigDataCloud](https://www.bigdatacloud.com/ip-geolocation-apis) | Provides fast and accurate IP geolocation APIs along with security checks and confidence area | `apiKey` | Yes | Unknown |
-| [Bing Maps](https://www.microsoft.com/maps/) | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | Unknown |
-| [bng2latlong](https://www.getthedata.com/bng2latlong) | Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude | No | Yes | Yes |
-| [Cartes.io](https://github.com/M-Media-Group/Cartes.io/wiki/API) | Create maps and markers for anything | No | Yes | Unknown |
-| [Cep.la](http://cep.la/) | Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states | No | No | Unknown |
-| [CitySDK](http://www.citysdk.eu/citysdk-toolkit/) | Open APIs for select European cities | No | Yes | Unknown |
-| [Country](http://country.is/) | Get your visitor's country from their IP | No | Yes | Yes |
-| [CountryStateCity](https://countrystatecity.in/) | World countries, states, regions, provinces, cities & towns in JSON, SQL, XML, YAML, & CSV format | `apiKey` | Yes | Yes |
-| [Ducks Unlimited](https://gis.ducks.org/datasets/du-university-chapters/api) | API explorer that gives a query URL with a JSON response of locations and cities | No | Yes | No |
-| [GeoApi](https://api.gouv.fr/api/geoapi.html) | French geographical data | No | Yes | Unknown |
-| [Geoapify](https://www.geoapify.com/api/geocoding-api/) | Forward and reverse geocoding, address autocomplete | `apiKey` | Yes | Yes |
-| [Geocod.io](https://www.geocod.io/) | Address geocoding / reverse geocoding in bulk | `apiKey` | Yes | Unknown |
-| [Geocode.xyz](https://geocode.xyz/api) | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | Unknown |
-| [Geocodify.com](https://geocodify.com/) | Worldwide geocoding, geoparsing and autocomplete for addresses | `apiKey` | Yes | Yes |
-| [Geodata.gov.gr](https://geodata.gov.gr/en/) | Open geospatial data and API service for Greece | No | Yes | Unknown |
-| [GeoDataSource](https://www.geodatasource.com/web-service) | Geocoding of city name by using latitude and longitude coordinates | `apiKey` | Yes | Unknown |
-| [GeoDB Cities](http://geodb-cities-api.wirefreethought.com/) | Get global city, region, and country data | `apiKey` | Yes | Unknown |
-| [GeographQL](https://geographql.netlify.app) | A Country, State, and City GraphQL API | No | Yes | Yes |
-| [GeoJS](https://www.geojs.io/) | IP geolocation with ChatOps integration | No | Yes | Yes |
-| [Geokeo](https://geokeo.com) | Geokeo geocoding service- with 2500 free api requests daily | No | Yes | Yes |
-| [GeoNames](http://www.geonames.org/export/web-services.html) | Place names and other geographical data | No | No | Unknown |
-| [geoPlugin](https://www.geoplugin.com) | IP geolocation and currency conversion | No | Yes | Yes |
-| [Google Earth Engine](https://developers.google.com/earth-engine/) | A cloud-based platform for planetary-scale environmental data analysis | `apiKey` | Yes | Unknown |
-| [Google Maps](https://developers.google.com/maps/) | Create/customize digital maps based on Google Maps data | `apiKey` | Yes | Unknown |
-| [Graph Countries](https://github.com/lennertVanSever/graphcountries) | Country-related data like currencies, languages, flags, regions+subregions and bordering countries | No | Yes | Unknown |
-| [HackMyIP](https://hackmyip.com/api) | IP geolocation, ISP and privacy/VPN scoring, email breach checks, DNS and WHOIS lookups | No | Yes | Yes |
-| [HelloSalut](https://fourtonfish.com/project/hellosalut-api/) | Get hello translation following user language | No | Yes | Unknown |
-| [HERE Maps](https://developer.here.com) | Create/customize digital maps based on HERE Maps data | `apiKey` | Yes | Unknown |
-| [Hirak IP to Country](https://iplocation.hirak.site/) | Ip to location with country code, currency code & currency name, fast response, unlimited requests | `apiKey` | Yes | Unknown |
-| [Hong Kong GeoData Store](https://geodata.gov.hk/gs/) | API for accessing geo-data of Hong Kong | No | Yes | Unknown |
-| [IBGE](https://servicodados.ibge.gov.br/api/docs/) | Aggregate services of IBGE (Brazilian Institute of Geography and Statistics) | No | Yes | Unknown |
-| [IP 2 Country](https://ip2country.info) | Map an IP to a country | No | Yes | Unknown |
-| [IP Address Details](https://ipinfo.io/) | Find geolocation with ip address | No | Yes | Unknown |
-| [IP Vigilante](https://www.ipvigilante.com/) | Free IP Geolocation API | No | Yes | Unknown |
-| [ip-api](https://ip-api.com/docs) | Find location with IP address or domain | No | No | Unknown |
-| [IP-API.io](https://ip-api.io) | IP geolocation with VPN/proxy/Tor detection, reputation and risk score | `apiKey` | Yes | Yes |
-| [IP Geolocation](https://www.abstractapi.com/ip-geolocation-api) | Geolocate website visitors from their IPs | `apiKey` | Yes | Yes |
-| [IP2Location](https://www.ip2location.com/web-service/ip2location) | IP geolocation web service to get more than 55 parameters | `apiKey` | Yes | Unknown |
-| [IP2Proxy](https://www.ip2location.com/web-service/ip2proxy) | Detect proxy and VPN using IP address | `apiKey` | Yes | Unknown |
-| [ip2geo.dev](https://ip2geo.dev) | Programmatically convert IP addresses into geolocation data | `apiKey` | Yes | Yes |
-| [ipapi.co](https://ipapi.co/api/#introduction) | Find IP address location information | No | Yes | Yes |
-| [IPGEO](https://api.techniknews.net/ipgeo/) | Unlimited free IP Address API with useful information | No | Yes | Unknown |
-| [ipgeolocation](https://ipgeolocation.io/) | IP Geolocation AP with free plan 30k requests per month | `apiKey` | Yes | Yes |
-| [IPInfoDB](https://www.ipinfodb.com/api) | Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address | `apiKey` | Yes | Unknown |
-| [ipstack](https://ipstack.com/) | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown |
-| [Kakao Maps](https://apis.map.kakao.com) | Kakao Maps provide multiple APIs for Korean maps | `apiKey` | Yes | Unknown |
-| [keycdn IP Location Finder](https://tools.keycdn.com/geo) | Get the IP geolocation data through the simple REST API. All the responses are JSON encoded | `apiKey` | Yes | Unknown |
-| [Kiprio UK Postcode](https://kiprio.com/v1/postcode) | UK postcode lookup with lat/lon, district, ward, constituency | `apiKey` | Yes | Yes |
-| [LatLng](https://www.latlng.work/docs) | Geocoding, reverse geocoding, places, and static maps | No | Yes | Yes |
-| [LocationIQ](https://locationiq.org/docs/) | Provides forward/reverse geocoding and batch geocoding | `apiKey` | Yes | Yes |
-| [Longdo Map](https://map.longdo.com/docs/) | Interactive map with detailed places and information portal in Thailand | `apiKey` | Yes | Yes |
-| [Mapbox](https://docs.mapbox.com/) | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown |
-| [MapQuest](https://developer.mapquest.com/) | To access tools and resources to map the world | `apiKey` | Yes | No | Yes
-| [Mexico](https://github.com/IcaliaLabs/sepomex) | Mexico RESTful zip codes API | No | Yes | Unknown |
-| [Nominatim](https://nominatim.org/release-docs/latest/api/Overview/) | Provides worldwide forward / reverse geocoding | No | Yes | Yes |
-| [One Map, Singapore](https://www.onemap.gov.sg/docs/) | Singapore Land Authority REST API services for Singapore addresses | `apiKey` | Yes | Unknown |
-| [OnWater](https://onwater.io/) | Determine if a lat/lon is on water or land | No | Yes | Unknown |
-| [Open Topo Data](https://www.opentopodata.org) | Elevation and ocean depth for a latitude and longitude | No | Yes | No |
-| [OpenCage](https://opencagedata.com) | Forward and reverse geocoding using open data | `apiKey` | Yes | Yes |
-| [openrouteservice.org](https://openrouteservice.org/) | Directions, POIs, isochrones, geocoding (+reverse), elevation, and more | `apiKey` | Yes | Unknown |
-| [OpenStreetMap](http://wiki.openstreetmap.org/wiki/API) | Navigation, geolocation and geographical data | `OAuth` | No | Unknown |
-| [Pinball Map](https://pinballmap.com/api/v1/docs) | A crowdsourced map of public pinball machines | No | Yes | Yes |
-| [positionstack](https://positionstack.com/) | Forward & Reverse Batch Geocoding REST API | `apiKey` | Yes | Unknown |
-| [Postali](https://postali.app/api) | Mexico Zip Codes API | No | Yes | Yes |
-| [PostcodeData.nl](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) | Provide geolocation data based on postcode for Dutch addresses | No | No | Unknown |
-| [Postcodes.io](https://postcodes.io) | Postcode lookup & Geolocation for the UK | No | Yes | Yes |
-| [PostalCodes](https://postalcodes.info/api) | Postal code search, country exports, and address validation data | No | Yes | Unknown |
-| [Queimadas INPE](https://queimadas.dgi.inpe.br/queimadas/dados-abertos/) | Access to heat focus data (probable wildfire) | No | Yes | Unknown |
-| [REST Countries](https://restcountries.com) | Get information about countries via a RESTful API | No | Yes | Yes |
-| [RoadGoat Cities](https://www.roadgoat.com/business/cities-api) | Cities content & photos API | `apiKey` | Yes | No |
-| [Rwanda Locations](https://rapidapi.com/victorkarangwa4/api/rwanda) | Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets | No | Yes | Unknown |
-| [SLF](https://github.com/slftool/slftool.github.io/blob/master/API.md) | German city, country, river, database | No | Yes | Yes |
-| [SpotSense](https://spotsense.io/) | Add location based interactions to your mobile app | `apiKey` | Yes | Unknown |
-| [Telize](https://rapidapi.com/fcambus/api/telize/) | Telize offers location information from any IP address | `apiKey` | Yes | Yes |
-| [TomTom](https://developer.tomtom.com/) | Maps, Directions, Places and Traffic APIs | `apiKey` | Yes | Yes |
-| [Uebermaps](https://uebermaps.com/api/v2) | Discover and share maps with friends | `apiKey` | Yes | Unknown |
-| [US ZipCode](https://www.smarty.com/docs/cloud/us-zipcode-api) | Validate and append data for any US ZipCode | `apiKey` | Yes | Yes |
-| [Utah AGRC](https://api.mapserv.utah.gov) | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | Unknown |
-| [ViaCep](https://viacep.com.br) | Brazil RESTful zip codes API | No | Yes | Unknown |
-| [What3Words](https://what3words.com) | Three words as rememberable and unique coordinates worldwide | `apiKey` | Yes | Unknown |
-| [Yandex.Maps Geocoder](https://yandex.com/dev/maps/geocoder) | Use geocoding to get an object's coordinates from its address | `apiKey` | Yes | Unknown |
-| [ZipCodeAPI](https://www.zipcodeapi.com) | US zip code distance, radius and location API | `apiKey` | Yes | Unknown |
-| [Zippopotam.us](http://www.zippopotam.us) | Get information about place such as country, city, state, etc | No | No | Unknown |
-| [Ziptastic](https://ziptasticapi.com/) | Get the country, state, and city of any US zip-code | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Government
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Bank Negara Malaysia Open Data](https://apikijangportal.bnm.gov.my/) | Malaysia Central Bank Open Data | No | Yes | Unknown |
-| [BCLaws](https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html) | Access to the laws of British Columbia | No | No | Unknown |
-| [Brazil](https://brasilapi.com.br/) | Community driven API for Brazil Public Data | No | Yes | Yes |
-| [Brazil Central Bank Open Data](https://dadosabertos.bcb.gov.br/) | Brazil Central Bank Open Data | No | Yes | Unknown |
-| [Brazil Receita WS](https://www.receitaws.com.br/) | Consult companies by CNPJ for Brazilian companies | No | Yes | Unknown |
-| [Brazilian Chamber of Deputies Open Data](https://dadosabertos.camara.leg.br/swagger/api.html) | Provides legislative information in Apis XML and JSON, as well as files in various formats | No | Yes | No |
-| [CPFHub](https://cpfhub.io) | Brazilian CPF lookup — returns full name, birth date, and gender for any CPF | `apiKey` | Yes | Yes |
-| [Census.gov](https://www.census.gov/data/developers/data-sets.html) | The US Census Bureau provides various APIs and data sets on demographics and businesses | No | Yes | Unknown |
-| [City, Berlin](https://daten.berlin.de/) | Berlin(DE) City Open Data | No | Yes | Unknown |
-| [City, Gdańsk](https://ckan.multimediagdansk.pl/en) | Gdańsk (PL) City Open Data | No | Yes | Unknown |
-| [City, Gdynia](http://otwartedane.gdynia.pl/en/api_doc.html) | Gdynia (PL) City Open Data | No | No | Unknown |
-| [City, Helsinki](https://hri.fi/en_gb/) | Helsinki(FI) City Open Data | No | Yes | Unknown |
-| [City, Lviv](https://opendata.city-adm.lviv.ua/) | Lviv(UA) City Open Data | No | Yes | Unknown |
-| [City, Nantes Open Data](https://data.nantesmetropole.fr/pages/home/) | Nantes(FR) City Open Data | `apiKey` | Yes | Unknown |
-| [City, New York Open Data](https://opendata.cityofnewyork.us/) | New York (US) City Open Data | No | Yes | Unknown |
-| [City, Prague Open Data](http://opendata.praha.eu/en) | Prague(CZ) City Open Data | No | No | Unknown |
-| [City, Toronto Open Data](https://open.toronto.ca/) | Toronto (CA) City Open Data | No | Yes | Yes |
-| [Code.gov](https://code.gov) | The primary platform for Open Source and code sharing for the U.S. Federal Government | `apiKey` | Yes | Unknown |
-| [Colorado Information Marketplace](https://data.colorado.gov/) | Colorado State Government Open Data | No | Yes | Unknown |
-| [Conversor IAE CNAE](https://www.conversoriaecnae.es/api/v1/docs) | Spanish IAE/CNAE tax activity codes, 2009→2025 crosswalk and AEAT obligations | `apiKey` | Yes | No |
-| [Data USA](https://datausa.io/about/api/) | US Public Data | No | Yes | Unknown |
-| [Data.gov](https://api.data.gov/) | US Government Data | `apiKey` | Yes | Unknown |
-| [Data.parliament.uk](https://explore.data.parliament.uk/?learnmore=Members) | Contains live datasets including information about petitions, bills, MP votes, attendance and more | No | No | Unknown |
-| [Deutscher Bundestag DIP](https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf) | This API provides read access to DIP entities (e.g. activities, persons, printed material) | `apiKey` | Yes | Unknown |
-| [District of Columbia Open Data](http://opendata.dc.gov/pages/using-apis) | Contains D.C. government public datasets, including crime, GIS, financial data, and so on | No | Yes | Unknown |
-| [EPA](https://www.epa.gov/developers/data-data-products#apis) | Web services and data sets from the US Environmental Protection Agency | No | Yes | Unknown |
-| [FastDOL](https://www.fastdol.com/docs) | Federal enforcement records for US employers: OSHA, WHD, MSHA, EPA, NLRB, and more | `apiKey` | Yes | Yes |
-| [FBI Wanted](https://www.fbi.gov/wanted/api) | Access information on the FBI Wanted program | No | Yes | Unknown |
-| [FEC](https://api.open.fec.gov/developers/) | Information on campaign donations in federal elections | `apiKey` | Yes | Unknown |
-| [Federal Register](https://www.federalregister.gov/reader-aids/developer-resources/rest-api) | The Daily Journal of the United States Government | No | Yes | Unknown |
-| [Food Standards Agency](http://ratings.food.gov.uk/open-data/en-GB) | UK food hygiene rating data API | No | No | Unknown |
-| [Gazette Data, UK](https://www.thegazette.co.uk/data) | UK official public record API | `OAuth` | Yes | Unknown |
-| [Gun Policy](https://www.gunpolicy.org/api) | International firearm injury prevention and policy | `apiKey` | Yes | Unknown |
-| [Indian Pincode](https://indianpincode.com/) | Free India PIN code lookup with GPS coordinates, 165k+ post offices, state & district data | No | Yes | Yes |
-| [INEI](http://iinei.inei.gob.pe/microdatos/) | Peruvian Statistical Government Open Data | No | No | Unknown |
-| [Interpol Red Notices](https://interpol.api.bund.dev/) | Access and search Interpol Red Notices | No | Yes | Unknown |
-| [Istanbul (İBB) Open Data](https://data.ibb.gov.tr) | Data sets from the İstanbul Metropolitan Municipality (İBB) | No | Yes | Unknown |
-| [LocalGov.jp](https://localgov.jp/) | Japan grants and subsidies (central J-Grants + 1,916 municipalities) | No | Yes | Yes |
-| [National Park Service, US](https://www.nps.gov/subjects/developer/) | Data from the US National Park Service | `apiKey` | Yes | Yes |
-| [Neotimo DGFiP Mirror](https://neotimo.com/annuaire-dgfip) | French DGFiP registry of certified e-invoicing platforms (Plateformes Agréées), searchable by SIRET | No | Yes | Unknown |
-| [Open Government, ACT](https://www.data.act.gov.au/) | Australian Capital Territory Open Data | No | Yes | Unknown |
-| [Open Government, Argentina](https://datos.gob.ar/) | Argentina Government Open Data | No | Yes | Unknown |
-| [Open Government, Australia](https://www.data.gov.au/) | Australian Government Open Data | No | Yes | Unknown |
-| [Open Government, Austria](https://www.data.gv.at/) | Austria Government Open Data | No | Yes | Unknown |
-| [Open Government, Belgium](https://data.gov.be/) | Belgium Government Open Data | No | Yes | Unknown |
-| [Open Government, Canada](http://open.canada.ca/en) | Canadian Government Open Data | No | No | Unknown |
-| [Open Government, Colombia](https://www.dane.gov.co/) | Colombia Government Open Data | No | No | Unknown |
-| [Open Government, Cyprus](https://data.gov.cy/?language=en) | Cyprus Government Open Data | No | Yes | Unknown |
-| [Open Government, Czech Republic](https://data.gov.cz/english/) | Czech Republic Government Open Data | No | Yes | Unknown |
-| [Open Government, Denmark](https://www.opendata.dk/) | Denmark Government Open Data | No | Yes | Unknown |
-| [Open Government, Estonia](https://avaandmed.eesti.ee/instructions/opendata-dataset-api) | Estonia Government Open Data | `apiKey` | Yes | Unknown |
-| [Open Government, Finland](https://www.avoindata.fi/en) | Finland Government Open Data | No | Yes | Unknown |
-| [Open Government, France](https://www.data.gouv.fr/) | French Government Open Data | `apiKey` | Yes | Unknown |
-| [Open Government, Germany](https://www.govdata.de/daten/-/details/govdata-metadatenkatalog) | Germany Government Open Data | No | Yes | Unknown |
-| [Open Government, Greece](https://data.gov.gr/) | Greece Government Open Data | `OAuth` | Yes | Unknown |
-| [Open Government, India](https://data.gov.in/) | Indian Government Open Data | `apiKey` | Yes | Unknown |
-| [Open Government, Indonesia](https://data.go.id/) | Indonesian Government Open Data | No | Yes | Unknown |
-| [Open Government, Ireland](https://data.gov.ie/pages/developers) | Ireland Government Open Data | No | Yes | Unknown |
-| [Open Government, Italy](https://www.dati.gov.it/) | Italy Government Open Data | No | Yes | Unknown |
-| [Open Government, Korea](https://www.data.go.kr/) | Korea Government Open Data | `apiKey` | Yes | Unknown |
-| [Open Government, Lithuania](https://data.gov.lt/public/api/1) | Lithuania Government Open Data | No | Yes | Unknown |
-| [Open Government, Luxembourg](https://data.public.lu) | Luxembourgish Government Open Data | `apiKey` | Yes | Unknown |
-| [Open Government, Mexico](https://www.inegi.org.mx/datos/) | Mexican Statistical Government Open Data | No | Yes | Unknown |
-| [Open Government, Mexico](https://datos.gob.mx/) | Mexico Government Open Data | No | Yes | Unknown |
-| [Open Government, Netherlands](https://data.overheid.nl/en/ondersteuning/data-publiceren/api) | Netherlands Government Open Data | No | Yes | Unknown |
-| [Open Government, New South Wales](https://api.nsw.gov.au/) | New South Wales Government Open Data | `apiKey` | Yes | Unknown |
-| [Open Government, New Zealand](https://www.data.govt.nz/) | New Zealand Government Open Data | No | Yes | Unknown |
-| [Open Government, Norway](https://data.norge.no/dataservices) | Norwegian Government Open Data | No | Yes | Yes |
-| [Open Government, Peru](https://www.datosabiertos.gob.pe/) | Peru Government Open Data | No | Yes | Unknown |
-| [Open Government, Poland](https://dane.gov.pl/en) | Poland Government Open Data | No | Yes | Yes |
-| [Open Government, Portugal](https://dados.gov.pt/en/docapi/) | Portugal Government Open Data | No | Yes | Yes |
-| [Open Government, Queensland Government](https://www.data.qld.gov.au/) | Queensland Government Open Data | No | Yes | Unknown |
-| [Open Government, Romania](http://data.gov.ro/) | Romania Government Open Data | No | No | Unknown |
-| [Open Government, Saudi Arabia](https://data.gov.sa) | Saudi Arabia Government Open Data | No | Yes | Unknown |
-| [Open Government, Singapore](https://data.gov.sg/developer) | Singapore Government Open Data | No | Yes | Unknown |
-| [Open Government, Slovakia](https://data.gov.sk/en/) | Slovakia Government Open Data | No | Yes | Unknown |
-| [Open Government, Slovenia](https://podatki.gov.si/) | Slovenia Government Open Data | No | Yes | No |
-| [Open Government, South Australian Government](https://data.sa.gov.au/) | South Australian Government Open Data | No | Yes | Unknown |
-| [Open Government, Spain](https://datos.gob.es/en) | Spain Government Open Data | No | Yes | Unknown |
-| [Open Government, Sweden](https://www.dataportal.se/en/dataservice/91_29789/api-for-the-statistical-database) | Sweden Government Open Data | No | Yes | Unknown |
-| [Open Government, Switzerland](https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html) | Switzerland Government Open Data | No | Yes | Unknown |
-| [Open Government, Taiwan](https://data.gov.tw/) | Taiwan Government Open Data | No | Yes | Unknown |
-| [Open Government, Thailand](https://data.go.th/) | Thailand Government Open Data | `apiKey` | Yes | Unknown |
-| [Open Government, UK](https://data.gov.uk/) | UK Government Open Data | No | Yes | Unknown |
-| [Open Government, USA](https://www.data.gov/) | United States Government Open Data | No | Yes | Unknown |
-| [Open Government, Victoria State Government](https://www.data.vic.gov.au/) | Victoria State Government Open Data | No | Yes | Unknown |
-| [Open Government, West Australia](https://data.wa.gov.au/) | West Australia Open Data | No | Yes | Unknown |
-| [OpenRegistry](https://openregistry.sophymarine.com) | Real-time queries to 27 national company registries (UK, FR, DE, IT, ES, KR + 21 more) | `OAuth` | Yes | Unknown |
-| [PRC Exam Schedule](https://api.whenisthenextboardexam.com/docs/) | Unofficial Philippine Professional Regulation Commission's examination schedule | No | Yes | Yes |
-| [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
-| [UK Companies House](https://developer.company-information.service.gov.uk/) | UK Companies House Data from the UK government | `OAuth` | Yes | Unknown |
-| [US Presidential Election Data by TogaTech](https://uselection.togatech.org/api/) | Basic candidate data and live electoral vote counts for top two parties in US presidential election | No | Yes | No |
-| [USA.gov](https://www.usa.gov/developer) | Authoritative information on U.S. programs, events, services and more | `apiKey` | Yes | Unknown |
-| [US Federal Contracts & Grants](https://government-data-api.onrender.com/docs) | US federal contracts, grants, and agency spending data updated daily | No | Yes | Yes |
-| [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Health
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Clinical Trials Directory](https://trials.starfile.org/api) | Every clinical trial registered with ClinicalTrials.gov, indexed by condition and sponsor | No | Yes | Yes |
-| [CMS.gov](https://data.cms.gov/provider-data/) | Access to the data from the CMS - medicare.gov | `apiKey` | Yes | Unknown |
-| [Coronavirus](https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme) | HTTP API for Latest Covid-19 Data | No | Yes | Unknown |
-| [Coronavirus in the UK](https://coronavirus.data.gov.uk/details/developers-guide) | UK Government coronavirus data, including deaths and cases by region | No | Yes | Unknown |
-| [Covid Tracking Project](https://covidtracking.com/data/api/version-2) | Covid-19  data for the US | No | Yes | No |
-| [Covid-19](https://covid19api.com/) | Covid 19 spread, infection and recovery | No | Yes | Yes |
-| [Covid-19](https://github.com/M-Media-Group/Covid-19-API) | Covid 19 cases, deaths and recovery per country | No | Yes | Yes |
-| [Covid-19 Datenhub](https://npgeo-corona-npgeo-de.hub.arcgis.com) | Maps, datasets, applications and more in the context of COVID-19 | No | Yes | Unknown |
-| [Covid-19 Government Response](https://covidtracker.bsg.ox.ac.uk) | Government measures tracker to fight against the Covid-19 pandemic | No | Yes | Yes |
-| [Covid-19 India](https://data.covid19india.org/) | Covid 19 statistics state and district wise about cases, vaccinations, recovery within India | No | Yes | Unknown |
-| [Covid-19 JHU CSSE](https://nuttaphat.com/covid19-api/) | Open-source API for exploring Covid19 cases based on JHU CSSE | No | Yes | Yes |
-| [Covid-19 Live Data](https://github.com/mathdroid/covid-19-api) | Global and countrywise data of Covid 19 daily Summary, confirmed cases, recovered and deaths | No | Yes | Yes |
-| [Covid-19 Philippines](https://github.com/Simperfy/Covid-19-API-Philippines-DOH) | Unofficial Covid-19 Web API for Philippines from data collected by DOH | No | Yes | Yes |
-| [COVID-19 Tracker Canada](https://api.covid19tracker.ca/docs/1.0/overview) | Details on Covid-19 cases across Canada | No | Yes | Unknown |
-| [COVID-19 Tracker Sri Lanka](https://www.hpb.health.gov.lk/en/api-documentation) | Provides situation of the COVID-19 patients reported in Sri Lanka | No | Yes | Unknown |
-| [COVID-ID](https://data.covid19.go.id/public/api/prov.json) | Indonesian government Covid data per province | No | Yes | Yes |
-| [Cure Cancer With AI](https://www.curecancerwithai.com/developers) | Oncology research, clinical trials, FDA approvals, news, and MAMMAL predictions | `apiKey` | Yes | No |
-| [Dataflow Kit COVID-19](https://covid-19.dataflowkit.com) | COVID-19 live statistics into sites per hour | No | Yes | Unknown |
-| [Edamam](https://developer.edamam.com/) | Food and nutrition data API with recipe search | `apiKey` | Yes | Unknown |
-| [FoodData Central](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | `apiKey` | Yes | Unknown |
-| [Healthcare.gov](https://www.healthcare.gov/developers/) | Educational content about the US Health Insurance Marketplace | No | Yes | Unknown |
-| [Humanitarian Data Exchange](https://data.humdata.org/) | Humanitarian Data Exchange (HDX) is open platform for sharing data across crises and organisations | No | Yes | Unknown |
-| [Infermedica](https://developer.infermedica.com/docs/) | NLP based symptom checker and patient triage API for health diagnosis from text | `apiKey` | Yes | Yes |
-| [LAPIS](https://cov-spectrum.ethz.ch/public) | SARS-CoV-2 genomic sequences from public sources | No | Yes | Yes |
-| [Lexigram](https://docs.lexigram.io/) | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | Yes | Unknown |
-| [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) | Public biological age competition data with biomarkers and rankings | No | Yes | Yes |
-| [Makeup](http://makeup-api.herokuapp.com/) | Makeup Information | No | No | Unknown |
-| [MedlinePlus Genetics](https://medlineplus.gov/about/developers/geneticsdatafilesapi/) | Genetic conditions, genes, chromosomes and mtDNA data | No | Yes | Unknown |
-| [MyVaccination](https://documenter.getpostman.com/view/16605343/Tzm8GG7u) | Vaccination data for Malaysia | No | Yes | Unknown |
-| [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | National Plan & Provider Enumeration System, info on healthcare providers registered in US | No | Yes | Unknown |
-| [Nutritionix](https://developer.nutritionix.com/) | Worlds largest verified nutrition database | `apiKey` | Yes | Unknown |
-| [Open Data NHS Scotland](https://www.opendata.nhs.scot) | Medical reference data and statistics by Public Health Scotland | No | Yes | Unknown |
-| [Open Disease](https://disease.sh/) | API for Current cases and more stuff about COVID-19 and Influenza | No | Yes | Yes |
-| [openFDA](https://open.fda.gov) | Public FDA data about drugs, devices and foods | `apiKey` | Yes | Unknown |
-| [Orion Health](https://developer.orionhealth.io/) | Medical platform which allows the development of applications for different healthcare scenarios | `OAuth` | Yes | Unknown |
-| [Quarantine](https://quarantine.country/coronavirus/api/) | Coronavirus API with free COVID-19 live updates | No | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Jobs
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [AI Dev Jobs](https://aidevboard.com/openapi.yaml) | AI/ML engineering job aggregator with REST, RSS, and MCP endpoints | No | Yes | Yes |
-| [Adzuna](https://developer.adzuna.com/overview) | Job board aggregator | `apiKey` | Yes | Unknown |
-| [Arbeitnow](https://documenter.getpostman.com/view/18545278/UVJbJdKh) | API for Job board aggregator in Europe / Remote | No | Yes | Yes |
-| [Arbeitsamt](https://jobsuche.api.bund.dev/) | API for the "Arbeitsamt", which is a german Job board aggregator | `OAuth` | Yes | Unknown |
-| [Careerjet](https://www.careerjet.com/partners/api/) | Job search engine | `apiKey` | No | Unknown |
-| [DevITjobs UK](https://devitjobs.uk/job_feed.xml) | Jobs with GraphQL | No | Yes | Yes |
-| [Findwork](https://findwork.dev/developers/) | Job board | `apiKey` | Yes | Unknown |
-| [GraphQL Jobs](https://graphql.jobs/docs/api/) | Jobs with GraphQL | No | Yes | Yes |
-| [HeroHunt People Search](https://www.herohunt.ai/people-search-api) | Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing | `apiKey` | Yes | Yes |
-| [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf) | Job aggregator | `apiKey` | Yes | Unknown |
-| [Jooble](https://jooble.org/api/about) | Job search engine | `apiKey` | Yes | Unknown |
-| [Juju](http://www.juju.com/publisher/spec/) | Job search engine | `apiKey` | No | Unknown |
-| [JobDataLake](https://www.jobdatalake.com/docs) | 1M+ enriched job listings from 20,000+ companies with salary, skills, seniority | `apiKey` | Yes | Yes |
-| [Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) | Job titles, skills and related jobs data | No | No | Unknown |
-| [Reed](https://www.reed.co.uk/developers) | Job board aggregator | `apiKey` | Yes | Unknown |
-| [The Muse](https://www.themuse.com/developers/api/v2) | Job board and company profiles | `apiKey` | Yes | Unknown |
-| [Upwork](https://developers.upwork.com/) | Freelance job board and management system | `OAuth` | Yes | Unknown |
-| [USAJOBS](https://developer.usajobs.gov/) | US government job board | `apiKey` | Yes | Unknown |
-| [WhatJobs](https://www.whatjobs.com/affiliates) | Job search engine | `apiKey` | Yes | Unknown |
-| [ZipRecruiter](https://www.ziprecruiter.com/publishers) | Job search app and website | `apiKey` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Machine Learning
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [AI For Thai](https://aiforthai.in.th/index.php) | Free Various Thai AI API | `apiKey` | Yes | Yes |
-| [Clarifai](https://docs.clarifai.com/api-guide/api-overview) | Computer Vision | `OAuth` | Yes | Unknown |
-| [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes |
-| [DeepAI](https://deepai.org/) | Provides AI-powered APIs for text generation, image processing, and more | `apiKey` | Yes | Yes |
-| [Deepcode](https://www.deepcode.ai) | AI for code review | No | Yes | Unknown |
-| [Dialogflow](https://cloud.google.com/dialogflow/docs/) | Natural Language Processing | `apiKey` | Yes | Unknown |
-| [EXUDE-API](http://uttesh.com/exude-api/) | Used for the primary ways for filtering the stopping, stemming words from the text data | No | Yes | Yes |
-| [Groq](https://console.groq.com/docs/quickstart) | Fast AI inference API with free tier, supports Llama, Mixtral, Gemma models | `apiKey` | Yes | Yes |
-| [Hirak FaceAPI](https://faceapi.hirak.site/) | Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits | `apiKey` | Yes | Unknown |    
-| [Hugging Face](https://huggingface.co) | AI model hub with inference API for NLP, computer vision, and audio | `apiKey` | Yes | Yes |
-| [Imagga](https://imagga.com/) | Image Recognition Solutions like Tagging, Visual Search, NSFW moderation | `apiKey` | Yes | Unknown |
-| [Inferdo](https://rapidapi.com/user/inferdo) | Computer Vision services like Facial detection, Image labeling, NSFW classification | `apiKey` | Yes | Unknown |
-| [IPS Online](https://docs.identity.ps/docs) | Face and License Plate Anonymization | `apiKey` | Yes | Unknown |
-| [Irisnet](https://irisnet.de/api/) | Realtime content moderation API that blocks or blurs unwanted images in real-time | `apiKey` | Yes | Yes |
-| [Jina AI](https://jina.ai) | Free AI API for embeddings, reranking, and text processing | `apiKey` | Yes | Yes |
-| [Keen IO](https://keen.io/) | Data Analytics | `apiKey` | Yes | Unknown |
-| [Machinetutors](https://www.machinetutors.com/portfolio/MT_api.html) | AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP | `apiKey` | Yes | Yes |
-| [MediaCraft AI](https://mediacraft-x402-api.onrender.com) | Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC). | `apiKey` | Yes | Yes |
-| [MessengerX.io](https://messengerx.rtfd.io) | A FREE API for developers to build and monetize personalized ML based chat apps | `apiKey` | Yes | Yes |
-| [NLP Cloud](https://nlpcloud.io) | NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more | `apiKey` | Yes | Unknown |
-| [OpenVisionAPI](https://openvisionapi.com) | Open source computer vision API based on open source models | No | Yes | Yes |
-| [Perspective](https://perspectiveapi.com) | NLP API to return probability that if text is toxic, obscene, insulting or threatening | `apiKey` | Yes | Unknown |
-| [Roboflow Universe](https://universe.roboflow.com) | Pre-trained computer vision models | `apiKey` | Yes | Yes |
-| [SkyBiometry](https://skybiometry.com/documentation/) | Face Detection, Face Recognition and Face Grouping | `apiKey` | Yes | Unknown |
-| [TensorFeed](https://tensorfeed.ai/developers) | Real-time AI news, model pricing, service status, and agent activity feeds | No | Yes | Yes |
-| [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
-| [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
-| [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Music
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [7digital](https://docs.7digital.com/reference) | Api of Music store 7digital | `OAuth` | Yes | Unknown |
-| [AI Mastering](https://aimastering.com/api_docs/) | Automated Music Mastering | `apiKey` | Yes | Yes |
-| [Audiomack](https://www.audiomack.com/data-api/docs) | Api of the streaming music hub Audiomack | `OAuth` | Yes | Unknown |
-| [Bandcamp](https://bandcamp.com/developer) | API of Music store Bandcamp | `OAuth` | Yes | Unknown |
-| [Bandsintown](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) | Music Events | No | Yes | Unknown |
-| [Deezer](https://developers.deezer.com/api) | Music | `OAuth` | Yes | Unknown |
-| [Discogs](https://www.discogs.com/developers/) | Music | `OAuth` | Yes | Unknown |
-| [Freesound](https://freesound.org/docs/api/) | Music Samples | `apiKey` | Yes | Unknown |
-| [Gaana](https://github.com/cyberboysumanjay/GaanaAPI) | API to retrieve song information from Gaana | No | Yes | Unknown |
-| [Genius](https://docs.genius.com/) | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | Unknown |
-| [Genrenator](https://binaryjazz.us/genrenator-api/) | Music genre generator | No | Yes | Unknown |
-| [iTunes Search](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) | Software products | No | Yes | Unknown |
-| [Jamendo](https://developer.jamendo.com/v3.0/docs) | Music | `OAuth` | Yes | Unknown |
-| [JioSaavn](https://github.com/cyberboysumanjay/JioSaavnAPI) | API to retrieve song information, album meta data and many more from JioSaavn | No | Yes | Unknown |
-| [KKBOX](https://developer.kkbox.com) | Get music libraries, playlists, charts, and perform out of KKBOX's platform | `OAuth` | Yes | Unknown |
-| [KSoft.Si Lyrics](https://docs.ksoft.si/api/lyrics-api) | API to get lyrics for songs | `apiKey` | Yes | Unknown |
-| [LastFm](https://www.last.fm/api) | Music | `apiKey` | Yes | Unknown |
-| [Lyrics.ovh](https://lyricsovh.docs.apiary.io) | Simple API to retrieve the lyrics of a song | No | Yes | Unknown |
-| [Mixcloud](https://www.mixcloud.com/developers/) | Music | `OAuth` | Yes | Yes |
-| [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) | Music | No | Yes | Unknown |
-| [Musixmatch](https://developer.musixmatch.com/) | Music | `apiKey` | Yes | Unknown |
-| [Napster](https://developer.napster.com/api/v2.2) | Music | `apiKey` | Yes | Yes |
-| [Openwhyd](https://openwhyd.github.io/openwhyd/API) | Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...) | No | Yes | No |
-| [Phishin](https://phish.in/api-docs) | A web-based archive of legal live audio recordings of the improvisational rock band Phish | `apiKey` | Yes | No |
-| [Radio Browser](https://api.radio-browser.info/) | List of internet radio stations | No | Yes | Yes |
-| [Songkick](https://www.songkick.com/developer/) | Music Events | `apiKey` | Yes | Unknown |
-| [Songlink / Odesli](https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741) | Get all the services on which a song is available | `apiKey` | Yes | Yes |
-| [Songsterr](https://www.songsterr.com/a/wa/api/) | Provides guitar, bass and drums tabs and chords | No | Yes | Unknown |
-| [SoundCloud](https://developers.soundcloud.com/docs/api/guide) | With SoundCloud API you can build applications that will give more power to control your content | `OAuth` | Yes | Unknown |
-| [Spotify](https://beta.developer.spotify.com/documentation/web-api/) | View Spotify music catalog, manage users' libraries, get recommendations and more | `OAuth` | Yes | Unknown |
-| [Sunor](https://docs.sunor.cc) | AI music generation API via Suno, with pay-as-you-go credits | `apiKey` | Yes | Unknown |
-| [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
-| [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
-| [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
-| [Verome](https://github.com/Kirazul/Verome-API) | Music API for searching, streaming and exploring music data from YouTube Music, YouTube, and Last.fm | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### News
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Mediastack](https://mediastack.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Free, Simple REST API for Live News & Blog Articles | `apiKey` | Yes | Unknown |
-| [Associated Press](https://developer.ap.org/) | Search for news and metadata from Associated Press | `apiKey` | Yes | Unknown |
-| [Chronicling America](http://chroniclingamerica.loc.gov/about/api/) | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | Unknown |
-| [Currents](https://currentsapi.services/) | Real-time and historical global news with multilingual support | `apiKey` | Yes | Yes |
-| [Feedbin](https://github.com/feedbin/feedbin-api) | RSS reader | `OAuth` | Yes | Unknown |
-| [Florida Man](https://github.com/juliayxhuang/florida-man-api#readme) | Static JSON dataset of 10,000+ Florida Man headlines by date | No | Yes | Yes |
-| [GNews](https://gnews.io/) | Search for news from various sources | `apiKey` | Yes | Yes |
-| [Graphs for Coronavirus](https://corona.dnsforfamily.com/api.txt) | Each Country separately and Worldwide Graphs for Coronavirus. Daily updates | No | Yes | Yes |
-| [Inshorts News](https://github.com/cyberboysumanjay/Inshorts-News-API) | Provides news from inshorts | No | Yes | Unknown |
-| [MarketAux](https://www.marketaux.com/) | Live stock market news with tagged tickers + sentiment and stats JSON API | `apiKey` | Yes | Yes |
-| [New York Times](https://developer.nytimes.com/) | The New York Times Developer Network | `apiKey` | Yes | Unknown |
-| [News](https://newsapi.org/) | Headlines currently published on a range of news sources and blogs | `apiKey` | Yes | Unknown |
-| [NewsData](https://newsdata.io/docs) | News data API for live-breaking news and headlines from reputed  news sources | `apiKey` | Yes | Unknown |
-| [NewsX](https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/) | Get or Search Latest Breaking News with ML Powered Summaries 🤖 | `apiKey` | Yes | Unknown |
-| [Noozra](https://noozra.com/api) | Free news headlines from 200+ curated RSS sources | No | Yes | Yes |
-| [NPR One](http://dev.npr.org/api/) | Personalized news listening experience from NPR | `OAuth` | Yes | Unknown |
-| [Spaceflight News](https://spaceflightnewsapi.net) | Spaceflight related news 🚀 | No | Yes | Yes |
-| [The Guardian](http://open-platform.theguardian.com/) | Access all the content the Guardian creates, categorised by tags and section | `apiKey` | Yes | Unknown |
-| [The Old Reader](https://github.com/theoldreader/api) | RSS reader | `apiKey` | Yes | Unknown |
-| [TheNews](https://www.thenewsapi.com/) | Aggregated headlines, top story and live news JSON API | `apiKey` | Yes | Yes |
-| [Trove](https://trove.nla.gov.au/about/create-something/using-api) | Search through the National Library of Australia collection of 1000s of digitised newspapers | `apiKey` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Open Data
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [18F](http://18f.github.io/API-All-the-X/) | Unofficial US Federal Government API Development | No | No | Unknown |
-| [AcreLens](https://www.acrelens.com) | Land suitability scoring API for any US property: off-grid, rural, recreational, investment | `apiKey` | Yes | Unknown |
-| [API Setu](https://www.apisetu.gov.in/) | An Indian Government platform that provides a lot of APIS for KYC, business, education & employment | No | Yes | Yes |
-| [Archive.org](https://archive.readme.io/docs) | The Internet Archive | No | Yes | No |
-| [Black History Facts](https://www.blackhistoryapi.io/docs) | Contribute or search one of the largest black history fact databases on the web | `apiKey` | Yes | Yes |
-| [BotsArchive](https://botsarchive.com/docs.html) | JSON formatted details about Telegram Bots available in database | No | Yes | Unknown |
-| [Callook.info](https://callook.info) | United States ham radio callsigns | No | Yes | Unknown |
-| [CARTO](https://carto.com/) | Location Information Prediction | `apiKey` | Yes | Unknown |
-| [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data/) | Data on higher education institutions in the United States | No | Yes | Unknown |
-| [Enigma Public](https://developers.enigma.com/docs) | Broadest collection of public data | `apiKey` | Yes | Yes |
-| [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | No | Yes | Unknown |
-| [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | Federal Statistical Office Germany | `OAuth` | Yes | Unknown |
-| [InfraNode](https://infranode.dev) | Unified German city open data: weather, air quality, EV chargers, transit, demographics | `apiKey` | Yes | Unknown |
-| [Joshua Project](https://api.joshuaproject.net/) | People groups of the world with the fewest followers of Christ | `apiKey` | Yes | Unknown |
-| [K-Data Gate](https://kdata-gate.vercel.app/docs) | Korean market data: K-beauty/K-food products, Naver trends, stocks, real estate, weather | `apiKey` | Yes | Unknown |
-| [Kaggle](https://www.kaggle.com/docs/api) | Create and interact with Datasets, Notebooks, and connect with Kaggle | `apiKey` | Yes | Unknown |
-| [LinkPreview](https://www.linkpreview.net) | Get JSON formatted summary with title, description and preview image for any requested URL | `apiKey` | Yes | Yes |
-| [Lowy Asia Power Index](https://github.com/0x0is1/lowy-index-api-docs) | Get measure resources and influence to rank the relative power of states in Asia | No | Yes | Unknown |
-| [Microlink.io](https://microlink.io) | Extract structured data from any website | No | Yes | Yes |
-| [ModelPartFinder Error Codes](https://modelpartfinder.com/docs/api) | Lookup appliance and equipment error codes by brand and code, with recommended replacement parts | No | Yes | Yes |
-| [Nasdaq Data Link](https://docs.data.nasdaq.com/) | Stock market data | `apiKey` | Yes | Unknown |
-| [Nobel Prize](https://www.nobelprize.org/about/developer-zone-2/) | Open data about nobel prizes and events | No | Yes | Yes |
-| [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) | Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API | No | Yes | Unknown |
-| [Open Data Minneapolis](https://opendata.minneapolismn.gov/) | Spatial (GIS) and non-spatial city data for Minneapolis | No | Yes | No |
-| [Open Scholarships](https://scholarships.grudged.io) | Free, openly-licensed directory of US scholarships and student aid from official sources | No | Yes | Yes |
-| [openAFRICA](https://africaopendata.org/) | Large datasets repository of African open data | No | Yes | Unknown |
-| [OpenCorporates](http://api.opencorporates.com/documentation/API-Reference) | Data on corporate entities and directors in many countries | `apiKey` | Yes | Unknown |
-| [OpenSanctions](https://www.opensanctions.org/docs/api/) | Data on international sanctions, crime and politically exposed persons | No | Yes | Yes |
-| [PeakMetrics](https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news) | News articles and public datasets | `apiKey` | Yes | Unknown |
-| [Recreation Information Database](https://ridb.recreation.gov/) | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) | `apiKey` | Yes | Unknown |
-| [Scoop.it](http://www.scoop.it/dev) | Content Curation Service | `apiKey` | No | Unknown |
-| [Socrata](https://dev.socrata.com/) | Access to Open Data from Governments, Non-profits and NGOs around the world | `OAuth` | Yes | Yes |
-| [Statistics of the World](https://statisticsoftheworld.com/api-docs) | Economic data for 218 countries — GDP, population, inflation, and 440+ indicators from IMF and World Bank | No | Yes | Yes |
-| [Teleport](https://developers.teleport.org/) | Quality of Life Data | No | Yes | Unknown |
-| [Umeå Open Data](https://opendata.umea.se/api/) | Open data of the city Umeå in northen Sweden | No | Yes | Yes |
-| [Universities List](https://github.com/Hipo/university-domains-list) | University names, countries and domains | No | Yes | Unknown |
-| [University of Oslo](https://data.uio.no/) | Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway) | No | Yes | Unknown |
-| [UPC database](https://upcdatabase.org/api) | More than 1.5 million barcode numbers from all around the world | `apiKey` | Yes | Unknown |
-| [Urban Observatory](https://urbanobservatory.ac.uk) | The largest set of publicly available real time urban data in the UK | No | No | No |
-| [Voidly](https://voidly.ai/api-docs) | Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries | No | Yes | No |
-| [Warnely](https://warnely.com/developers) | Composite travel-safety scores for 180 countries (FCDO + US State + GPI + WGI + live incident wire), OpenAPI 3.1 spec, CC BY 4.0 | No | Yes | Yes |
-| [Wikidata](https://www.wikidata.org/w/api.php?action=help) | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | Unknown |
-| [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page) | Mediawiki Encyclopedia | No | Yes | Unknown |
-| [Yelp](https://www.yelp.com/developers/documentation/v3) | Find Local Business | `OAuth` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Open Source Projects
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Countly](https://api.count.ly/reference) | Countly web analytics | No | No | Unknown |
-| [Creative Commons Catalog](https://api.creativecommons.engineering/) | Search among openly licensed and public domain works | `OAuth` | Yes | Yes |
-| [Datamuse](https://www.datamuse.com/api/) | Word-finding query engine | No | Yes | Unknown |
-| [Drupal.org](https://www.drupal.org/drupalorg/docs/api) | Drupal.org | No | Yes | Unknown |
-| [Evil Insult Generator](https://evilinsult.com/api) | Evil Insults | No | Yes | Yes |
-| [GitHub Contribution Chart Generator](https://github-contributions.vercel.app) | Create an image of your GitHub contributions | No | Yes | Yes |
-| [GitHub ReadMe Stats](https://github.com/anuraghazra/github-readme-stats) | Add dynamically generated statistics to your GitHub profile ReadMe | No | Yes | Yes |
-| [Metabase](https://www.metabase.com/) | An open source Business Intelligence server to share data and analytics inside your company | No | Yes | Yes |
-| [Shields](https://shields.io/) | Concise, consistent, and legible badges in SVG and raster format | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Patent
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [EPO](https://developers.epo.org/) | European patent search system api | `OAuth` | Yes | Unknown |
-| [PatentsView ](https://patentsview.org/apis/purpose) | API is intended to explore and visualize trends/patterns across the US innovation landscape | No | Yes | Unknown |
-| [TIPO](https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00) | Taiwan patent search system api | `apiKey` | Yes | Unknown |
-| [USPTO](https://www.uspto.gov/learning-and-resources/open-data-and-mobility) | USA patent api services | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Personality
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Advice Slip](http://api.adviceslip.com/) | Generate random advice slips | No | Yes | Unknown |
-| [AstroWay](https://api.astroway.info/docs/) | Astrology, natal charts, Human Design, Vedic and horoscopes on the Swiss Ephemeris | `apiKey` | Yes | Yes |
-| [Biriyani As A Service](https://biriyani.anoram.com/) | Biriyani images placeholder | No | Yes | No |
-| [Dev.to](https://developers.forem.com/api) | Access Forem articles, users and other resources via API | `apiKey` | Yes | Unknown |
-| [Dictum](https://github.com/fisenkodv/dictum) | API to get access to the collection of the most inspiring expressions of mankind | No | Yes | Unknown |
-| [FavQs.com](https://favqs.com/api) | FavQs allows you to collect, discover and share your favorite quotes | `apiKey` | Yes | Unknown |
-| [FOAAS](http://www.foaas.com/) | Fuck Off As A Service | No | No | Unknown |
-| [Forismatic](http://forismatic.com/en/api/) | Inspirational Quotes | No | No | Unknown |
-| [icanhazdadjoke](https://icanhazdadjoke.com/api) | The largest selection of dad jokes on the internet | No | Yes | Unknown |
-| [Inspiration](https://inspiration.goprogram.ai/docs/) | Motivational and Inspirational quotes | No | Yes | Yes |
-| [kanye.rest](https://kanye.rest) | REST API for random Kanye West quotes | No | Yes | Yes |
-| [kimiquotes](https://kimiquotes.herokuapp.com/doc) | Team radio and interview quotes by Finnish F1 legend Kimi Räikkönen | No | Yes | Yes |
-| [Medium](https://github.com/Medium/medium-api-docs) | Community of readers and writers offering unique perspectives on ideas | `OAuth` | Yes | Unknown |
-| [Personality.fyi](https://personality.fyi/api) | Free MBTI personality types and OEJTS test scoring | No | Yes | Yes |
-| [Programming Quotes](https://github.com/skolakoda/programming-quotes-api) | Programming Quotes API for open source projects | No | Yes | Unknown |
-| [Quotable Quotes](https://github.com/lukePeavey/quotable) | Quotable is a free, open source quotations API | No | Yes | Unknown |
-| [Quote Garden](https://pprathameshmore.github.io/QuoteGarden/) | REST API for more than 5000 famous quotes | No | Yes | Unknown |
-| [quoteclear](https://quoteclear.web.app/) | Ever-growing list of James Clear quotes from the 3-2-1 Newsletter | No | Yes | Yes |
-| [Quotes on Design](https://quotesondesign.com/api/) | Inspirational Quotes | No | Yes | Unknown |
-| [Stoicism Quote](https://github.com/tlcheah2/stoic-quote-lambda-public-api) | Quotes about Stoicism | No | Yes | Unknown |
-| [They Said So Quotes](https://theysaidso.com/api/) | Quotes Trusted by many fortune brands around the world | No | Yes | Unknown |
-| [Traitify](https://app.traitify.com/developer) | Assess, collect and analyze Personality | No | Yes | Unknown |
-| [Udemy(instructor)](https://www.udemy.com/developers/instructor/) | API for instructors on Udemy | `apiKey` | Yes | Unknown |
-| [Vadivelu HTTP Codes](https://vadivelu.anoram.com/) | On demand HTTP Codes with images | No | Yes | No |
-| [Zen Quotes](https://zenquotes.io/) | Large collection of Zen quotes for inspiration | No | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Phone
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Numlookup](https://numlookupapi.com) | Phone number validation and carrier lookup API with global coverage | `apiKey` | Yes | Unknown |
-| [Numverify](https://numverify.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Phone number validation | `apiKey` | Yes | Unknown |
-| [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | `apiKey` | Yes | Yes |
-| [Phone Specification](https://github.com/azharimm/phone-specs-api) | Rest Api for Phone specifications | No | Yes | Yes |
-| [Phone Validation](https://www.abstractapi.com/phone-validation-api) | Validate phone numbers globally | `apiKey` | Yes | Yes |
-| [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
-| [VeriRoute Intel](https://verirouteintel.com) | CNAM caller ID, carrier/LRN lookup and spam scoring for North American phone numbers | `apiKey` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Photography
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Screenshotlayer](https://screenshotlayer.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | URL to screenshot | No | Yes | Unknown |
-| [APITemplate.io](https://apitemplate.io) | Dynamically generate images and PDFs from templates with a simple API | `apiKey` | Yes | Yes |    
-| [Bruzu](https://docs.bruzu.com) | Image generation with query string | `apiKey` | Yes | Yes |
-| [CheetahO](https://cheetaho.com/docs/getting-started/) | Photo optimization and resize | `apiKey` | Yes | Unknown |
-| [Dagpi](https://dagpi.xyz) | Image manipulation and processing | `apiKey` | Yes | Unknown |
-| [Duply](https://duply.co/docs#getting-started-api) | Generate, Edit, Scale and Manage Images and Videos Smarter & Faster | `apiKey` | Yes | Yes |
-| [DynaPictures](https://dynapictures.com/docs/) | Generate Hundreds of Personalized Images in Minutes | `apiKey` | Yes | Yes |
-| [Flickr](https://www.flickr.com/services/api/) | Flickr Services | `OAuth` | Yes | Unknown |
-| [Getty Images](http://developers.gettyimages.com/en/) | Build applications using the world's most powerful imagery | `OAuth` | Yes | Unknown |
-| [Gfycat](https://developers.gfycat.com/api/) | Jiffier GIFs | `OAuth` | Yes | Unknown |
-| [Giphy](https://developers.giphy.com/docs/) | Get all your gifs | `apiKey` | Yes | Unknown |
-| [Google Photos](https://developers.google.com/photos) | Integrate Google Photos with your apps or devices | `OAuth` | Yes | Unknown |
-| [Image Upload](https://apilayer.com/marketplace/image_upload-api) | Image Optimization | `apiKey` | Yes | Unknown |
-| [Imgur](https://apidocs.imgur.com/) | Images | `OAuth` | Yes | Unknown |
-| [Imsea](https://imsea.herokuapp.com/) | Free image search | No | Yes | Unknown |
-| [Lorem Picsum](https://picsum.photos/) | Images from Unsplash | No | Yes | Unknown |
-| [ObjectCut](https://objectcut.com/) | Image Background removal | `apiKey` | Yes | Yes |
-| [Pexels](https://www.pexels.com/api/) | Free Stock Photos and Videos | `apiKey` | Yes | Yes |
-| [PhotoRoom](https://www.photoroom.com/api/) | Remove background from images | `apiKey` | Yes | Unknown |
-| [Pixabay](https://pixabay.com/sk/service/about/api/) | Photography | `apiKey` | Yes | Unknown |
-| [PlaceKeanu](https://placekeanu.com/) | Resizable Keanu Reeves placeholder images with grayscale and young Keanu options | No | Yes | Unknown |
-| [Readme typing SVG](https://github.com/DenverCoder1/readme-typing-svg) | Customizable typing and deleting text SVG | No | Yes | Unknown |
-| [Remove.bg](https://www.remove.bg/api) | Image Background removal | `apiKey` | Yes | Unknown |
-| [ReSmush.it](https://resmush.it/api) | Photo optimization | No | No | Unknown |
-| [shutterstock](https://api-reference.shutterstock.com/) | Stock Photos and Videos | `OAuth` | Yes | Unknown |
-| [Sirv](https://apidocs.sirv.com/) | Image management solutions like optimization, manipulation, hosting | `apiKey` | Yes | Unknown |
-| [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
-| [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | `apiKey` | Yes | Unknown |
-| [Webdam](https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API) | Images | `OAuth` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Programming
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Codeforces](https://codeforces.com/apiHelp) | Get access to Codeforces data | `apiKey` | Yes | Unknown |
-| [Hackerearth](https://www.hackerearth.com/docs/wiki/developers/v4/) | For compiling and running code in several languages | `apiKey` | Yes | Unknown |
-| [Judge0 CE](https://ce.judge0.com/) | Online code execution system | `apiKey` | Yes | Unknown |
-| [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
-| [Mintlify](https://docs.mintlify.com) | For programmatically generating documentation for code | `apiKey` | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Science & Math
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [arcsecond.io](https://api.arcsecond.io/) | Multiple astronomy data sources | No | Yes | Unknown |
-| [arXiv](https://arxiv.org/help/api/user-manual) | Curated research-sharing platform: physics, mathematics, quantitative finance, and economics | No | Yes | Unknown |
-| [CodeCogs](https://editor.codecogs.com/docs/4-LaTeX_rendering.php) | Render LaTeX equations in PNG, GIF, SVG, EMF, PDF, JSON, or download formats with styling options | No | Yes | Unknown |
-| [CORE](https://core.ac.uk/services#api) | Access the world's Open Access research papers | `apiKey` | Yes | Unknown |
-| [GBIF](https://www.gbif.org/developer/summary) | Global Biodiversity Information Facility | No | Yes | Yes |
-| [iDigBio](https://github.com/idigbio/idigbio-search-api/wiki) | Access millions of museum specimens from organizations around the world | No | Yes | Unknown |
-| [inspirehep.net](https://github.com/inspirehep/rest-api-doc) | High Energy Physics info. system | No | Yes | Unknown |
-| [isEven (humor)](https://isevenapi.xyz/) | Check if a number is even | No | Yes | Unknown |
-| [ISRO](https://isro.vercel.app) | ISRO Space Crafts Information | No | Yes | No |
-| [ITIS](https://www.itis.gov/ws_description.html) | Integrated Taxonomic Information System | No | Yes | Unknown |
-| [Launch Library 2](https://thespacedevs.com/llapi) | Spaceflight launches and events database | No | Yes | Yes |
-| [Materials Platform for Data Science](https://mpds.io) | Curated experimental data for materials science | `apiKey` | Yes | No |
-| [Minor Planet Center](http://www.asterank.com/mpc) | Asterank.com Information | No | No | Unknown |
-| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | No |
-| [NASA ADS](https://ui.adsabs.harvard.edu/help/api/api-docs.html) | NASA Astrophysics Data System | `OAuth` | Yes | Yes |
-| [Newton](https://newton.vercel.app) | Symbolic and Arithmetic Math Calculator | No | Yes | No |
-| [Noctua](https://api.noctuasky.com/api/v1/swaggerdoc/) | REST API used to access NoctuaSky features | No | Yes | Unknown |
-| [Numbers](https://math.tools/api/numbers/) | Number of the day, random number, number facts and anything else you want to do with numbers | `apiKey` | Yes | No |
-| [Numbers](http://numbersapi.com) | Facts about numbers | No | No | No |
-| [Ocean Facts](https://oceanfacts.herokuapp.com/) | Facts pertaining to the physical science of Oceanography | No | Yes | Unknown |
-| [Open Notify](http://open-notify.org/Open-Notify-API/) | ISS astronauts, current location, etc | No | No | No |
-| [Open Science Framework](https://developer.osf.io) | Repository and archive for study designs, research materials, data, manuscripts, etc | No | Yes | Unknown |
-| [OpenAlex](https://docs.openalex.org/) | Open catalog of scholarly works, authors, institutions, sources, and concepts | No | Yes | Yes |
-| [Purple Air](https://www2.purpleair.com/) | Real Time Air Quality Monitoring | No | Yes | Unknown |
-| [Remote Calc](https://github.com/elizabethadegbaju/remotecalc) | Decodes base64 encoding and parses it to return a solution to the calculation in JSON | No | Yes | Yes |
-| [SHARE](https://share.osf.io/api/v2/) | A free, open, dataset about research and scholarly activities | No | Yes | No |
-| [SpaceX](https://github.com/r-spacex/SpaceX-API) | Company, vehicle, launchpad and launch data | No | Yes | No |
-| [SpaceX](https://api.spacex.land/graphql/) | GraphQL, Company, Ships, launchpad and launch data | No | Yes | Unknown |
-| [Sunrise and Sunset](https://sunrise-sunset.org/api) | Sunset and sunrise times for a given latitude and longitude | No | Yes | No |
-| [Times Adder](https://github.com/FranP-code/API-Times-Adder) | With this API you can add each of the times introduced in the array sended | No | Yes | No |
-| [TLE](https://tle.ivanstanojevic.me/#/docs) | Satellite information | No | Yes | No |
-| [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | No |
-| [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | No |
-| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | Yes | No |
-| [xMath](https://x-math.herokuapp.com/) | Random mathematical expressions | No | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Security
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Application Environment Verification](https://github.com/fingerprintjs/aev) | Android library and API to verify the safety of user devices, detect rooted devices and other risks | `apiKey` | Yes | Yes |
-| [BinaryEdge](https://docs.binaryedge.io/api-v2.html) | Provide access to BinaryEdge 40fy scanning platform | `apiKey` | Yes | Yes |
-| [BitWarden](https://bitwarden.com/help/api/) | Best open-source password manager | `OAuth` | Yes | Unknown |
-| [Botd](https://github.com/fingerprintjs/botd) | Botd is a browser library for JavaScript bot detection | `apiKey` | Yes | Yes |
-| [Bugcrowd](https://docs.bugcrowd.com/api/getting-started/) | Bugcrowd API for interacting and tracking the reported issues programmatically | `apiKey` | Yes | Unknown |
-| [Censys](https://search.censys.io/api) | Search engine for Internet connected host and devices | `apiKey` | Yes | No |
-| [Classify](https://classify-web.herokuapp.com/#/api) | Encrypting & decrypting text messages | No | Yes | Yes |
-| [Complete Criminal Checks](https://completecriminalchecks.com/Developers) | Provides data of offenders from all U.S. States and Pureto Rico | `apiKey` | Yes | Yes |
-| [CRXcavator](https://crxcavator.io/apidocs) | Chrome extension risk scoring | `apiKey` | Yes | Unknown |
-| [dead-drop](https://api.dead-drop.xyz/api/v1/docs) | Ephemeral zero-knowledge encrypted data sharing | No | Yes | Yes |
-| [Dehash.lt](https://github.com/Dehash-lt/api) | Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512 | No | Yes | Unknown |
-| [EmailRep](https://docs.emailrep.io/) | Email address threat and risk prediction | No | Yes | Unknown |
-| [Escape](https://github.com/polarspetroll/EscapeAPI) | An API for escaping different kind of queries | No | Yes | No |
-| [FilterLists](https://filterlists.com) | Lists of filters for adblockers and firewalls | No | Yes | Unknown |
-| [FingerprintJS Pro](https://dev.fingerprintjs.com/docs) | Fraud detection API offering highly accurate browser fingerprinting | `apiKey` | Yes | Yes |
-| [FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order) | Screen order information using AI to detect frauds | `apiKey` | Yes | Unknown |
-| [FullHunt](https://api-docs.fullhunt.io/#introduction) | Searchable attack surface database of the entire internet | `apiKey` | Yes | Unknown |
-| [GitGuardian](https://api.gitguardian.com/doc) | Scan files for secrets (API Keys, database credentials) | `apiKey` | Yes | No |
-| [GreyNoise](https://docs.greynoise.io/reference/get_v3-community-ip) | Query IPs in the GreyNoise dataset and retrieve a subset of the full IP context data | `apiKey` | Yes | Unknown |
-| [HackerOne](https://api.hackerone.com/) | The industry’s first hacker API that helps increase productivity towards creative bug bounty hunting | `apiKey` | Yes | Unknown |
-| [Hashable](https://hashable.space/pages/api/) | A REST API to access high level cryptographic functions and methods | No | Yes | Yes |
-| [HaveIBeenPwned](https://haveibeenpwned.com/API/v3) | Passwords which have previously been exposed in data breaches | `apiKey` | Yes | Unknown |
-| [Intelligence X](https://github.com/IntelligenceX/SDK/blob/master/Intelligence%20X%20API.pdf) | Perform OSINT via Intelligence X | `apiKey` | Yes | Unknown |
-| [IPLogs](https://iplogs.com/docs) | Free VPN, proxy, Tor and datacenter IP detection. 13 sources, active probing | No | Yes | Yes |
-| [LoginRadius](https://www.loginradius.com/docs/) | Managed User Authentication Service | `apiKey` | Yes | Yes |
-| [Microsoft Security Response Center (MSRC)](https://msrc.microsoft.com/report/developer) | Programmatic interfaces to engage with the Microsoft Security Response Center (MSRC) | No | Yes | Unknown |
-| [Mozilla http scanner](https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md) | Mozilla observatory http scanner | No | Yes | Unknown |
-| [Mozilla tls scanner](https://github.com/mozilla/tls-observatory#api-endpoints) | Mozilla observatory tls scanner | No | Yes | Unknown |
-| [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | U.S. National Vulnerability Database | No | Yes | Unknown |
-| [Passwordinator](https://github.com/fawazsullia/password-generator/) | Generate random passwords of varying complexities | No | Yes | Yes |
-| [PhishStats](https://phishstats.info/) | Phishing database | No | Yes | Unknown |
-| [Privacy.com](https://privacy.com/developer/docs) | Generate merchant-specific and one-time use credit card numbers that link back to your bank | `apiKey` | Yes | Unknown |
-| [Pulsedive](https://pulsedive.com/api/) | Scan, search and collect threat intelligence data in real-time | `apiKey` | Yes | Unknown |
-| [SecurityTrails](https://securitytrails.com/corp/apidocs) | Domain and IP related information such as current and historical WHOIS and DNS records | `apiKey` | Yes | Unknown |
-| [Shodan](https://developer.shodan.io/) | Search engine for Internet connected devices | `apiKey` | Yes | Unknown |
-| [Spyse](https://spyse-dev.readme.io/reference/quick-start) | Access data on all Internet assets and build powerful attack surface management applications | `apiKey` | Yes | Unknown |
-| [Threat Jammer](https://threatjammer.com/docs/index) | Risk scoring service from curated threat intelligence data | `apiKey` | Yes | Unknown |
-| [UK Police](https://data.police.uk/docs/) | UK Police data | No | Yes | Unknown |
-| [URLhaus](https://urlhaus.abuse.ch/api/) | Database of malicious URLs used for malware distribution | `No` | Yes | Unknown |
-| [Virushee](https://api.virushee.com/) | Virushee file/data scanning | No | Yes | Yes |
-| [VulDB](https://vuldb.com/?doc.api) | VulDB API allows to initiate queries for one or more items along with transactional bots | `apiKey` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Shopping
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Best Buy](https://bestbuyapis.github.io/api-documentation/#overview) | Products, Buying Options, Categories, Recommendations, Stores and Commerce | `apiKey` | Yes | Unknown |
-| [Digi-Key](https://www.digikey.com/en/resources/api-solutions) | Retrieve price and inventory of electronic components as well as place orders | `OAuth` | Yes | Unknown |
-| [Descripio Amazon Reviews](https://docs.descripio.com) | Amazon product reviews for 12 marketplaces | `apiKey` | Yes | Unknown |
-| [Dummy Products](https://dummyproducts-api.herokuapp.com/) | An api to fetch dummy e-commerce products JSON data with placeholder images | `apiKey` | Yes | Yes |
-| [eBay](https://developer.ebay.com/) | Sell and Buy on eBay | `OAuth` | Yes | Unknown |
-| [Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics) | Manage shop and interact with listings | `OAuth` | Yes | Unknown |
-| [Flipkart Marketplace](https://seller.flipkart.com/api-docs/FMSAPI.html) | Product listing management, Order Fulfilment in the Flipkart Marketplace | `OAuth` | Yes | Yes |
-| [Lazada](https://open.lazada.com/doc/doc.htm) | Retrieve product ratings and seller performance metrics | `apiKey` | Yes | Unknown |
-| [Mercadolibre](https://developers.mercadolibre.cl/es_ar/api-docs-es) | Manage sales, ads, products, services and Shops | `apiKey` | Yes | Unknown |
-| [Octopart](https://octopart.com/api/v4/reference) | Electronic part data for manufacturing, design, and sourcing | `apiKey` | Yes | Unknown |
-| [OLX Poland](https://developer.olx.pl/api/doc#section/) | Integrate with local sites by posting, managing adverts and communicating with OLX users | `apiKey` | Yes | Unknown |
-| [Rappi](https://dev-portal.rappi.com/) | Manage orders from Rappi's app | `OAuth` | Yes | Unknown |
-| [Shopee](https://open.shopee.com/documents?version=1) | Shopee's official API for integration of various services from Shopee | `apiKey` | Yes | Unknown |
-| [Tokopedia](https://developer.tokopedia.com/openapi/guide/#/) | Tokopedia's Official API for integration of various services from Tokopedia | `OAuth` | Yes | Unknown |
-| [WooCommerce](https://woocommerce.github.io/woocommerce-rest-api-docs/) | WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format | `apiKey` | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-<br >
-<br >
-### Social
-API | Description | Auth | HTTPS | CORS |
-|---|---|---|---|---|
-| [4chan](https://github.com/4chan/4chan-API) | Simple image-based bulletin board dedicated to a variety of topics | No | Yes | Yes |
-| [Ayrshare](https://www.ayrshare.com) | Social media APIs to post, get analytics, and manage multiple users social media accounts | `apiKey` | Yes | Yes |
-| [aztro](https://aztro.sameerkumar.website/) | Daily horoscope info for yesterday, today, and tomorrow | No | Yes | Unknown |
-| [Blogger](https://developers.google.com/blogger/) | The Blogger APIs allows client applications to view and update Blogger content | `OAuth` | Yes | Unknown |
-| [Bluesky](https://docs.bsky.app/) | Decentralized social networking via the AT protocol | No | Yes | Yes |
-| [Cisco Spark](https://developer.ciscospark.com) | Team Collaboration Software | `OAuth` | Yes | Unknown |
-| [Dangerous Discord Database](https://discord.riverside.rocks/docs/index.php) | Database of malicious Discord accounts | `apiKey` | Yes | Unknown |
-| [Discord](https://discord.com/developers/docs/intro) | Make bots for Discord, integrate Discord onto an external platform | `OAuth` | Yes | Unknown | | |
-| [Disqus](https://disqus.com/api/docs/auth/) | Communicate with Disqus data | `OAuth` | Yes | Unknown |
-| [Doge-Meme](https://api.doge-meme.lol/docs) | Top meme posts from r/dogecoin which include 'Meme' flair | No | Yes | Yes |
-| [Facebook](https://developers.facebook.com/) | Facebook Login, Share on FB, Social Plugins, Analytics and more | `OAuth` | Yes | Unknown |
-| [Foursquare](https://developer.foursquare.com/) | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | `OAuth` | Yes | Unknown |
-| [Fuck Off as a Service](https://www.foaas.com) | Asks someone to fuck off | No | Yes | Unknown |
-| [Full Contact](https://docs.fullcontact.com/) | Get Social Media profiles and contact Information | `OAuth` | Yes | Unknown |
-| [GetXAPI](https://www.getxapi.com/) | Read Twitter / X data and post tweets, likes, retweets, follows, DMs via REST | `apiKey` | Yes | Unknown |
-| [HackerNews](https://github.com/HackerNews/API) | Social news for CS and entrepreneurship | No | Yes | Unknown |
-| [Hashnode](https://hashnode.com) | A blogging platform built for developers | No | Yes | Unknown |
-| [Instagram](https://www.instagram.com/developer/) | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | Unknown |
-| [Kakao](https://developers.kakao.com/) | Kakao Login, Share on KakaoTalk, Social Plugins and more | `OAuth` | Yes | Unknown |
-| [Lanyard](https://github.com/Phineas/lanyard) | Retrieve your presence on Discord through an HTTP REST API or WebSocket | No | Yes | Yes |
-| [Line](https://developers.line.biz/) | Line Login, Share on Line, Social Plugins and more | `OAuth` | Yes | Unknown |
-| [LinkedIn](https://docs.microsoft.com/en-us/linkedin/?context=linkedin/context) | The foundation of all digital integrations with LinkedIn | `OAuth` | Yes | Unknown |
-| [Meetup.com](https://www.meetup.com/api/guide) | Data about Meetups from Meetup.com | `apiKey` | Yes | Unknown |
-| [Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/overview) | Access the data and intelligence in Microsoft 365, Windows 10, and Enterprise Mobility | `OAuth` | Yes | Unknown |
-| [NAVER](https://developers.naver.com/main/) | NAVER Login, Share on NAVER, Social Plugins and more | `OAuth` | Yes | Unknown |
-| [Open Collective](https://docs.opencollective.com/help/developers/api) | Get Open Collective data | No | Yes | Unknown |
-| [Pinterest](https://developers.pinterest.com/) | The world's catalog of ideas | `OAuth` | Yes | Unknown |
-| [Product Hunt](https://api.producthunt.com/v2/docs) | The best new products in tech | `OAuth` | Yes | Unknown |
-| [Reddit](https://www.reddit.com/dev/api) | Homepage of the internet | `OAuth` | Yes | Unknown |
-| [Revolt](https://developers.revolt.chat/api/) | Revolt open source Discord alternative | `apiKey` | Yes | Unknown |
-| [Saidit](https://www.saidit.net/dev/api) | Open Source Reddit Clone | `OAuth` | Yes | Unknown |
-| [Slack](https://api.slack.com/) | Team Instant Messaging | `OAuth` | Yes | Unknown |
-| [TamTam](https://dev.tamtam.chat/) | Bot API to interact with TamTam | `apiKey` | Yes | Unknown |
-| [Telegram Bot](https://core.telegram.org/bots/api) | Simplified HTTP version of the MTProto API for bots | `apiKey` | Yes | Unknown |
-| [Telegram MTProto](https://core.telegram.org/api#getting-started) | Read and write Telegram data | `OAuth` | Yes | Unknown |
-| [Telegraph](https://telegra.ph/api) | Create attractive blogs easily, to share | `apiKey` | Yes | Unknown |
-| [TikTok](https://developers.tiktok.com/doc/login-kit-web) | Fetches user info and user's video posts on TikTok platform | `OAuth` | Yes | Unknown |
-| [Trash Nothing](https://trashnothing.com/developer) | A freecycling community with thousands of free items posted every day | `OAuth` | Yes | Yes |
-| [Tumblr](https://www.tumblr.com/docs/en/api/v2) | Read and write Tumblr Data | `OAuth` | Yes | Unknown |
-| [Twitch](https://dev.twitch.tv/docs) | Game Streaming API | `OAuth` | Yes | Unknown |
-| [Twitter](https://developer.twitter.com/en/docs) | Read and write Twitter data | `OAuth` | Yes | No |
-| [vk](https://vk.com/dev/sites) | Read and write vk data | `OAuth` | Yes | Unknown |
-| [xfetch](https://xfetch.io) | Read API for X/Twitter search, profiles, tweets, and social graph | `apiKey` | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Sports & Fitness
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [API-FOOTBALL](https://www.api-football.com/documentation-v3) | Get information about Football Leagues & Cups | `apiKey` | Yes | Yes |
-| [ApiMedic](https://apimedic.com/) | ApiMedic offers a medical symptom checker API primarily for patients | `apiKey` | Yes | Unknown |
-| [balldontlie](https://www.balldontlie.io) | Balldontlie provides access to stats data from the NBA | No | Yes | Yes |
-| [Canadian Football League (CFL)](http://api.cfl.ca/) | Official JSON API providing real-time league, team and player statistics about the CFL | `apiKey` | Yes | No |
-| [City Bikes](https://api.citybik.es/v2/) | City Bikes around the world | No | Yes | Unknown |
-| [Cloudbet](https://www.cloudbet.com/api/) | Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically | `apiKey` | Yes | Yes |
-| [CollegeFootballData.com](https://collegefootballdata.com) | Unofficial detailed American college football statistics, records, and results API | `apiKey` | Yes | Unknown |
-| [DiscGolf](https://discgolfapi.com/docs/) | Structured disc golf course data | No | Yes | Yes |
-| [Ergast F1](http://ergast.com/mrd/) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
-| [Fitbit](https://dev.fitbit.com/) | Fitbit Information | `OAuth` | Yes | Unknown |
-| [Football](https://rapidapi.com/GiulianoCrescimbeni/api/football98/) | A simple Open Source Football API to get squads’ stats, best scorers and more | `X-Mashape-Key` | Yes | Unknown |
-| [Football (Soccer) Videos](https://www.scorebat.com/video-api/) | Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more | No | Yes | Yes |
-| [Football Standings](https://github.com/azharimm/football-standings-api) | Display football standings e.g epl, la liga, serie a etc. The data is based on espn site | No | Yes | Yes |
-| [Football-Data](https://www.football-data.org) | Football data with matches info, players, teams, and competitions | `X-Mashape-Key` | Yes | Unknown |
-| [JCDecaux Bike](https://developer.jcdecaux.com/) | JCDecaux's self-service bicycles | `apiKey` | Yes | Unknown |
-| [MLB Records and Stats](https://appac.github.io/mlb-data-api-docs/) | Current and historical MLB statistics | No | No | Unknown |
-| [NBA Data](https://rapidapi.com/api-sports/api/api-nba/) | All NBA Stats DATA, Games, Livescore, Standings, Statistics | `apiKey` | Yes | Unknown |
-| [NBA Stats](https://any-api.com/nba_com/nba_com/docs/API_Description) | Current and historical NBA Statistics | No | Yes | Unknown |
-| [NHL Records and Stats](https://gitlab.com/dword4/nhlapi) | NHL historical data and statistics | No | Yes | Unknown |
-| [Oddsmagnet](https://data.oddsmagnet.com) | Odds history from multiple UK bookmakers | No | Yes | Yes |
-| [OpenF1](https://openf1.org/) | Real-time and historical Formula 1 data including laps, car telemetry and positions | No | Yes | Yes |
-| [OpenLigaDB](https://www.openligadb.de) | Crowd sourced sports league results | No | Yes | Yes |
-| [Padel Snipe](https://padelsnipe.com/fr/world/api) | 4,000+ mapped padel clubs across 9 European countries with GPS and courts | No | Yes | Yes |
-| [Premier League Standings ](https://rapidapi.com/heisenbug/api/premier-league-live-scores/) | All Current Premier League Standings and Statistics | `apiKey` | Yes | Unknown |
-| [PropLine](https://prop-line.com) | Real-time player-props betting odds with graded prop resolution across 13 books | `apiKey` | Yes | Unknown |
-| [RacingHub](https://racinghub.net/api/v1/docs#/) | Formula 1 historical data and statistics | No | Yes | Unknown |
-| [Sport Data](https://sportdataapi.com) | Get sports data from all over the world | `apiKey` | Yes | Unknown |
-| [Sport List & Data](https://developers.decathlon.com/products/sports) | List of and resources related to sports | No | Yes | Yes |
-| [Sport Places](https://developers.decathlon.com/products/sport-places) | Crowd-source sports places around the world | No | Yes | No |
-| [Sport Vision](https://developers.decathlon.com/products/sport-vision) | Identify sport, brands and gear in an image. Also does image sports captioning | `apiKey` | Yes | Yes |
-| [SportScore](https://sportscore.com/developers/) | Live scores, fixtures, standings and stats for football, basketball, cricket and tennis | No | Yes | Yes |
-| [Sportmonks Cricket](https://docs.sportmonks.com/cricket/) | Live cricket score, player statistics and fantasy API | `apiKey` | Yes | Unknown |
-| [Sportmonks Football](https://docs.sportmonks.com/football/) | Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga | `apiKey` | Yes | Unknown |
-| [Squiggle](https://api.squiggle.com.au) | Fixtures, results and predictions for Australian Football League matches | No | Yes | Yes |
-| [Strava](https://strava.github.io/api/) | Connect with athletes, activities and more | `OAuth` | Yes | Unknown |
-| [SuredBits](https://suredbits.com/api/) | Query sports data, including teams, players, games, scores and statistics | No | No | No |
-| [TheRundown](https://therundown.io/) | Real-time sports data: odds, scores, stats & prediction markets, 30+ leagues, 18+ sportsbooks | `apiKey` | Yes | Yes |
-| [TheSportsDB](https://www.thesportsdb.com/api.php) | Crowd-Sourced Sports Data and Artwork | `apiKey` | Yes | Yes |
-| [TourneyRadar](https://tourneyradar-api.vercel.app) | Upcoming chess tournaments from 140+ national federations worldwide | No | Yes | Unknown |
-| [Tredict](https://www.tredict.com/blog/oauth_docs/) | Get and set activities, health data and more | `OAuth` | Yes | Unknown |
-| [Wger](https://wger.de/en/software/api) | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Test Data
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Bacon Ipsum](https://baconipsum.com/json-api/) | A Meatier Lorem Ipsum Generator | No | Yes | Unknown |
-| [Dicebear Avatars](https://avatars.dicebear.com/) | Generate random pixel-art avatars | No | Yes | No |
-| [DummyJSON](https://dummyjson.com/) | Fake REST API with products, users, posts, comments, todos and more | No | Yes | Yes |
-| [English Random Words](https://random-words-api.vercel.app/word) | Generate English Random Words with Pronunciation | No | Yes | No |
-| [FakeJSON](https://fakejson.com) | Service to generate test and fake data | `apiKey` | Yes | Yes |
-| [FakerAPI](https://fakerapi.it/en) | APIs collection to get fake data | No | Yes | Yes |
-| [FakeStoreAPI](https://fakestoreapi.com/) | Fake store rest API for your e-commerce or shopping website prototype | No | Yes | Unknown |
-| [GeneradorDNI](https://api.generadordni.es) | Data generator API. Profiles, vehicles, banks and cards, etc | `apiKey` | Yes | Unknown |
-| [ItsThisForThat](https://itsthisforthat.com/api.php) | Generate Random startup ideas | No | Yes | No |
-| [JSONPlaceholder](http://jsonplaceholder.typicode.com/) | Fake data for testing and prototyping | No | No | Unknown |
-| [Loripsum](http://loripsum.net/) | The "lorem ipsum" generator that doesn't suck | No | No | Unknown |
-| [Mailsac](https://mailsac.com/docs/api) | Disposable Email | `apiKey` | Yes | Unknown |
-| [Metaphorsum](http://metaphorpsum.com/) | Generate demo paragraphs giving number of words and sentences | No | No | Unknown |
-| [Mockaroo](https://www.mockaroo.com/docs) | Generate fake data to JSON, CSV, TXT, SQL and XML | `apiKey` | Yes | Unknown |
-| [QuickMocker](https://quickmocker.com) | API mocking tool to generate contextual, fake or random data | No | Yes | Yes |
-| [Random Data](https://random-data-api.com) | Random data generator | No | Yes | Unknown |
-| [Randommer](https://randommer.io/randommer-api) | Random data generator | `apiKey` | Yes | Yes |
-| [RandomUser](https://randomuser.me) | Generates and list user data | No | Yes | Unknown |
-| [RoboHash](https://robohash.org/) | Generate random robot/alien avatars | No | Yes | Unknown |
-| [Spanish random names](https://random-names-api.herokuapp.com/public) | Generate spanish names (with gender) randomly | No | Yes | Unknown |
-| [Spanish random words](https://palabras-aleatorias-public-api.herokuapp.com) | Generate spanish words randomly | No | Yes | Unknown |
-| [This Person Does not Exist](https://thispersondoesnotexist.com) | Generates real-life faces of people who do not exist | No | Yes | Unknown |
-| [Toolcarton](https://testimonialapi.toolcarton.com/) | Generate random testimonial data | No | Yes | Unknown |
-| [TotalShiftLeft Sandbox](https://demo.totalshiftleft.ai/) | Free multi-protocol sandbox: REST, GraphQL & SOAP with OAuth2/JWT auth and OpenAPI 3.0 spec | No | Yes | Yes |
-| [UUID Generator](https://www.uuidtools.com/docs) | Generate UUIDs | No | Yes | No |
-| [What The Commit](http://whatthecommit.com/index.txt) | Random commit message generator | No | No | Yes |
-| [Yes No](https://yesno.wtf/api) | Generate yes or no randomly | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Text Analysis
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Code Detection](https://codedetectionapi.runtime.dev) | Detect, label, format and enrich the code in your app or in your data pipeline | `OAuth` | Yes | Unknown |
-| [apilayer languagelayer](https://languagelayer.com/) | Language Detection JSON API supporting 173 languages | `OAuth` | Yes | Unknown |
-| [Aylien Text Analysis](https://docs.aylien.com/textapi/#getting-started) | A collection of information retrieval and natural language APIs | `apiKey` | Yes | Unknown |
-| [Audexum](https://audexum.com/docs) | Text-to-speech REST API with 43 voices and 33 languages | `apiKey` | Yes | Yes |
-| [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api) | Natural language processing and text analysis | `apiKey` | Yes | Yes |
-| [Detect Language](https://detectlanguage.com/) | Detects text language | `apiKey` | Yes | Unknown |
-| [ELI](https://nlp.insightera.co.th/docs/v1.0) | Natural Language Processing Tools for Thai Language | `apiKey` | Yes | Unknown |
-| [Google Cloud Natural](https://cloud.google.com/natural-language/docs/) | Natural language understanding technology, including sentiment, entity and syntax analysis | `apiKey` | Yes | Unknown |
-| [GeoScore](https://geoscoreapi.com) | Score content for AI search citation readiness with a 0-100 GEO score and 8 structural metrics | `apiKey` | Yes | Yes |
-| [Hirak OCR](https://ocr.hirak.site/) | Image to text -text recognition- from image more than 100 language, accurate, unlimited requests | `apiKey` | Yes | Unknown |
-| [Hirak Translation](https://translate.hirak.site/) | Translate between 21 of most used languages, accurate, unlimited requests | `apiKey` | Yes | Unknown |
-| [Kiprio Translate](https://kiprio.com/v1/translate) | Free text translation with language detection, supports 50+ languages | `apiKey` | Yes | Yes |
-| [Lecto Translation](https://rapidapi.com/lecto-lecto-default/api/lecto-translation/) | Translation API with free tier and reasonable prices | `apiKey` | Yes | Yes |
-| [LibreTranslate](https://libretranslate.com/docs) | Translation tool with 17 available languages | No | Yes | Unknown |
-| [Semantria](https://semantria.readme.io/docs) | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown |
-| [Sentiment Analysis](https://www.meaningcloud.com/developer/sentiment-analysis) | Multilingual sentiment analysis of texts from different sources | `apiKey` | Yes | Yes |
-| [Tisane](https://tisane.ai/) | Text Analytics with focus on detection of abusive content and law enforcement applications | `OAuth` | Yes | Yes |
-| [Watson Natural Language Understanding](https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding) | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Tracking
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Aftership](https://developers.aftership.com/reference/quick-start) | API to update, manage and track shipment efficiently | `apiKey` | Yes | Yes |
-| [Correios](https://cws.correios.com.br/ajuda) | Integration to provide information and prepare shipments using Correio's services | `apiKey` | Yes | Unknown |
-| [Pixela](https://pixe.la) | API for recording and tracking habits or effort, routines | `X-Mashape-Key` | Yes | Yes |
-| [PostalPinCode](http://www.postalpincode.in/Api-Details) | API for getting Pincode details in India | No | Yes | Unknown |
-| [Postmon](http://postmon.com.br) | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | Unknown |
-| [PostNord](https://developer.postnord.com/api) | Provides information about parcels in transport for Sweden and Denmark | `apiKey` | No | Unknown |
-| [UPS](https://www.ups.com/upsdeveloperkit) | Shipment and Address information | `apiKey` | Yes | Unknown |
-| [WeCanTrack](https://docs.wecantrack.com) | Automatically place subids in affiliate links to attribute affiliate conversions to click data | `apiKey` | Yes | Yes |
-| [WhatPulse](https://developer.whatpulse.org/#web-api) | Small application that measures your keyboard/mouse usage | No | Yes | Unknown |
-| [WhereParcel](https://whereparcel.com/docs) | Unified parcel tracking API across 60+ carriers worldwide (USPS, FedEx, UPS, DHL, etc.) | `apiKey` | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Transportation
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [ADS-B Exchange](https://www.adsbexchange.com/data/) | Access real-time and historical data of any and all airborne aircraft | No | Yes | Unknown |
-| [airportsapi](https://airport-web.appspot.com/api/docs/) | Get name and website-URL for airports by ICAO code | No | Yes | Unknown |
-| [AIS Hub](http://www.aishub.net/api) | Real-time data of any marine and inland vessel equipped with AIS tracking system | `apiKey` | No | Unknown |
-| [Amadeus for Developers](https://developers.amadeus.com/self-service) | Travel Search - Limited usage | `OAuth` | Yes | Unknown |
-| [apilayer aviationstack](https://aviationstack.com/) | Real-time Flight Status & Global Aviation Data API | `OAuth` | Yes | Unknown |
-| [Apimetro](https://apimetro.dev/swagger/index.html) | Geospatial data for Mexico City public transport system (Metro, Metrobús, Cablebús, RTP, etc.) | No | Yes | Yes |
-| [AviationAPI](https://docs.aviationapi.com) | FAA Aeronautical Charts and Publications, Airport Information, and Airport Weather | No | Yes | No |
-| [AZ511](https://www.az511.com/developers/doc) | Access traffic data from the ADOT API | `apiKey` | Yes | Unknown |
-| [Bay Area Rapid Transit](http://api.bart.gov) | Stations and predicted arrivals for BART | `apiKey` | No | Unknown |
-| [BC Ferries](https://www.bcferriesapi.ca) | Sailing times and capacities for BC Ferries | No | Yes | Yes |
-| [BIC-Boxtech](https://docs.bic-boxtech.org/) | Container technical detail for the global container fleet | `OAuth` | Yes | Unknown |
-| [BlaBlaCar](https://dev.blablacar.com) | Search car sharing trips | `apiKey` | Yes | Unknown |
-| [Boston MBTA Transit](https://www.mbta.com/developers/v3-api) | Stations and predicted arrivals for MBTA | `apiKey` | Yes | Unknown |
-| [Community Transit](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) | Transitland API | No | Yes | Unknown |
-| [Compare Flight Prices](https://rapidapi.com/obryan-software-obryan-software-default/api/compare-flight-prices/) | API for comparing flight prices across platforms | `apiKey` | Yes | Unknown |
-| [CTS](https://api.cts-strasbourg.eu/) | CTS Realtime API | `apiKey` | Yes | Yes |
-| [FAA N-Number Registry](https://n-number.starfile.org/api) | Every FAA-registered civil aircraft in the United States, lookup by N-number or Mode S hex code | No | Yes | Yes |
-| [Grab](https://developer.grab.com/docs/) | Track deliveries, ride fares, payments and loyalty points | `OAuth` | Yes | Unknown |
-| [GraphHopper](https://docs.graphhopper.com/) | A-to-B routing with turn-by-turn instructions | `apiKey` | Yes | Unknown |
-| [Icelandic APIs](http://docs.apis.is/) | Open APIs that deliver services in or regarding Iceland | No | Yes | Unknown |
-| [Impala Hotel Bookings](https://docs.impala.travel/docs/booking-api/) | Hotel content, rates and room bookings | `apiKey` | Yes | No |
-| [Izi](http://api-docs.izi.travel/) | Audio guide for travellers | `apiKey` | Yes | Unknown |
-| [Land Transport Authority DataMall, Singapore](https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf) | Singapore transport information | `apiKey` | No | Unknown |
-| [Metro Lisboa](http://app.metrolisboa.pt/status/getLinhas.php) | Delays in subway lines | No | No | No |
-| [Navitia](https://doc.navitia.io/) | The open API for building cool stuff with transport data | `apiKey` | Yes | Unknown |
-| [Open Charge Map](https://openchargemap.org/site/develop/api) | Global public registry of electric vehicle charging locations | `apiKey` | Yes | Yes |
-| [Orizn Visa](https://visa.orizn.app) | Visa requirements for 199 countries, 39K+ passport-destination pairs in 15 languages | `apiKey` | Yes | Yes |
-| [OpenSky Network](https://opensky-network.org/apidoc/index.html) | Free real-time ADS-B aviation data | No | Yes | Unknown |
-| [OpenVan](https://openvan.camp/docs) | Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel | No | Yes | Yes |
-| [Railway Transport for France](https://www.digital.sncf.com/startup/api) | SNCF public API | `apiKey` | Yes | Unknown |
-| [REFUGE Restrooms](https://www.refugerestrooms.org/api/docs/#!/restrooms) | Provides safe restroom access for transgender, intersex and gender nonconforming individuals | No | Yes | Unknown |
-| [Road511](https://road511.com/docs.html) | Unified traffic data from 65 US/CA jurisdictions: events, cameras, signs, bridges, truck routes | `apiKey` | Yes | Yes |
-| [Sabre for Developers](https://developer.sabre.com/guides/travel-agency/quickstart/getting-started-in-travel) | Travel Search - Limited usage | `apiKey` | Yes | Unknown |
-| [Schiphol Airport](https://developer.schiphol.nl/) | Schiphol | `apiKey` | Yes | Unknown |
-| [Tankerkoenig](https://creativecommons.tankerkoenig.de/swagger/) | German realtime gas/diesel prices | `apiKey` | Yes | Yes |
-| [TransitLand](https://www.transit.land/documentation/datastore/api-endpoints.html) | Transit Aggregation | No | Yes | Unknown |
-| [Transport for Atlanta, US](http://www.itsmarta.com/app-developer-resources.aspx) | Marta | No | No | Unknown |
-| [Transport for Auckland, New Zealand](https://dev-portal.at.govt.nz/) | Auckland Transport | No | Yes | Unknown |
-| [Transport for Belgium](https://docs.irail.be/) | The iRail API is a third-party API for Belgian public transport by train | No | Yes | Yes |
-| [Transport for Berlin, Germany](https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md) | Third-party VBB API | No | Yes | Unknown |
-| [Transport for Bordeaux, France](https://opendata.bordeaux-metropole.fr/explore/) | Bordeaux Métropole public transport and more (France) | `apiKey` | Yes | Unknown |
-| [Transport for Budapest, Hungary](https://bkkfutar.docs.apiary.io) | Budapest public transport API | No | Yes | Unknown |
-| [Transport for Chicago, US](http://www.transitchicago.com/developers/) | Chicago Transit Authority (CTA) | `apiKey` | No | Unknown |
-| [Transport for Czech Republic](https://www.chaps.cz/eng/products/idos-internet) | Czech transport API | No | Yes | Unknown |
-| [Transport for Denver, US](http://www.rtd-denver.com/gtfs-developer-guide.shtml) | RTD | No | No | Unknown |
-| [Transport for Finland](https://digitransit.fi/en/developers/ ) | Finnish transport API | No | Yes | Unknown |
-| [Transport for Germany](http://data.deutschebahn.com/dataset/api-fahrplan) | Deutsche Bahn (DB) API | `apiKey` | No | Unknown |
-| [Transport for Grenoble, France](https://www.mobilites-m.fr/pages/opendata/OpenDataApi.html) | Grenoble public transport | No | No | No |
-| [Transport for Hessen, Germany](https://opendata.rmv.de/site/start.html) | RMV API (Public Transport in Hessen) | No | Yes | Unknown |
-| [Transport for Honolulu, US](http://hea.thebus.org/api_info.asp) | Honolulu Transportation Information | `apiKey` | No | Unknown |
-| [Transport for Lisbon, Portugal](https://emel.city-platform.com/opendata/) | Data about buses routes, parking and traffic | `apiKey` | Yes | Unknown |
-| [Transport for London, England](https://api.tfl.gov.uk) | TfL API | `apiKey` | Yes | Unknown |
-| [Transport for Los Angeles, US](https://developer.metro.net/api/) | Data about positions of Metro vehicles in real time and travel their routes | No | Yes | Unknown |
-| [Transport for Manchester, England](https://developer.tfgm.com/) | TfGM transport network data | `apiKey` | Yes | No |
-| [Transport for Norway](https://developer.entur.org/) | Transport APIs and dataset for Norway | No | Yes | Unknown |
-| [Transport for Ottawa, Canada](https://www.octranspo.com/en/plan-your-trip/travel-tools/developers) | OC Transpo API | `apiKey` | Yes | Unknown |
-| [Transport for Paris, France](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) | RATP Open Data API | No | No | Unknown |
-| [Transport for Philadelphia, US](http://www3.septa.org/hackathon/) | SEPTA APIs | No | No | Unknown |
-| [Transport for Sao Paulo, Brazil](http://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/) | SPTrans | `OAuth` | No | Unknown |
-| [Transport for Spain](https://data.renfe.com/api/1/util/snippet/api_info.html?resource_id=a2368cff-1562-4dde-8466-9635ea3a572a) | Public trains of Spain | No | Yes | Unknown |
-| [Transport for Sweden](https://www.trafiklab.se/api) | Public Transport consumer | `OAuth` | Yes | Unknown |
-| [Transport for Switzerland](https://opentransportdata.swiss/en/) | Official Swiss Public Transport Open Data | `apiKey` | Yes | Unknown |
-| [Transport for Switzerland](https://transport.opendata.ch/) | Swiss public transport API | No | Yes | Unknown |
-| [Transport for The Netherlands](http://www.ns.nl/reisinformatie/ns-api) | NS, only trains | `apiKey` | No | Unknown |
-| [Transport for The Netherlands](https://github.com/skywave/KV78Turbo-OVAPI/wiki) | OVAPI, country-wide public transport | No | Yes | Unknown |
-| [Transport for Toronto, Canada](https://myttc.ca/developers) | TTC | No | Yes | Unknown |
-| [Transport for UK](https://developer.transportapi.com) | Transport API and dataset for UK | `apiKey` | Yes | Unknown |
-| [Transport for United States](https://retro.umoiq.com/xmlFeedDocs/NextBusXMLFeed.pdf) | NextBus API | No | No | Unknown |
-| [Transport for Vancouver, Canada](https://developer.translink.ca/) | TransLink | `OAuth` | Yes | Unknown |
-| [Transport for Washington, US](https://developer.wmata.com/) | Washington Metro transport API | `OAuth` | Yes | Unknown |
-| [transport.rest](https://transport.rest) | Community maintained, developer-friendly public transport API | No | Yes | Yes |
-| [Tripadvisor](https://developer-tripadvisor.com/home/) | Rating content for a hotel, restaurant, attraction or destination | `apiKey` | Yes | Unknown |
-| [Uber](https://developer.uber.com/products) | Uber ride requests and price estimation | `OAuth` | Yes | Yes |
-| [Velib metropolis, Paris, France](https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole) | Velib Open Data API | No | Yes | No |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### URL Shorteners
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [1pt](https://github.com/1pt-co/api/blob/main/README.md) | A simple URL shortener | No | Yes | Yes |
-| [Bitly](http://dev.bitly.com/get_started.html) | URL shortener and link management | `OAuth` | Yes | Unknown |
-| [CleanURI](https://cleanuri.com/docs) | URL shortener service | No | Yes | Yes |
-| [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | Monitor, compare and optimize your marketing links | `apiKey` | Yes | Unknown |
-| [Clico](https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config) | URL shortener service | `apiKey` | Yes | Unknown |
-| [Cutt.ly](https://cutt.ly/api-documentation/cuttly-links-api) | URL shortener service | `apiKey` | Yes | Unknown |
-| [Drivet URL Shortener](https://wiki.drivet.xyz/en/url-shortener/add-links) | Shorten a long URL easily and fast | No | Yes | Unknown |
-| [Free Url Shortener](https://ulvis.net/developer.html) | Free URL Shortener offers a powerful API to interact with other sites | No | Yes | Unknown |
-| [Git.io](https://github.blog/2011-11-10-git-io-github-url-shortener/) | Git.io URL shortener | No | Yes | Unknown |
-| [GoTiny](https://github.com/robvanbakel/gotiny-api) | A lightweight URL shortener, focused on ease-of-use for the developer and end-user | No | Yes | Yes |
-| [Kutt](https://docs.kutt.it/) | Free Modern URL Shortener | `apiKey` | Yes | Yes |
-| [Mgnet.me](http://mgnet.me/api.html) | Torrent URL shorten API | No | Yes | No |
-| [owo](https://owo.vc/api) | A simple link obfuscator/shortener | No | Yes | Unknown |
-| [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
-| [RedirHub](https://redirhub.com) | URL redirect management with custom domains, HTTPS, analytics, and REST API | `apiKey` | Yes | Yes |
-| [Short Link](https://github.com/FayasNoushad/Short-Link-API) | Short URLs support so many domains | No | Yes | Unknown |
-| [Shrtcode](https://shrtco.de/docs) | URl Shortener with multiple Domains | No | Yes | Yes |
-| [Shrtlnk](https://shrtlnk.dev/developer) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
-| [TinyURL](https://tinyurl.com/app/dev) | Shorten long URLs | `apiKey` | Yes | No |
-| [UrlBae](https://urlbae.com/developers) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Vehicle
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Auto Body Shop Directory](https://autobodyshopnear.com/developers/body-shop-api) | Find auto body shops by ZIP code, city, location, or profile | No | Yes | No |
-| [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | No |
-| [CarVector](https://carvector.io/docs) | Vehicle specs, images, recalls, and DTC codes across 1925-2029 | `apiKey` | Yes | Yes |
-| [Helipaddy sites](https://helipaddy.com/api/) | Helicopter and passenger drone landing site directory, Helipaddy data and much more | `apiKey` | Yes | Unknown |
-| [Kelley Blue Book](http://developer.kbb.com/#!/data/1-Default) | Vehicle info, pricing, configuration, plus much more | `apiKey` | Yes | No |
-| [Mercedes-Benz](https://developer.mercedes-benz.com/apis) | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | `apiKey` | Yes | No |
-| [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown |
-| [ProblemsByVin](https://problemsbyvin.com/data/) | Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year | No | Yes | Yes |
-| [RevCarData](https://revcardata.com) | 86,000+ global vehicle specifications and EV metrics | `apiKey` | Yes | Yes |
-| [Smartcar](https://smartcar.com/docs/) | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth` | Yes | Yes |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Video
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [An API of Ice And Fire](https://anapioficeandfire.com/) | Game Of Thrones API | No | Yes | Unknown |
-| [Bob's Burgers](https://bobs-burgers-api-ui.herokuapp.com) | Bob's Burgers API | No | Yes | Yes |
-| [Breaking Bad](https://breakingbadapi.com/documentation) | Breaking Bad API | No | Yes | Unknown |
-| [Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes) | Some Breaking Bad quotes | No | Yes | Unknown |
-| [Catalogopolis](https://api.catalogopolis.xyz/docs/) | Doctor Who API | No | Yes | Unknown |
-| [Catch The Show](https://catchtheshow.herokuapp.com/api/documentation) | REST API for next-episode.net | No | Yes | Unknown |
-| [Czech Television](http://www.ceskatelevize.cz/xml/tv-program/) | TV programme of Czech TV | No | No | Unknown |
-| [Dailymotion](https://developer.dailymotion.com/) | Dailymotion Developer API | `OAuth` | Yes | Unknown |
-| [Dune](https://github.com/ywalia01/dune-api) | A simple API which provides you with book, character, movie and quotes JSON data | No | Yes | Yes |
-| [Final Space](https://finalspaceapi.com/docs/) | Final Space API | No | Yes | Yes |
-| [Game of Thrones Quotes](https://gameofthronesquotes.xyz/) | Some Game of Thrones quotes | No | Yes | Unknown |
-| [Harry Potter Charactes](https://hp-api.herokuapp.com/) | Harry Potter Characters Data with with imagery | No | Yes | Unknown |
-| [Hyperserve](https://hyperserve.io/) | Video backend API: upload any format, transcode to MP4, deliver via CDN | `apiKey` | Yes | Yes |
-| [IMDb-API](https://imdb-api.com/) | API for receiving movie, serial and cast information | `apiKey` | Yes | Unknown |
-| [IMDbOT](https://github.com/SpEcHiDe/IMDbOT) | Unofficial IMDb Movie / Series Information | No | Yes | Yes |
-| [JSON2Video](https://json2video.com) | Create and edit videos programmatically: watermarks,resizing,slideshows,voice-over,text animations | `apiKey` | Yes | No |
-| [Lucifer Quotes](https://github.com/shadowoff09/lucifer-quotes) | Returns Lucifer quotes | No | Yes | Unknown |
-| [MCU Countdown](https://github.com/DiljotSG/MCU-Countdown) | A Countdown to the next MCU Film | No | Yes | Yes |
-| [Motivational Quotes](https://nodejs-quoteapp.herokuapp.com/) | Random Motivational Quotes | No | Yes | Unknown |
-| [Movie Quote](https://github.com/F4R4N/movie-quote/) | Random Movie and Series Quotes | No | Yes | Yes |
-| [Open Movie Database](http://www.omdbapi.com/) | Movie information | `apiKey` | Yes | Unknown |
-| [Owen Wilson Wow](https://owen-wilson-wow-api.herokuapp.com) | API for actor Owen Wilson's "wow" exclamations in movies | No | Yes | Yes |
-| [Rendobar](https://rendobar.com) | Hosted media processing over REST: transcode, caption, watermark video | `apiKey` | Yes | No |
-| [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) | Television | No | Yes | Unknown |
-| [Simkl](https://simkl.docs.apiary.io) | Movie, TV and Anime data | `apiKey` | Yes | Unknown |
-| [STAPI](http://stapi.co) | Information on all things Star Trek | No | No | No |
-| [Stranger Things Quotes](https://github.com/shadowoff09/strangerthings-quotes) | Returns Stranger Things quotes | No | Yes | Unknown |
-| [Stream](https://api.stream.cz/graphiql) | Czech internet television, films, series and online videos for free | No | Yes | No |
-| [Stromberg Quotes](https://www.stromberg-api.de/) | Returns Stromberg quotes and more | No | Yes | Unknown |
-| [SWAPI](https://swapi.dev/) | All the Star Wars data you've ever wanted | No | Yes | Yes |
-| [SWAPI](https://www.swapi.tech) | All things Star Wars | No | Yes | Yes |
-| [SWAPI GraphQL](https://graphql.org/swapi-graphql) | Star Wars GraphQL API | No | Yes | Unknown |
-| [The Lord of the Rings](https://the-one-api.dev/) | The Lord of the Rings API | `apiKey` | Yes | Unknown |
-| [The Vampire Diaries](https://vampire-diaries-api.netlify.app/) | TV Show Data | `apiKey` | Yes | Yes |
-| [ThronesApi](https://thronesapi.com/) | Game Of Thrones Characters Data with imagery | No | Yes | Unknown |
-| [TMDb](https://www.themoviedb.org/documentation/api) | Community-based movie data | `apiKey` | Yes | Unknown |
-| [TrailerAddict](https://www.traileraddict.com/trailerapi) | Easily embed trailers from TrailerAddict | `apiKey` | No | Unknown |    
-| [Trakt](https://trakt.docs.apiary.io/) | Movie and TV Data | `apiKey` | Yes | Yes |
-| [TVDB](https://thetvdb.com/api-information) | Television data | `apiKey` | Yes | Unknown |
-| [TVMaze](http://www.tvmaze.com/api) | TV Show Data | No | No | Unknown |
-| [uNoGS](https://rapidapi.com/unogs/api/unogsng) | Unofficial Netflix Online Global Search, Search all netflix regions in one place | `apiKey` | Yes | Yes |
-| [Vimeo](https://developer.vimeo.com/) | Vimeo Developer API | `OAuth` | Yes | Unknown |
-| [Watchmode](https://api.watchmode.com/) | API for finding out the streaming availability of movies & shows | `apiKey` | Yes | Unknown |
-| [Web Series Quotes Generator](https://github.com/yogeshwaran01/web-series-quotes) | API generates various Web Series Quote Images | No | Yes | Yes |
-| [YouTube](https://developers.google.com/youtube/) | Add YouTube functionality to your sites and apps | `OAuth` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-### Weather
-API | Description | Auth | HTTPS | CORS |
-|:---|:---|:---|:---|:---|
-| [Weatherstack](https://weatherstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-Time & Historical World Weather Data API | `apiKey` | Yes | Unknown |
-| [7Timer!](http://www.7timer.info/doc.php?lang=en) | Weather, especially for Astroweather | No | No | Unknown |
-| [AccuWeather](https://developer.accuweather.com/apis) | Weather and forecast data | `apiKey` | No | Unknown |
-| [Aemet](https://opendata.aemet.es/centrodedescargas/inicio) | Weather and forecast data from Spain | `apiKey` | Yes | Unknown |
-| [APIXU](https://www.apixu.com/doc/request.aspx) | Weather | `apiKey` | Yes | Unknown |
-| [AQICN](https://aqicn.org/api/) | Air Quality Index Data for over 1000 cities | `apiKey` | Yes | Unknown |
-| [AviationWeather](https://www.aviationweather.gov/dataserver) | NOAA aviation weather forecasts and observations | No | Yes | Unknown |
-| [ColorfulClouds](https://open.caiyunapp.com/ColorfulClouds_Weather_API) | Weather | `apiKey` | Yes | Yes |
-| [Euskalmet](https://opendata.euskadi.eus/api-euskalmet/-/api-de-euskalmet/) | Meteorological data of the Basque Country | `apiKey` | Yes | Unknown |
-| [Foreca](https://developer.foreca.com) | Weather | `OAuth` | Yes | Unknown |
-| [HG Weather](https://hgbrasil.com/status/weather) | Provides weather forecast data for cities in Brazil | `apiKey` | Yes | Yes |
-| [Hong Kong Obervatory](https://www.hko.gov.hk/en/abouthko/opendata_intro.htm) | Provide weather information, earthquake information, and climate data | No | Yes | Unknown |
-| [IPMA](https://api.ipma.pt/open-data/) | Portuguese weather and climate data | No | Yes | Unknown |
-| [Meteorologisk Institutt](https://api.met.no/weatherapi/documentation) | Weather and climate data | `User-Agent` | Yes | Unknown |
-| [Micro Weather](https://m3o.com/weather/api) | Real time weather forecasts and historic data | `apiKey` | Yes | Unknown |
-| [ODWeather](http://api.oceandrivers.com/static/docs.html) | Weather and weather webcams | No | No | Unknown |
-| [Oikolab](https://docs.oikolab.com) | 70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF | `apiKey` | Yes | Yes |
-| [Open-Meteo](https://open-meteo.com/) | Global weather forecast API for non-commercial use | No | Yes | Yes |
-| [openSenseMap](https://api.opensensemap.org/) | Data from Personal Weather Stations called senseBoxes | No | Yes | Yes |
-| [OpenUV](https://www.openuv.io) | Real-time UV Index Forecast | `apiKey` | Yes | Unknown |
-| [OpenWeatherMap](https://openweathermap.org/api) | Weather | `apiKey` | Yes | Unknown |
-| [Pirate Weather](https://pirateweather.net/en/latest/) | Free weather API with forecast data similar to Dark Sky | No | Yes | Yes |
-| [QWeather](https://dev.qweather.com/en/) | Location-based weather data | `apiKey` | Yes | Yes |
-| [Rainbow Weather](https://developer.rainbow.ai/) | Global real-time nowcasting API powered by radar + satellite fusion | `apiKey` | Yes | Unknown |
-| [RainViewer](https://www.rainviewer.com/api.html) | Radar data collected from different websites across the Internet | No | Yes | Unknown |
-| [Storm Glass](https://stormglass.io/) | Global marine weather from multiple sources | `apiKey` | Yes | Yes |
-| [Tomorrow](https://docs.tomorrow.io) | Weather API Powered by Proprietary Technology | `apiKey` | Yes | Unknown |
-| [US Weather](https://www.weather.gov/documentation/services-web-api) | US National Weather Service | No | Yes | Yes |
-| [Visual Crossing](https://www.visualcrossing.com/weather-api) | Global historical and weather forecast data | `apiKey` | Yes | Yes |
-| [weather-api](https://github.com/robertoduessmann/weather-api) | A RESTful free API to check the weather | No | Yes | No |
-| [WeatherAPI](https://www.weatherapi.com/) | Weather API with other stuff like Astronomy and Geolocation API | `apiKey` | Yes | Yes |
-| [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
-| [wttr.in](https://wttr.in/:help) | Weather in your terminal, supports JSON output | No | Yes | Yes |
-| [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
-
-**[⬆ Back to Index](#index)**
-<br >
 <br >
 
-<br>
+---
 
-## License
-[MIT](LICENSE) (c) 2022 public-apis
+## Character & String (string.h, ctype.h)
+
+### Character Classification
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [isalnum](https://man7.org/linux/man-pages/man3/isalnum.3.html) | `<ctype.h>` | Check for an alphanumeric character | POSIX.1-2001, C89 | Yes |
+| [isalpha](https://man7.org/linux/man-pages/man3/isalpha.3.html) | `<ctype.h>` | Check for an alphabetic character | POSIX.1-2001, C89 | Yes |
+| [isascii](https://man7.org/linux/man-pages/man3/isascii.3.html) | `<ctype.h>` | Check whether c is a 7-bit unsigned char value that fits into the ASCII character set | BSD, POSIX.1-2001 | Yes |
+| [isblank](https://man7.org/linux/man-pages/man3/isblank.3.html) | `<ctype.h>` | Check for a blank character; that is, a space or a tab | POSIX.1-2001, C99 | Yes |
+| [iscntrl](https://man7.org/linux/man-pages/man3/iscntrl.3.html) | `<ctype.h>` | Check for a control character | POSIX.1-2001, C89 | Yes |
+| [isdigit](https://man7.org/linux/man-pages/man3/isdigit.3.html) | `<ctype.h>` | Check for a digit (0 through 9) | POSIX.1-2001, C89 | Yes |
+| [isgraph](https://man7.org/linux/man-pages/man3/isgraph.3.html) | `<ctype.h>` | Check for any printable character except space | POSIX.1-2001, C89 | Yes |
+| [islower](https://man7.org/linux/man-pages/man3/islower.3.html) | `<ctype.h>` | Check for a lowercase character | POSIX.1-2001, C89 | Yes |
+| [isprint](https://man7.org/linux/man-pages/man3/isprint.3.html) | `<ctype.h>` | Check for any printable character including space | POSIX.1-2001, C89 | Yes |
+| [ispunct](https://man7.org/linux/man-pages/man3/ispunct.3.html) | `<ctype.h>` | Check for any printable character which is not a space or an alphanumeric character | POSIX.1-2001, C89 | Yes |
+| [isspace](https://man7.org/linux/man-pages/man3/isspace.3.html) | `<ctype.h>` | Check for white-space characters | POSIX.1-2001, C89 | Yes |
+| [isupper](https://man7.org/linux/man-pages/man3/isupper.3.html) | `<ctype.h>` | Check for an uppercase letter | POSIX.1-2001, C89 | Yes |
+| [isxdigit](https://man7.org/linux/man-pages/man3/isxdigit.3.html) | `<ctype.h>` | Check for hexadecimal digits | POSIX.1-2001, C89 | Yes |
+| [tolower](https://man7.org/linux/man-pages/man3/tolower.3.html) | `<ctype.h>` | Convert c to lowercase if possible | POSIX.1-2001, C89 | Yes |
+| [toupper](https://man7.org/linux/man-pages/man3/toupper.3.html) | `<ctype.h>` | Convert c to uppercase if possible | POSIX.1-2001, C89 | Yes |
+
+### String Operations
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [strcpy](https://man7.org/linux/man-pages/man3/strcpy.3.html) | `<string.h>` | Copy the string pointed to by src, including the terminating null byte | POSIX.1-2001, C89 | Yes |
+| [strncpy](https://man7.org/linux/man-pages/man3/strncpy.3.html) | `<string.h>` | Copy at most n bytes of src to dest | POSIX.1-2001, C89 | Yes |
+| [strcat](https://man7.org/linux/man-pages/man3/strcat.3.html) | `<string.h>` | Append the src string to the dest string | POSIX.1-2001, C89 | Yes |
+| [strncat](https://man7.org/linux/man-pages/man3/strncat.3.html) | `<string.h>` | Append at most n bytes of src to dest | POSIX.1-2001, C89 | Yes |
+| [strcmp](https://man7.org/linux/man-pages/man3/strcmp.3.html) | `<string.h>` | Compare the two strings s1 and s2 | POSIX.1-2001, C89 | Yes |
+| [strncmp](https://man7.org/linux/man-pages/man3/strncmp.3.html) | `<string.h>` | Compare the two strings s1 and s2, comparing at most n bytes | POSIX.1-2001, C89 | Yes |
+| [strcasecmp](https://man7.org/linux/man-pages/man3/strcasecmp.3.html) | `<strings.h>` | Compare two strings ignoring case | POSIX.1-2001, 4.4BSD | Yes |
+| [strncasecmp](https://man7.org/linux/man-pages/man3/strncasecmp.3.html) | `<strings.h>` | Compare two strings ignoring case, at most n bytes | POSIX.1-2001, 4.4BSD | Yes |
+| [strcoll](https://man7.org/linux/man-pages/man3/strcoll.3.html) | `<string.h>` | Compare two strings according to the current locale | POSIX.1-2001, C89 | Yes |
+| [strxfrm](https://man7.org/linux/man-pages/man3/strxfrm.3.html) | `<string.h>` | Transform src string so result of strcmp on two transformed strings gives same result as strcoll on originals | POSIX.1-2001, C89 | Yes |
+| [strchr](https://man7.org/linux/man-pages/man3/strchr.3.html) | `<string.h>` | Return a pointer to the first occurrence of the character c in the string s | POSIX.1-2001, C89 | Yes |
+| [strrchr](https://man7.org/linux/man-pages/man3/strrchr.3.html) | `<string.h>` | Return a pointer to the last occurrence of the character c in the string s | POSIX.1-2001, C89 | Yes |
+| [strpbrk](https://man7.org/linux/man-pages/man3/strpbrk.3.html) | `<string.h>` | Locate the first occurrence in the string s of any of the bytes in the string accept | POSIX.1-2001, C89 | Yes |
+| [strcspn](https://man7.org/linux/man-pages/man3/strcspn.3.html) | `<string.h>` | Get length of a prefix substring consisting of bytes not in reject | POSIX.1-2001, C89 | Yes |
+| [strspn](https://man7.org/linux/man-pages/man3/strspn.3.html) | `<string.h>` | Get length of a prefix substring consisting of bytes in accept | POSIX.1-2001, C89 | Yes |
+| [strstr](https://man7.org/linux/man-pages/man3/strstr.3.html) | `<string.h>` | Finds the first occurrence of the substring needle in the string haystack | POSIX.1-2001, C89 | Yes |
+| [strtok](https://man7.org/linux/man-pages/man3/strtok.3.html) | `<string.h>` | Extract tokens from strings | POSIX.1-2001, C89 | No (race:strtok) |
+| [strtok_r](https://man7.org/linux/man-pages/man3/strtok_r.3.html) | `<string.h>` | Reentrant version of strtok | POSIX.1-2001, C99 | Yes |
+| [strlen](https://man7.org/linux/man-pages/man3/strlen.3.html) | `<string.h>` | Calculate the length of the string pointed to by s, excluding the terminating null byte | POSIX.1-2001, C89 | Yes |
+| [strnlen](https://man7.org/linux/man-pages/man3/strnlen.3.html) | `<string.h>` | Determine the length of the string pointed to by s, excluding the terminating null byte, but not beyond n | POSIX.1-2008 | Yes |
+| [strdup](https://man7.org/linux/man-pages/man3/strdup.3.html) | `<string.h>` | Return a pointer to a new string which is a duplicate of the string s | POSIX.1-2001 | Yes |
+| [strndup](https://man7.org/linux/man-pages/man3/strndup.3.html) | `<string.h>` | Return a pointer to a new string which is a duplicate of the string s, but not more than n bytes | POSIX.1-2008 | Yes |
+| [strerror](https://man7.org/linux/man-pages/man3/strerror.3.html) | `<string.h>` | Return a pointer to the textual representation of the current errno code | POSIX.1-2001, C89 | No (race:strerror locale) |
+| [strerror_r](https://man7.org/linux/man-pages/man3/strerror_r.3.html) | `<string.h>` | Reentrant version of strerror | POSIX.1-2001 | Yes |
+| [strsignal](https://man7.org/linux/man-pages/man3/strsignal.3.html) | `<string.h>` | Return string describing signal number | POSIX.1-2008 | Yes |
+| [strfmon](https://man7.org/linux/man-pages/man3/strfmon.3.html) | `<monetary.h>` | Format a monetary value according to the locale | POSIX.1-2008 | Yes |
+
+### Memory Operations
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [memcpy](https://man7.org/linux/man-pages/man3/memcpy.3.html) | `<string.h>` | Copy n bytes from memory area src to memory area dest | POSIX.1-2001, C89 | Yes |
+| [memmove](https://man7.org/linux/man-pages/man3/memmove.3.html) | `<string.h>` | Copy n bytes from src to dest; the memory areas may overlap | POSIX.1-2001, C89 | Yes |
+| [memset](https://man7.org/linux/man-pages/man3/memset.3.html) | `<string.h>` | Fill the first n bytes of the memory area pointed to by s with the constant byte c | POSIX.1-2001, C89 | Yes |
+| [memchr](https://man7.org/linux/man-pages/man3/memchr.3.html) | `<string.h>` | Scan the initial n bytes of the memory area pointed to by s for the first instance of c | POSIX.1-2001, C89 | Yes |
+| [memrchr](https://man7.org/linux/man-pages/man3/memrchr.3.html) | `<string.h>` | Scan the n bytes of the memory area s for the last instance of c | GNU | Yes |
+| [memcmp](https://man7.org/linux/man-pages/man3/memcmp.3.html) | `<string.h>` | Compare the first n bytes (each interpreted as unsigned char) of the memory areas s1 and s2 | POSIX.1-2001, C89 | Yes |
+| [bcopy](https://man7.org/linux/man-pages/man3/bcopy.3.html) | `<strings.h>` | Copy n bytes from src to dest | 4.3BSD | Yes |
+| [bzero](https://man7.org/linux/man-pages/man3/bzero.3.html) | `<strings.h>` | Set the first n bytes of the byte area starting at s to zero | 4.3BSD | Yes |
+| [bcmp](https://man7.org/linux/man-pages/man3/bcmp.3.html) | `<strings.h>` | Compare the first n bytes of the two byte areas s1 and s2 | 4.3BSD | Yes |
+| [swab](https://man7.org/linux/man-pages/man3/swab.3.html) | `<string.h>` | Swap adjacent bytes | POSIX.1-2001 | Yes |
+
+<br >
+
+---
+
+## Memory Management (stdlib.h, sys/mman.h)
+
+### Dynamic Memory Allocation
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [malloc](https://man7.org/linux/man-pages/man3/malloc.3.html) | `<stdlib.h>` | Allocate size bytes and return a pointer to the allocated memory | POSIX.1-2001, C89 | Yes |
+| [calloc](https://man7.org/linux/man-pages/man3/calloc.3.html) | `<stdlib.h>` | Allocate memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory | POSIX.1-2001, C89 | Yes |
+| [realloc](https://man7.org/linux/man-pages/man3/realloc.3.html) | `<stdlib.h>` | Change the size of the memory block pointed to by ptr to size bytes | POSIX.1-2001, C89 | Yes |
+| [reallocarray](https://man7.org/linux/man-pages/man3/reallocarray.3.html) | `<stdlib.h>` | Reallocate array, same as realloc(nmemb*size) with overflow protection | GNU | Yes |
+| [free](https://man7.org/linux/man-pages/man3/free.3.html) | `<stdlib.h>` | Frees the memory space pointed to by ptr | POSIX.1-2001, C89 | Yes |
+| [posix_memalign](https://man7.org/linux/man-pages/man3/posix_memalign.3.html) | `<stdlib.h>` | Allocate aligned memory, aligned to a boundary that is a multiple of alignment | POSIX.1-2001 | Yes |
+| [aligned_alloc](https://man7.org/linux/man-pages/man3/aligned_alloc.3.html) | `<stdlib.h>` | Allocate size bytes of memory aligned to alignment | C11, POSIX.1-2008 | Yes |
+| [memalign](https://man7.org/linux/man-pages/man3/memalign.3.html) | `<stdlib.h>` | Allocate size bytes and return a pointer to the allocated memory; memory address is a multiple of alignment | BSD, SVID | Yes |
+| [valloc](https://man7.org/linux/man-pages/man3/valloc.3.html) | `<stdlib.h>` | Allocates size bytes and returns a pointer to the allocated memory; memory address is a multiple of the page size | BSD | Yes |
+| [pvalloc](https://man7.org/linux/man-pages/man3/pvalloc.3.html) | `<stdlib.h>` | Allocate size bytes and returns a pointer to the allocated memory; size is rounded up to next multiple of page size | GNU | Yes |
+| [mallopt](https://man7.org/linux/man-pages/man3/mallopt.3.html) | `<malloc.h>` | Set tunable parameters that affect the behavior of malloc | GNU | Yes |
+| [malloc_stats](https://man7.org/linux/man-pages/man3/malloc_stats.3.html) | `<malloc.h>` | Print (on stderr) statistics about calls to malloc and free | GNU | Yes |
+| [malloc_trim](https://man7.org/linux/man-pages/man3/malloc_trim.3.html) | `<malloc.h>` | Release free pages from the top of the heap | GNU | Yes |
+| [malloc_usable_size](https://man7.org/linux/man-pages/man3/malloc_usable_size.3.html) | `<malloc.h>` | Obtain size of block of memory allocated with malloc | GNU | Yes |
+| [mtrace](https://man7.org/linux/man-pages/man3/mtrace.3.html) | `<mcheck.h>` | Install handlers for tracing memory allocation and deallocation | GNU | Yes |
+| [muntrace](https://man7.org/linux/man-pages/man3/muntrace.3.html) | `<mcheck.h>` | Turn off memory tracing | GNU | Yes |
+| [mallinfo](https://man7.org/linux/man-pages/man3/mallinfo.3.html) | `<malloc.h>` | Returns a copy of the malloc internal bookkeeping information | GNU | Yes |
+| [mallinfo2](https://man7.org/linux/man-pages/man3/mallinfo2.3.html) | `<malloc.h>` | Like mallinfo but with larger fields to handle modern memory sizes | GNU | Yes |
+| [mcheck](https://man7.org/linux/man-pages/man3/mcheck.3.html) | `<mcheck.h>` | Consistency check for malloc | GNU | Yes |
+| [mprobe](https://man7.org/linux/man-pages/man3/mprobe.3.html) | `<mcheck.h>` | Check consistency of block pointed to by ptr | GNU | Yes |
+| [alloca](https://man7.org/linux/man-pages/man3/alloca.3.html) | `<alloca.h>` | Allocate memory that is automatically freed when the function that called alloca returns | BSD, GNU | Yes |
+
+### Memory-mapped Files
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [mmap](https://man7.org/linux/man-pages/man2/mmap.2.html) | `<sys/mman.h>` | Map files or devices into memory | POSIX.1-2001 | Yes |
+| [munmap](https://man7.org/linux/man-pages/man2/munmap.2.html) | `<sys/mman.h>` | Unmap files or devices from memory | POSIX.1-2001 | Yes |
+| [mprotect](https://man7.org/linux/man-pages/man2/mprotect.2.html) | `<sys/mman.h>` | Set protection on a region of memory | POSIX.1-2001 | Yes |
+| [msync](https://man7.org/linux/man-pages/man2/msync.2.html) | `<sys/mman.h>` | Synchronize a file with a memory map | POSIX.1-2001 | Yes |
+| [mlock](https://man7.org/linux/man-pages/man2/mlock.2.html) | `<sys/mman.h>` | Lock part of the calling process virtual address space into RAM | POSIX.1-2001 | Yes |
+| [mlock2](https://man7.org/linux/man-pages/man2/mlock2.2.html) | `<sys/mman.h>` | Lock part of the calling process virtual address space into RAM with flags | Linux | Yes |
+| [munlock](https://man7.org/linux/man-pages/man2/munlock.2.html) | `<sys/mman.h>` | Unlock pages in the specified address range | POSIX.1-2001 | Yes |
+| [mlockall](https://man7.org/linux/man-pages/man2/mlockall.2.html) | `<sys/mman.h>` | Lock all pages mapped into the address space of the calling process | POSIX.1-2001 | Yes |
+| [munlockall](https://man7.org/linux/man-pages/man2/munlockall.2.html) | `<sys/mman.h>` | Unlock all pages mapped into the address space of the calling process | POSIX.1-2001 | Yes |
+| [madvise](https://man7.org/linux/man-pages/man2/madvise.2.html) | `<sys/mman.h>` | Give advice about use of memory | POSIX.1-2001 | Yes |
+| [posix_madvise](https://man7.org/linux/man-pages/man3/posix_madvise.3.html) | `<sys/mman.h>` | Give advice about use of memory, same as madvise but different return value | POSIX.1-2001 | Yes |
+| [mincore](https://man7.org/linux/man-pages/man2/mincore.2.html) | `<sys/mman.h>` | Determine whether pages are resident in memory | POSIX.1-2001 | Yes |
+| [mremap](https://man7.org/linux/man-pages/man2/mremap.2.html) | `<sys/mman.h>` | Remap a virtual memory address, expand or shrink | Linux | Yes |
+| [remap_file_pages](https://man7.org/linux/man-pages/man2/remap_file_pages.2.html) | `<sys/mman.h>` | Create a nonlinear mapping | Linux | Yes |
+| [shm_open](https://man7.org/linux/man-pages/man3/shm_open.3.html) | `<sys/mman.h>` | Open a POSIX shared memory object | POSIX.1-2001 | Yes |
+| [shm_unlink](https://man7.org/linux/man-pages/man3/shm_unlink.3.html) | `<sys/mman.h>` | Remove a POSIX shared memory object | POSIX.1-2001 | Yes |
+
+### Program Address Space
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [sbrk](https://man7.org/linux/man-pages/man2/sbrk.2.html) | `<unistd.h>` | Change data segment size | BSD, SUSv1 | Yes |
+| [brk](https://man7.org/linux/man-pages/man2/brk.2.html) | `<unistd.h>` | Change the location of the program break | BSD, SUSv1 | Yes |
+| [getpagesize](https://man7.org/linux/man-pages/man2/getpagesize.2.html) | `<unistd.h>` | Get memory page size | POSIX.1-2001 | Yes |
+| [sysconf](https://man7.org/linux/man-pages/man3/sysconf.3.html) | `<unistd.h>` | Get configuration information at runtime (including _SC_PAGESIZE) | POSIX.1-2001 | Yes |
+
+<br >
+
+---
+
+## Math Library (math.h)
+
+### Basic Math Functions
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [abs](https://man7.org/linux/man-pages/man3/abs.3.html) | `<stdlib.h>` | Compute the absolute value of the integer argument | POSIX.1-2001, C89 | Yes |
+| [labs](https://man7.org/linux/man-pages/man3/labs.3.html) | `<stdlib.h>` | Compute the absolute value of the long integer argument | POSIX.1-2001, C89 | Yes |
+| [llabs](https://man7.org/linux/man-pages/man3/llabs.3.html) | `<stdlib.h>` | Compute the absolute value of the long long integer argument | POSIX.1-2001, C99 | Yes |
+| [imaxabs](https://man7.org/linux/man-pages/man3/imaxabs.3.html) | `<inttypes.h>` | Compute the absolute value of the intmax_t argument | POSIX.1-2001, C99 | Yes |
+| [fabs](https://man7.org/linux/man-pages/man3/fabs.3.html) | `<math.h>` | Compute the absolute value of the floating-point number x | POSIX.1-2001, C89 | Yes |
+| [fabsf](https://man7.org/linux/man-pages/man3/fabsf.3.html) | `<math.h>` | Compute the absolute value of the float number x | POSIX.1-2001, C99 | Yes |
+| [fabsl](https://man7.org/linux/man-pages/man3/fabsl.3.html) | `<math.h>` | Compute the absolute value of the long double number x | POSIX.1-2001, C99 | Yes |
+| [div](https://man7.org/linux/man-pages/man3/div.3.html) | `<stdlib.h>` | Compute the quotient and remainder of the division of the numerator by denominator | POSIX.1-2001, C89 | Yes |
+| [ldiv](https://man7.org/linux/man-pages/man3/ldiv.3.html) | `<stdlib.h>` | Same as div but with long arguments | POSIX.1-2001, C89 | Yes |
+| [lldiv](https://man7.org/linux/man-pages/man3/lldiv.3.html) | `<stdlib.h>` | Same as div but with long long arguments | POSIX.1-2001, C99 | Yes |
+| [imaxdiv](https://man7.org/linux/man-pages/man3/imaxdiv.3.html) | `<inttypes.h>` | Same as div but with intmax_t arguments | POSIX.1-2001, C99 | Yes |
+
+### Trigonometric Functions
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [sin](https://man7.org/linux/man-pages/man3/sin.3.html) | `<math.h>` | Sine function | POSIX.1-2001, C89 | Yes |
+| [cos](https://man7.org/linux/man-pages/man3/cos.3.html) | `<math.h>` | Cosine function | POSIX.1-2001, C89 | Yes |
+| [tan](https://man7.org/linux/man-pages/man3/tan.3.html) | `<math.h>` | Tangent function | POSIX.1-2001, C89 | Yes |
+| [asin](https://man7.org/linux/man-pages/man3/asin.3.html) | `<math.h>` | Arc sine function | POSIX.1-2001, C89 | Yes |
+| [acos](https://man7.org/linux/man-pages/man3/acos.3.html) | `<math.h>` | Arc cosine function | POSIX.1-2001, C89 | Yes |
+| [atan](https://man7.org/linux/man-pages/man3/atan.3.html) | `<math.h>` | Arc tangent function | POSIX.1-2001, C89 | Yes |
+| [atan2](https://man7.org/linux/man-pages/man3/atan2.3.html) | `<math.h>` | Arc tangent function of two variables | POSIX.1-2001, C89 | Yes |
+| [sinh](https://man7.org/linux/man-pages/man3/sinh.3.html) | `<math.h>` | Hyperbolic sine function | POSIX.1-2001, C89 | Yes |
+| [cosh](https://man7.org/linux/man-pages/man3/cosh.3.html) | `<math.h>` | Hyperbolic cosine function | POSIX.1-2001, C89 | Yes |
+| [tanh](https://man7.org/linux/man-pages/man3/tanh.3.html) | `<math.h>` | Hyperbolic tangent function | POSIX.1-2001, C89 | Yes |
+| [asinh](https://man7.org/linux/man-pages/man3/asinh.3.html) | `<math.h>` | Inverse hyperbolic sine function | POSIX.1-2001, C99 | Yes |
+| [acosh](https://man7.org/linux/man-pages/man3/acosh.3.html) | `<math.h>` | Inverse hyperbolic cosine function | POSIX.1-2001, C99 | Yes |
+| [atanh](https://man7.org/linux/man-pages/man3/atanh.3.html) | `<math.h>` | Inverse hyperbolic tangent function | POSIX.1-2001, C99 | Yes |
+
+### Exponential & Logarithmic Functions
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [exp](https://man7.org/linux/man-pages/man3/exp.3.html) | `<math.h>` | Exponential function (e^x) | POSIX.1-2001, C89 | Yes |
+| [exp2](https://man7.org/linux/man-pages/man3/exp2.3.html) | `<math.h>` | Base-2 exponential function (2^x) | POSIX.1-2001, C99 | Yes |
+| [expm1](https://man7.org/linux/man-pages/man3/expm1.3.html) | `<math.h>` | Exponential minus 1 (e^x - 1) | POSIX.1-2001, C99 | Yes |
+| [log](https://man7.org/linux/man-pages/man3/log.3.html) | `<math.h>` | Natural logarithm function (ln x) | POSIX.1-2001, C89 | Yes |
+| [log2](https://man7.org/linux/man-pages/man3/log2.3.html) | `<math.h>` | Base-2 logarithm function (log2 x) | POSIX.1-2001, C99 | Yes |
+| [log10](https://man7.org/linux/man-pages/man3/log10.3.html) | `<math.h>` | Base-10 logarithm function (log10 x) | POSIX.1-2001, C89 | Yes |
+| [log1p](https://man7.org/linux/man-pages/man3/log1p.3.html) | `<math.h>` | Natural logarithm of 1 plus argument (ln(1+x)) | POSIX.1-2001, C99 | Yes |
+| [logb](https://man7.org/linux/man-pages/man3/logb.3.html) | `<math.h>` | Extract exponent of the floating-point number | POSIX.1-2001, C99 | Yes |
+| [ilogb](https://man7.org/linux/man-pages/man3/ilogb.3.html) | `<math.h>` | Return integer part of the exponent of x | POSIX.1-2001, C99 | Yes |
+| [pow](https://man7.org/linux/man-pages/man3/pow.3.html) | `<math.h>` | Power function (x^y) | POSIX.1-2001, C89 | Yes |
+| [sqrt](https://man7.org/linux/man-pages/man3/sqrt.3.html) | `<math.h>` | Non-negative square root function | POSIX.1-2001, C89 | Yes |
+| [cbrt](https://man7.org/linux/man-pages/man3/cbrt.3.html) | `<math.h>` | Cube root function | POSIX.1-2001, C99 | Yes |
+| [hypot](https://man7.org/linux/man-pages/man3/hypot.3.html) | `<math.h>` | Euclidean distance function sqrt(x^2 + y^2) | POSIX.1-2001, C89 | Yes |
+
+### Rounding & Remainder Functions
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [ceil](https://man7.org/linux/man-pages/man3/ceil.3.html) | `<math.h>` | Smallest integral value not less than x | POSIX.1-2001, C89 | Yes |
+| [floor](https://man7.org/linux/man-pages/man3/floor.3.html) | `<math.h>` | Largest integral value not greater than x | POSIX.1-2001, C89 | Yes |
+| [trunc](https://man7.org/linux/man-pages/man3/trunc.3.html) | `<math.h>` | Round to integer, toward zero | POSIX.1-2001, C99 | Yes |
+| [round](https://man7.org/linux/man-pages/man3/round.3.html) | `<math.h>` | Round to nearest integer, away from zero | POSIX.1-2001, C99 | Yes |
+| [lround](https://man7.org/linux/man-pages/man3/lround.3.html) | `<math.h>` | Round to nearest integer, away from zero; return long | POSIX.1-2001, C99 | Yes |
+| [llround](https://man7.org/linux/man-pages/man3/llround.3.html) | `<math.h>` | Round to nearest integer, away from zero; return long long | POSIX.1-2001, C99 | Yes |
+| [nearbyint](https://man7.org/linux/man-pages/man3/nearbyint.3.html) | `<math.h>` | Round to integer in current rounding direction | POSIX.1-2001, C99 | Yes |
+| [rint](https://man7.org/linux/man-pages/man3/rint.3.html) | `<math.h>` | Round to integer in current rounding direction, raise inexact exception | POSIX.1-2001, C89 | Yes |
+| [lrint](https://man7.org/linux/man-pages/man3/lrint.3.html) | `<math.h>` | Round to integer in current rounding direction, return long | POSIX.1-2001, C99 | Yes |
+| [llrint](https://man7.org/linux/man-pages/man3/llrint.3.html) | `<math.h>` | Round to integer in current rounding direction, return long long | POSIX.1-2001, C99 | Yes |
+| [fmod](https://man7.org/linux/man-pages/man3/fmod.3.html) | `<math.h>` | Floating-point remainder function | POSIX.1-2001, C89 | Yes |
+| [remainder](https://man7.org/linux/man-pages/man3/remainder.3.html) | `<math.h>` | IEEE remainder function | POSIX.1-2001, C89 | Yes |
+| [remquo](https://man7.org/linux/man-pages/man3/remquo.3.html) | `<math.h>` | Compute remainder and part of quotient | POSIX.1-2001, C99 | Yes |
+| [modf](https://man7.org/linux/man-pages/man3/modf.3.html) | `<math.h>` | Break x into fractional and integer parts | POSIX.1-2001, C89 | Yes |
+| [frexp](https://man7.org/linux/man-pages/man3/frexp.3.html) | `<math.h>` | Convert floating-point number to fractional and integral components | POSIX.1-2001, C89 | Yes |
+| [ldexp](https://man7.org/linux/man-pages/man3/ldexp.3.html) | `<math.h>` | Multiply floating-point number by integral power of 2 | POSIX.1-2001, C89 | Yes |
+| [scalbn](https://man7.org/linux/man-pages/man3/scalbn.3.html) | `<math.h>` | Multiply floating-point number by integral power of FLT_RADIX | POSIX.1-2001, C89 | Yes |
+| [scalbln](https://man7.org/linux/man-pages/man3/scalbln.3.html) | `<math.h>` | Multiply floating-point number by integral power of FLT_RADIX, using long exponent | POSIX.1-2001, C99 | Yes |
+
+### Classification & Comparison
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [isnan](https://man7.org/linux/man-pages/man3/isnan.3.html) | `<math.h>` | Determine whether floating-point value is not a number | POSIX.1-2001, C99 | Yes |
+| [isinf](https://man7.org/linux/man-pages/man3/isinf.3.html) | `<math.h>` | Determine whether floating-point value is infinite | POSIX.1-2001, C99 | Yes |
+| [isfinite](https://man7.org/linux/man-pages/man3/isfinite.3.html) | `<math.h>` | Determine whether floating-point value is a finite number | POSIX.1-2001, C99 | Yes |
+| [signbit](https://man7.org/linux/man-pages/man3/signbit.3.html) | `<math.h>` | Test the sign bit of the floating-point value | POSIX.1-2001, C99 | Yes |
+| [fpclassify](https://man7.org/linux/man-pages/man3/fpclassify.3.html) | `<math.h>` | Classify real floating type | POSIX.1-2001, C99 | Yes |
+| [isnormal](https://man7.org/linux/man-pages/man3/isnormal.3.html) | `<math.h>` | Test whether value is a normal number | POSIX.1-2001, C99 | Yes |
+| [copysign](https://man7.org/linux/man-pages/man3/copysign.3.html) | `<math.h>` | Copy sign of a number | POSIX.1-2001, C99 | Yes |
+| [nextafter](https://man7.org/linux/man-pages/man3/nextafter.3.html) | `<math.h>` | Next representable floating-point value | POSIX.1-2001, C99 | Yes |
+| [nexttoward](https://man7.org/linux/man-pages/man3/nexttoward.3.html) | `<math.h>` | Next representable floating-point value toward x in the direction of y | POSIX.1-2001, C99 | Yes |
+| [nan](https://man7.org/linux/man-pages/man3/nan.3.html) | `<math.h>` | Return quiet NaN | POSIX.1-2001, C99 | Yes |
+| [fmax](https://man7.org/linux/man-pages/man3/fmax.3.html) | `<math.h>` | Determine maximum of two floating-point numbers | POSIX.1-2001, C99 | Yes |
+| [fmin](https://man7.org/linux/man-pages/man3/fmin.3.html) | `<math.h>` | Determine minimum of two floating-point numbers | POSIX.1-2001, C99 | Yes |
+| [fdim](https://man7.org/linux/man-pages/man3/fdim.3.html) | `<math.h>` | Compute positive difference of two floating-point numbers | POSIX.1-2001, C99 | Yes |
+| [fma](https://man7.org/linux/man-pages/man3/fma.3.html) | `<math.h>` | Floating-point multiply and add | POSIX.1-2001, C99 | Yes |
+
+### Error & Special Functions
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [erf](https://man7.org/linux/man-pages/man3/erf.3.html) | `<math.h>` | Error function | POSIX.1-2001, C99 | Yes |
+| [erfc](https://man7.org/linux/man-pages/man3/erfc.3.html) | `<math.h>` | Complementary error function | POSIX.1-2001, C99 | Yes |
+| [lgamma](https://man7.org/linux/man-pages/man3/lgamma.3.html) | `<math.h>` | Natural logarithm of the absolute value of the gamma function | POSIX.1-2001, C99 | Yes |
+| [tgamma](https://man7.org/linux/man-pages/man3/tgamma.3.html) | `<math.h>` | True gamma function | POSIX.1-2001, C99 | Yes |
+| [j0](https://man7.org/linux/man-pages/man3/j0.3.html) | `<math.h>` | Bessel function of the first kind, order 0 | POSIX.1-2001 | Yes |
+| [j1](https://man7.org/linux/man-pages/man3/j1.3.html) | `<math.h>` | Bessel function of the first kind, order 1 | POSIX.1-2001 | Yes |
+| [jn](https://man7.org/linux/man-pages/man3/jn.3.html) | `<math.h>` | Bessel function of the first kind, order n | POSIX.1-2001 | Yes |
+| [y0](https://man7.org/linux/man-pages/man3/y0.3.html) | `<math.h>` | Bessel function of the second kind, order 0 | POSIX.1-2001 | Yes |
+| [y1](https://man7.org/linux/man-pages/man3/y1.3.html) | `<math.h>` | Bessel function of the second kind, order 1 | POSIX.1-2001 | Yes |
+| [yn](https://man7.org/linux/man-pages/man3/yn.3.html) | `<math.h>` | Bessel function of the second kind, order n | POSIX.1-2001 | Yes |
+
+### Floating-Point Environment
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [feclearexcept](https://man7.org/linux/man-pages/man3/feclearexcept.3.html) | `<fenv.h>` | Clear the supported exceptions represented by the excepts argument | POSIX.1-2001, C99 | Yes |
+| [fegetexceptflag](https://man7.org/linux/man-pages/man3/fegetexceptflag.3.html) | `<fenv.h>` | Store implementation-defined representation of the exception flags | POSIX.1-2001, C99 | Yes |
+| [feraiseexcept](https://man7.org/linux/man-pages/man3/feraiseexcept.3.html) | `<fenv.h>` | Raise the supported floating-point exceptions represented by excepts | POSIX.1-2001, C99 | Yes |
+| [fesetexceptflag](https://man7.org/linux/man-pages/man3/fesetexceptflag.3.html) | `<fenv.h>` | Set complete status flags | POSIX.1-2001, C99 | Yes |
+| [fetestexcept](https://man7.org/linux/man-pages/man3/fetestexcept.3.html) | `<fenv.h>` | Determine which of a specified subset of the floating-point exception flags are currently set | POSIX.1-2001, C99 | Yes |
+| [fegetround](https://man7.org/linux/man-pages/man3/fegetround.3.html) | `<fenv.h>` | Get the rounding direction | POSIX.1-2001, C99 | Yes |
+| [fesetround](https://man7.org/linux/man-pages/man3/fesetround.3.html) | `<fenv.h>` | Set the rounding direction | POSIX.1-2001, C99 | Yes |
+| [fegetenv](https://man7.org/linux/man-pages/man3/fegetenv.3.html) | `<fenv.h>` | Get the floating-point environment | POSIX.1-2001, C99 | Yes |
+| [feholdexcept](https://man7.org/linux/man-pages/man3/feholdexcept.3.html) | `<fenv.h>` | Save the current floating-point environment | POSIX.1-2001, C99 | Yes |
+| [fesetenv](https://man7.org/linux/man-pages/man3/fesetenv.3.html) | `<fenv.h>` | Establish the floating-point environment represented by envp | POSIX.1-2001, C99 | Yes |
+| [feupdateenv](https://man7.org/linux/man-pages/man3/feupdateenv.3.html) | `<fenv.h>` | Update the floating-point environment | POSIX.1-2001, C99 | Yes |
+
+<br >
+
+---
+
+## Time & Date (time.h, sys/time.h)
+
+### Time Functions
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [time](https://man7.org/linux/man-pages/man2/time.2.html) | `<time.h>` | Return the time as seconds since the Epoch (00:00:00 UTC, January 1, 1970) | POSIX.1-2001, C89 | Yes |
+| [gettimeofday](https://man7.org/linux/man-pages/man2/gettimeofday.2.html) | `<sys/time.h>` | Get the time (seconds and microseconds) | POSIX.1-2001, 4.3BSD | Yes |
+| [settimeofday](https://man7.org/linux/man-pages/man2/settimeofday.2.html) | `<sys/time.h>` | Set the system time | POSIX.1-2001, 4.3BSD | Yes |
+| [clock_gettime](https://man7.org/linux/man-pages/man2/clock_gettime.2.html) | `<time.h>` | Find the resolution (precision) of the specified clock clk_id | POSIX.1-2001 | Yes |
+| [clock_getres](https://man7.org/linux/man-pages/man2/clock_getres.2.html) | `<time.h>` | Find the resolution of the specified clock | POSIX.1-2001 | Yes |
+| [clock_settime](https://man7.org/linux/man-pages/man2/clock_settime.2.html) | `<time.h>` | Set the time of the specified clock | POSIX.1-2001 | Yes |
+| [clock](https://man7.org/linux/man-pages/man3/clock.3.html) | `<time.h>` | Approximate processor time used by the program | POSIX.1-2001, C89 | Yes |
+| [times](https://man7.org/linux/man-pages/man3/times.3.html) | `<sys/times.h>` | Return the current process times | POSIX.1-2001, C89 | Yes |
+| [difftime](https://man7.org/linux/man-pages/man3/difftime.3.html) | `<time.h>` | Calculate the difference between two times | POSIX.1-2001, C89 | Yes |
+| [mktime](https://man7.org/linux/man-pages/man3/mktime.3.html) | `<time.h>` | Convert a broken-down time structure to time_t (local time) | POSIX.1-2001, C89 | Yes |
+| [nanosleep](https://man7.org/linux/man-pages/man2/nanosleep.2.html) | `<time.h>` | High-resolution sleep | POSIX.1 | Yes |
+
+### Date & Time Formatting
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [strftime](https://man7.org/linux/man-pages/man3/strftime.3.html) | `<time.h>` | Format broken-down time into a string according to format specification | POSIX.1-2001, C89 | Yes |
+| [strptime](https://man7.org/linux/man-pages/man3/strptime.3.html) | `<time.h>` | Convert a string representation of time to a time tm structure | POSIX.1-2001 | Yes |
+| [asctime](https://man7.org/linux/man-pages/man3/asctime.3.html) | `<time.h>` | Convert broken-down time to a string | POSIX.1-2001, C89 | Yes |
+| [asctime_r](https://man7.org/linux/man-pages/man3/asctime_r.3.html) | `<time.h>` | Reentrant version of asctime | POSIX.1-2001, C89 | Yes |
+| [ctime](https://man7.org/linux/man-pages/man3/ctime.3.html) | `<time.h>` | Convert calendar time to a string | POSIX.1-2001, C89 | Yes |
+| [ctime_r](https://man7.org/linux/man-pages/man3/ctime_r.3.html) | `<time.h>` | Reentrant version of ctime | POSIX.1-2001 | Yes |
+| [gmtime](https://man7.org/linux/man-pages/man3/gmtime.3.html) | `<time.h>` | Convert calendar time to broken-down time (UTC) | POSIX.1-2001, C89 | Yes |
+| [gmtime_r](https://man7.org/linux/man-pages/man3/gmtime_r.3.html) | `<time.h>` | Reentrant version of gmtime | POSIX.1-2001 | Yes |
+| [localtime](https://man7.org/linux/man-pages/man3/localtime.3.html) | `<time.h>` | Convert calendar time to broken-down time (local timezone) | POSIX.1-2001, C89 | Yes |
+| [localtime_r](https://man7.org/linux/man-pages/man3/localtime_r.3.html) | `<time.h>` | Reentrant version of localtime | POSIX.1-2001 | Yes |
+| [tzset](https://man7.org/linux/man-pages/man3/tzset.3.html) | `<time.h>` | Initialize time conversion information using the TZ environment variable | POSIX.1-2001, C89 | Yes |
+
+### Timers
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [timer_create](https://man7.org/linux/man-pages/man2/timer_create.2.html) | `<time.h>` | Create a POSIX per-process timer | POSIX.1-2001 | Yes |
+| [timer_delete](https://man7.org/linux/man-pages/man2/timer_delete.2.html) | `<time.h>` | Delete a POSIX per-process timer | POSIX.1-2001 | Yes |
+| [timer_getoverrun](https://man7.org/linux/man-pages/man2/timer_getoverrun.2.html) | `<time.h>` | Get the timer overrun count | POSIX.1-2001 | Yes |
+| [timer_gettime](https://man7.org/linux/man-pages/man2/timer_gettime.2.html) | `<time.h>` | Fetch the timer current value and interval | POSIX.1-2001 | Yes |
+| [timer_settime](https://man7.org/linux/man-pages/man2/timer_settime.2.html) | `<time.h>` | Arm or disarm a timer | POSIX.1-2001 | Yes |
+| [setitimer](https://man7.org/linux/man-pages/man2/setitimer.2.html) | `<sys/time.h>` | Set the value of an interval timer | POSIX.1-2001, 4.3BSD | Yes |
+| [getitimer](https://man7.org/linux/man-pages/man2/getitimer.2.html) | `<sys/time.h>` | Get the value of an interval timer | POSIX.1-2001, 4.3BSD | Yes |
+| [alarm](https://man7.org/linux/man-pages/man2/alarm.2.html) | `<unistd.h>` | Arrange for a SIGALRM signal to be delivered to the calling process | POSIX.1-2001 | Yes |
+| [sleep](https://man7.org/linux/man-pages/man3/sleep.3.html) | `<unistd.h>` | Sleep for the specified number of seconds | POSIX.1-2001 | Yes |
+| [usleep](https://man7.org/linux/man-pages/man3/usleep.3.html) | `<unistd.h>` | Suspend execution for microsecond intervals | 4.3BSD | Yes |
+
+<br >
+
+---
+
+## File System (unistd.h, sys/stat.h, fcntl.h, dirent.h)
+
+### File Information
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [stat](https://man7.org/linux/man-pages/man2/stat.2.html) | `<sys/stat.h>` | Obtain information about a file | POSIX.1-2001 | Yes |
+| [fstat](https://man7.org/linux/man-pages/man2/fstat.2.html) | `<sys/stat.h>` | Obtain information about a file via file descriptor | POSIX.1-2001 | Yes |
+| [lstat](https://man7.org/linux/man-pages/man2/lstat.2.html) | `<sys/stat.h>` | Obtain information about a file or symbolic link | POSIX.1-2001 | Yes |
+| [statx](https://man7.org/linux/man-pages/man2/statx.2.html) | `<sys/stat.h>` | Get file status (extended) | Linux | Yes |
+| [access](https://man7.org/linux/man-pages/man2/access.2.html) | `<unistd.h>` | Check real user's permissions for a file | POSIX.1-2001 | Yes |
+| [faccessat](https://man7.org/linux/man-pages/man2/faccessat.2.html) | `<unistd.h>` | Check permissions of a file relative to a directory file descriptor | POSIX.1-2008 | Yes |
+| [umask](https://man7.org/linux/man-pages/man2/umask.2.html) | `<sys/stat.h>` | Set the file mode creation mask | POSIX.1-2001 | Yes |
+
+### File Operations
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [unlink](https://man7.org/linux/man-pages/man2/unlink.2.html) | `<unistd.h>` | Remove a file or directory | POSIX.1-2001 | Yes |
+| [unlinkat](https://man7.org/linux/man-pages/man2/unlinkat.2.html) | `<unistd.h>` | Remove a file or directory relative to a directory file descriptor | POSIX.1-2008 | Yes |
+| [rename](https://man7.org/linux/man-pages/man2/rename.2.html) | `<stdio.h>` | Change the name or location of a file | POSIX.1-2001 | Yes |
+| [renameat](https://man7.org/linux/man-pages/man2/renameat.2.html) | `<stdio.h>` | Change the name or location of a file relative to directory file descriptors | POSIX.1-2008 | Yes |
+| [link](https://man7.org/linux/man-pages/man2/link.2.html) | `<unistd.h>` | Create a new hard link to an existing file | POSIX.1-2001 | Yes |
+| [linkat](https://man7.org/linux/man-pages/man2/linkat.2.html) | `<unistd.h>` | Create a link relative to directory file descriptors | POSIX.1-2008 | Yes |
+| [symlink](https://man7.org/linux/man-pages/man2/symlink.2.html) | `<unistd.h>` | Create a symbolic link | POSIX.1-2001 | Yes |
+| [symlinkat](https://man7.org/linux/man-pages/man2/symlinkat.2.html) | `<unistd.h>` | Create a symbolic link relative to a directory file descriptor | POSIX.1-2008 | Yes |
+| [readlink](https://man7.org/linux/man-pages/man2/readlink.2.html) | `<unistd.h>` | Read the target of a symbolic link | POSIX.1-2001 | Yes |
+| [readlinkat](https://man7.org/linux/man-pages/man2/readlinkat.2.html) | `<unistd.h>` | Read the target of a symbolic link relative to a directory file descriptor | POSIX.1-2008 | Yes |
+| [truncate](https://man7.org/linux/man-pages/man2/truncate.2.html) | `<unistd.h>` | Truncate a file to a specified length | POSIX.1-2001 | Yes |
+| [ftruncate](https://man7.org/linux/man-pages/man2/ftruncate.2.html) | `<unistd.h>` | Truncate a file referenced by file descriptor | POSIX.1-2001 | Yes |
+
+### Directories
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [mkdir](https://man7.org/linux/man-pages/man2/mkdir.2.html) | `<sys/stat.h>` | Create a new directory | POSIX.1-2001 | Yes |
+| [mkdirat](https://man7.org/linux/man-pages/man2/mkdirat.2.html) | `<sys/stat.h>` | Create a directory relative to a directory file descriptor | POSIX.1-2008 | Yes |
+| [rmdir](https://man7.org/linux/man-pages/man2/rmdir.2.html) | `<unistd.h>` | Remove a directory if it is empty | POSIX.1-2001 | Yes |
+| [chdir](https://man7.org/linux/man-pages/man2/chdir.2.html) | `<unistd.h>` | Change the working directory | POSIX.1-2001 | Yes |
+| [fchdir](https://man7.org/linux/man-pages/man2/fchdir.2.html) | `<unistd.h>` | Change working directory via file descriptor | POSIX.1-2001 | Yes |
+| [getcwd](https://man7.org/linux/man-pages/man3/getcwd.3.html) | `<unistd.h>` | Get the current working directory pathname | POSIX.1-2001 | Yes |
+| [getwd](https://man7.org/linux/man-pages/man3/getwd.3.html) | `<unistd.h>` | Get current working directory pathname (legacy) | 4.3BSD, POSIX.1-2001 | Yes |
+| [chroot](https://man7.org/linux/man-pages/man2/chroot.2.html) | `<unistd.h>` | Change the root directory | BSD, SUSv2 | Yes |
+| [opendir](https://man7.org/linux/man-pages/man3/opendir.3.html) | `<dirent.h>` | Open a directory stream | POSIX.1-2001 | Yes |
+| [fdopendir](https://man7.org/linux/man-pages/man3/fdopendir.3.html) | `<dirent.h>` | Open a directory stream given a file descriptor | POSIX.1-2008 | Yes |
+| [closedir](https://man7.org/linux/man-pages/man3/closedir.3.html) | `<dirent.h>` | Close a directory stream | POSIX.1-2001 | Yes |
+| [readdir](https://man7.org/linux/man-pages/man3/readdir.3.html) | `<dirent.h>` | Read a directory entry from a directory stream | POSIX.1-2001 | Yes |
+| [readdir_r](https://man7.org/linux/man-pages/man3/readdir_r.3.html) | `<dirent.h>` | Reentrant version of readdir | POSIX.1-2001 | Yes |
+| [telldir](https://man7.org/linux/man-pages/man3/telldir.3.html) | `<dirent.h>` | Return the current location in a directory stream | POSIX.1-2001 | Yes |
+| [seekdir](https://man7.org/linux/man-pages/man3/seekdir.3.html) | `<dirent.h>` | Set the position of the next readdir call | POSIX.1-2001 | Yes |
+| [rewinddir](https://man7.org/linux/man-pages/man3/rewinddir.3.html) | `<dirent.h>` | Reset directory stream position to beginning | POSIX.1-2001 | Yes |
+| [scandir](https://man7.org/linux/man-pages/man3/scandir.3.html) | `<dirent.h>` | Scan a directory for matching entries | BSD, POSIX.1-2008 | Yes |
+| [dirfd](https://man7.org/linux/man-pages/man3/dirfd.3.html) | `<dirent.h>` | Get the file descriptor associated with a directory stream | BSD, POSIX.1-2008 | Yes |
+
+### File Ownership & Permissions
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [chmod](https://man7.org/linux/man-pages/man2/chmod.2.html) | `<sys/stat.h>` | Change file permissions | POSIX.1-2001 | Yes |
+| [fchmod](https://man7.org/linux/man-pages/man2/fchmod.2.html) | `<sys/stat.h>` | Change file permissions via file descriptor | POSIX.1-2001 | Yes |
+| [fchmodat](https://man7.org/linux/man-pages/man2/fchmodat.2.html) | `<sys/stat.h>` | Change file permissions relative to directory file descriptor | POSIX.1-2008 | Yes |
+| [chown](https://man7.org/linux/man-pages/man2/chown.2.html) | `<unistd.h>` | Change file ownership | POSIX.1-2001 | Yes |
+| [fchown](https://man7.org/linux/man-pages/man2/fchown.2.html) | `<unistd.h>` | Change file ownership via file descriptor | POSIX.1-2001 | Yes |
+| [lchown](https://man7.org/linux/man-pages/man2/lchown.2.html) | `<unistd.h>` | Change file ownership without following symlinks | POSIX.1-2001 | Yes |
+| [fchownat](https://man7.org/linux/man-pages/man2/fchownat.2.html) | `<unistd.h>` | Change file ownership relative to directory file descriptor | POSIX.1-2008 | Yes |
+| [utime](https://man7.org/linux/man-pages/man2/utime.2.html) | `<utime.h>` | Change file last access and modification times | POSIX.1-2001 | Yes |
+| [utimes](https://man7.org/linux/man-pages/man2/utimes.2.html) | `<sys/time.h>` | Change file timestamps with microsecond precision | 4.3BSD, POSIX.1-2001 | Yes |
+| [utimensat](https://man7.org/linux/man-pages/man2/utimensat.2.html) | `<sys/stat.h>` | Change file timestamps with nanosecond precision relative to directory fd | POSIX.1-2008 | Yes |
+| [futimens](https://man7.org/linux/man-pages/man2/futimens.2.html) | `<sys/stat.h>` | Change file timestamps with nanosecond precision via file descriptor | POSIX.1-2008 | Yes |
+
+### File Descriptor Operations
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [fcntl](https://man7.org/linux/man-pages/man2/fcntl.2.html) | `<fcntl.h>` | Manipulate a file descriptor | POSIX.1-2001 | Yes |
+| [dup](https://man7.org/linux/man-pages/man2/dup.2.html) | `<unistd.h>` | Duplicate a file descriptor | POSIX.1-2001 | Yes |
+| [dup2](https://man7.org/linux/man-pages/man2/dup2.2.html) | `<unistd.h>` | Duplicate a file descriptor to a specified number | POSIX.1-2001 | Yes |
+| [dup3](https://man7.org/linux/man-pages/man2/dup3.2.html) | `<unistd.h>` | Duplicate a file descriptor with flags | Linux | Yes |
+| [fsync](https://man7.org/linux/man-pages/man2/fsync.2.html) | `<unistd.h>` | Synchronize a file's in-core state with storage | POSIX.1-2001 | Yes |
+| [fdatasync](https://man7.org/linux/man-pages/man2/fdatasync.2.html) | `<unistd.h>` | Synchronize the in-core state of a file with storage without flushing metadata | POSIX.1-2001 | Yes |
+| [sync](https://man7.org/linux/man-pages/man2/sync.2.html) | `<unistd.h>` | Commit filesystem caches to disk | POSIX.1-2001 | Yes |
+| [syncfs](https://man7.org/linux/man-pages/man2/syncfs.2.html) | `<unistd.h>` | Commit filesystem caches to disk for a specific filesystem | Linux | Yes |
+| [flock](https://man7.org/linux/man-pages/man2/flock.2.html) | `<sys/file.h>` | Apply or remove an advisory lock on an open file | BSD, POSIX.1-2008 | Yes |
+
+### Pathname Resolution
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [realpath](https://man7.org/linux/man-pages/man3/realpath.3.html) | `<stdlib.h>` | Return the canonicalized absolute pathname | POSIX.1-2001 | Yes |
+| [basename](https://man7.org/linux/man-pages/man3/basename.3.html) | `<libgen.h>` | Strip directory and suffix from filenames | POSIX.1-2001, GNU | Yes |
+| [dirname](https://man7.org/linux/man-pages/man3/dirname.3.html) | `<libgen.h>` | Strip last component from file name | POSIX.1-2001, GNU | Yes |
+| [pathconf](https://man7.org/linux/man-pages/man3/pathconf.3.html) | `<unistd.h>` | Get configuration value for a pathname | POSIX.1-2001 | Yes |
+| [fpathconf](https://man7.org/linux/man-pages/man3/fpathconf.3.html) | `<unistd.h>` | Get configuration value for a file descriptor | POSIX.1-2001 | Yes |
+
+### Filesystem Information
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [statvfs](https://man7.org/linux/man-pages/man3/statvfs.3.html) | `<sys/statvfs.h>` | Get filesystem statistics | POSIX.1-2001 | Yes |
+| [fstatvfs](https://man7.org/linux/man-pages/man3/fstatvfs.3.html) | `<sys/statvfs.h>` | Get filesystem statistics via file descriptor | POSIX.1-2001 | Yes |
+| [statfs](https://man7.org/linux/man-pages/man2/statfs.2.html) | `<sys/vfs.h>` | Get filesystem statistics (Linux-specific) | BSD, Linux | Yes |
+| [fstatfs](https://man7.org/linux/man-pages/man2/fstatfs.2.html) | `<sys/vfs.h>` | Get filesystem statistics via file descriptor (Linux-specific) | BSD, Linux | Yes |
+| [mount](https://man7.org/linux/man-pages/man2/mount.2.html) | `<sys/mount.h>` | Mount filesystem | Linux, BSD | Yes |
+| [umount](https://man7.org/linux/man-pages/man2/umount.2.html) | `<sys/mount.h>` | Unmount filesystem | Linux, BSD | Yes |
+| [umount2](https://man7.org/linux/man-pages/man2/umount2.2.html) | `<sys/mount.h>` | Unmount filesystem with flags | Linux | Yes |
+
+<br >
+
+---
+
+## Process Control (unistd.h, sys/wait.h)
+
+### Process Creation
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [fork](https://man7.org/linux/man-pages/man2/fork.2.html) | `<unistd.h>` | Create a new process by duplicating the calling process | POSIX.1-2001 | Yes |
+| [vfork](https://man7.org/linux/man-pages/man2/vfork.2.html) | `<sys/types.h>` | Create a child process and block parent | POSIX.1-2001 (marked obsolete) | Yes |
+| [clone](https://man7.org/linux/man-pages/man2/clone.2.html) | `<sched.h>` | Create a child process in a Linux-specific way | Linux | Yes |
+| [clone3](https://man7.org/linux/man-pages/man2/clone3.2.html) | `<sched.h>` | Create a child process (extended version) | Linux | Yes |
+
+### Process Execution
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [execve](https://man7.org/linux/man-pages/man2/execve.2.html) | `<unistd.h>` | Execute program with environment | POSIX.1-2001 | Yes |
+| [execv](https://man7.org/linux/man-pages/man3/execv.3.html) | `<unistd.h>` | Execute program | POSIX.1-2001 | Yes |
+| [execvp](https://man7.org/linux/man-pages/man3/execvp.3.html) | `<unistd.h>` | Execute program with PATH lookup | POSIX.1-2001 | Yes |
+| [execvpe](https://man7.org/linux/man-pages/man3/execvpe.3.html) | `<unistd.h>` | Execute program with PATH lookup and environment | GNU | Yes |
+| [execl](https://man7.org/linux/man-pages/man3/execl.3.html) | `<unistd.h>` | Execute program with argument list | POSIX.1-2001 | Yes |
+| [execlp](https://man7.org/linux/man-pages/man3/execlp.3.html) | `<unistd.h>` | Execute program with PATH lookup and argument list | POSIX.1-2001 | Yes |
+| [execle](https://man7.org/linux/man-pages/man3/execle.3.html) | `<unistd.h>` | Execute program with argument list and environment | POSIX.1-2001 | Yes |
+| [system](https://man7.org/linux/man-pages/man3/system.3.html) | `<stdlib.h>` | Execute a shell command | POSIX.1-2001 | Yes |
+| [posix_spawn](https://man7.org/linux/man-pages/man3/posix_spawn.3.html) | `<spawn.h>` | Spawn a process (POSIX) | POSIX.1-2001 | Yes |
+| [posix_spawnp](https://man7.org/linux/man-pages/man3/posix_spawnp.3.html) | `<spawn.h>` | Spawn a process with PATH lookup (POSIX) | POSIX.1-2001 | Yes |
+
+### Process Termination
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [exit](https://man7.org/linux/man-pages/man3/exit.3.html) | `<stdlib.h>` | Cause normal process termination | POSIX.1-2001, C89 | Yes |
+| [_exit](https://man7.org/linux/man-pages/man2/_exit.2.html) | `<unistd.h>` | Terminate the calling process immediately | POSIX.1-2001 | Yes |
+| [_Exit](https://man7.org/linux/man-pages/man3/_Exit.3.html) | `<stdlib.h>` | Equivalent to _exit | POSIX.1-2001, C99 | Yes |
+| [on_exit](https://man7.org/linux/man-pages/man3/on_exit.3.html) | `<stdlib.h>` | Register a function to be called at normal process termination | BSD, SVID | Yes |
+| [atexit](https://man7.org/linux/man-pages/man3/atexit.3.html) | `<stdlib.h>` | Register a function to be called at normal process termination | POSIX.1-2001, C89 | Yes |
+| [abort](https://man7.org/linux/man-pages/man3/abort.3.html) | `<stdlib.h>` | Cause abnormal process termination | POSIX.1-2001, C89 | Yes |
+
+### Process Identification
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [getpid](https://man7.org/linux/man-pages/man2/getpid.2.html) | `<unistd.h>` | Return process ID (PID) | POSIX.1-2001 | Yes |
+| [getppid](https://man7.org/linux/man-pages/man2/getppid.2.html) | `<unistd.h>` | Return parent process ID | POSIX.1-2001 | Yes |
+| [getpgrp](https://man7.org/linux/man-pages/man2/getpgrp.2.html) | `<unistd.h>` | Return the process group ID of the calling process | POSIX.1-2001 | Yes |
+| [setpgrp](https://man7.org/linux/man-pages/man2/setpgrp.2.html) | `<unistd.h>` | Set process group ID | POSIX.1-2001 | Yes |
+| [getsid](https://man7.org/linux/man-pages/man2/getsid.2.html) | `<unistd.h>` | Get session ID | POSIX.1-2001 | Yes |
+| [setsid](https://man7.org/linux/man-pages/man2/setsid.2.html) | `<unistd.h>` | Create session and set process group ID | POSIX.1-2001 | Yes |
+| [gettid](https://man7.org/linux/man-pages/man2/gettid.2.html) | `<unistd.h>` | Get thread identification (Linux) | Linux | Yes |
+
+### Process Waiting
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [wait](https://man7.org/linux/man-pages/man2/wait.2.html) | `<sys/wait.h>` | Wait for process to change state | POSIX.1-2001 | Yes |
+| [waitpid](https://man7.org/linux/man-pages/man2/waitpid.2.html) | `<sys/wait.h>` | Wait for a specific process to change state | POSIX.1-2001 | Yes |
+| [wait3](https://man7.org/linux/man-pages/man2/wait3.2.html) | `<sys/wait.h>` | Wait for process to change state with resource usage info | BSD, SVID | Yes |
+| [wait4](https://man7.org/linux/man-pages/man2/wait4.2.html) | `<sys/wait.h>` | Wait for a specific process to change state with resource usage info | BSD, SVID | Yes |
+| [waitid](https://man7.org/linux/man-pages/man2/waitid.2.html) | `<sys/wait.h>` | Wait for a child process to change state (extended) | POSIX.1-2001 | Yes |
+| [WIFEXITED](https://man7.org/linux/man-pages/man2/wait.2.html) | `<sys/wait.h>` | Test whether child process terminated normally | POSIX.1-2001 | Yes |
+| [WIFSIGNALED](https://man7.org/linux/man-pages/man2/wait.2.html) | `<sys/wait.h>` | Test whether child process was terminated by a signal | POSIX.1-2001 | Yes |
+| [WIFSTOPPED](https://man7.org/linux/man-pages/man2/wait.2.html) | `<sys/wait.h>` | Test whether child process was stopped | POSIX.1-2001 | Yes |
+| [WEXITSTATUS](https://man7.org/linux/man-pages/man2/wait.2.html) | `<sys/wait.h>` | Get the child process exit status | POSIX.1-2001 | Yes |
+| [WTERMSIG](https://man7.org/linux/man-pages/man2/wait.2.html) | `<sys/wait.h>` | Get the signal that caused the child to terminate | POSIX.1-2001 | Yes |
+
+### Process Scheduling & Priority
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [nice](https://man7.org/linux/man-pages/man2/nice.2.html) | `<unistd.h>` | Change process priority | POSIX.1-2001 | Yes |
+| [getpriority](https://man7.org/linux/man-pages/man2/getpriority.2.html) | `<sys/resource.h>` | Get program scheduling priority | POSIX.1-2001, BSD | Yes |
+| [setpriority](https://man7.org/linux/man-pages/man2/setpriority.2.html) | `<sys/resource.h>` | Set program scheduling priority | POSIX.1-2001, BSD | Yes |
+| [sched_setaffinity](https://man7.org/linux/man-pages/man2/sched_setaffinity.2.html) | `<sched.h>` | Set a thread CPU affinity mask | Linux | Yes |
+| [sched_getaffinity](https://man7.org/linux/man-pages/man2/sched_getaffinity.2.html) | `<sched.h>` | Get a thread CPU affinity mask | Linux | Yes |
+| [sched_setattr](https://man7.org/linux/man-pages/man2/sched_setattr.2.html) | `<sched.h>` | Set scheduling policy and attributes | Linux | Yes |
+| [sched_getattr](https://man7.org/linux/man-pages/man2/sched_getattr.2.html) | `<sched.h>` | Get scheduling policy and attributes | Linux | Yes |
+| [sched_yield](https://man7.org/linux/man-pages/man2/sched_yield.2.html) | `<sched.h>` | Yield the processor | POSIX.1-2001 | Yes |
+| [sched_get_priority_max](https://man7.org/linux/man-pages/man2/sched_get_priority_max.2.html) | `<sched.h>` | Get maximum priority | POSIX.1-2001 | Yes |
+| [sched_get_priority_min](https://man7.org/linux/man-pages/man2/sched_get_priority_min.2.html) | `<sched.h>` | Get minimum priority | POSIX.1-2001 | Yes |
+
+### Resource Limits
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [getrlimit](https://man7.org/linux/man-pages/man2/getrlimit.2.html) | `<sys/resource.h>` | Get resource limits | POSIX.1-2001 | Yes |
+| [setrlimit](https://man7.org/linux/man-pages/man2/setrlimit.2.html) | `<sys/resource.h>` | Set resource limits | POSIX.1-2001 | Yes |
+| [prlimit](https://man7.org/linux/man-pages/man2/prlimit.2.html) | `<sys/resource.h>` | Get and set resource limits of an arbitrary process | Linux | Yes |
+| [getrusage](https://man7.org/linux/man-pages/man2/getrusage.2.html) | `<sys/resource.h>` | Get resource usage statistics | POSIX.1-2001, BSD | Yes |
+| [ulimit](https://man7.org/linux/man-pages/man3/ulimit.3.html) | `<ulimit.h>` | Get and set user limits | POSIX.1-2001 (obsolete) | Yes |
+
+<br >
+
+---
+
+## Signal Handling (signal.h)
+
+### Signal Operations
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [signal](https://man7.org/linux/man-pages/man2/signal.2.html) | `<signal.h>` | Signal management (simple) | POSIX.1-2001, C89 | Yes |
+| [sigaction](https://man7.org/linux/man-pages/man2/sigaction.2.html) | `<signal.h>` | Signal management with extended options | POSIX.1-2001 | Yes |
+| [kill](https://man7.org/linux/man-pages/man2/kill.2.html) | `<signal.h>` | Send a signal to a process or process group | POSIX.1-2001 | Yes |
+| [killpg](https://man7.org/linux/man-pages/man3/killpg.3.html) | `<signal.h>` | Send a signal to a process group | BSD, POSIX.1-2001 | Yes |
+| [raise](https://man7.org/linux/man-pages/man3/raise.3.html) | `<signal.h>` | Send a signal to the calling thread | POSIX.1-2001, C89 | Yes |
+| [pthread_kill](https://man7.org/linux/man-pages/man3/pthread_kill.3.html) | `<signal.h>` | Send a signal to a thread | POSIX.1-2001 | Yes |
+| [tgkill](https://man7.org/linux/man-pages/man2/tgkill.2.html) | `<signal.h>` | Send a signal to a thread in a thread group | Linux | Yes |
+
+### Signal Sets
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [sigemptyset](https://man7.org/linux/man-pages/man3/sigemptyset.3.html) | `<signal.h>` | Initialize an empty signal set | POSIX.1-2001, C89 | Yes |
+| [sigfillset](https://man7.org/linux/man-pages/man3/sigfillset.3.html) | `<signal.h>` | Initialize a full signal set | POSIX.1-2001, C89 | Yes |
+| [sigaddset](https://man7.org/linux/man-pages/man3/sigaddset.3.html) | `<signal.h>` | Add a signal to a signal set | POSIX.1-2001, C89 | Yes |
+| [sigdelset](https://man7.org/linux/man-pages/man3/sigdelset.3.html) | `<signal.h>` | Delete a signal from a signal set | POSIX.1-2001, C89 | Yes |
+| [sigismember](https://man7.org/linux/man-pages/man3/sigismember.3.html) | `<signal.h>` | Test for a signal in a signal set | POSIX.1-2001, C89 | Yes |
+
+### Signal Masks &amp; Waiting
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [sigprocmask](https://man7.org/linux/man-pages/man2/sigprocmask.2.html) | `<signal.h>` | Examine and change blocked signals | POSIX.1-2001 | Yes |
+| [pthread_sigmask](https://man7.org/linux/man-pages/man3/pthread_sigmask.3.html) | `<signal.h>` | Examine and change blocked signals for thread | POSIX.1-2001 | Yes |
+| [sigsuspend](https://man7.org/linux/man-pages/man2/sigsuspend.2.html) | `<signal.h>` | Wait for a signal | POSIX.1-2001 | Yes |
+| [sigwait](https://man7.org/linux/man-pages/man3/sigwait.3.html) | `<signal.h>` | Wait for a signal | POSIX.1-2001 | Yes |
+| [sigwaitinfo](https://man7.org/linux/man-pages/man2/sigwaitinfo.2.html) | `<signal.h>` | Wait for queued signals synchronously | POSIX.1-2001 | Yes |
+| [sigtimedwait](https://man7.org/linux/man-pages/man2/sigtimedwait.2.html) | `<signal.h>` | Wait for queued signals with timeout | POSIX.1-2001 | Yes |
+| [sigpending](https://man7.org/linux/man-pages/man2/sigpending.2.html) | `<signal.h>` | Examine pending signals | POSIX.1-2001 | Yes |
+| [pause](https://man7.org/linux/man-pages/man2/pause.2.html) | `<unistd.h>` | Wait for signal | POSIX.1-2001 | Yes |
+
+### Signal Stack
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [sigaltstack](https://man7.org/linux/man-pages/man2/sigaltstack.2.html) | `<signal.h>` | Set and/or get signal stack context | POSIX.1-2001 | Yes |
+| [setjmp](https://man7.org/linux/man-pages/man3/setjmp.3.html) | `<setjmp.h>` | Save stack context for non-local goto | POSIX.1-2001, C89 | Yes |
+| [longjmp](https://man7.org/linux/man-pages/man3/longjmp.3.html) | `<setjmp.h>` | Non-local jump to a saved stack context | POSIX.1-2001, C89 | Yes |
+| [sigsetjmp](https://man7.org/linux/man-pages/man3/sigsetjmp.3.html) | `<setjmp.h>` | Save stack context and signal mask | POSIX.1-2001 | Yes |
+| [siglongjmp](https://man7.org/linux/man-pages/man3/siglongjmp.3.html) | `<setjmp.h>` | Non-local jump with signal mask restoration | POSIX.1-2001 | Yes |
+
+### Realtime Signal Queuing
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [sigqueue](https://man7.org/linux/man-pages/man2/sigqueue.2.html) | `<signal.h>` | Queue a signal and data to a process | POSIX.1-2001 | Yes |
+
+<br >
+
+---
+
+## Environment &amp; System Info (unistd.h, sys/utsname.h)
+
+### Environment Variables
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [getenv](https://man7.org/linux/man-pages/man3/getenv.3.html) | `<stdlib.h>` | Get value of environment variable | POSIX.1-2001, C89 | Yes |
+| [setenv](https://man7.org/linux/man-pages/man3/setenv.3.html) | `<stdlib.h>` | Change or add an environment variable | POSIX.1-2001 | Yes |
+| [unsetenv](https://man7.org/linux/man-pages/man3/unsetenv.3.html) | `<stdlib.h>` | Remove an environment variable | POSIX.1-2001 | Yes |
+| [putenv](https://man7.org/linux/man-pages/man3/putenv.3.html) | `<stdlib.h>` | Change or add an environment variable | POSIX.1-2001 | Yes |
+| [clearenv](https://man7.org/linux/man-pages/man3/clearenv.3.html) | `<stdlib.h>` | Clear the environment | GNU | Yes |
+
+### User & Group Identification
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [getuid](https://man7.org/linux/man-pages/man2/getuid.2.html) | `<unistd.h>` | Get user identity | POSIX.1-2001 | Yes |
+| [geteuid](https://man7.org/linux/man-pages/man2/geteuid.2.html) | `<unistd.h>` | Get effective user identity | POSIX.1-2001 | Yes |
+| [getgid](https://man7.org/linux/man-pages/man2/getgid.2.html) | `<unistd.h>` | Get group identity | POSIX.1-2001 | Yes |
+| [getegid](https://man7.org/linux/man-pages/man2/getegid.2.html) | `<unistd.h>` | Get effective group identity | POSIX.1-2001 | Yes |
+| [setuid](https://man7.org/linux/man-pages/man2/setuid.2.html) | `<unistd.h>` | Set user identity | POSIX.1-2001 | Yes |
+| [seteuid](https://man7.org/linux/man-pages/man2/seteuid.2.html) | `<unistd.h>` | Set effective user identity | POSIX.1-2001 | Yes |
+| [setgid](https://man7.org/linux/man-pages/man2/setgid.2.html) | `<unistd.h>` | Set group identity | POSIX.1-2001 | Yes |
+| [setegid](https://man7.org/linux/man-pages/man2/setegid.2.html) | `<unistd.h>` | Set effective group identity | POSIX.1-2001 | Yes |
+| [setreuid](https://man7.org/linux/man-pages/man2/setreuid.2.html) | `<unistd.h>` | Set real and effective user IDs | POSIX.1-2001 | Yes |
+| [setregid](https://man7.org/linux/man-pages/man2/setregid.2.html) | `<unistd.h>` | Set real and effective group IDs | POSIX.1-2001 | Yes |
+| [getgroups](https://man7.org/linux/man-pages/man2/getgroups.2.html) | `<unistd.h>` | Get list of supplementary group IDs | POSIX.1-2001 | Yes |
+| [setgroups](https://man7.org/linux/man-pages/man2/setgroups.2.html) | `<unistd.h>` | Set list of supplementary group IDs | BSD, SVID | Yes |
+| [getlogin](https://man7.org/linux/man-pages/man3/getlogin.3.html) | `<unistd.h>` | Get username | POSIX.1-2001 | Yes |
+| [getlogin_r](https://man7.org/linux/man-pages/man3/getlogin_r.3.html) | `<unistd.h>` | Get username reentrant | POSIX.1-2001 | Yes |
+
+### System Identification
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [uname](https://man7.org/linux/man-pages/man2/uname.2.html) | `<sys/utsname.h>` | Get name and information about current kernel | POSIX.1-2001 | Yes |
+| [gethostname](https://man7.org/linux/man-pages/man2/gethostname.2.html) | `<unistd.h>` | Get hostname | POSIX.1-2001, BSD | Yes |
+| [sethostname](https://man7.org/linux/man-pages/man2/sethostname.2.html) | `<unistd.h>` | Set hostname | BSD, SVID | Yes |
+| [getdomainname](https://man7.org/linux/man-pages/man2/getdomainname.2.html) | `<unistd.h>` | Get domain name | BSD, SVID | Yes |
+| [setdomainname](https://man7.org/linux/man-pages/man2/setdomainname.2.html) | `<unistd.h>` | Set domain name | BSD, SVID | Yes |
+| [sysinfo](https://man7.org/linux/man-pages/man2/sysinfo.2.html) | `<sys/sysinfo.h>` | Get overall system statistics | Linux | Yes |
+
+### System Configuration
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [sysconf](https://man7.org/linux/man-pages/man3/sysconf.3.html) | `<unistd.h>` | Get configuration information at runtime | POSIX.1-2001 | Yes |
+| [confstr](https://man7.org/linux/man-pages/man3/confstr.3.html) | `<unistd.h>` | Get configuration-dependent string values | POSIX.1-2001 | Yes |
+| [getpagesize](https://man7.org/linux/man-pages/man2/getpagesize.2.html) | `<unistd.h>` | Get memory page size | POSIX.1-2001 | Yes |
+| [get_phys_pages](https://man7.org/linux/man-pages/man3/get_phys_pages.3.html) | `<sys/sysinfo.h>` | Get number of physical pages | GNU | Yes |
+| [get_avphys_pages](https://man7.org/linux/man-pages/man3/get_avphys_pages.3.html) | `<sys/sysinfo.h>` | Get available physical pages | GNU | Yes |
+
+### Terminal Control
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [isatty](https://man7.org/linux/man-pages/man3/isatty.3.html) | `<unistd.h>` | Test whether a file descriptor refers to a terminal | POSIX.1-2001 | Yes |
+| [ttyname](https://man7.org/linux/man-pages/man3/ttyname.3.html) | `<unistd.h>` | Return name of a terminal | POSIX.1-2001 | Yes |
+| [ttyname_r](https://man7.org/linux/man-pages/man3/ttyname_r.3.html) | `<unistd.h>` | Return name of a terminal reentrant | POSIX.1-2001 | Yes |
+| [ctermid](https://man7.org/linux/man-pages/man3/ctermid.3.html) | `<stdio.h>` | Get controlling terminal name | POSIX.1-2001, C89 | Yes |
+
+### Daemon Process
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [daemon](https://man7.org/linux/man-pages/man3/daemon.3.html) | `<unistd.h>` | Run in the background as a daemon | BSD, SVID | Yes |
+| [setsid](https://man7.org/linux/man-pages/man2/setsid.2.html) | `<unistd.h>` | Creates a session and sets the process group ID | POSIX.1-2001 | Yes |
+
+<br >
+
+---
+
+## Error Handling (errno.h)
+
+### Error Reporting
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [strerror](https://man7.org/linux/man-pages/man3/strerror.3.html) | `<string.h>` | Return string describing error number | POSIX.1-2001, C89 | Yes |
+| [strerror_r](https://man7.org/linux/man-pages/man3/strerror_r.3.html) | `<string.h>` | Reentrant version of strerror | POSIX.1-2001 | Yes |
+| [perror](https://man7.org/linux/man-pages/man3/perror.3.html) | `<stdio.h>` | Print a message describing the value of errno | POSIX.1-2001, C89 | Yes |
+| [err](https://man7.org/linux/man-pages/man3/err.3.html) | `<err.h>` | Display formatted error messages | BSD | Yes |
+| [errx](https://man7.org/linux/man-pages/man3/err.3.html) | `<err.h>` | Display formatted error messages without errno info | BSD | Yes |
+| [warn](https://man7.org/linux/man-pages/man3/err.3.html) | `<err.h>` | Display formatted warning messages | BSD | Yes |
+| [warnx](https://man7.org/linux/man-pages/man3/err.3.html) | `<err.h>` | Display formatted warning messages without errno info | BSD | Yes |
+| [errno](https://man7.org/linux/man-pages/man3/errno.3.html) | `<errno.h>` | Number of last error | POSIX.1-2001, C89 | Yes |
+
+### Program Name
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [program_invocation_name](https://man7.org/linux/man-pages/man3/program_invocation_name.3.html) | `<errno.h>` | Name used to invoke the calling program | GNU | Yes |
+| [program_invocation_short_name](https://man7.org/linux/man-pages/man3/program_invocation_short_name.3.html) | `<errno.h>` | Basename of the program invocation name | GNU | Yes |
+| [error](https://man7.org/linux/man-pages/man3/error.3.html) | `<error.h>` | Print error message with status | GNU | Yes |
+| [error_at_line](https://man7.org/linux/man-pages/man3/error.3.html) | `<error.h>` | Print error message with file and line | GNU | Yes |
+
+<br >
+
+---
+
+## Locale &amp; Internationalization (locale.h, libintl.h, iconv.h)
+
+### Locale Management
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [setlocale](https://man7.org/linux/man-pages/man3/setlocale.3.html) | `<locale.h>` | Set the current locale | POSIX.1-2001, C89 | Yes |
+| [localeconv](https://man7.org/linux/man-pages/man3/localeconv.3.html) | `<locale.h>` | Get numeric and monetary formatting information | POSIX.1-2001, C89 | Yes |
+| [uselocale](https://man7.org/linux/man-pages/man3/uselocale.3.html) | `<locale.h>` | Set locale for the calling thread | POSIX.1-2008 | Yes |
+| [newlocale](https://man7.org/linux/man-pages/man3/newlocale.3.html) | `<locale.h>` | Create a new locale object | POSIX.1-2008 | Yes |
+| [duplocale](https://man7.org/linux/man-pages/man3/duplocale.3.html) | `<locale.h>` | Duplicate a locale object | POSIX.1-2008 | Yes |
+| [freelocale](https://man7.org/linux/man-pages/man3/freelocale.3.html) | `<locale.h>` | Free a locale object | POSIX.1-2008 | Yes |
+
+### Message Translation (gettext)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [gettext](https://man7.org/linux/man-pages/man3/gettext.3.html) | `<libintl.h>` | Translate a message using default domain | POSIX.1-2001 | Yes |
+| [dgettext](https://man7.org/linux/man-pages/man3/dgettext.3.html) | `<libintl.h>` | Translate a message using a given domain | POSIX.1-2001 | Yes |
+| [dcgettext](https://man7.org/linux/man-pages/man3/dcgettext.3.html) | `<libintl.h>` | Translate a message using given domain and category | POSIX.1-2001 | Yes |
+| [ngettext](https://man7.org/linux/man-pages/man3/ngettext.3.html) | `<libintl.h>` | Translate message with plural forms | POSIX.1-2001 | Yes |
+| [dngettext](https://man7.org/linux/man-pages/man3/dngettext.3.html) | `<libintl.h>` | Translate message with plural forms in given domain | POSIX.1-2001 | Yes |
+| [dcngettext](https://man7.org/linux/man-pages/man3/dcngettext.3.html) | `<libintl.h>` | Translate message with plural forms given domain/category | POSIX.1-2001 | Yes |
+| [textdomain](https://man7.org/linux/man-pages/man3/textdomain.3.html) | `<libintl.h>` | Set the default text domain | POSIX.1-2001 | Yes |
+| [bindtextdomain](https://man7.org/linux/man-pages/man3/bindtextdomain.3.html) | `<libintl.h>` | Bind domain to directory | POSIX.1-2001 | Yes |
+| [bind_textdomain_codeset](https://man7.org/linux/man-pages/man3/bind_textdomain_codeset.3.html) | `<libintl.h>` | Specify output codeset for message catalog | GNU | Yes |
+
+### Character Encoding Conversion
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [iconv_open](https://man7.org/linux/man-pages/man3/iconv_open.3.html) | `<iconv.h>` | Allocate descriptor for character set conversion | POSIX.1-2001 | Yes |
+| [iconv](https://man7.org/linux/man-pages/man3/iconv.3.html) | `<iconv.h>` | Perform character set conversion | POSIX.1-2001 | Yes |
+| [iconv_close](https://man7.org/linux/man-pages/man3/iconv_close.3.html) | `<iconv.h>` | Deallocate descriptor for character set conversion | POSIX.1-2001 | Yes |
+
+<br >
+
+---
+
+## Regular Expressions (regex.h)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [regcomp](https://man7.org/linux/man-pages/man3/regcomp.3.html) | `<regex.h>` | Compile a regular expression into an executable form | POSIX.1-2001 | Yes |
+| [regexec](https://man7.org/linux/man-pages/man3/regexec.3.html) | `<regex.h>` | Execute a compiled regular expression | POSIX.1-2001 | Yes |
+| [regerror](https://man7.org/linux/man-pages/man3/regerror.3.html) | `<regex.h>` | Get description of error code for regex functions | POSIX.1-2001 | Yes |
+| [regfree](https://man7.org/linux/man-pages/man3/regfree.3.html) | `<regex.h>` | Free memory allocated by regcomp | POSIX.1-2001 | Yes |
+
+<br >
+
+---
+
+## Dynamic Linking (dlfcn.h)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [dlopen](https://man7.org/linux/man-pages/man3/dlopen.3.html) | `<dlfcn.h>` | Open and load a dynamic shared object | POSIX.1-2001 | Yes |
+| [dlclose](https://man7.org/linux/man-pages/man3/dlclose.3.html) | `<dlfcn.h>` | Close a dynamic shared object | POSIX.1-2001 | Yes |
+| [dlsym](https://man7.org/linux/man-pages/man3/dlsym.3.html) | `<dlfcn.h>` | Obtain address of a symbol in a shared object | POSIX.1-2001 | Yes |
+| [dlvsym](https://man7.org/linux/man-pages/man3/dlvsym.3.html) | `<dlfcn.h>` | Get versioned symbol | GNU | Yes |
+| [dlerror](https://man7.org/linux/man-pages/man3/dlerror.3.html) | `<dlfcn.h>` | Get diagnostic information | POSIX.1-2001 | Yes |
+| [dladdr](https://man7.org/linux/man-pages/man3/dladdr.3.html) | `<dlfcn.h>` | Translate address to symbolic information | SVID, BSD | Yes |
+| [dladdr1](https://man7.org/linux/man-pages/man3/dladdr1.3.html) | `<dlfcn.h>` | Translate address to symbolic info with extra data | GNU | Yes |
+| [dl_iterate_phdr](https://man7.org/linux/man-pages/man3/dl_iterate_phdr.3.html) | `<link.h>` | Walk through the program headers | GNU | Yes |
+| [dlmopen](https://man7.org/linux/man-pages/man3/dlmopen.3.html) | `<dlfcn.h>` | Open a shared object in a new namespace | GNU | Yes |
+
+<br >
+
+---
+
+## Threading (pthread.h)
+
+### Thread Creation &amp; Management
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [pthread_create](https://man7.org/linux/man-pages/man3/pthread_create.3.html) | `<pthread.h>` | Create a new thread | POSIX.1-2001 | Yes |
+| [pthread_exit](https://man7.org/linux/man-pages/man3/pthread_exit.3.html) | `<pthread.h>` | Terminate the calling thread | POSIX.1-2001 | Yes |
+| [pthread_join](https://man7.org/linux/man-pages/man3/pthread_join.3.html) | `<pthread.h>` | Join with a terminated thread | POSIX.1-2001 | Yes |
+| [pthread_detach](https://man7.org/linux/man-pages/man3/pthread_detach.3.html) | `<pthread.h>` | Detach a thread | POSIX.1-2001 | Yes |
+| [pthread_self](https://man7.org/linux/man-pages/man3/pthread_self.3.html) | `<pthread.h>` | Obtain ID of the calling thread | POSIX.1-2001 | Yes |
+| [pthread_equal](https://man7.org/linux/man-pages/man3/pthread_equal.3.html) | `<pthread.h>` | Compare two thread IDs | POSIX.1-2001 | Yes |
+| [pthread_once](https://man7.org/linux/man-pages/man3/pthread_once.3.html) | `<pthread.h>` | Dynamic package initialization | POSIX.1-2001 | Yes |
+| [pthread_cancel](https://man7.org/linux/man-pages/man3/pthread_cancel.3.html) | `<pthread.h>` | Send a cancellation request to a thread | POSIX.1-2001 | Yes |
+| [pthread_setcancelstate](https://man7.org/linux/man-pages/man3/pthread_setcancelstate.3.html) | `<pthread.h>` | Set cancelability state | POSIX.1-2001 | Yes |
+| [pthread_setcanceltype](https://man7.org/linux/man-pages/man3/pthread_setcanceltype.3.html) | `<pthread.h>` | Set cancelability type | POSIX.1-2001 | Yes |
+| [pthread_testcancel](https://man7.org/linux/man-pages/man3/pthread_testcancel.3.html) | `<pthread.h>` | Request delivery of any pending cancellation | POSIX.1-2001 | Yes |
+| [pthread_cleanup_push](https://man7.org/linux/man-pages/man3/pthread_cleanup_push.3.html) | `<pthread.h>` | Push cancellation cleanup handler | POSIX.1-2001 | Yes |
+| [pthread_cleanup_pop](https://man7.org/linux/man-pages/man3/pthread_cleanup_pop.3.html) | `<pthread.h>` | Pop cancellation cleanup handler | POSIX.1-2001 | Yes |
+
+### Thread Attributes
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [pthread_attr_init](https://man7.org/linux/man-pages/man3/pthread_attr_init.3.html) | `<pthread.h>` | Initialize thread attributes object | POSIX.1-2001 | Yes |
+| [pthread_attr_destroy](https://man7.org/linux/man-pages/man3/pthread_attr_destroy.3.html) | `<pthread.h>` | Destroy thread attributes object | POSIX.1-2001 | Yes |
+| [pthread_attr_setdetachstate](https://man7.org/linux/man-pages/man3/pthread_attr_setdetachstate.3.html) | `<pthread.h>` | Set detach state attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_getdetachstate](https://man7.org/linux/man-pages/man3/pthread_attr_getdetachstate.3.html) | `<pthread.h>` | Get detach state attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_setstacksize](https://man7.org/linux/man-pages/man3/pthread_attr_setstacksize.3.html) | `<pthread.h>` | Set stack size attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_getstacksize](https://man7.org/linux/man-pages/man3/pthread_attr_getstacksize.3.html) | `<pthread.h>` | Get stack size attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_setstack](https://man7.org/linux/man-pages/man3/pthread_attr_setstack.3.html) | `<pthread.h>` | Set stack address and size attributes | POSIX.1-2001 | Yes |
+| [pthread_attr_getstack](https://man7.org/linux/man-pages/man3/pthread_attr_getstack.3.html) | `<pthread.h>` | Get stack address and size attributes | POSIX.1-2001 | Yes |
+| [pthread_attr_setguardsize](https://man7.org/linux/man-pages/man3/pthread_attr_setguardsize.3.html) | `<pthread.h>` | Set guard size attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_getguardsize](https://man7.org/linux/man-pages/man3/pthread_attr_getguardsize.3.html) | `<pthread.h>` | Get guard size attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_setscope](https://man7.org/linux/man-pages/man3/pthread_attr_setscope.3.html) | `<pthread.h>` | Set contention scope attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_getscope](https://man7.org/linux/man-pages/man3/pthread_attr_getscope.3.html) | `<pthread.h>` | Get contention scope attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_setschedpolicy](https://man7.org/linux/man-pages/man3/pthread_attr_setschedpolicy.3.html) | `<pthread.h>` | Set scheduling policy attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_getschedpolicy](https://man7.org/linux/man-pages/man3/pthread_attr_getschedpolicy.3.html) | `<pthread.h>` | Get scheduling policy attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_setschedparam](https://man7.org/linux/man-pages/man3/pthread_attr_setschedparam.3.html) | `<pthread.h>` | Set scheduling parameter attributes | POSIX.1-2001 | Yes |
+| [pthread_attr_getschedparam](https://man7.org/linux/man-pages/man3/pthread_attr_getschedparam.3.html) | `<pthread.h>` | Get scheduling parameter attributes | POSIX.1-2001 | Yes |
+| [pthread_attr_setinheritsched](https://man7.org/linux/man-pages/man3/pthread_attr_setinheritsched.3.html) | `<pthread.h>` | Set inherit scheduler attribute | POSIX.1-2001 | Yes |
+| [pthread_attr_getinheritsched](https://man7.org/linux/man-pages/man3/pthread_attr_getinheritsched.3.html) | `<pthread.h>` | Get inherit scheduler attribute | POSIX.1-2001 | Yes |
+
+### Thread-Specific Data
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [pthread_key_create](https://man7.org/linux/man-pages/man3/pthread_key_create.3.html) | `<pthread.h>` | Create a thread-specific data key | POSIX.1-2001 | Yes |
+| [pthread_key_delete](https://man7.org/linux/man-pages/man3/pthread_key_delete.3.html) | `<pthread.h>` | Delete a thread-specific data key | POSIX.1-2001 | Yes |
+| [pthread_setspecific](https://man7.org/linux/man-pages/man3/pthread_setspecific.3.html) | `<pthread.h>` | Associate a thread-specific value with a key | POSIX.1-2001 | Yes |
+| [pthread_getspecific](https://man7.org/linux/man-pages/man3/pthread_getspecific.3.html) | `<pthread.h>` | Obtain the thread-specific value for a key | POSIX.1-2001 | Yes |
+
+<br >
+
+---
+
+## Synchronization Primitives
+
+### Mutexes
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [pthread_mutex_init](https://man7.org/linux/man-pages/man3/pthread_mutex_init.3.html) | `<pthread.h>` | Initialize a mutex | POSIX.1-2001 | Yes |
+| [pthread_mutex_destroy](https://man7.org/linux/man-pages/man3/pthread_mutex_destroy.3.html) | `<pthread.h>` | Destroy a mutex | POSIX.1-2001 | Yes |
+| [pthread_mutex_lock](https://man7.org/linux/man-pages/man3/pthread_mutex_lock.3.html) | `<pthread.h>` | Lock a mutex | POSIX.1-2001 | Yes |
+| [pthread_mutex_unlock](https://man7.org/linux/man-pages/man3/pthread_mutex_unlock.3.html) | `<pthread.h>` | Unlock a mutex | POSIX.1-2001 | Yes |
+| [pthread_mutex_trylock](https://man7.org/linux/man-pages/man3/pthread_mutex_trylock.3.html) | `<pthread.h>` | Try to lock a mutex without blocking | POSIX.1-2001 | Yes |
+| [pthread_mutex_timedlock](https://man7.org/linux/man-pages/man3/pthread_mutex_timedlock.3.html) | `<pthread.h>` | Lock a mutex with a timeout | POSIX.1-2001 | Yes |
+| [pthread_mutexattr_init](https://man7.org/linux/man-pages/man3/pthread_mutexattr_init.3.html) | `<pthread.h>` | Initialize mutex attributes object | POSIX.1-2001 | Yes |
+| [pthread_mutexattr_destroy](https://man7.org/linux/man-pages/man3/pthread_mutexattr_destroy.3.html) | `<pthread.h>` | Destroy mutex attributes object | POSIX.1-2001 | Yes |
+| [pthread_mutexattr_settype](https://man7.org/linux/man-pages/man3/pthread_mutexattr_settype.3.html) | `<pthread.h>` | Set mutex type | POSIX.1-2001 | Yes |
+| [pthread_mutexattr_gettype](https://man7.org/linux/man-pages/man3/pthread_mutexattr_gettype.3.html) | `<pthread.h>` | Get mutex type | POSIX.1-2001 | Yes |
+| [pthread_mutexattr_setpshared](https://man7.org/linux/man-pages/man3/pthread_mutexattr_setpshared.3.html) | `<pthread.h>` | Set process-shared attribute | POSIX.1-2001 | Yes |
+| [pthread_mutexattr_getpshared](https://man7.org/linux/man-pages/man3/pthread_mutexattr_getpshared.3.html) | `<pthread.h>` | Get process-shared attribute | POSIX.1-2001 | Yes |
+| [pthread_mutexattr_setprotocol](https://man7.org/linux/man-pages/man3/pthread_mutexattr_setprotocol.3.html) | `<pthread.h>` | Set protocol attribute | POSIX.1-2001 | Yes |
+| [pthread_mutexattr_getprotocol](https://man7.org/linux/man-pages/man3/pthread_mutexattr_getprotocol.3.html) | `<pthread.h>` | Get protocol attribute | POSIX.1-2001 | Yes |
+| [pthread_mutexattr_setprioceiling](https://man7.org/linux/man-pages/man3/pthread_mutexattr_setprioceiling.3.html) | `<pthread.h>` | Set priority ceiling attribute | POSIX.1-2001 | Yes |
+| [pthread_mutexattr_getprioceiling](https://man7.org/linux/man-pages/man3/pthread_mutexattr_getprioceiling.3.html) | `<pthread.h>` | Get priority ceiling attribute | POSIX.1-2001 | Yes |
+
+### Condition Variables
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [pthread_cond_init](https://man7.org/linux/man-pages/man3/pthread_cond_init.3.html) | `<pthread.h>` | Initialize a condition variable | POSIX.1-2001 | Yes |
+| [pthread_cond_destroy](https://man7.org/linux/man-pages/man3/pthread_cond_destroy.3.html) | `<pthread.h>` | Destroy a condition variable | POSIX.1-2001 | Yes |
+| [pthread_cond_signal](https://man7.org/linux/man-pages/man3/pthread_cond_signal.3.html) | `<pthread.h>` | Restart one of the threads waiting on condition variable | POSIX.1-2001 | Yes |
+| [pthread_cond_broadcast](https://man7.org/linux/man-pages/man3/pthread_cond_broadcast.3.html) | `<pthread.h>` | Unblock all threads currently blocked on condition variable | POSIX.1-2001 | Yes |
+| [pthread_cond_wait](https://man7.org/linux/man-pages/man3/pthread_cond_wait.3.html) | `<pthread.h>` | Wait on a condition variable | POSIX.1-2001 | Yes |
+| [pthread_cond_timedwait](https://man7.org/linux/man-pages/man3/pthread_cond_timedwait.3.html) | `<pthread.h>` | Wait on a condition variable with a timeout | POSIX.1-2001 | Yes |
+| [pthread_condattr_init](https://man7.org/linux/man-pages/man3/pthread_condattr_init.3.html) | `<pthread.h>` | Initialize condition variable attributes object | POSIX.1-2001 | Yes |
+| [pthread_condattr_destroy](https://man7.org/linux/man-pages/man3/pthread_condattr_destroy.3.html) | `<pthread.h>` | Destroy condition variable attributes object | POSIX.1-2001 | Yes |
+| [pthread_condattr_setpshared](https://man7.org/linux/man-pages/man3/pthread_condattr_setpshared.3.html) | `<pthread.h>` | Set process-shared attribute | POSIX.1-2001 | Yes |
+| [pthread_condattr_getpshared](https://man7.org/linux/man-pages/man3/pthread_condattr_getpshared.3.html) | `<pthread.h>` | Get process-shared attribute | POSIX.1-2001 | Yes |
+| [pthread_condattr_setclock](https://man7.org/linux/man-pages/man3/pthread_condattr_setclock.3.html) | `<pthread.h>` | Set the clock selection attribute | POSIX.1-2001 | Yes |
+| [pthread_condattr_getclock](https://man7.org/linux/man-pages/man3/pthread_condattr_getclock.3.html) | `<pthread.h>` | Get the clock selection attribute | POSIX.1-2001 | Yes |
+
+### Semaphores
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [sem_init](https://man7.org/linux/man-pages/man3/sem_init.3.html) | `<semaphore.h>` | Initialize an unnamed semaphore | POSIX.1-2001 | Yes |
+| [sem_destroy](https://man7.org/linux/man-pages/man3/sem_destroy.3.html) | `<semaphore.h>` | Destroy an unnamed semaphore | POSIX.1-2001 | Yes |
+| [sem_wait](https://man7.org/linux/man-pages/man3/sem_wait.3.html) | `<semaphore.h>` | Lock a semaphore | POSIX.1-2001 | Yes |
+| [sem_trywait](https://man7.org/linux/man-pages/man3/sem_trywait.3.html) | `<semaphore.h>` | Lock a semaphore without blocking | POSIX.1-2001 | Yes |
+| [sem_timedwait](https://man7.org/linux/man-pages/man3/sem_timedwait.3.html) | `<semaphore.h>` | Lock a semaphore with a timeout | POSIX.1-2001 | Yes |
+| [sem_post](https://man7.org/linux/man-pages/man3/sem_post.3.html) | `<semaphore.h>` | Unlock a semaphore | POSIX.1-2001 | Yes |
+| [sem_getvalue](https://man7.org/linux/man-pages/man3/sem_getvalue.3.html) | `<semaphore.h>` | Get the value of a semaphore | POSIX.1-2001 | Yes |
+| [sem_open](https://man7.org/linux/man-pages/man3/sem_open.3.html) | `<semaphore.h>` | Initialize and open a named semaphore | POSIX.1-2001 | Yes |
+| [sem_close](https://man7.org/linux/man-pages/man3/sem_close.3.html) | `<semaphore.h>` | Close a named semaphore | POSIX.1-2001 | Yes |
+| [sem_unlink](https://man7.org/linux/man-pages/man3/sem_unlink.3.html) | `<semaphore.h>` | Remove a named semaphore | POSIX.1-2001 | Yes |
+
+### Read-Write Locks
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [pthread_rwlock_init](https://man7.org/linux/man-pages/man3/pthread_rwlock_init.3.html) | `<pthread.h>` | Initialize a read-write lock object | POSIX.1-2001 | Yes |
+| [pthread_rwlock_destroy](https://man7.org/linux/man-pages/man3/pthread_rwlock_destroy.3.html) | `<pthread.h>` | Destroy a read-write lock object | POSIX.1-2001 | Yes |
+| [pthread_rwlock_rdlock](https://man7.org/linux/man-pages/man3/pthread_rwlock_rdlock.3.html) | `<pthread.h>` | Lock a read-write lock object for reading | POSIX.1-2001 | Yes |
+| [pthread_rwlock_tryrdlock](https://man7.org/linux/man-pages/man3/pthread_rwlock_tryrdlock.3.html) | `<pthread.h>` | Lock a read-write lock for reading without blocking | POSIX.1-2001 | Yes |
+| [pthread_rwlock_timedrdlock](https://man7.org/linux/man-pages/man3/pthread_rwlock_timedrdlock.3.html) | `<pthread.h>` | Lock a read-write lock for reading with timeout | POSIX.1-2001 | Yes |
+| [pthread_rwlock_wrlock](https://man7.org/linux/man-pages/man3/pthread_rwlock_wrlock.3.html) | `<pthread.h>` | Lock a read-write lock object for writing | POSIX.1-2001 | Yes |
+| [pthread_rwlock_trywrlock](https://man7.org/linux/man-pages/man3/pthread_rwlock_trywrlock.3.html) | `<pthread.h>` | Lock a read-write lock for writing without blocking | POSIX.1-2001 | Yes |
+| [pthread_rwlock_timedwrlock](https://man7.org/linux/man-pages/man3/pthread_rwlock_timedwrlock.3.html) | `<pthread.h>` | Lock a read-write lock for writing with timeout | POSIX.1-2001 | Yes |
+| [pthread_rwlock_unlock](https://man7.org/linux/man-pages/man3/pthread_rwlock_unlock.3.html) | `<pthread.h>` | Unlock a read-write lock object | POSIX.1-2001 | Yes |
+| [pthread_rwlockattr_init](https://man7.org/linux/man-pages/man3/pthread_rwlockattr_init.3.html) | `<pthread.h>` | Initialize the read-write lock attributes object | POSIX.1-2001 | Yes |
+| [pthread_rwlockattr_destroy](https://man7.org/linux/man-pages/man3/pthread_rwlockattr_destroy.3.html) | `<pthread.h>` | Destroy the read-write lock attributes object | POSIX.1-2001 | Yes |
+
+### Spinlocks
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [pthread_spin_init](https://man7.org/linux/man-pages/man3/pthread_spin_init.3.html) | `<pthread.h>` | Initialize a spin lock object | POSIX.1-2001 | Yes |
+| [pthread_spin_destroy](https://man7.org/linux/man-pages/man3/pthread_spin_destroy.3.html) | `<pthread.h>` | Destroy a spin lock object | POSIX.1-2001 | Yes |
+| [pthread_spin_lock](https://man7.org/linux/man-pages/man3/pthread_spin_lock.3.html) | `<pthread.h>` | Lock a spin lock object | POSIX.1-2001 | Yes |
+| [pthread_spin_trylock](https://man7.org/linux/man-pages/man3/pthread_spin_trylock.3.html) | `<pthread.h>` | Lock a spin lock object without blocking | POSIX.1-2001 | Yes |
+| [pthread_spin_unlock](https://man7.org/linux/man-pages/man3/pthread_spin_unlock.3.html) | `<pthread.h>` | Unlock a spin lock object | POSIX.1-2001 | Yes |
+
+### Barriers
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [pthread_barrier_init](https://man7.org/linux/man-pages/man3/pthread_barrier_init.3.html) | `<pthread.h>` | Initialize a barrier object | POSIX.1-2001 | Yes |
+| [pthread_barrier_destroy](https://man7.org/linux/man-pages/man3/pthread_barrier_destroy.3.html) | `<pthread.h>` | Destroy a barrier object | POSIX.1-2001 | Yes |
+| [pthread_barrier_wait](https://man7.org/linux/man-pages/man3/pthread_barrier_wait.3.html) | `<pthread.h>` | Synchronize at a barrier | POSIX.1-2001 | Yes |
+| [pthread_barrierattr_init](https://man7.org/linux/man-pages/man3/pthread_barrierattr_init.3.html) | `<pthread.h>` | Initialize barrier attributes object | POSIX.1-2001 | Yes |
+| [pthread_barrierattr_destroy](https://man7.org/linux/man-pages/man3/pthread_barrierattr_destroy.3.html) | `<pthread.h>` | Destroy barrier attributes object | POSIX.1-2001 | Yes |
+
+### Thread Signals
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [pthread_sigmask](https://man7.org/linux/man-pages/man3/pthread_sigmask.3.html) | `<signal.h>` | Examine and change blocked signals | POSIX.1-2001 | Yes |
+| [pthread_kill](https://man7.org/linux/man-pages/man3/pthread_kill.3.html) | `<signal.h>` | Send a signal to a thread | POSIX.1-2001 | Yes |
+| [sigwait](https://man7.org/linux/man-pages/man3/sigwait.3.html) | `<signal.h>` | Wait for a signal | POSIX.1-2001 | Yes |
+
+<br >
+
+---
+
+## Networking &amp; Sockets (sys/socket.h, netinet/in.h, arpa/inet.h, netdb.h)
+
+### Socket Creation &amp; Management
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [socket](https://man7.org/linux/man-pages/man2/socket.2.html) | `<sys/socket.h>` | Create an endpoint for communication | POSIX.1-2001 | Yes |
+| [socketpair](https://man7.org/linux/man-pages/man2/socketpair.2.html) | `<sys/socket.h>` | Create a pair of connected sockets | POSIX.1-2001 | Yes |
+| [bind](https://man7.org/linux/man-pages/man2/bind.2.html) | `<sys/socket.h>` | Bind a name to a socket | POSIX.1-2001 | Yes |
+| [listen](https://man7.org/linux/man-pages/man2/listen.2.html) | `<sys/socket.h>` | Listen for connections on a socket | POSIX.1-2001 | Yes |
+| [accept](https://man7.org/linux/man-pages/man2/accept.2.html) | `<sys/socket.h>` | Accept a connection on a socket | POSIX.1-2001 | Yes |
+| [accept4](https://man7.org/linux/man-pages/man2/accept4.2.html) | `<sys/socket.h>` | Accept a connection with flags | Linux | Yes |
+| [connect](https://man7.org/linux/man-pages/man2/connect.2.html) | `<sys/socket.h>` | Initiate a connection on a socket | POSIX.1-2001 | Yes |
+| [shutdown](https://man7.org/linux/man-pages/man2/shutdown.2.html) | `<sys/socket.h>` | Shut down part of a full-duplex connection | POSIX.1-2001 | Yes |
+| [close](https://man7.org/linux/man-pages/man2/close.2.html) | `<unistd.h>` | Close a file descriptor | POSIX.1-2001 | Yes |
+| [getsockname](https://man7.org/linux/man-pages/man2/getsockname.2.html) | `<sys/socket.h>` | Get socket name | POSIX.1-2001 | Yes |
+| [getpeername](https://man7.org/linux/man-pages/man2/getpeername.2.html) | `<sys/socket.h>` | Get name of connected peer | POSIX.1-2001 | Yes |
+
+### Socket I/O
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [send](https://man7.org/linux/man-pages/man2/send.2.html) | `<sys/socket.h>` | Send a message on a socket | POSIX.1-2001 | Yes |
+| [sendto](https://man7.org/linux/man-pages/man2/sendto.2.html) | `<sys/socket.h>` | Send a message on a socket to a specified address | POSIX.1-2001 | Yes |
+| [sendmsg](https://man7.org/linux/man-pages/man2/sendmsg.2.html) | `<sys/socket.h>` | Send a message on a socket with control data | POSIX.1-2001 | Yes |
+| [sendmmsg](https://man7.org/linux/man-pages/man2/sendmmsg.2.html) | `<sys/socket.h>` | Send multiple messages on a socket | Linux | Yes |
+| [recv](https://man7.org/linux/man-pages/man2/recv.2.html) | `<sys/socket.h>` | Receive a message from a socket | POSIX.1-2001 | Yes |
+| [recvfrom](https://man7.org/linux/man-pages/man2/recvfrom.2.html) | `<sys/socket.h>` | Receive a message from a socket with source address | POSIX.1-2001 | Yes |
+| [recvmsg](https://man7.org/linux/man-pages/man2/recvmsg.2.html) | `<sys/socket.h>` | Receive a message with ancillary data from a socket | POSIX.1-2001 | Yes |
+| [recvmmsg](https://man7.org/linux/man-pages/man2/recvmmsg.2.html) | `<sys/socket.h>` | Receive multiple messages on a socket | Linux | Yes |
+
+### Socket Options
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [setsockopt](https://man7.org/linux/man-pages/man2/setsockopt.2.html) | `<sys/socket.h>` | Set socket options | POSIX.1-2001 | Yes |
+| [getsockopt](https://man7.org/linux/man-pages/man2/getsockopt.2.html) | `<sys/socket.h>` | Get socket options | POSIX.1-2001 | Yes |
+| [ioctl](https://man7.org/linux/man-pages/man2/ioctl.2.html) | `<sys/ioctl.h>` | Control device | POSIX.1-2001 | Yes |
+| [fcntl](https://man7.org/linux/man-pages/man2/fcntl.2.html) | `<fcntl.h>` | Manipulate file descriptor | POSIX.1-2001 | Yes |
+
+### Byte Order Conversion
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [htons](https://man7.org/linux/man-pages/man3/htons.3.html) | `<arpa/inet.h>` | Convert host byte order to network byte order (short) | POSIX.1-2001 | Yes |
+| [htonl](https://man7.org/linux/man-pages/man3/htonl.3.html) | `<arpa/inet.h>` | Convert host byte order to network byte order (long) | POSIX.1-2001 | Yes |
+| [ntohs](https://man7.org/linux/man-pages/man3/ntohs.3.html) | `<arpa/inet.h>` | Convert network byte order to host byte order (short) | POSIX.1-2001 | Yes |
+| [ntohl](https://man7.org/linux/man-pages/man3/ntohl.3.html) | `<arpa/inet.h>` | Convert network byte order to host byte order (long) | POSIX.1-2001 | Yes |
+
+### IP Address Conversion
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [inet_addr](https://man7.org/linux/man-pages/man3/inet_addr.3.html) | `<arpa/inet.h>` | Convert IPv4 address string to binary form | POSIX.1-2001 | Yes |
+| [inet_aton](https://man7.org/linux/man-pages/man3/inet_aton.3.html) | `<arpa/inet.h>` | Convert IPv4 address string to binary form | BSD, POSIX.1-2001 | Yes |
+| [inet_ntoa](https://man7.org/linux/man-pages/man3/inet_ntoa.3.html) | `<arpa/inet.h>` | Convert IPv4 binary address to dotted-decimal string | POSIX.1-2001 | Yes |
+| [inet_pton](https://man7.org/linux/man-pages/man3/inet_pton.3.html) | `<arpa/inet.h>` | Convert IP address from presentation to network format | POSIX.1-2001 | Yes |
+| [inet_ntop](https://man7.org/linux/man-pages/man3/inet_ntop.3.html) | `<arpa/inet.h>` | Convert IP address from network to presentation format | POSIX.1-2001 | Yes |
+
+### Name Resolution (DNS)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [gethostbyname](https://man7.org/linux/man-pages/man3/gethostbyname.3.html) | `<netdb.h>` | Get network host entry (legacy) | POSIX.1-2001 (obsolete) | Yes |
+| [gethostbyaddr](https://man7.org/linux/man-pages/man3/gethostbyaddr.3.html) | `<netdb.h>` | Get network host entry by address (legacy) | POSIX.1-2001 (obsolete) | Yes |
+| [getaddrinfo](https://man7.org/linux/man-pages/man3/getaddrinfo.3.html) | `<netdb.h>` | Network address and service translation | POSIX.1-2001 | Yes |
+| [freeaddrinfo](https://man7.org/linux/man-pages/man3/freeaddrinfo.3.html) | `<netdb.h>` | Free addrinfo structures | POSIX.1-2001 | Yes |
+| [gai_strerror](https://man7.org/linux/man-pages/man3/gai_strerror.3.html) | `<netdb.h>` | Print error messages from getaddrinfo return code | POSIX.1-2001 | Yes |
+| [getnameinfo](https://man7.org/linux/man-pages/man3/getnameinfo.3.html) | `<netdb.h>` | Address-to-name translation in protocol-independent manner | POSIX.1-2001 | Yes |
+| [getnetbyname](https://man7.org/linux/man-pages/man3/getnetbyname.3.html) | `<netdb.h>` | Get network entry by name | BSD, POSIX.1-2001 (obsolete) | Yes |
+| [getnetbyaddr](https://man7.org/linux/man-pages/man3/getnetbyaddr.3.html) | `<netdb.h>` | Get network entry by address | BSD, POSIX.1-2001 (obsolete) | Yes |
+
+### Service &amp; Protocol Database
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [getservbyname](https://man7.org/linux/man-pages/man3/getservbyname.3.html) | `<netdb.h>` | Get service entry by name | POSIX.1-2001 | Yes |
+| [getservbyport](https://man7.org/linux/man-pages/man3/getservbyport.3.html) | `<netdb.h>` | Get service entry by port | POSIX.1-2001 | Yes |
+| [getprotobyname](https://man7.org/linux/man-pages/man3/getprotobyname.3.html) | `<netdb.h>` | Get protocol entry by name | POSIX.1-2001 | Yes |
+| [getprotobynumber](https://man7.org/linux/man-pages/man3/getprotobynumber.3.html) | `<netdb.h>` | Get protocol entry by number | POSIX.1-2001 | Yes |
+| [setservent](https://man7.org/linux/man-pages/man3/setservent.3.html) | `<netdb.h>` | Rewind to start of services file | POSIX.1-2001 | Yes |
+| [endservent](https://man7.org/linux/man-pages/man3/endservent.3.html) | `<netdb.h>` | Close services file | POSIX.1-2001 | Yes |
+| [setprotoent](https://man7.org/linux/man-pages/man3/setprotoent.3.html) | `<netdb.h>` | Rewind to start of protocols file | POSIX.1-2001 | Yes |
+| [endprotoent](https://man7.org/linux/man-pages/man3/endprotoent.3.html) | `<netdb.h>` | Close protocols file | POSIX.1-2001 | Yes |
+
+### Multicast
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [if_nametoindex](https://man7.org/linux/man-pages/man3/if_nametoindex.3.html) | `<net/if.h>` | Map network interface name to index | POSIX.1-2001 | Yes |
+| [if_indextoname](https://man7.org/linux/man-pages/man3/if_indextoname.3.html) | `<net/if.h>` | Map network interface index to name | POSIX.1-2001 | Yes |
+| [if_nameindex](https://man7.org/linux/man-pages/man3/if_nameindex.3.html) | `<net/if.h>` | Return all network interface names and indexes | POSIX.1-2001 | Yes |
+| [if_freenameindex](https://man7.org/linux/man-pages/man3/if_freenameindex.3.html) | `<net/if.h>` | Free memory allocated by if_nameindex | POSIX.1-2001 | Yes |
+
+<br >
+
+---
+
+## Wide Character &amp; Multibyte (wchar.h, wctype.h)
+
+### Wide Character I/O
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [fgetwc](https://man7.org/linux/man-pages/man3/fgetwc.3.html) | `<wchar.h>` | Read a wide character from a stream | POSIX.1-2001, C99 | Yes |
+| [getwc](https://man7.org/linux/man-pages/man3/getwc.3.html) | `<wchar.h>` | Read a wide character from a stream | POSIX.1-2001, C99 | Yes |
+| [getwchar](https://man7.org/linux/man-pages/man3/getwchar.3.html) | `<wchar.h>` | Read a wide character from stdin | POSIX.1-2001, C99 | Yes |
+| [fputwc](https://man7.org/linux/man-pages/man3/fputwc.3.html) | `<wchar.h>` | Write a wide character to a stream | POSIX.1-2001, C99 | Yes |
+| [putwc](https://man7.org/linux/man-pages/man3/putwc.3.html) | `<wchar.h>` | Write a wide character to a stream | POSIX.1-2001, C99 | Yes |
+| [putwchar](https://man7.org/linux/man-pages/man3/putwchar.3.html) | `<wchar.h>` | Write a wide character to stdout | POSIX.1-2001, C99 | Yes |
+| [ungetwc](https://man7.org/linux/man-pages/man3/ungetwc.3.html) | `<wchar.h>` | Push a wide character back to an input stream | POSIX.1-2001, C99 | Yes |
+| [fgetws](https://man7.org/linux/man-pages/man3/fgetws.3.html) | `<wchar.h>` | Read a wide-character string from a stream | POSIX.1-2001, C99 | Yes |
+| [fputws](https://man7.org/linux/man-pages/man3/fputws.3.html) | `<wchar.h>` | Write a wide-character string to a stream | POSIX.1-2001, C99 | Yes |
+
+### Wide Character Formatted I/O
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [wprintf](https://man7.org/linux/man-pages/man3/wprintf.3.html) | `<wchar.h>` | Write formatted wide-character output to stdout | POSIX.1-2001, C99 | Yes |
+| [fwprintf](https://man7.org/linux/man-pages/man3/fwprintf.3.html) | `<wchar.h>` | Write formatted wide-character output to a stream | POSIX.1-2001, C99 | Yes |
+| [swprintf](https://man7.org/linux/man-pages/man3/swprintf.3.html) | `<wchar.h>` | Write formatted wide-character output to a buffer | POSIX.1-2001, C99 | Yes |
+| [vwprintf](https://man7.org/linux/man-pages/man3/vwprintf.3.html) | `<wchar.h>` | Equivalent to wprintf with variable argument list | POSIX.1-2001, C99 | Yes |
+| [vfwprintf](https://man7.org/linux/man-pages/man3/vfwprintf.3.html) | `<wchar.h>` | Equivalent to fwprintf with variable argument list | POSIX.1-2001, C99 | Yes |
+| [vswprintf](https://man7.org/linux/man-pages/man3/vswprintf.3.html) | `<wchar.h>` | Equivalent to swprintf with variable argument list | POSIX.1-2001, C99 | Yes |
+| [wscanf](https://man7.org/linux/man-pages/man3/wscanf.3.html) | `<wchar.h>` | Read formatted wide-character input from stdin | POSIX.1-2001, C99 | Yes |
+| [fwscanf](https://man7.org/linux/man-pages/man3/fwscanf.3.html) | `<wchar.h>` | Read formatted wide-character input from a stream | POSIX.1-2001, C99 | Yes |
+| [swscanf](https://man7.org/linux/man-pages/man3/swscanf.3.html) | `<wchar.h>` | Read formatted wide-character input from a buffer | POSIX.1-2001, C99 | Yes |
+| [vwscanf](https://man7.org/linux/man-pages/man3/vwscanf.3.html) | `<wchar.h>` | Equivalent to wscanf with variable argument list | POSIX.1-2001, C99 | Yes |
+| [vfwscanf](https://man7.org/linux/man-pages/man3/vfwscanf.3.html) | `<wchar.h>` | Equivalent to fwscanf with variable argument list | POSIX.1-2001, C99 | Yes |
+| [vswscanf](https://man7.org/linux/man-pages/man3/vswscanf.3.html) | `<wchar.h>` | Equivalent to swscanf with variable argument list | POSIX.1-2001, C99 | Yes |
+
+### Wide Character String Operations
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [wcslen](https://man7.org/linux/man-pages/man3/wcslen.3.html) | `<wchar.h>` | Determine the length of a wide-character string | POSIX.1-2001, C99 | Yes |
+| [wcsnlen](https://man7.org/linux/man-pages/man3/wcsnlen.3.html) | `<wchar.h>` | Determine the length of a fixed-size wide-character string | POSIX.1-2008 | Yes |
+| [wcscpy](https://man7.org/linux/man-pages/man3/wcscpy.3.html) | `<wchar.h>` | Copy a wide-character string | POSIX.1-2001, C99 | Yes |
+| [wcsncpy](https://man7.org/linux/man-pages/man3/wcsncpy.3.html) | `<wchar.h>` | Copy a fixed-size wide-character string | POSIX.1-2001, C99 | Yes |
+| [wcscat](https://man7.org/linux/man-pages/man3/wcscat.3.html) | `<wchar.h>` | Concatenate two wide-character strings | POSIX.1-2001, C99 | Yes |
+| [wcsncat](https://man7.org/linux/man-pages/man3/wcsncat.3.html) | `<wchar.h>` | Concatenate two wide-character strings with size limit | POSIX.1-2001, C99 | Yes |
+| [wcscmp](https://man7.org/linux/man-pages/man3/wcscmp.3.html) | `<wchar.h>` | Compare two wide-character strings | POSIX.1-2001, C99 | Yes |
+| [wcsncmp](https://man7.org/linux/man-pages/man3/wcsncmp.3.html) | `<wchar.h>` | Compare two fixed-size wide-character strings | POSIX.1-2001, C99 | Yes |
+| [wcscasecmp](https://man7.org/linux/man-pages/man3/wcscasecmp.3.html) | `<wchar.h>` | Compare two wide-character strings ignoring case | POSIX.1-2008 | Yes |
+| [wcsncasecmp](https://man7.org/linux/man-pages/man3/wcsncasecmp.3.html) | `<wchar.h>` | Compare two fixed-size wide-character strings ignoring case | POSIX.1-2008 | Yes |
+| [wcschr](https://man7.org/linux/man-pages/man3/wcschr.3.html) | `<wchar.h>` | Search a wide character in a wide-character string | POSIX.1-2001, C99 | Yes |
+| [wcsrchr](https://man7.org/linux/man-pages/man3/wcsrchr.3.html) | `<wchar.h>` | Search a wide character in a wide-character string in reverse | POSIX.1-2001, C99 | Yes |
+| [wcsstr](https://man7.org/linux/man-pages/man3/wcsstr.3.html) | `<wchar.h>` | Locate a substring in a wide-character string | POSIX.1-2001, C99 | Yes |
+| [wcspbrk](https://man7.org/linux/man-pages/man3/wcspbrk.3.html) | `<wchar.h>` | Search a wide-character string for any of a set of wide characters | POSIX.1-2001, C99 | Yes |
+| [wcscspn](https://man7.org/linux/man-pages/man3/wcscspn.3.html) | `<wchar.h>` | Get span of wide characters not in reject string | POSIX.1-2001, C99 | Yes |
+| [wcsspn](https://man7.org/linux/man-pages/man3/wcsspn.3.html) | `<wchar.h>` | Get span of wide characters in accept string | POSIX.1-2001, C99 | Yes |
+| [wcstok](https://man7.org/linux/man-pages/man3/wcstok.3.html) | `<wchar.h>` | Extract tokens from a wide-character string | POSIX.1-2001, C99 | Yes |
+| [wcsdup](https://man7.org/linux/man-pages/man3/wcsdup.3.html) | `<wchar.h>` | Duplicate a wide-character string | POSIX.1-2008 | Yes |
+
+### Wide Character Classification
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [iswalpha](https://man7.org/linux/man-pages/man3/iswalpha.3.html) | `<wctype.h>` | Test for alphabetic wide character | POSIX.1-2001, C99 | Yes |
+| [iswlower](https://man7.org/linux/man-pages/man3/iswlower.3.html) | `<wctype.h>` | Test for lowercase wide character | POSIX.1-2001, C99 | Yes |
+| [iswupper](https://man7.org/linux/man-pages/man3/iswupper.3.html) | `<wctype.h>` | Test for uppercase wide character | POSIX.1-2001, C99 | Yes |
+| [iswdigit](https://man7.org/linux/man-pages/man3/iswdigit.3.html) | `<wctype.h>` | Test for decimal digit wide character | POSIX.1-2001, C99 | Yes |
+| [iswxdigit](https://man7.org/linux/man-pages/man3/iswxdigit.3.html) | `<wctype.h>` | Test for hexadecimal digit wide character | POSIX.1-2001, C99 | Yes |
+| [iswspace](https://man7.org/linux/man-pages/man3/iswspace.3.html) | `<wctype.h>` | Test for whitespace wide character | POSIX.1-2001, C99 | Yes |
+| [iswpunct](https://man7.org/linux/man-pages/man3/iswpunct.3.html) | `<wctype.h>` | Test for punctuation wide character | POSIX.1-2001, C99 | Yes |
+| [iswalnum](https://man7.org/linux/man-pages/man3/iswalnum.3.html) | `<wctype.h>` | Test for alphanumeric wide character | POSIX.1-2001, C99 | Yes |
+| [iswprint](https://man7.org/linux/man-pages/man3/iswprint.3.html) | `<wctype.h>` | Test for printing wide character | POSIX.1-2001, C99 | Yes |
+| [iswgraph](https://man7.org/linux/man-pages/man3/iswgraph.3.html) | `<wctype.h>` | Test for any printable wide character except space | POSIX.1-2001, C99 | Yes |
+| [iswcntrl](https://man7.org/linux/man-pages/man3/iswcntrl.3.html) | `<wctype.h>` | Test for control wide character | POSIX.1-2001, C99 | Yes |
+| [iswascii](https://man7.org/linux/man-pages/man3/iswascii.3.html) | `<wctype.h>` | Test for ASCII wide character | BSD | Yes |
+| [towlower](https://man7.org/linux/man-pages/man3/towlower.3.html) | `<wctype.h>` | Convert wide character to lowercase | POSIX.1-2001, C99 | Yes |
+| [towupper](https://man7.org/linux/man-pages/man3/towupper.3.html) | `<wctype.h>` | Convert wide character to uppercase | POSIX.1-2001, C99 | Yes |
+
+### Multibyte Character Conversion
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [mblen](https://man7.org/linux/man-pages/man3/mblen.3.html) | `<stdlib.h>` | Determine number of bytes in a multibyte character | POSIX.1-2001, C89 | Yes |
+| [mbtowc](https://man7.org/linux/man-pages/man3/mbtowc.3.html) | `<stdlib.h>` | Convert a multibyte sequence to wide character | POSIX.1-2001, C89 | Yes |
+| [wctomb](https://man7.org/linux/man-pages/man3/wctomb.3.html) | `<stdlib.h>` | Convert a wide character to a multibyte sequence | POSIX.1-2001, C89 | Yes |
+| [mbstowcs](https://man7.org/linux/man-pages/man3/mbstowcs.3.html) | `<stdlib.h>` | Convert a multibyte string to a wide-character string | POSIX.1-2001, C89 | Yes |
+| [wcstombs](https://man7.org/linux/man-pages/man3/wcstombs.3.html) | `<stdlib.h>` | Convert a wide-character string to a multibyte string | POSIX.1-2001, C89 | Yes |
+| [mbsrtowcs](https://man7.org/linux/man-pages/man3/mbsrtowcs.3.html) | `<wchar.h>` | Convert a multibyte string to wide-character string with restart | POSIX.1-2001, C99 | Yes |
+| [wcsrtombs](https://man7.org/linux/man-pages/man3/wcsrtombs.3.html) | `<wchar.h>` | Convert a wide-character string to multibyte string with restart | POSIX.1-2001, C99 | Yes |
+| [mbsnrtowcs](https://man7.org/linux/man-pages/man3/mbsnrtowcs.3.html) | `<wchar.h>` | Convert a multibyte string to wide-character string with size limit | POSIX.1-2008 | Yes |
+| [wcsnrtombs](https://man7.org/linux/man-pages/man3/wcsnrtombs.3.html) | `<wchar.h>` | Convert a wide-character string to multibyte with size limit | POSIX.1-2008 | Yes |
+| [mbrlen](https://man7.org/linux/man-pages/man3/mbrlen.3.html) | `<wchar.h>` | Determine number of bytes in a multibyte sequence | POSIX.1-2001, C99 | Yes |
+| [mbrtowc](https://man7.org/linux/man-pages/man3/mbrtowc.3.html) | `<wchar.h>` | Convert a multibyte sequence to a wide character with restart | POSIX.1-2001, C99 | Yes |
+| [wcrtomb](https://man7.org/linux/man-pages/man3/wcrtomb.3.html) | `<wchar.h>` | Convert a wide character to a multibyte sequence with restart | POSIX.1-2001, C99 | Yes |
+
+### Wide Character Numeric Conversion
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [wcstod](https://man7.org/linux/man-pages/man3/wcstod.3.html) | `<wchar.h>` | Convert wide-character string to double | POSIX.1-2001, C99 | Yes |
+| [wcstof](https://man7.org/linux/man-pages/man3/wcstof.3.html) | `<wchar.h>` | Convert wide-character string to float | POSIX.1-2001, C99 | Yes |
+| [wcstold](https://man7.org/linux/man-pages/man3/wcstold.3.html) | `<wchar.h>` | Convert wide-character string to long double | POSIX.1-2001, C99 | Yes |
+| [wcstol](https://man7.org/linux/man-pages/man3/wcstol.3.html) | `<wchar.h>` | Convert wide-character string to long integer | POSIX.1-2001, C99 | Yes |
+| [wcstoul](https://man7.org/linux/man-pages/man3/wcstoul.3.html) | `<wchar.h>` | Convert wide-character string to unsigned long integer | POSIX.1-2001, C99 | Yes |
+| [wcstoll](https://man7.org/linux/man-pages/man3/wcstoll.3.html) | `<wchar.h>` | Convert wide-character string to long long integer | POSIX.1-2001, C99 | Yes |
+| [wcstoull](https://man7.org/linux/man-pages/man3/wcstoull.3.html) | `<wchar.h>` | Convert wide-character string to unsigned long long | POSIX.1-2001, C99 | Yes |
+| [wcstoimax](https://man7.org/linux/man-pages/man3/wcstoimax.3.html) | `<stdint.h>` | Convert wide-character string to intmax_t | POSIX.1-2001, C99 | Yes |
+| [wcstoumax](https://man7.org/linux/man-pages/man3/wcstoumax.3.html) | `<stdint.h>` | Convert wide-character string to uintmax_t | POSIX.1-2001, C99 | Yes |
+
+### Wide Character Date &amp; Time Formatting
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [wcsftime](https://man7.org/linux/man-pages/man3/wcsftime.3.html) | `<time.h>` | Format date and time for the current locale using wide characters | POSIX.1-2001, C99 | Yes |
+
+### Wide Character Memory Operations
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [wmemcpy](https://man7.org/linux/man-pages/man3/wmemcpy.3.html) | `<wchar.h>` | Copy wide-character memory area | POSIX.1-2001, C99 | Yes |
+| [wmemmove](https://man7.org/linux/man-pages/man3/wmemmove.3.html) | `<wchar.h>` | Copy wide-character memory area with possible overlap | POSIX.1-2001, C99 | Yes |
+| [wmemset](https://man7.org/linux/man-pages/man3/wmemset.3.html) | `<wchar.h>` | Fill wide-character memory area with a constant wide character | POSIX.1-2001, C99 | Yes |
+| [wmemchr](https://man7.org/linux/man-pages/man3/wmemchr.3.html) | `<wchar.h>` | Search a wide character in a wide-character array | POSIX.1-2001, C99 | Yes |
+| [wmemcmp](https://man7.org/linux/man-pages/man3/wmemcmp.3.html) | `<wchar.h>` | Compare two wide-character memory areas | POSIX.1-2001, C99 | Yes |
+
+<br >
+
+---
+
+## Complex Math (complex.h)
+
+### Complex Arithmetic
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [cabs](https://man7.org/linux/man-pages/man3/cabs.3.html) | `<complex.h>` | Absolute value of complex number | POSIX.1-2001, C99 | Yes |
+| [cabsf](https://man7.org/linux/man-pages/man3/cabsf.3.html) | `<complex.h>` | Absolute value of complex float | POSIX.1-2001, C99 | Yes |
+| [cabsl](https://man7.org/linux/man-pages/man3/cabsl.3.html) | `<complex.h>` | Absolute value of complex long double | POSIX.1-2001, C99 | Yes |
+| [carg](https://man7.org/linux/man-pages/man3/carg.3.html) | `<complex.h>` | Argument (phase angle) of complex number | POSIX.1-2001, C99 | Yes |
+| [cargf](https://man7.org/linux/man-pages/man3/cargf.3.html) | `<complex.h>` | Argument of complex float | POSIX.1-2001, C99 | Yes |
+| [cargl](https://man7.org/linux/man-pages/man3/cargl.3.html) | `<complex.h>` | Argument of complex long double | POSIX.1-2001, C99 | Yes |
+| [csqrt](https://man7.org/linux/man-pages/man3/csqrt.3.html) | `<complex.h>` | Square root of complex number | POSIX.1-2001, C99 | Yes |
+| [csqrtf](https://man7.org/linux/man-pages/man3/csqrtf.3.html) | `<complex.h>` | Square root of complex float | POSIX.1-2001, C99 | Yes |
+| [csqrtl](https://man7.org/linux/man-pages/man3/csqrtl.3.html) | `<complex.h>` | Square root of complex long double | POSIX.1-2001, C99 | Yes |
+| [cpow](https://man7.org/linux/man-pages/man3/cpow.3.html) | `<complex.h>` | Complex power function | POSIX.1-2001, C99 | Yes |
+| [cpowf](https://man7.org/linux/man-pages/man3/cpowf.3.html) | `<complex.h>` | Complex power function (float) | POSIX.1-2001, C99 | Yes |
+| [cpowl](https://man7.org/linux/man-pages/man3/cpowl.3.html) | `<complex.h>` | Complex power function (long double) | POSIX.1-2001, C99 | Yes |
+| [cexp](https://man7.org/linux/man-pages/man3/cexp.3.html) | `<complex.h>` | Complex exponential function | POSIX.1-2001, C99 | Yes |
+| [cexpf](https://man7.org/linux/man-pages/man3/cexpf.3.html) | `<complex.h>` | Complex exponential function (float) | POSIX.1-2001, C99 | Yes |
+| [cexpl](https://man7.org/linux/man-pages/man3/cexpl.3.html) | `<complex.h>` | Complex exponential function (long double) | POSIX.1-2001, C99 | Yes |
+| [clog](https://man7.org/linux/man-pages/man3/clog.3.html) | `<complex.h>` | Complex natural logarithm | POSIX.1-2001, C99 | Yes |
+| [clogf](https://man7.org/linux/man-pages/man3/clogf.3.html) | `<complex.h>` | Complex natural logarithm (float) | POSIX.1-2001, C99 | Yes |
+| [clogl](https://man7.org/linux/man-pages/man3/clogl.3.html) | `<complex.h>` | Complex natural logarithm (long double) | POSIX.1-2001, C99 | Yes |
+
+### Complex Trigonometry
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [csin](https://man7.org/linux/man-pages/man3/csin.3.html) | `<complex.h>` | Complex sine function | POSIX.1-2001, C99 | Yes |
+| [ccos](https://man7.org/linux/man-pages/man3/ccos.3.html) | `<complex.h>` | Complex cosine function | POSIX.1-2001, C99 | Yes |
+| [ctan](https://man7.org/linux/man-pages/man3/ctan.3.html) | `<complex.h>` | Complex tangent function | POSIX.1-2001, C99 | Yes |
+| [casin](https://man7.org/linux/man-pages/man3/casin.3.html) | `<complex.h>` | Complex arc sine function | POSIX.1-2001, C99 | Yes |
+| [cacos](https://man7.org/linux/man-pages/man3/cacos.3.html) | `<complex.h>` | Complex arc cosine function | POSIX.1-2001, C99 | Yes |
+| [catan](https://man7.org/linux/man-pages/man3/catan.3.html) | `<complex.h>` | Complex arc tangent function | POSIX.1-2001, C99 | Yes |
+| [csinh](https://man7.org/linux/man-pages/man3/csinh.3.html) | `<complex.h>` | Complex hyperbolic sine function | POSIX.1-2001, C99 | Yes |
+| [ccosh](https://man7.org/linux/man-pages/man3/ccosh.3.html) | `<complex.h>` | Complex hyperbolic cosine function | POSIX.1-2001, C99 | Yes |
+| [ctanh](https://man7.org/linux/man-pages/man3/ctanh.3.html) | `<complex.h>` | Complex hyperbolic tangent function | POSIX.1-2001, C99 | Yes |
+| [casinh](https://man7.org/linux/man-pages/man3/casinh.3.html) | `<complex.h>` | Complex arc hyperbolic sine function | POSIX.1-2001, C99 | Yes |
+| [cacosh](https://man7.org/linux/man-pages/man3/cacosh.3.html) | `<complex.h>` | Complex arc hyperbolic cosine function | POSIX.1-2001, C99 | Yes |
+| [catanh](https://man7.org/linux/man-pages/man3/catanh.3.html) | `<complex.h>` | Complex arc hyperbolic tangent function | POSIX.1-2001, C99 | Yes |
+
+### Complex Decomposition
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [creal](https://man7.org/linux/man-pages/man3/creal.3.html) | `<complex.h>` | Get real part of complex number | POSIX.1-2001, C99 | Yes |
+| [cimag](https://man7.org/linux/man-pages/man3/cimag.3.html) | `<complex.h>` | Get imaginary part of complex number | POSIX.1-2001, C99 | Yes |
+| [conj](https://man7.org/linux/man-pages/man3/conj.3.html) | `<complex.h>` | Complex conjugate function | POSIX.1-2001, C99 | Yes |
+| [cproj](https://man7.org/linux/man-pages/man3/cproj.3.html) | `<complex.h>` | Project into Riemann sphere | POSIX.1-2001, C99 | Yes |
+
+<br >
+
+---
+
+## Searching &amp; Sorting (stdlib.h, search.h)
+
+### Sorting
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [qsort](https://man7.org/linux/man-pages/man3/qsort.3.html) | `<stdlib.h>` | Sort an array using quicksort algorithm | POSIX.1-2001, C89 | Yes |
+| [qsort_r](https://man7.org/linux/man-pages/man3/qsort_r.3.html) | `<stdlib.h>` | Sort an array with user-supplied argument | GNU | Yes |
+| [heapsort](https://man7.org/linux/man-pages/man3/heapsort.3.html) | `<search.h>` | Sort an array using heapsort algorithm | BSD | Yes |
+| [mergesort](https://man7.org/linux/man-pages/man3/mergesort.3.html) | `<search.h>` | Sort an array using mergesort algorithm | BSD | Yes |
+
+### Searching
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [bsearch](https://man7.org/linux/man-pages/man3/bsearch.3.html) | `<stdlib.h>` | Binary search a sorted array | POSIX.1-2001, C89 | Yes |
+| [bsearch_r](https://man7.org/linux/man-pages/man3/bsearch_r.3.html) | `<stdlib.h>` | Binary search a sorted array with user-supplied argument | GNU | Yes |
+| [lfind](https://man7.org/linux/man-pages/man3/lfind.3.html) | `<search.h>` | Linear search an array | POSIX.1-2001, SVID | Yes |
+| [lsearch](https://man7.org/linux/man-pages/man3/lsearch.3.html) | `<search.h>` | Linear search an array, adding entry if not found | POSIX.1-2001, SVID | Yes |
+
+### Hash Tables (hsearch)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [hcreate](https://man7.org/linux/man-pages/man3/hcreate.3.html) | `<search.h>` | Create a hash table | POSIX.1-2001 | Yes |
+| [hsearch](https://man7.org/linux/man-pages/man3/hsearch.3.html) | `<search.h>` | Search hash table for an entry | POSIX.1-2001 | Yes |
+| [hdestroy](https://man7.org/linux/man-pages/man3/hdestroy.3.html) | `<search.h>` | Destroy a hash table | POSIX.1-2001 | Yes |
+| [hcreate_r](https://man7.org/linux/man-pages/man3/hcreate_r.3.html) | `<search.h>` | Create a hash table (reentrant) | GNU | Yes |
+| [hsearch_r](https://man7.org/linux/man-pages/man3/hsearch_r.3.html) | `<search.h>` | Search hash table for an entry (reentrant) | GNU | Yes |
+| [hdestroy_r](https://man7.org/linux/man-pages/man3/hdestroy_r.3.html) | `<search.h>` | Destroy a hash table (reentrant) | GNU | Yes |
+
+### Binary Search Trees (tsearch)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [tsearch](https://man7.org/linux/man-pages/man3/tsearch.3.html) | `<search.h>` | Search a binary tree | POSIX.1-2001 | Yes |
+| [tfind](https://man7.org/linux/man-pages/man3/tfind.3.html) | `<search.h>` | Find entry in binary tree without adding | POSIX.1-2001 | Yes |
+| [tdelete](https://man7.org/linux/man-pages/man3/tdelete.3.html) | `<search.h>` | Delete an entry from binary tree | POSIX.1-2001 | Yes |
+| [tdestroy](https://man7.org/linux/man-pages/man3/tdestroy.3.html) | `<search.h>` | Destroy entire binary tree | GNU | Yes |
+| [twalk](https://man7.org/linux/man-pages/man3/twalk.3.html) | `<search.h>` | Walk a binary tree | POSIX.1-2001 | Yes |
+| [twalk_r](https://man7.org/linux/man-pages/man3/twalk_r.3.html) | `<search.h>` | Walk a binary tree (reentrant) | GNU | Yes |
+
+<br >
+
+---
+
+## Random Numbers (stdlib.h)
+
+### Basic Random Number Generation
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [rand](https://man7.org/linux/man-pages/man3/rand.3.html) | `<stdlib.h>` | Generate a random integer | POSIX.1-2001, C89 | Yes |
+| [srand](https://man7.org/linux/man-pages/man3/srand.3.html) | `<stdlib.h>` | Seed the random number generator | POSIX.1-2001, C89 | Yes |
+| [rand_r](https://man7.org/linux/man-pages/man3/rand_r.3.html) | `<stdlib.h>` | Generate a random integer (reentrant) | POSIX.1-2001 | Yes |
+| [random](https://man7.org/linux/man-pages/man3/random.3.html) | `<stdlib.h>` | Generate a random number (linear congruential) | POSIX.1-2001, BSD | Yes |
+| [srandom](https://man7.org/linux/man-pages/man3/srandom.3.html) | `<stdlib.h>` | Seed random number generator | POSIX.1-2001, BSD | Yes |
+| [setstate](https://man7.org/linux/man-pages/man3/setstate.3.html) | `<stdlib.h>` | Set random number generator state array | POSIX.1-2001, BSD | Yes |
+| [initstate](https://man7.org/linux/man-pages/man3/initstate.3.html) | `<stdlib.h>` | Initialize random number generator state array | POSIX.1-2001, BSD | Yes |
+
+### Advanced Random Number Generation
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [drand48](https://man7.org/linux/man-pages/man3/drand48.3.html) | `<stdlib.h>` | Generate uniformly distributed doubles | POSIX.1-2001, SVID | Yes |
+| [erand48](https://man7.org/linux/man-pages/man3/erand48.3.html) | `<stdlib.h>` | Generate uniformly distributed doubles with seed | POSIX.1-2001, SVID | Yes |
+| [lrand48](https://man7.org/linux/man-pages/man3/lrand48.3.html) | `<stdlib.h>` | Generate uniformly distributed long integers | POSIX.1-2001, SVID | Yes |
+| [nrand48](https://man7.org/linux/man-pages/man3/nrand48.3.html) | `<stdlib.h>` | Generate uniformly distributed long integers with seed | POSIX.1-2001, SVID | Yes |
+| [mrand48](https://man7.org/linux/man-pages/man3/mrand48.3.html) | `<stdlib.h>` | Generate signed long integers | POSIX.1-2001, SVID | Yes |
+| [jrand48](https://man7.org/linux/man-pages/man3/jrand48.3.html) | `<stdlib.h>` | Generate signed long integers with seed | POSIX.1-2001, SVID | Yes |
+| [srand48](https://man7.org/linux/man-pages/man3/srand48.3.html) | `<stdlib.h>` | Seed random number generator | POSIX.1-2001, SVID | Yes |
+| [seed48](https://man7.org/linux/man-pages/man3/seed48.3.html) | `<stdlib.h>` | Seed random number generator and return previous seed | POSIX.1-2001, SVID | Yes |
+| [lcong48](https://man7.org/linux/man-pages/man3/lcong48.3.html) | `<stdlib.h>` | Set random number generator parameters | POSIX.1-2001, SVID | Yes |
+
+### Cryptographic Random Numbers
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [random_get_bytes](https://man7.org/linux/man-pages/man3/random_get_bytes.3.html) | `<bsd/stdlib.h>` | Get random bytes (BSD) | BSD | Yes |
+| [arc4random](https://man7.org/linux/man-pages/man3/arc4random.3.html) | `<stdlib.h>` | Pseudo-random number generator | BSD | Yes |
+| [arc4random_buf](https://man7.org/linux/man-pages/man3/arc4random_buf.3.html) | `<stdlib.h>` | Fill buffer with random bytes | BSD | Yes |
+| [arc4random_uniform](https://man7.org/linux/man-pages/man3/arc4random_uniform.3.html) | `<stdlib.h>` | Generate uniform random integer less than upper bound | BSD | Yes |
+| [getrandom](https://man7.org/linux/man-pages/man2/getrandom.2.html) | `<sys/random.h>` | Obtain a series of random bytes (Linux) | Linux | Yes |
+
+<br >
+
+---
+
+*Last updated: 2024*
