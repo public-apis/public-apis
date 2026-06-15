@@ -188,7 +188,7 @@
 | [Dribbble](https://developer.dribbble.com) | Discover the world’s top designers & creatives | `OAuth`| Yes | Unknown |
 | [EmojiHub](https://github.com/cheatsnake/emojihub) | Get emojis by categories and groups | No | Yes | Yes |
 | [Europeana](https://pro.europeana.eu/resources/apis/search) | European Museum and Galleries content | `apiKey` | Yes | Unknown |
-| [GetGenAI (Gen Content Review API)](https://docs.getgen.ai) | Compliance review API for product labels and marketing assets — automated checks against regulations, retailer specs, and brand guidelines, always up to date | `apiKey` | Yes | No |
+| [GetGenAI (Packaging Compliance Review)](https://www.getgen.ai/build) | Compliance review API for product labels and marketing assets — automated checks against regulations, retailer specs, and brand guidelines, always up to date | `apiKey` | Yes | No |
 | [Harvard Art Museums](https://github.com/harvardartmuseums/api-docs) | Art | `apiKey` | No | Unknown |
 | [Icon Horse](https://icon.horse/usage) | Favicons for any website, with fallbacks | No | Yes | Yes |
 | [Iconfinder](https://developer.iconfinder.com) | Icons | `apiKey` | Yes | Unknown |
