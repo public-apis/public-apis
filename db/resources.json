@@ -5001,8 +5001,8 @@
         "Description": "REST API for Yo Momma Jokes",
         "Auth": "",
         "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://github.com/beanboi7/yomomma-apiv2",
+        "Cors": "yes",
+        "Link": "https://github.com/TankObliterator/yo-mama-api",
         "Category": "Entertainment"
     },
     {
