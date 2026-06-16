@@ -1,5 +1,5 @@
 {
-"count": 1598,
+"count": 1599,
 "entries": [
     {
         "API": "Cat Facts",
@@ -11132,6 +11132,15 @@
         "HTTPS": true,
         "Cors": "yes",
         "Link": "https://github.com/cheatsnake/classify",
+        "Category": "Security"
+    },
+    {
+        "API": "ClawSearch",
+        "Description": "Security-first search engine API for AI agent skills with Trust Score",
+        "Auth": "",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://api.clawsearch.cc",
         "Category": "Security"
     },
     {
