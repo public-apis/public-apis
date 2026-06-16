@@ -844,6 +844,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Coffee](https://coffee.alexflipnote.dev/) | Random pictures of coffee | No | Yes | Unknown |
 | [Edamam nutrition](https://developer.edamam.com/edamam-docs-nutrition-api) | Nutrition Analysis | `apiKey` | Yes | Unknown |
 | [Edamam recipes](https://developer.edamam.com/edamam-docs-recipe-api) | Recipe Search | `apiKey` | Yes | Unknown |
+| [EuProductScore](https://euproductscore.com/developers) | European origin score (0-100) for food, cosmetics & books from open data | `apiKey` | Yes | Unknown |
 | [Foodish](https://github.com/surhud004/Foodish#readme) | Random pictures of food dishes | No | Yes | Yes |
 | [Fruityvice](https://www.fruityvice.com) | Data about all kinds of fruit | No | Yes | Unknown |
 | [Kroger](https://developer.kroger.com/reference) | Supermarket Data | `apiKey` | Yes | Unknown |
