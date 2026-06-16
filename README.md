@@ -1584,6 +1584,7 @@ like WhatsApp | `apiKey` | Yes | Yes |
 | [Bugcrowd](https://docs.bugcrowd.com/api/getting-started/) | Bugcrowd API for interacting and tracking the reported issues programmatically | `apiKey` | Yes | Unknown |
 | [Censys](https://search.censys.io/api) | Search engine for Internet connected host and devices | `apiKey` | Yes | No |
 | [Classify](https://github.com/cheatsnake/classify) | Encrypting & decrypting text messages | No | Yes | Yes |
+| [ClawSearch](https://api.clawsearch.cc) | Security-first search engine API for AI agent skills with Trust Score | No | Yes | Yes |
 | [Complete Criminal Checks](https://completecriminalchecks.com/Developers) | Provides data of offenders from all U.S. States and Puerto Rico | `apiKey` | Yes | Yes |
 | [CRXcavator](https://crxcavator.io/apidocs) | Chrome extension risk scoring | `apiKey` | Yes | Unknown |
 | [EmailRep](https://docs.emailrep.io/) | Email address threat and risk prediction | No | Yes | Unknown |
