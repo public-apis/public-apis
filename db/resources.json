@@ -1,5 +1,5 @@
 {
-"count": 1597,
+"count": 1598,
 "entries": [
     {
         "API": "Cat Facts",
@@ -5372,6 +5372,15 @@
         "HTTPS": true,
         "Cors": "unknown",
         "Link": "https://finnhub.io/docs/api",
+        "Category": "Finance"
+    },
+    {
+        "API": "FinSignals",
+        "Description": "Sentiment, direction & quality classification for Reddit financial social posts",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://finsignals.ai/docs/",
         "Category": "Finance"
     },
     {
