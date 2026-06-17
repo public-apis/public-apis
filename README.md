@@ -19,11 +19,6 @@
     <p align="center"><a href="https://serpapi.com?ref=dr-pa&utm_medium=public-apis-repo-readme">SerpApi - Search API</a> makes it easy and fast to scrape Google and other search engines.</p>
 </div>
 
-<div>
-    <p align="center"><a href="https://talordata.com/?campaignid=qhVxesdsTkpe2rOg&utm_source=publicapis&utm_term=publicapis&ref=dr-pa&utm_medium=public-apis-repo-readme"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/talordata-dark-mode.svg" width="80px"><source media="(prefers-color-scheme: light)" srcset="./assets/talordata-light-mode.svg" width="80px"><img alt="TalorData logo" src="./assets/talordata-dark-mode.svg" width="80px"></picture></a></p>
-    <p align="center"><a href="https://talordata.com/?campaignid=qhVxesdsTkpe2rOg&utm_source=publicapis&utm_term=publicapis&ref=dr-pa&utm_medium=public-apis-repo-readme">TalorData</a>: Get structured results from Google, Bing, Yandex, and DuckDuckGo through one API, with fast, reliable responses.</p>
-</div>
-
 <br/>
 
 <div>
