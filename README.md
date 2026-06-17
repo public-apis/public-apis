@@ -1675,6 +1675,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Telegram Bot](https://core.telegram.org/bots/api) | Simplified HTTP version of the MTProto API for bots | `apiKey` | Yes | Unknown |
 | [Telegram MTProto](https://core.telegram.org/api#getting-started) | Read and write Telegram data | `OAuth` | Yes | Unknown |
 | [Telegraph](https://telegra.ph/api) | Create attractive blogs easily, to share | `apiKey` | Yes | Unknown |
+| [TrendsMCP](https://www.trendsmcp.ai/docs) | Real-time trend data across Google, TikTok, Reddit, YouTube and Amazon | `apiKey` | Yes | Unknown |
 | [TikTok](https://developers.tiktok.com/doc/login-kit-web) | Fetches user info and user's video posts on TikTok platform | `OAuth` | Yes | Unknown |
 | [Trash Nothing](https://trashnothing.com/developer) | A freecycling community with thousands of free items posted every day | `OAuth` | Yes | Yes |
 | [Tumblr](https://www.tumblr.com/docs/en/api/v2) | Read and write Tumblr Data | `OAuth` | Yes | Unknown |
