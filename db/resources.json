@@ -1,6 +1,285 @@
 {
-"count": 1599,
+"count": 1600,
 "entries": [
+    {
+        "API": "Advanced Multilanguage AI Translator (RapidAPI)",
+        "Description": "AI-powered translator supporting multiple languages with fast, context-aware responses",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://rapidapi.com/vintarok-vintarok-default/api/advanced-multilanguage-ai-translator-api-with-fast-responses",
+        "Category": "AI"
+    },
+    {
+        "API": "AI/ML API",
+        "Description": "Access 100+ curated AI Models over 1 API",
+        "Auth": "Yes",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://aimlapi.com",
+        "Category": "AI"
+    },
+    {
+        "API": "AI For Thai",
+        "Description": "Free Various Thai AI API",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://aiforthai.in.th/index.php",
+        "Category": "AI"
+    },
+    {
+        "API": "AI Learning Engine",
+        "Description": "Create, auto-grade, and analyze learning tasks with AI-based evaluations",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://rapidapi.com/vintarok-vintarok-default/api/ai-learning-engine-task-creation-auto-grading-api",
+        "Category": "AI"
+    },
+    {
+        "API": "Chatwith",
+        "Description": "Build custom ChatGPT-style AI chatbots trained on your website and files, integrated with 5000+ apps — no coding, live in minutes.",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://chatwith.tools",
+        "Category": "AI"
+    },
+    {
+        "API": "Clarifai",
+        "Description": "Computer Vision",
+        "Auth": "OAuth",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://docs.clarifai.com/api-guide/api-overview",
+        "Category": "AI"
+    },
+    {
+        "API": "Cloudmersive",
+        "Description": "Image captioning, face recognition, NSFW classification",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://www.cloudmersive.com/image-recognition-and-processing-api",
+        "Category": "AI"
+    },
+    {
+        "API": "Cohere",
+        "Description": "Harness the power of language understanding. Join the developers and businesses who are using Cohere to generate, categorize and organize text at a scale that was previously unimaginable.",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://docs.cohere.ai/",
+        "Category": "AI"
+    },
+    {
+        "API": "CustomGPT.ai",
+        "Description": "RAG API with RESTful endpoints, comprehensive SDKs, and enterprise-grade reliability.",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://docs.customgpt.ai/reference/i-api-homepage",
+        "Category": "AI"
+    },
+    {
+        "API": "Dialogflow",
+        "Description": "Natural Language Processing",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://cloud.google.com/dialogflow/docs/",
+        "Category": "AI"
+    },
+    {
+        "API": "Eden",
+        "Description": "Get all AI models in one place, e.g. OpenAI, Google and lots more!",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://www.edenai.co/",
+        "Category": "AI"
+    },
+    {
+        "API": "EXUDE-API",
+        "Description": "Used for the primary ways for filtering the stopping, stemming words from the text data",
+        "Auth": "",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "http://uttesh.com/exude-api/",
+        "Category": "AI"
+    },
+    {
+        "API": "Face-api.js",
+        "Description": "JavaScript API for face detection, recognition, and emotion analysis using TensorFlow.js",
+        "Auth": "",
+        "HTTPS": false,
+        "Cors": "unknown",
+        "Link": "https://github.com/justadudewhohacks/face-api.js",
+        "Category": "AI"
+    },
+    {
+        "API": "Gladia",
+        "Description": "Artificial intelligence API's",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "no",
+        "Link": "https://docs.gladia.io",
+        "Category": "AI"
+    },
+    {
+        "API": "HOL Registry Broker",
+        "Description": "Discovery API for AI agents & MCP servers (search, verify, UAID, chat)",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://hol.org/docs/registry-broker/",
+        "Category": "AI"
+    },
+    {
+        "API": "Imagga",
+        "Description": "Image Recognition Solutions like Tagging, Visual Search, NSFW moderation",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://imagga.com/",
+        "Category": "AI"
+    },
+    {
+        "API": "Inferdo",
+        "Description": "Computer Vision services like Facial detection, Image labeling, NSFW classification",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://rapidapi.com/user/inferdo",
+        "Category": "AI"
+    },
+    {
+        "API": "Irisnet",
+        "Description": "Realtime content moderation API that blocks or blurs unwanted images in real-time",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://irisnet.de/api/",
+        "Category": "AI"
+    },
+    {
+        "API": "jsonAi.cloud",
+        "Description": "Save JSON schemas as api endpoints, feed it with your data and get structured JSON responses with AI",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://jsonai.cloud",
+        "Category": "AI"
+    },
+    {
+        "API": "Keen IO",
+        "Description": "Data Analytics",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://keen.io/",
+        "Category": "AI"
+    },
+    {
+        "API": "Machinetutors",
+        "Description": "AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://machinetutors.com/api/",
+        "Category": "AI"
+    },
+    {
+        "API": "MessengerX.io",
+        "Description": "A FREE API for developers to build and monetize personalized ML based chat apps",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://messengerx.rtfd.io",
+        "Category": "AI"
+    },
+    {
+        "API": "NLP Cloud",
+        "Description": "NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://nlpcloud.io",
+        "Category": "AI"
+    },
+    {
+        "API": "OpenAI",
+        "Description": "Use AI models such as ChatGPT or DALL-E to experience the capabilities of AI",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://openai.com/index/openai-api",
+        "Category": "AI"
+    },
+    {
+        "API": "Perspective",
+        "Description": "NLP API to return probability that if text is toxic, obscene, insulting or threatening",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://perspectiveapi.com",
+        "Category": "AI"
+    },
+    {
+        "API": "Roboflow Universe",
+        "Description": "Pre-trained computer vision models",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://universe.roboflow.com",
+        "Category": "AI"
+    },
+    {
+        "API": "SkyBiometry",
+        "Description": "Face Detection, Face Recognition and Face Grouping",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://skybiometry.com/documentation/",
+        "Category": "AI"
+    },
+    {
+        "API": "Spam Hunter",
+        "Description": "Free service to classify text as spam using ML",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://spam-hunter.ru/",
+        "Category": "AI"
+    },
+    {
+        "API": "Summarize Text with AI",
+        "Description": "This API generates customizable summaries of text and web pages using AI",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://apyhub.com/utility/ai-summarize",
+        "Category": "AI"
+    },
+    {
+        "API": "Unplugg",
+        "Description": "Forecasting API for timeseries data",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://unplu.gg/test_api.html",
+        "Category": "AI"
+    },
+    {
+        "API": "WolframAlpha",
+        "Description": "Provides specific answers to questions using data and algorithms",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "unknown",
+        "Link": "https://products.wolframalpha.com/api/",
+        "Category": "AI"
+    },
     {
         "API": "Cat Facts",
         "Description": "Daily cat facts",
@@ -8847,276 +9126,6 @@
         "Cors": "unknown",
         "Link": "https://www.whatjobs.com/affiliates",
         "Category": "Jobs"
-    },
-    {
-        "API": "Advanced Multilanguage AI Translator (RapidAPI)",
-        "Description": "AI-powered translator supporting multiple languages with fast, context-aware responses",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://rapidapi.com/vintarok-vintarok-default/api/advanced-multilanguage-ai-translator-api-with-fast-responses",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "AI/ML API",
-        "Description": "Access 100+ curated AI Models over 1 API",
-        "Auth": "Yes",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://aimlapi.com",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "AI For Thai",
-        "Description": "Free Various Thai AI API",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://aiforthai.in.th/index.php",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "AI Learning Engine",
-        "Description": "Create, auto-grade, and analyze learning tasks with AI-based evaluations",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://rapidapi.com/vintarok-vintarok-default/api/ai-learning-engine-task-creation-auto-grading-api",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Clarifai",
-        "Description": "Computer Vision",
-        "Auth": "OAuth",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://docs.clarifai.com/api-guide/api-overview",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Cloudmersive",
-        "Description": "Image captioning, face recognition, NSFW classification",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://www.cloudmersive.com/image-recognition-and-processing-api",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Cohere",
-        "Description": "Harness the power of language understanding. Join the developers and businesses who are using Cohere to generate, categorize and organize text at a scale that was previously unimaginable.",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://docs.cohere.ai/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "CustomGPT.ai",
-        "Description": "RAG API with RESTful endpoints, comprehensive SDKs, and enterprise-grade reliability.",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://docs.customgpt.ai/reference/i-api-homepage",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Dialogflow",
-        "Description": "Natural Language Processing",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://cloud.google.com/dialogflow/docs/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Eden",
-        "Description": "Get all AI models in one place, e.g. OpenAI, Google and lots more!",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://www.edenai.co/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "EXUDE-API",
-        "Description": "Used for the primary ways for filtering the stopping, stemming words from the text data",
-        "Auth": "",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "http://uttesh.com/exude-api/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Face-api.js",
-        "Description": "JavaScript API for face detection, recognition, and emotion analysis using TensorFlow.js",
-        "Auth": "",
-        "HTTPS": false,
-        "Cors": "unknown",
-        "Link": "https://github.com/justadudewhohacks/face-api.js",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Gladia",
-        "Description": "Artificial intelligence API's",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "no",
-        "Link": "https://docs.gladia.io",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "HOL Registry Broker",
-        "Description": "Discovery API for AI agents & MCP servers (search, verify, UAID, chat)",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://hol.org/docs/registry-broker/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Imagga",
-        "Description": "Image Recognition Solutions like Tagging, Visual Search, NSFW moderation",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://imagga.com/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Inferdo",
-        "Description": "Computer Vision services like Facial detection, Image labeling, NSFW classification",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://rapidapi.com/user/inferdo",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Irisnet",
-        "Description": "Realtime content moderation API that blocks or blurs unwanted images in real-time",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://irisnet.de/api/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "jsonAi.cloud",
-        "Description": "Save JSON schemas as api endpoints, feed it with your data and get structured JSON responses with AI",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://jsonai.cloud",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Keen IO",
-        "Description": "Data Analytics",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://keen.io/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Machinetutors",
-        "Description": "AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://machinetutors.com/api/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "MessengerX.io",
-        "Description": "A FREE API for developers to build and monetize personalized ML based chat apps",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://messengerx.rtfd.io",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "NLP Cloud",
-        "Description": "NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://nlpcloud.io",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "OpenAI",
-        "Description": "Use AI models such as ChatGPT or DALL-E to experience the capabilities of AI",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://openai.com/index/openai-api",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Perspective",
-        "Description": "NLP API to return probability that if text is toxic, obscene, insulting or threatening",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://perspectiveapi.com",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Roboflow Universe",
-        "Description": "Pre-trained computer vision models",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://universe.roboflow.com",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "SkyBiometry",
-        "Description": "Face Detection, Face Recognition and Face Grouping",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://skybiometry.com/documentation/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Spam Hunter",
-        "Description": "Free service to classify text as spam using ML",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://spam-hunter.ru/",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Summarize Text with AI",
-        "Description": "This API generates customizable summaries of text and web pages using AI",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "yes",
-        "Link": "https://apyhub.com/utility/ai-summarize",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "Unplugg",
-        "Description": "Forecasting API for timeseries data",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://unplu.gg/test_api.html",
-        "Category": "Machine Learning"
-    },
-    {
-        "API": "WolframAlpha",
-        "Description": "Provides specific answers to questions using data and algorithms",
-        "Auth": "apiKey",
-        "HTTPS": true,
-        "Cors": "unknown",
-        "Link": "https://products.wolframalpha.com/api/",
-        "Category": "Machine Learning"
     },
     {
         "API": "7digital",

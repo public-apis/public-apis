@@ -2,6 +2,10 @@
 "count": 52,
 "entries": [
     {
+        "name": "AI",
+        "slug": "ai"
+    },
+    {
         "name": "Animals",
         "slug": "animals"
     },
@@ -112,10 +116,6 @@
     {
         "name": "Jobs",
         "slug": "jobs"
-    },
-    {
-        "name": "Machine Learning",
-        "slug": "machine-learning"
     },
     {
         "name": "Music",
