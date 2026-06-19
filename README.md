@@ -472,7 +472,8 @@ API | Description | Auth | HTTPS | CORS |
 | [FreeForexAPI](https://freeforexapi.com/Home/Api) | Real-time foreign exchange rates for major currency pairs | No | Yes | No |
 | [National Bank of Poland](http://api.nbp.pl/en.html) | A collection of currency exchange rates (data in XML and JSON) | No | Yes | Yes |
 | [paralelo.bo](https://paralelo.bo/api) | Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s | No | Yes | Yes |
-| [VATComply.com](https://www.vatcomply.com/documentation) | Exchange rates, geolocation and VAT number validation | No | Yes | Yes |
+|| [VATComply.com](https://www.vatcomply.com/documentation) | Exchange rates, geolocation and VAT number validation | No | Yes | Yes |
+|| [Pesa Rates](https://appow-22hv3j.web.app) | Real-time Tanzanian Shilling (TZS) exchange rates from BoT, NMB & CRDB | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
