@@ -401,6 +401,7 @@ API | Description | Auth | HTTPS | CORS |
 | [btcnode.uk](https://btcnode.uk) | Bitcoin blockchain data, fees, mempool, SEC insider trades, Reddit sentiment. x402 micropayments for paid endpoints. | No | Yes | Unknown |
 | [BtcTurk](https://docs.btcturk.com/) | Real-time cryptocurrency data, graphs and API that allows buy&sell | `apiKey` | Yes | Yes |
 | [Bybit](https://bybit-exchange.github.io/docs/linear/#t-introduction) | Cryptocurrency data feed and algorithmic trading | `apiKey` | Yes | Unknown |
+| [ClearTrace](https://cleartracedata.com/docs) | Cross-frontend DEX attribution and execution quality (slippage, MEV, reverts) across 4 EVM chains | No | Yes | Yes |
 | [CoinAPI](https://docs.coinapi.io/) | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No |
 | [Coinbase](https://developers.coinbase.com) | Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown |
 | [Coinbase Pro](https://docs.pro.coinbase.com/#api) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
