@@ -2032,6 +2032,7 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
+| [PricePulse](https://incl-coupons-question-pair.trycloudflare.com) | Real-time price monitoring for Carousell SG, Amazon SG and Vinted. 5,700+ products indexed | `apiKey` | Yes | Yes | 100 req/day free |
 
 <br>
 
