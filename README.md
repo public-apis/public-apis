@@ -502,6 +502,7 @@ registers. Search all active companies worldwide, including directors, owners, e
 | [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes |
 | [Validate UK Postcodes](https://apyhub.com/utility/data-postcodes-uk) | This API validates postal codes within UK | `apiKey` | Yes | Yes |
 | [VatcheckAPI](https://vatcheckapi.com) | VAT Number Validation & Lookup REST API | `apiKey` | Yes | Yes |
+| [VerifyEd](https://verifyed.org/docs) | Verify academic credentials — search 912K+ schools, detect diploma mills worldwide | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 
