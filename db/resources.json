@@ -3152,7 +3152,7 @@
         "Category": "Development"
     },
     {
-        "API": "CSC to JSON API",
+        "API": "CSV to JSON API",
         "Description": "Convert CSV files to JSON with this API. Ideal for developers who want to automate data workflows and integrate structured data",
         "Auth": "apiKey",
         "HTTPS": true,
@@ -4116,7 +4116,7 @@
     },
     {
         "API": "Sent.dm",
-        "Description": "Sent is a unified API for messaging across SMS and apps\nlike WhatsApp",
+        "Description": "Sent is a unified API for messaging across SMS and apps like WhatsApp",
         "Auth": "apiKey",
         "HTTPS": true,
         "Cors": "yes",
