@@ -8985,7 +8985,7 @@
     },
     {
         "API": "Fantastic.jobs",
-        "Description": "Access over 8 million jobs per month using our APIs. ATS, LinkedIn, Upwork, and more.",
+        "Description": "Access over 14 million jobs per month directly from company career sites and leading job boards. We refresh jobs every hour with several AI enriched job and company fields.",
         "Auth": "apiKey",
         "HTTPS": true,
         "Cors": "yes",
