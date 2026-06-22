@@ -669,6 +669,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Code::Stats](https://codestats.net/api-docs) | Automatic time tracking for programmers | `apiKey` | Yes | No |
 | [CraftMyPDF](https://craftmypdf.com) | Generate PDF documents from templates with a drop-and-drop editor and a simple API | `apiKey` | Yes | No |
 | [Flowdash](https://docs.flowdash.com/docs/api-introduction) | Automate business workflows | `apiKey` | Yes | Unknown |
+| [HTML to PDF & Image](https://html-to-pdf-image-api.onrender.com/docs) | Render an HTML/CSS + JSON template into a PDF or PNG/JPEG image via headless Chromium | `apiKey` | Yes | Unknown |
 | [Html2PDF](https://html2pdf.app/) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
 | [iLovePDF](https://developer.ilovepdf.com/) | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | `apiKey` | Yes | Yes |
 | [JIRA](https://developer.atlassian.com/server/jira/platform/rest-apis/) | JIRA is a proprietary issue tracking product that allows bug tracking and agile project management | `OAuth` | Yes | Unknown |
@@ -1369,6 +1370,7 @@ API | Description | Auth | HTTPS | CORS |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | No | Yes | Unknown |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | Federal Statistical Office Germany | `OAuth` | Yes | Unknown |
 | [InfraNode](https://infranode.dev) | Unified German city open data: weather, air quality, EV chargers, transit, demographics | `apiKey` | Yes | Unknown |
+| [Japan Civic Facilities](https://local-open-data-api.onrender.com/docs) | Geo-search Japanese municipal open data: nearby AEDs, hospitals, evacuation sites and more | `apiKey` | Yes | Unknown |
 | [Joshua Project](https://api.joshuaproject.net/) | People groups of the world with the fewest followers of Christ | `apiKey` | Yes | Unknown |
 | [K-Data Gate](https://kdata-gate.vercel.app/docs) | Korean market data: K-beauty/K-food products, Naver trends, stocks, real estate, weather | `apiKey` | Yes | Unknown |
 | [Kaggle](https://www.kaggle.com/docs/api) | Create and interact with Datasets, Notebooks, and connect with Kaggle | `apiKey` | Yes | Unknown |
