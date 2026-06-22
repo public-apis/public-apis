@@ -540,8 +540,7 @@ registers. Search all active companies worldwide, including directors, owners, e
 | [Contentful Images](https://www.contentful.com/developers/docs/references/images-api/) | Used to retrieve and apply transformations to images | `apiKey`| Yes | Yes |
 | [CORS Proxy](https://github.com/burhanuday/cors-proxy) | Get around the dreaded CORS error by using this proxy as a middle man | No | Yes | Yes |
 | [Corsfix](https://corsfix.com/docs/cors-proxy/api) | Corsfix lets you fetch any resource and bypass CORS errors, free for development environment | No | Yes | Yes |
-| [CSC to JSON API](https://apyhub.com/utility/converter-csv-json) | Convert CSV files to JSON with this API. Ideal for developers who want to automate data workflows and integrate structured data
- | `apiKey` | Yes | Yes |
+| [CSV to JSON API](https://apyhub.com/utility/converter-csv-json) | Convert CSV files to JSON with this API. Ideal for developers who want to automate data workflows and integrate structured data | `apiKey` | Yes | Yes |
 | [Databricks](https://docs.databricks.com/dev-tools/api/latest/index.html) | Service to manage your databricks account,clusters, notebooks, jobs and workspaces | `apiKey`| Yes | Yes |
 | [DATPAQ](https://datpaq.com) | Developer-first APIs. Enterprise-ready infrastructure. Sampla data, avatars, image processing and a lot more. | `apiKey` | Yes | Yes |
 | [DigitalOcean Status](https://status.digitalocean.com/api) | Status of all DigitalOcean services | No | Yes | Unknown |
@@ -648,8 +647,7 @@ registers. Search all active companies worldwide, including directors, owners, e
 | [Serialif Color](https://color.serialif.com/) | Color conversion, complementary, grayscale and contrasted text | No | Yes | No |
 | [SerpApi - Search API](https://serpapi.com/) | SerpApi's Search API makes it easy and fast to scrape Google and other search engines  | `apiKey` | Yes | No |
 | [SERP Rank Checker](https://apyhub.com/utility/serp-rank) | Check realtime Google SERP Rank of any keywords | `apiKey` | Yes | Yes |
-| [Sent.dm](https://sent.dm) | Sent is a unified API for messaging across SMS and apps
-like WhatsApp | `apiKey` | Yes | Yes |
+| [Sent.dm](https://sent.dm) | Sent is a unified API for messaging across SMS and apps like WhatsApp | `apiKey` | Yes | Yes |
 | [Shadify](https://github.com/cheatsnake/shadify) | Service for generating data and executing logic to create various games and puzzles | No | Yes | Yes |
 | [Sheet2API](https://sheet2api.com/) | Easy Google Sheets and Excel Online API | `apiKey`| Yes | Unknown |
 | [Sheetsu](https://sheetsu.com/) | Easy google sheets integration | `apiKey`| Yes | Unknown |
