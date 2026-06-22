@@ -1,5 +1,5 @@
 {
-"count": 1601,
+"count": 1602,
 "entries": [
     {
         "API": "Advanced Multilanguage AI Translator (RapidAPI)",
@@ -2861,6 +2861,15 @@
         "HTTPS": true,
         "Cors": "yes",
         "Link": "https://vatcheckapi.com",
+        "Category": "Data Validation"
+    },
+    {
+        "API": "VerifyEd",
+        "Description": "Verify academic credentials — search 912K+ schools, detect diploma mills worldwide",
+        "Auth": "apiKey",
+        "HTTPS": true,
+        "Cors": "yes",
+        "Link": "https://verifyed.org/docs",
         "Category": "Data Validation"
     },
     {
