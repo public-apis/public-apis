@@ -232,6 +232,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Blockchain
 | API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [AgentCourt](https://agentcourt-api-production.up.railway.app/docs) | Policy-driven dispute resolution for AI agent commerce | No | Yes | Yes |
 | [Bitquery](https://graphql.bitquery.io/ide) | Onchain GraphQL APIs & DEX APIs | `apiKey` | Yes | Yes |
 | [Blockscout](https://dev.blockscout.com/) | Multichain block explorer REST API (with Etherscan-compatible JSON-RPC) | `apiKey` | Yes | No |
 | [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
