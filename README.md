@@ -128,6 +128,7 @@
 | [SkyBiometry](https://skybiometry.com/documentation/) | Face Detection, Face Recognition and Face Grouping | `apiKey` | Yes | Unknown |
 | [Spam Hunter](https://spam-hunter.ru/) | Free service to classify text as spam using ML | `apiKey` | Yes | Yes |
 | [Summarize Text with AI](https://apyhub.com/utility/ai-summarize) | This API generates customizable summaries of text and web pages using AI | `apiKey` | Yes | Yes |
+| [UnoRouter](https://unorouter.com/docs) | OpenAI-compatible gateway routing chat/completions across 200+ models with a free tier | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
 
