@@ -977,6 +977,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Geocoding
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [IPRout](https://iprout.com) | Reliable low-latency GeoIP and ASN lookup API for developers | `apiKey` | Yes | Yes |
 | [IPstack](https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown |
 | [ipapi.com](https://ipapi.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-time Geolocation & Reverse IP Lookup REST API | `apiKey` | Yes | Unknown |
 | [Actinia Grass GIS](https://actinia.mundialis.de/api_docs/) | Actinia is an open source REST API for geographical data that uses GRASS GIS | `apiKey` | Yes | Unknown |
