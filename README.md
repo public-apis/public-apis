@@ -1250,6 +1250,8 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Machine Learning
+
+| [TokenHub](https://t-hub.cc/v1) | OpenAI-compatible relay for 50+ Chinese AI models (DeepSeek, Qwen, GLM, MiniMax). No phone required. | `apiKey` | Yes | Yes |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AI For Thai](https://aiforthai.in.th/index.php) | Free Various Thai AI API | `apiKey` | Yes | Yes |
@@ -1279,6 +1281,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SkyBiometry](https://skybiometry.com/documentation/) | Face Detection, Face Recognition and Face Grouping | `apiKey` | Yes | Unknown |
 | [TensorFeed](https://tensorfeed.ai/developers) | Real-time AI news, model pricing, service status, and agent activity feeds | No | Yes | Yes |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
+| [TokenHub](https://t-hub.cc/v1) | OpenAI-compatible relay for 400+ AI models (DeepSeek, Llama 4, Mistral, Qwen, GLM). No phone. | apiKey | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
 
