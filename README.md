@@ -1637,6 +1637,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Shopee](https://open.shopee.com/documents?version=1) | Shopee's official API for integration of various services from Shopee | `apiKey` | Yes | Unknown |
 | [Tokopedia](https://developer.tokopedia.com/openapi/guide/#/) | Tokopedia's Official API for integration of various services from Tokopedia | `OAuth` | Yes | Unknown |
 | [WooCommerce](https://woocommerce.github.io/woocommerce-rest-api-docs/) | WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format | `apiKey` | Yes | Yes |
+| Shopify | E-commerce platform API for building online stores, managing products, orders, and customers | OAuth | Yes | Unknown | https://shopify.dev/docs/api |
 
 **[⬆ Back to Index](#index)**
 <br >
