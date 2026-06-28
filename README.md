@@ -224,6 +224,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SAWO Labs](https://sawolabs.com) | Simplify login and improve user experience by integrating passwordless authentication in your app | `apiKey` | Yes | Yes |
 | [Stytch](https://stytch.com/) | User infrastructure for modern applications | `apiKey` | Yes | No |
 | [Warrant](https://warrant.dev/) | APIs for authorization and access control | `apiKey` | Yes | Yes |
+| [Authsec](https://authsec.ai) | Agent-first identity and authentication platform for AI agents and applications | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
