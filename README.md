@@ -71,6 +71,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Environment](#environment)
 * [Events](#events)
 * [Finance](#finance)
+| [Flutterwave](https://developer.flutterwave.com/docs) | Payment gateway API for Africa | `apiKey` | Yes | Unknown |
 * [Food & Drink](#food--drink)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
