@@ -43,6 +43,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
     categories = {}
     category_line_num = {}
+    category = None
 
     for line_num, line_content in enumerate(contents):
 
@@ -62,7 +63,8 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
         title_match = link_re.match(raw_title)
         if title_match:
                 title = title_match.group(1).upper()
-                categories[category].append(title)
+                if category is not None:
+                    categories[category].append(title)
 
     return (categories, category_line_num)
 
@@ -228,7 +230,10 @@ def check_file_format(lines: List[str]) -> List[str]:
             continue
 
         # skips lines that we do not care about
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if not line_content.startswith('|') or line_content.startswith('|---') or line_content.startswith('|:---') or line_content.upper().startswith('| API |'):
+            continue
+
+        if not category:
             continue
 
         num_in_category += 1
