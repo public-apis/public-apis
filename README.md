@@ -1258,6 +1258,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Machine Learning
+| [SuperCompress](https://supercompress.vercel.app) | Intelligent prompt compression for LLMs - cuts 65% of tokens with 100% oracle recall | apiKey | Yes | Yes |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AI For Thai](https://aiforthai.in.th/index.php) | Free Various Thai AI API | `apiKey` | Yes | Yes |
