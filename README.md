@@ -830,6 +830,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Razorpay IFSC](https://razorpay.com/docs/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown | |
 | [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | Websocket API to access realtime stock data | `apiKey` | No | Unknown | |
 | [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | API to access annual reports of public US companies | No | Yes | Yes | |
+| [SiftingIO](https://sifting.io/docs) | Market data API for stocks, currency, crypto, commodities, and DEX | `apiKey` | Yes | Yes | |
 | [SmartAPI](https://smartapi.angelbroking.com/) | Gain access to set of <SmartAPI> and create end-to-end broking services | `apiKey` | Yes | Unknown | |
 | [StockData](https://www.StockData.org) | Real-Time, Intraday & Historical Market Data, News and Sentiment API | `apiKey` | Yes | Yes | |
 | [StockFit](https://api.stockfit.io/docs) | SEC filings, financial statements, earnings, ETF holdings and ownership data | `apiKey` | Yes | Yes | |
