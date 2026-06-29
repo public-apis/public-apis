@@ -43,6 +43,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
     categories = {}
     category_line_num = {}
+    category = None
 
     for line_num, line_content in enumerate(contents):
 
@@ -52,7 +53,10 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
             category_line_num[category] = line_num
             continue
 
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if not line_content.startswith('|') or '---' in line_content or 'API | Description' in line_content:
+            continue
+
+        if category is None:
             continue
 
         raw_title = [
@@ -198,7 +202,7 @@ def check_file_format(lines: List[str]) -> List[str]:
     err_msgs.extend(alphabetical_err_msgs)
 
     num_in_category = min_entries_per_category + 1
-    category = ''
+    category = None
     category_line = 0
 
     for line_num, line_content in enumerate(lines):
@@ -228,7 +232,10 @@ def check_file_format(lines: List[str]) -> List[str]:
             continue
 
         # skips lines that we do not care about
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if not line_content.startswith('|') or '---' in line_content or 'API | Description' in line_content:
+            continue
+
+        if category is None:
             continue
 
         num_in_category += 1
