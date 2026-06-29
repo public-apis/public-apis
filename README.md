@@ -478,6 +478,7 @@ API | Description | Auth | HTTPS | CORS |
 | [paralelo.bo](https://paralelo.bo/api) | Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s | No | Yes | Yes |
 | [TaxID](https://www.taxid.dev/docs) | EU VAT number validation with company name and address lookup across all 27 member states | `apiKey` | Yes | Unknown |
 | [VATComply.com](https://www.vatcomply.com/documentation) | Exchange rates, geolocation and VAT number validation | No | Yes | Yes |
+| [RealMarketAPI](https://realmarketapi.com/docs) | Real-time and historical prices for gold, forex, crypto, and stocks. Free plan includes 5K requests/month | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
