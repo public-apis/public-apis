@@ -1,0 +1,7 @@
+name,description,auth,https,cors,link,category,https_badge,auth_badge,cors_badge
+Cat Facts,Daily cat facts,No,Yes,No,https://catfact.ninja,Animals,https://img.shields.io/badge/HTTPS-Yes-brightgreen,https://img.shields.io/badge/Auth-No-brightgreen,https://img.shields.io/badge/CORS-No-red
+Dog API,Random dog pictures,No,Yes,Yes,https://dog.ceo/dog-api/,Animals,https://img.shields.io/badge/HTTPS-Yes-brightgreen,https://img.shields.io/badge/Auth-No-brightgreen,https://img.shields.io/badge/CORS-Yes-brightgreen
+OpenWeatherMap,Weather data,apiKey,Yes,Yes,https://openweathermap.org/api,Weather,https://img.shields.io/badge/HTTPS-Yes-brightgreen,https://img.shields.io/badge/Auth-apiKey-yellow,https://img.shields.io/badge/CORS-Yes-brightgreen
+WeatherAPI,Weather API,apiKey,Yes,Yes,https://www.weatherapi.com/,Weather,https://img.shields.io/badge/HTTPS-Yes-brightgreen,https://img.shields.io/badge/Auth-apiKey-yellow,https://img.shields.io/badge/CORS-Yes-brightgreen
+JokeAPI,Programming jokes,No,Yes,Yes,https://sv443.net/jokeapi/v2/,Entertainment,https://img.shields.io/badge/HTTPS-Yes-brightgreen,https://img.shields.io/badge/Auth-No-brightgreen,https://img.shields.io/badge/CORS-Yes-brightgreen
+Pokémon,Pokémon Information,No,Yes,Yes,https://pokeapi.co,Entertainment,https://img.shields.io/badge/HTTPS-Yes-brightgreen,https://img.shields.io/badge/Auth-No-brightgreen,https://img.shields.io/badge/CORS-Yes-brightgreen
