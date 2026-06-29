@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 
+import ipaddress
 import re
+import secrets
+import socket
 import sys
-import random
 from typing import List, Tuple
 
 import requests
@@ -72,7 +74,7 @@ def fake_user_agent() -> str:
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36',
     ]
 
-    return random.choice(user_agents)
+    return secrets.choice(user_agents)
 
 
 def get_host_from_link(link: str) -> str:
@@ -149,6 +151,20 @@ def has_cloudflare_protection(resp: Response) -> bool:
     return False
 
 
+def is_safe_link(link: str) -> bool:
+    """Return False if the link's hostname resolves to a private/reserved IP address.
+
+    Blocks RFC 1918 private ranges, loopback, link-local (e.g. 169.254.169.254
+    cloud metadata endpoints), and other reserved addresses to prevent SSRF.
+    """
+    host = get_host_from_link(link)
+    try:
+        ip = ipaddress.ip_address(socket.gethostbyname(host))
+        return not (ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_reserved)
+    except Exception:
+        return False
+
+
 def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     """Checks if a link is working.
 
@@ -162,6 +178,9 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
 
     has_error = False
     error_message = ''
+
+    if not is_safe_link(link):
+        return (True, f'ERR:SSRF: blocked unsafe host: {link}')
 
     try:
         resp = requests.get(link, timeout=25, headers={
