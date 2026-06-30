@@ -380,6 +380,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Cryptocurrency
+| AgentMesh | Crypto data: token-price, dex-price, klines, wallet-score, gas-estimate | Yes | x402 micropayments + referral commissions | http://81.70.209.246:3000/agentmesh/catalog |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Coinlayer](https://coinlayer.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-time Crypto Currency Exchange Rates | `apiKey` | Yes | Unknown |
