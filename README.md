@@ -133,8 +133,8 @@ API | Description | Auth | HTTPS | CORS
 | [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
-<br >
-<br >
+<br>
+<br>
 
 ### Anime
 API | Description | Auth | HTTPS | CORS |
@@ -1262,6 +1262,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AI For Thai](https://aiforthai.in.th/index.php) | Free Various Thai AI API | `apiKey` | Yes | Yes |
+| [Agent Gateway](https://agent-gateway-kappa.vercel.app) | 40+ services for AI agents: web scraping, screenshots, code execution, crypto data, agent memory, file storage | apiKey (optional) | Yes | Yes |
 | [Clarifai](https://docs.clarifai.com/api-guide/api-overview) | Computer Vision | `OAuth` | Yes | Unknown |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes |
 | [DeepAI](https://deepai.org/) | Provides AI-powered APIs for text generation, image processing, and more | `apiKey` | Yes | Yes |
