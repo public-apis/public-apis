@@ -337,6 +337,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Russian Calendar](https://github.com/egno/work-calendar) | Check if a date is a Russian holiday or not | No | Yes | No |
 | [The Calendar](https://the-calendar.net/api/) | Public holidays for US states and 30 countries plus sports and finance calendars as static JSON | No | Yes | Yes |
 | [UK Bank Holidays](https://www.gov.uk/bank-holidays.json) | Bank holidays in England and Wales, Scotland and Northern Ireland | No | Yes | Unknown |
+| [Public Holidays](https://date.nager.at/) | Get public holiday data for different countries | No | Yes | Unknown |
+  
 
 **[⬆ Back to Index](#index)**
 <br >
