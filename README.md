@@ -210,6 +210,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UpRes](https://upres.ai/docs/api) | AI image upscaling to 8K with 18 models (Real-ESRGAN, SeedVR2, AuraSR) | `apiKey` | Yes | Yes |
 | [Word Cloud](https://wordcloudapi.com/) | Easily create word clouds | `apiKey` | Yes | Unknown |
 | [xColors](https://x-colors.herokuapp.com/) | Generate & convert colors | No | Yes | Yes |
+| [GadgetHumans QR Code API](https://api.gadgethumans.com) | Customizable QR code generation API with colors, logos, SVG/PNG output | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -492,6 +493,7 @@ API | Description | Auth | HTTPS | CORS |
 | [US Autocomplete](https://www.smarty.com/docs/cloud/us-autocomplete-pro-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes | |
 | [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes | |
 | [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes | |
+| [GadgetHumans Email Verify API](https://email-verify.scotia1973.workers.dev) | Real-time email validation: syntax checks, MX verification, SMTP probing, disposable email detection | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -633,6 +635,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Webclaw](https://webclaw.io/docs/api) | Web content extraction for LLMs with scrape, crawl, search, and summarize | `apiKey` | Yes | Yes |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
+| [GadgetHumans API Hub](https://api.gadgethumans.com/) | 8 unified micro-APIs: QR codes, password generation, UUIDs, hashes, base64, lorem ipsum, JSON prettify, color conversion. Free tier, $1/wk week pass, $5/mo Pro, $15/mo Business | `apiKey` | Yes | Yes |
 
 
 
@@ -725,6 +728,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Sendgrid](https://docs.sendgrid.com/api-reference/) | A cloud-based SMTP provider that allows you to send emails without having to maintain email servers | `apiKey` | Yes | Unknown |
 | [Sendinblue](https://developers.sendinblue.com/docs) | A service that provides solutions relating to marketing and/or transactional email and/or SMS | `apiKey` | Yes | Unknown |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
+| [GadgetHumans Email Verify](https://email-verify.scotia1973.workers.dev/) | Email validation with format check, MX record lookup, disposable email detection, and SMTP verification. Free tier: 50 checks/day | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
