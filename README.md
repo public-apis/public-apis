@@ -1747,6 +1747,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TourneyRadar](https://tourneyradar-api.vercel.app) | Upcoming chess tournaments from 140+ national federations worldwide | No | Yes | Unknown |
 | [Tredict](https://www.tredict.com/blog/oauth_docs/) | Get and set activities, health data and more | `OAuth` | Yes | Unknown |
 | [Wger](https://wger.de/en/software/api) | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown |
+| [Meridian Edge](https://meridianedge.io/docs) | Aggregated prediction market consensus probabilities from regulated markets | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
