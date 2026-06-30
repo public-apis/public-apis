@@ -2006,6 +2006,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Weather
+| WeatherAPI | Weather forecast and historical weather data API | apiKey | Yes | Unknown | https://www.weatherapi.com/ |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Weatherstack](https://weatherstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-Time & Historical World Weather Data API | `apiKey` | Yes | Unknown |
