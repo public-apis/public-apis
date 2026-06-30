@@ -499,6 +499,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Development
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [ServiceNow](https://developer.servicenow.com/dev.do) | REST API for ITSM, IRM, GRC, and workflow automation on the Now Platform | `apiKey` | Yes | Unknown |
 | [Userstack](https://userstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Secure User-Agent String Lookup JSON API | `OAuth` | Yes | Unknown |
 | [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
 | [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
