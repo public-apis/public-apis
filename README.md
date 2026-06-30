@@ -1451,7 +1451,9 @@ API | Description | Auth | HTTPS | CORS |
 ### Personality
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Advice Owl](https://api.adviceslip.com/advice) | Random advice generator API | No | Yes | Unknown |
 | [Advice Slip](http://api.adviceslip.com/) | Generate random advice slips | No | Yes | Unknown |
+| [Affirmations](https://www.affirmations.dev/) | Random positive affirmations | No | Yes | Unknown |
 | [AstroWay](https://api.astroway.info/docs/) | Astrology, natal charts, Human Design, Vedic and horoscopes on the Swiss Ephemeris | `apiKey` | Yes | Yes |
 | [Biriyani As A Service](https://biriyani.anoram.com/) | Biriyani images placeholder | No | Yes | No |
 | [Dev.to](https://developers.forem.com/api) | Access Forem articles, users and other resources via API | `apiKey` | Yes | Unknown |
