@@ -2045,6 +2045,8 @@ API | Description | Auth | HTTPS | CORS |
 | [weather-api](https://github.com/robertoduessmann/weather-api) | A RESTful free API to check the weather | No | Yes | No |
 | [WeatherAPI](https://www.weatherapi.com/) | Weather API with other stuff like Astronomy and Geolocation API | `apiKey` | Yes | Yes |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
+| [Windy - Map Forecast](https://api.windy.com/map-forecast/docs) | Get weather map layers | `apiKey` | Yes | Unknown |
+| [Windy - Point Forecast](https://api.windy.com/point-forecast/docs) | Get the weather forecast for a set of coordinates | `apiKey` | Yes | Unknown |
 | [wttr.in](https://wttr.in/:help) | Weather in your terminal, supports JSON output | No | Yes | Yes |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
 
