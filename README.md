@@ -304,6 +304,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Signaliz](https://signaliz.docs.buildwithfern.com/signaliz-api-public-docs/introduction) | GTM enrichment, lead generation, email verification, and company signals | `apiKey` | Yes | Unknown |
 | [Smartsheet](https://smartsheet.redoc.ly/) | Allows you to programmatically access and Smartsheet data and account information | `OAuth` | Yes | No |
 | [Square](https://developer.squareup.com/reference/square) | Easy way to take payments, manage refunds, and help customers checkout online | `OAuth` | Yes | Unknown |
+| [StackData SaaS Pricing](https://greg-rg-git.github.io/stackdata-store/api/) | Verified pricing data for 797 SaaS tools across 13 categories | No | Yes | Yes |
 | [SwiftKanban](https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi) | Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity | `apiKey` | Yes | Unknown |
 | [Tenders in Hungary](https://tenders.guru/hu/api) | Get data for procurements in Hungary in JSON format | No | Yes | Unknown |
 | [Tenders in Poland](https://tenders.guru/pl/api) | Get data for procurements in Poland in JSON format | No | Yes | Unknown |
