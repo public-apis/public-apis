@@ -1322,6 +1322,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Napster](https://developer.napster.com/api/v2.2) | Music | `apiKey` | Yes | Yes |
 | [Openwhyd](https://openwhyd.github.io/openwhyd/API) | Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...) | No | Yes | No |
 | [Phishin](https://phish.in/api-docs) | A web-based archive of legal live audio recordings of the improvisational rock band Phish | `apiKey` | Yes | No |
+| [plynx](https://dashboard-ruddy-beta.vercel.app/docs) | AI-generated song interpretations, structured attributes, and embeddings for 57,000+ songs | `apiKey` | Yes | Yes |
 | [Radio Browser](https://api.radio-browser.info/) | List of internet radio stations | No | Yes | Yes |
 | [Songkick](https://www.songkick.com/developer/) | Music Events | `apiKey` | Yes | Unknown |
 | [Songlink / Odesli](https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741) | Get all the services on which a song is available | `apiKey` | Yes | Yes |
