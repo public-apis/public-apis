@@ -660,6 +660,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Documents & Productivity
+| [bulkconvert](https://www.bulkconvert.io) | Convert files between 32 formats (PDF, DOCX, MP3, MP4, etc). EU-hosted, free tier without signup. | `apiKey` | Yes | No |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Airtable](https://airtable.com/api) | Integrate with Airtable | `apiKey` | Yes | Unknown |
