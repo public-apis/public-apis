@@ -132,6 +132,8 @@ API | Description | Auth | HTTPS | CORS
 | [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
 | [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
 
+| [Dog CEO's Dog API](https://dog.ceo/dog-api/) | Random pictures of dogs | No | Yes | No |
+
 **[⬆ Back to Index](#index)**
 <br >
 <br >
