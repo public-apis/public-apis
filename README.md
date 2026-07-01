@@ -750,6 +750,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TasteDive](https://tastedive.com/read/api) | Content-based recommendations for movies, music, TV shows, books, games, and podcasts | `apiKey` | Yes | No |
 | [Techy](https://techy-api.vercel.app/) | JSON and Plaintext API for tech-savvy sounding phrases | No | Yes | Unknown |
 | [Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2) | REST API for Yo Momma Jokes | No | Yes | Unknown |
+| [ZenQuotes](https://zenquotes.io) | Inspirational quotes | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
