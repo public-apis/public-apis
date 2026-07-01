@@ -472,6 +472,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | A collection of exchange rates | No | Yes | Unknown |
 | [Economia.Awesome](https://docs.awesomeapi.com.br/api-de-moedas) | Portuguese free currency prices and conversion with no rate limits | No | Yes | Unknown |
 | [ExchangeRate-API](https://www.exchangerate-api.com) | Free currency conversion | `apiKey` | Yes | Yes |
+| [Exchangerate.dev](https://exchangerate.dev/docs) | Live & historical FX, 168 pairs back to 1999, Frankfurter-compatible, free 10k/mo | No | Yes | Unknown |
 | [Frankfurter](https://www.frankfurter.app/docs) | Exchange rates, currency conversion and time series | No | Yes | Yes |
 | [FreeForexAPI](https://freeforexapi.com/Home/Api) | Real-time foreign exchange rates for major currency pairs | No | Yes | No |
 | [National Bank of Poland](http://api.nbp.pl/en.html) | A collection of currency exchange rates (data in XML and JSON) | No | Yes | Yes |
@@ -590,6 +591,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Page Rank](https://www.domcop.com/openpagerank/) | API for calculating and comparing metrics of different websites using Page Rank algorithm | `apiKey` | Yes | Unknown |
 | [OpenAPIHub](https://hub.openapihub.com/) | The All-in-one API Platform | `X-Mashape-Key` | Yes | Unknown |
 | [OpenGraphr](https://opengraphr.com/docs/1.0/overview) | Really simple API to retrieve Open Graph data from an URL | `apiKey` | Yes | Unknown |
+| [OpenQR](https://openqr.uk/api) | Generate QR codes and manage dynamic (editable) QR codes with scan analytics | `apiKey` | Yes | Yes |
 | [oyyi](https://oyyi.xyz/docs/1.0) | API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation | No | Yes | Yes |
 | [PageCDN](https://pagecdn.com/docs/public-api) | Public API for javascript, css and font libraries on PageCDN | `apiKey` | Yes | Yes |
 | [Postman](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) | Tool for testing APIs | `apiKey` | Yes | Unknown |
@@ -769,6 +771,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PM2.5 Open Data Portal](https://pm25.lass-net.org/#apis) | Open low-cost PM2.5 sensor data | No | Yes | Unknown |
 | [PM25.in](http://www.pm25.in/api_doc) | Air quality of China | `apiKey` | No | Unknown |
 | [PVWatts](https://developer.nrel.gov/docs/solar/pvwatts/v6/) | Energy production photovoltaic (PV) energy systems | `apiKey` | Yes | Unknown |
+| [Solematica](https://www.solematica.it/sviluppatori) | Compare Italian solar (photovoltaic) installer offers, energy prices (PUN/ARERA) and satellite roof data | No | Yes | No |
 | [Srp Energy](https://srpenergy-api-client-python.readthedocs.io/en/latest/api.html) | Hourly usage energy report for Srp customers | `apiKey` | Yes | No |
 | [SustainMetrics](https://www.sustainmetrics.net/api) | 18,000+ GHG emission factors from DEFRA, EPA, ADEME, Ember | `apiKey` | Yes | Yes |
 | [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0) | The Official Carbon Intensity API for Great Britain developed by National Grid | No | Yes | Unknown |
@@ -811,6 +814,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Finnhub](https://finnhub.io/docs/api) | Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto | `apiKey` | Yes | Unknown | |
 | [FRED](https://fred.stlouisfed.org/docs/api/fred/) | Economic data from the Federal Reserve Bank of St. Louis | `apiKey` | Yes | Yes | |
 | [Front Accounting APIs](https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule) | Front accounting is multilingual and multicurrency software for small businesses | `OAuth` | Yes | Yes | |
+| [Goldprice.dev](https://goldprice.dev/docs) | Cross-validated gold, silver & copper spot, futures & 30-year history in 13 currencies | No | Yes | Unknown | |
 | [Helium](https://heliumtrades.com/mcp-page/) | News with media bias scoring, balanced news synthesis, live market data, AI options pricing | No | Yes | Yes | |
 | [Hotstoks](https://hotstoks.com?utm_source=public-apis) | Stock market data powered by SQL | `apiKey` | Yes | Yes | |
 | [IBANforge](https://api.ibanforge.com) | IBAN validation and BIC/SWIFT lookup for 75+ countries with 121K+ bank entries | No | Yes | Yes |
@@ -1397,6 +1401,7 @@ API | Description | Auth | HTTPS | CORS |
 | [openAFRICA](https://africaopendata.org/) | Large datasets repository of African open data | No | Yes | Unknown |
 | [OpenCorporates](http://api.opencorporates.com/documentation/API-Reference) | Data on corporate entities and directors in many countries | `apiKey` | Yes | Unknown |
 | [OpenSanctions](https://www.opensanctions.org/docs/api/) | Data on international sanctions, crime and politically exposed persons | No | Yes | Yes |
+| [Pan Africa Data](https://panafricadata.com) | Macroeconomic and subnational income distribution data for all 54 African countries | `apiKey` | Yes | Unknown |
 | [PeakMetrics](https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news) | News articles and public datasets | `apiKey` | Yes | Unknown |
 | [Recreation Information Database](https://ridb.recreation.gov/) | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) | `apiKey` | Yes | Unknown |
 | [Scoop.it](http://www.scoop.it/dev) | Content Curation Service | `apiKey` | No | Unknown |
@@ -1863,7 +1868,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenVan](https://openvan.camp/docs) | Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel | No | Yes | Yes |
 | [Railway Transport for France](https://www.digital.sncf.com/startup/api) | SNCF public API | `apiKey` | Yes | Unknown |
 | [REFUGE Restrooms](https://www.refugerestrooms.org/api/docs/#!/restrooms) | Provides safe restroom access for transgender, intersex and gender nonconforming individuals | No | Yes | Unknown |
-| [Road511](https://road511.com/docs.html) | Unified traffic data from 65 US/CA jurisdictions: events, cameras, signs, bridges, truck routes | `apiKey` | Yes | Yes |
+| [Road511](https://road511.com/docs.html) | Unified traffic data from 65 US/CA jurisdictions: events, cameras, signs, bridges, truck routes | `apiKey` | Yes | No |
 | [Sabre for Developers](https://developer.sabre.com/guides/travel-agency/quickstart/getting-started-in-travel) | Travel Search - Limited usage | `apiKey` | Yes | Unknown |
 | [Schiphol Airport](https://developer.schiphol.nl/) | Schiphol | `apiKey` | Yes | Unknown |
 | [Tankerkoenig](https://creativecommons.tankerkoenig.de/swagger/) | German realtime gas/diesel prices | `apiKey` | Yes | Yes |
