@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import re
 import sys
 from string import punctuation
@@ -274,4 +275,11 @@ if __name__ == '__main__':
 
     filename = sys.argv[1]
 
-    main(filename)
+    # Resolve to an absolute path and prevent path traversal attacks
+    resolved_path = os.path.realpath(filename)
+    allowed_base = os.path.realpath('.')
+    if not resolved_path.startswith(allowed_base + os.sep) and resolved_path != allowed_base:
+        print('Error: file path is outside the allowed directory')
+        sys.exit(1)
+
+    main(resolved_path)
