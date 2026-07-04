@@ -1,13 +1,9 @@
-<!-- Thank you for taking the time to work on a Pull Request for this project! -->
-<!-- To ensure your PR is dealt with swiftly please check the following: -->
-- [ ] My submission is formatted according to the guidelines in the [contributing guide](/CONTRIBUTING.md)
-- [ ] My addition is ordered alphabetically
-- [ ] My submission has a useful description
-- [ ] The description does not have more than 100 characters
-- [ ] The description does not end with punctuation
-- [ ] Each table column is padded with one space on either side
-- [ ] I have searched the repository for any relevant issues or pull requests
-- [ ] Any category I am creating has the minimum requirement of 3 items
-- [ ] All changes have been [squashed][squash-link] into a single commit
+<!-- Thank you for contributing to the glibc Public API Index! -->
+<!-- Please verify the following before submitting: -->
 
-[squash-link]: <https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit>
+- [ ] My submission follows the [contributing guide](/CONTRIBUTING.md) (5-column table format)
+- [ ] Functions are ordered alphabetically within each subsection
+- [ ] Each function links to the correct man7.org man page
+- [ ] Description is in English, starts with uppercase, and does not exceed 150 characters
+- [ ] Standard and MT-Safe columns are accurate
+- [ ] I have searched existing issues/PRs to avoid duplicates

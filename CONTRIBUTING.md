@@ -1,5 +1,7 @@
 # Contributing
 
+Welcome to the **glibc Public API Index** — a manually curated reference of GNU C Library functions, organized by module with standard compliance and thread-safety annotations.
+
 ## Format
 
 所有 glibc API 条目统一使用以下 **5 列** Markdown 表格格式：
@@ -50,6 +52,8 @@
 - `Yes` - 多线程安全（MT-Safe / MT-Safe locale 等）
 - `No` - 存在竞争条件（例如 `tmpnam`, `strtok`, `rand` 等）
 
+> 参考 glibc 手册中每个函数末尾的 `MT-Safe` 标注。若该函数标记为 `MT-Safe` 或 `MT-Safe locale` 等变体，填 `Yes`；若标记为 `MT-Unsafe`，填 `No` 并在括号中注明原因，如 `No (race:strtok)`。
+
 ## Table Structure
 
 每个模块使用二级标题 `## Module Name (headers...)`，模块内使用三级标题 `### Subsection` 组织不同功能组。表格前必须有一行表头：
@@ -73,6 +77,24 @@
 fclose -> feof -> fflush -> fgetc -> fgetpos -> fgets -> ...
 ```
 
+## Local Validation
+
+在提交 PR 前，请运行格式校验脚本确认表格无误：
+
+```bash
+# 校验 5 列表格格式（列数、链接格式、描述长度等）
+python scripts/validate/format.py README.md
+```
+
+脚本检查项：
+- 每行是否恰好 5 列
+- Function 列是否为 `[name](https://man7.org/...)` 格式
+- Header 列是否为 `` `<header.h>` `` 格式
+- Description 是否以大写开头且不超过 200 字符
+- Standard 列格式是否合法
+- MT-Safe 列是否为 `Yes` 或 `No`
+- 表格行前是否有表头行
+
 ## Pull Request Guidelines
 
 - 每个 PR 只添加一个模块或一组相关函数
@@ -80,6 +102,7 @@ fclose -> feof -> fflush -> fgetc -> fgetpos -> fgets -> ...
 - 按字母顺序添加新条目
 - Description 使用英文，简洁明了
 - 确保表格分隔符行有 5 个 `---`
+- 运行本地校验脚本确认格式无误
 
 ## Header Reference
 
