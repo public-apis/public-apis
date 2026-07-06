@@ -702,7 +702,7 @@
 | [sigdelset](https://man7.org/linux/man-pages/man3/sigdelset.3.html) | `<signal.h>` | Delete a signal from a signal set | POSIX.1-2001, C89 | Yes |
 | [sigismember](https://man7.org/linux/man-pages/man3/sigismember.3.html) | `<signal.h>` | Test for a signal in a signal set | POSIX.1-2001, C89 | Yes |
 
-### Signal Masks &amp; Waiting
+### Signal Masks & Waiting
 
 | Function | Header | Description | Standard | MT-Safe |
 | --- | --- | --- | --- | --- |
@@ -907,7 +907,7 @@
 
 ## Threading (pthread.h)
 
-### Thread Creation &amp; Management
+### Thread Creation & Management
 
 | Function | Header | Description | Standard | MT-Safe |
 | --- | --- | --- | --- | --- |
@@ -1066,7 +1066,7 @@
 
 ## Networking & Sockets (sys/socket.h, netinet/in.h, arpa/inet.h, netdb.h)
 
-### Socket Creation &amp; Management
+### Socket Creation & Management
 
 | Function | Header | Description | Standard | MT-Safe |
 | --- | --- | --- | --- | --- |
@@ -1136,7 +1136,7 @@
 | [getnetbyname](https://man7.org/linux/man-pages/man3/getnetbyname.3.html) | `<netdb.h>` | Get network entry by name | BSD, POSIX.1-2001 (obsolete) | Yes |
 | [getnetbyaddr](https://man7.org/linux/man-pages/man3/getnetbyaddr.3.html) | `<netdb.h>` | Get network entry by address | BSD, POSIX.1-2001 (obsolete) | Yes |
 
-### Service &amp; Protocol Database
+### Service & Protocol Database
 
 | Function | Header | Description | Standard | MT-Safe |
 | --- | --- | --- | --- | --- |
@@ -1268,7 +1268,7 @@
 | [wcstoimax](https://man7.org/linux/man-pages/man3/wcstoimax.3.html) | `<stdint.h>` | Convert wide-character string to intmax_t | POSIX.1-2001, C99 | Yes |
 | [wcstoumax](https://man7.org/linux/man-pages/man3/wcstoumax.3.html) | `<stdint.h>` | Convert wide-character string to uintmax_t | POSIX.1-2001, C99 | Yes |
 
-### Wide Character Date &amp; Time Formatting
+### Wide Character Date & Time Formatting
 
 | Function | Header | Description | Standard | MT-Safe |
 | --- | --- | --- | --- | --- |

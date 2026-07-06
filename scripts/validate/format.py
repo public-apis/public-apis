@@ -224,14 +224,31 @@ def check_index_sync(lines: list[str]) -> list[str]:
 
 
 def check_mtsafe_consistency(lines: list[str]) -> list[str]:
-    """Warn when the same function name is annotated with conflicting MT-Safe values.
+    """Warn when the same function name carries conflicting MT-Safe values
+    across *different* modules.
 
-    Returns a list of warning messages. This check is non-blocking (warnings only).
+    The same function may legitimately appear in several modules (cross-module
+    reuse, e.g. ``strerror``/``dup2``). That reuse is allowed, but when a
+    function name is annotated with *different* MT-Safe values in two or more
+    modules it usually signals an inconsistency worth a human review. The check
+    is therefore module-scoped: occurrences inside a single module are ignored,
+    and only functions present in two or more modules with divergent MT-Safe
+    values produce a warning.
+
+    Returns a list of warning messages (non-blocking). Every inconsistent
+    function is reported, not just the first one.
     """
     warnings: list[str] = []
-    by_name: dict[str, set[str]] = {}
+    # func_name -> {module_title -> set of MT-Safe values seen in that module}
+    by_name_module: dict[str, dict[str, set[str]]] = {}
+
+    current_module: str | None = None
     for raw in lines:
         stripped = raw.strip()
+        if stripped.startswith('## '):
+            title = stripped[3:].strip()
+            current_module = None if title.lower() == 'index' else title
+            continue
         if not stripped.startswith('|') or stripped.startswith('|---'):
             continue
         cols = parse_line(stripped)
@@ -241,13 +258,23 @@ def check_mtsafe_consistency(lines: list[str]) -> list[str]:
         match = link_re.match(func_cell)
         if not match:
             continue
+        if current_module is None:
+            continue
         func_name = match.group(1)
-        by_name.setdefault(func_name, set()).add(mtsafe)
+        by_name_module.setdefault(func_name, {}).setdefault(current_module, set()).add(mtsafe)
 
-    for func_name, values in by_name.items():
-        if len(values) > 1:
+    for func_name, modules in by_name_module.items():
+        if len(modules) < 2:
+            # Only one module references this function -> nothing to compare.
+            continue
+        all_values: set[str] = set()
+        for values in modules.values():
+            all_values |= values
+        if len(all_values) > 1:
+            where = ', '.join(sorted(modules.keys()))
             warnings.append(
-                f'MT-Safe inconsistent for "{func_name}": ' + ' vs '.join(sorted(values))
+                f'MT-Safe inconsistent for "{func_name}" across modules '
+                f'[{where}]: ' + ' vs '.join(sorted(all_values))
             )
     return warnings
 

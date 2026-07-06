@@ -167,6 +167,63 @@ class TestCheckMtsafeConsistency(unittest.TestCase):
         self.assertEqual(len(warnings), 1)
         self.assertIn('MT-Safe inconsistent for "strerror"', warnings[0])
 
+    def test_all_cross_module_inconsistencies_warned(self):
+        # The check must surface *every* function with conflicting MT-Safe
+        # values across modules, not only the first one (e.g. strerror).
+        readme = """# glibc
+
+## Index
+
+* [Error (errno.h)](#error-errnoh)
+* [Locale (locale.h)](#locale-localeh)
+
+---
+
+## Error (errno.h)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [strerror](https://man7.org/linux/man-pages/man3/strerror.3.html) | `<string.h>` | Describe error | POSIX.1-2001 | Yes |
+| [gmtime](https://man7.org/linux/man-pages/man3/gmtime.3.html) | `<time.h>` | Convert to broken-down time | POSIX.1-2001 | No (race:gmtime) |
+
+## Locale (locale.h)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [strerror](https://man7.org/linux/man-pages/man3/strerror.3.html) | `<string.h>` | Describe error | POSIX.1-2001 | No (race:strerror locale) |
+| [gmtime](https://man7.org/linux/man-pages/man3/gmtime.3.html) | `<time.h>` | Convert to broken-down time | POSIX.1-2001 | Yes |
+"""
+        warnings = check_mtsafe_consistency(_to_lines(readme))
+        self.assertEqual(len(warnings), 2)
+        self.assertTrue(any('strerror' in w for w in warnings))
+        self.assertTrue(any('gmtime' in w for w in warnings))
+
+    def test_same_function_same_value_across_modules_no_warning(self):
+        # Cross-module reuse with a *consistent* MT-Safe value is legal and
+        # must not be reported.
+        readme = """# glibc
+
+## Index
+
+* [A (a.h)](#a-ah)
+* [B (b.h)](#b-bh)
+
+---
+
+## A (a.h)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [dup2](https://man7.org/linux/man-pages/man2/dup2.2.html) | `<unistd.h>` | Duplicate a file descriptor | POSIX.1-2001 | Yes |
+
+## B (b.h)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [dup2](https://man7.org/linux/man-pages/man2/dup2.2.html) | `<unistd.h>` | Duplicate a file descriptor | POSIX.1-2001 | Yes |
+"""
+        self.assertEqual(check_mtsafe_consistency(_to_lines(readme)), [])
+
 
 class TestCheckFile(unittest.TestCase):
     def _write_temp(self, text: str) -> str:

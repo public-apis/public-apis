@@ -226,6 +226,115 @@ def start_duplicate_links_checker(links: List[str]) -> None:
         print('No duplicate links.')
 
 
+# ---------------------------------------------------------------------------
+# Refined "-odlc" duplicate check: table-aware, function-row based.
+# ---------------------------------------------------------------------------
+
+# Local copy of the 5-column table header used by scripts/validate/format.py so
+# this check stays decoupled from format.py.
+_TABLE_HEADER = '| Function | Header | Description | Standard | MT-Safe |'
+
+# Matches a Markdown link in the Function column: [name](url)
+_FUNC_LINK_RE = re.compile(
+    r'^\[([a-zA-Z_][a-zA-Z0-9_]*)\]\((https?://[^)]+)\)$'
+)
+
+
+def _parse_table_row(line: str) -> List[str] | None:
+    """Parse a 5-column function-table data row, or return None if not one."""
+    if not line.startswith('|'):
+        return None
+    if line.startswith('|---') or _TABLE_HEADER in line:
+        return None
+    parts = line.split('|')
+    if len(parts) != 7:
+        return None
+    return [p.strip() for p in parts[1:-1]]
+
+
+def check_duplicate_function_rows(filename: str) -> Tuple[bool, List[str]]:
+    """Detect *true* redundant function rows in the 5-column tables.
+
+    Unlike the URL-level :func:`check_duplicate_links`, this only flags genuine
+    copy-paste redundancy: a function-table row whose full text is duplicated
+    elsewhere in the document. Legal cases are intentionally ignored:
+
+    * Different function names pointing at the same man7 manual page (e.g.
+      ``wait(2)`` is referenced by several distinct functions) are *not*
+      flagged, because the function names differ.
+    * The same function reused across modules with a different MT-Safe note
+      (e.g. ``strerror``) is *not* flagged, because its rows are not identical.
+
+    Returns ``(has_duplicate, messages)``. No function rows are ever removed.
+    """
+    with open(filename, mode='r', encoding='utf-8') as f:
+        lines = [ln.rstrip('\n') for ln in f]
+
+    seen: dict[str, List[dict]] = {}
+    current_module: str | None = None
+
+    for line_number, raw in enumerate(lines, start=1):
+        stripped = raw.strip()
+        if stripped.startswith('## '):
+            title = stripped[3:].strip()
+            current_module = None if title.lower() == 'index' else title
+            continue
+        if not stripped.startswith('|'):
+            continue
+        cols = _parse_table_row(stripped)
+        if cols is None:
+            continue
+        func_cell = cols[0]
+        match = _FUNC_LINK_RE.match(func_cell)
+        if not match:
+            continue
+        func_name, url = match.group(1), match.group(2)
+        # The full normalized row text is the duplication key. Two identical
+        # rows necessarily share the same function name and URL, while the
+        # legal shared-page / cross-module cases have differing row text.
+        seen.setdefault(stripped, []).append({
+            'func': func_name,
+            'url': url,
+            'module': current_module,
+            'line': line_number,
+        })
+
+    duplicates: List[str] = []
+    for key, occurrences in seen.items():
+        if len(occurrences) < 2:
+            continue
+        func = occurrences[0]['func']
+        url = occurrences[0]['url']
+        locs = ', '.join(
+            f'line {o["line"]}' + (f' ({o["module"]})' if o["module"] else '')
+            for o in occurrences
+        )
+        duplicates.append(
+            f'Duplicate function row for "{func}" ({url}) at {locs}'
+        )
+
+    return (len(duplicates) > 0, duplicates)
+
+
+def start_function_duplicate_checker(filename: str) -> None:
+    """Table-aware duplicate checker used by the ``-odlc`` flag.
+
+    Only *true* redundant function rows are reported (see
+    :func:`check_duplicate_function_rows`). The exit code stays hard (1 on
+    duplicates) so the CI gate can keep ``continue-on-error: true`` and remain
+    a soft, non-blocking check.
+    """
+    print('Checking for duplicate function rows...')
+    has_duplicate, duplicates = check_duplicate_function_rows(filename)
+    if has_duplicate:
+        print('Found duplicate function rows:')
+        for duplicate in duplicates:
+            print(duplicate)
+        sys.exit(1)
+    else:
+        print('No duplicate function rows.')
+
+
 def start_links_working_checker(links: List[str]) -> None:
 
     print(f'Checking if {len(links)} links are working...')
@@ -243,6 +352,11 @@ def start_links_working_checker(links: List[str]) -> None:
 
 
 def main(filename: str, only_duplicate_links_checker: bool) -> None:
+
+    if only_duplicate_links_checker:
+        # Refined, table-aware duplicate check (soft gate at workflow level).
+        start_function_duplicate_checker(filename)
+        return
 
     links = find_links_in_file(filename)
 

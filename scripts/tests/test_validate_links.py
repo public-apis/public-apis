@@ -6,6 +6,7 @@ import unittest
 
 from validate.links import find_links_in_text
 from validate.links import check_duplicate_links
+from validate.links import check_duplicate_function_rows
 from validate.links import fake_user_agent
 from validate.links import get_host_from_link
 from validate.links import has_cloudflare_protection
@@ -186,6 +187,96 @@ class TestValidateLinks(unittest.TestCase):
             start_duplicate_links_checker(self.no_duplicate_links)
         except SystemExit:
             self.fail('start_duplicate_links_checker exited on unique links')
+
+
+class TestCheckDuplicateFunctionRows(unittest.TestCase):
+    """Regression tests for the refined -odlc table-aware duplicate check."""
+
+    def _write_temp(self, text: str) -> str:
+        import tempfile
+        import os
+        tf = tempfile.NamedTemporaryFile('w', suffix='.md', delete=False, encoding='utf-8')
+        tf.write(text)
+        tf.close()
+        self.addCleanup(os.unlink, tf.name)
+        return tf.name
+
+    def test_true_copy_paste_row_is_reported(self):
+        # Two byte-identical rows for the same function -> genuine redundancy.
+        readme = """# glibc
+
+## Index
+
+* [Math (math.h)](#math-mathh)
+
+---
+
+## Math (math.h)
+
+### Trig
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [sin](https://man7.org/linux/man-pages/man3/sin.3.html) | `<math.h>` | Compute sine | C99 | Yes |
+| [sin](https://man7.org/linux/man-pages/man3/sin.3.html) | `<math.h>` | Compute sine | C99 | Yes |
+"""
+        path = self._write_temp(readme)
+        has_dup, dups = check_duplicate_function_rows(path)
+        self.assertTrue(has_dup)
+        self.assertEqual(len(dups), 1)
+        self.assertIn('sin', dups[0])
+
+    def test_different_functions_sharing_url_not_reported(self):
+        # wait(2) referenced by distinct functions -> legal, must NOT flag.
+        readme = """# glibc
+
+## Index
+
+* [Process (unistd.h)](#process-unistdh)
+
+---
+
+## Process (unistd.h)
+
+### Wait
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [wait](https://man7.org/linux/man-pages/man2/wait.2.html) | `<sys/types.h>` | Wait for any child | POSIX.1-2001 | Yes |
+| [waitpid](https://man7.org/linux/man-pages/man2/wait.2.html) | `<sys/types.h>` | Wait for a specific child | POSIX.1-2001 | Yes |
+"""
+        path = self._write_temp(readme)
+        has_dup, dups = check_duplicate_function_rows(path)
+        self.assertFalse(has_dup)
+        self.assertEqual(dups, [])
+
+    def test_same_function_cross_module_diff_rows_not_reported(self):
+        # strerror-like: same name + url but different MT-Safe note -> legal.
+        readme = """# glibc
+
+## Index
+
+* [Error (errno.h)](#error-errnoh)
+* [Locale (locale.h)](#locale-localeh)
+
+---
+
+## Error (errno.h)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [strerror](https://man7.org/linux/man-pages/man3/strerror.3.html) | `<string.h>` | Return a string describing an error | POSIX.1-2001 | Yes |
+
+## Locale (locale.h)
+
+| Function | Header | Description | Standard | MT-Safe |
+| --- | --- | --- | --- | --- |
+| [strerror](https://man7.org/linux/man-pages/man3/strerror.3.html) | `<string.h>` | Return a string describing an error | POSIX.1-2001 | No (race:strerror locale) |
+"""
+        path = self._write_temp(readme)
+        has_dup, dups = check_duplicate_function_rows(path)
+        self.assertFalse(has_dup)
+        self.assertEqual(dups, [])
 
 
 if __name__ == '__main__':
