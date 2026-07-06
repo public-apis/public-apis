@@ -1,466 +1,197 @@
 # -*- coding: utf-8 -*-
 
+"""Unit tests for scripts/validate/format.py (current 5-column schema)."""
+
 import unittest
 
-from validate.format import error_message
-from validate.format import get_categories_content
-from validate.format import check_alphabetical_order
-from validate.format import check_title
-from validate.format import check_description, max_description_length
-from validate.format import check_auth, auth_keys
-from validate.format import check_https, https_keys
-from validate.format import check_cors, cors_keys
-from validate.format import check_entry
-from validate.format import check_file_format, min_entries_per_category, num_segments
-
-
-class TestValidadeFormat(unittest.TestCase):
-    
-    def test_error_message_return_and_return_type(self):
-        line_num_unity = 1
-        line_num_ten = 10
-        line_num_hundred = 100
-        line_num_thousand = 1000
-
-        msg = 'This is a unit test'
-
-        err_msg_unity = error_message(line_num_unity, msg)
-        err_msg_ten = error_message(line_num_ten, msg)
-        err_msg_hundred = error_message(line_num_hundred, msg)
-        err_msg_thousand = error_message(line_num_thousand, msg)
-
-        self.assertIsInstance(err_msg_unity, str)
-        self.assertIsInstance(err_msg_ten, str)
-        self.assertIsInstance(err_msg_hundred, str)
-        self.assertIsInstance(err_msg_thousand, str)
-
-        self.assertEqual(err_msg_unity, '(L002) This is a unit test')
-        self.assertEqual(err_msg_ten, '(L011) This is a unit test')
-        self.assertEqual(err_msg_hundred, '(L101) This is a unit test')
-        self.assertEqual(err_msg_thousand, '(L1001) This is a unit test')
-
-    def test_if_get_categories_content_return_correct_data_of_categories(self):
-        fake_contents = [
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '',
-            '### B',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
-        ]
-
-        result = get_categories_content(fake_contents)
-        self.assertIsInstance(result, tuple)
-
-        categories, category_line_num = result
-        self.assertIsInstance(categories, dict)
-        self.assertIsInstance(category_line_num, dict)
-
-        expected_result = ({'A': ['AA', 'AB'], 'B': ['BA', 'BB']}, {'A': 0, 'B': 6})
-
-        for res, ex_res in zip(result, expected_result):
-
-            with self.subTest():
-                self.assertEqual(res, ex_res)
-
-    def test_if_check_alphabetical_order_return_correct_msg_error(self):
-        correct_lines = [
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '',
-            '### B',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
-        ]
-
-        incorrect_lines = [
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '',
-            '### B',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
-        ]
-
-
-        err_msgs_1 = check_alphabetical_order(correct_lines)
-        err_msgs_2 = check_alphabetical_order(incorrect_lines)
-
-        self.assertIsInstance(err_msgs_1, list)
-        self.assertIsInstance(err_msgs_2, list)
-
-        self.assertEqual(len(err_msgs_1), 0)
-        self.assertEqual(len(err_msgs_2), 2)
-
-        expected_err_msgs = [
-            '(L001) A category is not alphabetical order',
-            '(L007) B category is not alphabetical order'
-        ]
-
-        for err_msg, ex_err_msg in zip(err_msgs_2, expected_err_msgs):
-
-            with self.subTest():
-                self.assertEqual(err_msg, ex_err_msg)
-    
-    def test_check_title_with_correct_title(self):
-        raw_title = '[A](https://www.ex.com)'
-
-        err_msgs = check_title(0, raw_title)
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 0)
-        self.assertEqual(err_msgs, [])
-
-    def test_check_title_with_markdown_syntax_incorrect(self):
-        raw_title = '[A(https://www.ex.com)'
-
-        err_msgs = check_title(0, raw_title)
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 1)
-        
-        err_msg = err_msgs[0]
-        expected_err_msg = '(L001) Title syntax should be "[TITLE](LINK)"'
-
-        self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_title_with_api_at_the_end_of_the_title(self):
-        raw_title = '[A API](https://www.ex.com)'
-
-        err_msgs = check_title(0, raw_title)
-        
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 1)
-        
-        err_msg = err_msgs[0]
-        expected_err_msg = '(L001) Title should not end with "... API". Every entry is an API here!'
-
-        self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_description_with_correct_description(self):
-        desc = 'This is a fake description'
-
-        err_msgs = check_description(0, desc)
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 0)
-        self.assertEqual(err_msgs, [])
-    
-    def test_check_description_with_first_char_is_not_capitalized(self):
-        desc = 'this is a fake description'
-
-        err_msgs = check_description(0, desc)
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 1)
-        
-        err_msg = err_msgs[0]
-        expected_err_msg = '(L001) first character of description is not capitalized'
-
-        self.assertIsInstance(err_msg, str)
-        self.assertEqual(err_msg, expected_err_msg)
-    
-    def test_check_description_with_punctuation_in_the_end(self):
-        base_desc = 'This is a fake description'
-        punctuation = r"""!"#$%&'*+,-./:;<=>?@[\]^_`{|}~"""
-        desc_with_punc = [base_desc + punc for punc in punctuation]
-        
-        for desc in desc_with_punc:
-
-            with self.subTest():
-                err_msgs = check_description(0, desc)
-
-                self.assertIsInstance(err_msgs, list)
-                self.assertEqual(len(err_msgs), 1)
-        
-                err_msg = err_msgs[0]
-                expected_err_msg = f'(L001) description should not end with {desc[-1]}'
-
-                self.assertIsInstance(err_msg, str)
-                self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_description_that_exceeds_the_character_limit(self):
-        long_desc = 'Desc' * max_description_length
-        long_desc_length = len(long_desc)
-
-        err_msgs = check_description(0, long_desc)
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 1)
-
-        err_msg = err_msgs[0]
-        expected_err_msg = f'(L001) description should not exceed {max_description_length} characters (currently {long_desc_length})'
-
-        self.assertIsInstance(err_msg, str)
-        self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_auth_with_valid_auth(self):
-        auth_valid = [f'`{auth}`' for auth in auth_keys if auth != 'No']
-        auth_valid.append('No')
-
-        for auth in auth_valid:
-            with self.subTest():
-                err_msgs = check_auth(0, auth)
-                self.assertIsInstance(err_msgs, list)
-                self.assertEqual(len(err_msgs), 0)
-                self.assertEqual(err_msgs, [])
-
-    def test_check_auth_without_backtick(self):
-        auth_without_backtick = [auth for auth in auth_keys if auth != 'No']
-
-        for auth in auth_without_backtick:
-            with self.subTest():
-                err_msgs = check_auth(0, auth)
-                self.assertIsInstance(err_msgs, list)
-                self.assertEqual(len(err_msgs), 1)
-
-                err_msg = err_msgs[0]
-                expected_err_msg = '(L001) auth value is not enclosed with `backticks`'
-
-                self.assertIsInstance(err_msg, str)
-                self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_auth_with_invalid_auth(self):
-        auth_invalid_without_backtick = ['Yes', 'yes', 'no', 'random', 'Unknown']
-        auth_invalid_with_backtick = ['`Yes`', '`yes`', '`no`', '`random`', '`Unknown`']
-
-        for auth in auth_invalid_without_backtick:
-            with self.subTest():
-                err_msgs = check_auth(0, auth)
-                self.assertIsInstance(err_msgs, list)
-                self.assertEqual(len(err_msgs), 2)
-
-                err_msg_1 = err_msgs[0]
-                err_msg_2 = err_msgs[1]
-
-                expected_err_msg_1 = f'(L001) auth value is not enclosed with `backticks`'
-                expected_err_msg_2 = f'(L001) {auth} is not a valid Auth option'
-
-                self.assertIsInstance(err_msg_1, str)
-                self.assertIsInstance(err_msg_2, str)
-                self.assertEqual(err_msg_1, expected_err_msg_1)
-                self.assertEqual(err_msg_2, expected_err_msg_2)
-
-        for auth in auth_invalid_with_backtick:
-            with self.subTest():
-                err_msgs = check_auth(0, auth)
-                self.assertIsInstance(err_msgs, list)
-                self.assertEqual(len(err_msgs), 1)
-
-                err_msg = err_msgs[0]
-                expected_err_msg = f'(L001) {auth} is not a valid Auth option'
-
-                self.assertIsInstance(err_msg, str)
-                self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_https_with_valid_https(self):
-        for https in https_keys:
-            with self.subTest():
-                err_msgs = check_https(0, https)
-                self.assertIsInstance(err_msgs, list)
-                self.assertEqual(len(err_msgs), 0)
-                self.assertEqual(err_msgs, [])
-
-    def test_check_https_with_invalid_https(self):
-        invalid_https_keys = ['yes', 'no', 'Unknown', 'https', 'http']
-
-        for https in invalid_https_keys:
-            with self.subTest():
-                err_msgs = check_https(0, https)
-                self.assertIsInstance(err_msgs, list)
-                self.assertEqual(len(err_msgs), 1)
-
-                err_msg = err_msgs[0]
-                expected_err_msg = f'(L001) {https} is not a valid HTTPS option'
-
-                self.assertIsInstance(err_msg, str)
-                self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_cors_with_valid_cors(self):
-        for cors in cors_keys:
-            with self.subTest():
-                err_msgs = check_cors(0, cors)
-                self.assertIsInstance(err_msgs, list)
-                self.assertEqual(len(err_msgs), 0)
-                self.assertEqual(err_msgs, [])
-
-    def test_check_cors_with_invalid_cors(self):
-        invalid_cors_keys = ['yes', 'no', 'unknown', 'cors']
-
-        for cors in invalid_cors_keys:
-            with self.subTest():
-                err_msgs = check_cors(0, cors)
-                self.assertIsInstance(err_msgs, list)
-                self.assertEqual(len(err_msgs), 1)
-
-                err_msg = err_msgs[0]
-                expected_err_msg = f'(L001) {cors} is not a valid CORS option'
-
-                self.assertIsInstance(err_msg, str)
-                self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_entry_with_correct_segments(self):
-        correct_segments = ['[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes']
-
-        err_msgs = check_entry(0, correct_segments)
-        
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 0)
-        self.assertEqual(err_msgs, [])
-
-    def test_check_entry_with_incorrect_segments(self):
-        incorrect_segments = ['[A API](https://www.ex.com)', 'desc.', 'yes', 'yes', 'yes']
-
-        err_msgs = check_entry(0, incorrect_segments)
-        expected_err_msgs = [
-            '(L001) Title should not end with "... API". Every entry is an API here!',
-            '(L001) first character of description is not capitalized',
-            '(L001) description should not end with .',
-            '(L001) auth value is not enclosed with `backticks`',
-            '(L001) yes is not a valid Auth option',
-            '(L001) yes is not a valid HTTPS option',
-            '(L001) yes is not a valid CORS option'
-        ]
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 7)
-        for err_msg in err_msgs:
-            with self.subTest():
-                self.assertIsInstance(err_msg, str)
-        self.assertEqual(err_msgs, expected_err_msgs)
-
-    def test_check_file_format_with_correct_format(self):
-        correct_format = [
-            '## Index',
-            '* [A](#a)',
-            '* [B](#b)',
-            '',
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '',
-            '### B',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [BC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
-        ]
-
-        err_msgs = check_file_format(lines=correct_format)
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 0)
-        self.assertEqual(err_msgs, [])
-
-    def test_check_file_format_with_category_header_not_added_to_index(self):
-        incorrect_format = [
-            '## Index',
-            '',
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-        ]
-
-        err_msgs = check_file_format(lines=incorrect_format)
-        expected_err_msg = '(L003) category header (A) not added to Index section'
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 1)
-        err_msg = err_msgs[0]
-        self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_file_format_with_category_without_min_entries(self):
-        incorrect_format = [
-            '## Index',
-            '* [A](#a)',
-            '* [B](#b)',
-            '',
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '',
-            '### B',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [BC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
-        ]
-
-        category_with_err = 'A'
-        num_in_category = 1
-
-        err_msgs = check_file_format(lines=incorrect_format)
-        expected_err_msg = f'(L005) {category_with_err} category does not have the minimum {min_entries_per_category} entries (only has {num_in_category})'
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 1)
-        err_msg = err_msgs[0]
-        self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_file_format_entry_without_all_necessary_columns(self):
-        incorrect_format = [
-            '## Index',
-            '* [A](#a)',
-            '',
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AB](https://www.ex.com) | Desc | `apiKey` |',  # missing https and cors
-            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-        ]
-
-        current_segments_num = 3
-
-        err_msgs = check_file_format(lines=incorrect_format)
-        expected_err_msg = f'(L008) entry does not have all the required columns (have {current_segments_num}, need {num_segments})'
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 1)
-        err_msg = err_msgs[0]
-        self.assertEqual(err_msg, expected_err_msg)
-
-    def test_check_file_format_without_1_space_between_the_segments(self):
-        incorrect_format = [
-            '## Index',
-            '* [A](#a)',
-            '',
-            '### A',
-            'API | Description | Auth | HTTPS | CORS |',
-            '|---|---|---|---|---|',
-            '| [AA](https://www.ex.com) | Desc |`apiKey`| Yes | Yes |',  # space between segment of auth column missing
-            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
-        ]
-
-        err_msgs = check_file_format(lines=incorrect_format)
-        expected_err_msg = f'(L007) each segment must start and end with exactly 1 space'
-
-        self.assertIsInstance(err_msgs, list)
-        self.assertEqual(len(err_msgs), 1)
-        err_msg = err_msgs[0]
-        self.assertEqual(err_msg, expected_err_msg)
+from validate.format import (
+    anchorize,
+    check_description_column,
+    check_duplicate_functions,
+    check_file,
+    check_function_column,
+    check_header_column,
+    check_index_sync,
+    check_mtsafe_column,
+    check_mtsafe_consistency,
+    check_standard_column,
+    error_message,
+    is_table_header,
+    is_table_separator,
+    parse_line,
+)
+
+from tests.test_helpers import (
+    DUP_FUNCTION_README,
+    INDEX_MISMATCH_README,
+    MTSAFE_MISMATCH_README,
+    VALID_README,
+)
+
+
+def _to_lines(text: str) -> list[str]:
+    return [line.rstrip() for line in text.splitlines()]
+
+
+class TestErrorMessage(unittest.TestCase):
+    def test_format_and_line_numbers(self):
+        self.assertEqual(error_message(0, 'boom'), 'Line    1: boom')
+        self.assertEqual(error_message(9, 'boom'), 'Line   10: boom')
+        self.assertEqual(error_message(99, 'boom'), 'Line  100: boom')
+        self.assertEqual(error_message(999, 'boom'), 'Line 1000: boom')
+
+
+class TestAnchorize(unittest.TestCase):
+    def test_basic_slug(self):
+        self.assertEqual(anchorize('Standard I/O (stdio.h)'), 'standard-io-stdioh')
+
+    def test_ampersand_becomes_double_hyphen(self):
+        self.assertEqual(
+            anchorize('Character & String (string.h, ctype.h)'),
+            'character--string-stringh-ctypeh',
+        )
+
+    def test_raw_entity_diverges_from_decoded_anchor(self):
+        # GitHub slugifies the *raw* source, so '&amp;' yields 'amp' in the slug.
+        self.assertEqual(
+            anchorize('Environment &amp; System Info (unistd.h, sys/utsname.h)'),
+            'environment-amp-system-info-unistdh-sysutsnameh',
+        )
+        # A literal '&' (the corrected form) matches the Index anchor.
+        self.assertEqual(
+            anchorize('Environment & System Info (unistd.h, sys/utsname.h)'),
+            'environment--system-info-unistdh-sysutsnameh',
+        )
+
+
+class TestColumnChecks(unittest.TestCase):
+    def test_function_column(self):
+        self.assertIsNone(check_function_column(
+            '[fopen](https://man7.org/linux/man-pages/man3/fopen.3.html)'))
+        self.assertIsNotNone(check_function_column('fopen'))
+        self.assertIsNotNone(check_function_column(
+            '[fopen](https://example.com/not-man7)'))
+
+    def test_header_column(self):
+        self.assertIsNone(check_header_column('`<stdio.h>`'))
+        self.assertIsNotNone(check_header_column('stdio.h'))
+        self.assertIsNotNone(check_header_column('`<Foo.h>`'))
+
+    def test_description_column(self):
+        self.assertIsNone(check_description_column('Open a file'))
+        self.assertIsNotNone(check_description_column(''))
+        self.assertIsNotNone(check_description_column('open a file'))
+        self.assertIsNotNone(check_description_column('x' * 201))
+
+    def test_standard_column(self):
+        self.assertIsNone(check_standard_column('POSIX.1-2001, C89'))
+        self.assertIsNone(check_standard_column('C99'))
+        self.assertIsNone(check_standard_column('GNU'))
+        self.assertIsNotNone(check_standard_column('foo bar!'))
+
+    def test_mtsafe_column(self):
+        self.assertIsNone(check_mtsafe_column('Yes'))
+        self.assertIsNone(check_mtsafe_column('No'))
+        self.assertIsNone(check_mtsafe_column('No (race:strtok)'))
+        self.assertIsNotNone(check_mtsafe_column('yes'))
+        self.assertIsNotNone(check_mtsafe_column('Maybe'))
+        self.assertIsNotNone(check_mtsafe_column('No (race'))
+
+
+class TestParseLine(unittest.TestCase):
+    def test_valid_row(self):
+        row = ('| [fopen](https://man7.org/linux/man-pages/man3/fopen.3.html) '
+               '| `<stdio.h>` | Open a file | POSIX.1-2001, C89 | Yes |')
+        cols = parse_line(row)
+        self.assertEqual(cols, [
+            '[fopen](https://man7.org/linux/man-pages/man3/fopen.3.html)',
+            '`<stdio.h>`', 'Open a file', 'POSIX.1-2001, C89', 'Yes',
+        ])
+
+    def test_non_row_returns_none(self):
+        self.assertIsNone(parse_line('## Module'))
+        self.assertIsNone(parse_line('| --- | --- | --- | --- | --- |'))
+        self.assertIsNone(parse_line('| only | four | cols |'))
+
+    def test_table_header_and_separator(self):
+        self.assertTrue(is_table_header(
+            '| Function | Header | Description | Standard | MT-Safe |'))
+        self.assertFalse(is_table_header('| foo | bar |'))
+        self.assertTrue(is_table_separator('| --- | --- | --- | --- | --- |'))
+        self.assertFalse(is_table_separator('| --- |'))
+
+
+class TestCheckDuplicateFunctions(unittest.TestCase):
+    def test_no_duplicates(self):
+        errors, warnings = check_duplicate_functions(_to_lines(VALID_README))
+        self.assertEqual(errors, [])
+        self.assertEqual(warnings, [])
+
+    def test_duplicate_in_same_module_is_error(self):
+        errors, warnings = check_duplicate_functions(_to_lines(DUP_FUNCTION_README))
+        self.assertEqual(len(errors), 1)
+        self.assertIn('Duplicate function "sin"', errors[0])
+        self.assertEqual(warnings, [])
+
+    def test_cross_module_same_name_is_allowed(self):
+        # strerror appears in two modules in MTSAFE_MISMATCH_README -> no error.
+        errors, _ = check_duplicate_functions(_to_lines(MTSAFE_MISMATCH_README))
+        self.assertEqual(errors, [])
+
+
+class TestCheckIndexSync(unittest.TestCase):
+    def test_valid_readme_in_sync(self):
+        self.assertEqual(check_index_sync(_to_lines(VALID_README)), [])
+
+    def test_entity_heading_is_caught(self):
+        errors = check_index_sync(_to_lines(INDEX_MISMATCH_README))
+        self.assertTrue(errors)
+        # The broken '&amp;' heading yields the '...-amp-system-info-...' slug,
+        # which diverges from the Index anchor and must be reported.
+        self.assertTrue(
+            any('environment-amp-system-info' in e for e in errors),
+            msg=f'expected the broken &amp; slug to be reported, got: {errors}',
+        )
+
+    def test_fixed_heading_passes(self):
+        fixed = INDEX_MISMATCH_README.replace('&amp;', '&')
+        self.assertEqual(check_index_sync(_to_lines(fixed)), [])
+
+
+class TestCheckMtsafeConsistency(unittest.TestCase):
+    def test_consistent_readme_has_no_warning(self):
+        self.assertEqual(check_mtsafe_consistency(_to_lines(VALID_README)), [])
+
+    def test_conflicting_values_warn(self):
+        warnings = check_mtsafe_consistency(_to_lines(MTSAFE_MISMATCH_README))
+        self.assertEqual(len(warnings), 1)
+        self.assertIn('MT-Safe inconsistent for "strerror"', warnings[0])
+
+
+class TestCheckFile(unittest.TestCase):
+    def _write_temp(self, text: str) -> str:
+        import tempfile
+        import os
+        tf = tempfile.NamedTemporaryFile('w', suffix='.md', delete=False, encoding='utf-8')
+        tf.write(text)
+        tf.close()
+        self.addCleanup(os.unlink, tf.name)
+        return tf.name
+
+    def test_valid_readme_has_no_errors(self):
+        path = self._write_temp(VALID_README)
+        self.assertEqual(check_file(path), [])
+
+    def test_duplicate_propagates_to_check_file(self):
+        path = self._write_temp(DUP_FUNCTION_README)
+        errors = check_file(path)
+        self.assertTrue(any('Duplicate function' in e for e in errors))
+
+    def test_index_mismatch_propagates_to_check_file(self):
+        path = self._write_temp(INDEX_MISMATCH_README)
+        errors = check_file(path)
+        self.assertTrue(any('Index' in e for e in errors))
+
+
+if __name__ == '__main__':
+    unittest.main()

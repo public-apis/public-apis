@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+"""Unit tests for scripts/validate/links.py."""
+
 import unittest
 
 from validate.links import find_links_in_text
@@ -7,6 +9,7 @@ from validate.links import check_duplicate_links
 from validate.links import fake_user_agent
 from validate.links import get_host_from_link
 from validate.links import has_cloudflare_protection
+from validate.links import start_duplicate_links_checker
 
 
 class FakeResponse():
@@ -170,3 +173,20 @@ class TestValidateLinks(unittest.TestCase):
         self.assertFalse(result1)
         self.assertFalse(result2)
         self.assertFalse(result3)
+
+    def test_start_duplicate_links_checker_exits_on_duplicates(self):
+        # The duplicate-only checker must hard-fail when duplicate URLs exist.
+        with self.assertRaises(SystemExit) as ctx:
+            start_duplicate_links_checker(self.duplicate_links)
+        self.assertEqual(ctx.exception.code, 1)
+
+    def test_start_duplicate_links_checker_passes_on_unique_links(self):
+        # With unique links it should not raise / exit.
+        try:
+            start_duplicate_links_checker(self.no_duplicate_links)
+        except SystemExit:
+            self.fail('start_duplicate_links_checker exited on unique links')
+
+
+if __name__ == '__main__':
+    unittest.main()

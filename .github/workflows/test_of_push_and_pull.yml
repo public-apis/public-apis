@@ -18,10 +18,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Validate table format
+        # Errors block the build; warnings (e.g. MT-Safe inconsistencies) are
+        # printed but never cause a non-zero exit code.
         run: python scripts/validate/format.py ${FILENAME}
-

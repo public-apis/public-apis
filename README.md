@@ -4,6 +4,8 @@
 
 > 本项目以 [public-apis](https://github.com/public-apis/public-apis) 项目的文档格式规范为参考。所有 API 条目统一以 **5 列表格**呈现：**Function | Header | Description | Standard | MT-Safe**。
 
+> 🔍 在线可搜索界面：https://ghshhf.github.io/public-apis/ （由 `site/` 静态站点提供，零后端、纯前端过滤）
+
 <br >
 
 ---
@@ -22,7 +24,7 @@
 * [Error Handling (errno.h)](#error-handling-errnoh)
 * [Locale & Internationalization (locale.h, libintl.h, iconv.h)](#locale--internationalization-localeh-libintlh-iconvh)
 * [Regular Expressions (regex.h)](#regular-expressions-regexh)
-* [Dynamic Linking (dlfcn.h)](#dynamic-linking-dlfcn-h)
+* [Dynamic Linking (dlfcn.h)](#dynamic-linking-dlfcnh)
 * [Threading (pthread.h)](#threading-pthreadh)
 * [Synchronization Primitives](#synchronization-primitives)
 * [Networking & Sockets (sys/socket.h, netinet/in.h, arpa/inet.h, netdb.h)](#networking--sockets-syssocketh-netinetinh-arpaineth-netdbh)
@@ -733,7 +735,7 @@
 
 ---
 
-## Environment &amp; System Info (unistd.h, sys/utsname.h)
+## Environment & System Info (unistd.h, sys/utsname.h)
 
 ### Environment Variables
 
@@ -833,7 +835,7 @@
 
 ---
 
-## Locale &amp; Internationalization (locale.h, libintl.h, iconv.h)
+## Locale & Internationalization (locale.h, libintl.h, iconv.h)
 
 ### Locale Management
 
@@ -1062,7 +1064,7 @@
 
 ---
 
-## Networking &amp; Sockets (sys/socket.h, netinet/in.h, arpa/inet.h, netdb.h)
+## Networking & Sockets (sys/socket.h, netinet/in.h, arpa/inet.h, netdb.h)
 
 ### Socket Creation &amp; Management
 
@@ -1160,7 +1162,7 @@
 
 ---
 
-## Wide Character &amp; Multibyte (wchar.h, wctype.h)
+## Wide Character & Multibyte (wchar.h, wctype.h)
 
 ### Wide Character I/O
 
@@ -1341,7 +1343,7 @@
 
 ---
 
-## Searching &amp; Sorting (stdlib.h, search.h)
+## Searching & Sorting (stdlib.h, search.h)
 
 ### Sorting
 

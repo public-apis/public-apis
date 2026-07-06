@@ -8,7 +8,7 @@ Welcome to the **glibc Public API Index** — a manually curated reference of GN
 
 | Function | Header | Description | Standard | MT-Safe |
 | --- | --- | --- | --- | --- |
-| `[function_name](https://man7.org/linux/man-pages/man3/function_name.3.html)` | `<header.h>` | 简短描述（英文，不超过 150 字符） | 标准版本 | Yes / No |
+| `[function_name](https://man7.org/linux/man-pages/man3/function_name.3.html)` | `<header.h>` | 简短描述（英文，不超过 200 字符） | 标准版本 | Yes / No |
 
 ## Column Guide
 
@@ -27,7 +27,7 @@ Welcome to the **glibc Public API Index** — a manually curated reference of GN
 
 ### 3. Description
 
-简短英文描述，建议不超过 150 字符，首字母大写，不用句号结尾。
+简短英文描述，建议不超过 200 字符，首字母大写，不用句号结尾。
 
 **示例：**
 - `Open a file and associate a stream with it`

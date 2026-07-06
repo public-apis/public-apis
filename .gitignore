@@ -119,7 +119,9 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-/site
+# Static search site: commit the front-end (html/js/css) but ignore the
+# generated index JSON (produced at CI build time by scripts/build_index.py).
+/site/data/index.json
 
 # mypy
 .mypy_cache/

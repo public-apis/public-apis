@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>glibc Public API Index — Search</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>glibc Public API Index</h1>
+    <p class="subtitle">Search &amp; filter GNU C Library functions — no backend, pure client-side.</p>
+  </header>
+
+  <section class="controls">
+    <input id="search" type="search" placeholder="Search by function name or description…" autocomplete="off" />
+    <div class="filters">
+      <select id="filter-category" aria-label="Filter by module"><option value="">All modules</option></select>
+      <select id="filter-standard" aria-label="Filter by standard"><option value="">All standards</option></select>
+      <select id="filter-header" aria-label="Filter by header"><option value="">All headers</option></select>
+      <select id="filter-mtsafe" aria-label="Filter by MT-Safe"><option value="">All MT-Safe</option></select>
+    </div>
+    <span id="count" class="count"></span>
+  </section>
+
+  <table id="results">
+    <thead>
+      <tr>
+        <th>Function</th>
+        <th>Header</th>
+        <th>Description</th>
+        <th>Standard</th>
+        <th>MT-Safe</th>
+        <th>Module</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <footer class="site-footer">
+    <p>Generated from <code>README.md</code> by <code>scripts/build_index.py</code>. Data source:
+       <a href="https://github.com/ghshhf/public-apis">ghshhf/public-apis</a>.</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

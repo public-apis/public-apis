@@ -1,6 +1,17 @@
 name: "Validate links"
 
+# ADR-004 layer 3: link health.
+#  - On pull_request: run the zero-network duplicate-URL check (-odlc) for fast
+#    feedback. NOTE: the existing README intentionally reuses shared man7 pages
+#    (e.g. err(3), wait(2), fcntl(2) are linked from several functions), so a
+#    *hard* gate would block every PR. The check is therefore non-blocking and
+#    informational; flip `continue-on-error` to false once duplicate URLs are
+#    cleaned up if a hard gate is desired.
+#  - On schedule (nightly): run the full networked link check. When it fails we
+#    open/update a tracking Issue (soft alert) instead of blocking anything.
 on:
+  pull_request:
+    branches: [ master ]
   workflow_dispatch:
   schedule:
     - cron:  '0 0 * * *'
@@ -9,20 +20,72 @@ env:
   FILENAME: README.md
 
 jobs:
-  validate_links:
-    name: 'Check all links are working'
+  duplicate_links_pr:
+    name: 'PR duplicate link check (no network)'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.8'
+          python-version: '3.11'
+
+      - name: Check for duplicate links only (zero network)
+        continue-on-error: true
+        run: python scripts/validate/links.py ${FILENAME} -odlc
+
+  full_link_check:
+    name: 'Nightly full link check'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
       - name: Install dependencies
         run: python -m pip install -r scripts/requirements.txt
 
       - name: Validate all links from README.md
+        id: link_check
+        continue-on-error: true
         run: python scripts/validate/links.py ${FILENAME}
+
+      - name: Create or update broken-link issue
+        if: steps.link_check.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const date = new Date().toISOString().slice(0, 10);
+            const title = `🔗 Broken links report (${date})`;
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = `The nightly full link check (${date}) detected broken or dead links in \`${process.env.FILENAME}\`.\n\nPlease review and fix them. See the [workflow run](${runUrl}).`;
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100
+            });
+            const existing = issues.data.find(i => i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: `Updated ${date}: broken links still detected. Run: ${context.runId}`
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['broken-links', 'automated']
+              });
+            }
