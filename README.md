@@ -1628,6 +1628,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UK Police](https://data.police.uk/docs/) | UK Police data | No | Yes | Unknown |
 | [URLhaus](https://urlhaus.abuse.ch/api/) | Database of malicious URLs used for malware distribution | `No` | Yes | Unknown |
 | [Virushee](https://api.virushee.com/) | Virushee file/data scanning | No | Yes | Yes |
+| [VirusTotal](https://developers.virustotal.com/reference/overview) | Scan files, URLs, domains, and IPs for malware and threats | apiKey | Yes | Unknown | |
 | [VulDB](https://vuldb.com/?doc.api) | VulDB API allows to initiate queries for one or more items along with transactional bots | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
