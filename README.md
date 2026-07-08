@@ -1718,6 +1718,7 @@ API | Description | Auth | HTTPS | CORS |
 | [City Bikes](https://api.citybik.es/v2/) | City Bikes around the world | No | Yes | Unknown |
 | [Cloudbet](https://www.cloudbet.com/api/) | Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically | `apiKey` | Yes | Yes |
 | [CollegeFootballData.com](https://collegefootballdata.com) | Unofficial detailed American college football statistics, records, and results API | `apiKey` | Yes | Unknown |
+| [Dino Markets](https://dino.markets/docs) | Cross-venue sports prediction-market data: Kalshi and Polymarket matched, live arb, free tier | `apiKey` | Yes | No |
 | [DiscGolf](https://discgolfapi.com/docs/) | Structured disc golf course data | No | Yes | Yes |
 | [Ergast F1](http://ergast.com/mrd/) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
 | [Fitbit](https://dev.fitbit.com/) | Fitbit Information | `OAuth` | Yes | Unknown |
