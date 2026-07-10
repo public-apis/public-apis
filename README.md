@@ -1294,6 +1294,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TensorFeed](https://tensorfeed.ai/developers) | Real-time AI news, model pricing, service status, and agent activity feeds | No | Yes | Yes |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
+| [WhatsTrending.ai](https://whatstrending.ai/docs) | AI model usage leaderboard, AI news, trending AI repos and funding data | No | Yes | Yes |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
