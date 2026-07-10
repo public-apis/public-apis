@@ -509,6 +509,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
 | [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown |
 | [Azure DevOps](https://docs.microsoft.com/en-us/rest/api/azure/devops) | The Azure DevOps basic components of a REST API request/response pair | `apiKey` | Yes | Unknown |
+| [Barcode Generator](https://sprytools.com/apis/barcode/) | Generate EAN-13, UPC-A, Code128 and QR barcodes as PNG or SVG | `apiKey` | Yes | Yes |
 | [Base](https://www.base-api.io/) | Building quick backends | `apiKey` | Yes | Yes |
 | [Beeceptor](https://beeceptor.com/) | Build a mock Rest API endpoint in seconds | No | Yes | Yes |
 | [Bitbucket](https://developer.atlassian.com/bitbucket/api/2/reference/) | Bitbucket API | `OAuth` | Yes | Unknown |
@@ -529,7 +530,9 @@ API | Description | Auth | HTTPS | CORS |
 | [CountAPI](https://countapi.xyz) | Free and simple counting service. You can use it to track page hits and specific events | No | Yes | Yes |
 | [Databricks](https://docs.databricks.com/dev-tools/api/latest/index.html) | Service to manage your databricks account,clusters, notebooks, jobs and workspaces | `apiKey` | Yes | Yes |
 | [DigitalOcean Status](https://status.digitalocean.com/api) | Status of all DigitalOcean services | No | Yes | Unknown |
+| [DNS Lookup](https://sprytools.com/apis/dns/) | Lookup DNS records: A, AAAA, MX, TXT, NS, CNAME, SOA and PTR | `apiKey` | Yes | Yes |
 | [Docker Hub](https://docs.docker.com/docker-hub/api/latest/) | Interact with Docker Hub | `apiKey` | Yes | Yes |
+| [Domain Availability Checker](https://sprytools.com/apis/domain/) | Check domain availability across 10+ TLDs via WHOIS and DNS lookup | `apiKey` | Yes | Yes |
 | [DomainDb Info](https://api.domainsdb.info/) | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown |
 | [DownStatus](https://isitdownstatus.com) | Real-time status for GitHub, AWS, Discord and 90+ services | No | Yes | Yes |
 | [ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html) | A simple JSON store API | No | Yes | Yes |
@@ -552,6 +555,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Heroku](https://devcenter.heroku.com/articles/platform-api-reference/) | REST API to programmatically create apps, provision add-ons and perform other task on Heroku | `OAuth` | Yes | Yes |
 | [host-t.com](https://host-t.com) | Basic DNS query via HTTP GET request | No | Yes | No |
 | [Host.io](https://host.io) | Domains Data API for Developers | `apiKey` | Yes | Yes |
+| [HTML to Markdown Converter](https://sprytools.com/apis/markdown/) | Convert HTML pages to clean Markdown with batch processing support | `apiKey` | Yes | Yes |
 | [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown |
 | [Httpbin](https://httpbin.org/) | A Simple HTTP Request & Response Service | No | Yes | Yes |
 | [Httpbin Cloudflare](https://cloudflare-quic.com/b/) | A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare | No | Yes | Yes |
@@ -607,6 +611,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Rejax](https://rejax.io/) | Reverse AJAX service to notify clients | `apiKey` | Yes | No |
 | [ReqRes](https://reqres.in/ ) | A hosted REST-API ready to respond to your AJAX requests | No | Yes | Unknown |
 | [RSS feed to JSON](https://rss-to-json-serverless-api.vercel.app) | Returns RSS feed in JSON format using feed URL | No | Yes | Yes |
+| [RSS to JSON](https://sprytools.com/apis/rss/) | Parse RSS and Atom feeds and return structured JSON with caching | `apiKey` | Yes | Yes |
 | [SavePage.io](https://www.savepage.io) | A free, RESTful API used to screenshot any desktop, or mobile website | `apiKey` | Yes | Yes |
 | [ScrapeNinja](https://scrapeninja.net) | Scraping API with Chrome fingerprint and residential proxies | `apiKey` | Yes | Unknown |
 | [ScraperApi](https://www.scraperapi.com) | Easily build scalable web scrapers | `apiKey` | Yes | Unknown |
@@ -631,6 +636,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Thunder Client](https://www.thunderclient.com/) | API testing tool | No | Yes | Yes |
 | [Thunderbit](https://thunderbit.com/docs/introduction) | Extract web pages as Markdown or structured data for AI apps | `apiKey` | Yes | Unknown |
 | [Tyk](https://tyk.io/open-source/) | Api and service management platform | `apiKey` | Yes | Yes |
+| [URL Metadata & Open Graph](https://sprytools.com/apis/meta/) | Extract Open Graph, Twitter Card and favicon metadata from any URL | `apiKey` | Yes | Yes |
 | [Wandbox](https://github.com/melpon/wandbox/blob/master/kennel2/API.rst) | Code compiler supporting 35+ languages mentioned at wandbox.org | No | Yes | Unknown |
 | [Webclaw](https://webclaw.io/docs/api) | Web content extraction for LLMs with scrape, crawl, search, and summarize | `apiKey` | Yes | Yes |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
@@ -1282,6 +1288,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Irisnet](https://irisnet.de/api/) | Realtime content moderation API that blocks or blurs unwanted images in real-time | `apiKey` | Yes | Yes |
 | [Jina AI](https://jina.ai) | Free AI API for embeddings, reranking, and text processing | `apiKey` | Yes | Yes |
 | [Keen IO](https://keen.io/) | Data Analytics | `apiKey` | Yes | Unknown |
+| [Language Detection](https://sprytools.com/apis/language/) | Detect language from text, supporting 187 languages with ISO 639-1 output | `apiKey` | Yes | Yes |
 | [Machinetutors](https://www.machinetutors.com/portfolio/MT_api.html) | AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP | `apiKey` | Yes | Yes |
 | [MediaCraft AI](https://mediacraft-x402-api.onrender.com) | Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC). | `apiKey` | Yes | Yes |
 | [MessengerX.io](https://messengerx.rtfd.io) | A FREE API for developers to build and monetize personalized ML based chat apps | `apiKey` | Yes | Yes |
@@ -1611,12 +1618,14 @@ API | Description | Auth | HTTPS | CORS |
 | [Hashable](https://hashable.space/pages/api/) | A REST API to access high level cryptographic functions and methods | No | Yes | Yes |
 | [HaveIBeenPwned](https://haveibeenpwned.com/API/v3) | Passwords which have previously been exposed in data breaches | `apiKey` | Yes | Unknown |
 | [Intelligence X](https://github.com/IntelligenceX/SDK/blob/master/Intelligence%20X%20API.pdf) | Perform OSINT via Intelligence X | `apiKey` | Yes | Unknown |
+| [IP Reputation & Blacklist Checker](https://sprytools.com/apis/ip-reputation/) | Check IPs against 7 DNSBL blacklists including Spamhaus and Barracuda | `apiKey` | Yes | Yes |
 | [IPLogs](https://iplogs.com/docs) | Free VPN, proxy, Tor and datacenter IP detection. 13 sources, active probing | No | Yes | Yes |
 | [LoginRadius](https://www.loginradius.com/docs/) | Managed User Authentication Service | `apiKey` | Yes | Yes |
 | [Microsoft Security Response Center (MSRC)](https://msrc.microsoft.com/report/developer) | Programmatic interfaces to engage with the Microsoft Security Response Center (MSRC) | No | Yes | Unknown |
 | [Mozilla http scanner](https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md) | Mozilla observatory http scanner | No | Yes | Unknown |
 | [Mozilla tls scanner](https://github.com/mozilla/tls-observatory#api-endpoints) | Mozilla observatory tls scanner | No | Yes | Unknown |
 | [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | U.S. National Vulnerability Database | No | Yes | Unknown |
+| [Password Generator](https://sprytools.com/apis/password/) | Generate secure passwords and check strength with entropy scoring | `apiKey` | Yes | Yes |
 | [Passwordinator](https://github.com/fawazsullia/password-generator/) | Generate random passwords of varying complexities | No | Yes | Yes |
 | [PhishStats](https://phishstats.info/) | Phishing database | No | Yes | Unknown |
 | [Privacy.com](https://privacy.com/developer/docs) | Generate merchant-specific and one-time use credit card numbers that link back to your bank | `apiKey` | Yes | Unknown |
@@ -1809,6 +1818,7 @@ API | Description | Auth | HTTPS | CORS |
 | [LibreTranslate](https://libretranslate.com/docs) | Translation tool with 17 available languages | No | Yes | Unknown |
 | [Semantria](https://semantria.readme.io/docs) | Text Analytics with sentiment analysis, categorization & named entity extraction | `OAuth` | Yes | Unknown |
 | [Sentiment Analysis](https://www.meaningcloud.com/developer/sentiment-analysis) | Multilingual sentiment analysis of texts from different sources | `apiKey` | Yes | Yes |
+| [Text Stats & Readability](https://sprytools.com/apis/text/) | Compute Flesch reading ease, word/sentence counts and keyword density | `apiKey` | Yes | Yes |
 | [Tisane](https://tisane.ai/) | Text Analytics with focus on detection of abusive content and law enforcement applications | `OAuth` | Yes | Yes |
 | [Watson Natural Language Understanding](https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding) | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown |
 
