@@ -1,0 +1,34 @@
+name: Validate README
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "README.md"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate README.md format
+        run: node scripts/validate.js README.md
+
+      - name: Check for duplicate links
+        run: node scripts/check-links.js README.md --duplicates-only
