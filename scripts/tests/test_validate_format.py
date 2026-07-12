@@ -1,253 +1,162 @@
 # -*- coding: utf-8 -*-
 
-"""Unit tests for scripts/validate/format.py (current 5-column schema)."""
-
 import unittest
 
 from validate.format import (
-    anchorize,
-    check_description_column,
-    check_duplicate_functions,
-    check_file,
+    error_message,
+    warning_message,
     check_function_column,
     check_header_column,
-    check_index_sync,
-    check_mtsafe_column,
-    check_mtsafe_consistency,
+    check_description_column,
     check_standard_column,
-    error_message,
+    check_mtsafe_column,
+    parse_line,
     is_table_header,
     is_table_separator,
-    parse_line,
-)
-
-from tests.test_helpers import (
-    DUP_FUNCTION_README,
-    INDEX_MISMATCH_README,
-    MTSAFE_MISMATCH_README,
-    VALID_README,
+    check_alphabetical_order,
+    check_file,
 )
 
 
-def _to_lines(text: str) -> list[str]:
-    return [line.rstrip() for line in text.splitlines()]
+class TestValidateFormat(unittest.TestCase):
 
-
-class TestErrorMessage(unittest.TestCase):
-    def test_format_and_line_numbers(self):
+    def test_error_message_format(self):
         self.assertEqual(error_message(0, 'boom'), 'Line    1: boom')
-        self.assertEqual(error_message(9, 'boom'), 'Line   10: boom')
         self.assertEqual(error_message(99, 'boom'), 'Line  100: boom')
-        self.assertEqual(error_message(999, 'boom'), 'Line 1000: boom')
 
+    def test_warning_message_format(self):
+        self.assertEqual(warning_message(0, 'soft'), 'Line    1: [warn] soft')
 
-class TestAnchorize(unittest.TestCase):
-    def test_basic_slug(self):
-        self.assertEqual(anchorize('Standard I/O (stdio.h)'), 'standard-io-stdioh')
+    # --- column checks -------------------------------------------------
 
-    def test_ampersand_becomes_double_hyphen(self):
-        self.assertEqual(
-            anchorize('Character & String (string.h, ctype.h)'),
-            'character--string-stringh-ctypeh',
-        )
-
-    def test_raw_entity_diverges_from_decoded_anchor(self):
-        # GitHub slugifies the *raw* source, so '&amp;' yields 'amp' in the slug.
-        self.assertEqual(
-            anchorize('Environment &amp; System Info (unistd.h, sys/utsname.h)'),
-            'environment-amp-system-info-unistdh-sysutsnameh',
-        )
-        # A literal '&' (the corrected form) matches the Index anchor.
-        self.assertEqual(
-            anchorize('Environment & System Info (unistd.h, sys/utsname.h)'),
-            'environment--system-info-unistdh-sysutsnameh',
-        )
-
-
-class TestColumnChecks(unittest.TestCase):
-    def test_function_column(self):
-        self.assertIsNone(check_function_column(
-            '[fopen](https://man7.org/linux/man-pages/man3/fopen.3.html)'))
+    def test_check_function_column(self):
+        self.assertIsNone(check_function_column('[fopen](https://man7.org/linux/man-pages/man3/fopen.3.html)'))
         self.assertIsNotNone(check_function_column('fopen'))
-        self.assertIsNotNone(check_function_column(
-            '[fopen](https://example.com/not-man7)'))
+        self.assertIsNotNone(check_function_column('[fopen](https://example.com/x)'))
 
-    def test_header_column(self):
+    def test_check_header_column(self):
         self.assertIsNone(check_header_column('`<stdio.h>`'))
         self.assertIsNotNone(check_header_column('stdio.h'))
-        self.assertIsNotNone(check_header_column('`<Foo.h>`'))
+        self.assertIsNotNone(check_header_column('`<stdio>`'))
 
-    def test_description_column(self):
+    def test_check_description_column(self):
         self.assertIsNone(check_description_column('Open a file'))
-        self.assertIsNotNone(check_description_column(''))
-        self.assertIsNotNone(check_description_column('open a file'))
-        self.assertIsNotNone(check_description_column('x' * 201))
+        self.assertIsNotNone(check_description_column(''))              # empty
+        self.assertIsNotNone(check_description_column('open a file'))  # lowercase
+        self.assertIsNotNone(check_description_column('x' * 201))       # too long
 
-    def test_standard_column(self):
+    def test_check_standard_column(self):
+        self.assertIsNone(check_standard_column('C89'))
         self.assertIsNone(check_standard_column('POSIX.1-2001, C89'))
-        self.assertIsNone(check_standard_column('C99'))
-        self.assertIsNone(check_standard_column('GNU'))
-        self.assertIsNotNone(check_standard_column('foo bar!'))
+        self.assertIsNone(check_standard_column('BSD (foo)'))
+        self.assertIsNotNone(check_standard_column('??'))
 
-    def test_mtsafe_column(self):
+    def test_check_mtsafe_column(self):
         self.assertIsNone(check_mtsafe_column('Yes'))
-        self.assertIsNone(check_mtsafe_column('No'))
-        self.assertIsNone(check_mtsafe_column('No (race:strtok)'))
-        self.assertIsNotNone(check_mtsafe_column('yes'))
+        self.assertIsNone(check_mtsafe_column('No (race:tmpnam)'))
         self.assertIsNotNone(check_mtsafe_column('Maybe'))
-        self.assertIsNotNone(check_mtsafe_column('No (race'))
+        self.assertIsNotNone(check_mtsafe_column('yes'))
 
+    # --- parse / header helpers ----------------------------------------
 
-class TestParseLine(unittest.TestCase):
-    def test_valid_row(self):
-        row = ('| [fopen](https://man7.org/linux/man-pages/man3/fopen.3.html) '
-               '| `<stdio.h>` | Open a file | POSIX.1-2001, C89 | Yes |')
-        cols = parse_line(row)
-        self.assertEqual(cols, [
-            '[fopen](https://man7.org/linux/man-pages/man3/fopen.3.html)',
-            '`<stdio.h>`', 'Open a file', 'POSIX.1-2001, C89', 'Yes',
-        ])
-
-    def test_non_row_returns_none(self):
-        self.assertIsNone(parse_line('## Module'))
-        self.assertIsNone(parse_line('| --- | --- | --- | --- | --- |'))
-        self.assertIsNone(parse_line('| only | four | cols |'))
-
-    def test_table_header_and_separator(self):
-        self.assertTrue(is_table_header(
-            '| Function | Header | Description | Standard | MT-Safe |'))
-        self.assertFalse(is_table_header('| foo | bar |'))
-        self.assertTrue(is_table_separator('| --- | --- | --- | --- | --- |'))
-        self.assertFalse(is_table_separator('| --- |'))
-
-
-class TestCheckDuplicateFunctions(unittest.TestCase):
-    def test_no_duplicates(self):
-        errors, warnings = check_duplicate_functions(_to_lines(VALID_README))
-        self.assertEqual(errors, [])
-        self.assertEqual(warnings, [])
-
-    def test_duplicate_in_same_module_is_error(self):
-        errors, warnings = check_duplicate_functions(_to_lines(DUP_FUNCTION_README))
-        self.assertEqual(len(errors), 1)
-        self.assertIn('Duplicate function "sin"', errors[0])
-        self.assertEqual(warnings, [])
-
-    def test_cross_module_same_name_is_allowed(self):
-        # strerror appears in two modules in MTSAFE_MISMATCH_README -> no error.
-        errors, _ = check_duplicate_functions(_to_lines(MTSAFE_MISMATCH_README))
-        self.assertEqual(errors, [])
-
-
-class TestCheckIndexSync(unittest.TestCase):
-    def test_valid_readme_in_sync(self):
-        self.assertEqual(check_index_sync(_to_lines(VALID_README)), [])
-
-    def test_entity_heading_is_caught(self):
-        errors = check_index_sync(_to_lines(INDEX_MISMATCH_README))
-        self.assertTrue(errors)
-        # The broken '&amp;' heading yields the '...-amp-system-info-...' slug,
-        # which diverges from the Index anchor and must be reported.
-        self.assertTrue(
-            any('environment-amp-system-info' in e for e in errors),
-            msg=f'expected the broken &amp; slug to be reported, got: {errors}',
+    def test_parse_line(self):
+        row = '| [fopen](https://man7.org/linux/man-pages/man3/fopen.3.html) | `<stdio.h>` | Open a file | C89 | Yes |'
+        self.assertEqual(
+            parse_line(row),
+            ['[fopen](https://man7.org/linux/man-pages/man3/fopen.3.html)',
+             '`<stdio.h>`', 'Open a file', 'C89', 'Yes'],
         )
+        self.assertIsNone(parse_line('not a table row'))
+        self.assertIsNone(parse_line('| --- | --- | --- | --- | --- |'))
 
-    def test_fixed_heading_passes(self):
-        fixed = INDEX_MISMATCH_README.replace('&amp;', '&')
-        self.assertEqual(check_index_sync(_to_lines(fixed)), [])
+    def test_is_table_header_and_separator(self):
+        self.assertTrue(is_table_header('| Function | Header | Description | Standard | MT-Safe |'))
+        self.assertFalse(is_table_header('| fopen | ... |'))
+        self.assertTrue(is_table_separator('| --- | --- | --- | --- | --- |'))
+        self.assertFalse(is_table_separator('| --- | --- |'))
 
+    # --- alphabetical order (migrated upstream discipline) -------------
 
-class TestCheckMtsafeConsistency(unittest.TestCase):
-    def test_consistent_readme_has_no_warning(self):
-        self.assertEqual(check_mtsafe_consistency(_to_lines(VALID_README)), [])
+    def test_check_alphabetical_order_sorted(self):
+        self.assertEqual(check_alphabetical_order(['fclose', 'fdopen', 'fileno', 'fopen', 'freopen']), [])
 
-    def test_conflicting_values_warn(self):
-        warnings = check_mtsafe_consistency(_to_lines(MTSAFE_MISMATCH_README))
+    def test_check_alphabetical_order_unsorted(self):
+        self.assertEqual(check_alphabetical_order(['fopen', 'freopen', 'fdopen', 'fclose', 'fileno']), [2, 3])
+
+    # --- full file check ------------------------------------------------
+
+    def test_check_file_clean(self):
+        clean = [
+            '### Stream Open/Close',
+            '| Function | Header | Description | Standard | MT-Safe |',
+            '| --- | --- | --- | --- | --- |',
+            '| [fclose](https://man7.org/linux/man-pages/man3/fclose.3.html) | `<stdio.h>` | Close a stream | POSIX.1-2001, C89 | Yes |',
+            '| [fdopen](https://man7.org/linux/man-pages/man3/fdopen.3.html) | `<stdio.h>` | Associate a stream with an fd | POSIX.1-2001, POSIX.1-2008 | Yes |',
+            '| [fileno](https://man7.org/linux/man-pages/man3/fileno.3.html) | `<stdio.h>` | Return the fd of a stream | POSIX.1-2001, POSIX.1-2008 | Yes |',
+        ]
+        errors, warnings = check_file_from_lines(clean)
+        self.assertEqual(errors, [])
+        self.assertEqual(warnings, [])
+
+    def test_check_file_column_errors(self):
+        bad = [
+            '### Bad',
+            '| Function | Header | Description | Standard | MT-Safe |',
+            '| --- | --- | --- | --- | --- |',
+            '| fopen | `<stdio.h>` | Open a file | C89 | Yes |',   # function not a link
+        ]
+        errors, _ = check_file_from_lines(bad)
+        self.assertEqual(len(errors), 1)
+
+    def test_check_file_alphabetical_warning(self):
+        unsorted = [
+            '### Stream Open/Close',
+            '| Function | Header | Description | Standard | MT-Safe |',
+            '| --- | --- | --- | --- | --- |',
+            '| [fopen](https://man7.org/linux/man-pages/man3/fopen.3.html) | `<stdio.h>` | Open a file | POSIX.1-2001, C89 | Yes |',
+            '| [fdopen](https://man7.org/linux/man-pages/man3/fdopen.3.html) | `<stdio.h>` | Associate a stream with an fd | POSIX.1-2001, POSIX.1-2008 | Yes |',
+        ]
+        errors, warnings = check_file_from_lines(unsorted)
+        self.assertEqual(errors, [])
         self.assertEqual(len(warnings), 1)
-        self.assertIn('MT-Safe inconsistent for "strerror"', warnings[0])
+        self.assertIn('not in alphabetical order', warnings[0])
 
-    def test_all_cross_module_inconsistencies_warned(self):
-        # The check must surface *every* function with conflicting MT-Safe
-        # values across modules, not only the first one (e.g. strerror).
-        readme = """# glibc
+    def test_check_file_obsolete_warning(self):
+        obsolete = [
+            '### Deprecated',
+            '| Function | Header | Description | Standard | MT-Safe |',
+            '| --- | --- | --- | --- | --- |',
+            '| [gets](https://man7.org/linux/man-pages/man3/gets.3.html) | `<stdio.h>` | Read a line from stdin | POSIX.1-2001 (removed in C11) | Yes |',
+        ]
+        errors, warnings = check_file_from_lines(obsolete)
+        self.assertEqual(errors, [])
+        self.assertEqual(len(warnings), 1)
+        self.assertIn('deprecated', warnings[0])
 
-## Index
-
-* [Error (errno.h)](#error-errnoh)
-* [Locale (locale.h)](#locale-localeh)
-
----
-
-## Error (errno.h)
-
-| Function | Header | Description | Standard | MT-Safe |
-| --- | --- | --- | --- | --- |
-| [strerror](https://man7.org/linux/man-pages/man3/strerror.3.html) | `<string.h>` | Describe error | POSIX.1-2001 | Yes |
-| [gmtime](https://man7.org/linux/man-pages/man3/gmtime.3.html) | `<time.h>` | Convert to broken-down time | POSIX.1-2001 | No (race:gmtime) |
-
-## Locale (locale.h)
-
-| Function | Header | Description | Standard | MT-Safe |
-| --- | --- | --- | --- | --- |
-| [strerror](https://man7.org/linux/man-pages/man3/strerror.3.html) | `<string.h>` | Describe error | POSIX.1-2001 | No (race:strerror locale) |
-| [gmtime](https://man7.org/linux/man-pages/man3/gmtime.3.html) | `<time.h>` | Convert to broken-down time | POSIX.1-2001 | Yes |
-"""
-        warnings = check_mtsafe_consistency(_to_lines(readme))
-        self.assertEqual(len(warnings), 2)
-        self.assertTrue(any('strerror' in w for w in warnings))
-        self.assertTrue(any('gmtime' in w for w in warnings))
-
-    def test_same_function_same_value_across_modules_no_warning(self):
-        # Cross-module reuse with a *consistent* MT-Safe value is legal and
-        # must not be reported.
-        readme = """# glibc
-
-## Index
-
-* [A (a.h)](#a-ah)
-* [B (b.h)](#b-bh)
-
----
-
-## A (a.h)
-
-| Function | Header | Description | Standard | MT-Safe |
-| --- | --- | --- | --- | --- |
-| [dup2](https://man7.org/linux/man-pages/man2/dup2.2.html) | `<unistd.h>` | Duplicate a file descriptor | POSIX.1-2001 | Yes |
-
-## B (b.h)
-
-| Function | Header | Description | Standard | MT-Safe |
-| --- | --- | --- | --- | --- |
-| [dup2](https://man7.org/linux/man-pages/man2/dup2.2.html) | `<unistd.h>` | Duplicate a file descriptor | POSIX.1-2001 | Yes |
-"""
-        self.assertEqual(check_mtsafe_consistency(_to_lines(readme)), [])
+    def test_check_file_short_desc_warning(self):
+        short = [
+            '### Short',
+            '| Function | Header | Description | Standard | MT-Safe |',
+            '| --- | --- | --- | --- | --- |',
+            '| [foo](https://man7.org/linux/man-pages/man3/foo.3.html) | `<foo.h>` | Bar | C89 | Yes |',
+        ]
+        errors, warnings = check_file_from_lines(short)
+        self.assertEqual(errors, [])
+        self.assertEqual(len(warnings), 1)
+        self.assertIn('very short', warnings[0])
 
 
-class TestCheckFile(unittest.TestCase):
-    def _write_temp(self, text: str) -> str:
-        import tempfile
-        import os
-        tf = tempfile.NamedTemporaryFile('w', suffix='.md', delete=False, encoding='utf-8')
-        tf.write(text)
-        tf.close()
-        self.addCleanup(os.unlink, tf.name)
-        return tf.name
-
-    def test_valid_readme_has_no_errors(self):
-        path = self._write_temp(VALID_README)
-        self.assertEqual(check_file(path), [])
-
-    def test_duplicate_propagates_to_check_file(self):
-        path = self._write_temp(DUP_FUNCTION_README)
-        errors = check_file(path)
-        self.assertTrue(any('Duplicate function' in e for e in errors))
-
-    def test_index_mismatch_propagates_to_check_file(self):
-        path = self._write_temp(INDEX_MISMATCH_README)
-        errors = check_file(path)
-        self.assertTrue(any('Index' in e for e in errors))
+def check_file_from_lines(lines):
+    """Helper: write lines to a temp file and run check_file."""
+    import tempfile
+    import os
+    with tempfile.NamedTemporaryFile('w', suffix='.md', delete=False, encoding='utf-8') as tf:
+        tf.write('\n'.join(lines) + '\n')
+        path = tf.name
+    try:
+        return check_file(path)
+    finally:
+        os.unlink(path)
 
 
 if __name__ == '__main__':

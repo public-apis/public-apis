@@ -8,7 +8,7 @@ Welcome to the **glibc Public API Index** — a manually curated reference of GN
 
 | Function | Header | Description | Standard | MT-Safe |
 | --- | --- | --- | --- | --- |
-| `[function_name](https://man7.org/linux/man-pages/man3/function_name.3.html)` | `<header.h>` | 简短描述（英文，不超过 200 字符） | 标准版本 | Yes / No |
+| `[function_name](https://man7.org/linux/man-pages/man3/function_name.3.html)` | `<header.h>` | 简短描述（英文，不超过 150 字符） | 标准版本 | Yes / No |
 
 ## Column Guide
 
@@ -27,7 +27,7 @@ Welcome to the **glibc Public API Index** — a manually curated reference of GN
 
 ### 3. Description
 
-简短英文描述，建议不超过 200 字符，首字母大写，不用句号结尾。
+简短英文描述，建议不超过 150 字符，首字母大写，不用句号结尾。
 
 **示例：**
 - `Open a file and associate a stream with it`
@@ -46,6 +46,8 @@ Welcome to the **glibc Public API Index** — a manually curated reference of GN
 - `Linux` - Linux 特定
 - `POSIX.1-2001, C89` - 多个标准用逗号分隔
 
+若该函数已从标准中移除（如 `gets`），标注为 `POSIX.1-2001 (removed in C11)`，并在 Description 开头写明 `(deprecated) ...`。
+
 ### 5. MT-Safe
 
 线程安全标注。值只能是 `Yes` 或 `No`。
@@ -53,6 +55,18 @@ Welcome to the **glibc Public API Index** — a manually curated reference of GN
 - `No` - 存在竞争条件（例如 `tmpnam`, `strtok`, `rand` 等）
 
 > 参考 glibc 手册中每个函数末尾的 `MT-Safe` 标注。若该函数标记为 `MT-Safe` 或 `MT-Safe locale` 等变体，填 `Yes`；若标记为 `MT-Unsafe`，填 `No` 并在括号中注明原因，如 `No (race:strtok)`。
+
+## Description Depth Template
+
+为了让所有条目信息深度一致（参考上游补齐 `BuyWhere` 描述的实践），建议每条 Description 遵循统一结构：
+
+> **[功能简述]** + （关键参数） + （返回值 / 常见错误）
+
+示例对比：
+- 弱：`Open a file`
+- 强：`Open a file and associate a stream with it (pathname, mode; returns FILE* or NULL on error)`
+
+过短（< 10 字符）的描述会被 `format.py` 报 warning，提示补充。
 
 ## Table Structure
 
@@ -70,11 +84,11 @@ Welcome to the **glibc Public API Index** — a manually curated reference of GN
 
 ## Alphabetical Order
 
-每个小节内的函数按名称字母顺序排列（严格按 ASCII 顺序）。
+每个小节内的函数按名称字母顺序排列（严格按 ASCII 顺序）。**新提交必须保持字母序**；存量乱序会由 `format.py` 以 warning 形式提示，但不阻断 CI。
 
 例如：
 ```
-fclose -> feof -> fflush -> fgetc -> fgetpos -> fgets -> ...
+fclose -> fdopen -> fileno -> fopen -> freopen
 ```
 
 ## Local Validation
@@ -94,15 +108,22 @@ python scripts/validate/format.py README.md
 - Standard 列格式是否合法
 - MT-Safe 列是否为 `Yes` 或 `No`
 - 表格行前是否有表头行
+- **Warning（非致命）**：小节内字母序、过短描述、已废弃但未标注
 
 ## Pull Request Guidelines
 
 - 每个 PR 只添加一个模块或一组相关函数
 - 确保格式严格遵循 5 列表格
 - 按字母顺序添加新条目
-- Description 使用英文，简洁明了
+- Description 使用英文，简洁且信息完整（参考 Description Depth Template）
+- `Standard` / `MT-Safe` 须对照 man7 手册页核实
+- 废弃函数必须在 Description 显式标注 `(deprecated)`
 - 确保表格分隔符行有 5 个 `---`
 - 运行本地校验脚本确认格式无误
+
+## Maintenance Practices
+
+本项目的长期维护纪律（字母序、元数据核实、死条目清理、描述深度统一）已固化为 **[MAINTENANCE.md](./MAINTENANCE.md)**，贡献前建议一并阅读。
 
 ## Header Reference
 

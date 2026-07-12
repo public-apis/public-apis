@@ -1,28 +1,26 @@
 # glibc Public API Index — Scripts
 
-This directory contains the validation, indexing, and testing scripts used to
-maintain the **glibc Public API Index** (`README.md`).
+This directory contains all validation and testing scripts used by the glibc Public API Index.
 
 ```bash
 scripts
-├── build_index.py        # parse README.md -> site/data/index.json (static search index)
-├── requirements.txt      # dependencies of the validate package
+│   github_pull_request.sh  # used to validate changes of a pull request
+│   requirements.txt  # contains dependencies of validate package
 │
-├── tests                 # unit tests for the validate package
+├───tests  # contains all unit tests from the validate package
 │       test_validate_format.py
 │       test_validate_links.py
-│       test_helpers.py
 │
-└── validate              # validate package
-        format.py         # 5-column table format checker
-        links.py          # external link health checker
+└───validate  # validate package
+        format.py
+        links.py
 ```
 
 ## Install dependencies
 
-You must have [Python](https://www.python.org/) installed to use these scripts.
+You must have [python](https://www.python.org/) installed to use these scripts.
 
-Install the validation package dependencies with [pip](https://pypi.org/project/pip/):
+it is also necessary to install the validation package dependencies, use [pip package manager](https://pypi.org/project/pip/) for this:
 
 ```bash
 $ python -m pip install -r scripts/requirements.txt
@@ -30,23 +28,19 @@ $ python -m pip install -r scripts/requirements.txt
 
 ## Run validations
 
-To run format validation on `README.md`, being in the root directory of the
-repository, run:
+To run format validation on the `README.md` file, being in the root directory of public-apis, run:
 
 ```bash
 $ python scripts/validate/format.py README.md
 ```
 
-To run link validation on `README.md`, being in the root directory of the
-repository, run:
+To run link validation on the `README.md` file, being in the root directory of public-apis, run:
 
 ```bash
 $ python scripts/validate/links.py README.md
 ```
 
-As there are many links to check, this process can take some time. If your goal
-is not to check whether the links are working, you can check only for duplicate
-links (zero network). Run:
+As there are many links to check, this process can take some time. If your goal is not to check if the links are working, you can only check for duplicate links. Run:
 
 ```bash
 $ python scripts/validate/links.py README.md -odlc
@@ -54,18 +48,9 @@ $ python scripts/validate/links.py README.md -odlc
 
 *`-odlc` is an abbreviation of `--only_duplicate_links_checker`*
 
-## Build the search index
-
-`build_index.py` parses `README.md` (5-column tables) into a structured JSON
-index consumed by the static search site under `site/`:
-
-```bash
-$ python scripts/build_index.py README.md site/data/index.json
-```
-
 ## Running Tests
 
-To run all tests it is necessary to change to the `scripts` directory:
+To run all tests it is necessary to change to the scripts directory:
 
 ```bash
 $ cd scripts

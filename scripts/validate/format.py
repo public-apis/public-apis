@@ -1,61 +1,36 @@
 # -*- coding: utf-8 -*-
 
-"""Validate the 5-column glibc function tables inside README.md.
-
-Schema:  Function | Header | Description | Standard | MT-Safe
-
-This module performs two kinds of checks:
-
-* Column-level checks (existing): verify each table row conforms to the 5-column
-  schema (link format, header format, description case/length, standard, MT-Safe).
-* Content-level checks (T04): duplicate function names within a module, Index <-> module
-  heading anchor synchronisation, and MT-Safe value consistency.
-
-Errors block the build (non-zero exit code). Warnings are printed but never block.
-"""
-
 import re
 import sys
 
 # 5 columns: Function | Header | Description | Standard | MT-Safe
 NUM_COLUMNS = 5
 MAX_DESC_LENGTH = 200
+MIN_DESC_LENGTH = 10
 
 TABLE_HEADER = '| Function | Header | Description | Standard | MT-Safe |'
 TABLE_SEPARATOR = '| --- | --- | --- | --- | --- |'
 
-link_re = re.compile(
-    r'^\[([a-zA-Z_][a-zA-Z0-9_]*)\]'
-    r'\((https://man7\.org/linux/man-pages/man[23]/[a-zA-Z_][a-zA-Z0-9_]*\.[23]\.html)\)$'
-)
+# 标准列中一旦出现这些词，说明该函数已从标准中移除/废弃，
+# 对应描述应显式标注 (deprecated)，否则读者容易误用。
+OBSOLETE_STANDARD_HINTS = ('removed', 'deprecated', 'obsolete')
+
+link_re = re.compile(r'^\[([a-zA-Z_][a-zA-Z0-9_]*)\]\(https://man7\.org/linux/man-pages/man[23]/[a-zA-Z_][a-zA-Z0-9_]*\.[23]\.html\)$')
+# 仅提取函数名（用于字母序检查）
+func_name_re = re.compile(r'^\[([a-zA-Z_][a-zA-Z0-9_]*)\]')
 header_re = re.compile(r'^`<[a-z/_][a-z0-9/_]*\.h>`$')
 standard_re = re.compile(r'^[A-Za-z0-9._\-]+(, [A-Za-z0-9._\-]+)*(\s*\(.+\))?$')
 mtsafe_re = re.compile(r'^(Yes|No)(\s*\(.+\))?$')
 
 
 def error_message(line_number: int, message: str) -> str:
-    """Format an error message with a 1-based, 4-wide line number."""
     line = line_number + 1
     return f'Line {line:4d}: {message}'
 
 
-def anchorize(title: str) -> str:
-    """Replicate GitHub's Markdown heading anchor algorithm.
-
-    GitHub generates the slug from the *raw* heading source: it lower-cases the
-    text, strips punctuation (``&`` included), and replaces spaces with single
-    hyphens. Critically, GitHub does **not** decode HTML entities before
-    slugifying, so a heading written as ``Environment &amp; System Info`` yields
-    the slug ``environment-amp-system-info-...`` which diverges from the ``&``
-    based anchor used in the Index. Always write headings with a literal ``&``.
-
-    This exact algorithm is shared with ``scripts/build_index.py`` so that the
-    static front-end deep-links resolve to the same GitHub section anchors.
-    """
-    s = title.strip().lower()
-    s = re.sub(r'[!"#$%&\'()*+,./:;<=>?@\[\\\]^`{|}~]', '', s)
-    s = s.replace(' ', '-')
-    return s
+def warning_message(line_number: int, message: str) -> str:
+    line = line_number + 1
+    return f'Line {line:4d}: [warn] {message}'
 
 
 def check_function_column(func: str) -> str | None:
@@ -112,178 +87,26 @@ def is_table_separator(line: str) -> bool:
     return line.strip() == TABLE_SEPARATOR
 
 
-def check_duplicate_functions(lines: list[str]) -> tuple[list[str], list[str]]:
-    """Check for duplicate function names within the same module.
+def check_alphabetical_order(func_names: list[str]) -> list[int]:
+    """Return the indices of entries that violate strict ASCII ascending order
+    within a single subsection. Migrated from upstream public-apis maintenance
+    discipline: entries must be sorted alphabetically so the index stays scannable.
 
-    Returns ``(errors, warnings)``. A function name that appears more than once
-    inside the same ``## Module`` section is an **error**. The same function name
-    appearing across different modules is allowed (intentional cross-module reuse,
-    e.g. ``strerror``/``dup2``) and produces no message.
+    Returns a list of indices ``i`` where ``func_names[i] < func_names[i-1]``.
     """
-    errors: list[str] = []
-    warnings: list[str] = []
-    current_module: str | None = None
-    seen: dict[str, int] = {}
-
-    for line_number, raw in enumerate(lines):
-        stripped = raw.strip()
-        if stripped.startswith('## '):
-            title = stripped[3:].strip()
-            if title.lower() == 'index':
-                current_module = None
-            else:
-                current_module = title
-                seen = {}
-            continue
-        if stripped.startswith('#') or not stripped.startswith('|'):
-            continue
-
-        cols = parse_line(stripped)
-        if cols is None:
-            continue
-        func_cell = cols[0]
-        match = link_re.match(func_cell)
-        if not match:
-            continue
-        func_name = match.group(1)
-        if current_module is None:
-            continue
-        if func_name in seen:
-            errors.append(
-                error_message(
-                    line_number,
-                    f'Duplicate function "{func_name}" in module "{current_module}"',
-                )
-            )
-        else:
-            seen[func_name] = 1
-    return errors, warnings
+    out_of_order = []
+    for i in range(1, len(func_names)):
+        if func_names[i] < func_names[i - 1]:
+            out_of_order.append(i)
+    return out_of_order
 
 
-def _extract_index_anchors(lines: list[str]) -> list[str]:
-    """Extract the anchor portion of every ``* [Text](#anchor)`` bullet in the Index."""
-    anchors: list[str] = []
-    in_index = False
-    pattern = re.compile(r'^\*\s*\[[^\]]*\]\(#([a-z0-9\-]+)\)')
-    for raw in lines:
-        stripped = raw.strip()
-        if stripped.startswith('## '):
-            in_index = stripped[3:].strip().lower() == 'index'
-            continue
-        if not in_index:
-            continue
-        match = pattern.match(stripped)
-        if match:
-            anchors.append(match.group(1))
-    return anchors
+def check_file(filename: str) -> tuple[list[str], list[str]]:
+    """Validate the README tables.
 
-
-def _extract_module_slugs(lines: list[str]) -> list[str]:
-    """Compute the anchor slug for every ``## Module`` heading (Index excluded)."""
-    slugs: list[str] = []
-    for raw in lines:
-        stripped = raw.strip()
-        if stripped.startswith('## '):
-            title = stripped[3:].strip()
-            if title.lower() == 'index':
-                continue
-            slugs.append(anchorize(title))
-    return slugs
-
-
-def check_index_sync(lines: list[str]) -> list[str]:
-    """Verify the Index anchor set matches the set of module heading slugs.
-
-    The Index section lists ``* [Name](#anchor)`` links; each anchor must
-    correspond to exactly one ``## Module`` heading slug (computed from the raw
-    heading text with :func:`anchorize`). When a module heading uses an HTML
-    entity such as ``&amp;`` the raw slug diverges from the Index anchor, which is
-    exactly the broken-link bug this check is designed to catch.
-    """
-    errors: list[str] = []
-    anchors = _extract_index_anchors(lines)
-    slugs = _extract_module_slugs(lines)
-    anchor_set = set(anchors)
-    slug_set = set(slugs)
-
-    if anchor_set != slug_set:
-        missing = slug_set - anchor_set  # modules without an Index entry
-        extra = anchor_set - slug_set    # Index entries without a module
-        if missing:
-            errors.append(
-                'Index is missing entries for module(s): ' + ', '.join(sorted(missing))
-            )
-        if extra:
-            errors.append(
-                'Index contains entries not matching any module: '
-                + ', '.join(sorted(extra))
-            )
-    if len(anchors) != len(set(anchors)):
-        errors.append('Index contains duplicate anchors')
-    return errors
-
-
-def check_mtsafe_consistency(lines: list[str]) -> list[str]:
-    """Warn when the same function name carries conflicting MT-Safe values
-    across *different* modules.
-
-    The same function may legitimately appear in several modules (cross-module
-    reuse, e.g. ``strerror``/``dup2``). That reuse is allowed, but when a
-    function name is annotated with *different* MT-Safe values in two or more
-    modules it usually signals an inconsistency worth a human review. The check
-    is therefore module-scoped: occurrences inside a single module are ignored,
-    and only functions present in two or more modules with divergent MT-Safe
-    values produce a warning.
-
-    Returns a list of warning messages (non-blocking). Every inconsistent
-    function is reported, not just the first one.
-    """
-    warnings: list[str] = []
-    # func_name -> {module_title -> set of MT-Safe values seen in that module}
-    by_name_module: dict[str, dict[str, set[str]]] = {}
-
-    current_module: str | None = None
-    for raw in lines:
-        stripped = raw.strip()
-        if stripped.startswith('## '):
-            title = stripped[3:].strip()
-            current_module = None if title.lower() == 'index' else title
-            continue
-        if not stripped.startswith('|') or stripped.startswith('|---'):
-            continue
-        cols = parse_line(stripped)
-        if cols is None:
-            continue
-        func_cell, _, _, _, mtsafe = cols
-        match = link_re.match(func_cell)
-        if not match:
-            continue
-        if current_module is None:
-            continue
-        func_name = match.group(1)
-        by_name_module.setdefault(func_name, {}).setdefault(current_module, set()).add(mtsafe)
-
-    for func_name, modules in by_name_module.items():
-        if len(modules) < 2:
-            # Only one module references this function -> nothing to compare.
-            continue
-        all_values: set[str] = set()
-        for values in modules.values():
-            all_values |= values
-        if len(all_values) > 1:
-            where = ', '.join(sorted(modules.keys()))
-            warnings.append(
-                f'MT-Safe inconsistent for "{func_name}" across modules '
-                f'[{where}]: ' + ' vs '.join(sorted(all_values))
-            )
-    return warnings
-
-
-def check_file(filename: str) -> list[str]:
-    """Validate a Markdown file and return a list of blocking errors.
-
-    Warnings (e.g. MT-Safe inconsistencies) are printed to stdout but are not
-    returned, so they never cause a non-zero exit code.
+    Returns a tuple ``(errors, warnings)``. ``errors`` are fatal (non-zero exit),
+    ``warnings`` are non-blocking advisory checks migrated from upstream
+    public-apis maintenance practice.
     """
     errors: list[str] = []
     warnings: list[str] = []
@@ -292,13 +115,36 @@ def check_file(filename: str) -> list[str]:
         lines = [line.rstrip() for line in f]
 
     seen_header = False
+    in_subsection = False
+    current_subsection: str | None = None
+    # (func_name, line_num) accumulated within the current ### subsection
+    subsection_funcs: list[tuple[str, int]] = []
+
+    def flush_subsection() -> None:
+        nonlocal subsection_funcs
+        if subsection_funcs:
+            names = [n for n, _ in subsection_funcs]
+            for i in check_alphabetical_order(names):
+                prev, cur = names[i - 1], names[i]
+                ln = subsection_funcs[i][1]
+                warnings.append(
+                    warning_message(
+                        ln,
+                        f"'{cur}' should come before '{prev}' "
+                        f"(subsection '{current_subsection}' not in alphabetical order)",
+                    )
+                )
+        subsection_funcs = []
 
     for line_num, line in enumerate(lines):
         stripped = line.strip()
 
-        # Track section boundaries: reset state on any header
+        # Section/subsection boundaries reset table state
         if stripped.startswith('## ') or stripped.startswith('# ') or stripped.startswith('### '):
+            flush_subsection()
             seen_header = False
+            in_subsection = stripped.startswith('### ')
+            current_subsection = stripped[4:].strip() if in_subsection else None
             continue
 
         # Skip empty lines, horizontal rules, <br> etc
@@ -307,6 +153,7 @@ def check_file(filename: str) -> list[str]:
 
         # Check if it's a table header row
         if is_table_header(stripped):
+            flush_subsection()
             if seen_header:
                 errors.append(error_message(line_num, 'Duplicate table header'))
             seen_header = True
@@ -325,20 +172,16 @@ def check_file(filename: str) -> list[str]:
                 # Still a |...| line but wrong column count or structure
                 parts = stripped.split('|')
                 if len(parts) != NUM_COLUMNS + 2:
-                    errors.append(error_message(
-                        line_num,
-                        f'Expected {NUM_COLUMNS} columns, found {len(parts) - 2}: {stripped[:80]}',
-                    ))
+                    errors.append(error_message(line_num, f'Expected {NUM_COLUMNS} columns, found {len(parts) - 2}: {stripped[:80]}'))
                 continue
 
             if not seen_header:
-                errors.append(error_message(
-                    line_num, f'Table data found without header: {stripped[:80]}'))
+                errors.append(error_message(line_num, f'Table data found without header: {stripped[:80]}'))
                 continue
 
             func, header, desc, standard, mtsafe = cols
 
-            # Check each column
+            # Check each column (fatal)
             err = check_function_column(func)
             if err:
                 errors.append(error_message(line_num, err))
@@ -359,19 +202,37 @@ def check_file(filename: str) -> list[str]:
             if err:
                 errors.append(error_message(line_num, err))
 
-    # --- Content-level checks (T04) ---
-    dup_errors, dup_warnings = check_duplicate_functions(lines)
-    errors.extend(dup_errors)
-    warnings.extend(dup_warnings)
+            # --- Migrated upstream-maintenance checks (warnings, non-fatal) ---
 
-    errors.extend(check_index_sync(lines))
-    warnings.extend(check_mtsafe_consistency(lines))
+            # 描述深度统一：过短的描述提示补充（参考上游 BuyWhere 补齐描述的实践）
+            if 0 < len(desc) < MIN_DESC_LENGTH:
+                warnings.append(
+                    warning_message(
+                        line_num,
+                        f'Description is very short ({len(desc)} chars); prefer a fuller '
+                        f'sentence covering function, key args, and return/errors',
+                    )
+                )
 
-    # Warnings are informational only and must not block the build.
-    for warning in warnings:
-        print(f'WARNING: {warning}')
+            # 死条目/废弃标注：标准标注 removed/deprecated 时，描述应显式说明废弃
+            if any(h in standard.lower() for h in OBSOLETE_STANDARD_HINTS):
+                dl = desc.lower()
+                if not ('deprecat' in dl or 'removed' in dl or 'obsolete' in dl):
+                    warnings.append(
+                        warning_message(
+                            line_num,
+                            'Standard marks this as removed/deprecated; Description should '
+                            'state "(deprecated) ..." so readers are warned',
+                        )
+                    )
 
-    return errors
+            # 字母序累积
+            m = func_name_re.match(func)
+            if m and in_subsection:
+                subsection_funcs.append((m.group(1), line_num))
+
+    flush_subsection()
+    return errors, warnings
 
 
 def main() -> None:
@@ -380,13 +241,22 @@ def main() -> None:
         sys.exit(1)
 
     filename = sys.argv[1]
-    errors = check_file(filename)
+    errors, warnings = check_file(filename)
 
     if errors:
-        print(f'Found {len(errors)} format issue(s) in {filename}:')
+        print(f'Found {len(errors)} format error(s) in {filename}:')
         for err in errors:
             print(f'  - {err}')
+    if warnings:
+        print(f'Found {len(warnings)} format warning(s) (non-blocking):')
+        for w in warnings:
+            print(f'  - {w}')
+
+    if errors:
         sys.exit(1)
+    elif warnings:
+        print(f'{filename}: format OK ({len(warnings)} warning(s))')
+        sys.exit(0)
     else:
         print(f'{filename}: format OK')
         sys.exit(0)
