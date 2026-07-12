@@ -285,10 +285,16 @@ API | Description | Auth | HTTPS | CORS |
 ### Business
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
 | [Apache Superset](https://superset.apache.org/docs/api) | API to manage your BI dashboards and data sources on Superset | `apiKey` | Yes | Yes |
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | `apiKey` | Yes | Unknown |
 | [Domainsdb.info](https://domainsdb.info/) | Registered Domain Names Search | No | Yes | No |
+| [EU Public Tenders TED](https://rapidapi.com/agoraintelligence/api/eu-public-tenders-ted-v3) | Official EU public procurement database — tenders from all EU member states via TED | `apiKey` | Yes | Unknown |
+| [France Business Registry SIRENE](https://rapidapi.com/agoraintelligence/api/france-business-registry-sirene) | Official INSEE registry — search 25M French companies with real-time data | `apiKey` | Yes | Unknown |
 | [Freelancer](https://developers.freelancer.com) | Hire freelancers to get work done | `OAuth` | Yes | Unknown |
 | [Gmail](https://developers.google.com/gmail/api/) | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | Unknown |
 | [Google Analytics](https://developers.google.com/analytics/) | Collect, configure and analyze your data to reach the right audience | `OAuth` | Yes | Unknown |
@@ -303,6 +309,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Redash](https://redash.io/help/user-guide/integrations-and-api/api) | Access your queries and dashboards on Redash | `apiKey` | Yes | Yes |
 | [Signaliz](https://signaliz.docs.buildwithfern.com/signaliz-api-public-docs/introduction) | GTM enrichment, lead generation, email verification, and company signals | `apiKey` | Yes | Unknown |
 | [Smartsheet](https://smartsheet.redoc.ly/) | Allows you to programmatically access and Smartsheet data and account information | `OAuth` | Yes | No |
+| [Spain BORME Company Registry](https://rapidapi.com/agoraintelligence/api/spain-borme-company-registry) | Official Spanish business registry — search 2.8M companies, directors, corporate acts | `apiKey` | Yes | Unknown |
+| [Spain Medicines AEMPS](https://rapidapi.com/agoraintelligence/api/spain-medicines-database-aemps-cima) | Official Spanish pharmaceutical registry via AEMPS CIMA — 50K+ authorized medicines | `apiKey` | Yes | Unknown |
 | [Square](https://developer.squareup.com/reference/square) | Easy way to take payments, manage refunds, and help customers checkout online | `OAuth` | Yes | Unknown |
 | [SwiftKanban](https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi) | Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity | `apiKey` | Yes | Unknown |
 | [Tenders in Hungary](https://tenders.guru/hu/api) | Get data for procurements in Hungary in JSON format | No | Yes | Unknown |
@@ -312,10 +320,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tenders in Ukraine](https://tenders.guru/ua/api) | Get data for procurements in Ukraine in JSON format | No | Yes | Unknown |
 | [Tomba email finder](https://tomba.io/api) | Email Finder for B2B sales and email marketing and email verifier | `apiKey` | Yes | Yes |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
+| [UK Companies House](https://rapidapi.com/agoraintelligence/api/uk-companies-house-company-registry-api) | Official UK Companies House — search 5M UK companies, directors, and filings | `apiKey` | Yes | Unknown |
 ### Calendar
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
