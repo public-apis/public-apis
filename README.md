@@ -776,7 +776,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SustainMetrics](https://www.sustainmetrics.net/api) | 18,000+ GHG emission factors from DEFRA, EPA, ADEME, Ember | `apiKey` | Yes | Yes |
 | [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0) | The Official Carbon Intensity API for Great Britain developed by National Grid | No | Yes | Unknown |
 | [Website Carbon](https://api.websitecarbon.com/) | API to estimate the carbon footprint of loading web pages | No | Yes | Unknown |
-
+| [NARC Soil](https://soil.narc.gov.np/api) | Soil composition and fertilizer recommendation data for Nepal | No | Yes | Unknown |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
