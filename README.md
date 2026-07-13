@@ -16,7 +16,8 @@ APILayer is the fastest way to integrate APIs into any product. Explore [APILaye
 Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo) to get updates, ask questions, get answers, random community calls, and more.
 
 <br >
-
+- API for weather forecast data
++ API for weather forecast data and real-time updates
 ## APILayer APIs
 | API | Description | Call this API |
 |:---|:---|:---|
