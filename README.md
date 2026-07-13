@@ -1369,7 +1369,7 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
-### Open Data
+### Open Data - Comprehensive collection of data APIs
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [18F](http://18f.github.io/API-All-the-X/) | Unofficial US Federal Government API Development | No | No | Unknown |
