@@ -1,3 +1,11 @@
+> **⚠️ Important Notice – Project Moved**
+>
+> This repository is no longer actively maintained.
+> The maintainers have moved the project to a new location:
+>
+> 👉 https://github.com/public-apis-dev/public-apis
+>
+> Please submit issues and pull requests in the new repository instead.
 # Try Public APIs for free
 The Public APIs repository is manually curated by community members like you and folks working at [APILayer](https://apilayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo). It includes an extensive list of public APIs from many domains that you can use for your own products. Consider it a treasure trove of APIs well-managed by the community over the years.
 
