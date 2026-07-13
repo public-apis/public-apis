@@ -262,6 +262,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Ganjoor](https://api.ganjoor.net) | Classic Persian poetry works including access to related manuscripts, recitations and music tracks | `OAuth` | Yes | Yes |
 | [Google Books](https://developers.google.com/books/) | Books | `OAuth` | Yes | Unknown |
 | [GurbaniNow](https://github.com/GurbaniNow/api) | Fast and Accurate Gurbani RESTful API | No | Yes | Unknown |
+| [Gutenberg Fiction Books](https://github.com/HayatsCodes/gutenberg-fiction-books-api) | Web-API for fetching 20000+ fiction books from Project Gutenberg Books Library | No | Yes | Unknown |
 | [Gutendex](https://gutendex.com/) | Web-API for fetching data from Project Gutenberg Books Library | No | Yes | Unknown |
 | [KDP Intelligence](https://kdp-intelligence-api.vercel.app/docs) | KDP niche demand scores, competition analysis and revenue estimates | No | Yes | Yes |
 | [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | Yes | No |
