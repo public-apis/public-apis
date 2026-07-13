@@ -48,7 +48,7 @@ After you've created a branch on your fork with your changes, it's time to [make
 
 ## Pull Request Guidelines
 
-* Never put an update/new version of an API that is already listed, the old version of the API gets deprecated.
+* Never add an updated/new version of an API that is already listed; the old version of the API gets deprecated.
 * Continue to follow the alphabetical ordering that is in place per section.
 * Each table column should be padded with one space on either side.
 * The Description should not exceed 100 characters.
@@ -97,4 +97,3 @@ Opening a pull request will trigger a build to check the validity of all links i
 [remote-link]: <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
 [syncing-link]: <https://help.github.com/articles/syncing-a-fork>
 [squash-link]: <https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit>
-
