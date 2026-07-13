@@ -2047,6 +2047,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Weatherbit](https://www.weatherbit.io/api) | Weather | `apiKey` | Yes | Unknown |
 | [wttr.in](https://wttr.in/:help) | Weather in your terminal, supports JSON output | No | Yes | Yes |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
+| [ClimaCell](https://www.climacell.co/weather-api/) | Hyper-local weather data API for any location | `apiKey` | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 <br >
