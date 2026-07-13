@@ -51,8 +51,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 * [Animals](#animals)
 * [Anime](#anime)
-* [Anti-Malware](#anti-malware)
-* [Art & Design](#art--design)
+  
 * [Authentication & Authorization](#authentication--authorization)
 * [Blockchain](#blockchain)
 * [Books](#books)
