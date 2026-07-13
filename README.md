@@ -693,6 +693,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Renderly](https://renderlyapi.com) | HTML to PDF conversion API built on Chromium | `apiKey` | Yes | Yes |
 | [Rendex](https://rendex.dev) | Render HTML, Markdown, or URLs to PNG/JPEG/WebP/PDF, with extraction and templating | `apiKey` | Yes | Unknown |
 | [Restpack](https://restpack.io/) | Provides screenshot, HTML to PDF and content extraction APIs | `apiKey` | Yes | Unknown |
+| [Sejda](https://www.sejda.com/) | Read & Edit PDF from Web App | `apiKey` | Yes | Unknown |
 | [Todoist](https://developer.todoist.com) | Todo Lists | `OAuth` | Yes | Unknown |
 | [Smart Image Enhancement](https://apilayer.com/marketplace/image_enhancement-api) | Performs image upscaling by adding detail to images through multiple super-resolution algorithms | `apiKey` | Yes | Unknown |
 | [staffSign](https://staffsign.de/docs) | Digital employment contract API with QES/eIDAS support for HR and staffing | `apiKey` | Yes | Yes |
