@@ -1,0 +1,261 @@
+{
+  "count": 51,
+  "totalApis": 1584,
+  "categories": [
+    {
+      "name": "Animals",
+      "slug": "animals",
+      "count": 26
+    },
+    {
+      "name": "Anime",
+      "slug": "anime",
+      "count": 19
+    },
+    {
+      "name": "Anti-Malware",
+      "slug": "anti-malware",
+      "count": 15
+    },
+    {
+      "name": "Art & Design",
+      "slug": "art--design",
+      "count": 22
+    },
+    {
+      "name": "Authentication & Authorization",
+      "slug": "authentication--authorization",
+      "count": 7
+    },
+    {
+      "name": "Blockchain",
+      "slug": "blockchain",
+      "count": 13
+    },
+    {
+      "name": "Books",
+      "slug": "books",
+      "count": 27
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "count": 27
+    },
+    {
+      "name": "Calendar",
+      "slug": "calendar",
+      "count": 18
+    },
+    {
+      "name": "Cloud Storage & File Sharing",
+      "slug": "cloud-storage--file-sharing",
+      "count": 18
+    },
+    {
+      "name": "Continuous Integration",
+      "slug": "continuous-integration",
+      "count": 6
+    },
+    {
+      "name": "Cryptocurrency",
+      "slug": "cryptocurrency",
+      "count": 70
+    },
+    {
+      "name": "Currency Exchange",
+      "slug": "currency-exchange",
+      "count": 20
+    },
+    {
+      "name": "Data Validation",
+      "slug": "data-validation",
+      "count": 7
+    },
+    {
+      "name": "Development",
+      "slug": "development",
+      "count": 134
+    },
+    {
+      "name": "Dictionaries",
+      "slug": "dictionaries",
+      "count": 13
+    },
+    {
+      "name": "Documents & Productivity",
+      "slug": "documents--productivity",
+      "count": 36
+    },
+    {
+      "name": "Email",
+      "slug": "email",
+      "count": 20
+    },
+    {
+      "name": "Entertainment",
+      "slug": "entertainment",
+      "count": 16
+    },
+    {
+      "name": "Environment",
+      "slug": "environment",
+      "count": 19
+    },
+    {
+      "name": "Events",
+      "slug": "events",
+      "count": 3
+    },
+    {
+      "name": "Finance",
+      "slug": "finance",
+      "count": 54
+    },
+    {
+      "name": "Food & Drink",
+      "slug": "food--drink",
+      "count": 25
+    },
+    {
+      "name": "Games & Comics",
+      "slug": "games--comics",
+      "count": 97
+    },
+    {
+      "name": "Geocoding",
+      "slug": "geocoding",
+      "count": 94
+    },
+    {
+      "name": "Government",
+      "slug": "government",
+      "count": 97
+    },
+    {
+      "name": "Health",
+      "slug": "health",
+      "count": 36
+    },
+    {
+      "name": "Jobs",
+      "slug": "jobs",
+      "count": 20
+    },
+    {
+      "name": "Machine Learning",
+      "slug": "machine-learning",
+      "count": 30
+    },
+    {
+      "name": "Music",
+      "slug": "music",
+      "count": 34
+    },
+    {
+      "name": "News",
+      "slug": "news",
+      "count": 21
+    },
+    {
+      "name": "Open Data",
+      "slug": "open-data",
+      "count": 45
+    },
+    {
+      "name": "Open Source Projects",
+      "slug": "open-source-projects",
+      "count": 9
+    },
+    {
+      "name": "Patent",
+      "slug": "patent",
+      "count": 4
+    },
+    {
+      "name": "Personality",
+      "slug": "personality",
+      "count": 25
+    },
+    {
+      "name": "Phone",
+      "slug": "phone",
+      "count": 7
+    },
+    {
+      "name": "Photography",
+      "slug": "photography",
+      "count": 29
+    },
+    {
+      "name": "Programming",
+      "slug": "programming",
+      "count": 5
+    },
+    {
+      "name": "Science & Math",
+      "slug": "science--math",
+      "count": 35
+    },
+    {
+      "name": "Security",
+      "slug": "security",
+      "count": 42
+    },
+    {
+      "name": "Shopping",
+      "slug": "shopping",
+      "count": 16
+    },
+    {
+      "name": "Social",
+      "slug": "social",
+      "count": 43
+    },
+    {
+      "name": "Sports & Fitness",
+      "slug": "sports--fitness",
+      "count": 41
+    },
+    {
+      "name": "Test Data",
+      "slug": "test-data",
+      "count": 27
+    },
+    {
+      "name": "Text Analysis",
+      "slug": "text-analysis",
+      "count": 18
+    },
+    {
+      "name": "Tracking",
+      "slug": "tracking",
+      "count": 11
+    },
+    {
+      "name": "Transportation",
+      "slug": "transportation",
+      "count": 74
+    },
+    {
+      "name": "URL Shorteners",
+      "slug": "url-shorteners",
+      "count": 20
+    },
+    {
+      "name": "Vehicle",
+      "slug": "vehicle",
+      "count": 10
+    },
+    {
+      "name": "Video",
+      "slug": "video",
+      "count": 45
+    },
+    {
+      "name": "Weather",
+      "slug": "weather",
+      "count": 34
+    }
+  ]
+}

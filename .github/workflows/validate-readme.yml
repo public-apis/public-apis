@@ -1,0 +1,87 @@
+name: Validate README
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - "README.md"
+      - "scripts/**"
+      - "package.json"
+  pull_request_target:
+    branches: [master]
+    paths:
+      - "README.md"
+      - "scripts/**"
+      - "package.json"
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    if: >-
+      (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository) ||
+      (github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run JavaScript tests
+        run: npm test
+
+      - name: Validate changed README lines
+        id: readme-validation
+        env:
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          FETCH_HEAD_README: ${{ github.event_name == 'pull_request_target' }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          BASE_REPO: ${{ github.event.pull_request.base.repo.full_name }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: node scripts/validate-pr-readme.js README.md "$REPO" "$PR_NUMBER" validation-comment.md
+
+      - name: Add README validation comment
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const marker = "<!-- readme-diff-validation -->";
+            const body = fs.existsSync("validation-comment.md")
+              ? fs.readFileSync("validation-comment.md", "utf8")
+              : `${marker}\n### Contribution check\n\nHi @${context.payload.pull_request.user.login},\n\nThanks for contributing! We could not complete the automated check this time. Please review the workflow logs for details, or wait for a maintainer to take a look.`;
+            const issue_number = context.issue.number;
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              per_page: 100,
+            });
+            const existing = comments.find(
+              (comment) => comment.user.type === "Bot" && comment.body.includes(marker)
+            );
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number,
+                body,
+              });
+            }
