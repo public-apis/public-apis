@@ -43,6 +43,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
     categories = {}
     category_line_num = {}
+    category = None
 
     for line_num, line_content in enumerate(contents):
 
@@ -54,6 +55,9 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
         if not line_content.startswith('|') or line_content.startswith('|---'):
             continue
+        
+        if category is None:
+            continue
 
         raw_title = [
             raw_content.strip() for raw_content in line_content.split('|')[1:-1]
@@ -61,8 +65,8 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
         title_match = link_re.match(raw_title)
         if title_match:
-                title = title_match.group(1).upper()
-                categories[category].append(title)
+            title = title_match.group(1).upper()
+            categories[category].append(title)
 
     return (categories, category_line_num)
 
