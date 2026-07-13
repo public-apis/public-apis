@@ -3,7 +3,7 @@
 import re
 import sys
 from string import punctuation
-from typing import List, Tuple, Dict
+from typing import Dict, List, Optional, Tuple
 
 # Temporary replacement
 # The descriptions that contain () at the end must adapt to the new policy later
@@ -24,14 +24,24 @@ num_segments = 5
 min_entries_per_category = 3
 max_description_length = 100
 
-anchor_re = re.compile(anchor + '\s(.+)')
-category_title_in_index_re = re.compile('\*\s\[(.*)\]')
-link_re = re.compile('\[(.+)\]\((http.*)\)')
+anchor_re = re.compile(anchor + r'\s(.+)')
+category_title_in_index_re = re.compile(r'\*\s\[(.*)\]')
+link_re = re.compile(r'\[(.+)\]\((http.*)\)')
 
 # Type aliases
 APIList = List[str]
 Categories = Dict[str, APIList]
 CategoriesLineNumber = Dict[str, int]
+
+
+def is_table_delimiter_row(line_content: str) -> bool:
+    cells = [cell.strip() for cell in line_content.split('|') if cell.strip()]
+    return bool(cells) and all(set(cell) <= {':', '-'} for cell in cells)
+
+
+def is_table_header_row(line_content: str) -> bool:
+    cells = [cell.strip() for cell in line_content.split('|') if cell.strip()]
+    return cells[:num_segments] == ['API', 'Description', 'Auth', 'HTTPS', 'CORS']
 
 
 def error_message(line_number: int, message: str) -> str:
@@ -43,6 +53,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
     categories = {}
     category_line_num = {}
+    category: Optional[str] = None
 
     for line_num, line_content in enumerate(contents):
 
@@ -52,7 +63,10 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
             category_line_num[category] = line_num
             continue
 
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if not line_content.startswith('|') or is_table_delimiter_row(line_content):
+            continue
+
+        if category is None:
             continue
 
         raw_title = [
@@ -61,8 +75,8 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
         title_match = link_re.match(raw_title)
         if title_match:
-                title = title_match.group(1).upper()
-                categories[category].append(title)
+            title = title_match.group(1).upper()
+            categories[category].append(title)
 
     return (categories, category_line_num)
 
@@ -198,7 +212,7 @@ def check_file_format(lines: List[str]) -> List[str]:
     err_msgs.extend(alphabetical_err_msgs)
 
     num_in_category = min_entries_per_category + 1
-    category = ''
+    category: Optional[str] = None
     category_line = 0
 
     for line_num, line_content in enumerate(lines):
@@ -218,7 +232,7 @@ def check_file_format(lines: List[str]) -> List[str]:
                 err_msg = error_message(line_num, 'category header is not formatted correctly')
                 err_msgs.append(err_msg)
 
-            if num_in_category < min_entries_per_category:
+            if category is not None and num_in_category < min_entries_per_category:
                 err_msg = error_message(category_line, f'{category} category does not have the minimum {min_entries_per_category} entries (only has {num_in_category})')
                 err_msgs.append(err_msg)
 
@@ -228,7 +242,12 @@ def check_file_format(lines: List[str]) -> List[str]:
             continue
 
         # skips lines that we do not care about
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if (
+            not line_content.startswith('|')
+            or is_table_delimiter_row(line_content)
+            or is_table_header_row(line_content)
+            or category is None
+        ):
             continue
 
         num_in_category += 1
