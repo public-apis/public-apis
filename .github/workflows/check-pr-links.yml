@@ -2,7 +2,7 @@ name: Check newly-added PR links
 
 on:
   pull_request:
-    branches: [main]
+    branches: [master]
     paths:
       - "README.md"
 

@@ -2,11 +2,11 @@ name: Validate README
 
 on:
   pull_request:
-    branches: [main]
+    branches: [master]
     paths:
       - "README.md"
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - "README.md"
 

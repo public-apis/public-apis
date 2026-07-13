@@ -2,13 +2,11 @@ name: Build JSON from README
 
 on:
   push:
-    branches: [main]
+    branches: [ master ]
     paths:
       - "README.md"
       - "scripts/generate.js"
-  workflow_dispatch: {}
-  schedule:
-    - cron: "0 6 * * *" # daily safety net in case a merge event is missed
+
 
 permissions:
   contents: write
