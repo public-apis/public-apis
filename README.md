@@ -635,7 +635,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Webclaw](https://webclaw.io/docs/api) | Web content extraction for LLMs with scrape, crawl, search, and summarize | `apiKey` | Yes | Yes |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
-
+| [Calendly](https://developer.calendly.com/) | Scheduling automation and calendar management | `apiKey` | Yes | Yes |
 
 
 **[⬆ Back to Index](#index)**
