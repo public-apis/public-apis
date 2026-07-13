@@ -1289,6 +1289,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Not Human Search](https://nothumansearch.ai/openapi.yaml) | AI tool discovery with agentic scoring for 8,600+ tools and MCP servers | No | Yes | Yes |
 | [OpenVisionAPI](https://openvisionapi.com) | Open source computer vision API based on open source models | No | Yes | Yes |
 | [Perspective](https://perspectiveapi.com) | NLP API to return probability that if text is toxic, obscene, insulting or threatening | `apiKey` | Yes | Unknown |
+| [Pollinations.AI](https://pollinations.ai) | Free, no-signup APIs for text, image, and audio generation | No | Yes | Yes |
 | [Roboflow Universe](https://universe.roboflow.com) | Pre-trained computer vision models | `apiKey` | Yes | Yes |
 | [SkyBiometry](https://skybiometry.com/documentation/) | Face Detection, Face Recognition and Face Grouping | `apiKey` | Yes | Unknown |
 | [TensorFeed](https://tensorfeed.ai/developers) | Real-time AI news, model pricing, service status, and agent activity feeds | No | Yes | Yes |
