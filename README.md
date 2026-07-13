@@ -253,6 +253,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Blockchain
 | API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [Arkham](https://arkm.com/api) | Track crypto transactions linked to real-world entities | `apiKey` | Yes | No |
 | [Bitquery](https://graphql.bitquery.io/ide) | Onchain GraphQL APIs & DEX APIs | `apiKey` | Yes | Yes |
 | [Blockscout](https://dev.blockscout.com/) | Multichain block explorer REST API (with Etherscan-compatible JSON-RPC) | `apiKey` | Yes | No |
 | [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
