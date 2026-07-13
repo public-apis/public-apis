@@ -98,3 +98,4 @@ Opening a pull request will trigger a build to check the validity of all links i
 [syncing-link]: <https://help.github.com/articles/syncing-a-fork>
 [squash-link]: <https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit>
 
+- Nikhil Bhange
