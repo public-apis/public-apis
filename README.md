@@ -52,6 +52,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Animals](#animals)
 * [Anime](#anime)
 * [Anti-Malware](#anti-malware)
+* [Artificial Intelligence](#artificial-intelligence)
 * [Art & Design](#art--design)
 * [Authentication & Authorization](#authentication--authorization)
 * [Blockchain](#blockchain)
@@ -181,6 +182,14 @@ API | Description | Auth | HTTPS | CORS |
 | [URLScan.io](https://urlscan.io/about-api/) | Scan and Analyse URLs | `apiKey` | Yes | Unknown |
 | [VirusTotal](https://docs.virustotal.com/reference/overview) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
 | [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/domain/URL reputation | `apiKey` | Yes | Unknown | 
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+### Artificial Intelligence
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [OpenRouter](https://openrouter.ai/docs) | Unified API for multiple AI models | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
