@@ -475,6 +475,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Exchangerate.dev](https://exchangerate.dev/docs) | Live & historical FX, 168 pairs back to 1999, Frankfurter-compatible, free 10k/mo | No | Yes | Unknown |
 | [Frankfurter](https://www.frankfurter.app/docs) | Exchange rates, currency conversion and time series | No | Yes | Yes |
 | [FreeForexAPI](https://freeforexapi.com/Home/Api) | Real-time foreign exchange rates for major currency pairs | No | Yes | No |
+| [MarketsHost Currency Converter API](https://www.marketshost.com/api/docs.php) | Convert 174 currencies with live
+  rates | No | Yes | Yes |
 | [National Bank of Poland](http://api.nbp.pl/en.html) | A collection of currency exchange rates (data in XML and JSON) | No | Yes | Yes |
 | [paralelo.bo](https://paralelo.bo/api) | Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s | No | Yes | Yes |
 | [TaxID](https://www.taxid.dev/docs) | EU VAT number validation with company name and address lookup across all 27 member states | `apiKey` | Yes | Unknown |
