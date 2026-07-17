@@ -1651,7 +1651,7 @@ API | Description | Auth | HTTPS | CORS |
 | [URLhaus](https://urlhaus.abuse.ch/api/) | Database of malicious URLs used for malware distribution | `No` | Yes | Unknown |
 | [Virushee](https://api.virushee.com/) | Virushee file/data scanning | No | Yes | Yes |
 | [VulDB](https://vuldb.com/?doc.api) | VulDB API allows to initiate queries for one or more items along with transactional bots | `apiKey` | Yes | Unknown |
-
+| [Zero Trust API](https://rapidapi.com/image-zero-trust-security-labs/api/zero-trust-api) | Image Content Disarm & Reconstruction | `apiKey` | Yes | Yes |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
