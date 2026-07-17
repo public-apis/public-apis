@@ -1,4 +1,5 @@
 # APILayer Unified Suite in now Live! 🎉 🥳
+| [slug-forge API](https://slug-forge.techtenstein.com) | Turn any Unicode string into a clean, URL-safe slug. | No | Yes | Yes |
 
 [APILayer unified suite](https://apilayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo) allows you to integrate production-grade REST APIs using **One Account, One Dashboard, and One API key.** Whether you need to geocode an address, validate an email, fetch a flight, pull stock market data, or scrape a search result.
 
