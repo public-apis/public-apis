@@ -494,7 +494,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | A collection of exchange rates | No | Yes | Unknown |
 | [Economia.Awesome](https://docs.awesomeapi.com.br/api-de-moedas) | Portuguese free currency prices and conversion with no rate limits | No | Yes | Unknown |
 | [ExchangeRate-API](https://www.exchangerate-api.com) | Free currency conversion | `apiKey` | Yes | Yes |
-| [Exchangerate.dev](https://exchangerate.dev/docs) | Live & historical FX, 168 pairs back to 1999, Frankfurter-compatible, free 10k/mo | No | Yes | Unknown |
+| [Exchangerate.dev](https://exchangerate.dev/docs) | Live & historical FX: 465 pairs across 31 currencies, source-labeled, Frankfurter-compatible, free 10k/mo | No | Yes | Unknown |
 | [Frankfurter](https://www.frankfurter.app/docs) | Exchange rates, currency conversion and time series | No | Yes | Yes |
 | [FreeForexAPI](https://freeforexapi.com/Home/Api) | Real-time foreign exchange rates for major currency pairs | No | Yes | No |
 | [National Bank of Poland](http://api.nbp.pl/en.html) | A collection of currency exchange rates (data in XML and JSON) | No | Yes | Yes |
