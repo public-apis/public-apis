@@ -253,6 +253,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Blockchain
 | API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [AgentCourt](https://agentcourt-api-production.up.railway.app/docs) | Policy-driven dispute resolution for AI agent commerce | No | Yes | Yes |
 | [Bitquery](https://graphql.bitquery.io/ide) | Onchain GraphQL APIs & DEX APIs | `apiKey` | Yes | Yes |
 | [Blockscout](https://dev.blockscout.com/) | Multichain block explorer REST API (with Etherscan-compatible JSON-RPC) | `apiKey` | Yes | No |
 | [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
@@ -409,6 +410,7 @@ API | Description | Auth | HTTPS | CORS |
 | [1inch](https://1inch.io/api/) | API for querying decentralize exchange | No | Yes | Unknown |
 | [Alchemy Ethereum](https://docs.alchemy.com/alchemy/) | Ethereum Node-as-a-Service Provider | `apiKey` | Yes | Yes |
 | [Alpha (Mossland)](https://alpha.moss.land/developers) | Korean crypto channel stance + RAG Q&A + canonical entity/topic/event store | No | Yes | Yes |
+| [AgentServices](https://github.com/vbkotecha/aiservices-api) | 54 crypto/market data APIs with x402 payments (prices, DeFi yields, on-chain analytics, DEX quotes). MCP server with 37 tools | x402 | Yes | Yes |
 | [Binance](https://github.com/binance/binance-spot-api-docs) | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown |
 | [Bitcambio](https://nova.bitcambio.com.br/api/v3/docs#a-public) | Get the list of all traded assets in the exchange | No | Yes | Unknown |
 | [BitcoinAverage](https://apiv2.bitcoinaverage.com/) | Digital Asset Price Data for the blockchain industry | `apiKey` | Yes | Unknown |
