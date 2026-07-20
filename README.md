@@ -1317,6 +1317,15 @@ API | Description | Auth | HTTPS | CORS |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
+|| **[Multi-Model AI Chat](https://rapidapi.com/cybersavvyai/api/multi-model-ai-chat)** | Access 150+ AI models (GPT-4, Claude, Gemini, Llama) through one API | `apiKey` | Yes | Yes |
+|| **[AI Image Generator](https://rapidapi.com/cybersavvyai/api/ai-image-generator)** | Generate images from text prompts with multiple aspect ratios | `apiKey` | Yes | Yes |
+|| **[Content Repurpose AI](https://rapidapi.com/cybersavvyai/api/content-repurpose-ai)** | One topic into five platform-optimized social media posts | `apiKey` | Yes | Yes |
+|| **[AI Agent Memory](https://rapidapi.com/cybersavvyai/api/ai-agent-memory)** | Persistent memory and semantic search for AI agents | `apiKey` | Yes | Yes |
+|| **[AI Web Search](https://rapidapi.com/cybersavvyai/api/ai-web-search)** | Real-time Google web search with AI-powered summaries | `apiKey` | Yes | Yes |
+|| **[AI Security Suite](https://rapidapi.com/cybersavvyai/api/ai-security-suite)** | Prompt injection detection, PII scanning, and AI safety filtering | `apiKey` | Yes | Yes |
+|| **[CloakBrowser Web Scraper](https://rapidapi.com/cybersavvyai/api/cloakbrowser-web-scraper)** | Stealth browser that bypasses Cloudflare and bot detection | `apiKey` | Yes | Yes |
+|| **[n8n Workflow API](https://rapidapi.com/cybersavvyai/api/n8n-workflow-api)** | Execute AI workflows without hosting n8n | `apiKey` | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 <br >
