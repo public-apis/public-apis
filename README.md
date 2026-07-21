@@ -1317,6 +1317,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
+| [Yingsuan AI](https://yingsuan.top) | LLM API gateway with free tier (100 calls, 3 free models). OpenAI-compatible endpoint for DeepSeek, Kimi K3, GLM, Qwen | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
