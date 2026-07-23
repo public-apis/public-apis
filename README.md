@@ -418,6 +418,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Bitmex](https://www.bitmex.com/app/apiOverview) | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown |
 | [Bittrex](https://bittrex.github.io/api/v3) | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown |
 | [Block](https://block.io/docs/basic) | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown |
+| [BlazePhoenix](https://blazephoenix.xyz/api) | On-chain DEX aggregator quotes and route execution data | `No` | Yes | Yes |
 | [Block Lottos](https://blocklottos.com/openapi.json) | On-chain lottery, draw history, jackpot and advertising endpoints | No | Yes | Yes |
 | [Blockchain](https://www.blockchain.com/api) | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown |
 | [blockfrost Cardano](https://blockfrost.io/) | Interaction with the Cardano mainnet and several testnets | `apiKey` | Yes | Unknown |
