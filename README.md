@@ -1557,6 +1557,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ReSmush.it](https://resmush.it/api) | Photo optimization | No | No | Unknown |
 | [shutterstock](https://api-reference.shutterstock.com/) | Stock Photos and Videos | `OAuth` | Yes | Unknown |
 | [Sirv](https://apidocs.sirv.com/) | Image management solutions like optimization, manipulation, hosting | `apiKey` | Yes | Unknown |
+| [Tinify.dev](https://tinify.dev/developers) | Image compression, resize and crop API with usage metadata | `apiKey` | Yes | No |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
 | [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | `apiKey` | Yes | Unknown |
 | [Webdam](https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API) | Images | `OAuth` | Yes | Unknown |
