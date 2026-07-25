@@ -1328,6 +1328,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
 
+| [UnblockAPI](https://github.com/kyle/unblockapi) | Unified capability API for AI agents — screenshots, browser rendering, web search, captcha solving, email/SMS verification. MCP-native. Free tier available | `X-API-Key` | Yes | Yes |
+
 **[⬆ Back to Index](#index)**
 <br >
 <br >
