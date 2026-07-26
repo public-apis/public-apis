@@ -868,6 +868,7 @@ API | Description | Auth | HTTPS | CORS |
 | [StockFit](https://api.stockfit.io/docs) | SEC filings, financial statements, earnings, ETF holdings and ownership data | `apiKey` | Yes | Yes | |
 | [Styvio](https://www.Styvio.com) | Realtime and historical stock data and current stock sentiment | `apiKey` | Yes | Unknown | |
 | [Sugra](https://sugra.ai) | One API for market data, economics, commodities, climate, and global news. LLM-ready JSON | `apiKey` | Yes | Yes | |
+| [Svensk Skatte-API](https://skatteapi.gracestack.se/demo) | Swedish tax calculations: ISK, VAT, income tax, employer fees, capital gains | `apiKey` | Yes | Yes | |
 | [Tax Data](https://apilayer.com/marketplace/tax_data-api) | Instant VAT number and tax validation across the globe | `apiKey` | Yes | Unknown | |
 | [Top 5 Stocks](https://top5stocks.netlify.app/developers) | Daily AI-ranked stock and crypto watchlists | No | Yes | Unknown | |
 | [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth` | Yes | Yes | |
