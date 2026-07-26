@@ -1,75 +1,45 @@
-# Public APIs Scripts
+# Public APIs scripts
 
-This directory contains all validation and testing scripts used by Public APIs.
+This directory contains the JavaScript tools used to validate `README.md`, check links, and generate the JSON API files. The tools use Node.js built-ins and have no package dependencies.
 
-```bash
-scripts
-│   github_pull_request.sh  # used to validate changes of a pull request
-│   requirements.txt  # contains dependencies of validate package
-│
-├───tests  # contains all unit tests from the validate package
-│       test_validate_format.py
-│       test_validate_links.py
-│
-└───validate  # validate package
-        format.py
-        links.py
-```
+## Commands
 
-## Install dependencies
-
-You must have [python](https://www.python.org/) installed to use these scripts.
-
-it is also necessary to install the validation package dependencies, use [pip package manager](https://pypi.org/project/pip/) for this:
+Run these commands from the repository root:
 
 ```bash
-$ python -m pip install -r scripts/requirements.txt
+npm test
+npm run format -- README.md
+npm run validate -- README.md
+npm run check-links -- README.md
+npm run generate -- README.md data
 ```
 
-## Run validations
-
-To run format validation on the `README.md` file, being in the root directory of public-apis, run:
+To check only for duplicate links, without making HTTP requests to every API:
 
 ```bash
-$ python scripts/validate/format.py README.md
+npm run check-links -- README.md --duplicates-only
 ```
 
-To run link validation on the `README.md` file, being in the root directory of public-apis, run:
+## Files
 
-```bash
-$ python scripts/validate/links.py README.md
-```
+- `validate.js` validates the README category tables.
+- `validate-pr-readme.js` reports validation errors only for README lines changed by a pull request.
+- `format-readme.js` sorts API rows inside each category without changing surrounding Markdown.
+- `check-links.js` checks duplicate and unreachable links.
+- `check-pr-links.js` checks links added by a pull request.
+- `generate.js` writes the website backend datasets `data/apis.json` and `data/categories.json`.
+- `links.js` and `row-parser.js` contain shared parsing and validation helpers.
+- `tests/` contains the Node test suite.
 
-As there are many links to check, this process can take some time. If your goal is not to check if the links are working, you can only check for duplicate links. Run:
+GitHub Actions runs the same Node commands for pull requests, pushes to `master`, and scheduled link checks.
 
-```bash
-$ python scripts/validate/links.py README.md -odlc
-```
+## Generated data
 
-*`-odlc` is an abbreviation of `--only_duplicate_links_checker`*
+`README.md` remains the human-maintained source. After a README change is merged to
+`master`, the build workflow regenerates and commits these stable backend inputs:
 
-## Running Tests
+- `data/apis.json` contains the complete API records.
+- `data/categories.json` contains category slugs and API counts.
 
-To run all tests it is necessary to change to the scripts directory:
-
-```bash
-$ cd scripts
-```
-
-then run:
-
-```bash
-$ python -m unittest discover tests/ --verbose
-```
-
-To run only the format tests, run:
-
-```bash
-$ python -m unittest discover tests/ --verbose --pattern "test_validate_format.py"
-```
-
-To run only the links tests, run:
-
-```bash
-$ python -m unittest discover tests/ --verbose --pattern "test_validate_links.py"
-```
+The repository does not commit a separate minified copy. The website's HTTP layer
+can compress `apis.json` when serving it.

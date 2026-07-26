@@ -1,0 +1,30 @@
+name: Check newly-added PR links
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - "README.md"
+
+permissions:
+  contents: read
+
+jobs:
+  check-pr-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check links added in this PR
+        env:
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: node scripts/check-pr-links.js "$REPO" "$PR_NUMBER"

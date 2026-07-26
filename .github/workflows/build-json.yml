@@ -1,0 +1,40 @@
+name: Build JSON from README
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "README.md"
+      - "scripts/generate.js"
+      - "scripts/row-parser.js"
+
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-json
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate website backend data
+        run: node scripts/generate.js README.md data
+
+      - name: Commit generated JSON if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate website data from README.md"
+          file_pattern: "data/*.json"
