@@ -1969,6 +1969,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Auto Body Shop Directory](https://autobodyshopnear.com/developers/body-shop-api) | Find auto body shops by ZIP code, city, location, or profile | No | Yes | No |
 | [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | No |
 | [CarVector](https://carvector.io/docs) | Vehicle specs, images, recalls, and DTC codes across 1925-2029 | `apiKey` | Yes | Yes |
+| [FleetByte Catalog](https://disturbingbyte.pt/en/garagem) | Free vehicle & car catalog: makes, models, variants and colors | No | Yes | Yes |
 | [Helipaddy sites](https://helipaddy.com/api/) | Helicopter and passenger drone landing site directory, Helipaddy data and much more | `apiKey` | Yes | Unknown |
 | [Kelley Blue Book](http://developer.kbb.com/#!/data/1-Default) | Vehicle info, pricing, configuration, plus much more | `apiKey` | Yes | No |
 | [Mercedes-Benz](https://developer.mercedes-benz.com/apis) | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | `apiKey` | Yes | No |
@@ -1976,7 +1977,6 @@ API | Description | Auth | HTTPS | CORS |
 | [ProblemsByVin](https://problemsbyvin.com/data/) | Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year | No | Yes | Yes |
 | [RevCarData](https://revcardata.com) | 86,000+ global vehicle specifications and EV metrics | `apiKey` | Yes | Yes |
 | [Smartcar](https://smartcar.com/docs/) | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth` | Yes | Yes |
-| [FleetByte Catalog](https://disturbingbyte.pt/en/garagem) | Free vehicle & car catalog: makes, models, variants and colors | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
