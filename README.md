@@ -510,8 +510,9 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Data Validation
-API | Description | Auth | HTTPS | CORS |
+| API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [1Lookup](https://app.1lookup.io/api) | Validate email addresses, phone numbers, IP addresses and company data | `apiKey` | Yes | Unknown | |
 | [VATlayer](https://vatlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | VAT number validation | `apiKey` | Yes | Unknown | |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown | |
 | [Postman Echo](https://www.postman-echo.com) | Test api server to receive and return value from HTTP method | No | Yes | Unknown | |
