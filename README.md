@@ -1382,6 +1382,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Associated Press](https://developer.ap.org/) | Search for news and metadata from Associated Press | `apiKey` | Yes | Unknown |
 | [Chronicling America](http://chroniclingamerica.loc.gov/about/api/) | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | Unknown |
 | [Currents](https://currentsapi.services/) | Real-time and historical global news with multilingual support | `apiKey` | Yes | Yes |
+| [DataCube AI](https://www.datacubeai.space/en/tools/ai-news-api) | Daily curated AI industry news, funding rounds and trends in 8 languages | No | Yes | No |
 | [Feedbin](https://github.com/feedbin/feedbin-api) | RSS reader | `OAuth` | Yes | Unknown |
 | [Florida Man](https://github.com/juliayxhuang/florida-man-api#readme) | Static JSON dataset of 10,000+ Florida Man headlines by date | No | Yes | Yes |
 | [GNews](https://gnews.io/) | Search for news from various sources | `apiKey` | Yes | Yes |
