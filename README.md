@@ -845,6 +845,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes | |
 | [EconPulse](https://econpulse.io) | Live economic data — CPI, PPI, energy, treasury rates, BTC premium | `apiKey` | Yes | Yes |
 | [Edgrapi](https://edgrapi.com) | Clean SEC EDGAR company financials, ratios, filings and 10-K/10-Q sections as normalized JSON | `apiKey` | Yes | Unknown | |
+| [ETF Holdings](https://etf-holdings.com/docs) | Current and historical ETF holdings data from issuer websites and SEC filings | `apiKey` | Yes | Yes |
 | [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | U.S. Department of the Treasury Data | No | Yes | Unknown | |
 | [Finage](https://finage.co.uk) | Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider | `apiKey` | Yes | Unknown | |
 | [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs) | Realtime and historical stock data | `apiKey` | Yes | Unknown | |
