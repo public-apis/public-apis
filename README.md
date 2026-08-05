@@ -1822,6 +1822,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AddressMock](https://addressmock.com/api) | Random US, Hong Kong and Cape Verde addresses with matched city, state and ZIP | No | Yes | Yes |
 | [Bacon Ipsum](https://baconipsum.com/json-api/) | A Meatier Lorem Ipsum Generator | No | Yes | Unknown |
+| [Bulk UUID Generator](https://toolkitvault.com/uuid-generator/uuid-api-docs) | Generate GUIDs and UUIDs v1, v3, v4, v5, v6, v7 | No | Yes | No |
 | [Dicebear Avatars](https://avatars.dicebear.com/) | Generate random pixel-art avatars | No | Yes | No |
 | [DummyJSON](https://dummyjson.com/) | Fake REST API with products, users, posts, comments, todos and more | No | Yes | Yes |
 | [English Random Words](https://random-words-api.vercel.app/word) | Generate English Random Words with Pronunciation | No | Yes | No |
