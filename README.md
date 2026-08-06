@@ -481,6 +481,8 @@ API | Description | Auth | HTTPS | CORS |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
 | [Zennet](https://zennet.cloud) | x402 pay-per-use APIs: Polymarket signals, CEX/DEX spreads, contract risk scores, gas oracle | No | Yes | Yes |
 | [ZMOK](https://zmok.io) | Ethereum JSON RPC API and Web3 provider | No | Yes | Unknown |
+| [AstraScout Crypto API](https://rapidapi.com/AstraScout/api/astrascout-crypto-api) | Multi-source crypto price API with fallback, caching, and stable USD pricing. Supports 26 tokens + price-all + utility scoring. | No | Yes | Unknown |
+| [AstraScout Market Insights API](https://rapidapi.com/AstraScout/api/astrascout-market-insights-api) | Real-time market sentiment: Fear & Greed, volatility, momentum, trending coins, and combined analytics. | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
