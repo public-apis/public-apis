@@ -300,6 +300,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Urantia Papers](https://urantia.dev) | Full-text + semantic search across the Urantia Papers, with audio narration, entities, translations | No | Yes | Yes |
 | [Wizard World](https://wizard-world-api.herokuapp.com/swagger/index.html) | Get information from the Harry Potter universe | No | Yes | Yes |
 | [Wolne Lektury](https://wolnelektury.pl/api/) | API for obtaining information about e-books available on the WolneLektury.pl website | No | Yes | Unknown |
+| [Open Library](https://openlibrary.org/developers/api) | Books, authors, and cover data from the Internet Archive | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
