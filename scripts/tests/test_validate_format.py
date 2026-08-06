@@ -68,6 +68,20 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 self.assertEqual(res, ex_res)
 
+    def test_get_categories_content_does_not_crash_on_table_row_before_header(self):
+        fake_contents = [
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        categories, category_line_num = get_categories_content(fake_contents)
+
+        self.assertEqual(categories, {'A': ['AB']})
+        self.assertEqual(category_line_num, {'A': 1})
+
     def test_if_check_alphabetical_order_return_correct_msg_error(self):
         correct_lines = [
             '### A',
