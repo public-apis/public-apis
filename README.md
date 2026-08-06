@@ -474,6 +474,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Poloniex](https://docs.poloniex.com) | US based digital asset exchange | `apiKey` | Yes | Unknown |
 | [PumpFunData](https://pumpfundata.com/docs) | Historical Pump.fun and PumpSwap AMM swap data as hourly Parquet files | `apiKey` | Yes | Unknown |
 | [Solana JSON RPC](https://docs.solana.com/developing/clients/jsonrpc-api) | Provides various endpoints to interact with the Solana Blockchain | No | Yes | Unknown |
+| [SwarmIntellect](https://swarmintellect.com/developers) | Real-time whale consensus signals with accuracy-verified outcomes | `apiKey` | Yes | Yes |
 | [Technical Analysis](https://technical-analysis-api.com) | Cryptocurrency prices and technical analysis | `apiKey` | Yes | No |
 | [VALR](https://docs.valr.com/) | Cryptocurrency Exchange based in South Africa | `apiKey` | Yes | Unknown |
 | [ScriptMasterLabs x402](https://acp-x402-scriptmasterlabs.onrender.com) | 100+ SEC, DeFi, crypto, and macro endpoints for AI agents via x402 micropayments | `apiKey` | Yes | Yes |
