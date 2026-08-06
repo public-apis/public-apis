@@ -1681,6 +1681,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SecurityTrails](https://securitytrails.com/corp/apidocs) | Domain and IP related information such as current and historical WHOIS and DNS records | `apiKey` | Yes | Unknown |
 | [Shodan](https://developer.shodan.io/) | Search engine for Internet connected devices | `apiKey` | Yes | Unknown |
 | [Spyse](https://spyse-dev.readme.io/reference/quick-start) | Access data on all Internet assets and build powerful attack surface management applications | `apiKey` | Yes | Unknown |
+| [ssid.ai](https://ssid.ai/api-docs) | MAC address (OUI) vendor lookup, randomized-MAC detection, and router default-login directory | No | Yes | Yes |
 | [SSL Domain Health Check](https://rapidapi.com/goktugbk/api/ssl-domain-health-check) | SSL certificate validity, domain WHOIS status, and DNS record checks for any domain | `apiKey` | Yes | Unknown |
 | [Threat Jammer](https://threatjammer.com/docs/index) | Risk scoring service from curated threat intelligence data | `apiKey` | Yes | Unknown |
 | [UK Police](https://data.police.uk/docs/) | UK Police data | No | Yes | Unknown |
