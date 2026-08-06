@@ -1624,6 +1624,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OrbitalWiki](https://orbitalwiki.com/developers) | Catalog of 16,000+ satellites merging CelesTrak, GCAT, Wikidata; free tier included | `apiKey` | Yes | Yes |
 | [Purple Air](https://www2.purpleair.com/) | Real Time Air Quality Monitoring | No | Yes | Unknown |
 | [Remote Calc](https://github.com/elizabethadegbaju/remotecalc) | Decodes base64 encoding and parses it to return a solution to the calculation in JSON | No | Yes | Yes |
+| [rftools.io](https://rftools.io/docs/api/) | REST API for 200+ RF, antenna and electronics engineering calculations; OpenAPI docs and free tier | `apiKey` | Yes | No |
 | [SHARE](https://share.osf.io/api/v2/) | A free, open, dataset about research and scholarly activities | No | Yes | No |
 | [SpaceX](https://github.com/r-spacex/SpaceX-API) | Company, vehicle, launchpad and launch data | No | Yes | No |
 | [SpaceX](https://api.spacex.land/graphql/) | GraphQL, Company, Ships, launchpad and launch data | No | Yes | Unknown |
