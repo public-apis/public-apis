@@ -170,3 +170,18 @@ class TestValidateLinks(unittest.TestCase):
         self.assertFalse(result1)
         self.assertFalse(result2)
         self.assertFalse(result3)
+
+    def test_check_if_link_is_working_timeouts(self):
+        from unittest.mock import patch
+        import requests
+        from validate.links import check_if_link_is_working
+
+        with patch("requests.get", side_effect=requests.exceptions.ReadTimeout):
+            has_err, err_msg = check_if_link_is_working("https://example.com")
+            self.assertTrue(has_err)
+            self.assertTrue(err_msg.startswith("ERR:TMO:"))
+
+        with patch("requests.get", side_effect=requests.exceptions.SSLError):
+            has_err, err_msg = check_if_link_is_working("https://example.com")
+            self.assertTrue(has_err)
+            self.assertTrue(err_msg.startswith("ERR:SSL:"))
