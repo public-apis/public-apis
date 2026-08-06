@@ -1,0 +1,9 @@
+{
+    "API": "OpenWeatherMap",
+    "Description": "A free API that provides real-time weather data, including temperature, humidity, wind speed, and weather forecasts.",
+    "Auth": "Yes (Free API key)",
+    "HTTPS": "Yes",
+    "Link": "https://openweathermap.org/api",
+    "Category": "Weather"
+}
+
