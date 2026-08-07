@@ -9,6 +9,7 @@ Fork our official [APILayer Postman Collection](https://www.postman.com/apilayer
 ![APILayer Banner](https://raw.githubusercontent.com/public-apis/public-apis/refs/heads/master/.github/assets/apilayer-banner.png)
 
 ### APIs Covered Under APILayer Suite!
+| [SqueezeOS x402 APIs](https://acp-x402-scriptmasterlabs.onrender.com/.well-known/x402.json) | Agent-native crypto/market data via HTTP 402 (Base USDC) | No | Yes | Yes |
 
 - [IPstack](https://apilayer.com/products/ipstack?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo)
 - [Markestack](https://apilayer.com/products/mediastack?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo)
