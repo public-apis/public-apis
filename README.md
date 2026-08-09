@@ -1513,6 +1513,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Personality
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [14 Main Stars](https://www.14mainstars.com/api-docs) | Zi Wei Dou Shu and BaZi natal charts from birth date, time and place, true-solar-time corrected | No | Yes | Yes |
 | [Advice Slip](http://api.adviceslip.com/) | Generate random advice slips | No | Yes | Unknown |
 | [AstroWay](https://api.astroway.info/docs/) | Astrology, natal charts, Human Design, Vedic and horoscopes on the Swiss Ephemeris | `apiKey` | Yes | Yes |
 | [Biriyani As A Service](https://biriyani.anoram.com/) | Biriyani images placeholder | No | Yes | No |
