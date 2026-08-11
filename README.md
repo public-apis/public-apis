@@ -1576,6 +1576,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Imsea](https://imsea.herokuapp.com/) | Free image search | No | Yes | Unknown |
 | [Lorem Picsum](https://picsum.photos/) | Images from Unsplash | No | Yes | Unknown |
 | [ObjectCut](https://objectcut.com/) | Image Background removal | `apiKey` | Yes | Yes |
+| [Peelaway](https://peelaway.io/solutions/developers?utm_source=public_apis&utm_medium=directory&utm_campaign=pve-040&utm_content=photography) | Asynchronous image editing for object, background, and generative edits | `apiKey` | Yes | No |
 | [Pexels](https://www.pexels.com/api/) | Free Stock Photos and Videos | `apiKey` | Yes | Yes |
 | [PhotoRoom](https://www.photoroom.com/api/) | Remove background from images | `apiKey` | Yes | Unknown |
 | [Pixabay](https://pixabay.com/sk/service/about/api/) | Photography | `apiKey` | Yes | Unknown |
