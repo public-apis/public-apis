@@ -124,48 +124,69 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Weather](#weather)
 <br >
 
-### Animals
-API | Description | Auth | HTTPS | CORS 
-|:---|:---|:---|:---|:---|
-| [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
-| [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
-| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No | |
-| [Cat Facts](https://catfact.ninja/) | Random cat facts | No | Yes | Yes |
-| [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
-| [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | No |
-| [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Yes |
-| [Dog Facts](https://kinduff.github.io/dog-api/) | Random facts of Dogs | No | Yes | Yes |
-| [Dogs](https://dog.ceo/dog-api/) | Based on the Stanford Dogs Dataset | No | Yes | Yes |
-| [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59) | Retrieve recent or notable birding observations within a region | `apiKey` | Yes | No |
-| [FishWatch](https://www.fishwatch.gov/developers) | Information and pictures about individual fish species | No | Yes | Yes |
-| [HTTP Cat](https://http.cat/) | Cat for every HTTP Status | No | Yes | Yes |
-| [HTTP Dog](https://http.dog/) | Dogs for every HTTP response status code | No | Yes | Yes |
-| [IUCN](http://apiv3.iucnredlist.org/api/v3/docs) | IUCN Red List of Threatened Species | `apiKey` | No | No |
-| [MeowFacts](https://github.com/wh-iterabb-it/meowfacts) | Get random cat facts | No | Yes | No |
-| [Movebank](https://github.com/movebank/movebank-api-doc) | Movement and Migration data of animals | No | Yes | Yes |
-| [Petfinder](https://www.petfinder.com/developers/) | Petfinder is dedicated to helping pets find homes, another resource to get pets adopted | `apiKey` | Yes | Yes |
-| [PlaceBear](https://placebear.com/) | Placeholder bear pictures | No | Yes | Yes |
-| [PlaceDog](https://place.dog) | Placeholder Dog pictures | No | Yes | Yes |
-| [RandomDog](https://random.dog/woof.json) | Random pictures of dogs | No | Yes | Yes |
-| [RandomDuck](https://random-d.uk/api) | Random pictures of ducks | No | Yes | No |
-| [RandomFox](https://randomfox.ca/floof/) | Random pictures of foxes | No | Yes | No |
-| [RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) | Adoption | No | Yes | Unknown |
-| [Shibe.Online](http://shibe.online/) | Random pictures of Shiba Inu, cats or birds | No | Yes | Yes |
-| [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
-| [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
-
-**[⬆ Back to Index](#index)**
-<br >
-<br >
-
-### Anime
+### Science & Math
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
-| [AniAPI](https://aniapi.com/docs/) | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | Yes |
-| [AniDB](https://wiki.anidb.net/HTTP_API_Definition) | Anime Database | `apiKey` | No | Unknown |
-| [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
-| [AnimeChan](https://github.com/RocktimSaikia/anime-chan) | Anime quotes (over 10k+) | No | Yes | No |
-| [AnimeFacts](https://chandan-02.github.io/anime-facts-rest-api/) | Anime Facts (over 100+) | No | Yes | Yes |
+| [arXiv](https://arxiv.org/help/api/user-manual) | Curated research-sharing platform: physics, mathematics, quantitative finance, and economics | No | Yes | Unknown |
+| [CodeCogs](https://editor.codecogs.com/docs/4-LaTeX_rendering.php) | Render LaTeX equations in PNG, GIF, SVG, EMF, PDF, JSON, or download formats with styling options | No | Yes | Unknown |
+| [CORE](https://core.ac.uk/services#api) | Access the world's Open Access research papers | `apiKey` | Yes | Unknown |
+| [GBIF](https://www.gbif.org/developer/summary) | Global Biodiversity Information Facility | No | Yes | Yes |
+| [iDigBio](https://github.com/idigbio/idigbio-search-api/wiki) | Access millions of museum specimens from organizations around the world | No | Yes | Unknown |
+| [inspirehep.net](https://github.com/inspirehep/rest-api-doc) | High Energy Physics info. system | No | Yes | Unknown |
+| [isEven (humor)](https://isevenapi.xyz/) | Check if a number is even | No | Yes | Unknown |
+| [ITIS](https://www.itis.gov/ws_description.html) | Integrated Taxonomic Information System | No | Yes | Unknown |
+| [Materials Platform for Data Science](https://mpds.io) | Curated experimental data for materials science | `apiKey` | Yes | No |
+| [Newton](https://newton.vercel.app) | Symbolic and Arithmetic Math Calculator | No | Yes | No |
+| [Numbers](https://math.tools/api/numbers/) | Number of the day, random number, number facts and anything else you want to do with numbers | `apiKey` | Yes | No |
+| [Numbers](http://numbersapi.com) | Facts about numbers | No | No | No |
+| [Ocean Facts](https://oceanfacts.herokuapp.com/) | Facts pertaining to the physical science of Oceanography | No | Yes | Unknown |
+| [Open Science Framework](https://developer.osf.io) | Repository and archive for study designs, research materials, data, manuscripts, etc | No | Yes | Unknown |
+| [OpenAlex](https://docs.openalex.org/) | Open catalog of scholarly works, authors, institutions, sources, and concepts | No | Yes | Yes |
+| [OrbitalWiki](https://orbitalwiki.com/developers) | Catalog of 16,000+ satellites merging CelesTrak, GCAT, Wikidata; free tier included | `apiKey` | Yes | Yes |
+| [Purple Air](https://www2.purpleair.com/) | Real Time Air Quality Monitoring | No | Yes | Unknown |
+| [Remote Calc](https://github.com/elizabethadegbaju/remotecalc) | Decodes base64 encoding and parses it to return a solution to the calculation in JSON | No | Yes | Yes |
+| [SHARE](https://share.osf.io/api/v2/) | A free, open, dataset about research and scholarly activities | No | Yes | No |
+| [SpaceX](https://github.com/r-spacex/SpaceX-API) | Company, vehicle, launchpad and launch data | No | Yes | No |
+| [SpaceX](https://api.spacex.land/graphql/) | GraphQL, Company, Ships, launchpad and launch data | No | Yes | Unknown |
+| [Sunrise and Sunset](https://sunrise-sunset.org/api) | Sunset and sunrise times for a given latitude and longitude | No | Yes | No |
+| [Tallytopia](https://tallytopia.com/api-docs) | Calculators for finance, health, math, space and sports with step-by-step results | No | Yes | Yes |
+| [Times Adder](https://github.com/FranP-code/API-Times-Adder) | With this API you can add each of the times introduced in the array sended | No | Yes | No |
+| [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | No |
+| [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | No |
+| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | Yes | No |
+| [xMath](https://x-math.herokuapp.com/) | Random mathematical expressions | No | Yes | Yes |
+
+## Astronomy & Space
+
+Split out of **Science & Math**, since that section had grown crowded with space-specific entries. Move these existing rows out of Science & Math and into this new section: `arcsecond.io`, `ISRO`, `Launch Library 2`, `Minor Planet Center`, `NASA`, `NASA ADS`, `Noctua`, `Open Notify`, `TLE`.
+
+| API | Description | Auth | HTTPS | CORS |
+
+|---|---|---|---|---|
+
+| [arcsecond.io](https://api.arcsecond.io/) | Multiple astronomy data sources | No | Yes | Unknown |
+
+| [ISRO](https://isro.vercel.app/) | ISRO Space Crafts Information | No | Yes | No |
+
+| [Launch Library 2](https://thespacedevs.com/llapi) | Spaceflight launches and events database | No | Yes | Yes |
+
+| [Minor Planet Center](https://www.minorplanetcenter.net/) | Asterank.com Information | No | No | Unknown |
+
+| [NASA](https://api.nasa.gov/) | NASA data, including imagery, APOD, Mars rover photos and near-Earth asteroids | No | Yes | No |
+
+| [NASA ADS](https://ui.adsabs.harvard.edu/help/api/) | NASA Astrophysics Data System | `OAuth` | Yes | Yes |
+
+| [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/docs/program_interfaces.html) | Programmatic access to confirmed exoplanets and planet candidates | No | Yes | Unknown |
+
+| [Noctua](https://noctua-api.readthedocs.io/) | REST API used to access NoctuaSky features | No | Yes | Unknown |
+
+| [Open Astronomy Catalogs](https://astrocats.space/) | Combined Tidal Disruption, Open Supernova, Kilonova and East Stars catalogs | No | Yes | Unknown |
+
+| [Open Notify](http://open-notify.org/) | Current ISS location and number of people currently in space | No | No | No |
+
+| [TLE](https://tle.ivanstanojevic.me/) | Satellite orbital information (Two-Line Element sets) | No | Yes | No |
+
+**[⬆ Back to Index](#index)**
 | [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) | Anime industry news | No | Yes | Yes |
 | [Catboy](https://catboys.com/api) | Neko images, funny GIFs & more | No | Yes | Yes |
 | [Danbooru Anime](https://danbooru.donmai.us/wiki_pages/help:api) | Thousands of anime artist database to find good anime art | `apiKey` | Yes | Yes |
