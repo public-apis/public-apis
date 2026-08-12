@@ -1822,6 +1822,15 @@ API | Description | Auth | HTTPS | CORS |
 | [Odds-API](https://docs.odds-api.io) | Real-time sports betting odds from 265+ bookmakers across 34 sports via REST and WebSocket | `apiKey` | Yes | Yes |
 | [Oddsmagnet](https://data.oddsmagnet.com) | Odds history from multiple UK bookmakers | No | Yes | Yes |
 | [OpenF1](https://openf1.org/) | Real-time and historical Formula 1 data including laps, car telemetry and positions | No | Yes | Yes |
+| [FastF1](https://github.com/theOehrly/Fast-F1) | Python library for F1 timing, telemetry, weather, sessions, and strategy analysis | No | Yes | Yes |
+| [Jolpica-F1](https://api.jolpi.ca/ergast/) | Ergast-compatible F1 API; community standard for historical F1 data since Ergast shutdown | No | No | Yes |
+| [F1DB](https://github.com/chris1610/f1data) | Open-source all-time F1 database (CSV/JSON/SQL/SQLite) covering drivers, constructors, circuits, results, grids, fastest laps, pit stops | No | No | Yes |
+| [Sportmonks F1](https://www.sportmonks.com/formula-one-api/) | Live classification, gaps, intervals, lap times, tyres, drivers, constructors as JSON | `apiKey` | Yes | Yes |
+| [Orange Cat Blacktop](https://ocblacktop.com/api) | Professional REST API for F1, NASCAR, IndyCar, MotoGP, Formula E, WRC, FIA WEC; schedules, results, standings, live race-weekend data | `apiKey` | Yes | Yes |
+| [PitStop Data](https://pitstopdata.com/) | F1 lap times, sector splits, pit stop strategy, tire compounds, championship standings | `apiKey` | Yes | Yes |
+| [Hyprace](https://developers.hyprace.com/) | Fast, reliable F1 API: race results, driver standings, session data, historical F1 data | `apiKey` | Yes | Yes |
+| [The Data Driver](https://thedatadriver.app/api-docs) | 90+ endpoints for F1: historical data since 1950, real-time telemetry, ML predictions | `apiKey` | Yes | Yes |
+| [Racemate](https://racemate.io/api/) | Free JSON API for F1 driver standings, season results, race-by-race classifications, constructor stats | No | No | Yes |
 | [OpenLigaDB](https://www.openligadb.de) | Crowd sourced sports league results | No | Yes | Yes |
 | [Padel Snipe](https://padelsnipe.com/fr/world/api) | 4,000+ mapped padel clubs across 9 European countries with GPS and courts | No | Yes | Yes |
 | [Premier League Standings ](https://rapidapi.com/heisenbug/api/premier-league-live-scores/) | All Current Premier League Standings and Statistics | `apiKey` | Yes | Unknown |
