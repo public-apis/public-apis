@@ -122,7 +122,20 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
+* [Education](#education)
 <br >
+
+### Education
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data/documentation/) | Data on higher education institutions in the United States | No | Yes | Unknown |
+| [Coursera](https://tech.coursera.org/app-platform/catalog/) | Coursera catalog and course metadata | `apiKey` | Yes | Unknown |
+| [edX Course Catalog](https://course-catalog-api-guide.readthedocs.io/) | Programmatic access to edX MOOC catalogs and course listings | `OAuth` | Yes | Unknown |
+| [Khan Academy](https://api-explorer.khanacademy.org/) | Khan Academy's content tree, exercises and videos | `apiKey` | Yes | Unknown |
+| [Open edX](https://docs.openedx.org/en/latest/developers/references/rest-apis.html) | REST APIs (course list, enrollment, blocks) for any Open edX-powered platform | `OAuth` | Yes | Unknown |
+| [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | Yes | No |
+| [Universities List](https://github.com/Hipo/university-domains-list) | University names, countries and domains | No | Yes | Unknown |
+| [University of Oslo](https://data.uio.no/) | Courses, lecture videos, detailed course info | No | Yes | Unknown |
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
