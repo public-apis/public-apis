@@ -98,6 +98,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Geocoding](#geocoding)
 * [Government](#government)
 * [Health](#health)
+* [Insurance](#insurance)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Music](#music)
@@ -2200,7 +2201,18 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 
-<br>
+<br >
 
-## License
+### Insurance
+Most carrier-direct insurance APIs require partner/producer approval rather than an open self-serve key, so this section leans smaller than others — that's expected for the category.
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Assurity](https://info.assurity.com/api) | Real-time life/health insurance quoting, underwriting and eSignature workflow API | `apiKey` | Yes | Unknown |
+| [Bindable](https://bindable.com/api) | Embedded auto, home, condo and renters insurance quote/bind API | `apiKey` | Yes | Unknown |
+| [Herald](https://www.heraldapi.com/) | Unified API for quoting and binding commercial insurance across multiple carriers | `apiKey` | Yes | Unknown |
+| [Hexure Life Quotes](https://hexure.com/life-quotes-api/) | Life insurance quoting across multiple carriers, products and rate classes | `apiKey` | Yes | Unknown |
+| [The Zebra](https://www.thezebra.com/business/) | Auto insurance rate comparison across US carriers | `apiKey` | Yes | Unknown |
+
+### Science & Math
 [MIT](LICENSE) (c) 2022 public-apis
