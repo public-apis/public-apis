@@ -124,6 +124,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Video](#video)
 * [Weather](#weather)
 * [Education](#education)
+* [IoT & Smart Home](#iot--smart-home)
 <br >
 
 ### Education
@@ -137,6 +138,19 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | Yes | No |
 | [Universities List](https://github.com/Hipo/university-domains-list) | University names, countries and domains | No | Yes | Unknown |
 | [University of Oslo](https://data.uio.no/) | Courses, lecture videos, detailed course info | No | Yes | Unknown |
+
+### Science & Math
+### IoT & Smart Home
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Ecobee](https://www.ecobee.com/home/developer/api/introduction/index.html) | Read and control ecobee smart thermostats | `OAuth` | Yes | Unknown |
+| [Home Assistant](https://developers.home-assistant.io/docs/api/rest/) | REST/WebSocket API for the open-source Home Assistant home-automation hub | `apiKey` | Yes | Unknown |
+| [LIFX](https://api.developer.lifx.com/) | Control LIFX smart lighting | `apiKey` | Yes | Yes |
+| [Philips Hue](https://developers.meethue.com/) | Control Hue smart lights, scenes and effects over the local bridge or cloud API | `OAuth` | Yes | Unknown |
+| [Ring](https://github.com/dgreif/ring/wiki/Unofficial-Ring-API) | Access Ring doorbell/camera devices and events | `OAuth` | Yes | Unknown |
+| [SmartThings](https://developer.smartthings.com/docs/api/public) | Samsung SmartThings public API to read and control connected devices | `OAuth` | Yes | Unknown |
+| [Tuya](https://developer.tuya.com/en/docs/cloud) | Cloud API for Tuya-compatible smart home devices (plugs, lights, sensors) | `apiKey` | Yes | Unknown |
+| [Wyze](https://github.com/shauntarves/wyze-sdk) | Unofficial API access to Wyze cameras and sensors | `apiKey` | Yes | Unknown |
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
