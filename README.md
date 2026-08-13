@@ -102,6 +102,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Music](#music)
+* [AI Agents & MCP Tools](#ai-agents--mcp-tools)
 * [News](#news)
 * [Open Data](#open-data)
 * [Open Source Projects](#open-source-projects)
@@ -177,6 +178,22 @@ API | Description | Auth | HTTPS | CORS |
 | [Google Agricultural Understanding](https://developers.google.com/agricultural-understanding) | Landscape type, crop type, sowing and harvest dates at field level by geographic location | `apiKey` | Yes | Unknown |
 | [HarvestAPI (Jamaica)](https://github.com/CodeForTheCaribbean/HarvestAPI) | Community-built API for Jamaican agriculture data: prices, crops and farms | No | No | Unknown |
 | [USDA Quick Stats](https://quickstats.nass.usda.gov/api) | NASS's programmatic interface to US agricultural census and survey data | `apiKey` | Yes | Unknown |
+
+### AI Agents & MCP Tools
+A growing cluster of x402-payable, MCP-server, and agent-oriented APIs are already scattered across **Blockchain**, **Crypto** and **Dev** (e.g. `TWZRD Agent Intel`, `Suprsonic`, `ScriptMasterLabs MCP`, `Zennet`). This section gives them a proper home; recommend cross-linking rather than removing from their original sections since many are crypto-specific.
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Anthropic Claude](https://docs.claude.com/) | Build with Claude models, tool use, and the Model Context Protocol | `apiKey` | Yes | Unknown |
+| [Not Human Search](https://publicapis.io/) | AI tool discovery with agentic scoring for 8,600+ tools and MCP servers | No | Yes | Yes |
+| [ScriptMasterLabs MCP](https://scriptmasterlabs.com/) | Model Context Protocol server with web search, social search & LLM chat, paid via x402 | `apiKey` | Yes | Yes |
+| [Suprsonic](https://suprsonic.dev/) | Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging — one key, 20+ capabilities | `apiKey` | Yes | Yes |
+| [TWZRD Agent Intel](https://twzrd.dev/) | Solana on-chain agent trust scoring via MCP; 4 free tools to score, resolve and verify AI agent wallets | No | Yes | Yes |
+| [Zennet](https://zennet.ai/) | x402 pay-per-use APIs: Polymarket signals, CEX/DEX spreads, contract risk scores, gas oracle | No | Yes | Yes |
+
+⬆ Back to Index
+
+---
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
