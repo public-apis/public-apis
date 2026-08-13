@@ -1655,6 +1655,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TLE](https://tle.ivanstanojevic.me/#/docs) | Satellite information | No | Yes | No |
 | [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | No |
 | [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | No |
+| [VedIntel™ AstroAPI](https://vedintelastroapi.com/docs) | Vedic astrology computation — birth charts, dashas, panchang, AI narratives | `apiKey` | Yes | Yes |
 | [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | Yes | No |
 | [xMath](https://x-math.herokuapp.com/) | Random mathematical expressions | No | Yes | Yes |
 
