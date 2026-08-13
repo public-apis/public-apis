@@ -125,6 +125,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Weather](#weather)
 * [Education](#education)
 * [IoT & Smart Home](#iot--smart-home)
+* [Real Estate](#real-estate)
 <br >
 
 ### Education
@@ -151,6 +152,19 @@ API | Description | Auth | HTTPS | CORS |
 | [SmartThings](https://developer.smartthings.com/docs/api/public) | Samsung SmartThings public API to read and control connected devices | `OAuth` | Yes | Unknown |
 | [Tuya](https://developer.tuya.com/en/docs/cloud) | Cloud API for Tuya-compatible smart home devices (plugs, lights, sensors) | `apiKey` | Yes | Unknown |
 | [Wyze](https://github.com/shauntarves/wyze-sdk) | Unofficial API access to Wyze cameras and sensors | `apiKey` | Yes | Unknown |
+
+### Real Estate
+Zillow's own API is now partner-gated (invite-only), so it's listed for reference but most entries here are open/self-serve.
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [ATTOM Property](https://api.developer.attomdata.com/) | Nationwide property data, valuations and neighborhood analytics | `apiKey` | Yes | Unknown |
+| [Mashvisor](https://www.mashvisor.com/api/) | Investment property analysis with AI-powered short-term/long-term rental insights | `apiKey` | Yes | Unknown |
+| [RentCast](https://www.rentcast.io/api) | Rent estimates, property records and comparable listings across the US | `apiKey` | Yes | Unknown |
+| [Realtor (RapidAPI)](https://rapidapi.com/apidojo/api/realtor/) | Property listings, mortgage calculations and finance rates | `apiKey` | Yes | Unknown |
+| [SimplyRETS](https://simplyrets.com/) | MLS-backed listing and market data for building real estate apps and sites | `apiKey` | Yes | Unknown |
+| [Walk Score](https://www.walkscore.com/professional/api.php) | Walkability, transit and bike scores for any US address | `apiKey` | Yes | Unknown |
+| [Zillow](https://www.zillowgroup.com/developers/) | Home values (Zestimates), rental prices and neighborhood stats — partner access only | `OAuth` | Yes | Unknown |
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
