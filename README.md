@@ -126,6 +126,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Education](#education)
 * [IoT & Smart Home](#iot--smart-home)
 * [Real Estate](#real-estate)
+* [Agriculture](#agriculture)
 <br >
 
 ### Education
@@ -165,6 +166,17 @@ API | Description | Auth | HTTPS | CORS |
 | [SimplyRETS](https://simplyrets.com/) | MLS-backed listing and market data for building real estate apps and sites | `apiKey` | Yes | Unknown |
 | [Walk Score](https://www.walkscore.com/professional/api.php) | Walkability, transit and bike scores for any US address | `apiKey` | Yes | Unknown |
 | [Zillow](https://www.zillowgroup.com/developers/) | Home values (Zestimates), rental prices and neighborhood stats — partner access only | `OAuth` | Yes | Unknown |
+
+### Agriculture
+Commodities-API is commercial; note that some datasets may require a paid plan.
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Commodities-API](https://commodities-api.com/) | Real-time and historical pricing for agricultural commodities (wheat, rice, coffee, sugar, etc.) | `apiKey` | Yes | Unknown |
+| [EOSDA Crop Monitoring](https://eos.com/agriculture-api/) | Satellite-derived NDVI/vegetation indices, field boundaries and weather data for precision agriculture | `apiKey` | Yes | Unknown |
+| [Google Agricultural Understanding](https://developers.google.com/agricultural-understanding) | Landscape type, crop type, sowing and harvest dates at field level by geographic location | `apiKey` | Yes | Unknown |
+| [HarvestAPI (Jamaica)](https://github.com/CodeForTheCaribbean/HarvestAPI) | Community-built API for Jamaican agriculture data: prices, crops and farms | No | No | Unknown |
+| [USDA Quick Stats](https://quickstats.nass.usda.gov/api) | NASS's programmatic interface to US agricultural census and survey data | `apiKey` | Yes | Unknown |
 
 ### Science & Math
 API | Description | Auth | HTTPS | CORS |
