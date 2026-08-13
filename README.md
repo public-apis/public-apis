@@ -98,9 +98,12 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Geocoding](#geocoding)
 * [Government](#government)
 * [Health](#health)
+* [Insurance](#insurance)
+* [HR & Payroll](#hr--payroll)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Music](#music)
+* [AI Agents & MCP Tools](#ai-agents--mcp-tools)
 * [News](#news)
 * [Open Data](#open-data)
 * [Open Source Projects](#open-source-projects)
@@ -122,50 +125,154 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Vehicle](#vehicle)
 * [Video](#video)
 * [Weather](#weather)
+* [Education](#education)
+* [IoT & Smart Home](#iot--smart-home)
+* [Real Estate](#real-estate)
+* [Agriculture](#agriculture)
 <br >
 
-### Animals
-API | Description | Auth | HTTPS | CORS 
-|:---|:---|:---|:---|:---|
-| [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
-| [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
-| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No | |
-| [Cat Facts](https://catfact.ninja/) | Random cat facts | No | Yes | Yes |
-| [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
-| [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | No |
-| [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Yes |
-| [Dog Facts](https://kinduff.github.io/dog-api/) | Random facts of Dogs | No | Yes | Yes |
-| [Dogs](https://dog.ceo/dog-api/) | Based on the Stanford Dogs Dataset | No | Yes | Yes |
-| [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59) | Retrieve recent or notable birding observations within a region | `apiKey` | Yes | No |
-| [FishWatch](https://www.fishwatch.gov/developers) | Information and pictures about individual fish species | No | Yes | Yes |
-| [HTTP Cat](https://http.cat/) | Cat for every HTTP Status | No | Yes | Yes |
-| [HTTP Dog](https://http.dog/) | Dogs for every HTTP response status code | No | Yes | Yes |
-| [IUCN](http://apiv3.iucnredlist.org/api/v3/docs) | IUCN Red List of Threatened Species | `apiKey` | No | No |
-| [MeowFacts](https://github.com/wh-iterabb-it/meowfacts) | Get random cat facts | No | Yes | No |
-| [Movebank](https://github.com/movebank/movebank-api-doc) | Movement and Migration data of animals | No | Yes | Yes |
-| [Petfinder](https://www.petfinder.com/developers/) | Petfinder is dedicated to helping pets find homes, another resource to get pets adopted | `apiKey` | Yes | Yes |
-| [PlaceBear](https://placebear.com/) | Placeholder bear pictures | No | Yes | Yes |
-| [PlaceDog](https://place.dog) | Placeholder Dog pictures | No | Yes | Yes |
-| [RandomDog](https://random.dog/woof.json) | Random pictures of dogs | No | Yes | Yes |
-| [RandomDuck](https://random-d.uk/api) | Random pictures of ducks | No | Yes | No |
-| [RandomFox](https://randomfox.ca/floof/) | Random pictures of foxes | No | Yes | No |
-| [RescueGroups](https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home) | Adoption | No | Yes | Unknown |
-| [Shibe.Online](http://shibe.online/) | Random pictures of Shiba Inu, cats or birds | No | Yes | Yes |
-| [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
-| [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
+### Education
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data/documentation/) | Data on higher education institutions in the United States | No | Yes | Unknown |
+| [Coursera](https://tech.coursera.org/app-platform/catalog/) | Coursera catalog and course metadata | `apiKey` | Yes | Unknown |
+| [edX Course Catalog](https://course-catalog-api-guide.readthedocs.io/) | Programmatic access to edX MOOC catalogs and course listings | `OAuth` | Yes | Unknown |
+| [Khan Academy](https://api-explorer.khanacademy.org/) | Khan Academy's content tree, exercises and videos | `apiKey` | Yes | Unknown |
+| [Open edX](https://docs.openedx.org/en/latest/developers/references/rest-apis.html) | REST APIs (course list, enrollment, blocks) for any Open edX-powered platform | `OAuth` | Yes | Unknown |
+| [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | Yes | No |
+| [Universities List](https://github.com/Hipo/university-domains-list) | University names, countries and domains | No | Yes | Unknown |
+| [University of Oslo](https://data.uio.no/) | Courses, lecture videos, detailed course info | No | Yes | Unknown |
 
-**[⬆ Back to Index](#index)**
-<br >
-<br >
+### Science & Math
+### IoT & Smart Home
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Ecobee](https://www.ecobee.com/home/developer/api/introduction/index.html) | Read and control ecobee smart thermostats | `OAuth` | Yes | Unknown |
+| [Home Assistant](https://developers.home-assistant.io/docs/api/rest/) | REST/WebSocket API for the open-source Home Assistant home-automation hub | `apiKey` | Yes | Unknown |
+| [LIFX](https://api.developer.lifx.com/) | Control LIFX smart lighting | `apiKey` | Yes | Yes |
+| [Philips Hue](https://developers.meethue.com/) | Control Hue smart lights, scenes and effects over the local bridge or cloud API | `OAuth` | Yes | Unknown |
+| [Ring](https://github.com/dgreif/ring/wiki/Unofficial-Ring-API) | Access Ring doorbell/camera devices and events | `OAuth` | Yes | Unknown |
+| [SmartThings](https://developer.smartthings.com/docs/api/public) | Samsung SmartThings public API to read and control connected devices | `OAuth` | Yes | Unknown |
+| [Tuya](https://developer.tuya.com/en/docs/cloud) | Cloud API for Tuya-compatible smart home devices (plugs, lights, sensors) | `apiKey` | Yes | Unknown |
+| [Wyze](https://github.com/shauntarves/wyze-sdk) | Unofficial API access to Wyze cameras and sensors | `apiKey` | Yes | Unknown |
 
-### Anime
+### Real Estate
+Zillow's own API is now partner-gated (invite-only), so it's listed for reference but most entries here are open/self-serve.
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [ATTOM Property](https://api.developer.attomdata.com/) | Nationwide property data, valuations and neighborhood analytics | `apiKey` | Yes | Unknown |
+| [Mashvisor](https://www.mashvisor.com/api/) | Investment property analysis with AI-powered short-term/long-term rental insights | `apiKey` | Yes | Unknown |
+| [RentCast](https://www.rentcast.io/api) | Rent estimates, property records and comparable listings across the US | `apiKey` | Yes | Unknown |
+| [Realtor (RapidAPI)](https://rapidapi.com/apidojo/api/realtor/) | Property listings, mortgage calculations and finance rates | `apiKey` | Yes | Unknown |
+| [SimplyRETS](https://simplyrets.com/) | MLS-backed listing and market data for building real estate apps and sites | `apiKey` | Yes | Unknown |
+| [Walk Score](https://www.walkscore.com/professional/api.php) | Walkability, transit and bike scores for any US address | `apiKey` | Yes | Unknown |
+| [Zillow](https://www.zillowgroup.com/developers/) | Home values (Zestimates), rental prices and neighborhood stats — partner access only | `OAuth` | Yes | Unknown |
+
+### Agriculture
+Commodities-API is commercial; note that some datasets may require a paid plan.
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Commodities-API](https://commodities-api.com/) | Real-time and historical pricing for agricultural commodities (wheat, rice, coffee, sugar, etc.) | `apiKey` | Yes | Unknown |
+| [EOSDA Crop Monitoring](https://eos.com/agriculture-api/) | Satellite-derived NDVI/vegetation indices, field boundaries and weather data for precision agriculture | `apiKey` | Yes | Unknown |
+| [Google Agricultural Understanding](https://developers.google.com/agricultural-understanding) | Landscape type, crop type, sowing and harvest dates at field level by geographic location | `apiKey` | Yes | Unknown |
+| [HarvestAPI (Jamaica)](https://github.com/CodeForTheCaribbean/HarvestAPI) | Community-built API for Jamaican agriculture data: prices, crops and farms | No | No | Unknown |
+| [USDA Quick Stats](https://quickstats.nass.usda.gov/api) | NASS's programmatic interface to US agricultural census and survey data | `apiKey` | Yes | Unknown |
+
+### HR & Payroll
+Direct carrier/vendor APIs generally require a paid or partner account; unified APIs (Finch, Merge, Knit) offer a single integration across many HR systems and are often the more practical starting point.
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [ADP](https://developers.adp.com/) | Enterprise payroll and HR APIs for workforce and compliance data | `OAuth` | Yes | Unknown |
+| [BambooHR](https://documentation.bamboohr.com/) | REST API for employee records, time-off, custom reports and webhooks | `apiKey` | Yes | Unknown |
+| [Finch](https://developer.tryfinch.com/) | Unified employment API connecting to 250+ payroll and HRIS systems through one integration | `apiKey` | Yes | Unknown |
+| [Gusto](https://docs.gusto.com/) | Payroll, benefits and HR API for automating payroll runs and employee data | `OAuth` | Yes | Unknown |
+| [Merge HR & Payroll](https://merge.dev/categories/hr-payroll-api) | Unified API for HRIS and payroll platforms including BambooHR, Gusto, Deel and Dayforce | `apiKey` | Yes | Unknown |
+| [Rippling](https://developer.rippling.com/) | Unified workforce management API for payroll, apps and device management | `OAuth` | Yes | Unknown |
+
+⬆ Back to Index
+
+### AI Agents & MCP Tools
+A growing cluster of x402-payable, MCP-server, and agent-oriented APIs are already scattered across **Blockchain**, **Crypto** and **Dev** (e.g. `TWZRD Agent Intel`, `Suprsonic`, `ScriptMasterLabs MCP`, `Zennet`). This section gives them a proper home; recommend cross-linking rather than removing from their original sections since many are crypto-specific.
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Anthropic Claude](https://docs.claude.com/) | Build with Claude models, tool use, and the Model Context Protocol | `apiKey` | Yes | Unknown |
+| [Not Human Search](https://publicapis.io/) | AI tool discovery with agentic scoring for 8,600+ tools and MCP servers | No | Yes | Yes |
+| [ScriptMasterLabs MCP](https://scriptmasterlabs.com/) | Model Context Protocol server with web search, social search & LLM chat, paid via x402 | `apiKey` | Yes | Yes |
+| [Suprsonic](https://suprsonic.dev/) | Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging — one key, 20+ capabilities | `apiKey` | Yes | Yes |
+| [TWZRD Agent Intel](https://twzrd.dev/) | Solana on-chain agent trust scoring via MCP; 4 free tools to score, resolve and verify AI agent wallets | No | Yes | Yes |
+| [Zennet](https://zennet.ai/) | x402 pay-per-use APIs: Polymarket signals, CEX/DEX spreads, contract risk scores, gas oracle | No | Yes | Yes |
+
+⬆ Back to Index
+
+---
+
+### Science & Math
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
-| [AniAPI](https://aniapi.com/docs/) | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | Yes |
-| [AniDB](https://wiki.anidb.net/HTTP_API_Definition) | Anime Database | `apiKey` | No | Unknown |
-| [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
-| [AnimeChan](https://github.com/RocktimSaikia/anime-chan) | Anime quotes (over 10k+) | No | Yes | No |
-| [AnimeFacts](https://chandan-02.github.io/anime-facts-rest-api/) | Anime Facts (over 100+) | No | Yes | Yes |
+| [arXiv](https://arxiv.org/help/api/user-manual) | Curated research-sharing platform: physics, mathematics, quantitative finance, and economics | No | Yes | Unknown |
+| [CodeCogs](https://editor.codecogs.com/docs/4-LaTeX_rendering.php) | Render LaTeX equations in PNG, GIF, SVG, EMF, PDF, JSON, or download formats with styling options | No | Yes | Unknown |
+| [CORE](https://core.ac.uk/services#api) | Access the world's Open Access research papers | `apiKey` | Yes | Unknown |
+| [GBIF](https://www.gbif.org/developer/summary) | Global Biodiversity Information Facility | No | Yes | Yes |
+| [iDigBio](https://github.com/idigbio/idigbio-search-api/wiki) | Access millions of museum specimens from organizations around the world | No | Yes | Unknown |
+| [inspirehep.net](https://github.com/inspirehep/rest-api-doc) | High Energy Physics info. system | No | Yes | Unknown |
+| [isEven (humor)](https://isevenapi.xyz/) | Check if a number is even | No | Yes | Unknown |
+| [ITIS](https://www.itis.gov/ws_description.html) | Integrated Taxonomic Information System | No | Yes | Unknown |
+| [Materials Platform for Data Science](https://mpds.io) | Curated experimental data for materials science | `apiKey` | Yes | No |
+| [Newton](https://newton.vercel.app) | Symbolic and Arithmetic Math Calculator | No | Yes | No |
+| [Numbers](https://math.tools/api/numbers/) | Number of the day, random number, number facts and anything else you want to do with numbers | `apiKey` | Yes | No |
+| [Numbers](http://numbersapi.com) | Facts about numbers | No | No | No |
+| [Ocean Facts](https://oceanfacts.herokuapp.com/) | Facts pertaining to the physical science of Oceanography | No | Yes | Unknown |
+| [Open Science Framework](https://developer.osf.io) | Repository and archive for study designs, research materials, data, manuscripts, etc | No | Yes | Unknown |
+| [OpenAlex](https://docs.openalex.org/) | Open catalog of scholarly works, authors, institutions, sources, and concepts | No | Yes | Yes |
+| [OrbitalWiki](https://orbitalwiki.com/developers) | Catalog of 16,000+ satellites merging CelesTrak, GCAT, Wikidata; free tier included | `apiKey` | Yes | Yes |
+| [Purple Air](https://www2.purpleair.com/) | Real Time Air Quality Monitoring | No | Yes | Unknown |
+| [Remote Calc](https://github.com/elizabethadegbaju/remotecalc) | Decodes base64 encoding and parses it to return a solution to the calculation in JSON | No | Yes | Yes |
+| [SHARE](https://share.osf.io/api/v2/) | A free, open, dataset about research and scholarly activities | No | Yes | No |
+| [SpaceX](https://github.com/r-spacex/SpaceX-API) | Company, vehicle, launchpad and launch data | No | Yes | No |
+| [SpaceX](https://api.spacex.land/graphql/) | GraphQL, Company, Ships, launchpad and launch data | No | Yes | Unknown |
+| [Sunrise and Sunset](https://sunrise-sunset.org/api) | Sunset and sunrise times for a given latitude and longitude | No | Yes | No |
+| [Tallytopia](https://tallytopia.com/api-docs) | Calculators for finance, health, math, space and sports with step-by-step results | No | Yes | Yes |
+| [Times Adder](https://github.com/FranP-code/API-Times-Adder) | With this API you can add each of the times introduced in the array sended | No | Yes | No |
+| [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | No |
+| [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | No |
+| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | Yes | No |
+| [xMath](https://x-math.herokuapp.com/) | Random mathematical expressions | No | Yes | Yes |
+
+## Astronomy & Space
+
+Split out of **Science & Math**, since that section had grown crowded with space-specific entries. Move these existing rows out of Science & Math and into this new section: `arcsecond.io`, `ISRO`, `Launch Library 2`, `Minor Planet Center`, `NASA`, `NASA ADS`, `Noctua`, `Open Notify`, `TLE`.
+
+| API | Description | Auth | HTTPS | CORS |
+
+|---|---|---|---|---|
+
+| [arcsecond.io](https://api.arcsecond.io/) | Multiple astronomy data sources | No | Yes | Unknown |
+
+| [ISRO](https://isro.vercel.app/) | ISRO Space Crafts Information | No | Yes | No |
+
+| [Launch Library 2](https://thespacedevs.com/llapi) | Spaceflight launches and events database | No | Yes | Yes |
+
+| [Minor Planet Center](https://www.minorplanetcenter.net/) | Asterank.com Information | No | No | Unknown |
+
+| [NASA](https://api.nasa.gov/) | NASA data, including imagery, APOD, Mars rover photos and near-Earth asteroids | No | Yes | No |
+
+| [NASA ADS](https://ui.adsabs.harvard.edu/help/api/) | NASA Astrophysics Data System | `OAuth` | Yes | Yes |
+
+| [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/docs/program_interfaces.html) | Programmatic access to confirmed exoplanets and planet candidates | No | Yes | Unknown |
+
+| [Noctua](https://noctua-api.readthedocs.io/) | REST API used to access NoctuaSky features | No | Yes | Unknown |
+
+| [Open Astronomy Catalogs](https://astrocats.space/) | Combined Tidal Disruption, Open Supernova, Kilonova and East Stars catalogs | No | Yes | Unknown |
+
+| [Open Notify](http://open-notify.org/) | Current ISS location and number of people currently in space | No | No | No |
+
+| [TLE](https://tle.ivanstanojevic.me/) | Satellite orbital information (Two-Line Element sets) | No | Yes | No |
+
+**[⬆ Back to Index](#index)**
 | [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) | Anime industry news | No | Yes | Yes |
 | [Catboy](https://catboys.com/api) | Neko images, funny GIFs & more | No | Yes | Yes |
 | [Danbooru Anime](https://danbooru.donmai.us/wiki_pages/help:api) | Thousands of anime artist database to find good anime art | `apiKey` | Yes | Yes |
@@ -1799,20 +1906,26 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [API-FOOTBALL](https://www.api-football.com/documentation-v3) | Get information about Football Leagues & Cups | `apiKey` | Yes | Yes |
+| [API-Football](https://www.api-football.com/) | 1,200+ football competitions, livescore, standings, teams, odds, fixtures, events, line-ups, players, statistics, predictions | `apiKey` | Yes | Yes |
 | [ApiMedic](https://apimedic.com/) | ApiMedic offers a medical symptom checker API primarily for patients | `apiKey` | Yes | Unknown |
 | [balldontlie](https://www.balldontlie.io) | Balldontlie provides access to stats data from the NBA | No | Yes | Yes |
+| [BallDontLie EPL](https://epl.balldontlie.io/) | Premier League teams, rosters, standings, matches, lineups, player match stats, odds, player props | `apiKey` | Yes | Yes |
 | [Bet Better](https://betbetter.world/api/) | Sports model win probabilities and fair odds across 13 leagues | No | Yes | Yes |
+| [Big Balls Sports Data](https://bigballsdata.com/premier-league-api) | Real-time Premier League scores, odds, confirmed lineups, match stats including xG; free tier 1,000–2,000 req/day | `apiKey` | Yes | Yes |
 | [Canadian Football League (CFL)](http://api.cfl.ca/) | Official JSON API providing real-time league, team and player statistics about the CFL | `apiKey` | Yes | No |
 | [City Bikes](https://api.citybik.es/v2/) | City Bikes around the world | No | Yes | Unknown |
 | [Cloudbet](https://www.cloudbet.com/api/) | Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically | `apiKey` | Yes | Yes |
 | [CollegeFootballData.com](https://collegefootballdata.com) | Unofficial detailed American college football statistics, records, and results API | `apiKey` | Yes | Unknown |
 | [DiscGolf](https://discgolfapi.com/docs/) | Structured disc golf course data | No | Yes | Yes |
+| [Enetpulse Premier League](https://enetpulse.com/premier-league-api/) | JSON feed for real-time and historical Premier League data: match events, player stats, live commentary | `apiKey` | Yes | Yes |
 | [Ergast F1](http://ergast.com/mrd/) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
+| [Fantasy Premier League API](https://www.oanor.com/api/fpl-api) | Official Fantasy Premier League (FPL) data as an API; free tier 100 calls/month | `apiKey` | Yes | Yes |
 | [Fitbit](https://dev.fitbit.com/) | Fitbit Information | `OAuth` | Yes | Unknown |
 | [Football](https://rapidapi.com/GiulianoCrescimbeni/api/football98/) | A simple Open Source Football API to get squads’ stats, best scorers and more | `X-Mashape-Key` | Yes | Unknown |
 | [Football (Soccer) Videos](https://www.scorebat.com/video-api/) | Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more | No | Yes | Yes |
 | [Football Standings](https://github.com/azharimm/football-standings-api) | Display football standings e.g epl, la liga, serie a etc. The data is based on espn site | No | Yes | Yes |
 | [Football-Data](https://www.football-data.org) | Football data with matches info, players, teams, and competitions | `X-Mashape-Key` | Yes | Unknown |
+| [iSportsAPI EPL](https://www.isportsapi.com/en/products/detail/football-api-product-83.html) | 22–24 endpoints for Premier League: livescores, schedules, results, league profile, match stats | `apiKey` | Yes | Yes |
 | [JCDecaux Bike](https://developer.jcdecaux.com/) | JCDecaux's self-service bicycles | `apiKey` | Yes | Unknown |
 | [Lumify](https://lumify.ai/docs) | Real-time sports intelligence: scores, odds, betting splits & AI bet analysis across 8 sports | `apiKey` | Yes | No |
 | [MLB Records and Stats](https://appac.github.io/mlb-data-api-docs/) | Current and historical MLB statistics | No | No | Unknown |
@@ -1822,9 +1935,19 @@ API | Description | Auth | HTTPS | CORS |
 | [Odds-API](https://docs.odds-api.io) | Real-time sports betting odds from 265+ bookmakers across 34 sports via REST and WebSocket | `apiKey` | Yes | Yes |
 | [Oddsmagnet](https://data.oddsmagnet.com) | Odds history from multiple UK bookmakers | No | Yes | Yes |
 | [OpenF1](https://openf1.org/) | Real-time and historical Formula 1 data including laps, car telemetry and positions | No | Yes | Yes |
+| [FastF1](https://github.com/theOehrly/Fast-F1) | Python library for F1 timing, telemetry, weather, sessions, and strategy analysis | No | Yes | Yes |
+| [Jolpica-F1](https://api.jolpi.ca/ergast/) | Ergast-compatible F1 API; community standard for historical F1 data since Ergast shutdown | No | No | Yes |
+| [F1DB](https://github.com/chris1610/f1data) | Open-source all-time F1 database (CSV/JSON/SQL/SQLite) covering drivers, constructors, circuits, results, grids, fastest laps, pit stops | No | No | Yes |
+| [Sportmonks F1](https://www.sportmonks.com/formula-one-api/) | Live classification, gaps, intervals, lap times, tyres, drivers, constructors as JSON | `apiKey` | Yes | Yes |
+| [Orange Cat Blacktop](https://ocblacktop.com/api) | Professional REST API for F1, NASCAR, IndyCar, MotoGP, Formula E, WRC, FIA WEC; schedules, results, standings, live race-weekend data | `apiKey` | Yes | Yes |
+| [PitStop Data](https://pitstopdata.com/) | F1 lap times, sector splits, pit stop strategy, tire compounds, championship standings | `apiKey` | Yes | Yes |
+| [Hyprace](https://developers.hyprace.com/) | Fast, reliable F1 API: race results, driver standings, session data, historical F1 data | `apiKey` | Yes | Yes |
+| [The Data Driver](https://thedatadriver.app/api-docs) | 90+ endpoints for F1: historical data since 1950, real-time telemetry, ML predictions | `apiKey` | Yes | Yes |
+| [Racemate](https://racemate.io/api/) | Free JSON API for F1 driver standings, season results, race-by-race classifications, constructor stats | No | No | Yes |
 | [OpenLigaDB](https://www.openligadb.de) | Crowd sourced sports league results | No | Yes | Yes |
 | [Padel Snipe](https://padelsnipe.com/fr/world/api) | 4,000+ mapped padel clubs across 9 European countries with GPS and courts | No | Yes | Yes |
-| [Premier League Standings ](https://rapidapi.com/heisenbug/api/premier-league-live-scores/) | All Current Premier League Standings and Statistics | `apiKey` | Yes | Unknown |
+| [Premier League Standings](https://rapidapi.com/heisenbug/api/premier-league-live-scores/) | All Current Premier League Standings and Statistics | `apiKey` | Yes | Unknown |
+| [Premier-League-API (unofficial)](https://github.com/tarun7r/Premier-League-API) | Unofficial Flask API scraping Premier League site: player stats, fixtures, tables, results | No | No | Yes |
 | [PropLine](https://prop-line.com) | Real-time player-props betting odds with graded prop resolution across 13 books | `apiKey` | Yes | Unknown |
 | [RacingHub](https://racinghub.net/api/v1/docs#/) | Formula 1 historical data and statistics | No | Yes | Unknown |
 | [Sport Data](https://sportdataapi.com) | Get sports data from all over the world | `apiKey` | Yes | Unknown |
@@ -1835,10 +1958,12 @@ API | Description | Auth | HTTPS | CORS |
 | [Sportmonks Cricket](https://docs.sportmonks.com/cricket/) | Live cricket score, player statistics and fantasy API | `apiKey` | Yes | Unknown |
 | [Sportmonks Football](https://docs.sportmonks.com/football/) | Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga | `apiKey` | Yes | Unknown |
 | [Squiggle](https://api.squiggle.com.au) | Fixtures, results and predictions for Australian Football League matches | No | Yes | Yes |
+| [Statorium EPL](https://statorium.com/english-premier-league-api) | Premier League stats, live scores, odds, standings, top scorers; endpoints: Matches, Live Matches, Today's Matches | `apiKey` | Yes | Yes |
 | [Strava](https://strava.github.io/api/) | Connect with athletes, activities and more | `OAuth` | Yes | Unknown |
 | [SuredBits](https://suredbits.com/api/) | Query sports data, including teams, players, games, scores and statistics | No | No | No |
 | [TheRundown](https://therundown.io/) | Real-time sports data: odds, scores, stats & prediction markets, 30+ leagues, 18+ sportsbooks | `apiKey` | Yes | Yes |
 | [TheSportsDB](https://www.thesportsdb.com/api.php) | Crowd-Sourced Sports Data and Artwork | `apiKey` | Yes | Yes |
+| [TheStatsAPI Football](https://www.thestatsapi.com/football-api) | Fixtures, results, standings, player & match stats, odds, xG across 1,000+ competitions including Premier League | `apiKey` | Yes | Yes |
 | [TourneyRadar](https://tourneyradar-api.vercel.app) | Upcoming chess tournaments from 140+ national federations worldwide | No | Yes | Unknown |
 | [Tredict](https://www.tredict.com/blog/oauth_docs/) | Get and set activities, health data and more | `OAuth` | Yes | Unknown |
 | [Wger](https://wger.de/en/software/api) | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown |
@@ -2148,7 +2273,18 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 
-<br>
+<br >
 
-## License
+### Insurance
+Most carrier-direct insurance APIs require partner/producer approval rather than an open self-serve key, so this section leans smaller than others — that's expected for the category.
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Assurity](https://info.assurity.com/api) | Real-time life/health insurance quoting, underwriting and eSignature workflow API | `apiKey` | Yes | Unknown |
+| [Bindable](https://bindable.com/api) | Embedded auto, home, condo and renters insurance quote/bind API | `apiKey` | Yes | Unknown |
+| [Herald](https://www.heraldapi.com/) | Unified API for quoting and binding commercial insurance across multiple carriers | `apiKey` | Yes | Unknown |
+| [Hexure Life Quotes](https://hexure.com/life-quotes-api/) | Life insurance quoting across multiple carriers, products and rate classes | `apiKey` | Yes | Unknown |
+| [The Zebra](https://www.thezebra.com/business/) | Auto insurance rate comparison across US carriers | `apiKey` | Yes | Unknown |
+
+### Science & Math
 [MIT](LICENSE) (c) 2022 public-apis
