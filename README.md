@@ -99,6 +99,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Government](#government)
 * [Health](#health)
 * [Insurance](#insurance)
+* [HR & Payroll](#hr--payroll)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
 * [Music](#music)
@@ -178,6 +179,20 @@ API | Description | Auth | HTTPS | CORS |
 | [Google Agricultural Understanding](https://developers.google.com/agricultural-understanding) | Landscape type, crop type, sowing and harvest dates at field level by geographic location | `apiKey` | Yes | Unknown |
 | [HarvestAPI (Jamaica)](https://github.com/CodeForTheCaribbean/HarvestAPI) | Community-built API for Jamaican agriculture data: prices, crops and farms | No | No | Unknown |
 | [USDA Quick Stats](https://quickstats.nass.usda.gov/api) | NASS's programmatic interface to US agricultural census and survey data | `apiKey` | Yes | Unknown |
+
+### HR & Payroll
+Direct carrier/vendor APIs generally require a paid or partner account; unified APIs (Finch, Merge, Knit) offer a single integration across many HR systems and are often the more practical starting point.
+
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [ADP](https://developers.adp.com/) | Enterprise payroll and HR APIs for workforce and compliance data | `OAuth` | Yes | Unknown |
+| [BambooHR](https://documentation.bamboohr.com/) | REST API for employee records, time-off, custom reports and webhooks | `apiKey` | Yes | Unknown |
+| [Finch](https://developer.tryfinch.com/) | Unified employment API connecting to 250+ payroll and HRIS systems through one integration | `apiKey` | Yes | Unknown |
+| [Gusto](https://docs.gusto.com/) | Payroll, benefits and HR API for automating payroll runs and employee data | `OAuth` | Yes | Unknown |
+| [Merge HR & Payroll](https://merge.dev/categories/hr-payroll-api) | Unified API for HRIS and payroll platforms including BambooHR, Gusto, Deel and Dayforce | `apiKey` | Yes | Unknown |
+| [Rippling](https://developer.rippling.com/) | Unified workforce management API for payroll, apps and device management | `OAuth` | Yes | Unknown |
+
+⬆ Back to Index
 
 ### AI Agents & MCP Tools
 A growing cluster of x402-payable, MCP-server, and agent-oriented APIs are already scattered across **Blockchain**, **Crypto** and **Dev** (e.g. `TWZRD Agent Intel`, `Suprsonic`, `ScriptMasterLabs MCP`, `Zennet`). This section gives them a proper home; recommend cross-linking rather than removing from their original sections since many are crypto-specific.
