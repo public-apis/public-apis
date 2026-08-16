@@ -1004,6 +1004,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Jservice](http://jservice.io) | Jeopardy Question Database | No | No | Unknown |
 | [KrakenKeys](https://krakenkeys.com/api-docs) | Steam game key price comparison across 20+ stores, deals, and price history | `apiKey` | Yes | No |
 | [Lichess](https://lichess.org/api) | Access to all data of users, games, puzzles and etc on Lichess | `OAuth` | Yes | Unknown |
+| [Lineage2](https://l2api.dev) | Access to game data, npc's, items, drops, etc | No | Yes | Yes |
 | [Magic The Gathering](http://magicthegathering.io/) | Magic The Gathering Game Information | No | No | Unknown |
 | [Mario Kart Tour](https://mario-kart-tour-api.herokuapp.com/) | API for Drivers, Karts, Gliders and Courses | `OAuth` | Yes | Unknown |
 | [Marvel](https://developer.marvel.com) | Marvel Comics | `apiKey` | Yes | Unknown |
