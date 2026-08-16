@@ -1610,6 +1610,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tinify.dev](https://tinify.dev/developers) | Image compression, resize and crop API with usage metadata | `apiKey` | Yes | No |
 | [Unsplash](https://unsplash.com/developers) | Photography | `OAuth` | Yes | Unknown |
 | [Wallhaven](https://wallhaven.cc/help/api) | Wallpapers | `apiKey` | Yes | Unknown |
+| [MicroAPI](https://c4891fcfc473c8.lhr.life) | Screenshot, Barcode / QR Code, Currency, PDF, Image APIs. Pay with crypto (Polygon POL). | `apiKey` | Yes | Yes |
 | [Webdam](https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API) | Images | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
