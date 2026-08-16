@@ -1,0 +1,10 @@
+{
+  "API": "Shri AI Tools",
+  "Description": "Free emotional AI voice assistant API.",
+  "Auth": "No",
+  "HTTPS": true,
+  "Cors": "yes",
+  "Link": "https://shri-ai.rohan.dev/api",
+  "Category": "AI/ML"
+}
+
