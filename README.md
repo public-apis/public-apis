@@ -726,6 +726,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Code::Stats](https://codestats.net/api-docs) | Automatic time tracking for programmers | `apiKey` | Yes | No |
 | [CraftMyPDF](https://craftmypdf.com) | Generate PDF documents from templates with a drop-and-drop editor and a simple API | `apiKey` | Yes | No |
 | [DocStruct](https://docstruct.pages.dev) | AI extraction of invoices, receipts, bank statements & contracts into structured JSON/CSV | No | Yes | Yes |
+| [FaturaPDF](https://rapidapi.com/leosanchees2014/api/brazilian-invoice-receipt-pdf-api-cpf-cnpj) | Generate Brazilian invoice/receipt PDFs with checksum-validated CPF/CNPJ and PIX QR | `apiKey` | Yes | Unknown |
 | [Flowdash](https://docs.flowdash.com/docs/api-introduction) | Automate business workflows | `apiKey` | Yes | Unknown |
 | [Html2PDF](https://html2pdf.app/) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
 | [iLovePDF](https://developer.ilovepdf.com/) | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | `apiKey` | Yes | Yes |
