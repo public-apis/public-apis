@@ -1784,6 +1784,7 @@ API | Description | Auth | HTTPS | CORS |
 | [RedditAPIs](https://www.redditapis.com/) | Reddit data API: subreddit listings, post/comment/community/user search, comment trees, top posts | `apiKey` | Yes | Unknown |
 | [Revolt](https://developers.revolt.chat/api/) | Revolt open source Discord alternative | `apiKey` | Yes | Unknown |
 | [Saidit](https://www.saidit.net/dev/api) | Open Source Reddit Clone | `OAuth` | Yes | Unknown |
+| [SocialData API](https://socialdata.tools) | Unofficial API to read Twitter data | `apiKey` | Yes | No |
 | [Slack](https://api.slack.com/) | Team Instant Messaging | `OAuth` | Yes | Unknown |
 | [SocialSwarm](https://social-swarm-main-aa77a19.zuplo.site) | Turn articles into ready-to-post X thread drafts with different hooks | `apiKey` | Yes | No |
 | [TamTam](https://dev.tamtam.chat/) | Bot API to interact with TamTam | `apiKey` | Yes | Unknown |
