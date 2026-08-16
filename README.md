@@ -1299,6 +1299,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Disease](https://disease.sh/) | API for Current cases and more stuff about COVID-19 and Influenza | No | Yes | Yes |
 | [openFDA](https://open.fda.gov) | Public FDA data about drugs, devices and foods | `apiKey` | Yes | Unknown |
 | [Orion Health](https://developer.orionhealth.io/) | Medical platform which allows the development of applications for different healthcare scenarios | `OAuth` | Yes | Unknown |
+| [PubMed](https://www.ncbi.nlm.nih.gov/books/NBK25501/) | Search and fetch PubMed articles, genes, and other biomedical literature data | No | Yes | Unknown |
 | [Quarantine](https://quarantine.country/coronavirus/api/) | Coronavirus API with free COVID-19 live updates | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
