@@ -3,7 +3,10 @@
 import re
 import sys
 import random
+import ipaddress
+import socket
 from typing import List, Tuple
+from urllib.parse import urlparse
 
 import requests
 from requests.models import Response
@@ -149,6 +152,57 @@ def has_cloudflare_protection(resp: Response) -> bool:
     return False
 
 
+def _is_ip_literal(value: str) -> bool:
+    """Return True if `value` is already an IP address rather than a hostname."""
+    try:
+        ipaddress.ip_address(value)
+        return True
+    except ValueError:
+        return False
+
+
+def _is_non_public_ip(ip: str) -> bool:
+    """Return True if `ip` is a valid address that is not globally routable
+    (private, loopback, link-local, reserved, ...)."""
+    try:
+        return not ipaddress.ip_address(ip).is_global
+    except ValueError:
+        return False
+
+
+def is_private_ip(hostname: str) -> bool:
+    """Return True if `hostname` is, or resolves to, a non-public IP address.
+
+    Acts as an SSRF guard for the link checker: a URL whose host points at an
+    internal address is refused before it is fetched. A DNS failure is treated
+    as *not* private, so an unreachable host still surfaces as a normal request
+    error rather than being mislabelled.
+    """
+    try:
+        candidates = (
+            [hostname]
+            if _is_ip_literal(hostname)
+            else [info[4][0] for info in socket.getaddrinfo(hostname, None)]
+        )
+    except socket.gaierror:
+        return False
+    return any(_is_non_public_ip(ip) for ip in candidates)
+
+
+def validate_url(link: str) -> Tuple[bool, str]:
+    """Return (has_error, message) for a link, guarding against SSRF.
+
+    A link is rejected before any request is made when its scheme is not
+    HTTP(S) or when its host is not publicly routable.
+    """
+    parsed = urlparse(link)
+    if parsed.scheme not in ('http', 'https'):
+        return (True, f'ERR:URL: unsupported scheme "{parsed.scheme}" : {link}')
+    if is_private_ip(parsed.hostname or ''):
+        return (True, f'ERR:URL: non-public host : {link}')
+    return (False, '')
+
+
 def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     """Checks if a link is working.
 
@@ -160,8 +214,9 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     first value False and the second an empty string.
     """
 
-    has_error = False
-    error_message = ''
+    has_error, error_message = validate_url(link)
+    if has_error:
+        return (has_error, error_message)
 
     try:
         resp = requests.get(link, timeout=25, headers={
