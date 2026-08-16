@@ -5,8 +5,8 @@ import sys
 from string import punctuation
 from typing import List, Tuple, Dict
 
-# Temporary replacement
-# The descriptions that contain () at the end must adapt to the new policy later
+# Exclude parentheses from punctuation for description ending checks.
+# Descriptions ending with parentheses are currently allowed, but this may change in the future.
 punctuation = punctuation.replace('()', '')
 
 anchor = '###'
@@ -24,7 +24,7 @@ num_segments = 5
 min_entries_per_category = 3
 max_description_length = 100
 
-anchor_re = re.compile(anchor + '\s(.+)')
+anchor_re = re.compile(anchor + r'\s(.+)')
 category_title_in_index_re = re.compile('\*\s\[(.*)\]')
 link_re = re.compile('\[(.+)\]\((http.*)\)')
 
@@ -77,7 +77,7 @@ def check_alphabetical_order(lines: List[str]) -> List[str]:
         if sorted(api_list) != api_list:
             err_msg = error_message(
                 category_line_num[category], 
-                f'{category} category is not alphabetical order'
+                f'{category} category is not in alphabetical order'
             )
             err_msgs.append(err_msg)
     
