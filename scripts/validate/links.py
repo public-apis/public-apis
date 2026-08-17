@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-
+import random
 import re
 import sys
-import random
 from typing import List, Tuple
 
 import requests
@@ -216,7 +214,7 @@ def start_duplicate_links_checker(links: List[str]) -> None:
     has_duplicate_link, duplicates_links = check_duplicate_links(links)
 
     if has_duplicate_link:
-        print(f'Found duplicate links:')
+        print('Found duplicate links:')
 
         for duplicate_link in duplicates_links:
             print(duplicate_link)
