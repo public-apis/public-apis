@@ -1461,6 +1461,7 @@ API | Description | Auth | HTTPS | CORS |
 | [BotsArchive](https://botsarchive.com/docs.html) | JSON formatted details about Telegram Bots available in database | No | Yes | Unknown |
 | [Callook.info](https://callook.info) | United States ham radio callsigns | No | Yes | Unknown |
 | [CARTO](https://carto.com/) | Location Information Prediction | `apiKey` | Yes | Unknown |
+| [CelesTrak](https://celestrak.org/) | Free satellite orbital TLE catalog, collision forecast and space environment datasets with no auth | No | Yes | Yes |
 | [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data/) | Data on higher education institutions in the United States | No | Yes | Unknown |
 | [Enigma Public](https://developers.enigma.com/docs) | Broadest collection of public data | `apiKey` | Yes | Yes |
 | [EOSL](https://eosl.ai/api/) | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | No | Yes | Yes |
