@@ -1036,6 +1036,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SpaceTradersAPI](https://spacetraders.io?rel=pub-apis) | A playable inter-galactic space trading MMOAPI | `OAuth` | Yes | Yes |
 | [Steam](https://steamapi.xpaw.me/) | Steam Web API documentation | `apiKey` | Yes | No |
 | [Steam](https://github.com/Revadike/InternalSteamWebAPI/wiki) | Internal Steam Web API documentation | No | Yes | No |
+| [SteamGPT](https://steamgpt.net) | Steam profiles, SteamID conversion, VAC/game bans, FACEIT stats and friends | No | Yes | Yes |
 | [SuperHeroes](https://superheroapi.com) | All SuperHeroes and Villains data from all universes under a single API | `apiKey` | Yes | Unknown |
 | [TCGdex](https://www.tcgdex.net/docs) | Multi languages Pokémon TCG Information | No | Yes | Yes |
 | [Tebex](https://docs.tebex.io/plugin/) | Tebex API for information about game purchases | `X-Mashape-Key` | Yes | No |
@@ -1048,7 +1049,6 @@ API | Description | Auth | HTTPS | CORS |
 | [When is next MCU film](https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md) | Upcoming MCU film information | No | Yes | Unknown |
 | [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | No |
 | [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
-| [SteamGPT](https://steamgpt.net) | Steam profiles, SteamID conversion, VAC/game bans, FACEIT stats and friends | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
