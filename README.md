@@ -262,6 +262,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Chainpoint](https://tierion.com/chainpoint/) | Chainpoint is a global network for anchoring data to the Bitcoin blockchain | No | Yes | Unknown |
 | [ClearTrace](https://cleartracedata.com/docs) | Cross-frontend DEX attribution and execution quality data across Ethereum and L2s | No | Yes | Yes |
 | [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
+| [CryptoLabel](https://cryptolabel.io) | Identify known addresses on major networks with a free API | No | Yes | Yes |
 | [Etherscan](https://etherscan.io/apis) | Ethereum explorer API | `apiKey` | Yes | Yes |
 | [Helium](https://docs.helium.com/api/blockchain/introduction/) | Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage | No | Yes | Unknown |
 | [Nownodes](https://nownodes.io/) | Blockchain-as-a-service solution that provides high-quality connection via API | `apiKey` | Yes | Unknown |
