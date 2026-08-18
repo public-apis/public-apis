@@ -143,13 +143,13 @@ def check_auth(line_num: int, auth: str) -> List[str]:
 
 
 def check_https(line_num: int, https: str) -> List[str]:
-
+    """Check if the HTTPS value is valid. Handles None and empty string gracefully."""
     err_msgs = []
 
-    if https not in https_keys:
+    # if https not in https_keys:
+    if not isinstance(https, str) or https not in https_keys:
         err_msg = error_message(line_num, f'{https} is not a valid HTTPS option')
         err_msgs.append(err_msg)
-
     return err_msgs
 
 

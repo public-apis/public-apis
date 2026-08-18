@@ -7,12 +7,16 @@ from typing import List, Tuple
 
 import requests
 from requests.models import Response
+from concurrent.futures import ThreadPoolExecutor
 
 
 def find_links_in_text(text: str) -> List[str]:
     """Find links in a text and return a list of URLs."""
 
-    link_pattern = re.compile(r'((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'\".,<>?«»“”‘’]))')
+    link_pattern = re.compile(r'((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'\".,<>?«»"“'']))')
+
+    # link_pattern = re.compile(r'((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'\".,<>?«»""'']))')
+
 
     raw_links = re.findall(link_pattern, text)
 
@@ -198,14 +202,20 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     return (has_error, error_message)
 
 
-def check_if_list_of_links_are_working(list_of_links: List[str]) -> List[str]:
+def check_if_list_of_links_are_working(list_of_links: List[str], max_workers: int = 10) -> List[str]:
     error_messages = []
-    for link in list_of_links:
-        has_error, error_message = check_if_link_is_working(link)
+    #  for link in list_of_links:
+        # has_error, error_message = check_if_link_is_working(link)
+    #     if has_error:
+    #         error_messages.append(error_message)
+    
+    unique_links = list(set(list_of_links))
 
-        if has_error:
-            error_messages.append(error_message)
-
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        results = executor.map(check_if_link_is_working, unique_links)
+        for has_error, error_message in results:
+            if has_error:
+                error_messages.append(error_message)
     return error_messages
 
 
@@ -230,7 +240,7 @@ def start_links_working_checker(links: List[str]) -> None:
 
     print(f'Checking if {len(links)} links are working...')
 
-    errors = check_if_list_of_links_are_working(links)
+    errors = check_if_list_of_links_are_working(links, 5)
     if errors:
 
         num_errors = len(errors)
