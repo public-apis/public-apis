@@ -2179,6 +2179,10 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 
+| Notion | Integrate and automate workflows with Notion pages and databases | OAuth | Yes | Unknown |
+https://developers.notion.com/
+
+
 <br>
 
 ## License
