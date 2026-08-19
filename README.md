@@ -560,6 +560,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Browshot](https://browshot.com/api/documentation) | Easily make screenshots of web pages in any screen size, as any device | `apiKey` | Yes | Yes |
 | [CDNJS](https://api.cdnjs.com/libraries/jquery) | Library info on CDNJS | No | Yes | Unknown |
 | [Changelogs.md](https://changelogs.md) | Structured changelog metadata from open source projects | No | Yes | Unknown |
+| [cStudios IMEI Device Specs](https://www.cstudio.sbs/tools/imei-check) | Retrieve smartphone and tablet hardware specifications by IMEI | `apiKey` | Yes | Yes |
+| [cStudios Phone Carrier Info](https://www.cstudio.sbs/apis/phone-number-info) | Telecom operator, circle, and region details from Indian mobile numbers | `apiKey` | Yes | Yes |
 | [Ciprand](https://github.com/polarspetroll/ciprand) | Secure random string generator | No | Yes | No |
 | [Cloudflare](https://developers.cloudflare.com/api/) | Manage DNS, CDN, Workers and other services; documented with an official OpenAPI 3.0 spec | `apiKey` | Yes | No |
 | [Cloudflare Trace](https://github.com/fawazahmed0/cloudflare-trace-api) | Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More | No | Yes | Yes |
@@ -863,6 +865,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Binlist](https://binlist.net/) | Public access to a database of IIN/BIN information | No | Yes | Unknown | |
 | [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | `apiKey` | Yes | Unknown | |
 | [BriefTape](https://brieftape.com) | Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged | `apiKey` | Yes | Yes |
+| [cStudios GSTIN to PAN](https://www.cstudio.sbs/apis/gstin-to-pan) | Extract PAN & map all Indian GST registrations by GSTIN | `apiKey` | Yes | Yes |
+| [cStudios IFSC Lookup](https://www.cstudio.sbs/tools/ifsc-lookup) | Indian bank branch, MICR code, and routing lookup by IFSC | `No` | Yes | Yes |
+| [cStudios PAN to GSTIN](https://www.cstudio.sbs/apis/pan-to-gstin) | Find all active and inactive GST registrations by Indian PAN | `apiKey` | Yes | Yes |
+| [cStudios UPI Verification](https://www.cstudio.sbs/apis/upi-info) | Real-time Indian UPI ID (VPA) verification and account name lookup | `apiKey` | Yes | Yes |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | All Citigroup account and statement data APIs | `apiKey` | Yes | Unknown | |
 | [CongressInvests](https://congressinvests.com) | Real-time U.S. congressional stock trade disclosures from Senate EFD and House Clerk | `apiKey` | Yes | Yes | |
 | [Dino.markets](https://dino.markets/docs) | Matched Kalshi and Polymarket prediction-market data, cross-venue spreads | `apiKey` | Yes | No | |
@@ -1074,6 +1080,7 @@ API | Description | Auth | HTTPS | CORS |
 | [BigDataCloud](https://www.bigdatacloud.com/ip-geolocation-apis) | Provides fast and accurate IP geolocation APIs along with security checks and confidence area | `apiKey` | Yes | Unknown |
 | [Bing Maps](https://www.microsoft.com/maps/) | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | Unknown |
 | [bng2latlong](https://www.getthedata.com/bng2latlong) | Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude | No | Yes | Yes |
+| [cStudios Indian Pincode](https://www.cstudio.sbs/tools/pincode-lookup) | Post office, district, state, and location details by 6-digit pincode | `No` | Yes | Yes |
 | [Cartes.io](https://github.com/M-Media-Group/Cartes.io/wiki/API) | Create maps and markers for anything | No | Yes | Unknown |
 | [Cep.la](http://cep.la/) | Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states | No | No | Unknown |
 | [CitySDK](http://www.citysdk.eu/citysdk-toolkit/) | Open APIs for select European cities | No | Yes | Unknown |
@@ -1969,6 +1976,9 @@ API | Description | Auth | HTTPS | CORS |
 | [BIC-Boxtech](https://docs.bic-boxtech.org/) | Container technical detail for the global container fleet | `OAuth` | Yes | Unknown |
 | [BlaBlaCar](https://dev.blablacar.com) | Search car sharing trips | `apiKey` | Yes | Unknown |
 | [Boston MBTA Transit](https://www.mbta.com/developers/v3-api) | Stations and predicted arrivals for MBTA | `apiKey` | Yes | Unknown |
+| [cStudios FASTag & Owner](https://www.cstudio.sbs/apis/fastag-vehicle-owner) | Check FASTag active status, issuing bank, and vehicle owner details | `apiKey` | Yes | Yes |
+| [cStudios RTO Vehicle RC](https://www.cstudio.sbs/tools/rc-lookup) | Indian RTO vehicle registration, fitness, PUCC, and insurance lookup | `apiKey` | Yes | Yes |
+| [cStudios Traffic Challan](https://www.cstudio.sbs/tools/challan-check) | Check real-time pending traffic e-challans and violation history | `apiKey` | Yes | Yes |
 | [Can I enter](https://canienter.com) | Visa and entry requirements for 199 passports, cited to official sources, verified daily | No | Yes | Yes |
 | [Community Transit](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) | Transitland API | No | Yes | Unknown |
 | [Compare Flight Prices](https://rapidapi.com/obryan-software-obryan-software-default/api/compare-flight-prices/) | API for comparing flight prices across platforms | `apiKey` | Yes | Unknown |
