@@ -2080,6 +2080,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ProblemsByVin](https://problemsbyvin.com/data/) | Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year | No | Yes | Yes |
 | [RevCarData](https://revcardata.com) | 86,000+ global vehicle specifications and EV metrics | `apiKey` | Yes | Yes |
 | [Smartcar](https://smartcar.com/docs/) | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth` | Yes | Yes |
+| [PlotAPI](https://plotapi.co) | Unified US/UK property search (Zillow & Rightmove) and vehicle specifications API | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
