@@ -389,7 +389,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Storj](https://docs.storj.io/dcs/) | Decentralized Open-Source Cloud Storage | `apiKey` | Yes | Unknown | |
 | [The Null Pointer](https://0x0.st) | No-bullshit file hosting and URL shortening service | No | Yes | Unknown | |
 | [Web3 Storage](https://web3.storage/) | File Sharing and Storage for Free with 1TB Space | `apiKey` | Yes | Yes | |
-| [YourImageShare](https://yourimageshare.com/about/api) | Free image and video hosting with instant shareable links | `apiKey` | Yes | No | |
+| [YourImageShare](https://yourimageshare.com/about/api) | Free image and video hosting with instant shareable links | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
