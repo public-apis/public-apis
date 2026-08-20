@@ -1424,6 +1424,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
 | [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
 | [Verome](https://github.com/Kirazul/Verome-API) | Music API for searching, streaming and exploring music data from YouTube Music, YouTube, and Last.fm | No | Yes | Unknown |
+| [Weblyrics](https://weblyrics.com.br/developers) | Chord fingerings and public Universe song/artist catalog | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
