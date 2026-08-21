@@ -89,6 +89,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [Dictionaries](#dictionaries)
 * [Documents & Productivity](#documents--productivity)
 * [Email](#email)
+* [E-Commerce](#e-commerce)
 * [Entertainment](#entertainment)
 * [Environment](#environment)
 * [Events](#events)
@@ -785,6 +786,15 @@ API | Description | Auth | HTTPS | CORS |
 | [Sendinblue](https://developers.sendinblue.com/docs) | A service that provides solutions relating to marketing and/or transactional email and/or SMS | `apiKey` | Yes | Unknown |
 | [uchecker](https://api.uchecker.net/docs) | Bulk email verification with full SMTP server responses | `apiKey` | Yes | Unknown |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+
+### E-Commerce
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [FakeStoreAPI](https://fakestoreapi.com) | Fake eCommerce product API for testing and prototyping | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
