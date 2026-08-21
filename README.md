@@ -1432,6 +1432,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Mediastack](https://mediastack.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Free, Simple REST API for Live News & Blog Articles | `apiKey` | Yes | Unknown |
+| [APITube](https://docs.apitube.io/platform/news-api) | Real-time and historical news from 500,000+ sources with sentiment, entities and topics as JSON | `apiKey` | Yes | Yes |
 | [Associated Press](https://developer.ap.org/) | Search for news and metadata from Associated Press | `apiKey` | Yes | Unknown |
 | [Chronicling America](http://chroniclingamerica.loc.gov/about/api/) | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | Unknown |
 | [Currents](https://currentsapi.services/) | Real-time and historical global news with multilingual support | `apiKey` | Yes | Yes |
