@@ -1369,6 +1369,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Jina AI](https://jina.ai) | Free AI API for embeddings, reranking, and text processing | `apiKey` | Yes | Yes |
 | [Keen IO](https://keen.io/) | Data Analytics | `apiKey` | Yes | Unknown |
 | [Machinetutors](https://www.machinetutors.com/portfolio/MT_api.html) | AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP | `apiKey` | Yes | Yes |
+| [Magic Hour](https://docs.magichour.ai) | AI video and image generation (Sora, Veo, Kling, Flux), face swap, lip sync and voice generation | `apiKey` | Yes | Unknown |
 | [MediaCraft AI](https://mediacraft-x402-api.onrender.com) | Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC). | `apiKey` | Yes | Yes |
 | [MessengerX.io](https://messengerx.rtfd.io) | A FREE API for developers to build and monetize personalized ML based chat apps | `apiKey` | Yes | Yes |
 | [NLP Cloud](https://nlpcloud.io) | NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more | `apiKey` | Yes | Unknown |
