@@ -164,9 +164,12 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     error_message = ''
 
     try:
+        # Do not set the `host` header by hand. requests derives Host from the
+        # URL on every hop; pinning the original host onto a cross-domain
+        # redirect makes the target reject the request (421) or loop until
+        # TooManyRedirects, reporting healthy links as broken.
         resp = requests.get(link, timeout=25, headers={
-            'User-Agent': fake_user_agent(),
-            'host': get_host_from_link(link)
+            'User-Agent': fake_user_agent()
         })
 
         code = resp.status_code
