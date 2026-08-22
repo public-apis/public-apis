@@ -1,7 +1,7 @@
 # Repository review（Windows-first）
 
 - Review date: 2026-08-22
-- Review baseline: `c045a2eb505f0f8b7992bb4af53cc020f25003fd`
+- Review baseline: `2ca3aae7b56b5a8cc16c9b29106b4b37ca7d0f1c`
 - Upstream reviewed through: `c045a2eb505f0f8b7992bb4af53cc020f25003fd`
 - Primary environment: Windows 11、PowerShell、Python 3.14.7（本機）、CI Windows / Ubuntu 3.12
 - Status: 維護骨架可用；API 目錄與 `scripts/validate/` 未改寫；官方仍是上游 `public-apis/public-apis`
@@ -40,15 +40,14 @@ python tools/check_upstream_updates.py
 | `python scripts/validate/format.py README.md` | 1 | APILayer 贊助表只有 3 欄、表格分隔列被當成 entry、多個分類未按字母排序 |
 | `python scripts/validate/links.py README.md --only_duplicate_links_checker` | 1 | 重複：`isitdownstatus.com`、`tastedive.com/read/api` |
 
-### GitHub Actions
+### GitHub Actions（`2ca3aae` push）
 
-fork 第一次 push 後補上 run URL。預期：
-
-| Workflow | 預期 | 說明 |
+| Workflow | 結果 | 說明 |
 |---|---|---|
-| CI | success | Ubuntu py3.12 + Windows `dev_check.ps1` |
-| Upstream check | success | 無未審查上游 commit |
-| 上游三個 catalog workflow | skipped | `if: github.repository == 'public-apis/public-apis'` |
+| [CI](https://github.com/SanHsien/public-apis/actions/runs/32555198499) | success | Ubuntu py3.12、Windows py3.12 `dev_check.ps1` |
+| [Upstream check](https://github.com/SanHsien/public-apis/actions/runs/32555198427) | success | 無未審查上游 commit |
+| [Tests of push & pull](https://github.com/SanHsien/public-apis/actions/runs/32555198495) | skipped | 官方 repo guard |
+| [Tests of validate package](https://github.com/SanHsien/public-apis/actions/runs/32555198538) | skipped | 官方 repo guard |
 
 ## 開放 findings
 
@@ -77,6 +76,5 @@ fork 第一次 push 後補上 run URL。預期：
 
 ## 建議下一步（未動手）
 
-1. 第一次 push 後確認 GitHub Actions 的 CI 與 Upstream check 為綠，上游三個 workflow 為 skipped。
+1. 每週一 03:00 UTC 的 `upstream-check.yml` 失敗時，依 [`docs/UPSTREAM.md`](docs/UPSTREAM.md) 審查後再推進 baseline。
 2. 若要回貢：重複連結去重（R-02）比修贊助表格式（R-01）小。
-3. 每週一 03:00 UTC 的 `upstream-check.yml` 失敗時，依 [`docs/UPSTREAM.md`](docs/UPSTREAM.md) 審查後再推進 baseline。
