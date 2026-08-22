@@ -11,6 +11,7 @@ env:
 jobs:
   validate_links:
     name: 'Check all links are working'
+    if: github.repository == 'public-apis/public-apis'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

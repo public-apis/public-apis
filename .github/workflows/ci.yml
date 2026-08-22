@@ -1,0 +1,78 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: test (ubuntu / py3.12)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: "utf-8"
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Install test dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Compile
+        run: python -m compileall -q scripts tests tools
+
+      - name: Ruff (E9 + F)
+        run: python -m ruff check --select E9,F --target-version py39 tests tools
+
+      - name: Pytest
+        run: python -m pytest tests -q
+
+      - name: Upstream validate package tests
+        working-directory: scripts
+        run: python -m unittest discover tests --quiet
+
+      - name: Check Markdown links
+        run: python tools/check_links.py
+
+  test-windows:
+    name: test (windows / py3.12)
+    runs-on: windows-latest
+    timeout-minutes: 20
+    env:
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: "utf-8"
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Install test dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Canonical Windows development gate
+        shell: pwsh
+        run: pwsh -NoProfile -File tools/dev_check.ps1

@@ -1,0 +1,7 @@
+# 本 fork 的開發閘門。
+# pytest 9 需要 Python >= 3.10；閘門以 3.12 為準。
+pytest>=8.3.0
+ruff>=0.16
+# links.py 需要 requests。不引用 scripts/requirements.txt 的 2021 pin，
+# 那是上游 Ubuntu 3.8 CI 用的；本線不幫上游升級那些 pin。
+requests>=2.32.0

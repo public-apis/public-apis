@@ -12,6 +12,7 @@ env:
 jobs:
   tests:
     name: 'Validate README.md changes'
+    if: github.repository == 'public-apis/public-apis'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

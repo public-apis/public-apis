@@ -1,0 +1,7 @@
+{
+  "repo": "https://github.com/public-apis/public-apis.git",
+  "branch": "master",
+  "reviewed_through": "c045a2eb505f0f8b7992bb4af53cc020f25003fd",
+  "reviewed_date": "2026-08-22",
+  "notes": "SanHsien fork baseline at clone time. HEAD is upstream master commit Merge pull request #6962 from ddevetak/add-football-charts."
+}

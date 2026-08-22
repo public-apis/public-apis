@@ -9,6 +9,7 @@ on:
 jobs:
   unittest:
     name: 'Run tests of validate package'
+    if: github.repository == 'public-apis/public-apis'
     runs-on: ubuntu-latest
 
     steps:

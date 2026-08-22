@@ -128,3 +128,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ruff
+.ruff_cache/
+
+# Fork maintenance reports
+upstream-review-report.md
