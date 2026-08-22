@@ -16,9 +16,13 @@ concurrency:
 
 jobs:
   test:
-    name: test (ubuntu / py3.12)
+    name: test (ubuntu / py${{ matrix.python-version }})
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.12", "3.14"]
     env:
       PYTHONUTF8: "1"
       PYTHONIOENCODING: "utf-8"
@@ -31,7 +35,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: "3.12"
+          python-version: ${{ matrix.python-version }}
 
       - name: Install test dependencies
         run: python -m pip install -r requirements-dev.txt
@@ -53,7 +57,7 @@ jobs:
         run: python tools/check_links.py
 
   test-windows:
-    name: test (windows / py3.12)
+    name: test (windows / py3.14)
     runs-on: windows-latest
     timeout-minutes: 20
     env:
@@ -68,7 +72,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: "3.12"
+          python-version: "3.14"
 
       - name: Install test dependencies
         run: python -m pip install -r requirements-dev.txt

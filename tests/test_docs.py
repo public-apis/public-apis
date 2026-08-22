@@ -51,21 +51,37 @@ def test_gitignore_covers_generated_reports() -> None:
 
 
 def test_check_links_skips_the_api_catalog() -> None:
-    names = {path.name for path in check_links.iter_documents()}
-    assert "README.md" not in names
-    assert "FORK.md" in names
-    assert "UPSTREAM.md" in names
+    rels = {path.relative_to(ROOT).as_posix() for path in check_links.iter_documents()}
+    assert "README.md" not in rels
+    assert "scripts/README.md" in rels
+    assert "FORK.md" in rels
+    assert "docs/UPSTREAM.md" in rels
 
 
-def test_upstream_catalog_workflows_stay_on_official_repo() -> None:
+def test_check_links_rejects_path_outside_repo(tmp_path: Path) -> None:
+    doc = tmp_path / "note.md"
+    doc.write_text("[here](.)\n", encoding="utf-8")
+    problems = check_links.check_document(doc)
+    assert any("逃出" in item for item in problems)
+
+
+def test_non_fork_workflows_have_repo_guard() -> None:
+    fork_owned = {"ci.yml", "upstream-check.yml"}
     workflows = ROOT / ".github" / "workflows"
-    for name in (
-        "test_of_push_and_pull.yml",
-        "test_of_validate_package.yml",
-        "validate_links.yml",
-    ):
-        text = (workflows / name).read_text(encoding="utf-8")
-        assert "github.repository == 'public-apis/public-apis'" in text
+    scanned = 0
+    for path in sorted(workflows.glob("*.yml")):
+        if path.name in fork_owned:
+            continue
+        scanned += 1
+        text = path.read_text(encoding="utf-8")
+        assert "github.repository == 'public-apis/public-apis'" in text, path.name
+    assert scanned >= 3
+
+
+def test_ci_covers_python_314() -> None:
+    ci = (ROOT / ".github" / "workflows" / "ci.yml").read_text(encoding="utf-8")
+    assert "3.14" in ci
+    assert "windows" in ci.lower()
 
 
 def test_fork_ci_does_not_gate_the_catalog_format() -> None:

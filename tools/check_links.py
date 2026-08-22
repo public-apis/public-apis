@@ -3,7 +3,7 @@
 
 本 fork 的公開入口互相連來連去：FORK、NOTICE、AGENTS 與 docs。
 文件被重新定位或改名時，這些連結會靜靜斷掉。只驗相對連結；外部網址交給人看。
-不掃上游 `README.md`：那是 1000+ API 目錄，連結健康由上游的 format / links 腳本負責。
+不掃根目錄 `README.md`：那是 1000+ API 目錄。`scripts/README.md` 仍會掃。
 
     python tools/check_links.py
 """
@@ -20,7 +20,7 @@ LINK_PATTERN = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
 SKIP_PREFIXES = ("http://", "https://", "mailto:", "tel:", "#")
 
 
-SKIP_NAMES = {
+SKIP_RELATIVE = {
     "README.md",
     "upstream-review-report.md",
 }
@@ -39,7 +39,7 @@ def iter_documents() -> list[Path]:
     return sorted(
         path
         for path in documents
-        if path.is_file() and path.name not in SKIP_NAMES
+        if path.is_file() and path.relative_to(ROOT).as_posix() not in SKIP_RELATIVE
     )
 
 
@@ -56,6 +56,9 @@ def check_document(path: Path) -> list[str]:
             resolved = (ROOT / file_part.lstrip("/")).resolve()
         else:
             resolved = (path.parent / file_part).resolve()
+        if not resolved.is_relative_to(ROOT):
+            problems.append(f"{target} → 連結逃出 repo 根目錄")
+            continue
         if not resolved.exists():
             try:
                 shown = resolved.relative_to(ROOT)

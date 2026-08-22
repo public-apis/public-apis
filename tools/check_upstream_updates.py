@@ -33,14 +33,17 @@ def load_baseline(path: Path = BASELINE_PATH) -> dict:
 
 
 def run_git(args: list[str], repo_dir: Path) -> str:
-    result = subprocess.run(
-        ["git", *args],
-        cwd=repo_dir,
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-    )
+    try:
+        result = subprocess.run(
+            ["git", *args],
+            cwd=repo_dir,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+        )
+    except FileNotFoundError as exc:
+        raise UpstreamCheckError(f"git not found: {exc}") from exc
     if result.returncode != 0:
         raise UpstreamCheckError(
             f"git {' '.join(args)} failed: {result.stderr.strip()}"
@@ -79,7 +82,10 @@ def collect_new_commits(baseline: dict, repo_dir: Path, ref: str) -> list[dict]:
     for line in raw.splitlines():
         if not line.strip():
             continue
-        sha, date, subject = line.split("\x1f", 2)
+        try:
+            sha, date, subject = line.split("\x1f", 2)
+        except ValueError as exc:
+            raise UpstreamCheckError(f"unexpected git log line: {line!r}") from exc
         files = [
             item
             for item in run_git(["show", "--name-only", "--format=", sha], repo_dir).splitlines()

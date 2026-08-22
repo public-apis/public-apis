@@ -20,7 +20,7 @@
 | `AGENTS.md` / `CLAUDE.md` | 本 fork 的 AI 維護單一真相源 |
 | `NOTICE.md` / `FORK.md` | 來源、授權與同步說明 |
 | `tools/dev_check.ps1` | Windows 本機一鍵 gate |
-| `.github/workflows/ci.yml` | 新增 Ubuntu + Windows：pytest / ruff / 上游 unittest / 維護文件連結 |
+| `.github/workflows/ci.yml` | 新增 Ubuntu 3.12／3.14 + Windows 3.14：pytest / ruff / 上游 unittest / 維護文件連結 |
 | `.github/workflows/upstream-check.yml` | 每週對 `upstream/master` 做未審查 commit 檢查 |
 | `docs/DECISIONS.md`、`docs/UPSTREAM.md`、`docs/DEVELOPMENT.md` | fork 維護文件 |
 | 上游既有 workflows | 保留，但加上只在官方 `public-apis/public-apis` 執行的 guard |

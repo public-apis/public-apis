@@ -46,7 +46,7 @@ pwsh -NoProfile -File tools\dev_check.ps1
 
 不把 `format.py README.md` 或完整／重複連結掃描當本 fork 硬閘門：上游 `master` 當下自己就過不了。細節見 [`DECISIONS.md`](DECISIONS.md)。
 
-PR CI 在 Ubuntu 與 Windows 各跑一套對應步驟。上游原有 workflows 加上 `github.repository == 'public-apis/public-apis'`，避免在本 fork 每天紅燈。
+PR CI 在 Ubuntu 跑 3.12 與 3.14，Windows 跑 3.14。上游原有 workflows 加上 `github.repository == 'public-apis/public-apis'`，避免在本 fork 每天紅燈。
 
 ## 不要做的事
 

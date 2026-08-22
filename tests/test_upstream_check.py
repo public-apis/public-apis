@@ -65,6 +65,34 @@ def test_load_baseline_rejects_missing_file(tmp_path: Path) -> None:
         checker.load_baseline(tmp_path / "nope.json")
 
 
+def test_run_git_wraps_missing_executable(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    def boom(*_args: object, **_kwargs: object) -> None:
+        raise FileNotFoundError("git")
+
+    monkeypatch.setattr(checker.subprocess, "run", boom)
+    with pytest.raises(checker.UpstreamCheckError, match="git not found"):
+        checker.run_git(["status"], tmp_path)
+
+
+def test_collect_new_commits_wraps_malformed_log(
+    monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+) -> None:
+    def fake_run_git(args: list[str], _repo_dir: Path) -> str:
+        if args and args[0] == "log":
+            return "not-a-valid-record\n"
+        return ""
+
+    monkeypatch.setattr(checker, "run_git", fake_run_git)
+    baseline = {
+        "repo": "https://example.invalid/upstream.git",
+        "branch": "master",
+        "reviewed_through": "a" * 40,
+        "reviewed_date": "2026-08-22",
+    }
+    with pytest.raises(checker.UpstreamCheckError, match="unexpected git log line"):
+        checker.collect_new_commits(baseline, tmp_path, "refs/upstream-check/master")
+
+
 def test_baseline_matches_decisions_record() -> None:
     decisions = (
         Path(__file__).parents[1] / "docs" / "DECISIONS.md"

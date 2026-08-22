@@ -22,7 +22,7 @@
 
 ## 技術與資料流
 
-- Python 3.9+（本機與 fork CI 以 3.12 為準）；上游 GitHub Actions 仍跑 3.8，不要去改那些 workflow 的版本，除非回貢。
+- Python 3.9+（本機與 Windows CI 以 3.14 為準；Ubuntu CI 跑 3.12 與 3.14）；上游 GitHub Actions 仍跑 3.8，不要去改那些 workflow 的版本，除非回貢。
 - `README.md`：API 目錄。
 - `scripts/validate/`：格式與連結檢查（以上游為準）。
 - `tools/`：fork 維護工具（上游檢查、相對連結檢查、Windows gate）。
