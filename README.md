@@ -543,6 +543,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
 | [Amazonscraperapi](https://amazonscraperapi.com) | Amazon product, search & batch scraping API with residential proxies (1000 free) | `apiKey` | Yes | No |
 | [AmberOne](https://scubamike124.github.io/amberone-api/) | Turn any website into a build-ready Android, iOS, PWA or Electron app project | `apiKey` | Yes | No |
+| [Annolux](https://annolux.com) | Curated English & Chinese search API and MCP for AI Agents | `apiKey` | Yes | Unknown |
 | [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | Yes | Unknown |
 | [ApicAgent](https://www.apicagent.com) | Extract device details from user-agent string | No | Yes | Yes |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
