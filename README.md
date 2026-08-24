@@ -1689,6 +1689,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Security
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [54ch10 Brief](https://54ch10.uk/AGENT.md) | Pre-interact risk briefs for addresses, tokens, and URLs (analytics-only) | No | Yes | Yes |
 | [Application Environment Verification](https://github.com/fingerprintjs/aev) | Android library and API to verify the safety of user devices, detect rooted devices and other risks | `apiKey` | Yes | Yes |
 | [BinaryEdge](https://docs.binaryedge.io/api-v2.html) | Provide access to BinaryEdge 40fy scanning platform | `apiKey` | Yes | Yes |
 | [BitWarden](https://bitwarden.com/help/api/) | Best open-source password manager | `OAuth` | Yes | Unknown |
