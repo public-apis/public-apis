@@ -1658,6 +1658,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Materials Platform for Data Science](https://mpds.io) | Curated experimental data for materials science | `apiKey` | Yes | No |
 | [Minor Planet Center](http://www.asterank.com/mpc) | Asterank.com Information | No | No | Unknown |
 | [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | No |
+| [NASA InSight](https://api.nasa.gov/) | Mars weather data from InSight lander | `apiKey` | Yes | Yes |
 | [NASA ADS](https://ui.adsabs.harvard.edu/help/api/api-docs.html) | NASA Astrophysics Data System | `OAuth` | Yes | Yes |
 | [Newton](https://newton.vercel.app) | Symbolic and Arithmetic Math Calculator | No | Yes | No |
 | [Noctua](https://api.noctuasky.com/api/v1/swaggerdoc/) | REST API used to access NoctuaSky features | No | Yes | Unknown |
