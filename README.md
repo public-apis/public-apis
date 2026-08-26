@@ -1275,6 +1275,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Clinical Trials Directory](https://trials.starfile.org/api) | Every clinical trial registered with ClinicalTrials.gov, indexed by condition and sponsor | No | Yes | Yes |
 | [CMS.gov](https://data.cms.gov/provider-data/) | Access to the data from the CMS - medicare.gov | `apiKey` | Yes | Unknown |
+| [OpenFDA](https://open.fda.gov/) | FDA drug, device, and food adverse event and labeling data | `apiKey` | Yes | Yes |
 | [Coronavirus](https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme) | HTTP API for Latest Covid-19 Data | No | Yes | Unknown |
 | [Coronavirus in the UK](https://coronavirus.data.gov.uk/details/developers-guide) | UK Government coronavirus data, including deaths and cases by region | No | Yes | Unknown |
 | [Covid Tracking Project](https://covidtracking.com/data/api/version-2) | Covid-19  data for the US | No | Yes | No |
