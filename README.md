@@ -2192,3 +2192,19 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+
+
+## Contribution Workflow
+
+This repository is an Open Source project where contributors can improve the project by adding useful APIs and documentation.
+
+The general contribution workflow is:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make the required changes.
+4. Commit the changes.
+5. Push the branch to GitHub.
+6. Create a Pull Request for review.
+
