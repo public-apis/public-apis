@@ -687,9 +687,11 @@ API | Description | Auth | HTTPS | CORS |
 | [Utilorax](https://utilorax.com/api) | 203 JSON endpoints: hashing, encoding, unit conversion, text, dates and file conversion | `apiKey` | Yes | Yes |
 | [Wandbox](https://github.com/melpon/wandbox/blob/master/kennel2/API.rst) | Code compiler supporting 35+ languages mentioned at wandbox.org | No | Yes | Unknown |
 | [Web Metadata & Contact Extractor](https://rapidapi.com/josejuanjocoding/api/web-metadata-and-contact-extractor) | Extract SEO metadata, contact emails, social links, and tech stack (<200ms) | `apiKey` | Yes | Yes |
+| [OpenLLM](https://github.com/MilanSirko/Open-LLM) | One API for 200+ only free AI models | `apiKey` | Yes | Yes | 
 | [Webclaw](https://webclaw.io/docs/api) | Web content extraction for LLMs with scrape, crawl, search, and summarize | `apiKey` | Yes | Yes |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
+
 
 
 
