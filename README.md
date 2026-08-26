@@ -430,6 +430,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Blockchain](https://www.blockchain.com/api) | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown |
 | [blockfrost Cardano](https://blockfrost.io/) | Interaction with the Cardano mainnet and several testnets | `apiKey` | Yes | Unknown |
 | [Brave NewCoin](https://bravenewcoin.com/developers) | Real-time and historic crypto data from more than 200+ exchanges | `apiKey` | Yes | Unknown |
+| [BTCGlobe](https://btcglobe.live/join#makers) | Bitcoin height, fees, mempool and peer data served live from two self-hosted nodes | No | Yes | Yes |
 | [btcnode.uk](https://btcnode.uk) | Bitcoin blockchain data, fees, mempool, SEC insider trades, Reddit sentiment. x402 micropayments for paid endpoints. | No | Yes | Unknown |
 | [BtcTurk](https://docs.btcturk.com/) | Real-time cryptocurrency data, graphs and API that allows buy&sell | `apiKey` | Yes | Yes |
 | [Bybit](https://bybit-exchange.github.io/docs/linear/#t-introduction) | Cryptocurrency data feed and algorithmic trading | `apiKey` | Yes | Unknown |
