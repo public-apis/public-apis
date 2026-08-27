@@ -788,6 +788,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SMTPfast](https://smtpfa.st/docs) | Send transactional email, manage contacts and broadcasts, free 3,000 emails/month | `apiKey` | Yes | Yes |
 | [uchecker](https://api.uchecker.net/docs) | Bulk email verification with full SMTP server responses | `apiKey` | Yes | Unknown |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
+| [Zyntra](https://docs.zyntra.app/) | Unlimited e-mail inboxes with API access. Catch OTPs, reset links, and sign-up emails in test flows | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
