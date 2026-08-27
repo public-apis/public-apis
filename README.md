@@ -1208,7 +1208,7 @@ API | Description | Auth | HTTPS | CORS |
 | [LocalGov.jp](https://localgov.jp/) | Japan grants and subsidies (central J-Grants + 1,916 municipalities) | No | Yes | Yes |
 | [National Park Service, US](https://www.nps.gov/subjects/developer/) | Data from the US National Park Service | `apiKey` | Yes | Yes |
 | [Neotimo DGFiP Mirror](https://neotimo.com/annuaire-dgfip) | French DGFiP registry of certified e-invoicing platforms (Plateformes Agréées), searchable by SIRET | No | Yes | Unknown |
-| [Offendersearch](https://offendersearch.app/docs) | Search all 58 US sex-offender registries (all states, DC, territories) in one call; scored records with official registry citations; free tier | `apiKey` | Yes | Unknown |
+| [Offendersearch](https://offendersearch.app/docs) | Search 58 US sex-offender registries (the 50 states, DC and US territories) in one call; scored records with official registry citations; free trial then paid | `apiKey` | Yes | Unknown |
 | [Open Government, ACT](https://www.data.act.gov.au/) | Australian Capital Territory Open Data | No | Yes | Unknown |
 | [Open Government, Argentina](https://datos.gob.ar/) | Argentina Government Open Data | No | Yes | Unknown |
 | [Open Government, Australia](https://www.data.gov.au/) | Australian Government Open Data | No | Yes | Unknown |
