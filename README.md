@@ -854,6 +854,8 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Finance
+
+ox402-utils - 88 paid utility APIs for AI agents and humans, payable per-call in USDC on Base via x402 (no API key, no signup). MCP server ready. Auth: No | HTTPS: Yes | CORS: Unknown | Link: https://satisfaction-genetic-lightbox-buying.trycloudflare.com
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
 | [Marketstack](https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown | |
