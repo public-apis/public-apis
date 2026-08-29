@@ -1,0 +1,10 @@
+[
+  {
+    "API": "BeatFinder",
+    "Description": "API to find trending music tracks and charts",
+    "Auth": "apiKey",
+    "HTTPS": true,
+    "Cors": "yes",
+    "Link": "https://beatfinder.io"
+  }
+]
