@@ -20,7 +20,7 @@ scripts
 
 You must have [python](https://www.python.org/) installed to use these scripts.
 
-it is also necessary to install the validation package dependencies, use [pip package manager](https://pypi.org/project/pip/) for this:
+It is also necessary to install the validation package dependencies. Use the [pip package manager](https://pypi.org/project/pip/) for this:
 
 ```bash
 $ python -m pip install -r scripts/requirements.txt
