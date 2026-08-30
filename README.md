@@ -1522,7 +1522,8 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ Back to Index](#index)**
 <br >
-<br >
+<br >| [SMMScout](https://smmscout.com/api/panels.json) | Open SMM panel dataset: 106 panels with Scout Scores, measured API latency, service counts and dated flags | No | Yes | Yes |
+
 ### Open Source Projects
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
