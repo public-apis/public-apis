@@ -2189,6 +2189,7 @@ API | Description | Auth | HTTPS | CORS |
 | [World Time & Weather](https://worldtimeweather.com/api.html) | Current weather, local time, UTC offset and DST rules for 400 cities as static JSON | No | Yes | Yes |
 | [wttr.in](https://wttr.in/:help) | Weather in your terminal, supports JSON output | No | Yes | Yes |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
+| [Weather Union](https://www.weatherunion.com/dashboard/#tag/default/GET/get_weather_data) | A free API by Zomato to track India's weather accurately | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
