@@ -24,11 +24,13 @@ num_segments = 5
 min_entries_per_category = 3
 max_description_length = 100
 
-anchor_re = re.compile(anchor + '\s(.+)')
-category_title_in_index_re = re.compile('\*\s\[(.*)\]')
-link_re = re.compile('\[(.+)\]\((http.*)\)')
+regex_an = '\s(.+)'
+anchor_re = re.compile(anchor + regex_an)
+regex_ca = '\*\s\[(.*)\]'
+category_title_in_index_re = re.compile(regex_ca)
+regex_li = '\[(.+)\]\((http.*)\)'
+link_re = re.compile(regex_li)
 
-# Type aliases
 APIList = List[str]
 Categories = Dict[str, APIList]
 CategoriesLineNumber = Dict[str, int]
@@ -51,12 +53,18 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
             categories[category] = []
             category_line_num[category] = line_num
             continue
-
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        pipe = '|'
+        pipe_and_dashes = '|---'
+        ops = line_content.startswith(pipe)
+        not_ops = not ops
+        l_cnt= line_content.startswith(pipe_and_dashes)
+        n_l_cnt = not l_cnt
+        cond = not_ops or not l_cnt
+        if cond:
             continue
 
         raw_title = [
-            raw_content.strip() for raw_content in line_content.split('|')[1:-1]
+            raw_content.strip() for raw_content in line_content.split(pipe)[1:-1]
         ][0]
 
         title_match = link_re.match(raw_title)
