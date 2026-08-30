@@ -1818,6 +1818,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Telegram MTProto](https://core.telegram.org/api#getting-started) | Read and write Telegram data | `OAuth` | Yes | Unknown |
 | [Telegraph](https://telegra.ph/api) | Create attractive blogs easily, to share | `apiKey` | Yes | Unknown |
 | [TikTok](https://developers.tiktok.com/doc/login-kit-web) | Fetches user info and user's video posts on TikTok platform | `OAuth` | Yes | Unknown |
+| [TikTool Live](https://tik.tools/docs) | Real-time TikTok LIVE stream events via WebSocket | `apiKey` | Yes | Yes |
 | [Trash Nothing](https://trashnothing.com/developer) | A freecycling community with thousands of free items posted every day | `OAuth` | Yes | Yes |
 | [Tumblr](https://www.tumblr.com/docs/en/api/v2) | Read and write Tumblr Data | `OAuth` | Yes | Unknown |
 | [TweetAPI](https://tweetapi.com/docs) | Public Twitter data for posts, profiles, followers, search, lists and communities | `apiKey` | Yes | No |
