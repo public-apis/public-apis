@@ -1712,6 +1712,7 @@ API | Description | Auth | HTTPS | CORS |
 | [EmailRep](https://docs.emailrep.io/) | Email address threat and risk prediction | No | Yes | Unknown |
 | [Escape](https://github.com/polarspetroll/EscapeAPI) | An API for escaping different kind of queries | No | Yes | No |
 | [FilterLists](https://filterlists.com) | Lists of filters for adblockers and firewalls | No | Yes | Unknown |
+| [FileShot](https://github.com/FileShot/FileShotZKE) | Zero-knowledge encrypted file uploads and shareable link generation | No | Yes | Unknown |
 | [FingerprintJS Pro](https://dev.fingerprintjs.com/docs) | Fraud detection API offering highly accurate browser fingerprinting | `apiKey` | Yes | Yes |
 | [FOFA](https://en.fofa.info/api) | Search engine for Internet connected assets and devices | `apiKey` | Yes | Unknown |
 | [FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order) | Screen order information using AI to detect frauds | `apiKey` | Yes | Unknown |
