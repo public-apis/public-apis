@@ -1,4 +1,4 @@
-F# APILayer Unified Suite in now Live! 🎉 🥳
+# APILayer Unified Suite in now Live! 🎉 🥳
 
 [APILayer unified suite](https://apilayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo) allows you to integrate production-grade REST APIs using **One Account, One Dashboard, and One API key.** Whether you need to geocode an address, validate an email, fetch a flight, pull stock market data, or scrape a search result.
 
@@ -204,7 +204,7 @@ API | Description | Auth | HTTPS | CORS |
 | [URLScan.io](https://urlscan.io/about-api/) | Scan and Analyse URLs | `apiKey` | Yes | Unknown |
 | [VirusTotal](https://docs.virustotal.com/reference/overview) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
 | [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/domain/URL reputation | `apiKey` | Yes | Unknown | 
-| [AI Fonts Generator](https://aifontsgenerator.com/api/styles.json) | Unicode font style data — 410 styles for Instagram, Discord and gaming | No | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -1918,6 +1918,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UUID Generator](https://www.uuidtools.com/docs) | Generate UUIDs | No | Yes | No |
 | [What The Commit](http://whatthecommit.com/index.txt) | Random commit message generator | No | No | Yes |
 | [Yes No](https://yesno.wtf/api) | Generate yes or no randomly | No | Yes | Unknown |
+| [AI Fonts Generator](https://aifontsgenerator.com/api/styles.json) | Unicode font style data — 410 styles for Instagram, Discord and gaming | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
