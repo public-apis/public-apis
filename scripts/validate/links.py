@@ -183,7 +183,7 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
         has_error = True
         error_message = f'ERR:CNT: {error} : {link}'
 
-    except (TimeoutError, requests.exceptions.ConnectTimeout):
+    except (TimeoutError, requests.exceptions.Timeout, requests.exceptions.ConnectTimeout, requests.exceptions.ReadTimeout):
         has_error = True
         error_message = f'ERR:TMO: {link}'
 
