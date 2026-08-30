@@ -271,7 +271,6 @@ API | Description | Auth | HTTPS | CORS |
 | [The Graph](https://thegraph.com) | Indexing protocol for querying networks like Ethereum with GraphQL | `apiKey` | Yes | Unknown |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
 | [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
-
 **[⬆ Back to Index](#index)**
 <br >
 <br >
@@ -303,6 +302,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Urantia Papers](https://urantia.dev) | Full-text + semantic search across the Urantia Papers, with audio narration, entities, translations | No | Yes | Yes |
 | [Wizard World](https://wizard-world-api.herokuapp.com/swagger/index.html) | Get information from the Harry Potter universe | No | Yes | Yes |
 | [Wolne Lektury](https://wolnelektury.pl/api/) | API for obtaining information about e-books available on the WolneLektury.pl website | No | Yes | Unknown |
+| [New York Times Books](https://developer.nytimes.com/docs/books-api/1/overview) | An API for The New York Times' best sellers lists and book reviews. | API Key | Yes | Unknown |
+
 
 **[⬆ Back to Index](#index)**
 <br >
