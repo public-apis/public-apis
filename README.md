@@ -788,6 +788,10 @@ API | Description | Auth | HTTPS | CORS |
 | [SMTPfast](https://smtpfa.st/docs) | Send transactional email, manage contacts and broadcasts, free 3,000 emails/month | `apiKey` | Yes | Yes |
 | [uchecker](https://api.uchecker.net/docs) | Bulk email verification with full SMTP server responses | `apiKey` | Yes | Unknown |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
+| [Mailgun](https://www.mailgun.com/) |  Provides email automation for transactional and marketing emails. Features include email validation, inbound parsing, and A/B testing. | `apiKey` | Yes | Yes |
+| [Postmark](https://postmarkapp.com/) | Specializes in fast, reliable transactional email delivery with high deliverability and time-sensitive emails. | `apiKey` | Yes | Yes |
+| [Resend](https://resend.com/) | API for sending transactional emails, with features for delivering emails at scale and real-time tracking.   | `apiKey` | Yes | Yes |
+
 
 **[⬆ Back to Index](#index)**
 <br >
