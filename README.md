@@ -2189,6 +2189,9 @@ API | Description | Auth | HTTPS | CORS |
 | [World Time & Weather](https://worldtimeweather.com/api.html) | Current weather, local time, UTC offset and DST rules for 400 cities as static JSON | No | Yes | Yes |
 | [wttr.in](https://wttr.in/:help) | Weather in your terminal, supports JSON output | No | Yes | Yes |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
+| [WeatherAPI](https://www.weatherapi.com/) | Weather API with other stuff like Astronomy and Geolocation API | `apiKey` | Yes | Yes |
+
+
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -2198,3 +2201,5 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+
