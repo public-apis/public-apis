@@ -676,6 +676,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Serialif Color](https://color.serialif.com/) | Color conversion, complementary, grayscale and contrasted text | No | Yes | No |
 | [serpstack](https://serpstack.com/) | Real-Time & Accurate Google Search Results API | `apiKey` | Yes | Yes |
 | [Sheetsu](https://sheetsu.com/) | Easy google sheets integration | `apiKey` | Yes | Unknown |
+| [Shotanvil](https://shotanvil.com) | Screenshot, PDF and HTML rendering API with a free tier, API key or x402 auth | `apiKey` | Yes | No |
 | [SHOUTCLOUD](http://shoutcloud.io/) | ALL-CAPS AS A SERVICE | No | No | Unknown |
 | [SiteIntel](https://siteintel.duckdns.org) | Extract metadata, tech stack, emails, and screenshots from any URL | `apiKey` | Yes | Unknown |
 | [Sonar](https://github.com/Cgboal/SonarSearch) | Project Sonar DNS Enumeration API | No | Yes | Yes |
