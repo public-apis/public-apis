@@ -3,6 +3,7 @@
 import re
 import sys
 import random
+import urllib.parse
 from typing import List, Tuple
 
 import requests
@@ -76,20 +77,14 @@ def fake_user_agent() -> str:
 
 
 def get_host_from_link(link: str) -> str:
-
-    host = link.split('://', 1)[1] if '://' in link else link
-
-    # Remove routes, arguments and anchors
-    if '/' in host:
-        host = host.split('/', 1)[0]
-
-    elif '?' in host:
-        host = host.split('?', 1)[0]
-
-    elif '#' in host:
-        host = host.split('#', 1)[0]
-
-    return host
+    """Extract clean hostname from link conforming to RFC 3986."""
+    try:
+        url_with_scheme = link if '://' in link else f'http://{link}'
+        parsed = urllib.parse.urlparse(url_with_scheme)
+        return parsed.hostname or parsed.netloc.split('@')[-1].split(':')[0]
+    except Exception:
+        host = link.split('://', 1)[1] if '://' in link else link
+        return re.split(r'[/\\?#@:]', host)[0]
 
 
 def has_cloudflare_protection(resp: Response) -> bool:
