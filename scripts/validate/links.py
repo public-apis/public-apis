@@ -139,11 +139,7 @@ def has_cloudflare_protection(resp: Response) -> bool:
 
     if code in [403, 503] and server == 'cloudflare':
         html = resp.text
-
-        flags_found = [flag in html for flag in cloudflare_flags]
-        any_flag_found = any(flags_found)
-
-        if any_flag_found:
+        if any(flag in html for flag in cloudflare_flags):
             return True
 
     return False
