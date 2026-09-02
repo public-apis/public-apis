@@ -1991,6 +1991,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Amadeus for Developers](https://developers.amadeus.com/self-service) | Travel Search - Limited usage | `OAuth` | Yes | Unknown |
 | [apilayer aviationstack](https://aviationstack.com/) | Real-time Flight Status & Global Aviation Data API | `OAuth` | Yes | Unknown |
 | [Apimetro](https://apimetro.dev/swagger/index.html) | Geospatial data for Mexico City public transport system (Metro, Metrobús, Cablebús, RTP, etc.) | No | Yes | Yes |
+| [Aviation Safety Data](https://himaxym.com/developers) | 164,068 aircraft accident narratives from 128 official investigation authorities, plus FAA data | No | Yes | Yes |
 | [AviationAPI](https://docs.aviationapi.com) | FAA Aeronautical Charts and Publications, Airport Information, and Airport Weather | No | Yes | No |
 | [AZ511](https://www.az511.com/developers/doc) | Access traffic data from the ADOT API | `apiKey` | Yes | Unknown |
 | [Bay Area Rapid Transit](http://api.bart.gov) | Stations and predicted arrivals for BART | `apiKey` | No | Unknown |
