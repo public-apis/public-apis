@@ -1938,6 +1938,9 @@ API | Description | Auth | HTTPS | CORS |
 ### Text Analysis
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Vega URL Extractor](https://extract.kramsg1online.com) | Extract clean text from URLs with x402 USDC micropayments | No | Yes | Yes |
+| [Vega PDF Extractor](https://pdf.kramsg1online.com) | Extract text from PDF documents with x402 USDC micropayments | No | Yes | Yes |
+| [Vega Summarizer](https://summarize.kramsg1online.com) | Summarize articles and text with x402 USDC micropayments | No | Yes | Yes |
 | [Code Detection](https://codedetectionapi.runtime.dev) | Detect, label, format and enrich the code in your app or in your data pipeline | `OAuth` | Yes | Unknown |
 | [apilayer languagelayer](https://languagelayer.com/) | Language Detection JSON API supporting 173 languages | `OAuth` | Yes | Unknown |
 | [Aylien Text Analysis](https://docs.aylien.com/textapi/#getting-started) | A collection of information retrieval and natural language APIs | `apiKey` | Yes | Unknown |
