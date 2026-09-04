@@ -757,6 +757,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Podio](https://developers.podio.com) | File sharing and productivity | `OAuth` | Yes | Unknown |
 | [PolyDoc](https://polydoc.tech) | HTML/URL to PDF and screenshots, plus Factur-X/ZUGFeRD e-invoices; free tier | `apiKey` | Yes | Unknown |
 | [PrexView](https://prexview.com) | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | Unknown |
+| [PrintSocket](https://www.printsocket.com/docs) | Send PDFs, ZPL labels and ESC/POS receipts to your own printers from any language; free tier | `apiKey` | Yes | No |
 | [Renderly](https://renderlyapi.com) | HTML to PDF conversion API built on Chromium | `apiKey` | Yes | Yes |
 | [Rendex](https://rendex.dev) | Render HTML, Markdown, or URLs to PNG/JPEG/WebP/PDF, with extraction and templating | `apiKey` | Yes | Unknown |
 | [Restpack](https://restpack.io/) | Provides screenshot, HTML to PDF and content extraction APIs | `apiKey` | Yes | Unknown |
