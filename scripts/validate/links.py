@@ -3,6 +3,7 @@
 import re
 import sys
 import random
+import concurrent.futures
 from typing import List, Tuple
 
 import requests
@@ -200,11 +201,16 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
 
 def check_if_list_of_links_are_working(list_of_links: List[str]) -> List[str]:
     error_messages = []
-    for link in list_of_links:
-        has_error, error_message = check_if_link_is_working(link)
-
-        if has_error:
-            error_messages.append(error_message)
+    
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+        # Submit all tasks to the executor
+        future_to_link = {executor.submit(check_if_link_is_working, link): link for link in list_of_links}
+        
+        # Iterate over the results as they complete
+        for future in concurrent.futures.as_completed(future_to_link):
+            has_error, error_message = future.result()
+            if has_error:
+                error_messages.append(error_message)
 
     return error_messages
 
