@@ -1885,6 +1885,7 @@ API | Description | Auth | HTTPS | CORS |
 | [DummyJSON](https://dummyjson.com/) | Fake REST API with products, users, posts, comments, todos and more | No | Yes | Yes |
 | [English Random Words](https://random-words-api.vercel.app/word) | Generate English Random Words with Pronunciation | No | Yes | No |
 | [FakeJSON](https://fakejson.com) | Service to generate test and fake data | `apiKey` | Yes | Yes |
+| [Fakenamely](https://fakenamely.com/api) | Keyless, seedable fictional identities, names and addresses with real postal codes for 38 countries | No | Yes | Yes |
 | [FakerAPI](https://fakerapi.it/en) | APIs collection to get fake data | No | Yes | Yes |
 | [FakeStoreAPI](https://fakestoreapi.com/) | Fake store rest API for your e-commerce or shopping website prototype | No | Yes | Unknown |
 | [GeneradorDNI](https://api.generadordni.es) | Data generator API. Profiles, vehicles, banks and cards, etc | `apiKey` | Yes | Unknown |
