@@ -128,3 +128,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+# Custom local scripts and environments
+format_errors.txt
+scripts/fix_readme.py
+myenv/
+
