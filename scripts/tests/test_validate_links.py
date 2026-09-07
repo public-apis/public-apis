@@ -108,7 +108,9 @@ class TestValidateLinks(unittest.TestCase):
             'https://www.example.com.br',
             'https://www.example.com/route',
             'https://www.example.com?p=1&q=2',
-            'https://www.example.com#anchor'
+            'https://www.example.com#anchor',
+            'https://user:password@example.com/api',
+            'https://example.com:8080/path',
         ]
 
         for link in links:

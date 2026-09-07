@@ -7,7 +7,7 @@ from typing import List, Tuple, Dict
 
 # Temporary replacement
 # The descriptions that contain () at the end must adapt to the new policy later
-punctuation = punctuation.replace('()', '')
+punctuation = punctuation.replace('(', '').replace(')', '')
 
 anchor = '###'
 auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'User-Agent', 'No']
@@ -24,9 +24,9 @@ num_segments = 5
 min_entries_per_category = 3
 max_description_length = 100
 
-anchor_re = re.compile(anchor + '\s(.+)')
-category_title_in_index_re = re.compile('\*\s\[(.*)\]')
-link_re = re.compile('\[(.+)\]\((http.*)\)')
+anchor_re = re.compile(re.escape(anchor) + r'\s(.+)')
+category_title_in_index_re = re.compile(r'\*\s\[(.*)\]')
+link_re = re.compile(r'\[(.+)\]\((http.*)\)')
 
 # Type aliases
 APIList = List[str]
