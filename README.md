@@ -1672,6 +1672,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Readme typing SVG](https://github.com/DenverCoder1/readme-typing-svg) | Customizable typing and deleting text SVG | No | Yes | Unknown |
 | [Remove.bg](https://www.remove.bg/api) | Image Background removal | `apiKey` | Yes | Unknown |
 | [ReSmush.it](https://resmush.it/api) | Photo optimization | No | No | Unknown |
+| [Screenshot Studio](https://www.screenshot-studio.com/docs) | Capture web pages as images through a public HTTP API | No | Yes | No | [Run in Postman](https://venkataratnamoleti-6296598.postman.co/workspace/OLETI-VENKATA-RATNAM's-Workspac~8b2e48ca-8dea-4295-8ce2-7733ea46ceeb/collection/58110019-3edeb148-13ad-4c66-9d85-23c219bbfa54?action=share&creator=58110019) |
 | [shutterstock](https://api-reference.shutterstock.com/) | Stock Photos and Videos | `OAuth` | Yes | Unknown |
 | [Sirv](https://apidocs.sirv.com/) | Image management solutions like optimization, manipulation, hosting | `apiKey` | Yes | Unknown |
 | [Tinify.dev](https://tinify.dev/developers) | Image compression, resize and crop API with usage metadata | `apiKey` | Yes | No |
