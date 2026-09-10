@@ -273,6 +273,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
 | [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
 
+| [Vega URL Extractor](https://extract.kramsg1online.com) | Extract clean text from any web page URL via x402 USDC micropayments | `apiKey` | Yes | Yes |
+| [Vega PDF Extractor](https://pdf.kramsg1online.com) | Extract text from PDF files via x402 USDC micropayments | `apiKey` | Yes | Yes |
+| [Vega Summarizer](https://summarize.kramsg1online.com) | Summarize articles and URLs via x402 USDC micropayments | `apiKey` | Yes | Yes |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
