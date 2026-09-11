@@ -2257,6 +2257,8 @@ API | Description | Auth | HTTPS | CORS |
 | [wttr.in](https://wttr.in/:help) | Weather in your terminal, supports JSON output | No | Yes | Yes |
 | [Yandex.Weather](https://yandex.com/dev/weather/) | Assesses weather condition in specific locations | `apiKey` | Yes | No |
 
+- [Salik Hussain](https://github.com/salikhussain71-code) - Pakistan
+
 **[⬆ Back to Index](#index)**
 <br >
 <br >
