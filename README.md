@@ -555,7 +555,7 @@ API | Description | Auth | HTTPS | CORS |
 | [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | Yes | Unknown |
 | [ApicAgent](https://www.apicagent.com) | Extract device details from user-agent string | No | Yes | Yes |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
-| [APIFreaks](https://apifreaks.com/) | Hub of 60+ production-ready APIs for geolocation, domain intelligence, DNS, email, finance, weather, and automation | `apiKey` | Yes | Yes |
+| [APIFreaks](https://apifreaks.com/) | Hub of 60+ production-ready APIs for geolocation, DNS, email, finance, weather, and automation | `apiKey` | Yes | Yes |
 | [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown |
 | [APIzone](https://apizone.io/api-docs) | Independent uptime & status monitoring for 200+ popular APIs | No | Yes | Yes |
 | [Aquanode](https://docs.aquanode.io/docs/api/marketplace) | Live GPU rental prices and availability across nine cloud providers | No | Yes | No |
@@ -893,7 +893,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | `apiKey` | Yes | Unknown | |
 | [BriefTape](https://brieftape.com) | Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged | `apiKey` | Yes | Yes |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | All Citigroup account and statement data APIs | `apiKey` | Yes | Unknown | |
-| [Commodity Price API](https://commoditypriceeapi.com/) | Real-time and historical commodity prices for 70+ global commodities including metals, energy, and agriculture | `apiKey` | Yes | Yes |
+| [Commodity Price API](https://commoditypriceeapi.com/) | Real-time and historical commodity prices for 70+ global commodities: metals, energy, agriculture | `apiKey` | Yes | Yes |
 | [CongressInvests](https://congressinvests.com) | Real-time U.S. congressional stock trade disclosures from Senate EFD and House Clerk | `apiKey` | Yes | Yes | |
 | [Dino.markets](https://dino.markets/docs) | Matched Kalshi and Polymarket prediction-market data, cross-venue spreads | `apiKey` | Yes | No | |
 | [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes | |
