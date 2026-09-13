@@ -797,6 +797,7 @@ API | Description | Auth | HTTPS | CORS |
 | [EVA](https://eva.pingutil.com/) | Validate email addresses | No | Yes | Yes |
 | [Guerrilla Mail](https://www.guerrillamail.com/GuerrillaMailAPI.html) | Disposable temporary Email addresses | No | Yes | Unknown |
 | [ImprovMX](https://improvmx.com/api) | API for free email forwarding service | `apiKey` | Yes | Unknown |
+| [inboxsink](https://inboxsink.com/docs) | Disposable inboxes for end-to-end tests that wait for the email and extract OTP codes | `apiKey` | Yes | No |
 | [Kickbox](https://open.kickbox.com/) | Email verification API | No | Yes | Yes |
 | [Kiprio Email Validate](https://kiprio.com/v1/email-validate) | Free email validation: MX check, disposable detection, syntax | `apiKey` | Yes | Yes |
 | [mail.gw](https://docs.mail.gw) | 10 Minute Mail | No | Yes | Yes |
