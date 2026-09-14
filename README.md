@@ -819,6 +819,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SMTPfast](https://smtpfa.st/docs) | Send transactional email, manage contacts and broadcasts, free 3,000 emails/month | `apiKey` | Yes | Yes |
 | [uchecker](https://api.uchecker.net/docs) | Bulk email verification with full SMTP server responses | `apiKey` | Yes | Unknown |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
+| [Xeramail Temp Mail](https://xeramail.com/docs/api) | Disposable email address REST API for privacy, testing, automation with OTP extraction | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
