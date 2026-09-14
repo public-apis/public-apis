@@ -127,11 +127,11 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 ### Animals
 API | Description | Auth | HTTPS | CORS 
 |:---|:---|:---|:---|:---|
-| [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | Resource to help get pets adopted | `apiKey` | Yes | Yes |
+
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No | |
 | [Cat Facts](https://catfact.ninja/) | Random cat facts | No | Yes | Yes |
-| [Cataas](https://cataas.com/) | Cat as a service (cats pictures and gifs) | No | Yes | No |
+
 | [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | No |
 | [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Yes |
 | [Dog Facts](https://kinduff.github.io/dog-api/) | Random facts of Dogs | No | Yes | Yes |
@@ -140,10 +140,10 @@ API | Description | Auth | HTTPS | CORS
 | [FishWatch](https://www.fishwatch.gov/developers) | Information and pictures about individual fish species | No | Yes | Yes |
 | [HTTP Cat](https://http.cat/) | Cat for every HTTP Status | No | Yes | Yes |
 | [HTTP Dog](https://http.dog/) | Dogs for every HTTP response status code | No | Yes | Yes |
-| [IUCN](http://apiv3.iucnredlist.org/api/v3/docs) | IUCN Red List of Threatened Species | `apiKey` | No | No |
+| [IUCN](https://www.iucnredlist.org/en) | IUCN Red List of Threatened Species | `apiKey` | Yes | No |
 | [MeowFacts](https://github.com/wh-iterabb-it/meowfacts) | Get random cat facts | No | Yes | No |
 | [Movebank](https://github.com/movebank/movebank-api-doc) | Movement and Migration data of animals | No | Yes | Yes |
-| [Petfinder](https://www.petfinder.com/developers/) | Petfinder is dedicated to helping pets find homes, another resource to get pets adopted | `apiKey` | Yes | Yes |
+
 | [PlaceBear](https://placebear.com/) | Placeholder bear pictures | No | Yes | Yes |
 | [PlaceDog](https://place.dog) | Placeholder Dog pictures | No | Yes | Yes |
 | [RandomDog](https://random.dog/woof.json) | Random pictures of dogs | No | Yes | Yes |
@@ -469,6 +469,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Gateio](https://www.gate.io/api2) | API provides spot, margin and futures trading operations | `apiKey` | Yes | Unknown |
 | [Gemini](https://docs.gemini.com/rest-api/) | Cryptocurrencies Exchange | No | Yes | Unknown |
 | [Hirak Exchange Rates](https://rates.hirak.site/) | Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits | `apiKey` | Yes | Unknown |
+| [HostDeFi](https://hostdefi.com/docs/api/) | Free A+–F token-safety grades across Solana and EVM chains | No | Yes | Yes |
 | [Huobi](https://huobiapi.github.io/docs/spot/v1/en/) | Seychelles based cryptocurrency exchange | `apiKey` | Yes | Unknown |
 | [Hyperliquid Market Data](https://rapidapi.com/theliminalguy/api/hyperliquid-market-data-oi-funding-open-interest) | Hyperliquid open interest, funding and cross-venue predicted rates per coin | `apiKey` | Yes | Yes |
 | [icy.tools](https://developers.icy.tools/) | GraphQL based NFT API | `apiKey` | Yes | Unknown |
@@ -1828,6 +1829,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Best Buy](https://bestbuyapis.github.io/api-documentation/#overview) | Products, Buying Options, Categories, Recommendations, Stores and Commerce | `apiKey` | Yes | Unknown |
 | [BuyWhere](https://buywhere.ai) | Real-time product catalog API for AI agents across merchants in 7 countries (SG, MY, TH, VN, PH, ID, US) | `apiKey` | Yes | Unknown |
+| [CartScout](https://rapidapi.com/veselinveselinov06/api/cartscout-api) | Price, stock, variants and GTIN from Shopify, WooCommerce, Walmart and eBay product pages | `apiKey` | Yes | Unknown |
 | [Digi-Key](https://www.digikey.com/en/resources/api-solutions) | Retrieve price and inventory of electronic components as well as place orders | `OAuth` | Yes | Unknown |
 | [Descripio Amazon Reviews](https://docs.descripio.com) | Amazon product reviews for 12 marketplaces | `apiKey` | Yes | Unknown |
 | [Dummy Products](https://dummyproducts-api.herokuapp.com/) | An api to fetch dummy e-commerce products JSON data with placeholder images | `apiKey` | Yes | Yes |
