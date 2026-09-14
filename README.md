@@ -631,7 +631,6 @@ API | Description | Auth | HTTPS | CORS |
 | [IPify](https://www.ipify.org/) | A simple IP Address API | No | Yes | Unknown |
 | [IPinfo](https://ipinfo.io/developers) | Another simple IP Address API | No | Yes | Unknown |
 | [Is This Site Down?](https://downforjustmeoreveryone.com/api) | Check if any website is down, from two continents; live status, uptime history and TLS expiry | No | Yes | Yes |
-| [isitdownstatus](https://isitdownstatus.com) | Check if websites and online services are currently down | No | Yes | Unknown |
 | [jsDelivr](https://github.com/jsdelivr/data.jsdelivr.com) | Package info and download stats on jsDelivr CDN | No | Yes | Yes |
 | [JSON 2 JSONP](https://json2jsonp.com/) | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | Unknown |
 | [JSONbin.io](https://jsonbin.io) | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | Yes |
@@ -864,7 +863,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Luchtmeetnet](https://api-docs.luchtmeetnet.nl/) | Predicted and actual air quality components for The Netherlands (RIVM) | No | Yes | Unknown |
 | [National Grid ESO](https://data.nationalgrideso.com/) | Open data from Great Britain’s Electricity System Operator | No | Yes | Unknown |
 | [OpenAQ](https://docs.openaq.org/) | Open air quality data | `apiKey` | Yes | Unknown |
-| [Open-Meteo](https://open-meteo.com/) | Free weather API for non-commercial use | No | Yes | Yes |
 | [PM2.5 Open Data Portal](https://pm25.lass-net.org/#apis) | Open low-cost PM2.5 sensor data | No | Yes | Unknown |
 | [PM25.in](http://www.pm25.in/api_doc) | Air quality of China | `apiKey` | No | Unknown |
 | [PVWatts](https://developer.nrel.gov/docs/solar/pvwatts/v6/) | Energy production photovoltaic (PV) energy systems | `apiKey` | Yes | Unknown |
@@ -1487,7 +1485,6 @@ API | Description | Auth | HTTPS | CORS |
 | [SoundCloud](https://developers.soundcloud.com/docs/api/guide) | With SoundCloud API you can build applications that will give more power to control your content | `OAuth` | Yes | Unknown |
 | [Spotify](https://beta.developer.spotify.com/documentation/web-api/) | View Spotify music catalog, manage users' libraries, get recommendations and more | `OAuth` | Yes | Unknown |
 | [Sunor](https://docs.sunor.cc) | AI music generation API via Suno, with pay-as-you-go credits | `apiKey` | Yes | Unknown |
-| [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
 | [TheAudioDB](https://www.theaudiodb.com/api_guide.php) | Music | `apiKey` | Yes | Unknown |
 | [Vagalume](https://api.vagalume.com.br/docs/) | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | Unknown |
 | [Verome](https://github.com/Kirazul/Verome-API) | Music API for searching, streaming and exploring music data from YouTube Music, YouTube, and Last.fm | No | Yes | Unknown |
@@ -1735,7 +1732,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Minor Planet Center](http://www.asterank.com/mpc) | Asterank.com Information | No | No | Unknown |
 | [MyGene.info](https://docs.mygene.info/) | Gene annotation queries and ID lookup | No | Yes | Yes |
 | [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | No |
-| [NASA InSight](https://api.nasa.gov/) | Mars weather data from InSight lander | `apiKey` | Yes | Yes |
 | [NASA ADS](https://ui.adsabs.harvard.edu/help/api/api-docs.html) | NASA Astrophysics Data System | `OAuth` | Yes | Yes |
 | [Newton](https://newton.vercel.app) | Symbolic and Arithmetic Math Calculator | No | Yes | No |
 | [Noctua](https://api.noctuasky.com/api/v1/swaggerdoc/) | REST API used to access NoctuaSky features | No | Yes | Unknown |
