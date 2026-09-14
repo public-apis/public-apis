@@ -89,12 +89,11 @@ Opening a pull request will trigger a build to check the validity of all links i
 
 *Thanks for being a part of this project, and we look forward to hearing from you soon!*
 
-[branch-link]: <http://guides.github.com/introduction/flow/>
+[branch-link]: <https://docs.github.com/get-started/quickstart/github-flow>
 [clone-link]: <https://help.github.com/articles/cloning-a-repository/>
-[fork-link]: <http://guides.github.com/activities/forking/>
+[fork-link]: <https://docs.github.com/get-started/quickstart/contributing-to-projects>
 [oauth-link]: <https://en.wikipedia.org/wiki/OAuth>
 [pr-link]: <https://help.github.com/articles/creating-a-pull-request/>
 [remote-link]: <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
 [syncing-link]: <https://help.github.com/articles/syncing-a-fork>
 [squash-link]: <https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit>
-
