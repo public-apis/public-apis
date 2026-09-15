@@ -1934,6 +1934,7 @@ API | Description | Auth | HTTPS | CORS |
 | [balldontlie](https://www.balldontlie.io) | Balldontlie provides access to stats data from the NBA | No | Yes | Yes |
 | [Bet Better](https://betbetter.world/api/) | Sports model win probabilities and fair odds across 13 leagues | No | Yes | Yes |
 | [Canadian Football League (CFL)](http://api.cfl.ca/) | Official JSON API providing real-time league, team and player statistics about the CFL | `apiKey` | Yes | No |
+| [Cito UFC API](https://citoapi.com/ufc-api/) | UFC and MMA fight data: fighters, cards, round stats, rankings and live state | `apiKey` | Yes | No |
 | [City Bikes](https://api.citybik.es/v2/) | City Bikes around the world | No | Yes | Unknown |
 | [Cloudbet](https://www.cloudbet.com/api/) | Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically | `apiKey` | Yes | Yes |
 | [CollegeFootballData.com](https://collegefootballdata.com) | Unofficial detailed American college football statistics, records, and results API | `apiKey` | Yes | Unknown |
