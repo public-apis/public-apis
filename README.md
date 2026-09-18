@@ -656,6 +656,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Mocky](https://designer.mocky.io/) | Mock user defined test JSON for REST API endpoints | No | Yes | Yes |
 | [MY IP](https://www.myip.com/api-docs/) | Get IP address information | No | Yes | Unknown |
 | [MyIPRightNow](https://myiprightnow.com) | Public IP address with network, location, and connection details | No | Yes | Yes |
+| [NameGender](https://namegender.com/docs) | Gender from a first name, full name, email or username, with probability | `apiKey` | Yes | Yes |
 | [Nationalize.io](https://nationalize.io) | Estimate the nationality of a first name | No | Yes | Yes |
 | [Nerdulator](https://nerdulator.com/api) | Everything derivable from one value: numbers, dates, colours, UUIDs, cron expressions | No | Yes | Yes |
 | [Netlify](https://docs.netlify.com/api/get-started/) | Netlify is a hosting service for the programmable web | `OAuth` | Yes | Unknown |
