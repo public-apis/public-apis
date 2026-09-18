@@ -2088,6 +2088,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [ADS-B Exchange](https://www.adsbexchange.com/data/) | Access real-time and historical data of any and all airborne aircraft | No | Yes | Unknown |
 | [airportsapi](https://airport-web.appspot.com/api/docs/) | Get name and website-URL for airports by ICAO code | No | Yes | Unknown |
+| [Aether-X Port Congestion Oracle](https://rapidapi.com/belegante/api/aether-x-port-congestion-oracle) | Predictive port congestion, ETA delay and freight volatility signals for 16 global ports | `apiKey` | Yes | Yes |
 | [AIS Hub](http://www.aishub.net/api) | Real-time data of any marine and inland vessel equipped with AIS tracking system | `apiKey` | No | Unknown |
 | [Amadeus for Developers](https://developers.amadeus.com/self-service) | Travel Search - Limited usage | `OAuth` | Yes | Unknown |
 | [apilayer aviationstack](https://aviationstack.com/) | Real-time Flight Status & Global Aviation Data API | `OAuth` | Yes | Unknown |
