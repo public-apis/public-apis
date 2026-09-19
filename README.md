@@ -1251,6 +1251,9 @@ API | Description | Auth | HTTPS | CORS |
 | [Bidledger](https://jaydemks.github.io/bidledger/api.html) | Every open public tender in the European Union, rebuilt daily from the official TED data | No | Yes | Yes |
 | [Brazil](https://brasilapi.com.br/) | Community driven API for Brazil Public Data | No | Yes | Yes |
 | [Brazil Central Bank Open Data](https://dadosabertos.bcb.gov.br/) | Brazil Central Bank Open Data | No | Yes | Unknown |
+| [DVF Immobilier](https://rapidapi.com/Gregg007/api/dvf-immobilier-fr) | French real estate transaction prices and estimates from official government data | `apiKey` | Yes | Unknown |
+| [SIRET Enrich FR](https://rapidapi.com/Gregg007/api/siret-enrich-fr) | Enrich French company data with SIRET/SIREN: risk score, officers, BODACC alerts | `apiKey` | Yes | Unknown |
+| [FuelAlert](https://rapidapi.com/Gregg007/api/fuelalert-api) | Real-time fuel prices across France, Germany, Spain, Italy and Austria | `apiKey` | Yes | Unknown |
 | [Brazil Receita WS](https://www.receitaws.com.br/) | Consult companies by CNPJ for Brazilian companies | No | Yes | Unknown |
 | [Brazilian Chamber of Deputies Open Data](https://dadosabertos.camara.leg.br/swagger/api.html) | Provides legislative information in Apis XML and JSON, as well as files in various formats | No | Yes | No |
 | [CPFHub](https://cpfhub.io) | Brazilian CPF lookup — returns full name, birth date, and gender for any CPF | `apiKey` | Yes | Yes |
