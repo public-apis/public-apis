@@ -1570,6 +1570,7 @@ API | Description | Auth | HTTPS | CORS |
 | [BTU Graph](https://btugraph.com/data/) | Source-reviewed energy company knowledge graph and directory exports | No | Yes | Yes |
 | [Callook.info](https://callook.info) | United States ham radio callsigns | No | Yes | Unknown |
 | [CARTO](https://carto.com/) | Location Information Prediction | `apiKey` | Yes | Unknown |
+| [DA Leads](https://daleads.com.au/api/v1/docs) | Australian development application data across 330+ councils | `apiKey` | Yes | Yes |
 | [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data/) | Data on higher education institutions in the United States | No | Yes | Unknown |
 | [CoworkingView](https://coworkingview.com/openapi.json) | Coworking spaces and offices in 63 European and Gulf cities with operator-published prices | No | Yes | No |
 | [CuttingToolsAI](https://cuttingtoolsai.eu/api) | Cross-brand carbide insert grade equivalents by ISO application class | No | Yes | Yes |
