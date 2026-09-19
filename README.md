@@ -153,6 +153,8 @@ API | Description | Auth | HTTPS | CORS
 | [Shibe.Online](http://shibe.online/) | Random pictures of Shiba Inu, cats or birds | No | Yes | Yes |
 | [The Dog](https://thedogapi.com/) | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | No |
 | [xeno-canto](https://xeno-canto.org/explore/api) | Bird recordings | No | Yes | Unknown |
+| [Open Science DB](https://api.open-meteo.com) | Free weather and atmospheric forecasting API | `No` | `Yes` | `Yes` |
+
 
 **[⬆ Back to Index](#index)**
 <br >
