@@ -65,7 +65,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 * [API for this project](https://github.com/davemachado/public-api)
 * [Issues](https://github.com/public-apis/public-apis/issues)
 * [Pull Requests](https://github.com/public-apis/public-apis/pulls)
-* [LICENSE](LICENSE) 
+* [LICENSE](LICENSE)
 
 <br />
 
