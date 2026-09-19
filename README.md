@@ -205,6 +205,7 @@ API | Description | Auth | HTTPS | CORS |
 | [VirusTotal](https://docs.virustotal.com/reference/overview) | VirusTotal File/URL Analysis | `apiKey` | Yes | Unknown |
 | [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/domain/URL reputation | `apiKey` | Yes | Unknown | 
 
+
 **[⬆ Back to Index](#index)**
 <br >
 <br >
@@ -2048,6 +2049,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Waldrand Avatar](https://avatar.waldrand.dev) | Deterministic SVG/PNG/WebP avatars from any string, four styles | No | Yes | Yes |
 | [What The Commit](http://whatthecommit.com/index.txt) | Random commit message generator | No | No | Yes |
 | [Yes No](https://yesno.wtf/api) | Generate yes or no randomly | No | Yes | Unknown |
+| [AI Fonts Generator](https://aifontsgenerator.com/api/styles.json) | Unicode font style data — 410 styles for Instagram, Discord and gaming | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
