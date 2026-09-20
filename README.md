@@ -57,6 +57,21 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 <br >
 
+## MCP Servers
+
+[Model Context Protocol](https://modelcontextprotocol.io) servers let AI agents call APIs as tools. You install one into a client, Claude, Cursor, VS Code, instead of calling it from your own code, so these entries list **transport** and **where you can install them** rather than `HTTPS`/`CORS`.
+
+| Name | Description | Auth | Transport | Install |
+|:---|:---|:---|:---|:---|
+| [IPstack MCP](https://ipstack.com/mcp) | IP geolocation, threat and timezone lookups for agents | `apiKey` | `stdio`, `HTTP` | [Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter) |
+| [GitHub](https://github.com/github/github-mcp-server) | Repos, issues, PRs, code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |
+| [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
+
+Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
+
+<br >
+<br >
+
 ## Learn more about Public APIs
 
 <strong>Get Involved</strong>
