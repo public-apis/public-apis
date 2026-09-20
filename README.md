@@ -244,7 +244,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Metropolitan Museum of Art](https://metmuseum.github.io/) | Met Museum of Art | No | Yes | No |
 | [Noun Project](http://api.thenounproject.com/index.html) | Icons | `OAuth` | No | Unknown |
 | [PHP-Noise](https://php-noise.com/) | Noise Background Image Generator | No | Yes | Yes |
-| [Pixel Encounter](https://pixelencounter.com/api) | SVG Icon Generator | No | Yes | No |
 | [Rijksmuseum](https://data.rijksmuseum.nl/object-metadata/api/) | RijksMuseum Data | `apiKey` | Yes | Unknown |
 | [Smithsonian Open Access](https://github.com/Smithsonian/smithsonian-openaccess) | Smithsonian collection metadata and open-access digital media | `apiKey` | Yes | Unknown |
 | [Thisispaper](https://www.thisispaper.com/intelligence/api-docs) | Curated architecture, design, photography and art projects with visual-similarity and taste metadata | `apiKey` | Yes | Yes |
