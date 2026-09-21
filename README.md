@@ -2004,6 +2004,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ApiMedic](https://apimedic.com/) | ApiMedic offers a medical symptom checker API primarily for patients | `apiKey` | Yes | Unknown |
 | [balldontlie](https://www.balldontlie.io) | Balldontlie provides access to stats data from the NBA | No | Yes | Yes |
 | [Bet Better](https://betbetter.world/api/) | Sports model win probabilities and fair odds across 13 leagues | No | Yes | Yes |
+| [Blacktop Motorsport API](https://ocblacktop.com/api) | Motorsport results, schedules, standings and driver data for F1, NASCAR, IndyCar, MotoGP and more | `apiKey` | Yes | No |
 | [Canadian Football League (CFL)](http://api.cfl.ca/) | Official JSON API providing real-time league, team and player statistics about the CFL | `apiKey` | Yes | No |
 | [Cito UFC API](https://citoapi.com/ufc-api/) | UFC and MMA fight data: fighters, cards, round stats, rankings and live state | `apiKey` | Yes | No |
 | [City Bikes](https://api.citybik.es/v2/) | City Bikes around the world | No | Yes | Unknown |
