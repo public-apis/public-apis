@@ -88,7 +88,7 @@ Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
 * [Animals](#animals)
 * [Anime](#anime)
-* [Anti-Malware](#anti-malware)
+* [Anti-Malware](#anti-malware-1)
 * [Art & Design](#art--design)
 * [Authentication & Authorization](#authentication--authorization)
 * [Blockchain](#blockchain)
