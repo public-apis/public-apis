@@ -582,6 +582,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Aether Bridge](https://a-to-mind.com) | Autonomous agent team management and API workflow orchestration | `apiKey` | Yes | Unknown |
 | [Agent Nexus](https://agentnexus.app/llms.txt) | Continuously probed registry of APIs, MCP servers and CLIs callable by agents | No | Yes | Yes |
 | [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
+| [AlterLab](https://alterlab.io) | Web scraping API with automatic website compatibility, JS rendering, and structured data extraction | `apiKey` | Yes | Unknown |
 | [Amazonscraperapi](https://amazonscraperapi.com) | Amazon product, search & batch scraping API with residential proxies (1000 free) | `apiKey` | Yes | No |
 | [AmberOne](https://scubamike124.github.io/amberone-api/) | Turn any website into a build-ready Android, iOS, PWA or Electron app project | `apiKey` | Yes | No |
 | [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | Yes | Unknown |
