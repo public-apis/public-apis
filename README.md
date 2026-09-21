@@ -2173,6 +2173,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GTFS Scorecard](https://github.com/ChelseaKR/gtfs-scorecard/blob/main/docs/api.md) | Data-quality grades and prioritized fixes for 2,400+ public transit GTFS feed records | No | Yes | Yes |
 | [Icelandic APIs](http://docs.apis.is/) | Open APIs that deliver services in or regarding Iceland | No | Yes | Unknown |
 | [Impala Hotel Bookings](https://docs.impala.travel/docs/booking-api/) | Hotel content, rates and room bookings | `apiKey` | Yes | No |
+| [ItalyFare](https://italyfare.com/en/partner-api) | Real-time prices for trains, buses, ferries and private transfers between Italian cities | `apiKey` | Yes | Yes |
 | [Izi](http://api-docs.izi.travel/) | Audio guide for travellers | `apiKey` | Yes | Unknown |
 | [Land Transport Authority DataMall, Singapore](https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf) | Singapore transport information | `apiKey` | No | Unknown |
 | [LiveTrafficCam](https://bzsasson.github.io/traffic-camera-sources/api.html) | Live US state DOT traffic cameras with verified live status and measured uptime | No | Yes | No |
