@@ -66,6 +66,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [IPstack MCP](https://ipstack.com/mcp) | IP geolocation, threat and timezone lookups for agents | `apiKey` | `stdio`, `HTTP` | [Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter) |
 | [GitHub](https://github.com/github/github-mcp-server) | Repos, issues, PRs, code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |
 | [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
+| [OG Stamp](https://ogstamp.com/mcp) | Render Open Graph images from a title or a page URL | No | `HTTP` | – |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
@@ -693,6 +694,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Page Rank](https://www.domcop.com/openpagerank/) | API for calculating and comparing metrics of different websites using Page Rank algorithm | `apiKey` | Yes | Unknown |
 | [OpenAPIHub](https://hub.openapihub.com/) | The All-in-one API Platform | `X-Mashape-Key` | Yes | Unknown |
 | [OpenGraphr](https://opengraphr.com/docs/1.0/overview) | Really simple API to retrieve Open Graph data from an URL | `apiKey` | Yes | Unknown |
+| [OG Stamp](https://ogstamp.com/docs/) | Generate Open Graph and social card PNGs. Free daily tier, no key required | No | Yes | Yes |
 | [OpenQR](https://openqr.uk/api) | Generate QR codes and manage dynamic (editable) QR codes with scan analytics | `apiKey` | Yes | Yes |
 | [Orca Scan](https://orcascan.com/guides/free-barcode-image-api-0e4a4fa6) | Generate barcode images (QR, Code 128, EAN, Data Matrix and more) in SVG, PNG, JPG or PDF | No | Yes | Yes |
 | [OutageDeck](https://outagedeck.com/developers/api) | Live status and incidents for 170+ cloud and SaaS providers from official feeds | No | Yes | Yes |
