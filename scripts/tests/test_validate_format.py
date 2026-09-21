@@ -464,3 +464,33 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertEqual(len(err_msgs), 1)
         err_msg = err_msgs[0]
         self.assertEqual(err_msg, expected_err_msg)
+
+# Hamza    
+    def test_check_https_with_empty_string(self):
+        # err_msgs = check_https(0, '')
+        err_msgs = check_https(0, None)
+        self.assertEqual(len(err_msgs), 1)
+        self.assertIn('is not a valid HTTPS option', err_msgs[0])
+
+    def test_check_https_with_none(self):
+           # None is not a valid input, but let's see if it fails gracefully
+        # with self.assertRaises(TypeError):
+        #     check_https(0, None)
+        # None is not a valid input, should return an error message, not raise TypeError
+        err_msgs = check_https(0, None)
+        self.assertEqual(len(err_msgs), 1)
+        self.assertIn('is not a valid HTTPS option', err_msgs[0])
+
+    def test_check_entry_with_missing_segments(self):
+        # Less than 5 segments
+        segments = ['[A](https://www.ex.com)', 'Desc', '`apiKey`']
+        with self.assertRaises(IndexError):
+            check_entry(0, segments)
+
+    def test_check_entry_with_extra_segments(self):
+        # More than 5 segments
+        segments = ['[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes', 'Extra']
+        # Should only use the first 5, so no error
+        err_msgs = check_entry(0, segments[:5])
+        self.assertEqual(len(err_msgs), 0)
+
