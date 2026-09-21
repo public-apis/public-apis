@@ -2120,6 +2120,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tisane](https://tisane.ai/) | Text Analytics with focus on detection of abusive content and law enforcement applications | `OAuth` | Yes | Yes |
 | [ToHuman](https://tohuman.io/ai-humanizer-api) | Rewrite AI-assisted drafts into natural, human-sounding text that reads like you wrote it | `apiKey` | Yes | Unknown |
 | [Watson Natural Language Understanding](https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding) | Natural language processing for advanced text analysis | `OAuth` | Yes | Unknown |
+| [OpenL Translate](https://rapidapi.com/lvwzhen/api/openl-translate) | Accurate AI Translation in 100+ Languages | apiKey | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
