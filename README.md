@@ -1763,6 +1763,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Imsea](https://imsea.herokuapp.com/) | Free image search | No | Yes | Unknown |
 | [Kavel](https://kavel.readthedocs.io/) | Generate and edit images with AI, no key or account required | No | Yes | No |
 | [Lorem Picsum](https://picsum.photos/) | Images from Unsplash | No | Yes | Unknown |
+| [Nero AI](https://ai.nero.com/ai-api) | Image Upscaler, Photo Restoration, Image Denoiser, Image Compressor, Face Animation, Colorize Photo, Avatar Generator, Background Removal | `apiKey` | Yes | Unknown |
 | [ObjectCut](https://objectcut.com/) | Image Background removal | `apiKey` | Yes | Yes |
 | [Pexafy](https://docs.pexafy.com) | Semantic image search across 9+ free stock photo sources with a unified JSON schema | `apiKey` | Yes | Yes |
 | [Pexels](https://www.pexels.com/api/) | Free Stock Photos and Videos | `apiKey` | Yes | Yes |
