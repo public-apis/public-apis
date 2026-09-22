@@ -2168,6 +2168,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CruiseFeed](https://cruisefeed.io) | Normalized cruise line inventory: ships, sailings, itineraries, ports and lead-in fares | `apiKey` | Yes | Unknown |
 | [CTS](https://api.cts-strasbourg.eu/) | CTS Realtime API | `apiKey` | Yes | Yes |
 | [FAA N-Number Registry](https://n-number.starfile.org/api) | Every FAA-registered civil aircraft in the United States, lookup by N-number or Mode S hex code | No | Yes | Yes |
+| [FlightFinder Safety Data](https://himaxym.com/developers) | Aviation accident and incident records, FAA wildlife and laser strikes, drone sightings | No | Yes | Yes |
 | [Grab](https://developer.grab.com/docs/) | Track deliveries, ride fares, payments and loyalty points | `OAuth` | Yes | Unknown |
 | [GraphHopper](https://docs.graphhopper.com/) | A-to-B routing with turn-by-turn instructions | `apiKey` | Yes | Unknown |
 | [GTFS Scorecard](https://github.com/ChelseaKR/gtfs-scorecard/blob/main/docs/api.md) | Data-quality grades and prioritized fixes for 2,400+ public transit GTFS feed records | No | Yes | Yes |
