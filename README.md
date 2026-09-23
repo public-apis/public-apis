@@ -1396,6 +1396,7 @@ API | Description | Auth | HTTPS | CORS |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
 | [Vett](https://wimberly.solutions/api/free-sanctions-check/) | Screen names & companies against OFAC, PEP, watchlists & recalls | No | Yes | Yes |
 | [VotePredictor](https://votepredictor.com/developers) | US election forecasts, congressional voting records and forecaster accuracy ratings | No | Yes | Yes |
+| [oneisolve](https://oneisolve.com/developers) | Global Digital Nomad Visa qualification & 2026 statutory dataset | `No` | `HTTPS` | `Yes` |
 
 **[⬆ Back to Index](#index)**
 <br >
