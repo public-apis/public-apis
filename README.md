@@ -1107,6 +1107,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GW2Spidy](https://github.com/rubensayshi/gw2spidy/wiki) | GW2Spidy API, Items data on the Guild Wars 2 Trade Market | No | Yes | Unknown |
 | [GZW Data](https://gzw-data.vercel.app/docs/) | Gray Zone Warfare weapons, missions, loot, armor and game data | No | Yes | Yes |
 | [Halo](https://developer.haloapi.com/) | Halo 5 and Halo Wars 2 Information | `apiKey` | Yes | Unknown |
+| [Halo Quotes](https://api.haloquotes.teamrespawntv.com/) | Random Halo quotes and per-game stats | No | Yes | Yes |
 | [Hearthstone](http://hearthstoneapi.com/) | Hearthstone Cards Information | `X-Mashape-Key` | Yes | Unknown |
 | [Humble Bundle](https://rapidapi.com/Ziggoto/api/humble-bundle) | Humble Bundle's current bundles | `apiKey` | Yes | Unknown |
 | [Humor](https://humorapi.com) | Humor, Jokes, and Memes | `apiKey` | Yes | Unknown |
