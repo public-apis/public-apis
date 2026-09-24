@@ -74,7 +74,7 @@ Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
 ## Learn more about Public APIs
 
-<strong>Get Involved</strong>
+<strong>Get Involved with us</strong>
 
 * [Contributing Guide](CONTRIBUTING.md)
 * [API for this project](https://github.com/davemachado/public-api)
