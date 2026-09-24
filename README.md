@@ -568,6 +568,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown | |
 | [RevAddress](https://revaddress.com/docs/) | US address standardization, congressional and state legislative districts, Census data; free tier | `apiKey` | Yes | No | |
 | [SchemaShield](https://rapidapi.com/kaiasistentedavid/api/schema-change-risk) | Read-only preflight for breaking schema changes and downstream query impact | `apiKey` | Yes | Unknown | |
+| [sthan.io Address Verification](https://sthan.io/products/address-verification-usa) | Validate and standardize US addresses, with ZIP+4 and deliverability status | `apiKey` | Yes | No | |
 | [Temsor](https://api.temsor.com/docs) | Validates Turkish national ID, tax number, IBAN, phone, plate and parses addresses | `apiKey` | Yes | Yes | |
 | [US Autocomplete](https://www.smarty.com/docs/cloud/us-autocomplete-pro-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes | |
 | [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes | |
