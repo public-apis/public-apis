@@ -1,0 +1,10 @@
+[
+  {
+    "API": "DevHelper",
+    "Description": "A tool for developers to quickly generate code snippets",
+    "Auth": "apiKey",
+    "HTTPS": true,
+    "Cors": "yes",
+    "Link": "https://devhelper.io"
+  }
+]
