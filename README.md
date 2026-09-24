@@ -1168,6 +1168,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Worth the Rip](https://worththerip.com/api/) | Sealed trading-card product prices and expected value across 10 TCGs, refreshed every 2 hours | No | Yes | Yes |
 | [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | No |
 | [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
+| [PokéAPI](https://pokeapi.co/api/v2/pokemon/ditto) | Provides Pokémon data like characters, moves, and abilities | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
