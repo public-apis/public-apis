@@ -757,7 +757,7 @@ API | Description | Auth | HTTPS | CORS |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [XLSX Inspector](https://api.lifestep.io) | Inspect XLSX/XLSM structure: sheets, formulas, macros and external links | No | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
-
+| [DummyJSON](https://dummyjson.com/) | Fake JSON data for testing and prototyping | No | Yes | Yes |
 
 
 **[⬆ Back to Index](#index)**
