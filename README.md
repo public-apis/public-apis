@@ -692,9 +692,6 @@ API | Description | Auth | HTTPS | CORS |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
 
-
-
-
 **[⬆ Back to Index](#index)**
 <br >
 <br >
