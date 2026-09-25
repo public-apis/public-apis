@@ -80,7 +80,7 @@ Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 * [API for this project](https://github.com/davemachado/public-api)
 * [Issues](https://github.com/public-apis/public-apis/issues)
 * [Pull Requests](https://github.com/public-apis/public-apis/pulls)
-* [LICENSE](LICENSE) 
+* [LICENSE](LICENSE)
 
 <br />
 
