@@ -2415,3 +2415,6 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+## Student Learning Notes
+This repository is useful for learning about APIs and Git.
