@@ -849,6 +849,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Atomic Mail](https://atomic-mail.github.io/atomic-mail-agentic/) | Email for AI agents: programmatic inbox creation and send/receive over JMAP | `apiKey` | Yes | Unknown |
 | [Best Temp Mail](https://best-tempmail.com/api) | Disposable inboxes for automated email testing, with OTP extraction | No | Yes | No |
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | Yes |
+| [Country Calling Codes](https://www.countrycalling.codes/developers) | Free OpenAPI + MCP for ITU E.164 calling codes, dialing format, and phone analysis | No | Yes | Unknown |
 | [Disify](https://www.disify.com/) | Validate and detect disposable and temporary email addresses | No | Yes | Yes |
 | [DropMail](https://dropmail.me/api/#live-demo) | GraphQL API for creating and managing ephemeral e-mail inboxes | No | Yes | Unknown |
 | [Email Spam Tester](https://email-spam-tester.com/api-docs/) | Send a test message and get a spam score, 41 checks with RFC citations and a fix plan | No | Yes | Yes |
@@ -1748,6 +1749,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Numlookup](https://numlookupapi.com) | Phone number validation and carrier lookup API with global coverage | `apiKey` | Yes | Unknown |
 | [Numverify](https://numverify.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Phone number validation | `apiKey` | Yes | Unknown |
 | [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | `apiKey` | Yes | Yes |
+| [Country Calling Codes](https://www.countrycalling.codes/developers) | Free OpenAPI + MCP for ITU E.164 calling codes, dialing format, and phone analysis | No | Yes | Unknown |
 | [Phone Specification](https://github.com/azharimm/phone-specs-api) | Rest Api for Phone specifications | No | Yes | Yes |
 | [Phone Validation](https://www.abstractapi.com/phone-validation-api) | Validate phone numbers globally | `apiKey` | Yes | Yes |
 | [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
