@@ -581,6 +581,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Development
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [RenderPing](https://renderping.theking.qzz.io) | Website screenshot & PDF rendering API with full-page, viewport and element capture | `apiKey` | Yes | Yes |
 | [Userstack](https://userstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Secure User-Agent String Lookup JSON API | `OAuth` | Yes | Unknown |
 | [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
 | [Aether Bridge](https://a-to-mind.com) | Autonomous agent team management and API workflow orchestration | `apiKey` | Yes | Unknown |
