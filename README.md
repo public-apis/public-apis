@@ -1637,6 +1637,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CuttingToolsAI](https://cuttingtoolsai.eu/api) | Cross-brand carbide insert grade equivalents by ISO application class | No | Yes | Yes |
 | [Enigma Public](https://developers.enigma.com/docs) | Broadest collection of public data | `apiKey` | Yes | Yes |
 | [EOSL](https://eosl.ai/api/) | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | No | Yes | Yes |
+| [Eurostat](https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0) | Official EU statistics on economy, population, industry and trade | No | Yes | Unknown |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | No | Yes | Unknown |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | Federal Statistical Office Germany | `OAuth` | Yes | Unknown |
 | [HousingFeed](https://housingfeed.com/docs) | US rental listings from property managers' own websites, verified weekly | No | Yes | Yes |
