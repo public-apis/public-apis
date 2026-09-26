@@ -63,6 +63,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 | Name | Description | Auth | Transport | Install |
 |:---|:---|:---|:---|:---|
+| [PegaRex](https://pegarex.com.br/mcp) | Search 1.8M+ live Brazilian used-car and motorcycle listings, with FIPE reference prices | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/br.com.pegarex/pega-rex) |
 | [IPstack MCP](https://ipstack.com/mcp) | IP geolocation, threat and timezone lookups for agents | `apiKey` | `stdio`, `HTTP` | [Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter) |
 | [GitHub](https://github.com/github/github-mcp-server) | Repos, issues, PRs, code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |
 | [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
