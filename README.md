@@ -1290,6 +1290,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Rwanda Locations](https://rapidapi.com/victorkarangwa4/api/rwanda) | Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets | No | Yes | Unknown |
 | [SLF](https://github.com/slftool/slftool.github.io/blob/master/API.md) | German city, country, river, database | No | Yes | Yes |
 | [SpotSense](https://spotsense.io/) | Add location based interactions to your mobile app | `apiKey` | Yes | Unknown |
+| [sthan.io Geocoding](https://sthan.io/products/geocoding-usa) | Convert US street addresses to latitude and longitude coordinates | `apiKey` | Yes | No |
 | [sthan.io IP Geolocation](https://sthan.io/products/ip-geolocation) | Look up the geographic location of any IPv4 or IPv6 address | `apiKey` | Yes | No |
 | [Telize](https://rapidapi.com/fcambus/api/telize/) | Telize offers location information from any IP address | `apiKey` | Yes | Yes |
 | [TomTom](https://developer.tomtom.com/) | Maps, Directions, Places and Traffic APIs | `apiKey` | Yes | Yes |
