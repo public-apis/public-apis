@@ -678,6 +678,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ipfind.io](https://ipfind.io) | Geographic location of an IP address or any domain name along with some other useful information | `apiKey` | Yes | Yes |
 | [IPify](https://www.ipify.org/) | A simple IP Address API | No | Yes | Unknown |
 | [IPinfo](https://ipinfo.io/developers) | Another simple IP Address API | No | Yes | Unknown |
+| [Ironfang Render](https://ironfang.com/render/docs) | Screenshots, PDFs, dynamic images, QR codes and video from URLs or HTML | `apiKey` | Yes | No |
 | [Is This Site Down?](https://downforjustmeoreveryone.com/api) | Check if any website is down, from two continents; live status, uptime history and TLS expiry | No | Yes | Yes |
 | [isitdownstatus](https://isitdownstatus.com) | Check if websites and online services are currently down | No | Yes | Unknown |
 | [jsDelivr](https://github.com/jsdelivr/data.jsdelivr.com) | Package info and download stats on jsDelivr CDN | No | Yes | Yes |
@@ -734,7 +735,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Quotable](https://github.com/lukePeavey/quotable) | Random quotes with authors and tags | No | Yes | Yes |
 | [Random Stuff](https://api-docs.pgamerx.com/) | Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed | `apiKey` | Yes | Yes |
 | [Rejax](https://rejax.io/) | Reverse AJAX service to notify clients | `apiKey` | Yes | No |
-| [Renderwolf](https://ironfang.uk/renderwolf/docs) | Screenshots, PDFs, dynamic images, QR codes and video from URLs or HTML | `apiKey` | Yes | No |
 | [ReplyNodes](https://replynodes.com/markdown-api/) | Convert a public web page into clean Markdown | No | Yes | No |
 | [ReqRes](https://reqres.in/ ) | A hosted REST-API ready to respond to your AJAX requests | No | Yes | Unknown |
 | [RSS feed to JSON](https://rss-to-json-serverless-api.vercel.app) | Returns RSS feed in JSON format using feed URL | No | Yes | Yes |
