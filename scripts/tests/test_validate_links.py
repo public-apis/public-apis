@@ -93,8 +93,23 @@ class TestValidateLinks(unittest.TestCase):
         self.assertIsInstance(links, list)
         self.assertIsInstance(no_links, list)
 
-        self.assertEqual(len(links), 2)
+        self.assertEqual(len(links), 1)
+        self.assertEqual(links, ['https://www.example.com'])
         self.assertEqual(len(no_links), 0)
+
+    def test_check_duplicate_links_normalizes_trailing_slash(self):
+        links_with_trailing_slash_variants = [
+            'https://www.example.com/',
+            'https://www.example.com',
+            'https://www.anotherexample.com/'
+        ]
+
+        has_duplicate_links, duplicates = check_duplicate_links(
+            links_with_trailing_slash_variants
+        )
+
+        self.assertTrue(has_duplicate_links)
+        self.assertEqual(duplicates, ['https://www.example.com'])
 
     def test_if_fake_user_agent_has_a_str_as_return(self):
         user_agent = fake_user_agent()
