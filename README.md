@@ -69,6 +69,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [GitHub](https://github.com/github/github-mcp-server) | Repos, issues, PRs, code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |
 | [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
 | [Twinbay](https://docs.twinbay.ai/mcp-server) | Spin up stateful API twins, read request logs and grade agent runs | `OAuth` | `HTTP` | – |
+| [Skyvern](https://www.skyvern.com/docs/developers/getting-started/mcp) | Lets AI agents control a real browser to log in, fill forms, and extract data | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/Skyvern-AI/skyvern) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=skyvern) |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
