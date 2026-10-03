@@ -614,6 +614,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Bitbucket](https://developer.atlassian.com/bitbucket/api/2/reference/) | Bitbucket API | `OAuth` | Yes | Unknown |
 | [Blague.xyz](https://blague.xyz/) | La plus grande API de Blagues FR/The biggest FR jokes API | `apiKey` | Yes | Yes |
 | [Blitapp](https://blitapp.com/api/) | Schedule screenshots of web pages and sync them to your cloud | `apiKey` | Yes | Unknown |
+| [BMO JWT](https://jwt.bmobot.ai) | Decode, verify, generate, inspect, and diff JSON Web Tokens | No | Yes | Yes |
 | [Blynk-Cloud](https://blynkapi.docs.apiary.io/#) | Control IoT Devices from Blynk IoT Cloud | `apiKey` | No | Unknown |
 | [Bored](https://bored-api.appbrewery.com/) | Find random activities to fight boredom | No | Yes | Unknown |
 | [BountyCheck](https://bountycheck.vercel.app) | Claimability verdicts for GitHub bounty issues; free stats and sample, checks paid per call via x402 | No | Yes | Yes |
