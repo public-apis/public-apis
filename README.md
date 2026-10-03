@@ -1386,6 +1386,7 @@ API | Description | Auth | HTTPS | CORS |
 | [gankdat](https://gankdat.com/docs) | UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON | `apiKey` | Yes | Yes |
 | [Gazette Data, UK](https://www.thegazette.co.uk/data) | UK official public record API | `OAuth` | Yes | Unknown |
 | [Gun Policy](https://www.gunpolicy.org/api) | International firearm injury prevention and policy | `apiKey` | Yes | Unknown |
+| [Houdinick Tenders](https://rapidapi.com/nvaligi/api/houdinick-tenders-api) | Italian public procurement, major infrastructure and PNRR contracts | `apiKey` | Yes | Unknown |
 | [Indian Mandi Prices](https://mandi-api.vercel.app/docs) | Free, keyless daily wholesale mandi prices for 5 Indian states, sourced from data.gov.in | No | Yes | Yes |
 | [Indian Pincode](https://indianpincode.com/) | Free India PIN code lookup with GPS coordinates, 165k+ post offices, state & district data | No | Yes | Yes |
 | [INEI](http://iinei.inei.gob.pe/microdatos/) | Peruvian Statistical Government Open Data | No | No | Unknown |
