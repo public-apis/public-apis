@@ -563,6 +563,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Rate-API](https://rate-api.com/docs/api) | Hourly exchange rates for 160+ currencies in JSON, XML or CSV with free plan 2,500 requests/month | `apiKey` | Yes | Yes |
 | [TaxID](https://www.taxid.dev/docs) | EU VAT number validation with company name and address lookup across all 27 member states | `apiKey` | Yes | Unknown |
 | [VATComply.com](https://www.vatcomply.com/documentation) | Exchange rates, geolocation and VAT number validation | No | Yes | Yes |
+| [RealMarketAPI](https://realmarketapi.com/docs) | Real-time and historical prices for gold, forex, crypto, and stocks. Free plan includes 5K requests/month | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
