@@ -68,6 +68,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [corpusAI Cloud Pricing](https://cloud.trycorpus.ai/docs#quick-start-for-agents) | Cloud, GPU and LLM token prices for agents, free discovery tools and paid per-call data | No | `stdio`, `HTTP` | [npm](https://www.npmjs.com/package/corpus-cloud-pricing-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=corpus-cloud-pricing) |
 | [GitHub](https://github.com/github/github-mcp-server) | Repos, issues, PRs, code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |
 | [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
+| [Soundcheck Instant Quotes](https://github.com/soundchecklive/soundcheck-plugin) | Live-event quoting for businesses that sell live event services | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/io.soundchecklive/live-event-quotes) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=live-event-quotes) |
 | [Twinbay](https://docs.twinbay.ai/mcp-server) | Spin up stateful API twins, read request logs and grade agent runs | `OAuth` | `HTTP` | – |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
