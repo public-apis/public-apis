@@ -1672,7 +1672,7 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
-### Open Data
+### Open Data - Comprehensive collection of data APIs
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [49 Gallery Historical Data](https://api.181649.com/docs) | Normalized historical records and 25 daily-updated reference series | No | Yes | Yes |
