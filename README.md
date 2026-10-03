@@ -821,6 +821,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Documents & Productivity
+| [bulkconvert](https://www.bulkconvert.io) | Convert files between 32 formats (PDF, DOCX, MP3, MP4, etc). EU-hosted, free tier without signup. | `apiKey` | Yes | No |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AgentPay Doc Tools](https://agentpay-tools.agentpay-apis.workers.dev) | PDF to text, RSS/Atom/JSON feeds to JSON and sitemaps to URL lists, paid per call via x402 | No | Yes | Yes |
