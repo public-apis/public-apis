@@ -1589,6 +1589,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Speak AI](https://docs.speakai.co) | Transcribe and analyze audio and video in 100+ languages | `apiKey` | Yes | Unknown |
 | [Statlyte](https://statlyte.com/api) | Live pricing, context windows and model ids for major LLM APIs | No | Yes | Yes |
 | [TensorFeed](https://tensorfeed.ai/developers) | Real-time AI news, model pricing, service status, and agent activity feeds | No | Yes | Yes |
+| [Together AI](https://docs.together.ai/docs/quickstart) | Fast inference API for open-source LLMs including Llama, Qwen, DeepSeek with a free tier | `apiKey` | Yes | Yes |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [TokenRoute](https://tokenroute.app/docs/quickstart) | One OpenAI-compatible endpoint for hundreds of LLMs, with a free tier and per-token pricing | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
