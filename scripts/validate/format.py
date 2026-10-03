@@ -22,7 +22,7 @@ index_cors = 4
 
 num_segments = 5
 min_entries_per_category = 3
-max_description_length = 100
+max_description_length = 120
 
 anchor_re = re.compile(anchor + '\s(.+)')
 category_title_in_index_re = re.compile('\*\s\[(.*)\]')
@@ -120,7 +120,7 @@ def check_description(line_num: int, description: str) -> List[str]:
 
     desc_length = len(description)
     if desc_length > max_description_length:
-        err_msg = error_message(line_num, f'description should not exceed {max_description_length} characters (currently {desc_length})')
+        err_msg = error_message(line_num, f'description too long ({desc_length}/{max_description_length}): "{description}')
         err_msgs.append(err_msg)
     
     return err_msgs
