@@ -1987,7 +1987,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Virushee](https://api.virushee.com/) | Virushee file/data scanning | No | Yes | Yes |
 | [VPNDetection](https://docs.vpndetection.io/api) | Check whether an IPv4 or IPv6 address belongs to VPN infrastructure, no key needed | No | Yes | Yes |
 | [VulDB](https://vuldb.com/?doc.api) | VulDB API allows to initiate queries for one or more items along with transactional bots | `apiKey` | Yes | Unknown |
-
+| [PII Firewall Edge](https://rapidapi.com/image-zero-trust-security-labs/api/pii-firewall-edge) | PII detection and redaction API supporting 150+ sensitive data types | `apiKey` | Yes | Yes |
+| [Zero Trust API](https://rapidapi.com/image-zero-trust-security-labs/api/zero-trust-api) | Image Content Disarm & Reconstruction | `apiKey` | Yes | Yes |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
