@@ -563,6 +563,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Rate-API](https://rate-api.com/docs/api) | Hourly exchange rates for 160+ currencies in JSON, XML or CSV with free plan 2,500 requests/month | `apiKey` | Yes | Yes |
 | [TaxID](https://www.taxid.dev/docs) | EU VAT number validation with company name and address lookup across all 27 member states | `apiKey` | Yes | Unknown |
 | [VATComply.com](https://www.vatcomply.com/documentation) | Exchange rates, geolocation and VAT number validation | No | Yes | Yes |
+| [CryptoWhaleInsights](https://cryptowhaleinsights.com/api-for-ai-agents) | Crypto whale tracking & market data across 14 chains (BTC, ETH, SOL +) | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
