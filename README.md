@@ -1594,6 +1594,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [Voxell Forge](https://voxell.ai/docs/#forge) | OpenAI-compatible text embeddings API, free-forever model with no credit card required | `apiKey` | Yes | No |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
+| [Yingsuan AI](https://yingsuan.top) | LLM API gateway with free tier (100 calls, 3 free models). OpenAI-compatible endpoint for DeepSeek, Kimi K3, GLM, Qwen | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
