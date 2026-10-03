@@ -1070,6 +1070,7 @@ API | Description | Auth | HTTPS | CORS |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes | |
 | [Zelothorn](https://zelothorn.com/developers) | Plain-English explanations of US public companies with SEC filings and earnings data | No | Yes | Yes | |
 | [Zoho Books](https://www.zoho.com/books/api/v3/) | Online accounting software, built for your business | `OAuth` | Yes | Unknown | |
+| [ExchangeRate.host](https://exchangerate.host) | Free foreign exchange rates API with real-time data | No | Yes | Yes | |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -1593,6 +1594,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [Voxell Forge](https://voxell.ai/docs/#forge) | OpenAI-compatible text embeddings API, free-forever model with no credit card required | `apiKey` | Yes | No |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
+| [Hugging Face Inference API](https://huggingface.co/inference-api) | Run machine learning models for NLP, vision, and audio tasks | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
