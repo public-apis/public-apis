@@ -1033,6 +1033,7 @@ API | Description | Auth | HTTPS | CORS |
 | [LiquiLens](https://liquilens.in/developers/) | Public-record bank and lender failure-risk evidence | No | Yes | Yes |
 | [matchwire.win](https://matchwire.win/docs/) | Matched prediction-market games across Kalshi, Polymarket US/Intl and Predict.fun | `apiKey` | Yes | No |
 | [MercadoPago](https://www.mercadopago.com.br/developers/es/reference) | Mercado Pago API reference - all the information you need to develop your integrations | `apiKey` | Yes | Unknown | |
+| [Meridian](https://meridianfin.io/developers) | Smart money signals API — Congress trades, dark pool, insider trading, 13F, crypto on-chain | `apiKey` | Yes | Yes | |
 | [Mono](https://mono.co/) | Connect with users’ bank accounts and access transaction data in Africa | `apiKey` | Yes | Unknown | |
 | [Moov](https://docs.moov.io/api/) | The Moov API makes it simple for platforms to send, receive, and store money | `apiKey` | Yes | Unknown | |
 | [NORTH7 Agent](https://north7.ai/v1/docs) | Trading signals, market analysis and geopolitical intelligence | `apiKey` | Yes | Yes |
