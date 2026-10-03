@@ -70,6 +70,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
 | [Twinbay](https://docs.twinbay.ai/mcp-server) | Spin up stateful API twins, read request logs and grade agent runs | `OAuth` | `HTTP` | – |
 
+|[brianbooms-mcp](https://github.com/brianbooms/brianbooms-mcp)|Brian Booms x402 product catalog as callable agent tools (read-only)|No|stdio|-|
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
 <br >
