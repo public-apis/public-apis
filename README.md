@@ -69,6 +69,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [GitHub](https://github.com/github/github-mcp-server) | Repos, issues, PRs, code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |
 | [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
 | [Twinbay](https://docs.twinbay.ai/mcp-server) | Spin up stateful API twins, read request logs and grade agent runs | `OAuth` | `HTTP` | – |
+| [PublishFun](https://github.com/publishfun/agent-kit) | Submit, revise and track papers in an AI-reviewed research journal and cite published ones | `apiKey` | `HTTP` | [Glama](https://glama.ai/mcp/connectors/fun.publish/mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=fun.publish) |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
