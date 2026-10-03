@@ -1,0 +1,419 @@
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+import json
+import os
+from datetime import datetime
+import random
+
+class SistemaCine:
+    def __init__(self):
+        # Arreglo bidimensional para los asientos (10 filas x 12 columnas)
+        self.asientos = [['O' for _ in range(12)] for _ in range(10)]
+        
+        # Arreglos unidimensionales
+        self.peliculas = [
+            "Avengers: Endgame",
+            "El Padrino",
+            "Pulp Fiction", 
+            "El Señor de los Anillos",
+            "Matrix"
+        ]
+        
+        self.horarios = ["14:00", "16:30", "19:00", "21:30"]
+        self.precios = {"Normal": 8.50, "VIP": 15.00, "Estudiante": 6.00}
+        
+        # Manejo de cadenas - información de películas
+        self.info_peliculas = {
+            "Avengers: Endgame": "Acción | 181 min | La batalla final",
+            "El Padrino": "Drama | 175 min | Clásico del cine",
+            "Pulp Fiction": "Crimen | 154 min | Tarantino",
+            "El Señor de los Anillos": "Fantasía | 201 min | Épica aventura",
+            "Matrix": "Ciencia Ficción | 136 min | Realidad virtual"
+        }
+        
+        # Cargar datos desde archivo
+        self.cargar_reservas()
+        
+    def cargar_reservas(self):
+        """Manejo de archivos - Cargar reservas existentes"""
+        try:
+            if os.path.exists("reservas.json"):
+                with open("reservas.json", "r", encoding="utf-8") as archivo:
+                    datos = json.load(archivo)
+                    # Reconstruir matriz de asientos
+                    if "asientos" in datos:
+                        self.asientos = datos["asientos"]
+                    print("✅ Reservas cargadas exitosamente")
+            else:
+                print("📝 Creando nuevo archivo de reservas")
+        except Exception as e:
+            print(f"❌ Error al cargar reservas: {e}")
+    
+    def guardar_reservas(self):
+        """Manejo de archivos - Guardar estado actual"""
+        try:
+            datos = {
+                "asientos": self.asientos,
+                "ultima_actualizacion": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            }
+            with open("reservas.json", "w", encoding="utf-8") as archivo:
+                json.dump(datos, archivo, indent=2, ensure_ascii=False)
+            print("💾 Reservas guardadas exitosamente")
+        except Exception as e:
+            print(f"❌ Error al guardar: {e}")
+    
+    def mostrar_menu_principal(self):
+        """Estructura secuencial - Menú principal"""
+        print("\n" + "="*50)
+        print("🎬 SISTEMA DE RESERVA DE ASIENTOS DE CINE 🎬")
+        print("="*50)
+        print("1. Ver cartelera")
+        print("2. Seleccionar asientos")
+        print("3. Ver mapa de asientos")
+        print("4. Consultar reserva")
+        print("5. Cancelar reserva")
+        print("6. Estadísticas del cine")
+        print("7. Salir")
+        print("-"*50)
+    
+    def mostrar_cartelera(self):
+        """Estructura de repetición conocida - for loop"""
+        print("\n🎭 CARTELERA ACTUAL 🎭")
+        print("-"*60)
+        
+        for i, pelicula in enumerate(self.peliculas, 1):
+            # Manejo de cadenas - formateo y manipulación
+            info = self.info_peliculas[pelicula]
+            print(f"{i}. {pelicula.upper()}")
+            print(f"   📋 {info}")
+            print(f"   🕐 Horarios: {', '.join(self.horarios)}")
+            print("-"*60)
+    
+    def mostrar_mapa_asientos(self):
+        """Arreglo bidimensional - Visualización de asientos"""
+        print("\n🎪 MAPA DE ASIENTOS 🎪")
+        print("O = Disponible | X = Ocupado | V = VIP")
+        print("\n      " + "".join([f"{i+1:2}" for i in range(12)]))
+        print("    +" + "-"*24 + "+")
+        
+        # Estructura de repetición conocida (for anidados)
+        for fila in range(10):
+            letra_fila = chr(ord('A') + fila)
+            print(f" {letra_fila} |", end="")
+            
+            for columna in range(12):
+                asiento = self.asientos[fila][columna]
+                # Estructura condicional
+                if asiento == 'O':
+                    print(" O", end="")
+                elif asiento == 'X':
+                    print(" X", end="")
+                else:
+                    print(" V", end="")
+            print(" |")
+        
+        print("    +" + "-"*24 + "+")
+        print("        🎬 PANTALLA 🎬")
+    
+    def seleccionar_pelicula_horario(self):
+        """Estructuras condicionales y manejo de cadenas"""
+        self.mostrar_cartelera()
+        
+        # Estructura de repetición de condición desconocida
+        while True:
+            try:
+                opcion = int(input("\n🎬 Selecciona una película (1-5): "))
+                if 1 <= opcion <= 5:
+                    pelicula_elegida = self.peliculas[opcion-1]
+                    break
+                else:
+                    print("❌ Opción inválida. Intenta de nuevo.")
+            except ValueError:
+                print("❌ Por favor ingresa un número válido.")
+        
+        print(f"\n✅ Película seleccionada: {pelicula_elegida}")
+        
+        # Mostrar horarios
+        print("\n🕐 Horarios disponibles:")
+        for i, horario in enumerate(self.horarios, 1):
+            print(f"{i}. {horario}")
+        
+        # Selección de horario
+        while True:
+            try:
+                hora_opcion = int(input("\n⏰ Selecciona un horario (1-4): "))
+                if 1 <= hora_opcion <= 4:
+                    horario_elegido = self.horarios[hora_opcion-1]
+                    break
+                else:
+                    print("❌ Horario inválido.")
+            except ValueError:
+                print("❌ Por favor ingresa un número válido.")
+        
+        return pelicula_elegida, horario_elegido
+    
+    def seleccionar_asientos(self):
+        """Función principal de reserva con todas las estructuras"""
+        pelicula, horario = self.seleccionar_pelicula_horario()
+        self.mostrar_mapa_asientos()
+        
+        # Arreglo unidimensional para almacenar asientos seleccionados
+        asientos_seleccionados = []
+        total_precio = 0.0
+        
+        print("\n🎫 SELECCIÓN DE ASIENTOS 🎫")
+        print("Formato: FilaColumna (ej: A1, B5, etc.)")
+        print("Escribe 'fin' para terminar la selección")
+        
+        # Estructura de repetición de condición desconocida
+        while True:
+            entrada = input("\n💺 Ingresa el asiento: ").strip().upper()
+            
+            # Estructura condicional para salir
+            if entrada == 'FIN':
+                if len(asientos_seleccionados) == 0:
+                    print("❌ Debes seleccionar al menos un asiento.")
+                    continue
+                break
+            
+            # Manejo de cadenas - validación y parsing
+            if self.validar_asiento(entrada):
+                fila_letra = entrada[0]
+                columna_num = entrada[1:]
+                
+                try:
+                    fila_idx = ord(fila_letra) - ord('A')
+                    columna_idx = int(columna_num) - 1
+                    
+                    # Verificar disponibilidad
+                    if self.asientos[fila_idx][columna_idx] == 'O':
+                        # Seleccionar tipo de asiento
+                        tipo_asiento = self.seleccionar_tipo_asiento()
+                        
+                        # Agregar al arreglo unidimensional
+                        asientos_seleccionados.append({
+                            'posicion': entrada,
+                            'fila': fila_idx,
+                            'columna': columna_idx,
+                            'tipo': tipo_asiento,
+                            'precio': self.precios[tipo_asiento]
+                        })
+                        
+                        total_precio += self.precios[tipo_asiento]
+                        
+                        # Marcar como ocupado temporalmente
+                        self.asientos[fila_idx][columna_idx] = 'T'  # Temporal
+                        
+                        print(f"✅ Asiento {entrada} agregado (${self.precios[tipo_asiento]:.2f})")
+                        print(f"💰 Total actual: ${total_precio:.2f}")
+                        
+                    else:
+                        print("❌ Asiento no disponible.")
+                        
+                except (ValueError, IndexError):
+                    print("❌ Formato de asiento inválido.")
+            else:
+                print("❌ Formato inválido. Usa formato como A1, B5, etc.")
+        
+        # Confirmar reserva
+        if self.confirmar_reserva(asientos_seleccionados, pelicula, horario, total_precio):
+            self.procesar_reserva(asientos_seleccionados)
+        else:
+            # Liberar asientos temporales
+            self.liberar_asientos_temporales()
+            print("❌ Reserva cancelada.")
+    
+    def validar_asiento(self, entrada):
+        """Manejo de cadenas - Validación de formato"""
+        if len(entrada) < 2 or len(entrada) > 3:
+            return False
+        
+        fila = entrada[0]
+        columna = entrada[1:]
+        
+        # Verificar que la fila sea una letra válida (A-J)
+        if not ('A' <= fila <= 'J'):
+            return False
+        
+        # Verificar que la columna sea un número válido (1-12)
+        try:
+            col_num = int(columna)
+            return 1 <= col_num <= 12
+        except ValueError:
+            return False
+    
+    def seleccionar_tipo_asiento(self):
+        """Estructura condicional para tipos de asiento"""
+        print("\n💺 Tipos de asiento:")
+        print("1. Normal ($8.50)")
+        print("2. VIP ($15.00)")
+        print("3. Estudiante ($6.00)")
+        
+        while True:
+            try:
+                opcion = int(input("Selecciona el tipo (1-3): "))
+                if opcion == 1:
+                    return "Normal"
+                elif opcion == 2:
+                    return "VIP"
+                elif opcion == 3:
+                    return "Estudiante"
+                else:
+                    print("❌ Opción inválida.")
+            except ValueError:
+                print("❌ Por favor ingresa un número válido.")
+    
+    def confirmar_reserva(self, asientos, pelicula, horario, total):
+        """Estructura condicional para confirmación"""
+        print("\n" + "="*50)
+        print("🎫 RESUMEN DE RESERVA 🎫")
+        print("="*50)
+        print(f"🎬 Película: {pelicula}")
+        print(f"🕐 Horario: {horario}")
+        print(f"💺 Asientos: {', '.join([a['posicion'] for a in asientos])}")
+        print(f"💰 Total: ${total:.2f}")
+        print("-"*50)
+        
+        while True:
+            confirmacion = input("¿Confirmar reserva? (s/n): ").lower().strip()
+            if confirmacion in ['s', 'si', 'sí']:
+                return True
+            elif confirmacion in ['n', 'no']:
+                return False
+            else:
+                print("❌ Por favor responde 's' o 'n'.")
+    
+    def procesar_reserva(self, asientos_seleccionados):
+        """Procesar y guardar la reserva"""
+        # Generar código de reserva único
+        codigo_reserva = self.generar_codigo_reserva()
+        
+        # Marcar asientos como ocupados permanentemente
+        for asiento in asientos_seleccionados:
+            self.asientos[asiento['fila']][asiento['columna']] = 'X'
+        
+        # Guardar en archivo
+        self.guardar_reserva_detalle(codigo_reserva, asientos_seleccionados)
+        self.guardar_reservas()
+        
+        print(f"\n🎉 ¡RESERVA CONFIRMADA! 🎉")
+        print(f"📋 Código de reserva: {codigo_reserva}")
+        print("💾 Datos guardados exitosamente")
+    
+    def generar_codigo_reserva(self):
+        """Manejo de cadenas - Generar código único"""
+        import string
+        letras = ''.join(random.choices(string.ascii_uppercase, k=3))
+        numeros = ''.join(random.choices(string.digits, k=3))
+        return f"{letras}{numeros}"
+    
+    def liberar_asientos_temporales(self):
+        """Liberar asientos marcados como temporales"""
+        for fila in range(10):
+            for columna in range(12):
+                if self.asientos[fila][columna] == 'T':
+                    self.asientos[fila][columna] = 'O'
+    
+    def guardar_reserva_detalle(self, codigo, asientos):
+        """Manejo de archivos - Guardar detalle de reserva"""
+        try:
+            reserva = {
+                "codigo": codigo,
+                "fecha": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "asientos": asientos
+            }
+            
+            # Append al archivo de reservas detalladas
+            with open("reservas_detalle.json", "a", encoding="utf-8") as archivo:
+                archivo.write(json.dumps(reserva, ensure_ascii=False) + "\n")
+                
+        except Exception as e:
+            print(f"❌ Error al guardar detalle: {e}")
+    
+    def consultar_reserva(self):
+        """Manejo de archivos y cadenas - Buscar reserva"""
+        codigo = input("📋 Ingresa el código de reserva: ").upper().strip()
+        
+        try:
+            with open("reservas_detalle.json", "r", encoding="utf-8") as archivo:
+                for linea in archivo:
+                    reserva = json.loads(linea.strip())
+                    if reserva["codigo"] == codigo:
+                        print(f"\n✅ Reserva encontrada:")
+                        print(f"📋 Código: {reserva['codigo']}")
+                        print(f"📅 Fecha: {reserva['fecha']}")
+                        print(f"💺 Asientos: {', '.join([a['posicion'] for a in reserva['asientos']])}")
+                        return
+                        
+            print("❌ Reserva no encontrada.")
+            
+        except FileNotFoundError:
+            print("❌ No hay reservas registradas.")
+        except Exception as e:
+            print(f"❌ Error al consultar: {e}")
+    
+    def mostrar_estadisticas(self):
+        """Arreglos y estructuras de repetición - Estadísticas"""
+        ocupados = 0
+        disponibles = 0
+        
+        # Contar asientos (estructura de repetición conocida)
+        for fila in self.asientos:
+            for asiento in fila:
+                if asiento == 'X':
+                    ocupados += 1
+                else:
+                    disponibles += 1
+        
+        total_asientos = 10 * 12
+        porcentaje_ocupacion = (ocupados / total_asientos) * 100
+        
+        print("\n📊 ESTADÍSTICAS DEL CINE 📊")
+        print("-"*40)
+        print(f"🎪 Total de asientos: {total_asientos}")
+        print(f"❌ Asientos ocupados: {ocupados}")
+        print(f"✅ Asientos disponibles: {disponibles}")
+        print(f"📈 Ocupación: {porcentaje_ocupacion:.1f}%")
+    
+    def ejecutar(self):
+        """Función principal con estructura de repetición desconocida"""
+        print("🎬 ¡Bienvenido al Sistema de Cine! 🎬")
+        
+        # Estructura de repetición de condición desconocida
+        while True:
+            self.mostrar_menu_principal()
+            
+            try:
+                opcion = int(input("👆 Selecciona una opción (1-7): "))
+                
+                # Estructuras condicionales múltiples
+                if opcion == 1:
+                    self.mostrar_cartelera()
+                elif opcion == 2:
+                    self.seleccionar_asientos()
+                elif opcion == 3:
+                    self.mostrar_mapa_asientos()
+                elif opcion == 4:
+                    self.consultar_reserva()
+                elif opcion == 5:
+                    print("🚧 Función de cancelación en desarrollo...")
+                elif opcion == 6:
+                    self.mostrar_estadisticas()
+                elif opcion == 7:
+                    print("👋 ¡Gracias por usar nuestro sistema!")
+                    break
+                else:
+                    print("❌ Opción inválida. Intenta de nuevo.")
+                    
+            except ValueError:
+                print("❌ Por favor ingresa un número válido.")
+            except KeyboardInterrupt:
+                print("\n👋 ¡Hasta luego!")
+                break
+            
+            input("\n📱 Presiona Enter para continuar...")
+
+# Punto de entrada del programa
+if __name__ == "__main__":
+    sistema = SistemaCine()
+    sistema.ejecutar()
