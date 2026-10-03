@@ -600,6 +600,7 @@ API | Description | Auth | HTTPS | CORS |
 | [AmberOne](https://scubamike124.github.io/amberone-api/) | Turn any website into a build-ready Android, iOS, PWA or Electron app project | `apiKey` | Yes | No |
 | [AnswerLine](https://answerline.dev) | Answers, citations and sources from AI assistants and Google surfaces through one API | `apiKey` | Yes | Yes |
 | [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | Yes | Unknown |
+| [API Tool Calls](https://apitoolcalls.com/api/) | API Tool Calls: Home cost planners, page to Markdown, SEO checks and recalls | No | Yes | No |
 | [ApicAgent](https://www.apicagent.com) | Extract device details from user-agent string | No | Yes | Yes |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
 | [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown |
