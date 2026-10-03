@@ -1983,6 +1983,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Virushee](https://api.virushee.com/) | Virushee file/data scanning | No | Yes | Yes |
 | [VPNDetection](https://docs.vpndetection.io/api) | Check whether an IPv4 or IPv6 address belongs to VPN infrastructure, no key needed | No | Yes | Yes |
 | [VulDB](https://vuldb.com/?doc.api) | VulDB API allows to initiate queries for one or more items along with transactional bots | `apiKey` | Yes | Unknown |
+| [Whoisfreaks](https://whoisfreaks.com/) | Domain and DNS related information that will equip organizaion with comprehensive threat intelligence and attack surface analysis capabilities for enhanced security | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
