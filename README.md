@@ -69,6 +69,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [GitHub](https://github.com/github/github-mcp-server) | Repos, issues, PRs, code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |
 | [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
 | [Twinbay](https://docs.twinbay.ai/mcp-server) | Spin up stateful API twins, read request logs and grade agent runs | `OAuth` | `HTTP` | – |
+| [Midpoint Card Prices](https://github.com/kolourr/midpoint-mcp) | Raw and graded trading card prices, grading ROI and movers for 1.5M+ Pokémon, TCG and sports cards | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.cardcenteringtool/card-prices) · [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.cardcenteringtool) |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
