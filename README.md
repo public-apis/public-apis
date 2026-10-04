@@ -2275,6 +2275,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Can I enter](https://canienter.com) | Visa and entry requirements for 199 passports, cited to official sources, verified daily | No | Yes | Yes |
 | [ChargeAlong](https://chargealong.io/docs/) | EV charging sites in AU, NZ, US, UK and Canada, with nearby search and trip planning | No | Yes | Yes |
 | [Community Transit](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) | Transitland API | No | Yes | Unknown |
+| [ConnectMeGuru](https://www.connectmeguru.com/api/mcp) | Search and purchase prepaid travel eSIM data plans across 190+ countries | No | Yes | Yes |
 | [Compare Flight Prices](https://rapidapi.com/obryan-software-obryan-software-default/api/compare-flight-prices/) | API for comparing flight prices across platforms | `apiKey` | Yes | Unknown |
 | [CruiseFeed](https://cruisefeed.io) | Normalized cruise line inventory: ships, sailings, itineraries, ports and lead-in fares | `apiKey` | Yes | Unknown |
 | [CTS](https://api.cts-strasbourg.eu/) | CTS Realtime API | `apiKey` | Yes | Yes |
