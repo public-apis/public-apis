@@ -70,6 +70,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
 | [RegSentry](https://regsentry.com/mcp-guide) | Inspect authorized static tracking signals and review supplied consent evidence | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.regsentry/tracking-inspector) |
 | [Twinbay](https://docs.twinbay.ai/mcp-server) | Spin up stateful API twins, read request logs and grade agent runs | `OAuth` | `HTTP` | – |
+| [Weio site check](https://github.com/weioai/site-check-mcp) | HTTPS and certificate checks plus homepage facts (CMS, role emails, socials) for public websites | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/ai.weio/site-check) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ai.weio/site-check) |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
