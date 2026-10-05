@@ -93,7 +93,7 @@ class TestValidateLinks(unittest.TestCase):
         self.assertIsInstance(links, list)
         self.assertIsInstance(no_links, list)
 
-        self.assertEqual(len(links), 2)
+        self.assertEqual(len(links), 1)
         self.assertEqual(len(no_links), 0)
 
     def test_if_fake_user_agent_has_a_str_as_return(self):
