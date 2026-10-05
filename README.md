@@ -1342,6 +1342,7 @@ API | Description | Auth | HTTPS | CORS |
 | [REST Countries](https://restcountries.com) | Get information about countries via a RESTful API | No | Yes | Yes |
 | [RoadGoat Cities](https://www.roadgoat.com/business/cities-api) | Cities content & photos API | `apiKey` | Yes | No |
 | [Rwanda Locations](https://rapidapi.com/victorkarangwa4/api/rwanda) | Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets | No | Yes | Unknown |
+| [SearchPinCode](https://searchpincode.in/api) | Indian postal PIN code lookup, post office locator and district data | No | Yes | Yes |
 | [SLF](https://github.com/slftool/slftool.github.io/blob/master/API.md) | German city, country, river, database | No | Yes | Yes |
 | [SpotSense](https://spotsense.io/) | Add location based interactions to your mobile app | `apiKey` | Yes | Unknown |
 | [sthan.io India PIN Code Autocomplete](https://sthan.io/products/pincode-autocomplete-ind) | Autocomplete Indian PIN codes as users type | `apiKey` | Yes | No |
