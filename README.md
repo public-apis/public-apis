@@ -72,6 +72,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [RegSentry](https://regsentry.com/mcp-guide) | Inspect authorized static tracking signals and review supplied consent evidence | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.regsentry/tracking-inspector) |
 | [Twinbay](https://docs.twinbay.ai/mcp-server) | Spin up stateful API twins, read request logs and grade agent runs | `OAuth` | `HTTP` | – |
 | [Vuntum](https://github.com/RAAAAAGEEEEE/vuntum-mcp) | Sourced, dated data on consumer robots and physical AI: specs, prices, evidence | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/RAAAAAGEEEEE/vuntum-mcp) |
+| [SnapRender](https://github.com/User0856/snaprender-integrations/tree/main/mcp-server) | Screenshot any URL as PNG, JPEG, WebP or PDF, extract page content as markdown, run batches | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.snap-render.app/snap-render) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.User0856/snaprender) |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
