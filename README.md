@@ -1611,6 +1611,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Requesty](https://docs.requesty.ai) | OpenAI compatible LLM router for 600+ models, with a free tier for free models | `apiKey` | Yes | Yes |
 | [Replicate](https://replicate.com/docs/reference/http) | Run open-source AI models in the cloud including image generation, LLMs and audio models | `apiKey` | Yes | Yes |
 | [Roboflow Universe](https://universe.roboflow.com) | Pre-trained computer vision models | `apiKey` | Yes | Yes |
+| [SafeReel](https://safereel.ai/docs) | NSFW detection for images and full-length videos by URL, free tier | `apiKey` | Yes | Yes |
 | [SkyBiometry](https://skybiometry.com/documentation/) | Face Detection, Face Recognition and Face Grouping | `apiKey` | Yes | Unknown |
 | [Speak AI](https://docs.speakai.co) | Transcribe and analyze audio and video in 100+ languages | `apiKey` | Yes | Unknown |
 | [Statlyte](https://statlyte.com/api) | Live pricing, context windows and model ids for major LLM APIs | No | Yes | Yes |
