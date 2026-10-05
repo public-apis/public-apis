@@ -1563,6 +1563,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Vibeworker](https://tryvibeworker.com/docs) | Upwork job listings with client data and AI fit scores, plus webhooks and RSS | `apiKey` | Yes | No |
 | [WhatJobs](https://www.whatjobs.com/affiliates) | Job search engine | `apiKey` | Yes | Unknown |
 | [ZipRecruiter](https://www.ziprecruiter.com/publishers) | Job search app and website | `apiKey` | Yes | Unknown |
+| [GovernmentJobOnline](https://www.governmentjobonline.in/) | Job search app and website | `apiKey` | No | Unknown |   
 
 **[⬆ Back to Index](#index)**
 <br >
