@@ -1785,6 +1785,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Metabase](https://www.metabase.com/) | An open source Business Intelligence server to share data and analytics inside your company | No | Yes | Yes |
 | [Neuronto ARD Registry](https://neuronto.com/api-docs) | Search index of MCP servers, agents and APIs, with the tools each server actually exposes | No | Yes | Yes |
 | [Shields](https://shields.io/) | Concise, consistent, and legible badges in SVG and raster format | No | Yes | Unknown |
+| [Svix](https://www.svix.com/open-source-webhook-service/) | Open source webhooks as a service | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
