@@ -8,6 +8,12 @@ from validate.links import fake_user_agent
 from validate.links import get_host_from_link
 from validate.links import has_cloudflare_protection
 
+import tempfile
+import os
+from validate.links import find_links_in_file
+from unittest.mock import patch, Mock
+from validate.links import check_if_link_is_working
+
 
 class FakeResponse():
     def __init__(self, code: int, headers: dict, text: str) -> None:
@@ -170,3 +176,30 @@ class TestValidateLinks(unittest.TestCase):
         self.assertFalse(result1)
         self.assertFalse(result2)
         self.assertFalse(result3)
+
+    # hamza todo
+        
+    def test_find_links_in_file_extracts_links_correctly(self):
+        content = '''
+        ## Index
+        https://example.com
+        [Example](https://example.com)
+        '''
+        with tempfile.NamedTemporaryFile('w+', delete=False) as tmp:
+            tmp.write(content)
+            tmp_path = tmp.name
+        try:
+            links = find_links_in_file(tmp_path)
+            # assert 'https://example.com' in links  # Both raw and markdown link
+            self.assertIn('https://example.com', links)
+        finally:
+            os.remove(tmp_path)
+
+    def test_check_if_link_is_working_success(self):
+        with patch('validate.links.requests.get') as mock_get:
+            mock_resp = Mock()
+            mock_resp.status_code = 200
+            mock_get.return_value = mock_resp
+            has_error, error_message = check_if_link_is_working('https://example.com')
+            assert not has_error
+            assert error_message == ''
