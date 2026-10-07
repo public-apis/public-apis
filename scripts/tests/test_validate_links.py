@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import unittest
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from threading import Thread
 
+from validate.links import check_if_link_is_working
 from validate.links import find_links_in_text
 from validate.links import check_duplicate_links
 from validate.links import fake_user_agent
@@ -40,6 +43,36 @@ class TestValidateLinks(unittest.TestCase):
 
         self.text_with_cloudflare_flags = '403 Forbidden Cloudflare We are checking your browser...'
         self.text_without_cloudflare_flags = 'Lorem Ipsum'
+
+    def test_redirect_updates_host_and_still_rejects_missing_pages(self):
+        # intent: cross-host redirects must not retain the original Host header.
+        class Handler(BaseHTTPRequestHandler):
+            def do_GET(self):
+                if self.path == '/missing':
+                    self.send_response(404)
+                elif self.path == '/start' or not self.headers['Host'].startswith('localhost:'):
+                    self.send_response(302)
+                    self.send_header('Location', 'http://localhost:%s/end' % self.server.server_port)
+                else:
+                    self.send_response(200)
+                self.end_headers()
+
+            def log_message(self, *args):
+                pass
+
+        server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+        worker = Thread(target=server.serve_forever, daemon=True)
+        worker.start()
+        try:
+            origin = 'http://127.0.0.1:%s' % server.server_port
+            self.assertEqual(check_if_link_is_working(origin + '/start'), (False, ''))
+            error, message = check_if_link_is_working(origin + '/missing')
+            self.assertTrue(error)
+            self.assertIn('404', message)
+        finally:
+            server.shutdown()
+            server.server_close()
+            worker.join(timeout=5)
 
     def test_find_link_in_text(self):
         text = """
