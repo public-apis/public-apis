@@ -63,6 +63,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 | Name | Description | Auth | Transport | Install |
 |:---|:---|:---|:---|:---|
+| [Agent Verifier](https://packet.guru/agents/mcp) | Test and debug your AI agent's Web Bot Auth (RFC 9421) signature and see exactly what to fix | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/guru.packet/agent-verifier) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=guru.packet) |
 | [OpenSwissData](https://github.com/cammac-creator/openswissdata/tree/main/sdks/mcp-server) | Swiss customs tariff (TARES), FINMA register and warnings, NOGA/NACE/ISIC code crosswalks | No | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/connectors/io.github.cammac-creator/openswissdata) |
 | [IPstack MCP](https://ipstack.com/mcp) | IP geolocation, threat and timezone lookups for agents | `apiKey` | `stdio`, `HTTP` | [Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter) |
 | [Kuro](https://meetkuro.com/agents/) | Create AI images, video clips, voice-overs, music and editable storyboard films | `OAuth` | `HTTP` | – |
