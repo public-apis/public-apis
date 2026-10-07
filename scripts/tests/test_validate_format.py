@@ -12,10 +12,55 @@ from validate.format import check_https, https_keys
 from validate.format import check_cors, cors_keys
 from validate.format import check_entry
 from validate.format import check_file_format, min_entries_per_category, num_segments
+from validate.format import check_mcp_entry, num_segments
+from validate.format import transport_keys
+from validate.format import get_header_table_kind
+from validate.format import is_separator_row
+from validate.format import rest_table, mcp_table, sponsored_table
 
 
 class TestValidadeFormat(unittest.TestCase):
     
+
+
+
+    def test_mcp_order_is_checked_without_becoming_a_rest_category(self):
+        # intent: MCP ordering remains checked independently of REST category counts.
+        lines = ['## MCP Servers', '| Name | Description | Auth | Transport | Install |',
+                 '| [Zed](https://example.com) | Desc | No | `HTTP` | – |',
+                 '| [Alpha](https://example.com) | Desc | No | `HTTP` | – |']
+        self.assertTrue(check_alphabetical_order(lines))
+        self.assertEqual(get_categories_content(lines)[0], {})
+        lines[-2:] = list(reversed(lines[-2:]))
+        self.assertEqual(check_alphabetical_order(lines), [])
+
+    def test_documented_six_column_rest_table_remains_valid(self):
+        # intent: the optional Postman column is part of the published REST format.
+        lines = ['* [A](#a)', '### A',
+                 '| API | Description | Auth | HTTPS | CORS | Call this API |',
+                 '|:---|:---|:---|:---|:---|:---|']
+        lines += ['| [A{}](https://example.com/{}) | Desc | No | Yes | Yes | [Run](https://postman.com) |'.format(i, i) for i in range(3)]
+        self.assertEqual(check_file_format(lines), [])
+
+    def test_indexed_categories_cannot_switch_to_sponsored_or_mcp_tables(self):
+        # intent: changing a REST header cannot hide invalid HTTPS/CORS values.
+        for header in ('| API | Description | Call this API |',
+                       '| Name | Description | Auth | Transport | Install |'):
+            lines = ['* [A](#a)', '### A', header,
+                     '| [AA](https://example.com) | Desc | Bogus | Bad | Bad |']
+            with self.subTest(header=header):
+                errors = check_file_format(lines)
+                self.assertTrue(any('HTTPS option' in error for error in errors))
+                self.assertTrue(any('CORS option' in error for error in errors))
+
+    def test_empty_indexed_category_still_requires_entries(self):
+        # intent: an empty category cannot evade the minimum-entry guard.
+        lines = ['* [A](#a)', '* [B](#b)', '### A', '### B',
+                 '| [BB](https://example.com) | Desc | No | Yes | Yes |',
+                 '| [BC](https://example.com) | Desc | No | Yes | Yes |',
+                 '| [BD](https://example.com) | Desc | No | Yes | Yes |']
+        self.assertTrue(any('minimum' in error for error in check_file_format(lines)))
+
     def test_error_message_return_and_return_type(self):
         line_num_unity = 1
         line_num_ten = 10
@@ -464,3 +509,318 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertEqual(len(err_msgs), 1)
         err_msg = err_msgs[0]
         self.assertEqual(err_msg, expected_err_msg)
+
+    # --- Markdown alignment rows are table chrome, not API entries ---
+
+    def test_is_separator_row_accepts_markdown_alignment_variants(self):
+        separators = [
+            '|---|---|---|---|---|',
+            '|:---|:---|:---|:---|:---|',
+            '|---:|---:|---:|---:|---:|',
+            '|:---:|:---:|:---:|:---:|:---:|',
+            '| --- | --- | --- | --- | --- |',
+            '| :--- | ---: | :---: | --- | :--- |',
+        ]
+
+        for separator in separators:
+            with self.subTest(separator=separator):
+                self.assertTrue(is_separator_row(separator))
+
+        not_separators = [
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '|:--|:--|:--|:--|:--|',
+            '| Name | Description | Auth | Transport | Install |',
+        ]
+
+        for line in not_separators:
+            with self.subTest(line=line):
+                self.assertFalse(is_separator_row(line))
+
+    def test_check_file_format_ignores_separator_variants(self):
+        separators = [
+            '|---|---|---|---|---|',
+            '|:---|:---|:---|:---|:---|',
+            '|---:|---:|---:|---:|---:|',
+            '|:---:|:---:|:---:|:---:|:---:|',
+            '| --- | --- | --- | --- | --- |',
+        ]
+
+        for separator in separators:
+            with self.subTest(separator=separator):
+                lines = [
+                    '## Index',
+                    '* [A](#a)',
+                    '',
+                    '### A',
+                    'API | Description | Auth | HTTPS | CORS |',
+                    separator,
+                    '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+                    '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+                    '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+                ]
+
+                self.assertEqual(check_file_format(lines=lines), [])
+
+    def test_check_file_format_still_rejects_invalid_row_after_separator(self):
+        lines = [
+            '## Index',
+            '* [A](#a)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|:---|:---|:---|:---|:---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Maybe | Sometimes |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        err_msgs = check_file_format(lines=lines)
+
+        self.assertIn('(L008) Maybe is not a valid HTTPS option', err_msgs)
+        self.assertIn('(L008) Sometimes is not a valid CORS option', err_msgs)
+
+    # --- MCP server tables use Name/Description/Auth/Transport/Install ---
+
+    def test_get_header_table_kind(self):
+        self.assertEqual(get_header_table_kind('| API | Description | Auth | HTTPS | CORS |'), rest_table)
+        self.assertEqual(get_header_table_kind('| Name | Description | Auth | Transport | Install |'), mcp_table)
+        self.assertEqual(get_header_table_kind('| API | Description | Call this API |'), sponsored_table)
+        self.assertIsNone(get_header_table_kind('| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'))
+
+    def test_check_mcp_entry_with_valid_row(self):
+        valid = [
+            '[Filesystem](https://github.com/modelcontextprotocol/servers)',
+            'Read or write local files',
+            'No',
+            '`stdio`',
+            '\u2013',
+        ]
+
+        self.assertEqual(check_mcp_entry(0, valid), [])
+
+        for transport in transport_keys:
+            with self.subTest(transport=transport):
+                segments = list(valid)
+                segments[3] = f'`{transport}`'
+                self.assertEqual(check_mcp_entry(0, segments), [])
+
+    def test_check_mcp_entry_rejects_invalid_values(self):
+        valid = [
+            '[Filesystem](https://github.com/modelcontextprotocol/servers)',
+            'Read or write local files',
+            'No',
+            '`stdio`',
+            '\u2013',
+        ]
+
+        invalid_transport = list(valid)
+        invalid_transport[3] = '`Foo`'
+        self.assertEqual(
+            check_mcp_entry(0, invalid_transport),
+            ['(L001) `Foo` is not a valid Transport option']
+        )
+
+        invalid_auth = list(valid)
+        invalid_auth[2] = '`Bogus`'
+        self.assertEqual(
+            check_mcp_entry(0, invalid_auth),
+            ['(L001) `Bogus` is not a valid Auth option']
+        )
+
+        empty_description = list(valid)
+        empty_description[1] = ''
+        self.assertEqual(
+            check_mcp_entry(0, empty_description),
+            ['(L001) description should not be empty']
+        )
+
+        invalid_install = list(valid)
+        invalid_install[4] = 'somewhere'
+        self.assertEqual(
+            check_mcp_entry(0, invalid_install),
+            ['(L001) somewhere is not a valid Install option']
+        )
+
+    def test_check_mcp_entry_enforces_description_length(self):
+        long_desc = 'Desc' * max_description_length
+        segments = [
+            '[Filesystem](https://github.com/modelcontextprotocol/servers)',
+            long_desc,
+            'No',
+            '`stdio`',
+            '\u2013',
+        ]
+
+        self.assertEqual(
+            check_mcp_entry(0, segments),
+            [f'(L001) description should not exceed {max_description_length} characters (currently {len(long_desc)})']
+        )
+
+    def test_check_file_format_validates_mcp_table_with_mcp_columns(self):
+        lines = [
+            '## MCP Servers',
+            '',
+            '| Name | Description | Auth | Transport | Install |',
+            '|:---|:---|:---|:---|:---|',
+            '| [Filesystem](https://github.com/modelcontextprotocol/servers) | Read or write local files | No | `stdio` | \u2013 |',
+            '| [GitHub MCP](https://github.com/github/github-mcp-server) | Repos, issues, PRs and code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |',
+            '| [Kuro](https://meetkuro.com/agents/) | Create images, video clips and voice-overs | `OAuth` | `HTTP` | \u2013 |',
+            '| [RegSentry](https://regsentry.com/mcp-guide) | Inspect tracking signals and consent evidence | No | `SSE` | [Anthropic](https://claude.ai/directory/regsentry) \u00b7 [Glama](https://glama.ai/mcp/servers/regsentry) |',
+        ]
+
+        self.assertEqual(check_file_format(lines=lines), [])
+
+    def test_check_file_format_rejects_invalid_mcp_row_without_https_or_cors(self):
+        lines = [
+            '## MCP Servers',
+            '',
+            '| Name | Description | Auth | Transport | Install |',
+            '|:---|:---|:---|:---|:---|',
+            '| [Filesystem](https://github.com/modelcontextprotocol/servers) | Read or write local files | `Bogus` | `Foo` | \u2013 |',
+        ]
+
+        err_msgs = check_file_format(lines=lines)
+
+        self.assertIn('(L005) `Bogus` is not a valid Auth option', err_msgs)
+        self.assertIn('(L005) `Foo` is not a valid Transport option', err_msgs)
+        self.assertFalse(any('HTTPS option' in msg or 'CORS option' in msg for msg in err_msgs))
+
+    def test_check_file_format_rejects_mcp_row_with_missing_column(self):
+        lines = [
+            '## MCP Servers',
+            '',
+            '| Name | Description | Auth | Transport | Install |',
+            '|:---|:---|:---|:---|:---|',
+            '| [Filesystem](https://github.com/modelcontextprotocol/servers) | Read or write local files | No | `stdio` |',
+        ]
+
+        self.assertEqual(
+            check_file_format(lines=lines),
+            [f'(L005) entry does not have all the required columns (have 4, need {num_segments})']
+        )
+
+    # --- Prefatory/sponsored sections must not be read as indexed REST categories ---
+
+    def test_check_file_format_separates_sponsored_preface_table(self):
+        lines = [
+            '## APILayer APIs',
+            '| API | Description | Call this API |',
+            '|:---|:---|:---|',
+            '| [IPstack](https://ipstack.com) | Locate website visitors by IP address | [Postman](https://www.postman.com) |',
+            '| [Fixer](https://fixer.io) | Foreign exchange rates | [Postman](https://www.postman.com) |',
+            '',
+            '## Index',
+            '* [A](#a)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|:---|:---|:---|:---|:---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        self.assertEqual(check_file_format(lines=lines), [])
+
+    def test_check_file_format_prefatory_heading_without_rest_table_is_not_a_category(self):
+        lines = [
+            '# Sponsors',
+            '### APIs Covered Under APILayer Suite!',
+            '',
+            '- [IPstack](https://ipstack.com)',
+            '- [Fixer](https://fixer.io)',
+            '',
+            '## Index',
+            '* [A](#a)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|:---|:---|:---|:---|:---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        self.assertEqual(check_file_format(lines=lines), [])
+
+    def test_check_file_format_top_level_section_does_not_contaminate_category_count(self):
+        lines = [
+            '## Index',
+            '* [A](#a)',
+            '* [B](#b)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|:---|:---|:---|:---|:---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '',
+            '## MCP Servers',
+            '| Name | Description | Auth | Transport | Install |',
+            '|:---|:---|:---|:---|:---|',
+            '| [Zulu](https://www.ex.com) | Desc | No | `stdio` | \u2013 |',
+            '',
+            '### B',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|:---|:---|:---|:---|:---|',
+            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [BB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [BC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        self.assertEqual(
+            check_file_format(lines=lines),
+            [f'(L005) A category does not have the minimum {min_entries_per_category} entries (only has 2)']
+        )
+
+    # --- REST rows keep being validated even without an explicit header ---
+
+    def test_check_file_format_validates_rows_when_header_is_absent(self):
+        lines = [
+            '## Index',
+            '* [A](#a)',
+            '',
+            '### A',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Maybe | Yes |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        self.assertEqual(check_file_format(lines=lines), ['(L006) Maybe is not a valid HTTPS option'])
+
+    # --- Sabotage guards: these must keep failing if the REST checks are weakened ---
+
+    def test_check_file_format_rejects_invalid_rest_auth_https_cors(self):
+        lines = [
+            '## Index',
+            '* [A](#a)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|:---|:---|:---|:---|:---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | Bogus | Maybe | Sometimes |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        err_msgs = check_file_format(lines=lines)
+
+        self.assertIn('(L008) auth value is not enclosed with `backticks`', err_msgs)
+        self.assertIn('(L008) Bogus is not a valid Auth option', err_msgs)
+        self.assertIn('(L008) Maybe is not a valid HTTPS option', err_msgs)
+        self.assertIn('(L008) Sometimes is not a valid CORS option', err_msgs)
+
+    def test_check_file_format_detects_unsorted_rest_category(self):
+        lines = [
+            '## Index',
+            '* [A](#a)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|:---|:---|:---|:---|:---|',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+        ]
+
+        self.assertEqual(check_file_format(lines=lines), ['(L004) A category is not alphabetical order'])

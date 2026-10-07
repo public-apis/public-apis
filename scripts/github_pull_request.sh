@@ -37,7 +37,13 @@ curl -L "$DIFF_URL" -o diff.txt
 echo "------- BEGIN DIFF -------"
 cat diff.txt
 echo "-------- END DIFF --------"
-cat diff.txt | egrep "\+" > additions.txt
+# Only the requested documentation file supplies published link targets.
+# Source-code fixtures in other files are not API directory submissions.
+RELATIVE_FILENAME="$(realpath --relative-to="$GITHUB_WORKSPACE" "$FILENAME")"
+awk -v target="$RELATIVE_FILENAME" '''
+    /^diff --git / { selected = ($3 == "a/" target && $4 == "b/" target) }
+    selected && /^\+/ && !/^\+\+\+/ { print }
+''' diff.txt > additions.txt
 
 echo "------ BEGIN ADDITIONS -----"
 cat additions.txt
