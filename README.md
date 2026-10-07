@@ -63,6 +63,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 | Name | Description | Auth | Transport | Install |
 |:---|:---|:---|:---|:---|
+| [OneFindMe](https://onefindme.com/mcp) | Search AliExpress products in any language, priced for the delivery country | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.onefindme/search) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=com.onefindme) |
 | [OpenSwissData](https://github.com/cammac-creator/openswissdata/tree/main/sdks/mcp-server) | Swiss customs tariff (TARES), FINMA register and warnings, NOGA/NACE/ISIC code crosswalks | No | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/connectors/io.github.cammac-creator/openswissdata) |
 | [IPstack MCP](https://ipstack.com/mcp) | IP geolocation, threat and timezone lookups for agents | `apiKey` | `stdio`, `HTTP` | [Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter) |
 | [Kuro](https://meetkuro.com/agents/) | Create AI images, video clips, voice-overs, music and editable storyboard films | `OAuth` | `HTTP` | – |
