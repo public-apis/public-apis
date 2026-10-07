@@ -2141,6 +2141,7 @@ API | Description | Auth | HTTPS | CORS |
 | [5DollarFootball](https://5dollarfootballapi.com/) | Football fixtures, results, standings and historical odds with corner and card lines | `apiKey` | Yes | Yes |
 | [API-FOOTBALL](https://www.api-football.com/documentation-v3) | Get information about Football Leagues & Cups | `apiKey` | Yes | Yes |
 | [ApiMedic](https://apimedic.com/) | ApiMedic offers a medical symptom checker API primarily for patients | `apiKey` | Yes | Unknown |
+| [Ball Ranks](https://ballranks.com/developers) | NFL and NBA fantasy rankings and player projections | No | Yes | Yes |
 | [balldontlie](https://www.balldontlie.io) | Balldontlie provides access to stats data from the NBA | No | Yes | Yes |
 | [Bet Better](https://betbetter.world/api/) | Sports model win probabilities and fair odds across 13 leagues | No | Yes | Yes |
 | [Canadian Football League (CFL)](http://api.cfl.ca/) | Official JSON API providing real-time league, team and player statistics about the CFL | `apiKey` | Yes | No |
