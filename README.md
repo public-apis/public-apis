@@ -217,7 +217,6 @@ API | Description | Auth | HTTPS | CORS |
 | [MalShare](https://malshare.com/doc.php) | Malware Archive / file sourcing | `apiKey` | Yes | No |
 | [Malwagon](https://malwagon.com/docs/api) | Detonates files and URLs in instrumented VMs and returns behaviour, IOCs and ATT&CK | `apiKey` | Yes | Unknown |
 | [MalwareBazaar](https://bazaar.abuse.ch/api/) | Collect and share malware samples | `apiKey` | Yes | Unknown |
-| [Metacert](https://metacert.com/) | Metacert Link Flagging | `apiKey` | Yes | Unknown |
 | [NoPhishy](https://rapidapi.com/Amiichu/api/exerra-phishing-check/) | Check links to see if they're known phishing attempts | `apiKey` | Yes | Yes |
 | [Phisherman](https://phisherman.gg/) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
 | [Scanii](https://docs.scanii.com/) | Simple REST API that can scan submitted documents/files for the presence of threats | `apiKey` | Yes | Yes |
@@ -288,7 +287,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
 | [Chainpoint](https://tierion.com/chainpoint/) | Chainpoint is a global network for anchoring data to the Bitcoin blockchain | No | Yes | Unknown |
 | [ClearTrace](https://cleartracedata.com/docs) | Cross-frontend DEX attribution and execution quality data across Ethereum and L2s | No | Yes | Yes |
-| [Covalent](https://www.covalenthq.com/docs/api/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
+| [Covalent](https://www.covalenthq.com/docs/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
 | [Dwellir](https://www.dwellir.com/docs) | RPC endpoints for 150+ blockchain networks, including Ethereum, Solana, Polkadot and Hyperliquid | `apiKey` | Yes | Yes |
 | [Etherscan](https://etherscan.io/apis) | Ethereum explorer API | `apiKey` | Yes | Yes |
 | [Get Started with Web3](https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md) | Bilingual Web3 lessons, glossary search and role-based learning paths | No | Yes | Yes |
@@ -310,7 +309,6 @@ API | Description | Auth | HTTPS | CORS |
 | [A Bíblia Digital](https://www.abibliadigital.com.br/en) | Do not worry about managing the multiple versions of the Bible | `apiKey` | Yes | No |
 | [Amanah Sunnah](https://sunnah.amanahagent.cloud/developers) | Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators | `apiKey` | Yes | Yes |
 | [Bhagavad Gita](https://docs.bhagavadgitaapi.in) | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | `apiKey` | Yes | Yes |
-| [Bhagavad Gita](https://bhagavadgita.io/api) | Bhagavad Gita text | `OAuth` | Yes | Yes |
 | [Bhagavad Gita telugu](https://gita-api.vercel.app) | Bhagavad Gita API in telugu and odia languages | No | Yes | Yes |
 | [Bible-api](https://bible-api.com/) | Free Bible API with multiple languages | No | Yes | Yes |
 | [BookRank](https://openbookrank.com/en/open-data) | Book rankings from open reader ratings: books, series, reading orders and authors | No | Yes | Yes |
@@ -479,7 +477,7 @@ API | Description | Auth | HTTPS | CORS |
 | [BTCGlobe](https://btcglobe.live/join#makers) | Bitcoin height, fees, mempool and peer data served live from two self-hosted nodes | No | Yes | Yes |
 | [btcnode.uk](https://btcnode.uk) | Bitcoin blockchain data, fees, mempool, SEC insider trades, Reddit sentiment. x402 micropayments for paid endpoints. | No | Yes | Unknown |
 | [BtcTurk](https://docs.btcturk.com/) | Real-time cryptocurrency data, graphs and API that allows buy&sell | `apiKey` | Yes | Yes |
-| [Bybit](https://bybit-exchange.github.io/docs/linear/#t-introduction) | Cryptocurrency data feed and algorithmic trading | `apiKey` | Yes | Unknown |
+| [Bybit](https://bybit-exchange.github.io/docs/v5/intro) | Cryptocurrency data feed and algorithmic trading | `apiKey` | Yes | Unknown |
 | [CoinAPI](https://docs.coinapi.io/) | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No |
 | [Coinbase](https://developers.coinbase.com) | Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown |
 | [Coinbase Pro](https://docs.pro.coinbase.com/#api) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
@@ -826,7 +824,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Indonesia Dictionary](https://new-kbbi-api.herokuapp.com/) | Indonesia dictionary many words | No | Yes | Unknown |
 | [Lingua Robot](https://www.linguarobot.io) | Word definitions, pronunciations, synonyms, antonyms and others | `apiKey` | Yes | Yes |
 | [Merriam-Webster](https://dictionaryapi.com/) | Dictionary and Thesaurus Data | `apiKey` | Yes | Unknown |
-| [OwlBot](https://owlbot.info/) | Definitions with example sentence and photo if available | `apiKey` | Yes | Yes |
 | [Oxford](https://developer.oxforddictionaries.com/) | Dictionary Data | `apiKey` | Yes | No |
 | [Random Lexicon](https://randomlexicon.com/api-reference) | Random words and definitions using optional filters | No | Yes | Yes |
 | [SayItVid](https://sayitvid.com) | English video pronunciation search with timestamps, IPA phonetics and subtitle context | `apiKey` | Yes | Yes |
@@ -1235,7 +1232,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Steam](https://github.com/Revadike/InternalSteamWebAPI/wiki) | Internal Steam Web API documentation | No | Yes | No |
 | [SteamGPT](https://steamgpt.net) | Steam profiles, SteamID conversion, VAC/game bans, FACEIT stats and friends | No | Yes | Yes |
 | [SuperHeroes](https://superheroapi.com) | All SuperHeroes and Villains data from all universes under a single API | `apiKey` | Yes | Unknown |
-| [TCGdex](https://www.tcgdex.net/docs) | Multi languages Pokémon TCG Information | No | Yes | Yes |
+| [TCGdex](https://tcgdex.dev/) | Multi languages Pokémon TCG Information | No | Yes | Yes |
 | [Tebex](https://docs.tebex.io/plugin/) | Tebex API for information about game purchases | `X-Mashape-Key` | Yes | No |
 | [TETR.IO](https://tetr.io/about/api/) | TETR.IO Tetra Channel API | No | Yes | Unknown |
 | [TickerMint](https://tickermint.cards/developers) | Daily market prices and price history for Pokémon, One Piece, Lorcana and Yu-Gi-Oh cards | No | Yes | No |
@@ -1456,7 +1453,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Government, Queensland Government](https://www.data.qld.gov.au/) | Queensland Government Open Data | No | Yes | Unknown |
 | [Open Government, Romania](http://data.gov.ro/) | Romania Government Open Data | No | No | Unknown |
 | [Open Government, Saudi Arabia](https://data.gov.sa) | Saudi Arabia Government Open Data | No | Yes | Unknown |
-| [Open Government, Singapore](https://data.gov.sg/developer) | Singapore Government Open Data | No | Yes | Unknown |
+| [Open Government, Singapore](https://data.gov.sg/) | Singapore Government Open Data | No | Yes | Unknown |
 | [Open Government, Slovakia](https://data.gov.sk/en/) | Slovakia Government Open Data | No | Yes | Unknown |
 | [Open Government, Slovenia](https://podatki.gov.si/) | Slovenia Government Open Data | No | Yes | No |
 | [Open Government, South Australian Government](https://data.sa.gov.au/) | South Australian Government Open Data | No | Yes | Unknown |
@@ -2329,7 +2326,7 @@ API | Description | Auth | HTTPS | CORS |
 | [On va où ?](https://onvaou.app/developers/routing-api.html) | Bike, scooter, motorcycle, wheelchair and walking routes across Europe, with safety indicators | `apiKey` | Yes | No |
 | [Open Charge Map](https://openchargemap.org/site/develop/api) | Global public registry of electric vehicle charging locations | `apiKey` | Yes | Yes |
 | [Orizn Visa](https://visa.orizn.app) | Visa requirements for 199 countries, 39K+ passport-destination pairs in 15 languages | `apiKey` | Yes | Yes |
-| [OpenSky Network](https://opensky-network.org/apidoc/index.html) | Free real-time ADS-B aviation data | No | Yes | Unknown |
+| [OpenSky Network](https://openskynetwork.github.io/opensky-api/) | Free real-time ADS-B aviation data | No | Yes | Unknown |
 | [OpenVan](https://openvan.camp/docs) | Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel | No | Yes | Yes |
 | [Railway Transport for France](https://www.digital.sncf.com/startup/api) | SNCF public API | `apiKey` | Yes | Unknown |
 | [Railworks](https://railworks.paddez.com/docs) | Irish Rail planned engineering works: affected stations, DART closures, change log and ICS feeds | No | Yes | Yes |
