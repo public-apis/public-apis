@@ -2035,6 +2035,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Virushee](https://api.virushee.com/) | Virushee file/data scanning | No | Yes | Yes |
 | [VPNDetection](https://docs.vpndetection.io/api) | Check whether an IPv4 or IPv6 address belongs to VPN infrastructure, no key needed | No | Yes | Yes |
 | [VulDB](https://vuldb.com/?doc.api) | VulDB API allows to initiate queries for one or more items along with transactional bots | `apiKey` | Yes | Unknown |
+| [WhoisFreaks](https://whoisfreaks.com/documentation/api/whois-api.html) | Current WHOIS, historical WHOIS, and reverse WHIOS searches with keywords, email, phone, or company | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
