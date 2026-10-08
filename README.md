@@ -920,6 +920,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MailCheck.ai](https://www.mailcheck.ai/#documentation) | Prevent users to sign up with temporary email addresses | No | Yes | Unknown |
 | [Mailfornet](https://mailfornet.com/api) | Disposable inboxes for end-to-end signup tests, with long-polling and HMAC-signed webhooks | `apiKey` | Yes | Yes |
 | [MailRambo](https://www.mailrambo.com/developers) | Verify email deliverability with a strict yes/no, disposable and catch-all detection | `apiKey` | Yes | No |
+| [MailSenpai DNS Check](https://en.mailsenpai.com/dns-check-api/) | Check a domain's SPF, DKIM, DMARC and MX records and get what to fix, with the values to publish | No | Yes | Yes |
 | [Mailtrap](https://mailtrap.io) | Email API and SMTP for sending transactional and bulk emails, with email testing sandbox for safe development | `apiKey` | Yes | Unknown |
 | [PostStack](https://poststack.dev/docs) | EU-hosted email API for transactional and marketing email, with contacts, broadcasts, and analytics | `apiKey` | Yes | No |
 | [RankFabrik Verify](https://rankfabrik.com/produits/verification) | Validate email addresses for deliverability, syntax and disposable detection | `apiKey` | Yes | Unknown |
