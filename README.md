@@ -1778,6 +1778,7 @@ API | Description | Auth | HTTPS | CORS |
 | [University of Oslo](https://data.uio.no/) | Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway) | No | Yes | Unknown |
 | [UPC database](https://upcdatabase.org/api) | More than 1.5 million barcode numbers from all around the world | `apiKey` | Yes | Unknown |
 | [Urban Observatory](https://urbanobservatory.ac.uk) | The largest set of publicly available real time urban data in the UK | No | No | No |
+| [Verified Handles](https://verifiedhandles.org/developers) | Official social media handles and identifiers of 155,000+ notable people and organisations | No | Yes | Yes |
 | [Voidly](https://voidly.ai/api-docs) | Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries | No | Yes | No |
 | [Vuntum](https://vuntum.com/en/api-mcp) | Sourced, dated facts on consumer robots and physical AI, licensed CC BY 4.0 | No | Yes | Yes |
 | [Warnely](https://warnely.com/developers) | Composite travel-safety scores for 180 countries (FCDO + US State + GPI + WGI + live incident wire), OpenAPI 3.1 spec, CC BY 4.0 | No | Yes | Yes |
