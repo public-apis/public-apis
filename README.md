@@ -1511,6 +1511,7 @@ API | Description | Auth | HTTPS | CORS |
 | [COVID-19 Tracker Sri Lanka](https://www.hpb.health.gov.lk/en/api-documentation) | Provides situation of the COVID-19 patients reported in Sri Lanka | No | Yes | Unknown |
 | [COVID-ID](https://data.covid19.go.id/public/api/prov.json) | Indonesian government Covid data per province | No | Yes | Yes |
 | [Cure Cancer With AI](https://www.curecancerwithai.com/developers) | Oncology research, clinical trials, FDA approvals, news, and MAMMAL predictions | `apiKey` | Yes | No |
+| [DailyMed](https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm) | FDA drug labeling and package insert information | No | Yes | Unknown |
 | [Dataflow Kit COVID-19](https://covid-19.dataflowkit.com) | COVID-19 live statistics into sites per hour | No | Yes | Unknown |
 | [DeepDNA](https://deepdna.ai/docs/) | Cited gene, variant and CPIC drug-gene lookups for developers and AI agents | No | Yes | Yes |
 | [Edamam](https://developer.edamam.com/) | Food and nutrition data API with recipe search | `apiKey` | Yes | Unknown |
