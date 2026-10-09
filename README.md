@@ -1033,6 +1033,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Finage](https://finage.co.uk) | Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider | `apiKey` | Yes | Unknown | |
 | [Finance Clearly Tax Rates](https://financeclearly.com/tax-rates-api/) | Current UK and US tax rates, allowances and thresholds | No | Yes | Yes |
 | [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs) | Realtime and historical stock data | `apiKey` | Yes | Unknown | |
+| [FinancialFilings](https://financialfilings.com/developers/) | Annual reports, ad-hoc disclosures and ESEF/XBRL filings from securities regulators worldwide | `apiKey` | Yes | No | |
 | [FinBridge](https://www.gronox.kr/docs) | Official-source financials, segments, valuation, peers and prices for KR, US, JP, TW companies | `apiKey` | Yes | Yes | |
 | [Finnhub](https://finnhub.io/docs/api) | Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto | `apiKey` | Yes | Unknown | |
 | [FloorGuard](https://floorguard-kappa.vercel.app/api/) | Sourced prop firm daily-loss and max-drawdown rules, plus a drawdown-room check | No | Yes | Yes |
