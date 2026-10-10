@@ -63,6 +63,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 | Name | Description | Auth | Transport | Install |
 |:---|:---|:---|:---|:---|
+| [Monocrawl](https://github.com/monocrawl/monocrawl-mcp) | Public posts, profiles, comments and products from 70+ social, shopping and search platforms | `apiKey` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.monocrawl/mcp) |
 | [OpenSwissData](https://github.com/cammac-creator/openswissdata/tree/main/sdks/mcp-server) | Swiss customs tariff (TARES), FINMA register and warnings, NOGA/NACE/ISIC code crosswalks | No | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/connectors/io.github.cammac-creator/openswissdata) |
 | [IPstack MCP](https://ipstack.com/mcp) | IP geolocation, threat and timezone lookups for agents | `apiKey` | `stdio`, `HTTP` | [Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter) |
 | [Kuro](https://meetkuro.com/agents/) | Create AI images, video clips, voice-overs, music and editable storyboard films | `OAuth` | `HTTP` | – |
