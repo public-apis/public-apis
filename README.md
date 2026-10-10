@@ -1362,6 +1362,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ZipCodeAPI](https://www.zipcodeapi.com) | US zip code distance, radius and location API | `apiKey` | Yes | Unknown |
 | [Zippopotam.us](http://www.zippopotam.us) | Get information about place such as country, city, state, etc | No | No | Unknown |
 | [Ziptastic](https://ziptasticapi.com/) | Get the country, state, and city of any US zip-code | No | Yes | Unknown |
+| [Zornade](https://app.zornade.com/api/) | Cadastral parcels, geocoding, OMI valuations, risk and demographics for Italy (85M parcels) | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
