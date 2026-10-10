@@ -1631,6 +1631,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
 | [Voxell Forge](https://voxell.ai/docs/#forge) | OpenAI-compatible text embeddings API, free-forever model with no credit card required | `apiKey` | Yes | No |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
+| [Hydra PSIE](https://hidra-smart-core.com/api) | Free AI API with no auth, no API keys, and no daily limits | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
