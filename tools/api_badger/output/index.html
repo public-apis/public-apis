@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public APIs with Badges</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #007acc;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #007acc;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .api-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .api-card {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .api-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .api-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .api-name a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        .api-name a:hover {
+            text-decoration: underline;
+        }
+        .api-description {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+        .api-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        .api-badges img {
+            height: 20px;
+            border-radius: 3px;
+        }
+        .category-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 8px;
+        }
+        .category-nav a {
+            background: #007acc;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+            transition: background-color 0.2s ease;
+        }
+        .category-nav a:hover {
+            background: #005a9e;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            .api-grid {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Public APIs with Badges</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">
+            A curated list of public APIs with HTTPS, Auth, and CORS status badges
+        </p>
+        
+        <div class="category-nav">
+            
+            <a href="#animals">Animals</a>
+            
+            <a href="#entertainment">Entertainment</a>
+            
+            <a href="#weather">Weather</a>
+            
+        </div>
+        
+        
+        <h2 id="animals">Animals</h2>
+        <div class="api-grid">
+            
+            <div class="api-card">
+                <div class="api-name">
+                    <a href="https://catfact.ninja" target="_blank" rel="noopener noreferrer">
+                        Cat Facts
+                    </a>
+                </div>
+                <div class="api-description">
+                    Daily cat facts
+                </div>
+                <div class="api-badges">
+                    <img src="https://img.shields.io/badge/HTTPS-Yes-brightgreen" alt="HTTPS" title="HTTPS Support">
+                    <img src="https://img.shields.io/badge/Auth-No-brightgreen" alt="Auth" title="Authentication Required">
+                    <img src="https://img.shields.io/badge/CORS-No-red" alt="CORS" title="CORS Support">
+                </div>
+            </div>
+            
+            <div class="api-card">
+                <div class="api-name">
+                    <a href="https://dog.ceo/dog-api/" target="_blank" rel="noopener noreferrer">
+                        Dog API
+                    </a>
+                </div>
+                <div class="api-description">
+                    Random dog pictures
+                </div>
+                <div class="api-badges">
+                    <img src="https://img.shields.io/badge/HTTPS-Yes-brightgreen" alt="HTTPS" title="HTTPS Support">
+                    <img src="https://img.shields.io/badge/Auth-No-brightgreen" alt="Auth" title="Authentication Required">
+                    <img src="https://img.shields.io/badge/CORS-Yes-brightgreen" alt="CORS" title="CORS Support">
+                </div>
+            </div>
+            
+        </div>
+        
+        <h2 id="entertainment">Entertainment</h2>
+        <div class="api-grid">
+            
+            <div class="api-card">
+                <div class="api-name">
+                    <a href="https://sv443.net/jokeapi/v2/" target="_blank" rel="noopener noreferrer">
+                        JokeAPI
+                    </a>
+                </div>
+                <div class="api-description">
+                    Programming jokes
+                </div>
+                <div class="api-badges">
+                    <img src="https://img.shields.io/badge/HTTPS-Yes-brightgreen" alt="HTTPS" title="HTTPS Support">
+                    <img src="https://img.shields.io/badge/Auth-No-brightgreen" alt="Auth" title="Authentication Required">
+                    <img src="https://img.shields.io/badge/CORS-Yes-brightgreen" alt="CORS" title="CORS Support">
+                </div>
+            </div>
+            
+            <div class="api-card">
+                <div class="api-name">
+                    <a href="https://pokeapi.co" target="_blank" rel="noopener noreferrer">
+                        Pokémon
+                    </a>
+                </div>
+                <div class="api-description">
+                    Pokémon Information
+                </div>
+                <div class="api-badges">
+                    <img src="https://img.shields.io/badge/HTTPS-Yes-brightgreen" alt="HTTPS" title="HTTPS Support">
+                    <img src="https://img.shields.io/badge/Auth-No-brightgreen" alt="Auth" title="Authentication Required">
+                    <img src="https://img.shields.io/badge/CORS-Yes-brightgreen" alt="CORS" title="CORS Support">
+                </div>
+            </div>
+            
+        </div>
+        
+        <h2 id="weather">Weather</h2>
+        <div class="api-grid">
+            
+            <div class="api-card">
+                <div class="api-name">
+                    <a href="https://openweathermap.org/api" target="_blank" rel="noopener noreferrer">
+                        OpenWeatherMap
+                    </a>
+                </div>
+                <div class="api-description">
+                    Weather data
+                </div>
+                <div class="api-badges">
+                    <img src="https://img.shields.io/badge/HTTPS-Yes-brightgreen" alt="HTTPS" title="HTTPS Support">
+                    <img src="https://img.shields.io/badge/Auth-apiKey-yellow" alt="Auth" title="Authentication Required">
+                    <img src="https://img.shields.io/badge/CORS-Yes-brightgreen" alt="CORS" title="CORS Support">
+                </div>
+            </div>
+            
+            <div class="api-card">
+                <div class="api-name">
+                    <a href="https://www.weatherapi.com/" target="_blank" rel="noopener noreferrer">
+                        WeatherAPI
+                    </a>
+                </div>
+                <div class="api-description">
+                    Weather API
+                </div>
+                <div class="api-badges">
+                    <img src="https://img.shields.io/badge/HTTPS-Yes-brightgreen" alt="HTTPS" title="HTTPS Support">
+                    <img src="https://img.shields.io/badge/Auth-apiKey-yellow" alt="Auth" title="Authentication Required">
+                    <img src="https://img.shields.io/badge/CORS-Yes-brightgreen" alt="CORS" title="CORS Support">
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div class="footer">
+            <p>Generated by <strong>api-badger</strong> - Making API documentation more visual and informative</p>
+            <p>Total APIs: </p>
+        </div>
+    </div>
+    
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Add scroll-to-top functionality
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                if (!document.querySelector('.scroll-top')) {
+                    const scrollTop = document.createElement('div');
+                    scrollTop.className = 'scroll-top';
+                    scrollTop.innerHTML = '↑';
+                    scrollTop.style.cssText = `
+                        position: fixed;
+                        bottom: 20px;
+                        right: 20px;
+                        background: #007acc;
+                        color: white;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        font-size: 20px;
+                        z-index: 1000;
+                        transition: background-color 0.2s ease;
+                    `;
+                    scrollTop.addEventListener('click', function() {
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    });
+                    scrollTop.addEventListener('mouseenter', function() {
+                        this.style.background = '#005a9e';
+                    });
+                    scrollTop.addEventListener('mouseleave', function() {
+                        this.style.background = '#007acc';
+                    });
+                    document.body.appendChild(scrollTop);
+                }
+            } else {
+                const scrollTop = document.querySelector('.scroll-top');
+                if (scrollTop) {
+                    scrollTop.remove();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+        
