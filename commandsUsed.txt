@@ -1,0 +1,53 @@
+cd public-apis
+dir
+git checkout -b feature-update
+echo "This is an update." > update.txt
+dir
+git add update.txt
+git commit -m "Add update.txt with some content"
+git checkout main
+git checkout -b main
+git merge feature-update
+echo "This is a conflicting update." >update.txt
+got add update.txt
+git add update.txt
+git commit -m "Create a conflict in the update.txt"
+git checkout -b resolve-conflict
+git pull origin main
+git branch
+git pull origin master
+git pull origin main
+<<<<<<< HEAD
+This is an update.
+=======
+This is a conflicting update.
+>>>>>>> main
+git add update.txt
+git branch
+git checkout -b main
+git checkout main
+git add update.txt
+git commit -m "To create a conflict"
+git pull origin main
+git pull orgin feature-update
+git ls-remote --heads origin
+echo "This is to create a conflict.">update.txt
+git add .
+git commit -m "To create conflict"
+git remote add origin master
+git remote add origin https://github.com/SusanMamu/public-apis.git
+git push origin main
+git pull origin main
+git push origin main
+git checkout main
+git merge resolve-conflict
+code .
+git add index.html
+git commit -m "Add index.html file"
+git push origin main
+history
+commands.log
+doskey /history > commands.log
+
+
+I explored this open source https://github.com/tensorflow/tensorflow
