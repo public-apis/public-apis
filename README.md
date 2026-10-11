@@ -72,6 +72,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [Edgepedia](https://github.com/EdgePlat/edgepedia-mcp) | Search and read Edgepedia, a free and growing encyclopedia with citations | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/ai.edgechat/edgepedia) |
 | [GitHub](https://github.com/github/github-mcp-server) | Repos, issues, PRs, code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |
 | [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
+| [Kooperativa](https://github.com/kooperativa-team/kooperativa-mcp) | Kooperativa.io people and company data: enrich, search, hiring signals, job changes, headcount | `apiKey` | `stdio` | [Glama](https://glama.ai/mcp/servers/kooperativa-team/kooperativa-mcp) |
 | [RegSentry](https://regsentry.com/mcp-guide) | Inspect authorized static tracking signals and review supplied consent evidence | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.regsentry/tracking-inspector) |
 | [Silicon Floor](https://siliconfloor.com/docs/mcp) | Who owns AI and chip stocks, what insiders sell, how fast they grow: answers from SEC filings | No | `HTTP` | [Anthropic](https://claude.ai/directory/silicon-floor) · [Glama](https://glama.ai/mcp/connectors/com.siliconfloor/silicon-floor) |
 | [Twinbay](https://docs.twinbay.ai/mcp-server) | Spin up stateful API twins, read request logs and grade agent runs | `OAuth` | `HTTP` | – |
