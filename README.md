@@ -970,6 +970,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Techy](https://techy-api.vercel.app/) | JSON and Plaintext API for tech-savvy sounding phrases | No | Yes | Unknown |
 | [Yes or No Oracle](https://yesnooracle.app/api) | Random yes/no/maybe answers in 7 themed oracle voices (Magic 8 Ball, Tarot, and more) | No | Yes | Yes |
 | [Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2) | REST API for Yo Momma Jokes | No | Yes | Unknown |
+| [The Cat API](https://developers.thecatapi.com/) | Fetch random cat images and facts for your feline fun projects. | No | Yes | No |
+
 
 **[⬆ Back to Index](#index)**
 <br >
