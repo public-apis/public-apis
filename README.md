@@ -1541,6 +1541,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Stanza DSCSA Verifier](https://stanzaapi.com/tools/pharma-dscsa) | Verify FDA DSCSA and EU FMD pharmaceutical serialization barcodes | `apiKey` | Yes | No |
 | [Stanza UDI Decoder](https://stanzaapi.com/tools/udi-decoder) | Decode and validate FDA GUDID and EU MDR medical device UDI barcodes | `apiKey` | Yes | No |
 | [Urgences Québec](https://sante.handled.tools/api) | Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada | No | Yes | Yes |
+| [WHO ICD API](https://icd.who.int/icdapi) | WHO disease classifications and codes | `OAuth` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
