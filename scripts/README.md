@@ -73,3 +73,9 @@ To run only the links tests, run:
 ```bash
 $ python -m unittest discover tests/ --verbose --pattern "test_validate_links.py"
 ```
+
+### Cryptocurrency
+
+| CoinGecko | Provides cryptocurrency prices, market data, and historical info. | No | ✅ | Yes | [Link](https://www.coingecko.com/en/api) |
+
+
