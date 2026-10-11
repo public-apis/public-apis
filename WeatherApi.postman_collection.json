@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "1941fec0-7bcb-4105-8807-0a43abc4d915",
+		"name": "WeatherApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39472140"
+	},
+	"item": [
+		{
+			"name": "Get Current Weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw"
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY_HERE&units=metric",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "London",
+							"disabled": false
+						},
+						{
+							"key": "appid",
+							"value": "YOUR_API_KEY_HERE",
+							"disabled": false
+						},
+						{
+							"key": "units",
+							"value": "metric",
+							"disabled": false
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
