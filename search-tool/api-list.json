@@ -1,0 +1,18 @@
+[
+  {
+    "API": "WeatherAPI",
+    "Description": "Weather forecasts and current conditions"
+  },
+  {
+    "API": "OpenLibrary",
+    "Description": "Books, authors and library search"
+  },
+  {
+    "API": "CoinAPI",
+    "Description": "Cryptocurrency and exchange rates"
+  },
+  {
+    "API": "NewsData",
+    "Description": "Latest global news APIs"
+  }
+]
