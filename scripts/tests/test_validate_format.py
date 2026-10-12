@@ -14,7 +14,7 @@ from validate.format import check_entry
 from validate.format import check_file_format, min_entries_per_category, num_segments
 
 
-class TestValidadeFormat(unittest.TestCase):
+class TestValidateFormat(unittest.TestCase):
     
     def test_error_message_return_and_return_type(self):
         line_num_unity = 1
