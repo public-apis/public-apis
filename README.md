@@ -590,6 +590,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Data Validation
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [VerifyEd](https://verifyed.org/docs) | Academic credential verification. 912K schools, 2,592 diploma mills flagged, 233 countries | `apiKey` | Yes | Yes |
 | [VATlayer](https://vatlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | VAT number validation | `apiKey` | Yes | Unknown | |
 | [Attestwire](https://api.attestwire.com/docs) | Validate EN 16931 e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS | `apiKey` | Yes | Yes |
 | [invowerk](https://invowerk.dev/docs) | Validate e-invoices (ZUGFeRD, Factur-X, XRechnung, Peppol BIS) and get a validation report | `apiKey` | Yes | Unknown | |
