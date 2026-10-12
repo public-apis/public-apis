@@ -37,7 +37,7 @@ curl -L "$DIFF_URL" -o diff.txt
 echo "------- BEGIN DIFF -------"
 cat diff.txt
 echo "-------- END DIFF --------"
-cat diff.txt | egrep "\+" > additions.txt
+grep '^+[^+]' diff.txt | sed 's/^+//' > additions.txt
 
 echo "------ BEGIN ADDITIONS -----"
 cat additions.txt
@@ -46,10 +46,7 @@ LINK_FILE=additions.txt
 
 # Validate links
 echo "Running link validation on additions..."
-python scripts/validate/links.py "$LINK_FILE"
-
-# Vebosity
-if [[ $? != 0 ]]; then
+if ! python scripts/validate/links.py "$LINK_FILE"; then
     echo "link validation failed on additions!"
     exit 1
 else
