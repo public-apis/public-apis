@@ -2495,6 +2495,7 @@ API | Description | Auth | HTTPS | CORS |
 | [KinoPipe](https://kinopipe.com/docs) | Typed hosted video editing operations for agents and automation | `apiKey` | Yes | No |
 | [Lucifer Quotes](https://github.com/shadowoff09/lucifer-quotes) | Returns Lucifer quotes | No | Yes | Unknown |
 | [MCU Countdown](https://github.com/DiljotSG/MCU-Countdown) | A Countdown to the next MCU Film | No | Yes | Yes |
+| [Michael Scott Quotes](https://github.com/nazelizurna/michael-scott-quotes-api) | Michael Scott quotes from The Office TV show | No | Yes | Yes |
 | [Motivational Quotes](https://nodejs-quoteapp.herokuapp.com/) | Random Motivational Quotes | No | Yes | Unknown |
 | [Movie Quote](https://github.com/F4R4N/movie-quote/) | Random Movie and Series Quotes | No | Yes | Yes |
 | [Open Movie Database](http://www.omdbapi.com/) | Movie information | `apiKey` | Yes | Unknown |
@@ -2502,7 +2503,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Owen Wilson Wow](https://owen-wilson-wow-api.herokuapp.com) | API for actor Owen Wilson's "wow" exclamations in movies | No | Yes | Yes |
 | [RankFabrik Captions](https://rankfabrik.com/produits/transcription) | Extract transcripts and captions from YouTube videos | `apiKey` | Yes | Unknown |
 | [Rendobar](https://rendobar.com) | Hosted media processing over REST: transcode, caption, watermark video | `apiKey` | Yes | No |
-| [Michael Scott Quotes](https://github.com/nazelizurna/michael-scott-quotes-api) | Michael Scott quotes from The Office TV show | No | Yes | Yes |
 | [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) | Television | No | Yes | Unknown |
 | [Shotstack](https://shotstack.io/) | Cloud video editing API to create and render videos programmatically | `apiKey` | Yes | Unknown |
 | [Simkl](https://simkl.docs.apiary.io) | Movie, TV and Anime data | `apiKey` | Yes | Unknown |
