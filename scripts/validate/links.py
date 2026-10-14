@@ -166,8 +166,7 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
 
     try:
         resp = requests.get(link, timeout=25, headers={
-            'User-Agent': fake_user_agent(),
-            'host': get_host_from_link(link)
+            'User-Agent': fake_user_agent()
         })
 
         code = resp.status_code
