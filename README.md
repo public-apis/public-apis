@@ -936,6 +936,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Mailfornet](https://mailfornet.com/api) | Disposable inboxes for end-to-end signup tests, with long-polling and HMAC-signed webhooks | `apiKey` | Yes | Yes |
 | [MailRambo](https://www.mailrambo.com/developers) | Verify email deliverability with a strict yes/no, disposable and catch-all detection | `apiKey` | Yes | No |
 | [Mailtrap](https://mailtrap.io) | Email API and SMTP for sending transactional and bulk emails, with email testing sandbox for safe development | `apiKey` | Yes | Unknown |
+| [Nitrosend](https://docs.nitrosend.com/api) | Send marketing and transactional email; manage contacts, segments and flows | `apiKey` | Yes | No |
 | [PostStack](https://poststack.dev/docs) | EU-hosted email API for transactional and marketing email, with contacts, broadcasts, and analytics | `apiKey` | Yes | No |
 | [RankFabrik Verify](https://rankfabrik.com/produits/verification) | Validate email addresses for deliverability, syntax and disposable detection | `apiKey` | Yes | Unknown |
 | [Sendgrid](https://docs.sendgrid.com/api-reference/) | A cloud-based SMTP provider that allows you to send emails without having to maintain email servers | `apiKey` | Yes | Unknown |
