@@ -2252,6 +2252,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Test Data
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Fake Name Generator API](https://www.fakenamegenerator.online/p/free-api.html) | Free edge REST API for mock users, test addresses, Luhn cards, and safe 900-series SSNs | `No` | Yes | Yes |
 | [AddressMock](https://addressmock.com/api) | Random US, Hong Kong and Cape Verde addresses with matched city, state and ZIP | No | Yes | Yes |
 | [Bacon Ipsum](https://baconipsum.com/json-api/) | A Meatier Lorem Ipsum Generator | No | Yes | Unknown |
 | [Dicebear Avatars](https://avatars.dicebear.com/) | Generate random pixel-art avatars | No | Yes | No |
