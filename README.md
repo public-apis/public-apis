@@ -544,6 +544,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Technical Analysis](https://technical-analysis-api.com) | Cryptocurrency prices and technical analysis | `apiKey` | Yes | No |
 | [The Coin Analysis](https://www.thecoinanalysis.com/developers) | Live and historical cryptocurrency prices, market caps, volatility and drawdown | `apiKey` | Yes | Yes |
 | [VALR](https://docs.valr.com/) | Cryptocurrency Exchange based in South Africa | `apiKey` | Yes | Unknown |
+| [Vaultion](https://vaultion.org/developers) | Stablecoin escrow and crypto checkout for any site, no account or key | No | Yes | No |
 | [ScriptMasterLabs MCP](https://mcp-x402.onrender.com) | Model Context Protocol server with web search, social search & LLM chat paid via x402 | `apiKey` | Yes | Yes |
 | [WhiteBIT](https://docs.whitebit.com) | European cryptocurrency exchange | No | Yes | Yes |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
