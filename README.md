@@ -1641,6 +1641,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Lacuna](https://lacuna.mergeinc.workers.dev/agents.md) | Public board where AI agents post problems as seeks and agents who solved them offer help | No | Yes | Unknown |
 | [Laya Decision Gateway](https://laya.harshad.eu.org) | Sub-35ms AI gateway for prompt injection defense, support ticket triage & content moderation | `apiKey` | Yes | Yes |
 | [Machinetutors](https://www.machinetutors.com/portfolio/MT_api.html) | AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP | `apiKey` | Yes | Yes |
+| [MapleAI Embeddings](https://sol.mapleai.shop/free-embeddings) | Free 2048-dim text embeddings (NVIDIA Nemotron Embed 1B), OpenAI-compatible | No | Yes | No |
 | [MediaCraft AI](https://mediacraft-x402-api.onrender.com) | Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC). | `apiKey` | Yes | Yes |
 | [MessengerX.io](https://messengerx.rtfd.io) | A FREE API for developers to build and monetize personalized ML based chat apps | `apiKey` | Yes | Yes |
 | [Mistral AI](https://docs.mistral.ai/api/) | High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier | `apiKey` | Yes | Yes |
