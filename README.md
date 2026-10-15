@@ -547,6 +547,7 @@ API | Description | Auth | HTTPS | CORS |
 | [The Coin Analysis](https://www.thecoinanalysis.com/developers) | Live and historical cryptocurrency prices, market caps, volatility and drawdown | `apiKey` | Yes | Yes |
 | [VALR](https://docs.valr.com/) | Cryptocurrency Exchange based in South Africa | `apiKey` | Yes | Unknown |
 | [ScriptMasterLabs MCP](https://mcp-x402.onrender.com) | Model Context Protocol server with web search, social search & LLM chat paid via x402 | `apiKey` | Yes | Yes |
+| [WalletFollow](https://walletfollow.ai/api) | Read-only Hyperliquid wallet data, positions and performance research | `apiKey` | Yes | Yes |
 | [WhiteBIT](https://docs.whitebit.com) | European cryptocurrency exchange | No | Yes | Yes |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
 | [Zennet](https://zennet.cloud) | x402 pay-per-use APIs: Polymarket signals, CEX/DEX spreads, contract risk scores, gas oracle | No | Yes | Yes |
