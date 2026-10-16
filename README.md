@@ -344,7 +344,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tomba email finder](https://tomba.io/api) | Email Finder for B2B sales and email marketing and email verifier | `apiKey` | Yes | Yes |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
 | [Village](https://docs.village.ai) | Person and company enrichment plus warm introduction paths through your network | `apiKey` | Yes | Yes |
-| [Whois Freaks](https://whoisfreaks.com/) | WHOIS and domain data API with live and historical records | `apiKey` | Yes | Yes |
+| [WhoisFreaks](https://whoisfreaks.com/) | WHOIS and domain data with live and historical records | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -555,7 +555,7 @@ API | Description | Auth | HTTPS | CORS |
 | [API Grátis](https://apigratis.com.br/) | Multiples services and public APIs | No | Yes | Unknown |
 | [ApicAgent](https://www.apicagent.com) | Extract device details from user-agent string | No | Yes | Yes |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
-| [APIFreaks](https://apifreaks.com/) | Hub of 60+ production-ready APIs for geolocation, DNS, email, finance, weather, and automation | `apiKey` | Yes | Yes |
+| [APIFreaks](https://apifreaks.com/) | Hub of 60+ ready-to-use services for geolocation, DNS, email, finance, and weather | `apiKey` | Yes | Yes |
 | [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown |
 | [APIzone](https://apizone.io/api-docs) | Independent uptime & status monitoring for 200+ popular APIs | No | Yes | Yes |
 | [Aquanode](https://docs.aquanode.io/docs/api/marketplace) | Live GPU rental prices and availability across nine cloud providers | No | Yes | No |
