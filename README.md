@@ -1126,6 +1126,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Twelve Data](https://twelvedata.com/) | Stock market data (real-time & historical) | `apiKey` | Yes | Unknown | |
 | [Undertow](https://liquilens-undertow.com/developers/) | Public market-depth and sized exit estimates, not executable quotes | No | Yes | Yes |
 | [US Mortgage Calculator](https://www.usmortgagecalc.com/developers/api) | Mortgage payment, amortization, affordability and 50-state property tax data | No | Yes | Yes | |
+| [USTariffRates](https://api.ustariffrates.com/openapi.json) | US HTS lookup and origin-specific tariff breakdowns with source context | `apiKey` | Yes | Unknown | |
 | [VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes | Yes | |
 | [VoxOdds](https://voxodds.com/api) | Polymarket and Kalshi odds, all-in executable quotes, EV checks and audited forecast scores | No | Yes | No | |
 | [WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/) | WallstreetBets Stock Comments Sentiment Analysis | No | Yes | Unknown | |
