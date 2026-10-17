@@ -387,6 +387,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
 | [UGC VZ](https://ugc-vz.de/developers) | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | No | Yes | No |
 | [Village](https://docs.village.ai) | Person and company enrichment plus warm introduction paths through your network | `apiKey` | Yes | Yes |
+| [W System EU Business Data](https://api.wsystem.dev/docs) | EU VAT (VIES) and EORI validation, company registers, EU/UN/OFAC/UK sanctions screening | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
