@@ -394,6 +394,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
 | [UGC VZ](https://ugc-vz.de/developers) | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | No | Yes | No |
 | [Village](https://docs.village.ai) | Person and company enrichment plus warm introduction paths through your network | `apiKey` | Yes | Yes |
+| [xrechnung.dev](https://xrechnung.dev/api/) | Validate, parse and generate German e-invoices (XRechnung, ZUGFeRD) with the official KoSIT rules | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
