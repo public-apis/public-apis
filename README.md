@@ -1482,6 +1482,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Indian MSP Benchmarks](https://msp-benchmarks-api.vercel.app/docs) | Statutory Minimum Support Prices and CACP production cost benchmarks across 28 Indian crops | No | Yes | Yes |
 | [Indian Pincode](https://indianpincode.com/) | Free India PIN code lookup with GPS coordinates, 165k+ post offices, state & district data | No | Yes | Yes |
 | [INEI](http://iinei.inei.gob.pe/microdatos/) | Peruvian Statistical Government Open Data | No | No | Unknown |
+| [Instituto Nacional de Estadística (INE), Spain](https://www.ine.es/OpenAPI/index.html) | Official Spanish national statistics: all INEbase tables and series in JSON | No | Yes | Yes |
 | [Interpol Red Notices](https://interpol.api.bund.dev/) | Access and search Interpol Red Notices | No | Yes | Unknown |
 | [Istanbul (İBB) Open Data](https://data.ibb.gov.tr) | Data sets from the İstanbul Metropolitan Municipality (İBB) | No | Yes | Unknown |
 | [LocalGov.jp](https://localgov.jp/) | Japan grants and subsidies (central J-Grants + 1,916 municipalities) | No | Yes | Yes |
