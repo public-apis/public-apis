@@ -2104,6 +2104,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Hashable](https://hashable.space/pages/api/) | A REST API to access high level cryptographic functions and methods | No | Yes | Yes |
 | [Hybrid Analysis](https://www.hybrid-analysis.com/docs/api/v2) | File and URL malware analysis powered by Falcon Sandbox | `apiKey` | Yes | Unknown |
 | [HaveIBeenPwned](https://haveibeenpwned.com/API/v3) | Passwords which have previously been exposed in data breaches | `apiKey` | Yes | Unknown |
+| [ICHI – Internet Cyber Health Index](https://ichi.global/data) | Daily composite cyber health index (0–100) aggregating 28 public threat feeds; free JSON/CSV exports of scored index history, incidents, and dimension scores | No | Yes | Yes |
 | [Intelligence X](https://github.com/IntelligenceX/SDK/blob/master/Intelligence%20X%20API.pdf) | Perform OSINT via Intelligence X | `apiKey` | Yes | Unknown |
 | [IPGuardian](https://ipguardian.net/docs) | Check IP addresses against 140+ public threat intelligence blocklists | No | Yes | Yes |
 | [IPLogs](https://iplogs.com/docs) | Free VPN, proxy, Tor and datacenter IP detection. 13 sources, active probing | No | Yes | Yes |
