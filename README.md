@@ -2271,6 +2271,7 @@ API | Description | Auth | HTTPS | CORS |
 | [HaterPicks](https://www.haterpicks.app/api) | Australian sports odds and player props from every major Australian bookmaker, free tier | `apiKey` | Yes | No |
 | [JCDecaux Bike](https://developer.jcdecaux.com/) | JCDecaux's self-service bicycles | `apiKey` | Yes | Unknown |
 | [Lumify](https://lumify.ai/docs) | Real-time sports intelligence: scores, odds, betting splits & AI bet analysis across 8 sports | `apiKey` | Yes | No |
+| [MatchStats](https://match-stats-keithwys-projects.vercel.app/) | Real-time football data: European league scores, schedules, standings plus Chinese sports lottery data | `apiKey` | Yes | Yes |
 | [MLB Records and Stats](https://appac.github.io/mlb-data-api-docs/) | Current and historical MLB statistics | No | No | Unknown |
 | [MoviOdds](https://moviodds.com/doc) | Real-time bet365 soccer odds, every market, pre-match and in-play, over REST and WebSocket | No | Yes | Yes |
 | [NBA Data](https://rapidapi.com/api-sports/api/api-nba/) | All NBA Stats DATA, Games, Livescore, Standings, Statistics | `apiKey` | Yes | Unknown |
