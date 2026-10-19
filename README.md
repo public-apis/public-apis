@@ -1799,6 +1799,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Open Data
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [10ML Fragrance Index](https://mcp.10ml.com/openapi.json) | Perfume knowledge: notes, accords, families, similar scents, houses, guides. By 10ML | No | Yes | Yes |
 | [221](https://221.orvlabs.com/documentation) | Senegal reference data: public holidays, mobile operators, banks, communes, legal forms | No | Yes | Yes |
 | [49 Gallery Historical Data](https://api.181649.com/docs) | Normalized historical records and 25 daily-updated reference series | No | Yes | Yes |
 | [AcreLens](https://www.acrelens.com) | Land suitability scoring API for any US property: off-grid, rural, recreational, investment | `apiKey` | Yes | Unknown |
