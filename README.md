@@ -1635,6 +1635,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GraphQL Jobs](https://graphql.jobs/docs/api/) | Jobs with GraphQL | No | Yes | Yes |
 | [HeroHunt People Search](https://www.herohunt.ai/people-search-api) | Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing | `apiKey` | Yes | Yes |
 | [HireLayer](https://hirelayer.co/api-docs) | Parse resumes and job descriptions, normalize skills, match and rank candidates | `apiKey` | Yes | Yes |
+| [Job Opportunities](https://jobopportunitiesapi.org/docs) | Live jobs from employers' own career sites and ATSs, closed jobs re-checked daily | `apiKey` | Yes | Yes |
 | [Jobs2Careers](https://docs.talroo.com/api/search) | Job aggregator | `apiKey` | Yes | Unknown |
 | [JobsPipe](https://docs.jobspipe.dev) | Live job postings from 30+ ATS feeds and job boards in one normalized JSON schema | `apiKey` | Yes | Yes |
 | [Jobven](https://jobven.com/docs/getting-started) | Job postings tracked as roles open and close, with webhooks on changes, from employer career pages | `apiKey` | Yes | Yes |
