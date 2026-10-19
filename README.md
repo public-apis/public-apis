@@ -671,6 +671,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Contentful Images](https://www.contentful.com/developers/docs/references/images-api/) | Used to retrieve and apply transformations to images | `apiKey` | Yes | Yes |
 | [CORS Proxy](https://github.com/burhanuday/cors-proxy) | Get around the dreaded CORS error by using this proxy as a middle man | No | Yes | Yes |
 | [CountAPI](https://countapi.xyz) | Free and simple counting service. You can use it to track page hits and specific events | No | Yes | Yes |
+| [CountJar](https://countjar.vercel.app/docs/api) | Hosted counters for page hits, likes, polls and ratings, with SVG badges and embeddable widgets | No | Yes | Yes |
 | [crates.io](https://crates.io/data-access) | Rust crate versions, downloads and dependency metadata | No | Yes | Yes |
 | [Crawl Readiness](https://crawlreadiness.com) | Check if AI crawlers (ChatGPT, Claude, Perplexity, 30+ others) can access any website | `apiKey` | Yes | Yes |
 | [CurlShot](https://curlshot.com/docs) | Screenshots, PDFs and scrolling videos of any URL, HTML or Markdown; free tier | `apiKey` | Yes | Yes |
