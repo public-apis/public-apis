@@ -1554,6 +1554,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Travel Risk](https://travelriskapi.com/docs) | Government travel advisories, disaster and conflict alerts and country risk scores | `apiKey` | Yes | Yes |
 | [UK Companies House](https://developer.company-information.service.gov.uk/) | UK Companies House Data from the UK government | `OAuth` | Yes | Unknown |
 | [UK Legislation Changes](https://uk-legal-changes.pages.dev/docs) | Point-in-time amendment history for UK law | No | Yes | Yes |
+| [UK Public Tenders by Trade](https://tools.gptshopltd.com/api/uk-tenders/) | Live open UK public sector tenders by trade from Find a Tender and Contracts Finder (OGL v3.0) | No | Yes | Yes |
 | [USAspending.gov](https://api.usaspending.gov/) | US federal spending data | No | Yes | Unknown |
 | [Veridion](https://www.veridionmarkets.com/data-api/docs) | US congressional stock-trade disclosures and the President's OGE reports, linked to each filing | No | Yes | Yes |
 | [Vett](https://wimberly.solutions/api/free-sanctions-check/) | Screen names & companies against OFAC, PEP, watchlists & recalls | No | Yes | Yes |
