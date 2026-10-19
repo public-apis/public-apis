@@ -395,6 +395,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
 | [UGC VZ](https://ugc-vz.de/developers) | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | No | Yes | No |
 | [Village](https://docs.village.ai) | Person and company enrichment plus warm introduction paths through your network | `apiKey` | Yes | Yes |
+| [WhoisFreaks](https://whoisfreaks.com/) | WHOIS and domain data with live and historical records | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
@@ -643,6 +644,7 @@ API | Description | Auth | HTTPS | CORS |
 | [API Tool Calls](https://apitoolcalls.com/api/) | API Tool Calls: Home cost planners, page to Markdown, SEO checks and recalls | No | Yes | No |
 | [ApicAgent](https://www.apicagent.com) | Extract device details from user-agent string | No | Yes | Yes |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
+| [APIFreaks](https://apifreaks.com/) | Hub of 60+ ready-to-use services for geolocation, DNS, email, finance, and weather | `apiKey` | Yes | Yes |
 | [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown |
 | [APIzone](https://apizone.io/api-docs) | Independent uptime & status monitoring for 200+ popular APIs | No | Yes | Yes |
 | [Aquanode](https://docs.aquanode.io/docs/api/marketplace) | Live GPU rental prices and availability across nine cloud providers | No | Yes | No |
@@ -1069,6 +1071,7 @@ API | Description | Auth | HTTPS | CORS |
 | [BriefTape](https://brieftape.com) | Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged | `apiKey` | Yes | Yes |
 | [CardBinCheck](https://cardbincheck.com/bin-lookup-api) | Card BIN/IIN lookup: network, issuer, country and card type for the first 6-8 digits | No | Yes | Yes | |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | All Citigroup account and statement data APIs | `apiKey` | Yes | Unknown | |
+| [Commodity Price](https://commoditypriceapi.com/) | Real-time and historical commodity prices for 70+ global commodities: metals, energy, agriculture | `apiKey` | Yes | Yes |
 | [CongressInvests](https://congressinvests.com) | Real-time U.S. congressional stock trade disclosures from Senate EFD and House Clerk | `apiKey` | Yes | Yes | |
 | [contix](https://contix.es/api/#herramientas) | Spain: IBAN validation with bank and BIC, EU VAT number check (VIES), Modelo 303 VAT sums | No | Yes | Yes |
 | [Degenscan Intel Macro](https://intel.degenscan.io/docs) | U.S. Treasury auctions, stablecoin supply, Brazil crypto-dollar premium vs BCB PTAX; free trial key | `apiKey` | Yes | No |
