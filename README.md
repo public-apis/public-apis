@@ -990,6 +990,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Imgflip](https://imgflip.com/api) | Gets an array of popular memes | No | Yes | Unknown |
 | [JokeAPI](https://v2.jokeapi.dev/) | Programmable jokes in multiple languages with filtering options | No | Yes | Yes |
 | [justmeme.wtf](https://justmeme.wtf/api-docs) | Free meme API with 2400+ templates, search, trending, and AI generation | No | Yes | Yes |
+| [Life Stats](https://api.tasta.space/life) | Your age in silly units: seconds, full moons, km around the Sun and the day of your billionth second | No | Yes | Yes |
 | [Meme Maker](https://mememaker.github.io/API/) | REST API for create your own meme | No | Yes | Unknown |
 | [Memesio](https://memesio.com/developers/api) | Meme creation API with templates, editable captions and hosted share links | No | Yes | No |
 | [NaMoMemes](https://github.com/theIYD/NaMoMemes) | Memes on Narendra Modi | No | Yes | Unknown |
