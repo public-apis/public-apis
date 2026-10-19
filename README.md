@@ -1078,7 +1078,7 @@ API | Description | Auth | HTTPS | CORS |
 | [EconPulse](https://econpulse.io) | Live economic data — CPI, PPI, energy, treasury rates, BTC premium | `apiKey` | Yes | Yes |
 | [EOD Historical Data](https://eodhd.com/) | Real-time and historical stock market data with 150+ exchanges | `apiKey` | Yes | Yes |
 | [EstimateTax](https://estimatetax.net/api/) | US federal, state and local income tax calculation for 2026, with the source of every figure | No | Yes | Yes |
-| [FarmDash](https://www.farmdash.one/agents) | DeFi intelligence, protocol risk, yield simulation plus 84 MCP agent tools, free Scout tier | `apiKey` | Yes | Yes | |
+| [FarmDash](https://www.farmdash.one/agents) | Zero-custody DeFi intelligence, protocol risk and yield simulation plus 94 MCP discovery tools; keyless Scout available | `apiKey` | Yes | Yes | |
 | [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | U.S. Department of the Treasury Data | No | Yes | Unknown | |
 | [Filingrail](https://rapidapi.com/hudson-enterprises-llc-hudson-enterprises-llc-default/api/filingrail) | SEC EDGAR filings, XBRL financials, Form 4 insider trades, 8-K events and 13F holdings | `apiKey` | Yes | Unknown |
 | [Finage](https://finage.co.uk) | Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider | `apiKey` | Yes | Unknown | |
