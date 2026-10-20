@@ -1,9 +1,22 @@
 # -*- coding: utf-8 -*-
 
+import os
 import re
 import sys
 import random
 from typing import List, Tuple
+
+# Drop this script's own directory from sys.path before importing third-party
+# packages. When links.py is executed from an untrusted checkout (for example the
+# pull-request workspace in CI, where github_pull_request.sh runs
+# `python scripts/validate/links.py`), Python places this script's directory at
+# the front of the module search path. Any module committed there -- requests.py,
+# a requests/ package, certifi.py -- would then be imported instead of the
+# installed distribution, executing attacker-controlled code at import time.
+# Removing it keeps these imports pinned to the installed packages.
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+while _SCRIPT_DIR in sys.path:
+    sys.path.remove(_SCRIPT_DIR)
 
 import requests
 from requests.models import Response
@@ -165,10 +178,14 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     error_message = ''
 
     try:
-        resp = requests.get(link, timeout=25, headers={
-            'User-Agent': fake_user_agent(),
-            'host': get_host_from_link(link)
-        })
+        # trust_env=False keeps ambient configuration (~/.netrc credentials,
+        # proxy env vars) from being consulted for PR-supplied URLs.
+        with requests.Session() as session:
+            session.trust_env = False
+            resp = session.get(link, timeout=25, headers={
+                'User-Agent': fake_user_agent(),
+                'host': get_host_from_link(link)
+            })
 
         code = resp.status_code
 
