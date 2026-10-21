@@ -395,6 +395,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tomba email finder](https://tomba.io/api) | Email Finder for B2B sales and email marketing and email verifier | `apiKey` | Yes | Yes |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
 | [UGC VZ](https://ugc-vz.de/developers) | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | No | Yes | No |
+| [Verif Entreprise FR](https://api-production-24833.up.railway.app) | French company checks by SIREN: status, insolvency (BODACC), VAT (VIES); free preview | No | Yes | Yes |
 | [Village](https://docs.village.ai) | Person and company enrichment plus warm introduction paths through your network | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
