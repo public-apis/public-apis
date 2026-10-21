@@ -717,6 +717,7 @@ API | Description | Auth | HTTPS | CORS |
 | [host-t.com](https://host-t.com) | Basic DNS query via HTTP GET request | No | Yes | No |
 | [Host.io](https://host.io) | Domains Data API for Developers | `apiKey` | Yes | Yes |
 | [HostDealRadar](https://hostdealradar.com/ai/) | Source-backed hosting price and provider record lookup | No | Yes | Yes |
+| [HProxy Free Proxy List](https://hproxy.com/docs/free-proxy-list) | Free HTTP, HTTPS, SOCKS4 and SOCKS5 proxies checked around the clock, with country and anonymity | No | Yes | Yes |
 | [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown |
 | [Httpbin](https://httpbin.org/) | A Simple HTTP Request & Response Service | No | Yes | Yes |
 | [Hipsum](https://hipsum.co) | Hipster-themed lorem ipsum generator for placeholder text | No | Yes | Unknown |
