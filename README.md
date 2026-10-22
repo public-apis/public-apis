@@ -1820,6 +1820,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CityAlert](https://cityalert.live/developers) | Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official feeds | No | Yes | No |
 | [CollegeCalcAI](https://collegecalcai.com/developers) | US college admission chance estimates and admissions data for 1,100+ colleges | No | Yes | Yes |
 | [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data/) | Data on higher education institutions in the United States | No | Yes | Unknown |
+| [ConsumerSun Recalls](https://consumersun.com/data/recalls.json) | US product, food, drug, device and vehicle recalls from CPSC, FDA and NHTSA | No | Yes | Yes |
 | [CoworkingView](https://coworkingview.com/en/api) | Coworking spaces and offices in 63 European and Gulf cities with operator-published prices | No | Yes | No |
 | [CuttingToolsAI](https://cuttingtoolsai.eu/api) | Cross-brand carbide insert grade equivalents by ISO application class | No | Yes | Yes |
 | [DevLifeCheck](https://devlifecheck.com/developers) | Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers | No | Yes | No |
