@@ -1593,6 +1593,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Edamam](https://developer.edamam.com/) | Food and nutrition data API with recipe search | `apiKey` | Yes | Unknown |
 | [ERstat](https://erstat.ca/developers) | Live Canadian emergency room closures and service disruptions, by province | `apiKey` | Yes | Yes |
 | [FDA Recalls](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-fda-product-food-recalls) | Latest FDA food, drug and product recall notices as JSON with keyword search | `apiKey` | Yes | Unknown |
+| [FertilityClinics](https://fertilityclinics.fyi/developers) | US fertility and IVF clinics built from CDC public data | No | Yes | Yes |
 | [FindSaunaPlunge](https://findsaunaplunge.com/api/) | US cold plunge and sauna venues with dated, source-quoted temperatures and prices | No | Yes | Yes |
 | [FoodData Central](https://fdc.nal.usda.gov/) | National Nutrient Database for Standard Reference | `apiKey` | Yes | Unknown |
 | [Healthcare.gov](https://www.healthcare.gov/developers/) | Educational content about the US Health Insurance Marketplace | No | Yes | Unknown |
