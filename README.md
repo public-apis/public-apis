@@ -397,6 +397,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UGC VZ](https://ugc-vz.de/developers) | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | No | Yes | No |
 | [Verif Entreprise FR](https://api-production-24833.up.railway.app) | French company checks by SIREN: status, insolvency (BODACC), VAT (VIES); free preview | No | Yes | Yes |
 | [Village](https://docs.village.ai) | Person and company enrichment plus warm introduction paths through your network | `apiKey` | Yes | Yes |
+| [xrechnung.dev](https://xrechnung.dev/api/) | Validate, parse and generate German e-invoices (XRechnung, ZUGFeRD) with the official KoSIT rules | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
