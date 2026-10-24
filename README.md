@@ -2016,6 +2016,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Judge0 CE](https://ce.judge0.com/) | Online code execution system | `apiKey` | Yes | Unknown |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
 | [Mintlify](https://docs.mintlify.com) | For programmatically generating documentation for code | `apiKey` | Yes | Yes |
+| [OnlineCompiler](https://onlinecompiler.io/docs?utm_source=public-apis) | Compile and run code in 46 languages, with test-case judging and a Judge0-compatible endpoint | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
