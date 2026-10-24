@@ -672,6 +672,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Changelogs.md](https://changelogs.md) | Structured changelog metadata from open source projects | No | Yes | Unknown |
 | [ChartBytes](https://chartbytes.meridian-digital.pro) | Chart image API: turn a URL into a PNG or SVG chart (bar, line, area, scatter, pie, donut, stacked) | No | Yes | Yes |
 | [Ciprand](https://github.com/polarspetroll/ciprand) | Secure random string generator | No | Yes | No |
+| [CitedBy](https://citedby.eu/ai-access-api) | Which AI crawlers can read a site: robots.txt and server answer for each | No | Yes | Yes |
 | [Clair](https://clair.im) | Live public web data as JSON: Google Search, Maps, News, Amazon, jobs, reviews & more, one API key | `apiKey` | Yes | No |
 | [claudecookie](https://claudecookie.com/api/) | Convert cookie formats, check Claude sessions and generate Claude Code credentials | No | Yes | Yes |
 | [Cloudflare](https://developers.cloudflare.com/api/) | Manage DNS, CDN, Workers and other services; documented with an official OpenAPI 3.0 spec | `apiKey` | Yes | No |
