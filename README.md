@@ -372,6 +372,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Invovate](https://invovate.com/api) | Generate PDF, JSON & UBL invoices in 11 languages from one JSON POST | `apiKey` | Yes | No |
 | [Katalis](https://meetkatalis.com/apis) | UK company checks: payment practices, contracts won, registers, filed accounts, change feed | `apiKey` | Yes | No |
 | [KontragentPro](https://kontragentpro.ru/api/v2/docs) | Russian company data from state registers by INN or OGRN: profile, finances, timeline | No | Yes | Yes |
+| [Leadgen Romania](https://leadgen.adrianhomelab.com/docs) | Romanian company registry, ANAF tax status and financial statements | `apiKey` | Yes | Yes |
 | [Legal Sandbox Georgia](https://legal.ge/api/openapi.json) | Find verified legal specialists in Georgia from natural-language queries | No | Yes | Yes |
 | [Mailchimp](https://mailchimp.com/developer/) | Send marketing campaigns and transactional mails | `apiKey` | Yes | Unknown |
 | [mailjet](https://www.mailjet.com/) | Marketing email can be sent and mail templates made in MJML or HTML can be sent using API | `apiKey` | Yes | Unknown |
