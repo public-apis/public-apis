@@ -2176,6 +2176,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Octopart](https://octopart.com/api/v4/reference) | Electronic part data for manufacturing, design, and sourcing | `apiKey` | Yes | Unknown |
 | [OLX Poland](https://developer.olx.pl/api/doc#section/) | Integrate with local sites by posting, managing adverts and communicating with OLX users | `apiKey` | Yes | Unknown |
 | [OneFindMe](https://onefindme.com/mcp) | Search AliExpress in any language: price, rating and orders for the delivery country | No | Yes | Yes |
+| [OpenShopGraph](https://openshopgraph.com/en/developers/) | Source-dated return, shipping and payment facts for online shops | No | Yes | Unknown |
 | [OpenTiendas](https://opentiendas.dev/redocusaurus/plugin-redoc-0.yaml) | Official e-commerce API and webhooks | `apiKey` | Yes | Unknown |
 | [Pangolinfo Amazon Data](https://docs.pangolinfo.com) | Amazon product, review, search and Best Sellers data across 20+ marketplaces | `apiKey` | Yes | Unknown |
 | [Profitvana](https://www.profitvana.com/developers) | Seller fees for 31 marketplaces and payment processors, verified monthly | No | Yes | Yes |
