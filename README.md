@@ -855,6 +855,7 @@ API | Description | Auth | HTTPS | CORS |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [WeInc](https://my.we.inc/docs/api) | AI website builder: manage clients, website projects, templates and webhooks | `apiKey` | Yes | No |
 | [XLSX Inspector](https://api.lifestep.io) | Inspect XLSX/XLSM structure: sheets, formulas, macros and external links | No | Yes | Yes |
+| [Yumi Wheel Evidence](https://noqt.no-qt.chatgpt.site/yumi/wheel-evidence) | Intersect wheel tags for explicit PyPI releases with caller-supplied tags | No | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
 
 
