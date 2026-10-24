@@ -1114,6 +1114,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MercadoPago](https://www.mercadopago.com.br/developers/es/reference) | Mercado Pago API reference - all the information you need to develop your integrations | `apiKey` | Yes | Unknown | |
 | [Mono](https://mono.co/) | Connect with users’ bank accounts and access transaction data in Africa | `apiKey` | Yes | Unknown | |
 | [Moov](https://docs.moov.io/api/) | The Moov API makes it simple for platforms to send, receive, and store money | `apiKey` | Yes | Unknown | |
+| [MortgageCalculator](https://mortgagecalculator.me/developers) | 16 mortgage calculators: payment, refinance, APR, rent vs. buy, points and amortization schedules | No | Yes | Yes | |
 | [Nigeria PAYE](https://www.orionsoftlimited.com/developers) | Nigerian income tax (PAYE) and take-home pay under the Nigeria Tax Act 2025 | No | Yes | Yes |
 | [NORTH7 Agent](https://north7.ai/v1/docs) | Trading signals, market analysis and geopolitical intelligence | `apiKey` | Yes | Yes |
 | [Nordigen](https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/) | Connect to bank accounts using official bank APIs and get raw transaction data | `apiKey` | Yes | Unknown | |
