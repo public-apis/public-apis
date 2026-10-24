@@ -161,6 +161,7 @@ Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 API | Description | Auth | HTTPS | CORS 
 |:---|:---|:---|:---|:---|
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
+| [BirdNET Taxonomy](https://birdnet.cornell.edu/taxonomy/docs) | Search and retrieve animal species taxonomy, metadata, images and localized names | No | Yes | Unknown |
 | [Breed Health Score](https://breedhealthscore.com/developers/) | Dog breed health scores, median lifespans and conditions | No | Yes | No |
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
 | [Cat Facts](https://catfact.ninja/) | Random cat facts | No | Yes | Yes |
