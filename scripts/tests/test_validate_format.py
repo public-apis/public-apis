@@ -12,6 +12,7 @@ from validate.format import check_https, https_keys
 from validate.format import check_cors, cors_keys
 from validate.format import check_entry
 from validate.format import check_file_format, min_entries_per_category, num_segments
+from validate.format import check_transport, check_install, check_mcp_entry
 
 
 class TestValidadeFormat(unittest.TestCase):
@@ -464,3 +465,133 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertEqual(len(err_msgs), 1)
         err_msg = err_msgs[0]
         self.assertEqual(err_msg, expected_err_msg)
+
+
+class TestValidateMCPFormat(unittest.TestCase):
+    def mcp_lines(self, rows):
+        return [
+            '## MCP Servers',
+            '| Name | Description | Auth | Transport | Install |',
+            '|:---|:---|:---|:---|:---|',
+            *rows,
+        ]
+
+    def test_documented_mcp_table_accepts_http_and_install_links(self):
+        rows = [
+            '| [Alpha](https://example.com/alpha) | Read public records | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/example/alpha) |',
+            '| [Beta](https://example.com/beta) | Read local files | `OAuth` | `stdio`, `SSE` | [Cursor](https://cursor.directory/plugins/beta) · [Anthropic](https://claude.ai/directory/beta) |',
+            '| [Gamma](https://example.com/gamma) | Search records | No | `stdio` | – |',
+        ]
+        self.assertEqual(check_file_format(self.mcp_lines(rows)), [])
+
+    def test_transports_require_documented_values_and_comma_separation(self):
+        for transport in ['`stdio`', '`HTTP`', '`SSE`', '`stdio`, `HTTP`, `SSE`']:
+            with self.subTest(transport=transport):
+                self.assertEqual(check_transport(0, transport), [])
+        for transport in ['Yes', 'HTTP', '`http`', '`WebSocket`', '`HTTP` `SSE`', '`HTTP`,`SSE`', '`HTTP`, ']:
+            with self.subTest(transport=transport):
+                self.assertEqual(len(check_transport(0, transport)), 1)
+
+    def test_install_requires_documented_marketplace_links_or_en_dash(self):
+        for install in [
+            '–',
+            '[Cursor](https://cursor.directory/plugins/alpha)',
+            '[Anthropic](https://claude.ai/directory/alpha)',
+            '[Glama](https://glama.ai/mcp/servers/@example/alpha)',
+            '[Glama](https://glama.ai/mcp/connectors/example/alpha) · [Cursor](https://cursor.directory/plugins/alpha)',
+        ]:
+            with self.subTest(install=install):
+                self.assertEqual(check_install(0, install), [])
+        for install in [
+            '-', 'Unknown', '',
+            '[npm](https://www.npmjs.com/package/alpha)',
+            '[Glama](https://example.com/alpha)',
+            '[Glama](https://glama.ai.example.com/alpha)',
+            '[Glama](http://glama.ai/mcp/servers/alpha)',
+            '[Glama](https://[invalid)',
+            '[Glama](https://glama.ai/mcp/servers/alpha), [Cursor](https://cursor.directory/plugins/alpha)',
+            '[Glama](https://glama.ai/mcp/servers/alpha) · ',
+        ]:
+            with self.subTest(install=install):
+                self.assertEqual(len(check_install(0, install)), 1)
+
+    def test_mcp_preserves_shared_name_description_auth_and_spacing_rules(self):
+        row = '| [Alpha API](https://example.com/alpha) | lowercase. | secret | `HTTP` | – |'
+        errors = check_file_format(self.mcp_lines([row]))
+        self.assertTrue(any('Title should not end' in error for error in errors))
+        self.assertTrue(any('not capitalized' in error for error in errors))
+        self.assertTrue(any('description should not end' in error for error in errors))
+        self.assertTrue(any('not a valid Auth' in error for error in errors))
+        spacing_errors = check_file_format(self.mcp_lines([
+            '| [Alpha](https://example.com/alpha) | Desc |No| `HTTP` | – |',
+        ]))
+        self.assertTrue(any('exactly 1 space' in error for error in spacing_errors))
+
+    def test_mcp_requires_exactly_five_columns(self):
+        for row in [
+            '| [Alpha](https://example.com/alpha) | Desc | No | `HTTP` |',
+            '| [Alpha](https://example.com/alpha) | Desc | No | `HTTP` | – | Extra |',
+            '|---|---|---|---|',
+        ]:
+            with self.subTest(row=row):
+                errors = check_file_format(self.mcp_lines([row]))
+                self.assertTrue(any('columns' in error for error in errors))
+
+    def test_only_mcp_header_and_valid_separator_are_skipped(self):
+        for separator in ['|---|---|---|---|---|', '| --- | --- | --- | --- | --- |', '|:---|---:|:---:|---|---|']:
+            with self.subTest(separator=separator):
+                self.assertEqual(check_file_format(['## MCP Servers', separator]), [])
+        errors = check_file_format(['## MCP Servers', '| Name | Description | Auth | HTTPS | CORS |'])
+        self.assertTrue(any('not a valid Transport' in error for error in errors))
+        self.assertTrue(any('not a valid Install' in error for error in errors))
+
+    def test_rest_schema_remains_strict_after_mcp_section(self):
+        lines = self.mcp_lines([
+            '| [Alpha](https://example.com/alpha) | Desc | No | `HTTP` | – |',
+        ]) + [
+            '## Index', '* [REST](#rest)', '### REST',
+            'API | Description | Auth | HTTPS | CORS |', '|---|---|---|---|---|',
+            '| [Alpha](https://example.com/alpha) | Desc | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/alpha) |',
+            '| [Beta](https://example.com/beta) | Desc | No | Yes | Yes |',
+            '| [Gamma](https://example.com/gamma) | Desc | No | No | Unknown |',
+        ]
+        errors = check_file_format(lines)
+        self.assertEqual(len(errors), 2)
+        self.assertTrue(any('not a valid HTTPS' in error for error in errors))
+        self.assertTrue(any('not a valid CORS' in error for error in errors))
+
+    def test_level_one_heading_also_ends_mcp_section(self):
+        lines = self.mcp_lines([]) + [
+            '# REST', '* [REST](#rest)', '### REST',
+            '| [Alpha](https://example.com/alpha) | Desc | No | Yes | Yes |',
+            '| [Beta](https://example.com/beta) | Desc | No | No | No |',
+            '| [Gamma](https://example.com/gamma) | Desc | No | Yes | Unknown |',
+        ]
+        self.assertEqual(check_file_format(lines), [])
+
+    def test_mcp_subheading_does_not_change_transport_schema(self):
+        lines = self.mcp_lines([]) + [
+            '### Hosted servers',
+            '| [Alpha](https://example.com/alpha) | Desc | No | `HTTP` | – |',
+        ]
+        self.assertEqual(check_file_format(lines), [])
+
+    def test_mcp_ordering_is_separate_from_rest_categories(self):
+        lines = [
+            '## Index', '* [REST](#rest)', '### REST',
+            '| [Alpha](https://example.com/alpha) | Desc | No | Yes | Yes |',
+            '| [Beta](https://example.com/beta) | Desc | No | Yes | Yes |',
+            '| [Gamma](https://example.com/gamma) | Desc | No | Yes | Yes |',
+        ] + self.mcp_lines([
+            '| [Beta](https://example.com/beta) | Desc | No | `HTTP` | – |',
+            '| [Alpha](https://example.com/alpha) | Desc | No | `HTTP` | – |',
+        ])
+        self.assertEqual(check_file_format(lines), ['(L007) MCP Servers category is not alphabetical order'])
+
+    def test_rest_entry_validator_does_not_accept_mcp_fields(self):
+        segments = ['[Alpha](https://example.com/alpha)', 'Desc', 'No', '`HTTP`', '–']
+        self.assertEqual(check_mcp_entry(0, segments), [])
+        self.assertEqual(check_entry(0, segments), [
+            '(L001) `HTTP` is not a valid HTTPS option',
+            '(L001) – is not a valid CORS option',
+        ])
