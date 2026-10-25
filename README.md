@@ -837,6 +837,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Statically](https://statically.io/) | A free CDN for developers | No | Yes | Yes |
 | [Supportivekoala](https://developers.supportivekoala.com/) | Autogenerate images with template | `apiKey` | Yes | Yes |
 | [Suprsonic](https://suprsonic.ai) | Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities | `apiKey` | Yes | Yes |
+| [Surface](https://nova-otter-delta-cloud.grok.me/docs) | URL preflight, hops, pixels and request inspect for agents | No | Yes | Yes |
 | [Talordata](https://docs.talordata.com/) | SERP data from major search engines with a free trial | `apiKey` | Yes | Unknown |
 | [TheQRCode](https://theqrcode.io/qr-code-api) | Generate QR codes for URLs, WiFi, contact cards, email and text, with custom colors and styling | No | Yes | Yes |
 | [Thunder Client](https://www.thunderclient.com/) | API testing tool | No | Yes | Yes |
