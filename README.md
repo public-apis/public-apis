@@ -1014,6 +1014,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Techy](https://techy-api.vercel.app/) | JSON and Plaintext API for tech-savvy sounding phrases | No | Yes | Unknown |
 | [Yes or No Oracle](https://yesnooracle.app/api) | Random yes/no/maybe answers in 7 themed oracle voices (Magic 8 Ball, Tarot, and more) | No | Yes | Yes |
 | [Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2) | REST API for Yo Momma Jokes | No | Yes | Unknown |
+| [ZenQuotes](https://zenquotes.io) | Inspirational quotes | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
