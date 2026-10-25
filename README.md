@@ -1139,6 +1139,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Portfolio Optimizer](https://portfoliooptimizer.io/) | Portfolio analysis and optimization | No | Yes | Yes | |
 | [Razorpay IFSC](https://razorpay.com/docs/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown | |
 | [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | Websocket API to access realtime stock data | `apiKey` | No | Unknown | |
+| [RemoteTaxCalc Tax Rates](https://remotetaxcalc.com/tax-rates#using-this-data) | Statutory income tax brackets, credits and social contributions for 27 countries, with sources | No | Yes | Yes | |
 | [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | API to access annual reports of public US companies | No | Yes | Yes | |
 | [Segmara](https://segmara.com/syndicate) | IPO calendars, filing stages and estimated lockup dates | `User-Agent` | Yes | Yes | |
 | [Seiche](https://seiche.info/developers) | Free public funding, FX and capital-market evidence with source clocks | No | Yes | Yes |
