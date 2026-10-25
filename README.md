@@ -1566,6 +1566,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenRegistry](https://openregistry.sophymarine.com) | Real-time queries to 80+ national company registries (UK, FR, DE, IT, ES, KR and more) | `OAuth` | Yes | Unknown |
 | [OpenStates](https://openstates.org/api/) | US state legislature bills and lawmakers | `apiKey` | Yes | Unknown |
 | [PRC Exam Schedule](https://api.whenisthenextboardexam.com/docs/) | Unofficial Philippine Professional Regulation Commission's examination schedule | No | Yes | Yes |
+| [Quellenkontor](https://quellenkontor.dev/en/docs/api) | German minimum wage, social security rates, holidays and notice periods with legal source | apiKey | Yes | Yes |
 | [Radar CNPJ](https://radar-cnpj.com/api/) | Brazilian companies (CNPJ) lookup and search, with a market check by area and monitoring | No | Yes | No |
 | [Regulations.gov](https://open.gsa.gov/api/regulationsgov/) | US federal rulemaking comments and dockets | `apiKey` | Yes | Unknown |
 | [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
