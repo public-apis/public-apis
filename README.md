@@ -1586,7 +1586,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Health
-API | Description | Auth | HTTPS | CORS |
+| API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [CMS.gov](https://data.cms.gov/provider-data/) | Access to the data from the CMS - medicare.gov | `apiKey` | Yes | Unknown |
 | [Coronavirus](https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme) | HTTP API for Latest Covid-19 Data | No | Yes | Unknown |
@@ -1635,6 +1635,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Stanza UDI Decoder](https://stanzaapi.com/tools/udi-decoder) | Decode and validate FDA GUDID and EU MDR medical device UDI barcodes | `apiKey` | Yes | No |
 | [THC Open Mindfulness Resources](https://api.theholisticcare.com/docs) | Free mindfulness resources and research metadata | No | Yes | Yes | [Postman](https://www.postman.com/mohanthc-793029/thc-open-mindfulness-api/collection/oz842bb/thc-open-mindfulness-resources-api) |
 | [Urgences Québec](https://sante.handled.tools/api) | Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada | No | Yes | Yes |
+| [WHO GHO OData](https://www.who.int/data/gho/info/gho-odata-api) | Public, unauthenticated query interface for WHO healthcare statistics | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
