@@ -172,7 +172,10 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
 
         code = resp.status_code
 
-        if code >= 400 and not has_cloudflare_protection(resp):
+        if code == 410 and not has_cloudflare_protection(resp):
+            has_error = True
+            error_message = f'ERR:DEP: API deprecated (410 Gone) : {link}'
+        elif code >= 400 and not has_cloudflare_protection(resp):
             has_error = True
             error_message = f'ERR:CLT: {code} : {link}'
 
