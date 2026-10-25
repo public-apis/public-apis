@@ -369,6 +369,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GlobalEntity](https://www.globalentityapi.com/docs) | Official company data from 56 European business registers as normalized JSON | `apiKey` | Yes | Yes |
 | [Gmail](https://developers.google.com/gmail/api/) | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | Unknown |
 | [Google Analytics](https://developers.google.com/analytics/) | Collect, configure and analyze your data to reach the right audience | `OAuth` | Yes | Unknown |
+| [GroundTruth](https://dytsk9wrfv.page.coze.site/groundtruth.html) | Source-linked 2026 US tariff & landed cost facts for AI agents | `apiKey` | Yes | Yes |
 | [gstinapi](https://www.gstinapi.in/docs) | Verify Indian GST numbers (GSTIN): legal name, status, address and return filing history; free tier | `apiKey` | Yes | No |
 | [Instatus](https://instatus.com/help/api) | Post to and update maintenance and incidents on your status page through an HTTP REST API | `apiKey` | Yes | Unknown |
 | [InvoiceIn](https://invoicein.peculiar.systems/) | Parse and validate received e-invoices: XRechnung, ZUGFeRD, Peppol, FatturaPA, KSeF | `apiKey` | Yes | Yes |
