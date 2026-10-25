@@ -2271,6 +2271,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TwitterAPIs](https://www.twitterapis.com/) | Twitter / X data API: search, profiles, timelines, followers, DMs, write actions | `apiKey` | Yes | Unknown |
 | [TwittrAPI](https://www.twittrapi.com/docs) | Public Twitter/X data: profiles, tweets, replies, search, followers, lists, communities, trends | `apiKey` | Yes | Yes |
 | [vk](https://vk.com/dev/sites) | Read and write vk data | `OAuth` | Yes | Unknown |
+| [WoopSocial](https://woopsocial.com) | Unified social media scheduling API | `apiKey` | Yes | No |
 | [xfetch](https://xfetch.io) | Read API for X/Twitter search, profiles, tweets, and social graph | `apiKey` | Yes | Yes |
 | [XFlux](https://www.xfluxapi.com/docs/api) | Read X/Twitter profiles, search, timelines; account monitors with signed webhooks | `apiKey` | Yes | No |
 
