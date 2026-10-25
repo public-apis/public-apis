@@ -678,6 +678,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Cloudflare Trace](https://github.com/fawazahmed0/cloudflare-trace-api) | Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More | No | Yes | Yes |
 | [Codeberg](https://codeberg.org/api/swagger) | Git hosting, repos and issues via Gitea API | No | Yes | Yes |
 | [Codex](https://github.com/Jaagrav/CodeX) | Online Compiler for Various Languages | No | Yes | Unknown |
+| [ComparEdge](https://comparedge.com/api-docs) | Verified pricing, plans, and hidden costs for 490+ SaaS, AI, and LLM tools | No | Yes | Yes |
 | [Contentful Images](https://www.contentful.com/developers/docs/references/images-api/) | Used to retrieve and apply transformations to images | `apiKey` | Yes | Yes |
 | [CORS Proxy](https://github.com/burhanuday/cors-proxy) | Get around the dreaded CORS error by using this proxy as a middle man | No | Yes | Yes |
 | [CountAPI](https://countapi.xyz) | Free and simple counting service. You can use it to track page hits and specific events | No | Yes | Yes |
