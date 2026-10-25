@@ -2089,6 +2089,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SatNOGS](https://docs.satnogs.org/projects/satnogs-network/en/stable/api.html) | Satellite observations from open ground stations | No | Yes | Unknown |
 | [Semantic Scholar](https://api.semanticscholar.org/) | Academic search engine for papers, authors, and citations | No | Yes | Unknown |
 | [SHARE](https://share.osf.io/api/v2/) | A free, open, dataset about research and scholarly activities | No | Yes | No |
+| [Small-Body Database (SBDB)](https://ssd-api.jpl.nasa.gov/doc/sbdb.html) | Orbital and physical data for all known asteroids and comets | `User-Agent` | Yes | No |
 | [Solar System OpenData](https://api.le-systeme-solaire.net) | Data and facts on solar system bodies and planets | No | Yes | Yes |
 | [SpaceX](https://github.com/r-spacex/SpaceX-API) | Company, vehicle, launchpad and launch data | No | Yes | No |
 | [SpaceX](https://api.spacex.land/graphql/) | GraphQL, Company, Ships, launchpad and launch data | No | Yes | Unknown |
