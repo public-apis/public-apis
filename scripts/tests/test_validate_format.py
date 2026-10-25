@@ -2,20 +2,20 @@
 
 import unittest
 
-from validate.format import error_message
-from validate.format import get_categories_content
 from validate.format import check_alphabetical_order
-from validate.format import check_title
-from validate.format import check_description, max_description_length
 from validate.format import check_auth, auth_keys
-from validate.format import check_https, https_keys
 from validate.format import check_cors, cors_keys
+from validate.format import check_description, max_description_length
 from validate.format import check_entry
 from validate.format import check_file_format, min_entries_per_category, num_segments
+from validate.format import check_https, https_keys
+from validate.format import check_title
+from validate.format import error_message
+from validate.format import get_categories_content
 
 
-class TestValidadeFormat(unittest.TestCase):
-    
+class TestValidateFormat(unittest.TestCase):
+
     def test_error_message_return_and_return_type(self):
         line_num_unity = 1
         line_num_ten = 10
@@ -64,7 +64,6 @@ class TestValidadeFormat(unittest.TestCase):
         expected_result = ({'A': ['AA', 'AB'], 'B': ['BA', 'BB']}, {'A': 0, 'B': 6})
 
         for res, ex_res in zip(result, expected_result):
-
             with self.subTest():
                 self.assertEqual(res, ex_res)
 
@@ -97,7 +96,6 @@ class TestValidadeFormat(unittest.TestCase):
             '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
         ]
 
-
         err_msgs_1 = check_alphabetical_order(correct_lines)
         err_msgs_2 = check_alphabetical_order(incorrect_lines)
 
@@ -113,10 +111,9 @@ class TestValidadeFormat(unittest.TestCase):
         ]
 
         for err_msg, ex_err_msg in zip(err_msgs_2, expected_err_msgs):
-
             with self.subTest():
                 self.assertEqual(err_msg, ex_err_msg)
-    
+
     def test_check_title_with_correct_title(self):
         raw_title = '[A](https://www.ex.com)'
 
@@ -133,7 +130,7 @@ class TestValidadeFormat(unittest.TestCase):
 
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 1)
-        
+
         err_msg = err_msgs[0]
         expected_err_msg = '(L001) Title syntax should be "[TITLE](LINK)"'
 
@@ -143,10 +140,10 @@ class TestValidadeFormat(unittest.TestCase):
         raw_title = '[A API](https://www.ex.com)'
 
         err_msgs = check_title(0, raw_title)
-        
+
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 1)
-        
+
         err_msg = err_msgs[0]
         expected_err_msg = '(L001) Title should not end with "... API". Every entry is an API here!'
 
@@ -160,7 +157,7 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 0)
         self.assertEqual(err_msgs, [])
-    
+
     def test_check_description_with_first_char_is_not_capitalized(self):
         desc = 'this is a fake description'
 
@@ -168,26 +165,25 @@ class TestValidadeFormat(unittest.TestCase):
 
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 1)
-        
+
         err_msg = err_msgs[0]
         expected_err_msg = '(L001) first character of description is not capitalized'
 
         self.assertIsInstance(err_msg, str)
         self.assertEqual(err_msg, expected_err_msg)
-    
+
     def test_check_description_with_punctuation_in_the_end(self):
         base_desc = 'This is a fake description'
         punctuation = r"""!"#$%&'*+,-./:;<=>?@[\]^_`{|}~"""
         desc_with_punc = [base_desc + punc for punc in punctuation]
-        
-        for desc in desc_with_punc:
 
+        for desc in desc_with_punc:
             with self.subTest():
                 err_msgs = check_description(0, desc)
 
                 self.assertIsInstance(err_msgs, list)
                 self.assertEqual(len(err_msgs), 1)
-        
+
                 err_msg = err_msgs[0]
                 expected_err_msg = f'(L001) description should not end with {desc[-1]}'
 
@@ -248,7 +244,7 @@ class TestValidadeFormat(unittest.TestCase):
                 err_msg_1 = err_msgs[0]
                 err_msg_2 = err_msgs[1]
 
-                expected_err_msg_1 = f'(L001) auth value is not enclosed with `backticks`'
+                expected_err_msg_1 = '(L001) auth value is not enclosed with `backticks`'
                 expected_err_msg_2 = f'(L001) {auth} is not a valid Auth option'
 
                 self.assertIsInstance(err_msg_1, str)
@@ -318,7 +314,7 @@ class TestValidadeFormat(unittest.TestCase):
         correct_segments = ['[A](https://www.ex.com)', 'Desc', '`apiKey`', 'Yes', 'Yes']
 
         err_msgs = check_entry(0, correct_segments)
-        
+
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 0)
         self.assertEqual(err_msgs, [])
@@ -452,15 +448,19 @@ class TestValidadeFormat(unittest.TestCase):
             '### A',
             'API | Description | Auth | HTTPS | CORS |',
             '|---|---|---|---|---|',
-            '| [AA](https://www.ex.com) | Desc |`apiKey`| Yes | Yes |',  # space between segment of auth column missing
+            '| [AA](https://www.ex.com) | Desc |`apiKey`| Yes | Yes |',  # space missing
             '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
             '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
         ]
 
         err_msgs = check_file_format(lines=incorrect_format)
-        expected_err_msg = f'(L007) each segment must start and end with exactly 1 space'
+        expected_err_msg = '(L007) each segment must start and end with exactly 1 space'
 
         self.assertIsInstance(err_msgs, list)
         self.assertEqual(len(err_msgs), 1)
         err_msg = err_msgs[0]
         self.assertEqual(err_msg, expected_err_msg)
+
+
+if __name__ == '__main__':
+    unittest.main()
