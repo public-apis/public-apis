@@ -64,7 +64,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | Name | Description | Auth | Transport | Install |
 |:---|:---|:---|:---|:---|
 | [IPstack MCP](https://ipstack.com/mcp) | IP geolocation, threat and timezone lookups for agents | `apiKey` | `stdio`, `HTTP` | [Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter) |
-| [Agent Nexus](https://agentnexus.app) | Find agent-callable APIs, MCP servers and CLIs by capability, with live health and uptime data | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/agent-nexus) |
+| [Agent Nexus](https://agentnexus.app) | Find agent-callable APIs, MCP servers and CLIs by capability, with live health and uptime data | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/app.agentnexus/agent-nexus) |
 | [BlockVectra](https://github.com/blockvectra/mcp) | Blockchain RPC and indexed data; keyless documentation and chain discovery | `apiKey` | `HTTP` | – |
 | [Catastro GPS](https://github.com/TheHiddenPandaDev/catastro_gps_mcp) | Cadastral parcels in 29 European countries by reference, point or address | `apiKey` | `stdio` | [Glama](https://glama.ai/mcp/servers/TheHiddenPandaDev/catastro_gps_mcp) |
 | [corpusAI Cloud Pricing](https://cloud.trycorpus.ai/docs#quick-start-for-agents) | Cloud, GPU and LLM token prices for agents, free discovery tools and paid per-call data | No | `stdio`, `HTTP` | [npm](https://www.npmjs.com/package/corpus-cloud-pricing-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=corpus-cloud-pricing) |
@@ -2048,7 +2048,7 @@ API | Description | Auth | HTTPS | CORS |
 | [arXiv](https://info.arxiv.org/help/api/user-manual.html) | Curated research-sharing platform: physics, mathematics, quantitative finance, and economics | No | Yes | Unknown |
 | [Botlero](https://botlero.com/api/robots) | Sourced, quoted specs for humanoid robots | No | Yes | Yes |
 | [Chempirical](https://chempirical.com/api/) | Chemical compounds with physical data, reactions and substructure search | No | Yes | Yes |
-| [CodeCogs](https://editor.codecogs.com/docs/4-LaTeX_rendering.php) | Render LaTeX equations in PNG, GIF, SVG, EMF, PDF, JSON, or download formats with styling options | No | Yes | Unknown |
+| [CodeCogs](https://fxeditor.codecogs.com/docs/1-fxtexserver_api.php) | Render LaTeX equations in PNG, GIF, SVG, EMF, PDF, JSON, or download formats with styling options | No | Yes | Unknown |
 | [CORE](https://core.ac.uk/services#api) | Access the world's Open Access research papers | `apiKey` | Yes | Unknown |
 | [CycleCalcs](https://www.cyclecalcs.com/api.html) | Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons | No | Yes | Yes |
 | [DataCite](https://support.datacite.org/docs/rest-api) | Search and retrieve DOI metadata for research datasets and publications | No | Yes | Yes |
@@ -2080,10 +2080,10 @@ API | Description | Auth | HTTPS | CORS |
 | [Oliver's mTOR Atlas](https://mtor-atlas.org/api/) | Curated mTOR research: studies by evidence type, pathway claims, open questions | No | Yes | Yes |
 | [Open Notify](http://open-notify.org/Open-Notify-API/) | ISS astronauts, current location, etc | No | No | No |
 | [Open Science Framework](https://developer.osf.io) | Repository and archive for study designs, research materials, data, manuscripts, etc | No | Yes | Unknown |
-| [OpenAlex](https://docs.openalex.org/) | Open catalog of scholarly works, authors, institutions, sources, and concepts | No | Yes | Yes |
+| [OpenAlex](https://help.openalex.org/api/) | Open catalog of scholarly works, authors, institutions, sources, and concepts | No | Yes | Yes |
 | [Open Ephemeris](https://openephemeris.com/docs) | Sub-arcsecond planetary positions, natal charts, transits, and Human Design from NASA JPL DE440 | `apiKey` | Yes | No |
 | [OrbitalWiki](https://orbitalwiki.com/developers) | Catalog of 16,000+ satellites merging CelesTrak, GCAT, Wikidata; free tier included | `apiKey` | Yes | Yes |
-| [Purple Air](https://www2.purpleair.com/) | Real Time Air Quality Monitoring | No | Yes | Unknown |
+| [Purple Air](https://www.purpleair.com/) | Real Time Air Quality Monitoring | No | Yes | Unknown |
 | [RCSB PDB](https://data.rcsb.org/) | 3D structures of proteins and nucleic acids | No | Yes | Yes |
 | [Remote Calc](https://github.com/elizabethadegbaju/remotecalc) | Decodes base64 encoding and parses it to return a solution to the calculation in JSON | No | Yes | Yes |
 | [SatNOGS](https://docs.satnogs.org/projects/satnogs-network/en/stable/api.html) | Satellite observations from open ground stations | No | Yes | Unknown |
@@ -2098,7 +2098,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TLE](https://tle.ivanstanojevic.me/#/docs) | Satellite information | No | Yes | No |
 | [Unpaywall](https://unpaywall.org/products/api) | Open-access status and legal full-text links for scholarly articles | No | Yes | Yes |
 | [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time | No | Yes | No |
-| [USGS Water Services](https://waterservices.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | No |
+| [USGS Water Data](https://api.waterdata.usgs.gov/) | Water quality and level info for rivers and lakes | No | Yes | Yes |
 | [VedIntel™ AstroAPI](https://vedintelastroapi.com/docs) | Vedic astrology computation — birth charts, dashas, panchang, AI narratives | `apiKey` | Yes | Yes |
 | [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | Yes | No |
 | [WoRMS](https://www.marinespecies.org/rest/) | Marine species taxonomy, synonyms and distributions | No | Yes | No |
