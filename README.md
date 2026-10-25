@@ -1572,6 +1572,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Right to Disconnect](https://righttodisconnect.jdries.nl/api/) | Right-to-disconnect employment law by EU country: binding status, statute, and sanctions | No | Yes | Yes |
 | [Spatial India](https://api.spatialindia.com) | District-level data for India: Census, NFHS-5, NCRB, RBI and more, reconciled onto one map | No | Yes | Yes |
 | [SukuuData](https://sukuudata.com/quickstart) | Ghana's schools, 2026 SHS placement register and CSSPS choice validation | `apiKey` | Yes | Yes |
+| [TheyWorkForYou](https://www.theyworkforyou.com/api/) | UK Parliament members, debates, Hansard and constituency data | `apiKey` | Yes | Unknown |
 | [Tollmint](https://api.tollmint.com) | Advertising, subscription, AI-disclosure and accessibility rules across the US, EU and UK | No | Yes | Yes |
 | [Travel Risk](https://travelriskapi.com/docs) | Government travel advisories, disaster and conflict alerts and country risk scores | `apiKey` | Yes | Yes |
 | [UK Companies House](https://developer.company-information.service.gov.uk/) | UK Companies House Data from the UK government | `OAuth` | Yes | Unknown |
