@@ -7,6 +7,8 @@ from validate.links import check_duplicate_links
 from validate.links import fake_user_agent
 from validate.links import get_host_from_link
 from validate.links import has_cloudflare_protection
+from validate.links import validate_url
+from validate.links import is_private_ip
 
 
 class FakeResponse():
@@ -170,3 +172,41 @@ class TestValidateLinks(unittest.TestCase):
         self.assertFalse(result1)
         self.assertFalse(result2)
         self.assertFalse(result3)
+
+    def test_validate_url_blocks_non_http_schemes(self):
+        for link in ['ftp://example.com/file', 'file:///etc/passwd', 'gopher://example.com/']:
+            with self.subTest(link=link):
+                has_error, message = validate_url(link)
+                self.assertTrue(has_error)
+                self.assertIn('ERR:URL', message)
+
+    def test_validate_url_blocks_private_and_reserved_ips(self):
+        # Literal IPs keep this deterministic and free of DNS/network calls.
+        blocked = [
+            'http://127.0.0.1/',                          # loopback
+            'http://10.0.0.1/',                           # private (RFC 1918)
+            'http://192.168.1.1/admin',                   # private (RFC 1918)
+            'http://169.254.169.254/latest/meta-data/',   # link-local cloud metadata
+            'http://[::1]/',                              # IPv6 loopback
+        ]
+        for link in blocked:
+            with self.subTest(link=link):
+                has_error, message = validate_url(link)
+                self.assertTrue(has_error)
+                self.assertIn('ERR:URL', message)
+
+    def test_validate_url_allows_public_http_urls(self):
+        # Public literal IPs: no DNS lookup, no outbound request.
+        for link in ['http://1.1.1.1/', 'https://8.8.8.8/']:
+            with self.subTest(link=link):
+                has_error, message = validate_url(link)
+                self.assertFalse(has_error)
+                self.assertEqual(message, '')
+
+    def test_is_private_ip_for_literal_addresses(self):
+        for private in ['127.0.0.1', '10.0.0.1', '192.168.1.1', '169.254.169.254', '::1']:
+            with self.subTest(ip=private):
+                self.assertTrue(is_private_ip(private))
+        for public in ['1.1.1.1', '8.8.8.8']:
+            with self.subTest(ip=public):
+                self.assertFalse(is_private_ip(public))
