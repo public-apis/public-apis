@@ -753,6 +753,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Kroki](https://kroki.io) | Creates diagrams from textual descriptions | No | Yes | Yes |
 | [Labelixa](https://labelixa.com/docs/api) | Render, validate and generate Zebra ZPL label barcodes as PNG/PDF | `apiKey` | Yes | Yes |
 | [License-API](https://github.com/cmccandless/license-api/blob/master/README.md) | Unofficial REST API for choosealicense.com | No | Yes | No |
+| [LimitReset](https://limitreset.net/api-docs) | Usage limit reset events for AI tools like Codex, Claude, ChatGPT, Cursor and Gemini | No | Yes | Yes |
 | [Litport Free Proxy](https://litport.net/docs/free-proxy-api) | Live-tested HTTP, SOCKS4, and SOCKS5 proxies with latency, uptime, and geolocation | No | Yes | No |
 | [LiveOrDown](https://liveordown.com/developers) | Live up/down status of 240+ online services, checked every minute from 3 regions | No | Yes | Yes |
 | [Logs.to](https://logs.to/) | Generate logs | `apiKey` | Yes | Unknown |
