@@ -2346,6 +2346,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tredict](https://www.tredict.com/blog/oauth_docs/) | Get and set activities, health data and more | `OAuth` | Yes | Unknown |
 | [WhensTheRace](https://whenstherace.com/f1-schedule-json/) | F1 season schedule with UTC session start times as JSON, RSS and iCal | No | Yes | Yes |
 | [Wger](https://wger.de/en/software/api) | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown |
+| [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) | World Cup 2026 fixtures with local kickoff times and share links | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
