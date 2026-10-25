@@ -2682,6 +2682,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Met Office DataHub](https://datahub.metoffice.gov.uk/docs/) | UK weather forecasts and climate data | `apiKey` | Yes | Unknown |
 | [Météo-France](https://portail-api.meteofrance.fr/) | French weather forecasts and alerts | `apiKey` | Yes | Unknown |
 | [Meteorologisk Institutt](https://api.met.no/weatherapi/documentation) | Weather and climate data | `User-Agent` | Yes | Unknown |
+| [Meteosource](https://www.meteosource.com/) | Global weather forecasts based on machine learning and historical data | `apiKey` | Yes | Unknown |
 | [Micro Weather](https://m3o.com/weather/api) | Real time weather forecasts and historic data | `apiKey` | Yes | Unknown |
 | [NASA POWER](https://power.larc.nasa.gov/docs/) | Global solar and weather data for energy and agriculture | No | Yes | Yes |
 | [NOAA CO-OPS](https://api.tidesandcurrents.noaa.gov/api/prod/) | US coastal tides, water levels, currents and meteorological observations | No | Yes | Unknown |
