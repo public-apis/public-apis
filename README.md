@@ -2236,6 +2236,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Hashnode](https://hashnode.com) | A blogging platform built for developers | No | Yes | Unknown |
 | [InsightSocial](https://www.insightsocial.app/docs) | Public profiles, posts, comments and followers from 25 social platforms, free tier | `apiKey` | Yes | Yes |
 | [Instagram](https://www.instagram.com/developer/) | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | Unknown |
+| [Instagram Public Data](https://wsmsg.me/apis/instagram-public-data) | Public Instagram profiles, posts, Reels, comments, stories, hashtags and search | `apiKey` | Yes | Unknown |
 | [Kakao](https://developers.kakao.com/) | Kakao Login, Share on KakaoTalk, Social Plugins and more | `OAuth` | Yes | Unknown |
 | [Lanyard](https://github.com/Phineas/lanyard) | Retrieve your presence on Discord through an HTTP REST API or WebSocket | No | Yes | Yes |
 | [Line](https://developers.line.biz/) | Line Login, Share on Line, Social Plugins and more | `OAuth` | Yes | Unknown |
