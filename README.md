@@ -1464,6 +1464,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Boletín Oficial del Estado (BOE)](https://www.boe.es/datosabiertos/) | Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs | No | Yes | Unknown |
 | [Brazil](https://brasilapi.com.br/) | Community driven API for Brazil Public Data | No | Yes | Yes |
 | [Brazil Central Bank Open Data](https://dadosabertos.bcb.gov.br/) | Brazil Central Bank Open Data | No | Yes | Unknown |
+| [DVF Immobilier](https://rapidapi.com/Gregg007/api/dvf-immobilier-fr) | French real estate transaction prices and estimates from official government data | `apiKey` | Yes | Unknown |
+| [FuelAlert](https://rapidapi.com/Gregg007/api/fuelalert-api) | Real-time fuel prices across France, Germany, Spain, Italy and Austria | `apiKey` | Yes | Unknown |
 | [Brazil Receita WS](https://www.receitaws.com.br/) | Consult companies by CNPJ for Brazilian companies | No | Yes | Unknown |
 | [Brazilian Chamber of Deputies Open Data](https://dadosabertos.camara.leg.br/swagger/api.html) | Provides legislative information in Apis XML and JSON, as well as files in various formats | No | Yes | No |
 | [Bureau of Labor Statistics](https://www.bls.gov/developers/) | US labor statistics: inflation, unemployment, wages and productivity | No | Yes | Unknown |
