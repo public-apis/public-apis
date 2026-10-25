@@ -1301,6 +1301,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Raider](https://raider.io/api) | Provides detailed character and guild rankings for Raiding and Mythic+ content in World of Warcraft | No | Yes | Unknown |
 | [RAWG.io](https://rawg.io/apidocs) | 500,000+ games for 50 platforms including mobiles | `apiKey` | Yes | Unknown |
 | [Rblxdb](https://rblxdb.com/developers) | Verified Roblox music codes and decal IDs with live working status | No | Yes | Yes |
+| [Real or Fake Village](https://api.tasta.space/sate) | Real Romanian village names mixed with generated fakes, plus a quiz to guess which is which | No | Yes | Yes |
 | [Rick and Morty](https://rickandmortyapi.com) | All the Rick and Morty information, including images | No | Yes | Yes |
 | [Riot Games](https://developer.riotgames.com/) | League of Legends Game Information | `apiKey` | Yes | Unknown |
 | [RuneScape](https://runescape.wiki/w/Application_programming_interface) | RuneScape and OSRS RPGs information | No | Yes | No |
