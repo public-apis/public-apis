@@ -88,6 +88,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [Twinbay](https://docs.twinbay.ai/mcp-server) | Spin up stateful API twins, read request logs and grade agent runs | `OAuth` | `HTTP` | – |
 | [US Recalls](https://recallsapi.com/docs/mcp) | Check US recalls from 9 agencies by UPC, model, NDC, lot or VIN; 4 read-only tools | `apiKey` | `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.recallsapi/recallsapi) · [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.recallsapi/recallsapi) |
 | [Vuntum](https://github.com/RAAAAAGEEEEE/vuntum-mcp) | Sourced, dated data on consumer robots and physical AI: specs, prices, evidence | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/RAAAAAGEEEEE/vuntum-mcp) |
+| [Monitly](https://github.com/ContentWriterco/Monitly-MCP) | Official statistics from Eurostat, World Bank, OECD, IMF and WHO for 150+ countries | `apiKey` | `HTTP` | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=monitly) · [Glama](https://glama.ai/mcp/connectors/io.github.ContentWriterco/monitly) · [Smithery](https://smithery.ai/servers/bartosz/monitly) |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
