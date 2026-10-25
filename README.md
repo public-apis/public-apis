@@ -2686,6 +2686,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NASA POWER](https://power.larc.nasa.gov/docs/) | Global solar and weather data for energy and agriculture | No | Yes | Yes |
 | [NOAA CO-OPS](https://api.tidesandcurrents.noaa.gov/api/prod/) | US coastal tides, water levels, currents and meteorological observations | No | Yes | Unknown |
 | [ODWeather](http://api.oceandrivers.com/static/docs.html) | Weather and weather webcams | No | No | Unknown |
+| [Open-Meteo](https://open-meteo.com) | Open-source weather API with no API key required, providing hourly forecasts | No | Yes | Yes |
 | [Oikolab](https://docs.oikolab.com) | 70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF | `apiKey` | Yes | Yes |
 | [Open-Meteo](https://open-meteo.com/) | Global weather forecast API for non-commercial use | No | Yes | Yes |
 | [Open-Meteo Ensemble](https://open-meteo.com/en/docs/ensemble-api) | Weather ensemble forecasts from multiple models | No | Yes | Yes |
