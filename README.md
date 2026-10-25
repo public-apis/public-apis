@@ -620,6 +620,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Attestwire](https://api.attestwire.com/docs) | Validate EN 16931 e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS | `apiKey` | Yes | Yes |
 | [invowerk](https://invowerk.dev/docs) | Validate e-invoices (ZUGFeRD, Factur-X, XRechnung, Peppol BIS) and get a validation report | `apiKey` | Yes | Unknown | |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown | |
+| [LookTwice](https://looktwice.dev/docs) | Email, EU VAT, and IBAN validation | `apiKey` | Yes | No | |
 | [Postman Echo](https://www.postman-echo.com) | Test api server to receive and return value from HTTP method | No | Yes | Unknown | |
 | [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown | |
 | [RevAddress](https://revaddress.com/docs/) | US address standardization, congressional and state legislative districts, Census data; free tier | `apiKey` | Yes | No | |
