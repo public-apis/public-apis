@@ -1431,6 +1431,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SearchPinCode](https://searchpincode.in/api) | Indian postal PIN code lookup, post office locator and district data | No | Yes | Yes |
 | [SLF](https://github.com/slftool/slftool.github.io/blob/master/API.md) | German city, country, river, database | No | Yes | Yes |
 | [SpotSense](https://spotsense.io/) | Add location based interactions to your mobile app | `apiKey` | Yes | Unknown |
+| [sthan.io Geocoding](https://sthan.io/products/geocoding-usa) | Convert US street addresses to latitude and longitude coordinates | `apiKey` | Yes | No |
 | [sthan.io India PIN Code Autocomplete](https://sthan.io/products/pincode-autocomplete-ind) | Autocomplete Indian PIN codes as users type | `apiKey` | Yes | No |
 | [sthan.io IP Geolocation](https://sthan.io/products/ip-geolocation) | Look up the geographic location of any IPv4 or IPv6 address | `apiKey` | Yes | No |
 | [sthan.io Reverse Geocoding](https://sthan.io/products/reverse-geocoding-usa) | Convert latitude and longitude to the nearest US street address | `apiKey` | Yes | No |
