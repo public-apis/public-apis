@@ -2495,6 +2495,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Stadiq](https://stadiq.app/developers) | Road works, transit disruptions and air quality for Antwerp and Flanders | `apiKey` | Yes | No |
 | [Strait of Hormuz Ship Monitor](https://hormuz.data-tracking.net/llms.txt) | Live AIS vessel traffic, crossings and oil flow through the Strait of Hormuz | No | Yes | No |
 | [Tankerkoenig](https://creativecommons.tankerkoenig.de/swagger/) | German realtime gas/diesel prices | `apiKey` | Yes | Yes |
+| [TieredTravel](https://tieredtravel.com/api-docs) | Daily travel costs at budget, mid-range and luxury for 100 cities, plus walking routes | No | Yes | No |
 | [TransCAPI](https://www.transcapi.com/docs) | Live bus and rail departures, vehicles, disruptions and journey planning for Great Britain | `apiKey` | Yes | Yes |
 | [TransitLand](https://www.transit.land/documentation/datastore/api-endpoints.html) | Transit Aggregation | No | Yes | Unknown |
 | [TransitRadar](https://transitradar.co.uk/scalar/) | Live GB train and bus departures, train positions, journey planning and a daily punctuality archive | No | Yes | No |
