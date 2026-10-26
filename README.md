@@ -1673,6 +1673,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Techmap](https://api.techmap.io/jobs-api) | Job postings from 185 sources in 250 countries and territories, with an archive since 2020 | `apiKey` | Yes | Yes |
 | [TechRole Index](https://techrole.ru/open-data-daily) | Russian IT profession, vacancy publication and salary aggregates | No | Yes | Yes |
 | [The Muse](https://www.themuse.com/developers/api/v2) | Job board and company profiles | `apiKey` | Yes | Unknown |
+| [TryHired](https://tryhired.co/data/#api) | Read-only U.S. career data: pay, outlook, requirements and comparisons from BLS and O*NET | No | Yes | Yes |
 | [Upwork](https://developers.upwork.com/) | Freelance job board and management system | `OAuth` | Yes | Unknown |
 | [USAJOBS](https://developer.usajobs.gov/) | US government job board | `apiKey` | Yes | Unknown |
 | [Vibeworker](https://tryvibeworker.com/docs) | Upwork job listings with client data and AI fit scores, plus webhooks and RSS | `apiKey` | Yes | No |
