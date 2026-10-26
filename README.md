@@ -550,6 +550,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Kraken](https://docs.kraken.com/rest/) | Cryptocurrencies Exchange | `apiKey` | Yes | Unknown |
 | [KuCoin](https://docs.kucoin.com/) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
 | [Localbitcoins](https://localbitcoins.com/api-docs/) | P2P platform to buy and sell Bitcoins | No | Yes | Unknown |
+| [Lucyd](https://lucyd.trade/api-docs) | Bitcoin Up/Down prediction markets on testnet: markets, trades, positions, order books | No | Yes | Yes |
 | [MadeOnSol](https://madeonsol.com/developer) | Real-time Solana & Robinhood Chain KOL trades, deployer reputation, and DEX activity | `apiKey` | Yes | Yes |
 | [MarginPad](https://marginpad.io/free-crypto-api/) | Crypto futures prices, candles, funding, open interest, long/short and liquidations, 9 exchanges | No | Yes | Yes |
 | [Mempool](https://mempool.space/api) | Bitcoin API Service focusing on the transaction fee | No | Yes | No |
