@@ -384,7 +384,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ORB Intelligence](https://api.orb-intelligence.com/docs/) | Company lookup | `apiKey` | Yes | Unknown |
 | [PeopleSearch](https://peoplesearch.im/developers) | People and company search in plain English, with verified work emails and email verification | `apiKey` | Yes | No |
 | [Pick an Agency](https://www.pickanagency.com/developers) | Search 47,000+ marketing agencies by service, location and rating | No | Yes | Yes |
-| [Prisma Reviews](https://prismareviews.com/docs) | Read and reply to reviews from the App Store, Google Play, Trustpilot, Yelp and 20+ platforms in one JSON format; free tier | `apiKey` | Yes | No |
+| [Prisma Reviews](https://prismareviews.com/docs) | Read and reply to reviews from the App Store, Google Play, Yelp and 20+ platforms in one format; free tier | `apiKey` | Yes | No |
 | [RankFabrik Places](https://rankfabrik.com/produits/etablissements) | Search businesses and points of interest by city, deduplicated with a coverage report | `apiKey` | Yes | Unknown |
 | [Redash](https://redash.io/help/user-guide/integrations-and-api/api) | Access your queries and dashboards on Redash | `apiKey` | Yes | Yes |
 | [RegisterWire](https://www.registerwire.uk/docs/index.html) | Real-time alerts on UK company register changes | `apiKey` | Yes | No |
