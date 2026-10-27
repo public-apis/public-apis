@@ -272,6 +272,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Europeana](https://pro.europeana.eu/resources/apis/search) | European Museum and Galleries content | `apiKey` | Yes | Unknown |
 | [Face Shape Guide Lookup](https://myfaceshapechart.com/openapi.json) | Read-only lookup for published face-shape guide records | No | Yes | Yes |
 | [Favicondl](https://favicondl.com/documentation.html) | Get any website's favicon by URL (SVG/PNG/ICO), with JSON metadata and fallbacks | No | Yes | Yes |
+| [feeling-search](https://xiximm.cloud) | Describe a mood in plain words, get the art style names that match — a hand-built Chinese art reference chart mapping feeling words to visual styles; free lookup endpoints, $0.10 per analysis (x402 USDC or Alipay) | No | Yes | Yes |
 | [Harvard Art Museums](https://github.com/harvardartmuseums/api-docs) | Art | `apiKey` | No | Unknown |
 | [Icon Horse](https://icon.horse) | Favicons for any website, with fallbacks | No | Yes | Yes |
 | [Iconfinder](https://developer.iconfinder.com) | Icons | `apiKey` | Yes | Unknown |
