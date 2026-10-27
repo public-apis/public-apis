@@ -95,6 +95,19 @@ Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
 ## Learn more about Public APIs
 
+<strong>Prefer a website? Browse this list at [publicapis.lol](https://publicapis.lol/?utm_source=github&utm_medium=readme&utm_campaign=public-apis)</strong>
+
+Everything in this README, rebuilt as a searchable site. It's the official home of public-apis: 2,000+ free APIs in 50+ categories, synced from this repo and tested daily.
+
+* [Browse the directory](https://publicapis.lol/?utm_source=github&utm_medium=readme&utm_campaign=public-apis): every category, featured picks and the latest from the blog
+* [Search and filter every API](https://publicapis.lol/search?utm_source=github&utm_medium=readme&utm_campaign=public-apis) by auth, HTTPS and CORS
+* [APIs with no key](https://publicapis.lol/no-api-key?utm_source=github&utm_medium=readme&utm_campaign=public-apis): call them right now, no sign-up
+* [Live status](https://publicapis.lol/status?utm_source=github&utm_medium=readme&utm_campaign=public-apis): which APIs are up, slow or down today
+* [MCP servers](https://publicapis.lol/mcp?utm_source=github&utm_medium=readme&utm_campaign=public-apis) for AI agents
+* [Free developer tools](https://publicapis.lol/tools?utm_source=github&utm_medium=readme&utm_campaign=public-apis): JSON formatter, JWT decoder, cURL converter and more
+* [Blog](https://publicapis.lol/blog?utm_source=github&utm_medium=readme&utm_campaign=public-apis): tutorials and roundups built on the APIs in this list
+* Can't decide? [Get a random API](https://publicapis.lol/random?utm_source=github&utm_medium=readme&utm_campaign=public-apis) 🎲
+
 <strong>Get Involved</strong>
 
 * [Contributing Guide](CONTRIBUTING.md)
