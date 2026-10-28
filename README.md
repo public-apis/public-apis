@@ -377,6 +377,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Crustdata](https://docs.crustdata.com) | People and company data covering profiles, headcount, funding and contacts | `apiKey` | Yes | Unknown |
 | [Domainsdb.info](https://domainsdb.info/) | Registered Domain Names Search | No | Yes | No |
 | [EuroValidate](https://eurovalidate.com) | EU VAT (VIES), IBAN and EORI validation with company name & address lookup | `apiKey` | Yes | Yes |
+| [Factline](https://factline.dev/docs) | Check companies, invoices, IBAN, VAT and sanctions against official records before you pay | `apiKey` | Yes | Yes |
 | [Freelancer](https://developers.freelancer.com) | Hire freelancers to get work done | `OAuth` | Yes | Unknown |
 | [Funding Signals](https://fundingsignals.net/docs) | Companies that just raised funding, scored as sales leads, from public SEC filings | `apiKey` | Yes | No |
 | [GlobalEntity](https://www.globalentityapi.com/docs) | Official company data from 56 European business registers as normalized JSON | `apiKey` | Yes | Yes |
