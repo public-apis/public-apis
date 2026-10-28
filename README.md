@@ -2662,6 +2662,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TVMaze](http://www.tvmaze.com/api) | TV Show Data | No | No | Unknown |
 | [UGCdrop](https://ugcdrop.com/api) | Search real UGC video clips (reactions, hooks, b-roll) by emotion, niche, age and setting | No | Yes | Yes |
 | [uNoGS](https://rapidapi.com/unogs/api/unogsng) | Unofficial Netflix Online Global Search, Search all netflix regions in one place | `apiKey` | Yes | Yes |
+| [Vid Kraken](https://vidkraken.com/docs) | Download YouTube videos as MP4 or MP3 and fetch video info and channel listings | `apiKey` | Yes | Unknown |
 | [Video to Markdown](https://video-to-markdown.com/api) | Turn a YouTube URL into a markdown thumbnail image link | No | Yes | Yes |
 | [VidWords](https://vidwords.com/api-docs) | YouTube transcripts and subtitles as TXT, SRT, VTT or DOCX, plus AI video analysis | `apiKey` | Yes | No |
 | [Vimeo](https://developer.vimeo.com/) | Vimeo Developer API | `OAuth` | Yes | Unknown |
