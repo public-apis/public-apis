@@ -1604,6 +1604,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Veridion](https://www.veridionmarkets.com/data-api/docs) | US congressional stock-trade disclosures and the President's OGE reports, linked to each filing | No | Yes | Yes |
 | [Vett](https://wimberly.solutions/api/free-sanctions-check/) | Screen names & companies against OFAC, PEP, watchlists & recalls | No | Yes | Yes |
 | [VotePredictor](https://votepredictor.com/developers) | US election forecasts, congressional voting records and forecaster accuracy ratings | No | Yes | Yes |
+| [YiminShuju Visa Bulletin](https://yiminshuju.com/cite/) | US Department of State Visa Bulletin cutoff dates (EB/F charts) as open JSON (/paiqi.json) | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
