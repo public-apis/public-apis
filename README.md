@@ -917,6 +917,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Asana](https://developers.asana.com/docs) | Programmatic access to all data in your asana system | `apiKey` | Yes | Yes |
 | [Assinafy](https://api.assinafy.com.br/v1/docs) | Brazilian e-signature API with a free plan | `apiKey` | Yes | Unknown |
 | [BuildPDF](https://buildpdf.co/api/docs) | Convert HTML, images, and text to PDF | `apiKey` | Yes | Yes | |
+| [CleverUtils](https://cleverutils.com/api) | Convert files between 200+ formats, free with no API key | No | Yes | Yes |
 | [ClickUp](https://clickup.com/api) | ClickUp is a robust, cloud-based project management tool for boosting productivity | `OAuth` | Yes | Unknown |
 | [Clockify](https://clockify.me/developers-api ) | Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems | `apiKey` | Yes | Unknown |
 | [CloudConvert](https://cloudconvert.com/api/v2) | Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation | `apiKey` | Yes | Unknown |
