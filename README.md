@@ -627,8 +627,9 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Data Validation
-API | Description | Auth | HTTPS | CORS |
+| API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [1Lookup](https://app.1lookup.io/api) | Validate email addresses, phone numbers, IP addresses and company data | `apiKey` | Yes | Unknown | |
 | [VATlayer](https://vatlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | VAT number validation | `apiKey` | Yes | Unknown | |
 | [Attestwire](https://api.attestwire.com/docs) | Validate EN 16931 e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS | `apiKey` | Yes | Yes |
 | [invowerk](https://invowerk.dev/docs) | Validate e-invoices (ZUGFeRD, Factur-X, XRechnung, Peppol BIS) and get a validation report | `apiKey` | Yes | Unknown | |
