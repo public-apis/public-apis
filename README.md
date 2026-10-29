@@ -1179,6 +1179,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TickerLayer](https://tickerlayer.com) | Real-time and historical market data for stocks, forex, crypto and more | `apiKey` | Yes | Unknown | |
 | [Top 5 Stocks](https://top5stocks.netlify.app/developers) | Daily AI-ranked stock and crypto watchlists | No | Yes | Unknown | |
 | [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth` | Yes | Yes | |
+| [Trading Agent Data](https://www.tradingagentapp.com/developers) | Point-in-time company fundamentals from public registers, incl. 2.7M EU private companies | `apiKey` | Yes | No | |
 | [Twelve Data](https://twelvedata.com/) | Stock market data (real-time & historical) | `apiKey` | Yes | Unknown | |
 | [Undertow](https://liquilens-undertow.com/developers/) | Public market-depth and sized exit estimates, not executable quotes | No | Yes | Yes |
 | [US Mortgage Calculator](https://www.usmortgagecalc.com/developers/api) | Mortgage payment, amortization, affordability and 50-state property tax data | No | Yes | Yes | |
