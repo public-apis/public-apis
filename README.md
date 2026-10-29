@@ -1105,6 +1105,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CongressInvests](https://congressinvests.com) | Real-time U.S. congressional stock trade disclosures from Senate EFD and House Clerk | `apiKey` | Yes | Yes | |
 | [contix](https://contix.es/api/#herramientas) | Spain: IBAN validation with bank and BIC, EU VAT number check (VIES), Modelo 303 VAT sums | No | Yes | Yes |
 | [Degenscan Intel Macro](https://intel.degenscan.io/docs) | U.S. Treasury auctions, stablecoin supply, Brazil crypto-dollar premium vs BCB PTAX; free trial key | `apiKey` | Yes | No |
+| [Digital Credit Watch](https://digitalcredit.watch/openapi.json) | Bitcoin-backed preferred stock (digital credit) yields, terms, dividend dates and BTC holdings | No | Yes | Yes |
 | [Dino.markets](https://dino.markets/docs) | Matched Kalshi and Polymarket prediction-market data, cross-venue spreads | `apiKey` | Yes | No | |
 | [Drillr](https://drillr.ai/docs/api) | Fundamentals, filings, earnings, ownership and events for US, China and Japan equities | `apiKey` | Yes | No |
 | [Econdb](https://www.econdb.com/api/) | Global macroeconomic data | No | Yes | Yes | |
