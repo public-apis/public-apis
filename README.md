@@ -911,6 +911,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AgentPay Doc Tools](https://agentpay-tools.agentpay-apis.workers.dev) | PDF to text, RSS/Atom/JSON feeds to JSON and sitemaps to URL lists, paid per call via x402 | No | Yes | Yes |
+| [AI Form](https://aiformapi.com/docs/quickstart) | Create forms, share a link and read responses as JSON or CSV | `apiKey` | Yes | Yes |
 | [Airtable](https://airtable.com/api) | Integrate with Airtable | `apiKey` | Yes | Unknown |
 | [Api2Convert](https://www.api2convert.com/) | Online File Conversion API | `apiKey` | Yes | Unknown |
 | [apilayer pdflayer](https://pdflayer.com) | HTML/URL to PDF | `apiKey` | Yes | Unknown |
