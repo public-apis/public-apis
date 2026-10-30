@@ -2383,6 +2383,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Touchline Wire](https://touchlinewire.com/docs) | Premier League predicted starting lineups, tactics, injuries, and standings | No | Yes | Yes |
 | [TourneyRadar](https://tourneyradar-api.vercel.app) | Upcoming chess tournaments from 140+ national federations worldwide | No | Yes | Unknown |
 | [Tredict](https://www.tredict.com/blog/oauth_docs/) | Get and set activities, health data and more | `OAuth` | Yes | Unknown |
+| [UFCalendar Fight Data](https://api.ufcalendar.com/docs) | UFC, PFL, OKTAGON, BKFC and RIZIN events, results, round stats, rankings history | `apiKey` | Yes | Yes |
 | [WhensTheRace](https://whenstherace.com/f1-schedule-json/) | F1 season schedule with UTC session start times as JSON, RSS and iCal | No | Yes | Yes |
 | [Wger](https://wger.de/en/software/api) | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown |
 
