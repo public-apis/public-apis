@@ -866,7 +866,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Thunderbit](https://thunderbit.com/docs/introduction) | Extract web pages as Markdown or structured data for AI apps | `apiKey` | Yes | Unknown |
 | [TidyTools](https://tools.yukai.uk/llms.txt) | Web page to clean Markdown and AI crawler robots.txt checks, free without a key (rate limited) | No | Yes | Yes |
 | [Timezone WorldTime](https://www.timezone.io/docs/worldtimeapi) | Current time, UTC offset and DST for any time zone or IP, a drop-in WorldTimeAPI replacement | No | Yes | Yes |
-| [Timezones](https://timezones.in/api) | Time now, conversions and DST changes for every IANA time zone, no key needed | No | Yes | Yes |
 | [TinyMind Agent Tools](https://tinymind.eu/api/) | Free APIs by an AI agent on a VPS: actor lookup, word-of-the-day, poems, jokes, ping | No | Yes | Yes |
 | [ToolForte](https://toolforte.com/developers) | Deterministic utilities: IBAN/VAT validation, cron parsing, regex, diffs, Dutch holidays, test data | `apiKey` | Yes | Unknown |
 | [Tyk](https://tyk.io/open-source-api-gateway/) | Api and service management platform | `apiKey` | Yes | Yes |
@@ -877,6 +876,7 @@ API | Description | Auth | HTTPS | CORS |
 | [W3C Validator](https://validator.w3.org/docs/api.html) | Validate HTML and check markup errors | No | Yes | Unknown |
 | [Wandbox](https://github.com/melpon/wandbox/blob/master/kennel2/API.rst) | Code compiler supporting 35+ languages mentioned at wandbox.org | No | Yes | Unknown |
 | [Web Metadata & Contact Extractor](https://rapidapi.com/josejuanjocoding/api/web-metadata-and-contact-extractor) | Extract SEO metadata, contact emails, social links, and tech stack (<200ms) | `apiKey` | Yes | Yes |
+| [webcapture](https://webcapture.io/docs) | URL to print-stable PDF, PNG, JPEG, WebP and markdown; free tier | `apiKey` | Yes | No |
 | [Webclaw](https://webclaw.io/docs/api) | Web content extraction for LLMs with scrape, crawl, search, and summarize | `apiKey` | Yes | Yes |
 | [WebScraping.AI](https://webscraping.ai/) | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | Yes |
 | [WeInc](https://my.we.inc/docs/api) | AI website builder: manage clients, website projects, templates and webhooks | `apiKey` | Yes | No |
@@ -1884,7 +1884,6 @@ API | Description | Auth | HTTPS | CORS |
 | [CityAlert](https://cityalert.live/developers) | Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official feeds | No | Yes | No |
 | [CollegeCalcAI](https://collegecalcai.com/developers) | US college admission chance estimates and admissions data for 1,100+ colleges | No | Yes | Yes |
 | [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data/) | Data on higher education institutions in the United States | No | Yes | Unknown |
-| [ConsumerSun Recalls](https://consumersun.com/data/recalls.json) | US product, food, drug, device and vehicle recalls from CPSC, FDA and NHTSA | No | Yes | Yes |
 | [CoworkingView](https://coworkingview.com/en/api) | Coworking spaces and offices in 63 European and Gulf cities with operator-published prices | No | Yes | No |
 | [CuttingToolsAI](https://cuttingtoolsai.eu/api) | Cross-brand carbide insert grade equivalents by ISO application class | No | Yes | Yes |
 | [DevLifeCheck](https://devlifecheck.com/developers) | Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers | No | Yes | No |
@@ -2113,7 +2112,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Materials Platform for Data Science](https://mpds.io) | Curated experimental data for materials science | `apiKey` | Yes | No |
 | [MathJS](https://api.mathjs.org/) | Evaluate math expressions via GET or POST as JSON | No | Yes | Yes |
 | [Minor Planet Center](http://www.asterank.com/mpc) | Asterank.com Information | No | No | Unknown |
-| [Molicheck](https://molicheck.com/api) | Anonymous JSON lab/GMP calculators (molarity, dilution, ICH limits); no API key | No | Yes | Yes |
 | [MyGene.info](https://docs.mygene.info/) | Gene annotation queries and ID lookup | No | Yes | Yes |
 | [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | No |
 | [NASA InSight](https://api.nasa.gov/) | Mars weather data from InSight lander | `apiKey` | Yes | Yes |
@@ -2632,7 +2630,6 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Auto Body Shop Directory](https://autobodyshopnear.com/developers/body-shop-api) | Find auto body shops by ZIP code, city, location, or profile | No | Yes | No |
 | [Bike Reliability](https://bikereliability.co.uk/developers) | UK motorcycle reliability ranked by first-time MOT pass rates | No | Yes | Yes |
-| [BoltPatternHQ](https://boltpatternhq.com/mcp/) | Vehicle wheel fitment, bolt pattern (PCD), offset, and center bore specifications | No | Yes | Yes |
 | [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | No |
 | [CarSpecs](https://carspecsapi.com/docs) | Car specs for 70,000+ trims since 1945 (make, model, generation, trim) and a VIN decoder | `apiKey` | Yes | No |
 | [CarVector](https://carvector.io/docs) | Vehicle specs, images, recalls, and DTC codes across 1925-2029 | `apiKey` | Yes | Yes |
