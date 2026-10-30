@@ -146,7 +146,7 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 * [Food & Drink](#food--drink)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
-* [Government](#government)
+* [](#government)
 * [Health](#health)
 * [Jobs](#jobs)
 * [Machine Learning](#machine-learning)
@@ -1482,6 +1482,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AI Law Tracker](https://ai-law-tracker.com/developers) | AI regulation laws by jurisdiction (US, EU, global) as read-only JSON; free tier | `apiKey` | Yes | Unknown |
+| [APIEmpresas](https://apiempresas.es/documentation) | Spanish company data by CIF/NIF: status, CNAE, directors and BORME acts; free tier | `apiKey` | Yes | Unknown |
 | [apipj](https://apipj.com.br/docs) | Brazilian company data by CNPJ from Receita Federal open data, incl. alphanumeric CNPJ; free tier | `apiKey` | Yes | Yes |
 | [Ayes and Noes](https://ayesandnoes.co.uk/developers) | UK House of Commons MPs, parties and recorded votes | No | Yes | Yes |
 | [Bank Negara Malaysia Open Data](https://apikijangportal.bnm.gov.my/) | Malaysia Central Bank Open Data | No | Yes | Unknown |
