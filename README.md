@@ -1365,6 +1365,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Geocoding
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [17NAS](https://17nas.com) | Free IP geolocation API with IPv4/IPv6 detection, ASN and country info, no auth required | No | Yes | Yes |
 | [IPstack](https://ipstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown |
 | [ipapi.com](https://ipapi.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-time Geolocation & Reverse IP Lookup REST API | `apiKey` | Yes | Unknown |
 | [Actinia Grass GIS](https://actinia.mundialis.de/api_docs/) | Actinia is an open source REST API for geographical data that uses GRASS GIS | `apiKey` | Yes | Unknown |
