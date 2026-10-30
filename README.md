@@ -1070,6 +1070,7 @@ API | Description | Auth | HTTPS | CORS |
 | [sensor.community](https://github.com/opendata-stuttgart/meta/wiki/EN-APIs) | Community air quality sensor network data worldwide | `User-Agent` | Yes | Yes |
 | [SoilPoint](https://soilpoint.dev/docs) | US soil properties at a lat/lon from USDA SSURGO: texture, drainage, pH, organic matter | No | Yes | No |
 | [Solematica](https://www.solematica.it/sviluppatori) | Compare Italian solar (photovoltaic) installer offers, energy prices (PUN/ARERA) and satellite roof data | No | Yes | No |
+| [SpotWave](https://spotwave.eu/api-docs) | Day-ahead electricity prices for 40+ European market zones, incl. taxes and VAT | No | Yes | Yes |
 | [Srp Energy](https://srpenergy-api-client-python.readthedocs.io/en/latest/api.html) | Hourly usage energy report for Srp customers | `apiKey` | Yes | No |
 | [SustainMetrics](https://www.sustainmetrics.net/api) | 18,000+ GHG emission factors from DEFRA, EPA, ADEME, Ember | `apiKey` | Yes | Yes |
 | [Sähkön hinta nyt](https://xn--shknhintanyt-gcb8w.org/integraatiot/) | Finnish and Nordic day-ahead electricity spot prices (15-minute), cheapest hours | No | Yes | Yes |
