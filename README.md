@@ -2302,6 +2302,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TrendsMCP](https://www.trendsmcp.ai/docs) | Live keyword trend data from Google, TikTok, YouTube, Amazon and Reddit | `apiKey` | Yes | Unknown |
 | [Tumblr](https://www.tumblr.com/docs/en/api/v2) | Read and write Tumblr Data | `OAuth` | Yes | Unknown |
 | [TweetAPI](https://tweetapi.com/docs) | Public Twitter data for posts, profiles, followers, search, lists and communities | `apiKey` | Yes | No |
+| [TwexAPI](https://docs.twexapi.io) | Public X/Twitter data: post search, profiles, timelines, followers, trends and X Articles | `apiKey` | Yes | Yes |
 | [Twitch](https://dev.twitch.tv/docs) | Game Streaming API | `OAuth` | Yes | Unknown |
 | [Twitter](https://developer.twitter.com/en/docs) | Read and write Twitter data | `OAuth` | Yes | No |
 | [TwitterAPIs](https://www.twitterapis.com/) | Twitter / X data API: search, profiles, timelines, followers, DMs, write actions | `apiKey` | Yes | Unknown |
