@@ -375,6 +375,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | `apiKey` | Yes | Unknown |
 | [Compabase](https://compabase.com/docs/) | Polish company data: 3M+ KRS and CEIDG entities with financial statements, people and rankings | `apiKey` | Yes | Unknown |
+| [Comunicate.eu](https://comunicate.eu/en/documentatie-api) | Catalogue of 3800+ news sites for press releases and advertorials: niches, authority, prices | No | Yes | Yes |
 | [Crustdata](https://docs.crustdata.com) | People and company data covering profiles, headcount, funding and contacts | `apiKey` | Yes | Unknown |
 | [Domainsdb.info](https://domainsdb.info/) | Registered Domain Names Search | No | Yes | No |
 | [EuroValidate](https://eurovalidate.com) | EU VAT (VIES), IBAN and EORI validation with company name & address lookup | `apiKey` | Yes | Yes |
