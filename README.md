@@ -1896,6 +1896,7 @@ API | Description | Auth | HTTPS | CORS |
 | [HousingFeed](https://housingfeed.com/docs) | US rental listings from property managers' own websites, verified weekly | No | Yes | Yes |
 | [InfraNode](https://infranode.dev) | Unified German city open data: weather, air quality, EV chargers, transit, demographics | `apiKey` | Yes | Unknown |
 | [i6eal Open AI Data](https://i6eal.de/en/tools/data/) | Open datasets on AI policy, regulation and public-sector adoption in Germany and the EU | No | Yes | Yes |
+| [jaaskel.com](https://jaaskel.com/api-docs.html) | Finnish municipality statistics, beach water temperatures and municipal tax rates | `apiKey` | Yes | No |
 | [Joshua Project](https://api.joshuaproject.net/) | People groups of the world with the fewest followers of Christ | `apiKey` | Yes | Unknown |
 | [Kaggle](https://www.kaggle.com/docs/api) | Create and interact with Datasets, Notebooks, and connect with Kaggle | `apiKey` | Yes | Unknown |
 | [Kvartiry-Phuket](https://kvartiry-phuket.com/otkrytye-dannye/#english) | Russian-language Phuket real estate guides, asking prices, condo assessment rates, weather, beaches | No | Yes | Yes |
