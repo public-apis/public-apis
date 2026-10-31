@@ -928,6 +928,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Code::Stats](https://codestats.net/api-docs) | Automatic time tracking for programmers | `apiKey` | Yes | No |
 | [Convert Online](https://convert.online/api-docs) | Online file converter for image, video, audio, document, ebook, font, archive and CAD formats | `apiKey` | Yes | No |
 | [CraftMyPDF](https://craftmypdf.com) | Generate PDF documents from templates with a drop-and-drop editor and a simple API | `apiKey` | Yes | No |
+| [doc2json](https://doc2json.manoonlabs.com/docs) | Extract typed JSON from PDFs, scans, photos and text with your own schema | `apiKey` | Yes | No |
 | [DocCheap](https://doc.cheap/docs) | Read passports, ID cards and driver's licences into JSON, $0.01 per recognised document | `apiKey` | Yes | Yes |
 | [DocStruct](https://docstruct.pages.dev) | AI extraction of invoices, receipts, bank statements & contracts into structured JSON/CSV | No | Yes | Yes |
 | [Emboss](https://getemboss.ai/docs) | Make PDF forms fillable, fill them from JSON or documents, and read filled forms back | `apiKey` | Yes | No |
