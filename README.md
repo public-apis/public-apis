@@ -773,6 +773,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Keyvalue](https://keyvalue.immanuel.co/) | Simple key-value storage REST API for quick prototyping | No | Yes | Unknown |
 | [Kroki](https://kroki.io) | Creates diagrams from textual descriptions | No | Yes | Yes |
 | [Labelixa](https://labelixa.com/docs/api) | Render, validate and generate Zebra ZPL label barcodes as PNG/PDF | `apiKey` | Yes | Yes |
+| [latest@](https://latestat.com/api) | Latest versions and end-of-life dates for 500+ software products | No | Yes | Yes |
 | [License-API](https://github.com/cmccandless/license-api/blob/master/README.md) | Unofficial REST API for choosealicense.com | No | Yes | No |
 | [Litport Free Proxy](https://litport.net/docs/free-proxy-api) | Live-tested HTTP, SOCKS4, and SOCKS5 proxies with latency, uptime, and geolocation | No | Yes | No |
 | [LiveOrDown](https://liveordown.com/developers) | Live up/down status of 240+ online services, checked every minute from 3 regions | No | Yes | Yes |
