@@ -63,6 +63,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 
 | Name | Description | Auth | Transport | Install |
 |:---|:---|:---|:---|:---|
+| [0xArchive](https://github.com/0xArchiveIO/0xarchive-mcp) | Query real-time and historical Hyperliquid and Lighter market data | OAuth | `HTTP` | – |
 | [IPstack MCP](https://ipstack.com/mcp) | IP geolocation, threat and timezone lookups for agents | `apiKey` | `stdio`, `HTTP` | [Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter) |
 | [Agent Nexus](https://agentnexus.app) | Find agent-callable APIs, MCP servers and CLIs by capability, with live health and uptime data | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/agent-nexus) |
 | [BlockVectra](https://github.com/blockvectra/mcp) | Blockchain RPC and indexed data; keyless documentation and chain discovery | `apiKey` | `HTTP` | – |
