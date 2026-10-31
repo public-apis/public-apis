@@ -763,6 +763,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IPify](https://www.ipify.org/) | A simple IP Address API | No | Yes | Unknown |
 | [IPinfo](https://ipinfo.io/developers) | Another simple IP Address API | No | Yes | Unknown |
 | [Ironfang Render](https://ironfang.com/render/docs) | Screenshots, PDFs, dynamic images, QR codes and video from URLs or HTML | `apiKey` | Yes | No |
+| [Irmu](https://irmu.com/api-reference) | Scrape websites, render JavaScript, capture screenshots and extract structured JSON with AI | `apiKey` | Yes | Unknown |
 | [Is This Site Down?](https://downforjustmeoreveryone.com/api) | Check if any website is down, from two continents; live status, uptime history and TLS expiry | No | Yes | Yes |
 | [isitdownstatus](https://isitdownstatus.com) | Check if websites and online services are currently down | No | Yes | Unknown |
 | [jsDelivr](https://github.com/jsdelivr/data.jsdelivr.com) | Package info and download stats on jsDelivr CDN | No | Yes | Yes |
