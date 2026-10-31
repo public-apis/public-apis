@@ -2497,6 +2497,11 @@ API | Description | Auth | HTTPS | CORS |
 ### Transportation
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Cambodia Transit & Border Crossings](https://cambodiatransportguide.com/data/) | Royal Railway lines, intercity bus routes, island ferries, and international border checkpoints in Cambodia | `No` | `Yes` | `Yes` |
+| [Laos Transport & Border Checkpoints](https://laosbustickets.com/data/) | Public transit routes, Laos-China Railway daily timetables, and 33 international border checkpoints in Laos | `No` | `Yes` | `Yes` |
+| [Philippines Ferry Routes & Transit](https://philippinestransport.com/data/) | Inter-island passenger ferry routes, sea ports, piers, and domestic transit networks across the Philippines | `No` | `Yes` | `Yes` |
+| [Thailand Transit & Railway Routes](https://thailandtransporthub.com/data/) | State Railway of Thailand lines, national bus corridor networks, and island ferry connections in Thailand | `No` | `Yes` | `Yes` |
+| [Vietnam Railway & Interprovincial Transit](https://vietnamtransportguide.com/data/) | Reunification Express train lines, interprovincial sleeper bus routes, and offshore ferry schedules in Vietnam | `No` | `Yes` | `Yes` |
 | [ADS-B Exchange](https://www.adsbexchange.com/data/) | Access real-time and historical data of any and all airborne aircraft | No | Yes | Unknown |
 | [Aether-X Port Congestion](https://aether-x-oracle-production.up.railway.app/docs) | Real-time port congestion risk scores, ETA delays and waiting vessels for 15 global ports | `apiKey` | Yes | Yes |
 | [AirportMiles](https://airportmiles.com/api) | Airport codes, distances, routes and passenger numbers as static JSON files | No | Yes | Yes |
