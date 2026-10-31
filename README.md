@@ -1057,7 +1057,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CO2 Offset](https://co2offset.io/api.html) | API calculates and validates the carbon footprint | No | Yes | Unknown |
 | [Danish data service Energi](https://www.energidataservice.dk/) | Open energy data from Energinet to society | No | Yes | Unknown |
 | [EIA Open Data](https://www.eia.gov/opendata/) | US energy statistics: electricity, petroleum, gas | `apiKey` | Yes | Unknown |
-| [Fonciq Flood Zones](https://fonciq.ca/api-gratuite/zones-inondables) | Québec flood zones at a point, address or lot, from 9 open CC BY 4.0 sources | No | Yes | Yes |
+| [Fonciq Flood Zones](https://fonciq.ca/api-gratuite/zones-inondables) | Québec flood zones (zones inondables) at a point, address or lot, from 9 open CC BY 4.0 sources | No | Yes | Yes |
 | [GridHub](https://grid-hub.app/developers) | Live wholesale electricity prices and demand across 25 grid zones | `apiKey` | Yes | Yes |
 | [GridVigil](https://gridvigil.com/developers) | Pressure scores, demand, generation mix and alerts for the 10 major U.S. power grids | No | Yes | Yes |
 | [GrünstromIndex](https://gruenstromindex.de/) | Green Power Index for Germany (Grünstromindex/GSI) | No | No | Yes |
