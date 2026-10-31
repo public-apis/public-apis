@@ -89,6 +89,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [Toolalize](https://github.com/Vertisky/toolalize-mcp) | Unit and live currency conversion tools for agents, no key needed | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/io.github.Vertisky/toolalize-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=toolalize) |
 | [Twinbay](https://docs.twinbay.ai/mcp-server) | Spin up stateful API twins, read request logs and grade agent runs | `OAuth` | `HTTP` | – |
 | [US Recalls](https://recallsapi.com/docs/mcp) | Check US recalls from 9 agencies by UPC, model, NDC, lot or VIN; 4 read-only tools | `apiKey` | `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.recallsapi/recallsapi) · [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.recallsapi/recallsapi) |
+| [Veridion](https://www.veridionmarkets.com/data-api) | US congressional STOCK Act trades and the President's OGE filings, each row linked to its filing | No | `HTTP` | – |
 | [Vuntum](https://github.com/RAAAAAGEEEEE/vuntum-mcp) | Sourced, dated data on consumer robots and physical AI: specs, prices, evidence | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/RAAAAAGEEEEE/vuntum-mcp) |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
