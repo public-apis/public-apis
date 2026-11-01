@@ -1428,6 +1428,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ipgeolocationapi](https://ipgeolocationapi.io/docs) | IP geolocation with ASN, timezone, currency and threat data, 5,000 keyless calls a day | No | Yes | Yes |
 | [IPInfoDB](https://www.ipinfodb.com/api) | Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address | `apiKey` | Yes | Unknown |
 | [IPKit](https://ipkit.dev/docs) | IP lookup with location, ASN/ISP and VPN/proxy/Tor signals | No | Yes | Yes |
+| [IPSnapshot](https://ipsnapshot.com/ip-lookup-api) | IP geolocation, ASN and ISP, plus VPN, datacenter and Tor detection for IPv4 and IPv6 | No | Yes | Yes |
 | [ipstack](https://ipstack.com/) | Locate and identify website visitors by IP address | `apiKey` | Yes | Unknown |
 | [ipwhois](https://ipwhois.io/documentation) | IP geolocation with country, city, coordinates, ISP, timezone and flag data | No | Yes | Yes |
 | [Kakao Maps](https://apis.map.kakao.com) | Kakao Maps provide multiple APIs for Korean maps | `apiKey` | Yes | Unknown |
