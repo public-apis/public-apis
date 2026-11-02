@@ -108,6 +108,11 @@ def check_description(line_num: int, description: str) -> List[str]:
 
     err_msgs = []
 
+    if not description.strip():
+        err_msg = error_message(line_num, 'description cannot be empty')
+        err_msgs.append(err_msg)
+        return err_msgs
+
     first_char = description[0]
     if first_char.upper() != first_char:
         err_msg = error_message(line_num, 'first character of description is not capitalized')
