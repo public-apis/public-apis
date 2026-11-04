@@ -25,4 +25,25 @@ jobs:
         run: python -m pip install -r scripts/requirements.txt
 
       - name: Validate all links from README.md
-        run: python scripts/validate/links.py ${FILENAME}
+        run: |
+          set -o pipefail
+          python scripts/validate/links.py ${FILENAME} | tee broken_links.txt
+
+      - name: Add results to job summary
+        if: always()
+        run: |
+          if [ -f broken_links.txt ]; then
+            echo '## Link validation results' >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat broken_links.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: broken-links
+          path: broken_links.txt
+          if-no-files-found: ignore
+          retention-days: 90
