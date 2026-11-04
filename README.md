@@ -317,6 +317,7 @@ API | Description | Auth | HTTPS | CORS |
 | API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
 | [Bitquery](https://graphql.bitquery.io/ide) | Onchain GraphQL APIs & DEX APIs | `apiKey` | Yes | Yes |
+| [ChainAPI](https://tk-factory.onrender.com/) | Blockchain balances (Base, Solana, Bitcoin) + verified Federal Register, NVD CVE and World Bank data via one API | `apiKey` | Yes | Yes |
 | [Blockscout](https://dev.blockscout.com/) | Multichain block explorer REST API (with Etherscan-compatible JSON-RPC) | `apiKey` | Yes | No |
 | [Chainlink](https://chain.link/developer-resources) | Build hybrid smart contracts with Chainlink | No | Yes | Unknown |
 | [Chainpoint](https://tierion.com/chainpoint/) | Chainpoint is a global network for anchoring data to the Bitcoin blockchain | No | Yes | Unknown |
