@@ -2377,7 +2377,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Football Leagues](https://football-api.yuvron.online/reference) | Standings, fixtures, live scores, lineups and player stats for 11 European football competitions | `apiKey` | Yes | Yes |
 | [Football Standings](https://github.com/azharimm/football-standings-api) | Display football standings e.g epl, la liga, serie a etc. The data is based on espn site | No | Yes | Yes |
 | [Football-Data](https://www.football-data.org) | Football data with matches info, players, teams, and competitions | `X-Mashape-Key` | Yes | Unknown |
-| [GOAL API](https://goal-api.com/documentation) | Football (soccer) data: live scores, fixtures, standings, lineups, stats and events over REST and WebSocket | `apiKey` | Yes | Yes |
+| [GOAL API](https://goal-api.com/documentation) | Football (soccer) data: live scores, fixtures, standings, stats and events over REST and WebSocket | `apiKey` | Yes | Yes |
 | [HaterPicks](https://www.haterpicks.app/api) | Australian sports odds and player props from every major Australian bookmaker, free tier | `apiKey` | Yes | No |
 | [JCDecaux Bike](https://developer.jcdecaux.com/) | JCDecaux's self-service bicycles | `apiKey` | Yes | Unknown |
 | [Lumify](https://lumify.ai/docs) | Real-time sports intelligence: scores, odds, betting splits & AI bet analysis across 8 sports | `apiKey` | Yes | No |
