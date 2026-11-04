@@ -2651,6 +2651,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Vehicle
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [ANKUSI Wheel Fitment](https://ankusiwheels.com/wheel-fitment-api/) | Bolt pattern, center bore and factory wheel size and offset for about 10,000 vehicles | No | Yes | Yes |
 | [Auto Body Shop Directory](https://autobodyshopnear.com/developers/body-shop-api) | Find auto body shops by ZIP code, city, location, or profile | No | Yes | No |
 | [Bike Reliability](https://bikereliability.co.uk/developers) | UK motorcycle reliability ranked by first-time MOT pass rates | No | Yes | Yes |
 | [BoltPatternHQ](https://boltpatternhq.com/mcp/) | Vehicle wheel fitment, bolt pattern (PCD), offset, and center bore specifications | No | Yes | Yes |
