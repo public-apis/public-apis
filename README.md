@@ -1740,6 +1740,7 @@ API | Description | Auth | HTTPS | CORS |
 | [USAJOBS](https://developer.usajobs.gov/) | US government job board | `apiKey` | Yes | Unknown |
 | [Vibeworker](https://tryvibeworker.com/docs) | Upwork job listings with client data and AI fit scores, plus webhooks and RSS | `apiKey` | Yes | No |
 | [WhatJobs](https://www.whatjobs.com/affiliates) | Job search engine | `apiKey` | Yes | Unknown |
+| [Working Student Jobs](https://www.workingstudentjobs.de/developers) | Working student and internship jobs in Germany, filterable by city, field and language | No | Yes | Yes |
 | [Worklittle](https://docs.worklittle.com) | Job search, over 4 million jobs | `apiKey` | Yes | Yes |
 | [YubHub](https://yubhub.co/developers/api-reference/) | Job listings read from employers' careers pages, with salary, skills and hiring statistics | No | Yes | Yes |
 | [ZipRecruiter](https://www.ziprecruiter.com/publishers) | Job search app and website | `apiKey` | Yes | Unknown |
