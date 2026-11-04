@@ -394,6 +394,7 @@ API | Description | Auth | HTTPS | CORS |
 | [KontragentPro](https://kontragentpro.ru/api/v2/docs) | Russian company data from state registers by INN or OGRN: profile, finances, timeline | No | Yes | Yes |
 | [Leadgen Romania](https://leadgen.adrianhomelab.com/docs) | Romanian company registry, ANAF tax status and financial statements | `apiKey` | Yes | Yes |
 | [Legal Sandbox Georgia](https://legal.ge/api/openapi.json) | Find verified legal specialists in Georgia from natural-language queries | No | Yes | Yes |
+| [ListRiver](https://listriver.com/api-docs) | New U.S. businesses from state registries: search new LLCs by state, city, ZIP, NAICS; free tier | `apiKey` | Yes | No |
 | [Mailchimp](https://mailchimp.com/developer/) | Send marketing campaigns and transactional mails | `apiKey` | Yes | Unknown |
 | [mailjet](https://www.mailjet.com/) | Marketing email can be sent and mail templates made in MJML or HTML can be sent using API | `apiKey` | Yes | Unknown |
 | [markerapi](https://markerapi.com) | Trademark Search | No | No | Unknown |
