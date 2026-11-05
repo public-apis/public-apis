@@ -679,6 +679,7 @@ API | Description | Auth | HTTPS | CORS |
 | [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes | |
 | [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes | |
 | [VerifNow](https://docs.verifnow.io) | Validates email, phone, IBAN, EU VAT against VIES, and Canadian, Spanish and US national IDs | `apiKey` | Yes | No | |
+| [WISEPIM](https://wisepim.com/developers/open-data) | GTIN/EAN/UPC validation, HS code search and EU/US tariff lookup, and EU marketplace seller fees | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
