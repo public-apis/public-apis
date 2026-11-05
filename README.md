@@ -452,6 +452,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Holidays](https://holidayapi.com/) | Historical data regarding holidays | `apiKey` | Yes | Unknown |
 | [India Public Holidays](https://calendar-api-web.vercel.app/docs) | Official Indian public holidays for the Central government and 36 states/UTs | No | Yes | Yes |
 | [Intellibook](https://www.intellibookai.com/docs) | Appointment booking and availability API for salons and clinics | No | Yes | Yes |
+| [Kalenderblick](https://kalenderblick.de/api/) | Public holidays and school holidays for Germany, Austria and Switzerland as static JSON | No | Yes | Yes |
 | [LectServe](http://www.lectserve.com) | Protestant liturgical calendar | No | No | Unknown |
 | [Mother's Day Calendar](https://mothersdaycalendar.com/en/api/) | Mother's Day dates, country rules, sources and confidence as static JSON and CSV | No | Yes | Yes |
 | [Nager.Date](https://date.nager.at) | Public holidays for more than 90 countries | No | Yes | No |
