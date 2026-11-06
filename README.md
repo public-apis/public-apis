@@ -2862,3 +2862,8 @@ API | Description | Auth | HTTPS | CORS |
 
 ## License
 [MIT](LICENSE) (c) 2022 public-apis
+
+
+### Data Generation
+
+| [Test Data Generator API](https://tdd-api-4daf.onrender.com) | Generate realistic test datasets. 12 schemas, 10+ locales. | [GitHub](https://github.com/dolinin236-hash/tdd-api) |
