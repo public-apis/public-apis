@@ -7,6 +7,7 @@ from validate.links import check_duplicate_links
 from validate.links import fake_user_agent
 from validate.links import get_host_from_link
 from validate.links import has_cloudflare_protection
+from validate.links import check_if_link_is_working
 
 
 class FakeResponse():
@@ -40,6 +41,42 @@ class TestValidateLinks(unittest.TestCase):
 
         self.text_with_cloudflare_flags = '403 Forbidden Cloudflare We are checking your browser...'
         self.text_without_cloudflare_flags = 'Lorem Ipsum'
+
+    def test_check_if_link_is_working_returns_error_for_410(self):
+        from unittest.mock import patch
+
+        response = FakeResponse(
+            code=410,
+            headers={},
+            text='Gone'
+        )
+
+        with patch('validate.links.requests.get', return_value=response):
+            has_error, error_message = check_if_link_is_working(
+                'https://example.com/deprecated'
+            )
+
+        self.assertTrue(has_error)
+        self.assertIn('410', error_message)
+        self.assertIn('API deprecated', error_message)
+
+    def test_check_if_link_is_working_returns_error_for_404(self):
+        from unittest.mock import patch
+
+        response = FakeResponse(
+            code=404,
+            headers={},
+            text='Not Found'
+        )
+
+        with patch('validate.links.requests.get', return_value=response):
+            has_error, error_message = check_if_link_is_working(
+                'https://example.com/missing'
+            )
+
+        self.assertTrue(has_error)
+        self.assertIn('404', error_message)
+
 
     def test_find_link_in_text(self):
         text = """
