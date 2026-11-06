@@ -2379,6 +2379,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PostLake](https://postlake.dev/docs/) | One API to publish, schedule, and read analytics across every major social network | `apiKey` | Yes | No |
 | [Postproxy](https://postproxy.dev/getting-started/quickstart/) | Publish posts, comments, DMs, and more | `apiKey` | Yes | No |
 | [Product Hunt](https://api.producthunt.com/v2/docs) | The best new products in tech | `OAuth` | Yes | Unknown |
+| [ProfileHunt](https://profilehunt.dev/docs) | Public LinkedIn profile data as JSON from a profile URL, including experience and recent posts | `apiKey` | Yes | No |
 | [Publora](https://docs.publora.com) | Publish and schedule posts to ten social networks from one endpoint | `apiKey` | Yes | No |
 | [Reddit](https://www.reddit.com/dev/api) | Homepage of the internet | `OAuth` | Yes | Unknown |
 | [RedditAPIs](https://www.redditapis.com/) | Reddit data API: subreddit listings, post/comment/community/user search, comment trees, top posts | `apiKey` | Yes | Unknown |
