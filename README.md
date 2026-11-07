@@ -608,6 +608,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SoChain](https://sochain.com/docs) | Bitcoin, Litecoin, Dogecoin and Zcash addresses, transactions, blocks and fees | No | Yes | Yes |
 | [Solana JSON RPC](https://docs.solana.com/developing/clients/jsonrpc-api) | Provides various endpoints to interact with the Solana Blockchain | No | Yes | Unknown |
 | [SoloLuck](https://sololuck.io/api) | Bitcoin solo mining pool stats, per-address miner stats and an open dataset of solo-mined blocks | No | Yes | Yes |
+| [Swiftedge](https://swiftedge.uk/developers) | Live order book walls, resting liquidity, funding, open interest and large trades for 9 markets | No | Yes | Yes |
 | [Technical Analysis](https://technical-analysis-api.com) | Cryptocurrency prices and technical analysis | `apiKey` | Yes | No |
 | [The Coin Analysis](https://www.thecoinanalysis.com/developers) | Live and historical cryptocurrency prices, market caps, volatility and drawdown | `apiKey` | Yes | Yes |
 | [TronOrb](https://tronorb.com/developers/api) | TRON data: USDT TRC-20 fees, address checks, Tether freezes, dApp and exchange rankings | No | Yes | Yes |
