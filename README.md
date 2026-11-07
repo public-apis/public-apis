@@ -2411,6 +2411,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Publora](https://docs.publora.com) | Publish and schedule posts to ten social networks from one endpoint | `apiKey` | Yes | No |
 | [Reddit](https://www.reddit.com/dev/api) | Homepage of the internet | `OAuth` | Yes | Unknown |
 | [RedditAPIs](https://www.redditapis.com/) | Reddit data API: subreddit listings, post/comment/community/user search, comment trees, top posts | `apiKey` | Yes | Unknown |
+| [Redlisten](https://redlisten.com) | Public Reddit posts and comments: search, live feeds, keyword alerts and trends | `apiKey` | Yes | Yes |
 | [Revolt](https://developers.revolt.chat/) | Revolt open source Discord alternative | `apiKey` | Yes | Unknown |
 | [Saidit](https://www.saidit.net/dev/api) | Open Source Reddit Clone | `OAuth` | Yes | Unknown |
 | [Slack](https://api.slack.com/) | Team Instant Messaging | `OAuth` | Yes | Unknown |
