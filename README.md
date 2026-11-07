@@ -1246,6 +1246,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TickerLayer](https://tickerlayer.com) | Real-time and historical market data for stocks, forex, crypto and more | `apiKey` | Yes | Unknown | |
 | [Top 5 Stocks](https://top5stocks.netlify.app/developers) | Daily AI-ranked stock and crypto watchlists | No | Yes | Unknown | |
 | [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth` | Yes | Yes | |
+| [Tradoshi](https://tradoshi.com/en/developers) | Rankings of trading schools and prop firms, every criterion with its source | `No` | Yes | Yes | |
 | [Twelve Data](https://twelvedata.com/) | Stock market data (real-time & historical) | `apiKey` | Yes | Unknown | |
 | [Undertow](https://liquilens-undertow.com/developers/) | Public market-depth and sized exit estimates, not executable quotes | No | Yes | Yes |
 | [US Freelancer Tax](https://narwhalthepong.github.io/gumroad-license-check/free-tax-finance-api) | 2026 US self-employment tax, quarterly estimates, QBI, mileage and home office deductions | No | Yes | Yes | |
