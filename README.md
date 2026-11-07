@@ -990,6 +990,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Monday](https://api.developer.monday.com/docs) | Programmatically access and update data inside a monday.com account | `apiKey` | Yes | Unknown |
 | [Notion](https://developers.notion.com/docs/getting-started) | Integrate with Notion | `OAuth` | Yes | Unknown |
 | [OCR.Space](https://ocr.space/ocrapi) | OCR text extraction from images and PDFs with a free tier | `apiKey` | Yes | Unknown |
+| [Optiic](https://optiic.dev) | OCR that extracts text from images and PDFs, with optional translation of the result | `apiKey` | Yes | Yes |
 | [PandaDoc](https://developers.pandadoc.com) | DocGen and eSignatures API | `apiKey` | Yes | No |
 | [PDFDispatch](https://docs.pdfdispatch.com/) | HTML, URLs, Markdown and Office files to PDF, plus merge, split and PDF/A. EU-hosted, free tier | `apiKey` | Yes | No |
 | [PDFFleet](https://pdffleet.com) | HTML and URL to PDF API with templates and a free tier | `apiKey` | Yes | Yes |
