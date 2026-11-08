@@ -2303,6 +2303,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Mozilla tls scanner](https://github.com/mozilla/tls-observatory#api-endpoints) | Mozilla observatory tls scanner | No | Yes | Unknown |
 | [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | U.S. National Vulnerability Database | No | Yes | Unknown |
 | [Neetix Liveliness](https://liveliness.neetix.in/api-reference) | Face liveness, presentation-attack detection and 1:1 face match for identity verification | `apiKey` | Yes | No |
+| [Opteryx Vulnerability Data](https://docs.opteryx.app/docs/guides/querying-via-odata) | NVD CVEs, CISA KEV, EPSS scores and Exploit-DB, queryable with OData filters and aggregation | No | Yes | Yes |
 | [OSV](https://google.github.io/osv.dev/api/) | Open source vulnerability database and distributed triage infrastructure | No | Yes | Yes |
 | [Passwordinator](https://github.com/fawazsullia/password-generator/) | Generate random passwords of varying complexities | No | Yes | Yes |
 | [PhishStats](https://phishstats.info/) | Phishing database | No | Yes | Unknown |
