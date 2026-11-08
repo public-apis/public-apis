@@ -248,6 +248,12 @@ def check_file_format(lines: List[str]) -> List[str]:
         entry_err_msgs = check_entry(line_num, segments)
         err_msgs.extend(entry_err_msgs)
     
+    # a category is only checked when the next header is reached,
+    # so the last category in the file has to be checked here
+    if category and num_in_category < min_entries_per_category:
+        err_msg = error_message(category_line, f'{category} category does not have the minimum {min_entries_per_category} entries (only has {num_in_category})')
+        err_msgs.append(err_msg)
+
     return err_msgs
 
 
