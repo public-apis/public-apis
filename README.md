@@ -1391,6 +1391,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PokéAPI (GraphQL)](https://github.com/mazipan/graphql-pokeapi) | The Unofficial GraphQL for PokeAPI | No | Yes | Yes |
 | [Pokémon TCG](https://pokemontcg.io) | Pokémon TCG Information | No | Yes | Unknown |
 | [PokéSprite](https://msikma.github.io/pokesprite/) | Database of Pokémon sprites and icons | No | Yes | Yes |
+| [PokéWallet](https://pokewallet.io/api-docs) | Pokémon TCG, One Piece and 10 more card games: cards, sets, TCGplayer and Cardmarket prices | `apiKey` | Yes | Yes |
 | [Psychonauts](https://psychonauts-api.netlify.app/) | Psychonauts World Characters Information and PSI Powers | No | Yes | Yes |
 | [PUBG](https://developer.pubg.com/) | Access in-game PUBG data | `apiKey` | Yes | Yes |
 | [Puyo Nexus](https://github.com/deltadex7/puyodb-api-deno) | Puyo Puyo information from Puyo Nexus Wiki | No | Yes | Yes |
