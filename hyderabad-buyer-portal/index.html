@@ -1,0 +1,3224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maison Hyderabad — Verified Flats, Villas & Plots | TSRERA Builder Intelligence</title>
+<meta name="description" content="A buyer-first residential intelligence portal for Hyderabad. Verified builder credentials, TSRERA project data, locality research, shortlisting, affordability modelling and guided site visits. No buyer fee.">
+<meta name="theme-color" content="#0A1411">
+<meta property="og:title" content="Maison Hyderabad — Verified Flats & Villas">
+<meta property="og:description" content="Buyer-first residential intelligence for Hyderabad: verified builders, TSRERA project data, locality research and guided site visits.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/hero-financial-district.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A1411'/%3E%3Cpath d='M16 44V26l16-11 16 11v18' fill='none' stroke='%23C9A45C' stroke-width='3.2' stroke-linejoin='round'/%3E%3Cpath d='M27 44V33h10v11' fill='none' stroke='%23F7F4ED' stroke-width='2.6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..500&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   MAISON HYDERABAD — Design System
+   1. Tokens        2. Reset/Base     3. Layout & Type
+   4. Components    5. Sections       6. Detail views
+   7. Animation     8. Responsive
+   ============================================================ */
+
+/* 1. TOKENS ------------------------------------------------- */
+:root{
+  --ink:#0A1411;
+  --ink-soft:#0F1E1A;
+  --ink-3:#173029;
+  --ink-4:#204038;
+  --gold:#C9A45C;
+  --gold-light:#E8D3A6;
+  --gold-deep:#A88340;
+  --ivory:#F8F5EE;
+  --sand:#EFE9DC;
+  --sand-deep:#E3DACA;
+  --paper:#FFFFFF;
+  --text:#1B1A16;
+  --text-soft:#3A3830;
+  --muted:#6E6759;
+  --muted-2:#8B8477;
+  --line:rgba(18,34,29,.12);
+  --line-strong:rgba(18,34,29,.22);
+  --line-inverse:rgba(248,245,238,.16);
+  --ok:#2E7D5F;
+  --ok-soft:#E4F1EA;
+  --warn:#A9741F;
+  --warn-soft:#F8EEDC;
+  --danger:#B04230;
+  --danger-soft:#F8E7E2;
+  --info:#2C5F7C;
+  --info-soft:#E5EEF4;
+  --r-xs:6px;
+  --r-sm:10px;
+  --r-md:16px;
+  --r-lg:22px;
+  --r-xl:30px;
+  --r-pill:999px;
+  --serif:"Fraunces","Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:"Manrope",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --shadow-xs:0 1px 2px rgba(10,20,17,.06);
+  --shadow-sm:0 6px 18px -10px rgba(10,20,17,.24);
+  --shadow-md:0 18px 40px -22px rgba(10,20,17,.34),0 2px 8px rgba(10,20,17,.06);
+  --shadow-lg:0 40px 80px -40px rgba(10,20,17,.45),0 8px 24px -12px rgba(10,20,17,.16);
+  --shadow-gold:0 16px 40px -18px rgba(201,164,92,.55);
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --ease-out:cubic-bezier(.16,1,.3,1);
+  --dur:.45s;
+  --header-h:76px;
+  --maxw:1280px;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+}
+
+/* 2. RESET / BASE ------------------------------------------- */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--sans);color:var(--text);background:var(--ivory);
+  line-height:1.65;font-size:16px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+button{font:inherit;color:inherit;cursor:pointer}
+input,select,textarea{font:inherit;color:inherit}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4,h5{margin:0;font-family:var(--serif);font-weight:400;letter-spacing:-.02em;line-height:1.08;color:var(--ink);text-wrap:balance}
+p{text-wrap:pretty}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+table{border-collapse:collapse;width:100%}
+::selection{background:var(--gold);color:var(--ink)}
+:focus-visible{outline:2px solid var(--gold-deep);outline-offset:3px;border-radius:4px}
+hr{border:0;height:1px;background:var(--line);margin:0}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:fixed;left:16px;top:-80px;z-index:9999;background:var(--ink);color:var(--ivory);padding:.7rem 1.2rem;border-radius:var(--r-pill);font-weight:700;font-size:.85rem;transition:top .25s var(--ease)}
+.skip:focus{top:16px}
+body.no-scroll{overflow:hidden}
+
+/* Custom scrollbar */
+*{scrollbar-width:thin;scrollbar-color:rgba(18,34,29,.28) transparent}
+::-webkit-scrollbar{width:11px;height:11px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:rgba(18,34,29,.25);border:3px solid transparent;background-clip:content-box;border-radius:99px}
+::-webkit-scrollbar-thumb:hover{background:rgba(18,34,29,.45);background-clip:content-box}
+
+/* 3. LAYOUT & TYPE ------------------------------------------ */
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:clamp(20px,4vw,44px)}
+.section{padding:clamp(64px,8vw,116px) 0;position:relative;scroll-margin-top:76px}
+#top,#main{scroll-margin-top:76px}
+[id]{scroll-margin-top:76px}
+.detail [id]{scroll-margin-top:100px}
+.section--paper{background:var(--paper)}
+.section--sand{background:var(--sand)}
+.section--ink{background:var(--ink);color:rgba(248,245,238,.78)}
+.section--ink h1,.section--ink h2,.section--ink h3,.section--ink h4{color:var(--ivory)}
+.section--tight{padding:clamp(44px,5vw,72px) 0}
+
+.display{font-family:var(--serif);font-size:clamp(2.5rem,5.6vw,4.35rem);line-height:.99;letter-spacing:-.035em;font-weight:400}
+.h2{font-size:clamp(1.9rem,3.4vw,2.85rem);line-height:1.06;letter-spacing:-.03em}
+.h3{font-size:clamp(1.3rem,2vw,1.65rem);line-height:1.18;letter-spacing:-.02em}
+.lede{font-size:clamp(1rem,1.28vw,1.13rem);color:var(--muted);line-height:1.75;max-width:62ch}
+.section--ink .lede{color:rgba(248,245,238,.66)}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:.6rem;font-family:var(--sans);
+  font-size:.705rem;font-weight:700;letter-spacing:.19em;text-transform:uppercase;color:var(--gold-deep);
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:currentColor;opacity:.6}
+.section--ink .eyebrow{color:var(--gold)}
+.eyebrow--center{justify-content:center}
+.gold{color:var(--gold-deep)}
+.section--ink .gold{color:var(--gold-light)}
+.grad-text{
+  background:linear-gradient(102deg,#E8D3A6 0%,#C9A45C 38%,#F0E1C0 66%,#B08C46 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:2.5rem;margin-bottom:clamp(32px,4vw,54px);flex-wrap:wrap}
+.sec-head__copy{max-width:640px}
+.sec-head .eyebrow{margin-bottom:1rem}
+.sec-head .h2{margin-bottom:.75rem}
+.sec-head__aside{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;padding-bottom:.35rem}
+.hairline{height:1px;background:linear-gradient(90deg,transparent,var(--line-strong),transparent);border:0}
+
+/* 4. COMPONENTS --------------------------------------------- */
+/* Buttons */
+.btn{
+  --btn-bg:var(--ink);--btn-fg:var(--ivory);--btn-bd:transparent;
+  position:relative;display:inline-flex;align-items:center;justify-content:center;gap:.6rem;
+  padding:.92rem 1.55rem;border-radius:var(--r-pill);border:1px solid var(--btn-bd);
+  background:var(--btn-bg);color:var(--btn-fg);font-weight:700;font-size:.9rem;letter-spacing:.005em;
+  cursor:pointer;overflow:hidden;isolation:isolate;white-space:nowrap;
+  transition:transform .35s var(--ease),box-shadow .35s var(--ease),background .35s var(--ease),color .35s var(--ease),border-color .35s var(--ease);
+}
+.btn svg{width:16px;height:16px;flex:none;transition:transform .4s var(--ease)}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(0)}
+.btn--gold{--btn-bg:linear-gradient(100deg,#D7B678,#C9A45C 45%,#B08C46);--btn-fg:#20190A;box-shadow:var(--shadow-gold)}
+.btn--gold::after{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(100deg,transparent 18%,rgba(255,255,255,.62) 48%,transparent 74%);
+  transform:translateX(-130%);transition:transform .85s var(--ease)
+}
+.btn--gold:hover::after{transform:translateX(130%)}
+.btn--gold:hover{box-shadow:0 22px 48px -18px rgba(201,164,92,.72)}
+.btn--gold:hover svg{transform:translateX(3px)}
+.btn--ink{--btn-bg:var(--ink);--btn-fg:var(--ivory);box-shadow:var(--shadow-sm)}
+.btn--ink:hover{--btn-bg:var(--ink-3)}
+.btn--ghost{--btn-bg:transparent;--btn-fg:var(--ink);--btn-bd:var(--line-strong)}
+.btn--ghost:hover{--btn-bg:rgba(18,34,29,.045);--btn-bd:var(--ink)}
+.btn--ghost-light{--btn-bg:transparent;--btn-fg:var(--ivory);--btn-bd:rgba(248,245,238,.34)}
+.btn--ghost-light:hover{--btn-bg:rgba(248,245,238,.1);--btn-bd:var(--gold)}
+.btn--sm{padding:.62rem 1.05rem;font-size:.8rem}
+.btn--sm svg{width:14px;height:14px}
+.btn--block{width:100%}
+.btn[disabled]{opacity:.5;pointer-events:none}
+.btn--quiet{--btn-bg:transparent;--btn-fg:var(--muted);--btn-bd:transparent;padding-inline:.4rem}
+.btn--quiet:hover{--btn-fg:var(--ink)}
+.link-arrow{display:inline-flex;align-items:center;gap:.45rem;font-weight:700;font-size:.85rem;color:var(--ink);border-bottom:1px solid var(--line-strong);padding-bottom:2px;transition:gap .3s var(--ease),border-color .3s}
+.link-arrow:hover{gap:.72rem;border-color:var(--gold-deep);color:var(--gold-deep)}
+.section--ink .link-arrow{color:var(--gold-light);border-color:rgba(201,164,92,.4)}
+
+/* Pills / chips / badges */
+.chip{
+  display:inline-flex;align-items:center;gap:.42rem;padding:.34rem .72rem;border-radius:var(--r-pill);
+  font-size:.715rem;font-weight:700;letter-spacing:.03em;line-height:1.3;white-space:nowrap;
+  background:var(--sand);color:var(--text-soft);border:1px solid transparent;
+}
+.chip--gold{background:rgba(201,164,92,.16);color:#7A5C22;border-color:rgba(201,164,92,.34)}
+.chip--ok{background:var(--ok-soft);color:#1F5F47;border-color:rgba(46,125,95,.2)}
+.chip--warn{background:var(--warn-soft);color:#7C5310;border-color:rgba(169,116,31,.22)}
+.chip--info{background:var(--info-soft);color:#204A62;border-color:rgba(44,95,124,.18)}
+.chip--danger{background:var(--danger-soft);color:#7E2C1F;border-color:rgba(176,66,48,.2)}
+.chip--line{background:transparent;border-color:var(--line-strong);color:var(--muted)}
+.chip--dark{background:rgba(248,245,238,.09);color:rgba(248,245,238,.9);border-color:var(--line-inverse);backdrop-filter:blur(8px)}
+.chip__dot{width:5px;height:5px;border-radius:50%;background:currentColor;flex:none}
+.chip--ok .chip__dot{box-shadow:0 0 0 3px rgba(46,125,95,.16)}
+.chip--warn .chip__dot{box-shadow:0 0 0 3px rgba(169,116,31,.16)}
+.chip--gold .chip__dot{box-shadow:0 0 0 3px rgba(201,164,92,.2)}
+
+/* Filter tabs */
+.tabs{display:flex;gap:.35rem;padding:.32rem;background:var(--sand-deep);border-radius:var(--r-pill);flex-wrap:wrap}
+.tabs button{
+  border:0;background:transparent;padding:.58rem 1rem;border-radius:var(--r-pill);font-size:.82rem;font-weight:700;
+  color:var(--muted);transition:color .3s,background .3s,box-shadow .3s;white-space:nowrap
+}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected="true"]{background:var(--paper);color:var(--ink);box-shadow:var(--shadow-sm)}
+
+/* Cards */
+.card{
+  background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);
+  box-shadow:var(--shadow-xs);transition:transform .5s var(--ease),box-shadow .5s var(--ease),border-color .5s var(--ease);
+  position:relative;overflow:hidden
+}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);border-color:rgba(201,164,92,.45)}
+
+/* Project card */
+.p-card{display:flex;flex-direction:column;cursor:pointer}
+.p-card__media{position:relative;aspect-ratio:16/10.5;overflow:hidden;background:var(--ink-3)}
+.p-card__media img{width:100%;height:100%;object-fit:cover;transition:transform 1.1s var(--ease-out),filter .8s;filter:saturate(.92)}
+.p-card:hover .p-card__media img{transform:scale(1.06)}
+.p-card__media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,20,17,.42) 0%,transparent 34%,transparent 56%,rgba(10,20,17,.55) 100%);pointer-events:none}
+.p-card__top{position:absolute;inset:14px 14px auto 14px;display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem;z-index:2}
+.p-card__foot{position:absolute;inset:auto 14px 13px 14px;display:flex;justify-content:space-between;align-items:center;gap:.75rem;z-index:2;color:rgba(248,245,238,.94);font-size:.72rem;font-weight:600;letter-spacing:.02em}
+.p-card__foot .loc{display:inline-flex;align-items:center;gap:.4rem}
+.p-card__body{padding:1.15rem 1.25rem 1.35rem;display:flex;flex-direction:column;gap:.6rem;flex:1}
+.p-card__builder{font-size:.73rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-2);display:flex;align-items:center;gap:.5rem}
+.p-card__builder::after{content:"";flex:1;height:1px;background:var(--line)}
+.p-card__title{font-size:1.24rem;letter-spacing:-.025em;line-height:1.2}
+.p-card__meta{display:flex;flex-wrap:wrap;gap:.3rem .9rem;font-size:.8rem;color:var(--muted)}
+.p-card__meta span{display:inline-flex;align-items:center;gap:.35rem}
+.p-card__price{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;margin-top:auto;padding-top:.85rem;border-top:1px solid var(--line)}
+.p-card__price .amt{font-family:var(--serif);font-size:1.36rem;letter-spacing:-.03em;color:var(--ink);line-height:1}
+.p-card__price .per{font-size:.72rem;color:var(--muted);display:block;margin-top:.3rem;font-weight:600;letter-spacing:.02em}
+.p-card__go{
+  width:38px;height:38px;border-radius:50%;border:1px solid var(--line-strong);display:grid;place-items:center;
+  background:transparent;transition:background .4s,color .4s,border-color .4s,transform .4s var(--ease);flex:none
+}
+.p-card__go svg{width:15px;height:15px}
+.p-card:hover .p-card__go{background:var(--ink);color:var(--ivory);border-color:var(--ink);transform:rotate(-45deg)}
+
+/* Compare toggle */
+.cmp{
+  display:inline-flex;align-items:center;gap:.42rem;padding:.36rem .68rem;border-radius:var(--r-pill);
+  background:rgba(10,20,17,.5);border:1px solid rgba(248,245,238,.32);color:rgba(248,245,238,.94);
+  font-size:.7rem;font-weight:700;cursor:pointer;backdrop-filter:blur(10px);transition:.3s
+}
+.cmp input{position:absolute;opacity:0;width:0;height:0}
+.cmp__box{width:13px;height:13px;border-radius:4px;border:1.5px solid rgba(248,245,238,.6);display:grid;place-items:center;transition:.25s}
+.cmp__box svg{width:9px;height:9px;opacity:0;transform:scale(.6);transition:.25s}
+.cmp input:checked + .cmp__box{background:var(--gold);border-color:var(--gold)}
+.cmp input:checked + .cmp__box svg{opacity:1;transform:scale(1);color:#20190A}
+.cmp:hover{background:rgba(10,20,17,.72);border-color:var(--gold)}
+.cmp:has(input:checked){background:rgba(201,164,92,.24);border-color:var(--gold)}
+.cmp input:focus-visible + .cmp__box{outline:2px solid var(--gold-light);outline-offset:2px}
+
+/* Grid helpers */
+.grid{display:grid;gap:clamp(18px,2vw,26px)}
+.grid--3{grid-template-columns:repeat(auto-fill,minmax(310px,1fr))}
+.grid--2{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+.grid--4{grid-template-columns:repeat(auto-fill,minmax(238px,1fr))}
+
+/* Stat blocks */
+.stat{display:flex;flex-direction:column;gap:.2rem}
+.stat__num{font-family:var(--serif);font-size:clamp(1.9rem,3vw,2.6rem);line-height:1;letter-spacing:-.04em;color:var(--ink)}
+.section--ink .stat__num{color:var(--gold-light)}
+.stat__lbl{font-size:.78rem;color:var(--muted);font-weight:600;letter-spacing:.02em}
+.section--ink .stat__lbl{color:rgba(248,245,238,.58)}
+
+/* Keyboard hint / mono */
+.mono{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+/* break only genuinely unbreakable strings (ids, urls) so normal text stays
+   double-click selectable */
+.breakable{overflow-wrap:anywhere;word-break:break-word}
+.fact .v,.p-card__price .per,.chip,.dtl-crumb,.mini__s,.b-row__sub{overflow-wrap:anywhere}
+
+/* Reusable media frame */
+.frame{position:relative;overflow:hidden;border-radius:var(--r-lg);background:var(--ink-3)}
+.frame img{width:100%;height:100%;object-fit:cover}
+
+/* 5. HEADER ------------------------------------------------- */
+.site-header{
+  position:fixed;inset:0 0 auto 0;z-index:900;height:var(--header-h);
+  display:flex;align-items:center;
+  background:rgba(10,20,17,.5);backdrop-filter:blur(18px) saturate(140%);
+  border-bottom:1px solid transparent;color:var(--ivory);
+  transition:background .45s var(--ease),border-color .45s,height .45s var(--ease),box-shadow .45s;
+}
+.site-header.is-stuck,.site-header.is-solid{
+  background:rgba(8,17,14,.94);border-bottom-color:rgba(201,164,92,.2);height:68px;
+  box-shadow:0 20px 40px -30px rgba(0,0,0,.9)
+}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1.5rem}
+.brand{display:inline-flex;align-items:center;gap:.72rem;flex:none}
+.brand__mark{
+  width:38px;height:38px;border-radius:11px;display:grid;place-items:center;flex:none;
+  background:linear-gradient(150deg,rgba(201,164,92,.24),rgba(201,164,92,.05));
+  border:1px solid rgba(201,164,92,.45);color:var(--gold-light);transition:transform .5s var(--ease)
+}
+.brand:hover .brand__mark{transform:rotate(-6deg) scale(1.04)}
+.brand__mark svg{width:21px;height:21px}
+.brand__txt{display:flex;flex-direction:column;line-height:1}
+.brand__name{font-family:var(--serif);font-size:1.16rem;letter-spacing:-.02em;color:var(--ivory)}
+.brand__name em{font-style:normal;color:var(--gold)}
+.brand__sub{font-size:.56rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(248,245,238,.55);margin-top:4px;font-weight:700}
+.nav{display:flex;align-items:center;gap:.15rem}
+.nav a{
+  position:relative;padding:.55rem .78rem;border-radius:var(--r-pill);font-size:.82rem;font-weight:600;
+  color:rgba(248,245,238,.74);transition:color .3s,background .3s
+}
+.nav a::after{
+  content:"";position:absolute;left:.78rem;right:.78rem;bottom:.32rem;height:1px;background:var(--gold);
+  transform:scaleX(0);transform-origin:left;transition:transform .4s var(--ease)
+}
+.nav a:hover{color:var(--ivory)}
+.nav a:hover::after{transform:scaleX(1)}
+.header__actions{display:flex;align-items:center;gap:.55rem;flex:none}
+.header__actions .btn--ghost-light{padding:.62rem 1rem;font-size:.8rem}
+.hdr-shortlist{
+  position:relative;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;flex:none;
+  background:transparent;border:1px solid rgba(248,245,238,.24);color:rgba(248,245,238,.9);transition:.3s
+}
+.hdr-shortlist:hover{border-color:var(--gold);color:var(--gold-light);background:rgba(201,164,92,.1)}
+.hdr-shortlist svg{width:17px;height:17px}
+.hdr-shortlist__count{
+  position:absolute;top:-4px;right:-4px;min-width:19px;height:19px;border-radius:99px;background:var(--gold);color:#20190A;
+  font-size:.63rem;font-weight:800;display:grid;place-items:center;padding:0 4px;
+  transform:scale(0);transition:transform .35s var(--ease-out)
+}
+.hdr-shortlist__count.on{transform:scale(1)}
+.burger{display:none;width:42px;height:42px;border-radius:var(--r-sm);border:1px solid rgba(248,245,238,.22);background:transparent;color:var(--ivory);place-items:center}
+.burger span{display:block;width:17px;height:1.5px;background:currentColor;margin:3.5px auto;border-radius:2px;transition:.35s var(--ease)}
+.burger[aria-expanded="true"] span:nth-child(1){transform:translateY(5px) rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-5px) rotate(-45deg)}
+.drawer{
+  position:fixed;inset:var(--header-h) 0 auto 0;z-index:899;background:rgba(8,17,14,.985);backdrop-filter:blur(24px);
+  border-bottom:1px solid rgba(201,164,92,.24);padding:1.1rem clamp(20px,4vw,44px) 1.6rem;
+  display:none;flex-direction:column;gap:.1rem;max-height:calc(100vh - var(--header-h));overflow-y:auto
+}
+.drawer.open{display:flex;animation:drawerIn .4s var(--ease) both}
+.drawer a{
+  padding:.86rem .25rem;font-size:.98rem;font-weight:600;color:rgba(248,245,238,.84);
+  border-bottom:1px solid rgba(248,245,238,.08);display:flex;justify-content:space-between;align-items:center
+}
+.drawer a:hover{color:var(--gold-light)}
+.drawer .btn{margin-top:1rem;justify-content:center}
+@keyframes drawerIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:none}}
+
+/* 6. HERO --------------------------------------------------- */
+.hero{position:relative;padding-top:calc(var(--header-h) + clamp(52px,7vw,96px));padding-bottom:clamp(30px,4vw,54px);color:var(--ivory);overflow:hidden;isolation:isolate;background:var(--ink)}
+.hero__bg{position:absolute;inset:0;z-index:-3}
+.hero__bg img{width:100%;height:100%;object-fit:cover;object-position:center 42%;transform:scale(1.06);animation:heroPan 26s var(--ease) infinite alternate}
+@keyframes heroPan{from{transform:scale(1.04) translate3d(0,0,0)}to{transform:scale(1.13) translate3d(-1.2%,-1.4%,0)}}
+.hero__scrim{
+  position:absolute;inset:0;z-index:-2;
+  background:
+    radial-gradient(120% 90% at 78% 8%,rgba(10,20,17,.24) 0%,rgba(10,20,17,.82) 58%,rgba(10,20,17,.96) 100%),
+    linear-gradient(180deg,rgba(10,20,17,.9) 0%,rgba(10,20,17,.42) 38%,rgba(10,20,17,.86) 86%,var(--ink) 100%)
+}
+.hero__grain{position:absolute;inset:0;z-index:-1;background-image:var(--grain);opacity:.05;mix-blend-mode:overlay;pointer-events:none}
+.hero__glow{
+  position:absolute;z-index:-1;width:min(760px,90vw);aspect-ratio:1;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle,rgba(201,164,92,.2),transparent 66%);
+  top:-16%;right:-8%;filter:blur(14px);animation:floatGlow 18s ease-in-out infinite alternate
+}
+@keyframes floatGlow{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(-4%,5%,0) scale(1.1)}}
+.hero__inner{position:relative;z-index:2;max-width:900px}
+.hero .eyebrow{color:var(--gold-light);margin-bottom:1.35rem;font-size:.72rem}
+.hero h1{font-size:clamp(2.55rem,6.4vw,5.15rem);line-height:.96;letter-spacing:-.045em;color:var(--ivory);margin-bottom:1.5rem;font-weight:400}
+.hero h1 .line{display:block;overflow:hidden}
+.hero h1 .line > span{display:block;transform:translateY(105%);animation:lineUp 1.05s var(--ease-out) forwards}
+.hero h1 .line:nth-child(1) > span{animation-delay:.08s}
+.hero h1 .line:nth-child(2) > span{animation-delay:.2s}
+.hero h1 .line:nth-child(3) > span{animation-delay:.32s}
+@keyframes lineUp{to{transform:translateY(0)}}
+.hero__sub{max-width:58ch;font-size:clamp(.98rem,1.3vw,1.12rem);line-height:1.78;color:rgba(248,245,238,.74);margin-bottom:2.1rem}
+.hero__cta{display:flex;flex-wrap:wrap;gap:.7rem;align-items:center}
+.hero__trust{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:2rem}
+.hero__trust .chip{font-size:.71rem;padding:.4rem .8rem}
+.hero__stats{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:clamp(30px,4vw,46px);
+  border:1px solid rgba(248,245,238,.16);border-radius:var(--r-md);overflow:hidden;
+  background:rgba(12,24,20,.42);backdrop-filter:blur(16px)
+}
+.hero__stats > div{padding:1.15rem 1.3rem;border-right:1px solid rgba(248,245,238,.1)}
+.hero__stats > div:last-child{border-right:0}
+.hero__stats .stat__num{font-size:clamp(1.5rem,2.4vw,2.05rem);color:var(--ivory)}
+.hero__stats .stat__lbl{font-size:.71rem;color:rgba(248,245,238,.6)}
+.hero__stats .stat__num sup{font-size:.5em;vertical-align:super;color:var(--gold);margin-left:2px}
+
+/* Search panel */
+.searchpanel{
+  position:relative;z-index:3;margin-top:clamp(26px,3.4vw,44px);
+  background:rgba(255,255,255,.97);border-radius:var(--r-lg);box-shadow:var(--shadow-lg);
+  padding:clamp(16px,2vw,22px);color:var(--text);border:1px solid rgba(255,255,255,.6);
+  backdrop-filter:blur(10px)
+}
+.searchpanel__grid{display:grid;grid-template-columns:1.15fr 1fr 1fr auto;gap:.85rem;align-items:end}
+.field{display:flex;flex-direction:column;gap:.4rem;min-width:0}
+.field > label,.field__label{
+  font-size:.66rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-2);
+  display:flex;align-items:center;gap:.35rem
+}
+.control{
+  width:100%;padding:.82rem .95rem;border:1px solid var(--line-strong);border-radius:var(--r-sm);background:var(--paper);
+  font-size:.9rem;font-weight:600;color:var(--text);transition:border-color .3s,box-shadow .3s,background .3s;
+  appearance:none;min-width:0
+}
+select.control{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%236E6759' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right .95rem center;padding-right:2.2rem;cursor:pointer
+}
+.control:hover{border-color:var(--muted-2)}
+.control:focus{outline:none;border-color:var(--gold-deep);box-shadow:0 0 0 4px rgba(201,164,92,.16)}
+.control::placeholder{color:var(--muted-2);font-weight:500}
+.searchpanel .btn{padding:.84rem 1.35rem;height:46px}
+.searchpanel__foot{display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin-top:.85rem;font-size:.73rem;color:var(--muted)}
+.searchpanel__foot strong{color:var(--text);font-weight:700}
+.quick-chip{
+  border:1px solid var(--line);background:transparent;border-radius:var(--r-pill);padding:.24rem .62rem;
+  font-size:.71rem;font-weight:700;color:var(--muted);transition:.25s
+}
+.quick-chip:hover,.quick-chip.is-on{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+
+/* Marquee ticker */
+.ticker{background:var(--ink-soft);border-block:1px solid rgba(248,245,238,.09);overflow:hidden;padding:.72rem 0;position:relative}
+.ticker::before,.ticker::after{content:"";position:absolute;top:0;bottom:0;width:90px;z-index:2;pointer-events:none}
+.ticker::before{left:0;background:linear-gradient(90deg,var(--ink-soft),transparent)}
+.ticker::after{right:0;background:linear-gradient(270deg,var(--ink-soft),transparent)}
+.ticker__track{display:flex;gap:2.6rem;width:max-content;animation:marquee 46s linear infinite}
+.ticker:hover .ticker__track{animation-play-state:paused}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tick{display:inline-flex;align-items:center;gap:.55rem;font-size:.76rem;color:rgba(248,245,238,.66);white-space:nowrap;letter-spacing:.02em}
+.tick b{color:var(--ivory);font-weight:700}
+.tick .up{color:#7FBF9B;font-weight:700;display:inline-flex;align-items:center;gap:.2rem}
+.tick .sep{width:4px;height:4px;border-radius:50%;background:rgba(201,164,92,.6)}
+
+/* Locality cards */
+.l-card{position:relative;overflow:hidden;border-radius:var(--r-md);background:var(--paper);border:1px solid var(--line);cursor:pointer;transition:.5s var(--ease)}
+.l-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);border-color:rgba(201,164,92,.5)}
+.l-card__top{padding:1.15rem 1.2rem .9rem;display:flex;justify-content:space-between;align-items:flex-start;gap:.6rem}
+.l-card__name{font-family:var(--serif);font-size:1.08rem;letter-spacing:-.02em;line-height:1.2;color:var(--ink)}
+.l-card__zone{font-size:.63rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted-2);font-weight:800;margin-top:.3rem}
+.l-card__px{padding:0 1.2rem .35rem;display:flex;align-items:baseline;gap:.32rem}
+.l-card__px b{font-family:var(--serif);font-size:1.3rem;font-weight:400;letter-spacing:-.03em;color:var(--gold-deep)}
+.l-card__px small{font-size:.72rem;color:var(--muted);font-weight:600}
+.l-card__bars{padding:.65rem 1.2rem .8rem;display:flex;align-items:flex-end;gap:3px;height:44px}
+.l-card__bars i{flex:1;background:linear-gradient(180deg,rgba(201,164,92,.85),rgba(201,164,92,.22));border-radius:2px 2px 0 0;transform-origin:bottom;transform:scaleY(.12);transition:transform .9s var(--ease-out)}
+.in-view .l-card__bars i{transform:scaleY(var(--h))}
+.l-card__bars i:nth-child(3n){background:linear-gradient(180deg,rgba(23,48,41,.5),rgba(23,48,41,.12))}
+.l-card__foot{padding:.75rem 1.2rem .95rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:.5rem;font-size:.73rem;color:var(--muted);font-weight:600}
+.l-card__foot .arrow{transition:transform .4s var(--ease);display:inline-flex}
+.l-card:hover .l-card__foot .arrow{transform:translateX(4px);color:var(--gold-deep)}
+
+/* Builder rows */
+.b-row{
+  display:grid;grid-template-columns:auto 1.4fr 1fr auto;gap:1.25rem;align-items:center;
+  padding:1.15rem 1.3rem;border:1px solid var(--line);border-radius:var(--r-md);background:var(--paper);
+  cursor:pointer;transition:.45s var(--ease);position:relative;overflow:hidden
+}
+.b-row::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--gold);transform:scaleY(0);transform-origin:bottom;transition:transform .45s var(--ease)}
+.b-row:hover{transform:translateX(4px);box-shadow:var(--shadow-sm);border-color:rgba(201,164,92,.45)}
+.b-row:hover::before{transform:scaleY(1)}
+.b-mono{
+  width:46px;height:46px;border-radius:13px;display:grid;place-items:center;flex:none;
+  font-family:var(--serif);font-size:1.05rem;letter-spacing:.02em;color:var(--ink);
+  background:linear-gradient(150deg,var(--sand),var(--sand-deep));border:1px solid var(--line)
+}
+.b-row__name{font-family:var(--serif);font-size:1.08rem;letter-spacing:-.02em;color:var(--ink);line-height:1.25}
+.b-row__sub{font-size:.76rem;color:var(--muted);margin-top:.28rem;display:flex;gap:.45rem;align-items:center;flex-wrap:wrap}
+.b-row__score{display:flex;flex-direction:column;gap:.35rem;min-width:0}
+.b-row__score .bar{height:5px;border-radius:99px;background:var(--sand-deep);overflow:hidden}
+.b-row__score .bar i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--gold-deep),var(--gold));transition:width 1.1s var(--ease-out)}
+.in-view .b-row__score .bar i{width:var(--w)}
+.b-row__score .lbl{font-size:.68rem;color:var(--muted);font-weight:700;display:flex;justify-content:space-between;gap:.5rem}
+.b-row__score .lbl b{color:var(--text)}
+.b-row__go{width:34px;height:34px;border-radius:50%;border:1px solid var(--line-strong);display:grid;place-items:center;transition:.4s var(--ease);flex:none}
+.b-row__go svg{width:13px;height:13px}
+.b-row:hover .b-row__go{background:var(--ink);color:var(--ivory);border-color:var(--ink);transform:rotate(-45deg)}
+
+/* Calculator */
+.calc{display:grid;grid-template-columns:1.05fr .95fr;gap:0;border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--line);background:var(--paper);box-shadow:var(--shadow-md)}
+.calc__form{padding:clamp(22px,3vw,38px);display:flex;flex-direction:column;gap:1.3rem}
+.calc__out{
+  padding:clamp(22px,3vw,38px);background:
+    radial-gradient(120% 100% at 90% 0%,rgba(201,164,92,.22),transparent 60%),var(--ink);
+  color:var(--ivory);display:flex;flex-direction:column;gap:1.15rem;position:relative;overflow:hidden
+}
+.calc__out::after{content:"";position:absolute;inset:0;background-image:var(--grain);opacity:.05;pointer-events:none}
+.slider-row{display:flex;flex-direction:column;gap:.55rem}
+.slider-row__top{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+.slider-row__top label{font-size:.78rem;font-weight:700;color:var(--text-soft)}
+.slider-row__top output{font-family:var(--serif);font-size:1.12rem;letter-spacing:-.02em;color:var(--ink)}
+.slider-row__hint{font-size:.72rem;color:var(--muted-2);font-weight:500}
+input[type="range"]{
+  -webkit-appearance:none;appearance:none;width:100%;height:3px;border-radius:99px;
+  background:linear-gradient(90deg,var(--gold-deep) var(--pct,50%),var(--sand-deep) var(--pct,50%));
+  cursor:pointer;outline:none;margin:.55rem 0 .1rem
+}
+input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance:none;width:20px;height:20px;border-radius:50%;background:var(--paper);
+  border:2px solid var(--gold-deep);box-shadow:0 3px 10px rgba(10,20,17,.22);transition:transform .25s var(--ease),box-shadow .25s
+}
+input[type="range"]::-webkit-slider-thumb:hover{transform:scale(1.14);box-shadow:0 4px 16px rgba(168,131,64,.45)}
+input[type="range"]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--paper);border:2px solid var(--gold-deep);box-shadow:0 3px 10px rgba(10,20,17,.22)}
+input[type="range"]:focus-visible::-webkit-slider-thumb{box-shadow:0 0 0 5px rgba(201,164,92,.28)}
+.calc__out .big{font-family:var(--serif);font-size:clamp(2rem,3.6vw,2.8rem);line-height:1;letter-spacing:-.04em;color:var(--ivory)}
+.calc__out .big small{font-size:.4em;font-family:var(--sans);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.5rem}
+.calc__rows{display:flex;flex-direction:column;gap:.1rem;border-top:1px solid rgba(248,245,238,.14);margin-top:.4rem}
+.calc__row{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.62rem 0;border-bottom:1px solid rgba(248,245,238,.09);font-size:.83rem;color:rgba(248,245,238,.7)}
+.calc__row b{color:var(--ivory);font-weight:700;font-variant-numeric:tabular-nums}
+.calc__note{font-size:.7rem;color:rgba(248,245,238,.46);line-height:1.6}
+.calc__fit{margin-top:auto;padding-top:.6rem}
+.calc__fit .lbl{font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:800;margin-bottom:.55rem}
+.fitlist{display:flex;flex-wrap:wrap;gap:.4rem}
+.fitlist a{font-size:.73rem;padding:.34rem .68rem;border-radius:var(--r-pill);border:1px solid rgba(248,245,238,.22);color:rgba(248,245,238,.9);transition:.25s;font-weight:600}
+.fitlist a:hover{background:var(--gold);color:#20190A;border-color:var(--gold)}
+
+/* Forms */
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.form-grid .span2{grid-column:1 / -1}
+.form-note{font-size:.72rem;color:var(--muted-2);line-height:1.6}
+.form-msg{display:none;font-size:.78rem;font-weight:700;padding:.6rem .85rem;border-radius:var(--r-sm);margin-top:.2rem}
+.form-msg.err{display:block;background:var(--danger-soft);color:#7E2C1F}
+.form-msg.ok{display:block;background:var(--ok-soft);color:#1F5F47}
+.datechips,.timeslots{display:flex;gap:.45rem;flex-wrap:wrap}
+.datechips label,.timeslots label{position:relative;cursor:pointer}
+.datechips input,.timeslots input{position:absolute;opacity:0;width:0;height:0}
+.datechips span,.timeslots span{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.05rem;
+  min-width:62px;padding:.55rem .7rem;border-radius:var(--r-sm);border:1px solid var(--line-strong);
+  background:var(--paper);font-size:.78rem;font-weight:700;color:var(--text-soft);transition:.25s;line-height:1.25
+}
+.datechips span small{font-size:.62rem;font-weight:700;color:var(--muted-2);text-transform:uppercase;letter-spacing:.08em}
+.timeslots span{min-width:auto;padding:.55rem .9rem;font-size:.78rem}
+.datechips input:checked + span,.timeslots input:checked + span{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+.datechips input:checked + span small{color:var(--gold-light)}
+.datechips input:focus-visible + span,.timeslots input:focus-visible + span{outline:2px solid var(--gold-deep);outline-offset:2px}
+.datechips span:hover,.timeslots span:hover{border-color:var(--gold-deep)}
+.visit-wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:0;border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--line);background:var(--paper);box-shadow:var(--shadow-md)}
+.visit__aside{position:relative;min-height:100%;padding:clamp(22px,3vw,36px);background:var(--ink);color:rgba(248,245,238,.8);display:flex;flex-direction:column;gap:1.2rem;justify-content:space-between;overflow:hidden}
+.visit__aside img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.42;z-index:0}
+.visit__aside::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,20,17,.62),rgba(10,20,17,.94));z-index:1}
+.visit__aside > *{position:relative;z-index:2}
+.visit__form{padding:clamp(22px,3vw,36px);display:flex;flex-direction:column;gap:1rem}
+.visit__steps{display:flex;gap:.4rem;margin-bottom:.2rem}
+.visit__steps i{height:2px;flex:1;background:var(--sand-deep);border-radius:2px;overflow:hidden;position:relative}
+.visit__steps i.on{background:var(--gold-deep)}
+.doc-list{margin-top:.35rem;padding:.85rem 1rem;border-radius:var(--r-sm);background:rgba(248,245,238,.07);border:1px solid rgba(248,245,238,.16);font-size:.76rem;line-height:1.65;color:rgba(248,245,238,.78)}
+.doc-list strong{color:var(--ivory);display:block;margin-bottom:.2rem;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+.confirm{
+  display:none;padding:1rem 1.1rem;border-radius:var(--r-md);background:var(--ok-soft);border:1px solid rgba(46,125,95,.28);
+  animation:popIn .5s var(--ease-out) both
+}
+.confirm.show{display:block}
+.confirm h4{font-size:1rem;color:#1F5F47;margin-bottom:.3rem;font-family:var(--serif)}
+.confirm p{font-size:.82rem;color:#285C49;line-height:1.6}
+@keyframes popIn{from{opacity:0;transform:translateY(8px) scale(.99)}to{opacity:1;transform:none}}
+
+/* Insights */
+.i-card{display:flex;flex-direction:column;overflow:hidden;position:relative}
+.i-card__media{aspect-ratio:16/9;overflow:hidden;position:relative;background:var(--sand-deep)}
+.i-card__media img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease-out);opacity:.95}
+.i-card:hover .i-card__media img{transform:scale(1.05)}
+.i-card__body{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.i-card__cat{font-size:.63rem;letter-spacing:.17em;text-transform:uppercase;font-weight:800;color:var(--gold-deep)}
+.i-card h3{font-size:1.1rem;letter-spacing:-.02em;line-height:1.28}
+.i-card p{font-size:.84rem;color:var(--muted);line-height:1.62;flex:1}
+.i-card .link-arrow{font-size:.79rem;margin-top:.35rem;align-self:flex-start}
+
+/* FAQ */
+.faq{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.faq__item{border-bottom:1px solid var(--line)}
+.faq__q{
+  width:100%;display:flex;justify-content:space-between;align-items:center;gap:1.5rem;text-align:left;
+  padding:1.25rem .25rem;background:none;border:0;font-family:var(--serif);font-size:1.06rem;letter-spacing:-.02em;
+  color:var(--ink);transition:color .3s
+}
+.faq__q:hover{color:var(--gold-deep)}
+.faq__icon{width:28px;height:28px;border-radius:50%;border:1px solid var(--line-strong);display:grid;place-items:center;flex:none;transition:.4s var(--ease)}
+.faq__icon svg{width:12px;height:12px;transition:transform .45s var(--ease)}
+.faq__item.open .faq__icon{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+.faq__item.open .faq__icon svg{transform:rotate(45deg)}
+.faq__a{max-height:0;overflow:hidden;transition:max-height .55s var(--ease),opacity .4s}
+.faq__a p{padding:0 3rem 1.4rem .25rem;font-size:.9rem;color:var(--muted);line-height:1.75;max-width:78ch}
+.faq__item.open .faq__a{max-height:700px;opacity:1}
+
+/* Big CTA */
+.cta-band{position:relative;overflow:hidden;background:var(--ink);color:var(--ivory);padding:clamp(52px,7vw,96px) 0;text-align:center}
+.cta-band::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 100% at 50% 0%,rgba(201,164,92,.22),transparent 62%);pointer-events:none}
+.cta-band::after{content:"";position:absolute;inset:0;background-image:var(--grain);opacity:.05;pointer-events:none}
+.cta-band .wrap{position:relative;z-index:2}
+.cta-band h2{font-size:clamp(2rem,4.4vw,3.5rem);line-height:1.03;letter-spacing:-.035em;color:var(--ivory);margin-bottom:1rem}
+.cta-band p{color:rgba(248,245,238,.72);max-width:52ch;margin:0 auto 2rem;font-size:1.02rem;line-height:1.7}
+.cta-band__actions{display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap}
+
+/* Footer */
+.site-footer{background:var(--ink-soft);color:rgba(248,245,238,.64);padding:clamp(46px,6vw,74px) 0 0;font-size:.85rem}
+.foot-grid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:clamp(24px,4vw,54px);padding-bottom:clamp(34px,4vw,52px)}
+.site-footer h4{font-family:var(--sans);font-size:.66rem;letter-spacing:.19em;text-transform:uppercase;color:rgba(248,245,238,.42);margin-bottom:1rem;font-weight:800}
+.site-footer a{color:rgba(248,245,238,.72);font-size:.84rem;transition:color .25s,padding-left .25s;display:inline-block;padding:.22rem 0}
+.site-footer a:hover{color:var(--gold-light);padding-left:3px}
+.site-footer .brand__name{color:var(--ivory)}
+.foot-desc{font-size:.83rem;line-height:1.72;color:rgba(248,245,238,.56);max-width:34ch;margin-top: -.2rem}
+.foot-bottom{border-top:1px solid rgba(248,245,238,.1);padding:1.35rem 0 1.6rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.75rem;color:rgba(248,245,238,.44)}
+.disclaimer{font-size:.7rem;line-height:1.7;color:rgba(248,245,238,.34);max-width:100%;padding:.9rem 0 0;border-top:1px dashed rgba(248,245,238,.1);margin-top:.4rem}
+
+/* Shortlist bar */
+.shortbar{
+  position:fixed;left:50%;bottom:20px;transform:translate(-50%,140%);z-index:850;
+  display:flex;align-items:center;gap:.85rem;padding:.62rem .68rem .62rem 1.05rem;
+  background:rgba(10,20,17,.96);backdrop-filter:blur(20px);border:1px solid rgba(201,164,92,.34);
+  border-radius:var(--r-pill);box-shadow:0 28px 60px -24px rgba(0,0,0,.72);color:var(--ivory);
+  max-width:calc(100vw - 32px);transition:transform .55s var(--ease-out),opacity .4s;opacity:0
+}
+.shortbar.show{transform:translate(-50%,0);opacity:1}
+.shortbar__count{font-size:.8rem;font-weight:700;white-space:nowrap;display:flex;align-items:center;gap:.5rem}
+.shortbar__count b{color:var(--gold);font-family:var(--serif);font-size:1.02rem;font-weight:400}
+.shortbar__names{font-size:.75rem;color:rgba(248,245,238,.5);max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:none}
+.shortbar .btn{padding:.6rem 1.05rem;font-size:.79rem}
+.shortbar__clear{width:30px;height:30px;border-radius:50%;border:1px solid rgba(248,245,238,.22);background:transparent;color:rgba(248,245,238,.7);display:grid;place-items:center;flex:none}
+.shortbar__clear:hover{color:var(--ivory);border-color:var(--danger);background:rgba(176,66,48,.2)}
+.shortbar__clear svg{width:12px;height:12px}
+
+/* WhatsApp float */
+.wa{
+  position:fixed;right:clamp(14px,2vw,26px);bottom:clamp(14px,2vw,26px);z-index:840;
+  display:inline-flex;align-items:center;gap:.55rem;padding:.72rem 1rem .72rem .8rem;border-radius:var(--r-pill);
+  background:#0F1E1A;color:var(--ivory);border:1px solid rgba(201,164,92,.4);box-shadow:var(--shadow-md);
+  font-size:.79rem;font-weight:700;transition:transform .4s var(--ease),box-shadow .4s,background .4s;overflow:hidden
+}
+.wa:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);background:#12241F}
+.wa svg{width:18px;height:18px;color:#5FD08A;flex:none}
+.wa__pulse{position:absolute;inset:0;border-radius:inherit;border:1px solid rgba(95,208,138,.5);animation:waPulse 2.8s ease-out infinite;pointer-events:none}
+@keyframes waPulse{0%{opacity:.8;transform:scale(1)}70%,100%{opacity:0;transform:scale(1.16)}}
+body.has-shortbar .wa{bottom:88px}
+@media (max-width:640px){.wa span.lbl{display:none}.wa{padding:.8rem;border-radius:50%}}
+
+/* Modal */
+.modal{position:fixed;inset:0;z-index:960;display:none;align-items:center;justify-content:center;padding:clamp(12px,3vw,32px)}
+.modal.open{display:flex}
+.modal__scrim{position:absolute;inset:0;background:rgba(6,13,11,.72);backdrop-filter:blur(10px);animation:fadeIn .35s var(--ease) both}
+.modal__panel{
+  position:relative;width:min(1080px,100%);max-height:90vh;overflow:auto;background:var(--ivory);
+  border-radius:var(--r-lg);box-shadow:var(--shadow-lg);animation:panelIn .5s var(--ease-out) both;border:1px solid rgba(201,164,92,.3)
+}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes panelIn{from{opacity:0;transform:translateY(18px) scale(.985)}to{opacity:1;transform:none}}
+.modal__head{position:sticky;top:0;z-index:3;display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.1rem clamp(16px,3vw,28px);background:rgba(248,245,238,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.modal__head h2{font-size:1.3rem}
+.modal__body{padding:clamp(16px,3vw,28px)}
+.modal__close{width:38px;height:38px;border-radius:50%;border:1px solid var(--line-strong);background:transparent;display:grid;place-items:center;flex:none;transition:.3s}
+.modal__close:hover{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+.modal__close svg{width:14px;height:14px}
+/* compare table */
+.cmp-table{width:100%;font-size:.84rem;border-collapse:separate;border-spacing:0;min-width:620px}
+.cmp-table th,.cmp-table td{padding:.82rem .9rem;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.cmp-table thead th{
+  position:sticky;top:0;background:var(--paper);font-family:var(--serif);font-size:.95rem;font-weight:400;
+  letter-spacing:-.01em;color:var(--ink);z-index:2;border-bottom:1px solid var(--line-strong)
+}
+.cmp-table thead th:first-child{font-family:var(--sans);font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted-2);font-weight:800}
+.cmp-table tbody th{font-weight:700;color:var(--muted);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;width:19%;background:rgba(239,233,220,.35)}
+.cmp-table tbody td{color:var(--text-soft);font-weight:600}
+.cmp-table tbody tr:hover td,.cmp-table tbody tr:hover th{background:rgba(201,164,92,.06)}
+.cmp-scroll{overflow:auto;border:1px solid var(--line);border-radius:var(--r-md);background:var(--paper)}
+
+/* Toast */
+.toast{
+  position:fixed;left:50%;top:calc(var(--header-h) + 14px);transform:translate(-50%,-24px);z-index:980;
+  background:var(--ink);color:var(--ivory);padding:.72rem 1.15rem;border-radius:var(--r-pill);
+  border:1px solid rgba(201,164,92,.4);font-size:.82rem;font-weight:600;box-shadow:var(--shadow-md);
+  opacity:0;pointer-events:none;transition:.4s var(--ease);display:flex;align-items:center;gap:.5rem;max-width:calc(100vw - 32px)
+}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.toast svg{width:15px;height:15px;color:var(--gold);flex:none}
+
+/* 7. ANIMATION UTILITIES ------------------------------------ */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .85s var(--ease-out),transform .85s var(--ease-out)}
+.reveal.in-view{opacity:1;transform:none}
+.reveal[data-d="1"]{transition-delay:.08s}
+.reveal[data-d="2"]{transition-delay:.16s}
+.reveal[data-d="3"]{transition-delay:.24s}
+.reveal[data-d="4"]{transition-delay:.32s}
+.reveal[data-d="5"]{transition-delay:.4s}
+.reveal[data-d="6"]{transition-delay:.48s}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  .reveal{opacity:1;transform:none}
+  .hero h1 .line > span{transform:none}
+}
+
+/* 8. RESPONSIVE --------------------------------------------- */
+@media (max-width:1180px){
+  .nav a{padding:.5rem .55rem;font-size:.78rem}
+  .searchpanel__grid{grid-template-columns:1fr 1fr}
+  .searchpanel__grid .btn{grid-column:1 / -1}
+}
+@media (max-width:1024px){
+  .nav,.header__actions .btn--ghost-light{display:none}
+  .burger{display:grid}
+  .calc{grid-template-columns:1fr}
+  .visit-wrap{grid-template-columns:1fr}
+  .visit__aside{min-height:220px}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .b-row{grid-template-columns:auto 1fr auto;gap:1rem}
+  .b-row__score{display:none}
+}
+@media (max-width:860px){
+  :root{--header-h:68px}
+  .hero__stats{grid-template-columns:1fr 1fr}
+  .hero__stats > div:nth-child(2){border-right:0}
+  .hero__stats > div:nth-child(3){border-top:1px solid rgba(248,245,238,.1);grid-column:1/-1}
+  .sec-head{align-items:flex-start;flex-direction:column;gap:1.25rem}
+  .grid--3{grid-template-columns:1fr}
+  .form-grid{grid-template-columns:1fr}
+  .shortbar__names{display:none}
+}
+@media (max-width:560px){
+  body{font-size:15.5px}
+  .searchpanel__grid{grid-template-columns:1fr}
+  .hero__trust .chip{font-size:.66rem}
+  .hero__cta .btn{flex:1 1 auto;justify-content:center}
+  .foot-grid{grid-template-columns:1fr;gap:1.6rem}
+  .shortbar{bottom:12px;gap:.5rem;padding:.5rem .55rem .5rem .8rem}
+  .shortbar__count span{display:none}
+  .faq__a p{padding-right:.5rem}
+  .modal{padding:0}
+  .modal__panel{max-height:100vh;border-radius:0;height:100%}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Maison Hyderabad, home">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M3 20V9.6L12 3l9 6.6V20"/><path d="M9.5 20v-6h5v6"/></svg>
+      </span>
+      <span class="brand__txt">
+        <span class="brand__name">Maison <em>Hyderabad</em></span>
+        <span class="brand__sub">Buyer Intelligence</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#localities">Localities</a>
+      <a href="#builders">Builders</a>
+      <a href="#projects">Projects</a>
+      <a href="#calculator">Affordability</a>
+      <a href="#insights">Research</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="hdr-shortlist" id="shortlistBtn" aria-label="Open shortlist">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z"/></svg>
+        <span class="hdr-shortlist__count" id="shortlistCount">0</span>
+      </button>
+      <a href="#visit" class="btn btn--gold btn--sm">
+        Book a Site Visit
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+      </a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer">
+  <a href="#localities">Localities <span aria-hidden="true">&rarr;</span></a>
+  <a href="#builders">Verified Builders <span aria-hidden="true">&rarr;</span></a>
+  <a href="#projects">Projects <span aria-hidden="true">&rarr;</span></a>
+  <a href="#calculator">Affordability <span aria-hidden="true">&rarr;</span></a>
+  <a href="#visit">Site Visits <span aria-hidden="true">&rarr;</span></a>
+  <a href="#insights">Research Library <span aria-hidden="true">&rarr;</span></a>
+  <a href="#faq">Buyer FAQ <span aria-hidden="true">&rarr;</span></a>
+  <a href="https://wa.me/919999999999?text=Hi%2C%20I%27m%20looking%20for%20verified%20residential%20projects%20in%20Hyderabad." target="_blank" rel="noopener">WhatsApp Concierge <span aria-hidden="true">&#8599;</span></a>
+  <button class="btn btn--gold" data-open-visit>Book a Site Visit</button>
+</div>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <img src="assets/hero-financial-district.jpg" alt="" width="1800" height="857" fetchpriority="high">
+  </div>
+  <div class="hero__scrim" aria-hidden="true"></div>
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="hero__grain" aria-hidden="true"></div>
+
+  <div class="wrap">
+    <div class="hero__inner">
+      <span class="eyebrow">Buyer-first &middot; TSRERA-verified &middot; Zero buyer fee</span>
+      <h1>
+        <span class="line"><span>The home you want,</span></span>
+        <span class="line"><span>with the data</span></span>
+        <span class="line"><span class="grad-text">nobody shows you.</span></span>
+      </h1>
+      <p class="hero__sub">
+        An independent residential intelligence desk for Hyderabad. We surface builder delivery records,
+        TSRERA registration, litigation flags and real price movement &mdash; before you share your phone number
+        or pay a single rupee in booking advance.
+      </p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--gold">
+          Explore verified projects
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+        <a href="#calculator" class="btn btn--ghost-light">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 8h8M8 12h2m4 0h2M8 16h2m4 0h2"/></svg>
+          Check my budget
+        </a>
+        <a href="#builders" class="btn btn--ghost-light">Vet a builder</a>
+      </div>
+
+      <div class="hero__trust">
+        <span class="chip chip--dark"><span class="chip__dot"></span>Registration cross-checked on TSRERA</span>
+        <span class="chip chip--dark"><span class="chip__dot"></span>Commission disclosed up-front</span>
+        <span class="chip chip--dark"><span class="chip__dot"></span>Consultant replies in 4 working hours</span>
+      </div>
+    </div>
+
+    <div class="hero__stats" role="list">
+      <div role="listitem">
+        <div class="stat"><span class="stat__num"><span class="mono" data-count="126">0</span><sup>+</sup></span><span class="stat__lbl">Vetted projects tracked</span></div>
+      </div>
+      <div role="listitem">
+        <div class="stat"><span class="stat__num"><span class="mono" data-count="41">0</span><sup></sup></span><span class="stat__lbl">Builders scored on delivery</span></div>
+      </div>
+      <div role="listitem">
+        <div class="stat"><span class="stat__num"><span class="mono" data-count="0">0</span><sup></sup></span><span class="stat__lbl">Buyer fees, ever</span></div>
+      </div>
+    </div>
+
+    <!-- Search panel -->
+    <form class="searchpanel" id="searchForm" role="search" aria-label="Filter residential projects">
+      <div class="searchpanel__grid">
+        <div class="field">
+          <label for="fLocality">Corridor or locality</label>
+          <select class="control" id="fLocality">
+            <option value="">All Hyderabad</option>
+            <option value="west">West &mdash; Gachibowli, Kokapet, Narsingi, Kondapur</option>
+            <option value="north">North &mdash; Miyapur, Bachupally, Nizampet</option>
+            <option value="south">South &mdash; Shamshabad, Rajendranagar</option>
+            <option value="central">Central &mdash; Manikonda, Banjara Hills</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fType">Property type</label>
+          <select class="control" id="fType">
+            <option value="">Any format</option>
+            <option value="flat">Apartment / flat</option>
+            <option value="villa">Independent villa</option>
+            <option value="plot">Residential plot</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fBudget">Budget band</label>
+          <select class="control" id="fBudget">
+            <option value="">Any budget</option>
+            <option value="50-100">&#8377;50 L &ndash; &#8377;1 Cr</option>
+            <option value="100-200">&#8377;1 Cr &ndash; &#8377;2 Cr</option>
+            <option value="200plus">Above &#8377;2 Cr</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn--ink">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+          Search
+        </button>
+      </div>
+      <div class="searchpanel__foot">
+        <span>Popular right now:</span>
+        <button type="button" class="quick-chip" data-quick="kokapet">Kokapet &lt; &#8377;2 Cr</button>
+        <button type="button" class="quick-chip" data-quick="ready">Ready to move</button>
+        <button type="button" class="quick-chip" data-quick="villa">Villas near ORR</button>
+        <button type="button" class="quick-chip" data-quick="reset">Reset</button>
+        <span style="margin-left:auto" id="searchCount"><strong>6</strong> projects live</span>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ========== MARKET TICKER ========== -->
+<div class="ticker" aria-label="Hyderabad market snapshot">
+  <div class="ticker__track" id="tickerTrack"></div>
+</div>
+
+<!-- ========== LOCALITIES ========== -->
+<section class="section section--paper" id="localities">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-head__copy">
+        <span class="eyebrow">Micro-market research</span>
+        <h2 class="h2">Where Hyderabad is actually<br><span class="gold">worth buying.</span></h2>
+        <p class="lede">Five years of price movement, supply pipeline and absorption by corridor. Tap any locality to read the full note &mdash; including what we would still negotiate.</p>
+      </div>
+      <div class="sec-head__aside">
+        <div class="tabs" role="tablist" aria-label="Locality filter">
+          <button role="tab" aria-selected="true" data-lzone="all">All</button>
+          <button role="tab" aria-selected="false" data-lzone="west">West</button>
+          <button role="tab" aria-selected="false" data-lzone="north">North</button>
+          <button role="tab" aria-selected="false" data-lzone="south">South</button>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid--4" id="localityGrid"></div>
+    <p style="margin-top:1.6rem;font-size:.76rem;color:var(--muted-2);max-width:74ch;line-height:1.7">
+      Price bands are indicative asking rates compiled from transaction registrations and primary sales desks between
+      Jan&ndash;Sep 2026. They are not valuations. Always verify with a registered valuer before committing.
+    </p>
+  </div>
+</section>
+
+<!-- ========== BUILDERS ========== -->
+<section class="section" id="builders">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-head__copy">
+        <span class="eyebrow">Builder verification</span>
+        <h2 class="h2">Builder credibility,<br><span class="gold">scored not sponsored.</span></h2>
+        <p class="lede">Every builder is scored on four published signals: RERA compliance, delivery timeliness, litigation record and after-sales responsiveness. Open any builder to read the full dossier.</p>
+      </div>
+      <div class="sec-head__aside">
+        <a href="#projects" class="link-arrow">Browse their live projects</a>
+      </div>
+    </div>
+    <div class="grid" style="gap:.7rem" id="builderList"></div>
+    <div style="display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-top:1.5rem">
+      <span class="chip chip--gold"><span class="chip__dot"></span>Scoring method published</span>
+      <span class="chip chip--line">Updated Nov 2026</span>
+      <span class="chip chip--line">41 builders tracked</span>
+      <a href="#faq" class="link-arrow" style="margin-left:auto">How we score builders</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROJECTS ========== -->
+<section class="section section--paper" id="projects">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-head__copy">
+        <span class="eyebrow">Project discovery</span>
+        <h2 class="h2">Six shortlisted projects,<br><span class="gold">fully annotated.</span></h2>
+        <p class="lede">Open any project for unit mix, payment plan, RERA status, construction progress and the objections we would raise in your place. Tick up to four to compare.</p>
+      </div>
+      <div class="sec-head__aside">
+        <div class="tabs" role="tablist" aria-label="Project type filter">
+          <button role="tab" aria-selected="true" data-ptype="all">All</button>
+          <button role="tab" aria-selected="false" data-ptype="flat">Flats</button>
+          <button role="tab" aria-selected="false" data-ptype="villa">Villas</button>
+          <button role="tab" aria-selected="false" data-ptype="plot">Plots</button>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid--3" id="projectGrid"></div>
+    <div id="projectEmpty" style="display:none;padding:3rem 0;text-align:center">
+      <h3 class="h3" style="margin-bottom:.5rem">No projects match those filters.</h3>
+      <p class="lede" style="margin-inline:auto">Widen the budget band or clear the corridor filter to see the full shortlist.</p>
+      <button class="btn btn--ghost" style="margin-top:1.2rem" id="resetProjects">Reset filters</button>
+    </div>
+  </div>
+</section>
+
+<!-- Shortlist bar -->
+<div class="shortbar" id="shortbar" role="region" aria-label="Shortlist">
+  <span class="shortbar__count"><b id="shortCount">0</b> <span>shortlisted</span></span>
+  <span class="shortbar__names" id="shortNames"></span>
+  <button class="btn btn--gold" id="compareBtn">
+    Compare
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+  </button>
+  <button class="shortbar__clear" id="clearShortlist" aria-label="Clear shortlist">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+</div>
+
+<!-- Compare modal -->
+<div class="modal" id="compareModal" role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+  <div class="modal__scrim" data-close-modal></div>
+  <div class="modal__panel">
+    <div class="modal__head">
+      <div>
+        <h2 id="compareTitle">Side-by-side comparison</h2>
+        <p style="font-size:.76rem;color:var(--muted);margin-top:.15rem">Legal status, delivery record, payment plan and objections.</p>
+      </div>
+      <button class="modal__close" data-close-modal aria-label="Close comparison">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="modal__body">
+      <div class="cmp-scroll">
+        <table class="cmp-table" id="compareTable">
+          <thead id="compareHead"></thead>
+          <tbody id="compareBody"></tbody>
+        </table>
+      </div>
+      <p style="font-size:.72rem;color:var(--muted-2);margin-top:.9rem;line-height:1.65">
+        Comparison reflects publicly available TSRERA filings and builder disclosures as of November 2026.
+        It is a screening aid, not legal advice &mdash; commission independent title due diligence before any advance.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Shortlist modal -->
+<div class="modal" id="shortlistModal" role="dialog" aria-modal="true" aria-labelledby="shortTitle">
+  <div class="modal__scrim" data-close-modal></div>
+  <div class="modal__panel" style="max-width:640px">
+    <div class="modal__head">
+      <h2 id="shortTitle">Your shortlist</h2>
+      <button class="modal__close" data-close-modal aria-label="Close shortlist">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="modal__body">
+      <div id="shortlistBody"></div>
+      <div style="display:flex;gap:.6rem;margin-top:1.2rem;flex-wrap:wrap">
+        <button class="btn btn--ink btn--block" id="shortlistCompareBtn">Compare these projects</button>
+        <button class="btn btn--ghost btn--block" data-open-visit>Book visits for all</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== CALCULATOR ========== -->
+<section class="section" id="calculator">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-head__copy">
+        <span class="eyebrow">Affordability modelling</span>
+        <h2 class="h2">What you can actually<br><span class="gold">afford in Hyderabad.</span></h2>
+        <p class="lede">Most calculators stop at EMI. This one works backwards from the EMI your bank will sanction, then shows stamp duty, registration and the corridors that still fit.</p>
+      </div>
+    </div>
+
+    <div class="calc reveal" id="calc">
+      <div class="calc__form">
+        <div class="slider-row">
+          <div class="slider-row__top">
+            <label for="rIncome">Monthly take-home income</label>
+            <output id="oIncome">&#8377;1,80,000</output>
+          </div>
+          <input type="range" id="rIncome" min="40000" max="600000" step="5000" value="180000">
+          <span class="slider-row__hint">Combined household income after tax. Lenders cap EMI near 40&ndash;45% of this.</span>
+        </div>
+        <div class="slider-row">
+          <div class="slider-row__top">
+            <label for="rSavings">Savings available for down payment</label>
+            <output id="oSavings">&#8377;35,00,000</output>
+          </div>
+          <input type="range" id="rSavings" min="500000" max="20000000" step="100000" value="3500000">
+          <span class="slider-row__hint">Keep 5&ndash;6% of property value aside for stamp duty and registration.</span>
+        </div>
+        <div class="slider-row">
+          <div class="slider-row__top">
+            <label for="rRate">Home loan interest rate</label>
+            <output id="oRate">8.5%</output>
+          </div>
+          <input type="range" id="rRate" min="7" max="11" step="0.05" value="8.5">
+          <span class="slider-row__hint">Floating rates for salaried buyers currently sit between 8.2% and 9.1%.</span>
+        </div>
+        <div class="slider-row">
+          <div class="slider-row__top">
+            <label for="rTenure">Tenure</label>
+            <output id="oTenure">20 years</output>
+          </div>
+          <input type="range" id="rTenure" min="5" max="30" step="1" value="20">
+          <span class="slider-row__hint">Longer tenure lowers EMI but raises total interest paid.</span>
+        </div>
+        <div class="form-note">
+          Estimate only. Final sanction depends on credit profile, existing EMIs and lender policy.
+        </div>
+      </div>
+
+      <div class="calc__out">
+        <div>
+          <div class="big"><small>Affordable property price</small><span id="outBudget">&#8377;1,00,00,000</span></div>
+        </div>
+        <div class="calc__rows">
+          <div class="calc__row"><span>Total cash available (loan + savings)</span><b id="outTotal">&ndash;</b></div>
+          <div class="calc__row"><span>Sanctionable loan</span><b id="outLoan">&ndash;</b></div>
+          <div class="calc__row"><span>Monthly EMI</span><b id="outEmi">&ndash;</b></div>
+          <div class="calc__row"><span>Stamp duty + registration</span><b id="outDuty">&ndash;</b></div>
+          <div class="calc__row"><span>Cash buffer after charges</span><b id="outBuffer">&ndash;</b></div>
+          <div class="calc__row"><span>Interest over the loan life</span><b id="outInterest">&ndash;</b></div>
+        </div>
+        <div class="calc__fit">
+          <div class="lbl">Corridors that still fit</div>
+          <div class="fitlist" id="outFit"></div>
+        </div>
+        <p class="calc__note">Figures use a 40% EMI-to-income ceiling and Telangana stamp duty of 6% (5% duty + 1% registration, subject to concessions).</p>
+        <a href="#projects" class="btn btn--gold btn--sm" style="align-self:flex-start">See matching projects
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SITE VISIT ========== -->
+<section class="section section--paper" id="visit">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-head__copy">
+        <span class="eyebrow">Guided site visits</span>
+        <h2 class="h2">See it with someone<br><span class="gold">on your side of the table.</span></h2>
+        <p class="lede">A consultant accompanies you, asks the questions sales teams avoid, and writes up an independent visit note within 24 hours. No fee, no obligation to proceed.</p>
+      </div>
+    </div>
+
+    <div class="visit-wrap reveal">
+      <div class="visit__aside">
+        <img src="assets/interior-lobby.jpg" alt="Residential tower lobby with warm wood panelling and marble floors" loading="lazy" width="1400" height="787">
+        <div>
+          <span class="eyebrow" style="color:var(--gold);margin-bottom:.8rem">What happens next</span>
+          <div class="stat" style="margin-bottom:1.4rem">
+            <span class="stat__num" style="color:var(--ivory)">3 steps</span>
+            <span class="stat__lbl" style="color:rgba(248,245,238,.6)">from request to visit note</span>
+          </div>
+          <ol style="display:flex;flex-direction:column;gap:.95rem">
+            <li style="display:flex;gap:.75rem;align-items:flex-start">
+              <span style="width:22px;height:22px;border-radius:50%;border:1px solid rgba(201,164,92,.5);color:var(--gold-light);font-size:.7rem;font-weight:800;display:grid;place-items:center;flex:none">1</span>
+              <span style="font-size:.85rem;line-height:1.6">We call within 4 working hours to confirm the slot and the unit you want to see.</span>
+            </li>
+            <li style="display:flex;gap:.75rem;align-items:flex-start">
+              <span style="width:22px;height:22px;border-radius:50%;border:1px solid rgba(201,164,92,.5);color:var(--gold-light);font-size:.7rem;font-weight:800;display:grid;place-items:center;flex:none">2</span>
+              <span style="font-size:.85rem;line-height:1.6">You meet your consultant at the sales office &mdash; we arrive with the RERA file, not a brochure.</span>
+            </li>
+            <li style="display:flex;gap:.75rem;align-items:flex-start">
+              <span style="width:22px;height:22px;border-radius:50%;border:1px solid rgba(201,164,92,.5);color:var(--gold-light);font-size:.7rem;font-weight:800;display:grid;place-items:center;flex:none">3</span>
+              <span style="font-size:.85rem;line-height:1.6">You receive a written visit note: what was promised, what to verify, and what to negotiate.</span>
+            </li>
+          </ol>
+        </div>
+        <div class="doc-list">
+          <strong>Bring along</strong>
+          Aadhaar or PAN copy, last three salary slips, six months of bank statements, and your existing loan statements if any.
+        </div>
+      </div>
+
+      <form class="visit__form" id="visitForm" novalidate>
+        <div class="visit__steps" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+        <h3 class="h3" style="margin-bottom:.15rem">Request a guided visit</h3>
+        <p style="font-size:.8rem;color:var(--muted);margin-bottom:.35rem">Takes under a minute. We never resell your number.</p>
+        <div class="form-grid">
+          <div class="field">
+            <label for="vName">Full name</label>
+            <input class="control" id="vName" type="text" placeholder="Ravi Kumar" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="vPhone">Mobile number</label>
+            <input class="control" id="vPhone" type="tel" inputmode="numeric" placeholder="98765 43210" autocomplete="tel" required>
+          </div>
+          <div class="field span2">
+            <label for="vProject">Project</label>
+            <select class="control" id="vProject" required></select>
+          </div>
+          <div class="field span2">
+            <label>Preferred day</label>
+            <div class="datechips" id="dateChips"></div>
+          </div>
+          <div class="field span2">
+            <label>Preferred slot</label>
+            <div class="timeslots" id="timeSlots">
+              <label><input type="radio" name="slot" value="10:00 AM" checked><span>10:00 AM</span></label>
+              <label><input type="radio" name="slot" value="12:30 PM"><span>12:30 PM</span></label>
+              <label><input type="radio" name="slot" value="3:30 PM"><span>3:30 PM</span></label>
+              <label><input type="radio" name="slot" value="5:00 PM"><span>5:00 PM</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="form-msg" id="visitMsg" role="alert"></div>
+        <button type="submit" class="btn btn--gold btn--block">
+          Request my visit
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </button>
+        <p class="form-note">By requesting a visit you agree to be contacted about this enquiry only. This form is a demo and does not transmit data anywhere.</p>
+        <div class="confirm" id="visitConfirm">
+          <h4>Visit request recorded</h4>
+          <p id="visitConfirmText">A consultant will call you within 4 working hours to confirm.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ========== INSIGHTS ========== -->
+<section class="section" id="insights">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-head__copy">
+        <span class="eyebrow">Research library</span>
+        <h2 class="h2">Read before you<br><span class="gold">sign anything.</span></h2>
+        <p class="lede">Plain-language research notes written for end users, not investors. Every claim is sourced to a registration document or a published schedule.</p>
+      </div>
+      <div class="sec-head__aside">
+        <a href="#faq" class="link-arrow">Buyer FAQ</a>
+      </div>
+    </div>
+    <div class="grid grid--3" id="insightGrid"></div>
+  </div>
+</section>
+
+<!-- ========== TRUST ========== -->
+<section class="section section--ink" id="trust">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-head__copy">
+        <span class="eyebrow">How we are paid</span>
+        <h2 class="h2">The incentives,<br><span class="gold">stated plainly.</span></h2>
+        <p class="lede">We are a channel partner and we are paid by developers. That is precisely why we publish the full commission schedule, the objection list, and the projects we decline to represent.</p>
+      </div>
+    </div>
+    <div class="grid grid--4" style="margin-bottom:2.4rem">
+      <div class="reveal" data-d="1" style="padding:1.4rem;border:1px solid rgba(248,245,238,.14);border-radius:var(--r-md);background:rgba(248,245,238,.03)">
+        <div class="stat"><span class="stat__num">&#8377;0</span><span class="stat__lbl">Charged to buyers &mdash; ever</span></div>
+        <p style="font-size:.79rem;line-height:1.65;color:rgba(248,245,238,.55);margin-top:.7rem">No consultation fee, no access fee, no registration markup. If anyone asks you to pay us, it is not us.</p>
+      </div>
+      <div class="reveal" data-d="2" style="padding:1.4rem;border:1px solid rgba(248,245,238,.14);border-radius:var(--r-md);background:rgba(248,245,238,.03)">
+        <div class="stat"><span class="stat__num">2&ndash;4%</span><span class="stat__lbl">Typical developer commission</span></div>
+        <p style="font-size:.79rem;line-height:1.65;color:rgba(248,245,238,.55);margin-top:.7rem">Disclosed per project in writing before you book, including the tranche schedule and clawback terms.</p>
+      </div>
+      <div class="reveal" data-d="3" style="padding:1.4rem;border:1px solid rgba(248,245,238,.14);border-radius:var(--r-md);background:rgba(248,245,238,.03)">
+        <div class="stat"><span class="stat__num">41</span><span class="stat__lbl">Builders tracked, not all sold</span></div>
+        <p style="font-size:.79rem;line-height:1.65;color:rgba(248,245,238,.55);margin-top:.7rem">Some are profiled with warnings attached. We keep them in the directory because buyers deserve the record.</p>
+      </div>
+      <div class="reveal" data-d="4" style="padding:1.4rem;border:1px solid rgba(248,245,238,.14);border-radius:var(--r-md);background:rgba(248,245,238,.03)">
+        <div class="stat"><span class="stat__num">4h</span><span class="stat__lbl">Consultant response window</span></div>
+        <p style="font-size:.79rem;line-height:1.65;color:rgba(248,245,238,.55);margin-top:.7rem">Working hours, measured. If we miss it, the visit note is free of any follow-up pressure.</p>
+      </div>
+    </div>
+    <div class="reveal" style="padding:clamp(20px,3vw,30px);border:1px solid rgba(201,164,92,.28);border-radius:var(--r-md);background:linear-gradient(120deg,rgba(201,164,92,.09),rgba(201,164,92,.02))">
+      <h3 style="font-size:1.12rem;margin-bottom:.6rem">Commission transparency statement</h3>
+      <p style="font-size:.85rem;line-height:1.78;color:rgba(248,245,238,.68);max-width:92ch">
+        Maison Hyderabad is operated by a residential channel-partnership practice serving end users in Hyderabad.
+        We are compensated by the developer on successful closure, typically in tranches (booking, agreement and possession)
+        per the developer's channel-partner agreement. This does not change the price you pay &mdash; builder-funded commissions are
+        built into the developer's sales cost, not added to the buyer's invoice. We will hand you a written commission breakdown
+        for any project you are considering, and we will tell you when a project pays us more than another we are recommending.
+        Data on this site is illustrative demo content and not an offer or invitation to purchase.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA BAND ========== -->
+<div class="cta-band">
+  <div class="wrap">
+    <span class="eyebrow eyebrow--center" style="color:var(--gold);margin-bottom:1rem">Ready when you are</span>
+    <h2>Shortlist three projects.<br>We will do the awkward questions.</h2>
+    <p>Send us the three projects you are circling. You will get a written comparison of delivery risk, true cost per sqft and the clauses worth renegotiating &mdash; before the sales team calls you.</p>
+    <div class="cta-band__actions">
+      <a href="#visit" class="btn btn--gold">Book a guided site visit
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+      </a>
+      <a href="https://wa.me/919999999999?text=Hi%2C%20can%20you%20send%20me%20the%20commission%20disclosure%20and%20a%20comparison%20of%20three%20Hyderabad%20projects%3F" target="_blank" rel="noopener" class="btn btn--ghost-light">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.2-5.5A8.4 8.4 0 1 1 21 11.5z"/></svg>
+        Ask on WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ========== FAQ ========== -->
+<section class="section section--paper" id="faq">
+  <div class="wrap" style="max-width:1000px">
+    <div class="sec-head reveal" style="margin-bottom:2rem">
+      <div class="sec-head__copy">
+        <span class="eyebrow">Buyer questions</span>
+        <h2 class="h2">The questions people<br><span class="gold">actually ask us.</span></h2>
+      </div>
+    </div>
+    <div class="faq" id="faqList"></div>
+    <div style="display:flex;gap:.7rem;flex-wrap:wrap;margin-top:2rem;align-items:center">
+      <span style="font-size:.85rem;color:var(--muted)">Still unsure about something?</span>
+      <a href="https://wa.me/919999999999?text=Hi%2C%20I%20have%20a%20question%20about%20buying%20a%20flat%20in%20Hyderabad." target="_blank" rel="noopener" class="link-arrow">Ask a consultant</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top" style="margin-bottom:1rem">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M3 20V9.6L12 3l9 6.6V20"/><path d="M9.5 20v-6h5v6"/></svg>
+          </span>
+          <span class="brand__txt">
+            <span class="brand__name">Maison <em>Hyderabad</em></span>
+            <span class="brand__sub">Buyer Intelligence</span>
+          </span>
+        </a>
+        <p class="foot-desc">Independent residential intelligence for end users in Hyderabad. Builder verification, locality research and guided site visits with zero buyer fee.</p>
+        <div style="display:flex;gap:.5rem;margin-top:1.1rem">
+          <a href="https://wa.me/919999999999" target="_blank" rel="noopener" class="chip chip--dark" style="gap:.4rem">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="#5FD08A" stroke-width="1.8" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.2-5.5A8.4 8.4 0 1 1 21 11.5z"/></svg>
+            WhatsApp
+          </a>
+          <a href="tel:+919999999999" class="chip chip--dark">+91 99999 99999</a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#localities">Locality research</a></li>
+          <li><a href="#builders">Verified builders</a></li>
+          <li><a href="#projects">Live projects</a></li>
+          <li><a href="#insights">Research library</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Decide</h4>
+        <ul>
+          <li><a href="#calculator">Affordability calculator</a></li>
+          <li><a href="#visit">Book a site visit</a></li>
+          <li><a href="#projects">Compare projects</a></li>
+          <li><a href="#faq">Buyer FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Governance</h4>
+        <ul>
+          <li><a href="#trust">Commission disclosure</a></li>
+          <li><a href="#trust">Builder scoring method</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Terms of use</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 Maison Hyderabad. Demo portal &mdash; all project data is illustrative.</span>
+      <span>Hyderabad, Telangana &middot; TSRERA-registered channel partner (demo)</span>
+    </div>
+    <div class="disclaimer">
+      Prices, availability, possession dates and registration numbers shown on this page are fictional demonstration content
+      created for a portfolio project. Nothing here constitutes an offer, invitation, valuation or legal opinion.
+      Always verify project registration on the official TSRERA portal and obtain independent title due diligence
+      before paying any booking amount.
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/919999999999?text=Hi%2C%20I%27m%20looking%20for%20verified%20residential%20projects%20in%20Hyderabad." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <span class="wa__pulse" aria-hidden="true"></span>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.2-5.5A8.4 8.4 0 1 1 21 11.5z"/><path d="M8.8 9.2c.2 2 2 3.9 4 4.2"/></svg>
+  <span class="lbl">Concierge</span>
+</a>
+
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg>
+  <span id="toastText">Saved</span>
+</div>
+
+<style>
+/* ================= DETAIL PAGES (project + builder) ================= */
+.detail{position:fixed;inset:0;z-index:950;background:var(--ivory);overflow-y:auto;overflow-x:hidden;display:none;overscroll-behavior:contain}
+.detail.open{display:block;animation:detailIn .5s var(--ease) both}
+@keyframes detailIn{from{opacity:0}to{opacity:1}}
+.dtl-bar{position:sticky;top:0;z-index:30;background:rgba(248,245,238,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);padding:.62rem 0}
+.dtl-bar .wrap{display:flex;align-items:center;gap:1rem;justify-content:space-between}
+.dtl-back{display:inline-flex;align-items:center;gap:.5rem;font-size:.8rem;font-weight:700;color:var(--text-soft);transition:gap .3s var(--ease),color .3s}
+.dtl-back:hover{gap:.72rem;color:var(--gold-deep)}
+.dtl-back svg{width:15px;height:15px}
+.dtl-bar__act{display:flex;gap:.5rem;align-items:center}
+.dtl-crumb{display:flex;gap:.4rem;align-items:center;font-size:.72rem;color:var(--muted-2);font-weight:600;flex-wrap:wrap}
+.dtl-crumb span{opacity:.6}
+
+/* Hero */
+.dtl-hero{position:relative;overflow:hidden;background:var(--ink);color:var(--ivory);padding:clamp(30px,4.5vw,58px) 0 clamp(56px,7vw,86px);isolation:isolate}
+.dtl-hero__bg{position:absolute;inset:0;z-index:-2}
+.dtl-hero__bg img{width:100%;height:100%;object-fit:cover;opacity:.5;transition:opacity .5s,transform 8s linear}
+.dtl-hero__bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,17,14,.86) 0%,rgba(8,17,14,.62) 45%,rgba(8,17,14,.94) 100%)}
+.dtl-hero h1{font-size:clamp(2.1rem,4.6vw,3.5rem);color:var(--ivory);letter-spacing:-.035em;line-height:1.02;margin:.6rem 0 .9rem;max-width:22ch}
+.dtl-hero__meta{display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:1.5rem}
+.dtl-hero__row{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:1.5rem}
+.dtl-hero__price{display:flex;flex-direction:column;gap:.2rem}
+.dtl-hero__price small{font-size:.64rem;letter-spacing:.17em;text-transform:uppercase;color:rgba(248,245,238,.5);font-weight:800}
+.dtl-hero__price b{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.3rem);font-weight:400;letter-spacing:-.03em;color:var(--gold-light);line-height:1.05}
+.dtl-hero__price span{font-size:.76rem;color:rgba(248,245,238,.6);font-weight:600}
+.dtl-actions{display:flex;flex-wrap:wrap;gap:.55rem}
+
+/* Hero fact strip */
+.dtl-facts{position:relative;z-index:5;margin-top:calc(clamp(56px,7vw,86px) * -.62);background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow-md);display:grid;grid-template-columns:repeat(4,1fr);overflow:hidden}
+.dtl-facts > div{padding:1.1rem 1.25rem;border-right:1px solid var(--line)}
+.dtl-facts > div:last-child{border-right:0}
+.dtl-facts .k{font-size:.62rem;letter-spacing:.17em;text-transform:uppercase;color:var(--muted-2);font-weight:800;margin-bottom:.3rem}
+.dtl-facts .v{font-family:var(--serif);font-size:1.1rem;letter-spacing:-.02em;color:var(--ink);line-height:1.2}
+.dtl-facts .s{font-size:.72rem;color:var(--muted);margin-top:.18rem;font-weight:600}
+
+/* Body layout */
+.dtl-body{display:grid;grid-template-columns:minmax(0,1fr) 336px;gap:clamp(24px,3.4vw,46px);padding-block:clamp(34px,4.4vw,58px) clamp(50px,7vw,90px);align-items:start}
+.dtl-main{display:flex;flex-direction:column;gap:clamp(28px,3.6vw,44px);min-width:0}
+.dtl-sec{scroll-margin-top:90px}
+.dtl-sec__h{display:flex;align-items:center;gap:.75rem;margin-bottom:1.15rem}
+.dtl-sec__h h2,.dtl-sec__h h3{font-size:clamp(1.18rem,1.8vw,1.45rem);letter-spacing:-.025em;white-space:nowrap}
+.dtl-sec__h::after{content:"";flex:1;height:1px;background:var(--line)}
+.dtl-sec__h .num{font-family:var(--sans);font-size:.66rem;font-weight:800;letter-spacing:.14em;color:var(--gold-deep);border:1px solid rgba(201,164,92,.4);border-radius:var(--r-pill);padding:.2rem .5rem;flex:none}
+.dtl-prose p{font-size:.93rem;line-height:1.82;color:var(--text-soft)}
+.dtl-prose p + p{margin-top:.9rem}
+.dtl-lede{font-size:1.02rem;line-height:1.75;color:var(--text-soft);font-family:var(--serif);letter-spacing:-.01em}
+.quote{
+  border-left:2px solid var(--gold);padding:.15rem 0 .15rem 1.15rem;margin:1.2rem 0;
+  font-family:var(--serif);font-size:1.02rem;line-height:1.7;color:var(--ink);letter-spacing:-.01em
+}
+.quote cite{display:block;font-family:var(--sans);font-style:normal;font-size:.7rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-2);margin-top:.6rem}
+
+/* Unit table */
+.table-wrap{border:1px solid var(--line);border-radius:var(--r-md);overflow:auto;background:var(--paper)}
+.units{width:100%;font-size:.85rem;min-width:520px}
+.units thead th{background:rgba(239,233,220,.5);padding:.72rem .9rem;text-align:left;font-size:.63rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-2);font-weight:800;border-bottom:1px solid var(--line)}
+.units tbody td{padding:.82rem .9rem;border-bottom:1px solid var(--line);color:var(--text-soft);font-weight:600}
+.units tbody tr:last-child td{border-bottom:0}
+.units tbody tr:hover td{background:rgba(201,164,92,.05)}
+.units .t{font-family:var(--serif);font-size:.98rem;color:var(--ink);font-weight:400}
+.units .p{color:var(--ink);font-weight:800;white-space:nowrap}
+
+/* payment plan */
+.plan{display:flex;flex-direction:column;gap:0;border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden;background:var(--paper)}
+.plan__row{display:grid;grid-template-columns:38px 1.1fr 90px 1.4fr;gap:1rem;align-items:center;padding:.85rem 1rem;border-bottom:1px solid var(--line);font-size:.83rem}
+.plan__row:last-child{border-bottom:0}
+.plan__row:hover{background:rgba(201,164,92,.05)}
+.plan__row .idx{width:26px;height:26px;border-radius:50%;background:var(--sand);color:var(--gold-deep);display:grid;place-items:center;font-size:.7rem;font-weight:800}
+.plan__row .nm{font-weight:700;color:var(--ink)}
+.plan__row .pc{font-family:var(--serif);font-size:1.02rem;color:var(--ink);text-align:right;letter-spacing:-.02em}
+.plan__row .nt{font-size:.75rem;color:var(--muted);line-height:1.5}
+
+/* progress */
+.prog{display:flex;flex-direction:column;gap:1rem;padding:1.2rem 1.25rem;border:1px solid var(--line);border-radius:var(--r-md);background:var(--paper)}
+.prog__row .top{display:flex;justify-content:space-between;gap:1rem;font-size:.79rem;font-weight:700;color:var(--text-soft);margin-bottom:.35rem}
+.prog__row .top span:last-child{font-variant-numeric:tabular-nums;color:var(--muted);font-weight:700}
+.prog__bar{height:6px;border-radius:99px;background:var(--sand-deep);overflow:hidden}
+.prog__bar i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--gold-deep),var(--gold));transition:width 1.2s var(--ease-out)}
+.prog__row.done .prog__bar i{background:linear-gradient(90deg,#256A50,#3E9C77)}
+.detail.open .prog__bar i{width:var(--p)}
+
+/* amenities */
+.amenities{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:.5rem}
+.amenity{display:flex;align-items:center;gap:.55rem;padding:.66rem .8rem;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--paper);font-size:.79rem;font-weight:600;color:var(--text-soft);transition:.25s}
+.amenity:hover{border-color:rgba(201,164,92,.5);background:rgba(201,164,92,.05)}
+.amenity svg{width:14px;height:14px;color:var(--gold-deep);flex:none}
+
+/* connectivity */
+.conn{display:flex;flex-direction:column;gap:0;border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden;background:var(--paper)}
+.conn__row{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.75rem 1rem;border-bottom:1px solid var(--line);font-size:.83rem}
+.conn__row:last-child{border-bottom:0}
+.conn__row .l{display:flex;align-items:center;gap:.6rem;color:var(--text-soft);font-weight:600}
+.conn__row .l svg{width:14px;height:14px;color:var(--muted-2);flex:none}
+.conn__row .r{font-weight:800;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.conn__row .r small{font-weight:600;color:var(--muted);margin-left:.2rem}
+
+/* objections */
+.objections{display:flex;flex-direction:column;gap:.65rem}
+.objection{display:flex;gap:.85rem;padding:.95rem 1.05rem;border:1px solid rgba(169,116,31,.26);border-radius:var(--r-md);background:linear-gradient(100deg,rgba(248,238,220,.7),rgba(255,255,255,.6))}
+.objection .ic{width:26px;height:26px;border-radius:50%;background:var(--warn-soft);color:#8A5C14;display:grid;place-items:center;flex:none;margin-top:.05rem}
+.objection .ic svg{width:13px;height:13px}
+.objection h4{font-family:var(--sans);font-size:.8rem;font-weight:800;letter-spacing:0;color:#7C5310;margin-bottom:.2rem}
+.objection p{font-size:.83rem;line-height:1.68;color:var(--text-soft)}
+
+/* sidebar */
+.dtl-side{position:sticky;top:76px;display:flex;flex-direction:column;gap:1rem}
+.side-card{border:1px solid var(--line);border-radius:var(--r-md);background:var(--paper);padding:1.15rem 1.2rem;box-shadow:var(--shadow-xs)}
+.side-card h3{font-size:1rem;margin-bottom:.85rem;letter-spacing:-.02em;display:flex;align-items:center;gap:.5rem}
+.side-card h3 svg{width:15px;height:15px;color:var(--gold-deep)}
+.fact{display:flex;justify-content:space-between;gap:1rem;padding:.45rem 0;border-bottom:1px dashed var(--line);font-size:.79rem}
+.fact:last-child{border-bottom:0}
+.fact dt,.fact .l{color:var(--muted);font-weight:600;flex:none}
+.fact dd,.fact .v{margin:0;font-weight:700;color:var(--ink);text-align:right}
+.dtl-side .btn{width:100%}
+.side-card--ink{background:var(--ink);border-color:rgba(201,164,92,.3);color:rgba(248,245,238,.72)}
+.side-card--ink h3{color:var(--ivory)}
+.side-card--ink p{font-size:.8rem;line-height:1.68;color:rgba(248,245,238,.62);margin-bottom:.9rem}
+.side-card--ink .who{display:flex;gap:.7rem;align-items:center;margin-bottom:.9rem}
+.side-card--ink .who .av{width:40px;height:40px;border-radius:50%;background:linear-gradient(150deg,rgba(201,164,92,.4),rgba(201,164,92,.1));border:1px solid rgba(201,164,92,.45);display:grid;place-items:center;font-family:var(--serif);color:var(--gold-light);flex:none}
+.side-card--ink .who b{font-family:var(--serif);font-size:.98rem;color:var(--ivory);font-weight:400;display:block;line-height:1.3}
+.side-card--ink .who span{font-size:.7rem;color:rgba(248,245,238,.5);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:.55rem;margin-top:1rem}
+.gal button{border:1px solid var(--line);border-radius:var(--r-sm);overflow:hidden;padding:0;background:var(--sand-deep);aspect-ratio:16/10;position:relative}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease-out),opacity .3s;opacity:.86}
+.gal button:hover img{transform:scale(1.05);opacity:1}
+.gal button[aria-current="true"]{border-color:var(--gold);box-shadow:0 0 0 2px rgba(201,164,92,.35)}
+.gal button[aria-current="true"] img{opacity:1}
+
+/* builder detail bits */
+.bscore{display:grid;grid-template-columns:repeat(2,1fr);gap:.9rem 1.4rem;padding:1.2rem 1.3rem;border:1px solid var(--line);border-radius:var(--r-md);background:var(--paper)}
+.bscore__i .top{display:flex;justify-content:space-between;font-size:.76rem;font-weight:700;color:var(--text-soft);margin-bottom:.35rem}
+.bscore__i .top b{color:var(--ink);font-variant-numeric:tabular-nums}
+.bscore__i .bar{height:5px;border-radius:99px;background:var(--sand-deep);overflow:hidden}
+.bscore__i .bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--gold-deep),var(--gold));width:0;transition:width 1.3s var(--ease-out)}
+.detail.open .bscore__i .bar i{width:var(--p)}
+.bstats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden;background:var(--paper)}
+.bstats > div{padding:1.05rem 1.15rem;border-right:1px solid var(--line)}
+.bstats > div:last-child{border-right:0}
+.bstats .k{font-size:.61rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted-2);font-weight:800;margin-bottom:.28rem}
+.bstats .v{font-family:var(--serif);font-size:1.35rem;letter-spacing:-.03em;color:var(--ink);line-height:1.1}
+.bstats .s{font-size:.7rem;color:var(--muted);font-weight:600;margin-top:.2rem}
+
+/* similar projects */
+.similar{border-top:1px solid var(--line);padding-top:clamp(28px,3.6vw,44px)}
+.similar__grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;margin-top:1.1rem}
+.mini{display:flex;gap:.85rem;padding:.7rem;border:1px solid var(--line);border-radius:var(--r-md);background:var(--paper);cursor:pointer;transition:.4s var(--ease);align-items:center}
+.mini:hover{transform:translateY(-2px);box-shadow:var(--shadow-sm);border-color:rgba(201,164,92,.5)}
+.mini__img{width:78px;height:64px;border-radius:var(--r-xs);overflow:hidden;flex:none;background:var(--sand-deep)}
+.mini__img img{width:100%;height:100%;object-fit:cover}
+.mini__t{font-family:var(--serif);font-size:.95rem;line-height:1.25;color:var(--ink);letter-spacing:-.02em}
+.mini__s{font-size:.7rem;color:var(--muted);margin-top:.2rem;font-weight:600}
+.mini__p{font-size:.78rem;color:var(--gold-deep);font-weight:800;margin-top:.25rem}
+
+/* detail project cards reuse */
+.dtl-projlist{display:grid;gap:.7rem}
+.dtl-projrow{display:grid;grid-template-columns:64px 1fr auto;gap:.9rem;align-items:center;padding:.7rem;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--paper);cursor:pointer;transition:.3s}
+.dtl-projrow:hover{border-color:rgba(201,164,92,.5);background:rgba(201,164,92,.04)}
+.dtl-projrow img{width:64px;height:54px;object-fit:cover;border-radius:4px}
+
+@media (max-width:1080px){
+  .dtl-body{grid-template-columns:1fr}
+  .dtl-side{position:static;flex-direction:row;flex-wrap:wrap}
+  .dtl-side .side-card{flex:1 1 280px}
+}
+@media (max-width:820px){
+  .dtl-facts{grid-template-columns:1fr 1fr}
+  .dtl-facts > div:nth-child(2){border-right:0}
+  .dtl-facts > div:nth-child(3),.dtl-facts > div:nth-child(4){border-top:1px solid var(--line)}
+  .plan__row{grid-template-columns:30px 1fr auto;gap:.7rem}
+  .plan__row .nt{display:none}
+  .bstats{grid-template-columns:1fr 1fr}
+  .bstats > div:nth-child(2){border-right:0}
+  .bstats > div:nth-child(3),.bstats > div:nth-child(4){border-top:1px solid var(--line)}
+  .bscore{grid-template-columns:1fr}
+  .dtl-crumb{display:none}
+}
+@media (max-width:560px){
+  .dtl-hero__row{flex-direction:column;align-items:flex-start}
+  .dtl-actions{width:100%}
+  .dtl-actions .btn{flex:1 1 auto;justify-content:center}
+  .gal{grid-template-columns:1fr 1fr}
+  .gal button:last-child{display:none}
+  .amenities{grid-template-columns:1fr 1fr}
+  .dtl-side{flex-direction:column}
+}
+</style>
+
+<!-- ========== PROJECT DETAIL ========== -->
+<div class="detail" id="projectDetail" role="dialog" aria-modal="true" aria-labelledby="pdTitle">
+  <div class="dtl-bar">
+    <div class="wrap">
+      <a href="#projects" class="dtl-back" data-close-detail>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m11 18-6-6 6-6"/></svg>
+        All projects
+      </a>
+      <div class="dtl-crumb" id="pdCrumb"></div>
+      <div class="dtl-bar__act">
+        <a class="btn btn--gold btn--sm" href="#visit" data-close-detail data-open-visit>Book a visit</a>
+        <button class="modal__close" data-close-detail aria-label="Close">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <header class="dtl-hero">
+    <div class="dtl-hero__bg"><img id="pdHeroImg" src="assets/hero-financial-district.jpg" alt=""></div>
+    <div class="wrap">
+      <span class="eyebrow" style="color:var(--gold)" id="pdKicker">Project</span>
+      <h1 id="pdTitle">Project name</h1>
+      <div class="dtl-hero__meta" id="pdChips"></div>
+      <div class="dtl-hero__row">
+        <div class="dtl-hero__price">
+          <small>Price band</small>
+          <b id="pdPrice">&ndash;</b>
+          <span id="pdPriceSub">&ndash;</span>
+        </div>
+        <div class="dtl-actions">
+          <button class="btn btn--gold" data-open-visit>Book a guided visit
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </button>
+          <button class="btn btn--ghost-light" id="pdShortlist">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z"/></svg>
+            <span>Shortlist</span>
+          </button>
+          <a class="btn btn--ghost-light" id="pdWa" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.2-5.5A8.4 8.4 0 1 1 21 11.5z"/></svg>
+            Ask
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="dtl-facts" id="pdFacts"></div>
+    <div class="dtl-body">
+      <div class="dtl-main">
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">01</span><h2>Our read</h2></div>
+          <div class="dtl-prose" id="pdRead"></div>
+          <div class="gal" id="pdGallery"></div>
+        </section>
+
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">02</span><h2>Unit mix &amp; pricing</h2></div>
+          <div class="table-wrap">
+            <table class="units">
+              <thead><tr><th>Configuration</th><th>Carpet area</th><th>Indicative price</th><th>Availability</th></tr></thead>
+              <tbody id="pdUnits"></tbody>
+            </table>
+          </div>
+          <p style="font-size:.73rem;color:var(--muted-2);margin-top:.6rem;line-height:1.65">Prices are indicative all-in asking rates and exclude registration, stamp duty and corpus fund. Carpet area as declared in the RERA filing.</p>
+        </section>
+
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">03</span><h2>Payment plan</h2></div>
+          <div class="plan" id="pdPlan"></div>
+        </section>
+
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">04</span><h2>Construction progress</h2></div>
+          <div class="prog" id="pdProgress"></div>
+        </section>
+
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">05</span><h2>Amenities</h2></div>
+          <div class="amenities" id="pdAmenities"></div>
+        </section>
+
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">06</span><h2>Connectivity</h2></div>
+          <div class="conn" id="pdConn"></div>
+        </section>
+
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">07</span><h2>Questions we would ask</h2></div>
+          <div class="objections" id="pdObjections"></div>
+        </section>
+
+        <section class="similar">
+          <h3 class="h3">Similar projects to benchmark against</h3>
+          <div class="similar__grid" id="pdSimilar"></div>
+        </section>
+      </div>
+
+      <aside class="dtl-side">
+        <div class="side-card">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+            Fact sheet
+          </h3>
+          <div id="pdFactsList"></div>
+        </div>
+        <div class="side-card">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 6H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            True cost of buying
+          </h3>
+          <div id="pdCost"></div>
+          <p style="font-size:.7rem;color:var(--muted-2);margin-top:.7rem;line-height:1.6">Based on the entry price of this project. Registration charges vary with gender ownership and municipal zone.</p>
+        </div>
+        <div class="side-card side-card--ink">
+          <div class="who">
+            <div class="av">AR</div>
+            <div><b>Aarav Reddy</b><span>Buyer's consultant</span></div>
+          </div>
+          <p>Send me the three projects you are circling and I will return a written comparison of delivery risk and true cost per sqft.</p>
+          <a class="btn btn--gold btn--sm btn--block" href="https://wa.me/919999999999?text=Hi%2C%20I%27d%20like%20a%20comparison%20note%20on%20a%20Hyderabad%20project." target="_blank" rel="noopener">Message on WhatsApp</a>
+        </div>
+        <div class="side-card">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/></svg>
+            Builder
+          </h3>
+          <div id="pdBuilder"></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<!-- ========== BUILDER DETAIL ========== -->
+<div class="detail" id="builderDetail" role="dialog" aria-modal="true" aria-labelledby="bdTitle">
+  <div class="dtl-bar">
+    <div class="wrap">
+      <a href="#builders" class="dtl-back" data-close-detail>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m11 18-6-6 6-6"/></svg>
+        All builders
+      </a>
+      <div class="dtl-crumb" id="bdCrumb"></div>
+      <div class="dtl-bar__act">
+        <a class="btn btn--gold btn--sm" href="#visit" data-close-detail data-open-visit>Book a visit</a>
+        <button class="modal__close" data-close-detail aria-label="Close">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <header class="dtl-hero">
+    <div class="dtl-hero__bg"><img src="assets/villa-community.jpg" alt=""></div>
+    <div class="wrap">
+      <span class="eyebrow" style="color:var(--gold)">Builder dossier</span>
+      <h1 id="bdTitle">Builder</h1>
+      <div class="dtl-hero__meta" id="bdChips"></div>
+      <div class="dtl-hero__row">
+        <div class="dtl-hero__price">
+          <small>Delivery confidence score</small>
+          <b id="bdScore">&ndash;</b>
+          <span id="bdScoreSub">&ndash;</span>
+        </div>
+        <div class="dtl-actions">
+          <button class="btn btn--gold" data-open-visit>Visit a project
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </button>
+          <a class="btn btn--ghost-light" id="bdWa" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.2-5.5A8.4 8.4 0 1 1 21 11.5z"/></svg>
+            Ask about this builder
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="dtl-facts" id="bdFacts"></div>
+    <div class="dtl-body">
+      <div class="dtl-main">
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">01</span><h2>Who they are</h2></div>
+          <div class="dtl-prose" id="bdAbout"></div>
+        </section>
+
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">02</span><h2>Scorecard</h2></div>
+          <div class="bscore" id="bdScores"></div>
+          <p style="font-size:.73rem;color:var(--muted-2);margin-top:.7rem;line-height:1.65">Scores are ours, not the builder's. Compliance reflects registration currency and disclosure completeness; delivery reflects possession dates against committed dates; legal reflects disclosed litigation and encumbrances; service reflects handover and defect-resolution feedback from buyers we have placed.</p>
+        </section>
+
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">03</span><h2>Delivery record</h2></div>
+          <div class="table-wrap">
+            <table class="units">
+              <thead><tr><th>Project</th><th>Committed</th><th>Delivered</th><th>Verdict</th></tr></thead>
+              <tbody id="bdDelivery"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">04</span><h2>Live projects we track</h2></div>
+          <div class="dtl-projlist" id="bdProjects"></div>
+        </section>
+
+        <section class="dtl-sec">
+          <div class="dtl-sec__h"><span class="num">05</span><h2>What to keep an eye on</h2></div>
+          <div class="objections" id="bdWarnings"></div>
+        </section>
+
+        <section class="similar">
+          <h3 class="h3">Compare with other builders</h3>
+          <div class="similar__grid" id="bdSimilar"></div>
+        </section>
+      </div>
+
+      <aside class="dtl-side">
+        <div class="side-card">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+            At a glance
+          </h3>
+          <div id="bdFactsList"></div>
+        </div>
+        <div class="side-card side-card--ink">
+          <div class="who">
+            <div class="av">AR</div>
+            <div><b>Aarav Reddy</b><span>Buyer's consultant</span></div>
+          </div>
+          <p>I have walked sites for this builder. Ask me what the brochure leaves out before you book a visit.</p>
+          <a class="btn btn--gold btn--sm btn--block" href="https://wa.me/919999999999?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20a%20Hyderabad%20builder." target="_blank" rel="noopener">Message on WhatsApp</a>
+        </div>
+        <div class="side-card">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v5l3 2"/></svg>
+            Verification trail
+          </h3>
+          <div id="bdTrail"></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ============================================================
+   DATA LAYER — single source of truth for cards + detail pages
+   All figures are illustrative demo data.
+   ============================================================ */
+
+const IMG = {
+  skyline: 'assets/hero-financial-district.jpg',
+  villa: 'assets/villa-community.jpg',
+  lobby: 'assets/interior-lobby.jpg'
+};
+
+const LOCALITIES = [
+  {
+    id:'gachibowli', name:'Gachibowli / Financial District', zone:'west', zoneLabel:'West corridor',
+    pxLow:8500, pxHigh:12000, unit:'sqft', trend:'+11.4%', bars:[.42,.48,.53,.57,.61,.66,.72,.78,.82,.88,.94,1],
+    demand:'Very high', supply:'Tight in ready stock', yield:'3.6%', projects:34,
+    tagline:'The benchmark address. Price is the only real objection.',
+    note:'The Financial District remains the deepest end-user market in Hyderabad. Salaried demand from the tech corridor keeps ready-stock absorption high, so discounts are rare and mostly appear on higher floors or east-facing units.',
+    pros:['Deepest resale liquidity in the city','Walk-to-work demand from the tech corridor','Metro and ORR access within minutes'],
+    cons:['Highest entry price per sqft','Weekend traffic congestion is real','Service charges in premium towers are steep'],
+    verdict:'Buy here if proximity to work matters more than price per sqft. Negotiate on floor rise and car parking, not on the base rate.'
+  },
+  {
+    id:'kokapet', name:'Kokapet', zone:'west', zoneLabel:'West corridor',
+    pxLow:7200, pxHigh:10500, unit:'sqft', trend:'+15.8%', bars:[.28,.32,.38,.41,.47,.52,.58,.63,.7,.78,.88,1],
+    demand:'High and rising', supply:'Heavy new launch pipeline', yield:'3.4%', projects:27,
+    tagline:'Neo-Financial District. Best growth, widest delivery risk.',
+    note:'Kokapet is absorbing a large launch pipeline at once. Appreciation has been the strongest in the city, but the number of towers handing over in the same 18-month window will test rental absorption.',
+    pros:['Strongest five-year appreciation in West Hyderabad','New towers with modern amenity stacks','Direct ORR and Financial District access'],
+    cons:['Concentrated handover risk across many towers','Retail and social infrastructure still catching up','Some layouts have long internal approach roads'],
+    verdict:'Good buy for a 7-year horizon. Insist on a construction-linked plan with a holdback at possession.'
+  },
+  {
+    id:'narsingi', name:'Narsingi', zone:'west', zoneLabel:'West corridor',
+    pxLow:6800, pxHigh:9000, unit:'sqft', trend:'+9.2%', bars:[.55,.58,.6,.63,.66,.68,.71,.74,.78,.83,.9,1],
+    demand:'Steady', supply:'Low density, villa led', yield:'3.2%', projects:19,
+    tagline:'Low-density villa living next to the ORR.',
+    note:'Narsingi attracts buyers who want plot-and-villa formats without leaving the western employment belt. Prices move more slowly than Kokapet but hold better in a downturn because stock is limited.',
+    pros:['Genuinely low-density communities','Quick ORR access to Financial District','Better plot-to-built ratios than apartment corridors'],
+    cons:['Limited new supply of quality villas','Water and sewerage approvals vary by layout','Fewer walkable schools and clinics'],
+    verdict:'A defensible end-user buy. Verify the layout approval file and the clubhouse completion obligation in writing.'
+  },
+  {
+    id:'manikonda', name:'Manikonda', zone:'central', zoneLabel:'Central corridor',
+    pxLow:6500, pxHigh:9500, unit:'sqft', trend:'+7.1%', bars:[.62,.64,.66,.67,.69,.7,.72,.74,.77,.8,.85,.9],
+    demand:'Steady end-user', supply:'Resale dominant', yield:'4.1%', projects:22,
+    tagline:'Established, social-infrastructure rich, resale led.',
+    note:'Manikonda is a mature family market. Most transactions are resale rather than primary sales, which means the quality of the society, not the builder marketing, determines value.',
+    pros:['Best social infrastructure per rupee in the west','Strong rental demand from young families','Mature, functioning societies'],
+    cons:['Older buildings with dated amenity stacks','Internal roads flood in heavy monsoon','Resale financing needs cleaner title files'],
+    verdict:'Excellent for immediate possession under ₹1 crore. Spend on a title search rather than a designer show flat.'
+  },
+  {
+    id:'kondapur', name:'Kondapur / Madhapur', zone:'west', zoneLabel:'West corridor',
+    pxLow:7500, pxHigh:10000, unit:'sqft', trend:'+8.6%', bars:[.58,.6,.63,.65,.67,.7,.72,.75,.78,.82,.88,.95],
+    demand:'High', supply:'Balanced', yield:'3.9%', projects:29,
+    tagline:'Walkable IT-corridor living with a mature retail base.',
+    note:'Kondapur and Madhapur offer the shortest commute in the city with a retail and F&B base that Gachibowli still lacks. Stock is a mix of 2012-era societies and new boutique towers.',
+    pros:['Best mix of commute, retail and schools','Consistent rental demand','Metro connectivity along the corridor'],
+    cons:['Land parcels are small, so amenity stacks are thinner','Older buildings may need elevation and plumbing review','Parking is constrained in older societies'],
+    verdict:'If you are renting it out first, this is the safest corridor in the west.'
+  },
+  {
+    id:'bachupally', name:'Bachupally / Nizampet', zone:'north', zoneLabel:'North corridor',
+    pxLow:5500, pxHigh:7800, unit:'sqft', trend:'+12.3%', bars:[.35,.38,.42,.45,.49,.54,.58,.64,.7,.78,.87,.98],
+    demand:'Growing', supply:'Large new townships', yield:'3.8%', projects:24,
+    tagline:'The entry point to the west, with township-scale amenity.',
+    note:'North Hyderabad is where the value-conscious end user goes. Township formats deliver amenity that would cost twice as much in the west, but possession timelines stretch and infrastructure lags.',
+    pros:['Lowest entry price in the western employment belt','Township-scale amenities','Fastest percentage growth off a low base'],
+    cons:['Longer possession timelines than promised','Water supply and STP capacity need verification','Commute to Financial District is 45–70 minutes'],
+    verdict:'Sensible first home if you can tolerate a longer commute. Pay only against construction milestones.'
+  },
+  {
+    id:'miyapur', name:'Miyapur', zone:'north', zoneLabel:'North corridor',
+    pxLow:6000, pxHigh:8200, unit:'sqft', trend:'+8.9%', bars:[.6,.62,.63,.65,.66,.68,.71,.73,.76,.8,.86,.92],
+    demand:'Steady', supply:'Mature resale', yield:'4.2%', projects:21,
+    tagline:'Metro-anchored, mature, unglamorous and reliable.',
+    note:'Miyapur benefits from the metro terminus and a settled social base. It rarely leads the market and rarely disappoints. Rents are supported by sustained demand from the JNTU and tech workforce.',
+    pros:['Metro terminus connectivity','Mature hospitals and schools','Best rental yield in the north'],
+    cons:['Dated building stock in the older sectors','Limited premium new supply','Traffic choke points at the corridor entry'],
+    verdict:'A high-confidence, low-drama purchase. Check the society maintenance corpus before you commit.'
+  },
+  {
+    id:'shamshabad', name:'Shamshabad / Rajendranagar', zone:'south', zoneLabel:'South corridor',
+    pxLow:2200, pxHigh:3500, unit:'sq yd', trend:'+18.6%', bars:[.22,.26,.3,.35,.4,.45,.5,.57,.65,.74,.86,1],
+    demand:'Speculative', supply:'Plotted developments', yield:'2.4%', projects:16,
+    tagline:'Airport-anchored plots. Highest upside, highest verification burden.',
+    note:'South Hyderabad trades on infrastructure narrative rather than current habitation. Plot prices have run hard on airport and aerospace-park expectations while rental yield stays thin.',
+    pros:['Lowest cost per square yard in the metro area','Airport and ORR access','Strong long-horizon land appreciation potential'],
+    cons:['Thin rental market today','Layout approvals vary widely in quality','Water table and drainage need site verification'],
+    verdict:'Treat as a land bet, not a home. Never buy a plot without a fresh encumbrance certificate and layout approval copy.'
+  }
+];
+
+const BUILDERS = [
+  {
+    id:'prestige', name:'Prestige Group', mono:'PG', img:IMG.skyline,
+    hq:'Bengaluru', founded:1986, pan:true, tagline:'Pan-India scale, institutional processes',
+    score:8.9, compliance:9.2, delivery:8.8, legal:9.0, service:8.4,
+    hyderabadProjects:3, delivered:6, onTime:'4 of 6 on time',
+    about:[
+      'A listed pan-India developer with a formal project-management cadence and an unusually detailed disclosure culture. Hyderabad is a secondary market for them, which shows up in both strengths and weaknesses.',
+      'The upside is process: escrow discipline, published construction updates and legal teams that respond to buyer queries in writing. The downside is that a secondary market rarely gets the group’s best land parcels, so expect standardised tower typologies rather than locally tuned layouts.'
+    ],
+    notable:'Known for large-format towers, clubhouse scale and consistent handover documentation.',
+    deliveryRows:[
+      ['Gachibowli tower, phase 1','Dec 2023','Oct 2023','Early'],
+      ['Financial District, phase 2','Jun 2024','Jun 2024','On time'],
+      ['Kokapet boutique block','Mar 2025','Aug 2025','Five months late'],
+      ['Financial District, phase 3','Sep 2025','Nov 2025','Two months late']
+    ],
+    warnings:[
+      ['Secondary market priority','Hyderabad is not a primary market for the group. Escalation paths for snag lists can be slower than in Bengaluru, so insist on a named site-level contact in your agreement.'],
+      ['Standardised specifications','Finishes are decent but identical across cities. Budget for upgrades rather than assuming premium fixtures at the quoted rate.'],
+      ['Clubhouse handover timeline','Clubhouse completion is often scheduled after the last tower. Ask for a written completion date with a delay penalty.']
+    ]
+  },
+  {
+    id:'aparna', name:'Aparna Constructions', mono:'AC', img:IMG.lobby,
+    hq:'Hyderabad', founded:1996, pan:false, tagline:'Hyderabad-native, delivery-first',
+    score:9.1, compliance:9.0, delivery:9.4, legal:9.2, service:8.8,
+    hyderabadProjects:5, delivered:14, onTime:'12 of 14 on time',
+    about:[
+      'The most consistently on-time large builder in Hyderabad by our tracking. Aparna’s advantage is vertical integration — in-house construction, blocks and finishing teams — which gives them unusually tight control over schedule.',
+      'Their societies also tend to form and take over maintenance faster than peers, which matters much more than any amenity photo five years after possession.'
+    ],
+    notable:'Best-in-class possession discipline; large gated communities in the west and north.',
+    deliveryRows:[
+      ['Kondapur gated community','Mar 2023','Feb 2023','Early'],
+      ['Miyapur towers','Nov 2023','Nov 2023','On time'],
+      ['Kompally township, phase 1','Jun 2024','Jul 2024','One month late'],
+      ['Nallagandla block','Feb 2025','Jan 2025','Early']
+    ],
+    warnings:[
+      ['Design conservatism','Floor plans are practical but rarely inventive. If you want double-height living or larger decks, this is not the developer for it.'],
+      ['Density','Some communities are dense. Walk the actual block and check lift-to-unit ratios before booking a high floor.'],
+      ['Price discipline','Discounts are rare because the product sells itself. Negotiate on payment schedule flexibility instead of headline price.']
+    ]
+  },
+  {
+    id:'myhome', name:'My Home Group', mono:'MH', img:IMG.skyline,
+    hq:'Hyderabad', founded:1980, pan:false, tagline:'High-rise specialist, premium finish',
+    score:8.6, compliance:8.9, delivery:8.2, legal:8.6, service:8.5,
+    hyderabadProjects:4, delivered:11, onTime:'8 of 11 on time',
+    about:[
+      'The group that normalised fifty-storey living in Hyderabad. Construction quality and finish are consistently above market, and their towers hold resale value well.',
+      'The trade-off is schedule: large high-rise phases are prone to slippage at the façade and MEP stage, and clubhouse delivery often trails the last tower by a year or more.'
+    ],
+    notable:'Iconic high-rise towers with strong resale retention in Gachibowli and Kokapet.',
+    deliveryRows:[
+      ['Gachibowli high-rise','Aug 2022','Feb 2023','Six months late'],
+      ['Kokapet tower A','Apr 2024','Apr 2024','On time'],
+      ['Kokapet tower B','Dec 2024','Mar 2025','Three months late'],
+      ['Financial District tower','Jul 2025','Jul 2025','On time']
+    ],
+    warnings:[
+      ['Phase-wise possession risk','Towers within the same project can hand over 12–18 months apart. Confirm which tower your unit sits in, in writing.'],
+      ['High service charges','Large amenity stacks cost real money to run. Request the estimated monthly maintenance before booking.'],
+      ['Clubhouse lag','Amenity blocks frequently lag tower handover. Get a dated commitment with a penalty clause.']
+    ]
+  },
+  {
+    id:'dsr', name:'DSR Group', mono:'DS', img:IMG.villa,
+    hq:'Bengaluru', founded:1988, pan:true, tagline:'South India legacy, structured processes',
+    score:8.3, compliance:8.7, delivery:8.0, legal:8.2, service:8.1,
+    hyderabadProjects:3, delivered:9, onTime:'7 of 9 on time',
+    about:[
+      'A thirty-eight-year-old South India developer with a disciplined channel-partner programme and clean documentation. Their Hyderabad presence is smaller but well organised.',
+      'Villa and low-density formats are their strength locally. Apartment products are competent rather than distinctive.'
+    ],
+    notable:'Strong on documentation and channel governance; villa formats are the local highlight.',
+    deliveryRows:[
+      ['Narsingi villa phase 1','Sep 2023','Oct 2023','One month late'],
+      ['West corridor apartments','Mar 2024','Mar 2024','On time'],
+      ['Narsingi villa phase 2','Nov 2025','Feb 2026','Three months late']
+    ],
+    warnings:[
+      ['Smaller local team','Fewer site staff than the Hyderabad-native builders. Snag resolution can be slower during peak handover months.'],
+      ['Phase 2 infrastructure','Later villa phases sometimes trail earlier ones on clubhouse and landscape delivery. Ask which phase amenities you will actually use.'],
+      ['Limited resale depth','Fewer comparable transactions makes price discovery harder. Get an independent valuation before you buy.']
+    ]
+  },
+  {
+    id:'ramky', name:'Ramky Estates', mono:'RE', img:IMG.villa,
+    hq:'Hyderabad', founded:1994, pan:true, tagline:'Mid-market scale, township experience',
+    score:7.8, compliance:8.2, delivery:7.4, legal:7.6, service:7.6,
+    hyderabadProjects:6, delivered:13, onTime:'8 of 13 on time',
+    about:[
+      'A mid-market specialist with genuine township experience in the north and west. Their value proposition is amenity per rupee rather than premium finish.',
+      'Delivery is the weak link. Several projects have slipped by more than six months, usually at the approval and infrastructure stage rather than in structure.'
+    ],
+    notable:'Township-scale amenity at mid-market pricing; delivery timelines need scrutiny.',
+    deliveryRows:[
+      ['Nallagandla apartments','Feb 2023','Sep 2023','Seven months late'],
+      ['Mokila township phase 1','Jun 2024','Jun 2024','On time'],
+      ['Bachupally towers','Dec 2024','Jul 2025','Seven months late'],
+      ['Mokila township phase 2','Mar 2026','Apr 2026','One month late']
+    ],
+    warnings:[
+      ['Approval-stage slippage','Delays cluster around statutory approvals and infrastructure connections rather than construction. Ask for the current approval status in writing.'],
+      ['Water and sewage','Some north-corridor projects depend on tanker supply in summer. Verify the water source and STP capacity before booking.'],
+      ['Possession-linked payments','For projects with a history of slippage, prefer construction-linked plans over time-linked ones.']
+    ]
+  },
+  {
+    id:'sumadhura', name:'Sumadhura Infracon', mono:'SI', img:IMG.lobby,
+    hq:'Bengaluru', founded:1994, pan:true, tagline:'Thirty-year record, plotted + residential',
+    score:7.9, compliance:8.4, delivery:7.7, legal:7.9, service:7.5,
+    hyderabadProjects:2, delivered:5, onTime:'4 of 5 on time',
+    about:[
+      'A thirty-year-old builder with a mixed residential and plotted portfolio across Bengaluru and Hyderabad. Documentation quality is above average for the segment.',
+      'Plotted developments are a meaningful part of their Hyderabad exposure, which means the quality of layout approvals matters more than tower finish here.'
+    ],
+    notable:'Reliable documentation; plotted formats need independent layout-approval verification.',
+    deliveryRows:[
+      ['Jubilee Hills boutique block','Aug 2023','Aug 2023','On time'],
+      ['Shamshabad plotted layout','Mar 2024','May 2024','Two months late'],
+      ['West corridor residences','Nov 2025','Nov 2025','On time']
+    ],
+    warnings:[
+      ['Layout approval variance','Plotted projects live or die on layout approval quality. Obtain the sanctioned layout copy and an encumbrance certificate independently.'],
+      ['Thin local rental market','Plotted formats in the south have limited rental depth. Do not underwrite a plot purchase on rental yield.'],
+      ['Smaller amenity programme','Plotted developments rarely include community infrastructure. Budget separately for compound walls, borewells and drainage.']
+    ]
+  }
+];
+
+const PROJECTS = [
+  {
+    id:'skyline', name:'Skyline Residency', short:'Skyline', builder:'prestige', locality:'gachibowli',
+    type:'flat', typeLabel:'Apartment', stage:'Ready to move', band:'100-200',
+    price:'₹1.10 Cr – ₹1.62 Cr', from:11000000, perSqft:'₹9,400 / sqft', possession:'Possession certificate issued',
+    rera:'P02400000123', reraStatus:'Registered & active', metro:'Yes — 500 m',
+    tagline:'The one with nothing left to prove but the price.',
+    images:[IMG.skyline, IMG.lobby, IMG.villa],
+    read:[
+      'This is the rarest thing in West Hyderabad: a project where the only open question is whether you are paying too much. Three towers, all occupied, occupancy certificate issued, and a functioning residents’ association that has already published two years of maintenance accounts. Very little about this purchase is speculative.',
+      'The layout logic is sensible rather than dramatic. Three-bedroom units sit on the corner stacks with two open faces, which matters far more in Hyderabad’s summer than any lobby chandelier. The 1,585 sqft configuration is the efficient one; the 1,940 sqft is a better home but a slower resale.',
+      'Where we would push back is on price. Asking rates here have moved up faster than comparable resale stock in the same corridor, and the premium is being justified by the address rather than the product. There is room to negotiate on floor rise and covered parking, and we would not sign without a written clubhouse completion date.'
+    ],
+    quote:{ text:'Every promise here already has a receipt. That is unusual, and it is worth paying something for — just not the whole premium.', by:'Aarav Reddy · Buyer’s consultant' },
+    units:[
+      ['3 BHK — corner','1,585 sqft','₹1.19 Cr – ₹1.38 Cr','12 of 46'],
+      ['3 BHK — premium','1,940 sqft','₹1.42 Cr – ₹1.62 Cr','7 of 28'],
+      ['4 BHK — penthouse','2,480 sqft','On request','2 of 4']
+    ],
+    plan:[
+      ['On booking','10%','Reservation of unit and parking bay'],
+      ['On agreement','20%','Within 30 days of booking'],
+      ['On possession','65%','Balance against handover and OC'],
+      ['Registration','5%','Stamp duty and registration, buyer-borne']
+    ],
+    progress:[
+      ['Structure & slabs',100,true],
+      ['Façade & glazing',100,true],
+      ['MEP & lifts',100,true],
+      ['Occupancy certificate',100,true],
+      ['Clubhouse',72,false]
+    ],
+    amenities:['Clubhouse','Swimming pool','Gymnasium','Indoor games','Kids’ play area','Landscaped deck','Visitor parking','Power backup','24×7 security','Rainwater harvesting','EV charging','Yoga deck'],
+    connectivity:[
+      ['Financial District','1.2 km','4 min'],
+      ['Raheja Mindspace','2.8 km','8 min'],
+      ['HITEC City metro','1.9 km','6 min'],
+      ['Outer Ring Road','3.4 km','9 min'],
+      ['Rajiv Gandhi International Airport','27 km','38 min'],
+      ['Oakridge International School','2.1 km','7 min'],
+      ['Continental Hospital','3.0 km','9 min']
+    ],
+    objections:[
+      ['Clubhouse is 72% complete, not handed over','The tower has an OC but the clubhouse does not. Get a dated completion commitment with a delay penalty in the agreement, not a verbal assurance at the sales desk.'],
+      ['Asking premium over resale comparables','Resale units in adjacent societies trade 6–9% below this asking rate. Use two registered comparable transactions in your negotiation file.'],
+      ['Car parking allocation is not in the price','Only one covered bay is included for three-bedroom units. A second bay is chargeable separately — confirm the amount before you sign.'],
+      ['Service charge estimate is unverified','Ask for the last two years of actual maintenance accounts from the residents’ association rather than the builder’s projection.']
+    ],
+    facts:[['Project type','Apartment, 3 towers'],['Possession','Ready — OC issued'],['TSRERA','P02400000123'],['Metro','500 m walk'],['Payment plan','Construction-linked'],['Density','4 units / floor']],
+    similar:['vista','heritage','greenview']
+  },
+  {
+    id:'vista', name:'Vista Towers', short:'Vista', builder:'myhome', locality:'kokapet',
+    type:'flat', typeLabel:'Apartment', stage:'Under construction', band:'50-100',
+    price:'₹86 L – ₹1.24 Cr', from:8600000, perSqft:'₹7,850 / sqft', possession:'Dec 2027 (builder-committed)',
+    rera:'P02400000145', reraStatus:'Registered & active', metro:'Planned corridor',
+    tagline:'The growth bet with a date you should not fully trust.',
+    images:[IMG.skyline, IMG.lobby, IMG.villa],
+    read:[
+      'Kokapet’s appeal is honest: the employment base exists, the road access is genuinely good, and prices have risen faster here than anywhere else in the city. Vista Towers captures that upside at a lower entry point than the ready stock next door.',
+      'The unit economics work. At roughly ₹7,850 per sqft for a two-bedroom, you are paying close to 17% less than a comparable ready unit in Gachibowli for the same commute. That gap is the compensation for eighteen months of construction risk.',
+      'The risk is concentrated, not diffuse. Two other towers within a kilometre are committed to possession in the same quarter, which means rental absorption will be tested exactly when you are trying to let the unit out. We would underwrite a longer void period than the sales deck suggests.'
+    ],
+    quote:{ text:'You are not buying a flat, you are buying eighteen months of construction risk at a discount. Price it that way.', by:'Aarav Reddy · Buyer’s consultant' },
+    units:[
+      ['2 BHK — compact','1,095 sqft','₹86 L – ₹96 L','38 of 92'],
+      ['2 BHK — corner','1,240 sqft','₹98 L – ₹1.08 Cr','21 of 46'],
+      ['3 BHK — corner','1,560 sqft','₹1.14 Cr – ₹1.24 Cr','16 of 46']
+    ],
+    plan:[
+      ['On booking','10%','Unit reservation'],
+      ['On agreement','15%','Within 30 days'],
+      ['On structure completion','30%','Slab and frame milestones'],
+      ['On finishing','35%','Façade, MEP and internal works'],
+      ['On possession','10%','Handover and OC']
+    ],
+    progress:[
+      ['Excavation & foundation',100,true],
+      ['Structure & slabs',68,false],
+      ['Façade & glazing',22,false],
+      ['MEP & lifts',14,false],
+      ['Clubhouse',0,false]
+    ],
+    amenities:['Clubhouse','Swimming pool','Gymnasium','Co-working lounge','Kids’ play area','Sky deck','Visitor parking','Power backup','24×7 security','Rainwater harvesting','EV charging','Squash court'],
+    connectivity:[
+      ['Financial District','3.6 km','9 min'],
+      ['Neopolis layout','1.4 km','4 min'],
+      ['Outer Ring Road','1.1 km','3 min'],
+      ['HITEC City metro (planned)','2.6 km','7 min'],
+      ['Rajiv Gandhi International Airport','24 km','32 min'],
+      ['Glendale International School','2.4 km','7 min'],
+      ['AIG Hospitals, Gachibowli','6.2 km','14 min']
+    ],
+    objections:[
+      ['Two competing towers hand over in the same quarter','Rental absorption will be tested by simultaneous supply. Model a 6–9 month void if you are buying to let.'],
+      ['Only 68% structural completion at this stage','Ask for the quarterly RERA progress report and compare it against the committed milestone schedule, not the marketing render.'],
+      ['Possession date is builder-committed only','Nothing in the current agreement carries a meaningful delay penalty. Negotiate a rent-compensation clause for every month of delay beyond December 2027.'],
+      ['Metro is planned, not approved','Do not price in metro connectivity. The corridor is proposed, not sanctioned.']
+    ],
+    facts:[['Project type','Apartment, 2 towers'],['Possession','Dec 2027 (committed)'],['TSRERA','P02400000145'],['Metro','Planned corridor'],['Payment plan','Construction-linked'],['Density','5 units / floor']],
+    similar:['skyline','sunrise','greenview']
+  },
+  {
+    id:'greenview', name:'Greenview Villas', short:'Greenview', builder:'dsr', locality:'narsingi',
+    type:'villa', typeLabel:'Independent villa', stage:'Ready to move', band:'200plus',
+    price:'₹1.86 Cr – ₹2.64 Cr', from:18600000, perSqft:'₹8,100 / sqft', possession:'Ready — phase 1 &amp; 2 handed over',
+    rera:'P02400000167', reraStatus:'Registered & active', metro:'No — ORR access',
+    tagline:'Low density done properly, at a price that reflects it.',
+    images:[IMG.villa, IMG.lobby, IMG.skyline],
+    read:[
+      'Narsingi villas solve a problem apartments cannot: you get a private garden, a plot you actually own, and neighbours you can count on one hand. In a city where density is the default, that scarcity carries a premium.',
+      'Greenview executes the format well. Plot sizes are honest, setbacks are respected, and the community has been handed over in phases so residents are not living on a construction site. The clubhouse is real and operating rather than a render on a hoarding.',
+      'The honest caveat is liquidity. Villa resale in this corridor takes longer than apartment resale because the buyer pool is narrower, and there is little recent comparable transaction data to anchor your price. Buy this as a home you will hold for a decade, not a unit you may need to exit in three years.'
+    ],
+    quote:{ text:'Villas are the easiest thing in real estate to overpay for, because there is no comparable down the road to argue with.', by:'Aarav Reddy · Buyer’s consultant' },
+    units:[
+      ['3 BHK villa','2,310 sqft · 200 sq yd','₹1.86 Cr – ₹2.05 Cr','9 of 32'],
+      ['4 BHK villa','2,880 sqft · 267 sq yd','₹2.18 Cr – ₹2.38 Cr','6 of 24'],
+      ['4 BHK villa — corner','3,340 sqft · 330 sq yd','₹2.44 Cr – ₹2.64 Cr','3 of 12']
+    ],
+    plan:[
+      ['On booking','10%','Plot and unit reservation'],
+      ['On agreement','20%','Within 30 days'],
+      ['On completion of structure','40%','Till roof slab'],
+      ['On finishing','25%','Internal and external works'],
+      ['On handover','5%','Possession and OC']
+    ],
+    progress:[
+      ['Phase 1 — villas',100,true],
+      ['Phase 1 — landscaping',100,true],
+      ['Clubhouse',100,true],
+      ['Phase 2 — villas',100,true],
+      ['Phase 3 — infrastructure',34,false]
+    ],
+    amenities:['Clubhouse','Swimming pool','Gymnasium','Private gardens','Jogging track','Kids’ play area','Visitor parking','Power backup','24×7 security','Rainwater harvesting','EV charging','Party lawn'],
+    connectivity:[
+      ['Financial District','5.4 km','12 min'],
+      ['Outer Ring Road','1.8 km','4 min'],
+      ['Gachibowli','7.2 km','16 min'],
+      ['Rajiv Gandhi International Airport','22 km','30 min'],
+      ['Oakridge International School','5.1 km','12 min'],
+      ['Continental Hospital','6.8 km','15 min'],
+      ['Narsingi retail junction','1.2 km','3 min']
+    ],
+    objections:[
+      ['Phase 3 infrastructure is 34% complete','Later phases will be under construction while you live here. Confirm which phase your villa sits in and what the construction-access plan is.'],
+      ['No recent comparable resale in this cluster','Price discovery is weak. Commission an independent valuation before you negotiate, especially on the corner plots.'],
+      ['Water approvals vary by layout','Ask for the water connection approval and the borewell yield report for the specific villa, not the layout in general.'],
+      ['Maintenance corpus is underfunded','The association corpus is below one year of operating cost. Negotiate a contribution cap into your cost sheet.']
+    ],
+    facts:[['Project type','Independent villas'],['Possession','Ready — phase 1 & 2'],['TSRERA','P02400000167'],['Metro','No — ORR access'],['Payment plan','Milestone-linked'],['Density','52 villas total']],
+    similar:['skyline','airview','heritage']
+  },
+  {
+    id:'heritage', name:'Heritage Apartments', short:'Heritage', builder:'aparna', locality:'manikonda',
+    type:'flat', typeLabel:'Apartment (resale)', stage:'Immediate possession', band:'50-100',
+    price:'₹56 L – ₹86 L', from:5600000, perSqft:'₹6,300 / sqft', possession:'Immediate — resale unit',
+    rera:'P02400000189', reraStatus:'Registered (original project)', metro:'Yes — 1.2 km',
+    tagline:'The unglamorous, sensible first home.',
+    images:[IMG.lobby, IMG.skyline, IMG.villa],
+    read:[
+      'Manikonda is where Hyderabad families actually live, as opposed to where developers market. Schools, clinics, kirana and bus connectivity are already there, which is worth more on a Tuesday morning than any rooftop infinity pool.',
+      'Heritage Apartments is a twelve-year-old society in good repair, with a functioning association and a maintenance corpus that has not been raided. The two-bedroom stock is efficient and the resale price is honest — you are paying for location and liveability, not for a brand.',
+      'The work here is diligence, not negotiation. Older resale titles need a clean chain of documents, and the building needs a structural and plumbing review. Budget ₹2–3 lakh for a genuine refresh on top of the purchase price.'
+    ],
+    quote:{ text:'Buy the society, not the flat. The society is what you will actually live inside for the next ten years.', by:'Aarav Reddy · Buyer’s consultant' },
+    units:[
+      ['2 BHK — standard','985 sqft','₹56 L – ₹68 L','6 available'],
+      ['2 BHK — corner','1,140 sqft','₹70 L – ₹78 L','3 available'],
+      ['3 BHK — corner','1,420 sqft','₹78 L – ₹86 L','2 available']
+    ],
+    plan:[
+      ['On booking','10%','Token and unit hold'],
+      ['On sale agreement','80%','Within 45 days, subject to title clearance'],
+      ['On registration','10%','At sub-registrar appointment'],
+      ['Society transfer','—','NOC and transfer fee, buyer-borne']
+    ],
+    progress:[
+      ['Structure',100,true],
+      ['Lifts & plumbing',82,false],
+      ['Society corpus',68,false],
+      ['Common area upkeep',75,false]
+    ],
+    amenities:['Covered parking','Children’s play area','Community hall','Power backup (common)','24×7 security','Rainwater harvesting','Visitor parking','Borewell backup'],
+    connectivity:[
+      ['Financial District','6.8 km','18 min'],
+      ['Gachibowli','7.4 km','19 min'],
+      ['HITEC City metro','4.6 km','13 min'],
+      ['Outer Ring Road','3.2 km','8 min'],
+      ['Delhi Public School','1.4 km','5 min'],
+      ['Continental Hospital','4.1 km','11 min'],
+      ['Manikonda bus depot','0.9 km','3 min']
+    ],
+    objections:[
+      ['Twelve-year-old building needs an engineer’s report','Plumbing stacks and lift condition are the two failure points. Get a structural and MEP inspection before you pay a token amount.'],
+      ['Title chain needs a clean search','Resale files in older societies often have an unregistered power of attorney or an unresolved mutation. Insist on a 30-year title search.'],
+      ['Society transfer fee is buyer-borne','The transfer fee and any pending dues are typically on you. Get a no-dues certificate from the association before registration.'],
+      ['Monsoon drainage on internal roads','Visit during or immediately after rain. Manikonda’s internal roads flood, and no brochure will tell you that.']
+    ],
+    facts:[['Project type','Apartment, resale'],['Possession','Immediate'],['TSRERA','P02400000189'],['Metro','1.2 km'],['Payment plan','Lump sum / home loan'],['Density','3 units / floor']],
+    similar:['sunrise','skyline','vista']
+  },
+  {
+    id:'sunrise', name:'Sunrise Township', short:'Sunrise', builder:'ramky', locality:'bachupally',
+    type:'flat', typeLabel:'Apartment', stage:'Pre-launch', band:'50-100',
+    price:'₹46 L – ₹72 L', from:4600000, perSqft:'₹5,600 / sqft', possession:'Mar 2028 (builder-committed)',
+    rera:'P02400000201', reraStatus:'Registered & active', metro:'Planned corridor',
+    tagline:'Township amenity at an entry price, on a schedule to watch.',
+    images:[IMG.villa, IMG.lobby, IMG.skyline],
+    read:[
+      'If your budget is genuinely under ₹75 lakh and you work in the west, the north corridor is the only honest answer. Sunrise Township delivers a swimming pool, a clubhouse and a proper internal road network at a price the western corridors left behind three years ago.',
+      'The millennial format works for first homes. One-bedroom stock is small but efficient, and the two-bedroom corner units are the best value in the project. If you can stretch, those are the ones to hold.',
+      'The schedule, however, is a promise rather than a plan. Pre-launch projects in this corridor routinely slip six to twelve months at the approval stage. Pay against construction milestones only, and never against a calendar date.'
+    ],
+    quote:{ text:'At this price you can forgive a lot. You cannot forgive paying 40% before the foundation is poured.', by:'Aarav Reddy · Buyer’s consultant' },
+    units:[
+      ['1 BHK — compact','645 sqft','₹46 L – ₹52 L','44 of 120'],
+      ['2 BHK — standard','980 sqft','₹56 L – ₹64 L','62 of 148'],
+      ['2 BHK — corner','1,120 sqft','₹64 L – ₹72 L','28 of 72']
+    ],
+    plan:[
+      ['On booking','10%','Unit reservation'],
+      ['On agreement','15%','Within 30 days'],
+      ['On foundation','10%','Excavation and foundation complete'],
+      ['On slabs (5 stages)','40%','Per slab milestone'],
+      ['On finishing & possession','25%','Handover']
+    ],
+    progress:[
+      ['Approvals & layout',86,false],
+      ['Excavation',18,false],
+      ['Structure & slabs',4,false],
+      ['Façade & glazing',0,false],
+      ['Amenities',0,false]
+    ],
+    amenities:['Clubhouse','Swimming pool','Gymnasium','Internal roads','Kids’ play area','Jogging track','Visitor parking','Power backup','24×7 security','Rainwater harvesting','Sewage treatment plant','Mini amphitheatre'],
+    connectivity:[
+      ['Financial District','19 km','48 min'],
+      ['Miyapur metro','6.4 km','17 min'],
+      ['Outer Ring Road','7.1 km','19 min'],
+      ['HITEC City','17 km','44 min'],
+      ['Bachupally junction','1.6 km','5 min'],
+      ['Sri Chaitanya School','2.2 km','6 min'],
+      ['Nizampet clinics','3.1 km','9 min']
+    ],
+    objections:[
+      ['Pre-launch with construction at 4%','You are effectively funding land and approvals. Prefer construction-linked payment and demand the current approval status in writing.'],
+      ['Possession is committed, not guaranteed','The builder’s track record includes seven-month slippage twice. Negotiate a rent-compensation clause for delay beyond March 2028.'],
+      ['Water and STP capacity unverified','Ask for the water source declaration and STP design capacity for the full township, not just phase 1.'],
+      ['Commute is 45–70 minutes','Do a real peak-hour drive to your workplace before booking. This is the single biggest regret north-corridor buyers report.']
+    ],
+    facts:[['Project type','Apartment, township'],['Possession','Mar 2028 (committed)'],['TSRERA','P02400000201'],['Metro','Planned corridor'],['Payment plan','Construction-linked'],['Density','6 units / floor']],
+    similar:['heritage','vista','skyline']
+  },
+  {
+    id:'airview', name:'Airview Plots', short:'Airview', builder:'sumadhura', locality:'shamshabad',
+    type:'plot', typeLabel:'Residential plot', stage:'Ready — registered', band:'200plus',
+    price:'₹2,200 – ₹3,500 / sq yd', from:4400000, perSqft:'₹2,850 / sq yd (avg)', possession:'Immediate — plot registration',
+    rera:'DTCP approved layout', reraStatus:'DTCP approved (not TSRERA project)', metro:'No',
+    tagline:'A land bet near the airport. Verify everything twice.',
+    images:[IMG.skyline, IMG.villa, IMG.lobby],
+    read:[
+      'Plots are the most emotionally efficient purchase in Indian real estate and the easiest to get wrong. Airview’s proposition is straightforward: airport proximity, an approved layout, and prices that have more than doubled in narrative value over five years.',
+      'The fundamentals are better than most in the south corridor. The layout is approved, internal roads are formed, and the developer is a thirty-year-old firm with clean documentation habits. Plot sizes are realistic rather than aspirational.',
+      'What you are buying, though, is a ten-year thesis on the airport and aerospace cluster, not a home you can occupy next month. There is no rental market to speak of, and construction of a villa on the plot will add ₹45–60 lakh before it is liveable. Buy this only with capital you can leave alone.'
+    ],
+    quote:{ text:'A plot is a promise about the future. Read the approval file before you believe the brochure.', by:'Aarav Reddy · Buyer’s consultant' },
+    units:[
+      ['200 sq yd — interior','1,800 sqft','₹44 L – ₹58 L','16 available'],
+      ['267 sq yd — park facing','2,403 sqft','₹62 L – ₹82 L','9 available'],
+      ['330 sq yd — corner','2,970 sqft','₹78 L – ₹1.05 Cr','4 available']
+    ],
+    plan:[
+      ['On booking','10%','Plot reservation'],
+      ['On agreement','40%','Within 30 days'],
+      ['On registration','50%','At sub-registrar, plot transferred in your name']
+    ],
+    progress:[
+      ['DTCP layout approval',100,true],
+      ['Internal roads',100,true],
+      ['Water & drainage lines',74,false],
+      ['Avenue plantation',46,false],
+      ['Community park',28,false]
+    ],
+    amenities:['DTCP approved layout','40 ft internal roads','Underground drainage','Street lighting','Avenue plantation','Community park','Compound wall','Water connection'],
+    connectivity:[
+      ['Rajiv Gandhi International Airport','9.4 km','14 min'],
+      ['Outer Ring Road','6.2 km','11 min'],
+      ['Shamshabad town','3.8 km','8 min'],
+      ['Financial District','24 km','34 min'],
+      ['Aerospace park','7.6 km','13 min'],
+      ['Rajendranagar','8.1 km','16 min'],
+      ['Proposed metro phase 2','—','Announced only']
+    ],
+    objections:[
+      ['No TSRERA registration — this is a layout, not a project','DTCP approval is necessary but not sufficient. Verify the sanctioned layout copy, LRS status and the encumbrance certificate independently.'],
+      ['Proposed metro is a headline, not a plan','Phase 2 alignment is announced only. Do not pay a premium for a station that has not been sanctioned.'],
+      ['No rental market today','Underwrite this with zero rental income for at least five years. If you need yield, this is the wrong asset.'],
+      ['Building a villa costs ₹45–60 lakh more','Factor the build cost, compound wall and borewell before you compare this to a flat purchase.']
+    ],
+    facts:[['Asset type','Residential plot'],['Possession','Immediate — registration'],['Approval','DTCP layout'],['Metro','None today'],['Payment plan','Lump sum'],['Plot sizes','200–330 sq yd']],
+    similar:['greenview','sunrise','heritage']
+  }
+];
+
+const INSIGHTS = [
+  { img:IMG.skyline, cat:'Market data', title:'Hyderabad price movement, corridor by corridor', body:'What actually moved between 2021 and 2026, which corridors led, and where the appreciation was priced on narrative rather than transactions.', cta:'Read the note' },
+  { img:IMG.lobby, cat:'Legal', title:'The TSRERA checklist we run before any booking', body:'Eleven checks on registration currency, disclosure completeness, encumbrance and approval status — with the exact documents to request.', cta:'Open the checklist' },
+  { img:IMG.villa, cat:'Due diligence', title:'Villa versus apartment in Hyderabad', body:'Maintenance cost, resale liquidity, plot ownership and the hidden costs of each format, compared on the same budget.', cta:'Read the comparison' },
+  { img:IMG.skyline, cat:'Finance', title:'What ₹1.5 crore actually costs you', body:'A full cost sheet for a representative flat: stamp duty, registration, corpus, parking, GST and the first five years of interest.', cta:'See the cost sheet' },
+  { img:IMG.lobby, cat:'Builder risk', title:'How we score a builder', body:'The four signals, their weights, and the three cases where we deliberately override the score with a written warning.', cta:'Read the method' },
+  { img:IMG.villa, cat:'Buyer advice', title:'Ten agreement clauses worth renegotiating', body:'Delay penalties, clubhouse timelines, parking allocation, maintenance escalation and the corpus fund clause most buyers miss.', cta:'Open the list' }
+];
+
+const FAQS = [
+  ['Do buyers pay anything at all?','No. There is no consultation fee, access fee, listing upgrade or registration markup. We are compensated by the developer on a successful closure, typically between 2% and 4%, and we disclose that schedule in writing for any project you are considering. If anyone asks you to pay us, it is not us.'],
+  ['How do you score a builder?','Four published signals: RERA compliance and disclosure completeness, delivery timeliness against committed possession dates, legal record including disclosed litigation and encumbrances, and after-sales service from buyers we have placed. Each is scored out of 10 and weighted; where a builder has a material issue that the score understates, we add a written warning to their dossier.'],
+  ['Where does the price data come from?','Indicative asking bands compiled from registered transaction data, primary sales desks and our own enquiry logs between January and September 2026. They are screening ranges, not valuations. Always obtain an independent valuer’s opinion before you commit.'],
+  ['Can I visit a project without speaking to a sales team first?','Yes, and we recommend it. A guided visit with our consultant means you see the site with someone whose incentive is your repeat business rather than a single booking. You get a written visit note within 24 hours covering what was promised and what to verify.'],
+  ['Do you cover projects we have not listed?','Frequently. The six projects here are a demonstration shortlist. If you send us three projects you are circling, we will return a written comparison of delivery risk, true cost per sqft and the clauses worth renegotiating — whether or not we represent them.'],
+  ['Is this an official portal or a booking platform?','Neither. This is an independent research and advisory desk operated by a TSRERA-registered channel partner. We do not accept bookings, hold advances or issue allotments. All figures on this site are illustrative demo content for a portfolio project.']
+];
+
+const TICKS = [
+  ['West Hyderabad median', '₹8,650 / sqft', '+11.4% YoY'],
+  ['Kokapet', '₹7,950 / sqft', '+15.8% YoY'],
+  ['Narsingi', '₹7,400 / sqft', '+9.2% YoY'],
+  ['Manikonda', '₹6,900 / sqft', '+7.1% YoY'],
+  ['North corridor', '₹6,150 / sqft', '+12.3% YoY'],
+  ['Shamshabad plots', '₹2,850 / sq yd', '+18.6% YoY'],
+  ['Ready stock absorption', '82%', 'of new completions'],
+  ['Median possession slippage', '5.4 months', 'across tracked builders']
+];
+</script>
+
+<script>
+(function(){
+'use strict';
+
+/* ---------- helpers ---------- */
+const $  = (s, r=document) => r.querySelector(s);
+const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+const goTo = (target, opts={}) => {
+  const el = typeof target === 'string' ? $(target) : target;
+  if (!el || typeof el.getBoundingClientRect !== 'function') return;
+  const headerH = window.innerWidth > 1024 ? 68 : 62;
+  const top = el.getBoundingClientRect().top + window.scrollY - headerH - 6;
+  try { window.scrollTo({ top, behavior: 'smooth' }); } catch(e){ window.scrollTo(0, top); }
+};
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const inr = n => '₹' + Math.round(n).toLocaleString('en-IN');
+const cr = n => {
+  if (n >= 10000000) return '₹' + (n/10000000).toFixed(2).replace(/\.00$/,'') + ' Cr';
+  return '₹' + (n/100000).toFixed(0) + ' L';
+};
+const loc = id => LOCALITIES.find(l => l.id === id);
+const bld = id => BUILDERS.find(b => b.id === id);
+const prj = id => PROJECTS.find(p => p.id === id);
+const ICON = {
+  arrow:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>',
+  check:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg>',
+  pin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>',
+  warn:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v5"/><path d="M12 17h.01"/><path d="M10.3 3.6 2.6 17a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 3.6a2 2 0 0 0-3.4 0z"/></svg>',
+  star:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="m12 3 2.8 5.9 6.2.8-4.6 4.3 1.2 6.2L12 17.3 6.4 20.2l1.2-6.2L3 9.7l6.2-.8L12 3z"/></svg>',
+  spark:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18"/></svg>'
+};
+
+/* ---------- toast ---------- */
+let toastT;
+function toast(msg){
+  const t = $('#toast'); $('#toastText').textContent = msg;
+  t.classList.add('show'); clearTimeout(toastT);
+  toastT = setTimeout(() => t.classList.remove('show'), 2600);
+}
+
+/* ---------- state ---------- */
+const state = { zone:'all', type:'all', band:'', ready:false };
+let shortlist = [];
+try { shortlist = JSON.parse(localStorage.getItem('mh_shortlist') || '[]').filter(id => prj(id)); } catch(e){ shortlist = []; }
+
+function saveShortlist(){
+  try { localStorage.setItem('mh_shortlist', JSON.stringify(shortlist)); } catch(e){}
+}
+
+/* ============================================================
+   RENDER: TICKER
+   ============================================================ */
+function renderTicker(){
+  const one = TICKS.map(([label, val, delta]) =>
+    `<span class="tick"><span class="sep"></span>${esc(label)} <b>${esc(val)}</b> <span class="up">${esc(delta)}</span></span>`
+  ).join('');
+  $('#tickerTrack').innerHTML = `<span class="tick">Hyderabad residential snapshot · Nov 2026</span>${one}${one}`;
+}
+
+/* ============================================================
+   RENDER: LOCALITIES
+   ============================================================ */
+function renderLocalities(){
+  const list = LOCALITIES.filter(l => state.zone === 'all' || l.zone === state.zone);
+  $('#localityGrid').innerHTML = list.map((l, i) => `
+    <article class="l-card reveal" data-d="${(i % 4) + 1}" data-lid="${l.id}" tabindex="0" role="button" aria-label="Locality note: ${esc(l.name)}">
+      <div class="l-card__top">
+        <div>
+          <div class="l-card__name">${esc(l.name)}</div>
+          <div class="l-card__zone">${esc(l.zoneLabel)}</div>
+        </div>
+        <span class="chip ${l.trend.startsWith('+') ? 'chip--ok' : 'chip--warn'}"><span class="chip__dot"></span>${esc(l.trend)}</span>
+      </div>
+      <div class="l-card__px"><b>₹${l.pxLow.toLocaleString('en-IN')}</b><small>– ₹${l.pxHigh.toLocaleString('en-IN')} / ${esc(l.unit)}</small></div>
+      <div class="l-card__bars" aria-hidden="true">
+        ${l.bars.map((v, j) => `<i style="--h:${v};transition-delay:${j * 45}ms"></i>`).join('')}
+      </div>
+      <div class="l-card__foot">
+        <span>${l.projects} tracked · yield ${esc(l.yield)}</span>
+        <span class="arrow">${ICON.arrow}</span>
+      </div>
+    </article>`).join('');
+  observeReveals();
+  $$('#localityGrid .l-card').forEach(card => {
+    const open = () => {
+      const l = loc(card.dataset.lid);
+      state.zone = l.zone; state.type = 'all'; state.band = ''; state.ready = false;
+      syncFilterUI();
+      renderProjects();
+      goTo('#projects');
+      toast(`${l.name} · ${l.projects} projects tracked`);
+    };
+    card.addEventListener('click', open);
+    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+  });
+}
+
+/* ============================================================
+   RENDER: BUILDERS
+   ============================================================ */
+function scoreWord(s){
+  if (s >= 8.8) return 'Very high confidence';
+  if (s >= 8.2) return 'High confidence';
+  if (s >= 7.6) return 'Moderate confidence';
+  return 'Proceed with caution';
+}
+function renderBuilders(){
+  $('#builderList').innerHTML = BUILDERS.map((b, i) => `
+    <article class="b-row reveal" data-d="${(i % 4) + 1}" data-bid="${b.id}" tabindex="0" role="button" aria-label="Builder dossier: ${esc(b.name)}">
+      <div class="b-mono">${esc(b.mono)}</div>
+      <div>
+        <div class="b-row__name">${esc(b.name)}</div>
+        <div class="b-row__sub">
+          <span>${esc(b.hq)}</span><span>·</span><span>Since ${b.founded}</span><span>·</span>
+          <span class="chip chip--ok" style="font-size:.62rem;padding:.16rem .5rem"><span class="chip__dot"></span>TSRERA</span>
+        </div>
+      </div>
+      <div class="b-row__score">
+        <div class="lbl"><span>Delivery confidence</span><b>${b.score.toFixed(1)} / 10</b></div>
+        <div class="bar" style="--w:${b.score * 10}%"><i></i></div>
+      </div>
+      <div style="display:flex;align-items:center;gap:.6rem">
+        <span class="chip chip--line" style="font-size:.64rem">${b.hyderabadProjects} live</span>
+        <span class="b-row__go">${ICON.arrow}</span>
+      </div>
+    </article>`).join('');
+  observeReveals();
+  $$('#builderList .b-row').forEach(row => {
+    const open = () => openDetail('builder', row.dataset.bid);
+    row.addEventListener('click', open);
+    row.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+  });
+}
+
+/* ============================================================
+   RENDER: PROJECTS
+   ============================================================ */
+function stageChip(stage){
+  if (/Ready|Immediate/i.test(stage)) return { cls:'chip--ok', label: stage };
+  if (/Pre-launch/i.test(stage)) return { cls:'chip--warn', label: stage };
+  return { cls:'chip--info', label: stage };
+}
+function renderProjects(){
+  const list = PROJECTS.filter(p => {
+    const l = loc(p.locality);
+    const zoneOk = state.zone === 'all' || l.zone === state.zone || (state.zone === 'west' && l.zone === 'central');
+    const typeOk = state.type === 'all' || p.type === state.type;
+    const bandOk = !state.band || p.band === state.band;
+    const readyOk = !state.ready || /Ready|Immediate/i.test(p.stage);
+    return zoneOk && typeOk && bandOk && readyOk;
+  });
+
+  $('#projectGrid').innerHTML = list.map((p, i) => {
+    const l = loc(p.locality), b = bld(p.builder);
+    const sc = stageChip(p.stage);
+    const inList = shortlist.includes(p.id);
+    return `
+    <article class="card p-card reveal" data-d="${(i % 3) + 1}" data-pid="${p.id}">
+      <div class="p-card__media">
+        <img src="${p.images[0]}" alt="${esc(p.name)} — ${esc(l.name)}" loading="lazy" width="1400" height="787">
+        <div class="p-card__top">
+          <span class="chip ${sc.cls}"><span class="chip__dot"></span>${esc(sc.label)}</span>
+          <label class="cmp" title="Add to comparison">
+            <input type="checkbox" class="cmp-input" data-cid="${p.id}" ${inList ? 'checked' : ''} aria-label="Add ${esc(p.name)} to comparison">
+            <span class="cmp__box">${ICON.check}</span>
+            <span>Compare</span>
+          </label>
+        </div>
+        <div class="p-card__foot">
+          <span class="loc">${ICON.pin}${esc(l.name)}</span>
+          <span>${esc(p.typeLabel)}</span>
+        </div>
+      </div>
+      <div class="p-card__body">
+        <div class="p-card__builder">${esc(b.name)}</div>
+        <h3 class="p-card__title">${esc(p.name)}</h3>
+        <div class="p-card__meta">
+          <span>${esc(p.perSqft)}</span>
+          <span>·</span>
+          <span>${esc(p.possession.split('—')[0].trim())}</span>
+        </div>
+        <div class="p-card__price">
+          <div>
+            <span class="amt">${esc(p.price)}</span>
+            <span class="per">TSRERA ${esc(p.rera.split(' ')[0])}</span>
+          </div>
+          <button class="p-card__go" aria-label="Open ${esc(p.name)} dossier">${ICON.arrow}</button>
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+
+  $('#projectEmpty').style.display = list.length ? 'none' : 'block';
+  $('#searchCount').innerHTML = `<strong>${list.length}</strong> project${list.length === 1 ? '' : 's'} live`;
+  observeReveals();
+
+  $$('#projectGrid .p-card').forEach(card => {
+    card.addEventListener('click', e => {
+      if (e.target.closest('.cmp')) return;
+      openDetail('project', card.dataset.pid);
+    });
+  });
+  $$('#projectGrid .cmp-input').forEach(box => {
+    box.addEventListener('change', () => {
+      const id = box.dataset.cid;
+      if (box.checked) {
+        if (shortlist.length >= 4) { box.checked = false; toast('Compare up to four projects at a time'); return; }
+        if (!shortlist.includes(id)) shortlist.push(id);
+      } else {
+        shortlist = shortlist.filter(x => x !== id);
+      }
+      saveShortlist(); syncShortlist();
+    });
+  });
+  syncShortlist();
+}
+
+function syncShortlist(){
+  const n = shortlist.length;
+  $('#shortCount').textContent = n;
+  $('#shortbar').classList.toggle('show', n > 0);
+  document.body.classList.toggle('has-shortbar', n > 0);
+  $('#shortNames').textContent = shortlist.map(id => prj(id).short).join(' · ');
+  const badge = $('#shortlistCount');
+  badge.textContent = n;
+  badge.classList.toggle('on', n > 0);
+  $$('.cmp-input').forEach(box => { box.checked = shortlist.includes(box.dataset.cid); });
+}
+
+/* ============================================================
+   RENDER: INSIGHTS + FAQ
+   ============================================================ */
+function renderInsights(){
+  $('#insightGrid').innerHTML = INSIGHTS.map((x, i) => `
+    <article class="card i-card reveal" data-d="${(i % 3) + 1}">
+      <div class="i-card__media"><img src="${x.img}" alt="" loading="lazy" width="1400" height="787"></div>
+      <div class="i-card__body">
+        <span class="i-card__cat">${esc(x.cat)}</span>
+        <h3>${esc(x.title)}</h3>
+        <p>${esc(x.body)}</p>
+        <button class="link-arrow" data-insight="${i}">${esc(x.cta)} ${ICON.arrow}</button>
+      </div>
+    </article>`).join('');
+  observeReveals();
+  $$('[data-insight]').forEach(btn => btn.addEventListener('click', () => {
+    toast('Research notes are illustrative in this demo build');
+  }));
+}
+
+function renderFaq(){
+  $('#faqList').innerHTML = FAQS.map(([q, a], i) => `
+    <div class="faq__item reveal" data-d="${Math.min(i, 5)}">
+      <button class="faq__q" aria-expanded="false" aria-controls="faqa${i}">
+        <span>${esc(q)}</span>
+        <span class="faq__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+      </button>
+      <div class="faq__a" id="faqa${i}" role="region"><p>${esc(a)}</p></div>
+    </div>`).join('');
+  observeReveals();
+  $$('.faq__q').forEach(btn => btn.addEventListener('click', () => {
+    const item = btn.parentElement;
+    const open = item.classList.contains('open');
+    $$('.faq__item').forEach(x => { x.classList.remove('open'); $('.faq__q', x).setAttribute('aria-expanded','false'); });
+    if (!open) { item.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
+  }));
+}
+
+/* ============================================================
+   FILTERS
+   ============================================================ */
+function syncFilterUI(){
+  $$('[data-lzone]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.lzone === state.zone)));
+  $('#fLocality').value = state.zone === 'all' ? '' : state.zone;
+  $('#fType').value = state.type === 'all' ? '' : state.type;
+  $('#fBudget').value = state.band || '';
+}
+function bindFilters(){
+  $$('[data-lzone]').forEach(btn => btn.addEventListener('click', () => {
+    state.zone = btn.dataset.lzone; syncFilterUI(); renderLocalities();
+    $$('[data-lzone]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.lzone === state.zone)));
+  }));
+  $$('[data-ptype]').forEach(btn => btn.addEventListener('click', () => {
+    state.type = btn.dataset.ptype;
+    $$('[data-ptype]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.ptype === state.type)));
+    renderProjects();
+  }));
+  $('#searchForm').addEventListener('submit', e => {
+    e.preventDefault();
+    state.zone = $('#fLocality').value || 'all';
+    state.type = $('#fType').value || 'all';
+    state.band = $('#fBudget').value; state.ready = false;
+    $$('[data-ptype]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.ptype === state.type)));
+    renderProjects();
+    goTo('#projects');
+  });
+  $$('[data-quick]').forEach(btn => btn.addEventListener('click', () => {
+    const q = btn.dataset.quick;
+    state.zone = 'all'; state.type = 'all'; state.band = ''; state.ready = false;
+    if (q === 'kokapet') { state.zone = 'west'; state.type = 'flat'; state.band = '100-200'; }
+    else if (q === 'ready') { state.ready = true; }
+    else if (q === 'villa') { state.type = 'villa'; }
+    $$('[data-quick]').forEach(b => b.classList.toggle('is-on', b === btn && q !== 'reset'));
+    syncFilterUI(); renderProjects();
+    $$('[data-ptype]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.ptype === state.type)));
+    goTo('#projects');
+  }));
+  $('#resetProjects').addEventListener('click', () => {
+    state.zone='all'; state.type='all'; state.band=''; state.ready=false;
+    syncFilterUI(); renderProjects();
+    $$('[data-ptype]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.ptype === 'all')));
+  });
+}
+
+/* ============================================================
+   COMPARE
+   ============================================================ */
+const CMP_ROWS = [
+  ['Locality', p => loc(p.locality).name],
+  ['Format', p => p.typeLabel],
+  ['Price band', p => p.price],
+  ['Rate', p => p.perSqft],
+  ['Possession', p => p.possession],
+  ['TSRERA', p => p.rera],
+  ['Registration', p => p.reraStatus],
+  ['Builder', p => bld(p.builder).name],
+  ['Builder score', p => bld(p.builder).score.toFixed(1) + ' / 10'],
+  ['Delivery record', p => bld(p.builder).onTime],
+  ['Metro', p => p.metro],
+  ['Payment plan', p => p.plan.length + ' milestones'],
+  ['Key objection', p => p.objections[0][0]]
+];
+function openCompare(){
+  if (!shortlist.length) { toast('Shortlist at least one project to compare'); return; }
+  const items = shortlist.map(prj);
+  $('#compareHead').innerHTML = `<tr><th>Parameter</th>${items.map(p => `<th>${esc(p.name)}<div style="font-family:var(--sans);font-size:.66rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-2);margin-top:.3rem">${esc(loc(p.locality).name)}</div></th>`).join('')}</tr>`;
+  $('#compareBody').innerHTML = CMP_ROWS.map(([label, fn]) =>
+    `<tr><th>${esc(label)}</th>${items.map(p => `<td>${esc(fn(p))}</td>`).join('')}</tr>`
+  ).join('');
+  openModal('#compareModal');
+}
+function openShortlistModal(){
+  const items = shortlist.map(prj);
+  $('#shortlistBody').innerHTML = items.length
+    ? `<div class="dtl-projlist">${items.map(p => `
+        <div class="dtl-projrow" data-open-pid="${p.id}">
+          <img src="${p.images[0]}" alt="">
+          <div>
+            <div class="mini__t">${esc(p.name)}</div>
+            <div class="mini__s">${esc(loc(p.locality).name)} · ${esc(p.typeLabel)}</div>
+            <div class="mini__p">${esc(p.price)}</div>
+          </div>
+          <span class="b-row__go">${ICON.arrow}</span>
+        </div>`).join('')}</div>
+        <p style="font-size:.78rem;color:var(--muted);margin-top:.9rem;line-height:1.65">Shortlists are saved on this device only. Nothing is transmitted to a server.</p>`
+    : `<p class="lede" style="font-size:.9rem">Nothing shortlisted yet. Tap <strong>Compare</strong> on a project card to add it here.</p>`;
+  openModal('#shortlistModal');
+  $$('[data-open-pid]').forEach(r => r.addEventListener('click', () => {
+    closeModal('#shortlistModal'); openDetail('project', r.dataset.openPid);
+  }));
+}
+
+/* ============================================================
+   MODALS
+   ============================================================ */
+function openModal(sel){
+  const m = $(sel); m.classList.add('open'); document.body.classList.add('no-scroll');
+  const f = m.querySelector('button,a,input'); if (f) f.focus({ preventScroll:true });
+}
+function closeModal(sel){
+  const m = $(sel); if (!m) return; m.classList.remove('open');
+  if (!detailOpen) document.body.classList.remove('no-scroll');
+}
+document.addEventListener('click', e => {
+  const c = e.target.closest('[data-close-modal]');
+  if (c) { const m = c.closest('.modal'); if (m) closeModal('#' + m.id); }
+});
+
+/* ============================================================
+   PROJECT / BUILDER DETAIL
+   ============================================================ */
+let detailOpen = null, savedScroll = 0;
+const pdEl = $('#projectDetail'), bdEl = $('#builderDetail');
+
+function factRows(rows){ return rows.map(([k, v]) => `<div class="fact"><span class="l">${k}</span><span class="v">${v}</span></div>`).join(''); }
+
+function renderProjectDetail(p){
+  const l = loc(p.locality), b = bld(p.builder);
+  const sc = stageChip(p.stage);
+
+  $('#pdHeroImg').src = p.images[0];
+  $('#pdKicker').textContent = l.name + ' · ' + p.typeLabel;
+  $('#pdTitle').textContent = p.name;
+  $('#pdCrumb').innerHTML = `<span>Projects</span> / <span>${esc(l.name)}</span> / <strong style="color:var(--text-soft)">${esc(p.name)}</strong>`;
+  $('#pdChips').innerHTML = [
+    `<span class="chip chip--dark"><span class="chip__dot"></span>${esc(p.stage)}</span>`,
+    `<span class="chip chip--dark">${ICON.pin}${esc(l.name)}</span>`,
+    `<span class="chip chip--dark">${esc(p.reraStatus)}</span>`,
+    `<span class="chip chip--dark">${esc(p.metro)}</span>`
+  ].join('');
+  $('#pdPrice').textContent = p.price;
+  $('#pdPriceSub').textContent = p.perSqft + ' · ' + p.possession;
+
+  $('#pdFacts').innerHTML = `
+    <div><div class="k">Format</div><div class="v">${esc(p.typeLabel)}</div><div class="s">${esc(l.zoneLabel)}</div></div>
+    <div><div class="k">Possession</div><div class="v">${esc(p.possession.split('—')[0].trim())}</div><div class="s">${esc(p.stage)}</div></div>
+    <div><div class="k">TSRERA</div><div class="v" style="font-size:.95rem">${esc(p.rera)}</div><div class="s">${esc(p.reraStatus)}</div></div>
+    <div><div class="k">Builder score</div><div class="v">${b.score.toFixed(1)} / 10</div><div class="s">${esc(b.name)}</div></div>`;
+
+  $('#pdRead').innerHTML = p.read.map(t => `<p>${esc(t)}</p>`).join('') +
+    `<blockquote class="quote">${esc(p.quote.text)}<cite>${esc(p.quote.by)}</cite></blockquote>`;
+
+  $('#pdGallery').innerHTML = p.images.map((src, i) =>
+    `<button data-gal="${src}" aria-current="${i === 0}" aria-label="View image ${i + 1}"><img src="${src}" alt="" loading="lazy"></button>`
+  ).join('');
+
+  $('#pdUnits').innerHTML = p.units.map(([cfg, area, price, avail]) =>
+    `<tr><td class="t">${esc(cfg)}</td><td>${esc(area)}</td><td class="p">${esc(price)}</td><td>${esc(avail)}</td></tr>`
+  ).join('');
+
+  $('#pdPlan').innerHTML = p.plan.map(([nm, pc, note], i) =>
+    `<div class="plan__row"><span class="idx">${i + 1}</span><span class="nm">${esc(nm)}</span><span class="pc">${esc(pc)}</span><span class="nt">${esc(note)}</span></div>`
+  ).join('');
+
+  $('#pdProgress').innerHTML = p.progress.map(([nm, pc, done]) =>
+    `<div class="prog__row ${done ? 'done' : ''}" style="--p:${pc}%">
+       <div class="top"><span>${esc(nm)}</span><span>${pc}%</span></div>
+       <div class="prog__bar"><i></i></div>
+     </div>`).join('') +
+    `<p style="font-size:.72rem;color:var(--muted-2);line-height:1.6">Progress as reported in the last quarterly disclosure. Physical site verification is part of every guided visit.</p>`;
+
+  $('#pdAmenities').innerHTML = p.amenities.map(a => `<span class="amenity">${ICON.check}${esc(a)}</span>`).join('');
+
+  $('#pdConn').innerHTML = p.connectivity.map(([place, dist, time]) =>
+    `<div class="conn__row"><span class="l">${ICON.pin}${esc(place)}</span><span class="r">${dist ? esc(dist) : '—'}<small>${esc(time)}</small></span></div>`
+  ).join('');
+
+  $('#pdObjections').innerHTML = p.objections.map(([h, t]) =>
+    `<div class="objection"><span class="ic">${ICON.warn}</span><div><h4>${esc(h)}</h4><p>${esc(t)}</p></div></div>`
+  ).join('');
+
+  $('#pdSimilar').innerHTML = p.similar.map(id => {
+    const s = prj(id), sl = loc(s.locality);
+    return `<article class="mini" data-sim="${s.id}">
+      <div class="mini__img"><img src="${s.images[0]}" alt="" loading="lazy"></div>
+      <div><div class="mini__t">${esc(s.name)}</div><div class="mini__s">${esc(sl.name)}</div><div class="mini__p">${esc(s.price)}</div></div>
+    </article>`;
+  }).join('');
+
+  $('#pdFactsList').innerHTML = factRows(p.facts) +
+    `<div class="fact"><span class="l">Builder</span><span class="v">${esc(b.name)}</span></div>`;
+
+  const base = p.from;
+  const isPlot = p.type === 'plot';
+  const isReady = /ready|immediate/i.test(p.stage);
+  const duty = base * 0.06;
+  const gst = isReady ? 0 : base * 0.05;
+  const corpus = base * 0.01;
+  const parking = isPlot ? 0 : 350000;
+  const total = base + duty + gst + corpus + parking;
+  $('#pdCost').innerHTML = factRows([
+    ['Base price', inr(base)],
+    ['Stamp duty + registration (6%)', inr(duty)],
+    [isPlot ? 'GST' : (isReady ? 'GST (ready — nil)' : 'GST (5%)'), inr(gst)],
+    ['Corpus / maintenance advance', inr(corpus)],
+    [isPlot ? 'Registration extras' : 'Covered parking', inr(parking)],
+    ['<strong>All-in cost</strong>', '<strong>' + inr(total) + '</strong>']
+  ]);
+
+  $('#pdBuilder').innerHTML = `
+    <div style="display:flex;gap:.7rem;align-items:center;margin-bottom:.7rem">
+      <span class="b-mono" style="width:38px;height:38px;border-radius:11px;font-size:.9rem">${esc(b.mono)}</span>
+      <div><div style="font-family:var(--serif);font-size:.98rem;color:var(--ink);line-height:1.25">${esc(b.name)}</div>
+      <div style="font-size:.7rem;color:var(--muted);font-weight:700">${b.score.toFixed(1)} / 10 · ${esc(scoreWord(b.score))}</div></div>
+    </div>
+    <p style="font-size:.77rem;color:var(--muted);line-height:1.65;margin-bottom:.75rem">${esc(b.tagline)}.</p>
+    <button class="btn btn--ghost btn--sm btn--block" data-open-builder="${b.id}">Open builder dossier</button>`;
+
+  $('#pdShortlist').dataset.pid = p.id;
+  const onList = shortlist.includes(p.id);
+  $('#pdShortlist').classList.toggle('btn--gold', onList);
+  $('#pdShortlist').classList.toggle('btn--ghost-light', !onList);
+  $('span', $('#pdShortlist')).textContent = onList ? 'Shortlisted' : 'Shortlist';
+  $('#pdWa').href = `https://wa.me/919999999999?text=${encodeURIComponent('Hi, I would like your notes on ' + p.name + ' in ' + l.name + '.')}`;
+
+  $$('#pdGallery button').forEach(btn => btn.addEventListener('click', () => {
+    $('#pdHeroImg').src = btn.dataset.gal;
+    $$('#pdGallery button').forEach(b => b.setAttribute('aria-current','false'));
+    btn.setAttribute('aria-current','true');
+  }));
+  $$('#pdSimilar .mini').forEach(m => m.addEventListener('click', () => openDetail('project', m.dataset.sim)));
+  const bb = $('[data-open-builder]', $('#pdBuilder'));
+  if (bb) bb.addEventListener('click', () => openDetail('builder', bb.dataset.openBuilder));
+}
+
+function renderBuilderDetail(b){
+  const live = PROJECTS.filter(p => p.builder === b.id);
+  $('#bdTitle').textContent = b.name;
+  $('#bdCrumb').innerHTML = `<span>Builders</span> / <strong style="color:var(--text-soft)">${esc(b.name)}</strong>`;
+  $('#bdChips').innerHTML = [
+    `<span class="chip chip--dark"><span class="chip__dot"></span>${esc(b.tagline)}</span>`,
+    `<span class="chip chip--dark">${esc(b.hq)}</span>`,
+    `<span class="chip chip--dark">Since ${b.founded}</span>`,
+    `<span class="chip chip--dark">${b.pan ? 'Pan-India' : 'Hyderabad focused'}</span>`
+  ].join('');
+  $('#bdScore').textContent = b.score.toFixed(1) + ' / 10';
+  $('#bdScoreSub').textContent = scoreWord(b.score);
+
+  $('#bdFacts').innerHTML = `
+    <div><div class="k">Live projects</div><div class="v">${b.hyderabadProjects}</div><div class="s">tracked in Hyderabad</div></div>
+    <div><div class="k">Delivered</div><div class="v">${b.delivered}</div><div class="s">projects completed</div></div>
+    <div><div class="k">On-time record</div><div class="v" style="font-size:1rem">${esc(b.onTime)}</div><div class="s">against committed dates</div></div>
+    <div><div class="k">Established</div><div class="v">${b.founded}</div><div class="s">${new Date().getFullYear() - b.founded} years operating</div></div>`;
+
+  $('#bdAbout').innerHTML = b.about.map(t => `<p>${esc(t)}</p>`).join('') +
+    `<blockquote class="quote">${esc(b.notable)}<cite>Our summary</cite></blockquote>`;
+
+  const dims = [['RERA compliance', b.compliance], ['Delivery timeliness', b.delivery], ['Legal record', b.legal], ['After-sales service', b.service]];
+  $('#bdScores').innerHTML = dims.map(([nm, v]) =>
+    `<div class="bscore__i" style="--p:${v * 10}%">
+       <div class="top"><span>${esc(nm)}</span><b>${v.toFixed(1)}</b></div>
+       <div class="bar"><i></i></div>
+     </div>`).join('');
+
+  $('#bdDelivery').innerHTML = b.deliveryRows.map(([nm, com, del, verdict]) => {
+    const cls = /late/i.test(verdict) ? 'chip--warn' : 'chip--ok';
+    return `<tr><td class="t">${esc(nm)}</td><td>${esc(com)}</td><td>${esc(del)}</td>
+      <td><span class="chip ${cls}" style="font-size:.64rem">${esc(verdict)}</span></td></tr>`;
+  }).join('');
+
+  $('#bdProjects').innerHTML = live.length ? live.map(p => `
+    <div class="dtl-projrow" data-open-pid="${p.id}">
+      <img src="${p.images[0]}" alt="" loading="lazy">
+      <div>
+        <div class="mini__t">${esc(p.name)}</div>
+        <div class="mini__s">${esc(loc(p.locality).name)} · ${esc(p.stage)}</div>
+      </div>
+      <div style="text-align:right"><div class="mini__p">${esc(p.price)}</div><div class="mini__s">${esc(p.perSqft)}</div></div>
+    </div>`).join('')
+    : `<p style="font-size:.86rem;color:var(--muted)">No live projects from this builder are in the current shortlist. Ask us for their full Hyderabad pipeline.</p>`;
+
+  $('#bdWarnings').innerHTML = b.warnings.map(([h, t]) =>
+    `<div class="objection"><span class="ic">${ICON.warn}</span><div><h4>${esc(h)}</h4><p>${esc(t)}</p></div></div>`
+  ).join('');
+
+  $('#bdSimilar').innerHTML = BUILDERS.filter(x => x.id !== b.id).slice(0, 4).map(x =>
+    `<article class="mini" data-sim-b="${x.id}">
+      <div class="mini__img" style="display:grid;place-items:center;background:var(--sand);font-family:var(--serif);color:var(--ink);font-size:1rem">${esc(x.mono)}</div>
+      <div><div class="mini__t">${esc(x.name)}</div><div class="mini__s">${esc(x.hq)} · ${x.hyderabadProjects} live</div><div class="mini__p">${x.score.toFixed(1)} / 10</div></div>
+    </article>`).join('');
+
+  $('#bdFactsList').innerHTML = factRows([
+    ['Headquarters', esc(b.hq)],
+    ['Founded', b.founded],
+    ['Reach', b.pan ? 'Pan-India' : 'Hyderabad focused'],
+    ['Live projects', b.hyderabadProjects + ' tracked'],
+    ['Delivered', b.delivered + ' projects'],
+    ['On-time record', esc(b.onTime)],
+    ['Delivery score', b.score.toFixed(1) + ' / 10']
+  ]);
+
+  $('#bdTrail').innerHTML = [
+    ['TSRERA registration', 'Verified', 'ok'],
+    ['Disclosure completeness', 'Reviewed', 'ok'],
+    ['Litigation search', b.legal >= 8.5 ? 'Clean' : 'Noted', b.legal >= 8.5 ? 'ok' : 'warn'],
+    ['Last site verification', 'Sep 2026', 'line']
+  ].map(([k, v, t]) => `<div class="fact"><span class="l">${esc(k)}</span><span class="v"><span class="chip chip--${t}" style="font-size:.62rem;padding:.14rem .48rem">${esc(v)}</span></span></div>`).join('');
+
+  $('#bdWa').href = `https://wa.me/919999999999?text=${encodeURIComponent('Hi, I would like to know more about ' + b.name + ' in Hyderabad.')}`;
+
+  $$('#bdProjects [data-open-pid]').forEach(r => r.addEventListener('click', () => openDetail('project', r.dataset.openPid)));
+  $$('#bdSimilar [data-sim-b]').forEach(m => m.addEventListener('click', () => openDetail('builder', m.dataset.simB)));
+}
+
+function openDetail(kind, id, fromHistory){
+  if (kind === 'project') { const p = prj(id); if (!p) return; renderProjectDetail(p); }
+  else { const b = bld(id); if (!b) return; renderBuilderDetail(b); }
+
+  if (!detailOpen) savedScroll = window.scrollY;
+  else {
+    // switching between dossiers: hide the other panel first
+    pdEl.classList.remove('open'); bdEl.classList.remove('open');
+  }
+  detailOpen = kind;
+  document.body.classList.add('no-scroll');
+  const el = kind === 'project' ? pdEl : bdEl;
+  el.classList.add('open');
+  el.scrollTop = 0;
+  requestAnimationFrame(() => { el.classList.add('is-anim'); });
+  const hash = '#/' + kind + '/' + id;
+  if (location.hash === hash) return;
+  try {
+    if (fromHistory) history.replaceState({ kind, id }, '', hash);
+    else history.pushState({ kind, id }, '', hash);
+  } catch(e){}
+}
+function closeDetail(restoreScroll){
+  if (!detailOpen) return;
+  pdEl.classList.remove('open','is-anim'); bdEl.classList.remove('open','is-anim');
+  detailOpen = null;
+  document.body.classList.remove('no-scroll');
+  if (restoreScroll !== false) window.scrollTo(0, savedScroll);
+  if (location.hash.indexOf('#/') === 0) {
+    try { history.replaceState(null, '', location.pathname + location.search + '#projects'); } catch(e){}
+  }
+  pdEl.scrollTop = 0; bdEl.scrollTop = 0;
+}
+document.addEventListener('click', e => {
+  if (e.target.closest('[data-close-detail]')) {
+    const isVisitLink = e.target.closest('[data-open-visit]');
+    if (!isVisitLink) e.preventDefault();
+    // when handing off to an in-page anchor, let that anchor own the scroll
+    closeDetail(isVisitLink ? false : true);
+  }
+});
+window.addEventListener('popstate', () => {
+  const m = location.hash.match(/^#\/(project|builder)\/([\w-]+)/);
+  if (m) { openDetail(m[1], m[2], true); return; }
+  if (detailOpen) closeDetail();
+});
+
+/* ============================================================
+   VISIT FORM
+   ============================================================ */
+function initVisitForm(){
+  const sel = $('#vProject');
+  sel.innerHTML = '<option value="">Select a project</option>' +
+    PROJECTS.map(p => `<option value="${p.id}">${esc(p.name)} — ${esc(loc(p.locality).name)}</option>`).join('');
+
+  const names = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const today = new Date();
+  let chips = '';
+  for (let i = 1; i <= 5; i++) {
+    const d = new Date(today.getTime() + i * 86400000);
+    chips += `<label><input type="radio" name="day" value="${d.toDateString()}" ${i === 1 ? 'checked' : ''}>
+      <span>${d.getDate()} <small>${names[d.getDay()]} · ${months[d.getMonth()]}</small></span></label>`;
+  }
+  $('#dateChips').innerHTML = chips;
+
+  $('#visitForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const msg = $('#visitMsg');
+    msg.className = 'form-msg'; msg.textContent = '';
+    const name = $('#vName').value.trim();
+    const phone = $('#vPhone').value.replace(/\D/g,'');
+    const project = $('#vProject').value;
+    const day = ($('input[name="day"]:checked') || {}).value || '';
+    const slot = ($('input[name="slot"]:checked') || {}).value || '';
+    const errors = [];
+    if (name.length < 2) errors.push('name');
+    if (phone.length < 10) errors.push('phone');
+    if (!project) errors.push('project');
+    if (errors.length) {
+      msg.className = 'form-msg err';
+      msg.textContent = 'Please add ' + (errors.includes('name') ? 'your name' : errors.includes('phone') ? 'a valid 10-digit mobile number' : 'the project you want to visit') + '.';
+      return;
+    }
+    const p = prj(project);
+    const conf = $('#visitConfirm');
+    $('#visitConfirmText').textContent = `${name.split(' ')[0]}, your visit to ${p.name} is pencilled in for ${day.split(' ').slice(0,3).join(' ')} at ${slot}. A consultant will call ${phone.slice(0,2)}•••••${phone.slice(-3)} within 4 working hours to confirm.`;
+    conf.classList.add('show');
+    $$('.visit__steps i').forEach(x => x.classList.add('on'));
+    toast('Visit request recorded');
+    goTo(conf);
+    msg.className = 'form-msg ok';
+    msg.textContent = 'Request received — this demo does not transmit or store your details.';
+  });
+
+  $('#vPhone').addEventListener('input', e => {
+    e.target.value = e.target.value.replace(/[^\d+\s-]/g,'').slice(0, 15);
+  });
+}
+
+/* ============================================================
+   CALCULATOR
+   ============================================================ */
+function initCalc(){
+  const rI = $('#rIncome'), rS = $('#rSavings'), rR = $('#rRate'), rT = $('#rTenure');
+  const paint = el => {
+    const pct = ((el.value - el.min) / (el.max - el.min)) * 100;
+    el.style.setProperty('--pct', pct + '%');
+  };
+  function calc(){
+    const income = +rI.value, savings = +rS.value, rate = +rR.value, tenure = +rT.value;
+    const emi = income * 0.40;
+    const r = rate / 12 / 100, n = tenure * 12;
+    const factor = r === 0 ? 1 / n : (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+    const loan = emi / factor;
+    const duty = 0.06, corpus = 0.01;
+    const total = loan + savings;                 // all cash available
+    const property = total / (1 + duty + corpus);  // price affordable once charges are paid
+    const dutyAmt = property * duty;
+    const corpusAmt = property * corpus;
+    const buffer = savings - (dutyAmt + corpusAmt);
+    const interest = (emi * n) - loan;
+
+    $('#oIncome').textContent = inr(income);
+    $('#oSavings').textContent = inr(savings);
+    $('#oRate').textContent = rate.toFixed(2) + '%';
+    $('#oTenure').textContent = tenure + ' years';
+    [rI, rS, rR, rT].forEach(paint);
+
+    $('#outBudget').textContent = cr(property);
+    $('#outTotal').textContent = cr(total);
+    $('#outLoan').textContent = inr(loan);
+    $('#outEmi').textContent = inr(emi);
+    $('#outDuty').textContent = inr(dutyAmt);
+    $('#outBuffer').textContent = buffer >= 0 ? inr(buffer) : 'short by ' + inr(Math.abs(buffer));
+    $('#outInterest').textContent = inr(interest);
+
+    const fits = LOCALITIES.map(l => {
+      const midPx = (l.pxLow + l.pxHigh) / 2;
+      const size = l.unit === 'sq yd' ? 267 : 1250;
+      const cost = midPx * size;
+      return { l, cost, diff: cost - property };
+    }).sort((a, b) => Math.abs(a.diff) - Math.abs(b.diff)).slice(0, 4);
+    $('#outFit').innerHTML = fits.map(f =>
+      `<a href="#projects" data-fit="${f.l.id}">${esc(f.l.name.split(' / ')[0])} · ${cr(f.cost)}</a>`
+    ).join('');
+    $$('[data-fit]').forEach(a => a.addEventListener('click', () => {
+      const l = loc(a.dataset.fit);
+      state.zone = l.zone === 'central' ? 'central' : l.zone; state.type = 'all'; state.band = ''; state.ready = false;
+      syncFilterUI(); renderProjects();
+    }));
+  }
+  [rI, rS, rR, rT].forEach(el => el.addEventListener('input', calc));
+  calc();
+}
+
+/* ============================================================
+   ANIMATION: reveal, counters, header
+   ============================================================ */
+let revealObs;
+function observeReveals(){
+  if (!('IntersectionObserver' in window)) { $$('.reveal').forEach(el => el.classList.add('in-view')); return; }
+  if (!revealObs) {
+    revealObs = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting) { en.target.classList.add('in-view'); revealObs.unobserve(en.target); }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+  }
+  $$('.reveal:not(.in-view), .l-card, .b-row').forEach(el => {
+    if (!el.classList.contains('in-view')) revealObs.observe(el);
+  });
+}
+function initCounters(){
+  const nodes = $$('[data-count]');
+  const run = el => {
+    const target = +el.dataset.count;
+    if (!target) { el.textContent = '0'; return; }
+    const dur = 1400, t0 = performance.now();
+    const step = now => {
+      const k = Math.min(1, (now - t0) / dur);
+      el.textContent = Math.round(target * (1 - Math.pow(1 - k, 3))).toLocaleString('en-IN');
+      if (k < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+  if (!('IntersectionObserver' in window)) { nodes.forEach(run); return; }
+  const obs = new IntersectionObserver(en => en.forEach(e => {
+    if (e.isIntersecting) { run(e.target); obs.unobserve(e.target); }
+  }), { threshold: 0.5 });
+  nodes.forEach(n => obs.observe(n));
+}
+function initHeader(){
+  const header = $('#siteHeader');
+  const onScroll = () => {
+    header.classList.toggle('is-stuck', window.scrollY > 40 || detailOpen !== null);
+    header.classList.toggle('is-solid', window.scrollY > 40);
+  };
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  const burger = $('#burger'), drawer = $('#drawer');
+  burger.addEventListener('click', () => {
+    const open = drawer.classList.toggle('open');
+    burger.setAttribute('aria-expanded', String(open));
+  });
+  $$('#drawer a').forEach(a => a.addEventListener('click', () => {
+    drawer.classList.remove('open'); burger.setAttribute('aria-expanded','false');
+  }));
+
+  $('#shortlistBtn').addEventListener('click', openShortlistModal);
+  $('#compareBtn').addEventListener('click', openCompare);
+  $('#shortlistCompareBtn').addEventListener('click', () => { closeModal('#shortlistModal'); openCompare(); });
+  $('#clearShortlist').addEventListener('click', () => {
+    shortlist = []; saveShortlist(); syncShortlist(); toast('Shortlist cleared');
+  });
+  $('#pdShortlist').addEventListener('click', () => {
+    const id = $('#pdShortlist').dataset.pid; if (!id) return;
+    if (shortlist.includes(id)) { shortlist = shortlist.filter(x => x !== id); toast('Removed from shortlist'); }
+    else {
+      if (shortlist.length >= 4) { toast('Compare up to four projects at a time'); return; }
+      shortlist.push(id); toast('Added to shortlist');
+    }
+    saveShortlist(); syncShortlist();
+    const on = shortlist.includes(id);
+    $('#pdShortlist').classList.toggle('btn--gold', on);
+    $('#pdShortlist').classList.toggle('btn--ghost-light', !on);
+    $('span', $('#pdShortlist')).textContent = on ? 'Shortlisted' : 'Shortlist';
+  });
+
+  // smooth anchor + close drawer
+  $$('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', () => {
+      if (a.classList.contains('skip')) return;
+      if (a.getAttribute('href').length < 2) return;
+      const id = a.getAttribute('href').slice(1);
+      if (document.getElementById(id)) {
+        drawer.classList.remove('open'); burger.setAttribute('aria-expanded','false');
+      }
+    });
+  });
+}
+
+/* Visit buttons anywhere */
+document.addEventListener('click', e => {
+  const btn = e.target.closest('[data-open-visit]');
+  if (!btn) return;
+  const target = $('#visit');
+  if (!target) return;
+  setTimeout(() => {
+    goTo(target);
+    setTimeout(() => $('#vName') && $('#vName').focus({ preventScroll:true }), 520);
+  }, 60);
+});
+
+/* Escape closes overlays */
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  $$('.modal.open').forEach(m => closeModal('#' + m.id));
+  if (detailOpen) closeDetail();
+  $('#drawer').classList.remove('open'); $('#burger').setAttribute('aria-expanded','false');
+});
+
+/* ============================================================
+   BOOT
+   ============================================================ */
+renderTicker();
+renderLocalities();
+renderBuilders();
+renderProjects();
+renderInsights();
+renderFaq();
+bindFilters();
+initVisitForm();
+initCalc();
+initCounters();
+initHeader();
+observeReveals();
+
+/* Deep link on load */
+(function(){
+  const m = location.hash.match(/^#\/(project|builder)\/([\w-]+)/);
+  if (m) setTimeout(() => openDetail(m[1], m[2]), 120);
+})();
+
+})();
+</script>
+</body>
+</html>
