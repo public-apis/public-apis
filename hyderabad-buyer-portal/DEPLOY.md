@@ -94,6 +94,45 @@ The page loads entirely from inside that one file, so it needs no internet. Only
 webfonts come from the network; without a connection the text falls back to a system serif and
 sans, and everything else still works.
 
+## Where it already lives online
+
+The work is committed and pushed, so these URLs are live now (public repo, no login needed to view):
+
+| What | URL |
+| --- | --- |
+| Source folder | `https://github.com/lelakolli/public-apis/tree/arena/8c37f24f-public-apis/hyderabad-buyer-portal` |
+| `index.html` (view / raw / download) | `https://github.com/lelakolli/public-apis/blob/arena/8c37f24f-public-apis/hyderabad-buyer-portal/index.html` |
+| Whole branch as a zip | `https://github.com/lelakolli/public-apis/archive/refs/heads/arena/8c37f24f-public-apis.zip` |
+| Pull request (diff, discussion) | `https://github.com/lelakolli/public-apis/pull/1` |
+
+These give people the **code**, not a running site. GitHub shows the file's source, and its raw
+view is served as `text/plain`, so a browser renders it as text rather than the portal. For a link
+that opens the actual portal, host it — §2 above.
+
+### Why there is no live link yet
+
+- GitHub Pages is not enabled on this repo, and enabling it (or creating a new repo for a clean
+  Pages URL) needs a token with `pages`/`repo` write scope. The build token can push branches and
+  open pull requests, but both of those calls return `403 Resource not accessible by integration`.
+- So the hosting step needs one manual click from you. Two options:
+
+**A. GitHub Pages on this repo (3 clicks, no new repo)**
+
+1. Merge PR #1: `https://github.com/lelakolli/public-apis/pull/1` → *Merge pull request*.
+2. Repo → **Settings** → **Pages** → Source: *Deploy from a branch* → branch `master`, folder `/` → **Save**.
+3. The site publishes at `https://lelakolli.github.io/public-apis/hyderabad-buyer-portal/`
+   (GitHub builds this in about a minute; the Actions tab shows the deploy).
+
+Because deep links are hash-based (`#/project/skyline`), they work unmodified on Pages.
+
+**B. Netlify Drop (fastest, no repo changes, shareable in 30 seconds)**
+
+Drag the unzipped `hyderabad-buyer-portal` folder onto `https://app.netlify.com/drop`.
+Cleanest option if you would rather not add a real-estate demo to a fork of `public-apis`.
+
+Whichever you pick, send the resulting URL — that is the link to share with buyers, clients or a
+portfolio reviewer.
+
 ## Before you share publicly — three edits
 
 All of these are in `index.html`:
