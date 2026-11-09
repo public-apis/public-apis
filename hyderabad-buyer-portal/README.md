@@ -32,6 +32,7 @@ hyderabad-buyer-portal/
 ├── index.html                         # the entire portal: markup, design system, data, app logic
 ├── README.md                          # this file
 ├── AUDIT_REPORT.md                    # what was wrong with the original and what changed
+├── DEPLOY.md                          # how to download, host and share it
 └── assets/
     ├── hero-financial-district.jpg    # hero skyline (blue-hour, Financial District feel)
     ├── villa-community.jpg            # gated villa community
