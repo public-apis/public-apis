@@ -75,7 +75,7 @@
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{
-  margin:0;font-family:var(--sans);color:var(--text);background:var(--ivory);overflow-wrap:anywhere;
+  margin:0;font-family:var(--sans);color:var(--text);background:var(--ivory);
   line-height:1.65;font-size:16px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
   overflow-x:hidden;
 }
@@ -268,6 +268,10 @@ body.no-scroll{overflow:hidden}
 
 /* Keyboard hint / mono */
 .mono{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+/* break only genuinely unbreakable strings (ids, urls) so normal text stays
+   double-click selectable */
+.breakable{overflow-wrap:anywhere;word-break:break-word}
+.fact .v,.p-card__price .per,.chip,.dtl-crumb,.mini__s,.b-row__sub{overflow-wrap:anywhere}
 
 /* Reusable media frame */
 .frame{position:relative;overflow:hidden;border-radius:var(--r-lg);background:var(--ink-3)}

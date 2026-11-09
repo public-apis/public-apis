@@ -10,6 +10,10 @@ link, a file, or an editable project.
 `maison-hyderabad-portal.html` — a single 2.4 MB file with the images, styles, data and logic
 embedded. No folder, no server, no internet needed.
 
+A companion `START-HERE.html` sits next to it: a small launcher page whose single button opens the
+portal. If a double-click on the big `.html` file does nothing useful in your file manager, open
+`START-HERE.html` instead — it does the same thing with one extra click.
+
 - **Email / WhatsApp / Telegram / Drive:** attach the file. It opens in any browser on phone or
   desktop. WhatsApp supports it up to 2 GB, Gmail up to 25 MB.
 - **Dropbox / Google Drive:** upload and share the link — but note the recipient will get a
@@ -71,6 +75,24 @@ Once hosted, generate a QR at `api.qrserver.com/v1/create-qr-code/?size=300x300&
 and drop it into a deck or a WhatsApp message. Useful for site-visit desks and print handouts.
 
 ---
+
+## If double-click does nothing
+
+A `.html` file only needs a browser, but file managers sometimes have no default app assigned,
+or open it in a text editor instead.
+
+| Symptom | Fix |
+| --- | --- |
+| File icon is blank / no default app | Right-click → **Open With** → Chrome / Edge / Firefox / Safari → *Always use this app* |
+| Opens in Notepad / TextEdit (you see code) | Same: right-click → Open With → browser. Never save it from the text editor. |
+| Windows shows "How do you want to open this file?" | Choose your browser from the list; tick *Always use this app* |
+| macOS refuses to open a downloaded file | Right-click → **Open With** → Safari or Chrome |
+| Nothing happens at all | Open the browser first, then press `Ctrl+O` (Mac: `Cmd+O`) and pick the file |
+| You only have a phone | Best route: email the file to yourself, or host it (§2) and send the link — mobile file managers rarely open local HTML |
+
+The page loads entirely from inside that one file, so it needs no internet. Only the two
+webfonts come from the network; without a connection the text falls back to a system serif and
+sans, and everything else still works.
 
 ## Before you share publicly — three edits
 
