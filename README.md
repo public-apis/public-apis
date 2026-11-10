@@ -2747,6 +2747,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Auto Body Shop Directory](https://autobodyshopnear.com/developers/body-shop-api) | Find auto body shops by ZIP code, city, location, or profile | No | Yes | No |
+| [Auto.dev](https://docs.auto.dev/v2) | VIN decoding, vehicle listings, specs, OEM build data, recalls, payments and taxes for US vehicles | `apiKey` | Yes | No |
 | [Bike Reliability](https://bikereliability.co.uk/developers) | UK motorcycle reliability ranked by first-time MOT pass rates | No | Yes | Yes |
 | [BoltPatternHQ](https://boltpatternhq.com/mcp/) | Vehicle wheel fitment, bolt pattern (PCD), offset, and center bore specifications | No | Yes | Yes |
 | [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | No |
