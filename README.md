@@ -2815,6 +2815,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SWAPI](https://www.swapi.tech) | All things Star Wars | No | Yes | Yes |
 | [SWAPI GraphQL](https://graphql.org/swapi-graphql) | Star Wars GraphQL API | No | Yes | Unknown |
 | [The Lord of the Rings](https://the-one-api.dev/) | The Lord of the Rings API | `apiKey` | Yes | Unknown |
+| [The Subtitle Database](https://thesubtitledb.org/developer/api) | Subtitles for movies and TV episodes by IMDb or TMDB id | No | Yes | Yes |
 | [The Vampire Diaries](https://vampire-diaries-api.netlify.app/) | TV Show Data | `apiKey` | Yes | Yes |
 | [ThronesApi](https://thronesapi.com/) | Game Of Thrones Characters Data with imagery | No | Yes | Unknown |
 | [TMDb](https://www.themoviedb.org/documentation/api) | Community-based movie data | `apiKey` | Yes | Unknown |
