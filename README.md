@@ -2642,6 +2642,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GraphHopper](https://docs.graphhopper.com/) | A-to-B routing with turn-by-turn instructions | `apiKey` | Yes | Unknown |
 | [GTFS Scorecard](https://github.com/ChelseaKR/gtfs-scorecard/blob/main/docs/api.md) | Data-quality grades and prioritized fixes for 2,400+ public transit GTFS feed records | No | Yes | Yes |
 | [HaulierScope](https://haulierscope.co.uk/developers) | Great Britain goods vehicle and PSV operator licences, change history and public inquiries | No | Yes | Yes |
+| [Headway](https://headway.shivrajsinh.in) | Multi-modal GTFS transit schedules, headway regularity, and timetable lookups | No | Yes | Yes |
 | [Icelandic APIs](http://docs.apis.is/) | Open APIs that deliver services in or regarding Iceland | No | Yes | Unknown |
 | [Impala Hotel Bookings](https://docs.impala.travel/docs/booking-api/) | Hotel content, rates and room bookings | `apiKey` | Yes | No |
 | [India EV Charging Stations](https://ev-charging-stations-api.vercel.app/docs) | Directory of public EV charging stations across India with connector and power specs | No | Yes | Yes |
@@ -2664,6 +2665,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Schiphol Airport](https://developer.schiphol.nl/) | Schiphol | `apiKey` | Yes | Unknown |
 | [SMKlog](https://smklog.com/openapi.json) | Live parcel shipping rates and labels from a plain-words item description | No | Yes | No |
 | [Stadiq](https://stadiq.app/developers) | Road works, transit disruptions and air quality for Antwerp and Flanders | `apiKey` | Yes | No |
+| [Stopwatch](https://transit.shivrajsinh.in) | Open public transit timetable and schedule feeds across 120+ networks in 6 countries | No | Yes | Yes |
 | [Strait of Hormuz Ship Monitor](https://hormuz.data-tracking.net/llms.txt) | Live AIS vessel traffic, crossings and oil flow through the Strait of Hormuz | No | Yes | No |
 | [Tankerkoenig](https://creativecommons.tankerkoenig.de/swagger/) | German realtime gas/diesel prices | `apiKey` | Yes | Yes |
 | [TieredTravel](https://tieredtravel.com/api-docs) | Daily travel costs at budget, mid-range and luxury for 100 cities, plus walking routes | No | Yes | No |
