@@ -530,6 +530,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Alchemy Ethereum](https://www.alchemy.com/docs/) | Ethereum Node-as-a-Service Provider | `apiKey` | Yes | Yes |
 | [Alpha (Mossland)](https://alpha.moss.land/developers) | Korean crypto channel stance + RAG Q&A + canonical entity/topic/event store | No | Yes | Yes |
 | [AlphaGrowth](https://alphagrowth.io/openapi.json) | Crypto project metrics, community growth, funding rounds, investors, chains, fees and DAO treasuries | No | Yes | No |
+| [BaniPool](https://banipool.com/docs/api) | Multichain DEX liquidity pools (Uniswap, Aerodrome, Orca, Raydium) with TVL, volume and fee APR | No | Yes | No |
 | [Binance](https://github.com/binance/binance-spot-api-docs) | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown |
 | [Bitcambio](https://nova.bitcambio.com.br/api/v3/docs#a-public) | Get the list of all traded assets in the exchange | No | Yes | Unknown |
 | [BitcoinAverage](https://apiv2.bitcoinaverage.com/) | Digital Asset Price Data for the blockchain industry | `apiKey` | Yes | Unknown |
