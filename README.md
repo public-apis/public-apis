@@ -1275,6 +1275,7 @@ API | Description | Auth | HTTPS | CORS |
 | [WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/) | WallstreetBets Stock Comments Sentiment Analysis | No | Yes | Unknown | |
 | [Wealthnow](https://app.wealthnow.io/docs/introduction) | Real-time and historical stock and crypto prices, fundamentals, SEC filings, insider and 13F data | `apiKey` | Yes | No | |
 | [XFINLAB](https://www.xfinlab.com/intelligence-api.html) | Market events, sentiment, technical analysis and macro data for stocks | `apiKey` | Yes | Unknown | |
+| [Zeitro](https://www.zeitro.com/developers) | Verbatim US agency mortgage guidelines (Fannie Mae, Freddie Mac, FHA, VA, USDA) with citations | No | Yes | Yes |
 | [XOOMAR](https://xoomar.com/markets/api) | US market data from SEC, FINRA, CFTC and the Fed: filings, insiders, earnings dates, short interest | No | Yes | Yes | |
 | [Yahoo Finance](https://www.yahoofinanceapi.com/) | Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange | `apiKey` | Yes | Yes | |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes | |
