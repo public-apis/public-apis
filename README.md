@@ -916,6 +916,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ToolsFox Utils](https://cf-workers-demo.pianfox345.workers.dev) | Free developer utility API: UUID, timestamps, SHA-256, Base64, URL encode/decode, random strings | No | Yes | Yes |
 | [Tyk](https://tyk.io/open-source-api-gateway/) | Api and service management platform | `apiKey` | Yes | Yes |
 | [unfurlr](https://unfurlr.onrender.com/docs) | Link-preview metadata for any URL: title, Open Graph, Twitter tags, favicon, oEmbed | `apiKey` | Yes | Yes |
+| [Unique.domains](https://unique.domains/api) | Analyse any domain name in depth and search 34 million one-word names for the right one to buy | No | Yes | Yes |
 | [URLpipe](https://urlpipe.dev/docs) | Turn a URL into Markdown, screenshots, metadata or Lighthouse audits, rendered in real Chrome | `apiKey` | Yes | No |
 | [Utilorax](https://utilorax.com/api) | 203 JSON endpoints: hashing, encoding, unit conversion, text, dates and file conversion | `apiKey` | Yes | Yes |
 | [Vornamencheck](https://vornamencheck.de/#api) | Gender probability for a first name, optionally per country; documentation in German | No | Yes | Yes |
