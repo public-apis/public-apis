@@ -2487,6 +2487,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Padel Snipe](https://padelsnipe.com/fr/world/api) | 4,000+ mapped padel clubs across 9 European countries with GPS and courts | No | Yes | Yes |
 | [PadelAPI](https://padelapi.org/docs) | Query professional padel tournament data, player stats, and live match results | `apiKey` | Yes | Yes |
 | [Parlay](https://parlay-api.com/docs) | Real-time sports odds and player props from 45+ sportsbooks and sources across 90+ sports | `apiKey` | Yes | Yes |
+| [PinnRadar](https://pinnradar.com/docs) | Real-time Pinnacle odds, live and prematch, over REST, SSE and WebSocket, with a free tier | `apiKey` | Yes | Yes |
 | [PinnWire](https://pinnwire.com/docs.html) | Real-time Pinnacle odds for 13 sports — live and prematch over REST, WebSocket and SSE drop alerts | `apiKey` | Yes | No |
 | [PlayerElo](https://playerelo.football/api-access) | Player-level Elo ratings, predictions and history for 176 football leagues | `apiKey` | Yes | Unknown |
 | [Premier League Standings ](https://rapidapi.com/heisenbug/api/premier-league-live-scores/) | All Current Premier League Standings and Statistics | `apiKey` | Yes | Unknown |
