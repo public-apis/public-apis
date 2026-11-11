@@ -473,7 +473,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Namedays Calendar](https://nameday.abalin.net) | Provides namedays for multiple countries | No | Yes | Yes |
 | [Non-Working Days](https://github.com/gadael/icsdb) | Database of ICS files for non working days | No | Yes | Unknown |
 | [Non-Working Days](https://isdayoff.ru) | Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other | No | Yes | Yes |
-| [Public Holidays](https://www.abstractapi.com/holidays-api) | Data on national, regional, and religious holidays via API | `apiKey` | Yes | Yes |
+| [Public Holidays](https://www.abstractapi.com/holidays-api) | National, regional, and religious holidays. 100 free requests on signup | `apiKey` | Yes | Yes |
 | [Russian Calendar](https://github.com/egno/work-calendar) | Check if a date is a Russian holiday or not | No | Yes | No |
 | [The Calendar](https://the-calendar.net/api/) | Public holidays for US states and 30 countries plus sports and finance calendars as static JSON | No | Yes | Yes |
 | [UK Bank Holidays](https://www.gov.uk/bank-holidays.json) | Bank holidays in England and Wales, Scotland and Northern Ireland | No | Yes | Unknown |
@@ -890,7 +890,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ScrapingDog](https://www.scrapingdog.com/) | Proxy API for Web scraping | `apiKey` | Yes | Unknown |
 | [Scrappa](https://scrappa.co/docs) | Google Search, Maps, Jobs, YouTube and review site results as structured JSON | `apiKey` | Yes | Yes |
 | [Scrax](https://rapidapi.com/mtaahoperators/api/scrax) | Web scraping API that only bills for successful scrapes | `apiKey` | Yes | Unknown |
-| [Screenshot](https://www.abstractapi.com/website-screenshot-api) | Take programmatic screenshots of web pages from any website | `apiKey` | Yes | Yes |
+| [Screenshot](https://www.abstractapi.com/website-screenshot-api) | Programmatic screenshots of a web page. 100 free requests on signup | `apiKey` | Yes | Yes |
 | [Screenshot Happy](https://screenshot-api-production-ffd7.up.railway.app/docs) | Website screenshot API (PNG/JPEG/PDF) with full-page capture and visual-diff monitors | `apiKey` | Yes | No |
 | [ScreenshotAPI.net](https://screenshotapi.net/) | Create pixel-perfect website screenshots | `apiKey` | Yes | Yes |
 | [SegmentLite](https://segmentlite-api-dfru.fly.dev) | Lightweight event routing and webhook fan-out API alternative to Segment | `apiKey` | Yes | Yes |
@@ -1051,7 +1051,7 @@ API | Description | Auth | HTTPS | CORS |
 | [DropMail](https://dropmail.me/api/#live-demo) | GraphQL API for creating and managing ephemeral e-mail inboxes | No | Yes | Unknown |
 | [Email Spam Tester](https://email-spam-tester.com/api-docs/) | Send a test message and get a spam score, 41 checks with RFC citations and a fix plan | No | Yes | Yes |
 | [EmailJS](https://www.emailjs.com/docs/) | Send emails directly from client-side JavaScript without a backend server | `apiKey` | Yes | Yes |
-| [Email Validation](https://www.abstractapi.com/email-verification-validation-api) | Validate email addresses for deliverability and spam | `apiKey` | Yes | Yes |
+| [Email Validation](https://www.abstractapi.com/email-verification-validation-api) | Validate email deliverability. 100 free requests on signup | `apiKey` | Yes | Yes |
 | [Email Validator by LifeStep](https://email.lifestep.io) | Validate email syntax and MX, detect disposable/role addresses, suggest typo fixes | No | Yes | Yes |
 | [EVA](https://eva.pingutil.com/) | Validate email addresses | No | Yes | Yes |
 | [Guerrilla Mail](https://www.guerrillamail.com/GuerrillaMailAPI.html) | Disposable temporary Email addresses | No | Yes | Unknown |
@@ -1270,7 +1270,7 @@ API | Description | Auth | HTTPS | CORS |
 | [US Freelancer Tax](https://narwhalthepong.github.io/gumroad-license-check/free-tax-finance-api) | 2026 US self-employment tax, quarterly estimates, QBI, mileage and home office deductions | No | Yes | Yes | |
 | [US Mortgage Calculator](https://www.usmortgagecalc.com/developers/api) | Mortgage payment, amortization, affordability and 50-state property tax data | No | Yes | Yes | |
 | [USTariffRates](https://api.ustariffrates.com/openapi.json) | US HTS lookup and origin-specific tariff breakdowns with source context | `apiKey` | Yes | Unknown | |
-| [VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes | Yes | |
+| [VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | Validate VAT numbers and return VAT rates. 100 free requests on signup | `apiKey` | Yes | Yes | |
 | [VoxOdds](https://voxodds.com/api) | Polymarket and Kalshi odds, all-in executable quotes, EV checks and audited forecast scores | No | Yes | No | |
 | [WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/) | WallstreetBets Stock Comments Sentiment Analysis | No | Yes | Unknown | |
 | [Wealthnow](https://app.wealthnow.io/docs/introduction) | Real-time and historical stock and crypto prices, fundamentals, SEC filings, insider and 13F data | `apiKey` | Yes | No | |
@@ -1500,7 +1500,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IP Vigilante](https://www.ipvigilante.com/) | Free IP Geolocation API | No | Yes | Unknown |
 | [ip-api](https://ip-api.com/docs) | Find location with IP address or domain | No | No | Unknown |
 | [IP-API.io](https://ip-api.io) | IP geolocation with VPN/proxy/Tor detection, reputation and risk score | `apiKey` | Yes | Yes |
-| [IP Geolocation](https://www.abstractapi.com/ip-geolocation-api) | Geolocate website visitors from their IPs | `apiKey` | Yes | Yes |
+| [IP Geolocation](https://www.abstractapi.com/ip-geolocation-api) | City, region, and country for any IP. 100 free requests on signup | `apiKey` | Yes | Yes |
 | [IP2Location](https://www.ip2location.com/web-service/ip2location) | IP geolocation web service to get more than 55 parameters | `apiKey` | Yes | Unknown |
 | [IP2Proxy](https://www.ip2location.com/web-service/ip2proxy) | Detect proxy and VPN using IP address | `apiKey` | Yes | Unknown |
 | [ip2geo.dev](https://ip2geo.dev) | Programmatically convert IP addresses into geolocation data | `apiKey` | Yes | Yes |
@@ -2141,7 +2141,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Numverify](https://numverify.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Phone number validation | `apiKey` | Yes | Unknown |
 | [Cloudmersive Validate](https://cloudmersive.com/phone-number-validation-API) | Validate international phone numbers | `apiKey` | Yes | Yes |
 | [Phone Specification](https://github.com/azharimm/phone-specs-api) | Rest Api for Phone specifications | No | Yes | Yes |
-| [Phone Validation](https://www.abstractapi.com/phone-validation-api) | Validate phone numbers globally | `apiKey` | Yes | Yes |
+| [Phone Validation](https://www.abstractapi.com/phone-validation-api) | Validate phone numbers, carrier, and line type. 100 free requests on signup | `apiKey` | Yes | Yes |
 | [PlaceCall](https://api.voygr.tech/docs) | AI agent places phone calls to US businesses and returns the outcome, transcript and recording | `apiKey` | Yes | No |
 | [TextKit](https://jointextkit.com/docs) | Send and receive SMS, verify phones and buy US and Canada numbers; free sandbox | `apiKey` | Yes | No |
 | [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
