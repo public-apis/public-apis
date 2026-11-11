@@ -752,6 +752,7 @@ API | Description | Auth | HTTPS | CORS |
 | [DomainDb Info](https://api.domainsdb.info/) | Domain name search to find all domains containing particular words/phrases/etc | No | Yes | Unknown |
 | [dotsweep](https://dotsweep.com/docs) | Domain availability across 1200+ TLDs with registration and renewal prices | No | Yes | Yes |
 | [DownStatus](https://isitdownstatus.com) | Real-time status for GitHub, AWS, Discord and 90+ services | No | Yes | Yes |
+| [DuckDuckGo](https://api.duckduckgo.com/) | Instant answers, abstracts and definitions | No | Yes | Yes |
 | [EndOfLife.date](https://endoflife.date/docs/api) | Software end-of-life dates and support lifecycles | No | Yes | Yes |
 | [Enterno](https://enterno.io/en/api-docs) | HTTP headers, DNS, SSL, WHOIS and redirect checks as plain text, JSON or CSV | No | Yes | Yes |
 | [ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html) | A simple JSON store API | No | Yes | Yes |
