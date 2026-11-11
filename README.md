@@ -1612,6 +1612,7 @@ API | Description | Auth | HTTPS | CORS |
 | [FIRMSapi](https://docs.firmsapi.com/) | Look up, search and validate US CBP FIRMS facility codes for ports, warehouses and FTZs | `apiKey` | Yes | Yes |
 | [gankdat](https://gankdat.com/docs) | UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON | `apiKey` | Yes | Yes |
 | [Gazette Data, UK](https://www.thegazette.co.uk/data) | UK official public record API | `OAuth` | Yes | Unknown |
+| [Global law](https://lexifina.com/api/global-law) | Legislation of 200+ countries as a dated history: find by citation, read as of a date, search | `apiKey` | Yes | No |
 | [GovContractScout](https://scout.govbidportals.com) | US state & local government contracts: search, details, NAICS lookup and AI match scoring | `apiKey` | Yes | Yes |
 | [Gun Policy](https://www.gunpolicy.org/api) | International firearm injury prevention and policy | `apiKey` | Yes | Unknown |
 | [India LGD Index](https://india-lgd-index-api.vercel.app/docs) | Free, keyless Indian states, districts, sub-districts and development blocks with LGD codes | No | Yes | Yes |
