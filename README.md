@@ -2273,6 +2273,7 @@ API | Description | Auth | HTTPS | CORS |
 | [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) | World Data | No | Yes | No |
 | [WoRMS](https://www.marinespecies.org/rest/) | Marine species taxonomy, synonyms and distributions | No | Yes | No |
 | [xMath](https://x-math.herokuapp.com/) | Random mathematical expressions | No | Yes | Yes |
+| PanchangaAPI | Vedic astrology — Panchanga, birth charts, Dasha predictions, compatibility, Muhurta timing, transits, festivals | `X-API-Key` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
