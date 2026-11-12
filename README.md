@@ -1971,7 +1971,7 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ Back to Index](#index)**
 <br >
 <br >
-### Open Data
+### Open Data - Comprehensive collection of data APIs
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [10ML Fragrance Index](https://mcp.10ml.com/openapi.json) | Perfume knowledge: notes, accords, families, similar scents, houses, guides. By 10ML | No | Yes | Yes |
