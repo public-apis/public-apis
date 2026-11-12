@@ -1989,6 +1989,7 @@ API | Description | Auth | HTTPS | CORS |
 | [BTU Graph](https://btugraph.com/data/) | Source-reviewed energy company knowledge graph and directory exports | No | Yes | Yes |
 | [Caliber](https://caliberapi.com/data/) | Which red dot optics fit which pistols, each fit cited to a maker or retailer | No | Yes | Yes |
 | [Callook.info](https://callook.info) | United States ham radio callsigns | No | Yes | Unknown |
+| [Camp Records](https://davelalande.com/api/) | US national forest and BLM camp records, with sources and dates | No | Yes | Yes |
 | [CARTO](https://carto.com/) | Location Information Prediction | `apiKey` | Yes | Unknown |
 | [CityAlert](https://cityalert.live/developers) | Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official feeds | No | Yes | No |
 | [Close Knit](https://getcloseknit.com/openapi.json) | Neighbourhoods and homes in London and England: sale prices, rents, crime, schools, flood risk | No | Yes | No |
