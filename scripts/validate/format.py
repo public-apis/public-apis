@@ -24,9 +24,14 @@ num_segments = 5
 min_entries_per_category = 3
 max_description_length = 100
 
-anchor_re = re.compile(anchor + '\s(.+)')
-category_title_in_index_re = re.compile('\*\s\[(.*)\]')
-link_re = re.compile('\[(.+)\]\((http.*)\)')
+anchor_re = re.compile(rf"{anchor}\s(.+)")
+category_title_in_index_re = re.compile(r'\*\s\[(.*)\]')
+link_re = re.compile(r'\[(.+)\]\((http.*)\)')
+
+
+# anchor_re = re.compile(anchor + '\s(.+)')
+# category_title_in_index_re = re.compile('\*\s\[(.*)\]')
+# link_re = re.compile('\[(.+)\]\((http.*)\)')
 
 # Type aliases
 APIList = List[str]
@@ -41,9 +46,9 @@ def error_message(line_number: int, message: str) -> str:
 
 def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesLineNumber]:
 
-    categories = {}
-    category_line_num = {}
-
+    categories: Categories = {}
+    category_line_num: CategoriesLineNumber = {}
+    category = None # initially no category to none
     for line_num, line_content in enumerate(contents):
 
         if line_content.startswith(anchor):
@@ -54,7 +59,9 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
         if not line_content.startswith('|') or line_content.startswith('|---'):
             continue
-
+        if category is None:
+            # skip entries before any category header
+            continue
         raw_title = [
             raw_content.strip() for raw_content in line_content.split('|')[1:-1]
         ][0]
