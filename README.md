@@ -1841,6 +1841,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Cohere](https://docs.cohere.com/reference/about) | NLP API for text generation, embeddings, classification and summarization with a free trial tier | `apiKey` | Yes | Yes |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes |
 | [ContextFetch](https://contextfetch.dev/docs) | Web search for AI agents, each result as Markdown pruned to the passages relevant to the query | No | Yes | No |
+| [deAPI](https://docs.deapi.ai) | Open-source AI models for transcription, image, video, speech and music generation, with a free tier | `apiKey` | Yes | Yes |
 | [DeepAI](https://deepai.org/) | Provides AI-powered APIs for text generation, image processing, and more | `apiKey` | Yes | Yes |
 | [Deepcode](https://www.deepcode.ai) | AI for code review | No | Yes | Unknown |
 | [Dialogflow](https://cloud.google.com/dialogflow/docs/) | Natural Language Processing | `apiKey` | Yes | Unknown |
