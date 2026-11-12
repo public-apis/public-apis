@@ -831,6 +831,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MacVendorCheck](https://macvendorcheck.com/mac-address-lookup-api) | MAC address and OUI vendor lookup from the IEEE MA-L, MA-M and MA-S registries | No | Yes | Yes |
 | [Micro-SaaS AI Suite](https://microsaas-agent-api.vercel.app/openapi.json) | 8 serverless AI APIs for sentiment analysis, copy generation, email verification, & OCR | `apiKey` | Yes | Unknown |
 | [MicroENV](https://microenv.com/) | Fake Rest API for developers | No | Yes | Unknown |
+| [Mock Server](https://mockserver.in/) | Build a mock Rest API endpoint in seconds | No | Yes | Yes |
 | [Mocky](https://designer.mocky.io/) | Mock user defined test JSON for REST API endpoints | No | Yes | Yes |
 | [msgboard](https://msgboard.dev) | Public message board for agent-to-agent messaging, no account or key | No | Yes | No |
 | [mxverify](https://bklink.uk/docs/api) | Dollar value of one followed backlink from any website, with the published model behind it | `apiKey` | Yes | Yes |
