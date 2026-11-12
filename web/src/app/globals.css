@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a2e;
+  --card-bg: #f8fafc;
+  --card-border: #e2e8f0;
+  --accent: #6366f1;
+  --accent-hover: #4f46e5;
+  --muted: #64748b;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --sidebar-bg: #f1f5f9;
+}
+
+.dark {
+  --background: #0f0f1a;
+  --foreground: #e2e8f0;
+  --card-bg: #1a1a2e;
+  --card-border: #2d2d44;
+  --accent: #818cf8;
+  --accent-hover: #a5b4fc;
+  --muted: #94a3b8;
+  --success: #34d399;
+  --warning: #fbbf24;
+  --sidebar-bg: #16162a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card-bg: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-muted: var(--muted);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-sidebar-bg: var(--sidebar-bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--sidebar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Smooth transitions */
+.transition-theme {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Card hover effect */
+.api-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.api-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -5px rgba(99, 102, 241, 0.15);
+}
+
+.dark .api-card:hover {
+  box-shadow: 0 8px 25px -5px rgba(129, 140, 248, 0.2);
+}
+
+/* Badge styles */
+.badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+.badge-auth {
+  background: rgba(99, 102, 241, 0.1);
+  color: var(--accent);
+}
+
+.badge-https-yes {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+}
+
+.badge-https-no {
+  background: rgba(245, 158, 11, 0.1);
+  color: var(--warning);
+}
+
+.badge-cors-yes {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+}
+
+.badge-cors-no {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+.badge-cors-unknown {
+  background: rgba(100, 116, 139, 0.1);
+  color: var(--muted);
+}
