@@ -1523,6 +1523,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Longdo Map](https://map.longdo.com/docs/) | Interactive map with detailed places and information portal in Thailand | `apiKey` | Yes | Yes |
 | [Mapbox](https://docs.mapbox.com/) | Create/customize beautiful digital maps | `apiKey` | Yes | Unknown |
 | [MapQuest](https://developer.mapquest.com/) | To access tools and resources to map the world | `apiKey` | Yes | No | Yes
+| [Mapy.cz](https://developer.mapy.cz/en/) | REST API focused (not only) on the Czechia for maps, geocoding, route planning and panoramic imagery | `apiKey` | Yes | Unknown |
 | [Mexico](https://github.com/IcaliaLabs/sepomex) | Mexico RESTful zip codes API | No | Yes | Unknown |
 | [Moradas](https://moradas.dev/docs) | Portuguese address autocomplete and 7-digit postal codes (CP7) | No | Yes | Yes |
 | [MyPincode](https://mypincode.live) | Indian PIN code and postal office lookup | No | Yes | Unknown |
