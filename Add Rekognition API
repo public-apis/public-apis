@@ -1,0 +1,1 @@
+| [Rekognition](https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html?utm_source=chatgpt.com) | Image/video analysis: face detect & compare, object/scene/text recognition, adult content filter. | `apiKey` | Yes | No 
