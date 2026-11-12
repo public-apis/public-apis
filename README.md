@@ -107,6 +107,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [Vitalityfit](https://vitality-fit.de/mcp/#english) | Cheapest offers for health products from German online shops and pharmacies by name, PZN or EAN | No | `HTTP` | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=de.vitality-fit/prices) |
 | [Vuntum](https://github.com/RAAAAAGEEEEE/vuntum-mcp) | Sourced, dated data on consumer robots and physical AI: specs, prices, evidence | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/RAAAAAGEEEEE/vuntum-mcp) |
 | [XposedOrNot](https://xposedornot.com/mcp) | Check an email against known data breaches, read its breach history and get domain breach counts | No | `HTTP` | [Cursor](https://cursor.directory/plugins/xposedornot) · [Glama](https://glama.ai/mcp/connectors/com.xposedornot/xposedornot) |
+| [fixRAgent](https://fixragent.com/docs) | Triage a building maintenance photo: asset, urgency word, trade to call, line for the resident | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/io.github.Russ4102/fixragent) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=fixragent) |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
