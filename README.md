@@ -2292,6 +2292,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Complete Criminal Checks](https://completecriminalchecks.com/Developers) | Provides data of offenders from all U.S. States and Pureto Rico | `apiKey` | Yes | Yes |
 | [CompliAPI](https://docs.compliapi.com) | Screen crypto addresses, emails, websites, IDs and countries against OFAC, EU, UK sanctions lists | `apiKey` | Yes | Yes |
 | [CRXcavator](https://crxcavator.io/apidocs) | Chrome extension risk scoring | `apiKey` | Yes | Unknown |
+| [crt.sh](https://crt.sh/) | Certificate Transparency search for subdomains and cert history | No | Yes | Yes |
 | [CSR.plus](https://csr.plus/docs/api) | Generate certificate signing requests and private keys without OpenSSL | No | Yes | Yes |
 | [dead-drop](https://api.dead-drop.xyz/api/v1/docs) | Ephemeral zero-knowledge encrypted data sharing | No | Yes | Yes |
 | [DefenceLevel Index](https://defencelevel.com/index/api) | Daily cyber threat level (DEFCON 5 to 1) with open method, history in JSON/CSV and a badge | No | Yes | Yes |
