@@ -2538,6 +2538,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UFCalendar Fight Data](https://api.ufcalendar.com/docs) | UFC, PFL, OKTAGON, BKFC and RIZIN events, results, round stats, rankings history | `apiKey` | Yes | Yes |
 | [WhensTheRace](https://whenstherace.com/f1-schedule-json/) | F1 season schedule with UTC session start times as JSON, RSS and iCal | No | Yes | Yes |
 | [Wger](https://wger.de/en/software/api) | Workout manager data as exercises, muscles or equipment | `apiKey` | Yes | Unknown |
+| [YorkerAPI](https://yorkerapi.com/docs) | Cricket ball by ball in every format, men's and women's, with players, ratings and match odds | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
