@@ -193,7 +193,7 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 <br >
 
 ### Animals
-API | Description | Auth | HTTPS | CORS 
+API | Description | Auth | HTTPS | CORS
 |:---|:---|:---|:---|:---|
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
 | [Breed Health Score](https://breedhealthscore.com/developers/) | Dog breed health scores, median lifespans and conditions | No | Yes | No |
