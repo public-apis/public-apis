@@ -1,0 +1,10 @@
+[
+  {
+    "API": "HackMate",
+    "Description": "A cybersecurity tool for ethical hackers",
+    "Auth": "apiKey",
+    "HTTPS": true,
+    "Cors": "yes",
+    "Link": "https://hackmate.io"
+  }
+]
