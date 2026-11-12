@@ -418,6 +418,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Logoapi](https://logoapi.sh/docs) | Free SVG company logos by domain, plus search by name. No signup | No | Yes | Yes |
 | [Mailchimp](https://mailchimp.com/developer/) | Send marketing campaigns and transactional mails | `apiKey` | Yes | Unknown |
 | [mailjet](https://www.mailjet.com/) | Marketing email can be sent and mail templates made in MJML or HTML can be sent using API | `apiKey` | Yes | Unknown |
+| [Markbase](https://api.markbase.co/docs) | Search USPTO trademarks and screen names for potential conflicts | No | Yes | Yes |
 | [markerapi](https://markerapi.com) | Trademark Search | No | No | Unknown |
 | [Meirra](https://meirra.com/api) | SEO monitoring, email verification, lead generation, and marketing analytics | `apiKey` | Yes | Yes |
 | [ORB Intelligence](https://api.orb-intelligence.com/docs/) | Company lookup | `apiKey` | Yes | Unknown |
