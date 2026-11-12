@@ -953,6 +953,7 @@ API | Description | Auth | HTTPS | CORS |
 | [High Valyrian Translators](https://github.com/HVTranslators/high-valyrian-api) | High Valyrian dictionary (400 words with IPA) and Dothraki phrases as free open JSON datasets | No | Yes | Yes |
 | [Indonesia Dictionary](https://new-kbbi-api.herokuapp.com/) | Indonesia dictionary many words | No | Yes | Unknown |
 | [Lingua Robot](https://www.linguarobot.io) | Word definitions, pronunciations, synonyms, antonyms and others | `apiKey` | Yes | Yes |
+| [Lexicala](https://api.lexicala.com/) | Multilingual dictionary data for 50 languages with semantic, syntactic, and phonetic details |`apiKey` | Yes | Unknown |
 | [Merriam-Webster](https://dictionaryapi.com/) | Dictionary and Thesaurus Data | `apiKey` | Yes | Unknown |
 | [Oxford](https://developer.oxforddictionaries.com/) | Dictionary Data | `apiKey` | Yes | No |
 | [Random Lexicon](https://randomlexicon.com/api-reference) | Random words and definitions using optional filters | No | Yes | Yes |
