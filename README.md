@@ -2009,6 +2009,7 @@ API | Description | Auth | HTTPS | CORS |
 | [i6eal Open AI Data](https://i6eal.de/en/tools/data/) | Open datasets on AI policy, regulation and public-sector adoption in Germany and the EU | No | Yes | Yes |
 | [Joshua Project](https://api.joshuaproject.net/) | People groups of the world with the fewest followers of Christ | `apiKey` | Yes | Unknown |
 | [Kaggle](https://www.kaggle.com/docs/api) | Create and interact with Datasets, Notebooks, and connect with Kaggle | `apiKey` | Yes | Unknown |
+| [Keukenprijs-index](https://keukeninbeeld.nl/keukenprijs-index) | Indicative new-kitchen prices in the Netherlands by layout, price segment and 15 brands | No | Yes | Yes |
 | [Kvartiry-Phuket](https://kvartiry-phuket.com/otkrytye-dannye/#english) | Russian-language Phuket real estate guides, asking prices, condo assessment rates, weather, beaches | No | Yes | Yes |
 | [LinkPreview](https://www.linkpreview.net) | Get JSON formatted summary with title, description and preview image for any requested URL | `apiKey` | Yes | Yes |
 | [Lottizen](https://lottizen.com/api) | Lottery draw history and stats (Canada, US, Europe) and Canadian scratch-ticket remaining prizes | `X-Mashape-Key` | Yes | Yes |
