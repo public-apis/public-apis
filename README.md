@@ -952,6 +952,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Free Dictionary](https://dictionaryapi.dev/) | Definitions, phonetics, pronunciations, parts of speech, examples, synonyms | No | Yes | Unknown |
 | [High Valyrian Translators](https://github.com/HVTranslators/high-valyrian-api) | High Valyrian dictionary (400 words with IPA) and Dothraki phrases as free open JSON datasets | No | Yes | Yes |
 | [Indonesia Dictionary](https://new-kbbi-api.herokuapp.com/) | Indonesia dictionary many words | No | Yes | Unknown |
+| [Latin Dictionary](https://latin.71m.us/docs) | Latin-to-English translation with grammatical analysis, declension charts, and examples | No | Yes | Yes |
 | [Lingua Robot](https://www.linguarobot.io) | Word definitions, pronunciations, synonyms, antonyms and others | `apiKey` | Yes | Yes |
 | [Merriam-Webster](https://dictionaryapi.com/) | Dictionary and Thesaurus Data | `apiKey` | Yes | Unknown |
 | [Oxford](https://developer.oxforddictionaries.com/) | Dictionary Data | `apiKey` | Yes | No |
