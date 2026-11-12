@@ -1038,6 +1038,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Email
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [1TempMail](https://www.1tempmail.com/api/) | Instant, secure, and free disposable temporary email service with API and MCP server support. | `apiKey` | Yes | Unknown |
 | [mailboxlayer](https://mailboxlayer.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Email address validation | `apiKey` | Yes | Unknown |
 | [AGPC Domain Check](https://guild.tradeuniquecapital.com/api) | Check a domain's SPF, DKIM, DMARC and MX with a graded shareable report | No | Yes | Yes |
 | [anon.li](https://anon.li/docs/api) | Create and manage anonymous email aliases, forwarding recipients and custom domains | `apiKey` | Yes | No |
