@@ -393,6 +393,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Business
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [AdLib](https://adlibapi.com/docs) | Ad libraries of Meta, Google, TikTok, LinkedIn and 8 more platforms in one API, searched by domain | `apiKey` | Yes | Unknown |
 | [Apache Superset](https://superset.apache.org/docs/api) | API to manage your BI dashboards and data sources on Superset | `apiKey` | Yes | Yes |
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | `apiKey` | Yes | Unknown |
