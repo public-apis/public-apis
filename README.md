@@ -2420,6 +2420,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Instagram](https://www.instagram.com/developer/) | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | Unknown |
 | [Kakao](https://developers.kakao.com/) | Kakao Login, Share on KakaoTalk, Social Plugins and more | `OAuth` | Yes | Unknown |
 | [Lanyard](https://github.com/Phineas/lanyard) | Retrieve your presence on Discord through an HTTP REST API or WebSocket | No | Yes | Yes |
+| [Late](https://docs.getlate.dev) | Schedule posts and get analytics across 13 social media platforms | `apiKey` | Yes | Yes |
 | [Line](https://developers.line.biz/) | Line Login, Share on Line, Social Plugins and more | `OAuth` | Yes | Unknown |
 | [LinkedIn](https://docs.microsoft.com/en-us/linkedin/?context=linkedin/context) | The foundation of all digital integrations with LinkedIn | `OAuth` | Yes | Unknown |
 | [LurkAPI](https://lurkapi.com/docs) | Public posts, profiles, ads and transcripts from 16 social platforms as JSON | `apiKey` | Yes | Yes |
