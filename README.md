@@ -1718,7 +1718,7 @@ API | Description | Auth | HTTPS | CORS |
 <br >
 <br >
 ### Health
-API | Description | Auth | HTTPS | CORS |
+| API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [CheckWaitingTimes](https://checkwaitingtimes.co.uk/developers) | NHS England waiting times by hospital and area: planned care, A&E with live waits, scans, ambulances | No | Yes | Yes |
 | [CMS.gov](https://data.cms.gov/provider-data/) | Access to the data from the CMS - medicare.gov | `apiKey` | Yes | Unknown |
@@ -1772,6 +1772,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Stanza UDI Decoder](https://stanzaapi.com/tools/udi-decoder) | Decode and validate FDA GUDID and EU MDR medical device UDI barcodes | `apiKey` | Yes | No |
 | [THC Open Mindfulness Resources](https://api.theholisticcare.com/docs) | Free mindfulness resources and research metadata | No | Yes | Yes | [Postman](https://www.postman.com/mohanthc-793029/thc-open-mindfulness-api/collection/oz842bb/thc-open-mindfulness-resources-api) |
 | [Urgences Québec](https://sante.handled.tools/api) | Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada | No | Yes | Yes |
+| [WHO GHO OData](https://www.who.int/data/gho/info/gho-odata-api) | Public, unauthenticated query interface for WHO healthcare statistics | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
