@@ -979,7 +979,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CleverUtils](https://cleverutils.com/api) | Convert files between 200+ formats, free with no API key | No | Yes | Yes |
 | [ClickUp](https://clickup.com/api) | ClickUp is a robust, cloud-based project management tool for boosting productivity | `OAuth` | Yes | Unknown |
 | [Clockify](https://clockify.me/developers-api ) | Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems | `apiKey` | Yes | Unknown |
-| [CloudConvert](https://cloudconvert.com/api/v2) | Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation | `apiKey` | Yes | Unknown |
+| [CloudConvert](https://convertidormp3.cc) | Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation | `apiKey` | Yes | Unknown |
 | [Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api) | HTML/URL to PDF/PNG, Office documents to PDF, image conversion | `apiKey` | Yes | Yes |
 | [Code::Stats](https://codestats.net/api-docs) | Automatic time tracking for programmers | `apiKey` | Yes | No |
 | [Convert Online](https://convert.online/api-docs) | Online file converter for image, video, audio, document, ebook, font, archive and CAD formats | `apiKey` | Yes | No |
