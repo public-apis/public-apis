@@ -107,6 +107,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [Vitalityfit](https://vitality-fit.de/mcp/#english) | Cheapest offers for health products from German online shops and pharmacies by name, PZN or EAN | No | `HTTP` | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=de.vitality-fit/prices) |
 | [Vuntum](https://github.com/RAAAAAGEEEEE/vuntum-mcp) | Sourced, dated data on consumer robots and physical AI: specs, prices, evidence | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/RAAAAAGEEEEE/vuntum-mcp) |
 | [XposedOrNot](https://xposedornot.com/mcp) | Check an email against known data breaches, read its breach history and get domain breach counts | No | `HTTP` | [Cursor](https://cursor.directory/plugins/xposedornot) · [Glama](https://glama.ai/mcp/connectors/com.xposedornot/xposedornot) |
+| [YouTube Comments Downloader](https://youtubecommentsdownloader.com/tools/mcp/install) | Export YouTube comments and transcripts to CSV, Excel or JSON from your AI client | `OAuth` | `HTTP` | [Cursor](https://cursor.directory/plugins/youtube-comments-downloader) · [Glama](https://glama.ai/mcp/connectors/io.github.youtube-comments-downloader/youtube-comments-downloader-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.youtube-comments-downloader/youtube-comments-downloader-mcp) |
 
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
