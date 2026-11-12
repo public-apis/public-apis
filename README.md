@@ -257,6 +257,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [AbuseIPDB](https://docs.abuseipdb.com/) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
 | [AlienVault Open Threat Exchange (OTX)](https://otx.alienvault.com/api) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
+| [Bewary](https://bewary.app/docs) | Scam checks for links, domains, phone numbers, emails, crypto wallets and IBANs | `apiKey` | Yes | No |
 | [CAPEsandbox](https://capev2.readthedocs.io/en/latest/usage/api.html) | Malware execution and analysis | `apiKey` | Yes | Unknown |
 | [Google Safe Browsing](https://developers.google.com/safe-browsing/) | Google Link/Domain Flagging | `apiKey` | Yes | Unknown |
 | [IPWhois.net Blacklist](https://ipwhois.net/blacklist/docs) | Community IP blacklist to check and report abusive IP addresses | No | Yes | Unknown |
