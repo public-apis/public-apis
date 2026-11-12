@@ -2858,6 +2858,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Watchmode](https://api.watchmode.com/) | API for finding out the streaming availability of movies & shows | `apiKey` | Yes | Unknown |
 | [Web Series Quotes Generator](https://github.com/yogeshwaran01/web-series-quotes) | API generates various Web Series Quote Images | No | Yes | Yes |
 | [YouTube](https://developers.google.com/youtube/) | Add YouTube functionality to your sites and apps | `OAuth` | Yes | Unknown |
+| [YouTube Transcript](https://www.youtubetranscriptapi.com/) | Clean YouTube transcripts as JSON, plus search, channels and playlists | apiKey | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
