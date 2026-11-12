@@ -1171,6 +1171,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
 | [Marketstack](https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown | |
+| [Akinda](https://b2b.akinda.io/developer/docs) | Halal stock and ETF verdicts under AAOIFI, DJIM, FTSE, MSCI and S&P, with the ratios behind each | `apiKey` | Yes | No | |
 | [Aletheia](https://aletheiaapi.com/) | Insider trading data, earnings call analysis, financial statements, and more | `apiKey` | Yes | Yes | |
 | [Alpaca](https://docs.alpaca.markets/us/docs/about-market-data-api) | Realtime and historical market data on all US equities and ETFs | `apiKey` | Yes | Yes | |
 | [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | `apiKey` | Yes | Unknown | |
