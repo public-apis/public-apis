@@ -141,7 +141,7 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 
 * [Animals](#animals)
 * [Anime](#anime)
-* [Anti-Malware](#anti-malware)
+* [Anti-Malware](#anti-malware-1)
 * [Art & Design](#art--design)
 * [Authentication & Authorization](#authentication--authorization)
 * [Blockchain](#blockchain)
