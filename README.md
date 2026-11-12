@@ -1080,6 +1080,8 @@ API | Description | Auth | HTTPS | CORS |
 | [TempMailGrab](https://tempmailgrab.com/api-docs) | Disposable inboxes for email testing with OTP extraction and webhooks | `apiKey` | Yes | No |
 | [TrustLookup](https://trustlookup.io/docs) | Verify email syntax, MX and live mailbox; detect disposable, role and catch-all addresses | `apiKey` | Yes | No |
 | [uchecker](https://api.uchecker.net/docs) | Bulk email verification with full SMTP server responses | `apiKey` | Yes | Unknown |
+| [Validator API](https://validator-api-jkhm.onrender.com/docs) | Validate emails and phone numbers | `apiKey` | Yes | Yes |
+| [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
 | [Vetto](https://usevetto.com/docs#domain-lookup) | Check email domains in bulk for disposable providers and dead domains, no key needed | No | Yes | Yes |
 | [Xeramail Temp Mail](https://xeramail.com/docs/api) | Temp email address REST API for privacy, testing, automation with OTP extraction | `apiKey` | Yes | No |
