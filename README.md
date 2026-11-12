@@ -1101,6 +1101,7 @@ API | Description | Auth | HTTPS | CORS |
 | [JokeAPI](https://v2.jokeapi.dev/) | Programmable jokes in multiple languages with filtering options | No | Yes | Yes |
 | [justmeme.wtf](https://justmeme.wtf/api-docs) | Free meme API with 2400+ templates, search, trending, and AI generation | No | Yes | Yes |
 | [Meme Maker](https://mememaker.github.io/API/) | REST API for create your own meme | No | Yes | Unknown |
+| [MemeStack](https://memestack.ai/developers?ref=o-sdr006-1) | Search still memes, charts and screenshots by meaning or the words in them; Tenor v2 format | `apiKey` | Yes | Yes |
 | [Memesio](https://memesio.com/developers/api) | Meme creation API with templates, editable captions and hosted share links | No | Yes | No |
 | [NaMoMemes](https://github.com/theIYD/NaMoMemes) | Memes on Narendra Modi | No | Yes | Unknown |
 | [PotterDB](https://docs.potterdb.com/) | Harry Potter universe database with characters, spells, potions and more | No | Yes | Yes |
