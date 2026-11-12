@@ -133,7 +133,7 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 * [API for this project](https://github.com/davemachado/public-api)
 * [Issues](https://github.com/public-apis/public-apis/issues)
 * [Pull Requests](https://github.com/public-apis/public-apis/pulls)
-* [LICENSE](LICENSE) 
+* [LICENSE](LICENSE)
 
 <br />
 
