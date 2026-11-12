@@ -161,6 +161,7 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 * [Environment](#environment)
 * [Events](#events)
 * [Finance](#finance)
+| [Flutterwave](https://developer.flutterwave.com/docs) | Payment gateway API for Africa | `apiKey` | Yes | Unknown |
 * [Food & Drink](#food--drink)
 * [Games & Comics](#games--comics)
 * [Geocoding](#geocoding)
