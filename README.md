@@ -2485,7 +2485,7 @@ API | Description | Auth | HTTPS | CORS |
 | [FanLine Wire](https://fanlinewire.com/docs) | Real-time FanDuel Sportsbook odds — live & in-play and pre-match, with a keyless public snapshot | No | Yes | Yes |
 | [FastballAPI](https://fastballapi.com/docs) | MLB since 2015 plus college baseball: pitches, plate appearances, box scores and sportsbook odds | `apiKey` | Yes | Yes |
 | [Fitbit](https://dev.fitbit.com/) | Fitbit Information | `OAuth` | Yes | Unknown |
-| [Football](https://rapidapi.com/GiulianoCrescimbeni/api/football98/) | A simple Open Source Football API to get squads’ stats, best scorers and more | `X-Mashape-Key` | Yes | Unknown |
+| [Football](https://rapidapi.com/GiulianoCrescimbeni/api/football98/) | A simple Open Source Football API to get squads ’ stats, best scorers and more | `X-Mashape-Key` | Yes | Unknown |
 | [Football (Soccer) Videos](https://www.scorebat.com/video-api/) | Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more | No | Yes | Yes |
 | [Football Charts](https://www.football-charts.com/developers) | Tables, results, model probabilities and Monte Carlo season projections for 93 leagues | `apiKey` | Yes | Yes |
 | [Football Leagues](https://football-api.yuvron.online/reference) | Standings, fixtures, live scores, lineups and player stats for 11 European football competitions | `apiKey` | Yes | Yes |
