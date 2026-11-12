@@ -598,6 +598,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Ironflow](https://docs.ironflow.sh) | Hyperliquid trades, liquidations, candles, funding and wallet data, plus SQL; no key to start | No | Yes | Yes |
 | [Kraken](https://docs.kraken.com/exchange/guides/rest/introduction) | Cryptocurrencies Exchange | `apiKey` | Yes | Unknown |
 | [KuCoin](https://docs.kucoin.com/) | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown |
+| [LaserSell](https://docs.lasersell.io/api/overview) | Automated sell transactions and exit intelligence for Solana DEXs | `apiKey` | Yes | Unknown |
 | [Localbitcoins](https://localbitcoins.com/api-docs/) | P2P platform to buy and sell Bitcoins | No | Yes | Unknown |
 | [Lucyd](https://lucyd.trade/api-docs) | Bitcoin Up/Down prediction markets on testnet: markets, trades, positions, order books | No | Yes | Yes |
 | [MadeOnSol](https://madeonsol.com/developer) | Real-time Solana & Robinhood Chain KOL trades, deployer reputation, and DEX activity | `apiKey` | Yes | Yes |
