@@ -358,6 +358,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Books
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Open Library](https://openlibrary.org/developers/api) | Free | Books, authors, and reading history | NO | NO | JSON |
 | [A Bíblia Digital](https://www.abibliadigital.com.br/en) | Do not worry about managing the multiple versions of the Bible | `apiKey` | Yes | No |
 | [Amanah Sunnah](https://sunnah.amanahagent.cloud/developers) | Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators | `apiKey` | Yes | Yes |
 | [Bayan](https://bayan.alwa7i.com/api) | Arabic Islamic encyclopedia: hadith with grades and takhrij, Quran with tafsir, narrators | No | Yes | Yes |
