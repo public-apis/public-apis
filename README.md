@@ -177,6 +177,7 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 * [Phone](#phone)
 * [Photography](#photography)
 * [Programming](#programming)
+* [QR Code](#qr-code)
 * [Science & Math](#science--math)
 * [Security](#security)
 * [Shopping](#shopping)
@@ -2206,6 +2207,17 @@ API | Description | Auth | HTTPS | CORS |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
 | [Mintlify](https://docs.mintlify.com) | For programmatically generating documentation for code | `apiKey` | Yes | Yes |
 | [OnlineCompiler](https://onlinecompiler.io/docs?utm_source=public-apis) | Compile and run code in 46 languages, with test-case judging and a Judge0-compatible endpoint | `apiKey` | Yes | No |
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+
+### QR Code
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [GoQR](https://goqr.me/api/) | Create QR codes via a simple API | No | Yes | Unknown |
+| [QR.io](https://qr.io) | Create QR codes with logos, shapes, and custom colors (free tier available) | No | Yes | Unknown |
+| [QRCode Monkey](https://www.qrcode-monkey.com/qr-code-api-with-logo) | Generate QR codes with embedded logos, custom colors, and design styles | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
