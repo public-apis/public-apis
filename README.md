@@ -1050,6 +1050,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Disify](https://www.disify.com/) | Validate and detect disposable and temporary email addresses | No | Yes | Yes |
 | [DropMail](https://dropmail.me/api/#live-demo) | GraphQL API for creating and managing ephemeral e-mail inboxes | No | Yes | Unknown |
 | [Email Spam Tester](https://email-spam-tester.com/api-docs/) | Send a test message and get a spam score, 41 checks with RFC citations and a fix plan | No | Yes | Yes |
+| [EmailHealth](https://emailhealth.app/api) | Check a domain's MX, SPF, DKIM, DMARC, blocklists and TLS, with a 0-100 score and fix records | No | Yes | No |
 | [EmailJS](https://www.emailjs.com/docs/) | Send emails directly from client-side JavaScript without a backend server | `apiKey` | Yes | Yes |
 | [Email Validation](https://www.abstractapi.com/email-verification-validation-api) | Validate email addresses for deliverability and spam | `apiKey` | Yes | Yes |
 | [Email Validator by LifeStep](https://email.lifestep.io) | Validate email syntax and MX, detect disposable/role addresses, suggest typo fixes | No | Yes | Yes |
