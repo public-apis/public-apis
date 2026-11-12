@@ -152,6 +152,34 @@ class TestValidadeFormat(unittest.TestCase):
 
         self.assertEqual(err_msg, expected_err_msg)
 
+    def test_check_description_with_empty_description(self):
+        desc = ''
+
+        err_msgs = check_description(0, desc)
+
+        self.assertIsInstance(err_msgs, list)
+        self.assertEqual(len(err_msgs), 1)
+
+        err_msg = err_msgs[0]
+        expected_err_msg = '(L001) description cannot be empty'
+
+        self.assertIsInstance(err_msg, str)
+        self.assertEqual(err_msg, expected_err_msg)
+
+    def test_check_description_with_whitespace_only_description(self):
+        desc = '   '
+
+        err_msgs = check_description(0, desc)
+
+        self.assertIsInstance(err_msgs, list)
+        self.assertEqual(len(err_msgs), 1)
+
+        err_msg = err_msgs[0]
+        expected_err_msg = '(L001) description cannot be empty'
+
+        self.assertIsInstance(err_msg, str)
+        self.assertEqual(err_msg, expected_err_msg)
+
     def test_check_description_with_correct_description(self):
         desc = 'This is a fake description'
 
