@@ -2130,6 +2130,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Vadivelu HTTP Codes](https://vadivelu.anoram.com/) | On demand HTTP Codes with images | No | Yes | No |
 | [VedIntel™ AstroAPI](https://vedintelastroapi.com/docs) | Vedic astrology computation — birth charts, dashas, panchang, AI narratives | `apiKey` | Yes | Yes |
 | [Zen Quotes](https://zenquotes.io/) | Large collection of Zen quotes for inspiration | No | Yes | Yes |
+| [ZFGaaS](https://zfgaas.downormal.dev/sorry) | A tiny API for random, verbose, indifferent apologies | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
