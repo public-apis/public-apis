@@ -8,6 +8,7 @@ from typing import List, Tuple
 import requests
 from requests.models import Response
 
+#Functions
 
 def find_links_in_text(text: str) -> List[str]:
     """Find links in a text and return a list of URLs."""
