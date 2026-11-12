@@ -108,6 +108,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [Vuntum](https://github.com/RAAAAAGEEEEE/vuntum-mcp) | Sourced, dated data on consumer robots and physical AI: specs, prices, evidence | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/RAAAAAGEEEEE/vuntum-mcp) |
 | [XposedOrNot](https://xposedornot.com/mcp) | Check an email against known data breaches, read its breach history and get domain breach counts | No | `HTTP` | [Cursor](https://cursor.directory/plugins/xposedornot) · [Glama](https://glama.ai/mcp/connectors/com.xposedornot/xposedornot) |
 
+|[brianbooms-mcp](https://github.com/brianbooms/brianbooms-mcp)|Brian Booms x402 product catalog as callable agent tools (read-only)|No|stdio|-|
 Maintain an open-source MCP server? [Add it](CONTRIBUTING.md#mcp-servers).
 
 <br >
