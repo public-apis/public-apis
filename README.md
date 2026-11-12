@@ -1178,6 +1178,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Banco do Brasil](https://developers.bb.com.br/home) | All Banco do Brasil financial transaction APIs | `OAuth` | Yes | Yes | |
 | [Bank Data](https://apilayer.com/marketplace/bank_data-api) | Instant IBAN and SWIFT number validation across the globe | `apiKey` | Yes | Unknown | |
 | [Banking Access Index](https://www.globalsolo.global/data/banking-access-index) | Which US business banking providers accept founders by country of residence, with sources | No | Yes | Yes |
+| [Billionaire Tracker](https://billionairetracker.us/developers) | Live net worth, rank and daily change for 3,400+ billionaires, free tier for the top 25 | No | Yes | Yes | |
 | [Billplz](https://www.billplz.com/api) | Payment platform | `apiKey` | Yes | Unknown | |
 | [Binlist](https://binlist.net/) | Public access to a database of IIN/BIN information | No | Yes | Unknown | |
 | [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | `apiKey` | Yes | Unknown | |
