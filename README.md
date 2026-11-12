@@ -937,7 +937,9 @@ API | Description | Auth | HTTPS | CORS |
 | [XLSX Inspector](https://api.lifestep.io) | Inspect XLSX/XLSM structure: sheets, formulas, macros and external links | No | Yes | Yes |
 | [Yumi Wheel Evidence](https://noqt.no-qt.chatgpt.site/yumi/wheel-evidence) | Intersect wheel tags for explicit PyPI releases with caller-supplied tags | No | Yes | Yes |
 | [ZenRows](https://www.zenrows.com/) | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | Unknown |
-
+| [Twitter Search](https://docs.desearch.ai/docs/basic-x-search) | Decentralized Real-time Twitter Search API | `apiKey` | Yes | Yes |
+| [Web Search (SERP)](https://desearch.ai/docs/api-reference/get-web) | Decentralized Real-Time Web Search (SERP) API | `apiKey` | Yes | Yes |
+| [AI Search](https://desearch.ai/) | Decentrilized Real-Time AI Search and Summary | `apiKey` | Yes | Yes |
 
 
 **[⬆ Back to Index](#index)**
