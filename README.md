@@ -177,6 +177,7 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 * [Phone](#phone)
 * [Photography](#photography)
 * [Programming](#programming)
+* [Religion](#religion)
 * [Science & Math](#science--math)
 * [Security](#security)
 * [Shopping](#shopping)
@@ -2206,6 +2207,14 @@ API | Description | Auth | HTTPS | CORS |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
 | [Mintlify](https://docs.mintlify.com) | For programmatically generating documentation for code | `apiKey` | Yes | Yes |
 | [OnlineCompiler](https://onlinecompiler.io/docs?utm_source=public-apis) | Compile and run code in 46 languages, with test-case judging and a Judge0-compatible endpoint | `apiKey` | Yes | No |
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+### Religion
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [Quran.com API](https://alquran.cloud/api) | Provides Quran text, translations, and audio recitations | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
