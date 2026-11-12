@@ -2662,6 +2662,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CruiseFeed](https://cruisefeed.io) | Normalized cruise line inventory: ships, sailings, itineraries, ports and lead-in fares | `apiKey` | Yes | Unknown |
 | [CTS](https://api.cts-strasbourg.eu/) | CTS Realtime API | `apiKey` | Yes | Yes |
 | [FlyItalyADSB](https://flyitalyadsb.com/en/data/api/docs/) | Live and historical ADS-B and MLAT aircraft positions worldwide, from a community receiver network | `apiKey` | Yes | Yes |
+| [GADUIN](https://gaduin.com/agents) | Prediction markets on flight, train and ship arrivals: prices, price history and recent trades | `apiKey` | Yes | No |
 | [Grab](https://developer.grab.com/docs/) | Track deliveries, ride fares, payments and loyalty points | `OAuth` | Yes | Unknown |
 | [GraphHopper](https://docs.graphhopper.com/) | A-to-B routing with turn-by-turn instructions | `apiKey` | Yes | Unknown |
 | [GTFS Scorecard](https://github.com/ChelseaKR/gtfs-scorecard/blob/main/docs/api.md) | Data-quality grades and prioritized fixes for 2,400+ public transit GTFS feed records | No | Yes | Yes |
