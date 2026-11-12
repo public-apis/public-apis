@@ -1441,6 +1441,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Wargaming.net](https://developers.wargaming.net/) | Wargaming.net info and stats | `apiKey` | Yes | No |
 | [weBump](https://developer.webump.app/) | Connect games to nearby players' profiles, small saves and recent visitors with consent | `OAuth` | Yes | Yes |
 | [When is next MCU film](https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md) | Upcoming MCU film information | No | Yes | Unknown |
+| [WOK](https://woksteamapi.com/docs) | Steam inventories, item prices and player profiles for CS2, Rust, TF2 and Dota 2 | `apiKey` | Yes | No |
 | [Worth the Rip](https://worththerip.com/api/) | Sealed trading-card product prices and expected value across 10 TCGs, refreshed every 2 hours | No | Yes | Yes |
 | [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | No |
 | [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
