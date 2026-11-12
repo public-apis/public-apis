@@ -349,6 +349,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SwiftNodes](https://swiftnodes.io) | Multi-chain blockchain RPC nodes (Ethereum, Solana and 75+ networks) | `apiKey` | Yes | Yes |
 | [TWZRD Agent Intel](https://intel.twzrd.xyz) | Solana on-chain agent trust scoring via MCP; 4 free tools to score, resolve and verify AI agent wallets | No | Yes | Yes |
 | [The Graph](https://thegraph.com) | Indexing protocol for querying networks like Ethereum with GraphQL | `apiKey` | Yes | Unknown |
+| [Verifyum](https://verifyum.com/agents) | File timestamp proofs anchored on Solana from a locally computed commitment, no file upload | No | Yes | No |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
 | [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
 
