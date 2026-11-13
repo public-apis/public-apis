@@ -1313,6 +1313,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Food Info](https://food-info.org/developer) | Nutrition data for millions of foods from six national food composition datasets | `apiKey` | Yes | No |
 | [Foodish](https://github.com/surhud004/Foodish#readme) | Random pictures of food dishes | No | Yes | Yes |
 | [Fruityvice](https://www.fruityvice.com) | Data about all kinds of fruit | No | Yes | Unknown |
+| [GustoQR](https://www.gustoqr.com/docs/api) | Restaurant QR menus: read and change menus, items and prices, read orders and tables | `apiKey` | Yes | Yes |
 | [IndiaRestros](https://indiarestros.com/api/docs) | Indian restaurants, menus with rupee prices, dish search and timings across 9,000+ cities | No | Yes | Yes |
 | [Kroger](https://developer.kroger.com/reference) | Supermarket Data | `apiKey` | Yes | Unknown |
 | [LCBO](https://lcboapi.com/) | Alcohol | `apiKey` | Yes | Unknown |
