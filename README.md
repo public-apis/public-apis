@@ -411,6 +411,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Instatus](https://instatus.com/help/api) | Post to and update maintenance and incidents on your status page through an HTTP REST API | `apiKey` | Yes | Unknown |
 | [InvoiceIn](https://invoicein.peculiar.systems/) | Parse and validate received e-invoices: XRechnung, ZUGFeRD, Peppol, FatturaPA, KSeF | `apiKey` | Yes | Yes |
 | [Invovate](https://invovate.com/api) | Generate PDF, JSON & UBL invoices in 11 languages from one JSON POST | `apiKey` | Yes | No |
+| [Jaryo](https://jaryo.org/docs/quickstart/) | Korean company records: official IDs linked, live tax status, English names | `apiKey` | Yes | Yes |
 | [Katalis](https://meetkatalis.com/apis) | UK company checks: payment practices, contracts won, registers, filed accounts, change feed | `apiKey` | Yes | No |
 | [KontragentPro](https://kontragentpro.ru/api/v2/docs) | Russian company data from state registers by INN or OGRN: profile, finances, timeline | No | Yes | Yes |
 | [Leadgen Romania](https://leadgen.adrianhomelab.com/docs) | Romanian company registry, ANAF tax status and financial statements | `apiKey` | Yes | Yes |
