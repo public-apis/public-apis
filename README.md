@@ -2005,6 +2005,7 @@ API | Description | Auth | HTTPS | CORS |
 | [221](https://221.orvlabs.com/documentation) | Senegal reference data: public holidays, mobile operators, banks, communes, legal forms | No | Yes | Yes |
 | [49 Gallery Historical Data](https://api.181649.com/docs) | Normalized historical records and 25 daily-updated reference series | No | Yes | Yes |
 | [AcreLens](https://www.acrelens.com) | Land suitability scoring API for any US property: off-grid, rural, recreational, investment | `apiKey` | Yes | Unknown |
+| [Agent Data Hub](https://api.agentdatahub.de/docs) | Official statistics, central bank rates and FX, with source and licence in every answer | No | Yes | Yes |
 | [API Setu](https://www.apisetu.gov.in/) | An Indian Government platform that provides a lot of APIS for KYC, business, education & employment | No | Yes | Yes |
 | [APIllow](https://apillow.co/docs.html) | Zillow property data: 50+ fields per listing by address, URL, ZPID or ZIP, with sold data and comps | `apiKey` | Yes | Yes |
 | [Archive.org](https://archive.readme.io/docs) | The Internet Archive | No | Yes | No |
