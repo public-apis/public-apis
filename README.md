@@ -2483,6 +2483,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Cito UFC API](https://citoapi.com/ufc-api/) | UFC and MMA fight data: fighters, cards, round stats, rankings and live state | `apiKey` | Yes | No |
 | [City Bikes](https://api.citybik.es/v2/) | City Bikes around the world | No | Yes | Unknown |
 | [Cloudbet](https://www.cloudbet.com/api/) | Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically | `apiKey` | Yes | Yes |
+| [Clutch](https://clutchledger.com/data/) | Pregame NBA win probabilities for every game, graded after the final, as JSON and CSV | No | Yes | Yes |
 | [CollegeFootballData.com](https://collegefootballdata.com) | Unofficial detailed American college football statistics, records, and results API | `apiKey` | Yes | Unknown |
 | [DeepChamp for Agents](https://deepchampai.com/docs/agents) | Free sports slate and matchup research context for AI agents, over REST and MCP; research only | No | Yes | Yes |
 | [DiscGolf](https://discgolfapi.com/docs/) | Structured disc golf course data | No | Yes | Yes |
