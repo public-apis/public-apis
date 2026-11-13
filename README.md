@@ -1778,6 +1778,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) | Public biological age competition data with biomarkers and rankings | No | Yes | Yes |
 | [Makeup](http://makeup-api.herokuapp.com/) | Makeup Information | No | No | Unknown |
 | [MedlinePlus Genetics](https://medlineplus.gov/about/developers/geneticsdatafilesapi/) | Genetic conditions, genes, chromosomes and mtDNA data | No | Yes | Unknown |
+| [Meducate](https://meducateapi.com/docs) | Structured MedlinePlus health topics with ICD-11 codes | `apiKey` | Yes | Yes |
 | [MyVaccination](https://documenter.getpostman.com/view/16605343/Tzm8GG7u) | Vaccination data for Malaysia | No | Yes | Unknown |
 | [NHS Health A-Z](https://digital.nhs.uk/developer/api-catalogue/health-a-to-z) | NHS conditions, medicines and guidance | `apiKey` | Yes | Unknown |
 | [NPI Lookup](https://dataandapis.com/apis/healthcare-providers) | Search 9.4M US healthcare providers by NPI, name, taxonomy or location from NPPES data | `apiKey` | Yes | No |
