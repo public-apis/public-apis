@@ -467,6 +467,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Festivo Public Holidays](https://docs.getfestivo.com/docs/products/public-holidays-api/intro) | Fastest and most advanced public holiday and observance service on the market | `apiKey` | Yes | Yes |
 | [Google Calendar](https://developers.google.com/google-apps/calendar/) | Display, create and modify Google calendar events | `OAuth` | Yes | Unknown |
 | [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) | Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc | No | No | Unknown |
+| [HolidayExplore](https://holidayexplore.com/api-docs/) | Global public holidays and bank closures | No | Yes | Yes |
 | [Holidays](https://holidayapi.com/) | Historical data regarding holidays | `apiKey` | Yes | Unknown |
 | [India Public Holidays](https://calendar-api-web.vercel.app/docs) | Official Indian public holidays for the Central government and 36 states/UTs | No | Yes | Yes |
 | [Intellibook](https://www.intellibookai.com/docs) | Appointment booking and availability API for salons and clinics | No | Yes | Yes |
