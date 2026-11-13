@@ -1251,6 +1251,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Segmara](https://segmara.com/syndicate) | IPO calendars, filing stages and estimated lockup dates | `User-Agent` | Yes | Yes | |
 | [Seiche](https://seiche.info/developers) | Free public funding, FX and capital-market evidence with source clocks | No | Yes | Yes |
 | [SmartAPI](https://smartapi.angelbroking.com/) | Gain access to set of <SmartAPI> and create end-to-end broking services | `apiKey` | Yes | Unknown | |
+| [SmarterDividends](https://smarterdividends.com/dividend-api) | Dividend history, yields, ex-dividend dates, raises and cuts for U.S. stocks and ETFs | No | Yes | Yes | |
 | [Stanza VAT Validator](https://stanzaapi.com/tools/vat-validator) | Validate EU and UK VAT numbers with country formats, checksums, and VIES status | `apiKey` | Yes | No | |
 | [StockData](https://www.StockData.org) | Real-Time, Intraday & Historical Market Data, News and Sentiment API | `apiKey` | Yes | Yes | |
 | [StockFit](https://api.stockfit.io/docs) | SEC filings, financial statements, earnings, ETF holdings and ownership data | `apiKey` | Yes | Yes | |
