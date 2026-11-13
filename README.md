@@ -1410,6 +1410,7 @@ API | Description | Auth | HTTPS | CORS |
 | [mod.io](https://docs.mod.io) | Cross Platform Mod API | `apiKey` | Yes | Unknown |
 | [Mojang](https://wiki.vg/Mojang_API) | Mojang / Minecraft API | `apiKey` | Yes | Unknown |
 | [Monster Hunter World](https://docs.mhw-db.com/) | Monster Hunter World data | No | Yes | Yes |
+| [NeoSatoshi Card Recognition](https://neosatoshi.com/developers/detection-api) | Recognize Pokémon, One Piece, Lorcana, Yu-Gi-Oh! and Magic cards from photos | `apiKey` | Yes | Yes |
 | [Online Sudoku - Sudokumax](https://sudokumax.com/developers) | Free Sudoku puzzles, printable Sudoku worksheets and online play: https://sudokumax.com | `apiKey` | Yes | Yes |
 | [Open Trivia](https://opentdb.com/api_config.php) | Trivia Questions | No | Yes | Unknown |
 | [PandaScore](https://developers.pandascore.co/) | E-sports games and results | `apiKey` | Yes | Unknown |
