@@ -2377,6 +2377,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenShopGraph](https://openshopgraph.com/en/developers/) | Source-dated return, shipping and payment facts for online shops | No | Yes | Unknown |
 | [OpenTiendas](https://opentiendas.dev/redocusaurus/plugin-redoc-0.yaml) | Official e-commerce API and webhooks | `apiKey` | Yes | Unknown |
 | [Pangolinfo Amazon Data](https://docs.pangolinfo.com) | Amazon product, review, search and Best Sellers data across 20+ marketplaces | `apiKey` | Yes | Unknown |
+| [Prezzi in Vista](https://www.prezzinvista.it/developers/) | Offers in the weekly flyers of Italian supermarket and electronics chains, with the nearest store | No | Yes | Yes |
 | [Product Page Extractor](https://rapidapi.com/MohamedBahaa/api/product-page-extractor) | Product name, price, currency, stock and offers from store pages via JSON-LD and OpenGraph | `apiKey` | Yes | Unknown |
 | [Profitvana](https://www.profitvana.com/developers) | Seller fees for 31 marketplaces and payment processors, verified monthly | No | Yes | Yes |
 | [Rappi](https://dev-portal.rappi.com/) | Manage orders from Rappi's app | `OAuth` | Yes | Unknown |
