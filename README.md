@@ -1986,6 +1986,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Big Data Explained](https://bigdataexplained.com/data) | Cloud data warehouse list prices, read daily from AWS and Azure pricing APIs, with price history | No | Yes | Yes |
 | [Black History Facts](https://www.blackhistoryapi.io/docs) | Contribute or search one of the largest black history fact databases on the web | `apiKey` | Yes | Yes |
 | [BotsArchive](https://botsarchive.com/docs.html) | JSON formatted details about Telegram Bots available in database | No | Yes | Unknown |
+| [Boyi](https://www.boyi-api.com/api-docs-en.html) | Chinese lottery draw results and history for SSQ, FC3D, DLT and more | No | Yes | Yes |
 | [BTU Graph](https://btugraph.com/data/) | Source-reviewed energy company knowledge graph and directory exports | No | Yes | Yes |
 | [Caliber](https://caliberapi.com/data/) | Which red dot optics fit which pistols, each fit cited to a maker or retailer | No | Yes | Yes |
 | [Callook.info](https://callook.info) | United States ham radio callsigns | No | Yes | Unknown |
