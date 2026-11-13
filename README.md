@@ -2487,6 +2487,7 @@ API | Description | Auth | HTTPS | CORS |
 | [DeepChamp for Agents](https://deepchampai.com/docs/agents) | Free sports slate and matchup research context for AI agents, over REST and MCP; research only | No | Yes | Yes |
 | [DiscGolf](https://discgolfapi.com/docs/) | Structured disc golf course data | No | Yes | Yes |
 | [DunkAPI](https://dunkapi.com/docs) | NBA, WNBA and college basketball: play-by-play, shot locations, box scores and sportsbook odds | `apiKey` | Yes | Yes |
+| [EndzoneAPI](https://endzoneapi.com/docs) | NFL data since 1999: play-by-play with EPA, stats, schedules, injuries and betting odds; free tier | `apiKey` | Yes | Yes |
 | [Ergast F1](http://ergast.com/mrd/) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
 | [FanLine Wire](https://fanlinewire.com/docs) | Real-time FanDuel Sportsbook odds — live & in-play and pre-match, with a keyless public snapshot | No | Yes | Yes |
 | [FastballAPI](https://fastballapi.com/docs) | MLB since 2015 plus college baseball: pitches, plate appearances, box scores and sportsbook odds | `apiKey` | Yes | Yes |
