@@ -2044,6 +2044,7 @@ API | Description | Auth | HTTPS | CORS |
 | [LottoLens PH](https://remo65588-boop.github.io/lottolens-ph-public-data/api/) | Fixed Philippine PCSO historical results and normal draw schedules | No | Yes | Yes |
 | [Lowy Asia Power Index](https://github.com/0x0is1/lowy-index-api-docs) | Get measure resources and influence to rank the relative power of states in Asia | No | Yes | Unknown |
 | [Mapa Oswiatowa](https://mapaoswiatowa.pl/dla-deweloperow) | Polish schools, preschools, nurseries and universities from public registers, with exam results | No | Yes | Yes |
+| [Mega-Sena](https://resultadomega.com.br/api/) | Brazilian Mega-Sena lottery: all draws since 1996, prizes, winners by city and number statistics | No | Yes | Yes |
 | [Microburbs](https://www.microburbs.com.au/developers/api-docs) | Australian property and suburb data: valuations, sales, rents, schools, demographics, risk, zoning | `apiKey` | Yes | No |
 | [Microlink.io](https://microlink.io) | Extract structured data from any website | No | Yes | Yes |
 | [Monitly](https://monit.ly/api-docs) | Official statistics from Eurostat, World Bank, OECD, IMF and WHO for 150+ countries | `apiKey` | Yes | Yes |
