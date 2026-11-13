@@ -1385,6 +1385,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Genshin Impact](https://genshin.dev) | Genshin Impact game data | No | Yes | Yes |
 | [Giant Bomb](https://www.giantbomb.com/api/documentation) | Video Games | `apiKey` | Yes | Unknown |
 | [GraphQL Pokemon](https://github.com/favware/graphql-pokemon) | GraphQL powered Pokemon API. Supports generations 1 through 8 | No | Yes | Yes |
+| [GrowMate](https://www.growmate.gg/strains/data) | Strain data for the GrowMate Discord and web game: rarity, breeding parents, grow time, yield | No | Yes | Yes |
 | [Guild Wars 2](https://wiki.guildwars2.com/wiki/API:Main) | Guild Wars 2 Game Information | `apiKey` | Yes | Unknown |
 | [GW2Spidy](https://github.com/rubensayshi/gw2spidy/wiki) | GW2Spidy API, Items data on the Guild Wars 2 Trade Market | No | Yes | Unknown |
 | [GZW Data](https://gzw-data.vercel.app/docs/) | Gray Zone Warfare weapons, missions, loot, armor and game data | No | Yes | Yes |
