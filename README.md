@@ -711,6 +711,7 @@ API | Description | Auth | HTTPS | CORS |
 | [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
 | [Aether Bridge](https://a-to-mind.com) | Autonomous agent team management and API workflow orchestration | `apiKey` | Yes | Unknown |
 | [Agent Nexus](https://agentnexus.app/llms.txt) | Continuously probed registry of APIs, MCP servers and CLIs callable by agents | No | Yes | Yes |
+| [AgentDrives](https://agentdrives.com/getting-started) | Agent access level (0-5) of SaaS tools and APIs: can an agent sign up, get a key and pay | No | Yes | Yes |
 | [AgentPay Domain Lookup](https://agentpay-lookup.agentpay-apis.workers.dev) | DNS records, WHOIS/RDAP, IP ownership and domain reports for AI agents, paid per call via x402 | No | Yes | Yes |
 | [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
 | [Allscreenshots](https://allscreenshots.com) | Website screenshots and PDFs with full-page capture, dark mode and ad blocking | `apiKey` | Yes | No |
