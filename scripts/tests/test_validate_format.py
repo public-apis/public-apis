@@ -421,6 +421,36 @@ class TestValidadeFormat(unittest.TestCase):
         err_msg = err_msgs[0]
         self.assertEqual(err_msg, expected_err_msg)
 
+    def test_check_file_format_with_last_category_without_min_entries(self):
+        incorrect_format = [
+            '## Index',
+            '* [A](#a)',
+            '* [B](#b)',
+            '',
+            '### A',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [AA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AB](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '| [AC](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |',
+            '',
+            '### B',
+            'API | Description | Auth | HTTPS | CORS |',
+            '|---|---|---|---|---|',
+            '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
+        ]
+
+        category_with_err = 'B'
+        num_in_category = 1
+
+        err_msgs = check_file_format(lines=incorrect_format)
+        expected_err_msg = f'(L012) {category_with_err} category does not have the minimum {min_entries_per_category} entries (only has {num_in_category})'
+
+        self.assertIsInstance(err_msgs, list)
+        self.assertEqual(len(err_msgs), 1)
+        err_msg = err_msgs[0]
+        self.assertEqual(err_msg, expected_err_msg)
+
     def test_check_file_format_entry_without_all_necessary_columns(self):
         incorrect_format = [
             '## Index',
