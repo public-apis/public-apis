@@ -1038,6 +1038,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Sahifa](https://sahifa.dev/en/docs) | HTML/URL to PDF and screenshots with Arabic and right-to-left support; free tier | `apiKey` | Yes | No |
 | [Shortcut](https://developer.shortcut.com) | Manage stories, epics, iterations and objectives in a Shortcut workspace | `apiKey` | Yes | No |
 | [SlipKiln](https://slipkiln.com/docs/) | Render HTML or JSON templates (invoice, receipt, certificate) to PDF | `apiKey` | Yes | Yes | |
+| [Taskade](https://www.taskade.com/api/documentation/v2) | REST API for workspaces, projects, tasks, agents, and automations | `OAuth` | Yes | No |
 | [TeamSort](https://teamsort.world/developers) | Create a ranked-choice poll from a text prompt and get a shareable link | No | Yes | Yes |
 | [The Drive AI](https://dev.thedrive.ai/docs) | Extract and analyze data from 107+ file types and URLs into structured JSON, with a free tier | `apiKey` | Yes | Unknown |
 | [Todoist](https://developer.todoist.com) | Todo Lists | `OAuth` | Yes | Unknown |
