@@ -1994,6 +1994,7 @@ API | Description | Auth | HTTPS | CORS |
 | [The Old Reader](https://github.com/theoldreader/api) | RSS reader | `apiKey` | Yes | Unknown |
 | [TheNews](https://www.thenewsapi.com/) | Aggregated headlines, top story and live news JSON API | `apiKey` | Yes | Yes |
 | [Trove](https://trove.nla.gov.au/about/create-something/using-api) | Search through the National Library of Australia collection of 1000s of digitised newspapers | `apiKey` | Yes | Unknown |
+| [Truncated AI](https://truncated.ai/developers) | AI news with two-sentence summaries, original publisher links and full-text search | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
