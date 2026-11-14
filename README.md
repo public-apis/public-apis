@@ -921,6 +921,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SolidPing](https://docs.solidping.io/docs/api) | Create and run uptime checks, read results and incidents, manage status pages, with a free tier | `apiKey` | Yes | Unknown |
 | [Sonar](https://github.com/Cgboal/SonarSearch) | Project Sonar DNS Enumeration API | No | Yes | Yes |
 | [SonarQube](https://sonarcloud.io/web_api) | SonarQube REST APIs to detect bugs, code smells & security vulnerabilities | `OAuth` | Yes | Unknown |
+| [SpecStream](https://specstream.ai/docs/api) | Live web search, page extraction and structured rows, with a source URL on every value | `apiKey` | Yes | No |
 | [StackExchange](https://api.stackexchange.com/) | Q&A forum for developers | `OAuth` | Yes | Unknown |
 | [Statically](https://statically.io/) | A free CDN for developers | No | Yes | Yes |
 | [Stophy](https://docs.stophy.dev) | One API to search the web, read what people say, and look up products, places, jobs and homes | `apiKey` | Yes | No |
