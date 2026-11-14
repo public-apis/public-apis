@@ -2272,6 +2272,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | No |
 | [NASA InSight](https://api.nasa.gov/) | Mars weather data from InSight lander | `apiKey` | Yes | Yes |
 | [NASA ADS](https://ui.adsabs.harvard.edu/help/api/api-docs.html) | NASA Astrophysics Data System | `OAuth` | Yes | Yes |
+| [Natal Chart Lab](https://natalchartlab.com/astrology-api) | Tropical zodiac planet positions 1800–2200, Moon phase, void-of-course Moon and retrogrades | No | Yes | Yes |
 | [NCBI E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/) | Biomedical literature, sequences and gene databases | No | Yes | Yes |
 | [Newton](https://newton.vercel.app) | Symbolic and Arithmetic Math Calculator | No | Yes | No |
 | [Noctua](https://api.noctuasky.com/api/v1/swaggerdoc/) | REST API used to access NoctuaSky features | No | Yes | Unknown |
