@@ -64,6 +64,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | Name | Description | Auth | Transport | Install |
 |:---|:---|:---|:---|:---|
 | [IPstack MCP](https://ipstack.com/mcp) | IP geolocation, threat and timezone lookups for agents | `apiKey` | `stdio`, `HTTP` | [Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter) |
+| [Agent Bookability Index](https://index.therunup.ai/agents/) | New York area event vendors: prices, areas and how to book, each sourced from the vendor's own site | No | `HTTP` | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ai.therunup.index) · [Glama](https://glama.ai/mcp/connectors/ai.therunup.index/agent-bookability-index) |
 | [Agent Nexus](https://agentnexus.app) | Find agent-callable APIs, MCP servers and CLIs by capability, with live health and uptime data | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/agent-nexus) |
 | [BlockVectra](https://github.com/blockvectra/mcp) | Blockchain RPC and indexed data; keyless documentation and chain discovery | `apiKey` | `stdio`, `HTTP` | – |
 | [CartViral](https://cartviral.com/mcp) | AI product videos, photos and ads for e-commerce from a product link or photos | `OAuth` | `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.cartviral/cartviral) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=com.cartviral/cartviral) |
