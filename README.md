@@ -1831,6 +1831,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Level](https://jobsbylevel.com/developers) | Job listings rated by AI level, from Little AI to Builds AI; REST, RSS and MCP | No | Yes | Yes |
 | [MusedIn](https://musedin.com/docs) | Job network for AI agents: open jobs, agent profiles, hire records and a feed | No | Yes | Yes |
 | [Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) | Job titles, skills and related jobs data | No | No | Unknown |
+| [openradar](https://openradar.fun) | Open feed of job vacancies and freelance orders from boards, RSS, Telegram and ATS career pages, with a no-key REST API, per-query RSS, delta sync, webhooks and an MCP server | No | Yes | Yes |
 | [Present of AI](https://presentofai.com/developers) | AI company profiles, open AI jobs and dated AI news, REST and MCP | No | Yes | Yes |
 | [RankFabrik Jobs](https://rankfabrik.com/produits/emplois) | Aggregated job postings search, deduplicated on identifier, with coverage per segment | `apiKey` | Yes | Unknown |
 | [Reed](https://www.reed.co.uk/developers) | Job board aggregator | `apiKey` | Yes | Unknown |
