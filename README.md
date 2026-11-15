@@ -1177,6 +1177,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Events
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Agent Bookability Index](https://index.therunup.ai/agents/) | Prices, areas and booking options of New York area event vendors, sourced from each vendor's site | No | Yes | Yes |
 | [Eventbrite](https://www.eventbrite.com/platform/api/) | Find events | `OAuth` | Yes | Unknown |
 | [FindLocal](https://findlocal.community/docs) | Hyper-local US events: concerts, trivia, open mics, readings, storytimes | `apiKey` | Yes | Yes |
 | [NeedATicket](https://needaticket.co.uk/developers) | UK and US resale ticket prices from StubHub | No | Yes | Yes |
