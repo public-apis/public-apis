@@ -1886,6 +1886,7 @@ API | Description | Auth | HTTPS | CORS |
 | [AI For Thai](https://aiforthai.in.th/index.php) | Free Various Thai AI API | `apiKey` | Yes | Yes |
 | [AI Rate Card](https://airatecard.com/docs) | Daily-checked AI model API prices from 120+ providers, price history and cost estimates | No | Yes | Yes |
 | [AI Stupid Level](https://aistupidlevel.info/api-docs) | Benchmark scores, rankings and drift data for major LLM APIs, re-measured on a fixed schedule | `apiKey` | Yes | No |
+| [AIScoreboard](https://aiscoreboard.app/developers/) | AI model API prices, price changes and retirement dates, each with source and check date | No | Yes | Yes |
 | [AnswerLine](https://answerline.dev/docs) | ChatGPT, Gemini, Copilot, AI Mode and Google Search/News results as structured JSON | `apiKey` | Yes | Unknown |
 | [Audexum](https://audexum.com/docs) | Speech-to-text in 25 languages and text-to-speech with 43 voices in 32 languages | `apiKey` | Yes | Yes |
 | [BRAINIALL](https://github.com/fasuizu-br/brainiall-transcription-skill) | PT-BR and Spanish audio transcription with diarization and SRT/VTT | `apiKey` | Yes | Yes |
