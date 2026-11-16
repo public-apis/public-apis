@@ -2544,6 +2544,7 @@ API | Description | Auth | HTTPS | CORS |
 | [DiscGolf](https://discgolfapi.com/docs/) | Structured disc golf course data | No | Yes | Yes |
 | [DunkAPI](https://dunkapi.com/docs) | NBA, WNBA and college basketball: play-by-play, shot locations, box scores and sportsbook odds | `apiKey` | Yes | Yes |
 | [Ergast F1](http://ergast.com/mrd/) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
+| [FanDuelAPI](https://fanduelapi.com/docs) | Unofficial FanDuel Sportsbook player props and game lines, with line-move history, EV and arbitrage | `apiKey` | Yes | No |
 | [FanLine Wire](https://fanlinewire.com/docs) | Real-time FanDuel Sportsbook odds — live & in-play and pre-match, with a keyless public snapshot | No | Yes | Yes |
 | [FastballAPI](https://fastballapi.com/docs) | MLB since 2015 plus college baseball: pitches, plate appearances, box scores and sportsbook odds | `apiKey` | Yes | Yes |
 | [Fitbit](https://dev.fitbit.com/) | Fitbit Information | `OAuth` | Yes | Unknown |
