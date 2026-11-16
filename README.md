@@ -205,6 +205,7 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 API | Description | Auth | HTTPS | CORS 
 |:---|:---|:---|:---|:---|
 | [Axolotl](https://theaxolotlapi.netlify.app/) | Collection of axolotl pictures and facts | No | Yes | No |
+| [Bird Album](https://birdalbum.com/developers/) | Bird of the day and 11,000+ AI-generated bird illustrations in 15 languages | No | Yes | Yes |
 | [Breed Health Score](https://breedhealthscore.com/developers/) | Dog breed health scores, median lifespans and conditions | No | Yes | No |
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
 | [Cat Facts](https://catfact.ninja/) | Random cat facts | No | Yes | Yes |
