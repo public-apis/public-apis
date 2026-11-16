@@ -2234,6 +2234,7 @@ API | Description | Auth | HTTPS | CORS |
 | [localscreenshot](https://localscreenshot.com) | Screenshot or PDF rendering of any public page, from 227 countries | `apiKey` | Yes | Yes |
 | [Lorem Picsum](https://picsum.photos/) | Images from Unsplash | No | Yes | Unknown |
 | [NexWall](https://nexwall.kodnextech.com/wallpaper-api/docs) | Curated 4K portrait phone wallpapers across 50+ categories | `apiKey` | Yes | Yes |
+| [NukeBG](https://nukebg.com/docs) | Remove image backgrounds with a remove.bg-compatible API | `apiKey` | Yes | No |
 | [ObjectCut](https://objectcut.com/) | Image Background removal | `apiKey` | Yes | Yes |
 | [Pexafy](https://docs.pexafy.com) | Semantic image search across 9+ free stock photo sources with a unified JSON schema | `apiKey` | Yes | Yes |
 | [Pexels](https://www.pexels.com/api/) | Free Stock Photos and Videos | `apiKey` | Yes | Yes |
