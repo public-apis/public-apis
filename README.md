@@ -2542,6 +2542,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CollegeFootballData.com](https://collegefootballdata.com) | Unofficial detailed American college football statistics, records, and results API | `apiKey` | Yes | Unknown |
 | [DeepChamp for Agents](https://deepchampai.com/docs/agents) | Free sports slate and matchup research context for AI agents, over REST and MCP; research only | No | Yes | Yes |
 | [DiscGolf](https://discgolfapi.com/docs/) | Structured disc golf course data | No | Yes | Yes |
+| [DraftKingsAPI](https://draftkingsapi.com/docs) | Unofficial DraftKings Pick6 lines, DFS salaries and sportsbook odds, with recorded line moves | `apiKey` | Yes | No |
 | [DunkAPI](https://dunkapi.com/docs) | NBA, WNBA and college basketball: play-by-play, shot locations, box scores and sportsbook odds | `apiKey` | Yes | Yes |
 | [Ergast F1](http://ergast.com/mrd/) | F1 data from the beginning of the world championships in 1950 | No | Yes | Unknown |
 | [FanLine Wire](https://fanlinewire.com/docs) | Real-time FanDuel Sportsbook odds — live & in-play and pre-match, with a keyless public snapshot | No | Yes | Yes |
