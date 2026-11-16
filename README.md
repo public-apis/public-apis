@@ -459,6 +459,7 @@ API | Description | Auth | HTTPS | CORS |
 | [UGC VZ](https://ugc-vz.de/developers) | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | No | Yes | No |
 | [Verif Entreprise FR](https://api-production-24833.up.railway.app) | French company checks by SIREN: status, insolvency (BODACC), VAT (VIES); free preview | No | Yes | Yes |
 | [Village](https://docs.village.ai) | Person and company enrichment plus warm introduction paths through your network | `apiKey` | Yes | Yes |
+| [Virkly](https://virkly.io/docs?utm_source=public-apis&utm_medium=listing&utm_campaign=E-20261110) | Danish company register (CVR): companies, owners, annual-account figures, change alerts; free tier | `apiKey` | Yes | Unknown |
 | [W System EU Business Data](https://api.wsystem.dev/docs) | EU VAT (VIES) and EORI validation, company registers, EU/UN/OFAC/UK sanctions screening | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
