@@ -1018,6 +1018,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Code::Stats](https://codestats.net/api-docs) | Automatic time tracking for programmers | `apiKey` | Yes | No |
 | [Convert Online](https://convert.online/api-docs) | Online file converter for image, video, audio, document, ebook, font, archive and CAD formats | `apiKey` | Yes | No |
 | [ConvertFly](https://convertfly.io/docs/api) | Convert documents, images, audio, video, ebooks and archives between formats | `apiKey` | Yes | Yes |
+| [ConvertIntoMP4](https://convertintomp4.com/api-docs) | Convert video, audio, image, document, ebook, archive and font files with async jobs and webhooks | `apiKey` | Yes | No |
 | [CraftMyPDF](https://craftmypdf.com) | Generate PDF documents from templates with a drop-and-drop editor and a simple API | `apiKey` | Yes | No |
 | [DocCheap](https://doc.cheap/docs) | Read passports, ID cards and driver's licences into JSON, $0.01 per recognised document | `apiKey` | Yes | Yes |
 | [DocSpring](https://docspring.com/docs/api/) | Fill PDF forms, generate PDFs and Word documents, and collect e-signatures. Free plan | `apiKey` | Yes | Yes |
