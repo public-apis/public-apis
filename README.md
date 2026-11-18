@@ -1940,6 +1940,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Time Door](https://timedoor.io) | A time series analysis API | `apiKey` | Yes | Yes |
 | [TokenRoute](https://tokenroute.app/docs/quickstart) | One OpenAI-compatible endpoint for hundreds of LLMs, with a free tier and per-token pricing | `apiKey` | Yes | Yes |
 | [Unplugg](https://unplu.gg/test_api.html) | Forecasting API for timeseries data | `apiKey` | Yes | Unknown |
+| [Voicedex](https://voicedex.dev/docs) | Speech-to-text and text-to-speech models from 120+ providers: prices, languages and shutdown dates | No | Yes | Yes |
 | [Voxell Forge](https://voxell.ai/docs/#forge) | OpenAI-compatible text embeddings API, free-forever model with no credit card required | `apiKey` | Yes | No |
 | [WolframAlpha](https://products.wolframalpha.com/api/) | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | Unknown |
 
