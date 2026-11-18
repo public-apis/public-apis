@@ -152,7 +152,6 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 
 ## Index
 
-* [Animals](#animals)
 * [Anime](#anime)
 * [Anti-Malware](#anti-malware)
 * [Art & Design](#art--design)
