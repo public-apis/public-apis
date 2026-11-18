@@ -2802,6 +2802,7 @@ API | Description | Auth | HTTPS | CORS |
 | [VakayMood](https://vakaymood.com/developers) | Live timeshare resort rental inventory: stay dates, nightly rates, resort fees and booking URLs | No | Yes | Yes |
 | [Velib metropolis, Paris, France](https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole) | Velib Open Data API | No | Yes | No |
 | [Vessel Class Finder](https://vesselclassfinder.com/blog/vessel-classification-api.html) | IACS class society, class status and survey dates for ships by IMO number | `apiKey` | Yes | Yes |
+| [VesselAPI](https://vesselapi.com/docs) | Vessel positions, vessel search, port events, port lookup and EU MRV emissions by IMO or MMSI | `apiKey` | Yes | No |
 | [Windsock](https://windsock.ai/app/docs) | Aircraft valuations, FAA registry lookups, cost of ownership and aviation market data | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
