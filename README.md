@@ -1365,6 +1365,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Tiny Plates](https://www.tinyplates.dev/docs) | Structured recipes, semantic search, serving adjustments and shopping lists | `apiKey` | Yes | Yes |
 | [Untappd](https://untappd.com/api/docs) | Social beer sharing | `OAuth` | Yes | Unknown |
 | [What's on the menu?](http://nypl.github.io/menus-api/) | NYPL human-transcribed historical menu collection | `apiKey` | No | Unknown |
+| [WhatMoved](https://api.whatmoved.co.uk/docs) | Daily changes to UK food businesses and hygiene ratings: openings, takeovers, closures | `apiKey` | Yes | No |
 | [WhiskyHunter](https://whiskyhunter.net/api/) | Past online whisky auctions statistical data | No | Yes | Unknown |
 | [Zestful](https://zestfuldata.com/) | Parse recipe ingredients | `apiKey` | Yes | Yes |
 
