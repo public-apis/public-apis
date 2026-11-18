@@ -13,7 +13,6 @@ from validate.format import check_cors, cors_keys
 from validate.format import check_entry
 from validate.format import check_file_format, min_entries_per_category, num_segments
 
-
 class TestValidadeFormat(unittest.TestCase):
     
     def test_error_message_return_and_return_type(self):
