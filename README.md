@@ -2474,6 +2474,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Full Contact](https://docs.fullcontact.com/) | Get Social Media profiles and contact Information | `OAuth` | Yes | Unknown |
 | [GramScraper](https://gramscraper.com) | Instagram and TikTok data API with 91 endpoints for profiles, posts, stories, reels, and comments | `apiKey` | Yes | Yes |
 | [GetXAPI](https://www.getxapi.com/) | Read Twitter / X data and post tweets, likes, retweets, follows, DMs via REST | `apiKey` | Yes | Unknown |
+| [GusGon](https://developer.gusgon.com) | Build bots, slash commands, embeds and integrations for GusGon servers | `apiKey` | Yes | Yes |
 | [HackerNews](https://github.com/HackerNews/API) | Social news for CS and entrepreneurship | No | Yes | Unknown |
 | [Hashnode](https://hashnode.com) | A blogging platform built for developers | No | Yes | Unknown |
 | [InsightSocial](https://www.insightsocial.app/docs) | Public profiles, posts, comments and followers from 25 social platforms, free tier | `apiKey` | Yes | Yes |
