@@ -2358,6 +2358,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Domain Intelligence](https://oti-labs.com/domain-intelligence-api) | DNS, WHOIS/RDAP, SSL, subdomain enumeration, and email security in one parallel call | `apiKey` | Yes | No |
 | [EmailRep](https://docs.emailrep.io/) | Email address threat and risk prediction | No | Yes | Unknown |
 | [Escape](https://github.com/polarspetroll/EscapeAPI) | An API for escaping different kind of queries | No | Yes | No |
+| [Fencer Intel](https://intel.fencer.dev/docs) | Free merged CVE, GHSA and OSV feed, with RSS, JSON, and a lockfile or SBOM check | No | Yes | Yes |
 | [FilterLists](https://filterlists.com) | Lists of filters for adblockers and firewalls | No | Yes | Unknown |
 | [FingerprintJS Pro](https://dev.fingerprintjs.com/docs) | Fraud detection API offering highly accurate browser fingerprinting | `apiKey` | Yes | Yes |
 | [FOFA](https://en.fofa.info/api) | Search engine for Internet connected assets and devices | `apiKey` | Yes | Unknown |
