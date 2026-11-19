@@ -1300,6 +1300,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenFIGI](https://www.openfigi.com/api) | Equity, index, futures, options symbology from Bloomberg LP | `apiKey` | Yes | Yes | |
 | [OpenTaxRate](https://opentaxrate.com) | US sales tax rates by street address, from the states' own published data | No | Yes | Unknown | |
 | [Pink Agentic AI Payments](https://pinkwallet.com/agentic/developers/) | Approval layer for AI agent payments: per-agent budgets, rules, single-use credentials, sandbox | `apiKey` | Yes | Yes | |
+| [PipAtlas](https://pipatlas.com/api-docs) | Forex economic calendar JSON from the ForexFactory feed: time, currency, impact, forecast, previous | No | Yes | Yes |
 | [PIT Financial State](https://agent-economy-pit-evaluation.onrender.com/docs) | Point-in-time quarterly revenue for 20 U.S. issuers | `apiKey` | Yes | Unknown | |
 | [Plaid](https://www.plaid.com/docs) | Connect with user's bank accounts and access transaction data | `apiKey` | Yes | Unknown |
 | [Polygon](https://polygon.io/) | Historical stock market data | `apiKey` | Yes | Unknown | |
