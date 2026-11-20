@@ -1872,6 +1872,7 @@ API | Description | Auth | HTTPS | CORS |
 | [HeroHunt People Search](https://www.herohunt.ai/people-search-api) | Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing | `apiKey` | Yes | Yes |
 | [HireLayer](https://hirelayer.co/api-docs) | Parse resumes and job descriptions, normalize skills, match and rank candidates | `apiKey` | Yes | Yes |
 | [Job Opportunities](https://jobopportunitiesapi.org/docs) | Live jobs from employers' own career sites and ATSs, closed jobs re-checked daily | `apiKey` | Yes | Yes |
+| [Jobs Every Hour](https://jobseveryhour.com/api/) | Open jobs read hourly from employers' own career pages, by skill, category, place and company | No | Yes | No |
 | [Jobs2Careers](https://docs.talroo.com/api/search) | Job aggregator | `apiKey` | Yes | Unknown |
 | [JobsPipe](https://docs.jobspipe.dev) | Live job postings from 30+ ATS feeds and job boards in one normalized JSON schema | `apiKey` | Yes | Yes |
 | [Jobven](https://jobven.com/docs/getting-started) | Job postings tracked as roles open and close, with webhooks on changes, from employer career pages | `apiKey` | Yes | Yes |
