@@ -936,6 +936,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SegmentLite](https://segmentlite-api-dfru.fly.dev) | Lightweight event routing and webhook fan-out API alternative to Segment | `apiKey` | Yes | Yes |
 | [seodata](https://www.seodata.dev/) | Keyword search volume, CPC and competition by country, no key needed | No | Yes | Yes |
 | [Serialif Color](https://color.serialif.com/) | Color conversion, complementary, grayscale and contrasted text | No | Yes | No |
+| [Serpent](https://apiserpent.com/docs) | Google and Bing search results as JSON, plus News, Images and Maps; 10 free calls to start | `apiKey` | Yes | No |
 | [SerpKite](https://serpkite.com/docs) | Google Search, News, Maps, Images, Scholar and Patents results as JSON or Markdown for AI agents | `apiKey` | Yes | Yes |
 | [Serply](https://serply.io/docs) | Google, Bing, News, Scholar and Maps search results and page scraping as JSON | `apiKey` | Yes | Yes |
 | [serpstack](https://serpstack.com/) | Real-Time & Accurate Google Search Results API | `apiKey` | Yes | Yes |
