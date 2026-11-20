@@ -2186,7 +2186,6 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Advice Slip](http://api.adviceslip.com/) | Generate random advice slips | No | Yes | Unknown |
-| [Astro Agents](https://astro-agent.dev/llms.txt) | Deterministic Western and Vedic astrology: natal charts, transits, kundli, dashas, panchang | No | Yes | Yes |
 | [AstroWay](https://api.astroway.info/docs/) | Astrology, natal charts, Human Design, Vedic and horoscopes on the Swiss Ephemeris | `apiKey` | Yes | Yes |
 | [Biriyani As A Service](https://biriyani.anoram.com/) | Biriyani images placeholder | No | Yes | No |
 | [Dev.to](https://developers.forem.com/api) | Access Forem articles, users and other resources via API | `apiKey` | Yes | Unknown |
@@ -2299,6 +2298,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [arcsecond.io](https://api.arcsecond.io/) | Multiple astronomy data sources | No | Yes | Unknown |
 | [arXiv](https://info.arxiv.org/help/api/user-manual.html) | Curated research-sharing platform: physics, mathematics, quantitative finance, and economics | No | Yes | Unknown |
+| [Astro Agents](https://astro-agent.dev/docs) | Sun and moon times, twilight, moon phase, planet positions, eclipses and seasons from NASA/JPL DE440 | `apiKey` | Yes | Yes |
 | [Botlero](https://botlero.com/api/robots) | Sourced, quoted specs for humanoid robots | No | Yes | Yes |
 | [Cazimi](https://cazimi.live/methodology#api) | Planetary retrograde stations, shadows and cazimi to the minute (JPL DE421) | No | Yes | Yes |
 | [Chempirical](https://chempirical.com/api/) | Chemical compounds with physical data, reactions and substructure search | No | Yes | Yes |
