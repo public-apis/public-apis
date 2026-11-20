@@ -2853,6 +2853,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Short Link](https://github.com/FayasNoushad/Short-Link-API) | Short URLs support so many domains | No | Yes | Unknown |
 | [Shrtcode](https://shrtco.de/docs) | URl Shortener with multiple Domains | No | Yes | Yes |
 | [Shrtlnk](https://shrtlnk.dev/) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
+| [siz.la](https://siz.la/docs) | URL shortener with QR codes, link-in-bio pages and click stats | `apiKey` | Yes | Yes |
 | [TinyURL](https://tinyurl.com/app/dev) | Shorten long URLs | `apiKey` | Yes | No |
 | [UrlBae](https://urlbae.com/developers) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
 
