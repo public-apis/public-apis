@@ -417,6 +417,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
 | [Apache Superset](https://superset.apache.org/docs/api) | API to manage your BI dashboards and data sources on Superset | `apiKey` | Yes | Yes |
+| [B2B Buying Intent Signals](https://rapidapi.com/JamesBasset/api/b2b-buying-intent-signals) | AI-scored buying-intent posts from Reddit, HN and dev forums, with a free tier | `apiKey` | Yes | Unknown |
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | `apiKey` | Yes | Unknown |
 | [Compabase](https://compabase.com/docs/) | Polish company data: 3M+ KRS and CEIDG entities with financial statements, people and rankings | `apiKey` | Yes | Unknown |
