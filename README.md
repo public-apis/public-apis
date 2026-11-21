@@ -2586,6 +2586,7 @@ API | Description | Auth | HTTPS | CORS |
 | [AU Odds](https://lucasfox.dev/odds/docs/) | Timestamped odds from 11 Australian bookmakers, with line history and devigged consensus | No | Yes | No |
 | [Ball Ranks](https://ballranks.com/developers) | NFL and NBA fantasy rankings and player projections | No | Yes | Yes |
 | [balldontlie](https://www.balldontlie.io) | Balldontlie provides access to stats data from the NBA | No | Yes | Yes |
+| [Basketlog](https://basketlog-app.com/en/app/donnees) | Pre-game NBA win probabilities and projected scores for every game, plus season CSV history | No | Yes | Yes |
 | [Bet Better](https://betbetter.world/api/) | Sports model win probabilities and fair odds across 13 leagues | No | Yes | Yes |
 | [BirdieAPI](https://birdieapi.com/docs) | PGA Tour golf since 2001: leaderboards, hole-by-hole scores, courses, ratings and major winner odds | `apiKey` | Yes | Yes |
 | [Boxerbook](https://boxerbook.com/developers) | Professional boxing: boxers, bouts, schedule, results, world titles and rankings | `apiKey` | Yes | Yes |
