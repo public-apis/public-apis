@@ -2102,6 +2102,7 @@ API | Description | Auth | HTTPS | CORS |
 | [EOSL](https://eosl.ai/api/) | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | No | Yes | Yes |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | No | Yes | Unknown |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | Federal Statistical Office Germany | `OAuth` | Yes | Unknown |
+| [GeoCables](https://geocables.com/developers) | Submarine cable incidents, internet outages by country and daily route latency | No | Yes | Yes |
 | [hexplace](https://hexplace.org/developers/) | Climate by month, rents, home prices, amenities and rankings for 800 towns in Portugal | No | Yes | Yes |
 | [HousingFeed](https://housingfeed.com/docs) | US rental listings from property managers' own websites, verified weekly | No | Yes | Yes |
 | [ImmoAnalyse](https://immoanalyse.pro/api-docs) | German property valuations (ImmoWertV), address geocoding and asking rents for all municipalities | `apiKey` | Yes | No |
