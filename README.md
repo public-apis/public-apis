@@ -699,6 +699,7 @@ API | Description | Auth | HTTPS | CORS |
 | [FreeForexAPI](https://freeforexapi.com/Home/Api) | Real-time foreign exchange rates for major currency pairs | No | Yes | No |
 | [Fulusly](https://fulusly.soft9.us/developers) | Exchange rates for 144 currencies with daily history back to the 1990s, English and Arabic | No | Yes | Yes |
 | [FXpeek](https://fxpeek.com/en/api) | Source-linked historical reference exchange rates with CSV, JSON and an MCP server | No | Yes | Unknown |
+| [Geneh](https://geneh.app/en/developers) | Egyptian bank exchange rates, gold and silver prices, money transfers and savings rates | `apiKey` | Yes | No |
 | [National Bank of Poland](http://api.nbp.pl/en.html) | A collection of currency exchange rates (data in XML and JSON) | No | Yes | Yes |
 | [Nerkhsanj](https://nerkh.jahankhahan.shop/developers/en) | Iran free-market USD, EUR, CNY, gold and coin rates in toman, live and daily archive since 2010 | No | Yes | No |
 | [Open Exchange Rates](https://docs.openexchangerates.org/) | Live and historical exchange rates for 200+ currencies with free tier | `apiKey` | Yes | Yes |
