@@ -1,30 +1,15 @@
 # -*- coding: utf-8 -*-
+"""Validate format of Public APIs entries."""
 
-import re
-import sys
-from string import punctuation
-from typing import List, Tuple, Dict
+# Constants for entry field indices
+INDEX_TITLE = 0
+INDEX_DESCRIPTION = 1
+INDEX_AUTH = 2
+INDEX_HTTPS = 3
+INDEX_CORS = 4
+NUM_SEGMENTS = 5
+MIN_ENTRIES_PER_CATEGORY = 3
 
-# Temporary replacement
-# The descriptions that contain () at the end must adapt to the new policy later
-punctuation = punctuation.replace('()', '')
-
-anchor = '###'
-auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'User-Agent', 'No']
-https_keys = ['Yes', 'No']
-cors_keys = ['Yes', 'No', 'Unknown']
-
-index_title = 0
-index_desc = 1
-index_auth = 2
-index_https = 3
-index_cors = 4
-
-num_segments = 5
-min_entries_per_category = 3
-max_description_length = 100
-
-anchor_re = re.compile(anchor + '\s(.+)')
 category_title_in_index_re = re.compile('\*\s\[(.*)\]')
 link_re = re.compile('\[(.+)\]\((http.*)\)')
 
