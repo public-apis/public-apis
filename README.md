@@ -453,6 +453,7 @@ API | Description | Auth | HTTPS | CORS |
 | [RegisterWire](https://www.registerwire.uk/docs/index.html) | Real-time alerts on UK company register changes | `apiKey` | Yes | No |
 | [Requstory](https://requstory.com/developers/api/) | How companies work: teams, processes, ease scores and AI-readiness from public websites | `apiKey` | Yes | Yes |
 | [RunDossier](https://rundossier.com/docs/api) | Pre-meeting briefing on a person from public professional and web sources, as JSON | `apiKey` | Yes | No |
+| [ScrapeAdLibrary](https://scrapeadlibrary.com/docs) | Search Meta Ad Library ads (Facebook, Instagram), creatives, EU transparency data and advertisers | `apiKey` | Yes | No |
 | [Seller Fee](https://seller-fee-api.narwhalapis.workers.dev) | Marketplace and payment fees for Gumroad, Etsy, Stripe and PayPal with net payout breakdowns | No | Yes | Yes |
 | [Signaliz](https://signaliz.docs.buildwithfern.com/signaliz-api-public-docs/introduction) | GTM enrichment, lead generation, email verification, and company signals | `apiKey` | Yes | Unknown |
 | [Smartsheet](https://smartsheet.redoc.ly/) | Allows you to programmatically access and Smartsheet data and account information | `OAuth` | Yes | No |
