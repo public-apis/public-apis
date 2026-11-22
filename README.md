@@ -1788,6 +1788,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SchoolAPI](https://schoolapi.org/docs) | Every US public, charter and private school and district, with search and enrollment history | `apiKey` | Yes | No |
 | [ShelfWatch CPSC Recalls](https://stxai.app/developers) | US CPSC product recall notices, filterable by product category; no key required | No | Yes | Yes |
 | [Spatial India](https://api.spatialindia.com) | District-level data for India: Census, NFHS-5, NCRB, RBI and more, reconciled onto one map | No | Yes | Yes |
+| [Statistics Canada WDS](https://www.statcan.gc.ca/en/developers/wds) | Access official Canadian statistics and metadata | No | Yes | Unknown |
 | [SukuuData](https://sukuudata.com/quickstart) | Ghana's schools, 2026 SHS placement register and CSSPS choice validation | `apiKey` | Yes | Yes |
 | [Tollmint](https://api.tollmint.com) | Advertising, subscription, AI-disclosure and accessibility rules across the US, EU and UK | No | Yes | Yes |
 | [Travel Risk](https://travelriskapi.com/docs) | Government travel advisories, disaster and conflict alerts and country risk scores | `apiKey` | Yes | Yes |
