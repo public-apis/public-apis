@@ -734,6 +734,7 @@ API | Description | Auth | HTTPS | CORS |
 | [sthan.io Address Parser](https://sthan.io/products/address-parser-usa) | Parse freeform US addresses into structured fields (house number, street, unit, city, state, ZIP) | `apiKey` | Yes | No | |
 | [sthan.io Address Verification](https://sthan.io/products/address-verification-usa) | Validate and standardize US addresses, with ZIP+4 and deliverability status | `apiKey` | Yes | No | |
 | [Temsor](https://api.temsor.com/docs) | Validates Turkish national ID, tax number, IBAN, phone, plate and parses addresses | `apiKey` | Yes | Yes | |
+| [TrustComponent VAT Checker](https://docs.trustcomponent.com/api/tax-validation/) | Look up EU VAT numbers in bulk, up to 1,000 per request | `apiKey` | Yes | Unknown | |
 | [US Autocomplete](https://www.smarty.com/docs/cloud/us-autocomplete-pro-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes | |
 | [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes | |
 | [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes | |
