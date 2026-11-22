@@ -603,6 +603,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Cosmos Pay](https://dev.cosmospay.lat/docs/api/) | Stablecoin payment links, checkout and swaps on Stellar, Solana and Monad | `apiKey` | Yes | No |
 | [CryptAPI](https://docs.cryptapi.io/) | Cryptocurrency Payment Processor | No | Yes | Unknown |
 | [CryptingUp](https://www.cryptingup.com/apidoc/#introduction) | Cryptocurrency data | No | Yes | Unknown |
+| [Crypto Cycle Index](https://cryptocycleindex.com/data/) | Daily Bitcoin market-cycle index (0–100) with phase history and Hash Ribbons series, CSV/JSON | No | Yes | Yes |
 | [Crypto Vision](https://cryptocurrency.cv/developers) | Free crypto news aggregator with market context, JSON REST and RSS | No | Yes | Yes |
 | [CryptoCompare](https://www.cryptocompare.com/api#) | Cryptocurrencies Comparison | No | Yes | Unknown |
 | [CryptoDataAPI](https://cryptodataapi.com/api/docs) | Prices, derivatives, funding, liquidations, Hyperliquid, ETF flows, volatility index and regimes | `apiKey` | Yes | No |
