@@ -2445,6 +2445,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Shodan](https://developer.shodan.io/) | Search engine for Internet connected devices | `apiKey` | Yes | Unknown |
 | [Shodan InternetDB](https://internetdb.shodan.io/docs) | Open ports, hostnames, CPEs, tags and known vulnerabilities for an IP address | No | Yes | Yes |
 | [Spyse](https://spyse-dev.readme.io/reference/quick-start) | Access data on all Internet assets and build powerful attack surface management applications | `apiKey` | Yes | Unknown |
+| [ssid.ai](https://ssid.ai/api-docs) | MAC address (OUI) vendor lookup, randomized-MAC detection, and router default-login directory | No | Yes | Yes |
 | [SSL Domain Health Check](https://rapidapi.com/goktugbk/api/ssl-domain-health-check) | SSL certificate validity, domain WHOIS status, and DNS record checks for any domain | `apiKey` | Yes | Unknown |
 | [SSL Labs](https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v3.md) | Deep SSL/TLS server analysis with A+ to F grading | No | Yes | Unknown |
 | [Tanod](https://tanod.dev/) | Pay-per-call scans of smart contracts, addresses and MCP/skill packages; small free daily tier | No | Yes | No |
