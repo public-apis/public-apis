@@ -1,0 +1,153 @@
+# Downloading & Sharing
+
+There are three ways to get this portal in front of someone. Pick based on whether you want a
+link, a file, or an editable project.
+
+---
+
+## 1. Send it as one file (easiest to share)
+
+`maison-hyderabad-portal.html` — a single 2.4 MB file with the images, styles, data and logic
+embedded. No folder, no server, no internet needed.
+
+A companion `START-HERE.html` sits next to it: a small launcher page whose single button opens the
+portal. If a double-click on the big `.html` file does nothing useful in your file manager, open
+`START-HERE.html` instead — it does the same thing with one extra click.
+
+- **Email / WhatsApp / Telegram / Drive:** attach the file. It opens in any browser on phone or
+  desktop. WhatsApp supports it up to 2 GB, Gmail up to 25 MB.
+- **Dropbox / Google Drive:** upload and share the link — but note the recipient will get a
+  *download* link, not a live site (Drive no longer renders HTML).
+- **Verified:** opens correctly from `file://` with all six projects, dossiers, filters and the
+  shortlist working. Weights: 2.4 MB total.
+
+Best for: clients, family, a portfolio reviewer who should just double-click and see it.
+
+---
+
+## 2. Host it as a real link (best for a portfolio)
+
+Any static host will do — there is no build step and no backend.
+
+### Netlify Drop (fastest, ~30 seconds, free)
+1. Unzip `hyderabad-buyer-portal.zip` so you have the `hyderabad-buyer-portal` folder.
+2. Go to **app.netlify.com/drop** and drag the folder onto the page.
+3. You get a live URL immediately (e.g. `https://maison-hyderabad.netlify.app`). Claim the site
+   to keep it permanently and rename it.
+
+### GitHub Pages (free, versioned)
+```bash
+# from a clone of this repo
+git checkout -b gh-pages
+git subtree push --prefix hyderabad-buyer-portal origin gh-pages
+```
+Then Settings → Pages → source `gh-pages` → root. URL becomes
+`https://<username>.github.io/<repo>/`. Deep links such as `/index.html#/project/skyline` work
+because routing is hash-based.
+
+### Vercel or Cloudflare Pages
+Import the repo, set the output/root directory to `hyderabad-buyer-portal`, framework preset
+**None**. Deploy.
+
+> Since this repo is a fork of `public-apis`, prefer Netlify Drop or a fresh repo for a portfolio
+> link rather than publishing from this fork.
+
+---
+
+## 3. Hand over the editable project
+
+`hyderabad-buyer-portal.zip` (666 KB) — the full folder: `index.html`, `README.md`,
+`AUDIT_REPORT.md` and `assets/`. This is what to send a developer or a designer who needs to
+edit content, swap images or wire the form to a CRM.
+
+To work on it:
+```bash
+unzip hyderabad-buyer-portal.zip
+cd public-apis/hyderabad-buyer-portal
+python3 -m http.server 8099   # then open http://localhost:8099
+```
+
+---
+
+## A QR code for show-and-tell
+
+Once hosted, generate a QR at `api.qrserver.com/v1/create-qr-code/?size=300x300&data=<your-url>`
+and drop it into a deck or a WhatsApp message. Useful for site-visit desks and print handouts.
+
+---
+
+## If double-click does nothing
+
+A `.html` file only needs a browser, but file managers sometimes have no default app assigned,
+or open it in a text editor instead.
+
+| Symptom | Fix |
+| --- | --- |
+| File icon is blank / no default app | Right-click → **Open With** → Chrome / Edge / Firefox / Safari → *Always use this app* |
+| Opens in Notepad / TextEdit (you see code) | Same: right-click → Open With → browser. Never save it from the text editor. |
+| Windows shows "How do you want to open this file?" | Choose your browser from the list; tick *Always use this app* |
+| macOS refuses to open a downloaded file | Right-click → **Open With** → Safari or Chrome |
+| Nothing happens at all | Open the browser first, then press `Ctrl+O` (Mac: `Cmd+O`) and pick the file |
+| You only have a phone | Best route: email the file to yourself, or host it (§2) and send the link — mobile file managers rarely open local HTML |
+
+The page loads entirely from inside that one file, so it needs no internet. Only the two
+webfonts come from the network; without a connection the text falls back to a system serif and
+sans, and everything else still works.
+
+## Where it already lives online
+
+The work is committed and pushed, so these URLs are live now (public repo, no login needed to view):
+
+| What | URL |
+| --- | --- |
+| Source folder | `https://github.com/lelakolli/public-apis/tree/arena/8c37f24f-public-apis/hyderabad-buyer-portal` |
+| `index.html` (view / raw / download) | `https://github.com/lelakolli/public-apis/blob/arena/8c37f24f-public-apis/hyderabad-buyer-portal/index.html` |
+| Whole branch as a zip | `https://github.com/lelakolli/public-apis/archive/refs/heads/arena/8c37f24f-public-apis.zip` |
+| Pull request (diff, discussion) | `https://github.com/lelakolli/public-apis/pull/1` |
+
+These give people the **code**, not a running site. GitHub shows the file's source, and its raw
+view is served as `text/plain`, so a browser renders it as text rather than the portal. For a link
+that opens the actual portal, host it — §2 above.
+
+### Why there is no live link yet
+
+- GitHub Pages is not enabled on this repo, and enabling it (or creating a new repo for a clean
+  Pages URL) needs a token with `pages`/`repo` write scope. The build token can push branches and
+  open pull requests, but both of those calls return `403 Resource not accessible by integration`.
+- So the hosting step needs one manual click from you. Two options:
+
+**A. GitHub Pages on this repo (3 clicks, no new repo)**
+
+1. Merge PR #1: `https://github.com/lelakolli/public-apis/pull/1` → *Merge pull request*.
+2. Repo → **Settings** → **Pages** → Source: *Deploy from a branch* → branch `master`, folder `/` → **Save**.
+3. The site publishes at `https://lelakolli.github.io/public-apis/hyderabad-buyer-portal/`
+   (GitHub builds this in about a minute; the Actions tab shows the deploy).
+
+Because deep links are hash-based (`#/project/skyline`), they work unmodified on Pages.
+
+**B. Netlify Drop (fastest, no repo changes, shareable in 30 seconds)**
+
+Drag the unzipped `hyderabad-buyer-portal` folder onto `https://app.netlify.com/drop`.
+Cleanest option if you would rather not add a real-estate demo to a fork of `public-apis`.
+
+Whichever you pick, send the resulting URL — that is the link to share with buyers, clients or a
+portfolio reviewer.
+
+## Before you share publicly — three edits
+
+All of these are in `index.html`:
+
+1. **Phone and WhatsApp** — replace every `919999999999` (currently 11 occurrences) with the real
+   number, including the `wa.me` links in the header, footer, floating button and dossiers.
+2. **The demo disclaimer** — the footer says all data is illustrative. Keep that until the prices,
+   TSRERA numbers and builder scores are replaced with verified figures (see `README.md` →
+   "Editing content"; the data arrays are at the top of the second `<script>`).
+3. **The visit form** — it validates and confirms but deliberately transmits nothing. Wire it to
+   your CRM or a form endpoint before using it to collect real enquiries.
+
+## Privacy note
+
+The shortlist and comparison are stored only in the visitor's own browser (`localStorage`).
+Nothing is sent to a server, and there are no analytics or tracking scripts — the only external
+requests are the two Google Fonts. If you need the portal to work fully offline (for example on
+a laptop at a site office with no signal), say so and the fonts can be embedded locally instead.
