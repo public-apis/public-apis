@@ -1,0 +1,28 @@
+name: "Validate links"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 0 * * *'
+
+env:
+  FILENAME: README.md
+
+jobs:
+  validate_links:
+    name: 'Check all links are working'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: python -m pip install -r scripts/requirements.txt
+
+      - name: Validate all links from README.md
+        run: python scripts/validate/links.py ${FILENAME}
