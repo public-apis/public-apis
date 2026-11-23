@@ -1153,6 +1153,7 @@ API | Description | Auth | HTTPS | CORS |
 | [SMTPfast](https://smtpfa.st/docs) | Send transactional email, manage contacts and broadcasts, free 3,000 emails/month | `apiKey` | Yes | Yes |
 | [StopMailing](https://stopmailing.net/developer-guide) | Disposable email addresses with a free, no-signup REST API | No | Yes | Yes |
 | [TempMailGrab](https://tempmailgrab.com/api-docs) | Disposable inboxes for email testing with OTP extraction and webhooks | `apiKey` | Yes | No |
+| [Transmitly](https://transmitly.io/docs/api-reference) | Transactional email API and SMTP relay with inbound inboxes and delivery states | `apiKey` | Yes | Unknown |
 | [TrustLookup](https://trustlookup.io/docs) | Verify email syntax, MX and live mailbox; detect disposable, role and catch-all addresses | `apiKey` | Yes | No |
 | [uchecker](https://api.uchecker.net/docs) | Bulk email verification with full SMTP server responses | `apiKey` | Yes | Unknown |
 | [Unitpost](https://www.unitpost.com/docs/email) | Send transactional email, campaigns and SMS; free for 5,000 emails a month | `apiKey` | Yes | No |
