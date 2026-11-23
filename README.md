@@ -1903,6 +1903,7 @@ API | Description | Auth | HTTPS | CORS |
 | [freehire](https://freehire.dev/docs/api) | Open-source search engine aggregating tech jobs from company ATS boards | No | Yes | No |
 | [GraphQL Jobs](https://graphql.jobs/docs/api/) | Jobs with GraphQL | No | Yes | Yes |
 | [HeroHunt People Search](https://www.herohunt.ai/people-search-api) | Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing | `apiKey` | Yes | Yes |
+| [Himalayas](https://himalayas.app/api) | Remote jobs with country eligibility, salary and company data; REST, RSS and MCP | No | Yes | No |
 | [HireLayer](https://hirelayer.co/api-docs) | Parse resumes and job descriptions, normalize skills, match and rank candidates | `apiKey` | Yes | Yes |
 | [Job Opportunities](https://jobopportunitiesapi.org/docs) | Live jobs from employers' own career sites and ATSs, closed jobs re-checked daily | `apiKey` | Yes | Yes |
 | [Jobs2Careers](https://docs.talroo.com/api/search) | Job aggregator | `apiKey` | Yes | Unknown |
