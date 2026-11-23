@@ -35,6 +35,7 @@ CategoriesLineNumber = Dict[str, int]
 
 
 def error_message(line_number: int, message: str) -> str:
+    """Auto-generated docstring."""
     line = line_number + 1
     return f'(L{line:03d}) {message}'
 
