@@ -1916,6 +1916,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) | Job titles, skills and related jobs data | No | No | Unknown |
 | [Present of AI](https://presentofai.com/developers) | AI company profiles, open AI jobs and dated AI news, REST and MCP | No | Yes | Yes |
 | [RankFabrik Jobs](https://rankfabrik.com/produits/emplois) | Aggregated job postings search, deduplicated on identifier, with coverage per segment | `apiKey` | Yes | Unknown |
+| [openradar](https://openradar.fun/docs) | Open feed of job vacancies and freelance orders; documented no-key REST API (endpoints, parameters, responses), OpenAPI 3.1, RSS and MCP | No | Yes |
 | [Reed](https://www.reed.co.uk/developers) | Job board aggregator | `apiKey` | Yes | Unknown |
 | [RemoteOK](https://remoteok.com/api) | Remote job board for digital nomads | No | Yes | Yes |
 | [Siftsmith Company Jobs](https://apify.com/siftsmith/company-jobs/api) | Open jobs from company career pages on Greenhouse, Lever, Ashby, Workday and more, as JSON or XML | `apiKey` | Yes | Yes |
