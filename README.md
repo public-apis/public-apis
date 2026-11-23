@@ -1345,6 +1345,7 @@ API | Description | Auth | HTTPS | CORS |
 | [StockFit](https://api.stockfit.io/docs) | SEC filings, financial statements, earnings, ETF holdings and ownership data | `apiKey` | Yes | Yes | |
 | [Styvio](https://www.Styvio.com) | Realtime and historical stock data and current stock sentiment | `apiKey` | Yes | Unknown | |
 | [Sugra](https://sugra.ai) | One API for market data, economics, commodities, climate, and global news. LLM-ready JSON | `apiKey` | Yes | Yes | |
+| [SurgeFlow](https://surgeflows.capital/membership/api) | Dated research snapshots for US, China, Japan and Hong Kong stocks as JSON or CSV | No | Yes | Yes | [Postman collection](https://surgeflows.capital/data/surgeflow.postman_collection.json) |
 | [Sales Tax Calculator](https://salestaxcalculatorapi.com) | Computes exact sales tax amounts and breakdowns for checkout and billing | `apiKey` | Yes | Yes | |
 | [Sanctions Screening](https://dataandapis.com/apis/sanctions) | Fuzzy name screening against OFAC, UN, EU and UK sanctions lists plus PEPs, with list versions | `apiKey` | Yes | No |
 | [Tax Data](https://apilayer.com/marketplace/tax_data-api) | Instant VAT number and tax validation across the globe | `apiKey` | Yes | Unknown | |
