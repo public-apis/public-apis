@@ -1324,6 +1324,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NORTH7 Agent](https://north7.ai/v1/docs) | Trading signals, market analysis and geopolitical intelligence | `apiKey` | Yes | Yes |
 | [Nordigen](https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/) | Connect to bank accounts using official bank APIs and get raw transaction data | `apiKey` | Yes | Unknown | |
 | [Nubra](https://nubra.io/products/api/docs/) | Indian broker API: orders, quotes, historical data, option chains with Greeks and live feeds | `apiKey` | Yes | Unknown |
+| [OBM (Open Brazil Market)](https://obm.com.br/api) | Brazilian fund and market data with official sources and reference dates | `apiKey` | Yes | Unknown |
 | [OpenFIGI](https://www.openfigi.com/api) | Equity, index, futures, options symbology from Bloomberg LP | `apiKey` | Yes | Yes | |
 | [OpenTaxRate](https://opentaxrate.com) | US sales tax rates by street address, from the states' own published data | No | Yes | Unknown | |
 | [Pink Agentic AI Payments](https://pinkwallet.com/agentic/developers/) | Approval layer for AI agent payments: per-agent budgets, rules, single-use credentials, sandbox | `apiKey` | Yes | Yes | |
