@@ -2151,6 +2151,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Pan Africa Data](https://panafricadata.com) | Macroeconomic and subnational income distribution data for all 54 African countries | `apiKey` | Yes | Unknown |
 | [PayCrunch](https://paycrunch.co/api.html) | US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0 | No | Yes | Yes |
 | [PeakMetrics](https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news) | News articles and public datasets | `apiKey` | Yes | Unknown |
+| [Praesago](https://praesago.com/docs/api) | Property and area data for postcode districts in England and Wales: prices, rents, planning, crime | `apiKey` | Yes | Yes |
 | [ProductGuru](https://myproduct.guru/lookup/) | Consumer product-safety recall notices from 11 government registers, looked up by barcode (EAN/GTIN) | No | Yes | Yes |
 | [PropRaven](https://propraven.com/developers) | US parcel, owner and permit records for all 50 states, with an OpenAPI 3.1 spec | `apiKey` | Yes | No |
 | [PublicDataHub](https://publicdatahub.org/api) | US public schools, hospitals and federal agency budgets as JSON/CSV, with provenance | No | Yes | Yes |
