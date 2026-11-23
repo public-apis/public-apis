@@ -879,7 +879,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OutageDeck](https://outagedeck.com/developers/api) | Live status and incidents for 170+ cloud and SaaS providers from official feeds | No | Yes | Yes |
 | [oyyi](https://oyyi.xyz/docs/1.0) | API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation | No | Yes | Yes |
 | [Packagist](https://packagist.org/apidoc) | PHP Composer package versions and dist metadata | No | Yes | No |
-| [Page2MD](https://page2md-api.pages.dev/url-to-markdown) | Convert any web page to clean Markdown via a free web tool or API | `apiKey` | Yes | Unknown |
+| [Page2MD](https://rapidapi.com/binbin7418/api/page2md-url-to-clean-markdown-api) | Convert web pages and documents to clean Markdown for LLM/RAG pipelines. 1,000 free pages/month | `apiKey` | Yes | Unknown |
 | [PageCDN](https://pagecdn.com/docs/public-api) | Public API for javascript, css and font libraries on PageCDN | `apiKey` | Yes | Yes |
 | [Peak](https://peak.fo/docs) | Cloudflare Turnstile and 5-second challenge solving, pay per successful solve, 1,000 free solves | `apiKey` | Yes | Yes |
 | [Postman](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) | Tool for testing APIs | `apiKey` | Yes | Unknown |
