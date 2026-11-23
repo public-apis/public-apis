@@ -1393,6 +1393,7 @@ API | Description | Auth | HTTPS | CORS |
 | [IndiaRestros](https://indiarestros.com/api/docs) | Indian restaurants, menus with rupee prices, dish search and timings across 9,000+ cities | No | Yes | Yes |
 | [Kroger](https://developer.kroger.com/reference) | Supermarket Data | `apiKey` | Yes | Unknown |
 | [LCBO](https://lcboapi.com/) | Alcohol | `apiKey` | Yes | Unknown |
+| [Medhya Recipes](https://nourish.getmedhya.com/developers) | Photographed recipes with nutrition, allergen and low-FODMAP filters, swaps and meal plans | `apiKey` | Yes | Yes |
 | [Noms](https://noms.sh/docs) | Nutrition data for 3.7M foods and 298K brands across 230 countries, with barcodes and images | `apiKey` | Yes | Yes |
 | [Open Brewery DB](https://www.openbrewerydb.org) | Breweries, Cideries and Craft Beer Bottle Shops | No | Yes | Yes |
 | [Open Food Facts](https://world.openfoodfacts.org/data) | Food Products Database | No | Yes | Unknown |
