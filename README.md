@@ -990,6 +990,8 @@ API | Description | Auth | HTTPS | CORS |
 | [unfurlr](https://unfurlr.onrender.com/docs) | Link-preview metadata for any URL: title, Open Graph, Twitter tags, favicon, oEmbed | `apiKey` | Yes | Yes |
 | [Unique.domains](https://unique.domains/api) | Analyse any domain name in depth and search 34 million one-word names for the right one to buy | No | Yes | Yes |
 | [URLpipe](https://urlpipe.dev/docs) | Turn a URL into Markdown, screenshots, metadata or Lighthouse audits, rendered in real Chrome | `apiKey` | Yes | No |
+| [UTC WTF](https://api.utc.wtf/) | Current UTC time in every common format, plus DST-aware conversion between IANA time zones | No | Yes | Yes |
+| [UTC WTF WorldTime](https://wt.utc.wtf/api) | Current time for any IANA time zone or the caller's IP, a drop-in WorldTimeAPI replacement | No | Yes | Yes |
 | [Utilorax](https://utilorax.com/api) | 203 JSON endpoints: hashing, encoding, unit conversion, text, dates and file conversion | `apiKey` | Yes | Yes |
 | [Vornamencheck](https://vornamencheck.de/#api) | Gender probability for a first name, optionally per country; documentation in German | No | Yes | Yes |
 | [W3C Validator](https://validator.w3.org/docs/api.html) | Validate HTML and check markup errors | No | Yes | Unknown |
