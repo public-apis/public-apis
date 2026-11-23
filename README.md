@@ -473,6 +473,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Trello](https://developers.trello.com/) | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | Unknown |
 | [TrendsAGI](https://trendsagi.com/api-docs) | Trending topic volume, velocity and growth with AI insights; free plan of 100 calls/day | `apiKey` | Yes | No |
 | [UGC VZ](https://ugc-vz.de/developers) | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | No | Yes | No |
+| [Varosyan](https://varosyanllc.com/docs) | Company records from official national registers, joined to public tenders and contract awards | `apiKey` | Yes | No |
 | [Verif Entreprise FR](https://api-production-24833.up.railway.app) | French company checks by SIREN: status, insolvency (BODACC), VAT (VIES); free preview | No | Yes | Yes |
 | [Vibe Manufacturing](https://vibe-manufacturing.com/agents) | Manufacturer directory with supplier matching, cost estimates and prototype sourcing plans | No | Yes | Yes |
 | [Village](https://docs.village.ai) | Person and company enrichment plus warm introduction paths through your network | `apiKey` | Yes | Yes |
