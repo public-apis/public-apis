@@ -1802,6 +1802,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Rent Limits](https://glazeddata.com/rent-limits/api/) | HUD Fair Market Rents by US ZIP; paid tiers add tax-credit and Section 8 limits | `apiKey` | Yes | Yes |
 | [Represent by Open North](https://represent.opennorth.ca/) | Find Canadian Government Representatives | No | Yes | Unknown |
 | [Right to Disconnect](https://righttodisconnect.jdries.nl/api/) | Right-to-disconnect employment law by EU country: binding status, statute, and sanctions | No | Yes | Yes |
+| [SAM Gov](https://samgovapi.io/docs) | SAM.gov entities, contract opportunities, exclusions and USAspending awards as JSON, free tier | `apiKey` | Yes | Yes |
 | [SchoolAPI](https://schoolapi.org/docs) | Every US public, charter and private school and district, with search and enrollment history | `apiKey` | Yes | No |
 | [ShelfWatch CPSC Recalls](https://stxai.app/developers) | US CPSC product recall notices, filterable by product category; no key required | No | Yes | Yes |
 | [Spatial India](https://api.spatialindia.com) | District-level data for India: Census, NFHS-5, NCRB, RBI and more, reconciled onto one map | No | Yes | Yes |
