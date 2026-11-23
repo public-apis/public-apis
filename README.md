@@ -84,6 +84,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [FindIP MCP](https://github.com/findip-net/findip-mcp) | IP lookups and FindIP Shield risky-event checks for agents | `apiKey` | `stdio` | [Glama](https://glama.ai/mcp/servers/findip-net/findip-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.findip-net/findip-mcp) |
 | [FMCSA Carrier Intelligence](https://kmcto.github.io/fmcsa-carrier-intelligence/) | FMCSA carrier authority, insurance and identity data; free MC lookup, paid per-call records | No | `HTTP` | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.KMCTO/fmcsa-carrier-intelligence) |
 | [Git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) | Read, search, diff, and commit to local Git repositories | No | `stdio` | – |
+| [GMAT MX](https://api.gmat.mx/) | GMAT Focus percentiles, fees, exam rules and practice questions for Mexico and Latin America | No | `HTTP` | [Cursor](https://cursor.directory/plugins/gmat-mx-api) · [RapidAPI](https://rapidapi.com/elvispaul7/api/gmat-mx) |
 | [GitHub](https://github.com/github/github-mcp-server) | Repos, issues, PRs, code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |
 | [HEY Research Lab](https://heyresearch.xyz/developers/agents) | Is a Robinhood Chain token or project still being built? Ships and contracts, each with its source | No | `stdio`, `HTTP` | [Anthropic](https://claude.ai/directory/hey-research-lab) · [Glama](https://glama.ai/mcp/servers/hey-research-lab/hey-research-open) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.hey-research-lab/hey-research) · [npm](https://www.npmjs.com/package/@hey-research-lab/mcp) |
 | [iGaming Tools](https://i-gaming.tools/docs/mcp/) | Online slot specs, RTP variants, providers, regulators, news, jobs and search demand | No | `HTTP` | – |
@@ -2120,6 +2121,7 @@ API | Description | Auth | HTTPS | CORS |
 | [EOSL](https://eosl.ai/api/) | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | No | Yes | Yes |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | No | Yes | Unknown |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | Federal Statistical Office Germany | `OAuth` | Yes | Unknown |
+| [GMAT MX](https://api.gmat.mx/) | Official GMAT Focus percentiles, GMAC fees for Latin America, exam rules and practice questions | No | Yes | Yes |
 | [hexplace](https://hexplace.org/developers/) | Climate by month, rents, home prices, amenities and rankings for 800 towns in Portugal | No | Yes | Yes |
 | [HousingFeed](https://housingfeed.com/docs) | US rental listings from property managers' own websites, verified weekly | No | Yes | Yes |
 | [ImmoAnalyse](https://immoanalyse.pro/api-docs) | German property valuations (ImmoWertV), address geocoding and asking rents for all municipalities | `apiKey` | Yes | No |
