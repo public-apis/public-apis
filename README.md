@@ -2609,6 +2609,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Ball Ranks](https://ballranks.com/developers) | NFL and NBA fantasy rankings and player projections | No | Yes | Yes |
 | [balldontlie](https://www.balldontlie.io) | Balldontlie provides access to stats data from the NBA | No | Yes | Yes |
 | [Bet Better](https://betbetter.world/api/) | Sports model win probabilities and fair odds across 13 leagues | No | Yes | Yes |
+| [bet365 API](https://thebet365api.com/docs) | Unofficial bet365 odds as JSON: NFL, NBA, NHL, college and European soccer, with line history | `apiKey` | Yes | No |
 | [BirdieAPI](https://birdieapi.com/docs) | PGA Tour golf since 2001: leaderboards, hole-by-hole scores, courses, ratings and major winner odds | `apiKey` | Yes | Yes |
 | [Boxerbook](https://boxerbook.com/developers) | Professional boxing: boxers, bouts, schedule, results, world titles and rankings | `apiKey` | Yes | Yes |
 | [Canadian Football League (CFL)](http://api.cfl.ca/) | Official JSON API providing real-time league, team and player statistics about the CFL | `apiKey` | Yes | No |
