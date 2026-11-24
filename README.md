@@ -1173,6 +1173,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CosmyDay Astrology](https://cosmyday.com/api-docs) | Natal charts and sky events computed from Swiss Ephemeris | No | Yes | Yes |
 | [Excuser](https://excuser.herokuapp.com/) | Get random excuses for various situations | No | Yes | Unknown |
 | [Fun Fact](https://api.aakhilv.me) | A simple HTTPS api that can randomly select and return a fact from the FFA database | No | Yes | Yes |
+| [GiggleTime](https://www.giggletime.app/en/widget) | Family-friendly joke of the day in 26 languages, with translated labels | No | Yes | Yes |
 | [Green Screen Memes](https://api.greenscreenmemes.app/docs) | Search 2,000+ green screen meme video clips, most with sound, new clips daily | `apiKey` | Yes | No |
 | [Imgflip](https://imgflip.com/api) | Gets an array of popular memes | No | Yes | Unknown |
 | [JokeAPI](https://v2.jokeapi.dev/) | Programmable jokes in multiple languages with filtering options | No | Yes | Yes |
