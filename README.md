@@ -2026,7 +2026,7 @@ API | Description | Auth | HTTPS | CORS |
 | [JioSaavn](https://github.com/cyberboysumanjay/JioSaavnAPI) | API to retrieve song information, album meta data and many more from JioSaavn | No | Yes | Unknown |
 | [KKBOX](https://developer.kkbox.com) | Get music libraries, playlists, charts, and perform out of KKBOX's platform | `OAuth` | Yes | Unknown |
 | [KSoft.Si Lyrics](https://docs.ksoft.si/api/lyrics-api) | API to get lyrics for songs | `apiKey` | Yes | Unknown |
-| [LastFm](https://www.last.fm/api) | Music | `apiKey` | Yes | Unknown |
+| [LastFm](https://www.last.fm/api) | Music; API keys require a Last.fm Pro subscription from 2026-12-01 ([announcement](https://support.last.fm/t/api-keys-will-require-pro-from-1st-december/121030)) | `apiKey` | Yes | Unknown |
 | [ListenBrainz](https://listenbrainz.readthedocs.io/en/latest/users/api/index.html) | Open music listening data: scrobble history, statistics and recommendations | No | Yes | Yes |
 | [Lyrics.ovh](https://lyricsovh.docs.apiary.io) | Simple API to retrieve the lyrics of a song | No | Yes | Unknown |
 | [Mixcloud](https://www.mixcloud.com/developers/) | Music | `OAuth` | Yes | Yes |
