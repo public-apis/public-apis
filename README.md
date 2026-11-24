@@ -420,6 +420,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
 | [Apache Superset](https://superset.apache.org/docs/api) | API to manage your BI dashboards and data sources on Superset | `apiKey` | Yes | Yes |
+| [Calibration Ledger](https://apify.com/publicrecords/calibration-ledger) | Forecast track records for IMF, OECD, Fed, ECB SPF and listed issuers: errors and bias | `apiKey` | Yes | Unknown |
 | [CEA Digital](https://ceadigital.io/tools) | Real estate LLC skip trace, video hook transcripts, eBay sold comps and building permits | `apiKey` | Yes | Yes |
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | `apiKey` | Yes | Unknown |
@@ -433,6 +434,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Funding Signals](https://fundingsignals.net/docs) | Companies that just raised funding, scored as sales leads, from public SEC filings | `apiKey` | Yes | No |
 | [GlobalEntity](https://www.globalentityapi.com/docs) | Official company data from 56 European business registers as normalized JSON | `apiKey` | Yes | Yes |
 | [Gmail](https://developers.google.com/gmail/api/) | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | Unknown |
+| [Google Ads Transparency](https://apify.com/publicrecords/google-ads-transparency-scraper) | Competitor Google ads from the Ads Transparency Center with first and last shown dates | `apiKey` | Yes | Unknown |
 | [Google Analytics](https://developers.google.com/analytics/) | Collect, configure and analyze your data to reach the right audience | `OAuth` | Yes | Unknown |
 | [gstinapi](https://www.gstinapi.in/docs) | Verify Indian GST numbers (GSTIN): legal name, status, address and return filing history; free tier | `apiKey` | Yes | No |
 | [Instatus](https://instatus.com/help/api) | Post to and update maintenance and incidents on your status page through an HTTP REST API | `apiKey` | Yes | Unknown |
@@ -1737,6 +1739,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Interpol Red Notices](https://interpol.api.bund.dev/) | Access and search Interpol Red Notices | No | Yes | Unknown |
 | [Istanbul (İBB) Open Data](https://data.ibb.gov.tr) | Data sets from the İstanbul Metropolitan Municipality (İBB) | No | Yes | Unknown |
 | [Kurtaxe](https://keyset.cloud/kurtaxe/api/) | German tourist tax (Kurtaxe) rates by municipality, each quoted from the municipal statute | No | Yes | Yes |
+| [Legistar City Council Meetings](https://apify.com/publicrecords/legistar-meetings-scraper) | City council meetings, agenda items and documents for any city on Legistar | `apiKey` | Yes | Unknown |
 | [LocalGov.jp](https://localgov.jp/) | Japan grants and subsidies (central J-Grants + 1,916 municipalities) | No | Yes | Yes |
 | [Loupe](https://loupe.legal/data#agents) | US case citations: does one exist, which case does it name, is the pin cite inside the opinion | No | Yes | Yes |
 | [MORVS](https://morvs.ai/api/) | Source-linked US regulatory and public records: SEC filings, enforcement actions, recalls | No | Yes | Yes |
@@ -2042,6 +2045,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Songsterr](https://www.songsterr.com/) | Provides guitar, bass and drums tabs and chords | No | Yes | Unknown |
 | [SoundCloud](https://developers.soundcloud.com/docs/api/guide) | With SoundCloud API you can build applications that will give more power to control your content | `OAuth` | Yes | Unknown |
 | [Spotify](https://beta.developer.spotify.com/documentation/web-api/) | View Spotify music catalog, manage users' libraries, get recommendations and more | `OAuth` | Yes | Unknown |
+| [Spotify Play Counts](https://apify.com/publicrecords/spotify-play-count-scraper) | Play counts for tracks on a Spotify album, artist or playlist, plus monthly listeners | `apiKey` | Yes | Unknown |
 | [StemConsole](https://stemconsole.ai/developers/) | Split songs into vocals, drums, bass and other stems with AI | `apiKey` | Yes | Yes |
 | [Sunor](https://docs.sunor.cc) | AI music generation API via Suno, with pay-as-you-go credits | `apiKey` | Yes | Unknown |
 | [TasteDive](https://tastedive.com/read/api) | Similar artist API (also works for movies and TV shows) | `apiKey` | Yes | Unknown |
@@ -2494,6 +2498,8 @@ API | Description | Auth | HTTPS | CORS |
 | [Dummy Products](https://dummyproducts-api.herokuapp.com/) | An api to fetch dummy e-commerce products JSON data with placeholder images | `apiKey` | Yes | Yes |
 | [eBay](https://developer.ebay.com/) | Sell and Buy on eBay | `OAuth` | Yes | Unknown |
 | [Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics) | Manage shop and interact with listings | `OAuth` | Yes | Unknown |
+| [Etsy Search Listings](https://apify.com/publicrecords/etsy-search-scraper) | Etsy search results by keyword or category with price, rating, reviews, Bestseller and ad flag | `apiKey` | Yes | Unknown |
+| [Etsy Shop Daily Sales](https://apify.com/publicrecords/etsy-shop-velocity) | Daily, 7-day and 28-day sales for Etsy shops from each shop's public sales counter | `apiKey` | Yes | Unknown |
 | [EverBee Research](https://research-open-api.everbee.com/docs/swagger.html) | Etsy listing, shop and keyword analytics: estimated sales, revenue, search volume and competition | `apiKey` | Yes | Yes |
 | [Flipkart Marketplace](https://seller.flipkart.com/api-docs/FMSAPI.html) | Product listing management, Order Fulfilment in the Flipkart Marketplace | `OAuth` | Yes | Yes |
 | [Lazada](https://open.lazada.com/doc/doc.htm) | Retrieve product ratings and seller performance metrics | `apiKey` | Yes | Unknown |
@@ -2536,6 +2542,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Blogger](https://developers.google.com/blogger/) | The Blogger APIs allows client applications to view and update Blogger content | `OAuth` | Yes | Unknown |
 | [Bluesky](https://docs.bsky.app/) | Decentralized social networking via the AT protocol | No | Yes | Yes |
 | [Cisco Spark](https://developer.ciscospark.com) | Team Collaboration Software | `OAuth` | Yes | Unknown |
+| [Company Social Links](https://apify.com/publicrecords/company-social-profile-finder) | Company domain or name to LinkedIn, X, YouTube, Instagram and Facebook links with evidence | `apiKey` | Yes | Unknown |
 | [Dangerous Discord Database](https://discord.riverside.rocks/docs/index.php) | Database of malicious Discord accounts | `apiKey` | Yes | Unknown |
 | [Discord](https://discord.com/developers/docs/intro) | Make bots for Discord, integrate Discord onto an external platform | `OAuth` | Yes | Unknown | | |
 | [disdex](https://disdex.io/api) | Search public Discord servers by name, language, guild tag and size, with member history | No | Yes | Yes |
