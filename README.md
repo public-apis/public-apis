@@ -1578,6 +1578,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GeoDataSource](https://www.geodatasource.com/web-service) | Geocoding of city name by using latitude and longitude coordinates | `apiKey` | Yes | Unknown |
 | [GeoDB Cities](http://geodb-cities-api.wirefreethought.com/) | Get global city, region, and country data | `apiKey` | Yes | Unknown |
 | [GeographQL](https://geographql.netlify.app) | A Country, State, and City GraphQL API | No | Yes | Yes |
+| [GeoIPHub](https://help.geoiphub.com/docs/api?utm_source=public-apis&utm_medium=directory&utm_campaign=listings) | IP geolocation, ASN, VPN/proxy/Tor detection, threat flags and a rules-based 0-100 fraud score | `apiKey` | Yes | No |
 | [GeoJS](https://www.geojs.io/) | IP geolocation with ChatOps integration | No | Yes | Yes |
 | [Geokeo](https://geokeo.com) | Geokeo geocoding service- with 2500 free api requests daily | No | Yes | Yes |
 | [GeoNames](http://www.geonames.org/export/web-services.html) | Place names and other geographical data | No | No | Unknown |
