@@ -3001,6 +3001,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TVMaze](http://www.tvmaze.com/api) | TV Show Data | No | No | Unknown |
 | [UGCdrop](https://ugcdrop.com/api) | Search real UGC video clips (reactions, hooks, b-roll) by emotion, niche, age and setting | No | Yes | Yes |
 | [uNoGS](https://rapidapi.com/unogs/api/unogsng) | Unofficial Netflix Online Global Search, Search all netflix regions in one place | `apiKey` | Yes | Yes |
+| [Vertov](https://vertov.app/docs/api) | List and upload workspace videos, get share links, and subscribe to video events | `apiKey` | Yes | Yes |
 | [Video to Markdown](https://video-to-markdown.com/api) | Turn a YouTube URL into a markdown thumbnail image link | No | Yes | Yes |
 | [VidSmaller](https://vidsmaller.com/api-docs) | Compress videos to an exact target file size, with estimates and async jobs | `apiKey` | Yes | Yes |
 | [VidWords](https://vidwords.com/api-docs) | YouTube transcripts and subtitles as TXT, SRT, VTT or DOCX, plus AI video analysis | `apiKey` | Yes | No |
