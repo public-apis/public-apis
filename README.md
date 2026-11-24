@@ -1266,6 +1266,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Binlist](https://binlist.net/) | Public access to a database of IIN/BIN information | No | Yes | Unknown | |
 | [bluerate](https://www.bluerate.ai/developers) | Licensed US mortgage loan officers by state, city, ZIP, loan type or language, with NMLS IDs | No | Yes | Yes | |
 | [Boleto.Cloud](https://boleto.cloud/) | A api to generate boletos in Brazil | `apiKey` | Yes | Unknown | |
+| [Borbur](https://borbur.net/developers/) | Spain net salary, IRPF and regions 2026, Beckham Law, UAE gratuity, 20-country salary tax | No | Yes | Yes |
 | [Brainy Prices](https://prices.brainy.ae/developers.html) | UAE living costs: KHDA fees, DLD rents, fuel, utilities, telecom and relocation, with dated sources | No | Yes | Yes | |
 | [BriefTape](https://brieftape.com) | Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged | `apiKey` | Yes | Yes |
 | [CalcBloc](https://calcbloc.com/developers) | Take-home pay, employer cost and official tax tables for US, UK, AU, NZ, CA, IE, IN | `apiKey` | Yes | Yes | |
