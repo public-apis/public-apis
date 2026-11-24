@@ -4,6 +4,7 @@ import re
 import sys
 from string import punctuation
 from typing import List, Tuple, Dict
+from urllib.parse import urlsplit
 
 # Temporary replacement
 # The descriptions that contain () at the end must adapt to the new policy later
@@ -13,12 +14,23 @@ anchor = '###'
 auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'User-Agent', 'No']
 https_keys = ['Yes', 'No']
 cors_keys = ['Yes', 'No', 'Unknown']
+mcp_title = 'MCP Servers'
+mcp_header = ['Name', 'Description', 'Auth', 'Transport', 'Install']
+transport_re = re.compile(r'`(?:stdio|HTTP|SSE)`(?:, `(?:stdio|HTTP|SSE)`)*')
+install_link_re = re.compile(r'\[([^\]]+)\]\((https://[^\s()]+)\)')
+install_hosts = {
+    'Cursor': 'cursor.directory',
+    'Anthropic': 'claude.ai',
+    'Glama': 'glama.ai',
+}
 
 index_title = 0
 index_desc = 1
 index_auth = 2
 index_https = 3
 index_cors = 4
+index_transport = 3
+index_install = 4
 
 num_segments = 5
 min_entries_per_category = 3
@@ -39,14 +51,33 @@ def error_message(line_number: int, message: str) -> str:
     return f'(L{line:03d}) {message}'
 
 
+def get_mcp_line_numbers(contents: List[str]) -> set:
+    """The separately documented MCP table ends at the next level-1/2 heading."""
+    line_numbers = set()
+    in_mcp = False
+    for line_num, line_content in enumerate(contents):
+        heading = re.match(r'^(#{1,2})\s+(.+?)\s*$', line_content)
+        if heading:
+            in_mcp = heading.group(1) == '##' and heading.group(2) == mcp_title
+        if in_mcp:
+            line_numbers.add(line_num)
+    return line_numbers
+
+
 def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesLineNumber]:
 
     categories = {}
     category_line_num = {}
+    mcp_lines = get_mcp_line_numbers(contents)
 
     for line_num, line_content in enumerate(contents):
 
-        if line_content.startswith(anchor):
+        if line_num in mcp_lines and re.fullmatch(r'##\s+MCP Servers\s*', line_content):
+            categories[mcp_title] = []
+            category_line_num[mcp_title] = line_num
+            continue
+
+        if line_num not in mcp_lines and line_content.startswith(anchor):
             category = line_content.split(anchor)[1].strip()
             categories[category] = []
             category_line_num[category] = line_num
@@ -62,7 +93,8 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
         title_match = link_re.match(raw_title)
         if title_match:
                 title = title_match.group(1).upper()
-                categories[category].append(title)
+                entry_category = mcp_title if line_num in mcp_lines else category
+                categories[entry_category].append(title)
 
     return (categories, category_line_num)
 
@@ -164,6 +196,38 @@ def check_cors(line_num: int, cors: str) -> List[str]:
     return err_msgs
 
 
+def check_transport(line_num: int, transport: str) -> List[str]:
+    if not transport_re.fullmatch(transport):
+        return [error_message(line_num, f'{transport} is not a valid Transport option')]
+    return []
+
+
+def check_install(line_num: int, install: str) -> List[str]:
+    if install == '–':
+        return []
+    for listing in install.split(' · '):
+        match = install_link_re.fullmatch(listing)
+        if match:
+            try:
+                url = urlsplit(match.group(2))
+                if url.netloc == install_hosts.get(match.group(1)):
+                    continue
+            except ValueError:
+                pass
+        return [error_message(line_num, f'{install} is not a valid Install option')]
+    return []
+
+
+def check_mcp_entry(line_num: int, segments: List[str]) -> List[str]:
+    return [
+        *check_title(line_num, segments[index_title]),
+        *check_description(line_num, segments[index_desc]),
+        *check_auth(line_num, segments[index_auth]),
+        *check_transport(line_num, segments[index_transport]),
+        *check_install(line_num, segments[index_install]),
+    ]
+
+
 def check_entry(line_num: int, segments: List[str]) -> List[str]:
 
     raw_title = segments[index_title]
@@ -193,6 +257,7 @@ def check_file_format(lines: List[str]) -> List[str]:
 
     err_msgs = []
     category_title_in_index = []
+    mcp_lines = get_mcp_line_numbers(lines)
 
     alphabetical_err_msgs = check_alphabetical_order(lines)
     err_msgs.extend(alphabetical_err_msgs)
@@ -208,7 +273,7 @@ def check_file_format(lines: List[str]) -> List[str]:
             category_title_in_index.append(category_title_match.group(1))
 
         # check each category for the minimum number of entries
-        if line_content.startswith(anchor):
+        if line_num not in mcp_lines and line_content.startswith(anchor):
             category_match = anchor_re.match(line_content)
             if category_match:
                 if category_match.group(1) not in category_title_in_index:
@@ -228,11 +293,23 @@ def check_file_format(lines: List[str]) -> List[str]:
             continue
 
         # skips lines that we do not care about
-        if not line_content.startswith('|') or line_content.startswith('|---'):
+        if not line_content.startswith('|') or (line_num not in mcp_lines and line_content.startswith('|---')):
             continue
 
-        num_in_category += 1
         segments = line_content.split('|')[1:-1]
+        is_mcp = line_num in mcp_lines
+        if is_mcp:
+            stripped_segments = [segment.strip() for segment in segments]
+            if stripped_segments == mcp_header or (
+                len(segments) == num_segments and
+                all(re.fullmatch(r':?-{3,}:?', segment) for segment in stripped_segments)
+            ):
+                continue
+            if len(segments) > num_segments:
+                err_msgs.append(error_message(line_num, f'MCP entry must have exactly {num_segments} columns (have {len(segments)})'))
+                continue
+        else:
+            num_in_category += 1
         if len(segments) < num_segments:
             err_msg = error_message(line_num, f'entry does not have all the required columns (have {len(segments)}, need {num_segments})')
             err_msgs.append(err_msg)
@@ -245,7 +322,7 @@ def check_file_format(lines: List[str]) -> List[str]:
                 err_msgs.append(err_msg)
         
         segments = [segment.strip() for segment in segments]
-        entry_err_msgs = check_entry(line_num, segments)
+        entry_err_msgs = check_mcp_entry(line_num, segments) if is_mcp else check_entry(line_num, segments)
         err_msgs.extend(entry_err_msgs)
     
     return err_msgs
