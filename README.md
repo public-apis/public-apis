@@ -1411,6 +1411,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Untappd](https://untappd.com/api/docs) | Social beer sharing | `OAuth` | Yes | Unknown |
 | [What's on the menu?](http://nypl.github.io/menus-api/) | NYPL human-transcribed historical menu collection | `apiKey` | No | Unknown |
 | [WhiskyHunter](https://whiskyhunter.net/api/) | Past online whisky auctions statistical data | No | Yes | Unknown |
+| [WineVoyager](https://api.winevoyager.tours/docs) | Italian DOCG and DOC wine denominations: grapes, types, regions | No | Yes | Yes |
 | [Zestful](https://zestfuldata.com/) | Parse recipe ingredients | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
