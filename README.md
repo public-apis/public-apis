@@ -1429,6 +1429,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Brawl Stars](https://developer.brawlstars.com) | Brawl Stars Game Information | `apiKey` | Yes | Unknown |
 | [Bugsnax](https://www.bugsnaxapi.com/) | Get information about Bugsnax | No | Yes | Yes |
 | [Call of Duty Mobile](https://callofdutymobile.vercel.app/)                                 | Unofficial API for CODM player data and daily cache claiming                                        | No              | Yes   | Unknown |
+| [CardTrack](https://cardtrack.com/developers) | Pokémon TCG card prices, English and Japanese, raw and PSA graded | `apiKey` | Yes | No |
 | [CardZ Marketcap](https://cardzmarketcap.com/data) | Daily PSA 10 market cap, prices and population for Pokémon and One Piece cards | No | Yes | Yes |
 | [CheapShark](https://www.cheapshark.com/api) | Steam/PC Game Prices and Deals | No | Yes | Yes |
 | [Chess.com](https://www.chess.com/news/view/published-data-api) | Chess.com read-only REST API | No | Yes | Unknown |
