@@ -737,6 +737,7 @@ API | Description | Auth | HTTPS | CORS |
 | [US Autocomplete](https://www.smarty.com/docs/cloud/us-autocomplete-pro-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes | |
 | [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes | |
 | [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes | |
+| [Valinvo](https://valinvo.bmk-hub.com/quickstart) | Validate XRechnung, ZUGFeRD, Factur-X and Peppol BIS e-invoices against the official rules | No | Yes | No |
 | [VerifNow](https://docs.verifnow.io) | Validates email, phone, IBAN, EU VAT against VIES, and Canadian, Spanish and US national IDs | `apiKey` | Yes | No | |
 | [Veriport](https://veriport.io/docs) | EU VAT validation (VIES), VAT rates, IBAN validation, French company data | `apiKey` | Yes | Yes | |
 
