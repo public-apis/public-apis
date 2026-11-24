@@ -304,6 +304,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Colormind](http://colormind.io/api-access/) | Color scheme generator | No | No | Unknown |
 | [ColourLovers](http://www.colourlovers.com/api) | Get various patterns, palettes and images | No | No | Unknown |
 | [Cooper Hewitt](https://collection.cooperhewitt.org/api) | Smithsonian Design Museum | `apiKey` | Yes | Unknown |
+| [Cozu](https://cozu.xyz/developers) | Free game-ready 3D models (GLB, OBJ) with LODs, file checksums and credit lines, CC BY 4.0 | No | Yes | Yes |
 | [Dribbble](https://developer.dribbble.com) | Discover the world’s top designers & creatives | `OAuth` | Yes | Unknown |
 | [DummyImage](https://dummyimage.com/) | Generate placeholder images with custom size, colors and text | No | Yes | Unknown |
 | [DummyImg](https://www.dummyimg.in/) | Generate placeholder images of any size with custom text, colors, fonts and formats | No | Yes | Yes |
