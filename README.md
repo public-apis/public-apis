@@ -725,6 +725,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Attestwire](https://api.attestwire.com/docs) | Validate EN 16931 e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS | `apiKey` | Yes | Yes |
 | [EU VAT Format Check](https://rapidapi.com/sorobandataworks/eu-vat-number-format-checksum-checker) | EU VAT format and check-digit checker for 11 countries (format only, not a registration check) | `apiKey` | Yes | Yes |
 | [invowerk](https://invowerk.dev/docs) | Validate e-invoices (ZUGFeRD, Factur-X, XRechnung, Peppol BIS) and get a validation report | `apiKey` | Yes | Unknown | |
+| [INVOX](https://invoxapi.de/docs) | Validate XRechnung, ZUGFeRD and Factur-X e-invoices (EN 16931, KoSIT rules); free tier 100 checks/month | `apiKey` | Yes | No | |
 | [Lob.com](https://lob.com/) | US Address Verification | `apiKey` | Yes | Unknown | |
 | [Postman Echo](https://www.postman-echo.com) | Test api server to receive and return value from HTTP method | No | Yes | Unknown | |
 | [PurgoMalum](http://www.purgomalum.com) | Content validator against profanity & obscenity | No | No | Unknown | |
