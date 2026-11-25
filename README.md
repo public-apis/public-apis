@@ -2929,6 +2929,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api/) | NHTSA Product Information Catalog and Vehicle Listing | No | Yes | Unknown |
 | [NHTSA Edge VIN Decoder](https://data.ai-kit.net) | Decode US VINs offline from the NHTSA vPIC dataset, served from edge locations | No | Yes | Yes |
 | [NHTSA Vehicle Recalls](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-nhtsa-vehicle-recalls) | NHTSA safety recalls by model year, make and model with component, consequence and remedy | `apiKey` | Yes | Unknown |
+| [Oil & Miles](https://oilandmiles.com/developers) | US OBD-II code meanings, owner's-manual coolant specs, repair-cost ranges and warranty extensions | No | Yes | Yes |
 | [ProblemsByVin](https://problemsbyvin.com/data/) | Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year | No | Yes | Yes |
 | [RevCarData](https://revcardata.com) | 86,000+ global vehicle specifications and EV metrics | `apiKey` | Yes | Yes |
 | [SalvageAlert](https://salvagealert.com/developers/docs) | IAA, Copart and GovDeals salvage auction lots, VIN history and buyer-fee estimates | `apiKey` | Yes | No |
