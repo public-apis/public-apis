@@ -375,6 +375,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Verifyum](https://verifyum.com/agents) | File timestamp proofs anchored on Solana from a locally computed commitment, no file upload | No | Yes | No |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
 | [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
+| [Web3js](https://web3js.readthedocs.io/en/v1.8.2/web3.html) |  A collection of modules that contain functionality for the ethereum ecosystem. | `apiKey`| Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
