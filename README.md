@@ -192,6 +192,7 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 * [Patent](#patent)
 * [Personality](#personality)
 * [Phone](#phone)
+* [Podcast](#podcast)
 * [Photography](#photography)
 * [Programming](#programming)
 * [Science & Math](#science--math)
@@ -2269,6 +2270,14 @@ API | Description | Auth | HTTPS | CORS |
 | [TextKit](https://jointextkit.com/docs) | Send and receive SMS, verify phones and buy US and Canada numbers; free sandbox | `apiKey` | Yes | No |
 | [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
 | [VeriRoute Intel](https://verirouteintel.com) | CNAM caller ID, carrier/LRN lookup and spam scoring for North American phone numbers | `apiKey` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+### Podcast
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|  
+| [ZenMic](https://zemic.com/docs) | AI Podcast generator | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
