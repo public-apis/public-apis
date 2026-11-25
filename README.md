@@ -1100,6 +1100,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Thirds](https://thirds.ai/docs/api) | Create branded PDFs and images from HTML or reusable templates | `apiKey` | Yes | No |
 | [Vector Express v2.0](https://vector.express) | Free vector file converting API | No | Yes | No |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
+| [Webcite](https://webcite.co/api-docs) | Parse documents to Markdown with OCR and verify claims against sources with citations | `apiKey` | Yes | No |
 | [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
 | [Zero Retention PDF](https://xeropdf.com) | Zero-retention HTML to PDF conversion | `apiKey` | Yes | Unknown |
 
