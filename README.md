@@ -375,6 +375,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Verifyum](https://verifyum.com/agents) | File timestamp proofs anchored on Solana from a locally computed commitment, no file upload | No | Yes | No |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
 | [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
+| [WealthVille](https://wealthville.net/developers) | DeFi liquidity pool scores and Enter/Hold/Exit signals across Solana and EVM chains | No | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
