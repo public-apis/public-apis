@@ -2118,6 +2118,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ek litre](https://eklitre.pk/data/) | Pakistan's petrol, diesel and kerosene prices since 2006, with OGRA's line-by-line price build-up | No | Yes | Yes |
 | [Enigma Public](https://developers.enigma.com/docs) | Broadest collection of public data | `apiKey` | Yes | Yes |
 | [EOSL](https://eosl.ai/api/) | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | No | Yes | Yes |
+| [Everyversion](https://everyversion.net/api/) | Every version of popular Windows, macOS and Linux apps, with official download links and SHA-256 | No | Yes | No |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | No | Yes | Unknown |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | Federal Statistical Office Germany | `OAuth` | Yes | Unknown |
 | [hexplace](https://hexplace.org/developers/) | Climate by month, rents, home prices, amenities and rankings for 800 towns in Portugal | No | Yes | Yes |
