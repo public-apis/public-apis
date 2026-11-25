@@ -1242,6 +1242,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Lineup Atlas](https://lineupatlas.com/en/data-partners) | Club nights, festivals and artist tour dates worldwide | No | Yes | No |
 | [NeedATicket](https://needaticket.co.uk/developers) | UK and US resale ticket prices from StubHub | No | Yes | Yes |
 | [SeatGeek](https://platform.seatgeek.com/) | Search events, venues and performers | `apiKey` | Yes | Unknown |
+| [Suumer](https://suumer.com/api) | Local US events by town and date (trivia, live music, karaoke), each checked at its source | No | Yes | Yes |
 | [Things To Do](https://thingstodoapi.com/docs/) | Local events in plain words: concerts, pop-ups, markets, classes, gallery nights | No | Yes | Yes |
 | [Ticketmaster](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/) | Search events, attractions, or venues | `apiKey` | Yes | Unknown |
 
