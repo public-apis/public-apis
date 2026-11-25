@@ -74,7 +74,9 @@ class TestValidateLinks(unittest.TestCase):
     def test_find_link_in_text_with_invalid_argument(self):
         with self.assertRaises(TypeError):
             find_links_in_text()
+        with self.assertRaises(TypeError):
             find_links_in_text(1)
+        with self.assertRaises(TypeError):
             find_links_in_text(True)
 
     def test_if_check_duplicate_links_has_the_correct_return(self):
