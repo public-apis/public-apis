@@ -785,6 +785,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CitedBy](https://citedby.eu/ai-access-api) | Which AI crawlers can read a site: robots.txt and server answer for each | No | Yes | Yes |
 | [Clair](https://clair.im) | Live public web data as JSON: Google Search, Maps, News, Amazon, jobs, reviews & more, one API key | `apiKey` | Yes | No |
 | [claudecookie](https://claudecookie.com/api/) | Convert cookie formats, check Claude sessions and generate Claude Code credentials | No | Yes | Yes |
+| [Cloudbrowser](https://cloudbrowser.tv/docs/api) | Manage persistent Chrome browsers for agents with CDP connections, pause and fork | `apiKey` | Yes | No |
 | [Cloudflare](https://developers.cloudflare.com/api/) | Manage DNS, CDN, Workers and other services; documented with an official OpenAPI 3.0 spec | `apiKey` | Yes | No |
 | [Cloudflare Trace](https://github.com/fawazahmed0/cloudflare-trace-api) | Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More | No | Yes | Yes |
 | [Codeberg](https://codeberg.org/api/swagger) | Git hosting, repos and issues via Gitea API | No | Yes | Yes |
