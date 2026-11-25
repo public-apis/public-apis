@@ -363,6 +363,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Covalent](https://www.covalenthq.com/docs/) | Multi-blockchain data aggregator platform | `apiKey` | Yes | Unknown |
 | [Dwellir](https://www.dwellir.com/docs) | RPC endpoints for 150+ blockchain networks, including Ethereum, Solana, Polkadot and Hyperliquid | `apiKey` | Yes | Yes |
 | [Etherscan](https://etherscan.io/apis) | Ethereum explorer API | `apiKey` | Yes | Yes |
+| [FreeRPC](https://freerpc.com) | Free keyless RPC endpoints for Ethereum, Bitcoin, Solana and many other blockchains | No | Yes | Yes |
 | [Get Started with Web3](https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md) | Bilingual Web3 lessons, glossary search and role-based learning paths | No | Yes | Yes |
 | [Helium](https://docs.helium.com/api/blockchain/introduction/) | Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage | No | Yes | Unknown |
 | [HEY Research Lab](https://heyresearch.xyz/developers) | Builder activity for Robinhood Chain tokens and projects: who is shipping, each ship with its source | No | Yes | Yes |
