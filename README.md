@@ -1379,6 +1379,7 @@ API | Description | Auth | HTTPS | CORS |
 | [BaconMockup](https://baconmockup.com/) | Resizable bacon placeholder images | No | Yes | Yes |
 | [CalorieNinjas](https://calorieninjas.com/api) | Nutrition and calorie data for foods and recipes | `apiKey` | Yes | Yes |
 | [Chomp](https://chompthis.com/api/) | Data about various grocery products and foods | `apiKey` | Yes | Unknown |
+| [ClipParse](https://docs.clipparse.com/) | Recipes with ingredients, quantities and steps from short-form videos (TikTok, Instagram) | `apiKey` | Yes | No |
 | [Coffee](https://coffee.alexflipnote.dev/) | Random pictures of coffee | No | Yes | Unknown |
 | [CookbookSocial Nutrition](https://cookbooksocial.app/api) | Nutrition data for 4,631 ingredients with food names in 19 languages | `apiKey` | Yes | No |
 | [Daily Food Recalls](https://dailyfoodrecalls.com/api/) | U.S. FDA and USDA food recalls, merged and normalized, updated daily | No | Yes | Yes |
