@@ -28,6 +28,8 @@ jobs:
       - name: Validate Markdown format
         run: python scripts/validate/format.py ${FILENAME}
 
+
+num py file 
       - name: Validate pull request changes
         run: scripts/github_pull_request.sh ${{ github.repository }} ${{ github.event.pull_request.number }} ${FILENAME}
         if: github.event_name == 'pull_request'
