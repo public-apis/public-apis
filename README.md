@@ -1093,6 +1093,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Shortcut](https://developer.shortcut.com) | Manage stories, epics, iterations and objectives in a Shortcut workspace | `apiKey` | Yes | No |
 | [SlipKiln](https://slipkiln.com/docs/) | Render HTML or JSON templates (invoice, receipt, certificate) to PDF | `apiKey` | Yes | Yes | |
 | [TeamSort](https://teamsort.world/developers) | Create a ranked-choice poll from a text prompt and get a shareable link | No | Yes | Yes |
+| [TexToolsAI](https://texttoolsai.org) | Convert Markdown to sanitized HTML | `apiKey` | Yes | Unknown |
 | [The Drive AI](https://dev.thedrive.ai/docs) | Extract and analyze data from 107+ file types and URLs into structured JSON, with a free tier | `apiKey` | Yes | Unknown |
 | [Todoist](https://developer.todoist.com) | Todo Lists | `OAuth` | Yes | Unknown |
 | [Smart Image Enhancement](https://apilayer.com/marketplace/image_enhancement-api) | Performs image upscaling by adding detail to images through multiple super-resolution algorithms | `apiKey` | Yes | Unknown |
