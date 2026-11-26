@@ -748,6 +748,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [The Networkery](https://thenetworkery.com/api) | DNS, email authentication, TLS, BGP/RPKI, WHOIS and subnet checks with plain-English findings | No | Yes | Yes |
 | [Userstack](https://userstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Secure User-Agent String Lookup JSON API | `OAuth` | Yes | Unknown |
+| [12happy](https://be.12hpy.com/docs/api) | Create uptime monitors and read incidents, uptime and response times; the free plan includes a key | `apiKey` | Yes | Yes |
 | [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
 | [Aether Bridge](https://a-to-mind.com) | Autonomous agent team management and API workflow orchestration | `apiKey` | Yes | Unknown |
 | [Agent Nexus](https://agentnexus.app/llms.txt) | Continuously probed registry of APIs, MCP servers and CLIs callable by agents | No | Yes | Yes |
