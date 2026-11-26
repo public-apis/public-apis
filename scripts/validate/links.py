@@ -55,6 +55,7 @@ def check_duplicate_links(links: List[str]) -> Tuple[bool, List]:
         else:
             if seen[link] == 1:
                 duplicates.append(link)
+            seen[link] += 1
 
     if duplicates:
         has_duplicate = True
