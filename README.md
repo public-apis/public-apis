@@ -983,6 +983,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Timezone WorldTime](https://www.timezone.io/docs/worldtimeapi) | Current time, UTC offset and DST for any time zone or IP, a drop-in WorldTimeAPI replacement | No | Yes | Yes |
 | [Timezones](https://timezones.in/api) | Time now, conversions and DST changes for every IANA time zone, no key needed | No | Yes | Yes |
 | [TinyMind Agent Tools](https://tinymind.eu/api/) | Free APIs by an AI agent on a VPS: actor lookup, word-of-the-day, poems, jokes, ping | No | Yes | Yes |
+| [Tool Chest Co](https://toolchestco.com/#api) | Free JSON utilities: random numbers, dice, coin, passwords, unscramble, shuffle | No | Yes | Yes | No |
 | [ToolForte](https://toolforte.com/developers) | Deterministic utilities: IBAN/VAT validation, cron parsing, regex, diffs, Dutch holidays, test data | `apiKey` | Yes | Unknown |
 | [ToolsFox Utils](https://cf-workers-demo.pianfox345.workers.dev) | Free developer utility API: UUID, timestamps, SHA-256, Base64, URL encode/decode, random strings | No | Yes | Yes |
 | [TradingAIHub](https://tradingaihub.com/developers/) | Directory of finance and trading AI tools (MCP servers, agent skills, APIs), re-checked weekly | No | Yes | Yes |
