@@ -688,6 +688,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Amdoren](https://www.amdoren.com/currency-api/) | Free currency API with over 150 currencies | `apiKey` | Yes | Unknown |
 | [api-mint](https://api-mint.hoiwan.workers.dev) | Free utility APIs: timezone, forex rates, crypto prices, page metadata | No | Yes | Yes |
 | [Bank of Russia](https://www.cbr.ru/development/SXML/) | Exchange rates and currency conversion | No | Yes | Unknown |
+| [Cambio Uruguay](https://cambio-uruguay.com/en/desarrolladores) | Buy/sell rates from Uruguayan exchange houses and banks, BCU rates, history and regional rates | No | Yes | Yes |
 | [Central Bank of Uzbekistan](https://cbu.uz/uz/arkhiv-kursov-valyut/) | Official exchange rates and currency conversion | No | Yes | Unknown |
 | [Currency-api](https://github.com/fawazahmed0/currency-api#readme) | Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits | No | Yes | Yes |
 | [CurrencyBeacon](https://currencybeacon.com/) | Real-time and historical currency exchange rates with free tier | `apiKey` | Yes | Yes |
