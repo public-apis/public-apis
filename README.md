@@ -429,6 +429,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Domainsdb.info](https://domainsdb.info/) | Registered Domain Names Search | No | Yes | No |
 | [EuroValidate](https://eurovalidate.com) | EU VAT (VIES), IBAN and EORI validation with company name & address lookup | `apiKey` | Yes | Yes |
 | [Firmbase](https://firmbase.be/en/api/docs) | Belgian company register (KBO/CBE), Official Gazette notices and VAT validation | `apiKey` | Yes | Yes |
+| [FoxAPIs](https://foxapis.com/docs/) | Government filing, company, science and developer data as JSON; free starting credits | `apiKey` | Yes | No |
 | [Freelancer](https://developers.freelancer.com) | Hire freelancers to get work done | `OAuth` | Yes | Unknown |
 | [Funding Signals](https://fundingsignals.net/docs) | Companies that just raised funding, scored as sales leads, from public SEC filings | `apiKey` | Yes | No |
 | [GlobalEntity](https://www.globalentityapi.com/docs) | Official company data from 56 European business registers as normalized JSON | `apiKey` | Yes | Yes |
