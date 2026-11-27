@@ -174,6 +174,7 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 * [Dictionaries](#dictionaries)
 * [Documents & Productivity](#documents--productivity)
 * [Email](#email)
+* [E-Commerce](#e-commerce)
 * [Entertainment](#entertainment)
 * [Environment](#environment)
 * [Events](#events)
@@ -1159,6 +1160,15 @@ API | Description | Auth | HTTPS | CORS |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
 | [Vetto](https://usevetto.com/docs#domain-lookup) | Check email domains in bulk for disposable providers and dead domains, no key needed | No | Yes | Yes |
 | [Xeramail Temp Mail](https://xeramail.com/docs/api) | Temp email address REST API for privacy, testing, automation with OTP extraction | `apiKey` | Yes | No |
+
+**[⬆ Back to Index](#index)**
+<br >
+<br >
+
+### E-Commerce
+API | Description | Auth | HTTPS | CORS |
+|:---|:---|:---|:---|:---|
+| [FakeStoreAPI](https://fakestoreapi.com) | Fake eCommerce product API for testing and prototyping | No | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
