@@ -76,6 +76,8 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [Council of AI](https://councilof.ai/connect/claude/) | Read a signed AI measurement board and verify its signed records and Merkle proofs | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/ai.councilof/gspc-free) |
 | [CoworkingView](https://coworkingview.com/en/mcp) | Search coworking spaces, private offices and operator-published prices in 70+ cities | No | `HTTP` | – |
 | [crawlbrulee](https://github.com/crawlbrulee/crawlbrulee-mcp) | EU-native web scraping for AI agents & developers: turn any page into markdown, screenshots and more | `apiKey` | `stdio` | [npm](https://www.npmjs.com/package/@crawlbrulee/mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.crawlbrulee/mcp) · [Glama](https://glama.ai/mcp/servers/crawlbrulee/crawlbrulee-mcp) |
+| [Cuelark Data](https://data.cuelark.com/mcp) | Free remote MCP: USGS earthquakes, airports, world time, US aircraft and ZIP codes | No | `HTTP` | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=com.cuelark/data) |
+| [Cuelark Tools](https://tools.cuelark.com/mcp) | Free remote MCP: US tax, routing/EIN checks, business days, JSON, packages and citations | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/com.cuelark/tools) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=com.cuelark/tools) |
 | [Data and APIs](https://dataandapis.com/mcp/setup) | Search, read and call 125+ data APIs: sanctions, barcodes, IP intelligence, companies, holidays | `apiKey` | `HTTP` | – |
 | [Dispola](https://dispola.ca/en) | Same-day appointment openings at Quebec salons and clinics: hair, nails, massage, physio | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/ca.dispola/places) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ca.dispola) |
 | [Edgepedia](https://github.com/EdgePlat/edgepedia-mcp) | Search and read Edgepedia, a free and growing encyclopedia with citations | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/ai.edgechat/edgepedia) |
@@ -2112,6 +2114,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data/) | Data on higher education institutions in the United States | No | Yes | Unknown |
 | [ConsumerSun Recalls](https://consumersun.com/data/recalls.json) | US product, food, drug, device and vehicle recalls from CPSC, FDA and NHTSA | No | Yes | Yes |
 | [CoworkingView](https://coworkingview.com/en/api) | Coworking spaces and offices in 63 European and Gulf cities with operator-published prices | No | Yes | No |
+| [Cuelark Data](https://data.cuelark.com/api) | Free no-key JSON for USGS earthquakes, airports, world time, US aircraft and ZIP codes | No | Yes | Yes |
 | [CuttingToolsAI](https://cuttingtoolsai.eu/api) | Cross-brand carbide insert grade equivalents by ISO application class | No | Yes | Yes |
 | [DevLifeCheck](https://devlifecheck.com/developers) | Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers | No | Yes | No |
 | [Edgepedia](https://www.edgechat.ai/developers) | Search and read Edgepedia, a free and growing encyclopedia with citations | No | Yes | Yes |
