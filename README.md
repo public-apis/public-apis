@@ -2169,6 +2169,7 @@ API | Description | Auth | HTTPS | CORS |
 | [StackRates](https://stackrates.ai/ask/) | VPS and cloud server prices from 46 providers, read daily from their own pricing pages and APIs | No | Yes | Yes |
 | [Statistics of the World](https://statisticsoftheworld.com/api-docs) | Economic data for 218 countries — GDP, population, inflation, and 440+ indicators from IMF and World Bank | No | Yes | Yes |
 | [StatOrigin](https://statorigin.org/docs/api) | Industry statistics, each traced to its primary source with a verbatim quote, CC BY 4.0 | No | Yes | Yes |
+| [STK](https://stk-evidence.com/docs#rules) | Which laws give each customer-service action to a person, per jurisdiction; signed, CC BY 4.0 | No | Yes | No |
 | [Teleport](https://developers.teleport.org/) | Quality of Life Data | No | Yes | Unknown |
 | [TerraScoutX](https://terrascoutx.com/developers/) | US property records by address: parcel, owner, appraised value, tax, flood zone and nearby schools | `apiKey` | Yes | Yes |
 | [The Deploy Log](https://github.com/dotcomjack/the-deploy-log) | 1,000+ AI deployments, each linked to the publisher's own page, JSON and CSV, CC BY 4.0 | No | Yes | Yes |
