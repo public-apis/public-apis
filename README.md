@@ -2521,6 +2521,7 @@ API | Description | Auth | HTTPS | CORS |
 | [uglyHD](https://uglyhd.com/api-docs) | Cost per TB of new, used and refurbished drives and per GB of server RAM, from eBay and retailers | No | Yes | Yes |
 | [VantaSpec](https://vantaspec.com/api-docs) | UK PC hardware prices, price history and specs across UK retailers | No | Yes | Yes |
 | [WooCommerce](https://woocommerce.github.io/woocommerce-rest-api-docs/) | WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format | `apiKey` | Yes | Yes |
+| Shopify | E-commerce platform API for building online stores, managing products, orders, and customers | OAuth | Yes | Unknown | https://shopify.dev/docs/api |
 
 **[⬆ Back to Index](#index)**
 <br >
