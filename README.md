@@ -2123,6 +2123,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ek litre](https://eklitre.pk/data/) | Pakistan's petrol, diesel and kerosene prices since 2006, with OGRA's line-by-line price build-up | No | Yes | Yes |
 | [Enigma Public](https://developers.enigma.com/docs) | Broadest collection of public data | `apiKey` | Yes | Yes |
 | [EOSL](https://eosl.ai/api/) | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | No | Yes | Yes |
+| [Figures.ng](https://figures.ng/v1/docs) | Live Nigerian FMCG retail median prices across 168 consumer SKUs and official CBN macro rates | No | Yes | Yes |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | No | Yes | Unknown |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | Federal Statistical Office Germany | `OAuth` | Yes | Unknown |
 | [hexplace](https://hexplace.org/developers/) | Climate by month, rents, home prices, amenities and rankings for 800 towns in Portugal | No | Yes | Yes |
