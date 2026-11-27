@@ -64,6 +64,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | Name | Description | Auth | Transport | Install |
 |:---|:---|:---|:---|:---|
 | [IPstack MCP](https://ipstack.com/mcp) | IP geolocation, threat and timezone lookups for agents | `apiKey` | `stdio`, `HTTP` | [Cursor](https://cursor.directory/plugins/apilayer-mcp-adapter) · [Glama](https://glama.ai/mcp/connectors/com.apilayer.mcp/apilayer-mcp-adapter) |
+| [12happy](https://github.com/12happyhq/12happy-mcp) | Create uptime monitors and read incidents, uptime and response times from an AI client | `apiKey` | `stdio` | [Glama](https://glama.ai/mcp/servers/12happyhq/12happy-mcp) |
 | [aamio](https://aamio.at/) | Ephemeral rendezvous for agents: expiring threads, receipts and an open board | No | `HTTP` | [Glama](https://glama.ai/mcp/connectors/at.aamio/aamio) |
 | [Agent Nexus](https://agentnexus.app) | Find agent-callable APIs, MCP servers and CLIs by capability, with live health and uptime data | No | `HTTP` | [Glama](https://glama.ai/mcp/servers/agent-nexus) |
 | [Bewary](https://bewary.app/mcp) | Scam checks for links, domains, phone numbers, emails, wallets and IBANs before an agent acts | `OAuth` | `HTTP` | [Glama](https://glama.ai/mcp/connectors/app.bewary/bewary) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=app.bewary) |
