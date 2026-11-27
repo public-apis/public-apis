@@ -817,6 +817,7 @@ API | Description | Auth | HTTPS | CORS |
 | [FreeQrly](https://freeqrly.com/developers/) | Generate static QR codes (URL, WiFi, vCard, text, geo) as SVG or PNG. Free, no API key | No | Yes | Yes |
 | [GeekFlare](https://apidocs.geekflare.com/docs/geekflare-api) | Provide numerous capabilities for important testing and monitoring methods for websites | `apiKey` | Yes | Unknown |
 | [GcrawlAI](https://gcrawlai.com) | Web scraping, SERP API, screenshots, URL to Markdown and prebuilt extractors | `apiKey` | Yes | Yes |
+| [Gender-API](https://gender-api.com/en/api-docs) | Gender from a first name, full name or email address, with accuracy and country localization | `apiKey` | Yes | Yes |
 | [Genderize.io](https://genderize.io) | Estimates a gender from a first name | No | Yes | Yes |
 | [GeraCode](https://www.geracodigo.com.br/api-codigo-de-barras) | Barcode (EAN-13, UPC-A, Code 128, ITF-14) and QR code images, PNG or SVG. Docs in Portuguese | No | Yes | Yes |
 | [GETPing](https://www.getping.info) | Trigger an email notification with a simple GET request | `apiKey` | Yes | Unknown |
