@@ -344,6 +344,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Frontegg](https://developers.frontegg.com/ciam/api/overview) | Customer identity for B2B SaaS: authentication, SSO, SCIM, MFA, RBAC and multi-tenancy | `apiKey` | Yes | Yes |
 | [GetOTP](https://otp.dev/en/docs/) | Implement OTP flow quickly | `apiKey` | Yes | No |
 | [MojoAuth](https://mojoauth.com) | Secure and modern passwordless authentication platform | `apiKey` | Yes | Yes |
+| [MyOTP](https://myotp.app/developer-api/) | Send and verify one-time codes over SMS, WhatsApp and Telegram | `apiKey` | Yes | No |
 | [SAWO Labs](https://sawolabs.com) | Simplify login and improve user experience by integrating passwordless authentication in your app | `apiKey` | Yes | Yes |
 | [SignOps](https://signops.dev/docs/) | Push notifications, login approval, passkeys, authenticator codes and email OTP on one API key | `apiKey` | Yes | Yes |
 | [Stytch](https://stytch.com/) | User infrastructure for modern applications | `apiKey` | Yes | No |
