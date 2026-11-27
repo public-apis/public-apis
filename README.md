@@ -407,6 +407,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Quran-api](https://github.com/fawazahmed0/quran-api#readme) | Free Quran API Service with 90+ different languages and 400+ translations | No | Yes | Yes |
 | [Readark](https://readark.app/developers/) | Dark romance books with spice and darkness ratings, subgenres, tropes and authors | No | Yes | Yes |
 | [Runyankole Bible](https://runyankole-bible-api.vercel.app) | Free REST API for the Runyankore-Rukiga Bible — 66 books, 31106 verses | No | Yes | Yes |
+| [Sovereign Logos](https://sovereignlogos.com/developers) | Septuagint, KJV with Apocrypha, Geneva and WEB Bible text with citation links | No | Yes | Yes |
 | [The Bible](https://docs.api.bible) | Everything you need from the Bible in one discoverable place | `apiKey` | Yes | Unknown |
 | [Thirukkural](https://api-thirukkural.web.app/) | 1330 Thirukkural poems and explanation in Tamil and English | No | Yes | Yes |
 | [Urantia Papers](https://urantia.dev) | Full-text + semantic search across the Urantia Papers, with audio narration, entities, translations | No | Yes | Yes |
