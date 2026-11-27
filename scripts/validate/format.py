@@ -24,9 +24,9 @@ num_segments = 5
 min_entries_per_category = 3
 max_description_length = 100
 
-anchor_re = re.compile(anchor + '\s(.+)')
-category_title_in_index_re = re.compile('\*\s\[(.*)\]')
-link_re = re.compile('\[(.+)\]\((http.*)\)')
+anchor_re = re.compile(anchor + r'\s(.+)')
+category_title_in_index_re = re.compile(r'\*\s\[(.*)\]')
+link_re = re.compile(r'\[(.+)\]\((http.*)\)')
 
 # Type aliases
 APIList = List[str]
