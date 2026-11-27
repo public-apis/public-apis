@@ -1172,6 +1172,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Corporate Buzz Words](https://github.com/sameerkumar18/corporate-bs-generator-api) | REST API for Corporate Buzz Words | No | Yes | Yes |
 | [CosmyDay Astrology](https://cosmyday.com/api-docs) | Natal charts and sky events computed from Swiss Ephemeris | No | Yes | Yes |
 | [Excuser](https://excuser.herokuapp.com/) | Get random excuses for various situations | No | Yes | Unknown |
+| [Favqs](https://favqs.com/api) | Quotes and authors search API | API Key | Yes | Unknown |
 | [Fun Fact](https://api.aakhilv.me) | A simple HTTPS api that can randomly select and return a fact from the FFA database | No | Yes | Yes |
 | [Green Screen Memes](https://api.greenscreenmemes.app/docs) | Search 2,000+ green screen meme video clips, most with sound, new clips daily | `apiKey` | Yes | No |
 | [Imgflip](https://imgflip.com/api) | Gets an array of popular memes | No | Yes | Unknown |
