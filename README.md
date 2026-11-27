@@ -893,6 +893,7 @@ API | Description | Auth | HTTPS | CORS |
 | [MY IP](https://www.myip.com/api-docs/) | Get IP address information | No | Yes | Unknown |
 | [MyIPRightNow](https://myiprightnow.com) | Public IP address with network, location, and connection details | No | Yes | Yes |
 | [NameGender](https://namegender.com/docs) | Gender from a first name, full name, email or username, with probability | `apiKey` | Yes | Yes |
+| [NameOcean WHOIS](https://nameocean.net/developers/api/#op-whoisLookup) | WHOIS/RDAP data of any domain as JSON: registrar, dates, status, nameservers, DNSSEC | `apiKey` | Yes | No |
 | [Nationalize.io](https://nationalize.io) | Estimate the nationality of a first name | No | Yes | Yes |
 | [Nerdulator](https://nerdulator.com/api) | Everything derivable from one value: numbers, dates, colours, UUIDs, cron expressions | No | Yes | Yes |
 | [Netlify](https://docs.netlify.com/api/get-started/) | Netlify is a hosting service for the programmable web | `OAuth` | Yes | Unknown |
