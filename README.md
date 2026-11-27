@@ -2414,6 +2414,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Botd](https://github.com/fingerprintjs/botd) | Botd is a browser library for JavaScript bot detection | `apiKey` | Yes | Yes |
 | [Bugcrowd](https://docs.bugcrowd.com/api/getting-started/) | Bugcrowd API for interacting and tracking the reported issues programmatically | `apiKey` | Yes | Unknown |
 | [Censys](https://search.censys.io/api) | Search engine for Internet connected host and devices | `apiKey` | Yes | No |
+| [CheckLeaked](https://checkleaked.cc/developers) | Data-breach search by email, username, phone or domain, plus free k-anonymity password checks | `apiKey` | Yes | Yes |
 | [CISA Known Exploited Vulnerabilities](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-cisa-cybersecurity-vulnerabilities-kev) | CISA KEV catalog of actively exploited CVEs as JSON, filterable by vendor, with CWE and due dates | `apiKey` | Yes | Unknown |
 | [Classify](https://classify-web.herokuapp.com/#/api) | Encrypting & decrypting text messages | No | Yes | Yes |
 | [Complete Criminal Checks](https://completecriminalchecks.com/Developers) | Provides data of offenders from all U.S. States and Pureto Rico | `apiKey` | Yes | Yes |
