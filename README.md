@@ -318,6 +318,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Icons8](https://img.icons8.com/) | Icons (find "search icon" hyperlink in page) | No | Yes | Unknown |
 | [Logoapi Favicons](https://logoapi.sh/favicon) | Favicon for any website by domain: curated SVG, else the site's own favicon, else a name tile | No | Yes | Yes |
 | [Lordicon](https://lordicon.com/) | Icons with predone Animations | No | Yes | Yes |
+| [Luw Studio](https://studio.luw.ai/developers/api) | OpenAI-compatible API to an AI agent that builds 3D building projects room by room | `apiKey` | Yes | Unknown |
 | [Metropolitan Museum of Art](https://metmuseum.github.io/) | Met Museum of Art | No | Yes | No |
 | [Noun Project](http://api.thenounproject.com/index.html) | Icons | `OAuth` | No | Unknown |
 | [Paint Color HQ](https://www.paintcolorhq.com/api) | Closest real paint colors across 13 brands for any hex value, scored with CIEDE2000 | No | Yes | Yes |
