@@ -153,7 +153,6 @@ Everything in this README, rebuilt as a searchable site. It's the official home 
 * [LICENSE](LICENSE) 
 
 <br />
-
 ## Index
 
 * [Animals](#animals)
@@ -348,6 +347,8 @@ API | Description | Auth | HTTPS | CORS |
 | [SignOps](https://signops.dev/docs/) | Push notifications, login approval, passkeys, authenticator codes and email OTP on one API key | `apiKey` | Yes | Yes |
 | [Stytch](https://stytch.com/) | User infrastructure for modern applications | `apiKey` | Yes | No |
 | [Warrant](https://warrant.dev/) | APIs for authorization and access control | `apiKey` | Yes | Yes |
+- [Have I Been Pwned](https://haveibeenpwned.com/API/v3) - Check if email or password appears in a data breach - 
+Authentication
 
 **[⬆ Back to Index](#index)**
 <br >
