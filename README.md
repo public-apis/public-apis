@@ -2555,6 +2555,7 @@ API | Description | Auth | HTTPS | CORS |
 | [GramScraper](https://gramscraper.com) | Instagram and TikTok data API with 91 endpoints for profiles, posts, stories, reels, and comments | `apiKey` | Yes | Yes |
 | [GetXAPI](https://www.getxapi.com/) | Read Twitter / X data and post tweets, likes, retweets, follows, DMs via REST | `apiKey` | Yes | Unknown |
 | [HackerNews](https://github.com/HackerNews/API) | Social news for CS and entrepreneurship | No | Yes | Unknown |
+| [Handles](https://handlesapi.com/docs) | Public social data from X, Instagram, TikTok, YouTube, Telegram, Bluesky, Twitch, Kick and LinkedIn | `apiKey` | Yes | No |
 | [Hashnode](https://hashnode.com) | A blogging platform built for developers | No | Yes | Unknown |
 | [InsightSocial](https://www.insightsocial.app/docs) | Public profiles, posts, comments and followers from 25 social platforms, free tier | `apiKey` | Yes | Yes |
 | [Instagram](https://www.instagram.com/developer/) | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | Unknown |
