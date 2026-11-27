@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 
 import unittest
+from unittest.mock import patch
 
+import requests
+
+from validate.links import check_if_link_is_working
 from validate.links import find_links_in_text
 from validate.links import check_duplicate_links
 from validate.links import fake_user_agent
@@ -170,3 +174,77 @@ class TestValidateLinks(unittest.TestCase):
         self.assertFalse(result1)
         self.assertFalse(result2)
         self.assertFalse(result3)
+
+
+class TestCheckIfLinkIsWorkingErrors(unittest.TestCase):
+
+    def setUp(self):
+        self.link = 'https://www.example.com'
+
+    def _check_with_side_effect(self, side_effect):
+        with patch('validate.links.requests.get', side_effect=side_effect):
+            return check_if_link_is_working(self.link)
+
+    def test_connect_timeout_is_reported_as_timeout(self):
+        has_error, message = self._check_with_side_effect(
+            requests.exceptions.ConnectTimeout('connect timed out')
+        )
+
+        self.assertTrue(has_error)
+        self.assertEqual(message, f'ERR:TMO: {self.link}')
+
+    def test_read_timeout_is_reported_as_timeout(self):
+        has_error, message = self._check_with_side_effect(
+            requests.exceptions.ReadTimeout('read timed out')
+        )
+
+        self.assertTrue(has_error)
+        self.assertEqual(message, f'ERR:TMO: {self.link}')
+
+    def test_generic_requests_timeout_is_reported_as_timeout(self):
+        has_error, message = self._check_with_side_effect(
+            requests.exceptions.Timeout('timed out')
+        )
+
+        self.assertTrue(has_error)
+        self.assertEqual(message, f'ERR:TMO: {self.link}')
+
+    def test_builtin_timeout_error_is_reported_as_timeout(self):
+        has_error, message = self._check_with_side_effect(TimeoutError())
+
+        self.assertTrue(has_error)
+        self.assertEqual(message, f'ERR:TMO: {self.link}')
+
+    def test_connection_error_is_still_reported_as_connection_error(self):
+        has_error, message = self._check_with_side_effect(
+            requests.exceptions.ConnectionError('refused')
+        )
+
+        self.assertTrue(has_error)
+        self.assertTrue(message.startswith('ERR:CNT: '))
+        self.assertIn('refused', message)
+        self.assertTrue(message.endswith(f' : {self.link}'))
+
+    def test_ssl_error_is_still_reported_as_ssl_error(self):
+        has_error, message = self._check_with_side_effect(
+            requests.exceptions.SSLError('bad cert')
+        )
+
+        self.assertTrue(has_error)
+        self.assertTrue(message.startswith('ERR:SSL: '))
+
+    def test_too_many_redirects_is_still_reported(self):
+        has_error, message = self._check_with_side_effect(
+            requests.exceptions.TooManyRedirects('loop')
+        )
+
+        self.assertTrue(has_error)
+        self.assertTrue(message.startswith('ERR:TMR: '))
+
+    def test_working_link_has_no_error(self):
+        resp = FakeResponse(code=200, headers={}, text='')
+        with patch('validate.links.requests.get', return_value=resp):
+            has_error, message = check_if_link_is_working(self.link)
+
+        self.assertFalse(has_error)
+        self.assertEqual(message, '')
