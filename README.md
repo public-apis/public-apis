@@ -1251,6 +1251,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Finance
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [roic.ai](https://www.roic.ai/) | Fundamentals, financial ratios and earnings call transcripts for 68k+ companies | `apiKey` | Yes | Unknown | |
 | [Marketstack](https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | Real-Time, Intraday & Historical Market Data API | `apiKey` | Yes | Unknown | |
 | [AIR Stock Discovery](https://www.aistockradars.com/developers) | AI-scored SEC filing events for small and mid-cap US companies | `apiKey` | Yes | Unknown | |
 | [Aletheia](https://aletheiaapi.com/) | Insider trading data, earnings call analysis, financial statements, and more | `apiKey` | Yes | Yes | |
