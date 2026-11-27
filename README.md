@@ -871,6 +871,7 @@ API | Description | Auth | HTTPS | CORS |
 | [jstash](https://jstash.app/docs/) | Save JSON with one request and get a URL; private JSON for each signed-in user of your app | `apiKey` | Yes | No |
 | [Keirolabs](https://docs.keirolabs.cloud) | Web search, Google results, page extraction to Markdown and cited answers for AI agents | `apiKey` | Yes | Yes |
 | [Keyvalue](https://keyvalue.immanuel.co/) | Simple key-value storage REST API for quick prototyping | No | Yes | Unknown |
+| [Kiprio MCP Registry](https://kiprio.com/v1/mcp-registry/) | Searchable index of 700+ Model Context Protocol servers from GitHub | No | Yes | Yes |
 | [Kroki](https://kroki.io) | Creates diagrams from textual descriptions | No | Yes | Yes |
 | [Labelixa](https://labelixa.com/docs/api) | Render, validate and generate Zebra ZPL label barcodes as PNG/PDF | `apiKey` | Yes | Yes |
 | [latest@](https://latestat.com/api) | Latest versions and end-of-life dates for 500+ software products | No | Yes | Yes |
