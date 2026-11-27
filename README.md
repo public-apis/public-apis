@@ -1497,6 +1497,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PlayerDB](https://playerdb.co/) | Query Minecraft, Steam and XBox Accounts | No | Yes | Unknown |
 | [Pokéapi](https://pokeapi.co) | Pokémon Information | No | Yes | Unknown |
 | [PokéAPI (GraphQL)](https://github.com/mazipan/graphql-pokeapi) | The Unofficial GraphQL for PokeAPI | No | Yes | Yes |
+| [Pokemon Price Tracker](https://www.pokemonpricetracker.com/pokemon-card-price-api) | Real-time and historical Pokemon card pricing from TCGPlayer and eBay graded sales | `apiKey` | Yes | Yes |
 | [Pokémon TCG](https://pokemontcg.io) | Pokémon TCG Information | No | Yes | Unknown |
 | [PokéSprite](https://msikma.github.io/pokesprite/) | Database of Pokémon sprites and icons | No | Yes | Yes |
 | [PokéWallet](https://pokewallet.io/api-docs) | Pokémon TCG, One Piece and 10 more card games: cards, sets, TCGplayer and Cardmarket prices | `apiKey` | Yes | Yes |
