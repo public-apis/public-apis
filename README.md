@@ -2412,6 +2412,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Security
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [Agent Flight Recorder](https://flightrecorder.getingeniousai.com/openapi.json) | Tamper-evident hash-chained audit logs for AI agent actions | `apiKey` | Yes | Unknown |
 | [Agent Verifier](https://packet.guru/agents/reference) | Self-check for AI agents: verifies Web Bot Auth signatures and shows how a request looks | No | Yes | No |
 | [Application Environment Verification](https://github.com/fingerprintjs/aev) | Android library and API to verify the safety of user devices, detect rooted devices and other risks | `apiKey` | Yes | Yes |
 | [BinaryEdge](https://docs.binaryedge.io/api-v2.html) | Provide access to BinaryEdge 40fy scanning platform | `apiKey` | Yes | Yes |
