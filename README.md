@@ -436,6 +436,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Gmail](https://developers.google.com/gmail/api/) | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | Unknown |
 | [Google Analytics](https://developers.google.com/analytics/) | Collect, configure and analyze your data to reach the right audience | `OAuth` | Yes | Unknown |
 | [gstinapi](https://www.gstinapi.in/docs) | Verify Indian GST numbers (GSTIN): legal name, status, address and return filing history; free tier | `apiKey` | Yes | No |
+| [Hailtrades](https://hailtrades.com/for-agents) | Emergency plumbers and electricians in Toronto/GTA: hours, call-out fees, licences | No | Yes | Yes |
 | [Instatus](https://instatus.com/help/api) | Post to and update maintenance and incidents on your status page through an HTTP REST API | `apiKey` | Yes | Unknown |
 | [InvoiceIn](https://invoicein.peculiar.systems/) | Parse and validate received e-invoices: XRechnung, ZUGFeRD, Peppol, FatturaPA, KSeF | `apiKey` | Yes | Yes |
 | [Invovate](https://invovate.com/api) | Generate PDF, JSON & UBL invoices in 11 languages from one JSON POST | `apiKey` | Yes | No |
