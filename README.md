@@ -1105,6 +1105,7 @@ API | Description | Auth | HTTPS | CORS |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
 | [Zero Retention PDF](https://xeropdf.com) | Zero-retention HTML to PDF conversion | `apiKey` | Yes | Unknown |
+| [TryDocify](https://trydocify.com) | Fast JSON-to-PDF generation API powered by QuestPDF | `apiKey` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
 <br >
