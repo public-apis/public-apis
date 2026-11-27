@@ -375,6 +375,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Verifyum](https://verifyum.com/agents) | File timestamp proofs anchored on Solana from a locally computed commitment, no file upload | No | Yes | No |
 | [Walltime](https://walltime.info/api.html) | To retrieve Walltime's market info | No | Yes | Unknown |
 | [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
+| [x402 Data API](https://goto-spring-php-instructor.trycloudflare.com) | Developer data APIs with x402 HTTP 402 payment protocol - pay per request using USDC on Base chain | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
 <br >
