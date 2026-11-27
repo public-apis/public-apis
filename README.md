@@ -1366,6 +1366,7 @@ API | Description | Auth | HTTPS | CORS |
 | [XFINLAB](https://www.xfinlab.com/intelligence-api.html) | Market events, sentiment, technical analysis and macro data for stocks | `apiKey` | Yes | Unknown | |
 | [XOOMAR](https://xoomar.com/markets/api) | US market data from SEC, FINRA, CFTC and the Fed: filings, insiders, earnings dates, short interest | No | Yes | Yes | |
 | [Yahoo Finance](https://www.yahoofinanceapi.com/) | Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange | `apiKey` | Yes | Yes | |
+| [YieldTerminal Pro](https://yieldterminalpro.com/developers) | Quarterly revenue, net income and EPS read from company results filings, each with its SEC link | `apiKey` | Yes | Yes | |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes | |
 | [Zelothorn](https://zelothorn.com/developers) | Plain-English explanations of US public companies with SEC filings and earnings data | No | Yes | Yes | |
 | [Zoho Books](https://www.zoho.com/books/api/v3/) | Online accounting software, built for your business | `OAuth` | Yes | Unknown | |
