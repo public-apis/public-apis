@@ -2326,6 +2326,7 @@ API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
 | [Codeforces](https://codeforces.com/apiHelp) | Get access to Codeforces data | `apiKey` | Yes | Unknown |
 | [Hackerearth](https://www.hackerearth.com/docs/wiki/developers/v4/) | For compiling and running code in several languages | `apiKey` | Yes | Unknown |
+| [Joke](https://sv443.net/jokeapi/v2/) | Delivers jokes with category, language, and flag filters | No | Yes | Yes | [Run in Postman Button] |
 | [Judge0 CE](https://ce.judge0.com/) | Online code execution system | `apiKey` | Yes | Unknown |
 | [KONTESTS](https://kontests.net/api) | For upcoming and ongoing competitive coding contests | No | Yes | Unknown |
 | [LeekCF Hinter](https://leekcf-hinter-api.leekcf.workers.dev) | Graded hints for Codeforces problems, from a small nudge to the full solution | No | Yes | Yes |
