@@ -419,6 +419,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Business
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [2BASE](https://2base.ru/api/docs) | Search Russian companies using EGRUL and public business data | No | Yes | No |
 | [Apache Superset](https://superset.apache.org/docs/api) | API to manage your BI dashboards and data sources on Superset | `apiKey` | Yes | Yes |
 | [CEA Digital](https://ceadigital.io/tools) | Real estate LLC skip trace, video hook transcripts, eBay sold comps and building permits | `apiKey` | Yes | Yes |
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
