@@ -1980,6 +1980,7 @@ API | Description | Auth | HTTPS | CORS |
 | [NLP Cloud](https://nlpcloud.io) | NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more | `apiKey` | Yes | Unknown |
 | [Nonobench](https://www.nonobench.com/how-it-works) | Open-source benchmark of how well LLMs solve nonogram puzzles | No | Yes | Yes |
 | [Not Human Search](https://nothumansearch.ai/openapi.yaml) | AI tool discovery with agentic scoring for 8,600+ tools and MCP servers | No | Yes | Yes |
+| [nRouter](https://nrouter.ai/docs) | OpenAI-compatible LLM gateway with routing, per-key budgets and request audit records | `apiKey` | Yes | Unknown |
 | [onomeo](https://onomeo.com/docs) | OpenAI-compatible, about 30 free LLMs, 30 calls per 5 hours, optional pay-as-you-go, public beta | `apiKey` | Yes | No |
 | [OpenRouter](https://openrouter.ai/docs/quick-start) | Unified API for 300+ LLMs from OpenAI, Anthropic, Meta, Mistral and more, with a free tier | `apiKey` | Yes | Yes |
 | [OpenVisionAPI](https://openvisionapi.com) | Open source computer vision API based on open source models | No | Yes | Yes |
