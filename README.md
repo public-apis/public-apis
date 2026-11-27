@@ -1859,6 +1859,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Lexigram](https://docs.lexigram.io/) | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | Yes | Unknown |
 | [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) | Public biological age competition data with biomarkers and rankings | No | Yes | Yes |
 | [Makeup](http://makeup-api.herokuapp.com/) | Makeup Information | No | No | Unknown |
+| [Medical Device Clearance Tracker](https://apify.com/arched_friend/medical-device-clearance-tracker) | FDA 510(k) clearances and PMA approvals by device type, product code or applicant, newest first | `apiKey` | Yes | Yes |
 | [MedlinePlus Genetics](https://medlineplus.gov/about/developers/geneticsdatafilesapi/) | Genetic conditions, genes, chromosomes and mtDNA data | No | Yes | Unknown |
 | [Meducate](https://meducateapi.com/docs) | Structured MedlinePlus health topics with ICD-11 codes | `apiKey` | Yes | Yes |
 | [MyVaccination](https://documenter.getpostman.com/view/16605343/Tzm8GG7u) | Vaccination data for Malaysia | No | Yes | Unknown |
