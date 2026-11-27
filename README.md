@@ -2033,6 +2033,7 @@ API | Description | Auth | HTTPS | CORS |
 | [LastFm](https://www.last.fm/api) | Music | `apiKey` | Yes | Unknown |
 | [ListenBrainz](https://listenbrainz.readthedocs.io/en/latest/users/api/index.html) | Open music listening data: scrobble history, statistics and recommendations | No | Yes | Yes |
 | [Lyrics.ovh](https://lyricsovh.docs.apiary.io) | Simple API to retrieve the lyrics of a song | No | Yes | Unknown |
+| [LyricsFeast Charts](https://lyricsfeast.com/charts-api.html) | Trending songs and Apple Music charts with links to lyrics in 8 languages | No | Yes | Yes |
 | [Mixcloud](https://www.mixcloud.com/developers/) | Music | `OAuth` | Yes | Yes |
 | [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) | Music | No | Yes | Unknown |
 | [Musixmatch](https://developer.musixmatch.com/) | Music | `apiKey` | Yes | Unknown |
