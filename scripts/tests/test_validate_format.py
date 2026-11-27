@@ -209,6 +209,12 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertIsInstance(err_msg, str)
         self.assertEqual(err_msg, expected_err_msg)
 
+    def test_check_description_with_empty_description(self):
+        self.assertEqual(
+            check_description(0, ''),
+            ['(L001) description must not be empty']
+        )
+
     def test_check_auth_with_valid_auth(self):
         auth_valid = [f'`{auth}`' for auth in auth_keys if auth != 'No']
         auth_valid.append('No')
@@ -343,6 +349,23 @@ class TestValidadeFormat(unittest.TestCase):
             with self.subTest():
                 self.assertIsInstance(err_msg, str)
         self.assertEqual(err_msgs, expected_err_msgs)
+
+    def test_check_entry_with_empty_description_reports_other_errors(self):
+        segments = [
+            '[A](https://www.ex.com)',
+            '',
+            'No',
+            'Unknown',
+            'Yes'
+        ]
+
+        self.assertEqual(
+            check_entry(0, segments),
+            [
+                '(L001) description must not be empty',
+                '(L001) Unknown is not a valid HTTPS option'
+            ]
+        )
 
     def test_check_file_format_with_correct_format(self):
         correct_format = [
