@@ -419,6 +419,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Business
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [Agent Audit Log](https://rapidapi.com/lulzasaur9192/api/agent-memory-api) | Tamper-evident HMAC-chain audit logging for AI agents with cryptographic verification | `apiKey` | Yes | Unknown |
 | [Apache Superset](https://superset.apache.org/docs/api) | API to manage your BI dashboards and data sources on Superset | `apiKey` | Yes | Yes |
 | [CEA Digital](https://ceadigital.io/tools) | Real estate LLC skip trace, video hook transcripts, eBay sold comps and building permits | `apiKey` | Yes | Yes |
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
