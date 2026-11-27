@@ -1237,6 +1237,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Events
 API | Description | Auth | HTTPS | CORS |
 |:---|:---|:---|:---|:---|
+| [DondeGo](https://dondego.es/pages/api/) | Local events, places, and news for Barcelona and Madrid with OpenAPI 3.1 discovery | No | Yes | No |
 | [Eventbrite](https://www.eventbrite.com/platform/api/) | Find events | `OAuth` | Yes | Unknown |
 | [FindLocal](https://findlocal.community/docs) | Hyper-local US events: concerts, trivia, open mics, readings, storytimes | `apiKey` | Yes | Yes |
 | [Lineup Atlas](https://lineupatlas.com/en/data-partners) | Club nights, festivals and artist tour dates worldwide | No | Yes | No |
