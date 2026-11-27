@@ -2142,6 +2142,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Namedesk](https://namedesk.app/docs/api/stats) | Domain name registration statistics by TLD, registry and registrar | No | Yes | Yes |
 | [Nasdaq Data Link](https://data.nasdaq.com/) | Stock market data | `apiKey` | Yes | Unknown |
 | [Nobel Prize](https://www.nobelprize.org/about/developer-zone-2/) | Open data about nobel prizes and events | No | Yes | Yes |
+| [NS Pros Data API](https://data.nspros.ca) | License-cleared public data from 338 government and public sources in one REST API and MCP server | `apiKey` | Yes | Unknown |
 | [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) | Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API | No | Yes | Unknown |
 | [Open Data Minneapolis](https://opendata.minneapolismn.gov/) | Spatial (GIS) and non-spatial city data for Minneapolis | No | Yes | No |
 | [Open Scholarships](https://scholarships.grudged.io) | Free, openly-licensed directory of US scholarships and student aid from official sources | No | Yes | Yes |
