@@ -2639,6 +2639,7 @@ API | Description | Auth | HTTPS | CORS |
 | [HaterPicks](https://www.haterpicks.app/api) | Australian sports odds and player props from every major Australian bookmaker, free tier | `apiKey` | Yes | No |
 | [JCDecaux Bike](https://developer.jcdecaux.com/) | JCDecaux's self-service bicycles | `apiKey` | Yes | Unknown |
 | [KickoffAPI](https://kickoffapi.com) | Football data API for live scores, fixtures, odds, and predictive xG models | `apiKey` | Yes | Yes |
+| [Korean League Standings](https://thesportswave.net/developers) | Standings for KBO baseball, K League football, KBL/WKBL basketball and V-League volleyball | No | Yes | Yes |
 | [LiftRadar](https://liftradar.eu/api) | Ski resorts across Europe: open lifts and slopes, snow depth and avalanche level | No | Yes | Yes |
 | [Lumify](https://lumify.ai/docs) | Real-time sports intelligence: scores, odds, betting splits & AI bet analysis across 8 sports | `apiKey` | Yes | No |
 | [MLB Records and Stats](https://appac.github.io/mlb-data-api-docs/) | Current and historical MLB statistics | No | No | Unknown |
