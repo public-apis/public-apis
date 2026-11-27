@@ -1335,6 +1335,7 @@ API | Description | Auth | HTTPS | CORS |
 | [QuiVad](https://www.quivad.com/api) | Net short positions disclosed to 23 market regulators, fund by fund, since 2010 | No | Yes | Yes |
 | [Quotelinks SEC Fundamentals](https://www.quotelinks.com/api/sec-fundamentals/) | Standardized financial statements, profiles and filings for 21,000+ companies from SEC EDGAR | No | Yes | Yes |
 | [Razorpay IFSC](https://razorpay.com/docs/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown | |
+| RBIH (Reserve Bank Innovation Hub) | Indian financial APIs for document verification, account aggregation & KYC | apiKey | Yes | Unknown | |
 | [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | Websocket API to access realtime stock data | `apiKey` | No | Unknown | |
 | [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | API to access annual reports of public US companies | No | Yes | Yes | |
 | [Segmara](https://segmara.com/syndicate) | IPO calendars, filing stages and estimated lockup dates | `User-Agent` | Yes | Yes | |
