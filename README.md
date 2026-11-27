@@ -1954,6 +1954,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ContextFetch](https://contextfetch.dev/docs) | Web search for AI agents, each result as Markdown pruned to the passages relevant to the query | No | Yes | No |
 | [DeepAI](https://deepai.org/) | Provides AI-powered APIs for text generation, image processing, and more | `apiKey` | Yes | Yes |
 | [Deepcode](https://www.deepcode.ai) | AI for code review | No | Yes | Unknown |
+| [DeepSeek](https://platform.deepseek.com/api-docs) | Free tier AI inference with reasoning and chat models | `apiKey` | Yes | Unknown |
 | [Dialogflow](https://cloud.google.com/dialogflow/docs/) | Natural Language Processing | `apiKey` | Yes | Unknown |
 | [DreamThreads](https://mydreamthreads.xyz/dream-interpretation-api) | Parse dreams into structured entities, emotions, agency, threat, and outcomes | No | Yes | Yes |
 | [Eden AI](https://www.edenai.co/docs/v3/quickstart/first-llm-call) | Unified API for 500+ LLMs and expert models for OCR, speech and translation | `apiKey` | Yes | Yes |
