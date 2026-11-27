@@ -477,6 +477,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Vibe Manufacturing](https://vibe-manufacturing.com/agents) | Manufacturer directory with supplier matching, cost estimates and prototype sourcing plans | No | Yes | Yes |
 | [Village](https://docs.village.ai) | Person and company enrichment plus warm introduction paths through your network | `apiKey` | Yes | Yes |
 | [W System EU Business Data](https://api.wsystem.dev/docs) | EU VAT (VIES) and EORI validation, company registers, EU/UN/OFAC/UK sanctions screening | No | Yes | Yes |
+| [SelskabsInfo](https://selskabsinfo.dk/cvr-api/docs) | Danish company register (CVR): companies, people, finance, ownership and accounts | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 <br >
