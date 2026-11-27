@@ -419,6 +419,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Business
 API | Description | Auth | HTTPS | CORS |
 |---|:---|:---|:---|:---|
+| [AdLib](https://adlibapi.com/docs) | Ad libraries of Meta, Google, TikTok, LinkedIn and 8 more platforms in one API, searched by domain | `apiKey` | Yes | Unknown |
 | [Apache Superset](https://superset.apache.org/docs/api) | API to manage your BI dashboards and data sources on Superset | `apiKey` | Yes | Yes |
 | [CEA Digital](https://ceadigital.io/tools) | Real estate LLC skip trace, video hook transcripts, eBay sold comps and building permits | `apiKey` | Yes | Yes |
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
