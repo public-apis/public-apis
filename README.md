@@ -2125,6 +2125,7 @@ API | Description | Auth | HTTPS | CORS |
 | [ImmoAnalyse](https://immoanalyse.pro/api-docs) | German property valuations (ImmoWertV), address geocoding and asking rents for all municipalities | `apiKey` | Yes | No |
 | [InfraNode](https://infranode.dev) | Unified German city open data: weather, air quality, EV chargers, transit, demographics | `apiKey` | Yes | Unknown |
 | [i6eal Open AI Data](https://i6eal.de/en/tools/data/) | Open datasets on AI policy, regulation and public-sector adoption in Germany and the EU | No | Yes | Yes |
+| [jaaskel.com](https://jaaskel.com/api-docs.html) | Finnish municipality statistics, beach water temperatures and municipal tax rates | `apiKey` | Yes | No |
 | [Joshua Project](https://api.joshuaproject.net/) | People groups of the world with the fewest followers of Christ | `apiKey` | Yes | Unknown |
 | [Kaggle](https://www.kaggle.com/docs/api) | Create and interact with Datasets, Notebooks, and connect with Kaggle | `apiKey` | Yes | Unknown |
 | [Kite](https://platform.kite.sa/docs) | Saudi Arabia property listings for rent and sale, neighborhood prices, rental yield and projects | `apiKey` | Yes | No |
