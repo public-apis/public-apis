@@ -1573,6 +1573,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Danadresse](https://api.danadresse.dk/docs) | Danish addresses: autocomplete, lookup, reverse geocoding, cleansing (DAWA-compatible) | `apiKey` | Yes | Yes |
 | [Ducks Unlimited](https://gis.ducks.org/datasets/du-university-chapters/api) | API explorer that gives a query URL with a JSON response of locations and cities | No | Yes | No |
 | [FindIP](https://www.findip.net/Docs/api-response) | IP geolocation with VPN, proxy, Tor, datacenter and malicious IP detection, free | `apiKey` | Yes | Yes |
+| [Geloky](https://rapidapi.com/samsandr1996-4VrhG4ruory/api/geocoding-forward-and-reverse) | Worldwide geocoding and reverse geocoding in batches of 100, road distances and nearest locations | `apiKey` | Yes | Yes |
 | [GeoApi](https://api.gouv.fr/api/geoapi.html) | French geographical data | No | Yes | Unknown |
 | [Geoapify](https://www.geoapify.com/api/geocoding-api/) | Forward and reverse geocoding, address autocomplete | `apiKey` | Yes | Yes |
 | [Geocod.io](https://www.geocod.io/) | Address geocoding / reverse geocoding in bulk | `apiKey` | Yes | Unknown |
