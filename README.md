@@ -1103,6 +1103,7 @@ API | Description | Auth | HTTPS | CORS |
 | [staffSign](https://staffsign.de/docs) | Digital employment contract API with QES/eIDAS support for HR and staffing | `apiKey` | Yes | Yes |
 | [Thirds](https://thirds.ai/docs/api) | Create branded PDFs and images from HTML or reusable templates | `apiKey` | Yes | No |
 | [Vector Express v2.0](https://vector.express) | Free vector file converting API | No | Yes | No |
+| [VendID MRZ](https://vend-id.com/sdk/docs) | Read passport and ID card MRZ from a photo, ICAO 9303 check digits verified | `apiKey` | Yes | Yes |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
 | [Zero Retention PDF](https://xeropdf.com) | Zero-retention HTML to PDF conversion | `apiKey` | Yes | Unknown |
