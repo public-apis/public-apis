@@ -957,6 +957,7 @@ API | Description | Auth | HTTPS | CORS |
 | [serpstack](https://serpstack.com/) | Real-Time & Accurate Google Search Results API | `apiKey` | Yes | Yes |
 | [Shareglint](https://shareglint.com/en/docs) | Open Graph and social images from HTML/CSS templates, page screenshots, GIF and MP4; free tier | `apiKey` | Yes | No |
 | [Sheetsu](https://sheetsu.com/) | Easy google sheets integration | `apiKey` | Yes | Unknown |
+| [Micro Extractor](https://agent-micro-api.onrender.com/api/extract) | Autonomous web content extractor and rate-limit-bypassing Roblox user/presence stats proxy with native HTTP 402 Base payments. | apiKey | Yes | Yes |
 | [Shotanvil](https://shotanvil.com) | Screenshot, PDF and HTML rendering API with a free tier, API key or x402 auth | `apiKey` | Yes | No |
 | [Shotkiln](https://shotkiln.com/docs) | Screenshots, PDFs and Open Graph images from a URL or HTML, with a free tier | `apiKey` | Yes | Yes |
 | [Shotlane](https://shotlane.dev/docs) | Screenshots, PDFs and Markdown of any web page in Chrome, with a free tier | `apiKey` | Yes | No |
