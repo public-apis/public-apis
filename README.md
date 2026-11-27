@@ -82,6 +82,7 @@ Join our [Discord server](https://discord.com/invite/hgjA78638n/?utm_source=Gith
 | [EU Nordic Open Data](https://github.com/itulo/eu-nordic-open-data-mcp) | EU tenders, sanctions, VIES VAT, ECB FX, ENISA EUVD, GLEIF LEI and Finnish/Norwegian registries | No | `stdio` | [npm](https://www.npmjs.com/package/eu-nordic-open-data-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.itulo/eu-nordic-open-data-mcp) · [Glama](https://glama.ai/mcp/servers/itulo/eu-nordic-open-data-mcp) |
 | [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Read/write local files | No | `stdio` | – |
 | [FindIP MCP](https://github.com/findip-net/findip-mcp) | IP lookups and FindIP Shield risky-event checks for agents | `apiKey` | `stdio` | [Glama](https://glama.ai/mcp/servers/findip-net/findip-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.findip-net/findip-mcp) |
+| [Flipzi](https://github.com/flipzitcg/flipzi-mcp) | Trading card search, current prices, eBay sold comps and history for Pokémon, Magic, One Piece and more | `apiKey` | `stdio` | [Glama](https://glama.ai/mcp/servers/flipzitcg/flipzi-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.flipzi) |
 | [FMCSA Carrier Intelligence](https://kmcto.github.io/fmcsa-carrier-intelligence/) | FMCSA carrier authority, insurance and identity data; free MC lookup, paid per-call records | No | `HTTP` | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.KMCTO/fmcsa-carrier-intelligence) |
 | [Git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) | Read, search, diff, and commit to local Git repositories | No | `stdio` | – |
 | [GitHub](https://github.com/github/github-mcp-server) | Repos, issues, PRs, code search | `OAuth` | `stdio`, `HTTP` | [Glama](https://glama.ai/mcp/servers/@github/github-mcp-server) |
@@ -1455,6 +1456,7 @@ API | Description | Auth | HTTPS | CORS |
 | [FFXIV Collect](https://ffxivcollect.com/) | Final Fantasy XIV data on collectables | No | Yes | Yes |
 | [FIFA Ultimate Team](https://www.easports.com/fifa/ultimate-team/api/fut/item) | FIFA Ultimate Team items API | No | Yes | Unknown |
 | [Final Fantasy XIV](https://xivapi.com/) | Final Fantasy XIV Game data API | No | Yes | Yes |
+| [Flipzi](https://flipzi.io/api/) | Trading card prices for Pokémon, Magic, Yu-Gi-Oh!, One Piece, Lorcana and more, with eBay sold prices by grade | `apiKey` | Yes | Yes |
 | [Fortnite](https://fortnitetracker.com/site-api) | Fortnite Stats | `apiKey` | Yes | Unknown |
 | [Forza](https://docs.forza-api.tk) | Show random image of car from Forza | No | Yes | Unknown |
 | [FreeToGame](https://www.freetogame.com/api-doc) | Free-To-Play Games Database | No | Yes | Yes |
