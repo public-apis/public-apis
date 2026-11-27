@@ -666,6 +666,7 @@ API | Description | Auth | HTTPS | CORS |
 | [VALR](https://docs.valr.com/) | Cryptocurrency Exchange based in South Africa | `apiKey` | Yes | Unknown |
 | [VaultX](https://vaultx.llc/api) | Token scam/rug risk checks, whale trades, exchange rates for 3,000+ coins, AI outlook | No | Yes | Yes |
 | [ScriptMasterLabs MCP](https://mcp-x402.onrender.com) | Model Context Protocol server with web search, social search & LLM chat paid via x402 | `apiKey` | Yes | Yes |
+| [WalletFollow](https://walletfollow.ai/api) | Read-only Hyperliquid wallet data, positions and performance research | `apiKey` | Yes | Yes |
 | [WhiteBIT](https://docs.whitebit.com) | European cryptocurrency exchange | No | Yes | Yes |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | Cryptocurrencies Prices | `apiKey` | Yes | Unknown |
 | [xAxios](https://xaxios.com/docs/stream) | Live Solana and Robinhood Chain token prices, trades and launches over a public WebSocket | No | Yes | Yes |
