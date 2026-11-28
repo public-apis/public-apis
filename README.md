@@ -2134,6 +2134,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Kaggle](https://www.kaggle.com/docs/api) | Create and interact with Datasets, Notebooks, and connect with Kaggle | `apiKey` | Yes | Unknown |
 | [Kite](https://platform.kite.sa/docs) | Saudi Arabia property listings for rent and sale, neighborhood prices, rental yield and projects | `apiKey` | Yes | No |
 | [Kvartiry-Phuket](https://kvartiry-phuket.com/otkrytye-dannye/#english) | Russian-language Phuket real estate guides, asking prices, condo assessment rates, weather, beaches | No | Yes | Yes |
+| [LeadLock Data Market](https://narrativefeed.leadlock.workers.dev/v1/catalog) | Free catalog and sample of an agent data market (SEC, spending, weather, labor) | No | Yes | Yes | 
 | [LinkPreview](https://www.linkpreview.net) | Get JSON formatted summary with title, description and preview image for any requested URL | `apiKey` | Yes | Yes |
 | [Lottizen](https://lottizen.com/api) | Lottery draw history and stats (Canada, US, Europe) and Canadian scratch-ticket remaining prizes | `X-Mashape-Key` | Yes | Yes |
 | [LottoLens PH](https://remo65588-boop.github.io/lottolens-ph-public-data/api/) | Fixed Philippine PCSO historical results and normal draw schedules | No | Yes | Yes |
