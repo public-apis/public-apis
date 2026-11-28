@@ -1733,6 +1733,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Global law](https://lexifina.com/api/global-law) | Legislation of 200+ countries as a dated history: find by citation, read as of a date, search | `apiKey` | Yes | No |
 | [GovContractScout](https://scout.govbidportals.com) | US state & local government contracts: search, details, NAICS lookup and AI match scoring | `apiKey` | Yes | Yes |
 | [Gun Policy](https://www.gunpolicy.org/api) | International firearm injury prevention and policy | `apiKey` | Yes | Unknown |
+| [India GI Tags](https://india-gi-tags-api.vercel.app/docs) | Official IP India Geographical Indications registry covering 684 GI products across 34 states/UTs | No | Yes | Yes |
 | [India LGD Index](https://india-lgd-index-api.vercel.app/docs) | Free, keyless Indian states, districts, sub-districts and development blocks with LGD codes | No | Yes | Yes |
 | [Indian Mandi Prices](https://mandi-api.vercel.app/docs) | Free, keyless daily wholesale mandi prices for 5 Indian states, sourced from data.gov.in | No | Yes | Yes |
 | [Indian MSP Benchmarks](https://msp-benchmarks-api.vercel.app/docs) | Statutory Minimum Support Prices and CACP production cost benchmarks across 28 Indian crops | No | Yes | Yes |
