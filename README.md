@@ -2598,6 +2598,7 @@ API | Description | Auth | HTTPS | CORS |
 | [TwittrAPI](https://www.twittrapi.com/docs) | Public Twitter/X data: profiles, tweets, replies, search, followers, lists, communities, trends | `apiKey` | Yes | Yes |
 | [vk](https://vk.com/dev/sites) | Read and write vk data | `OAuth` | Yes | Unknown |
 | [Weir](https://docs.weirapp.io) | Public Reddit and X (Twitter) data: search, posts, comment threads, profiles and followers | `apiKey` | Yes | No |
+| [XCROP](https://xcrop.io/docs) | X/Twitter data: profiles, tweets, search, followers, plus follow/retweet/reply checks | `apiKey` | Yes | No |
 | [xfetch](https://xfetch.io) | Read API for X/Twitter search, profiles, tweets, and social graph | `apiKey` | Yes | Yes |
 | [XFlux](https://www.xfluxapi.com/docs/api) | Read X/Twitter profiles, search, timelines; account monitors with signed webhooks | `apiKey` | Yes | No |
 
